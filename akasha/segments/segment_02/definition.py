@@ -6,31 +6,33 @@ from baca.__abbreviations__ import *
 from akasha.materials.__abbreviations__ import *
 
 
-################################################################################
-############################### SEGMENT-MAKER ##################################
-################################################################################
-#
-#segment_maker = baca.tools.SegmentMaker(
-#    measures_per_stage=[
-#        8, 8, 8,
-#        6, 6,
-#        4, 4,
-#        ],
-#    raise_approximate_duration=False,
-#    show_stage_annotations=False,
-#    tempo_map = [
+###############################################################################
+############################## SEGMENT-MAKER ##################################
+###############################################################################
+
+time_signatures = akasha.materials.time_signatures[12:12+4]
+time_signatures = sequencetools.flatten_sequence(time_signatures)
+assert len(time_signatures) == 14
+
+segment_maker = baca.tools.SegmentMaker(
+    measures_per_stage=[
+        3, 3, 3, 3, 2,
+        ],
+    #raise_approximate_duration=False,
+    score_package=akasha,
+    show_stage_annotations=False,
+    tempo_map=(
 #        (1, akasha.materials.tempi[126]),
 #        (4, akasha.materials.tempi[63]),
 #        (4, Accelerando()),
 #        (6, akasha.materials.tempi[84]),
-#        ],
-#    time_signatures=akasha.materials.time_signatures[:44],
-#    transpose_score=True,
-#    )
-#
-#assert segment_maker.measure_count == 44
-#assert segment_maker.stage_count == 7
-#assert segment_maker.validate_time_signatures()
+        ),
+    time_signatures=time_signatures,
+    )
+
+assert segment_maker.measure_count == 14
+assert segment_maker.stage_count == 5
+assert segment_maker.validate_time_signatures()
 
 ################################################################################
 ################################# MUSIC-MAKERS #################################
