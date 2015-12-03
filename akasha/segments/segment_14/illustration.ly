@@ -1,4 +1,4 @@
-% 2015-12-03 15:38
+% 2015-12-03 16:02
 
 \version "2.19.32"
 \language "english"
@@ -6,27 +6,21 @@
 #(ly:set-option 'relative-includes #t)
 
 \include "../../stylesheets/stylesheet.ily"
+\include "../../stylesheets/nonfirst-segment.ily"
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #1
+        currentBarNumber = #91
     } <<
         \context TimeSignatureContext = "Time Signature Context" {
             {
-                \time 3/8
+                \time 9/8
                 \bar ""
-                s1 * 3/8
+                \mark #13
+                s1 * 9/8
             }
             {
-                \time 6/8
-                s1 * 3/4
-            }
-            {
-                \time 7/8
-                s1 * 7/8
-            }
-            {
-                s1 * 7/8
+                s1 * 9/8
             }
             {
                 \time 4/8
@@ -37,11 +31,12 @@
                 s1 * 1
             }
             {
-                \time 9/8
-                s1 * 9/8
+                \time 3/8
+                s1 * 3/8
             }
             {
-                s1 * 9/8
+                \time 4/8
+                s1 * 1/2
             }
         }
         \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
@@ -58,15 +53,13 @@
                     Vn.
                 }
                 \context ViolinOneMusicVoice = "Violin 1 Music Voice" {
-                    R1 * 3/8
-                    R1 * 3/4
-                    R1 * 7/8
-                    R1 * 7/8
+                    R1 * 9/8
+                    R1 * 9/8
                     R1 * 1/2
                     R1 * 1
-                    R1 * 9/8
-                    R1 * 9/8
-                    \bar "|"
+                    R1 * 3/8
+                    R1 * 1/2
+                    \bar "|."
                 }
             }
             \context ViolinTwoMusicStaff = "Violin 2 Music Staff" {
@@ -82,15 +75,13 @@
                     Vn.
                 }
                 \context ViolinTwoMusicVoice = "Violin 2 Music Voice" {
-                    R1 * 3/8
-                    R1 * 3/4
-                    R1 * 7/8
-                    R1 * 7/8
+                    R1 * 9/8
+                    R1 * 9/8
                     R1 * 1/2
                     R1 * 1
-                    R1 * 9/8
-                    R1 * 9/8
-                    \bar "|"
+                    R1 * 3/8
+                    R1 * 1/2
+                    \bar "|."
                 }
             }
             \context ViolaMusicStaff = "Viola Music Staff" {
@@ -106,15 +97,13 @@
                     Va.
                 }
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    R1 * 3/8
-                    R1 * 3/4
-                    R1 * 7/8
-                    R1 * 7/8
+                    R1 * 9/8
+                    R1 * 9/8
                     R1 * 1/2
                     R1 * 1
-                    R1 * 9/8
-                    R1 * 9/8
-                    \bar "|"
+                    R1 * 3/8
+                    R1 * 1/2
+                    \bar "|."
                 }
             }
             \context CelloMusicStaff = "Cello Music Staff" {
@@ -130,15 +119,13 @@
                     Vc.
                 }
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 3/8
-                    R1 * 3/4
-                    R1 * 7/8
-                    R1 * 7/8
+                    R1 * 9/8
+                    R1 * 9/8
                     R1 * 1/2
                     R1 * 1
-                    R1 * 9/8
-                    R1 * 9/8
-                    \bar "|"
+                    R1 * 3/8
+                    R1 * 1/2
+                    \bar "|."
                 }
             }
         >>

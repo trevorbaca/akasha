@@ -1,4 +1,4 @@
-% 2015-12-03 13:07
+% 2015-12-03 15:48
 
 \version "2.19.32"
 \language "english"
@@ -10,50 +10,16 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #15
+        currentBarNumber = #9
     } <<
         \context TimeSignatureContext = "Time Signature Context" {
             {
-                \time 4/4
+                \time 3/4
                 \bar ""
                 \mark #1
-                s1 * 1
-            }
-            {
-                \time 5/4
-                s1 * 5/4
-            }
-            {
-                \time 3/4
                 s1 * 3/4
             }
             {
-                s1 * 3/4
-            }
-            {
-                \time 4/4
-                s1 * 1
-            }
-            {
-                \time 6/4
-                s1 * 3/2
-            }
-            {
-                s1 * 3/2
-            }
-            {
-                s1 * 3/2
-            }
-            {
-                \time 4/4
-                s1 * 1
-            }
-            {
-                \time 6/4
-                s1 * 3/2
-            }
-            {
-                \time 3/4
                 s1 * 3/4
             }
             {
@@ -65,8 +31,15 @@
                 s1 * 5/4
             }
             {
-                \time 3/4
-                s1 * 3/4
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                s1 * 3/2
             }
         }
         \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
@@ -83,21 +56,14 @@
                     Vn.
                 }
                 \context ViolinOneMusicVoice = "Violin 1 Music Voice" {
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 3/4
-                    \bar "|."
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 3/2
+                    \bar "|"
                 }
             }
             \context ViolinTwoMusicStaff = "Violin 2 Music Staff" {
@@ -113,21 +79,14 @@
                     Vn.
                 }
                 \context ViolinTwoMusicVoice = "Violin 2 Music Voice" {
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 3/4
-                    \bar "|."
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 3/2
+                    \bar "|"
                 }
             }
             \context ViolaMusicStaff = "Viola Music Staff" {
@@ -143,21 +102,14 @@
                     Va.
                 }
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 3/4
-                    \bar "|."
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 3/2
+                    \bar "|"
                 }
             }
             \context CelloMusicStaff = "Cello Music Staff" {
@@ -173,21 +125,14 @@
                     Vc.
                 }
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 3/4
-                    \bar "|."
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 3/2
+                    \bar "|"
                 }
             }
         >>

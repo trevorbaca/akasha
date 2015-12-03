@@ -1,5 +1,17 @@
 SEGMENTS
 
+intro: B[0]
+A: A[0]
+B: B[6]
+C: A[3]
+D: B[12]
+E, F: A[6], A[9]
+G: B[18]
+H, I: A[12], A[15]
+J: B[24]
+K, L: A[18], A[21]
+M: B[30]
+
 [A]
     1. microtonal cello line mixed with extremely thin get. pianiss.
     counted but halting
@@ -170,7 +182,7 @@ SEGMENTS
     each stroke; microtonal polyphony hidden in glissandi in vn2, va, vc but do
     not sound because OB is completely without pitch; vn1 plays incredibly
     pianiss. get. strands with incredible perforation
-    2. vn1 incredibly perforated get. pianiss.; vn2, va, vc bows freeze and vn2, va,
-    vc lh glissandi continue silently
+    2. vn1 incredibly perforated get. pianiss.; vn2, va, vc bows freeze and 
+    vn2, va, vc lh glissandi continue silently
     3. vn1 incredibly perforated get. pianiss.; vn2, va, vc freeze
     4. grand pause

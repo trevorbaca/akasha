@@ -10,8 +10,9 @@ from akasha.materials.__abbreviations__ import *
 ############################## SEGMENT-MAKER ##################################
 ###############################################################################
 
-time_signatures = akasha.materials.time_signatures_b[:2]
+time_signatures = akasha.materials.time_signatures_a[15:15+2]
 time_signatures = sequencetools.flatten_sequence(time_signatures)
+print(len(time_signatures))
 assert len(time_signatures) == 8
 
 segment_maker = baca.tools.SegmentMaker(
