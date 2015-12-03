@@ -3,14 +3,14 @@ from abjad import *
 import baca
 
 
-numerators = [[3, 3, 4, 5], [4, 6, 6]]
+numerators = [[3, 6, 7, 7], [4, 8, 9, 9], [3, 4]]
 numerator_groups = baca.tools.helianthate(numerators, -1, 1)
-assert len(numerator_groups) == 24
+assert len(numerator_groups) == 36
 lengths = [len(_) for _ in numerator_groups]
 numerators = sequencetools.flatten_sequence(numerator_groups)
-time_signatures = [TimeSignature((_, 4)) for _ in numerators]
+time_signatures_b = [TimeSignature((_, 8)) for _ in numerators]
 time_signature_groups = sequencetools.partition_sequence_by_counts(
-    time_signatures,
+    time_signatures_b,
     lengths,
     )
-time_signatures = time_signature_groups
+time_signatures_b = time_signature_groups
