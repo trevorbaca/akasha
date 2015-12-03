@@ -10,13 +10,14 @@ from akasha.materials.__abbreviations__ import *
 ############################## SEGMENT-MAKER ##################################
 ###############################################################################
 
-time_signatures = akasha.materials.time_signatures_b[:2]
+time_signatures = akasha.materials.time_signatures_a[6:6+2]
 time_signatures = sequencetools.flatten_sequence(time_signatures)
-assert len(time_signatures) == 8
+print(len(time_signatures))
+assert len(time_signatures) == 7
 
 segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=(
-        8,
+        7,
         ),
     score_package=akasha,
     show_stage_annotations=False,
@@ -25,6 +26,6 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-assert segment_maker.measure_count == 8
+assert segment_maker.measure_count == 7
 assert segment_maker.stage_count == 1
 assert segment_maker.validate_time_signatures()

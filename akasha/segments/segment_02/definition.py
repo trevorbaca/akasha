@@ -10,28 +10,24 @@ from akasha.materials.__abbreviations__ import *
 ############################## SEGMENT-MAKER ##################################
 ###############################################################################
 
-time_signatures = akasha.materials.time_signatures[12:12+4]
+time_signatures = akasha.materials.time_signatures_a[:2]
 time_signatures = sequencetools.flatten_sequence(time_signatures)
-assert len(time_signatures) == 14
+print(len(time_signatures))
+assert len(time_signatures) == 7
 
 segment_maker = baca.tools.SegmentMaker(
-    measures_per_stage=[
-        3, 3, 3, 3, 2,
-        ],
-    #raise_approximate_duration=False,
+    measures_per_stage=(
+        7,
+        ),
     score_package=akasha,
     show_stage_annotations=False,
     tempo_map=(
-#        (1, akasha.materials.tempi[126]),
-#        (4, akasha.materials.tempi[63]),
-#        (4, Accelerando()),
-#        (6, akasha.materials.tempi[84]),
         ),
     time_signatures=time_signatures,
     )
 
-assert segment_maker.measure_count == 14
-assert segment_maker.stage_count == 5
+assert segment_maker.measure_count == 7
+assert segment_maker.stage_count == 1
 assert segment_maker.validate_time_signatures()
 
 ################################################################################
