@@ -90,6 +90,7 @@
     \context {
         \name TimeSignatureContextSkips
         \type Engraver_group
+        \consists Text_spanner_engraver
         }
     \context {
         \name TimeSignatureContextMultimeasureRests
@@ -106,7 +107,7 @@
         \consists Rest_engraver
         \consists Script_engraver
         \consists Text_engraver
-        \consists Text_spanner_engraver
+        %\consists Text_spanner_engraver
         \consists Time_signature_engraver
         \accepts TimeSignatureContextSkips
         \accepts TimeSignatureContextMultimeasureRests

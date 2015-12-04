@@ -26,18 +26,18 @@ class ScoreTemplate(abctools.AbjadValueObject):
                     }
                 >>
                 \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
-                    \context ViolinOneMusicStaff = "Violin 1 Music Staff" {
+                    \context ViolinOneMusicStaff = "Violin One Music Staff" {
                         \clef "treble"
                         \set Staff.instrumentName = \markup { Violin }
                         \set Staff.shortInstrumentName = \markup { Vn. }
-                        \context ViolinOneMusicVoice = "Violin 1 Music Voice" {
+                        \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         }
                     }
-                    \context ViolinTwoMusicStaff = "Violin 2 Music Staff" {
+                    \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                         \clef "treble"
                         \set Staff.instrumentName = \markup { Violin }
                         \set Staff.shortInstrumentName = \markup { Vn. }
-                        \context ViolinTwoMusicVoice = "Violin 2 Music Voice" {
+                        \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         }
                     }
                     \context ViolaMusicStaff = "Viola Music Staff" {
@@ -79,8 +79,8 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Time Signature Context',
             )
         instrument_tags = (
-            'violin_1',
-            'violin_2',
+            'violin_one',
+            'violin_two',
             'viola',
             'cello',
             )
@@ -90,32 +90,32 @@ class ScoreTemplate(abctools.AbjadValueObject):
         #attach(tag_command, time_signature_context)
 
         # make music contexts
-        violin_1_music_voice = scoretools.Voice(
+        violin_one_music_voice = scoretools.Voice(
             [], 
             context_name='ViolinOneMusicVoice',
-            name='Violin 1 Music Voice',
+            name='Violin One Music Voice',
             )
-        violin_1_music_staff = scoretools.Staff(
-            [violin_1_music_voice], 
+        violin_one_music_staff = scoretools.Staff(
+            [violin_one_music_voice], 
             context_name='ViolinOneMusicStaff',
-            name='Violin 1 Music Staff',
+            name='Violin One Music Staff',
             )
-        #self._attach_tag('violin1', violin_1_music_staff)
-        attach(instrumenttools.Violin(), violin_1_music_staff)
-        attach(Clef('treble'), violin_1_music_staff)
-        violin_2_music_voice = scoretools.Voice(
+        #self._attach_tag('violin1', violin_one_music_staff)
+        attach(instrumenttools.Violin(), violin_one_music_staff)
+        attach(Clef('treble'), violin_one_music_staff)
+        violin_two_music_voice = scoretools.Voice(
             [], 
             context_name='ViolinTwoMusicVoice',
-            name='Violin 2 Music Voice',
+            name='Violin Two Music Voice',
             )
-        violin_2_music_staff = scoretools.Staff(
-            [violin_2_music_voice], 
+        violin_two_music_staff = scoretools.Staff(
+            [violin_two_music_voice], 
             context_name='ViolinTwoMusicStaff',
-            name='Violin 2 Music Staff',
+            name='Violin Two Music Staff',
             )
-        #self._attach_tag('violin2', violin_2_music_staff)
-        attach(instrumenttools.Violin(), violin_2_music_staff)
-        attach(Clef('treble'), violin_2_music_staff)
+        #self._attach_tag('violin2', violin_two_music_staff)
+        attach(instrumenttools.Violin(), violin_two_music_staff)
+        attach(Clef('treble'), violin_two_music_staff)
         viola_music_voice = scoretools.Voice(
             [], 
             context_name='ViolaMusicVoice',
@@ -144,8 +144,8 @@ class ScoreTemplate(abctools.AbjadValueObject):
         attach(Clef('bass'), cello_music_staff)
         string_quartet_staff_group = scoretools.StaffGroup(
             [
-                violin_1_music_staff, 
-                violin_2_music_staff, 
+                violin_one_music_staff, 
+                violin_two_music_staff, 
                 viola_music_staff, 
                 cello_music_staff,
                 ], 
