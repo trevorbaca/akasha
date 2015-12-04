@@ -88,22 +88,38 @@
     ragged-last = ##t
     ragged-right = ##t
     \context {
+        \name TimeSignatureContextSkips
+        \type Engraver_group
+        }
+    \context {
+        \name TimeSignatureContextMultimeasureRests
+        \type Engraver_group
+        }
+    \context {
         \name TimeSignatureContext
         \type Engraver_group
         \consists Axis_group_engraver
         \consists Bar_number_engraver
         \consists Mark_engraver
         \consists Metronome_mark_engraver
+        \consists Multi_measure_rest_engraver
+        \consists Rest_engraver
         \consists Script_engraver
         \consists Text_engraver
         \consists Text_spanner_engraver
         \consists Time_signature_engraver
-        %\override BarNumber.transparent = ##t
+        \accepts TimeSignatureContextSkips
+        \accepts TimeSignatureContextMultimeasureRests
+        \override BarNumber.extra-offset = #'(-4 . -4)
+        \override BarNumber.font-size = 3
         \override MetronomeMark.X-extent = #'(0 . 0)
         \override MetronomeMark.Y-extent = #'(0 . 0)
         \override MetronomeMark.break-align-symbols = #'(left-edge)
         \override MetronomeMark.extra-offset = #'(0 . 4)
         \override MetronomeMark.font-size = 3
+        \override MultiMeasureRest.transparent = ##t
+        \override MultiMeasureRestText.font-size = 6
+        \override MultiMeasureRestText.extra-offset = #'(0 . -1.5)
         \override RehearsalMark.X-extent = #'(0 . 0)
         \override RehearsalMark.Y-offset = -2.25
         \override RehearsalMark.X-offset = 6
