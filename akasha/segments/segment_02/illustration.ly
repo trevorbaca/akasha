@@ -1,4 +1,4 @@
-% 2015-12-03 23:08
+% 2015-12-04 10:00
 
 \version "2.19.32"
 \language "english"
@@ -385,8 +385,8 @@
                     Vc.
                 }
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 3/4
-                    R1 * 3/4
+                    c'2.
+                    c'2. \repeatTie
                     \tweak #'edge-height #'(0.7 . 0)
                     \times 2/3 {
                         R1 * 1/2
