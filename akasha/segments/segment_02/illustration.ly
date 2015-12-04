@@ -1,4 +1,4 @@
-% 2015-12-04 14:31
+% 2015-12-04 14:57
 
 \version "2.19.32"
 \language "english"
@@ -129,16 +129,9 @@
                 {
                     \time 3/4
                     \once \override TextSpanner.arrow-width = 0.25
-                    \once \override TextSpanner.bound-details.left-broken.padding = -2
+                    \once \override TextSpanner.bound-details.left-broken.padding = 0
                     \once \override TextSpanner.bound-details.left-broken.text = \markup {
-                        \override
-                            #'(padding . 0.45)
-                            \parenthesize
-                                \large
-                                    \upright
-                                        accel.
-                        \hspace
-                            #0.75
+                        \null
                         }
                     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
                     \once \override TextSpanner.bound-details.left.text = \markup {
@@ -195,16 +188,9 @@
                 {
                     \time 4/4
                     \once \override TextSpanner.arrow-width = 0.25
-                    \once \override TextSpanner.bound-details.left-broken.padding = -2
+                    \once \override TextSpanner.bound-details.left-broken.padding = 0
                     \once \override TextSpanner.bound-details.left-broken.text = \markup {
-                        \override
-                            #'(padding . 0.45)
-                            \parenthesize
-                                \large
-                                    \upright
-                                        accel.
-                        \hspace
-                            #0.75
+                        \null
                         }
                     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
                     \once \override TextSpanner.bound-details.left.text = \markup {
@@ -237,22 +223,7 @@
                 }
                 {
                     \time 1/3
-                    s1 * 1/3 \stopTextSpan ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #2
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                55
-                            }
-                        }
+                    s1 * 1/3
                 }
                 {
                     \time 5/4
@@ -272,7 +243,22 @@
                 }
                 {
                     \time 1/6
-                    s1 * 1/6
+                    s1 * 1/6 \stopTextSpan ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                55
+                            }
+                        }
                 }
                 {
                     \time 6/4
