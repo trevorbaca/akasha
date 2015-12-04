@@ -12,7 +12,9 @@ J: B[24]
 K, L: A[18], A[21]
 M: B[30]
 
-[A]
+intro (15")
+
+[A] (30")
     1. microtonal cello line mixed with extremely thin get. pianiss.
     counted but halting
     2. halting lines of microtonal polyphony successively in multiple
@@ -25,7 +27,7 @@ M: B[30]
     5. halting again; tasto loops broken apart; mixed in dialogue with
     extremely thin get. pianiss.
 
-[B]
+[B] (30")
     1. two-voice microtonal harmonies animated according to one rhythm; mixed
     with two-note written-out alternation as impliciation of trill; with
     extremely thin get. pianiss. carried over from previous stage
@@ -35,7 +37,7 @@ M: B[30]
     3. two-note written-out prefiguration of trill resumes; now timed together
     with first appearance of detuned va, vc octave, possibly played only once
 
-[C]
+[C] (45")
     1. sputtering exposition of detuned va, vc octave: time is frozen during
     octave but very small glissandi lentissimi attempt to activate the field of
     the detuned octave; attempt gets underway; then stops; then attempts to get
@@ -46,26 +48,27 @@ M: B[30]
     3. get. pianiss. descent stalls and is interrupted by single scratch
     detache; scratch begins to align rhythmically with OB underneath;
     4. OB continues with rhythm of sputtering exposition introduced in first
-    stage of segment.
+    stage of segment; [two-voice microtonal harmonies recall previous segment]
     5. short end-cap of first appearance of trill combined with detuned octave
     combined with OB; segment ends with question mark
 
-[D]
+[D] (45")
     1. two-note spectral chord in vn1, vn2, va; time is frozen
-    2. two-note spectral chord continues; animation underneath of XSP ppp
-    glissandi
-    3. animation of XSP ppp glissandi spreads to all four players; rhythmic
+    2. two-note spectral chord continues; ppp XSP glissandi animated underneath
+    3. animation of ppp XSP glissandi spreads to all four players; rhythmic
     activation increases considerably; but ppp holds constant; players moving
     very very quickly with full bows in alternation; ends in short breath in
-    all players to point to reintroduction of trill in following stage
-    4. tutti XSP ppp glissandi resumes now capped with a single trill; happens
+    all players to highlight reintroduction of trill in next stage
+    4. [memory of previous segment: detuned octave field grows quiet under 
+    diminiuendo; inserted as type of intercalation-as-memory]
+    5. tutti ppp XSP glissandi resumes now capped with a single trill; happens
     once then another breath in all players
-    5. tutti XSP ppp glissandi resumes again, capped again with a single trill
+    6. tutti ppp XSP glissandi resumes again, capped again with a single trill
     now with the accompaniment of a slow low-register vc down-glissando; vc
-    down-glissando outlasts rest of materials and closes segment unaccompanied;
-    segment ends with short grand pause
+    down-glissando outlasts rest of materials and closes segment unaccompanied
+    7. grand pause
 
-[E]
+[E] (2')
     1. segment begins with mod. rhythmicized OB in viola; no OB in other
     players; large process of revealing getati begins; process begins with
     isolated scratch tenuti in v2; plenty of halting between scratches though
@@ -76,29 +79,31 @@ M: B[30]
     5. v1, v2 dense get. pian. asc.; va OB; accel.
     6. v1, v2 very dense get. pianiss. asc. molto; va OB; accel.
     7. short grand pause
-    8. withheld v1, v2 max. dense get. pianiss.
+    [8. v1, v2 max. dense get. pianiss. *withheld and does not appear yet*]
 
-[F]
+[F] (3')
     1. tempo resets back to mod.; microtonal vc melody returns from beginning
     of piece; get. represented by a single scratch tenuto that recalls
     beginning of previous segment; single tasto tenuto represents trills;
-    2. tasto progresses from tenuti back to loops with characteristic local
+    2. [intercalated memory of v1, v2 very dense get. pianiss. from previous
+    segment]
+    3. tasto progresses from tenuti back to loops with characteristic local
     accel and rit. and so is effectively becoming faster; microtonal polyphony
     is going through process of getting slower and slower;
-    3. tasto loops disappear; get. process begins again (with scratches, get.
+    4. tasto loops disappear; get. process begins again (with scratches, get.
     ord., etc etc) and begins accel.; micro polyphony reaches point of maximum
     slowness
-    4. microtonal field arrives; tasto loops disappear; get. process still
+    5. microtonal field arrives; tasto loops disappear; get. process still
     accel.
-    5. get. process reachieves previous point of next-to-maximum density;
+    6. get. process reachieves previous point of next-to-maximum density;
     microtonal field persists
-    6. microtonal field disppears; get. reaches max. density (finally) and
+    7. microtonal field disppears; get. reaches max. density (finally) and
     plays a stage; breath
-    7. get. repeats previous stage but with single OB pedal underneath; breath
-    8. all four players play get. field and get. field repeats eight times;
+    8. get. repeats previous stage but with single OB pedal underneath; breath
+    9. all four players play get. field and get. field repeats eight times;
     eighth time is made 24ET; breath
 
-[G]
+[G] (1')
     1. microtonal field resumes 12ET in v2, va, vc SB; get. field handled
     exclusively as vn1 solo maximally fast and maximally dense; solo continues
     for a while
@@ -109,32 +114,37 @@ M: B[30]
     6. microtonal field sub. stop revealing OB pedal which continues through
     end of segment; section ends attaca next segment
 
-[H]
-    1. tutti looping of 3-note tasto and trills as (c5) with mixed mecc.
-    fluido; breath
-    2. isolated va, vc detuned octave; breath
-    3. isolated XFB microtonal field (24ET) recalls previous segment; breath
+[H] (30")
+    1. tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
+    2. [intercalated memory of XFB microtonal field (24ET)]; breath
+    3. isolated va, vc detuned octave; breath
+    repeat:
+    1. tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
+    2. [intercalated memory of XFB microtonal field (24ET)]; breath
+    3. isolated va, vc detuned octave; breath
 
-[I]
+[I] (1'30")
     1. tutti detuned octave Bb with tutti swell; breath
     2. tutti pure octave Bb with tutti swell; attaca
-    3. tutti detuned octave Bb with tutti well; breath; quarter note OB + 3/4
+    3. tutti detuned octave Bb with tutti swell; breath; quarter note OB + 3/4
     OB ppp revealed underneath (Bb)
     4. tutti ppp OB + 3/4 OB > 1/2 OB + 1/4 OB (Bb)
     5. tutti ppp 1/2 OB + 1/4 OB > 1/4 OB + XSP (Bb)
-    6. transformation of tutti ppp XSP (Bb) to three-player ppp XSP with moving
+    6. [intercalated memory: tutti looping of 3-note tasto and trills (c5)
+    with mixed mecc. fluido]
+    7. transformation of tutti ppp XSP (Bb) to three-player ppp XSP with moving
     microtonal polyphony that recalls micropolyphony earlier in the piece; on
     top of this occurs a recapitulation of vn1 maximally dense get. solo from
     beginning of [G]; vn1 get. solo begins to rit.
-    7. vn1 get. solo continues to rit and is now perforated; ppp XSP 
+    8. vn1 get. solo continues to rit and is now perforated; ppp XSP 
     microtonal polyphony sustains ppp but transitions gradually from XSP to 
     tasto
-    8. vn1 get. solo continues to rit and is now very perforated;
+    9. vn1 get. solo continues to rit and is now very perforated;
     ppp tasto microtonal polyphony transitions from ord to SB
-    9. vn1 get. solo continues to rit and is now silence with occ. get. strand;
-    ppp SB microtonal polyphony transitions from SB to XSB; breath
+    10. vn1 get. solo continues to rit and is now silence with occ. get.
+    strand; ppp SB microtonal polyphony transitions from SB to XSB; breath
 
-[J]
+[J] (3' maybe 4')
     1. vn1 silence with occ. get. strand; other three players tacet; halting
     2. vn1 silence with occ. get. strand; other three players resume finger
     chord of trill field and then begin upbows so incredibly slow as to produce
@@ -155,16 +165,16 @@ M: B[30]
     times; tutti swells persist; gigantic tutti crescendo to fff
     12. grand pause 
 
-[K]
+[K] (15")
     1. vc Bb1 + microtonal field in other three players played once in
     isolation; large pause
     2. vc Bb1 + microtonal field again then attaca tutti trilled chord one last
     time; vc Bb1 sustained as pedal over large pause
 
-[L]
+[L] (1'30")
     1. vc Bb1 sustained for a very long time with very very long crescendo;
     other three places tacet
-    2. at peak of vc Bb1 crescendo other three players enter in Bb octaves ppp,
+    2. at peak of vc Bb1 crescendo other three players enter ppp in Bb octaves,
     all tasto
     3. pause
     4. tutti resume Bb octaves tasto, all ppp
@@ -177,7 +187,7 @@ M: B[30]
     11. staggered 3/4 OB > OB
     12. tutti OB; freeze
 
-[M]
+[M] (30")
     1. sub. tempo slightly faster; tutti OB homorhythm with tutti rests between
     each stroke; microtonal polyphony hidden in glissandi in vn2, va, vc but do
     not sound because OB is completely without pitch; vn1 plays incredibly
@@ -186,3 +196,18 @@ M: B[30]
     vn2, va, vc lh glissandi continue silently
     3. vn1 incredibly perforated get. pianiss.; vn2, va, vc freeze
     4. grand pause
+
+in. 15"
+A   15"
+B   30"
+C   45"
+D   45"
+E   2'
+F   3'
+G   1'
+H   30"
+I   1'30"
+J   3' or 4'
+K   15"
+L   1'30"
+M   30"
