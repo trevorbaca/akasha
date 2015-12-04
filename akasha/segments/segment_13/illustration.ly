@@ -39,7 +39,7 @@
             }
         }
         \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
-            \context ViolinOneMusicStaff = "Violin 1 Music Staff" {
+            \context ViolinOneMusicStaff = "Violin One Music Staff" {
                 \clef "treble"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
@@ -51,7 +51,7 @@
                     #10
                     Vn.
                 }
-                \context ViolinOneMusicVoice = "Violin 1 Music Voice" {
+                \context ViolinOneMusicVoice = "Violin One Music Voice" {
                     R1 * 3/2
                     R1 * 1
                     R1 * 3/2
@@ -61,7 +61,7 @@
                     \bar "|"
                 }
             }
-            \context ViolinTwoMusicStaff = "Violin 2 Music Staff" {
+            \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                 \clef "treble"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
@@ -73,7 +73,7 @@
                     #10
                     Vn.
                 }
-                \context ViolinTwoMusicVoice = "Violin 2 Music Voice" {
+                \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                     R1 * 3/2
                     R1 * 1
                     R1 * 3/2

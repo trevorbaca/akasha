@@ -36,6 +36,10 @@ assert len(time_signatures) == 20, len(time_signatures)
 
 tempo_map = (
     (1, akasha.materials.tempi[44]),
+    (2, akasha.materials.tempi[55]),
+    (3, akasha.materials.tempi[44]),
+    #(3, Accelerando()),
+    (4, akasha.materials.tempi[55]),
     )
 fermata_entries = preprocessor.make_fermata_entries()
 tempo_map = tempo_map + fermata_entries
@@ -58,7 +62,6 @@ assert segment_maker.validate_time_signatures()
 segment_maker.make_music_maker(
     stages=1,
     context_name=vc,
-    rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=[8, 1, 7, 2],
@@ -68,6 +71,21 @@ segment_maker.make_music_maker(
             use_messiaen_style_ties=True,
             )
         )
+    )
+
+segment_maker.make_music_maker(
+    stages=3,
+    context_name=vn2,
+#    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+#        talea=rhythmmakertools.Talea(
+#            counts=[8, 1, 7, 2],
+#            denominator=16,
+#            ),
+#        tie_specifier=rhythmmakertools.TieSpecifier(
+#            use_messiaen_style_ties=True,
+#            )
+#        )
+    rhythm_maker=notes,
     )
 
 ################################################################################

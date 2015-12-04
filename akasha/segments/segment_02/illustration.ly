@@ -1,4 +1,4 @@
-% 2015-12-04 11:51
+% 2015-12-04 13:31
 
 \version "2.19.32"
 \language "english"
@@ -23,7 +23,11 @@
                 }
                 {
                     \time 1/3
-                    R1 * 1/3 \fermataMarkup
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
                 }
                 {
                     \time 4/4
@@ -31,7 +35,11 @@
                 }
                 {
                     \time 1/3
-                    R1 * 1/3 \fermataMarkup
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
                 }
                 {
                     \time 5/4
@@ -43,7 +51,11 @@
                 }
                 {
                     \time 1/6
-                    R1 * 1/6 \fermataMarkup
+                    R1 * 1/6
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
                 {
                     \time 6/4
@@ -51,7 +63,11 @@
                 }
                 {
                     \time 1/6
-                    R1 * 1/6 \fermataMarkup
+                    R1 * 1/6
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
                 {
                     \time 6/4
@@ -66,7 +82,11 @@
                 }
                 {
                     \time 1/6
-                    R1 * 1/6 \fermataMarkup
+                    R1 * 1/6
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
                 {
                     \time 6/4
@@ -74,7 +94,11 @@
                 }
                 {
                     \time 1/3
-                    R1 * 1/3 \fermataMarkup
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
                 }
                 {
                     \time 5/4
@@ -82,7 +106,11 @@
                 }
                 {
                     \time 1/3
-                    R1 * 1/3 \fermataMarkup
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
                 }
                 {
                     \time 3/4
@@ -90,13 +118,16 @@
                 }
                 {
                     \time 1/6
-                    R1 * 1/6 \fermataMarkup
+                    R1 * 1/6
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 3/4
-                    \bar ""
                     \mark #1
                     s1 * 3/4 ^ \markup {
                         \fontsize
@@ -120,15 +151,60 @@
                 }
                 {
                     \time 1/3
-                    s1 * 1/3
+                    s1 * 1/3 ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                55
+                            }
+                        }
                 }
                 {
                     \time 4/4
-                    s1 * 1
+                    s1 * 1 ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                44
+                            }
+                        }
                 }
                 {
                     \time 1/3
-                    s1 * 1/3
+                    s1 * 1/3 ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                55
+                            }
+                        }
                 }
                 {
                     \time 5/4
@@ -192,7 +268,7 @@
             }
         >>
         \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
-            \context ViolinOneMusicStaff = "Violin 1 Music Staff" {
+            \context ViolinOneMusicStaff = "Violin One Music Staff" {
                 \clef "treble"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
@@ -204,7 +280,7 @@
                     #10
                     Vn.
                 }
-                \context ViolinOneMusicVoice = "Violin 1 Music Voice" {
+                \context ViolinOneMusicVoice = "Violin One Music Voice" {
                     R1 * 3/4
                     R1 * 3/4
                     \tweak #'edge-height #'(0.7 . 0)
@@ -252,7 +328,7 @@
                     }
                 }
             }
-            \context ViolinTwoMusicStaff = "Violin 2 Music Staff" {
+            \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                 \clef "treble"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
@@ -264,14 +340,14 @@
                     #10
                     Vn.
                 }
-                \context ViolinTwoMusicVoice = "Violin 2 Music Voice" {
+                \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                     R1 * 3/4
                     R1 * 3/4
                     \tweak #'edge-height #'(0.7 . 0)
                     \times 2/3 {
                         R1 * 1/2
                     }
-                    R1 * 1
+                    c'1
                     \tweak #'edge-height #'(0.7 . 0)
                     \times 2/3 {
                         R1 * 1/2
