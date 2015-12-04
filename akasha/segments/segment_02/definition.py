@@ -40,7 +40,7 @@ tempo_map = (
     (2, akasha.materials.tempi[55]),
     (3, akasha.materials.tempi[44]),
     (3, Accelerando()),
-    (4, akasha.materials.tempi[55]),
+    (8, akasha.materials.tempi[55]),
     )
 fermata_entries = preprocessor.make_fermata_entries()
 tempo_map = tempo_map + fermata_entries

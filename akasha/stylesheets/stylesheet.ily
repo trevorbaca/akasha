@@ -96,6 +96,7 @@
         \consists Text_spanner_engraver
         \override StaffSymbol.stencil = ##f
         \override TextScript.font-size = 6
+        \override TextScript.color = #red
         \override TextScript.outside-staff-priority = 600
         \override TextScript.staff-padding = 3
         \override TextSpanner.bound-details.right.attach-dir = #LEFT
@@ -105,6 +106,14 @@
     \context {
         \name TimeSignatureContextMultimeasureRests
         \type Engraver_group
+        \consists Multi_measure_rest_engraver
+        \consists Rest_engraver
+        \override MultiMeasureRest.transparent = ##t
+        \override MultiMeasureRestText.font-size = 6
+        \override MultiMeasureRestText.Y-extent = #(0 . 0)
+        \override MultiMeasureRestText.Y-offset = -5
+        \override MultiMeasureRestText.color = #blue
+        \override MultiMeasureRestText.outside-staff-priority = 0
         }
     \context {
         \name TimeSignatureContext
@@ -113,8 +122,6 @@
         \consists Bar_number_engraver
         \consists Mark_engraver
         \consists Metronome_mark_engraver
-        \consists Multi_measure_rest_engraver
-        \consists Rest_engraver
         \consists Time_signature_engraver
         \accepts TimeSignatureContextSkips
         \accepts TimeSignatureContextMultimeasureRests
@@ -125,9 +132,6 @@
         \override MetronomeMark.break-align-symbols = #'(left-edge)
         \override MetronomeMark.extra-offset = #'(0 . 4)
         \override MetronomeMark.font-size = 3
-        \override MultiMeasureRest.transparent = ##t
-        \override MultiMeasureRestText.font-size = 6
-        \override MultiMeasureRestText.extra-offset = #'(0 . -1.5)
         \override RehearsalMark.X-extent = #'(0 . 0)
         \override RehearsalMark.Y-offset = -2.25
         \override RehearsalMark.X-offset = 6
