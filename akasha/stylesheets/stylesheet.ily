@@ -90,7 +90,17 @@
     \context {
         \name TimeSignatureContextSkips
         \type Engraver_group
+        \consists Staff_symbol_engraver
+        \consists Script_engraver
+        \consists Text_engraver
         \consists Text_spanner_engraver
+        \override StaffSymbol.stencil = ##f
+        \override TextScript.font-size = 6
+        \override TextScript.outside-staff-priority = 600
+        \override TextScript.staff-padding = 3
+        \override TextSpanner.bound-details.right.attach-dir = #LEFT
+        \override TextSpanner.font-size = 6
+        \override TextSpanner.staff-padding = 4
         }
     \context {
         \name TimeSignatureContextMultimeasureRests
@@ -105,9 +115,6 @@
         \consists Metronome_mark_engraver
         \consists Multi_measure_rest_engraver
         \consists Rest_engraver
-        \consists Script_engraver
-        \consists Text_engraver
-        %\consists Text_spanner_engraver
         \consists Time_signature_engraver
         \accepts TimeSignatureContextSkips
         \accepts TimeSignatureContextMultimeasureRests
@@ -130,14 +137,6 @@
         \override RehearsalMark.font-size = 10
         \override RehearsalMark.outside-staff-priority = 200
         \override RehearsalMark.self-alignment-X = #center
-        \override Script.font-size = 6
-        %\override Script.extra-offset = #'(4 . -9)
-        \override TextScript.font-size = 6
-        \override TextScript.outside-staff-priority = 600
-        \override TextScript.padding = 5
-        \override TextSpanner.bound-details.right.attach-dir = #LEFT
-        \override TextSpanner.font-size = 6
-        \override TextSpanner.Y-extent = #'(-3 . 3)
         \override TimeSignature.X-extent = #'(0 . 0)
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
@@ -231,12 +230,21 @@
         \accepts CelloMusicStaff
     }
     \context {
+        \StaffGroup
+        \name MusicContext
+        \type Engraver_group
+        \alias StaffGroup
+        \accepts StringQuartetStaffGroup
+        systemStartDelimiter = #'SystemStartBar
+    }
+    \context {
         \Score
         \accepts TimeSignatureContext
-        \accepts StringQuartetStaffGroup
+        \accepts MusicContext
         \remove Bar_number_engraver
         \remove Mark_engraver
         \remove Metronome_mark_engraver
+        \remove System_start_delimiter_engraver
         \override BarLine.hair-thickness = 0.5
         \override BarLine.space-alist = #'(
             (time-signature extra-space . 0.0)

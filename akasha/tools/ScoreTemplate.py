@@ -152,12 +152,20 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='StringQuartetStaffGroup',
             name='String Quartet Staff Group',
             )
+
+        music_context = scoretools.Context(
+            [
+                string_quartet_staff_group,
+            ],
+            context_name='MusicContext',
+            name='Music Context',
+            )
         
         # make score
         score = Score(
             [
             time_signature_context,
-            string_quartet_staff_group,
+            music_context,
             ],
             name='Score',
             )

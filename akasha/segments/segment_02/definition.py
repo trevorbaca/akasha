@@ -36,9 +36,10 @@ assert len(time_signatures) == 20, len(time_signatures)
 
 tempo_map = (
     (1, akasha.materials.tempi[44]),
+    (1, Accelerando()),
     (2, akasha.materials.tempi[55]),
     (3, akasha.materials.tempi[44]),
-    #(3, Accelerando()),
+    (3, Accelerando()),
     (4, akasha.materials.tempi[55]),
     )
 fermata_entries = preprocessor.make_fermata_entries()
