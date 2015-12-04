@@ -19,8 +19,12 @@ class ScoreTemplate(abctools.AbjadValueObject):
 
             >>> f(score)
             \context Score = "Score" <<
-                \context TimeSignatureContext = "Time Signature Context" {
-                }
+                \context TimeSignatureContext = "Time Signature Context" <<
+                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                    }
+                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                    }
+                >>
                 \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
                     \context ViolinOneMusicStaff = "Violin 1 Music Staff" {
                         \clef "treble"
@@ -57,8 +61,21 @@ class ScoreTemplate(abctools.AbjadValueObject):
         '''
 
         # make time signature context
+        time_signature_context_multimeasure_rests = scoretools.Context(
+            context_name='TimeSignatureContextMultimeasureRests',
+            name='Time Signature Context Multimeasure Rests',
+            )
+        time_signature_context_skips = scoretools.Context(
+            context_name='TimeSignatureContextSkips',
+            name='Time Signature Context Skips',
+            )
         time_signature_context = scoretools.Context(
+            [
+                time_signature_context_multimeasure_rests,
+                time_signature_context_skips,
+            ],
             context_name='TimeSignatureContext',
+            is_simultaneous=True,
             name='Time Signature Context',
             )
         instrument_tags = (
