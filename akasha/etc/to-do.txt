@@ -1,0 +1,7 @@
+1. implement ide refresh command; write tests in segment directory and material
+directory.
+
+2. implement ide artifact removal command. publish in segment and material
+directories.
+
+3. make messiaen-style ties work in talea rhythm-maker.
