@@ -96,7 +96,6 @@
         \consists Text_spanner_engraver
         \override StaffSymbol.stencil = ##f
         \override TextScript.font-size = 6
-        \override TextScript.color = #red
         \override TextScript.outside-staff-priority = 600
         \override TextScript.staff-padding = 3
         \override TextSpanner.bound-details.right.attach-dir = #LEFT
@@ -107,12 +106,8 @@
         \name TimeSignatureContextMultimeasureRests
         \type Engraver_group
         \consists Multi_measure_rest_engraver
-        \consists Rest_engraver
         \override MultiMeasureRest.transparent = ##t
         \override MultiMeasureRestText.font-size = 6
-        \override MultiMeasureRestText.Y-extent = #(0 . 0)
-        \override MultiMeasureRestText.Y-offset = -5
-        \override MultiMeasureRestText.color = #blue
         \override MultiMeasureRestText.outside-staff-priority = 0
         }
     \context {

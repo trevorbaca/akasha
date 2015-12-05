@@ -77,16 +77,13 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=3,
     context_name=vn2,
-#    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-#        talea=rhythmmakertools.Talea(
-#            counts=[8, 1, 7, 2],
-#            denominator=16,
-#            ),
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            use_messiaen_style_ties=True,
-#            )
-#        )
-    rhythm_maker=notes,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=[1, 2],
+            denominator=16,
+            ),
+        ),
     )
 
 ################################################################################
