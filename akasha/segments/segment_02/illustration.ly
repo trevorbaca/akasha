@@ -1,4 +1,4 @@
-% 2015-12-05 15:43
+% 2015-12-05 16:18
 
 \version "2.19.32"
 \language "english"
@@ -168,6 +168,8 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
                     \mark #1
                     s1 * 3/4 \startTextSpan
                 }
@@ -195,6 +197,18 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                }
+                {
+                    \time 5/4
                     \once \override TextSpanner.arrow-width = 0.25
                     \once \override TextSpanner.bound-details.left-broken.padding = 0
                     \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -227,15 +241,7 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
-                    s1 * 1 \startTextSpan
-                }
-                {
-                    \time 1/3
-                    s1 * 1/3
-                }
-                {
-                    \time 5/4
-                    s1 * 5/4
+                    s1 * 5/4 \startTextSpan
                 }
                 {
                     \time 4/4
@@ -390,20 +396,22 @@
                         \times 2/3 {
                             R1 * 1/2
                         }
-                        c'16 [
-                        c'16 ~
-                        c'16
-                        c'16
-                        c'8
-                        c'16
-                        c'16 ~
-                        c'16
-                        c'16
-                        c'8
-                        c'16
-                        c'16 ~
-                        c'16
-                        c'16 ]
+                        \times 4/5 {
+                            r16
+                            c'32 [
+                            c'32 ]
+                            r8
+                            r16
+                        }
+                        r4
+                        r4
+                        \times 8/9 {
+                            r16.
+                            r16
+                            c'32 [
+                            c'32 ]
+                            r16
+                        }
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
                             R1 * 1/2
@@ -463,7 +471,16 @@
                         \times 2/3 {
                             R1 * 1/2
                         }
-                        R1 * 1
+                        r4
+                        \times 8/9 {
+                            c'32 [
+                            c'32 ]
+                            r8
+                            r16
+                            c'32
+                        }
+                        r4
+                        r4
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
                             R1 * 1/2
