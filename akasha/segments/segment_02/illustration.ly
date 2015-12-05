@@ -1,4 +1,4 @@
-% 2015-12-04 14:57
+% 2015-12-05 15:43
 
 \version "2.19.32"
 \language "english"
@@ -23,6 +23,7 @@
                 }
                 {
                     \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
                     R1 * 1/3
                         ^ \markup {
                             \musicglyph
@@ -35,65 +36,7 @@
                 }
                 {
                     \time 1/3
-                    R1 * 1/3
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ufermata"
-                            }
-                }
-                {
-                    \time 5/4
-                    R1 * 5/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 1/6
-                    R1 * 1/6
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 1/6
-                    R1 * 1/6
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 1/6
-                    R1 * 1/6
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
                     R1 * 1/3
                         ^ \markup {
                             \musicglyph
@@ -105,7 +48,71 @@
                     R1 * 5/4
                 }
                 {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 1/6
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    R1 * 1/6
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    \time 1/6
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    R1 * 1/6
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    R1 * 3/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 1/6
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    R1 * 1/6
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
                     \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
                     R1 * 1/3
                         ^ \markup {
                             \musicglyph
@@ -118,6 +125,7 @@
                 }
                 {
                     \time 1/6
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
                     R1 * 1/6
                         ^ \markup {
                             \musicglyph
@@ -382,7 +390,20 @@
                         \times 2/3 {
                             R1 * 1/2
                         }
-                        c'1
+                        c'16 [
+                        c'16 ~
+                        c'16
+                        c'16
+                        c'8
+                        c'16
+                        c'16 ~
+                        c'16
+                        c'16
+                        c'8
+                        c'16
+                        c'16 ~
+                        c'16
+                        c'16 ]
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
                             R1 * 1/2
