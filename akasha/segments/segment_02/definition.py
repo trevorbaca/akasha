@@ -38,16 +38,22 @@ tempo_map = (
     (1, akasha.materials.tempi[44]),
     (1, Accelerando()),
     (2, akasha.materials.tempi[55]),
-    (3, akasha.materials.tempi[44]),
-    (3, Accelerando()),
+    (5, akasha.materials.tempi[44]),
+    (5, Accelerando()),
     (8, akasha.materials.tempi[55]),
     )
 fermata_entries = preprocessor.make_fermata_entries()
 tempo_map = tempo_map + fermata_entries
+spacing_map=(
+    (1, Duration(1, 24)),
+    (3, Duration(1, 48)),
+    (4, Duration(1, 24)),
+    )
 segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     show_stage_annotations=True,
+    spacing_map=spacing_map,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
     )
@@ -77,12 +83,32 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=3,
     context_name=vn2,
-    rewrite_meter=True,
+    division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
-            counts=[1, 2],
-            denominator=16,
+            counts=[-2, 1, 1, -4],
+            denominator=32,
             ),
+        extra_counts_per_division=[2, 1],
+        output_masks=[
+            rhythmmakertools.silence_every(indices=[1, 2], period=4),
+            ],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=3,
+    context_name=va,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=[-2, 1, 1, -4],
+            denominator=32,
+            ),
+        extra_counts_per_division=[2, 1],
+        output_masks=[
+            rhythmmakertools.silence_every(indices=[0, 2, 3], period=4),
+            ],
         ),
     )
 
