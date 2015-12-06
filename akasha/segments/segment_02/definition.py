@@ -31,8 +31,6 @@ preprocessor = baca.tools.TimeSignaturePreprocessor(
 time_signature_groups = preprocessor()
 measures_per_stage = [len(_) for _ in time_signature_groups]
 time_signatures = sequencetools.flatten_sequence(time_signature_groups)
-#print(len(time_signatures))
-assert len(time_signatures) == 20, len(time_signatures)
 
 tempo_map = (
     (1, akasha.materials.tempi[44]),
@@ -44,11 +42,13 @@ tempo_map = (
     )
 fermata_entries = preprocessor.make_fermata_entries()
 tempo_map = tempo_map + fermata_entries
+
 spacing_map=(
     (1, Duration(1, 24)),
     (3, Duration(1, 48)),
     (4, Duration(1, 24)),
     )
+
 segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
@@ -80,13 +80,15 @@ segment_maker.make_music_maker(
         )
     )
 
+getato_counts = [-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6]
+
 segment_maker.make_music_maker(
     stages=3,
     context_name=vn2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
-            counts=[-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6],
+            counts=getato_counts,
             denominator=32,
             ),
         extra_counts_per_division=[2, 1],
@@ -102,7 +104,7 @@ segment_maker.make_music_maker(
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
-            counts=[-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6],
+            counts=getato_counts,
             denominator=32,
             ),
         extra_counts_per_division=[2, 1],
@@ -112,24 +114,122 @@ segment_maker.make_music_maker(
         ),
     )
 
-################################################################################
-################################ MUSIC-HANDLERS ################################
-################################################################################
-#
-#### VIOLIN HANDLERS ###
-#
-#segment_maker.make_music_handler(
-#    scope=(vn, (1, 5)),
-#    specifiers=[
-#        baca.tools.GlissandoSpecifier(
-#            patterns=rhythmmakertools.select_all(),
-#            ),
-#        halo_accompaniment_hairpins,
-#        natural_harmonics,
-#        pitch_specifier(
-#            source=akasha.materials.violin_halo_pitches,
-#            start_index=0,
-#            ),
-#        string_IV,
-#        ],
-#    )
+counts = [5, -4, 3, 6]
+
+segment_maker.make_music_maker(
+    stages=5,
+    context_name=vn1,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=counts,
+            denominator=16,
+            ),
+        extra_counts_per_division=[2, 0, 1],
+        output_masks=[
+            rhythmmakertools.silence_first(1),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            # TODO: make flatten_trivial_tuplets preserve ties
+            #flatten_trivial_tuplets=True,
+            # TODO: make simplify_tuplets preserve ties
+            #simplify_tuplets=True,
+            ),
+        ),
+    )
+
+segment_maker.copy_music_maker(
+    vn1,
+    5,
+    context_name=vn2,
+    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -1),
+    rhythm_maker__output_masks=[
+        rhythmmakertools.silence_first(4),
+        rhythmmakertools.silence_last(1),
+        ],
+    )
+
+segment_maker.copy_music_maker(
+    vn1,
+    5,
+    context_name=va,
+    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
+    rhythm_maker__output_masks=[
+        rhythmmakertools.silence_first(3),
+        ],
+    )
+    
+segment_maker.copy_music_maker(
+    vn1,
+    5,
+    context_name=vc,
+    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
+    rhythm_maker__output_masks=[
+        rhythmmakertools.silence_first(6),
+        ],
+    )
+
+segment_maker.make_music_maker(
+    stages=7,
+    context_name=vn1,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=counts,
+            denominator=16,
+            ),
+        extra_counts_per_division=[2, 0, 1],
+        output_masks=[
+            rhythmmakertools.silence_first(1),
+            rhythmmakertools.silence_last(1),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            # TODO: make flatten_trivial_tuplets preserve ties
+            #flatten_trivial_tuplets=True,
+            # TODO: make simplify_tuplets preserve ties
+            #simplify_tuplets=True,
+            ),
+        ),
+    )
+
+segment_maker.copy_music_maker(
+    vn1,
+    7,
+    context_name=va,
+    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
+    rhythm_maker__output_masks=[
+        rhythmmakertools.silence_first(2),
+        ],
+    )
+
+segment_maker.copy_music_maker(
+    vn1,
+    7,
+    context_name=vc,
+    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
+    rhythm_maker__output_masks=[
+        rhythmmakertools.silence_none(),
+        ],
+    )
+
+segment_maker.make_music_maker(
+    stages=7,
+    context_name=vn2,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=getato_counts,
+            denominator=32,
+            ),
+        extra_counts_per_division=[2, 1],
+        output_masks=[
+            rhythmmakertools.silence_last(2),
+            ],
+        ),
+    )
