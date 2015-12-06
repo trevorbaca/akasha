@@ -86,7 +86,7 @@ segment_maker.make_music_maker(
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
-            counts=[-2, 1, 1, -4],
+            counts=[-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6],
             denominator=32,
             ),
         extra_counts_per_division=[2, 1],
@@ -102,7 +102,7 @@ segment_maker.make_music_maker(
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
-            counts=[-2, 1, 1, -4],
+            counts=[-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6],
             denominator=32,
             ),
         extra_counts_per_division=[2, 1],
