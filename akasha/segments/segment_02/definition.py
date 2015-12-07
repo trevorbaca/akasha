@@ -133,10 +133,7 @@ segment_maker.make_music_maker(
             use_messiaen_style_ties=True,
             ),
         tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-            # TODO: make flatten_trivial_tuplets preserve ties
-            #flatten_trivial_tuplets=True,
-            # TODO: make simplify_tuplets preserve ties
-            #simplify_tuplets=True,
+            simplify_tuplets=True,
             ),
         ),
     )
@@ -190,10 +187,7 @@ segment_maker.make_music_maker(
             use_messiaen_style_ties=True,
             ),
         tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-            # TODO: make flatten_trivial_tuplets preserve ties
-            #flatten_trivial_tuplets=True,
-            # TODO: make simplify_tuplets preserve ties
-            #simplify_tuplets=True,
+            simplify_tuplets=True,
             ),
         ),
     )
@@ -264,7 +258,9 @@ segment_maker.make_music_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
-        # TODO: use tuplet spelling specifier
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            simplify_tuplets=True,
+            ),
         ),
     )
 
