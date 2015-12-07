@@ -1,4 +1,4 @@
-% 2015-12-06 18:08
+% 2015-12-07 11:01
 
 \version "2.19.32"
 \language "english"
@@ -494,9 +494,22 @@
                         \times 2/3 {
                             R1 * 1/4
                         }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
+                        r4
+                        r4
+                        r4
+                        r4
+                        r4
+                        c'4
+                        c'4
+                        r4
+                        c'4
+                        r4
+                        c'4
+                        c'4
+                        r4
+                        r4
+                        r4
+                        r4
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
                             R1 * 1/4
@@ -608,9 +621,70 @@
                         \times 2/3 {
                             R1 * 1/4
                         }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r4
+                            c'8. [
+                            c'16 ]
+                        }
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'16 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            r8.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8.
+                            c'4
+                        }
+                        {
+                            c'8 \repeatTie
+                            c'4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'16 \repeatTie
+                            r4
+                            c'8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'16 \repeatTie
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4.
+                            c'16
+                        }
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            r8
+                        }
+                        \times 4/5 {
+                            r8
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8.
+                        }
+                        \times 2/3 {
+                            c'4.
+                        }
+                        {
+                            c'4
+                        }
+                        \times 4/5 {
+                            c'16 \repeatTie
+                            r4
+                        }
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
                             R1 * 1/4
@@ -715,9 +789,22 @@
                         \times 2/3 {
                             R1 * 1/4
                         }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
+                        r4
+                        r4
+                        r4
+                        r4
+                        r4
+                        c'4
+                        r4
+                        c'4
+                        c'4
+                        c'4
+                        r4
+                        c'4
+                        r4
+                        r4
+                        r4
+                        r4
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
                             R1 * 1/4

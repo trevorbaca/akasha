@@ -233,3 +233,55 @@ segment_maker.make_music_maker(
             ],
         ),
     )
+
+segment_maker.make_music_maker(
+    stages=9,
+    context_name=vn1,
+    division_maker=quarter_division_maker,
+    rhythm_maker=note_rhythm_maker,
+    rhythm_maker__output_masks=[
+        rhythmmakertools.silence_first(4),
+        rhythmmakertools.silence_every(indices=[2, 4], period=5),
+        rhythmmakertools.silence_last(4),
+        ],
+    )
+
+segment_maker.make_music_maker(
+    stages=9,
+    context_name=vn2,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+#            count_masks=[
+#                rhythmmakertools.silence([6, 7, 8, 9]),
+#                ],
+            counts=sequencetools.rotate_sequence(counts, -1),
+            denominator=16,
+            ),
+        extra_counts_per_division=[2, 0, 1],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        # TODO: use tuplet spelling specifier
+        ),
+    )
+
+segment_maker.copy_music_maker(
+    vn1,
+    9,
+    context_name=va,
+    rhythm_maker__output_masks=[
+        rhythmmakertools.silence_first(4),
+        rhythmmakertools.silence_every(indices=[0, 4], period=6),
+        rhythmmakertools.silence_last(4),
+        ],
+    )
+
+#segment_maker.copy_music_maker(
+#    vn2,
+#    9,
+#    context_name=vc,
+#    rhythm_maker__output_masks=[
+#        rhythmmakertools.silence_every(indices=[2], period=3),
+#        ],
+#    )
