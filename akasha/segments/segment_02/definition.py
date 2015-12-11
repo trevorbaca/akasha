@@ -114,7 +114,8 @@ segment_maker.make_music_maker(
         ),
     )
 
-counts = [5, -4, 3, 6]
+#counts = [5, -4, 3, 6]
+counts = [4, 14, 4, 6, 18]
 
 segment_maker.make_music_maker(
     stages=5,
@@ -122,13 +123,13 @@ segment_maker.make_music_maker(
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
+            count_masks=[
+                rhythmmakertools.silence_first(1),
+                ],
             counts=counts,
             denominator=16,
             ),
         extra_counts_per_division=[2, 0, 1],
-        output_masks=[
-            rhythmmakertools.silence_first(1),
-            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
