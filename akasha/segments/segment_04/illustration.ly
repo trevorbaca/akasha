@@ -1,4 +1,4 @@
-% 2015-12-14 11:41
+% 2015-12-14 11:57
 
 \version "2.19.33"
 \language "english"
@@ -264,12 +264,32 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/2
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 12/13 {
+                            c'4.
+                            c'32
+                        }
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 12/13 {
+                            c'4.
+                            c'32
+                        }
+                        r4.
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
                             R1 * 1/2
                         }
-                        R1 * 1
+                        \times 8/9 {
+                            c'4
+                            c'32
+                        }
+                        r4
+                        \times 8/9 {
+                            c'4
+                            c'32
+                        }
+                        r4
                         R1 * 3/2
                         R1 * 3/2
                         R1 * 3/2
@@ -297,12 +317,32 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 3/2
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 12/13 {
+                            c'4.
+                            c'32
+                        }
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 12/13 {
+                            c'4.
+                            c'32
+                        }
+                        r4.
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
                             R1 * 1/2
                         }
-                        R1 * 1
+                        \times 8/9 {
+                            c'4
+                            c'32
+                        }
+                        r4
+                        \times 8/9 {
+                            c'4
+                            c'32
+                        }
+                        r4
                         R1 * 3/2
                         R1 * 3/2
                         R1 * 3/2
