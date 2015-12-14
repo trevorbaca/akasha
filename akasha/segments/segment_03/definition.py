@@ -39,7 +39,10 @@ tempo_map = (
 fermata_entries = preprocessor.make_fermata_entries()
 tempo_map = tempo_map + fermata_entries
 
-spacing_map = None
+spacing_map = (
+    (1, Duration(1, 32)),
+    #(2, Duration(1, 24)),
+    )
 
 segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
@@ -57,6 +60,22 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=vn1,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=getato_counts,
+            denominator=32,
+            ),
+        extra_counts_per_division=[4, 2],
+        output_masks=[
+            rhythmmakertools.silence_every([1, 2], period=3),
+            ],
+        ),
+    )
 
 segment_maker.make_music_maker(
     stages=1,
