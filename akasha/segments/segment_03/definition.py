@@ -63,13 +63,25 @@ segment_maker.make_music_maker(
     context_name=vn2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-        extra_counts_per_division=(1, -1, -1),
+        extra_counts_per_division=(1,),
         talea=rhythmmakertools.Talea(
-            counts=(4,),
+            count_masks=[
+                rhythmmakertools.silence_first(),
+                rhythmmakertools.silence_last(2),
+                ],
+            counts=(3, 3, 2, 6, 2),
             denominator=16,
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             )
         ),
+    )
+
+segment_maker.copy_music_maker(
+    vn2,
+    1,
+    context_name=va,
+    rhythm_maker__talea__count_masks=None,
+    rhythm_maker__talea__counts=(6, 5, 3, 2),
     )
