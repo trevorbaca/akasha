@@ -80,8 +80,6 @@ segment_maker.make_music_maker(
         )
     )
 
-getato_counts = [-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6]
-
 segment_maker.make_music_maker(
     stages=3,
     context_name=vn2,
@@ -91,7 +89,7 @@ segment_maker.make_music_maker(
             counts=getato_counts,
             denominator=32,
             ),
-        extra_counts_per_division=[2, 1],
+        extra_counts_per_division=[4, 2],
         output_masks=[
             rhythmmakertools.silence_every(indices=[1, 2], period=4),
             ],
@@ -107,7 +105,7 @@ segment_maker.make_music_maker(
             counts=getato_counts,
             denominator=32,
             ),
-        extra_counts_per_division=[2, 1],
+        extra_counts_per_division=[4, 2],
         output_masks=[
             rhythmmakertools.silence_every(indices=[0, 2, 3], period=4),
             ],
@@ -222,7 +220,7 @@ segment_maker.make_music_maker(
             counts=getato_counts,
             denominator=32,
             ),
-        extra_counts_per_division=[2, 1],
+        extra_counts_per_division=[4, 2],
         output_masks=[
             rhythmmakertools.silence_last(2),
             ],

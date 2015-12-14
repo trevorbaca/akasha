@@ -1,6 +1,6 @@
-% 2015-12-08 11:44
+% 2015-12-13 23:52
 
-\version "2.19.32"
+\version "2.19.33"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -551,20 +551,21 @@
                         \times 2/3 {
                             R1 * 1/2
                         }
-                        \times 4/5 {
+                        \times 2/3 {
                             r16
                             c'32 [
                             c'32 ]
                             r8
-                            r16
+                            r8
                         }
                         r4
                         r4
-                        \times 8/9 {
-                            r32
-                            r32
-                            c'32
-                            r8.
+                        \times 4/5 {
+                            r8
+                            r16
+                            c'32 [
+                            c'32 ]
+                            r16
                         }
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
@@ -594,21 +595,20 @@
                             R1 * 1/4
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
+                        \times 3/4 {
                             r16
                             c'32 [
                             c'32 ]
                             r8
                             r8
                             c'32 [
+                            c'32
                             c'32 ]
+                            r32
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 12/13 {
-                            c'32
-                            r32
-                            r4
-                            r16.
+                        \times 6/7 {
+                            r4..
                         }
                         r4.
                         r4.
@@ -722,13 +722,12 @@
                             R1 * 1/2
                         }
                         r4
-                        \times 8/9 {
-                            r16
+                        \times 4/5 {
                             c'32 [
                             c'32
                             c'32 ]
                             r32
-                            r16.
+                            r8.
                         }
                         r4
                         r4

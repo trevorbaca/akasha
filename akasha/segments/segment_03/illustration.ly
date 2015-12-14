@@ -1,4 +1,4 @@
-% 2015-12-13 23:23
+% 2015-12-13 23:51
 
 \version "2.19.33"
 \language "english"
@@ -75,6 +75,8 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 9/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)
+                    \newSpacingSection
                     \mark #2
                     s1 * 9/8
                         - \markup {
@@ -197,9 +199,38 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r16
+                            c'32 [
+                            c'32 ]
+                            r8
+                            r8
+                            c'32 [
+                            c'32
+                            c'32 ]
+                            r32
+                        }
+                        r4.
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8
+                            c'32 [
+                            c'32
+                            c'32 ]
+                            r32
+                            r8.
+                        }
+                        r4.
+                        r4.
+                        \times 2/3 {
+                            c'32
+                            r32
+                            r4
+                            r16
+                        }
+                        r4
                         R1 * 1
                         \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
