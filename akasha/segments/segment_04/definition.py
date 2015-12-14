@@ -44,8 +44,6 @@ spacing_map = (
     #(2, Duration(1, 24)),
     )
 
-
-
 segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
@@ -55,6 +53,45 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-#assert segment_maker.measure_count == 8
-#assert segment_maker.stage_count == 1
+assert segment_maker.measure_count == 11
+assert segment_maker.stage_count == 9
 assert segment_maker.validate_time_signatures()
+
+###############################################################################
+################################ MUSIC-MAKERS #################################
+###############################################################################
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=va,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        extra_counts_per_division=[1],
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            suffix_counts=[1],
+            suffix_talea=[1],
+            talea_denominator=32,
+            ),
+        output_masks=[
+            rhythmmakertools.silence_every([1], period=2),
+            ],
+        ),
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    1,
+    stages=3,
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    1,
+    context_name=vc,
+    )
+
+segment_maker.copy_music_maker(
+    vc,
+    1,
+    stages=3,
+    )
