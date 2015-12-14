@@ -48,19 +48,19 @@ intro (15")
     with first appearance of detuned va, vc octave, possibly played only once
 
 [C] (45")
-    1. sputtering exposition of detuned va, vc octave: time is frozen during
-    octave but very small glissandi lentissimi attempt to activate the field of
-    the detuned octave; attempt gets underway; then stops; then attempts to get
-    underway; then stops; and so on. introduces surprisingly short duration in
-    middle of chain of attempts
-    2. detuned octave field grows quiet under diminiuendo that leads to va, vc
-    OB; recapitulation of get. pianiss. descent
-    3. get. pianiss. descent stalls and is interrupted by single scratch
-    detache; scratch begins to align rhythmically with OB underneath;
-    4. OB continues with rhythm of sputtering exposition introduced in first
+    1-3(1+halt+2). sputtering exposition of detuned va, vc octave: time is 
+    frozen during octave but very small glissandi lentissimi attempt to 
+    activate the field of the detuned octave; attempt gets underway; then 
+    tops; then attempts to get underway; then stops; and so on. introduces 
+    surprisingly short duration in middle of chain of attempts
+    4(2). detuned octave field grows quiet under diminiuendo that leads to va, 
+    vc OB; recapitulation of get. pianiss. descent
+    5(1+halt+1). get. pianiss. descent stalls and is interrupted by single 
+    scratch detache; scratch begins to align rhythmically with OB underneath;
+    6(2). OB continues with rhythm of sputtering exposition introduced in first
     stage of segment; [two-voice microtonal harmonies recall previous segment]
-    5. short end-cap of first appearance of trill combined with detuned octave
-    combined with OB; segment ends with question mark
+    7(1). short end-cap of first appearance of trill combined with detuned 
+    octave combined with OB; segment ends with question mark
 
 [D] (45")
     1. two-note spectral chord in vn1, vn2, va; time is frozen
