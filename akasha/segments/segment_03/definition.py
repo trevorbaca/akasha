@@ -85,3 +85,36 @@ segment_maker.copy_music_maker(
     rhythm_maker__talea__count_masks=None,
     rhythm_maker__talea__counts=(6, 5, 3, 2),
     )
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=vc,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
+            ),
+        count_masks=[
+            rhythmmakertools.silence_every([0, 3, 4], period=6),
+            ],
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 4),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 4),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
