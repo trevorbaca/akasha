@@ -90,7 +90,7 @@ segment_maker.make_music_maker(
             denominator=32,
             ),
         extra_counts_per_division=[4, 2],
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every(indices=[1, 2], period=4),
             ],
         ),
@@ -106,7 +106,7 @@ segment_maker.make_music_maker(
             denominator=32,
             ),
         extra_counts_per_division=[4, 2],
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every(indices=[0, 2, 3], period=4),
             ],
         ),
@@ -142,7 +142,7 @@ segment_maker.copy_music_maker(
     5,
     context_name=vn2,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -1),
-    rhythm_maker__output_masks=[
+    rhythm_maker__division_masks=[
         rhythmmakertools.silence_first(4),
         rhythmmakertools.silence_last(1),
         ],
@@ -153,7 +153,7 @@ segment_maker.copy_music_maker(
     5,
     context_name=va,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
-    rhythm_maker__output_masks=[
+    rhythm_maker__division_masks=[
         rhythmmakertools.silence_first(3),
         ],
     )
@@ -163,7 +163,7 @@ segment_maker.copy_music_maker(
     5,
     context_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
-    rhythm_maker__output_masks=[
+    rhythm_maker__division_masks=[
         rhythmmakertools.silence_first(6),
         ],
     )
@@ -178,7 +178,7 @@ segment_maker.make_music_maker(
             denominator=16,
             ),
         extra_counts_per_division=[2, 0, 1],
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_first(1),
             rhythmmakertools.silence_last(1),
             ],
@@ -196,7 +196,7 @@ segment_maker.copy_music_maker(
     7,
     context_name=va,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
-    rhythm_maker__output_masks=[
+    rhythm_maker__division_masks=[
         rhythmmakertools.silence_first(2),
         ],
     )
@@ -206,7 +206,7 @@ segment_maker.copy_music_maker(
     7,
     context_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
-    rhythm_maker__output_masks=[
+    rhythm_maker__division_masks=[
         rhythmmakertools.silence_none(),
         ],
     )
@@ -221,7 +221,7 @@ segment_maker.make_music_maker(
             denominator=32,
             ),
         extra_counts_per_division=[4, 2],
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_last(2),
             ],
         ),
@@ -232,7 +232,7 @@ segment_maker.make_music_maker(
     context_name=vn1,
     division_maker=quarter_division_maker,
     rhythm_maker=note_rhythm_maker,
-    rhythm_maker__output_masks=[
+    rhythm_maker__division_masks=[
         rhythmmakertools.silence_first(4),
         rhythmmakertools.silence_every(indices=[2, 4], period=5),
         rhythmmakertools.silence_last(4),
@@ -267,7 +267,7 @@ segment_maker.copy_music_maker(
     vn1,
     9,
     context_name=va,
-    rhythm_maker__output_masks=[
+    rhythm_maker__division_masks=[
         rhythmmakertools.silence_first(4),
         rhythmmakertools.silence_every(indices=[0, 4], period=6),
         rhythmmakertools.silence_last(4),

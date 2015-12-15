@@ -72,7 +72,7 @@ segment_maker.make_music_maker(
             suffix_talea=[1],
             talea_denominator=32,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([1], period=2),
             ],
         ),
