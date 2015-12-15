@@ -62,7 +62,7 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 
 segment_maker.make_music_maker(
-    stages=1,
+    stages=(1, 2),
     context_name=vn1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -71,7 +71,7 @@ segment_maker.make_music_maker(
             denominator=32,
             ),
         extra_counts_per_division=[4, 2],
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([1, 2], period=3),
             ],
         ),
@@ -115,7 +115,9 @@ segment_maker.make_music_maker(
             use_feather_beams=True,
             ),
         count_masks=[
-            rhythmmakertools.silence_every([0, 3, 4], period=6),
+            rhythmmakertools.silence_every([1, 3, 4], period=6),
+            rhythmmakertools.sustain_first(),
+            rhythmmakertools.sustain_last(),
             ],
         interpolation_specifiers=[
             rhythmmakertools.InterpolationSpecifier(
@@ -137,3 +139,94 @@ segment_maker.make_music_maker(
             ),
         ),
     )
+
+segment_maker.make_music_maker(
+    stages=4,
+    context_name=vn1,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=sequencetools.rotate_sequence(getato_counts, -4),
+            denominator=32,
+            ),
+        extra_counts_per_division=[4, 2],
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            rewrite_rest_filled_tuplets=True,
+            )
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=6,
+    context_name=vn1,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=sequencetools.rotate_sequence(getato_counts, -8),
+            denominator=32,
+            ),
+        extra_counts_per_division=[4, 2],
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            rewrite_rest_filled_tuplets=True,
+            )
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=vn2,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
+            ),
+        count_masks=[
+            rhythmmakertools.silence_every([1, 3, 4], period=6),
+            rhythmmakertools.sustain_first(),
+            rhythmmakertools.sustain_last(),
+            ],
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 4),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 4),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=va,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        extra_counts_per_division=[1],
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            suffix_counts=[1],
+            suffix_talea=[1],
+            talea_denominator=32,
+            ),
+#        division_masks=[
+#            rhythmmakertools.silence_all(),
+#            rhythmmakertools.sustain([-3]),
+#            ],
+        ),
+    )
+
+#segment_maker.copy_music_maker(
+#    va,
+#    8,
+#    context_name=vc,
+#    )
