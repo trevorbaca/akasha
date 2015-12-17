@@ -218,15 +218,14 @@ segment_maker.make_music_maker(
             suffix_talea=[1],
             talea_denominator=32,
             ),
-#        division_masks=[
-#            rhythmmakertools.silence_all(),
-#            rhythmmakertools.sustain([-3]),
-#            ],
+        division_masks=[
+            rhythmmakertools.silence_every(indices=[-3], invert=True),
+            ],
         ),
     )
 
-#segment_maker.copy_music_maker(
-#    va,
-#    8,
-#    context_name=vc,
-#    )
+segment_maker.copy_music_maker(
+    va,
+    8,
+    context_name=vc,
+    )

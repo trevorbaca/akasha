@@ -207,7 +207,6 @@ segment_maker.copy_music_maker(
     context_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
     rhythm_maker__division_masks=[
-        rhythmmakertools.silence_none(),
         ],
     )
 
