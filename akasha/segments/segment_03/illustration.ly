@@ -1,4 +1,4 @@
-% 2015-12-15 13:40
+% 2015-12-16 20:52
 
 \version "2.19.33"
 \language "english"
@@ -531,39 +531,18 @@
                         \times 2/3 {
                             R1 * 1/2
                         }
+                        r4
+                        r4
+                        r4
+                        r8
+                        r4
                         \times 8/9 {
                             c'4
                             c'32
                         }
-                        \times 8/9 {
-                            c'4
-                            c'32
-                        }
-                        \times 8/9 {
-                            c'4
-                            c'32
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'32 ]
-                        }
-                        \times 8/9 {
-                            c'4
-                            c'32
-                        }
-                        \times 8/9 {
-                            c'4
-                            c'32
-                        }
-                        \times 8/9 {
-                            c'4
-                            c'32
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            c'32 ]
-                            \bar "|"
-                        }
+                        r4
+                        r8
+                        \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
@@ -720,8 +699,17 @@
                         \times 2/3 {
                             R1 * 1/2
                         }
-                        R1 * 7/8
-                        R1 * 7/8
+                        r4
+                        r4
+                        r4
+                        r8
+                        r4
+                        \times 8/9 {
+                            c'4
+                            c'32
+                        }
+                        r4
+                        r8
                         \bar "|"
                     }
                 }
