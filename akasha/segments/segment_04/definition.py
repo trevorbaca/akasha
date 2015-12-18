@@ -23,7 +23,7 @@ stage_specifier = [
     2,
     1, TimeSignature((1, 3)), 1,
     2,
-    1, TimeSignature((1, 3)),
+    1, TimeSignature((3, 3)),
     ]
 preprocessor = baca.tools.TimeSignaturePreprocessor(
     stage_specifier=stage_specifier,

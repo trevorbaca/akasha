@@ -63,20 +63,39 @@ intro (15")
     octave combined with OB; segment ends with question mark
 
 [D] (45")
-    1. two-note spectral chord in vn1, vn2, va; time is frozen
-    2. two-note spectral chord continues; ppp XSP glissandi animated underneath
-    3. animation of ppp XSP glissandi spreads to all four players; rhythmic
-    activation increases considerably; but ppp holds constant; players moving
-    very very quickly with full bows in alternation; ends in short breath in
-    all players to highlight reintroduction of trill in next stage
-    4. [memory of previous segment: detuned octave field grows quiet under 
-    diminiuendo; inserted as type of intercalation-as-memory]
-    5. tutti ppp XSP glissandi resumes now capped with a single trill; happens
-    once then another breath in all players
-    6. tutti ppp XSP glissandi resumes again, capped again with a single trill
-    now with the accompaniment of a slow low-register vc down-glissando; vc
-    down-glissando outlasts rest of materials and closes segment unaccompanied
-    7. grand pause
+    1-2(4+short breath)[126]
+    three-note spectral chord in vn1, vn2, va, time is frozen;
+    vc tacet;
+    short breath
+    3-4(8+short breath)
+    three-note spectral chord resumes in vn1, vn2, va;
+    ppp XSP glissandi animated underneath in vc;
+    short breath
+    5-6(4+short breath)
+    two-note spectral chord in vn2, va;
+    ppp XSP glissandi animated underneath in vn1, vc;
+    short breath
+    7-8(8+breath)
+    one-note spectral chord in va;
+    ppp XSP glissandi animated in vn1, vn2, vc;
+    breath to highlight introduction of trill in next section
+
+    9(4)[55]
+    [memory of previous segment: detuned octave field grows quiet 
+    under diminiuendo; inserted as type of intercalation-as-memory];
+    no breath
+
+    10-11(4+breath)[126]
+    tutti ppp XSP glissandi resumes;
+    now capped with a single trill;
+    happens once then another breath in all players;
+    12-13(8+grand pause)[126->rit.]
+    tutti ppp XSP glissandi resumes;
+    capped again with a single trill;
+    now with the accompaniment of a slow low-register vc down-glissando; 
+    vc down-glissando outlasts rest of materials and closes segment 
+    unaccompanied;
+    grand pause
 
 [E] (2')
     1. segment begins with mod. rhythmicized OB in viola; no OB in other
