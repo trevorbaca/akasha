@@ -16,4 +16,8 @@ tempi = collections.OrderedDict([
         89,
         Tempo(Duration(1, 4), 89),
         ),
+    (
+        126,
+        Tempo(Duration(1, 4), 126),
+        ),
     ])

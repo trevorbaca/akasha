@@ -1,4 +1,4 @@
-% 2015-12-17 18:39
+% 2015-12-18 16:06
 
 \version "2.19.33"
 \language "english"
@@ -67,9 +67,9 @@
                     R1 * 5/4
                 }
                 {
-                    \time 1/3
+                    \time 3/3
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -199,8 +199,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 3/3
+                    s1 * 1
                         - \markup {
                             \smaller
                                 \with-color
@@ -337,11 +337,8 @@
                         c'4
                         c'4
                         c'4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        R1 * 1
+                        \bar "|"
                     }
                 }
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
@@ -509,11 +506,8 @@
                         }
                         r4
                         c'1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        R1 * 1
+                        \bar "|"
                     }
                 }
                 \context ViolaMusicStaff = "Viola Music Staff" {
@@ -605,11 +599,8 @@
                         }
                         r4
                         c'1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        R1 * 1
+                        \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
@@ -656,11 +647,8 @@
                         r4
                         r4
                         c'1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        R1 * 1
+                        \bar "|"
                     }
                 }
             >>
