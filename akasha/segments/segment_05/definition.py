@@ -1,37 +1,5 @@
 # -*- coding: utf-8 -*-
 from abjad import *
-
-#import baca
-#import akasha
-#from baca.__abbreviations__ import *
-#from akasha.materials.__abbreviations__ import *
-#
-#
-################################################################################
-############################### SEGMENT-MAKER ##################################
-################################################################################
-#
-#time_signatures = akasha.materials.time_signatures_b[12:12+2]
-#time_signatures = sequencetools.flatten_sequence(time_signatures)
-#print(len(time_signatures))
-#assert len(time_signatures) == 6
-#
-#segment_maker = baca.tools.SegmentMaker(
-#    measures_per_stage=(
-#        6,
-#        ),
-#    score_package=akasha,
-#    show_stage_annotations=False,
-#    tempo_map=(
-#        ),
-#    time_signatures=time_signatures,
-#    )
-#
-#assert segment_maker.measure_count == 6
-#assert segment_maker.stage_count == 1
-#assert segment_maker.validate_time_signatures()
-
-
 import baca
 import akasha
 from baca.__abbreviations__ import *
@@ -100,3 +68,57 @@ segment_maker = baca.tools.SegmentMaker(
 #assert segment_maker.measure_count == 12
 #assert segment_maker.stage_count == 10
 assert segment_maker.validate_time_signatures()
+
+###############################################################################
+################################ MUSIC-MAKERS #################################
+###############################################################################
+
+#segment_maker.make_music_maker(
+#    stages=1,
+#    context_name=vn1,
+#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+#        tie_specifier=rhythmmakertools.TieSpecifier(
+#            tie_across_divisions=True,
+#            use_messiaen_style_ties=True,
+#            ),
+#        ),
+#    )
+#
+#segment_maker.copy_music_maker(
+#    vn1,
+#    1,
+#    context_name=vn2,
+#    )
+#
+#segment_maker.copy_music_maker(
+#    vn1,
+#    1,
+#    context_name=va,
+#    )
+
+segment_maker.make_music_maker(
+    stages=3,
+    context_name=vn1,
+    division_selector=select().
+        get_slice(stop=3)
+        ,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=3,
+    context_name=vn1,
+    division_selector=select().
+        get_slice(start=-6)
+        ,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        tuplet_ratios=[
+            (1, 1, 1),
+            ],
+        ),
+    )
