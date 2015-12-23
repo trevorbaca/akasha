@@ -114,7 +114,7 @@ segment_maker.make_music_maker(
     stages=3,
     context_name=vn1,
     division_selector=select().
-        get_slice(start=-6)
+        get_slice(start=-3)
         ,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         tuplet_ratios=[
