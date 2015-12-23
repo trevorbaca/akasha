@@ -100,7 +100,8 @@ segment_maker.make_music_maker(
     stages=3,
     context_name=vn1,
     division_selector=select().
-        get_slice(stop=3)
+        partition_by_ratio(mathtools.Ratio((1, 1, 1))).
+        get_item(1)
         ,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -110,15 +111,15 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
-    stages=3,
-    context_name=vn1,
-    division_selector=select().
-        get_slice(start=-3)
-        ,
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        tuplet_ratios=[
-            (1, 1, 1),
-            ],
-        ),
-    )
+#segment_maker.make_music_maker(
+#    stages=3,
+#    context_name=vn1,
+#    division_selector=select().
+#        get_slice(start=-3)
+#        ,
+#    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+#        tuplet_ratios=[
+#            (1, 1, 1),
+#            ],
+#        ),
+#    )
