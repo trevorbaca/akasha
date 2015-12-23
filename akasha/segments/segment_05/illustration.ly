@@ -1,4 +1,4 @@
-% 2015-12-23 17:38
+% 2015-12-23 17:44
 
 \version "2.19.33"
 \language "english"
@@ -567,26 +567,10 @@
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         R1 * 25/12
-                        c'2..
-                        c'2.. \repeatTie
-                        c'2 \repeatTie
-                        R1 * 17/8
-                        {
-                            c'4.
-                            c'4.
-                            c'4.
-                        }
-                        \times 2/3 {
-                            c'4..
-                            c'4..
-                            c'4..
-                        }
-                        {
-                            c'8 [
-                            c'8
-                            c'8 ]
-                        }
-                        R1 * 137/6
+                        c'1
+                        c'1 \repeatTie
+                        c'8 \repeatTie
+                        R1 * 659/24
                         \bar "|"
                     }
                 }
