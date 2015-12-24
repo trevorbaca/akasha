@@ -59,10 +59,94 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-#assert segment_maker.measure_count == 12
-#assert segment_maker.stage_count == 10
+assert segment_maker.measure_count == 39, repr(segment_maker.measure_count)
+assert segment_maker.stage_count == 17, repr(segment_maker.stage_count)
 assert segment_maker.validate_time_signatures()
 
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
+
+def durations(rotation=0):
+    durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
+    return sequencetools.rotate_sequence(durations, n=rotation)
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=va,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=durations(0),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=3,
+    context_name=va,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=durations(2),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=5,
+    context_name=va,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=durations(4),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=7,
+    context_name=va,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=durations(6),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(9, 16),
+    context_name=va,
+    # TODO: allow rewrite_meter to use time signatures instead of divisions
+    #rewrite_meter=True,
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=durations(8),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
