@@ -1,4 +1,4 @@
-% 2015-12-18 16:06
+% 2015-12-23 21:38
 
 \version "2.19.33"
 \language "english"
@@ -225,12 +225,7 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1
+                        R1 * 17/6
                         r4.
                         r4.
                         r4.
@@ -304,10 +299,7 @@
                             c'32 ]
                             r32
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         \times 2/3 {
                             c'32 [
                             c'32
@@ -354,12 +346,7 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1
+                        R1 * 17/6
                         r4.
                         r4.
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -436,10 +423,7 @@
                             c'32 ]
                             r32
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         \times 4/5 {
                             r8.
                             r8
@@ -524,10 +508,7 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         c'1.
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         c'1
                         c'1.
                         c'1.
@@ -535,10 +516,7 @@
                         c'4.
                         c'4.
                         c'4.
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         \times 4/5 {
                             r4
                             r16
@@ -617,10 +595,7 @@
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         c'1.
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         c'1
                         c'1.
                         c'1.
@@ -630,10 +605,7 @@
                         c'4
                         c'4
                         c'4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         c'4
                         c'4
                         c'4
