@@ -101,7 +101,7 @@ segment_maker.make_music_maker(
     context_name=vn1,
     division_selector=select().
         partition_by_ratio(mathtools.Ratio((1, 1, 1))).
-        get_item(1)
+        get_item(-1)
         ,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(

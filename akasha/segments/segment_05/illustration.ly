@@ -1,4 +1,4 @@
-% 2015-12-23 17:44
+% 2015-12-23 18:14
 
 \version "2.19.33"
 \language "english"
@@ -566,11 +566,12 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 25/12
+                        R1 * 155/24
                         c'1
-                        c'1 \repeatTie
                         c'8 \repeatTie
-                        R1 * 659/24
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        R1 * 137/6
                         \bar "|"
                     }
                 }
