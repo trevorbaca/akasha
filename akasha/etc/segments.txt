@@ -98,17 +98,57 @@ intro (15")
     grand pause
 
 [E] (2')
-    1. segment begins with mod. rhythmicized OB in viola; no OB in other
-    players; large process of revealing getati begins; process begins with
-    isolated scratch tenuti in v2; plenty of halting between scratches though
-    now time behaves differently because of va OB accompaniment
-    2. scratch become denser; va OB continues
-    3. v1 joins v2; v1, v2 both play scratch detache; va OB continues
-    4. v1, v2 scratch become get. ord. mf asc begins; va OB continues; accel.
-    5. v1, v2 dense get. pian. asc.; va OB; accel.
-    6. v1, v2 very dense get. pianiss. asc. molto; va OB; accel.
-    7. short grand pause
-    [8. v1, v2 max. dense get. pianiss. *withheld and does not appear yet*]
+    1-8(1+halt+1+halt+1+halt+1+halt)[44]
+    segment begins with mod. rhythmicized OB in viola;
+    no OB in other players;
+    large process of revealing getati begins;
+    process begins with isolated scratch tenuti in v1, v2, vc;
+    many halts between measures;
+    time feels different because of va OB accompaniment;
+
+    9(2)[55]
+    v1, v2, vc scratch become denser;
+    no more halting;
+    va OB;
+
+    10(2)
+    v1, v2, vc scratch durations become shorter;
+    va OB;
+
+    11(2)[55: accel.-->]
+    v1, v2, vc scratch staccatiss.;
+    accel.;
+    va OB;
+
+    12(4)[89]
+    v1, v2, vc scratch staccatiss crossfade to get. ord. mf;
+    va OB continues;
+
+    13(4)[89 accel.-->] 
+    v1, v2, vc all get. ord. mf;
+    ascent begins;
+    accel. begins;
+    va OB;
+
+    14(4)[-->]
+    v1, v2, vc get. become dense piano;
+    ascent continues;
+    accel. continues;
+    va OB;
+
+    15(6)[126]
+    v1, v2, vc get. become very dense pianiss.;
+    ascent continues;
+    va OB;
+
+    16(6)
+    v1, v2, vc get. very dense pianiss.;
+    ascent continues;
+    va OB;
+
+    17
+    grand pause;
+    [v1, v2, vc max. dense get. pianiss. *withheld and does not appear yet*]
 
 [F] (3')
     1. tempo resets back to mod.; microtonal vc melody returns from beginning
