@@ -1,4 +1,4 @@
-% 2015-12-28 09:32
+% 2015-12-28 11:37
 
 \version "2.19.34"
 \language "english"
@@ -561,16 +561,22 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 4/3
+                        R1 * 19/6
                         \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/5 {
+                        \times 6/4 {
                             c'4
-                            c'4
-                            c'4
-                            c'4
-                            c'4
+                            r4
+                            r4
+                            r4
                         }
-                        R1 * 149/4
+                        R1 * 1/3
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 5/3 {
+                            c'4
+                            r4
+                            r4
+                        }
+                        R1 * 203/6
                         \bar "|"
                     }
                 }
@@ -587,57 +593,34 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 4/3
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/4 {
+                            r4
+                            r4
+                            r4
+                            c'4
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 1/3
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            r4
+                            c'4
+                            r4
+                            r4
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 1/3
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 5/6 {
+                            r4
+                            r4
+                            r4
+                            r4
+                            r4
+                            c'4
                         }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
+                        R1 * 203/6
                         \bar "|"
                     }
                 }
@@ -729,57 +712,24 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 4/3
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r4
+                            c'4
+                            r4
+                            r4
+                            r4
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 13/6
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 5/4 {
+                            r4
+                            c'4
+                            r4
+                            r4
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
+                        R1 * 203/6
                         \bar "|"
                     }
                 }
