@@ -1,4 +1,4 @@
-% 2015-12-28 11:52
+% 2015-12-28 17:03
 
 \version "2.19.34"
 \language "english"
@@ -600,10 +600,9 @@
                             r8
                             r8
                             r8
-                            r8
+                            c'8
                         }
                         \times 8/9 {
-                            c'8
                             r8
                             r8
                             c'8
@@ -611,9 +610,180 @@
                             r8
                             r8
                             r8
+                            c'8
                             r8
                         }
-                        R1 * 30
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 10/11 {
+                            r8
+                            c'8
+                            r8
+                            r8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            c'8
+                        }
+                        \times 4/5 {
+                            r8
+                            c'8
+                            r16
+                        }
+                        \times 4/5 {
+                            r8
+                            c'8
+                            r16
+                        }
+                        {
+                            r8.
+                            c'16 ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'16
+                            r4.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'8
+                            r8
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            c'8
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'8
+                            r4
+                            r16
+                        }
+                        r4
+                        \times 4/5 {
+                            r16
+                            c'8
+                            r8
+                        }
+                        \times 2/3 {
+                            r16
+                            c'8
+                            r8.
+                        }
+                        \times 4/5 {
+                            r16
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r4
+                            c'8
+                            r16
+                        }
+                        {
+                            r16
+                            c'8
+                            r8.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'8
+                            r4
+                            c'16 ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'16
+                            r4.
+                            c'16
+                        }
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            c'8
+                            r4
+                        }
+                        {
+                            c'8
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8
+                            c'8
+                            r8
+                            c'16 ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'16
+                            r8.
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8
+                            c'8
+                            r8.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8.
+                            c'8
+                            r8
+                        }
+                        {
+                            c'8
+                            r8.
+                            c'16
+                        }
+                        r4
+                        \times 2/3 {
+                            c'8
+                            r4
+                        }
+                        \times 4/5 {
+                            r8
+                            c'8
+                            r16
+                        }
+                        \times 4/5 {
+                            r16
+                            c'8
+                            r8
+                        }
+                        {
+                            r16
+                            c'8
+                            r16
+                        }
+                        \times 4/5 {
+                            r8.
+                            c'8
+                        }
+                        \times 2/3 {
+                            r4.
+                        }
+                        R1 * 37/2
                         \bar "|"
                     }
                 }
@@ -688,7 +858,189 @@
                             r8
                             c'8
                         }
-                        R1 * 30
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 10/9 {
+                            r8
+                            r8
+                            r8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            c'8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            r8
+                            r8
+                            r8
+                            r8
+                            r8
+                        }
+                        {
+                            c'8
+                            r8
+                        }
+                        \times 4/5 {
+                            r16
+                            c'8
+                            r8
+                        }
+                        \times 2/3 {
+                            r8
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r4
+                            c'8
+                            r16
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            c'8
+                            r8.
+                            c'16 ~
+                        }
+                        {
+                            c'16
+                            r4
+                            c'16
+                        }
+                        r4.
+                        \times 2/3 {
+                            c'8
+                            r8
+                            c'8
+                        }
+                        \times 4/5 {
+                            r8.
+                            c'8
+                        }
+                        \times 4/5 {
+                            r4
+                            c'16 ~
+                        }
+                        {
+                            c'16
+                            r8.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8.
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'8
+                            r8.
+                            c'8
+                            r16
+                        }
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r4
+                            c'8
+                            r16
+                        }
+                        {
+                            r16
+                            c'8
+                            r8.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'8
+                            r4
+                            c'16 ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'16
+                            r4.
+                            c'16 ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'16
+                            r8
+                            c'8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            c'8
+                            r4
+                        }
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8
+                            c'8
+                            r8
+                            c'16 ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'16
+                            r8.
+                            c'8
+                            r8
+                        }
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/9 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        R1 * 37/2
                         \bar "|"
                     }
                 }
@@ -762,8 +1114,80 @@
                         c'4.
                         c'4
                         c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
                         r4.
-                        R1 * 181/8
+                        R1 * 1
                         \bar "|"
                     }
                 }
@@ -838,7 +1262,227 @@
                             r8
                             r8
                         }
-                        R1 * 30
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 10/12 {
+                            c'8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            r8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/8 {
+                            c'8
+                            r8
+                            r8
+                            r8
+                            r8
+                            r8
+                            c'8
+                            r8
+                        }
+                        \times 2/3 {
+                            r8.
+                            c'8
+                            r16
+                        }
+                        \times 4/5 {
+                            r8.
+                            c'8
+                        }
+                        \times 4/5 {
+                            r4
+                            r16
+                        }
+                        {
+                            r16
+                            c'8
+                            r8
+                            c'16 ~
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'16
+                            r8.
+                            c'8
+                            r16
+                        }
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8.
+                            c'8
+                            r8
+                        }
+                        \times 4/5 {
+                            c'8
+                            r8.
+                        }
+                        {
+                            c'8
+                            r8
+                        }
+                        \times 4/5 {
+                            r8
+                            c'8
+                            r16
+                        }
+                        \times 2/3 {
+                            r4
+                            r16
+                            c'16
+                        }
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            c'8
+                            r4
+                        }
+                        {
+                            c'8
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r8
+                            c'8
+                            r8
+                            c'16
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 12/16 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/8 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 12/16 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 12/13 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/10 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 4/5 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        R1 * 37/2
                         \bar "|"
                     }
                 }
