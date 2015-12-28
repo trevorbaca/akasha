@@ -425,7 +425,119 @@ segment_maker.make_music_maker(
         ,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
+        division_masks=[
+            silence([1, 3]),
+            ],
         extra_counts_per_division=[4, 2, 4, 1],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+### stages 14-15 ###
+
+segment_maker.make_music_maker(
+    stages=(14, 15),
+    context_name=vn1,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 2, 1, 2, 1],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[4, 2, 4, 1],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(14, 15),
+    context_name=vn2,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 1, 2, 1, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[2, 4, 1, 4],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(14, 15),
+    context_name=vc,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[1, 2, 1, 2, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[4, 1, 4, 2],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+### stage 16 ###
+
+segment_maker.make_music_maker(
+    stages=16,
+    context_name=vn1,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 2, 1, 2, 1],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        division_masks=silence_last(4),
+        extra_counts_per_division=[6, 4, 6, 3],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=16,
+    context_name=vn2,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 1, 2, 1, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        division_masks=silence_last(5),
+        extra_counts_per_division=[4, 6, 3, 6],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=16,
+    context_name=vc,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[1, 2, 1, 2, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        division_masks=silence_last(5),
+        extra_counts_per_division=[6, 3, 6, 4],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             ),
