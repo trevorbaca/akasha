@@ -71,81 +71,73 @@ def durations(rotation=0):
     durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     return sequencetools.rotate_sequence(durations, n=rotation)
 
-#segment_maker.make_music_maker(
-#    stages=1,
-#    context_name=va,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            durations=durations(0),
-#        ),
-#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-#        division_masks=[
-#            rhythmmakertools.silence_first(),
-#            rhythmmakertools.silence_last(),
-#            ],
-#        ),
-#    )
-#
-#segment_maker.make_music_maker(
-#    stages=3,
-#    context_name=va,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            durations=durations(2),
-#        ),
-#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-#        division_masks=[
-#            rhythmmakertools.silence_first(),
-#            rhythmmakertools.silence_last(),
-#            ],
-#        ),
-#    )
-#
-#segment_maker.make_music_maker(
-#    stages=5,
-#    context_name=va,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            durations=durations(4),
-#        ),
-#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-#        division_masks=[
-#            rhythmmakertools.silence_first(),
-#            rhythmmakertools.silence_last(),
-#            ],
-#        ),
-#    )
-#
-#segment_maker.make_music_maker(
-#    stages=7,
-#    context_name=va,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            durations=durations(6),
-#        ),
-#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-#        division_masks=[
-#            rhythmmakertools.silence_first(),
-#            rhythmmakertools.silence_last(),
-#            ],
-#        ),
-#    )
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=va,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=durations(0),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
 
-ratio = mathtools.Ratio((1, 1, 1))
-index = 1 
-callbacks = datastructuretools.CallbackStack(
-   items=[
-        sequencetools.PartitionByRatioOfLengthsCallback(ratio),
-        sequencetools.GetItemCallback(index),
-       ],
-   )
+segment_maker.make_music_maker(
+    stages=3,
+    context_name=va,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=durations(2),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=5,
+    context_name=va,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=durations(4),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=7,
+    context_name=va,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=durations(6),
+        ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        division_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(),
+            ],
+        ),
+    )
 
 segment_maker.make_music_maker(
     stages=(9, 16),
     context_name=va,
-    # TODO: make rewrite_meter work
-    #rewrite_meter=True,
-    division_selector=callbacks,
+    division_callbacks=sequence().
+        partition_by_ratio_of_lengths(Ratio((1, 1, 1))).
+        __getitem__(0)
+        ,
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
