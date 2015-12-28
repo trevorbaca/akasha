@@ -162,7 +162,7 @@ segment_maker.make_music_maker(
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=(1,),
         talea=rhythmmakertools.Talea(
-            count_masks=[
+            logical_tie_masks=[
                 rhythmmakertools.silence_first(3),
                 rhythmmakertools.silence_last(2),
                 ],
@@ -179,7 +179,7 @@ segment_maker.copy_music_maker(
     vn2,
     7,
     context_name=va,
-    rhythm_maker__talea__count_masks=[
+    rhythm_maker__talea__logical_tie_masks=[
         rhythmmakertools.silence_first(),
         rhythmmakertools.silence_last(),
         ],
