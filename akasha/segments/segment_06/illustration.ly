@@ -1,4 +1,4 @@
-% 2015-12-28 11:37
+% 2015-12-28 11:52
 
 \version "2.19.34"
 \language "english"
@@ -576,7 +576,44 @@
                             r4
                             r4
                         }
-                        R1 * 203/6
+                        R1 * 1/3
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r4
+                            c'4
+                            r4
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r4
+                            c'4
+                            r4
+                            r4
+                        }
+                        \times 8/9 {
+                            c'8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            r8
+                            r8
+                            r8
+                        }
+                        \times 8/9 {
+                            c'8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            r8
+                            r8
+                            r8
+                        }
+                        R1 * 30
                         \bar "|"
                     }
                 }
@@ -620,7 +657,38 @@
                             r4
                             c'4
                         }
-                        R1 * 203/6
+                        R1 * 1/3
+                        {
+                            r4
+                            r4
+                            c'4
+                        }
+                        {
+                            r4
+                            r4
+                            c'4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            c'8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 8/7 {
+                            r8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            c'8
+                        }
+                        R1 * 30
                         \bar "|"
                     }
                 }
@@ -729,7 +797,48 @@
                             r4
                             r4
                         }
-                        R1 * 203/6
+                        R1 * 1/3
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            r4
+                            r4
+                            c'4
+                            r4
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/5 {
+                            r4
+                            r4
+                            r4
+                            c'4
+                            r4
+                        }
+                        \times 8/10 {
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            r8
+                            r8
+                        }
+                        \times 8/10 {
+                            r8
+                            c'8
+                            r8
+                            r8
+                            c'8
+                            r8
+                            r8
+                            r8
+                            r8
+                            r8
+                        }
+                        R1 * 30
                         \bar "|"
                     }
                 }

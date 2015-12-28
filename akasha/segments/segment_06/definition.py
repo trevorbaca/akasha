@@ -228,6 +228,8 @@ segment_maker.make_music_maker(
         ),
     )
 
+### viola 9-16 ###
+
 segment_maker.make_music_maker(
     stages=(9, 16),
     context_name=va,
@@ -247,5 +249,87 @@ segment_maker.make_music_maker(
             rhythmmakertools.silence_first(),
             rhythmmakertools.silence_last(),
             ],
+        ),
+    )
+
+### stage 9 ###
+
+segment_maker.make_music_maker(
+    stages=9,
+    context_name=vn1,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[4],
+        logical_tie_masks=[
+            silence_all(),
+            sustain([1, -3]),
+            ],
+        extra_counts_per_division=[1],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=9,
+    context_name=vn2,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[4],
+        logical_tie_masks=[
+            silence_all(),
+            sustain([2, -1]),
+            ],
+        extra_counts_per_division=[0],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=9,
+    context_name=vc,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[4],
+        logical_tie_masks=[
+            silence_all(),
+            sustain([2, -2]),
+            ],
+        extra_counts_per_division=[2],
+        ),
+    )
+
+### stage 10 ###
+
+segment_maker.make_music_maker(
+    stages=10,
+    context_name=vn1,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8],
+        logical_tie_masks=[
+            silence_all(),
+            sustain_every([0, 3], period=9),
+            ],
+        extra_counts_per_division=[1],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=10,
+    context_name=vn2,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8],
+        logical_tie_masks=[
+            silence_all(),
+            sustain_every([1, 4], period=9),
+            ],
+        extra_counts_per_division=[-1],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=10,
+    context_name=vc,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8],
+        logical_tie_masks=[
+            silence_all(),
+            sustain_every([2, 5], period=9),
+            ],
+        extra_counts_per_division=[2],
         ),
     )
