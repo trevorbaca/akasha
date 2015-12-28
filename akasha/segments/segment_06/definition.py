@@ -102,6 +102,16 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
+    stages=3,
+    context_name=vc,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[4],
+        logical_tie_masks=None,
+        extra_counts_per_division=[-1],
+        ),
+    )
+
+segment_maker.make_music_maker(
     stages=5,
     context_name=va,
     division_maker=makertools.DivisionMaker()

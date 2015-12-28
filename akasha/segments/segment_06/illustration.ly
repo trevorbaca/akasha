@@ -1,4 +1,4 @@
-% 2015-12-27 20:01
+% 2015-12-28 09:32
 
 \version "2.19.34"
 \language "english"
@@ -561,57 +561,16 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 4/3
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/5 {
+                            c'4
+                            c'4
+                            c'4
+                            c'4
+                            c'4
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
+                        R1 * 149/4
                         \bar "|"
                     }
                 }
