@@ -98,6 +98,7 @@ intro (15")
     grand pause
 
 [E] (2')
+
     1-8(1+halt+1+halt+1+halt+1+halt)[44]
     segment begins with mod. rhythmicized OB in viola;
     no OB in other players;
@@ -146,55 +147,66 @@ intro (15")
     ascent continues;
     va OB;
 
-    17
+    17(1)
     grand pause;
     [v1, v2, vc max. dense get. pianiss. *withheld and does not appear yet*]
 
 [F] (3')
 
-    1
+    1 (2)[44]
     tempo resets back to mod.;
     microtonal vc melody returns from beginning of piece;
-    get. represented by a single va scratch tenuto;
-    single vn1 tasto tenuto represents trills;
-    single vn2 tasto tenuto represents trills;
+    attaca;
 
-    2
-    [intercalated memory of vn1, vn2, vc dense get. pianiss. from prev. seg.]
-
-    3
-    tasto (vn1, vn2) progresses from tenuti (multiple pitches per loop) to 
-    accel. and rit. (only three pitches per loop);
-    microtonal polyphony (va, vc) gets slower and slower;
-    tasto loops (vn1, vn2) disappear;
-    microtonal polyphony (va, vc) continues across segment boundary;
-
-    4
-    vn1, vn2 get. process begins again (scratch to get.) and begins accel.;
-    va, vc, micro polyphony reaches point of maximum slowness;
-
-    5
-    va, vc, microtonal field arrives and rearticulation stops;
-    vn1, vn2 get. process still accel.;
-
-    6
-    vn1, vn2 get. reachieves previous point of next-to-maximum density;
-    va, vc microtonal field persists until end of seg. and disappears;
-    short breath;
-
-    7
-    get. subito vn1, vn2, va, vc reaches max. density (finally);
+    2-3 (2+halt)[126]
+    [intercalated memory of vn1, vn2, vc dense get. pianiss. from prev. seg.];
     breath;
 
-    8
+    4-5 (1+halt)[55]
+    single va scratch tenuto;
+    breath;
+
+    6-7 (2+halt)[89]
+    vn1, vn2 tasto tenuto loops;
+    breath;
+
+    8 (12)[89]
+    vn1, vn2 tasto loops progress from tenuti (three pitches per loop) to 
+    accel. and rit. (still three pitches per loop);
+    va, vc microtonal polyphony starts then gets slower and slower;
+    vn1, vn2 tasto loops disappear;
+    va, vc microtonal polyphony continues across segment boundary;
+
+    9 (4)[89]
+    vn1, vn2 get. pianiss. begins again but with many silenced divisions;
+    va, vc, micro polyphony reaches point of maximum slowness (though
+    rearticulation continues at very slow rate);
+    attaca;
+
+    10 (4)[89]
+    vn1, vn2 get. pianiss. fills in many silenced divisions;
+    va, vc, microtonal field arrives and rearticulation stops;
+    attaca;
+
+    11-12 (4+halt)[89-->126]
+    vn1, vn2 get. pianiss. fills in all divisions and reaches density at end of
+    previous segment;
+    va, vc microtonal field persists until end of seg. and then disappears;
+    short breath;
+
+    13-14 (6+halt)[126]
+    get. subito vn1, vn2, va, vc reaches max. density for first time in piece;
+    breath;
+
+    15-16 (1+halt)[55]
     single note of va OB pedal;
     breath;
 
-    9
+    17-32 8x(1+halt)[126]
     vn1, vn2, va, vc get. field repeats eight times;
     extremely short breath after each repetition;
 
-    10
+    33-34 (1+halt)[55]
     single note of va OB pedal;
     breath;
 
