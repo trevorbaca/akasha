@@ -176,6 +176,7 @@ intro (15")
     va, vc microtonal polyphony starts then gets slower and slower;
     vn1, vn2 tasto loops disappear;
     va, vc microtonal polyphony continues across segment boundary;
+    attaca;
 
     9 (4)[89]
     vn1, vn2 get. pianiss. begins again but with many silenced divisions;
@@ -202,11 +203,11 @@ intro (15")
     single note of va OB pedal;
     breath;
 
-    17-32 8x(1+halt)[126]
+    17-18 8x(1+halt)[126]
     vn1, vn2, va, vc get. field repeats eight times;
     extremely short breath after each repetition;
 
-    33-34 (1+halt)[55]
+    19-20 (1+halt)[55]
     single note of va OB pedal;
     breath;
 
