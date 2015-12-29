@@ -69,6 +69,122 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-#assert segment_maker.measure_count == 39, repr(segment_maker.measure_count)
-#assert segment_maker.stage_count == 17, repr(segment_maker.stage_count)
+assert segment_maker.measure_count == 48, repr(segment_maker.measure_count)
+assert segment_maker.stage_count == 20, repr(segment_maker.stage_count)
 assert segment_maker.validate_time_signatures()
+
+###############################################################################
+################################ MUSIC-MAKERS #################################
+###############################################################################
+
+### stage 1 ###
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=vc,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=[7, 1, 10, 2],
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
+
+### stage 2 ###
+
+segment_maker.make_music_maker(
+    stages=2,
+    context_name=vn1,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 2, 1, 2, 1],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[6, 4, 6, 3],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=2,
+    context_name=vn2,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 1, 2, 1, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[4, 6, 3, 6],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=2,
+    context_name=vc,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[1, 2, 1, 2, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[6, 3, 6, 4],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+### stages 4-5 ###
+
+segment_maker.make_music_maker(
+    stages=4,
+    context_name=va,
+    rhythm_maker=note_rhythm_maker,
+    )
+
+### stages 6-7 ###
+
+
+segment_maker.make_music_maker(
+    stages=6,
+    context_name=vn1,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        extra_counts_per_division=[1],
+        talea=rhythmmakertools.Talea(
+            counts=[9, 4, 8, 7],
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=6,
+    context_name=vn2,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        extra_counts_per_division=[0],
+        talea=rhythmmakertools.Talea(
+            counts=[4, 8, 7, 9],
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
