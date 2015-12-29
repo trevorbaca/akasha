@@ -151,49 +151,52 @@ intro (15")
     [v1, v2, vc max. dense get. pianiss. *withheld and does not appear yet*]
 
 [F] (3')
+
     1
     tempo resets back to mod.;
     microtonal vc melody returns from beginning of piece;
-    get. represented by a single scratch tenuto that recalls
-    beginning of previous segment;
-    single tasto tenuto represents trills;
+    get. represented by a single va scratch tenuto;
+    single vn1 tasto tenuto represents trills;
+    single vn2 tasto tenuto represents trills;
 
     2
-    [intercalated memory of v1, v2 very dense get. pianiss. from previous
-    segment]
+    [intercalated memory of vn1, vn2, vc dense get. pianiss. from prev. seg.]
 
     3
-    tasto progresses from tenuti back to loops with characteristic local
-    accel and rit. and so is effectively becoming faster;
-    microtonal polyphony is going through process of getting slower and slower;
+    tasto (vn1, vn2) progresses from tenuti (multiple pitches per loop) to 
+    accel. and rit. (only three pitches per loop);
+    microtonal polyphony (va, vc) gets slower and slower;
+    tasto loops (vn1, vn2) disappear;
+    microtonal polyphony (va, vc) continues across segment boundary;
 
     4
-    tasto loops disappear;
-    get. process begins again (with scratches, get. ord., etc etc) and begins
-    accel.;
-    micro polyphony reaches point of maximum slowness;
+    vn1, vn2 get. process begins again (scratch to get.) and begins accel.;
+    va, vc, micro polyphony reaches point of maximum slowness;
 
     5
-    microtonal field arrives;
-    tasto loops disappear;
-    get. process still accel.;
+    va, vc, microtonal field arrives and rearticulation stops;
+    vn1, vn2 get. process still accel.;
 
     6
-    get. process reachieves previous point of next-to-maximum density;
-    microtonal field persists;
+    vn1, vn2 get. reachieves previous point of next-to-maximum density;
+    va, vc microtonal field persists until end of seg. and disappears;
+    short breath;
 
     7
-    microtonal field disppears;
-    get. reaches max. density (finally) and plays a stage;
-    breath
+    get. subito vn1, vn2, va, vc reaches max. density (finally);
+    breath;
 
-    8.
-    get. repeats previous stage but with single OB pedal underneath;
-    breath
+    8
+    single note of va OB pedal;
+    breath;
 
-    9. all four players play get. field and get. field repeats eight times;
-    eighth time is made 24ET;
-    breath
+    9
+    vn1, vn2, va, vc get. field repeats eight times;
+    extremely short breath after each repetition;
+
+    10
+    single note of va OB pedal;
+    breath;
 
 [G] (1')
     1
