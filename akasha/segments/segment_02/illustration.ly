@@ -1,6 +1,6 @@
-% 2015-12-16 21:15
+% 2015-12-28 21:36
 
-\version "2.19.33"
+\version "2.19.34"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -428,17 +428,7 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 3/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 19/6
                         \times 2/3 {
                             r4
                             c'8
@@ -476,10 +466,7 @@
                             c'4 \repeatTie
                             c'16 \repeatTie
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
+                        R1 * 1/6
                         r4.
                         {
                             c'4.
@@ -490,10 +477,7 @@
                             c'8.
                         }
                         r4.
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
+                        R1 * 1/6
                         r4
                         r4
                         r4
@@ -510,26 +494,8 @@
                         r4
                         r4
                         r4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                            \bar "|"
-                        }
+                        R1 * 9/2
+                        \bar "|"
                     }
                 }
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
@@ -545,12 +511,7 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 3/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 11/6
                         \times 2/3 {
                             r16
                             c'32 [
@@ -567,10 +528,7 @@
                             c'32 ]
                             r16
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         r4
                         r4
                         r4
@@ -590,10 +548,7 @@
                             c'4
                         }
                         r4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
+                        R1 * 1/6
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             r16
@@ -612,10 +567,7 @@
                         }
                         r4.
                         r4.
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
+                        R1 * 1/6
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             r4
@@ -680,26 +632,8 @@
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                            \bar "|"
-                        }
+                        R1 * 9/2
+                        \bar "|"
                     }
                 }
                 \context ViolaMusicStaff = "Viola Music Staff" {
@@ -715,12 +649,7 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 11/6
                         r4
                         \times 4/5 {
                             c'32 [
@@ -731,10 +660,7 @@
                         }
                         r4
                         r4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         r4
                         r4
                         r4
@@ -761,10 +687,7 @@
                             c'4 \repeatTie
                             c'16 \repeatTie
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
+                        R1 * 1/6
                         r4.
                         r4.
                         {
@@ -775,10 +698,7 @@
                             c'4..
                             c'16
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
+                        R1 * 1/6
                         r4
                         r4
                         r4
@@ -795,26 +715,8 @@
                         r4
                         r4
                         r4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                            \bar "|"
-                        }
+                        R1 * 9/2
+                        \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
@@ -830,22 +732,14 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        c'2
-                        c'16 [
+                        c'4..
+                        c'16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
-                        c'4 \repeatTie
+                        c'4
+                        c'4. \repeatTie
                         c'8
-                        c'4.
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        c'4
+                        R1 * 5/3
                         r4
                         r4
                         r4
@@ -863,10 +757,7 @@
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'8. ]
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
+                        R1 * 1/6
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             c'4.
@@ -885,10 +776,7 @@
                             c'4
                             c'16
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
+                        R1 * 1/6
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             c'4.
@@ -953,26 +841,8 @@
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                        }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                            \bar "|"
-                        }
+                        R1 * 9/2
+                        \bar "|"
                     }
                 }
             >>

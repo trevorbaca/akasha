@@ -71,7 +71,7 @@ segment_maker.make_music_maker(
     context_name=vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
-            counts=[8, 1, 7, 2],
+            counts=[7, 1, 10, 2],
             denominator=16,
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -91,7 +91,7 @@ segment_maker.make_music_maker(
             ),
         extra_counts_per_division=[4, 2],
         division_masks=[
-            rhythmmakertools.silence_every(indices=[1, 2], period=4),
+            silence_every([1, 2], period=4),
             ],
         ),
     )
@@ -107,7 +107,7 @@ segment_maker.make_music_maker(
             ),
         extra_counts_per_division=[4, 2],
         division_masks=[
-            rhythmmakertools.silence_every(indices=[0, 2, 3], period=4),
+            silence_every([0, 2, 3], period=4),
             ],
         ),
     )
@@ -122,7 +122,7 @@ segment_maker.make_music_maker(
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             logical_tie_masks=[
-                rhythmmakertools.silence_first(1),
+                silence_first(1),
                 ],
             counts=counts,
             denominator=16,
@@ -143,8 +143,8 @@ segment_maker.copy_music_maker(
     context_name=vn2,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -1),
     rhythm_maker__division_masks=[
-        rhythmmakertools.silence_first(4),
-        rhythmmakertools.silence_last(1),
+        silence_first(4),
+        silence_last(1),
         ],
     )
 
@@ -154,7 +154,7 @@ segment_maker.copy_music_maker(
     context_name=va,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
     rhythm_maker__division_masks=[
-        rhythmmakertools.silence_first(3),
+        silence_first(3),
         ],
     )
     
@@ -164,7 +164,7 @@ segment_maker.copy_music_maker(
     context_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
     rhythm_maker__division_masks=[
-        rhythmmakertools.silence_first(6),
+        silence_first(6),
         ],
     )
 
@@ -179,8 +179,8 @@ segment_maker.make_music_maker(
             ),
         extra_counts_per_division=[2, 0, 1],
         division_masks=[
-            rhythmmakertools.silence_first(1),
-            rhythmmakertools.silence_last(1),
+            silence_first(1),
+            silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
@@ -197,7 +197,7 @@ segment_maker.copy_music_maker(
     context_name=va,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
     rhythm_maker__division_masks=[
-        rhythmmakertools.silence_first(2),
+        silence_first(2),
         ],
     )
 
@@ -221,7 +221,7 @@ segment_maker.make_music_maker(
             ),
         extra_counts_per_division=[4, 2],
         division_masks=[
-            rhythmmakertools.silence_last(2),
+            silence_last(2),
             ],
         ),
     )
@@ -232,9 +232,9 @@ segment_maker.make_music_maker(
     division_maker=quarter_division_maker,
     rhythm_maker=note_rhythm_maker,
     rhythm_maker__division_masks=[
-        rhythmmakertools.silence_first(4),
-        rhythmmakertools.silence_every(indices=[2, 4], period=5),
-        rhythmmakertools.silence_last(4),
+        silence_first(4),
+        silence_every(indices=[2, 4], period=5),
+        silence_last(4),
         ],
     )
 
@@ -247,7 +247,7 @@ segment_maker.make_music_maker(
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             logical_tie_masks=[
-                rhythmmakertools.SilenceMask(indices=[0, 1, 6, 7, 8, 9]),
+                silence(indices=[0, 1, 6, 7, 8, 9]),
                 ],
             counts=sequencetools.rotate_sequence(counts, -1),
             denominator=16,
@@ -267,9 +267,9 @@ segment_maker.copy_music_maker(
     9,
     context_name=va,
     rhythm_maker__division_masks=[
-        rhythmmakertools.silence_first(4),
-        rhythmmakertools.silence_every(indices=[0, 4], period=6),
-        rhythmmakertools.silence_last(4),
+        silence_first(4),
+        silence_every(indices=[0, 4], period=6),
+        silence_last(4),
         ],
     )
 
@@ -279,6 +279,6 @@ segment_maker.copy_music_maker(
     context_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
     rhythm_maker__talea__logical_tie_masks=[
-        rhythmmakertools.SilenceMask(indices=[6, 7, 8, 9]),
+        silence([6, 7, 8, 9]),
         ],
     )

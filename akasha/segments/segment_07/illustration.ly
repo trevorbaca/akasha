@@ -1,4 +1,4 @@
-% 2015-12-28 20:51
+% 2015-12-28 22:00
 
 \version "2.19.34"
 \language "english"
@@ -713,70 +713,103 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 7/4
+                        \times 8/14 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/8
+                        \times 8/11 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
+                        R1 * 11/4
+                        \times 4/5 {
+                            c'4
+                            c'16 \repeatTie
+                        }
+                        \times 4/5 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'16
+                        }
+                        \times 4/5 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8. \repeatTie [
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'16 \repeatTie
+                        }
+                        \times 4/5 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'16 \repeatTie
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4
+                        }
+                        \times 4/5 {
+                            c'8. \repeatTie [
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'16 \repeatTie
+                        }
+                        R1 * 241/6
+                        \bar "|"
                     }
                 }
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
@@ -792,70 +825,90 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 7/4
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \times 8/11 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/8
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
+                        R1 * 11/4
+                        {
+                            c'4
+                        }
+                        {
+                            c'4
+                        }
+                        {
+                            c'4 \repeatTie
+                        }
+                        {
+                            c'4
+                        }
+                        {
+                            c'8. \repeatTie [
+                            c'16 ]
+                        }
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                        }
+                        {
+                            c'4 \repeatTie
+                        }
+                        R1 * 241/6
+                        \bar "|"
                     }
                 }
                 \context ViolaMusicStaff = "Viola Music Staff" {
@@ -871,70 +924,10 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/8
-                        }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        R1 * 19/4
+                        c'2.
+                        R1 * 515/12
+                        \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
@@ -950,70 +943,75 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        c'4. \repeatTie
+                        c'8
+                        c'4..
+                        c'16
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \times 8/11 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/8
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
+                        \times 8/14 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
+                        R1 * 134/3
+                        \bar "|"
                     }
                 }
             >>
