@@ -156,7 +156,6 @@ segment_maker.make_music_maker(
 
 ### stages 6-7 ###
 
-
 segment_maker.make_music_maker(
     stages=6,
     context_name=vn1,
@@ -187,4 +186,42 @@ segment_maker.make_music_maker(
             use_messiaen_style_ties=True,
             )
         )
+    )
+
+### stage 8 ###
+
+counts = [7, 4, 11, 8]
+counts += [14, 8, 11, 8]
+counts += [14, 8, 22, 16]
+counts += [28, 16, 22, 16]
+counts += [46, 32, 22, 16]
+
+#viola_counts = sequencetools.partition_sequence_by_counts
+
+
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=va,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=counts,
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        ),
+    )
+
+### MUSIC-HANDLERS ###
+
+segment_maker.make_music_handler(
+    scope=(va, (8, 8)),
+    specifiers=[
+        pitch_specifier(
+            source=[NamedPitch(-6), 0, 3, 9],
+            ),
+        ],
     )
