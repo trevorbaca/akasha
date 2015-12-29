@@ -1,4 +1,4 @@
-% 2015-12-28 22:00
+% 2015-12-29 12:07
 
 \version "2.19.34"
 \language "english"
@@ -926,7 +926,90 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         R1 * 19/4
                         c'2.
-                        R1 * 515/12
+                        R1 * 15/4
+                        fs4
+                        fs8. \repeatTie [
+                        c'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'8. \repeatTie [
+                        ef'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        ef'4 \repeatTie
+                        ef'4 \repeatTie
+                        ef'8 \repeatTie [
+                        a'8 ]
+                        a'4 \repeatTie
+                        a'8 \repeatTie [
+                        fs8 ]
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        c'4
+                        c'4 \repeatTie
+                        ef'4
+                        ef'4 \repeatTie
+                        ef'8. \repeatTie [
+                        a'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a'4 \repeatTie
+                        a'8. \repeatTie [
+                        fs16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        fs16 \repeatTie [
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'8. ]
+                        c'4 \repeatTie
+                        c'16 \repeatTie [
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        ef'8. ]
+                        ef'4 \repeatTie
+                        ef'4 \repeatTie
+                        ef'4 \repeatTie
+                        ef'4 \repeatTie
+                        ef'8. \repeatTie [
+                        a'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a'4 \repeatTie
+                        a'4 \repeatTie
+                        a'4 \repeatTie
+                        a'8. \repeatTie [
+                        fs16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        fs8. \repeatTie [
+                        c'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4 \repeatTie
+                        c'4 \repeatTie
+                        c'4 \repeatTie
+                        c'8. \repeatTie [
+                        ef'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        ef'4 \repeatTie
+                        ef'4 \repeatTie
+                        ef'4 \repeatTie
+                        ef'4 \repeatTie
+                        ef'4 \repeatTie
+                        ef'16 \repeatTie [
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a'8. ]
+                        a'4 \repeatTie
+                        a'4 \repeatTie
+                        a'4 \repeatTie
+                        a'16 \repeatTie [
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        fs8. ]
+                        fs4 \repeatTie
+                        fs4 \repeatTie
+                        R1 * 151/6
                         \bar "|"
                     }
                 }
