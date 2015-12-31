@@ -1,4 +1,4 @@
-% 2015-12-31 08:47
+% 2015-12-31 16:37
 
 \version "2.19.34"
 \language "english"
@@ -887,10 +887,10 @@
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
                             c'16 * 241/32 [
-                            c'16 * 49/8
+                            r16 * 49/8
                             c'16 * 243/64
                             c'16 * 165/64
-                            c'16 * 33/16
+                            r16 * 33/16
                             c'16 * 61/32 ]
                             \revert Staff.Stem #'stemlet-length
                         }
@@ -901,11 +901,11 @@
                         }
                         \times 4/5 {
                             c'4
-                            c'16 ~
+                            r16
                         }
                         \times 4/5 {
-                            c'8. [
-                            c'8 ~ ]
+                            r8.
+                            c'8 ~
                         }
                         \times 4/5 {
                             c'4 ~
@@ -916,19 +916,19 @@
                             c'4 ~
                         }
                         \times 4/5 {
-                            c'8. [
-                            c'8 ~ ]
+                            c'8.
+                            r8
                         }
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            r4
+                            r16
                         }
                         \times 4/5 {
-                            c'8 [
-                            c'8. ~ ]
+                            r8
+                            r8.
                         }
                         \times 4/5 {
-                            c'16
+                            r16
                             c'4 ~
                         }
                         \times 4/5 {
@@ -974,15 +974,15 @@
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
                             c'16 * 31/4 [
-                            c'16 * 233/32
+                            r16 * 233/32
                             c'16 * 393/64
                             c'16 * 39/8
-                            c'16 * 123/32
-                            c'16 * 25/8
+                            r16 * 123/32
+                            r16 * 25/8
                             c'16 * 169/64
                             c'16 * 37/16
                             c'16 * 135/64
-                            c'16 * 127/64
+                            r16 * 127/64
                             c'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
@@ -993,11 +993,11 @@
                         }
                         \times 4/5 {
                             c'4
-                            c'16 ~
+                            r16
                         }
                         \times 4/5 {
-                            c'8. [
-                            c'8 ~ ]
+                            r8.
+                            c'8 ~
                         }
                         \times 4/5 {
                             c'4 ~
@@ -1046,15 +1046,15 @@
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
                             c'16 * 31/4 [
-                            c'16 * 233/32
+                            r16 * 233/32
                             c'16 * 393/64
                             c'16 * 39/8
-                            c'16 * 123/32
-                            c'16 * 25/8
+                            r16 * 123/32
+                            r16 * 25/8
                             c'16 * 169/64
                             c'16 * 37/16
                             c'16 * 135/64
-                            c'16 * 127/64
+                            r16 * 127/64
                             c'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
