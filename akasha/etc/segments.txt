@@ -176,7 +176,6 @@ intro (15")
     use multiple imbricated division callbacks to effect alternation
     between tenuti and feather beams;
     va, vc microtonal polyphony starts then gets slower and slower;
-    use long talea with every precalculated for additive slowdown;
     vn1, vn2 tasto loops disappear at end of segment;
     va, vc microtonal polyphony continues across segment boundary;
     attaca;
