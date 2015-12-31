@@ -368,6 +368,182 @@ segment_maker.make_music_maker(
         ),
     )
 
+### violin 2 ###
+
+#ratio = Ratio((2, 1, 2, 2, 1, 2))
+ratio = Ratio((1, 1, 2, 2, 1, 2))
+silence_pattern = select_every([1], period=4) | select_every([4], period=5)
+silence_mask = silence(silence_pattern)
+sustain_mask = sustain([0, -1])
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=vn2,
+    division_callbacks=sequence().
+        partition_by_ratio_of_lengths(ratio)
+        [0]
+        ,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        extra_counts_per_division=[2],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
+        talea=rhythmmakertools.Talea(
+            counts=[9, 4, 8, 7],
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=False,
+            )
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=vn2,
+    division_callbacks=sequence().
+        partition_by_ratio_of_lengths(ratio)
+        [1].
+        sum()
+        ,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
+            ),
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 2),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=vn2,
+    division_callbacks=sequence().
+        partition_by_ratio_of_lengths(ratio)
+        [2]
+        ,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        extra_counts_per_division=[2],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
+        talea=rhythmmakertools.Talea(
+            counts=[9, 4, 8, 7],
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=False,
+            )
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=vn2,
+    division_callbacks=sequence().
+        partition_by_ratio_of_lengths(ratio)
+        [3].
+        sum()
+        ,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
+            ),
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 2),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=vn2,
+    division_callbacks=sequence().
+        partition_by_ratio_of_lengths(ratio)
+        [4]
+        ,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        extra_counts_per_division=[2],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
+        talea=rhythmmakertools.Talea(
+            counts=[9, 4, 8, 7],
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=False,
+            )
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=vn2,
+    division_callbacks=sequence().
+        partition_by_ratio_of_lengths(ratio)
+        [5].
+        sum()
+        ,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
+            ),
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 2),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
 r'''
 1~1 1 1~1 1 1 1~1~1 1~1 1 1~1~1~1~1~1~1
 1 1~1~1 1~1~1~1 1 1~1 1~1~1 1~1~1~1~1~1
