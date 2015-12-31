@@ -190,15 +190,28 @@ segment_maker.make_music_maker(
 
 ### stage 8 ###
 
+r'''
+1~1 1 1~1 1 1 1~1~1 1~1 1 1~1 1 1 1~1~1
+1 1~1~1 1~1~1~1 1 1~1 1~1~1 1~1~1~1 1~1
+'''
+
 counts = [7, 4, 11, 8]
 counts += [14, 8, 11, 8]
 counts += [14, 8, 22, 16]
 counts += [28, 16, 22, 16]
 counts += [46, 32, 22, 16]
+counts = Sequence(counts)
+assert len(counts) == 20
 
-#viola_counts = sequencetools.partition_sequence_by_counts
+viola_counts = [2, 1, 2, 1, 1, 3, 2, 1, 7]
+assert sum(viola_counts) == len(counts)
+viola_counts = counts.partition_by_counts(viola_counts, overhang=Exact)
+viola_counts = [sum(_) for _ in viola_counts]
 
-
+cello_counts = [1, 3, 4, 1, 2, 3, 6]
+assert sum(cello_counts) == len(counts)
+cello_counts = counts.partition_by_counts(cello_counts, overhang=Exact)
+cello_counts = [sum(_) for _ in cello_counts]
 
 segment_maker.make_music_maker(
     stages=8,
@@ -206,19 +219,45 @@ segment_maker.make_music_maker(
     division_maker=quarter_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
-            counts=counts,
+            counts=viola_counts,
             denominator=16,
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+            use_messiaen_style_ties=False,
+            )
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=8,
+    context_name=vc,
+    division_maker=quarter_division_maker,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=cello_counts,
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=False,
             )
         ),
     )
 
 ### MUSIC-HANDLERS ###
 
+# TODO: to visually distintuish tie-chains; remove later
 segment_maker.make_music_handler(
     scope=(va, (8, 8)),
+    specifiers=[
+        pitch_specifier(
+            source=[NamedPitch(-6), 0, 3, 9],
+            ),
+        ],
+    )
+
+# TODO: to visually distintuish tie-chains; remove later
+segment_maker.make_music_handler(
+    scope=(vc, (8, 8)),
     specifiers=[
         pitch_specifier(
             source=[NamedPitch(-6), 0, 3, 9],
