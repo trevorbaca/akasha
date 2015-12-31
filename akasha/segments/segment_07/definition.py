@@ -197,6 +197,8 @@ r'''
 
 ratio = Ratio((2, 1, 2, 2, 1, 2))
 silence_pattern = select_every([1], period=4) | select_every([4], period=5)
+silence_mask = silence(silence_pattern)
+sustain_mask = sustain([0, -1])
 
 segment_maker.make_music_maker(
     stages=8,
@@ -208,11 +210,13 @@ segment_maker.make_music_maker(
     division_maker=quarter_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[1],
-        #logical_tie_masks=silence(silence_pattern),
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
         talea=rhythmmakertools.Talea(
             counts=[9, 4, 8, 7],
             denominator=16,
-            logical_tie_masks=silence(silence_pattern),
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=False,
@@ -242,6 +246,10 @@ segment_maker.make_music_maker(
                 written_duration=Duration(1, 16),
                 ),
             ],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
         tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
             use_note_duration_bracket=True,
             ),
@@ -258,6 +266,10 @@ segment_maker.make_music_maker(
     division_maker=quarter_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[1],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
         talea=rhythmmakertools.Talea(
             counts=[9, 4, 8, 7],
             denominator=16,
@@ -290,6 +302,10 @@ segment_maker.make_music_maker(
                 written_duration=Duration(1, 16),
                 ),
             ],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
         tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
             use_note_duration_bracket=True,
             ),
@@ -306,6 +322,10 @@ segment_maker.make_music_maker(
     division_maker=quarter_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[1],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
+            ],
         talea=rhythmmakertools.Talea(
             counts=[9, 4, 8, 7],
             denominator=16,
@@ -337,6 +357,10 @@ segment_maker.make_music_maker(
                 stop_duration=Duration(1, 8),
                 written_duration=Duration(1, 16),
                 ),
+            ],
+        logical_tie_masks=[
+            silence_mask,
+            sustain_mask,
             ],
         tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
             use_note_duration_bracket=True,
