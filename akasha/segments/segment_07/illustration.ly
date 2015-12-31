@@ -1,4 +1,4 @@
-% 2015-12-30 22:27
+% 2015-12-31 08:47
 
 \version "2.19.34"
 \language "english"
@@ -815,11 +815,11 @@
                         }
                         \times 4/5 {
                             c'4
-                            c'16 ~
+                            r16
                         }
                         \times 4/5 {
-                            c'8. [
-                            c'8 ~ ]
+                            r8.
+                            c'8 ~
                         }
                         \times 4/5 {
                             c'4 ~
@@ -830,19 +830,19 @@
                             c'4 ~
                         }
                         \times 4/5 {
-                            c'8. [
-                            c'8 ~ ]
+                            c'8.
+                            r8
                         }
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            r4
+                            r16
                         }
                         \times 4/5 {
-                            c'8 [
-                            c'8. ~ ]
+                            r8
+                            r8.
                         }
                         \times 4/5 {
-                            c'16
+                            r16
                             c'4 ~
                         }
                         \times 4/5 {
@@ -886,15 +886,12 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 239/64 [
-                            c'16 * 231/64
-                            c'16 * 105/32
-                            c'16 * 23/8
-                            c'16 * 5/2
-                            c'16 * 71/32
-                            c'16 * 129/64
-                            c'16 * 61/32
-                            c'16 * 119/64 ]
+                            c'16 * 241/32 [
+                            c'16 * 49/8
+                            c'16 * 243/64
+                            c'16 * 165/64
+                            c'16 * 33/16
+                            c'16 * 61/32 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -976,21 +973,16 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 247/64 [
-                            c'16 * 245/64
-                            c'16 * 237/64
-                            c'16 * 113/32
-                            c'16 * 213/64
-                            c'16 * 199/64
-                            c'16 * 185/64
-                            c'16 * 43/16
-                            c'16 * 5/2
-                            c'16 * 75/32
-                            c'16 * 71/32
+                            c'16 * 31/4 [
+                            c'16 * 233/32
+                            c'16 * 393/64
+                            c'16 * 39/8
+                            c'16 * 123/32
+                            c'16 * 25/8
+                            c'16 * 169/64
+                            c'16 * 37/16
                             c'16 * 135/64
-                            c'16 * 65/32
                             c'16 * 127/64
-                            c'16 * 31/16
                             c'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
@@ -1053,21 +1045,16 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 247/64 [
-                            c'16 * 245/64
-                            c'16 * 237/64
-                            c'16 * 113/32
-                            c'16 * 213/64
-                            c'16 * 199/64
-                            c'16 * 185/64
-                            c'16 * 43/16
-                            c'16 * 5/2
-                            c'16 * 75/32
-                            c'16 * 71/32
+                            c'16 * 31/4 [
+                            c'16 * 233/32
+                            c'16 * 393/64
+                            c'16 * 39/8
+                            c'16 * 123/32
+                            c'16 * 25/8
+                            c'16 * 169/64
+                            c'16 * 37/16
                             c'16 * 135/64
-                            c'16 * 65/32
                             c'16 * 127/64
-                            c'16 * 31/16
                             c'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
