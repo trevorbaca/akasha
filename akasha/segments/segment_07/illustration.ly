@@ -1,4 +1,4 @@
-% 2015-12-30 21:08
+% 2015-12-30 21:23
 
 \version "2.19.34"
 \language "english"
@@ -808,7 +808,82 @@
                             c'4 \repeatTie
                             c'16 \repeatTie
                         }
-                        R1 * 241/6
+                        R1 * 1
+                        \times 4/5 {
+                            c'4 ~
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'4
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'8. [
+                            c'8 ~ ]
+                        }
+                        \times 4/5 {
+                            c'4 ~
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'16
+                            c'4 ~
+                        }
+                        \times 4/5 {
+                            c'8. [
+                            c'8 ~ ]
+                        }
+                        \times 4/5 {
+                            c'4 ~
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8. ~ ]
+                        }
+                        \times 4/5 {
+                            c'16
+                            c'4 ~
+                        }
+                        \times 4/5 {
+                            c'4
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'4 ~
+                            c'16
+                        }
+                        {
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'4
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        {
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'4
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        {
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'4
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        {
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'4
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        {
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'4
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        {
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'4
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        R1 * 419/12
                         \bar "|"
                     }
                 }
