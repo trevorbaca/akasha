@@ -1,4 +1,4 @@
-% 2015-12-30 21:23
+% 2015-12-30 22:27
 
 \version "2.19.34"
 \language "english"
@@ -853,37 +853,226 @@
                             c'4 ~
                             c'16
                         }
-                        {
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'4
+                            c'16 * 239/64 [
+                            c'16 * 231/64
+                            c'16 * 105/32
+                            c'16 * 23/8
+                            c'16 * 5/2
+                            c'16 * 71/32
+                            c'16 * 129/64
+                            c'16 * 61/32
+                            c'16 * 119/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
-                        {
-                            \override Staff.Stem #'stemlet-length = #0.75
+                        \revert TupletNumber #'text
+                        \times 4/5 {
+                            c'4 ~
+                            c'16 ~
+                        }
+                        \times 4/5 {
                             c'4
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'8. [
+                            c'8 ~ ]
+                        }
+                        \times 4/5 {
+                            c'4 ~
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'16
+                            c'4 ~
+                        }
+                        \times 4/5 {
+                            c'8. [
+                            c'8 ~ ]
+                        }
+                        \times 4/5 {
+                            c'4 ~
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'8 [
+                            c'8. ~ ]
+                        }
+                        \times 4/5 {
+                            c'16
+                            c'4 ~
+                        }
+                        \times 4/5 {
+                            c'4
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'4 ~
+                            c'16
+                        }
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'\breve ~
+                                                c'2.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 247/64 [
+                            c'16 * 245/64
+                            c'16 * 237/64
+                            c'16 * 113/32
+                            c'16 * 213/64
+                            c'16 * 199/64
+                            c'16 * 185/64
+                            c'16 * 43/16
+                            c'16 * 5/2
+                            c'16 * 75/32
+                            c'16 * 71/32
+                            c'16 * 135/64
+                            c'16 * 65/32
+                            c'16 * 127/64
+                            c'16 * 31/16
+                            c'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
-                        {
-                            \override Staff.Stem #'stemlet-length = #0.75
+                        \revert TupletNumber #'text
+                        \times 4/5 {
+                            c'4 ~
+                            c'16 ~
+                        }
+                        \times 4/5 {
                             c'4
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'8. [
+                            c'8 ~ ]
+                        }
+                        \times 4/5 {
+                            c'4 ~
+                            c'16 ~
+                        }
+                        \times 4/5 {
+                            c'16
+                            c'4 ~
+                        }
+                        \times 4/5 {
+                            c'8. [
+                            c'8 ]
+                        }
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'\breve ~
+                                                c'2.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 247/64 [
+                            c'16 * 245/64
+                            c'16 * 237/64
+                            c'16 * 113/32
+                            c'16 * 213/64
+                            c'16 * 199/64
+                            c'16 * 185/64
+                            c'16 * 43/16
+                            c'16 * 5/2
+                            c'16 * 75/32
+                            c'16 * 71/32
+                            c'16 * 135/64
+                            c'16 * 65/32
+                            c'16 * 127/64
+                            c'16 * 31/16
+                            c'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
-                        {
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            c'4
-                            \revert Staff.Stem #'stemlet-length
-                        }
-                        {
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            c'4
-                            \revert Staff.Stem #'stemlet-length
-                        }
-                        {
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            c'4
-                            \revert Staff.Stem #'stemlet-length
-                        }
-                        R1 * 419/12
+                        \revert TupletNumber #'text
+                        R1 * 151/6
                         \bar "|"
                     }
                 }
