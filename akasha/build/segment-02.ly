@@ -157,15 +157,30 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
                     \mark #1
                     s1 * 3/4 \startTextSpan
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A1]
+                            }
                 }
                 {
                     s1 * 3/4
                 }
                 {
                     \time 1/3
-                    s1 * 1/3 \stopTextSpan ^ \markup {
+                    s1 * 1/3 \stopTextSpan
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A2]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -184,6 +199,30 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                    \newSpacingSection
+                    s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A3]
+                            }
+                }
+                {
+                    \time 1/3
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A4]
+                            }
+                }
+                {
+                    \time 5/4
                     \once \override TextSpanner.arrow-width = 0.25
                     \once \override TextSpanner.bound-details.left-broken.padding = 0
                     \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -216,15 +255,13 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
-                    s1 * 1 \startTextSpan
-                }
-                {
-                    \time 1/3
-                    s1 * 1/3
-                }
-                {
-                    \time 5/4
-                    s1 * 5/4
+                    s1 * 5/4 \startTextSpan
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A5]
+                            }
                 }
                 {
                     \time 4/4
@@ -233,14 +270,33 @@
                 {
                     \time 1/6
                     s1 * 1/6
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A6]
+                            }
                 }
                 {
                     \time 6/4
                     s1 * 3/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A7]
+                            }
                 }
                 {
                     \time 1/6
-                    s1 * 1/6 \stopTextSpan ^ \markup {
+                    s1 * 1/6 \stopTextSpan
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A8]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -260,6 +316,12 @@
                 {
                     \time 6/4
                     s1 * 3/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A9]
+                            }
                 }
                 {
                     s1 * 3/2
@@ -271,30 +333,72 @@
                 {
                     \time 1/6
                     s1 * 1/6
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A10]
+                            }
                 }
                 {
                     \time 6/4
                     s1 * 3/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A11]
+                            }
                 }
                 {
                     \time 1/3
                     s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A12]
+                            }
                 }
                 {
                     \time 5/4
                     s1 * 5/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A13]
+                            }
                 }
                 {
                     \time 1/3
                     s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A14]
+                            }
                 }
                 {
                     \time 3/4
                     s1 * 3/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A15]
+                            }
                 }
                 {
                     \time 1/6
                     s1 * 1/6
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [A16]
+                            }
                 }
             }
         >>
@@ -313,51 +417,74 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 3/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
+                        R1 * 19/6
                         \times 2/3 {
-                            R1 * 1/2
+                            r4
+                            c'8
                         }
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
                         }
-                        R1 * 5/4
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        \times 4/5 {
+                            c'4 \repeatTie
+                            c'16 \repeatTie
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8 \repeatTie [
+                            c'8 ]
                         }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        {
+                            c'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8. ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \times 4/5 {
+                            c'8. \repeatTie [
+                            c'8 ]
                         }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
                         }
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                            \bar "|"
+                        {
+                            c'4 \repeatTie
                         }
+                        \times 4/5 {
+                            c'4 \repeatTie
+                            c'16 \repeatTie
+                        }
+                        R1 * 1/6
+                        r4.
+                        {
+                            c'4.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'4
+                            c'8.
+                        }
+                        r4.
+                        R1 * 1/6
+                        r4
+                        r4
+                        r4
+                        r4
+                        r4
+                        c'4
+                        c'4
+                        r4
+                        c'4
+                        r4
+                        c'4
+                        c'4
+                        r4
+                        r4
+                        r4
+                        r4
+                        R1 * 9/2
+                        \bar "|"
                     }
                 }
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
@@ -373,64 +500,129 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 3/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
+                        R1 * 11/6
                         \times 2/3 {
-                            R1 * 1/2
+                            r16
+                            c'32 [
+                            c'32 ]
+                            r8
+                            r8
                         }
-                        c'16 [
-                        c'16 ~
-                        c'16
-                        c'16
-                        c'8
-                        c'16
-                        c'16 ~
-                        c'16
-                        c'16
-                        c'8
-                        c'16
-                        c'16 ~
-                        c'16
-                        c'16 ]
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        r4
+                        r4
+                        \times 4/5 {
+                            r8
+                            r16
+                            c'32 [
+                            c'32 ]
+                            r16
                         }
-                        R1 * 5/4
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        R1 * 1/3
+                        r4
+                        r4
+                        r4
+                        r4
+                        {
+                            c'8. [
+                            c'16 ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        \times 4/5 {
+                            c'4
+                            c'16
                         }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        {
+                            c'4
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        {
+                            c'4
                         }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        r4
+                        R1 * 1/6
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r16
+                            c'32 [
+                            c'32 ]
+                            r8
+                            r8
+                            c'32 [
+                            c'32
+                            c'32 ]
+                            r32
                         }
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                            \bar "|"
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r4..
                         }
+                        r4.
+                        r4.
+                        R1 * 1/6
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r4
+                            r8.
+                            c'16
+                        }
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'16 ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'8.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8. ]
+                            r4
+                        }
+                        {
+                            r8
+                            r4
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            r4
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4.
+                            c'16
+                        }
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'8
+                        }
+                        \times 4/5 {
+                            c'8 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8. ]
+                        }
+                        {
+                            c'4
+                        }
+                        {
+                            c'4
+                        }
+                        \times 4/5 {
+                            c'16 \repeatTie
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4
+                        }
+                        R1 * 9/2
+                        \bar "|"
                     }
                 }
                 \context ViolaMusicStaff = "Viola Music Staff" {
@@ -446,51 +638,74 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 11/6
+                        r4
+                        \times 4/5 {
+                            c'32 [
+                            c'32
+                            c'32 ]
+                            r32
+                            r8.
                         }
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        r4
+                        r4
+                        R1 * 1/3
+                        r4
+                        r4
+                        r4
+                        {
+                            c'4
                         }
-                        R1 * 5/4
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        {
+                            c'4
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        \times 4/5 {
+                            c'8. [
+                            c'8 ]
                         }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
                         \times 2/3 {
-                            R1 * 1/4
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8 \repeatTie
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        {
+                            c'4 \repeatTie
                         }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \times 4/5 {
+                            c'4 \repeatTie
+                            c'16 \repeatTie
                         }
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                            \bar "|"
+                        R1 * 1/6
+                        r4.
+                        r4.
+                        {
+                            c'4.
                         }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'4..
+                            c'16
+                        }
+                        R1 * 1/6
+                        r4
+                        r4
+                        r4
+                        r4
+                        r4
+                        c'4
+                        r4
+                        c'4
+                        c'4
+                        c'4
+                        r4
+                        c'4
+                        r4
+                        r4
+                        r4
+                        r4
+                        R1 * 9/2
+                        \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
@@ -506,56 +721,117 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        c'2
-                        c'16 [
+                        c'4..
+                        c'16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
-                        c'4 \repeatTie
+                        c'4
+                        c'4. \repeatTie
                         c'8
-                        c'4.
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        c'4
+                        R1 * 5/3
+                        r4
+                        r4
+                        r4
+                        r4
+                        r4
+                        r4
+                        {
+                            c'4
                         }
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        {
+                            c'4
                         }
-                        R1 * 5/4
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        \times 4/5 {
+                            c'8 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8. ]
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        R1 * 1/6
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'4.
+                            c'8
                         }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4. \repeatTie
                         }
-                        R1 * 3/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        {
+                            c'4. \repeatTie
                         }
-                        R1 * 5/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'8. \repeatTie
+                            c'4
+                            c'16
                         }
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/4
-                            \bar "|"
+                        R1 * 1/6
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'4.
+                            c'8
                         }
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8. \repeatTie [
+                            c'8. ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            c'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8.
+                            c'8. ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            c'8. \repeatTie
+                            c'4
+                            c'16 \repeatTie
+                        }
+                        {
+                            r4
+                            r8
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/7 {
+                            r16
+                            r4.
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 3/4 {
+                            r4
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8.
+                        }
+                        {
+                            c'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8.
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'4 \repeatTie
+                            c'16
+                        }
+                        \times 2/3 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'8
+                        }
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8 \repeatTie [
+                            c'8 ]
+                        }
+                        \times 4/5 {
+                            c'16 \repeatTie
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4
+                        }
+                        R1 * 9/2
+                        \bar "|"
                     }
                 }
             >>
