@@ -173,8 +173,6 @@ intro (15")
     8 (12)[89]
     vn1, vn2 tasto loops progress from tenuti (three pitches per loop) to 
     accel. and rit. (still three pitches per loop);
-    use multiple imbricated division callbacks to effect alternation
-    between tenuti and feather beams;
     va, vc microtonal polyphony starts then gets slower and slower;
     vn1, vn2 tasto loops disappear at end of segment;
     va, vc microtonal polyphony continues across segment boundary;
