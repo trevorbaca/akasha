@@ -1,4 +1,4 @@
-% 2015-12-31 16:42
+% 2016-01-01 15:39
 
 \version "2.19.34"
 \language "english"
@@ -1422,67 +1422,413 @@
                         R1 * 19/4
                         c'2.
                         R1 * 15/4
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                            ^ \markup {
+                                \small
+                                    11/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs8. [
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'16 ~ ]
+                            ^ \markup {
+                                \small
+                                    11/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'8 [
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'8 ~ ]
+                            ^ \markup {
+                                \small
+                                    22/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'4 ~
+                            ^ \markup {
+                                \small
+                                    8/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'4
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                            ^ \markup {
+                                \small
+                                    11/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs8. [
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'16 ~ ]
+                            ^ \markup {
+                                \small
+                                    30/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         c'16 [
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'8. ~ ]
+                            ^ \markup {
+                                \small
+                                    38/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         ef'8. [
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'16 ~ ]
+                            ^ \markup {
+                                \small
+                                    28/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         a'8. [
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs16 ~ ]
+                            ^ \markup {
+                                \small
+                                    65/16
+                                }
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4 ~
+                        \once \override Accidental #'color = #red
+                        \once \override Beam #'color = #red
+                        \once \override Dots #'color = #red
+                        \once \override NoteHead #'color = #red
+                        \once \override Stem #'color = #red
                         fs4
                         R1 * 151/6
                         \bar "|"
@@ -1569,67 +1915,405 @@
                             c'16 ]
                         }
                         R1 * 11/2
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs4 ~
+                            ^ \markup {
+                                \small
+                                    7/16
+                                }
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs8. [
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'16 ~ ]
+                            ^ \markup {
+                                \small
+                                    23/16
+                                }
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'8 [
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'8 ~ ]
+                            ^ \markup {
+                                \small
+                                    41/16
+                                }
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'8. [
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         a'16 ~ ]
+                            ^ \markup {
+                                \small
+                                    14/16
+                                }
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         a'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         a'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         a'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         a'16 [
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs8. ~ ]
+                            ^ \markup {
+                                \small
+                                    30/16
+                                }
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         fs8. [
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'16 ~ ]
+                            ^ \markup {
+                                \small
+                                    60/16
+                                }
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         c'8. [
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'16 ~ ]
+                            ^ \markup {
+                                \small
+                                    49/16
+                                }
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4 ~
+                        \once \override Accidental #'color = #green
+                        \once \override Beam #'color = #green
+                        \once \override Dots #'color = #green
+                        \once \override NoteHead #'color = #green
+                        \once \override Stem #'color = #green
                         ef'4
                         R1 * 151/6
                         \bar "|"

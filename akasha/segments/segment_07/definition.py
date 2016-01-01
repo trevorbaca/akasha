@@ -603,6 +603,8 @@ segment_maker.make_music_maker(
 segment_maker.make_music_handler(
     scope=(va, (8, 8)),
     specifiers=[
+        label().color_leaves(),
+        label().with_durations(preferred_denominator=16),
         pitch_specifier(
             source=[NamedPitch(-6), 0, 3, 9],
             ),
@@ -613,6 +615,8 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(vc, (8, 8)),
     specifiers=[
+        label().color_leaves(color='green'),
+        label().with_durations(preferred_denominator=16),
         pitch_specifier(
             source=[NamedPitch(-6), 0, 3, 9],
             ),
