@@ -180,8 +180,7 @@ intro (15")
 
     9 (4)[89]
     vn1, vn2 get. pianiss. begins again but with many silenced divisions;
-    va, vc, micro polyphony reaches point of maximum slowness (though
-    rearticulation continues at very slow rate);
+    va, vc, micro polyphony reaches point of maximum slowness;
     attaca;
 
     10 (4)[89]
@@ -192,7 +191,7 @@ intro (15")
     11-12 (4+halt)[89-->126]
     vn1, vn2 get. pianiss. fills in all divisions and reaches density at end of
     previous segment;
-    va, vc microtonal field persists until end of seg. and then disappears;
+    va, vc microtonal field persists until end of stage and then disappears;
     short breath;
 
     13-14 (6+halt)[126]
