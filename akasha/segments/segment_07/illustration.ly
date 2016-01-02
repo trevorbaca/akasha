@@ -1,4 +1,4 @@
-% 2016-01-01 15:39
+% 2016-01-01 22:57
 
 \version "2.19.34"
 \language "english"
@@ -851,7 +851,7 @@
                         }
                         \times 4/5 {
                             c'4 ~
-                            c'16
+                            c'16 ~
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -891,7 +891,7 @@
                             c'16 * 243/64
                             c'16 * 165/64
                             r16 * 33/16
-                            c'16 * 61/32 ]
+                            c'16 * 61/32 ~ ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -937,7 +937,7 @@
                         }
                         \times 4/5 {
                             c'4 ~
-                            c'16
+                            c'16 ~
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -983,7 +983,7 @@
                             c'16 * 37/16
                             c'16 * 135/64
                             r16 * 127/64
-                            c'16 * 31/16 ]
+                            c'16 * 31/16 ~ ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -1009,7 +1009,7 @@
                         }
                         \times 4/5 {
                             c'8. [
-                            c'8 ]
+                            c'8 ~ ]
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -1180,7 +1180,7 @@
                             c'8 ~
                         }
                         \times 2/3 {
-                            c'4.
+                            c'4. ~
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -1220,7 +1220,7 @@
                             c'16 * 243/64
                             c'16 * 165/64
                             r16 * 33/16
-                            c'16 * 61/32 ]
+                            c'16 * 61/32 ~ ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -1276,7 +1276,7 @@
                         \times 2/3 {
                             c'4 ~
                             c'16 [
-                            c'16 ]
+                            c'16 ~ ]
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -1322,7 +1322,7 @@
                             c'16 * 9/4
                             r16 * 133/64
                             c'16 * 127/64
-                            c'16 * 63/32 ]
+                            c'16 * 63/32 ~ ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -1352,7 +1352,7 @@
                         \times 2/3 {
                             r16
                             r4
-                            c'16
+                            c'16 ~
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
