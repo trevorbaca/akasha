@@ -396,12 +396,7 @@ segment_maker.make_music_maker(
     tie_last=True,
     )
 
-### viola & cello ###
-
-r'''
-1~1 1 1~1 1 1 1~1~1 1~1 1 1~1~1~1~1~1~1
-1 1~1~1 1~1~1~1 1 1~1 1~1~1 1~1~1~1~1~1
-'''
+### viola & cello: stages 8-12 ###
 
 counts = [7, 4, 11, 8]
 counts += [14, 8, 11, 8]
@@ -422,11 +417,12 @@ cello_counts = counts.partition_by_counts(cello_counts, overhang=Exact)
 cello_counts = [sum(_) for _ in cello_counts]
 
 segment_maker.make_music_maker(
-    stages=(8, 11),
+    stages=(8, 9),
     context_name=va,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        read_talea_once_only=True,
         talea=rhythmmakertools.Talea(
             counts=viola_counts,
             denominator=16,
@@ -435,19 +431,44 @@ segment_maker.make_music_maker(
             use_messiaen_style_ties=True,
             )
         ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
-    stages=(8, 11),
+    stages=(8, 9),
     context_name=vc,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        read_talea_once_only=True,
         talea=rhythmmakertools.Talea(
             counts=cello_counts,
             denominator=16,
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        ),
+    tie_last=True,
+    )
+
+segment_maker.make_music_maker(
+    stages=(10, 11),
+    context_name=va,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            )
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(10, 11),
+    context_name=vc,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
             use_messiaen_style_ties=True,
             )
         ),
