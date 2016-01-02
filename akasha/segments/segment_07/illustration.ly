@@ -1,4 +1,4 @@
-% 2016-01-02 10:18
+% 2016-01-02 12:01
 
 \version "2.19.34"
 \language "english"
@@ -1490,7 +1490,7 @@
                         fs16 ]
                             ^ \markup {
                                 \small
-                                    170/16
+                                    285/16
                                 }
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         fs2 \repeatTie
@@ -1504,64 +1504,14 @@
                         fs2. \repeatTie
                         fs1. \repeatTie
                         fs1 \repeatTie
+                        fs1. \repeatTie
+                        fs1. \repeatTie
+                        fs1. \repeatTie
+                        fs1 \repeatTie
                         fs2. \repeatTie
-                        fs4. \repeatTie
-                        fs8. \repeatTie
-                        c'8.
-                            ^ \markup {
-                                \small
-                                    11/16
-                                }
-                        c'4. \repeatTie
-                        c'8 \repeatTie
-                        ef'4
-                            ^ \markup {
-                                \small
-                                    11/16
-                                }
-                        ef'4. \repeatTie
-                        ef'16 \repeatTie [
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a'16 ]
-                            ^ \markup {
-                                \small
-                                    22/16
-                                }
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a'4 \repeatTie
-                        a'2. \repeatTie
-                        a'4 \repeatTie
-                        a'16 \repeatTie [
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        fs16 ]
-                            ^ \markup {
-                                \small
-                                    8/16
-                                }
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        fs4. \repeatTie
-                        fs16 \repeatTie [
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
-                            ^ \markup {
-                                \small
-                                    11/16
-                                }
-                        c'2 \repeatTie
-                        ef'4
-                            ^ \markup {
-                                \small
-                                    30/16
-                                }
-                        ef'2. \repeatTie
-                        ef'2.. \repeatTie
-                        a'8
-                            ^ \markup {
-                                \small
-                                    22/16
-                                }
-                        a'2. \repeatTie
-                        a'2 \repeatTie
+                        fs1 \repeatTie
+                        fs1 \repeatTie
+                        fs4 \repeatTie
                         R1 * 137/12
                         \bar "|"
                     }
@@ -1699,7 +1649,7 @@
                         ef'16
                             ^ \markup {
                                 \small
-                                    154/16
+                                    269/16
                                 }
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         ef'4 \repeatTie
@@ -1712,46 +1662,14 @@
                         ef'2. \repeatTie
                         ef'1. \repeatTie
                         ef'1 \repeatTie
+                        ef'1. \repeatTie
+                        ef'1. \repeatTie
+                        ef'1. \repeatTie
+                        ef'1 \repeatTie
                         ef'2. \repeatTie
-                        ef'4. \repeatTie
-                        ef'8. \repeatTie
-                        a'8.
-                            ^ \markup {
-                                \small
-                                    7/16
-                                }
-                        a'4 \repeatTie
-                        fs8
-                            ^ \markup {
-                                \small
-                                    23/16
-                                }
-                        fs2. \repeatTie
-                        fs4. \repeatTie
-                        fs8. \repeatTie [
-                        c'8. ]
-                            ^ \markup {
-                                \small
-                                    41/16
-                                }
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'1 \repeatTie
-                        c'4 \repeatTie
-                        ef'2
-                            ^ \markup {
-                                \small
-                                    14/16
-                                }
-                        ef'4. \repeatTie
-                        a'8
-                            ^ \markup {
-                                \small
-                                    30/16
-                                }
-                        a'2 \repeatTie
-                        a'2. \repeatTie
-                        a'2 \repeatTie
+                        ef'1 \repeatTie
+                        ef'1 \repeatTie
+                        ef'4 \repeatTie
                         R1 * 137/12
                         \bar "|"
                     }
