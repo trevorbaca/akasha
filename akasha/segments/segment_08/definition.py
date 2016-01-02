@@ -54,10 +54,177 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-#assert segment_maker.measure_count == 48, repr(segment_maker.measure_count)
-#assert segment_maker.stage_count == 20, repr(segment_maker.stage_count)
+assert segment_maker.measure_count == 17, repr(segment_maker.measure_count)
+assert segment_maker.stage_count == 7, repr(segment_maker.stage_count)
 assert segment_maker.validate_time_signatures()
 
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=vn1,
+    division_expression=sequence().
+        partition_by_ratio_of_lengths(Ratio((2, 1)))
+        [0]
+        ,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 2, 1, 2, 1],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[6, 4, 6, 3],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=vn2,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=va,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=1,
+    context_name=vc,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+### stage 2 ###
+
+segment_maker.make_music_maker(
+    stages=2,
+    context_name=vn1,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.copy_music_maker(
+    vn2,
+    1,
+    stages=2,
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    1,
+    stages=2,
+    )
+
+segment_maker.copy_music_maker(
+    vc,
+    1,
+    stages=2,
+    )
+
+### stage 3 ###
+
+segment_maker.copy_music_maker(
+    vn1,
+    2,
+    stages=3,
+    )
+
+segment_maker.copy_music_maker(
+    vn2,
+    1,
+    stages=3,
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    1,
+    stages=3,
+    )
+
+segment_maker.copy_music_maker(
+    vc,
+    1,
+    stages=3,
+    )
+
+### stages 4-5 ###
+
+segment_maker.copy_music_maker(
+    vn1,
+    2,
+    stages=4,
+    )
+
+segment_maker.copy_music_maker(
+    vn2,
+    1,
+    stages=4,
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    1,
+    stages=4,
+    )
+
+segment_maker.copy_music_maker(
+    vc,
+    1,
+    stages=4,
+    )
+
+### stages 6-7 ###
+
+segment_maker.copy_music_maker(
+    vn1,
+    2,
+    stages=6,
+    )
+
+segment_maker.copy_music_maker(
+    vn2,
+    1,
+    stages=6,
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    1,
+    stages=(6, 7),
+    )
+
+segment_maker.copy_music_maker(
+    vc,
+    1,
+    stages=6,
+    )
