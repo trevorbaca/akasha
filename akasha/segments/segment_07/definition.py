@@ -221,7 +221,8 @@ segment_maker.make_music_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=False,
             )
-        )
+        ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -254,6 +255,7 @@ segment_maker.make_music_maker(
             use_note_duration_bracket=True,
             ),
         ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -277,7 +279,8 @@ segment_maker.make_music_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=False,
             )
-        )
+        ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -310,6 +313,7 @@ segment_maker.make_music_maker(
             use_note_duration_bracket=True,
             ),
         ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -333,7 +337,8 @@ segment_maker.make_music_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=False,
             )
-        )
+        ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -366,11 +371,11 @@ segment_maker.make_music_maker(
             use_note_duration_bracket=True,
             ),
         ),
+    tie_last=True,
     )
 
 ### violin 2 ###
 
-#ratio = Ratio((2, 1, 2, 2, 1, 2))
 ratio = Ratio((1, 1, 2, 2, 1, 2))
 silence_pattern = select_every([1], period=4) | select_every([4], period=5)
 silence_mask = silence(silence_pattern)
@@ -397,7 +402,8 @@ segment_maker.make_music_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=False,
             )
-        )
+        ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -430,6 +436,7 @@ segment_maker.make_music_maker(
             use_note_duration_bracket=True,
             ),
         ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -453,7 +460,8 @@ segment_maker.make_music_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=False,
             )
-        )
+        ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -486,6 +494,7 @@ segment_maker.make_music_maker(
             use_note_duration_bracket=True,
             ),
         ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -509,7 +518,8 @@ segment_maker.make_music_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=False,
             )
-        )
+        ),
+    tie_last=True,
     )
 
 segment_maker.make_music_maker(
@@ -542,6 +552,7 @@ segment_maker.make_music_maker(
             use_note_duration_bracket=True,
             ),
         ),
+    tie_last=True,
     )
 
 r'''
