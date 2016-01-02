@@ -17,23 +17,30 @@ intro (15")
 [A] (30")
     1(2). microtonal cello line
     2. halt
+
     3(1). extremely thin get. pianiss.
     4. halt
+
     5(2). microtonal polyphony in multiple instruments with moments of harmony
     6. breath
+
     7(1). microtonal polyphony in multiple instruments with moments of harmony
     mixed with extremely thin get. pianiss.
     8. breath
+
     9(3). microtonal polyphony in multiple instruments with moments of harmony;
     isolated three-note tasto loops fully contained by longer duration notes
     in microtonal polyphony
     10. breath
+
     11(1). microtonal polyphony in multiple instruments with moments of 
-    harmony; isolated three-note tasto loops fully contained by longer duration notes
-    in microtonal polyphony
+    harmony; isolated three-note tasto loops fully contained by longer duration
+    notes in microtonal polyphony;
     12. halt
+
     13(1). three-note tasto loops; first hint of repetition
     14. halt
+
     15(1). tasto loops broken apart; dialogue with ext. thin get. pianiss.
     16. breath
 
