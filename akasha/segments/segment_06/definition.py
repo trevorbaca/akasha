@@ -233,7 +233,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(9, 16),
     context_name=va,
-#    division_callbacks=sequence().
+#    division_expression=sequence().
 #        partition_by_ratio_of_lengths(Ratio((1, 1, 1))).
 #        __getitem__(0)
 #        ,
@@ -363,7 +363,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(12, 13),
     context_name=vn2,
-    division_callbacks=sequence().
+    division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((3, 1)))[0]
         ,
     division_maker=beat_division_maker,
@@ -382,7 +382,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(12, 13),
     context_name=vn2,
-    division_callbacks=sequence().
+    division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((3, 1)))[1]
         ,
     division_maker=beat_division_maker.
