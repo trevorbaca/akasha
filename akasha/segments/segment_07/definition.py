@@ -422,42 +422,43 @@ cello_counts = counts.partition_by_counts(cello_counts, overhang=Exact)
 cello_counts = [sum(_) for _ in cello_counts]
 
 segment_maker.make_music_maker(
-    stages=8,
+    stages=(8, 11),
     context_name=va,
     division_maker=quarter_division_maker,
+    rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=viola_counts,
             denominator=16,
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=False,
+            use_messiaen_style_ties=True,
             )
         ),
     )
 
 segment_maker.make_music_maker(
-    stages=8,
+    stages=(8, 11),
     context_name=vc,
     division_maker=quarter_division_maker,
+    rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=cello_counts,
             denominator=16,
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=False,
+            use_messiaen_style_ties=True,
             )
         ),
     )
 
 ### MUSIC-HANDLERS ###
 
-# TODO: to visually distintuish tie-chains; remove later
+# TODO: to visually distinguish tie-chains; remove later
 segment_maker.make_music_handler(
-    scope=(va, (8, 8)),
+    scope=(va, (8, 11)),
     specifiers=[
-        label().color_leaves(),
         label().with_durations(preferred_denominator=16),
         pitch_specifier(
             source=[NamedPitch(-6), 0, 3, 9],
@@ -465,11 +466,10 @@ segment_maker.make_music_handler(
         ],
     )
 
-# TODO: to visually distintuish tie-chains; remove later
+# TODO: to visually distinguish tie-chains; remove later
 segment_maker.make_music_handler(
-    scope=(vc, (8, 8)),
+    scope=(vc, (8, 11)),
     specifiers=[
-        label().color_leaves(color='green'),
         label().with_durations(preferred_denominator=16),
         pitch_specifier(
             source=[NamedPitch(-6), 0, 3, 9],
