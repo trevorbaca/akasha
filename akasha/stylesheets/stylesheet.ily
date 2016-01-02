@@ -254,7 +254,8 @@
             (first-note fixed-space . 0.0) 
             (next-note semi-fixed-space . 0.0) 
             (right-edge extra-space . 0.0)
-        )
+            )
+        \override BarLine.X-extent = #'(0 . 0)
         \override Beam.breakable = ##t
         \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
         \override DynamicLineSpanner.padding = #1.5
@@ -263,7 +264,7 @@
         \override NoteCollision.merge-differently-dotted = ##t
         \override NoteColumn.ignore-collision = ##t
         %\shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie                 
-        %\override RepeatTie.X-extent = ##f
+        \override RepeatTie.X-extent = ##f
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
