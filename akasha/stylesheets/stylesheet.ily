@@ -1,5 +1,5 @@
 #(set-default-paper-size "11x17" 'landscape)
-#(set-global-staff-size 15)
+#(set-global-staff-size 12)
 
 \include "default-instrument-names.ily"
 \include "scheme.ily"
