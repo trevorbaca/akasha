@@ -27,9 +27,7 @@ stage_specifier = [
     4, TimeSignature((1, 3)), # 11-12
     6, TimeSignature((1, 3)), # 13-14
     1, TimeSignature((1, 3)), # 15-16
-
     1, TimeSignature((1, 12)), # 17-18
-
     1, TimeSignature((1, 3)), # 19-20
     ]
 preprocessor = baca.tools.TimeSignaturePreprocessor(
@@ -212,7 +210,7 @@ talea_rhythm_maker = rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         denominator=16,
         ),
     tie_specifier=rhythmmakertools.TieSpecifier(
-        use_messiaen_style_ties=False,
+        use_messiaen_style_ties=True,
         ),
     )
 
@@ -233,6 +231,9 @@ accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
         silence_mask,
         sustain_mask,
         ],
+    tie_specifier=rhythmmakertools.TieSpecifier(
+        use_messiaen_style_ties=True,
+        ),
     tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
         use_note_duration_bracket=True,
         ),
@@ -306,7 +307,8 @@ def division_expression(index):
     return expression
 
 talea_rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
-    extra_counts_per_division=[2],
+    #extra_counts_per_division=[2],
+    extra_counts_per_division=[0],
     logical_tie_masks=[
         silence_mask,
         sustain_mask,
@@ -316,7 +318,7 @@ talea_rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
         denominator=16,
         ),
     tie_specifier=rhythmmakertools.TieSpecifier(
-        use_messiaen_style_ties=False,
+        use_messiaen_style_ties=True,
         ),
     )
 
@@ -337,6 +339,9 @@ accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
         silence_mask,
         sustain_mask,
         ],
+    tie_specifier=rhythmmakertools.TieSpecifier(
+        use_messiaen_style_ties=True,
+        ),
     tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
         use_note_duration_bracket=True,
         ),
@@ -474,7 +479,40 @@ segment_maker.make_music_maker(
         ),
     )
 
+### stage 9: violin 2
+
+segment_maker.make_music_maker(
+    stages=9,
+    context_name=vn2,
+    division_expression=sequence().
+        partition_by_ratio_of_lengths(Ratio((1, 1)))
+        [0]
+        ,
+    division_maker=quarter_division_maker,
+    rhythm_maker=talea_rhythm_maker,
+    )
+
 ### MUSIC-HANDLERS ###
+
+# TODO: to visually distinguish tie-chains; remove later
+segment_maker.make_music_handler(
+    scope=(vn1, (6, 11)),
+    specifiers=[
+        pitch_specifier(
+            source=[0, 3, 9],
+            ),
+        ],
+    )
+
+# TODO: to visually distinguish tie-chains; remove later
+segment_maker.make_music_handler(
+    scope=(vn2, (6, 11)),
+    specifiers=[
+        pitch_specifier(
+            source=[0, 3, 9],
+            ),
+        ],
+    )
 
 # TODO: to visually distinguish tie-chains; remove later
 segment_maker.make_music_handler(

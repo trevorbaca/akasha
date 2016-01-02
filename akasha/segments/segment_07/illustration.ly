@@ -1,4 +1,4 @@
-% 2016-01-02 12:01
+% 2016-01-02 13:35
 
 \version "2.19.34"
 \language "english"
@@ -781,56 +781,60 @@
                         \times 4/5 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'4 \repeatTie
-                            c'16
+                            ef'16
                         }
                         \times 4/5 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. \repeatTie [
-                            c'8 ]
+                            ef'8. \repeatTie [
+                            a'8 ]
                         }
                         \times 4/5 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'16 \repeatTie
+                            a'4 \repeatTie
+                            a'16 \repeatTie
                         }
                         \times 4/5 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'16 \repeatTie
+                            a'16 \repeatTie
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
                         \times 4/5 {
                             c'8. \repeatTie [
-                            c'8 ]
+                            ef'8 ]
                         }
                         \times 4/5 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'16 \repeatTie
+                            ef'4 \repeatTie
+                            ef'16 \repeatTie
                         }
                         R1 * 1
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            a'4
+                            a'16 \repeatTie
                         }
                         \times 4/5 {
-                            c'4
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'4 \repeatTie
                             r16
                         }
                         \times 4/5 {
                             r8.
-                            c'8 ~
+                            c'8
                         }
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'16 \repeatTie
                         }
                         \times 4/5 {
-                            c'16
-                            c'4 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'16 \repeatTie
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'4
                         }
                         \times 4/5 {
-                            c'8.
+                            ef'8. \repeatTie
                             r8
                         }
                         \times 4/5 {
@@ -843,15 +847,17 @@
                         }
                         \times 4/5 {
                             r16
-                            c'4 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'4
                         }
                         \times 4/5 {
-                            c'4
-                            c'16 ~
+                            a'4 \repeatTie
+                            c'16
                         }
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'16 \repeatTie
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -886,37 +892,43 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 241/32 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'16 * 241/32 \repeatTie [
                             r16 * 49/8
-                            c'16 * 243/64
-                            c'16 * 165/64
+                            ef'16 * 243/64
+                            a'16 * 165/64
                             r16 * 33/16
-                            c'16 * 61/32 ~ ]
+                            c'16 * 61/32 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                            c'16 \repeatTie
                         }
                         \times 4/5 {
-                            c'4
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
                             r16
                         }
                         \times 4/5 {
                             r8.
-                            c'8 ~
+                            ef'8
                         }
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'4 \repeatTie
+                            ef'16 \repeatTie
                         }
                         \times 4/5 {
-                            c'16
-                            c'4 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'16 \repeatTie
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'4
                         }
                         \times 4/5 {
-                            c'8.
+                            a'8. \repeatTie
                             r8
                         }
                         \times 4/5 {
@@ -929,15 +941,17 @@
                         }
                         \times 4/5 {
                             r16
-                            c'4 ~
-                        }
-                        \times 4/5 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'4
-                            c'16 ~
                         }
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            c'4 \repeatTie
+                            ef'16
+                        }
+                        \times 4/5 {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'4 \repeatTie
+                            ef'16 \repeatTie
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -973,43 +987,50 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 31/4 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'16 * 31/4 \repeatTie [
                             r16 * 233/32
-                            c'16 * 393/64
+                            a'16 * 393/64
                             c'16 * 39/8
                             r16 * 123/32
                             r16 * 25/8
-                            c'16 * 169/64
-                            c'16 * 37/16
+                            ef'16 * 169/64
+                            a'16 * 37/16
                             c'16 * 135/64
                             r16 * 127/64
-                            c'16 * 31/16 ~ ]
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'4 \repeatTie
+                            ef'16 \repeatTie
                         }
                         \times 4/5 {
-                            c'4
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'4 \repeatTie
                             r16
                         }
                         \times 4/5 {
                             r8.
-                            c'8 ~
+                            a'8
                         }
                         \times 4/5 {
-                            c'4 ~
-                            c'16 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'4 \repeatTie
+                            a'16 \repeatTie
                         }
                         \times 4/5 {
-                            c'16
-                            c'4 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'16 \repeatTie
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4
                         }
                         \times 4/5 {
-                            c'8. [
-                            c'8 ~ ]
+                            c'8. \repeatTie [
+                            ef'8 ]
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -1045,17 +1066,18 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 31/4 [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'16 * 31/4 \repeatTie [
                             r16 * 233/32
-                            c'16 * 393/64
+                            a'16 * 393/64
                             c'16 * 39/8
                             r16 * 123/32
                             r16 * 25/8
-                            c'16 * 169/64
-                            c'16 * 37/16
+                            ef'16 * 169/64
+                            a'16 * 37/16
                             c'16 * 135/64
                             r16 * 127/64
-                            c'16 * 31/16 ]
+                            ef'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -1139,16 +1161,16 @@
                             c'4
                         }
                         {
-                            c'4
+                            ef'4
                         }
                         {
-                            c'4 \repeatTie
+                            ef'4 \repeatTie
                         }
                         {
-                            c'4
+                            a'4
                         }
                         {
-                            c'8. \repeatTie [
+                            a'8. \repeatTie [
                             c'16 ]
                         }
                         {
@@ -1159,28 +1181,28 @@
                             c'4 \repeatTie
                         }
                         R1 * 1
-                        \times 2/3 {
-                            c'4. ~
+                        {
+                            ef'4
                         }
-                        \times 2/3 {
-                            c'8. [
-                            c'8. ~ ]
+                        {
+                            ef'4 \repeatTie
                         }
-                        \times 2/3 {
-                            c'16
-                            r4
-                            r16
+                        {
+                            ef'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'8. ]
                         }
-                        \times 2/3 {
+                        {
+                            a'16 \repeatTie
                             r8.
-                            c'8. ~
                         }
-                        \times 2/3 {
-                            c'4
-                            c'8 ~
+                        {
+                            r4
                         }
-                        \times 2/3 {
-                            c'4. ~
+                        {
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8.
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -1215,68 +1237,64 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 241/32 [
-                            c'16 * 49/8
+                            c'16 * 241/32 \repeatTie [
+                            ef'16 * 49/8
                             r16 * 243/64
-                            c'16 * 165/64
+                            a'16 * 165/64
                             r16 * 33/16
-                            c'16 * 61/32 ~ ]
+                            c'16 * 61/32 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        \times 2/3 {
-                            c'4. ~
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
                         }
-                        \times 2/3 {
-                            c'8. [
-                            c'8. ~ ]
+                        {
+                            c'4 \repeatTie
                         }
-                        \times 2/3 {
-                            c'16
+                        {
+                            c'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'8. ]
+                        }
+                        {
+                            ef'16 \repeatTie
+                            r8.
+                        }
+                        {
                             r4
+                        }
+                        {
                             r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'8.
                         }
-                        \times 2/3 {
-                            r8.
-                            c'8. ~
+                        {
+                            a'4 \repeatTie
                         }
-                        \times 2/3 {
-                            c'4
-                            r8
-                        }
-                        \times 2/3 {
-                            r4.
-                        }
-                        \times 2/3 {
-                            r16
-                            c'4
-                            r16
-                        }
-                        \times 2/3 {
-                            r4.
-                        }
-                        \times 2/3 {
-                            r16
-                            c'4 ~
-                            c'16 ~
-                        }
-                        \times 2/3 {
-                            c'8
-                            c'4 ~
-                        }
-                        \times 2/3 {
-                            c'4 ~
-                            c'16
-                            r16
-                        }
-                        \times 2/3 {
-                            r8.
-                            r8.
-                        }
-                        \times 2/3 {
+                        {
                             r4
+                        }
+                        {
+                            r4
+                        }
+                        {
                             r16
-                            c'16 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8.
+                        }
+                        {
+                            c'16 \repeatTie
+                            r8.
+                        }
+                        {
+                            r4
+                        }
+                        {
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'8.
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -1311,48 +1329,48 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 497/64 [
-                            c'16 * 59/8
+                            ef'16 * 497/64 \repeatTie [
+                            a'16 * 59/8
                             r16 * 51/8
                             c'16 * 333/64
                             r16 * 67/16
-                            c'16 * 219/64
+                            ef'16 * 219/64
                             r16 * 185/64
-                            c'16 * 5/2
+                            a'16 * 5/2
                             c'16 * 9/4
                             r16 * 133/64
                             r16 * 127/64
-                            c'16 * 63/32 ~ ]
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'16 * 63/32 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        \times 2/3 {
-                            c'4. ~
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'4 \repeatTie
                         }
-                        \times 2/3 {
-                            c'8. [
-                            c'8. ~ ]
+                        {
+                            ef'4 \repeatTie
                         }
-                        \times 2/3 {
-                            c'16
-                            r4
-                            r16
+                        {
+                            ef'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'8. ]
                         }
-                        \times 2/3 {
+                        {
+                            a'16 \repeatTie
                             r8.
-                            c'8. ~
                         }
-                        \times 2/3 {
-                            c'4
-                            r8
+                        {
+                            r4
                         }
-                        \times 2/3 {
-                            r4.
-                        }
-                        \times 2/3 {
+                        {
                             r16
-                            c'4
-                            c'16 ~
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'8.
+                        }
+                        {
+                            c'4 \repeatTie
                         }
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -1387,22 +1405,56 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 497/64 [
-                            c'16 * 59/8
+                            c'16 * 497/64 \repeatTie [
+                            ef'16 * 59/8
                             r16 * 51/8
-                            c'16 * 333/64
+                            a'16 * 333/64
                             r16 * 67/16
                             c'16 * 219/64
                             r16 * 185/64
-                            c'16 * 5/2
-                            c'16 * 9/4
+                            ef'16 * 5/2
+                            a'16 * 9/4
                             r16 * 133/64
                             r16 * 127/64
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'16 * 63/32 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        R1 * 151/6
+                        {
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            c'4 \repeatTie
+                        }
+                        {
+                            c'4 \repeatTie
+                        }
+                        {
+                            c'16 \repeatTie [
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            ef'8. ]
+                        }
+                        {
+                            ef'16 \repeatTie
+                            r8.
+                        }
+                        {
+                            r4
+                        }
+                        {
+                            r16
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                            a'8.
+                        }
+                        {
+                            a'4 \repeatTie
+                        }
+                        {
+                            c'4
+                        }
+                        {
+                            c'4 \repeatTie
+                        }
+                        R1 * 275/12
                         \bar "|"
                     }
                 }
