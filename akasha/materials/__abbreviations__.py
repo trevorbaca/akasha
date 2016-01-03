@@ -33,7 +33,7 @@ quarter_division_maker = quarter_division_maker.split_by_durations(
         )
 quarter_division_maker = quarter_division_maker.flatten()
 
-messiaen_tied_notes = abjad.rhythmmakertools.NoteRhythmMaker(
+messiaen_tied_note_rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         tie_across_divisions=True,
         use_messiaen_style_ties=True,

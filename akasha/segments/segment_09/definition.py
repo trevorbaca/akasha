@@ -61,3 +61,137 @@ segment_maker = baca.tools.SegmentMaker(
 assert segment_maker.measure_count == 14, repr(segment_maker.measure_count)
 assert segment_maker.stage_count == 10, repr(segment_maker.stage_count)
 assert segment_maker.validate_time_signatures()
+
+
+###############################################################################
+################################ MUSIC-MAKERS #################################
+###############################################################################
+
+#silence_pattern = select_every([1], period=4) | select_every([4], period=5)
+#silence_mask = silence(silence_pattern)
+#sustain_mask = sustain([0, -1])
+
+### stage 1 ###
+
+segment_maker.make_music_maker(
+    context_name=vn1,
+    stages=1,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
+            ),
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 2),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 2),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    context_name=vn2,
+    stages=1,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
+            ),
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 2),
+                written_duration=Duration(1, 16),
+                ),
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 2),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    context_name=va,
+    stages=1,
+    division_expression=sequence().sum(),
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            beam_rests=True,
+            stemlet_length=0.75,
+            use_feather_beams=True,
+            ),
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 2),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    context_name=vc,
+    stages=(1, 2),
+    rewrite_meter=True,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    )
+
+segment_maker.make_music_maker(
+    context_name=vn1,
+    stages=2,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    )
+
+segment_maker.make_music_maker(
+    context_name=vn2,
+    stages=2,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    )
+
+segment_maker.make_music_maker(
+    context_name=va,
+    stages=2,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    )
+
+segment_maker.make_music_maker(
+    context_name=va,
+    stages=4,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    )
+
+segment_maker.make_music_maker(
+    context_name=vc,
+    stages=4,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    )

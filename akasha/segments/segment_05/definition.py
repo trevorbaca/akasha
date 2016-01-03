@@ -226,19 +226,19 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=10,
     context_name=vn2,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
     
 segment_maker.make_music_maker(
     stages=10,
     context_name=va,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=10,
     context_name=vc,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
