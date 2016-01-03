@@ -195,3 +195,59 @@ segment_maker.make_music_maker(
     stages=4,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
+
+### repetition ###
+
+segment_maker.copy_music_maker(
+    vn1,
+    1,
+    stages=1+5,
+    )
+
+segment_maker.copy_music_maker(
+    vn1,
+    2,
+    stages=2+5,
+    )
+
+segment_maker.copy_music_maker(
+    vn2,
+    1,
+    stages=1+5,
+    )
+
+segment_maker.copy_music_maker(
+    vn2,
+    2,
+    stages=2+5,
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    1,
+    stages=1+5,
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    2,
+    stages=2+5,
+    )
+
+segment_maker.copy_music_maker(
+    va,
+    4,
+    stages=4+5,
+    )
+
+segment_maker.copy_music_maker(
+    vc,
+    1,
+    stages=1+5,
+    )
+
+segment_maker.copy_music_maker(
+    vc,
+    4,
+    stages=4+5,
+    )
