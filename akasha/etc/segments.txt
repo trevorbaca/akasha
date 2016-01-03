@@ -246,27 +246,27 @@ intro (15")
     attaca;
 
 [H] (30")
-    1
+    1 (2)
     tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
 
-    2
+    2 (2+halt)
     [intercalated memory of XFB microtonal field (24ET)];
     breath;
 
-    3
+    3 (2+halt)
     isolated va, vc detuned octave;
     breath;
 
     repeat:
 
-    1
+    1 (2)
     tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
 
-    2
+    2 (2+halt)
     [intercalated memory of XFB microtonal field (24ET)];
     breath;
 
-    3
+    3 (2+halt)
     isolated va, vc detuned octave;
     breath;
 
