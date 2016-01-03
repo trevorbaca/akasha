@@ -136,7 +136,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     context_name=va,
     stages=1,
-    division_expression=sequence().sum(),
+    division_expression=sequence().sum().sequence(),
     rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
             beam_rests=True,
