@@ -272,49 +272,47 @@ intro (15")
 
 [I] (1'30")
 
-    1
+    1-2 (2+halt)[89]
     tutti detuned octave Bb with tutti swell;
     breath;
 
-    2
+    3 (2)[55]
     tutti pure octave Bb with tutti swell;
     attaca;
 
-    3
+    4 (2)[89]
     tutti detuned octave Bb with tutti swell;
-    breath;
     quarter note OB + 3/4;
     OB ppp revealed underneath (Bb);
 
-    4
+    5 (2)[89]
     tutti ppp OB + 3/4 OB > 1/2 OB + 1/4 OB (Bb);
 
-    5
+    6 (2)[89]
     tutti ppp 1/2 OB + 1/4 OB > 1/4 OB + XSP (Bb);
 
-    6
+    7 (2)[89]
     [intercalated memory: tutti looping of 3-note tasto and trills (c5)
     with mixed mecc. fluido]
 
-    7
+    8 (4)[89->55]
     transformation of tutti ppp XSP (Bb) to three-player ppp XSP with moving
     microtonal polyphony that recalls micropolyphony earlier in the piece;
     on top of this occurs a recapitulation of vn1 maximally dense get. solo
     from beginning of [G];
     vn1 get. solo begins to rit.;
 
-    8
+    9 (2)[55]
     vn1 get. solo continues to rit and is now perforated;
     ppp XSP microtonal polyphony sustains ppp but transitions gradually from
     XSP to tasto;
 
-    9
+    10 (2)[55->44]
     vn1 get. solo continues to rit and is now very perforated;
     ppp tasto microtonal polyphony transitions from ord to SB;
 
-    10
-    vn1 get. solo continues to rit and is now silence with occ. get.
-    strand;
+    11-12 (4+halt)[44]
+    vn1 get. solo continues to rit and is now silence with occ. get. strand;
     ppp SB microtonal polyphony transitions from SB to XSB;
     breath;
 
@@ -372,7 +370,7 @@ intro (15")
     gigantic tutti crescendo to fff;
 
     12
-    grand pause ;
+    grand pause;
 
 [K] (15")
 
