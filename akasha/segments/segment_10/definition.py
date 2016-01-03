@@ -65,3 +65,9 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
+
+segment_maker.make_music_makers(
+    context_names=(vn1, vn2, va, vc),
+    stages=1,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    )

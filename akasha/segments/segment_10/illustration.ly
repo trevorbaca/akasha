@@ -1,4 +1,4 @@
-% 2016-01-03 16:27
+% 2016-01-03 16:41
 
 \version "2.19.35"
 \language "english"
@@ -434,39 +434,10 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 3/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 305/12
+                        \bar "|"
                     }
                 }
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
@@ -482,39 +453,10 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 3/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 305/12
+                        \bar "|"
                     }
                 }
                 \context ViolaMusicStaff = "Viola Music Staff" {
@@ -530,39 +472,10 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 305/12
+                        \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
@@ -578,39 +491,10 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 3/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 1
-                        R1 * 3/2
-                        R1 * 3/4
-                        R1 * 1
-                        R1 * 5/4
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                            \bar "|"
-                        }
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 305/12
+                        \bar "|"
                     }
                 }
             >>
