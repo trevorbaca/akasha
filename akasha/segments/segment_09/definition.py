@@ -67,10 +67,6 @@ assert segment_maker.validate_time_signatures()
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
 
-#silence_pattern = select_every([1], period=4) | select_every([4], period=5)
-#silence_mask = silence(silence_pattern)
-#sustain_mask = sustain([0, -1])
-
 ### stage 1 ###
 
 segment_maker.make_music_maker(
