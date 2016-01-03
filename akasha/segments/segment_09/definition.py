@@ -70,7 +70,7 @@ assert segment_maker.validate_time_signatures()
 ### stage 1 ###
 
 segment_maker.make_music_maker(
-    context_name=vn1,
+    voice_name=vn1,
     stages=1,
     rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
@@ -100,7 +100,7 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    context_name=vn2,
+    voice_name=vn2,
     stages=1,
     rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
@@ -130,7 +130,7 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    context_name=va,
+    voice_name=va,
     stages=1,
     division_expression=sequence().sum().sequence(),
     rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
@@ -156,38 +156,38 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    context_name=vc,
+    voice_name=vc,
     stages=(1, 2),
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
-    context_name=vn1,
+    voice_name=vn1,
     stages=2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
-    context_name=vn2,
+    voice_name=vn2,
     stages=2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
-    context_name=va,
+    voice_name=va,
     stages=2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
-    context_name=va,
+    voice_name=va,
     stages=4,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
-    context_name=vc,
+    voice_name=vc,
     stages=4,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )

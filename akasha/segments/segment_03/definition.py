@@ -63,7 +63,7 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_music_maker(
     stages=(1, 2),
-    context_name=vn1,
+    voice_name=vn1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -79,7 +79,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=1,
-    context_name=vn2,
+    voice_name=vn2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=(1,),
@@ -100,14 +100,14 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     vn2,
     1,
-    context_name=va,
+    voice_name=va,
     rhythm_maker__talea__logical_tie_masks=None,
     rhythm_maker__talea__counts=(6, 5, 3, 2),
     )
 
 segment_maker.make_music_maker(
     stages=1,
-    context_name=vc,
+    voice_name=vc,
     rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
             beam_rests=True,
@@ -142,7 +142,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=4,
-    context_name=vn1,
+    voice_name=vn1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -158,7 +158,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=6,
-    context_name=vn1,
+    voice_name=vn1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -174,7 +174,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=8,
-    context_name=vn2,
+    voice_name=vn2,
     rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
             beam_rests=True,
@@ -209,7 +209,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=8,
-    context_name=va,
+    voice_name=va,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
         extra_counts_per_division=[1],
@@ -227,5 +227,5 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     va,
     8,
-    context_name=vc,
+    voice_name=vc,
     )

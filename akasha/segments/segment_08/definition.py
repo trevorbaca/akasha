@@ -64,7 +64,7 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_music_maker(
     stages=1,
-    context_name=vn1,
+    voice_name=vn1,
     division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((2, 1)))
         [0]
@@ -85,7 +85,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=1,
-    context_name=vn2,
+    voice_name=vn2,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -97,7 +97,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=1,
-    context_name=va,
+    voice_name=va,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -109,7 +109,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=1,
-    context_name=vc,
+    voice_name=vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -123,7 +123,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=2,
-    context_name=vn1,
+    voice_name=vn1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
