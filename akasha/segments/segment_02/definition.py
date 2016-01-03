@@ -68,7 +68,7 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_music_maker(
     stages=1,
-    context_name=vc,
+    voice_name=vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=[7, 1, 10, 2],
@@ -82,7 +82,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=3,
-    context_name=vn2,
+    voice_name=vn2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -98,7 +98,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=3,
-    context_name=va,
+    voice_name=va,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -117,7 +117,7 @@ counts = [4, 14, 4, 6, 18]
 
 segment_maker.make_music_maker(
     stages=5,
-    context_name=vn1,
+    voice_name=vn1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -140,7 +140,7 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     vn1,
     5,
-    context_name=vn2,
+    voice_name=vn2,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -1),
     rhythm_maker__division_masks=[
         silence_first(4),
@@ -151,7 +151,7 @@ segment_maker.copy_music_maker(
 segment_maker.copy_music_maker(
     vn1,
     5,
-    context_name=va,
+    voice_name=va,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
     rhythm_maker__division_masks=[
         silence_first(3),
@@ -161,7 +161,7 @@ segment_maker.copy_music_maker(
 segment_maker.copy_music_maker(
     vn1,
     5,
-    context_name=vc,
+    voice_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
     rhythm_maker__division_masks=[
         silence_first(6),
@@ -170,7 +170,7 @@ segment_maker.copy_music_maker(
 
 segment_maker.make_music_maker(
     stages=7,
-    context_name=vn1,
+    voice_name=vn1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -194,7 +194,7 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     vn1,
     7,
-    context_name=va,
+    voice_name=va,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
     rhythm_maker__division_masks=[
         silence_first(2),
@@ -204,7 +204,7 @@ segment_maker.copy_music_maker(
 segment_maker.copy_music_maker(
     vn1,
     7,
-    context_name=vc,
+    voice_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
     rhythm_maker__division_masks=[
         ],
@@ -212,7 +212,7 @@ segment_maker.copy_music_maker(
 
 segment_maker.make_music_maker(
     stages=7,
-    context_name=vn2,
+    voice_name=vn2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -228,7 +228,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=9,
-    context_name=vn1,
+    voice_name=vn1,
     division_maker=quarter_division_maker,
     rhythm_maker=note_rhythm_maker,
     rhythm_maker__division_masks=[
@@ -242,7 +242,7 @@ counts = [5, 4, 3, 6]
 
 segment_maker.make_music_maker(
     stages=9,
-    context_name=vn2,
+    voice_name=vn2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -265,7 +265,7 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     vn1,
     9,
-    context_name=va,
+    voice_name=va,
     rhythm_maker__division_masks=[
         silence_first(4),
         silence_every(indices=[0, 4], period=6),
@@ -276,7 +276,7 @@ segment_maker.copy_music_maker(
 segment_maker.copy_music_maker(
     vn2,
     9,
-    context_name=vc,
+    voice_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
     rhythm_maker__talea__logical_tie_masks=[
         silence([6, 7, 8, 9]),
