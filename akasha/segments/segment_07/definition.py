@@ -251,7 +251,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=8,
     context_name=vn1,
-    division_expression=division_expression(1).sum(),
+    division_expression=division_expression(1).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
@@ -269,7 +269,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=8,
     context_name=vn1,
-    division_expression=division_expression(3).sum(),
+    division_expression=division_expression(3).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
@@ -287,7 +287,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=8,
     context_name=vn1,
-    division_expression=division_expression(5).sum(),
+    division_expression=division_expression(5).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
@@ -359,7 +359,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=8,
     context_name=vn2,
-    division_expression=division_expression(1).sum(),
+    division_expression=division_expression(1).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
@@ -377,7 +377,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=8,
     context_name=vn2,
-    division_expression=division_expression(3).sum(),
+    division_expression=division_expression(3).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
@@ -395,7 +395,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=8,
     context_name=vn2,
-    division_expression=division_expression(5).sum(),
+    division_expression=division_expression(5).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
