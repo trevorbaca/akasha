@@ -93,8 +93,11 @@ segment_maker.make_rhythm_maker(
         .split([Duration(2, 4)], cyclic=True, overhang=True)
         .flatten()
         ,
-    rhythm_maker=note_rhythm_maker,
-    #rewrite_meter=True,
-    #split_at_measure_boundaries=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    split_at_measure_boundaries=True,
     timespan=stages(4, 6),
     )
