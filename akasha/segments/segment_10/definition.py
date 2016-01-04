@@ -181,9 +181,13 @@ segment_maker.make_rhythm_maker(
             )
         ,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        burnish_specifier=rhythmmakertools.BurnishSpecifier(
+            left_classes=[Rest],
+            left_counts=[1],
+            ),
         denominators=[16],
         division_masks=[
-            silence([1]),
+            silence([1, 5, 8, 11, 12, 15, 16, 18, 20, 21, -1, -2, -3, -4, -5]),
             ],
         extra_counts_per_division=[6, 4, 6, 3],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -214,12 +218,3 @@ segment_maker.make_rhythm_maker(
         ),
     timespan=stages(8, 11),
     )
-
-###
-
-#segment_maker.make_music_handler(
-#    scope=(vn_1, (8, 11)),
-#    specifiers=[
-#        label().with_indices(prototype=Tuplet),
-#        ],
-#    )
