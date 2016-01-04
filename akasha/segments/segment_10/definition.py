@@ -89,7 +89,7 @@ segment_maker.make_rhythm_maker(
     division_expression=split_by_durations([Duration(2, 4)]),
     rhythm_maker=messiaen_note_rhythm_maker,
     split_at_measure_boundaries=True,
-    timespan=stages(4, 7),
+    timespan=stages(4, 11),
     )
 
 segment_maker.make_rhythm_maker(
@@ -169,4 +169,48 @@ segment_maker.make_rhythm_maker(
             ],
         ),
     timespan=stage(7),
+    )
+
+### stages 8-12 ###
+
+segment_maker.make_rhythm_maker(
+    voice_name=vn_1,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 2, 1, 2, 1],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        division_masks=[
+            silence([1]),
+            ],
+        extra_counts_per_division=[6, 4, 6, 3],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    timespan=stages(8, 11),
+    )
+
+segment_maker.make_rhythm_maker(
+    vn_2,
+    division_expression=split_by_durations([Duration(4, 4)]),
+    rewrite_meter=True,
+    rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(8, 11),
+    )
+
+segment_maker.make_rhythm_maker(
+    voice_name=vc,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        talea=rhythmmakertools.Talea(
+            counts=[7, 1, 10, 2],
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        ),
+    timespan=stages(8, 11),
     )

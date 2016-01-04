@@ -1,4 +1,4 @@
-% 2016-01-04 11:32
+% 2016-01-04 11:54
 
 \version "2.19.35"
 \language "english"
@@ -532,7 +532,373 @@
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        R1 * 163/12
+                        \times 8/14 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/11 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 12/18 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 6/9 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 12/18 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 12/18 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 12/15 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 10/14 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/11 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 12/18 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 10/16 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 4/7 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/14 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/11 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 4/6 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/12 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 8/14 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ~ ]
+                        }
+                        \times 4/7 {
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        R1 * 1/3
                         \bar "|"
                     }
                 }
@@ -645,7 +1011,30 @@
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        R1 * 163/12
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2.
+                        c'4 \repeatTie
+                        c'2
+                        c'2 \repeatTie
+                        c'2
+                        c'2 \repeatTie
+                        c'1
+                        c'1
+                        c'2
+                        c'2 \repeatTie
+                        c'1
+                        c'1
+                        c'1
+                        c'2
+                        c'2 \repeatTie
+                        c'4
+                        c'2. \repeatTie
+                        c'4
+                        c'2. \repeatTie
+                        c'2
+                        c'2 \repeatTie
+                        c'4
+                        R1 * 1/3
                         \bar "|"
                     }
                 }
@@ -688,7 +1077,37 @@
                         c'4 \repeatTie
                         c'2
                         c'2
-                        R1 * 163/12
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'2
+                        c'2
+                        c'4
+                        R1 * 1/3
                         \bar "|"
                     }
                 }
@@ -765,7 +1184,74 @@
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        R1 * 163/12
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        c'4. \repeatTie
+                        c'8
+                        c'4
+                        c'8. \repeatTie [
+                        c'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4
+                        c'8. \repeatTie [
+                        c'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        c'4. \repeatTie
+                        c'8
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        c'4. \repeatTie
+                        c'8
+                        c'4
+                        c'8. \repeatTie [
+                        c'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        R1 * 1/3
                         \bar "|"
                     }
                 }
