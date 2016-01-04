@@ -71,13 +71,7 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_rhythm_maker(
     voice_name=vn_1,
-    stages=1,
-    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
-        beam_specifier=rhythmmakertools.BeamSpecifier(
-            beam_rests=True,
-            stemlet_length=0.75,
-            use_feather_beams=True,
-            ),
+    rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
             rhythmmakertools.InterpolationSpecifier(
                 start_duration=Duration(1, 2),
@@ -90,24 +84,13 @@ segment_maker.make_rhythm_maker(
                 written_duration=Duration(1, 16),
                 ),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-            use_note_duration_bracket=True,
-            ),
         ),
+    timespan=stage(1),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=vn_2,
-    stages=1,
-    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
-        beam_specifier=rhythmmakertools.BeamSpecifier(
-            beam_rests=True,
-            stemlet_length=0.75,
-            use_feather_beams=True,
-            ),
+    rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
             rhythmmakertools.InterpolationSpecifier(
                 start_duration=Duration(1, 8),
@@ -120,25 +103,14 @@ segment_maker.make_rhythm_maker(
                 written_duration=Duration(1, 16),
                 ),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-            use_note_duration_bracket=True,
-            ),
         ),
+    timespan=stage(1),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=va,
-    stages=1,
-    division_expression=sequence().sum().sequence(),
-    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
-        beam_specifier=rhythmmakertools.BeamSpecifier(
-            beam_rests=True,
-            stemlet_length=0.75,
-            use_feather_beams=True,
-            ),
+    division_expression=fuse_divisions(),
+    rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
             rhythmmakertools.InterpolationSpecifier(
                 start_duration=Duration(1, 8),
@@ -146,104 +118,99 @@ segment_maker.make_rhythm_maker(
                 written_duration=Duration(1, 16),
                 ),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-            use_note_duration_bracket=True,
-            ),
         ),
+    timespan=stage(1),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=vc,
-    stages=(1, 2),
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stages(1, 2),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=vn_1,
-    stages=2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stage(2),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=vn_2,
-    stages=2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stage(2),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=va,
-    stages=2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stage(2),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=va,
-    stages=4,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stage(4),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=vc,
-    stages=4,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stage(4),
     )
 
 ### repetition ###
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     1,
-    stages=1+5,
+    timespan=stage(1+5),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     2,
-    stages=2+5,
+    timespan=stage(2+5),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     1,
-    stages=1+5,
+    timespan=stage(1+5),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     2,
-    stages=2+5,
+    timespan=stage(2+5),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     1,
-    stages=1+5,
+    timespan=stage(1+5),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     2,
-    stages=2+5,
+    timespan=stage(2+5),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     4,
-    stages=4+5,
+    timespan=stage(4+5),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vc,
     1,
-    stages=1+5,
+    timespan=stage(1+5),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vc,
     4,
-    stages=4+5,
+    timespan=stage(4+5),
     )

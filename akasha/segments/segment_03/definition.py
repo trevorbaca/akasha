@@ -97,7 +97,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     1,
     voice_name=va,
@@ -224,7 +224,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     8,
     voice_name=vc,

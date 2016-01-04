@@ -77,13 +77,13 @@ segment_maker.make_rhythm_maker(
     rhythm_maker=note_rhythm_maker,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     1,
     stages=(3, 4),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vc,
     1,
     stages=(3, 4),
@@ -106,7 +106,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     4,
     voice_name=vn_2,
@@ -134,7 +134,7 @@ segment_maker.make_rhythm_maker(
     rhythm_maker=note_rhythm_maker,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     5,
     stages=7,
@@ -175,7 +175,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     7,
     voice_name=va,
@@ -186,7 +186,7 @@ segment_maker.copy_music_maker(
     rhythm_maker__talea__counts=(6, 5, 3, 2),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vc,
     5,
     stages=(7, 8),
@@ -208,13 +208,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     9,
     voice_name=va,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     9,
     voice_name=vc,
