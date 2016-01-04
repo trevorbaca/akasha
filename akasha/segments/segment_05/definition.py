@@ -74,7 +74,7 @@ assert segment_maker.validate_time_signatures()
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=1,
     voice_name=vn1,
     rewrite_meter=True,
@@ -116,7 +116,7 @@ segment_maker.copy_music_maker(
     stages=3,
     )
     
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=3,
     voice_name=vc,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -179,7 +179,7 @@ segment_maker.copy_music_maker(
     stages=7,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=9,
     voice_name=vn1,
     rewrite_meter=True,
@@ -209,39 +209,39 @@ segment_maker.copy_music_maker(
     voice_name=vc,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=10,
     voice_name=vn1,
     division_selector=select().get_slice(stop=-1).get_item(0),
     rhythm_maker=note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=10,
     voice_name=vn1,
     division_selector=select().get_slice(start=-1).get_item(0),
     rhythm_maker=note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=10,
     voice_name=vn2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
     
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=10,
     voice_name=va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=10,
     voice_name=vc,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=12,
     voice_name=vn1,
     division_selector=select().
@@ -263,7 +263,7 @@ segment_maker.copy_music_maker(
     voice_name=va,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=12,
     voice_name=vc,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
