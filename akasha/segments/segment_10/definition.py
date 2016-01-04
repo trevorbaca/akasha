@@ -79,7 +79,20 @@ segment_maker.make_rhythms(
     )
 
 segment_maker.make_rhythms(
-    tutti,
+    (vn_1, vn_2, vc),
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stage(4),
+    )
+
+segment_maker.make_rhythm(
+    va,
+    division_expression=sequence()
+        .flatten()
+        .sum()
+        .sequence()
+        .split([Duration(1, 4)], cyclic=True)
+        .flatten()
+        ,
+    rhythm_maker=note_rhythm_maker,
+    timespan=stages(4, 6),
     )
