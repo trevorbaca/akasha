@@ -1,4 +1,4 @@
-% 2016-01-04 15:08
+% 2016-01-04 17:15
 
 \version "2.19.35"
 \language "english"
@@ -570,6 +570,8 @@
                 }
                 {
                     \time 9/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)
+                    \newSpacingSection
                     s1 * 9/8
                         - \markup {
                             \smaller
@@ -963,111 +965,59 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 1/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 45/8
+                        r4
+                        r8
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
-                        R1 * 9/8
-                        R1 * 9/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/8
-                        R1 * 1/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/8
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 7/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1/2
-                        R1 * 3/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
+                        r4.
+                        R1 * 1/3
+                        r4
+                        c'2
+                        c'8 \repeatTie
+                        c'2.. \repeatTie
+                        R1 * 1/3
+                        r4.
+                        c'8
+                        c'4. \repeatTie
+                        R1 * 1/3
+                        c'2..
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        R1 * 291/8
                         \bar "|"
                     }
                 }
@@ -1084,111 +1034,78 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 1/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 11/6
+                        r4.
+                        r4.
+                        r4.
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
-                        R1 * 9/8
-                        R1 * 9/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        r4.
+                        R1 * 37/24
+                        r4
+                        c'8
+                        c'2. \repeatTie
+                        R1 * 1/3
+                        r4.
+                        c'2
+                        c'2.. \repeatTie
+                        R1 * 1/3
+                        c'2
+                        c'4. \repeatTie
+                        R1 * 1/3
+                        r4
+                        r4
+                        r4
+                        r8
+                        r4
+                        r8
+                        r4.
+                        r4.
+                        r4
+                        r4
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
-                        R1 * 3/8
-                        R1 * 1/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/8
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 7/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1/2
-                        R1 * 3/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
+                        r8
+                        c'2.
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        R1 * 291/8
                         \bar "|"
                     }
                 }
@@ -1205,111 +1122,67 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 1/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        r4
+                        r4
+                        r4
+                        r4
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
-                        R1 * 9/8
-                        R1 * 9/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        r4
+                        R1 * 33/8
+                        r4.
+                        c'2.
+                        R1 * 1/3
+                        c'2..
+                        c'2.. \repeatTie
+                        R1 * 1/3
+                        r4
+                        r4
+                        \times 4/7 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
-                        R1 * 3/8
-                        R1 * 1/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/8
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 7/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1/2
-                        R1 * 3/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
+                        r8
+                        R1 * 1/3
+                        r4
+                        c'2
+                        c'8 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        R1 * 291/8
                         \bar "|"
                     }
                 }
@@ -1326,111 +1199,69 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 1/2
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        R1 * 53/12
+                        r4
+                        r8
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
-                        R1 * 9/8
-                        R1 * 9/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
+                        r4
+                        R1 * 1/3
+                        c'4.
+                        c'2. \repeatTie
+                        R1 * 1/3
+                        r4
+                        r4
+                        r4
+                        r8
+                        r4
+                        r4
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
                         }
-                        R1 * 3/8
-                        R1 * 1/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/8
-                        R1 * 3/4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 7/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1/2
-                        R1 * 3/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
+                        r8
+                        R1 * 1/3
+                        r4
+                        c'4
+                        c'4. \repeatTie
+                        R1 * 1/3
+                        r4.
+                        c'2
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        R1 * 291/8
                         \bar "|"
                     }
                 }
