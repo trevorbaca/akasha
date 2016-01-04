@@ -67,7 +67,19 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 
 segment_maker.make_rhythms(
-    voice_names=(vn1, vn2, va, vc),
+    tutti,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stage(1),
+    )
+
+segment_maker.make_rhythms(
+    tutti,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stage(3),
+    )
+
+segment_maker.make_rhythms(
+    tutti,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stage(4),
     )

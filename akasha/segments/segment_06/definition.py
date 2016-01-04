@@ -90,7 +90,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=3,
-    voice_name=vn2,
+    voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -133,7 +133,7 @@ segment_maker.make_rhythm(
     
 segment_maker.make_rhythm(
     stages=5,
-    voice_name=vn1,
+    voice_name=vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -146,7 +146,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=5,
-    voice_name=vn2,
+    voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -176,7 +176,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=7,
-    voice_name=vn1,
+    voice_name=vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -189,7 +189,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=7,
-    voice_name=vn2,
+    voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -256,7 +256,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=9,
-    voice_name=vn1,
+    voice_name=vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -269,7 +269,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=9,
-    voice_name=vn2,
+    voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -297,7 +297,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=(10, 11),
-    voice_name=vn1,
+    voice_name=vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[8],
         logical_tie_masks=[
@@ -310,7 +310,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=(10, 11),
-    voice_name=vn2,
+    voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[8],
         logical_tie_masks=[
@@ -346,7 +346,7 @@ def extra_counts(rotation=0):
 
 segment_maker.make_rhythm(
     stages=(12, 13),
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         division_masks=[
@@ -362,7 +362,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=(12, 13),
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((3, 1)))[0]
         ,
@@ -381,7 +381,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=(12, 13),
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((3, 1)))[1]
         ,
@@ -439,7 +439,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=(14, 15),
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -456,7 +456,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=(14, 15),
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 1, 2, 1, 2],
@@ -492,7 +492,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=16,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -510,7 +510,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=16,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 1, 2, 1, 2],

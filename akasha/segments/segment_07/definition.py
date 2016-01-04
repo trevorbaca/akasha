@@ -95,7 +95,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=2,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -112,7 +112,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=2,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 1, 2, 1, 2],
@@ -156,7 +156,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=6,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=quarter_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[1],
@@ -172,7 +172,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=6,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=quarter_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[0],
@@ -241,7 +241,7 @@ accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_expression=division_expression(0),
     division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
@@ -250,7 +250,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_expression=division_expression(1).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
@@ -259,7 +259,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_expression=division_expression(2),
     division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
@@ -268,7 +268,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_expression=division_expression(3).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
@@ -277,7 +277,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_expression=division_expression(4),
     division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
@@ -286,7 +286,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_expression=division_expression(5).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
@@ -349,7 +349,7 @@ accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=division_expression(0),
     division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
@@ -358,7 +358,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=division_expression(1).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
@@ -367,7 +367,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=division_expression(2),
     division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
@@ -376,7 +376,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=division_expression(3).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
@@ -385,7 +385,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=division_expression(4),
     division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
@@ -394,7 +394,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=8,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=division_expression(5).sum().sequence(),
     division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
@@ -483,7 +483,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=(9, 11),
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -501,7 +501,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=9,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((1, 1)))
         [0]
@@ -512,7 +512,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=(10, 11),
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[1, 2, 2, 1, 2, 1],
@@ -532,7 +532,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=13,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -549,7 +549,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=13,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 1, 2, 1, 2],
@@ -610,7 +610,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=17,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -627,7 +627,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=17,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 1, 2, 1, 2],
