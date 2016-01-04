@@ -90,9 +90,11 @@ segment_maker.make_rhythm(
         .flatten()
         .sum()
         .sequence()
-        .split([Duration(1, 4)], cyclic=True)
+        .split([Duration(2, 4)], cyclic=True, overhang=True)
         .flatten()
         ,
     rhythm_maker=note_rhythm_maker,
+    #rewrite_meter=True,
+    #split_at_measure_boundaries=True,
     timespan=stages(4, 6),
     )
