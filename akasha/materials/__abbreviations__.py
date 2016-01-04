@@ -2,17 +2,16 @@
 import abjad
 import experimental
 import baca
-from abjad.tools.durationtools import Duration
-from abjad.tools.durationtools import Multiplier
 from abjad.tools.markuptools import Markup
 
 
 ### CONTEXT NAMES ###
 
-vn1 = 'Violin One Music Voice'
-vn2 = 'Violin Two Music Voice'
+vn_1 = 'Violin One Music Voice'
+vn_2 = 'Violin Two Music Voice'
 va = 'Viola Music Voice'
 vc = 'Cello Music Voice'
+tutti = (vn_1, vn_2, va, vc)
 
 ### NUMBERS ###
 
@@ -22,7 +21,7 @@ getato_counts = [-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6]
 
 beat_division_maker = experimental.tools.makertools.DivisionMaker()
 beat_division_maker = beat_division_maker.split_by_durations(
-        compound_meter_multiplier=Multiplier(3, 2),
+        compound_meter_multiplier=abjad.durationtools.Multiplier(3, 2),
         durations=[(1, 4)],
         )
 beat_division_maker = beat_division_maker.flatten()
@@ -125,7 +124,7 @@ def tremolo_down(n, maximum_adjustment=-1.5):
         grob_name='stem_tremolo',
         attribute_name='extra_offset',
         attribute_value=str(pair),
-        maximum_written_duration=Duration(1),
+        maximum_written_duration=abjad.durationtools.Duration(1),
         maximum_settings={
             'grob_name': 'stem_tremolo',
             'attribute_name': 'extra_offset',
@@ -181,7 +180,7 @@ def pervasive_trills_at_interval(interval):
     
 trill_quarter_notes = baca.tools.TrillSpecifier(
     forbidden_annotations=['color fingering', 'color microtone'],
-    minimum_written_duration=Duration(1, 4),
+    minimum_written_duration=abjad.durationtools.Duration(1, 4),
     )
 
 pervasive_trills = baca.tools.TrillSpecifier(

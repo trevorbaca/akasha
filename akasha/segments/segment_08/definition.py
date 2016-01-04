@@ -64,7 +64,7 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_rhythm(
     stages=1,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((2, 1)))
         [0]
@@ -85,7 +85,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=1,
-    voice_name=vn2,
+    voice_name=vn_2,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -123,7 +123,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=2,
-    voice_name=vn1,
+    voice_name=vn_1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -134,7 +134,7 @@ segment_maker.make_rhythm(
     )
 
 segment_maker.copy_music_maker(
-    vn2,
+    vn_2,
     1,
     stages=2,
     )
@@ -154,13 +154,13 @@ segment_maker.copy_music_maker(
 ### stage 3 ###
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     2,
     stages=3,
     )
 
 segment_maker.copy_music_maker(
-    vn2,
+    vn_2,
     1,
     stages=3,
     )
@@ -180,13 +180,13 @@ segment_maker.copy_music_maker(
 ### stages 4-5 ###
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     2,
     stages=4,
     )
 
 segment_maker.copy_music_maker(
-    vn2,
+    vn_2,
     1,
     stages=4,
     )
@@ -206,13 +206,13 @@ segment_maker.copy_music_maker(
 ### stages 6-7 ###
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     2,
     stages=6,
     )
 
 segment_maker.copy_music_maker(
-    vn2,
+    vn_2,
     1,
     stages=6,
     )

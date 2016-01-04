@@ -76,7 +76,7 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_rhythm(
     stages=1,
-    voice_name=vn1,
+    voice_name=vn_1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -87,25 +87,25 @@ segment_maker.make_rhythm(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     1,
-    voice_name=vn2,
+    voice_name=vn_2,
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     1,
     voice_name=va,
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     1,
     stages=3,
     )
 
 segment_maker.copy_music_maker(
-    vn2,
+    vn_2,
     1,
     stages=3,
     )
@@ -132,12 +132,12 @@ segment_maker.make_rhythm(
 segment_maker.copy_music_maker(
     vc,
     3,
-    voice_name=vn1,
+    voice_name=vn_1,
     stages=5,
     )
 
 segment_maker.copy_music_maker(
-    vn2,
+    vn_2,
     3,
     stages=5,
     )
@@ -155,7 +155,7 @@ segment_maker.copy_music_maker(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     5,
     stages=7,
     )
@@ -163,7 +163,7 @@ segment_maker.copy_music_maker(
 segment_maker.copy_music_maker(
     vc,
     5,
-    voice_name=vn2,
+    voice_name=vn_2,
     stages=7,
     )
 
@@ -181,7 +181,7 @@ segment_maker.copy_music_maker(
 
 segment_maker.make_rhythm(
     stages=9,
-    voice_name=vn1,
+    voice_name=vn_1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -192,40 +192,40 @@ segment_maker.make_rhythm(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     9,
-    voice_name=vn2,
+    voice_name=vn_2,
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     9,
     voice_name=va,
     )
     
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     9,
     voice_name=vc,
     )
 
 segment_maker.make_rhythm(
     stages=10,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_selector=select().get_slice(stop=-1).get_item(0),
     rhythm_maker=note_rhythm_maker,
     )
 
 segment_maker.make_rhythm(
     stages=10,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_selector=select().get_slice(start=-1).get_item(0),
     rhythm_maker=note_rhythm_maker,
     )
 
 segment_maker.make_rhythm(
     stages=10,
-    voice_name=vn2,
+    voice_name=vn_2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
     
@@ -243,7 +243,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=12,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_selector=select().
         partition_by_ratio(mathtools.Ratio((1, 1))).
         get_item(0)
@@ -252,13 +252,13 @@ segment_maker.make_rhythm(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     12,
-    voice_name=vn2,
+    voice_name=vn_2,
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     12,
     voice_name=va,
     )

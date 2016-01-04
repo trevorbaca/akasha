@@ -82,7 +82,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=3,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -117,7 +117,7 @@ counts = [4, 14, 4, 6, 18]
 
 segment_maker.make_rhythm(
     stages=5,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -138,9 +138,9 @@ segment_maker.make_rhythm(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     5,
-    voice_name=vn2,
+    voice_name=vn_2,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -1),
     rhythm_maker__division_masks=[
         silence_first(4),
@@ -149,7 +149,7 @@ segment_maker.copy_music_maker(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     5,
     voice_name=va,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
@@ -159,7 +159,7 @@ segment_maker.copy_music_maker(
     )
     
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     5,
     voice_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
@@ -170,7 +170,7 @@ segment_maker.copy_music_maker(
 
 segment_maker.make_rhythm(
     stages=7,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -192,7 +192,7 @@ segment_maker.make_rhythm(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     7,
     voice_name=va,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
@@ -202,7 +202,7 @@ segment_maker.copy_music_maker(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     7,
     voice_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
@@ -212,7 +212,7 @@ segment_maker.copy_music_maker(
 
 segment_maker.make_rhythm(
     stages=7,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -228,7 +228,7 @@ segment_maker.make_rhythm(
 
 segment_maker.make_rhythm(
     stages=9,
-    voice_name=vn1,
+    voice_name=vn_1,
     division_maker=quarter_division_maker,
     rhythm_maker=note_rhythm_maker,
     rhythm_maker__division_masks=[
@@ -242,7 +242,7 @@ counts = [5, 4, 3, 6]
 
 segment_maker.make_rhythm(
     stages=9,
-    voice_name=vn2,
+    voice_name=vn_2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -263,7 +263,7 @@ segment_maker.make_rhythm(
     )
 
 segment_maker.copy_music_maker(
-    vn1,
+    vn_1,
     9,
     voice_name=va,
     rhythm_maker__division_masks=[
@@ -274,7 +274,7 @@ segment_maker.copy_music_maker(
     )
 
 segment_maker.copy_music_maker(
-    vn2,
+    vn_2,
     9,
     voice_name=vc,
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),

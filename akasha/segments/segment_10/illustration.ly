@@ -1,4 +1,4 @@
-% 2016-01-03 17:17
+% 2016-01-03 18:51
 
 \version "2.19.35"
 \language "english"
@@ -434,10 +434,14 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 17/6
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 1/3
                         c'1.
                         c'1. \repeatTie
-                        R1 * 265/12
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 235/12
                         \bar "|"
                     }
                 }
@@ -454,10 +458,14 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 17/6
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 1/3
                         c'1.
                         c'1. \repeatTie
-                        R1 * 265/12
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 235/12
                         \bar "|"
                     }
                 }
@@ -474,10 +482,14 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 17/6
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 1/3
                         c'1.
                         c'1. \repeatTie
-                        R1 * 265/12
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 235/12
                         \bar "|"
                     }
                 }
@@ -494,10 +506,14 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 17/6
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 1/3
                         c'1.
                         c'1. \repeatTie
-                        R1 * 265/12
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 235/12
                         \bar "|"
                     }
                 }
