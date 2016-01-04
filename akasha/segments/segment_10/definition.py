@@ -214,3 +214,12 @@ segment_maker.make_rhythm_maker(
         ),
     timespan=stages(8, 11),
     )
+
+###
+
+#segment_maker.make_music_handler(
+#    scope=(vn_1, (8, 11)),
+#    specifiers=[
+#        label().with_indices(prototype=Tuplet),
+#        ],
+#    )
