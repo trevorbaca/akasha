@@ -1,4 +1,4 @@
-% 2016-01-04 09:28
+% 2016-01-04 10:19
 
 \version "2.19.35"
 \language "english"
@@ -494,10 +494,12 @@
                         c'2
                         c'2
                         c'2
+                        c'4
+                        c'4 \repeatTie
                         c'2
                         c'2
-                        c'2
-                        c'2
+                        c'4
+                        c'4 \repeatTie
                         c'2
                         c'4
                         R1 * 95/6
