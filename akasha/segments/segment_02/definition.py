@@ -137,7 +137,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     5,
     voice_name=vn_2,
@@ -148,7 +148,7 @@ segment_maker.copy_music_maker(
         ],
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     5,
     voice_name=va,
@@ -158,7 +158,7 @@ segment_maker.copy_music_maker(
         ],
     )
     
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     5,
     voice_name=vc,
@@ -191,7 +191,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     7,
     voice_name=va,
@@ -201,7 +201,7 @@ segment_maker.copy_music_maker(
         ],
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     7,
     voice_name=vc,
@@ -262,7 +262,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     9,
     voice_name=va,
@@ -273,7 +273,7 @@ segment_maker.copy_music_maker(
         ],
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     9,
     voice_name=vc,

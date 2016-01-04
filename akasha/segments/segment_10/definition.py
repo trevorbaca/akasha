@@ -89,7 +89,7 @@ segment_maker.make_rhythm_maker(
     division_expression=split_by_durations([Duration(2, 4)]),
     rhythm_maker=messiaen_note_rhythm_maker,
     split_at_measure_boundaries=True,
-    timespan=stages(4, 6),
+    timespan=stages(4, 7),
     )
 
 segment_maker.make_rhythm_maker(
@@ -114,4 +114,59 @@ segment_maker.make_rhythm_maker(
     rewrite_meter=True,
     rhythm_maker=messiaen_note_rhythm_maker,
     timespan=stages(5, 6),
+    )
+
+### stage 7 ###
+
+segment_maker.make_rhythm_maker(
+    voice_name=vn_1,
+    rhythm_maker=make_accelerando_rhythm_maker(
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 2),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 2),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        ),
+    timespan=stage(7),
+    )
+
+segment_maker.make_rhythm_maker(
+    voice_name=vn_2,
+    rhythm_maker=make_accelerando_rhythm_maker(
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 2),
+                written_duration=Duration(1, 16),
+                ),
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 2),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        ),
+    timespan=stage(7),
+    )
+
+segment_maker.make_rhythm_maker(
+    voice_name=vc,
+    division_expression=fuse_divisions(),
+    rhythm_maker=make_accelerando_rhythm_maker(
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 2),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        ),
+    timespan=stage(7),
     )

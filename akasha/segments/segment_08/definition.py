@@ -133,19 +133,19 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     1,
     stages=2,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     1,
     stages=2,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vc,
     1,
     stages=2,
@@ -153,25 +153,25 @@ segment_maker.copy_music_maker(
 
 ### stage 3 ###
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     2,
     stages=3,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     1,
     stages=3,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     1,
     stages=3,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vc,
     1,
     stages=3,
@@ -179,25 +179,25 @@ segment_maker.copy_music_maker(
 
 ### stages 4-5 ###
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     2,
     stages=4,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     1,
     stages=4,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     1,
     stages=4,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vc,
     1,
     stages=4,
@@ -205,25 +205,25 @@ segment_maker.copy_music_maker(
 
 ### stages 6-7 ###
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_1,
     2,
     stages=6,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn_2,
     1,
     stages=6,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     va,
     1,
     stages=(6, 7),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vc,
     1,
     stages=6,
