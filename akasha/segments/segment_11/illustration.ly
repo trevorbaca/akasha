@@ -1,4 +1,4 @@
-% 2016-01-04 17:15
+% 2016-01-04 17:20
 
 \version "2.19.35"
 \language "english"
@@ -570,7 +570,7 @@
                 }
                 {
                     \time 9/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 8)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 9/8
                         - \markup {
@@ -1017,7 +1017,64 @@
                         c'1 \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
-                        R1 * 291/8
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1
                         \bar "|"
                     }
                 }
@@ -1105,7 +1162,64 @@
                         c'1 \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
-                        R1 * 291/8
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1
                         \bar "|"
                     }
                 }
@@ -1182,7 +1296,64 @@
                         c'1 \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
-                        R1 * 291/8
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1
                         \bar "|"
                     }
                 }
@@ -1261,7 +1432,64 @@
                         c'1 \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
-                        R1 * 291/8
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1
                         \bar "|"
                     }
                 }
