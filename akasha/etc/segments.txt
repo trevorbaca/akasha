@@ -319,25 +319,25 @@ intro (15")
 [J] (3' maybe 4')
 
     1-6 (1+halt+1+halt+1+halt)[55]
-    vn1 silence with occ. get. strand;
+    vn2 silence with occ. get. strand;
     other three players tacet;
     halting;
 
     7-12 (1+halt+1+halt+1+halt)
-    vn1 silence with occ. get. strand;
+    vn2 silence with occ. get. strand;
     other three players assume finger chord of trill field and then begin
     upbows so incredibly slow as to produce only very very sparsely
     individuated clicks (all tasto);
     halting;
 
     13 (4)
-    vn1 silence with occ. get. strand even thinner;
+    vn2 silence with occ. get. strand even thinner;
     other three players increase bow speed to slightly faster clicks (all 
     tasto);
     attaca;
 
     14 (4)
-    vn1 silence almost complete;
+    vn2 silence almost complete;
     other three players transition slowly from individuated clicks to XSB (all
     tasto);
 
