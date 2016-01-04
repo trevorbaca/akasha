@@ -1,4 +1,4 @@
-% 2016-01-04 10:19
+% 2016-01-04 10:37
 
 \version "2.19.35"
 \language "english"
@@ -441,7 +441,15 @@
                         c'1. \repeatTie
                         c'1.
                         c'1 \repeatTie
-                        R1 * 235/12
+                        c'2.
+                        c'2
+                        c'4 \repeatTie
+                        c'2
+                        c'4 \repeatTie
+                        c'2
+                        c'4 \repeatTie
+                        c'2.
+                        R1 * 95/6
                         \bar "|"
                     }
                 }
@@ -465,7 +473,13 @@
                         c'1. \repeatTie
                         c'1.
                         c'1 \repeatTie
-                        R1 * 235/12
+                        c'1
+                        c'4
+                        c'2. \repeatTie
+                        c'2.
+                        c'4 \repeatTie
+                        c'2.
+                        R1 * 95/6
                         \bar "|"
                     }
                 }
@@ -526,7 +540,13 @@
                         c'1. \repeatTie
                         c'1.
                         c'1 \repeatTie
-                        R1 * 235/12
+                        c'2.
+                        c'2 \repeatTie
+                        c'2.
+                        c'2 \repeatTie
+                        c'4
+                        c'1 \repeatTie
+                        R1 * 95/6
                         \bar "|"
                     }
                 }
