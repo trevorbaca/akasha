@@ -367,7 +367,7 @@ intro (15")
     tutti trilled spectral chord (A);
     repeats multiple times;
     tutti swells persist;
-    gigantic tutti crescendo to fff;
+    gigantic crescendo to fff;
 
     32 (halt)
     grand pause;

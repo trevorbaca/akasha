@@ -51,7 +51,7 @@ tempo_map = tempo_map + fermata_entries
 
 spacing_map = (
     (1, Duration(1, 24)),
-    (14, Duration(1, 8)),
+    (14, Duration(1, 12)),
     )
 
 segment_maker = baca.tools.SegmentMaker(
@@ -250,5 +250,35 @@ segment_maker.make_rhythm_makers(
     tutti,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
+    tie_last=True,
     timespan=stages(14, 17),
+    )
+
+### stages 18-21 ###
+
+segment_maker.make_rhythm_makers(
+    tutti,
+    rewrite_meter=True,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    tie_last=True,
+    timespan=stages(18, 21),
+    )
+
+### stages 22-25 ###
+
+segment_maker.make_rhythm_makers(
+    tutti,
+    rewrite_meter=True,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    tie_last=True,
+    timespan=stages(22, 25),
+    )
+
+### stages 26-31 ###
+
+segment_maker.make_rhythm_makers(
+    tutti,
+    rewrite_meter=True,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    timespan=stages(26, 31),
     )
