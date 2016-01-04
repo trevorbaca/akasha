@@ -86,18 +86,32 @@ segment_maker.make_rhythm_makers(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_expression=sequence()
-        .flatten()
-        .sum()
-        .sequence()
-        .split([Duration(2, 4)], cyclic=True, overhang=True)
-        .flatten()
-        ,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        ),
+    division_expression=split_by_durations([Duration(2, 4)]),
+    rhythm_maker=messiaen_note_rhythm_maker,
     split_at_measure_boundaries=True,
     timespan=stages(4, 6),
+    )
+
+segment_maker.make_rhythm_maker(
+    vn_1,
+    division_expression=split_by_durations([Duration(3, 4)]),
+    rewrite_meter=True,
+    rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(5, 6),
+    )
+
+segment_maker.make_rhythm_maker(
+    vn_2,
+    division_expression=split_by_durations([Duration(4, 4)]),
+    rewrite_meter=True,
+    rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(5, 6),
+    )
+
+segment_maker.make_rhythm_maker(
+    vc,
+    division_expression=split_by_durations([Duration(5, 4)]),
+    rewrite_meter=True,
+    rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(5, 6),
     )
