@@ -66,7 +66,7 @@ assert segment_maker.validate_time_signatures()
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=1,
     voice_name=vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -80,7 +80,7 @@ segment_maker.make_rhythm(
         )
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=3,
     voice_name=vn_2,
     division_maker=beat_division_maker,
@@ -96,7 +96,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=3,
     voice_name=va,
     division_maker=beat_division_maker,
@@ -115,7 +115,7 @@ segment_maker.make_rhythm(
 #counts = [5, -4, 3, 6]
 counts = [4, 14, 4, 6, 18]
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=5,
     voice_name=vn_1,
     division_maker=beat_division_maker,
@@ -168,7 +168,7 @@ segment_maker.copy_music_maker(
         ],
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=7,
     voice_name=vn_1,
     division_maker=beat_division_maker,
@@ -210,7 +210,7 @@ segment_maker.copy_music_maker(
         ],
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=7,
     voice_name=vn_2,
     division_maker=beat_division_maker,
@@ -226,7 +226,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=9,
     voice_name=vn_1,
     division_maker=quarter_division_maker,
@@ -240,7 +240,7 @@ segment_maker.make_rhythm(
 
 counts = [5, 4, 3, 6]
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=9,
     voice_name=vn_2,
     division_maker=beat_division_maker,

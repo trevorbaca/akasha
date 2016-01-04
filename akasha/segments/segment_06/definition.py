@@ -71,7 +71,7 @@ def durations(rotation=0):
     durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     return sequencetools.rotate_sequence(durations, n=rotation)
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=1,
     voice_name=va,
     division_maker=makertools.DivisionMaker()
@@ -88,7 +88,7 @@ segment_maker.make_rhythm(
 
 ### stage 3 ###
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=3,
     voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -101,7 +101,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=3,
     voice_name=va,
     division_maker=makertools.DivisionMaker()
@@ -116,7 +116,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=3,
     voice_name=vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -131,7 +131,7 @@ segment_maker.make_rhythm(
 
 ### stage 5 ###
     
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=5,
     voice_name=vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -144,7 +144,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=5,
     voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -157,7 +157,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=5,
     voice_name=va,
     division_maker=makertools.DivisionMaker()
@@ -174,7 +174,7 @@ segment_maker.make_rhythm(
 
 ### stage 7 ###
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=7,
     voice_name=vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -187,7 +187,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=7,
     voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -200,7 +200,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=7,
     voice_name=va,
     division_maker=makertools.DivisionMaker()
@@ -215,7 +215,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=7,
     voice_name=vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -230,7 +230,7 @@ segment_maker.make_rhythm(
 
 ### viola 9-16 ###
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(9, 16),
     voice_name=va,
 #    division_expression=sequence().
@@ -254,7 +254,7 @@ segment_maker.make_rhythm(
 
 ### stage 9 ###
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=9,
     voice_name=vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -267,7 +267,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=9,
     voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -280,7 +280,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=9,
     voice_name=vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -295,7 +295,7 @@ segment_maker.make_rhythm(
 
 ### stages 10-11 ###
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(10, 11),
     voice_name=vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -308,7 +308,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(10, 11),
     voice_name=vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -321,7 +321,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(10, 11),
     voice_name=vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -344,7 +344,7 @@ def extra_counts(rotation=0):
     extra_counts = [1, 1, 0, 1, 2]
     return sequencetools.rotate_sequence(extra_counts, n=rotation)
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(12, 13),
     voice_name=vn_1,
     division_maker=beat_division_maker,
@@ -360,7 +360,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(12, 13),
     voice_name=vn_2,
     division_expression=sequence().
@@ -379,7 +379,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(12, 13),
     voice_name=vn_2,
     division_expression=sequence().
@@ -399,7 +399,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=12,
     voice_name=vc,
     division_maker=beat_division_maker,
@@ -415,7 +415,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=13,
     voice_name=vc,
     division_maker=beat_division_maker.
@@ -437,7 +437,7 @@ segment_maker.make_rhythm(
 
 ### stages 14-15 ###
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(14, 15),
     voice_name=vn_1,
     division_maker=beat_division_maker.
@@ -454,7 +454,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(14, 15),
     voice_name=vn_2,
     division_maker=beat_division_maker.
@@ -471,7 +471,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=(14, 15),
     voice_name=vc,
     division_maker=beat_division_maker.
@@ -490,7 +490,7 @@ segment_maker.make_rhythm(
 
 ### stage 16 ###
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=16,
     voice_name=vn_1,
     division_maker=beat_division_maker.
@@ -508,7 +508,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=16,
     voice_name=vn_2,
     division_maker=beat_division_maker.
@@ -526,7 +526,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=16,
     voice_name=vc,
     division_maker=beat_division_maker.

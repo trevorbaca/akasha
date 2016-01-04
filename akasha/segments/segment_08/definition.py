@@ -62,7 +62,7 @@ assert segment_maker.validate_time_signatures()
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=1,
     voice_name=vn_1,
     division_expression=sequence().
@@ -83,7 +83,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=1,
     voice_name=vn_2,
     rewrite_meter=True,
@@ -95,7 +95,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=1,
     voice_name=va,
     rewrite_meter=True,
@@ -107,7 +107,7 @@ segment_maker.make_rhythm(
         ),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=1,
     voice_name=vc,
     rewrite_meter=True,
@@ -121,7 +121,7 @@ segment_maker.make_rhythm(
 
 ### stage 2 ###
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     stages=2,
     voice_name=vn_1,
     rewrite_meter=True,

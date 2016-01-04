@@ -84,7 +84,7 @@ segment_maker.make_rhythms(
     timespan=stage(4),
     )
 
-segment_maker.make_rhythm(
+segment_maker.make_rhythm_maker(
     va,
     division_expression=sequence()
         .flatten()
