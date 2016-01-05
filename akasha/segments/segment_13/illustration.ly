@@ -1,6 +1,6 @@
-% 2015-12-05 15:45
+% 2016-01-04 18:21
 
-\version "2.19.32"
+\version "2.19.35"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -10,11 +10,121 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #98
+        currentBarNumber = #335
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 3/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    R1 * 3/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
                     \time 6/4
                     R1 * 3/2
                 }
@@ -33,19 +143,237 @@
                     R1 * 3/2
                 }
                 {
-                    \time 4/4
+                    \time 3/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
                     R1 * 1
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 6/4
+                    \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
                     \mark #12
+                    s1 * 5/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L1]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                55
+                            }
+                        }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                }
+                {
+                    s1 * 3/4
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                }
+                {
+                    s1 * 1
+                }
+                {
+                    \time 5/4
+                    s1 * 5/4
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L2]
+                            }
+                }
+                {
+                    \time 3/3
+                    s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L3]
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L4]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                89
+                            }
+                        }
+                }
+                {
+                    \time 6/4
+                    s1 * 3/2
+                }
+                {
+                    s1 * 3/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L5]
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                }
+                {
+                    s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L6]
+                            }
+                }
+                {
+                    \time 6/4
+                    s1 * 3/2
+                }
+                {
+                    \time 1/3
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L7]
+                            }
+                }
+                {
+                    \time 6/4
+                    s1 * 3/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L8]
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L9]
+                            }
+                }
+                {
+                    \time 5/4
+                    s1 * 5/4
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L10]
+                            }
+                }
+                {
+                    s1 * 3/4
+                }
+                {
+                    \time 1/3
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L11]
+                            }
+                }
+                {
+                    \time 3/4
+                    s1 * 3/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L12]
+                            }
+                }
+                {
+                    \time 4/4
+                    s1 * 1
+                }
+                {
+                    \time 5/4
+                    s1 * 5/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L13]
+                            }
+                }
+                {
+                    \time 6/4
                     s1 * 3/2
                 }
                 {
                     \time 4/4
                     s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L14]
+                            }
                 }
                 {
                     \time 6/4
@@ -58,8 +386,14 @@
                     s1 * 3/2
                 }
                 {
-                    \time 4/4
+                    \time 3/3
                     s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [L15]
+                            }
                 }
             }
         >>
@@ -78,6 +412,37 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 3/2
+                        R1 * 3/2
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/2
+                        \tweak #'edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            R1 * 1/2
+                        }
+                        R1 * 3/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 3/4
+                        \tweak #'edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            R1 * 1/2
+                        }
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 5/4
                         R1 * 3/2
                         R1 * 1
                         R1 * 3/2
@@ -100,6 +465,37 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 3/2
+                        R1 * 3/2
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/2
+                        \tweak #'edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            R1 * 1/2
+                        }
+                        R1 * 3/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 3/4
+                        \tweak #'edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            R1 * 1/2
+                        }
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 5/4
                         R1 * 3/2
                         R1 * 1
                         R1 * 3/2
@@ -122,6 +518,37 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 3/2
+                        R1 * 3/2
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/2
+                        \tweak #'edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            R1 * 1/2
+                        }
+                        R1 * 3/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 3/4
+                        \tweak #'edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            R1 * 1/2
+                        }
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 5/4
                         R1 * 3/2
                         R1 * 1
                         R1 * 3/2
@@ -144,6 +571,37 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 1
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 3/4
+                        R1 * 3/2
+                        R1 * 3/2
+                        R1 * 1
+                        R1 * 1
+                        R1 * 3/2
+                        \tweak #'edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            R1 * 1/2
+                        }
+                        R1 * 3/2
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 5/4
+                        R1 * 3/4
+                        R1 * 3/4
+                        \tweak #'edge-height #'(0.7 . 0)
+                        \times 2/3 {
+                            R1 * 1/2
+                        }
+                        R1 * 3/4
+                        R1 * 1
+                        R1 * 5/4
                         R1 * 3/2
                         R1 * 1
                         R1 * 3/2
