@@ -26,15 +26,32 @@ beat_division_maker = beat_division_maker.split_by_durations(
         )
 beat_division_maker = beat_division_maker.flatten()
 
-quarter_divisions = abjad.topleveltools.sequence()
-quarter_divisions = quarter_divisions.map()
-quarter_divisions = quarter_divisions.sequence()
-quarter_divisions = quarter_divisions.split(
-    [abjad.durationtools.Duration(1, 4)],
-    cyclic=True, 
-    overhang=True,
+compound_quarter_divisions = baca.tools.DivisionExpression()
+compound_quarter_divisions = compound_quarter_divisions.split_by_durations(
+    compound_meter_multiplier=abjad.durationtools.Multiplier((3, 2)),
+    durations=[abjad.durationtools.Duration(1, 4)],
     )
-quarter_divisions = quarter_divisions.flatten()
+compound_quarter_divisions = compound_quarter_divisions.flatten()
+
+strict_quarter_divisions = baca.tools.DivisionExpression()
+strict_quarter_divisions = strict_quarter_divisions.split_by_durations(
+    durations=[abjad.durationtools.Duration(1, 4)],
+    )
+strict_quarter_divisions = strict_quarter_divisions.flatten()
+
+def fused_compound_quarter_divisions(rotation=0):
+    counts = abjad.sequencetools.Sequence([2, 2, 1, 2, 1])
+    counts = counts.rotate(n=rotation)
+    expression = compound_quarter_divisions
+    expression = expression.partition_by_counts(
+        counts=counts,
+        cyclic=True,
+        overhang=True,
+        )
+    expression = expression.map()
+    expression = expression.sum()
+    expression = expression.flatten()
+    return expression
 
 messiaen_tied_note_rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(

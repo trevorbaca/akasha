@@ -2736,12 +2736,8 @@
                         c'2. \repeatTie
                         c'1 \repeatTie
                         c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2. \repeatTie
-                        c'1. \repeatTie
-                        c'1 \repeatTie
+                        R1 * 17/4
+                        c'1
                         c'1. \repeatTie
                         c'1. \repeatTie
                         c'1. \repeatTie

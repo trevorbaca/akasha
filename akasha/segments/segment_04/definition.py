@@ -146,7 +146,7 @@ segment_maker.copy_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_expression=quarter_divisions,
+    division_expression=strict_quarter_divisions,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(),
