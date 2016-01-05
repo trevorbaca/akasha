@@ -63,12 +63,11 @@ assert segment_maker.stage_count == 16, segment_maker.stage_count
 assert segment_maker.validate_time_signatures()
 
 ###############################################################################
-################################ MUSIC-MAKERS #################################
+################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_maker(
-    stages=1,
-    voice_name=vc,
+segment_maker.make_rhythm_makers(
+    vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=[7, 1, 10, 2],
@@ -77,12 +76,12 @@ segment_maker.make_rhythm_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             )
-        )
+        ),
+    timespan=stages(1),
     )
 
-segment_maker.make_rhythm_maker(
-    stages=3,
-    voice_name=vn_2,
+segment_maker.make_rhythm_makers(
+    vn_2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -94,11 +93,11 @@ segment_maker.make_rhythm_maker(
             silence_every([1, 2], period=4),
             ],
         ),
+    timespan=stages(3),
     )
 
-segment_maker.make_rhythm_maker(
-    stages=3,
-    voice_name=va,
+segment_maker.make_rhythm_makers(
+    va,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -110,14 +109,14 @@ segment_maker.make_rhythm_maker(
             silence_every([0, 2, 3], period=4),
             ],
         ),
+    timespan=stages(3),
     )
 
 #counts = [5, -4, 3, 6]
 counts = [4, 14, 4, 6, 18]
 
-segment_maker.make_rhythm_maker(
-    stages=5,
-    voice_name=vn_1,
+segment_maker.make_rhythm_makers(
+    vn_1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[2, 0, 1],
@@ -135,6 +134,7 @@ segment_maker.make_rhythm_maker(
             simplify_redundant_tuplets=True,
             ),
         ),
+    timespan=stages(5),
     )
 
 segment_maker.copy_rhythm_maker(
@@ -168,9 +168,8 @@ segment_maker.copy_rhythm_maker(
         ],
     )
 
-segment_maker.make_rhythm_maker(
-    stages=7,
-    voice_name=vn_1,
+segment_maker.make_rhythm_makers(
+    vn_1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -189,6 +188,7 @@ segment_maker.make_rhythm_maker(
             simplify_redundant_tuplets=True,
             ),
         ),
+    timespan=stages(7),
     )
 
 segment_maker.copy_rhythm_maker(
@@ -211,8 +211,7 @@ segment_maker.copy_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    stages=7,
-    voice_name=vn_2,
+    vn_2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -224,11 +223,11 @@ segment_maker.make_rhythm_maker(
             silence_last(2),
             ],
         ),
+    timespan=stages(7),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=9,
-    voice_name=vn_1,
+    vn_1,
     division_maker=quarter_division_maker,
     rhythm_maker=note_rhythm_maker,
     rhythm_maker__division_masks=[
@@ -236,13 +235,13 @@ segment_maker.make_rhythm_maker(
         silence_every(indices=[2, 4], period=5),
         silence_last(4),
         ],
+    timespan=stages(9),
     )
 
 counts = [5, 4, 3, 6]
 
 segment_maker.make_rhythm_maker(
-    stages=9,
-    voice_name=vn_2,
+    vn_2,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[2, 0, 1],
@@ -260,6 +259,7 @@ segment_maker.make_rhythm_maker(
             simplify_redundant_tuplets=True,
             ),
         ),
+    timespan=stages(9),
     )
 
 segment_maker.copy_rhythm_maker(
