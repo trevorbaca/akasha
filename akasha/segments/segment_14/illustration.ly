@@ -1,6 +1,6 @@
-% 2015-12-05 15:45
+% 2016-01-04 18:38
 
-\version "2.19.32"
+\version "2.19.35"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -10,10 +10,33 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #104
+        currentBarNumber = #366
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
                 {
                     \time 9/8
                     R1 * 9/8
@@ -30,38 +53,174 @@
                     R1 * 1
                 }
                 {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
+                }
+                {
                     \time 3/8
                     R1 * 3/8
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    R1 * 9/8
                 }
                 {
                     \time 4/8
                     R1 * 1/2
                 }
+                {
+                    R1 * 1/2
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 2
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 9/8
+                    \time 3/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     \mark #13
-                    s1 * 9/8
-                }
-                {
-                    s1 * 9/8
+                    s1 * 3/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [M1]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                126
+                            }
+                        }
                 }
                 {
                     \time 4/8
                     s1 * 1/2
                 }
                 {
-                    \time 8/8
-                    s1 * 1
+                    \time 7/8
+                    s1 * 7/8
+                }
+                {
+                    s1 * 7/8
                 }
                 {
                     \time 3/8
                     s1 * 3/8
                 }
                 {
+                    \time 6/8
+                    s1 * 3/4
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                }
+                {
+                    s1 * 9/8
+                }
+                {
                     \time 4/8
                     s1 * 1/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [M2]
+                            }
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                }
+                {
+                    \time 6/8
+                    s1 * 3/4
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                }
+                {
+                    s1 * 7/8
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                }
+                {
+                    s1 * 9/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [M3]
+                            }
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    s1 * 1/2
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 6/3
+                    s1 * 2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [M4]
+                            }
                 }
             }
         >>
@@ -80,12 +239,27 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        R1 * 3/8
+                        R1 * 1/2
+                        R1 * 7/8
+                        R1 * 7/8
+                        R1 * 3/8
+                        R1 * 3/4
                         R1 * 9/8
                         R1 * 9/8
                         R1 * 1/2
                         R1 * 1
+                        R1 * 3/4
+                        R1 * 7/8
+                        R1 * 7/8
                         R1 * 3/8
+                        R1 * 1
+                        R1 * 9/8
+                        R1 * 9/8
                         R1 * 1/2
+                        R1 * 1/2
+                        R1 * 3/8
+                        R1 * 2
                         \bar "|."
                     }
                 }
@@ -102,12 +276,27 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        R1 * 3/8
+                        R1 * 1/2
+                        R1 * 7/8
+                        R1 * 7/8
+                        R1 * 3/8
+                        R1 * 3/4
                         R1 * 9/8
                         R1 * 9/8
                         R1 * 1/2
                         R1 * 1
+                        R1 * 3/4
+                        R1 * 7/8
+                        R1 * 7/8
                         R1 * 3/8
+                        R1 * 1
+                        R1 * 9/8
+                        R1 * 9/8
                         R1 * 1/2
+                        R1 * 1/2
+                        R1 * 3/8
+                        R1 * 2
                         \bar "|."
                     }
                 }
@@ -124,12 +313,27 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        R1 * 3/8
+                        R1 * 1/2
+                        R1 * 7/8
+                        R1 * 7/8
+                        R1 * 3/8
+                        R1 * 3/4
                         R1 * 9/8
                         R1 * 9/8
                         R1 * 1/2
                         R1 * 1
+                        R1 * 3/4
+                        R1 * 7/8
+                        R1 * 7/8
                         R1 * 3/8
+                        R1 * 1
+                        R1 * 9/8
+                        R1 * 9/8
                         R1 * 1/2
+                        R1 * 1/2
+                        R1 * 3/8
+                        R1 * 2
                         \bar "|."
                     }
                 }
@@ -146,12 +350,27 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        R1 * 3/8
+                        R1 * 1/2
+                        R1 * 7/8
+                        R1 * 7/8
+                        R1 * 3/8
+                        R1 * 3/4
                         R1 * 9/8
                         R1 * 9/8
                         R1 * 1/2
                         R1 * 1
+                        R1 * 3/4
+                        R1 * 7/8
+                        R1 * 7/8
                         R1 * 3/8
+                        R1 * 1
+                        R1 * 9/8
+                        R1 * 9/8
                         R1 * 1/2
+                        R1 * 1/2
+                        R1 * 3/8
+                        R1 * 2
                         \bar "|."
                     }
                 }

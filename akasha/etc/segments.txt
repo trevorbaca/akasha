@@ -432,7 +432,7 @@ intro (15")
 
 [M] (30")
 
-    1 (4)[126]
+    1 (8)[126]
     sub. tempo slightly faster;
     tutti OB homorhythm with tutti rests between each stroke;
     microtonal polyphony hidden in glissandi in vn2, va, vc;
@@ -440,13 +440,13 @@ intro (15")
     vn1 plays incredibly pianiss. get. strands with incredible perforation;
     attaca;
 
-    2 (4)
+    2 (8)
     vn1 incredibly perforated get. pianiss.;
     vn2, va, vc bows freeze;
     vn2, va, vc lh glissandi continue without only sound of fingers on strings;
     attaca;
 
-    3-4 (2+halt)
+    3-4 (4+halt)
     vn1 incredibly perforated get. pianiss.;
     vn2, va, vc freeze;
     grand pause.
