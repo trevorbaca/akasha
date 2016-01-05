@@ -39,7 +39,7 @@ fermata_entries = preprocessor.make_fermata_entries()
 tempo_map = tempo_map + fermata_entries
 
 spacing_map = (
-    (1, Duration(1, 12)),
+    (1, Duration(1, 18)),
     )
 
 segment_maker = baca.tools.SegmentMaker(
@@ -68,6 +68,45 @@ segment_maker.make_rhythm_makers(
         logical_tie_masks=[
             silence_every([1], period=2),
             ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
         ),
     timespan=stages(1, 2),
+    )
+
+segment_maker.make_rhythm_maker(
+    voice_name=vn_2,
+    division_maker=beat_division_maker.
+        fuse_by_counts(
+            counts=[2, 2, 1, 2, 1],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        burnish_specifier=rhythmmakertools.BurnishSpecifier(
+            left_classes=[Rest],
+            left_counts=[1, 4],
+            right_classes=[Rest],
+            right_counts=[0, 4],
+            ),
+        denominators=[16],
+        division_masks=[
+            silence([12, -2], inverted=True),
+            ],
+        extra_counts_per_division=[6, 4, 6, 3],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    timespan=stages(1, 3),
+    )
+
+###
+
+segment_maker.make_music_handler(
+    scope=(vn_2, (1, 3)),
+    specifiers=[
+        label().with_indices(prototype=Tuplet), 
+        ],
     )
