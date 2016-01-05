@@ -426,7 +426,7 @@ intro (15")
     13 (2)
     staggered 3/4 OB > OB;
 
-    14-15 (6+halt)
+    14-15 (4+halt)
     tutti OB;
     freeze;
 
