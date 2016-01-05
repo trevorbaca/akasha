@@ -1,4 +1,4 @@
-% 2016-01-04 18:55
+% 2016-01-04 19:05
 
 \version "2.19.35"
 \language "english"
@@ -88,7 +88,7 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 3/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 18)
                     \newSpacingSection
                     \mark #13
                     s1 * 3/8
@@ -223,12 +223,13 @@
                         r8.
                         c'4.
                         r4.
-                        c'2 ~
-                        c'16
+                        c'2
+                        c'16 \repeatTie
                         r2
                         r16
-                        c'2 ~
-                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'16 \repeatTie
                         r2
                         r16
                         c'4
@@ -256,22 +257,51 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 9/8
-                        R1 * 9/8
-                        R1 * 1/2
-                        R1 * 1
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 3/8
-                        R1 * 1
-                        R1 * 9/8
+                        r4.
+                        r2
+                        r2..
+                        r2..
+                        r4.
+                        r2.
+                        r2.
+                        r4.
+                        r4.
+                        {
+                            r16
+                                ^ \markup {
+                                    \small
+                                        0
+                                    }
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r4.
+                        r2
+                        r1
+                        r2.
+                        r2..
+                        r2..
+                        r4.
+                        r1
+                        \times 6/9 {
+                            r16
+                                ^ \markup {
+                                    \small
+                                        1
+                                    }
+                            r16
+                            r16
+                            r16
+                            c'16
+                            r16
+                            r16
+                            r16
+                            r16
+                        }
+                        r2.
                         R1 * 2
                         \bar "|."
                     }
@@ -301,12 +331,13 @@
                         r8.
                         c'4.
                         r4.
-                        c'2 ~
-                        c'16
+                        c'2
+                        c'16 \repeatTie
                         r2
                         r16
-                        c'2 ~
-                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'16 \repeatTie
                         r2
                         r16
                         c'4
@@ -346,12 +377,13 @@
                         r8.
                         c'4.
                         r4.
-                        c'2 ~
-                        c'16
+                        c'2
+                        c'16 \repeatTie
                         r2
                         r16
-                        c'2 ~
-                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'16 \repeatTie
                         r2
                         r16
                         c'4
