@@ -19,8 +19,8 @@ time_signatures = sequencetools.rotate_sequence(
 time_signatures = sequencetools.flatten_sequence(time_signatures)
 
 stage_specifier = [
-    8,
-    8,
+    6,
+    6,
     4,
     TimeSignature((6, 3)),
     ]
@@ -33,7 +33,7 @@ measures_per_stage = [len(_) for _ in time_signature_groups]
 time_signatures = sequencetools.flatten_sequence(time_signature_groups)
 
 tempo_map = (
-    (1, akasha.materials.tempi[126]),
+    (1, akasha.materials.tempi[89]),
     )
 fermata_entries = preprocessor.make_fermata_entries()
 tempo_map = tempo_map + fermata_entries
@@ -51,10 +51,23 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-#assert segment_maker.measure_count == 11, repr(segment_maker.measure_count)
-#assert segment_maker.stage_count == 4, repr(segment_maker.stage_count)
+assert segment_maker.measure_count == 17, repr(segment_maker.measure_count)
+assert segment_maker.stage_count == 4, repr(segment_maker.stage_count)
 assert segment_maker.validate_time_signatures()
 
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
+
+segment_maker.make_rhythm_makers(
+    (vn_1, va, vc),
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            body_ratio=Ratio((1, 1)),
+            ),
+#        logical_tie_masks=[
+#            silence_every([1], period=2),
+#            ],
+        ),
+    timespan=stages(1, 2),
+    )
