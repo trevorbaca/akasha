@@ -374,14 +374,19 @@ intro (15")
 
 [K] (15")
 
-    1
-    vc Bb1 + microtonal field in other three players played once in
-    isolation;
-    large pause
+    1-2 (2+halt)[89]
+    vc Bb1;
+    microtonal field in other three players played once;
+    large pause;
 
-    2
-    vc Bb1 + microtonal field again then attaca tutti trilled chord one last
-    time;
+    3 (2)[89]
+    vc Bb1;
+    microtonal field in other three players played once;
+    attaca;
+
+    4-5 (4+halt)[55]
+    vc Bb1;
+    trilled chord in other three players on last time;
     vc Bb1 sustained as pedal over large pause;
 
 [L] (1'30")
