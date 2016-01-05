@@ -7,7 +7,7 @@ from akasha.materials.__abbreviations__ import *
 
 
 ###############################################################################
-############################## SEGMENT-MAKER ##################################
+##################################### [M] #####################################
 ###############################################################################
 
 time_signature_start = 30
@@ -100,13 +100,4 @@ segment_maker.make_rhythm_maker(
             ),
         ),
     timespan=stages(1, 3),
-    )
-
-###
-
-segment_maker.make_music_handler(
-    scope=(vn_2, (1, 3)),
-    specifiers=[
-        label().with_indices(prototype=Tuplet), 
-        ],
     )

@@ -7,7 +7,7 @@ from akasha.materials.__abbreviations__ import *
 
 
 ###############################################################################
-############################## SEGMENT-MAKER ##################################
+##################################### [E] #####################################
 ###############################################################################
 
 time_signature_start = 6
@@ -69,11 +69,11 @@ assert segment_maker.validate_time_signatures()
 
 def durations(rotation=0):
     durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
+    durations = [Duration(_) for _ in durations]
     return sequencetools.rotate_sequence(durations, n=rotation)
 
 segment_maker.make_rhythm_maker(
-    stages=1,
-    voice_name=va,
+    va,
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=durations(0),
@@ -84,13 +84,13 @@ segment_maker.make_rhythm_maker(
             rhythmmakertools.silence_last(),
             ],
         ),
+    timespan=stages(1),
     )
 
 ### stage 3 ###
 
 segment_maker.make_rhythm_maker(
-    stages=3,
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -99,11 +99,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[-2],
         ),
+    timespan=stages(3),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=3,
-    voice_name=va,
+    va,
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=durations(2),
@@ -114,11 +114,11 @@ segment_maker.make_rhythm_maker(
             rhythmmakertools.silence_last(),
             ],
         ),
+    timespan=stages(3),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=3,
-    voice_name=vc,
+    vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -127,13 +127,13 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[-1],
         ),
+    timespan=stages(3),
     )
 
 ### stage 5 ###
     
 segment_maker.make_rhythm_maker(
-    stages=5,
-    voice_name=vn_1,
+    vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -142,11 +142,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[-2],
         ),
+    timespan=stages(5),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=5,
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -155,11 +155,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[-1],
         ),
+    timespan=stages(5),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=5,
-    voice_name=va,
+    va,
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=durations(4),
@@ -170,13 +170,13 @@ segment_maker.make_rhythm_maker(
             rhythmmakertools.silence_last(),
             ],
         ),
+    timespan=stages(5),
     )
 
 ### stage 7 ###
 
 segment_maker.make_rhythm_maker(
-    stages=7,
-    voice_name=vn_1,
+    vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -185,11 +185,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[-2],
         ),
+    timespan=stages(7),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=7,
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -198,11 +198,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[1],
         ),
+    timespan=stages(7),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=7,
-    voice_name=va,
+    va,
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=durations(6),
@@ -213,11 +213,11 @@ segment_maker.make_rhythm_maker(
             rhythmmakertools.silence_last(),
             ],
         ),
+    timespan=stages(7),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=7,
-    voice_name=vc,
+    vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -226,37 +226,32 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[-1],
         ),
+    timespan=stages(7),
     )
 
 ### viola 9-16 ###
 
 segment_maker.make_rhythm_maker(
-    stages=(9, 16),
-    voice_name=va,
-#    division_expression=sequence().
-#        partition_by_ratio_of_lengths(Ratio((1, 1, 1))).
-#        __getitem__(0)
-#        ,
-    division_maker=makertools.DivisionMaker()
-        .fuse_by_counts(
-            counts=mathtools.Infinity,
-            )
-        .split_by_durations(
-            durations=durations(8),
-        ),
+    va,
+    division_expression=sequence()
+        .sum()
+        .sequence()
+        .split(durations(8), cyclic=True, overhang=True)
+        .flatten()
+        ,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(),
             rhythmmakertools.silence_last(),
             ],
         ),
+    timespan=stages(9, 16),
     )
 
 ### stage 9 ###
 
 segment_maker.make_rhythm_maker(
-    stages=9,
-    voice_name=vn_1,
+    vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -265,11 +260,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[1],
         ),
+    timespan=stages(9),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=9,
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -278,11 +273,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[0],
         ),
+    timespan=stages(9),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=9,
-    voice_name=vc,
+    vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
         logical_tie_masks=[
@@ -291,13 +286,13 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[2],
         ),
+    timespan=stages(9),
     )
 
 ### stages 10-11 ###
 
 segment_maker.make_rhythm_maker(
-    stages=(10, 11),
-    voice_name=vn_1,
+    vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[8],
         logical_tie_masks=[
@@ -306,11 +301,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[1],
         ),
+    timespan=stages(10, 11),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=(10, 11),
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[8],
         logical_tie_masks=[
@@ -319,11 +314,11 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[-1],
         ),
+    timespan=stages(10, 11),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=(10, 11),
-    voice_name=vc,
+    vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[8],
         logical_tie_masks=[
@@ -332,6 +327,7 @@ segment_maker.make_rhythm_maker(
             ],
         extra_counts_per_division=[2],
         ),
+    timespan=stages(10, 11),
     )
 
 ### stages 12-13 ###
@@ -345,8 +341,7 @@ def extra_counts(rotation=0):
     return sequencetools.rotate_sequence(extra_counts, n=rotation)
 
 segment_maker.make_rhythm_maker(
-    stages=(12, 13),
-    voice_name=vn_1,
+    vn_1,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         division_masks=[
@@ -358,13 +353,14 @@ segment_maker.make_rhythm_maker(
             denominator=16,
             ),
         ),
+    timespan=stages(12, 13),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=(12, 13),
-    voice_name=vn_2,
-    division_expression=sequence().
-        partition_by_ratio_of_lengths(Ratio((3, 1)))[0]
+    vn_2,
+    division_expression=sequence()
+        .partition_by_ratio_of_lengths(Ratio((3, 1)))
+        [0]
         ,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -377,13 +373,14 @@ segment_maker.make_rhythm_maker(
             denominator=16,
             ),
         ),
+    timespan=stages(12, 13),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=(12, 13),
-    voice_name=vn_2,
-    division_expression=sequence().
-        partition_by_ratio_of_lengths(Ratio((3, 1)))[1]
+    vn_2,
+    division_expression=sequence()
+        .partition_by_ratio_of_lengths(Ratio((3, 1)))
+        [1]
         ,
     division_maker=beat_division_maker.
         fuse_by_counts(
@@ -397,11 +394,11 @@ segment_maker.make_rhythm_maker(
             tie_across_divisions=True,
             ),
         ),
+    timespan=stages(12, 13),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=12,
-    voice_name=vc,
+    vc,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         division_masks=[
@@ -413,11 +410,11 @@ segment_maker.make_rhythm_maker(
             denominator=16,
             ),
         ),
+    timespan=stages(12),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=13,
-    voice_name=vc,
+    vc,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 1, 2],
@@ -433,13 +430,13 @@ segment_maker.make_rhythm_maker(
             tie_across_divisions=True,
             ),
         ),
+    timespan=stages(13),
     )
 
 ### stages 14-15 ###
 
 segment_maker.make_rhythm_maker(
-    stages=(14, 15),
-    voice_name=vn_1,
+    vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -452,11 +449,11 @@ segment_maker.make_rhythm_maker(
             tie_across_divisions=True,
             ),
         ),
+    timespan=stages(14, 15),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=(14, 15),
-    voice_name=vn_2,
+    vn_2,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 1, 2, 1, 2],
@@ -469,11 +466,11 @@ segment_maker.make_rhythm_maker(
             tie_across_divisions=True,
             ),
         ),
+    timespan=stages(14, 15),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=(14, 15),
-    voice_name=vc,
+    vc,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[1, 2, 1, 2, 2],
@@ -486,13 +483,13 @@ segment_maker.make_rhythm_maker(
             tie_across_divisions=True,
             ),
         ),
+    stages=(14, 15),
     )
 
 ### stage 16 ###
 
 segment_maker.make_rhythm_maker(
-    stages=16,
-    voice_name=vn_1,
+    vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -506,11 +503,11 @@ segment_maker.make_rhythm_maker(
             tie_across_divisions=True,
             ),
         ),
+    timespan=stages(16),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=16,
-    voice_name=vn_2,
+    vn_2,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 1, 2, 1, 2],
@@ -524,11 +521,11 @@ segment_maker.make_rhythm_maker(
             tie_across_divisions=True,
             ),
         ),
+    timespan=stages(16),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=16,
-    voice_name=vc,
+    vc,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[1, 2, 1, 2, 2],
@@ -542,4 +539,5 @@ segment_maker.make_rhythm_maker(
             tie_across_divisions=True,
             ),
         ),
+    timespan=stages(16),
     )

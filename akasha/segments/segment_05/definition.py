@@ -7,7 +7,7 @@ from akasha.materials.__abbreviations__ import *
 
 
 ###############################################################################
-############################## SEGMENT-MAKER ##################################
+##################################### [D] #####################################
 ###############################################################################
 
 time_signature_start = 12
@@ -75,8 +75,7 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 
 segment_maker.make_rhythm_maker(
-    stages=1,
-    voice_name=vn_1,
+    vn_1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -84,6 +83,7 @@ segment_maker.make_rhythm_maker(
             use_messiaen_style_ties=True,
             ),
         ),
+    timespan=stages(1),
     )
 
 segment_maker.copy_rhythm_maker(
@@ -101,24 +101,23 @@ segment_maker.copy_rhythm_maker(
 segment_maker.copy_rhythm_maker(
     vn_1,
     1,
-    stages=3,
+    timespan=stages(3),
     )
 
 segment_maker.copy_rhythm_maker(
     vn_2,
     1,
-    stages=3,
+    timespan=stages(3),
     )
 
 segment_maker.copy_rhythm_maker(
     va,
     1,
-    stages=3,
+    timespan=stages(3),
     )
     
 segment_maker.make_rhythm_maker(
-    stages=3,
-    voice_name=vc,
+    vc,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
             rewrite_meter=True,
@@ -127,61 +126,61 @@ segment_maker.make_rhythm_maker(
             strip_ties=True,
             ),
         ),
+    timespan=stages(3),
     )
 
 segment_maker.copy_rhythm_maker(
     vc,
     3,
     voice_name=vn_1,
-    stages=5,
+    timespan=stages(5),
     )
 
 segment_maker.copy_rhythm_maker(
     vn_2,
     3,
-    stages=5,
+    timespan=stages(5),
     )
 
 segment_maker.copy_rhythm_maker(
     va,
     3,
-    stages=5,
+    timespan=stages(5),
     )
 
 segment_maker.copy_rhythm_maker(
     vc,
     3,
-    stages=5,
+    timespan=stages(5),
     )
 
 segment_maker.copy_rhythm_maker(
     vn_1,
     5,
-    stages=7,
+    timespan=stages(7),
     )
 
 segment_maker.copy_rhythm_maker(
     vc,
     5,
     voice_name=vn_2,
-    stages=7,
+    timespan=stages(7),
     )
 
 segment_maker.copy_rhythm_maker(
     va,
     5,
-    stages=7,
+    timespan=stages(7),
     )
 
 segment_maker.copy_rhythm_maker(
     vc,
     5,
-    stages=7,
+    timespan=stages(7),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=9,
-    voice_name=vn_1,
+    vn_1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -189,6 +188,7 @@ segment_maker.make_rhythm_maker(
             use_messiaen_style_ties=True,
             ),
         ),
+    timespan=stages(9),
     )
 
 segment_maker.copy_rhythm_maker(
@@ -210,44 +210,44 @@ segment_maker.copy_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    stages=10,
-    voice_name=vn_1,
+    vn_1,
     division_expression=sequence()[:-1],
     rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(10),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=10,
-    voice_name=vn_1,
+    vn_1,
     division_expression=sequence()[-1].sequence(),
     rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(10),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=10,
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(10),
     )
     
 segment_maker.make_rhythm_maker(
-    stages=10,
-    voice_name=va,
+    va,
     rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(10),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=10,
-    voice_name=vc,
+    vc,
     rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(10),
     )
 
 segment_maker.make_rhythm_maker(
-    stages=12,
-    voice_name=vn_1,
+    vn_1,
     division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((1, 1)))[0]
         ,
     rhythm_maker=messiaen_note_rhythm_maker,
+    timespan=stages(12),
     )
 
 segment_maker.copy_rhythm_maker(
@@ -263,8 +263,7 @@ segment_maker.copy_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    stages=12,
-    voice_name=vc,
+    vc,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
             rewrite_meter=True,
@@ -273,4 +272,5 @@ segment_maker.make_rhythm_maker(
             strip_ties=True,
             ),
         ),
+    timespan=stages(12),
     )
