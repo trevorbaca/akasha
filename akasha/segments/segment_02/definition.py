@@ -228,7 +228,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=quarter_division_maker,
+    division_expression=quarter_divisions,
     rhythm_maker=note_rhythm_maker,
     rhythm_maker__division_masks=[
         silence_first(4),

@@ -87,7 +87,7 @@ segment_maker.make_rhythm_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             )
-        )
+        ),
     timespan=stages(1),
     )
 
@@ -156,7 +156,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=quarter_division_maker,
+    division_expression=quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[1],
         talea=rhythmmakertools.Talea(
@@ -172,7 +172,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=quarter_division_maker,
+    division_expression=quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[0],
         talea=rhythmmakertools.Talea(
@@ -195,6 +195,16 @@ sustain_mask = sustain([0, -1])
 def division_expression(index):
     ratio = Ratio((2, 1, 2, 2, 1, 2))
     expression = sequence()
+
+    expression = expression.map()
+    expression = expression.sequence()
+    expression = expression.split(
+        [abjad.durationtools.Duration(1, 4)],
+        cyclic=True, 
+        overhang=True,
+        )
+    expression = expression.flatten()
+
     expression = expression.partition_by_ratio_of_lengths(ratio)
     expression = expression[index]
     return expression
@@ -242,7 +252,6 @@ accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
 segment_maker.make_rhythm_maker(
     vn_1,
     division_expression=division_expression(0),
-    division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -251,7 +260,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_1,
     division_expression=division_expression(1).sum().sequence(),
-    division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -260,7 +268,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_1,
     division_expression=division_expression(2),
-    division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -269,7 +276,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_1,
     division_expression=division_expression(3).sum().sequence(),
-    division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -278,7 +284,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_1,
     division_expression=division_expression(4),
-    division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -287,7 +292,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_1,
     division_expression=division_expression(5).sum().sequence(),
-    division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -302,6 +306,16 @@ sustain_mask = sustain([0, -1])
 def division_expression(index):
     ratio = Ratio((1, 1, 2, 2, 1, 2))
     expression = sequence()
+
+    expression = expression.map()
+    expression = expression.sequence()
+    expression = expression.split(
+        [abjad.durationtools.Duration(1, 4)],
+        cyclic=True, 
+        overhang=True,
+        )
+    expression = expression.flatten()
+
     expression = expression.partition_by_ratio_of_lengths(ratio)
     expression = expression[index]
     return expression
@@ -350,7 +364,6 @@ accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
 segment_maker.make_rhythm_maker(
     vn_2,
     division_expression=division_expression(0),
-    division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -359,7 +372,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_2,
     division_expression=division_expression(1).sum().sequence(),
-    division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -368,7 +380,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_2,
     division_expression=division_expression(2),
-    division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -377,7 +388,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_2,
     division_expression=division_expression(3).sum().sequence(),
-    division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -386,7 +396,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_2,
     division_expression=division_expression(4),
-    division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -395,7 +404,6 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_2,
     division_expression=division_expression(5).sum().sequence(),
-    division_maker=quarter_division_maker,
     rhythm_maker=accelerando_rhythm_maker,
     tie_last=True,
     timespan=stages(8),
@@ -423,7 +431,7 @@ cello_counts = [sum(_) for _ in cello_counts]
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=quarter_division_maker,
+    division_expression=quarter_divisions,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         read_talea_once_only=True,
@@ -441,7 +449,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=quarter_division_maker,
+    division_expression=quarter_divisions,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         read_talea_once_only=True,
@@ -501,19 +509,18 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_expression=sequence().
-        partition_by_ratio_of_lengths(Ratio((1, 1)))
+    division_expression=quarter_divisions
+        .partition_by_ratio_of_lengths(Ratio((1, 1)))
         [0]
         ,
-    division_maker=quarter_division_maker,
     rhythm_maker=talea_rhythm_maker,
     timespan=stages(9),
     )
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
+    division_maker=beat_division_maker
+        .fuse_by_counts(
             counts=[1, 2, 2, 1, 2, 1],
             )
         ,
