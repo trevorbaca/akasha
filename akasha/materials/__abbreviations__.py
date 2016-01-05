@@ -26,11 +26,15 @@ beat_division_maker = beat_division_maker.split_by_durations(
         )
 beat_division_maker = beat_division_maker.flatten()
 
-quarter_division_maker = experimental.tools.makertools.DivisionMaker()
-quarter_division_maker = quarter_division_maker.split_by_durations(
-        durations=[(1, 4)],
-        )
-quarter_division_maker = quarter_division_maker.flatten()
+quarter_divisions = abjad.topleveltools.sequence()
+quarter_divisions = quarter_divisions.map()
+quarter_divisions = quarter_divisions.sequence()
+quarter_divisions = quarter_divisions.split(
+    [abjad.durationtools.Duration(1, 4)],
+    cyclic=True, 
+    overhang=True,
+    )
+quarter_divisions = quarter_divisions.flatten()
 
 messiaen_tied_note_rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
