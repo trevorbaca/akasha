@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #216
+        currentBarNumber = #210
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -423,10 +423,285 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 17/6
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 1/3
                         c'1.
                         c'1. \repeatTie
-                        R1 * 265/12
+                        c'1.
+                        c'1 \repeatTie
+                        c'2.
+                        c'2
+                        c'4 \repeatTie
+                        c'2
+                        c'4 \repeatTie
+                        c'2
+                        c'4 \repeatTie
+                        c'2.
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 117/16 [
+                            c'16 * 73/16
+                            c'16 * 73/32
+                            c'16 * 59/32 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1 ~
+                                                c'4
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 113/64 [
+                            c'16 * 121/64
+                            c'16 * 147/64
+                            c'16 * 25/8
+                            c'16 * 145/32
+                            c'16 * 409/64 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \times 8/14 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        \times 8/11 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2
+                        \times 12/18 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        \times 6/9 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        \times 12/18 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2.
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 10/14 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2
+                        r2.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2
+                        r8
+                        \times 4/7 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2
+                        r2
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r2
+                        r4
+                        r2
+                        r2
+                        r4
+                        R1 * 1/3
                         \bar "|"
                     }
                 }
@@ -443,10 +718,126 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 17/6
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 1/3
                         c'1.
                         c'1. \repeatTie
-                        R1 * 265/12
+                        c'1.
+                        c'1 \repeatTie
+                        c'1
+                        c'4
+                        c'2. \repeatTie
+                        c'2.
+                        c'4 \repeatTie
+                        c'2.
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 109/64 [
+                            c'16 * 61/32
+                            c'16 * 163/64
+                            c'16 * 31/8
+                            c'16 * 191/32 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1 ~
+                                                c'4
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 477/64 [
+                            c'16 * 353/64
+                            c'16 * 97/32
+                            c'16 * 17/8
+                            c'16 * 15/8 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2.
+                        c'4 \repeatTie
+                        c'2
+                        c'2 \repeatTie
+                        c'2
+                        c'2 \repeatTie
+                        c'1
+                        c'1
+                        c'2
+                        c'2 \repeatTie
+                        c'1
+                        c'1
+                        c'1
+                        c'2
+                        c'2 \repeatTie
+                        c'4
+                        c'2. \repeatTie
+                        c'4
+                        c'2. \repeatTie
+                        c'2
+                        c'2 \repeatTie
+                        c'4
+                        R1 * 1/3
                         \bar "|"
                     }
                 }
@@ -463,10 +854,63 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 17/6
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 1/3
                         c'1.
                         c'1. \repeatTie
-                        R1 * 265/12
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'2
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'4
+                        c'4 \repeatTie
+                        c'2
+                        c'2
+                        c'2
+                        c'4
+                        R1 * 1/3
                         \bar "|"
                     }
                 }
@@ -483,10 +927,134 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 17/6
+                        c'1.
+                        c'1 \repeatTie
+                        R1 * 1/3
                         c'1.
                         c'1. \repeatTie
-                        R1 * 265/12
+                        c'1.
+                        c'1 \repeatTie
+                        c'2.
+                        c'2 \repeatTie
+                        c'2.
+                        c'2 \repeatTie
+                        c'4
+                        c'1 \repeatTie
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'\breve ~
+                                                c'4
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c'16 * 119/64 [
+                            c'16 * 61/32
+                            c'16 * 65/32
+                            c'16 * 145/64
+                            c'16 * 21/8
+                            c'16 * 101/32
+                            c'16 * 125/32
+                            c'16 * 315/64
+                            c'16 * 49/8
+                            c'16 * 461/64 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        c'4. \repeatTie
+                        c'8
+                        c'4
+                        c'8. \repeatTie [
+                        c'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4
+                        c'8. \repeatTie [
+                        c'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        c'4. \repeatTie
+                        c'8
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        c'4. \repeatTie
+                        c'8
+                        c'4
+                        c'8. \repeatTie [
+                        c'16 ]
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'4..
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                        R1 * 1/3
                         \bar "|"
                     }
                 }

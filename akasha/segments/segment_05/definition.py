@@ -212,43 +212,42 @@ segment_maker.copy_rhythm_maker(
 segment_maker.make_rhythm_maker(
     stages=10,
     voice_name=vn_1,
-    division_selector=select().get_slice(stop=-1).get_item(0),
-    rhythm_maker=note_rhythm_maker,
+    division_expression=sequence()[:-1],
+    rhythm_maker=messiaen_note_rhythm_maker,
     )
 
 segment_maker.make_rhythm_maker(
     stages=10,
     voice_name=vn_1,
-    division_selector=select().get_slice(start=-1).get_item(0),
-    rhythm_maker=note_rhythm_maker,
+    division_expression=sequence()[-1].sequence(),
+    rhythm_maker=messiaen_note_rhythm_maker,
     )
 
 segment_maker.make_rhythm_maker(
     stages=10,
     voice_name=vn_2,
-    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    rhythm_maker=messiaen_note_rhythm_maker,
     )
     
 segment_maker.make_rhythm_maker(
     stages=10,
     voice_name=va,
-    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    rhythm_maker=messiaen_note_rhythm_maker,
     )
 
 segment_maker.make_rhythm_maker(
     stages=10,
     voice_name=vc,
-    rhythm_maker=messiaen_tied_note_rhythm_maker,
+    rhythm_maker=messiaen_note_rhythm_maker,
     )
 
 segment_maker.make_rhythm_maker(
     stages=12,
     voice_name=vn_1,
-    division_selector=select().
-        partition_by_ratio(mathtools.Ratio((1, 1))).
-        get_item(0)
+    division_expression=sequence().
+        partition_by_ratio_of_lengths(Ratio((1, 1)))[0]
         ,
-    rhythm_maker=note_rhythm_maker,
+    rhythm_maker=messiaen_note_rhythm_maker,
     )
 
 segment_maker.copy_rhythm_maker(

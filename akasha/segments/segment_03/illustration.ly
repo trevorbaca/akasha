@@ -1,6 +1,6 @@
-% 2015-12-17 18:09
+% 2016-01-05 11:33
 
-\version "2.19.33"
+\version "2.19.35"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #29
+        currentBarNumber = #23
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -242,10 +242,7 @@
                         }
                         r4
                         r4
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         \times 2/3 {
                             r8
                             c'32 [
@@ -257,10 +254,7 @@
                         {
                             r8
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 1/3
                         {
                             r4
                         }
@@ -271,12 +265,7 @@
                             r8
                             r32
                         }
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 7/8
-                        R1 * 7/8
+                        R1 * 25/12
                         \bar "|"
                     }
                 }
@@ -348,21 +337,7 @@
                             r8.
                             r16
                         }
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 23/8
                         \override TupletNumber #'text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -516,21 +491,7 @@
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 23/8
                         r4
                         r4
                         r4
@@ -684,21 +645,7 @@
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        R1 * 1
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 3/8
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
-                        R1 * 1/2
-                        \tweak #'edge-height #'(0.7 . 0)
-                        \times 2/3 {
-                            R1 * 1/2
-                        }
+                        R1 * 23/8
                         r4
                         r4
                         r4

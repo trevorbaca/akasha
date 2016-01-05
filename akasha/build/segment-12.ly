@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #91
+        currentBarNumber = #323
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -8,6 +8,15 @@
                     R1 * 1
                 }
                 {
+                    \time 3/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
                     \time 6/4
                     R1 * 3/2
                 }
@@ -15,47 +24,171 @@
                     R1 * 3/2
                 }
                 {
-                    \time 5/4
-                    R1 * 5/4
-                }
-                {
                     \time 3/4
                     R1 * 3/4
                 }
                 {
-                    R1 * 3/4
-                }
-                {
-                    \time 4/4
+                    \time 3/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
                     R1 * 1
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
+                    \time 4/4
+                    \once \override TextSpanner.arrow-width = 0.25
+                    \once \override TextSpanner.bound-details.left-broken.padding = 0
+                    \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                        \null
+                        }
+                    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    \once \override TextSpanner.bound-details.left.text = \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                89
+                            }
+                        \hspace
+                            #1.25
+                        }
+                    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                    \once \override TextSpanner.bound-details.right-broken.padding = 0
+                    \once \override TextSpanner.bound-details.right-broken.text = ##f
+                    \once \override TextSpanner.bound-details.right.arrow = ##t
+                    \once \override TextSpanner.bound-details.right.padding = 2
+                    \once \override TextSpanner.bound-details.right.text = ##f
+                    \once \override TextSpanner.dash-fraction = 0.25
+                    \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
                     \mark #11
-                    s1 * 1
+                    s1 * 1 \startTextSpan
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [K1]
+                            }
+                }
+                {
+                    \time 3/3
+                    s1 * 1 \stopTextSpan
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [K2]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                55
+                            }
+                        }
                 }
                 {
                     \time 6/4
-                    s1 * 3/2
+                    \once \override TextSpanner.arrow-width = 0.25
+                    \once \override TextSpanner.bound-details.left-broken.padding = 0
+                    \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                        \null
+                        }
+                    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    \once \override TextSpanner.bound-details.left.text = \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                89
+                            }
+                        \hspace
+                            #1.25
+                        }
+                    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                    \once \override TextSpanner.bound-details.right-broken.padding = 0
+                    \once \override TextSpanner.bound-details.right-broken.text = ##f
+                    \once \override TextSpanner.bound-details.right.arrow = ##t
+                    \once \override TextSpanner.bound-details.right.padding = 2
+                    \once \override TextSpanner.bound-details.right.text = ##f
+                    \once \override TextSpanner.dash-fraction = 0.25
+                    \once \override TextSpanner.dash-period = 1.5
+                    s1 * 3/2 \startTextSpan
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [K3]
+                            }
                 }
                 {
-                    s1 * 3/2
-                }
-                {
-                    \time 5/4
-                    s1 * 5/4
+                    s1 * 3/2 \stopTextSpan
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [K4]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                55
+                            }
+                        }
                 }
                 {
                     \time 3/4
                     s1 * 3/4
                 }
                 {
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
+                    \time 3/3
                     s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [K5]
+                            }
                 }
             }
         >>
@@ -74,12 +207,11 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        c'1
                         R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
+                        c'1.
+                        c'1.
+                        c'2. \repeatTie
                         R1 * 1
                         \bar "|"
                     }
@@ -97,12 +229,11 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        c'1
                         R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
+                        c'1.
+                        c'1.
+                        c'2. \repeatTie
                         R1 * 1
                         \bar "|"
                     }
@@ -120,12 +251,11 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        c'1
                         R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
+                        c'1.
+                        c'1.
+                        c'2. \repeatTie
                         R1 * 1
                         \bar "|"
                     }
@@ -143,14 +273,15 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        c'1
                         R1 * 1
-                        R1 * 3/2
-                        R1 * 3/2
-                        R1 * 5/4
-                        R1 * 3/4
-                        R1 * 3/4
-                        R1 * 1
-                        \bar "|"
+                        c'1.
+                        c'1. \repeatTie
+                        c'2. \repeatTie
+                        \times 2/3 {
+                            c'1. \repeatTie
+                            \bar "|"
+                        }
                     }
                 }
             >>

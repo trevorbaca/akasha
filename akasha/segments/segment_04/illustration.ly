@@ -1,6 +1,6 @@
-% 2015-12-23 21:38
+% 2016-01-05 11:33
 
-\version "2.19.33"
+\version "2.19.35"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #40
+        currentBarNumber = #34
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {

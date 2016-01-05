@@ -1,10 +1,216 @@
     \context Score = "Score" \with {
-        currentBarNumber = #85
+        currentBarNumber = #236
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    R1 * 9/8
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
                     \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 1/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1/3
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    R1 * 9/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    R1 * 9/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    R1 * 1/2
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
                     R1 * 3/8
                 }
                 {
@@ -26,16 +232,318 @@
                 {
                     R1 * 7/8
                 }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    R1 * 9/8
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    R1 * 9/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    R1 * 9/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 3/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    R1 * 1
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 3/8
+                    \time 4/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
                     \mark #10
+                    s1 * 1/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J1]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                55
+                            }
+                        }
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                }
+                {
+                    \time 1/3
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J2]
+                            }
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J3]
+                            }
+                }
+                {
+                    s1 * 9/8
+                }
+                {
+                    \time 1/3
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J4]
+                            }
+                }
+                {
+                    \time 3/8
                     s1 * 3/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J5]
+                            }
                 }
                 {
                     \time 4/8
                     s1 * 1/2
+                }
+                {
+                    \time 1/3
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J6]
+                            }
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J7]
+                            }
+                }
+                {
+                    \time 6/8
+                    s1 * 3/4
+                }
+                {
+                    \time 1/3
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J8]
+                            }
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J9]
+                            }
+                }
+                {
+                    s1 * 7/8
+                }
+                {
+                    \time 1/3
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J10]
+                            }
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J11]
+                            }
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 1/3
+                    s1 * 1/3
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J12]
+                            }
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J13]
+                            }
                 }
                 {
                     \time 3/8
@@ -50,7 +558,384 @@
                     s1 * 7/8
                 }
                 {
+                    \time 9/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 9/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J14]
+                            }
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                }
+                {
+                    \time 7/8
                     s1 * 7/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J15]
+                            }
+                }
+                {
+                    s1 * 7/8
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 6/8
+                    s1 * 3/4
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J16]
+                            }
+                }
+                {
+                    s1 * 9/8
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J17]
+                            }
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                }
+                {
+                    s1 * 9/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J18]
+                            }
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    s1 * 1/2
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J19]
+                            }
+                }
+                {
+                    \time 6/8
+                    s1 * 3/4
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                }
+                {
+                    s1 * 7/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J20]
+                            }
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    s1 * 3/8
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J21]
+                            }
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 6/8
+                    s1 * 3/4
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J22]
+                            }
+                }
+                {
+                    s1 * 7/8
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J23]
+                            }
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                }
+                {
+                    s1 * 9/8
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J24]
+                            }
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 6/8
+                    s1 * 3/4
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J25]
+                            }
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J26]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                44
+                            }
+                        }
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J27]
+                            }
+                }
+                {
+                    s1 * 9/8
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J28]
+                            }
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                }
+                {
+                    s1 * 7/8
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J29]
+                            }
+                }
+                {
+                    \time 6/8
+                    s1 * 3/4
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 6/8
+                    s1 * 3/4
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J30]
+                            }
+                }
+                {
+                    \time 7/8
+                    s1 * 7/8
+                }
+                {
+                    s1 * 7/8
+                }
+                {
+                    \time 3/8
+                    s1 * 3/8
+                }
+                {
+                    \time 8/8
+                    s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J31]
+                            }
+                }
+                {
+                    \time 9/8
+                    s1 * 9/8
+                }
+                {
+                    s1 * 9/8
+                }
+                {
+                    \time 4/8
+                    s1 * 1/2
+                }
+                {
+                    \time 3/3
+                    s1 * 1
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [J32]
+                            }
                 }
             }
         >>
@@ -69,12 +954,116 @@
                         Vn.
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
+                        R1 * 45/8
+                        r4
+                        r8
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r4.
+                        R1 * 1/3
+                        r4
+                        c'2
+                        c'8 \repeatTie
+                        c'2.. \repeatTie
+                        R1 * 1/3
+                        r4.
+                        c'8
+                        c'4. \repeatTie
+                        R1 * 1/3
+                        c'2..
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1
                         \bar "|"
                     }
                 }
@@ -91,12 +1080,135 @@
                         Vn.
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
+                        R1 * 11/6
+                        r4.
+                        r4.
+                        r4.
+                        r4.
+                        \tweak #'text #tuplet-number::calc-fraction-text
+                        \times 6/10 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r4.
+                        R1 * 37/24
+                        r4
+                        c'8
+                        c'2. \repeatTie
+                        R1 * 1/3
+                        r4.
+                        c'2
+                        c'2.. \repeatTie
+                        R1 * 1/3
+                        c'2
+                        c'4. \repeatTie
+                        R1 * 1/3
+                        r4
+                        r4
+                        r4
+                        r8
+                        r4
+                        r8
+                        r4.
+                        r4.
+                        r4
+                        r4
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r8
+                        c'2.
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1
                         \bar "|"
                     }
                 }
@@ -113,12 +1225,124 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
+                        r4
+                        r4
+                        r4
+                        r4
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r4
+                        R1 * 33/8
+                        r4.
+                        c'2.
+                        R1 * 1/3
+                        c'2..
+                        c'2.. \repeatTie
+                        R1 * 1/3
+                        r4
+                        r4
+                        \times 4/7 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r8
+                        R1 * 1/3
+                        r4
+                        c'2
+                        c'8 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1
                         \bar "|"
                     }
                 }
@@ -135,12 +1359,126 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 3/8
-                        R1 * 1/2
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
+                        R1 * 53/12
+                        r4
+                        r8
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r4
+                        R1 * 1/3
+                        c'4.
+                        c'2. \repeatTie
+                        R1 * 1/3
+                        r4
+                        r4
+                        r4
+                        r8
+                        r4
+                        r4
+                        \times 4/6 {
+                            r16
+                            c'16 [
+                            c'16
+                            c'16
+                            c'16
+                            c'16 ]
+                        }
+                        r8
+                        R1 * 1/3
+                        r4
+                        c'4
+                        c'4. \repeatTie
+                        R1 * 1/3
+                        r4.
+                        c'2
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'1 \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'2.. \repeatTie
+                        c'2.. \repeatTie
+                        c'4. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1
                         \bar "|"
                     }
                 }
