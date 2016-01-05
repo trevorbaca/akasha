@@ -65,9 +65,9 @@ segment_maker.make_rhythm_makers(
         incise_specifier=rhythmmakertools.InciseSpecifier(
             body_ratio=Ratio((1, 1)),
             ),
-#        logical_tie_masks=[
-#            silence_every([1], period=2),
-#            ],
+        logical_tie_masks=[
+            silence_every([1], period=2),
+            ],
         ),
     timespan=stages(1, 2),
     )
