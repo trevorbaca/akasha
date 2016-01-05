@@ -85,7 +85,7 @@ segment_maker.make_rhythm_maker(
                 ),
             ],
         ),
-    timespan=stage(1),
+    timespan=stages(1),
     )
 
 segment_maker.make_rhythm_maker(
@@ -104,7 +104,7 @@ segment_maker.make_rhythm_maker(
                 ),
             ],
         ),
-    timespan=stage(1),
+    timespan=stages(1),
     )
 
 segment_maker.make_rhythm_maker(
@@ -119,7 +119,7 @@ segment_maker.make_rhythm_maker(
                 ),
             ],
         ),
-    timespan=stage(1),
+    timespan=stages(1),
     )
 
 segment_maker.make_rhythm_maker(
@@ -132,31 +132,31 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     voice_name=vn_1,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(2),
+    timespan=stages(2),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=vn_2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(2),
+    timespan=stages(2),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(2),
+    timespan=stages(2),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(4),
+    timespan=stages(4),
     )
 
 segment_maker.make_rhythm_maker(
     voice_name=vc,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(4),
+    timespan=stages(4),
     )
 
 ### repetition ###
@@ -164,53 +164,53 @@ segment_maker.make_rhythm_maker(
 segment_maker.copy_rhythm_maker(
     vn_1,
     1,
-    timespan=stage(1+5),
+    timespan=stages(1+5),
     )
 
 segment_maker.copy_rhythm_maker(
     vn_1,
     2,
-    timespan=stage(2+5),
+    timespan=stages(2+5),
     )
 
 segment_maker.copy_rhythm_maker(
     vn_2,
     1,
-    timespan=stage(1+5),
+    timespan=stages(1+5),
     )
 
 segment_maker.copy_rhythm_maker(
     vn_2,
     2,
-    timespan=stage(2+5),
+    timespan=stages(2+5),
     )
 
 segment_maker.copy_rhythm_maker(
     va,
     1,
-    timespan=stage(1+5),
+    timespan=stages(1+5),
     )
 
 segment_maker.copy_rhythm_maker(
     va,
     2,
-    timespan=stage(2+5),
+    timespan=stages(2+5),
     )
 
 segment_maker.copy_rhythm_maker(
     va,
     4,
-    timespan=stage(4+5),
+    timespan=stages(4+5),
     )
 
 segment_maker.copy_rhythm_maker(
     vc,
     1,
-    timespan=stage(1+5),
+    timespan=stages(1+5),
     )
 
 segment_maker.copy_rhythm_maker(
     vc,
     4,
-    timespan=stage(4+5),
+    timespan=stages(4+5),
     )
