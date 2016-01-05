@@ -156,7 +156,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_expression=quarter_divisions,
+    division_expression=strict_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[1],
         talea=rhythmmakertools.Talea(
@@ -172,7 +172,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_expression=quarter_divisions,
+    division_expression=strict_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[0],
         talea=rhythmmakertools.Talea(
@@ -431,7 +431,7 @@ cello_counts = [sum(_) for _ in cello_counts]
 
 segment_maker.make_rhythm_maker(
     va,
-    division_expression=quarter_divisions,
+    division_expression=strict_quarter_divisions,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         read_talea_once_only=True,
@@ -449,7 +449,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_expression=quarter_divisions,
+    division_expression=strict_quarter_divisions,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         read_talea_once_only=True,
@@ -509,7 +509,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_expression=quarter_divisions
+    division_expression=strict_quarter_divisions
         .partition_by_ratio_of_lengths(Ratio((1, 1)))
         [0]
         ,

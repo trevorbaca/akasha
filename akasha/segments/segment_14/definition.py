@@ -77,11 +77,7 @@ segment_maker.make_rhythm_makers(
 
 segment_maker.make_rhythm_maker(
     voice_name=vn_2,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 2, 1, 2, 1],
-            )
-        ,
+    division_expression=fused_compound_quarter_divisions(rotation=0),
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         burnish_specifier=rhythmmakertools.BurnishSpecifier(
@@ -95,9 +91,6 @@ segment_maker.make_rhythm_maker(
             silence([12, -2], inverted=True),
             ],
         extra_counts_per_division=[6, 4, 6, 3],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            ),
         ),
     timespan=stages(1, 3),
     )
