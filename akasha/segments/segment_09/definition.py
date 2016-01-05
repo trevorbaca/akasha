@@ -7,7 +7,7 @@ from akasha.materials.__abbreviations__ import *
 
 
 ###############################################################################
-############################## SEGMENT-MAKER ##################################
+##################################### [H] #####################################
 ###############################################################################
 
 time_signature_start = 12
@@ -70,7 +70,7 @@ assert segment_maker.validate_time_signatures()
 ### stage 1 ###
 
 segment_maker.make_rhythm_maker(
-    voice_name=vn_1,
+    vn_1,
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
             rhythmmakertools.InterpolationSpecifier(
@@ -89,7 +89,7 @@ segment_maker.make_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
             rhythmmakertools.InterpolationSpecifier(
@@ -108,7 +108,7 @@ segment_maker.make_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=va,
+    va,
     division_expression=fuse_divisions(),
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
@@ -123,38 +123,38 @@ segment_maker.make_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=vc,
+    vc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(1, 2),
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=vn_1,
+    vn_1,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(2),
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(2),
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=va,
+    va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(2),
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=va,
+    va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(4),
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=vc,
+    vc,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(4),
     )

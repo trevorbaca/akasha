@@ -7,7 +7,7 @@ from akasha.materials.__abbreviations__ import *
 
 
 ###############################################################################
-############################## SEGMENT-MAKER ##################################
+##################################### [I] #####################################
 ###############################################################################
 
 time_signature_start = 15
@@ -138,7 +138,7 @@ segment_maker.make_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=vn_2,
+    vn_2,
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
             rhythmmakertools.InterpolationSpecifier(
@@ -157,7 +157,7 @@ segment_maker.make_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=vc,
+    vc,
     division_expression=fuse_divisions(),
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
@@ -174,7 +174,7 @@ segment_maker.make_rhythm_maker(
 ### stages 8-12 ###
 
 segment_maker.make_rhythm_maker(
-    voice_name=vn_1,
+    vn_1,
     division_maker=beat_division_maker.
         fuse_by_counts(
             counts=[2, 2, 1, 2, 1],
@@ -206,7 +206,7 @@ segment_maker.make_rhythm_maker(
     )
 
 segment_maker.make_rhythm_maker(
-    voice_name=vc,
+    vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=[7, 1, 10, 2],

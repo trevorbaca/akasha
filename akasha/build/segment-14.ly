@@ -257,10 +257,6 @@
                         r4.
                         {
                             r16
-                                ^ \markup {
-                                    \small
-                                        0
-                                    }
                             c'16 [
                             c'16
                             c'16
@@ -277,10 +273,6 @@
                         r1
                         \times 6/9 {
                             r16
-                                ^ \markup {
-                                    \small
-                                        1
-                                    }
                             r16
                             r16
                             r16
