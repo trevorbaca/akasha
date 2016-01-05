@@ -8,62 +8,53 @@
                     R1 * 3/8
                 }
                 {
-                    \time 6/8
-                    R1 * 3/4
-                }
-                {
-                    \time 7/8
-                    R1 * 7/8
-                }
-                {
-                    R1 * 7/8
-                }
-                {
-                    \time 4/8
-                    R1 * 1/2
-                }
-                {
-                    \time 8/8
+                    \time 3/3
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
                     R1 * 1
-                }
-                {
-                    \time 9/8
-                    R1 * 9/8
-                }
-                {
-                    R1 * 9/8
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 3/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
                     s1 * 3/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [1]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                44
+                            }
+                        }
                 }
                 {
-                    \time 6/8
-                    s1 * 3/4
-                }
-                {
-                    \time 7/8
-                    s1 * 7/8
-                }
-                {
-                    s1 * 7/8
-                }
-                {
-                    \time 4/8
-                    s1 * 1/2
-                }
-                {
-                    \time 8/8
+                    \time 3/3
                     s1 * 1
-                }
-                {
-                    \time 9/8
-                    s1 * 9/8
-                }
-                {
-                    s1 * 9/8
+                        - \markup {
+                            \smaller
+                                \with-color
+                                    #blue
+                                    [2]
+                            }
                 }
             }
         >>
@@ -83,13 +74,7 @@
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 1/2
                         R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
                         \bar "|"
                     }
                 }
@@ -107,13 +92,7 @@
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 1/2
                         R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
                         \bar "|"
                     }
                 }
@@ -130,14 +109,8 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 1/2
+                        c'4.
                         R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
                         \bar "|"
                     }
                 }
@@ -155,13 +128,7 @@
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         R1 * 3/8
-                        R1 * 3/4
-                        R1 * 7/8
-                        R1 * 7/8
-                        R1 * 1/2
                         R1 * 1
-                        R1 * 9/8
-                        R1 * 9/8
                         \bar "|"
                     }
                 }

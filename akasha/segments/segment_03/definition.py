@@ -83,11 +83,11 @@ segment_maker.make_rhythm_maker(
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=(1,),
+        logical_tie_masks=[
+            rhythmmakertools.silence_first(),
+            rhythmmakertools.silence_last(2),
+            ],
         talea=rhythmmakertools.Talea(
-            logical_tie_masks=[
-                rhythmmakertools.silence_first(),
-                rhythmmakertools.silence_last(2),
-                ],
             counts=(3, 3, 2, 6, 2),
             denominator=16,
             ),
@@ -101,7 +101,7 @@ segment_maker.copy_rhythm_maker(
     vn_2,
     1,
     voice_name=va,
-    rhythm_maker__talea__logical_tie_masks=None,
+    rhythm_maker__logical_tie_masks=None,
     rhythm_maker__talea__counts=(6, 5, 3, 2),
     )
 
@@ -219,7 +219,7 @@ segment_maker.make_rhythm_maker(
             talea_denominator=32,
             ),
         division_masks=[
-            rhythmmakertools.silence_every(indices=[-3], invert=True),
+            rhythmmakertools.silence_every(indices=[-3], inverted=True),
             ],
         ),
     )

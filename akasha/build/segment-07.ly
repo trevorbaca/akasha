@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #137
+        currentBarNumber = #131
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -2371,17 +2371,14 @@
                         c'16 ]
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'2 \repeatTie
-                        c'8 \repeatTie
-                        c'4
+                        c'8 \repeatTie [
+                        c'8 ]
+                        c'2 \repeatTie
                         c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'4.
-                        c'8 \repeatTie
+                        c'2
                         c'4
-                        c'4. \repeatTie
-                        c'16 \repeatTie [
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'16 ]
+                        c'4.. \repeatTie
+                        c'16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4 \repeatTie
                         c'1 \repeatTie
@@ -2390,10 +2387,8 @@
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4..
                         c'1. \repeatTie
-                        c'4. \repeatTie
-                        c'16 \repeatTie [
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'16 ]
+                        c'4.. \repeatTie
+                        c'16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4 \repeatTie
                         c'2. \repeatTie
@@ -2716,10 +2711,9 @@
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4 \repeatTie
                         c'2 \repeatTie
-                        c'4. \repeatTie
-                        c'4 \repeatTie
-                        c'8
-                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'8 \repeatTie
+                        c'2..
                         c'1. \repeatTie
                         c'8. \repeatTie [
                         c'16 ]
@@ -2728,10 +2722,10 @@
                         c'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'2...
-                        c'2. \repeatTie
-                        c'8. \repeatTie [
-                        c'8. ]
-                        c'4. \repeatTie
+                        c'2... \repeatTie
+                        c'16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2 \repeatTie
                         c'1. \repeatTie
                         c'2. \repeatTie
                         c'2 \repeatTie

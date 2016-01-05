@@ -1,4 +1,4 @@
-% 2016-01-04 18:03
+% 2016-01-05 11:35
 
 \version "2.19.35"
 \language "english"
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #329
+        currentBarNumber = #323
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {

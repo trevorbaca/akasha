@@ -1,6 +1,6 @@
-% 2015-12-23 22:03
+% 2016-01-05 11:33
 
-\version "2.19.33"
+\version "2.19.35"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #52
+        currentBarNumber = #46
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -674,9 +674,9 @@
                         c'2.. \repeatTie
                         c'2.. \repeatTie
                         c'4.
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'4. \repeatTie
+                        c'2.
+                        c'2
+                        c'4.
                         R1 * 1/12
                         c'2.
                         c'2..
@@ -741,9 +741,9 @@
                         c'2.. \repeatTie
                         c'2.. \repeatTie
                         c'4.
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'4. \repeatTie
+                        c'2.
+                        c'2
+                        c'4.
                         R1 * 1/12
                         c'2.
                         c'2..
@@ -801,9 +801,9 @@
                         c'2.. \repeatTie
                         c'2.. \repeatTie
                         c'4.
-                        c'2. \repeatTie
-                        c'2 \repeatTie
-                        c'4. \repeatTie
+                        c'2.
+                        c'2
+                        c'4.
                         R1 * 1/12
                         c'2.
                         c'2..
