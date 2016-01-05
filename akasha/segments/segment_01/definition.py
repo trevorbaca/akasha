@@ -55,5 +55,5 @@ assert segment_maker.validate_time_signatures()
 segment_maker.make_rhythm_maker(
     voice_name=va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(1),
+    timespan=stages(1),
     )

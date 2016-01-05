@@ -66,25 +66,25 @@ assert segment_maker.validate_time_signatures()
 segment_maker.make_rhythm_makers(
     (vn_1, vn_2, va),
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(1),
+    timespan=stages(1),
     )
 
 segment_maker.make_rhythm_maker(
     vc,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(1),
+    timespan=stages(1),
     )
 
 segment_maker.make_rhythm_makers(
     (vn_1, vn_2, va),
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(3),
+    timespan=stages(3),
     )
 
 segment_maker.make_rhythm_makers(
     (vn_1, vn_2, va),
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(4),
+    timespan=stages(4),
     )
 
 segment_maker.make_rhythm_maker(

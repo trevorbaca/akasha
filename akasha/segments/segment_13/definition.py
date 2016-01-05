@@ -74,7 +74,7 @@ segment_maker.make_rhythm_makers(
     (vn_1, vn_2, va),
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stage(2),
+    timespan=stages(2),
     )
 
 ### stages 4-7 ###

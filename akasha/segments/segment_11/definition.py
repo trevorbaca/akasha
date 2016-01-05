@@ -94,7 +94,7 @@ segment_maker.make_rhythm_maker(
     division_maker=beat_division_maker,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(0),
-    timespan=stage(1),
+    timespan=stages(1),
     )
 
 segment_maker.make_rhythm_maker(
@@ -102,7 +102,7 @@ segment_maker.make_rhythm_maker(
     division_maker=beat_division_maker,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-1),
-    timespan=stage(3),
+    timespan=stages(3),
     )
 
 ### stage 5-6 ###
@@ -112,7 +112,7 @@ segment_maker.make_rhythm_maker(
     division_maker=beat_division_maker,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-2),
-    timespan=stage(5),
+    timespan=stages(5),
     )
 
 ### stages 7-8 ###
@@ -136,25 +136,25 @@ segment_maker.make_rhythm_maker(
     division_maker=beat_division_maker,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-3),
-    timespan=stage(7),
+    timespan=stages(7),
     )
 
 segment_maker.make_rhythm_maker(
     vn_2,
     rhythm_maker=incised_rhythm_maker(-2),
-    timespan=stage(7),
+    timespan=stages(7),
     )
 
 segment_maker.make_rhythm_maker(
     va,
     rhythm_maker=incised_rhythm_maker(-3),
-    timespan=stage(7),
+    timespan=stages(7),
     )
 
 segment_maker.make_rhythm_maker(
     vc,
     rhythm_maker=incised_rhythm_maker(0),
-    timespan=stage(7),
+    timespan=stages(7),
     )
 
 ### stages 9-10 ###
@@ -162,19 +162,19 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_1,
     rhythm_maker=incised_rhythm_maker(-2),
-    timespan=stage(9),
+    timespan=stages(9),
     )
 
 segment_maker.make_rhythm_maker(
     vn_2,
     rhythm_maker=incised_rhythm_maker(-3),
-    timespan=stage(9),
+    timespan=stages(9),
     )
 
 segment_maker.make_rhythm_maker(
     va,
     rhythm_maker=incised_rhythm_maker(0),
-    timespan=stage(9),
+    timespan=stages(9),
     )
 
 segment_maker.make_rhythm_maker(
@@ -182,7 +182,7 @@ segment_maker.make_rhythm_maker(
     division_maker=beat_division_maker,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-4),
-    timespan=stage(9),
+    timespan=stages(9),
     )
 
 ### stages 11-12 ###
@@ -190,13 +190,13 @@ segment_maker.make_rhythm_maker(
 segment_maker.make_rhythm_maker(
     vn_1,
     rhythm_maker=incised_rhythm_maker(-3),
-    timespan=stage(11),
+    timespan=stages(11),
     )
 
 segment_maker.make_rhythm_maker(
     vn_2,
     rhythm_maker=incised_rhythm_maker(0),
-    timespan=stage(11),
+    timespan=stages(11),
     )
 
 segment_maker.make_rhythm_maker(
@@ -204,13 +204,13 @@ segment_maker.make_rhythm_maker(
     division_maker=beat_division_maker,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-5),
-    timespan=stage(11),
+    timespan=stages(11),
     )
 
 segment_maker.make_rhythm_maker(
     vc,
     rhythm_maker=incised_rhythm_maker(-2),
-    timespan=stage(11),
+    timespan=stages(11),
     )
 
 ### stage 13 ###
@@ -219,7 +219,7 @@ segment_maker.make_rhythm_maker(
     vn_1,
     rhythm_maker=incised_rhythm_maker(0),
     tie_last=True,
-    timespan=stage(13),
+    timespan=stages(13),
     )
 
 segment_maker.make_rhythm_maker(
@@ -227,21 +227,21 @@ segment_maker.make_rhythm_maker(
     division_maker=beat_division_maker,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-6),
-    timespan=stage(13),
+    timespan=stages(13),
     )
 
 segment_maker.make_rhythm_maker(
     va,
     rhythm_maker=incised_rhythm_maker(-2),
     tie_last=True,
-    timespan=stage(13),
+    timespan=stages(13),
     )
 
 segment_maker.make_rhythm_maker(
     vc,
     rhythm_maker=incised_rhythm_maker(-3),
     tie_last=True,
-    timespan=stage(13),
+    timespan=stages(13),
     )
 
 ### stages 14-17 ###
