@@ -19,14 +19,14 @@ getato_counts = [-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6]
 
 ### RHYTHM-MAKERS ###
 
-compound_quarter_divisions = baca.tools.DivisionExpression()
+compound_quarter_divisions = baca.tools.DivisionSequenceExpression()
 compound_quarter_divisions = compound_quarter_divisions.split_by_durations(
     compound_meter_multiplier=abjad.durationtools.Multiplier((3, 2)),
     durations=[abjad.durationtools.Duration(1, 4)],
     )
 compound_quarter_divisions = compound_quarter_divisions.flatten()
 
-strict_quarter_divisions = baca.tools.DivisionExpression()
+strict_quarter_divisions = baca.tools.DivisionSequenceExpression()
 strict_quarter_divisions = strict_quarter_divisions.split_by_durations(
     durations=[abjad.durationtools.Duration(1, 4)],
     )
