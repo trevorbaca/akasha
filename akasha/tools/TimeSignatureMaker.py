@@ -10,6 +10,7 @@ class TimeSignatureMaker(object):
     ### CLASS VARIABLES ###
 
     __slots__ = (
+        '_repeat_count',
         '_rotation',
         '_series',
         '_stage_specifier',
@@ -24,11 +25,13 @@ class TimeSignatureMaker(object):
         rotation,
         stage_specifier,
         tempo_map,
+        repeat_count=None,
         ):
         self._series = series
         self._rotation = rotation
         self._stage_specifier = stage_specifier
         self._tempo_map = tempo_map
+        self._repeat_count = repeat_count
 
     ### SPECIAL METHODS ###
 
@@ -50,6 +53,7 @@ class TimeSignatureMaker(object):
         time_signatures = time_signatures.rotate(self.rotation)
         time_signatures = time_signatures.flatten()
         preprocessor = baca.tools.TimeSignaturePreprocessor(
+            repeat_count=self.repeat_count,
             stage_specifier=self.stage_specifier,
             time_signatures=time_signatures,
             )
@@ -61,6 +65,12 @@ class TimeSignatureMaker(object):
         return measures_per_stage, tempo_map, time_signatures
 
     ### PUBLIC PROPERTIES ###
+
+    @property
+    def repeat_count(self):
+        r'''Gets repeat count.
+        '''
+        return self._repeat_count
 
     @property
     def rotation(self):

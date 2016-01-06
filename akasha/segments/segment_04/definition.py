@@ -41,8 +41,8 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-assert segment_maker.measure_count == 12
-assert segment_maker.stage_count == 10
+segment_maker.validate_measure_count(12)
+segment_maker.validate_stage_count(10)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
