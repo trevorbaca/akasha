@@ -19,13 +19,6 @@ getato_counts = [-2, 1, 1, -4, -4, 1, 1, 1, -1, -14, -1, 1, -6]
 
 ### RHYTHM-MAKERS ###
 
-beat_division_maker = experimental.tools.makertools.DivisionMaker()
-beat_division_maker = beat_division_maker.split_by_durations(
-        compound_meter_multiplier=abjad.durationtools.Multiplier(3, 2),
-        durations=[(1, 4)],
-        )
-beat_division_maker = beat_division_maker.flatten()
-
 compound_quarter_divisions = baca.tools.DivisionExpression()
 compound_quarter_divisions = compound_quarter_divisions.split_by_durations(
     compound_meter_multiplier=abjad.durationtools.Multiplier((3, 2)),
@@ -39,9 +32,7 @@ strict_quarter_divisions = strict_quarter_divisions.split_by_durations(
     )
 strict_quarter_divisions = strict_quarter_divisions.flatten()
 
-def fused_compound_quarter_divisions(rotation=0):
-    counts = abjad.sequencetools.Sequence([2, 2, 1, 2, 1])
-    counts = counts.rotate(n=rotation)
+def fused_compound_quarter_divisions(counts):
     expression = compound_quarter_divisions
     expression = expression.partition_by_counts(
         counts=counts,

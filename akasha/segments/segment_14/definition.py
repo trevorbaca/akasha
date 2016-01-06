@@ -77,7 +77,7 @@ segment_maker.make_rhythm_makers(
 
 segment_maker.make_rhythm_maker(
     voice_name=vn_2,
-    division_expression=fused_compound_quarter_divisions(rotation=0),
+    division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         burnish_specifier=rhythmmakertools.BurnishSpecifier(

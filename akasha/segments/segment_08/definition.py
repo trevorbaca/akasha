@@ -64,14 +64,9 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_expression=sequence()
+    division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1])
         .partition_by_ratio_of_lengths(Ratio((2, 1)))
         [0]
-        ,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 2, 1, 2, 1],
-            )
         ,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
