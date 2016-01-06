@@ -3,64 +3,68 @@ from abjad import *
 
 
 class ScoreTemplate(abctools.AbjadValueObject):
+    r'''Score template.
+    '''
 
     ### SPECIAL METHODS ###
 
     def __call__(self):
-        r'''Calls string quartet score template.
+        r'''Calls score template.
 
-        ::
+        ..  container:: example
 
-            >>> import akasha
-            >>> template = akasha.tools.ScoreTemplate()
-            >>> score = template()
+            **Example.** Calls score template:
 
-        ::
+            ::
 
-            >>> f(score)
-            \context Score = "Score" <<
-                \context TimeSignatureContext = "Time Signature Context" <<
-                    \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
-                    }
-                    \context TimeSignatureContextSkips = "Time Signature Context Skips" {
-                    }
+                >>> import akasha
+                >>> template = akasha.tools.ScoreTemplate()
+                >>> score = template()
+
+            ::
+
+                >>> f(score)
+                \context Score = "Score" <<
+                    \context TimeSignatureContext = "Time Signature Context" <<
+                        \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                        }
+                        \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                        }
+                    >>
+                    \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+                        \context ViolinOneMusicStaff = "Violin One Music Staff" {
+                            \clef "treble"
+                            \set Staff.instrumentName = \markup { Violin }
+                            \set Staff.shortInstrumentName = \markup { Vn. }
+                            \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                            }
+                        }
+                        \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
+                            \clef "treble"
+                            \set Staff.instrumentName = \markup { Violin }
+                            \set Staff.shortInstrumentName = \markup { Vn. }
+                            \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                            }
+                        }
+                        \context ViolaMusicStaff = "Viola Music Staff" {
+                            \clef "alto"
+                            \set Staff.instrumentName = \markup { Viola }
+                            \set Staff.shortInstrumentName = \markup { Va. }
+                            \context ViolaMusicVoice = "Viola Music Voice" {
+                            }
+                        }
+                        \context CelloMusicStaff = "Cello Music Staff" {
+                            \clef "bass"
+                            \set Staff.instrumentName = \markup { Cello }
+                            \set Staff.shortInstrumentName = \markup { Vc. }
+                            \context CelloMusicVoice = "Cello Music Voice" {
+                            }
+                        }
+                    >>
                 >>
-                \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
-                    \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                        \clef "treble"
-                        \set Staff.instrumentName = \markup { Violin }
-                        \set Staff.shortInstrumentName = \markup { Vn. }
-                        \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        }
-                    }
-                    \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                        \clef "treble"
-                        \set Staff.instrumentName = \markup { Violin }
-                        \set Staff.shortInstrumentName = \markup { Vn. }
-                        \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        }
-                    }
-                    \context ViolaMusicStaff = "Viola Music Staff" {
-                        \clef "alto"
-                        \set Staff.instrumentName = \markup { Viola }
-                        \set Staff.shortInstrumentName = \markup { Va. }
-                        \context ViolaMusicVoice = "Viola Music Voice" {
-                        }
-                    }
-                    \context CelloMusicStaff = "Cello Music Staff" {
-                        \clef "bass"
-                        \set Staff.instrumentName = \markup { Cello }
-                        \set Staff.shortInstrumentName = \markup { Vc. }
-                        \context CelloMusicVoice = "Cello Music Voice" {
-                        }
-                    }
-                >>
-            >>
 
         Returns score.
         '''
-
-        # make time signature context
         time_signature_context_multimeasure_rests = scoretools.Context(
             context_name='TimeSignatureContextMultimeasureRests',
             name='Time Signature Context Multimeasure Rests',
@@ -87,9 +91,6 @@ class ScoreTemplate(abctools.AbjadValueObject):
         tag_string = '.'.join(instrument_tags)
         tag_string = 'tag {}'.format(tag_string)
         tag_command = indicatortools.LilyPondCommand(tag_string, 'before')
-        #attach(tag_command, time_signature_context)
-
-        # make music contexts
         violin_one_music_voice = scoretools.Voice(
             [], 
             context_name='ViolinOneMusicVoice',
@@ -100,8 +101,11 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='ViolinOneMusicStaff',
             name='Violin One Music Staff',
             )
-        #self._attach_tag('violin1', violin_one_music_staff)
-        attach(instrumenttools.Violin(), violin_one_music_staff)
+        violin_1 = instrumenttools.Violin(
+            instrument_name='violin 1',
+            short_instrument_name='vn. 1',
+            )
+        attach(violin_1, violin_one_music_staff)
         attach(Clef('treble'), violin_one_music_staff)
         violin_two_music_voice = scoretools.Voice(
             [], 
@@ -113,8 +117,11 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='ViolinTwoMusicStaff',
             name='Violin Two Music Staff',
             )
-        #self._attach_tag('violin2', violin_two_music_staff)
-        attach(instrumenttools.Violin(), violin_two_music_staff)
+        violin_2 = instrumenttools.Violin(
+            instrument_name='violin 2',
+            short_instrument_name='vn. 2',
+            )
+        attach(violin_2, violin_two_music_staff)
         attach(Clef('treble'), violin_two_music_staff)
         viola_music_voice = scoretools.Voice(
             [], 
@@ -126,7 +133,6 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='ViolaMusicStaff',
             name='Viola Music Staff',
             )
-        #self._attach_tag('viola', viola_music_staff)
         attach(instrumenttools.Viola(), viola_music_staff)
         attach(Clef('alto'), viola_music_staff)
         cello_music_voice = scoretools.Voice(
@@ -139,7 +145,6 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='CelloMusicStaff',
             name='Cello Music Staff',
             )
-        #self._attach_tag('cello', cello_music_staff)
         attach(instrumenttools.Cello(), cello_music_staff)
         attach(Clef('bass'), cello_music_staff)
         string_quartet_staff_group = scoretools.StaffGroup(
@@ -152,7 +157,6 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='StringQuartetStaffGroup',
             name='String Quartet Staff Group',
             )
-
         music_context = scoretools.Context(
             [
                 string_quartet_staff_group,
@@ -160,8 +164,6 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='MusicContext',
             name='Music Context',
             )
-        
-        # make score
         score = Score(
             [
             time_signature_context,
@@ -169,8 +171,6 @@ class ScoreTemplate(abctools.AbjadValueObject):
             ],
             name='Score',
             )
-
-        # return score
         return score
 
     ### PRIVATE METHODS ###
