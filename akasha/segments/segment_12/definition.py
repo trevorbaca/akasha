@@ -57,7 +57,7 @@ segment_maker = baca.tools.SegmentMaker(
 
 assert segment_maker.measure_count == 6, repr(segment_maker.measure_count)
 assert segment_maker.stage_count == 5, repr(segment_maker.stage_count)
-assert segment_maker.validate_time_signatures()
+segment_maker.validate_measures_per_stage()
 
 ###############################################################################
 ################################### RHYTHM ####################################
