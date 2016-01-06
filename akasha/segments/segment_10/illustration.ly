@@ -1,4 +1,4 @@
-% 2016-01-05 19:02
+% 2016-01-06 12:47
 
 \version "2.19.35"
 \language "english"
@@ -426,12 +426,20 @@
                     \set Staff.instrumentName = \markup {
                     \hcenter-in
                         #16
-                        Violin
+                        \line
+                            {
+                                Violin
+                                1
+                            }
                     }
                     \set Staff.shortInstrumentName = \markup {
                     \hcenter-in
                         #10
-                        Vn.
+                        \line
+                            {
+                                Vn.
+                                1
+                            }
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         c'1.
@@ -721,12 +729,20 @@
                     \set Staff.instrumentName = \markup {
                     \hcenter-in
                         #16
-                        Violin
+                        \line
+                            {
+                                Violin
+                                2
+                            }
                     }
                     \set Staff.shortInstrumentName = \markup {
                     \hcenter-in
                         #10
-                        Vn.
+                        \line
+                            {
+                                Vn.
+                                2
+                            }
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         c'1.
