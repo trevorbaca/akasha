@@ -82,7 +82,7 @@ segment_maker.make_rhythm_makers(
 
 segment_maker.make_rhythm_makers(
     vn_2,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=getato_counts,
@@ -98,7 +98,7 @@ segment_maker.make_rhythm_makers(
 
 segment_maker.make_rhythm_makers(
     va,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=getato_counts,
@@ -117,7 +117,7 @@ counts = [4, 14, 4, 6, 18]
 
 segment_maker.make_rhythm_makers(
     vn_1,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[2, 0, 1],
         logical_tie_masks=[
@@ -170,7 +170,7 @@ segment_maker.copy_rhythm_maker(
 
 segment_maker.make_rhythm_makers(
     vn_1,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=counts,
@@ -212,7 +212,7 @@ segment_maker.copy_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=getato_counts,
@@ -242,7 +242,7 @@ counts = [5, 4, 3, 6]
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=[2, 0, 1],
         logical_tie_masks=[

@@ -91,7 +91,7 @@ segment_maker.copy_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(3),
@@ -120,16 +120,14 @@ segment_maker.copy_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=note_rhythm_maker,
     timespan=stages(5),
     )
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=makertools.DivisionMaker().split_by_durations(
-        durations=[(1, 4)],
-        ).flatten(),
+    division_expression=strict_quarter_divisions,
     rhythm_maker=note_rhythm_maker,
     timespan=stages(5),
     )
@@ -157,7 +155,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=(1,),
         logical_tie_masks=[
@@ -197,7 +195,7 @@ segment_maker.copy_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=fused_compound_quarter_divisions([1, 4]),
+    division_expression=fused_compound_quarter_divisions([1, 4]),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(),

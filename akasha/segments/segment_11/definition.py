@@ -91,7 +91,7 @@ off_string_rhythm_maker = rhythmmakertools.EvenDivisionRhythmMaker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(0),
     timespan=stages(1),
@@ -99,7 +99,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-1),
     timespan=stages(3),
@@ -109,7 +109,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-2),
     timespan=stages(5),
@@ -133,7 +133,7 @@ def incised_rhythm_maker(n):
     
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-3),
     timespan=stages(7),
@@ -179,7 +179,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-4),
     timespan=stages(9),
@@ -201,7 +201,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-5),
     timespan=stages(11),
@@ -224,7 +224,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
     rhythm_maker__extra_counts_per_division=extra_counts_per_division(-6),
     timespan=stages(13),

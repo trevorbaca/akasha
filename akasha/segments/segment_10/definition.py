@@ -175,7 +175,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+    division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         burnish_specifier=rhythmmakertools.BurnishSpecifier(
             left_classes=[Rest],
