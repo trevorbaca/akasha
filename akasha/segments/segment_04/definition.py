@@ -10,14 +10,6 @@ from akasha.materials.__abbreviations__ import *
 ##################################### [C] #####################################
 ###############################################################################
 
-time_signature_start = 3
-time_signatures = akasha.materials.time_signatures_a
-time_signatures = sequencetools.rotate_sequence(
-    time_signatures,
-    time_signature_start,
-    )
-time_signatures = sequencetools.flatten_sequence(time_signatures)
-
 stage_specifier = [
     1, TimeSignature((1, 3)), 1,
     2,
@@ -25,19 +17,13 @@ stage_specifier = [
     2,
     1, TimeSignature((3, 3)),
     ]
-preprocessor = baca.tools.TimeSignaturePreprocessor(
-    stage_specifier=stage_specifier,
-    time_signatures=time_signatures,
-    )
-time_signature_groups = preprocessor()
-measures_per_stage = [len(_) for _ in time_signature_groups]
-time_signatures = sequencetools.flatten_sequence(time_signature_groups)
 
 tempo_map = (
     (1, akasha.materials.tempi[55]),
     )
-fermata_entries = preprocessor.make_fermata_entries()
-tempo_map = tempo_map + fermata_entries
+
+maker = akasha.tools.TimeSignatureMaker('A', 3, stage_specifier, tempo_map)
+measures_per_stage, tempo_map, time_signatures = maker()
 
 spacing_map = (
     (4, Duration(1, 40)),
@@ -57,7 +43,7 @@ segment_maker = baca.tools.SegmentMaker(
 
 assert segment_maker.measure_count == 12
 assert segment_maker.stage_count == 10
-assert segment_maker.validate_time_signatures()
+segment_maker.validate_measures_per_stage()
 
 ###############################################################################
 ################################### RHYTHM ####################################
