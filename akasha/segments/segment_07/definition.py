@@ -95,11 +95,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 2, 1, 2, 1],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[6, 4, 6, 3],
@@ -112,11 +108,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 1, 2, 1, 2],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[4, 6, 3, 6],
@@ -129,11 +121,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[1, 2, 1, 2, 2],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[6, 3, 6, 4],
@@ -491,11 +479,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 2, 1, 2, 1],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         division_masks=silence([0, 1, 3, 4, 5, 8, 9, 12, 15]),
@@ -519,11 +503,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=beat_division_maker
-        .fuse_by_counts(
-            counts=[1, 2, 2, 1, 2, 1],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([1, 2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         division_masks=silence([0, 1, 3, 6, 8]),
@@ -539,11 +519,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 2, 1, 2, 1],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[6, 4, 6, 3],
@@ -556,11 +532,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 1, 2, 1, 2],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[4, 6, 3, 6],
@@ -573,11 +545,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 1, 2, 2, 1],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[3, 6, 4, 6],
@@ -590,11 +558,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[1, 2, 1, 2, 2],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[6, 3, 6, 4],
@@ -617,11 +581,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 2, 1, 2, 1],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[6, 4, 6, 3],
@@ -634,11 +594,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 1, 2, 1, 2],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[4, 6, 3, 6],
@@ -651,11 +607,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[2, 1, 2, 2, 1],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[3, 6, 4, 6],
@@ -668,11 +620,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=beat_division_maker.
-        fuse_by_counts(
-            counts=[1, 2, 1, 2, 2],
-            )
-        ,
+    division_maker=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[6, 3, 6, 4],
