@@ -67,17 +67,25 @@ assert segment_maker.validate_time_signatures()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-def durations(rotation=0):
+def _make_viola_divisions(rotation=0):
     durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     durations = [Duration(_) for _ in durations]
-    return sequencetools.rotate_sequence(durations, n=rotation)
+    durations = Sequence(durations)
+    durations = durations.rotate(n=rotation)
+    expression = sequence()
+    expression = expression.sum()
+    expression = expression.sequence()
+    expression = expression.split(
+        durations, 
+        cyclic=True,
+        overhang=True,
+        )
+    expression = expression.flatten()
+    return expression
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=durations(0),
-        ),
+    division_expression=_make_viola_divisions(rotation=0),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(),
@@ -104,10 +112,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=durations(2),
-        ),
+    division_expression=_make_viola_divisions(rotation=2),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(),
@@ -160,10 +165,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=durations(4),
-        ),
+    division_expression=_make_viola_divisions(rotation=4),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(),
@@ -203,10 +205,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=durations(6),
-        ),
+    division_expression=_make_viola_divisions(rotation=6),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(),
@@ -233,12 +232,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_expression=sequence()
-        .sum()
-        .sequence()
-        .split(durations(8), cyclic=True, overhang=True)
-        .flatten()
-        ,
+    division_expression=_make_viola_divisions(rotation=8),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_first(),
@@ -342,7 +336,7 @@ def extra_counts(rotation=0):
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_every([7], period=8),
@@ -393,7 +387,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_every([5], period=6),
@@ -409,7 +403,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=fused_compound_quarter_divisions([2, 1, 2]),
+    division_expression=fused_compound_quarter_divisions([2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         division_masks=[
@@ -427,7 +421,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+    division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[4, 2, 4, 1],
@@ -440,7 +434,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
+    division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[2, 4, 1, 4],
@@ -453,7 +447,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
+    division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[4, 1, 4, 2],
@@ -468,7 +462,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+    division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         division_masks=silence_last(4),
@@ -482,7 +476,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
+    division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         division_masks=silence_last(5),
@@ -496,7 +490,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vc,
-    division_maker=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
+    division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         division_masks=silence_last(5),

@@ -63,7 +63,7 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=getato_counts,
@@ -79,7 +79,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         extra_counts_per_division=(1,),
         logical_tie_masks=[
@@ -142,7 +142,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=sequencetools.rotate_sequence(getato_counts, -4),
@@ -158,7 +158,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_1,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
             counts=sequencetools.rotate_sequence(getato_counts, -8),
@@ -209,7 +209,7 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     va,
-    division_maker=compound_quarter_divisions,
+    division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
         extra_counts_per_division=[1],
         incise_specifier=rhythmmakertools.InciseSpecifier(
