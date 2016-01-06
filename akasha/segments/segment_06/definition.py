@@ -358,11 +358,10 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_expression=sequence()
+    division_expression=compound_quarter_divisions
         .partition_by_ratio_of_lengths(Ratio((3, 1)))
         [0]
         ,
-    division_maker=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         division_masks=[
             rhythmmakertools.silence_every([6], period=7),
@@ -378,11 +377,10 @@ segment_maker.make_rhythm_maker(
 
 segment_maker.make_rhythm_maker(
     vn_2,
-    division_expression=sequence()
+    division_expression=fused_compound_quarter_divisions([1, 2, 2])
         .partition_by_ratio_of_lengths(Ratio((3, 1)))
         [1]
         ,
-    division_maker=fused_compound_quarter_divisions([1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
         extra_counts_per_division=[4, 2, 4, 1],
