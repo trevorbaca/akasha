@@ -49,31 +49,31 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_makers(
+segment_maker.define_rhythm(
     (vn_1, vn_2, va),
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_makers(
+segment_maker.define_rhythm(
     (vn_1, vn_2, va),
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(3),
     )
 
-segment_maker.make_rhythm_makers(
+segment_maker.define_rhythm(
     (vn_1, vn_2, va),
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(4),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(3, 5),
