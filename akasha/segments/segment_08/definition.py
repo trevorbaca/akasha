@@ -12,7 +12,7 @@ from akasha.materials.__abbreviations__ import *
 
 stage_specifier = baca.tools.StageSpecifier([
     4, 3, 3,
-    3, TimeSignature((1, 3)), # 4-5
+    3, Fermata(), # 4-5
     2, 1,
     ])
 

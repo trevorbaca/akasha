@@ -16,9 +16,9 @@
                     R1 * 3/4
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -33,9 +33,9 @@
                     R1 * 1
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -54,13 +54,8 @@
                     R1 * 3/4
                 }
                 {
-                    \time 1/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ufermata"
-                            }
+                    \time 1/4
+                    R1 * 1/4
                 }
                 {
                     \time 3/4
@@ -71,13 +66,8 @@
                     R1 * 1
                 }
                 {
-                    \time 1/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ufermata"
-                            }
+                    \time 1/4
+                    R1 * 1/4
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
@@ -157,8 +147,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3 \stopTextSpan
+                    \time 1/4
+                    s1 * 1/4 \stopTextSpan
                         - \markup {
                             \smaller
                                 \with-color
@@ -197,8 +187,8 @@
                     s1 * 1
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -279,8 +269,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3 \stopTextSpan
+                    \time 1/4
+                    s1 * 1/4 \stopTextSpan
                         - \markup {
                             \smaller
                                 \with-color
@@ -319,8 +309,8 @@
                     s1 * 1
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -437,7 +427,7 @@
                         }
                         \revert TupletNumber #'text
                         c'2.
-                        R1 * 29/12
+                        R1 * 9/4
                         \override TupletNumber #'text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -522,7 +512,7 @@
                         }
                         \revert TupletNumber #'text
                         c'2.
-                        R1 * 29/12
+                        R1 * 9/4
                         \bar "|"
                     }
                 }
@@ -631,7 +621,7 @@
                         }
                         \revert TupletNumber #'text
                         c'2.
-                        R1 * 29/12
+                        R1 * 9/4
                         \override TupletNumber #'text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -716,7 +706,7 @@
                         }
                         \revert TupletNumber #'text
                         c'2.
-                        R1 * 29/12
+                        R1 * 9/4
                         \bar "|"
                     }
                 }
@@ -781,10 +771,10 @@
                         }
                         \revert TupletNumber #'text
                         c'2.
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2.
                         c'1 \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         \override TupletNumber #'text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -833,10 +823,10 @@
                         }
                         \revert TupletNumber #'text
                         c'2.
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2.
                         c'1 \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -857,17 +847,17 @@
                         c'2. \repeatTie
                         c'2 \repeatTie
                         c'2. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2.
                         c'1 \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'1
                         c'2. \repeatTie
                         c'2 \repeatTie
-                        R1 * 13/12
+                        R1 * 1
                         c'2.
                         c'1 \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

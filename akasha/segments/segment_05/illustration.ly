@@ -1,4 +1,4 @@
-% 2016-01-06 20:27
+% 2016-01-06 21:07
 
 \version "2.19.35"
 \language "english"
@@ -32,12 +32,7 @@
                 }
                 {
                     \time 1/12
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
                     R1 * 1/12
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
                 }
                 {
                     \time 7/8
@@ -71,12 +66,7 @@
                 }
                 {
                     \time 1/12
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
                     R1 * 1/12
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
                 }
                 {
                     \time 6/8
@@ -96,12 +86,7 @@
                 }
                 {
                     \time 1/12
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
                     R1 * 1/12
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
                 }
                 {
                     \time 8/8
@@ -135,9 +120,9 @@
                     R1 * 1
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -176,12 +161,7 @@
                 }
                 {
                     \time 1/12
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
                     R1 * 1/12
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
                 }
                 {
                     \time 6/8
@@ -214,12 +194,11 @@
                     R1 * 1/2
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
             }
@@ -403,8 +382,8 @@
                     s1 * 1
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -542,8 +521,8 @@
                     s1 * 1/2
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -610,7 +589,7 @@
                         c'4.
                         c'2
                         c'1
-                        R1 * 1/3
+                        R1 * 1/4
                         c'4.
                         c'2 \repeatTie
                         c'2.. \repeatTie
@@ -624,7 +603,7 @@
                         c'2..
                         c'2..
                         c'4.
-                        R1 * 19/4
+                        R1 * 4
                         \bar "|"
                     }
                 }
@@ -684,7 +663,7 @@
                         c'4.
                         c'2
                         c'1
-                        R1 * 1/3
+                        R1 * 1/4
                         c'4.
                         c'2 \repeatTie
                         c'2.. \repeatTie
@@ -698,7 +677,7 @@
                         c'2..
                         c'2..
                         c'4.
-                        R1 * 19/4
+                        R1 * 4
                         \bar "|"
                     }
                 }
@@ -751,7 +730,7 @@
                         c'4. \repeatTie
                         c'2 \repeatTie
                         c'1 \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'4.
                         c'2 \repeatTie
                         c'2.. \repeatTie
@@ -765,7 +744,7 @@
                         c'2..
                         c'2..
                         c'4.
-                        R1 * 19/4
+                        R1 * 4
                         \bar "|"
                     }
                 }
@@ -811,7 +790,7 @@
                         c'4.
                         c'2
                         c'1
-                        R1 * 1/3
+                        R1 * 1/4
                         c'4.
                         c'2 \repeatTie
                         c'2.. \repeatTie
@@ -831,7 +810,7 @@
                         c'2.
                         c'4.
                         c'2
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

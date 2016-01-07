@@ -8,9 +8,9 @@
                     R1 * 1
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -21,9 +21,9 @@
                     R1 * 3/2
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -34,9 +34,9 @@
                     R1 * 3/2
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -47,9 +47,9 @@
                     R1 * 5/4
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -166,12 +166,11 @@
                     R1 * 3/4
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
             }
@@ -206,8 +205,8 @@
                         }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -226,8 +225,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -246,8 +245,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -266,8 +265,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -524,8 +523,8 @@
                     s1 * 3/4
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -558,7 +557,7 @@
                             }
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 19/6
+                        R1 * 3
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             c'4
@@ -566,14 +565,14 @@
                             r4
                             r4
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 5/3 {
                             c'4
                             r4
                             r4
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             r4
@@ -1197,7 +1196,7 @@
                         r2
                         r4
                         r2
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1222,7 +1221,7 @@
                             }
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 4/3
+                        R1 * 5/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             r4
@@ -1230,7 +1229,7 @@
                             r4
                             c'4
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4
@@ -1239,7 +1238,7 @@
                             r4
                             r4
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 5/6 {
                             r4
@@ -1249,7 +1248,7 @@
                             r4
                             c'4
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         {
                             r4
                             r4
@@ -1884,7 +1883,7 @@
                         r2
                         r4
                         r4
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1905,24 +1904,24 @@
                         c'4
                         c'4.
                         r8
-                        R1 * 1/3
+                        R1 * 1/4
                         r4
                         c'4.
                         c'4
                         c'4
                         r4.
-                        R1 * 1/3
+                        R1 * 1/4
                         r4
                         c'4.
                         c'4
                         c'4.
                         r4
-                        R1 * 1/3
+                        R1 * 1/4
                         r4.
                         c'4
                         c'4
                         r4.
-                        R1 * 1/3
+                        R1 * 1/4
                         r4.
                         c'4
                         c'4.
@@ -2031,7 +2030,7 @@
                         c'4.
                         c'4
                         r4.
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -2048,7 +2047,7 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 4/3
+                        R1 * 5/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             r4
@@ -2057,7 +2056,7 @@
                             r4
                             r4
                         }
-                        R1 * 13/6
+                        R1 * 2
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 5/4 {
                             r4
@@ -2065,7 +2064,7 @@
                             r4
                             r4
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/5 {
                             r4
@@ -2724,7 +2723,7 @@
                         r4
                         r2
                         r4
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

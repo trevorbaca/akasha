@@ -14,10 +14,10 @@ stage_specifier = baca.tools.StageSpecifier([
     4, TimeSignature((1, 12)),
     8, TimeSignature((1, 12)),
     4, TimeSignature((1, 12)),
-    8, TimeSignature((1, 3)),
+    8, Fermata(),
     4, # stage 9
     4, TimeSignature((1, 12)),
-    8, TimeSignature((3, 3)),
+    8, Fermata('longfermata'),
     ])
 
 tempo_map = baca.tools.TempoMap([

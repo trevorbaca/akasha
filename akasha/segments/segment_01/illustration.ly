@@ -1,4 +1,4 @@
-% 2016-01-06 20:26
+% 2016-01-06 21:07
 
 \version "2.19.35"
 \language "english"
@@ -18,12 +18,11 @@
                     R1 * 3/8
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.uverylongfermata"
                             }
                 }
             }
@@ -57,8 +56,8 @@
                         }
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -92,7 +91,7 @@
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         R1 * 3/8
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -118,7 +117,7 @@
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 3/8
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -136,7 +135,7 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         c'4.
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -154,7 +153,7 @@
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         R1 * 3/8
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
