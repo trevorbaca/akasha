@@ -75,7 +75,7 @@ off_string_rhythm_maker = rhythmmakertools.EvenDivisionRhythmMaker(
         ),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
@@ -83,7 +83,7 @@ segment_maker.define_rhythm(
     timespan=stages(1),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
@@ -93,7 +93,7 @@ segment_maker.define_rhythm(
 
 ### stage 5-6 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vc,
     division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
@@ -117,7 +117,7 @@ def incised_rhythm_maker(n):
             ),
         )
     
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
@@ -125,19 +125,19 @@ segment_maker.define_rhythm(
     timespan=stages(7),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     rhythm_maker=incised_rhythm_maker(-2),
     timespan=stages(7),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     rhythm_maker=incised_rhythm_maker(-3),
     timespan=stages(7),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vc,
     rhythm_maker=incised_rhythm_maker(0),
     timespan=stages(7),
@@ -145,25 +145,25 @@ segment_maker.define_rhythm(
 
 ### stages 9-10 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     rhythm_maker=incised_rhythm_maker(-2),
     timespan=stages(9),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     rhythm_maker=incised_rhythm_maker(-3),
     timespan=stages(9),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     rhythm_maker=incised_rhythm_maker(0),
     timespan=stages(9),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vc,
     division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
@@ -173,19 +173,19 @@ segment_maker.define_rhythm(
 
 ### stages 11-12 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     rhythm_maker=incised_rhythm_maker(-3),
     timespan=stages(11),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     rhythm_maker=incised_rhythm_maker(0),
     timespan=stages(11),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
@@ -193,7 +193,7 @@ segment_maker.define_rhythm(
     timespan=stages(11),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vc,
     rhythm_maker=incised_rhythm_maker(-2),
     timespan=stages(11),
@@ -201,14 +201,14 @@ segment_maker.define_rhythm(
 
 ### stage 13 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     rhythm_maker=incised_rhythm_maker(0),
     tie_last=True,
     timespan=stages(13),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=off_string_rhythm_maker,
@@ -216,14 +216,14 @@ segment_maker.define_rhythm(
     timespan=stages(13),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     rhythm_maker=incised_rhythm_maker(-2),
     tie_last=True,
     timespan=stages(13),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vc,
     rhythm_maker=incised_rhythm_maker(-3),
     tie_last=True,
@@ -232,7 +232,7 @@ segment_maker.define_rhythm(
 
 ### stages 14-17 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     tutti,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
@@ -242,7 +242,7 @@ segment_maker.define_rhythm(
 
 ### stages 18-21 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     tutti,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
@@ -252,7 +252,7 @@ segment_maker.define_rhythm(
 
 ### stages 22-25 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     tutti,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
@@ -262,7 +262,7 @@ segment_maker.define_rhythm(
 
 ### stages 26-31 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     tutti,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,

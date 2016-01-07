@@ -60,7 +60,7 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
@@ -79,7 +79,7 @@ segment_maker.define_rhythm(
     timespan=stages(1),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
@@ -98,7 +98,7 @@ segment_maker.define_rhythm(
     timespan=stages(1),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     division_expression=fuse_divisions(),
     rhythm_maker=make_accelerando_rhythm_maker(
@@ -113,38 +113,38 @@ segment_maker.define_rhythm(
     timespan=stages(1),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(1, 2),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(2),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(2),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(2),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(4),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vc,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(4),
@@ -152,55 +152,55 @@ segment_maker.define_rhythm(
 
 ### repetition ###
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_1,
     1,
     timespan=stages(1+5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_1,
     2,
     timespan=stages(2+5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_2,
     1,
     timespan=stages(1+5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_2,
     2,
     timespan=stages(2+5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     va,
     1,
     timespan=stages(1+5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     va,
     2,
     timespan=stages(2+5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     va,
     4,
     timespan=stages(4+5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vc,
     1,
     timespan=stages(1+5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vc,
     4,
     timespan=stages(4+5),

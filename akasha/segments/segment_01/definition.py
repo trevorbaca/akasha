@@ -11,7 +11,8 @@ from akasha.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    1, Fermata('verylongfermata'),
+    2,
+    Fermata('verylongfermata'),
     ])
 
 tempo_map = baca.tools.TempoMap([
@@ -27,6 +28,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    label_clock_time=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     show_stage_annotations=True,
@@ -35,7 +37,7 @@ segment_maker = baca.tools.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-segment_maker.validate_measure_count(2)
+segment_maker.validate_measure_count(3)
 segment_maker.validate_stage_count(2)
 segment_maker.validate_measures_per_stage()
 
@@ -43,7 +45,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(1),

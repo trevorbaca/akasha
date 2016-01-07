@@ -1,4 +1,4 @@
-% 2016-01-07 13:15
+% 2016-01-07 16:45
 
 \version "2.19.35"
 \language "english"
@@ -18,7 +18,12 @@
                     R1 * 3/8
                 }
                 {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
                     \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
                     \once \override Score.MultiMeasureRest #'transparent = ##t
                     \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
@@ -34,6 +39,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/8
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'00''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -57,6 +67,17 @@
                                 44
                             }
                         }
+                }
+                {
+                    \time 6/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'02''
+                            }
                 }
                 {
                     \time 1/4
@@ -97,6 +118,7 @@
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         R1 * 3/8
+                        R1 * 3/4
                         R1 * 1/4
                         \bar "|"
                     }
@@ -123,6 +145,7 @@
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 3/8
+                        R1 * 3/4
                         R1 * 1/4
                         \bar "|"
                     }
@@ -141,6 +164,7 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         c'4.
+                        c'2. \repeatTie
                         R1 * 1/4
                         \bar "|"
                     }
@@ -159,6 +183,7 @@
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         R1 * 3/8
+                        R1 * 3/4
                         R1 * 1/4
                         \bar "|"
                     }
