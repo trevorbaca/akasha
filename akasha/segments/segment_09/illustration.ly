@@ -1,4 +1,4 @@
-% 2016-01-06 21:43
+% 2016-01-07 13:26
 
 \version "2.19.35"
 \language "english"
@@ -28,7 +28,7 @@
                 }
                 {
                     \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
                     \once \override Score.MultiMeasureRest #'transparent = ##t
                     \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
@@ -47,7 +47,7 @@
                 }
                 {
                     \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
                     \once \override Score.MultiMeasureRest #'transparent = ##t
                     \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
@@ -88,12 +88,13 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     \mark #8
                     s1 * 1
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H1]
@@ -117,6 +118,8 @@
                 }
                 {
                     \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
@@ -153,9 +156,12 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4 \startTextSpan
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H2]
@@ -163,9 +169,12 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4 \stopTextSpan
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H3]
@@ -189,9 +198,12 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H4]
@@ -199,13 +211,18 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H5]
@@ -213,9 +230,12 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H6]
@@ -239,6 +259,8 @@
                 }
                 {
                     \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
@@ -275,9 +297,12 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4 \startTextSpan
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H7]
@@ -285,9 +310,12 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/4 \stopTextSpan
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H8]
@@ -311,9 +339,12 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H9]
@@ -321,13 +352,18 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
-                            \smaller
+                            \fontsize
+                                #-3
                                 \with-color
                                     #blue
                                     [H10]
