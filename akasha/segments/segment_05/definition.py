@@ -29,25 +29,16 @@ tempo_map = baca.tools.TempoMap([
 maker = akasha.tools.TimeSignatureMaker('B', 12, stage_specifier, tempo_map)
 measures_per_stage, tempo_map, time_signatures = maker()
 
-spacing_map = (
-    (1, Duration(1, 16)),
-    (2, Duration(1, 48)),
-    (3, Duration(1, 16)),
-    (4, Duration(1, 48)),
-    (5, Duration(1, 16)),
-    (6, Duration(1, 48)),
-    (7, Duration(1, 16)),
-    (9, Duration(1, 24)),
-    (10, Duration(1, 16)),
-    (11, Duration(1, 48)),
-    (12, Duration(1, 16)),
+spacing_specifier = baca.tools.SpacingSpecifier(
+    fermata_measure_width=Duration(1, 4),
+    minimum_width=Duration(1, 12),
     )
 
 segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     show_stage_annotations=True,
-    spacing_map=spacing_map,
+    spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
     )

@@ -49,7 +49,7 @@
     )
     system-system-spacing = #'(
         (basic-distance . 0)
-        (minimum-distance . 20)
+        (minimum-distance . 32)
         (padding . 0)
         (stretchability . 0)
     )
@@ -132,8 +132,9 @@
         \type Engraver_group
         \consists Multi_measure_rest_engraver
         \override MultiMeasureRest.transparent = ##t
-        \override MultiMeasureRestText.font-size = 6
+        \override MultiMeasureRestText.font-size = 3
         \override MultiMeasureRestText.outside-staff-priority = 0
+        \override MultiMeasureRestText.padding = 0
         }
     \context {
         \name TimeSignatureContext
@@ -252,6 +253,7 @@
         \accepts ViolinTwoMusicStaff
         \accepts ViolaMusicStaff
         \accepts CelloMusicStaff
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 12
     }
     \context {
         \StaffGroup
