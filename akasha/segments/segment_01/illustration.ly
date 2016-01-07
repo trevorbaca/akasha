@@ -1,4 +1,4 @@
-% 2016-01-06 21:07
+% 2016-01-06 21:41
 
 \version "2.19.35"
 \language "english"
@@ -19,6 +19,8 @@
                 }
                 {
                     \time 1/4
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph

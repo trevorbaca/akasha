@@ -37,6 +37,7 @@ spacing_map=(
     (1, Duration(1, 24)),
     (3, Duration(1, 48)),
     (4, Duration(1, 24)),
+    (5, Duration(1, 24)),
     )
 
 segment_maker = baca.tools.SegmentMaker(

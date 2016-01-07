@@ -14,7 +14,7 @@ stage_specifier = baca.tools.StageSpecifier([
     6,
     6,
     4,
-    TimeSignature((6, 3)),
+    Fermata('verylongfermata'),
     ])
 
 tempo_map = baca.tools.TempoMap([

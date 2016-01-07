@@ -21,6 +21,8 @@
                 }
                 {
                     \time 1/4
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -33,6 +35,8 @@
                 }
                 {
                     \time 1/4
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -49,6 +53,8 @@
                 }
                 {
                     \time 1/4
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -146,6 +152,8 @@
                 {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -177,6 +185,8 @@
                 {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -190,6 +200,8 @@
                 {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -201,8 +213,15 @@
                     R1 * 3/2
                 }
                 {
-                    \time 1/12
-                    R1 * 1/12
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
                 {
                     \time 6/4
@@ -211,6 +230,8 @@
                 {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -628,10 +649,10 @@
                         }
                 }
                 {
-                    \time 1/12
+                    \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
-                    s1 * 1/12
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -1556,7 +1577,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 11/6
+                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -2354,7 +2375,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 11/6
+                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -2627,7 +2648,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 1/12
+                        R1 * 1/4
                         c'1.
                         R1 * 1/4
                         \bar "|"
@@ -2951,7 +2972,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 11/6
+                        R1 * 2
                         \bar "|"
                     }
                 }

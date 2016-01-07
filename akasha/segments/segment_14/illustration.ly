@@ -1,4 +1,4 @@
-% 2016-01-06 21:10
+% 2016-01-06 21:54
 
 \version "2.19.35"
 \language "english"
@@ -76,8 +76,14 @@
                     R1 * 9/8
                 }
                 {
-                    \time 6/3
-                    R1 * 2
+                    \time 1/4
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.uverylongfermata"
+                            }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
@@ -180,8 +186,8 @@
                     s1 * 9/8
                 }
                 {
-                    \time 6/3
-                    s1 * 2
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -243,7 +249,7 @@
                         r4.
                         c'4..
                         r4..
-                        R1 * 43/8
+                        R1 * 29/8
                         \bar "|."
                     }
                 }
@@ -305,7 +311,7 @@
                             r16
                         }
                         r2.
-                        R1 * 2
+                        R1 * 1/4
                         \bar "|."
                     }
                 }
@@ -351,7 +357,7 @@
                         r4.
                         c'4..
                         r4..
-                        R1 * 43/8
+                        R1 * 29/8
                         \bar "|."
                     }
                 }
@@ -397,7 +403,7 @@
                         r4.
                         c'4..
                         r4..
-                        R1 * 43/8
+                        R1 * 29/8
                         \bar "|."
                     }
                 }

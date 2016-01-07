@@ -19,7 +19,7 @@ stage_specifier = baca.tools.StageSpecifier([
     4, Fermata(), # 11-12
     6, Fermata(), # 13-14
     1, Fermata(), # 15-16
-    1, TimeSignature((1, 12)), # 17-18
+    1, Fermata('shortfermata'), # 17-18
     1, Fermata(), # 19-20
     ])
 
