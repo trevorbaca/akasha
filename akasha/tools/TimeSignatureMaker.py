@@ -66,7 +66,6 @@ class TimeSignatureMaker(object):
         time_signature_groups = preprocessor()
         measures_per_stage = [len(_) for _ in time_signature_groups]
         time_signatures = sequencetools.flatten_sequence(time_signature_groups)
-        #fermata_entries = preprocessor.make_fermata_entries()
         fermata_entries = self.stage_specifier.make_fermata_entries()
         items = self.tempo_map.items + fermata_entries
         tempo_map = baca.tools.TempoMap(items=items)
