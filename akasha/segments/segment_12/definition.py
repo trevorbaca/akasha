@@ -10,20 +10,20 @@ from akasha.materials.__abbreviations__ import *
 ##################################### [K] #####################################
 ###############################################################################
 
-stage_specifier = [
+stage_specifier = baca.tools.StageSpecifier([
     1, TimeSignature((3, 3)),
     1,
     2, TimeSignature((3, 3)),
-    ]
+    ])
 
-tempo_map = (
+tempo_map = baca.tools.TempoMap([
     (1, akasha.materials.tempi[89]),
     (1, Ritardando()),
     (2, akasha.materials.tempi[55]),
     (3, akasha.materials.tempi[89]),
     (3, Ritardando()),
     (4, akasha.materials.tempi[55]),
-    )
+    ])
 
 maker = akasha.tools.TimeSignatureMaker('A', 18, stage_specifier, tempo_map)
 measures_per_stage, tempo_map, time_signatures = maker()
