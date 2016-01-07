@@ -1,4 +1,4 @@
-% 2016-01-06 21:07
+% 2016-01-06 21:41
 
 \version "2.19.35"
 \language "english"
@@ -24,6 +24,8 @@
                 {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -37,69 +39,8 @@
                 {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/4
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ufermata"
-                            }
-                }
-                {
-                    \time 5/4
-                    R1 * 5/4
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
-                    R1 * 1/4
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
-                    R1 * 1/4
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    R1 * 3/2
-                }
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
-                    R1 * 1/4
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -111,8 +52,81 @@
                     R1 * 5/4
                 }
                 {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    R1 * 3/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -126,6 +140,8 @@
                 {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -266,6 +282,8 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
                     s1 * 5/4 \startTextSpan
                         - \markup {
                             \smaller

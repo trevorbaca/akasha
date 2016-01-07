@@ -1,4 +1,4 @@
-% 2016-01-06 21:07
+% 2016-01-06 21:50
 
 \version "2.19.35"
 \language "english"
@@ -31,8 +31,15 @@
                     R1 * 3/4
                 }
                 {
-                    \time 1/12
-                    R1 * 1/12
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
                 {
                     \time 7/8
@@ -65,8 +72,15 @@
                     R1 * 3/8
                 }
                 {
-                    \time 1/12
-                    R1 * 1/12
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
                 {
                     \time 6/8
@@ -85,8 +99,15 @@
                     R1 * 1/2
                 }
                 {
-                    \time 1/12
-                    R1 * 1/12
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
                 {
                     \time 8/8
@@ -122,6 +143,8 @@
                 {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -160,8 +183,15 @@
                     R1 * 3/8
                 }
                 {
-                    \time 1/12
-                    R1 * 1/12
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
                 }
                 {
                     \time 6/8
@@ -195,6 +225,8 @@
                 }
                 {
                     \time 1/4
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
@@ -245,10 +277,10 @@
                     s1 * 3/4
                 }
                 {
-                    \time 1/12
+                    \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
-                    s1 * 1/12
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -295,10 +327,10 @@
                     s1 * 3/8
                 }
                 {
-                    \time 1/12
+                    \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
-                    s1 * 1/12
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -331,10 +363,10 @@
                     s1 * 1/2
                 }
                 {
-                    \time 1/12
+                    \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
-                    s1 * 1/12
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -471,10 +503,10 @@
                     s1 * 3/8
                 }
                 {
-                    \time 1/12
+                    \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
-                    s1 * 1/12
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -559,8 +591,7 @@
                         c'2 \repeatTie
                         c'4. \repeatTie
                         c'2. \repeatTie
-                        R1 * 1/12
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        R1 * 1/4
                         c'2..
                         c'2.. \repeatTie
                         c'2 \repeatTie
@@ -571,13 +602,13 @@
                         c'4. \repeatTie
                         c'2.. \repeatTie
                         c'4. \repeatTie
-                        R1 * 1/12
+                        R1 * 1/4
                         c'2.
                         c'2..
                         c'2.
                         c'4.
                         c'2
-                        R1 * 1/12
+                        R1 * 1/4
                         c'1
                         c'2.
                         c'4.
@@ -598,7 +629,7 @@
                         c'2.
                         c'2
                         c'4.
-                        R1 * 1/12
+                        R1 * 1/4
                         c'2.
                         c'2..
                         c'2..
@@ -632,8 +663,7 @@
                         c'2 \repeatTie
                         c'4. \repeatTie
                         c'2. \repeatTie
-                        R1 * 1/12
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        R1 * 1/4
                         c'2..
                         c'2.. \repeatTie
                         c'2 \repeatTie
@@ -644,14 +674,13 @@
                         c'4. \repeatTie
                         c'2.. \repeatTie
                         c'4. \repeatTie
-                        R1 * 1/12
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        R1 * 1/4
                         c'2.
                         c'2.. \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
                         c'2 \repeatTie
-                        R1 * 1/12
+                        R1 * 1/4
                         c'1
                         c'2.
                         c'4.
@@ -672,7 +701,7 @@
                         c'2.
                         c'2
                         c'4.
-                        R1 * 1/12
+                        R1 * 1/4
                         c'2.
                         c'2..
                         c'2..
@@ -698,8 +727,7 @@
                         c'2 \repeatTie
                         c'4. \repeatTie
                         c'2. \repeatTie
-                        R1 * 1/12
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        R1 * 1/4
                         c'2..
                         c'2.. \repeatTie
                         c'2 \repeatTie
@@ -710,15 +738,13 @@
                         c'4. \repeatTie
                         c'2.. \repeatTie
                         c'4. \repeatTie
-                        R1 * 1/12
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        R1 * 1/4
                         c'2.
                         c'2.. \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
                         c'2 \repeatTie
-                        R1 * 1/12
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        R1 * 1/4
                         c'1
                         c'2. \repeatTie
                         c'4. \repeatTie
@@ -739,7 +765,7 @@
                         c'2.
                         c'2
                         c'4.
-                        R1 * 1/12
+                        R1 * 1/4
                         c'2.
                         c'2..
                         c'2..
@@ -761,7 +787,7 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 25/12
+                        R1 * 9/4
                         c'2..
                         c'2..
                         c'2
@@ -772,13 +798,13 @@
                         c'4.
                         c'2..
                         c'4.
-                        R1 * 1/12
+                        R1 * 1/4
                         c'2.
                         c'2..
                         c'2.
                         c'4.
                         c'2
-                        R1 * 1/12
+                        R1 * 1/4
                         c'1
                         c'2.
                         c'4.
@@ -799,7 +825,7 @@
                         c'2.
                         c'2
                         c'4.
-                        R1 * 1/12
+                        R1 * 1/4
                         c'2.
                         c'2..
                         c'2..
