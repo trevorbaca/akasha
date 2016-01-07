@@ -69,7 +69,7 @@ def _make_viola_divisions(rotation=0):
     expression = expression.flatten()
     return expression
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=_make_viola_divisions(rotation=0),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -83,7 +83,7 @@ segment_maker.make_rhythm_maker(
 
 ### stage 3 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -96,7 +96,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(3),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=_make_viola_divisions(rotation=2),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -108,7 +108,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(3),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -123,7 +123,7 @@ segment_maker.make_rhythm_maker(
 
 ### stage 5 ###
     
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -136,7 +136,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(5),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -149,7 +149,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(5),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=_make_viola_divisions(rotation=4),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -163,7 +163,7 @@ segment_maker.make_rhythm_maker(
 
 ### stage 7 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -176,7 +176,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(7),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -189,7 +189,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(7),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=_make_viola_divisions(rotation=6),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -201,7 +201,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(7),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -216,7 +216,7 @@ segment_maker.make_rhythm_maker(
 
 ### viola 9-16 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=_make_viola_divisions(rotation=8),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -230,7 +230,7 @@ segment_maker.make_rhythm_maker(
 
 ### stage 9 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -243,7 +243,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(9),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -256,7 +256,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(9),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[4],
@@ -271,7 +271,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 10-11 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[8],
@@ -284,7 +284,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(10, 11),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[8],
@@ -297,7 +297,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(10, 11),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[8],
@@ -320,7 +320,7 @@ def extra_counts(rotation=0):
     extra_counts = [1, 1, 0, 1, 2]
     return sequencetools.rotate_sequence(extra_counts, n=rotation)
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -336,7 +336,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(12, 13),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=compound_quarter_divisions
         .partition_by_ratio_of_lengths(Ratio((3, 1)))
@@ -355,7 +355,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(12, 13),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=fused_compound_quarter_divisions([1, 2, 2])
         .partition_by_ratio_of_lengths(Ratio((3, 1)))
@@ -371,7 +371,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(12, 13),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -387,7 +387,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(12),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=fused_compound_quarter_divisions([2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -405,7 +405,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 14-15 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -418,7 +418,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(14, 15),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -431,7 +431,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(14, 15),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -446,7 +446,7 @@ segment_maker.make_rhythm_maker(
 
 ### stage 16 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -460,7 +460,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(16),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -474,7 +474,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(16),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(

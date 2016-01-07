@@ -47,30 +47,29 @@ segment_maker.validate_measure_count(26)
 segment_maker.validate_stage_count(12)
 segment_maker.validate_measures_per_stage()
 
-
 ###############################################################################
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_makers(
+segment_maker.define_rhythm(
     tutti,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_makers(
+segment_maker.define_rhythm(
     tutti,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(3),
     )
 
-segment_maker.make_rhythm_makers(
+segment_maker.define_rhythm(
     (vn_1, vn_2, vc),
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(4),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=split_by_durations([Duration(2, 4)]),
     rhythm_maker=messiaen_note_rhythm_maker,
@@ -78,7 +77,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(4, 11),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=split_by_durations([Duration(3, 4)]),
     rewrite_meter=True,
@@ -86,7 +85,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(5, 6),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=split_by_durations([Duration(4, 4)]),
     rewrite_meter=True,
@@ -94,7 +93,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(5, 6),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=split_by_durations([Duration(5, 4)]),
     rewrite_meter=True,
@@ -104,8 +103,8 @@ segment_maker.make_rhythm_maker(
 
 ### stage 7 ###
 
-segment_maker.make_rhythm_maker(
-    voice_name=vn_1,
+segment_maker.define_rhythm(
+    vn_1,
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
             rhythmmakertools.InterpolationSpecifier(
@@ -123,7 +122,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(7),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     rhythm_maker=make_accelerando_rhythm_maker(
         interpolation_specifiers=[
@@ -142,7 +141,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(7),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=fuse_divisions(),
     rhythm_maker=make_accelerando_rhythm_maker(
@@ -159,7 +158,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 8-12 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -179,7 +178,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8, 11),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=split_by_durations([Duration(4, 4)]),
     rewrite_meter=True,
@@ -187,7 +186,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8, 11),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(

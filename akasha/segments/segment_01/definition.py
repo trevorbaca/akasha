@@ -42,8 +42,8 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_maker(
-    voice_name=va,
+segment_maker.define_rhythm(
+    va,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(1),
     )

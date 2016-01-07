@@ -63,7 +63,7 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -79,7 +79,7 @@ segment_maker.make_rhythm_maker(
 
 ### stage 2 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -92,7 +92,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(2),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -105,7 +105,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(2),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -120,7 +120,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 4-5 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     rhythm_maker=note_rhythm_maker,
     timespan=stages(4),
@@ -128,7 +128,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 6-7 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=strict_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -144,7 +144,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(6),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=strict_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -223,7 +223,7 @@ accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
         ),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=division_expression(0),
     rhythm_maker=talea_rhythm_maker,
@@ -231,7 +231,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=division_expression(1).sum().sequence(),
     rhythm_maker=accelerando_rhythm_maker,
@@ -239,7 +239,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=division_expression(2),
     rhythm_maker=talea_rhythm_maker,
@@ -247,7 +247,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=division_expression(3).sum().sequence(),
     rhythm_maker=accelerando_rhythm_maker,
@@ -255,7 +255,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=division_expression(4),
     rhythm_maker=talea_rhythm_maker,
@@ -263,7 +263,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=division_expression(5).sum().sequence(),
     rhythm_maker=accelerando_rhythm_maker,
@@ -335,7 +335,7 @@ accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
         ),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=division_expression(0),
     rhythm_maker=talea_rhythm_maker,
@@ -343,7 +343,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=division_expression(1).sum().sequence(),
     rhythm_maker=accelerando_rhythm_maker,
@@ -351,7 +351,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=division_expression(2),
     rhythm_maker=talea_rhythm_maker,
@@ -359,7 +359,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=division_expression(3).sum().sequence(),
     rhythm_maker=accelerando_rhythm_maker,
@@ -367,7 +367,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=division_expression(4),
     rhythm_maker=talea_rhythm_maker,
@@ -375,7 +375,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=division_expression(5).sum().sequence(),
     rhythm_maker=accelerando_rhythm_maker,
@@ -403,7 +403,7 @@ assert sum(cello_counts) == len(counts)
 cello_counts = counts.partition_by_counts(cello_counts, overhang=Exact)
 cello_counts = [sum(_) for _ in cello_counts]
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=strict_quarter_divisions,
     rewrite_meter=True,
@@ -421,7 +421,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8, 9),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=strict_quarter_divisions,
     rewrite_meter=True,
@@ -439,7 +439,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -450,7 +450,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(10, 11),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -463,7 +463,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 9-10 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -477,7 +477,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(9, 11),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=strict_quarter_divisions
         .partition_by_ratio_of_lengths(Ratio((1, 1)))
@@ -487,7 +487,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(9),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=fused_compound_quarter_divisions([1, 2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -503,7 +503,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 13-14 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -516,7 +516,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(13),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -529,7 +529,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(13),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -542,7 +542,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(13),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -557,7 +557,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 15-16 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     rhythm_maker=note_rhythm_maker,
     timespan=stages(15),
@@ -565,7 +565,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 17-18 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -578,7 +578,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(17),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -591,7 +591,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(17),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -604,7 +604,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(17),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
@@ -619,7 +619,7 @@ segment_maker.make_rhythm_maker(
 
 ### stages 19-20 ###
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     rhythm_maker=note_rhythm_maker,
     timespan=stages(19),

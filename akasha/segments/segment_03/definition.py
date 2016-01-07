@@ -46,7 +46,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -62,7 +62,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(1, 2),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -82,7 +82,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(1),
     )
 
-segment_maker.copy_rhythm_maker(
+segment_maker.copy_rhythm(
     vn_2,
     1,
     voice_name=va,
@@ -90,7 +90,7 @@ segment_maker.copy_rhythm_maker(
     rhythm_maker__talea__counts=(6, 5, 3, 2),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vc,
     rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
@@ -125,7 +125,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -141,7 +141,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(4),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -157,7 +157,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(6),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     vn_2,
     rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
@@ -192,7 +192,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.make_rhythm_maker(
+segment_maker.define_rhythm(
     va,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
@@ -209,7 +209,7 @@ segment_maker.make_rhythm_maker(
     timespan=stages(8),
     )
 
-segment_maker.copy_rhythm_maker(
+segment_maker.copy_rhythm(
     va,
     8,
     voice_name=vc,
