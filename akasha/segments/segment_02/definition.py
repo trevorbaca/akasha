@@ -39,6 +39,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    label_clock_time=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     show_stage_annotations=True,
@@ -55,7 +56,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -69,7 +70,7 @@ segment_maker.define_rhythm(
     timespan=stages(1),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -85,7 +86,7 @@ segment_maker.define_rhythm(
     timespan=stages(3),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     va,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -104,7 +105,7 @@ segment_maker.define_rhythm(
 #counts = [5, -4, 3, 6]
 counts = [4, 14, 4, 6, 18]
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -126,7 +127,7 @@ segment_maker.define_rhythm(
     timespan=stages(5),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_1,
     5,
     voice_name=vn_2,
@@ -137,7 +138,7 @@ segment_maker.copy_rhythm(
         ],
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_1,
     5,
     voice_name=va,
@@ -147,7 +148,7 @@ segment_maker.copy_rhythm(
         ],
     )
     
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_1,
     5,
     voice_name=vc,
@@ -157,7 +158,7 @@ segment_maker.copy_rhythm(
         ],
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -180,7 +181,7 @@ segment_maker.define_rhythm(
     timespan=stages(7),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_1,
     7,
     voice_name=va,
@@ -190,7 +191,7 @@ segment_maker.copy_rhythm(
         ],
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_1,
     7,
     voice_name=vc,
@@ -199,7 +200,7 @@ segment_maker.copy_rhythm(
         ],
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -215,7 +216,7 @@ segment_maker.define_rhythm(
     timespan=stages(7),
     )
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_1,
     division_expression=strict_quarter_divisions,
     rhythm_maker=note_rhythm_maker,
@@ -229,7 +230,7 @@ segment_maker.define_rhythm(
 
 counts = [5, 4, 3, 6]
 
-segment_maker.define_rhythm(
+segment_maker.make_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -251,7 +252,7 @@ segment_maker.define_rhythm(
     timespan=stages(9),
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_1,
     9,
     voice_name=va,
@@ -262,7 +263,7 @@ segment_maker.copy_rhythm(
         ],
     )
 
-segment_maker.copy_rhythm(
+segment_maker.copy_rhythm_specifier(
     vn_2,
     9,
     voice_name=vc,
