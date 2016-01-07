@@ -8,9 +8,9 @@
                     R1 * 3/2
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -31,9 +31,9 @@
                     R1 * 3/2
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -56,12 +56,11 @@
                     R1 * 5/4
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
             }
@@ -94,8 +93,8 @@
                         }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -138,10 +137,10 @@
                             }
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
-                    s1 * 1/3
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -188,8 +187,8 @@
                             }
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -222,7 +221,7 @@
                             }
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 17/6
+                        R1 * 11/4
                         r4.
                         r4.
                         r4.
@@ -296,7 +295,7 @@
                             c'32 ]
                             r32
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 2/3 {
                             c'32 [
                             c'32
@@ -326,7 +325,7 @@
                         c'4
                         c'4
                         c'4
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -351,7 +350,7 @@
                             }
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 17/6
+                        R1 * 11/4
                         r4.
                         r4.
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -428,7 +427,7 @@
                             c'32 ]
                             r32
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 4/5 {
                             r8.
                             r8
@@ -495,7 +494,7 @@
                         }
                         r4
                         c'1
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -513,7 +512,7 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         c'1.
-                        R1 * 1/3
+                        R1 * 1/4
                         c'1
                         c'1.
                         c'1.
@@ -521,7 +520,7 @@
                         c'4.
                         c'4.
                         c'4.
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 4/5 {
                             r4
                             r16
@@ -582,7 +581,7 @@
                         }
                         r4
                         c'1
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -600,7 +599,7 @@
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         c'1.
-                        R1 * 1/3
+                        R1 * 1/4
                         c'1
                         c'1.
                         c'1.
@@ -610,7 +609,7 @@
                         c'4
                         c'4
                         c'4
-                        R1 * 1/3
+                        R1 * 1/4
                         c'4
                         c'4
                         c'4
@@ -624,7 +623,7 @@
                         r4
                         r4
                         c'1
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

@@ -20,12 +20,11 @@
                     R1 * 3/4
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -33,12 +32,11 @@
                     R1 * 3/4
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -50,12 +48,11 @@
                     R1 * 1
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -147,9 +144,9 @@
                     R1 * 5/4
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -178,9 +175,9 @@
                     R1 * 1
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -191,9 +188,9 @@
                     R1 * 3/2
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -205,21 +202,16 @@
                 }
                 {
                     \time 1/12
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -3)
                     R1 * 1/12
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
                 }
                 {
                     \time 6/4
                     R1 * 3/2
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -291,8 +283,8 @@
                     s1 * 3/4
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -327,8 +319,8 @@
                         }
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -367,8 +359,8 @@
                     s1 * 1
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -510,8 +502,8 @@
                     s1 * 5/4
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3 \stopTextSpan
+                    \time 1/4
+                    s1 * 1/4 \stopTextSpan
                         - \markup {
                             \smaller
                                 \with-color
@@ -564,8 +556,8 @@
                     s1 * 1
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -600,8 +592,8 @@
                         }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -676,8 +668,8 @@
                         }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -770,7 +762,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 11/4
+                        R1 * 5/4
                         \times 4/5 {
                             c'4
                             c'16 \repeatTie
@@ -805,7 +797,7 @@
                             c'4 \repeatTie
                             c'16 \repeatTie
                         }
-                        R1 * 1
+                        R1 * 1/4
                         \times 4/5 {
                             c'4
                             c'16 \repeatTie
@@ -1360,7 +1352,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 8/14 {
                             c'16 [
                             c'16
@@ -1524,7 +1516,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 13/6
+                        R1 * 2
                         \times 12/18 {
                             c'16 [
                             c'16
@@ -1564,7 +1556,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 23/12
+                        R1 * 11/6
                         \bar "|"
                     }
                 }
@@ -1647,7 +1639,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 11/4
+                        R1 * 5/4
                         {
                             c'4
                         }
@@ -1671,7 +1663,7 @@
                         {
                             c'4 \repeatTie
                         }
-                        R1 * 1
+                        R1 * 1/4
                         {
                             c'4
                         }
@@ -2159,7 +2151,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 8/12 {
                             c'16 [
                             c'16
@@ -2323,7 +2315,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 13/6
+                        R1 * 2
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 12/16 {
                             c'16 [
@@ -2362,7 +2354,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 23/12
+                        R1 * 11/6
                         \bar "|"
                     }
                 }
@@ -2379,9 +2371,9 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        R1 * 19/4
+                        R1 * 4
                         c'2.
-                        R1 * 15/4
+                        R1 * 9/4
                         c'2
                         c'8. \repeatTie [
                         c'16 ]
@@ -2431,7 +2423,7 @@
                         c'1 \repeatTie
                         c'1 \repeatTie
                         c'4 \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 8/11 {
                             c'16 [
                             c'16
@@ -2594,9 +2586,9 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         c'1.
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 12/15 {
                             c'16 [
                             c'16
@@ -2637,7 +2629,7 @@
                         }
                         R1 * 1/12
                         c'1.
-                        R1 * 1/3
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -2721,7 +2713,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 11/2
+                        R1 * 13/4
                         c'4..
                         c'16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -2762,7 +2754,7 @@
                         c'1 \repeatTie
                         c'1 \repeatTie
                         c'4 \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 4/6 {
                             c'16 [
                             c'16
@@ -2925,7 +2917,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 13/6
+                        R1 * 2
                         {
                             c'16 [
                             c'16
@@ -2959,7 +2951,7 @@
                             c'16
                             c'16 ]
                         }
-                        R1 * 23/12
+                        R1 * 11/6
                         \bar "|"
                     }
                 }

@@ -1,4 +1,4 @@
-% 2016-01-06 20:28
+% 2016-01-06 21:09
 
 \version "2.19.35"
 \language "english"
@@ -64,9 +64,9 @@
                     R1 * 9/8
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -210,8 +210,8 @@
                     s1 * 9/8
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -372,7 +372,7 @@
                         c'4. \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2
                         c'2 \repeatTie
                         R1 * 3/8
@@ -417,7 +417,7 @@
                         c'4. \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2
                         c'2 \repeatTie
                         R1 * 3/8
@@ -454,7 +454,7 @@
                         c'4. \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2
                         c'2 \repeatTie
                         c'4. \repeatTie
@@ -491,7 +491,7 @@
                         c'4. \repeatTie
                         c'2. \repeatTie
                         c'4. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2
                         c'2 \repeatTie
                         R1 * 3/8

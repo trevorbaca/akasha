@@ -1,4 +1,4 @@
-% 2016-01-06 20:29
+% 2016-01-06 21:09
 
 \version "2.19.35"
 \language "english"
@@ -19,12 +19,11 @@
                     R1 * 1
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -39,12 +38,11 @@
                     R1 * 3/4
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
             }
@@ -95,8 +93,8 @@
                             }
                 }
                 {
-                    \time 3/3
-                    s1 * 1 \stopTextSpan
+                    \time 1/4
+                    s1 * 1/4 \stopTextSpan
                         - \markup {
                             \smaller
                                 \with-color
@@ -192,8 +190,8 @@
                     s1 * 3/4
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -227,11 +225,11 @@
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         c'1
-                        R1 * 1
+                        R1 * 1/4
                         c'1.
                         c'1.
                         c'2. \repeatTie
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -257,11 +255,11 @@
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         c'1
-                        R1 * 1
+                        R1 * 1/4
                         c'1.
                         c'1.
                         c'2. \repeatTie
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -279,11 +277,11 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         c'1
-                        R1 * 1
+                        R1 * 1/4
                         c'1.
                         c'1.
                         c'2. \repeatTie
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -301,14 +299,12 @@
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         c'1
-                        R1 * 1
+                        R1 * 1/4
                         c'1.
                         c'1. \repeatTie
                         c'2. \repeatTie
-                        \times 2/3 {
-                            c'1. \repeatTie
-                            \bar "|"
-                        }
+                        c'4 \repeatTie
+                        \bar "|"
                     }
                 }
             >>

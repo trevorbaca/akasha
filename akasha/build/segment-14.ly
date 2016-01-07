@@ -66,12 +66,7 @@
                 }
                 {
                     \time 6/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
                     R1 * 2
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ufermata"
-                            }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {

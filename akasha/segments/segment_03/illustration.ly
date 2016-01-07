@@ -1,4 +1,4 @@
-% 2016-01-06 20:27
+% 2016-01-06 21:07
 
 \version "2.19.35"
 \language "english"
@@ -30,9 +30,9 @@
                     R1 * 1
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -43,9 +43,9 @@
                     R1 * 3/8
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -56,9 +56,9 @@
                     R1 * 1/2
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -120,8 +120,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -140,8 +140,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -160,8 +160,8 @@
                             }
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -250,7 +250,7 @@
                         }
                         r4
                         r4
-                        R1 * 1/3
+                        R1 * 1/4
                         \times 2/3 {
                             r8
                             c'32 [
@@ -262,7 +262,7 @@
                         {
                             r8
                         }
-                        R1 * 1/3
+                        R1 * 1/4
                         {
                             r4
                         }
@@ -273,7 +273,7 @@
                             r8
                             r32
                         }
-                        R1 * 25/12
+                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -353,7 +353,7 @@
                             r8.
                             r16
                         }
-                        R1 * 23/8
+                        R1 * 21/8
                         \override TupletNumber #'text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -507,7 +507,7 @@
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
-                        R1 * 23/8
+                        R1 * 21/8
                         r4
                         r4
                         r4
@@ -661,7 +661,7 @@
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        R1 * 23/8
+                        R1 * 21/8
                         r4
                         r4
                         r4

@@ -1,4 +1,4 @@
-% 2016-01-06 20:29
+% 2016-01-06 21:09
 
 \version "2.19.35"
 \language "english"
@@ -23,9 +23,9 @@
                     R1 * 1
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -39,9 +39,9 @@
                     R1 * 9/8
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -56,9 +56,9 @@
                     R1 * 1/2
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -73,9 +73,9 @@
                     R1 * 3/4
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -89,9 +89,9 @@
                     R1 * 7/8
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -106,9 +106,9 @@
                     R1 * 3/8
                 }
                 {
-                    \time 1/3
+                    \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1/3
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
                                 #"scripts.ufermata"
@@ -375,12 +375,11 @@
                     R1 * 1/2
                 }
                 {
-                    \time 3/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
-                    R1 * 1
+                    \time 1/4
+                    R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
             }
@@ -419,8 +418,8 @@
                     s1 * 1
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -442,8 +441,8 @@
                     s1 * 9/8
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -466,8 +465,8 @@
                     s1 * 1/2
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -490,8 +489,8 @@
                     s1 * 3/4
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -513,8 +512,8 @@
                     s1 * 7/8
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -537,8 +536,8 @@
                     s1 * 3/8
                 }
                 {
-                    \time 1/3
-                    s1 * 1/3
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -939,8 +938,8 @@
                     s1 * 1/2
                 }
                 {
-                    \time 3/3
-                    s1 * 1
+                    \time 1/4
+                    s1 * 1/4
                         - \markup {
                             \smaller
                                 \with-color
@@ -973,7 +972,7 @@
                             }
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        R1 * 45/8
+                        R1 * 43/8
                         r4
                         r8
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -990,16 +989,16 @@
                             c'16 ]
                         }
                         r4.
-                        R1 * 1/3
+                        R1 * 1/4
                         r4
                         c'2
                         c'8 \repeatTie
                         c'2.. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         r4.
                         c'8
                         c'4. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2..
                         c'4. \repeatTie
                         c'2. \repeatTie
@@ -1082,7 +1081,7 @@
                         c'2. \repeatTie
                         c'4. \repeatTie
                         c'2 \repeatTie
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1107,7 +1106,7 @@
                             }
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        R1 * 11/6
+                        R1 * 7/4
                         r4.
                         r4.
                         r4.
@@ -1126,18 +1125,18 @@
                             c'16 ]
                         }
                         r4.
-                        R1 * 37/24
+                        R1 * 11/8
                         r4
                         c'8
                         c'2. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         r4.
                         c'2
                         c'2.. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2
                         c'4. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         r4
                         r4
                         r4
@@ -1235,7 +1234,7 @@
                         c'2. \repeatTie
                         c'4. \repeatTie
                         c'2 \repeatTie
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1265,13 +1264,13 @@
                             c'16 ]
                         }
                         r4
-                        R1 * 33/8
+                        R1 * 31/8
                         r4.
                         c'2.
-                        R1 * 1/3
+                        R1 * 1/4
                         c'2..
                         c'2.. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         r4
                         r4
                         \times 4/7 {
@@ -1284,7 +1283,7 @@
                             c'16 ]
                         }
                         r8
-                        R1 * 1/3
+                        R1 * 1/4
                         r4
                         c'2
                         c'8 \repeatTie
@@ -1369,7 +1368,7 @@
                         c'2. \repeatTie
                         c'4. \repeatTie
                         c'2 \repeatTie
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1386,7 +1385,7 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 53/12
+                        R1 * 17/4
                         r4
                         r8
                         \times 4/6 {
@@ -1398,10 +1397,10 @@
                             c'16 ]
                         }
                         r4
-                        R1 * 1/3
+                        R1 * 1/4
                         c'4.
                         c'2. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         r4
                         r4
                         r4
@@ -1417,11 +1416,11 @@
                             c'16 ]
                         }
                         r8
-                        R1 * 1/3
+                        R1 * 1/4
                         r4
                         c'4
                         c'4. \repeatTie
-                        R1 * 1/3
+                        R1 * 1/4
                         r4.
                         c'2
                         c'4. \repeatTie
@@ -1505,7 +1504,7 @@
                         c'2. \repeatTie
                         c'4. \repeatTie
                         c'2 \repeatTie
-                        R1 * 1
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

@@ -11,10 +11,10 @@ from akasha.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    2, TimeSignature((1, 3)),
+    2, Fermata(),
     2, 2, 2, 2, 2,
     4, 2, 2,
-    4, TimeSignature((1, 3)),
+    4, Fermata(),
     ])
 
 tempo_map = baca.tools.TempoMap([

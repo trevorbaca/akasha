@@ -1,4 +1,4 @@
-% 2016-01-06 20:30
+% 2016-01-06 21:10
 
 \version "2.19.35"
 \language "english"
@@ -77,12 +77,7 @@
                 }
                 {
                     \time 6/3
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -2)
                     R1 * 2
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ufermata"
-                            }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {

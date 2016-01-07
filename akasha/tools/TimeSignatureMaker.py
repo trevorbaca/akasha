@@ -52,15 +52,22 @@ class TimeSignatureMaker(object):
         time_signatures = sequence(time_signatures)
         time_signatures = time_signatures.rotate(self.rotation)
         time_signatures = time_signatures.flatten()
+        items = []
+        for item in self.stage_specifier:
+            if isinstance(item, Fermata):
+                item = TimeSignature((1, 4))
+            items.append(item)
+        stage_specifier = baca.tools.StageSpecifier(items=items)
         preprocessor = baca.tools.TimeSignaturePreprocessor(
             repeat_count=self.repeat_count,
-            stage_specifier=self.stage_specifier,
+            stage_specifier=stage_specifier,
             time_signatures=time_signatures,
             )
         time_signature_groups = preprocessor()
         measures_per_stage = [len(_) for _ in time_signature_groups]
         time_signatures = sequencetools.flatten_sequence(time_signature_groups)
-        fermata_entries = preprocessor.make_fermata_entries()
+        #fermata_entries = preprocessor.make_fermata_entries()
+        fermata_entries = self.stage_specifier.make_fermata_entries()
         items = self.tempo_map.items + fermata_entries
         tempo_map = baca.tools.TempoMap(items=items)
         return measures_per_stage, tempo_map, time_signatures
