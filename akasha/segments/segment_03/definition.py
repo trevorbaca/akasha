@@ -49,7 +49,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(1, 2)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
@@ -66,7 +66,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(1)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=(1,),
@@ -94,7 +94,7 @@ segment_maker.copy_rhythm_specifier(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(1)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
             beam_specifier=rhythmmakertools.BeamSpecifier(
                 beam_rests=True,
@@ -130,7 +130,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(4)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
@@ -147,7 +147,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(6)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
@@ -164,7 +164,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(8)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
             beam_specifier=rhythmmakertools.BeamSpecifier(
                 beam_rests=True,
@@ -200,7 +200,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(8)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
             extra_counts_per_division=[1],

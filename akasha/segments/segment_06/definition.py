@@ -72,7 +72,7 @@ def _make_viola_divisions(rotation=0):
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(1)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=_make_viola_divisions(rotation=0),
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -87,7 +87,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(3)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -101,7 +101,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(3)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=_make_viola_divisions(rotation=2),
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -114,7 +114,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(3)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -130,7 +130,7 @@ segment_maker.make_scoped_rhythm_specifiers(
     
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(5)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -144,7 +144,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(5)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -158,7 +158,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(5)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=_make_viola_divisions(rotation=4),
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -173,7 +173,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -187,7 +187,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -201,7 +201,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=_make_viola_divisions(rotation=6),
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -214,7 +214,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -230,7 +230,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(9, 16)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=_make_viola_divisions(rotation=8),
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -245,7 +245,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -259,7 +259,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -273,7 +273,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[4],
             logical_tie_masks=[
@@ -289,7 +289,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(10, 11)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[8],
             logical_tie_masks=[
@@ -303,7 +303,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(10, 11)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[8],
             logical_tie_masks=[
@@ -317,7 +317,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(10, 11)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[8],
             logical_tie_masks=[
@@ -341,7 +341,7 @@ def extra_counts(rotation=0):
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(12, 13)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             division_masks=[
@@ -358,7 +358,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(12, 13)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions
             .partition_by_ratio_of_lengths(Ratio((3, 1)))
             [0]
@@ -378,7 +378,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(12, 13)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([1, 2, 2])
             .partition_by_ratio_of_lengths(Ratio((3, 1)))
             [1]
@@ -395,7 +395,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(12)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             division_masks=[
@@ -412,7 +412,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(13)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([2, 1, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
@@ -431,7 +431,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(14, 15)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
@@ -445,7 +445,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(14, 15)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
@@ -459,7 +459,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(14, 15)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
@@ -475,7 +475,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(16)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
@@ -490,7 +490,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(16)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
@@ -505,7 +505,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(16)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],

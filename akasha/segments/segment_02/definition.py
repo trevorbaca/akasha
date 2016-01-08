@@ -58,7 +58,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(1)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
                 counts=[7, 1, 10, 2],
@@ -73,7 +73,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(3)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
@@ -90,7 +90,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(3)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
@@ -110,7 +110,7 @@ counts = [4, 14, 4, 6, 18]
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(5)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=[2, 0, 1],
@@ -161,7 +161,7 @@ segment_maker.copy_rhythm_specifier(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
@@ -202,7 +202,7 @@ segment_maker.copy_rhythm_specifier(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
@@ -219,7 +219,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=strict_quarter_divisions,
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -235,7 +235,7 @@ counts = [5, 4, 3, 6]
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=[2, 0, 1],
