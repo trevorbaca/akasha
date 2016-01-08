@@ -1,4 +1,4 @@
-% 2016-01-08 14:46
+% 2016-01-08 16:31
 
 \version "2.19.35"
 \language "english"
@@ -38,20 +38,7 @@
                     \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 3/8
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'00''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [1]
-                            }
-                        ^ \markup {
+                    s1 * 3/8 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -73,24 +60,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'02''
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [2]
-                            }
                 }
             }
         >>
@@ -163,8 +138,12 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        c'4.
-                        c'2. \repeatTie
+                        b4.
+                            ^ \markup {
+                                \upright
+                                    "OB (no pitch)"
+                                }
+                        b2. \repeatTie
                         R1 * 1/4
                         \bar "|"
                     }
