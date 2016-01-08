@@ -49,51 +49,51 @@ segment_maker.validate_measures_per_stage()
 
 spiccato_counts = [1, 1, 1, -2, 1, 1, -7, 1, -12, 1, 1, 1, 1, -8, 1, 1]
 
-segment_maker.make_scoped_rhythm_specifier(
-    va,
-    rhythm_maker=note_rhythm_maker,
-    timespan=stages(1),
+segment_maker.make_scoped_rhythm_specifiers(
+    (va, stages(1)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=note_rhythm_maker,
+        ),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vc,
-    rhythm_maker=note_rhythm_maker,
-    timespan=stages(1),
-    )
-
-segment_maker.copy_rhythm_specifier(
-    va,
-    1,
-    timespan=stages(3, 4),
+segment_maker.make_scoped_rhythm_specifiers(
+    (vc, stages(1)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=note_rhythm_maker,
+        ),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vc,
-    1,
-    timespan=stages(3, 4),
+    (va, 1),
+    (va, stages(3, 4)),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_1,
-    division_expression=compound_quarter_divisions,
-    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-        division_masks=[
-            rhythmmakertools.silence_first(3),
-            rhythmmakertools.silence([5]),
-            ],
-        extra_counts_per_division=[4, 2, 0, 0, 4, 2],
-        talea=rhythmmakertools.Talea(
-            counts=spiccato_counts,
-            denominator=32,
+segment_maker.copy_rhythm_specifier(
+    (vc, 1),
+    (vc, stages(3, 4)),
+    )
+
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_1, stages(4, 5)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=compound_quarter_divisions,
+        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+            division_masks=[
+                rhythmmakertools.silence_first(3),
+                rhythmmakertools.silence([5]),
+                ],
+            extra_counts_per_division=[4, 2, 0, 0, 4, 2],
+            talea=rhythmmakertools.Talea(
+                counts=spiccato_counts,
+                denominator=32,
+                ),
             ),
         ),
-    timespan=stages(4, 5),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_1,
-    4,
-    voice_name=vn_2,
+    (vn_1, 4),
+    (vn_2, stages(4)),
     rhythm_maker__division_masks=[
         rhythmmakertools.silence_first(2),
         rhythmmakertools.silence([7]),
@@ -102,65 +102,67 @@ segment_maker.copy_rhythm_specifier(
     rhythm_maker__extra_counts_per_division=[0, 4, 2, 4, 2, 0],
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    va,
-    division_expression=compound_quarter_divisions,
-    rhythm_maker=note_rhythm_maker,
-    timespan=stages(5),
+segment_maker.make_scoped_rhythm_specifiers(
+    (va, stages(5)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=compound_quarter_divisions,
+        rhythm_maker=note_rhythm_maker,
+        ),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vc,
-    division_expression=strict_quarter_divisions,
-    rhythm_maker=note_rhythm_maker,
-    timespan=stages(5),
+segment_maker.make_scoped_rhythm_specifiers(
+    (vc, stages(5)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=strict_quarter_divisions,
+        rhythm_maker=note_rhythm_maker,
+        ),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_1,
-    5,
+    (vn_1, 5),
+    (vn_1, stages(7)),
     rhythm_maker__division_masks=[
         rhythmmakertools.silence_first(2, inverted=True),
         rhythmmakertools.sustain([-2]),
         ],
-    timespan=stages(7),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_1,
-    division_expression=strict_quarter_divisions,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        division_masks=[
-            rhythmmakertools.silence_first(),
-            ],
-        ),
-    timespan=stages(8, 9),
-    )
-
-segment_maker.make_scoped_rhythm_specifier(
-    vn_2,
-    division_expression=compound_quarter_divisions,
-    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-        extra_counts_per_division=(1,),
-        logical_tie_masks=[
-            rhythmmakertools.silence_first(3),
-            rhythmmakertools.silence_last(2),
-            ],
-        talea=rhythmmakertools.Talea(
-            counts=(3, 3, 2, 6, 2),
-            denominator=16,
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_1, stages(8, 9)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=strict_quarter_divisions,
+        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+            division_masks=[
+                rhythmmakertools.silence_first(),
+                ],
             ),
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            )
         ),
-    timespan=stages(7, 8),
+    )
+
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_2, stages(7, 8)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=compound_quarter_divisions,
+        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+            extra_counts_per_division=(1,),
+            logical_tie_masks=[
+                rhythmmakertools.silence_first(3),
+                rhythmmakertools.silence_last(2),
+                ],
+            talea=rhythmmakertools.Talea(
+                counts=(3, 3, 2, 6, 2),
+                denominator=16,
+                ),
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                )
+            ),
+        ),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_2,
-    7,
-    voice_name=va,
+    (vn_2, 7),
+    (va, stages(7)),
     rhythm_maker__logical_tie_masks=[
         rhythmmakertools.silence_first(),
         rhythmmakertools.silence_last(),
@@ -169,33 +171,31 @@ segment_maker.copy_rhythm_specifier(
     )
 
 segment_maker.copy_rhythm_specifier(
-    vc,
-    5,
+    (vc, 5),
+    (vc, stages(7, 8)),
     rhythm_maker__division_masks=[
         rhythmmakertools.silence_last(2),
         ],
-    timespan=stages(7, 8),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_2,
-    division_expression=fused_compound_quarter_divisions([1, 4]),
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        division_masks=[
-            rhythmmakertools.silence_first(),
-            ],
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_2, stages(9)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=fused_compound_quarter_divisions([1, 4]),
+        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+            division_masks=[
+                rhythmmakertools.silence_first(),
+                ],
+            ),
         ),
-    timespan=stages(9),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_2,
-    9,
-    voice_name=va,
+    (vn_2, 9),
+    (va, stages(9)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_2,
-    9,
-    voice_name=vc,
+    (vn_2, 9),
+    (vc, stages(9)),
     )

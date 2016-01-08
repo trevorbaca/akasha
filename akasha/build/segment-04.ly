@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #34
+        currentBarNumber = #35
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -423,44 +423,9 @@
                             c'32
                             c'32 ]
                         }
-                        {
-                            c'32
-                            r16
-                            c'32 [
-                            c'32 ]
-                            r8..
-                        }
                         r4.
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
-                            c'32
-                            r4
-                            c'32 [
-                            c'32
-                            c'32
-                            c'32
-                            c'32 ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r16
-                            c'32 [
-                            c'32 ]
-                            r8..
-                            c'32
-                            r8
-                        }
                         r4.
-                        {
-                            r8.
-                            c'32 [
-                            c'32
-                            c'32
-                            c'32
-                            c'32 ]
-                            r32
-                        }
-                        R1 * 1/4
+                        R1 * 7/4
                         \times 4/5 {
                             r8.
                             r8
@@ -572,46 +537,9 @@
                         \times 4/5 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'16 \repeatTie
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
+                            r4
                         }
-                        \times 4/5 {
-                            c'8 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        \times 4/5 {
-                            c'8 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        \times 4/5 {
-                            c'8. \repeatTie [
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. \repeatTie [
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            r16
-                        }
+                        R1 * 7/4
                         r4
                         c'1
                         R1 * 1/4
