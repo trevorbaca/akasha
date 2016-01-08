@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #3
+        currentBarNumber = #4
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -177,6 +177,11 @@
                     \newSpacingSection
                     \mark #1
                     s1 * 3/4 \startTextSpan
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'00''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -189,6 +194,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'04''
+                            }
                 }
                 {
                     \time 1/4
@@ -224,6 +234,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'09''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -282,6 +297,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 5/4 \startTextSpan
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'14''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -295,6 +315,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'21''
+                            }
                 }
                 {
                     \time 1/4
@@ -314,6 +339,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 3 128)
                     \newSpacingSection
                     s1 * 3/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'28''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -356,6 +386,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 3 64)
                     \newSpacingSection
                     s1 * 3/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'37''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -368,12 +403,22 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 3 64)
                     \newSpacingSection
                     s1 * 3/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'44''
+                            }
                 }
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'50''
+                            }
                 }
                 {
                     \time 1/4
@@ -393,6 +438,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'56''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -419,6 +469,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'03''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -445,6 +500,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                1'10''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -507,37 +567,37 @@
                         {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'8 \repeatTie [
-                            c'8 ]
+                            cs'8 ]
                         }
                         {
-                            c'16 \repeatTie [
+                            cs'16 \repeatTie [
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
+                            d'8. ]
                         }
                         \times 4/5 {
-                            c'8. \repeatTie [
-                            c'8 ]
+                            d'8. \repeatTie [
+                            ef'8 ]
                         }
                         {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
+                            ef'4 \repeatTie
                         }
                         {
-                            c'4 \repeatTie
+                            ef'4 \repeatTie
                         }
                         \times 4/5 {
-                            c'4 \repeatTie
-                            c'16 \repeatTie
+                            ef'4 \repeatTie
+                            ef'16 \repeatTie
                         }
                         R1 * 1/4
                         r4.
                         {
-                            c'4.
+                            e'4.
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            c'4
-                            c'8.
+                            f'4
+                            fs'8.
                         }
                         r4.
                         R1 * 1/4
@@ -546,13 +606,13 @@
                         r4
                         r4
                         r4
-                        c'4
-                        c'4
+                        g'4
+                        af'4
                         r4
-                        c'4
+                        a'4
                         r4
-                        c'4
-                        c'4
+                        bf'4
+                        b'4
                         r4
                         r4
                         r4
@@ -586,7 +646,7 @@
                         \times 2/3 {
                             r16
                             c'32 [
-                            c'32 ]
+                            cs'32 ]
                             r8
                             r8
                         }
@@ -595,8 +655,8 @@
                         \times 4/5 {
                             r8
                             r16
-                            c'32 [
-                            c'32 ]
+                            d'32 [
+                            ef'32 ]
                             r16
                         }
                         R1 * 1/4
@@ -605,31 +665,31 @@
                         r4
                         r4
                         {
-                            c'8. [
-                            c'16 ]
+                            e'8. [
+                            f'16 ]
                         }
                         \times 4/5 {
-                            c'4
-                            c'16
+                            fs'4
+                            g'16
                         }
                         {
-                            c'4
+                            af'4
                         }
                         {
-                            c'4
+                            a'4
                         }
                         r4
                         R1 * 1/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             r16
-                            c'32 [
-                            c'32 ]
+                            bf'32 [
+                            b'32 ]
                             r8
                             r8
                             c'32 [
-                            c'32
-                            c'32 ]
+                            cs'32
+                            d'32 ]
                             r32
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -643,26 +703,26 @@
                         \times 3/4 {
                             r4
                             r8.
-                            c'16
+                            ef'16
                         }
                         {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'16 \repeatTie [
+                            ef'4 \repeatTie
+                            ef'16 \repeatTie [
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'16 ]
+                            e'16 ]
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/7 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'8.
+                            e'4 \repeatTie
+                            f'8.
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            c'16 \repeatTie [
+                            f'16 \repeatTie [
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
+                            fs'8. ]
                             r4
                         }
                         {
@@ -679,21 +739,21 @@
                         \times 3/4 {
                             r16
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4.
-                            c'16
+                            g'4.
+                            af'16
                         }
                         {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'8
+                            af'4 \repeatTie
+                            a'8
                         }
                         \times 4/5 {
-                            c'8 \repeatTie [
+                            a'8 \repeatTie [
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
+                            bf'8. ]
                         }
                         {
-                            c'4
+                            b'4
                         }
                         {
                             c'4
@@ -701,7 +761,7 @@
                         \times 4/5 {
                             c'16 \repeatTie
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
+                            cs'4
                         }
                         R1 * 9/2
                         \bar "|"
@@ -724,8 +784,8 @@
                         r4
                         \times 4/5 {
                             c'32 [
-                            c'32
-                            c'32 ]
+                            cs'32
+                            d'32 ]
                             r32
                             r8.
                         }
@@ -736,38 +796,38 @@
                         r4
                         r4
                         {
-                            c'4
+                            ef'4
                         }
                         {
-                            c'4
+                            e'4
                         }
                         \times 4/5 {
-                            c'8. [
-                            c'8 ]
+                            f'8. [
+                            fs'8 ]
                         }
                         \times 2/3 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8 \repeatTie
+                            fs'8 \repeatTie
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
+                            g'4
                         }
                         {
-                            c'4 \repeatTie
+                            g'4 \repeatTie
                         }
                         \times 4/5 {
-                            c'4 \repeatTie
-                            c'16 \repeatTie
+                            g'4 \repeatTie
+                            g'16 \repeatTie
                         }
                         R1 * 1/4
                         r4.
                         r4.
                         {
-                            c'4.
+                            af'4.
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            c'4..
-                            c'16
+                            a'4..
+                            bf'16
                         }
                         R1 * 1/4
                         r4
@@ -775,13 +835,13 @@
                         r4
                         r4
                         r4
-                        c'4
+                        b'4
                         r4
                         c'4
-                        c'4
-                        c'4
+                        cs'4
+                        d'4
                         r4
-                        c'4
+                        ef'4
                         r4
                         r4
                         r4
@@ -804,12 +864,12 @@
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         c'4..
-                        c'16
+                        cs'16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
-                        c'4. \repeatTie
-                        c'8
-                        c'4
+                        d'4
+                        d'4. \repeatTie
+                        ef'8
+                        e'4
                         R1 * 3/2
                         r4
                         r4
@@ -818,58 +878,58 @@
                         r4
                         r4
                         {
-                            c'4
+                            f'4
                         }
                         {
-                            c'4
+                            fs'4
                         }
                         \times 4/5 {
-                            c'8 [
+                            g'8 [
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
+                            af'8. ]
                         }
                         R1 * 1/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            c'4.
-                            c'8
+                            a'4.
+                            bf'8
                         }
                         {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4. \repeatTie
+                            bf'4. \repeatTie
                         }
                         {
-                            c'4. \repeatTie
+                            bf'4. \repeatTie
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            c'8. \repeatTie
-                            c'4
+                            bf'8. \repeatTie
+                            b'4
                             c'16
                         }
                         R1 * 1/4
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            c'4.
-                            c'8
+                            cs'4.
+                            d'8
                         }
                         {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. \repeatTie [
-                            c'8. ]
+                            d'8. \repeatTie [
+                            ef'8. ]
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            c'16 \repeatTie [
+                            ef'16 \repeatTie [
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
-                            c'8. ]
+                            e'8.
+                            f'8. ]
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            c'8. \repeatTie
-                            c'4
-                            c'16 \repeatTie
+                            f'8. \repeatTie
+                            fs'4
+                            fs'16 \repeatTie
                         }
                         {
                             r4
@@ -885,32 +945,32 @@
                             r4
                             r16
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
+                            g'8.
                         }
                         {
-                            c'16 \repeatTie [
+                            g'16 \repeatTie [
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
-                            c'8 ]
+                            af'8.
+                            a'8 ]
                         }
                         \times 4/5 {
-                            c'4 \repeatTie
-                            c'16
+                            a'4 \repeatTie
+                            bf'16
                         }
                         \times 2/3 {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'8
+                            bf'4 \repeatTie
+                            b'8
                         }
                         {
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8 \repeatTie [
+                            b'8 \repeatTie [
                             c'8 ]
                         }
                         \times 4/5 {
                             c'16 \repeatTie
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
+                            cs'4
                         }
                         R1 * 9/2
                         \bar "|"

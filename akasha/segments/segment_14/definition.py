@@ -46,38 +46,40 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_scoped_rhythm_specifier(
-    (vn_1, va, vc),
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
-            body_ratio=Ratio((1, 1)),
-            ),
-        logical_tie_masks=[
-            silence_every([1], period=2),
-            ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+segment_maker.make_scoped_rhythm_specifiers(
+    ((vn_1, va, vc), stages(1, 2)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+            incise_specifier=rhythmmakertools.InciseSpecifier(
+                body_ratio=Ratio((1, 1)),
+                ),
+            logical_tie_masks=[
+                silence_every([1], period=2),
+                ],
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
-    timespan=stages(1, 2),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_2,
-    division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-        burnish_specifier=rhythmmakertools.BurnishSpecifier(
-            left_classes=[Rest],
-            left_counts=[1, 4],
-            right_classes=[Rest],
-            right_counts=[0, 4],
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_2, stages(1, 3)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        rewrite_meter=True,
+        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+            burnish_specifier=rhythmmakertools.BurnishSpecifier(
+                left_classes=[Rest],
+                left_counts=[1, 4],
+                right_classes=[Rest],
+                right_counts=[0, 4],
+                ),
+            denominators=[16],
+            division_masks=[
+                silence([12, -2], inverted=True),
+                ],
+            extra_counts_per_division=[6, 4, 6, 3],
             ),
-        denominators=[16],
-        division_masks=[
-            silence([12, -2], inverted=True),
-            ],
-        extra_counts_per_division=[6, 4, 6, 3],
         ),
-    timespan=stages(1, 3),
     )

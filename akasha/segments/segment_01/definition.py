@@ -45,10 +45,11 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_scoped_rhythm_specifier(
-    va,
-    rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stages(1),
+segment_maker.make_scoped_rhythm_specifiers(
+    (va, stages(1)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        ),
     )
 
 ###############################################################################

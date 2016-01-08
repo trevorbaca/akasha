@@ -49,164 +49,154 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_1,
-    division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1])
-        .partition_by_ratio_of_lengths(Ratio((2, 1)))
-        [0]
-        ,
-    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-        denominators=[16],
-        extra_counts_per_division=[6, 4, 6, 3],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_1, stages(1)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1])
+            .partition_by_ratio_of_lengths(Ratio((2, 1)))
+            [0]
+            ,
+        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+            denominators=[16],
+            extra_counts_per_division=[6, 4, 6, 3],
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                ),
             ),
         ),
-    timespan=stages(1),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_2,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_2, stages(1)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rewrite_meter=True,
+        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
-    timespan=stages(1),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    va,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
+segment_maker.make_scoped_rhythm_specifiers(
+    (va, stages(1)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rewrite_meter=True,
+        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
-    timespan=stages(1),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vc,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
+segment_maker.make_scoped_rhythm_specifiers(
+    (vc, stages(1)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rewrite_meter=True,
+        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
-    timespan=stages(1),
     )
 
 ### stage 2 ###
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_1,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_1, stages(2)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rewrite_meter=True,
+        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
-    timespan=stages(2),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_2,
-    1,
-    timespan=stages(2),
+    (vn_2, 1),
+    (vn_2, stages(2)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    va,
-    1,
-    timespan=stages(2),
+    (va, 1),
+    (va, stages(2)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vc,
-    1,
-    timespan=stages(2),
+    (vc, 1),
+    (vc, stages(2)),
     )
 
 ### stage 3 ###
 
 segment_maker.copy_rhythm_specifier(
-    vn_1,
-    2,
-    timespan=stages(3),
+    (vn_1, 2),
+    (vn_1, stages(3)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_2,
-    1,
-    timespan=stages(3),
+    (vn_2, 1),
+    (vn_2, stages(3)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    va,
-    1,
-    timespan=stages(3),
+    (va, 1),
+    (va, stages(3)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vc,
-    1,
-    timespan=stages(3),
+    (vc, 1),
+    (vc, stages(3)),
     )
 
 ### stages 4-5 ###
 
 segment_maker.copy_rhythm_specifier(
-    vn_1,
-    2,
-    timespan=stages(4),
+    (vn_1, 2),
+    (vn_1, stages(4)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_2,
-    1,
-    timespan=stages(4),
+    (vn_2, 1),
+    (vn_2, stages(4)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    va,
-    1,
-    timespan=stages(4),
+    (va, 1),
+    (va, stages(4)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vc,
-    1,
-    timespan=stages(4),
+    (vc, 1),
+    (vc, stages(4)),
     )
 
 ### stages 6-7 ###
 
 segment_maker.copy_rhythm_specifier(
-    vn_1,
-    2,
-    timespan=stages(6),
+    (vn_1, 2),
+    (vn_1, stages(6)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vn_2,
-    1,
-    timespan=stages(6),
+    (vn_2, 1),
+    (vn_2, stages(6)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    va,
-    1,
-    timespan=stages(6, 7),
+    (va, 1),
+    (va, stages(6, 7)),
     )
 
 segment_maker.copy_rhythm_specifier(
-    vc,
-    1,
-    timespan=stages(6),
+    (vc, 1),
+    (vc, stages(6)),
     )

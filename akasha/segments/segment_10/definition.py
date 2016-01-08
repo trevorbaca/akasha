@@ -52,151 +52,164 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_scoped_rhythm_specifier(
-    tutti,
-    rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stages(1),
+segment_maker.make_scoped_rhythm_specifiers(
+    (tutti, stages(1)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        ),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    tutti,
-    rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stages(3),
+segment_maker.make_scoped_rhythm_specifiers(
+    (tutti, stages(3)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        ),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    (vn_1, vn_2, vc),
-    rhythm_maker=messiaen_tied_note_rhythm_maker,
-    timespan=stages(4),
+segment_maker.make_scoped_rhythm_specifiers(
+    ((vn_1, vn_2, vc), stages(4)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        ),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    va,
-    division_expression=split_by_durations([Duration(2, 4)]),
-    rhythm_maker=messiaen_note_rhythm_maker,
-    split_at_measure_boundaries=True,
-    timespan=stages(4, 11),
+segment_maker.make_scoped_rhythm_specifiers(
+    (va, stages(4, 11)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=split_by_durations([Duration(2, 4)]),
+        rhythm_maker=messiaen_note_rhythm_maker,
+        split_at_measure_boundaries=True,
+        ),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_1,
-    division_expression=split_by_durations([Duration(3, 4)]),
-    rewrite_meter=True,
-    rhythm_maker=messiaen_note_rhythm_maker,
-    timespan=stages(5, 6),
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_1, stages(5, 6)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=split_by_durations([Duration(3, 4)]),
+        rewrite_meter=True,
+        rhythm_maker=messiaen_note_rhythm_maker,
+        ),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_2,
-    division_expression=split_by_durations([Duration(4, 4)]),
-    rewrite_meter=True,
-    rhythm_maker=messiaen_note_rhythm_maker,
-    timespan=stages(5, 6),
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_2, stages(5, 6)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=split_by_durations([Duration(4, 4)]),
+        rewrite_meter=True,
+        rhythm_maker=messiaen_note_rhythm_maker,
+        ),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vc,
-    division_expression=split_by_durations([Duration(5, 4)]),
-    rewrite_meter=True,
-    rhythm_maker=messiaen_note_rhythm_maker,
-    timespan=stages(5, 6),
+segment_maker.make_scoped_rhythm_specifiers(
+    (vc, stages(5, 6)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=split_by_durations([Duration(5, 4)]),
+        rewrite_meter=True,
+        rhythm_maker=messiaen_note_rhythm_maker,
+        ),
     )
 
 ### stage 7 ###
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_1,
-    rhythm_maker=make_accelerando_rhythm_maker(
-        interpolation_specifiers=[
-            rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 2),
-                stop_duration=Duration(1, 8),
-                written_duration=Duration(1, 16),
-                ),
-            rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 8),
-                stop_duration=Duration(1, 2),
-                written_duration=Duration(1, 16),
-                ),
-            ],
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_1, stages(7)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=make_accelerando_rhythm_maker(
+            interpolation_specifiers=[
+                rhythmmakertools.InterpolationSpecifier(
+                    start_duration=Duration(1, 2),
+                    stop_duration=Duration(1, 8),
+                    written_duration=Duration(1, 16),
+                    ),
+                rhythmmakertools.InterpolationSpecifier(
+                    start_duration=Duration(1, 8),
+                    stop_duration=Duration(1, 2),
+                    written_duration=Duration(1, 16),
+                    ),
+                ],
+            ),
         ),
-    timespan=stages(7),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_2,
-    rhythm_maker=make_accelerando_rhythm_maker(
-        interpolation_specifiers=[
-            rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 8),
-                stop_duration=Duration(1, 2),
-                written_duration=Duration(1, 16),
-                ),
-            rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 2),
-                stop_duration=Duration(1, 8),
-                written_duration=Duration(1, 16),
-                ),
-            ],
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_2, stages(7)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=make_accelerando_rhythm_maker(
+            interpolation_specifiers=[
+                rhythmmakertools.InterpolationSpecifier(
+                    start_duration=Duration(1, 8),
+                    stop_duration=Duration(1, 2),
+                    written_duration=Duration(1, 16),
+                    ),
+                rhythmmakertools.InterpolationSpecifier(
+                    start_duration=Duration(1, 2),
+                    stop_duration=Duration(1, 8),
+                    written_duration=Duration(1, 16),
+                    ),
+                ],
+            ),
         ),
-    timespan=stages(7),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vc,
-    division_expression=fuse_divisions(),
-    rhythm_maker=make_accelerando_rhythm_maker(
-        interpolation_specifiers=[
-            rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 8),
-                stop_duration=Duration(1, 2),
-                written_duration=Duration(1, 16),
-                ),
-            ],
+segment_maker.make_scoped_rhythm_specifiers(
+    (vc, stages(7)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=fuse_divisions(),
+        rhythm_maker=make_accelerando_rhythm_maker(
+            interpolation_specifiers=[
+                rhythmmakertools.InterpolationSpecifier(
+                    start_duration=Duration(1, 8),
+                    stop_duration=Duration(1, 2),
+                    written_duration=Duration(1, 16),
+                    ),
+                ],
+            ),
         ),
-    timespan=stages(7),
     )
 
 ### stages 8-12 ###
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_1,
-    division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
-    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-        burnish_specifier=rhythmmakertools.BurnishSpecifier(
-            left_classes=[Rest],
-            left_counts=[1],
-            ),
-        denominators=[16],
-        division_masks=[
-            silence([1, 5, 8, 11, 12, 15, 16, 18, 20, 21, -1, -2, -3, -4, -5]),
-            ],
-        extra_counts_per_division=[6, 4, 6, 3],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_1, stages(8, 11)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+            burnish_specifier=rhythmmakertools.BurnishSpecifier(
+                left_classes=[Rest],
+                left_counts=[1],
+                ),
+            denominators=[16],
+            division_masks=[
+                silence([1, 5, 8, 11, 12, 15, 16, 18, 20, 21, -1, -2, -3, -4, -5]),
+                ],
+            extra_counts_per_division=[6, 4, 6, 3],
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                ),
             ),
         ),
-    timespan=stages(8, 11),
     )
 
-segment_maker.make_scoped_rhythm_specifier(
-    vn_2,
-    division_expression=split_by_durations([Duration(4, 4)]),
-    rewrite_meter=True,
-    rhythm_maker=messiaen_note_rhythm_maker,
-    timespan=stages(8, 11),
-    )
-
-segment_maker.make_scoped_rhythm_specifier(
-    vc,
-    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-        talea=rhythmmakertools.Talea(
-            counts=[7, 1, 10, 2],
-            denominator=16,
-            ),
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            )
+segment_maker.make_scoped_rhythm_specifiers(
+    (vn_2, stages(8, 11)),
+    baca.tools.UnscopedRhythmSpecifier(
+        division_expression=split_by_durations([Duration(4, 4)]),
+        rewrite_meter=True,
+        rhythm_maker=messiaen_note_rhythm_maker,
         ),
-    timespan=stages(8, 11),
+    )
+
+segment_maker.make_scoped_rhythm_specifiers(
+    (vc, stages(8, 11)),
+    baca.tools.UnscopedRhythmSpecifier(
+        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+            talea=rhythmmakertools.Talea(
+                counts=[7, 1, 10, 2],
+                denominator=16,
+                ),
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                )
+            ),
+        ),
     )
