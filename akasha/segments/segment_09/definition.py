@@ -60,7 +60,7 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(1)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=make_accelerando_rhythm_maker(
@@ -80,7 +80,7 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_2, stages(1)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=make_accelerando_rhythm_maker(
@@ -100,7 +100,7 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (va, stages(1)),
     baca.tools.RhythmSpecifier(
         division_expression=fuse_divisions(),
@@ -116,7 +116,7 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vc, stages(1, 2)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
@@ -124,35 +124,35 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(2)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_2, stages(2)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (va, stages(2)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (va, stages(4)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vc, stages(4)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_tied_note_rhythm_maker,
