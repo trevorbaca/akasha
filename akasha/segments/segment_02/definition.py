@@ -56,7 +56,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         talea=rhythmmakertools.Talea(
@@ -70,7 +70,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -86,7 +86,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(3),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     va,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -105,7 +105,7 @@ segment_maker.make_rhythm_specifier(
 #counts = [5, -4, 3, 6]
 counts = [4, 14, 4, 6, 18]
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -158,7 +158,7 @@ segment_maker.copy_rhythm_specifier(
         ],
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -200,7 +200,7 @@ segment_maker.copy_rhythm_specifier(
         ],
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -216,7 +216,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(7),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=strict_quarter_divisions,
     rhythm_maker=note_rhythm_maker,
@@ -230,7 +230,7 @@ segment_maker.make_rhythm_specifier(
 
 counts = [5, 4, 3, 6]
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
