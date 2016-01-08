@@ -28,7 +28,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
-    label_clock_time=True,
+    label_clock_time=False,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     show_stage_annotations=True,
@@ -42,7 +42,7 @@ segment_maker.validate_stage_count(2)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
-################################### RHYTHM ####################################
+################################# SPECIFIERS ##################################
 ###############################################################################
 
 segment_maker.append_specifiers(
@@ -51,7 +51,3 @@ segment_maker.append_specifiers(
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         ),
     )
-
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
