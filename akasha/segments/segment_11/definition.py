@@ -77,7 +77,7 @@ off_string_rhythm_maker = rhythmmakertools.EvenDivisionRhythmMaker(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(1)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
@@ -88,7 +88,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(3)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
@@ -101,7 +101,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(5)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
@@ -128,7 +128,7 @@ def incised_rhythm_maker(n):
     
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
@@ -139,21 +139,21 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(-2),
         ),
     )
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(-3),
         ),
     )
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(7)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(0),
         ),
     )
@@ -162,28 +162,28 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(-2),
         ),
     )
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(-3),
         ),
     )
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(0),
         ),
     )
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(9)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
@@ -196,21 +196,21 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(11)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(-3),
         ),
     )
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(11)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(0),
         ),
     )
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(11)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
@@ -221,7 +221,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(11)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(-2),
         ),
     )
@@ -230,7 +230,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_1, stages(13)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(0),
         tie_last=True,
         ),
@@ -238,7 +238,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vn_2, stages(13)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
@@ -249,7 +249,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (va, stages(13)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(-2),
         tie_last=True,
         ),
@@ -257,7 +257,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (vc, stages(13)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rhythm_maker=incised_rhythm_maker(-3),
         tie_last=True,
         ),
@@ -267,7 +267,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (tutti, stages(14, 17)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         tie_last=True,
@@ -278,7 +278,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (tutti, stages(18, 21)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         tie_last=True,
@@ -289,7 +289,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (tutti, stages(22, 25)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         tie_last=True,
@@ -300,7 +300,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 segment_maker.make_scoped_rhythm_specifiers(
     (tutti, stages(26, 31)),
-    baca.tools.UnscopedRhythmSpecifier(
+    baca.tools.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=messiaen_tied_note_rhythm_maker,
         ),
