@@ -49,7 +49,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(1)),
     baca.tools.RhythmSpecifier(
         division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1])
@@ -66,7 +66,7 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_2, stages(1)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
@@ -79,7 +79,7 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (va, stages(1)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
@@ -92,7 +92,7 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vc, stages(1)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
@@ -107,7 +107,7 @@ segment_maker.scope_specifiers(
 
 ### stage 2 ###
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(2)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,

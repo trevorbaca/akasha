@@ -51,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(1)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
@@ -89,7 +89,7 @@ segment_maker.copy_specifier(
     (va, stages(3)),
     )
     
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vc, stages(3)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -143,7 +143,7 @@ segment_maker.copy_specifier(
     (vc, stages(7)),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(9)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
@@ -171,7 +171,7 @@ segment_maker.copy_specifier(
     (vc, stages(9)),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(10)),
     baca.tools.RhythmSpecifier(
         division_expression=sequence()[:-1],
@@ -179,7 +179,7 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(10)),
     baca.tools.RhythmSpecifier(
         division_expression=sequence()[-1].sequence(),
@@ -187,28 +187,28 @@ segment_maker.scope_specifiers(
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_2, stages(10)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_note_rhythm_maker,
         ),
     )
     
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (va, stages(10)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_note_rhythm_maker,
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vc, stages(10)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_note_rhythm_maker,
         ),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vn_1, stages(12)),
     baca.tools.RhythmSpecifier(
         division_expression=sequence().
@@ -228,7 +228,7 @@ segment_maker.copy_specifier(
     (va, stages(12)),
     )
 
-segment_maker.scope_specifiers(
+segment_maker.append_specifiers(
     (vc, stages(12)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
