@@ -49,13 +49,13 @@ segment_maker.validate_measures_per_stage()
 
 spiccato_counts = [1, 1, 1, -2, 1, 1, -7, 1, -12, 1, 1, 1, 1, -8, 1, 1]
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     va,
     rhythm_maker=note_rhythm_maker,
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rhythm_maker=note_rhythm_maker,
     timespan=stages(1),
@@ -73,7 +73,7 @@ segment_maker.copy_rhythm_specifier(
     timespan=stages(3, 4),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -102,14 +102,14 @@ segment_maker.copy_rhythm_specifier(
     rhythm_maker__extra_counts_per_division=[0, 4, 2, 4, 2, 0],
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     va,
     division_expression=compound_quarter_divisions,
     rhythm_maker=note_rhythm_maker,
     timespan=stages(5),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     division_expression=strict_quarter_divisions,
     rhythm_maker=note_rhythm_maker,
@@ -126,7 +126,7 @@ segment_maker.copy_rhythm_specifier(
     timespan=stages(7),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=strict_quarter_divisions,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -137,7 +137,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(8, 9),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=compound_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -177,7 +177,7 @@ segment_maker.copy_rhythm_specifier(
     timespan=stages(7, 8),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=fused_compound_quarter_divisions([1, 4]),
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(

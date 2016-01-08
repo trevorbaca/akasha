@@ -51,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -93,7 +93,7 @@ segment_maker.copy_rhythm_specifier(
     timespan=stages(3),
     )
     
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
@@ -156,7 +156,7 @@ segment_maker.copy_rhythm_specifier(
     timespan=stages(7),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -186,39 +186,39 @@ segment_maker.copy_rhythm_specifier(
     voice_name=vc,
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=sequence()[:-1],
     rhythm_maker=messiaen_note_rhythm_maker,
     timespan=stages(10),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=sequence()[-1].sequence(),
     rhythm_maker=messiaen_note_rhythm_maker,
     timespan=stages(10),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     rhythm_maker=messiaen_note_rhythm_maker,
     timespan=stages(10),
     )
     
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     va,
     rhythm_maker=messiaen_note_rhythm_maker,
     timespan=stages(10),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rhythm_maker=messiaen_note_rhythm_maker,
     timespan=stages(10),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=sequence().
         partition_by_ratio_of_lengths(Ratio((1, 1)))[0]
@@ -239,7 +239,7 @@ segment_maker.copy_rhythm_specifier(
     voice_name=va,
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(

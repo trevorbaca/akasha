@@ -50,14 +50,14 @@ segment_maker.validate_measures_per_stage()
 
 ### stages 1-2 ###
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     timespan=stages(1, 2),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     (vn_1, vn_2, va),
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
@@ -66,7 +66,7 @@ segment_maker.make_rhythm_specifier(
 
 ### stages 4-7 ###
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=split_by_durations([Duration(3, 4)]),
     rewrite_meter=True,
@@ -74,7 +74,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(4, 6),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=split_by_durations([Duration(5, 4)]),
     rewrite_meter=True,
@@ -82,7 +82,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(4, 6),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     va,
     division_expression=split_by_durations([Duration(4, 4)]),
     rewrite_meter=True,
@@ -90,7 +90,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(4, 6),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
@@ -99,7 +99,7 @@ segment_maker.make_rhythm_specifier(
 
 ### stages 8-11 ###
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=split_by_durations([Duration(4, 4)]),
     rewrite_meter=True,
@@ -107,7 +107,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(8, 10),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=split_by_durations([Duration(3, 4)]),
     rewrite_meter=True,
@@ -115,7 +115,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(8, 10),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     va,
     division_expression=split_by_durations([Duration(5, 4)]),
     rewrite_meter=True,
@@ -123,7 +123,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(8, 10),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
@@ -132,7 +132,7 @@ segment_maker.make_rhythm_specifier(
 
 ### stages 12-15 ###
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=split_by_durations([Duration(5, 4)]),
     rewrite_meter=True,
@@ -140,7 +140,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(12, 14),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=split_by_durations([Duration(4, 4)]),
     rewrite_meter=True,
@@ -148,7 +148,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(12, 14),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     va,
     division_expression=split_by_durations([Duration(3, 4)]),
     rewrite_meter=True,
@@ -156,7 +156,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(12, 14),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,

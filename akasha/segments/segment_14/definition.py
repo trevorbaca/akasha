@@ -46,7 +46,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     (vn_1, va, vc),
     rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
         incise_specifier=rhythmmakertools.InciseSpecifier(
@@ -62,7 +62,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(1, 2),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
     rewrite_meter=True,

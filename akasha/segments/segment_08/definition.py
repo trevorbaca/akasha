@@ -49,7 +49,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1])
         .partition_by_ratio_of_lengths(Ratio((2, 1)))
@@ -65,7 +65,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_2,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -77,7 +77,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     va,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -89,7 +89,7 @@ segment_maker.make_rhythm_specifier(
     timespan=stages(1),
     )
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -103,7 +103,7 @@ segment_maker.make_rhythm_specifier(
 
 ### stage 2 ###
 
-segment_maker.make_rhythm_specifier(
+segment_maker.make_scoped_rhythm_specifier(
     vn_1,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
