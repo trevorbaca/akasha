@@ -56,7 +56,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vc, stages(1)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -71,7 +71,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_2, stages(3)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -88,7 +88,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (va, stages(3)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -108,7 +108,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 #counts = [5, -4, 3, 6]
 counts = [4, 14, 4, 6, 18]
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(5)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -131,7 +131,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 5),
     (vn_2, stages(5)),
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -1),
@@ -141,7 +141,7 @@ segment_maker.copy_rhythm_specifier(
         ],
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 5),
     (va, stages(5)),
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
@@ -150,7 +150,7 @@ segment_maker.copy_rhythm_specifier(
         ],
     )
     
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 5),
     (vc, stages(5)),
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
@@ -159,7 +159,7 @@ segment_maker.copy_rhythm_specifier(
         ],
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(7)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -183,7 +183,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 7),
     (va, stages(7)),
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
@@ -192,7 +192,7 @@ segment_maker.copy_rhythm_specifier(
         ],
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 7),
     (vc, stages(7)),
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
@@ -200,7 +200,7 @@ segment_maker.copy_rhythm_specifier(
         ],
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_2, stages(7)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -217,7 +217,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(9)),
     baca.tools.RhythmSpecifier(
         division_expression=strict_quarter_divisions,
@@ -233,7 +233,7 @@ segment_maker.make_scoped_rhythm_specifiers(
 
 counts = [5, 4, 3, 6]
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_2, stages(9)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -256,7 +256,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 9),
     (va, stages(9)),
     rhythm_maker__division_masks=[
@@ -266,7 +266,7 @@ segment_maker.copy_rhythm_specifier(
         ],
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_2, 9),
     (vc, stages(9)),
     rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
@@ -279,7 +279,7 @@ segment_maker.copy_rhythm_specifier(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.make_scoped_specifiers(
+segment_maker.scope_specifiers(
     (tutti, (1, 16)),
     [
         baca.tools.PitchSpecifier(

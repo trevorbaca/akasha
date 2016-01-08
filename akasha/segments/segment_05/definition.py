@@ -51,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(1)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
@@ -64,32 +64,32 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 1),
     (vn_2, stages(1)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 1),
     (va, stages(1)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 1),
     (vn_1, stages(3)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_2, 1),
     (vn_2, stages(3)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (va, 1),
     (va, stages(3)),
     )
     
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vc, stages(3)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -103,47 +103,47 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vc, 3),
     (vn_1, stages(5))
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_2, 3),
     (vn_2, stages(5)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (va, 3),
     (va, stages(5)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vc, 3),
     (vc, stages(5)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 5),
     (vn_1, stages(7)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vc, 5),
     (vn_2, stages(7)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (va, 5),
     (va, stages(7)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vc, 5),
     (vc, stages(7)),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(9)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
@@ -156,22 +156,22 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 9),
     (vn_2, stages(9)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 9),
     (va, stages(9)),
     )
     
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 9),
     (vc, stages(9)),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(10)),
     baca.tools.RhythmSpecifier(
         division_expression=sequence()[:-1],
@@ -179,7 +179,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(10)),
     baca.tools.RhythmSpecifier(
         division_expression=sequence()[-1].sequence(),
@@ -187,28 +187,28 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_2, stages(10)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_note_rhythm_maker,
         ),
     )
     
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (va, stages(10)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_note_rhythm_maker,
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vc, stages(10)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=messiaen_note_rhythm_maker,
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(12)),
     baca.tools.RhythmSpecifier(
         division_expression=sequence().
@@ -218,17 +218,17 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 12),
     (vn_2, stages(12)),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_1, 12),
     (va, stages(12)),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vc, stages(12)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(

@@ -47,7 +47,7 @@ segment_maker.validate_measures_per_stage()
 ################################### RHYTHM ####################################
 ###############################################################################
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(1, 2)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -64,7 +64,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_2, stages(1)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -85,14 +85,14 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (vn_2, 1),
     (va, stages(1)),
     rhythm_maker__logical_tie_masks=None,
     rhythm_maker__talea__counts=(6, 5, 3, 2),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vc, stages(1)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
@@ -128,7 +128,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(4)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -145,7 +145,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_1, stages(6)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -162,7 +162,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (vn_2, stages(8)),
     baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
@@ -198,7 +198,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.make_scoped_rhythm_specifiers(
+segment_maker.scope_specifiers(
     (va, stages(8)),
     baca.tools.RhythmSpecifier(
         division_expression=compound_quarter_divisions,
@@ -216,7 +216,7 @@ segment_maker.make_scoped_rhythm_specifiers(
         ),
     )
 
-segment_maker.copy_rhythm_specifier(
+segment_maker.copy_specifier(
     (va, 8),
     (vc, stages(8)),
     )
