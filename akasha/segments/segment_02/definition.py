@@ -58,23 +58,19 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-            talea=rhythmmakertools.Talea(
-                counts=[7, 1, 10, 2],
-                denominator=16,
-                ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
-                )
-            ),
-        ),
+    [
+        rhythm_specifier(cello_solo_rhythm_maker(rotation=0)),
+        pitch_specifier(source=akasha.materials.cello_solo),
+        half_clt,
+        Dynamic('mp'),
+        pochiss_vib,
+        ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(3)),
-    baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+    rhythm_specifier(
+        division_expression=strict_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
                 counts=getato_counts,
@@ -275,15 +271,10 @@ segment_maker.copy_specifier(
         ],
     )
 
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
-
 segment_maker.append_specifiers(
-    (tutti, (1, 16)),
+    compound_scope([(vn_2, 3), (va, 3), (vn_2, 7)]),
     [
-        baca.tools.PitchSpecifier(
-            source=range(12),
-            ),
+        make_getato_pitch_specifier('Bb3'),
+        staccati,
         ],
     )
