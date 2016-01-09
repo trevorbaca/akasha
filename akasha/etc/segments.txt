@@ -15,34 +15,42 @@ M: B[30]
 intro (15")
 
 [A] (30")
-    1(2). microtonal cello line
-    2. halt
+    1-2 (2+halt)
+    microtonal cello line;
+    halt;
 
-    3(1). extremely thin get. pianiss.
-    4. halt
+    3-4 (1+halt)
+    extremely thin get. pianiss.;
+    halt;
 
-    5(2). microtonal polyphony in multiple instruments with moments of harmony
-    6. breath
+    5-6 (2+halt)
+    microtonal polyphony in multiple instruments with moments of harmony;
+    breath;
 
-    7(1). microtonal polyphony in multiple instruments with moments of harmony
-    mixed with extremely thin get. pianiss.
-    8. breath
+    7-8 (1+halt)
+    microtonal polyphony in multiple instruments with moments of harmony
+    mixed with extremely thin get. pianiss.;
+    breath;
 
-    9(3). microtonal polyphony in multiple instruments with moments of harmony;
+    9-10 (3+halt).
+    microtonal polyphony in multiple instruments with moments of harmony;
     isolated three-note tasto loops fully contained by longer duration notes
-    in microtonal polyphony
-    10. breath
+    in microtonal polyphony;
+    breath;
 
-    11(1). microtonal polyphony in multiple instruments with moments of 
-    harmony; isolated three-note tasto loops fully contained by longer duration
+    11-12 (1+halt)
+    microtonal polyphony in multiple instruments with moments of harmony;
+    isolated three-note tasto loops fully contained by longer duration
     notes in microtonal polyphony;
-    12. halt
+    halt;
 
-    13(1). three-note tasto loops; first hint of repetition
-    14. halt
+    13-14 (1+halt)
+    three-note tasto loops with first hint of repetition;
+    halt;
 
-    15(1). tasto loops broken apart; dialogue with ext. thin get. pianiss.
-    16. breath
+    15-16 (1+halt)
+    tasto loops broken apart; dialogue with ext. thin get. pianiss.;
+    breath;
 
 [B] (30")
     1(3). two-voice microtonal harmonies animated according to one rhythm; 

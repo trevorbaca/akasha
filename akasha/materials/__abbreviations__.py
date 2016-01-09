@@ -3,7 +3,7 @@ import abjad
 import akasha
 import baca
 import experimental
-from abjad.tools.markuptools import Markup
+from abjad import *
 
 
 ### CONTEXT NAMES ###
@@ -52,6 +52,19 @@ messiaen_tied_note_rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
         )
     )
 
+def cello_solo_rhythm_maker(rotation=None):
+    counts = sequencetools.Sequence([7, 1, 10, 2])
+    counts.rotate(n=rotation)
+    return rhythmmakertools.TaleaRhythmMaker(
+        talea=abjad.rhythmmakertools.Talea(
+            counts=counts,
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        )
+    
 ### MARKUP ###
 
 arco = Markup('arco', direction=Up).larger()
@@ -185,6 +198,14 @@ grid_poss_to_flaut_poss = abjad.spannertools.TextSpanner(
 
 ### PITCH ###
 
+def make_getato_pitch_specifier(start_pitch, start_index=0):
+    start_pitch = pitchtools.NumberedPitch(start_pitch).pitch_number
+    pitch_numbers = akasha.materials.getato_intervals
+    pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
+    return baca.tools.PitchSpecifier(
+        source=pitch_numbers,
+        )
+
 def pervasive_trills_at_interval(interval):
     return baca.tools.TrillSpecifier(
         interval=interval,
@@ -199,5 +220,3 @@ trill_quarter_notes = baca.tools.TrillSpecifier(
 pervasive_trills = baca.tools.TrillSpecifier(
     minimum_written_duration=None,
     )
-
-### DYNAMICS ###
