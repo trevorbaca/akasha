@@ -284,6 +284,7 @@
             )
         \override BarLine.X-extent = #'(0 . 0)
         \override Beam.breakable = ##t
+        \override Beam.damping = 99
         \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
         \override DynamicLineSpanner.padding = #1.5
         \override Glissando.breakable = ##t

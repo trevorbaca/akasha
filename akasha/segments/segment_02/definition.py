@@ -84,37 +84,47 @@ segment_maker.append_specifiers(
         ),
     )
 
+getato_rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+    talea=rhythmmakertools.Talea(
+        #counts=getato_counts,
+        counts=[1],
+        denominator=32,
+        ),
+    #extra_counts_per_division=[4, 2],
+    extra_counts_per_division=[1],
+    )
+
 segment_maker.append_specifiers(
     (va, stages(3)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-            talea=rhythmmakertools.Talea(
-                counts=getato_counts,
-                denominator=32,
-                ),
-            extra_counts_per_division=[4, 2],
-            division_masks=[
-                silence_every([0, 2, 3], period=4),
-                ],
-            ),
+        division_expression=strict_quarter_divisions,
+        rhythm_maker=getato_rhythm_maker,
+#        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+#            talea=rhythmmakertools.Talea(
+#                counts=getato_counts,
+#                denominator=32,
+#                ),
+#            extra_counts_per_division=[4, 2],
+#            division_masks=[
+#                silence_every([0, 2, 3], period=4),
+#                ],
+#            ),
         ),
     )
 
-#counts = [5, -4, 3, 6]
-counts = [4, 14, 4, 6, 18]
+def make_counts(rotation=0):
+    counts = sequence([4, 14, 4, 6, 18])
+    counts = counts.rotate(n=rotation)
+    return counts
 
 segment_maker.append_specifiers(
     (vn_1, stages(5)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-            extra_counts_per_division=[2, 0, 1],
-            logical_tie_masks=[
-                silence_first(1),
-                ],
+            logical_tie_masks=silence([0, 1, 2], inverted=True),
             talea=rhythmmakertools.Talea(
-                counts=counts,
+                counts=make_counts(),
                 denominator=16,
                 ),
             tie_specifier=rhythmmakertools.TieSpecifier(
@@ -130,45 +140,25 @@ segment_maker.append_specifiers(
 segment_maker.copy_specifier(
     (vn_1, 5),
     (vn_2, stages(5)),
-    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -1),
-    rhythm_maker__division_masks=[
-        silence_first(4),
-        silence_last(1),
-        ],
+    rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
     )
 
 segment_maker.copy_specifier(
     (vn_1, 5),
     (va, stages(5)),
-    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
-    rhythm_maker__division_masks=[
-        silence_first(3),
-        ],
+    rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
     )
     
-segment_maker.copy_specifier(
-    (vn_1, 5),
-    (vc, stages(5)),
-    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
-    rhythm_maker__division_masks=[
-        silence_first(6),
-        ],
-    )
-
 segment_maker.append_specifiers(
     (vn_1, stages(7)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+            logical_tie_masks=silence([1, 2, 3], inverted=True),
             talea=rhythmmakertools.Talea(
-                counts=counts,
+                counts=make_counts(-2),
                 denominator=16,
                 ),
-            extra_counts_per_division=[2, 0, 1],
-            division_masks=[
-                silence_first(1),
-                silence_last(1),
-                ],
             tie_specifier=rhythmmakertools.TieSpecifier(
                 use_messiaen_style_ties=True,
                 ),
@@ -181,35 +171,31 @@ segment_maker.append_specifiers(
 
 segment_maker.copy_specifier(
     (vn_1, 7),
-    (va, stages(7)),
-    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -2),
-    rhythm_maker__division_masks=[
-        silence_first(2),
-        ],
+    (vn_2, stages(7)),
+    rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
     )
 
 segment_maker.copy_specifier(
     (vn_1, 7),
     (vc, stages(7)),
-    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
-    rhythm_maker__division_masks=[
-        ],
+    rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
     )
 
 segment_maker.append_specifiers(
-    (vn_2, stages(7)),
+    (va, stages(7)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-            talea=rhythmmakertools.Talea(
-                counts=getato_counts,
-                denominator=32,
-                ),
-            extra_counts_per_division=[4, 2],
-            division_masks=[
-                silence_last(2),
-                ],
-            ),
+        division_expression=strict_quarter_divisions,
+        rhythm_maker=getato_rhythm_maker,
+#        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+#            talea=rhythmmakertools.Talea(
+#                counts=getato_counts,
+#                denominator=32,
+#                ),
+#            extra_counts_per_division=[4, 2],
+#            division_masks=[
+#                silence_last(2),
+#                ],
+#            ),
         ),
     )
 
@@ -232,7 +218,7 @@ counts = [5, 4, 3, 6]
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=strict_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=[2, 0, 1],
             logical_tie_masks=[
@@ -280,7 +266,7 @@ segment_maker.append_specifiers(
         ],
     )
 
-segment_maker.append_each_specifier(
+segment_maker.append_specifiers(
     [(vn_2, 3), (va, 3)],
     [
         Dynamic('p'),
@@ -288,10 +274,10 @@ segment_maker.append_each_specifier(
         ],
     )
 
-segment_maker.append_each_specifier(
-    [(vn_2, 7)],
-    [
-        Dynamic('p'),
-        leggieriss,
-        ],
-    )
+#segment_maker.append_specifiers(
+#    [(vn_2, 7)],
+#    [
+#        Dynamic('p'),
+#        leggieriss,
+#        ],
+#    )
