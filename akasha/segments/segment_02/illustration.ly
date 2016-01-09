@@ -1,4 +1,4 @@
-% 2016-01-08 19:31
+% 2016-01-08 19:56
 
 \version "2.19.35"
 \language "english"
@@ -656,7 +656,12 @@
                         R1 * 7/4
                         \times 2/3 {
                             r16
-                            bf32 -\staccato [
+                            bf32 -\staccato \p [
+                                ^ \markup {
+                                    \larger
+                                        \italic
+                                            "leggierissimo (off-string bowing on staccati)"
+                                    }
                             b32 -\staccato ]
                             r8
                             r8
@@ -694,7 +699,12 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             r16
-                            bf32 -\staccato [
+                            bf32 -\staccato \p [
+                                ^ \markup {
+                                    \larger
+                                        \italic
+                                            leggieriss.
+                                    }
                             b32 -\staccato ]
                             r8
                             r8
@@ -794,7 +804,12 @@
                         R1 * 7/4
                         r4
                         \times 4/5 {
-                            bf32 -\staccato [
+                            bf32 -\staccato \p [
+                                ^ \markup {
+                                    \larger
+                                        \italic
+                                            "leggierissimo (off-string bowing on staccati)"
+                                    }
                             a32 -\staccato
                             af32 -\staccato ]
                             r32
