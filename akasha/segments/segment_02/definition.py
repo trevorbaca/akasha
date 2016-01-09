@@ -63,9 +63,9 @@ segment_maker.append_specifiers(
     [
         rhythm_specifier(cello_solo_rhythm_maker(rotation=0)),
         pitch_specifier(source=akasha.materials.cello_solo),
-        half_clt,
+        baca.markup.half_clt,
         Dynamic('mp'),
-        pochiss_vib,
+        baca.markup.pochiss_vib,
         ],
     )
 
@@ -108,36 +108,61 @@ def make_counts(rotation=0):
     counts = counts.rotate(index=rotation)
     return counts
 
-segment_maker.append_specifiers(
-    (vn_1, stages(5)),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-            logical_tie_masks=silence([0, 1, 2], inverted=True),
-            talea=rhythmmakertools.Talea(
-                counts=make_counts(),
-                denominator=16,
-                ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
-                ),
-            tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-                simplify_redundant_tuplets=True,
-                ),
+# HERE
+polyphony_rhythm_specifier_1 = baca.tools.RhythmSpecifier(
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        #logical_tie_masks=silence([0, 1, 2], inverted=True),
+        talea=rhythmmakertools.Talea(
+            counts=make_counts(),
+            denominator=16,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            simplify_redundant_tuplets=True,
             ),
         ),
     )
 
-segment_maker.copy_specifier(
-    (vn_1, 5),
-    (vn_2, stages(5)),
-    rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
+segment_maker.append_specifiers(
+    (vn_1, stages(5)),
+    [
+        new(
+            polyphony_rhythm_specifier_1,
+            rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
+            ),
+        pitch_specifier(source='E4 F4 E+4'),
+        baca.markup.tasto_slow_bow,
+        Dynamic('mp'),
+        ]
     )
 
-segment_maker.copy_specifier(
-    (vn_1, 5),
+segment_maker.append_specifiers(
+    (vn_2, stages(5)),
+    [
+        new(
+            polyphony_rhythm_specifier_1,
+            rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
+            ),
+        pitch_specifier(source='D4 D~4 C4'),
+        baca.markup.tasto_slow_bow,
+        Dynamic('mp'),
+        ]
+    )
+
+segment_maker.append_specifiers(
     (va, stages(5)),
-    rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
+    [
+        new(
+            polyphony_rhythm_specifier_1,
+            rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
+            ),
+        pitch_specifier(source='Eb4 D4 E4'),
+        baca.markup.tasto_slow_bow,
+        Dynamic('mp'),
+        ]
     )
     
 ### stages 7-8 ###
@@ -157,37 +182,42 @@ segment_maker.append_specifiers(
         ),
     )
 
+polyphony_rhythm_specifier_2 = new(
+    polyphony_rhythm_specifier_1,
+    rhythm_maker__talea__counts=make_counts(-2),
+    )
+
 segment_maker.append_specifiers(
     (vn_2, stages(7)),
-    baca.tools.RhythmSpecifier(
-        reference_meters=akasha.materials.reference_meters,
-        rewrite_meter=True,
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-            logical_tie_masks=silence([1, 2, 3], inverted=True),
-            talea=rhythmmakertools.Talea(
-                counts=make_counts(-2),
-                denominator=16,
-                ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
-                ),
-            tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-                simplify_redundant_tuplets=True,
-                ),
+    [
+        new(
+            polyphony_rhythm_specifier_2,
+            rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
             ),
-        ),
+        pitch_specifier(source='C#4 C#+4'),
+        ]
     )
 
-segment_maker.copy_specifier(
-    (vn_2, 7),
+segment_maker.append_specifiers(
     (va, stages(7)),
-    rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
+    [
+        new(
+            polyphony_rhythm_specifier_2,
+            rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
+            ),
+        pitch_specifier(source='C4'),
+        ]
     )
 
-segment_maker.copy_specifier(
-    (vn_2, 7),
+segment_maker.append_specifiers(
     (vc, stages(7)),
-    rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
+    [
+        new(
+            polyphony_rhythm_specifier_2,
+            rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
+            ),
+        pitch_specifier(source='C4 C~4 B3'),
+        ]
     )
 
 ### stages 9-10 ###
