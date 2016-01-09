@@ -1,4 +1,4 @@
-% 2016-01-09 11:10
+% 2016-01-09 15:11
 
 \version "2.19.35"
 \language "english"
@@ -242,7 +242,7 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 1
                         ^ \markup {
@@ -571,8 +571,21 @@
                         r2..
                         R1 * 1/4
                         r4
-                        c'4.
-                        c'2..
+                        r4
+                        r4
+                        r4
+                        \times 8/9 {
+                            c'32 [
+                            c'32
+                            c'32 ]
+                            r8.
+                        }
+                        \times 8/9 {
+                            r16.
+                            c'32 [
+                            c'32 ]
+                            r8
+                        }
                         R1 * 1/4
                         r4
                         r4
@@ -616,27 +629,25 @@
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 7/4
-                        \times 2/3 {
-                            r16
+                        \times 8/9 {
                             bf32 -\staccato \p [
                                 ^ \markup {
                                     \larger
                                         \italic
                                             "leggierissimo (off-string bowing on staccati)"
                                     }
+                            b32 -\staccato
+                            bf32 -\staccato ]
+                            r8.
+                        }
+                        \times 8/9 {
+                            r16.
+                            a32 -\staccato [
                             af32 -\staccato ]
                             r8
-                            r8
                         }
                         r4
                         r4
-                        \times 4/5 {
-                            r8
-                            r16
-                            cs'32 -\staccato [
-                            cs'32 -\staccato ]
-                            r16
-                        }
                         R1 * 1/4
                         r2.
                         r4.
@@ -645,9 +656,14 @@
                         c'4.
                         c'2
                         R1 * 1/4
-                        r2
-                        r8
-                        d'2..
+                        r4
+                        b4. \p
+                            ^ \markup {
+                                \larger
+                                    \italic
+                                        leggieriss.
+                                }
+                        cs'2..
                         R1 * 1/4
                         \times 2/3 {
                             r4
@@ -745,54 +761,20 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         R1 * 7/4
+                        r4
+                        r4
+                        r4
                         \times 8/9 {
+                            r8
                             bf32 -\staccato \p [
                                 ^ \markup {
                                     \larger
                                         \italic
                                             "leggierissimo (off-string bowing on staccati)"
                                     }
-                            b32 -\staccato
-                            a32 -\staccato
-                            bf32 -\staccato
-                            a32 -\staccato
-                            bf32 -\staccato
-                            b32 -\staccato
-                            cs'32 -\staccato
-                            c'32 -\staccato ]
-                        }
-                        \times 8/9 {
-                            b32 -\staccato [
-                            bf32 -\staccato
-                            c'32 -\staccato
-                            cs'32 -\staccato
-                            d'32 -\staccato
-                            cs'32 -\staccato
-                            ef'32 -\staccato
-                            e'32 -\staccato
-                            d'32 -\staccato ]
-                        }
-                        \times 8/9 {
-                            ef'32 -\staccato [
-                            bf32 -\staccato
-                            b32 -\staccato
-                            bf32 -\staccato
-                            a32 -\staccato
-                            af32 -\staccato
-                            bf32 -\staccato
                             a32 -\staccato
                             bf32 -\staccato ]
-                        }
-                        \times 8/9 {
-                            b32 -\staccato [
-                            cs'32 -\staccato
-                            c'32 -\staccato
-                            b32 -\staccato
-                            bf32 -\staccato
-                            c'32 -\staccato
-                            d'32 -\staccato
-                            ef'32 -\staccato
-                            e'32 -\staccato ]
+                            r16
                         }
                         R1 * 1/4
                         r4
@@ -803,72 +785,9 @@
                         c'4.
                         r2
                         R1 * 1/4
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32 ]
-                        }
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32 ]
-                        }
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32 ]
-                        }
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32 ]
-                        }
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32 ]
-                        }
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32
-                            c'32 ]
-                        }
+                        r2
+                        r8
+                        c'2..
                         R1 * 1/4
                         r4
                         r4

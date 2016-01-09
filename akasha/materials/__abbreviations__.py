@@ -54,7 +54,7 @@ messiaen_tied_note_rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
 
 def cello_solo_rhythm_maker(rotation=None):
     counts = sequencetools.Sequence([7, 1, 10, 2])
-    counts.rotate(n=rotation)
+    counts.rotate(index=rotation)
     return rhythmmakertools.TaleaRhythmMaker(
         talea=abjad.rhythmmakertools.Talea(
             counts=counts,
