@@ -39,7 +39,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
-    label_clock_time=True,
+    #label_clock_time=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     show_stage_annotations=True,
@@ -160,6 +160,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(7)),
     baca.tools.RhythmSpecifier(
+        reference_meters=akasha.materials.reference_meters,
         rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             logical_tie_masks=silence([1, 2, 3], inverted=True),
@@ -250,7 +251,7 @@ segment_maker.copy_specifier(
     )
 
 segment_maker.append_specifiers(
-    compound_scope([(vn_2, 3), (va, 3), (vn_2, 7)]),
+    compound_scope([(vn_2, 3), (va, 3), (vn_1, 7)]),
     [
         make_getato_pitch_specifier('Bb3'),
         staccati,
@@ -262,17 +263,9 @@ segment_maker.append_specifiers(
 ### LATER SPECIFIERS ###
 
 segment_maker.append_specifiers(
-    [(vn_2, 3), (va, 3)],
+    [(vn_2, 3), (va, 3), (vn_1, 7)],
     [
         Dynamic('p'),
         leggierissimo_off_string,
-        ],
-    )
-
-segment_maker.append_specifiers(
-    [(vn_2, 7)],
-    [
-        Dynamic('p'),
-        leggieriss,
         ],
     )
