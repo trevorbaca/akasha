@@ -276,5 +276,22 @@ segment_maker.append_specifiers(
     [
         make_getato_pitch_specifier('Bb3'),
         staccati,
+        Dynamic('p'),
+        ],
+    )
+
+segment_maker.append_each_specifier(
+    [(vn_2, 3), (va, 3)],
+    [
+        Dynamic('p'),
+        leggierissimo_off_string,
+        ],
+    )
+
+segment_maker.append_each_specifier(
+    [(vn_2, 7)],
+    [
+        Dynamic('p'),
+        leggieriss,
         ],
     )

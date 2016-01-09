@@ -91,6 +91,8 @@ second_line = Markup('(1-2/sec. in irregular rhythm)').line()
 sparse_cello_clicks = Markup.column([first_line, second_line], direction=Up)
 sparse_cello_clicks = sparse_cello_clicks.larger()
 
+leggieriss = Markup('leggieriss.', direction=Up).italic().larger()
+
 leggierissimo = Markup('leggierissimo', direction=Up).italic().larger()
 
 string = 'leggierissimo (off-string bowing on staccati)'
