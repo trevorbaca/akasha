@@ -31,36 +31,38 @@ class ScoreTemplate(abctools.AbjadValueObject):
                         \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                         }
                     >>
-                    \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
-                        \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                            \clef "treble"
-                            \set Staff.instrumentName = \markup { Violin }
-                            \set Staff.shortInstrumentName = \markup { Vn. }
-                            \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                    \context MusicContext = "Music Context" {
+                        \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+                            \context ViolinOneMusicStaff = "Violin One Music Staff" {
+                                \clef "treble"
+                                \set Staff.instrumentName = \markup { Violin 1 }
+                                \set Staff.shortInstrumentName = \markup { Vn. 1 }
+                                \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                                }
                             }
-                        }
-                        \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                            \clef "treble"
-                            \set Staff.instrumentName = \markup { Violin }
-                            \set Staff.shortInstrumentName = \markup { Vn. }
-                            \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                            \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
+                                \clef "treble"
+                                \set Staff.instrumentName = \markup { Violin 2 }
+                                \set Staff.shortInstrumentName = \markup { Vn. 2 }
+                                \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                                }
                             }
-                        }
-                        \context ViolaMusicStaff = "Viola Music Staff" {
-                            \clef "alto"
-                            \set Staff.instrumentName = \markup { Viola }
-                            \set Staff.shortInstrumentName = \markup { Va. }
-                            \context ViolaMusicVoice = "Viola Music Voice" {
+                            \context ViolaMusicStaff = "Viola Music Staff" {
+                                \clef "alto"
+                                \set Staff.instrumentName = \markup { Viola }
+                                \set Staff.shortInstrumentName = \markup { Va. }
+                                \context ViolaMusicVoice = "Viola Music Voice" {
+                                }
                             }
-                        }
-                        \context CelloMusicStaff = "Cello Music Staff" {
-                            \clef "bass"
-                            \set Staff.instrumentName = \markup { Cello }
-                            \set Staff.shortInstrumentName = \markup { Vc. }
-                            \context CelloMusicVoice = "Cello Music Voice" {
+                            \context CelloMusicStaff = "Cello Music Staff" {
+                                \clef "bass"
+                                \set Staff.instrumentName = \markup { Cello }
+                                \set Staff.shortInstrumentName = \markup { Vc. }
+                                \context CelloMusicVoice = "Cello Music Voice" {
+                                }
                             }
-                        }
-                    >>
+                        >>
+                    }
                 >>
 
         Returns score.

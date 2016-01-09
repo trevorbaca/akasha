@@ -56,6 +56,8 @@ segment_maker.validate_measures_per_stage()
 ################################# SPECIFIERS ##################################
 ###############################################################################
 
+### stages 1-2 ###
+
 segment_maker.append_specifiers(
     (vc, stages(1)),
     [
@@ -67,54 +69,43 @@ segment_maker.append_specifiers(
         ],
     )
 
+### stages 3-4 ###
+
 segment_maker.append_specifiers(
     (vn_2, stages(3)),
     rhythm_specifier(
         division_expression=strict_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             talea=rhythmmakertools.Talea(
-                counts=getato_counts,
+                counts=akasha.tools.make_perforated_counts(degree=1),
                 denominator=32,
                 ),
-            extra_counts_per_division=[4, 2],
-            division_masks=[
-                silence_every([1, 2], period=4),
-                ],
+            extra_counts_per_division=[1],
+            division_masks=silence([0, 1], inverted=True),
             ),
         ),
-    )
-
-getato_rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
-    talea=rhythmmakertools.Talea(
-        #counts=getato_counts,
-        counts=[1],
-        denominator=32,
-        ),
-    #extra_counts_per_division=[4, 2],
-    extra_counts_per_division=[1],
     )
 
 segment_maker.append_specifiers(
     (va, stages(3)),
     baca.tools.RhythmSpecifier(
         division_expression=strict_quarter_divisions,
-        rhythm_maker=getato_rhythm_maker,
-#        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-#            talea=rhythmmakertools.Talea(
-#                counts=getato_counts,
-#                denominator=32,
-#                ),
-#            extra_counts_per_division=[4, 2],
-#            division_masks=[
-#                silence_every([0, 2, 3], period=4),
-#                ],
-#            ),
+        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+            talea=rhythmmakertools.Talea(
+                counts=akasha.tools.make_perforated_counts(degree=1),
+                denominator=32,
+                ),
+            extra_counts_per_division=[1],
+            division_masks=silence([-1], inverted=True),
+            ),
         ),
     )
 
+### stages 5-6 ###
+
 def make_counts(rotation=0):
     counts = sequence([4, 14, 4, 6, 18])
-    counts = counts.rotate(n=rotation)
+    counts = counts.rotate(index=rotation)
     return counts
 
 segment_maker.append_specifiers(
@@ -149,8 +140,25 @@ segment_maker.copy_specifier(
     rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
     )
     
+### stages 7-8 ###
+
 segment_maker.append_specifiers(
     (vn_1, stages(7)),
+    baca.tools.RhythmSpecifier(
+        division_expression=strict_quarter_divisions,
+        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+            division_masks=silence([-2, -1], inverted=True),
+            extra_counts_per_division=[1],
+            talea=rhythmmakertools.Talea(
+                counts=akasha.tools.make_perforated_counts(degree=1),
+                denominator=32,
+                ),
+            ),
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(7)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
@@ -170,34 +178,18 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.copy_specifier(
-    (vn_1, 7),
-    (vn_2, stages(7)),
+    (vn_2, 7),
+    (va, stages(7)),
     rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
     )
 
 segment_maker.copy_specifier(
-    (vn_1, 7),
+    (vn_2, 7),
     (vc, stages(7)),
     rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(7)),
-    baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
-        rhythm_maker=getato_rhythm_maker,
-#        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-#            talea=rhythmmakertools.Talea(
-#                counts=getato_counts,
-#                denominator=32,
-#                ),
-#            extra_counts_per_division=[4, 2],
-#            division_masks=[
-#                silence_last(2),
-#                ],
-#            ),
-        ),
-    )
+### stages 9-10 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(9)),
@@ -262,9 +254,12 @@ segment_maker.append_specifiers(
     [
         make_getato_pitch_specifier('Bb3'),
         staccati,
-        Dynamic('p'),
         ],
     )
+
+### stages 11-? ###
+
+### LATER SPECIFIERS ###
 
 segment_maker.append_specifiers(
     [(vn_2, 3), (va, 3)],
@@ -274,10 +269,10 @@ segment_maker.append_specifiers(
         ],
     )
 
-#segment_maker.append_specifiers(
-#    [(vn_2, 7)],
-#    [
-#        Dynamic('p'),
-#        leggieriss,
-#        ],
-#    )
+segment_maker.append_specifiers(
+    [(vn_2, 7)],
+    [
+        Dynamic('p'),
+        leggieriss,
+        ],
+    )

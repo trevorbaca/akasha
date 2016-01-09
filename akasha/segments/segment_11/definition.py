@@ -59,7 +59,7 @@ segment_maker.validate_measures_per_stage()
 
 def extra_counts_per_division(n):
     counts = Sequence([6, 4, 6, 3])
-    return counts.rotate(n=n)
+    return counts.rotate(index=n)
 
 off_string_rhythm_maker = rhythmmakertools.EvenDivisionRhythmMaker(
     burnish_specifier=rhythmmakertools.BurnishSpecifier(

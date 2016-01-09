@@ -58,7 +58,7 @@ def _make_viola_divisions(rotation=0):
     durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     durations = [Duration(_) for _ in durations]
     durations = Sequence(durations)
-    durations = durations.rotate(n=rotation)
+    durations = durations.rotate(index=rotation)
     expression = sequence()
     expression = expression.sum()
     expression = expression.sequence()
