@@ -1,4 +1,4 @@
-% 2016-01-10 16:45
+% 2016-01-10 17:49
 
 \version "2.19.35"
 \language "english"
@@ -81,23 +81,10 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 9/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     \mark #2
-                    s1 * 9/8
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'00''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [B1]
-                            }
-                        ^ \markup {
+                    s1 * 9/8 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -115,146 +102,62 @@
                         }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 9/8
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'04''
-                            }
                 }
                 {
                     \time 4/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'09''
-                            }
                 }
                 {
                     \time 8/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'12''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [B2]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [B3]
-                            }
                 }
                 {
                     \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                     \newSpacingSection
                     s1 * 3/8
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'17''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [B4]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [B5]
-                            }
                 }
                 {
                     \time 4/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 1/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'20''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [B6]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [B7]
-                            }
                 }
                 {
                     \time 7/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 7/8
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'23''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [B8]
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 7/8
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'27''
-                            }
                 }
             }
         >>
@@ -315,58 +218,16 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 249/32 [
-                            c'16 * 43/8
-                            c'16 * 179/64
-                            c'16 * 131/64 ]
+                            e''16 * 249/32 [
+                            r16 * 43/8
+                            d''16 * 179/64
+                            e''16 * 131/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        \override TupletNumber #'text = \markup {
-                            \scale
-                                #'(0.75 . 0.75)
-                                \score
-                                    {
-                                        \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
-                                            proportionalNotationDuration = ##f
-                                        } <<
-                                            \new RhythmicStaff \with {
-                                                \remove Time_signature_engraver
-                                                \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                                tupletFullLength = ##t
-                                            } {
-                                                c'1. ~
-                                                c'8
-                                            }
-                                        >>
-                                        \layout {
-                                            indent = #0
-                                            ragged-right = ##t
-                                        }
-                                    }
-                            }
-                        \times 1/1 {
-                            \once \override Beam #'grow-direction = #left
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 51/32 [
-                            c'16 * 53/32
-                            c'16 * 15/8
-                            c'16 * 73/32
-                            c'16 * 189/64
-                            c'16 * 255/64
-                            c'16 * 171/32
-                            c'16 * 101/16 ]
-                            \revert Staff.Stem #'stemlet-length
-                        }
-                        \revert TupletNumber #'text
+                        r1
+                        r8
+                        r2
                         R1 * 35/8
                         \bar "|"
                     }
@@ -392,13 +253,17 @@
                             }
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        c'4
-                        c'2..
-                        c'4
-                        c'8
-                        c'4 \repeatTie
-                        c'2
-                        c'2 \repeatTie
+                        ds'4 \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + slow bow (poco scratch)"
+                                }
+                        e'2..
+                        f'4
+                        fqf'8
+                        fqf'4 \repeatTie
+                        e'2
+                        e'2 \repeatTie
                         R1 * 21/8
                         \override TupletNumber #'text = \markup {
                             \scale
@@ -433,13 +298,17 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 487/64 [
-                            c'16 * 209/32
-                            c'16 * 143/32
+                            c''16 * 487/64 \pp [
+                                ^ \markup {
+                                    \upright
+                                        "tasto + XFB flaut."
+                                    }
+                            bf'16 * 209/32
+                            c''16 * 143/32
                             r16 * 197/64
-                            c'16 * 19/8
-                            c'16 * 65/32
-                            c'16 * 61/32 ]
+                            bf'16 * 19/8
+                            c''16 * 65/32
+                            bf'16 * 61/32 ]
                             \bar "|"
                             \revert Staff.Stem #'stemlet-length
                         }
@@ -459,15 +328,21 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        r4.
+                        r4
+                        df'2
+                        df'4. \repeatTie
+                        df'4 \repeatTie
+                        dtqf'8 [
+                        dtqf'8 \repeatTie ]
                         c'4
-                        c'2..
-                        c'4
-                        c'8
-                        c'4 \repeatTie
-                        c'2
                         c'2 \repeatTie
                         R1 * 7/2
-                        c'2..
+                        ds2.. \mp
+                            ^ \markup {
+                                \upright
+                                    tasto
+                                }
                         \bar "|"
                     }
                 }
@@ -484,128 +359,105 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32 ]
-                            r8.
-                        }
-                        \times 8/9 {
-                            r16.
-                            c'32 [
-                            c'32 ]
-                            r8
-                        }
+                        r4
+                        r4
+                        r4
+                        r4
+                        r8
                         \times 8/9 {
                             r16.
-                            c'32
-                            r8
-                            r32
-                        }
-                        \times 8/9 {
-                            r8
-                            c'32 [
-                            c'32
-                            c'32 ]
+                            bf32 -\staccato [
+                            a32 -\staccato
+                            bf32 -\staccato
+                            b32 -\staccato ]
                             r16
+                        }
+                        r4
+                        r4
+                        r4
+                        r8
+                        {
+                            r8.
+                            c'32 -\staccato [
+                            bf32 -\staccato ]
                         }
                         \times 4/5 {
-                            c'32 [
-                            c'32
-                            c'32 ]
-                            r16
+                            b32 -\staccato [
+                            bf32 -\staccato
+                            a32 -\staccato
+                            g32 -\staccato
+                            af32 -\staccato
+                            a32 -\staccato ]
+                            r8
                         }
                         \times 8/9 {
-                            r8..
-                            c'32 [
-                            c'32 ]
-                        }
-                        \times 8/9 {
-                            r8..
-                            c'32
+                            r8
+                            bf32 -\staccato [
+                            af32 -\staccato
+                            g32 -\staccato
+                            fs32 -\staccato ]
                             r32
+                        }
+                        \times 8/9 {
+                            r16.
+                            g32 -\staccato [
+                            f32 -\staccato
+                            e32 -\staccato
+                            fs32 -\staccato
+                            f32 -\staccato
+                            g32 -\staccato ]
+                        }
+                        {
+                            fs32 -\staccato [
+                            g32 -\staccato ]
+                            r8
+                            af32 -\staccato [
+                            a32 -\staccato ]
+                        }
+                        \times 4/5 {
+                            g32 -\staccato [
+                            af32 -\staccato
+                            g32 -\staccato
+                            fs32 -\staccato
+                            e32 -\staccato
+                            f32 -\staccato ]
+                            r8
+                        }
+                        R1 * 1/4
+                        \times 8/9 {
+                            fs32 -\staccato [
+                            g32 -\staccato
+                            f32 -\staccato
+                            e32 -\staccato
+                            ef32 -\staccato ]
+                            r8
+                        }
+                        \times 4/5 {
+                            e32 -\staccato [
+                            d32 -\staccato
+                            cs32 -\staccato
+                            ef32 -\staccato ]
+                            r32
+                        }
+                        R1 * 1/4
+                        \times 8/9 {
+                            d32 -\staccato
+                            r8
+                            e32 -\staccato [
+                            ef32 -\staccato
+                            e32 -\staccato
+                            f32 -\staccato ]
                         }
                         \times 8/9 {
                             r4
-                            c'32
-                        }
-                        \times 8/9 {
-                            c'32 [
-                            c'32 ]
-                            r16
-                            c'32 [
-                            c'32
-                            c'32 ]
-                            r16
-                        }
-                        \times 4/5 {
-                            r8
-                            r32
-                        }
-                        \times 8/9 {
-                            r16
-                            c'32 [
-                            c'32 ]
-                            r8
-                            r32
-                        }
-                        \times 8/9 {
-                            r16
-                            c'32
-                            r8.
-                        }
-                        \times 8/9 {
-                            r16.
-                            c'32 [
-                            c'32
-                            c'32 ]
-                            r16
-                            c'32
-                        }
-                        \times 8/9 {
-                            c'32 [
-                            c'32 ]
-                            r8..
-                        }
-                        \times 8/9 {
-                            r16
-                            c'32 [
-                            c'32 ]
-                            r8
-                            r32
-                        }
-                        \times 8/9 {
-                            r16
-                            c'32
-                            r8.
-                        }
-                        R1 * 1/4
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32 ]
-                            r8.
-                        }
-                        \times 4/5 {
-                            r16.
-                            c'32 [
-                            c'32 ]
-                        }
-                        R1 * 1/4
-                        \times 8/9 {
-                            c'32 [
-                            c'32
-                            c'32 ]
-                            r8.
-                        }
-                        \times 8/9 {
-                            r16.
-                            c'32 [
-                            c'32 ]
-                            r8
+                            fs32 -\staccato
                         }
                         R1 * 9/8
-                        c'2..
+                        cs,2.. \mp
+                            ^ \markup {
+                                \upright
+                                    tasto
+                                }
                         \bar "|"
                     }
                 }
