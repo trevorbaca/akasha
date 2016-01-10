@@ -15,42 +15,42 @@ M: B[30]
 intro (15")
 
 [A] (30")
-    1-2 (2+halt)
+    1-2 (2 + long fermata)
     microtonal cello line;
-    halt;
+    long fermata;
 
-    3-4 (1+halt)
+    3-4 (1 + long fermata)
     extremely thin get. pianiss.;
-    halt;
+    long fermata;
 
-    5-6 (2+halt)
+    5-6 (2 + short fermata)
     microtonal polyphony in multiple instruments with moments of harmony;
-    breath;
+    short fermata;
 
-    7-8 (1+halt)
+    7-8 (1 + short fermata)
     microtonal polyphony in multiple instruments with moments of harmony;
     mixed with extremely thin get. pianiss.;
-    breath;
+    short fermata;
 
-    9-10 (3+halt).
+    9-10 (3 + long fermata)
     microtonal polyphony in multiple instruments with moments of harmony;
-    isolated three-note tasto loops fully contained by longer duration notes
-    in microtonal polyphony;
-    breath;
+    isolated three-note tasto loops;
+    long fermata;
 
-    11-12 (1+halt)
+    11-12 (1 + long fermata)
     microtonal polyphony in multiple instruments with moments of harmony;
     isolated three-note tasto loops fully contained by longer duration
     notes in microtonal polyphony;
-    halt;
+    long fermata;
 
-    13-14 (1+halt)
+    13-14 (1 + long fermata)
     three-note tasto loops with first hint of repetition;
-    halt;
+    long fermata;
 
-    15-16 (1+halt)
-    tasto loops broken apart; dialogue with ext. thin get. pianiss.;
-    breath;
+    15-16 (1 + short fermata)
+    tasto loops broken apart;
+    dialogue with ext. thin get. pianiss.;
+    short fermata;
 
 [B] (30")
     1(3). two-voice microtonal harmonies animated according to one rhythm; 

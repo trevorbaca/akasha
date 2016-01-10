@@ -1,4 +1,4 @@
-% 2016-01-09 17:28
+% 2016-01-09 18:14
 
 \version "2.19.35"
 \language "english"
@@ -29,7 +29,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -44,7 +44,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -100,7 +100,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ushortfermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -115,7 +115,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -130,7 +130,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -188,13 +188,6 @@
                     \newSpacingSection
                     \mark #1
                     s1 * 3/4 \startTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A1]
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -205,15 +198,7 @@
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A2]
-                            }
-                        ^ \markup {
+                    s1 * 1/4 \stopTextSpan ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -235,26 +220,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 1
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A3]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A4]
-                            }
                 }
                 {
                     \time 5/4
@@ -293,13 +264,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4 \startTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A5]
-                            }
                 }
                 {
                     \time 4/4
@@ -312,40 +276,18 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A6]
-                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A7]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A8]
-                            }
-                        ^ \markup {
+                    s1 * 1/4 \stopTextSpan ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -364,25 +306,18 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A9]
-                            }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
                 }
@@ -391,91 +326,42 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A10]
-                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A11]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A12]
-                            }
                 }
                 {
                     \time 5/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A13]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A14]
-                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A15]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A16]
-                            }
                 }
             }
         >>
@@ -536,22 +422,20 @@
                             r8
                         }
                         R1 * 1/4
+                        r2.
+                        r2
+                        d''4 \pp
+                            ^ \markup {
+                                \upright
+                                    "tasto + XFB flaut."
+                                }
+                        e''4
                         r4
+                        d''4
                         r4
-                        r4
-                        r4
-                        r4
-                        c'4
-                        c'4
-                        r4
-                        c'4
-                        r4
-                        c'4
-                        c'4
-                        r4
-                        r4
-                        r4
-                        r4
+                        e''4
+                        d''4
+                        r1
                         R1 * 9/2
                         \bar "|"
                     }
@@ -613,84 +497,21 @@
                         cs'4.
                         ctqs'2..
                         R1 * 1/4
-                        \times 2/3 {
-                            r4
-                            r8
-                        }
-                        {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
-                        }
-                        \times 4/5 {
-                            c'8. \repeatTie [
-                            c'8 ]
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8 \repeatTie [
-                            c'8 ]
-                        }
-                        {
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        \times 4/5 {
-                            r4
-                            r16
-                        }
-                        \times 2/3 {
-                            r16
-                            r4
-                            r16
-                        }
-                        {
-                            r4
-                        }
-                        \times 4/5 {
-                            r8.
-                            c'8
-                        }
-                        \times 2/3 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'8
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. \repeatTie [
-                            c'16 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. \repeatTie [
-                            c'8 ]
-                        }
-                        \times 2/3 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'16 \repeatTie
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
-                            c'16 \repeatTie
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        \times 4/5 {
-                            c'8 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        \times 2/3 {
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
-                            c'8 ]
-                        }
+                        r1.
+                        r4
+                        bf'4 \pp
+                            ^ \markup {
+                                \upright
+                                    "tasto + XFB flaut."
+                                }
+                        r4
+                        c''4
+                        bf'4
+                        r4
+                        r4
+                        c''4
+                        bf'4
+                        r4
                         R1 * 9/2
                         \bar "|"
                     }
@@ -741,22 +562,16 @@
                         r8
                         c'2..
                         R1 * 1/4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        c'4
-                        r4
-                        c'4
-                        c'4
-                        c'4
-                        r4
-                        c'4
-                        r4
-                        r4
-                        r4
-                        r4
+                        d'2.
+                        d'4. \repeatTie
+                        dqs'8 [
+                        dqs'8 \repeatTie
+                        ds'8 ]
+                        ds'2. \repeatTie
+                        e'4
+                        fs'4.
+                        f'8
+                        f'1 \repeatTie
                         R1 * 9/2
                         \bar "|"
                     }
@@ -791,81 +606,25 @@
                         fs8
                         c4
                         R1 * 4
-                        c'4
+                        c'4 \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + XFB flaut."
+                                }
                         cqf'4.
                         b2..
                         R1 * 1/4
-                        {
-                            c'4
-                        }
-                        {
-                            c'4
-                        }
-                        \times 4/5 {
-                            c'16 \repeatTie
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
-                        }
-                        {
-                            c'8 [
-                            c'8 ]
-                        }
-                        {
-                            c'8. \repeatTie [
-                            c'16 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            r16
-                        }
-                        {
-                            r8
-                            r8
-                        }
-                        {
-                            r4
-                        }
-                        \times 4/5 {
-                            r8
-                            r8.
-                        }
-                        \times 2/3 {
-                            r8
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
-                        }
-                        {
-                            c'8. [
-                            c'16 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'16 \repeatTie
-                        }
-                        \times 2/3 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'16 ]
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. \repeatTie [
-                            c'16 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        {
-                            c'8 \repeatTie [
-                            c'8 ]
-                        }
+                        bf2..
+                        btqf8 [
+                        btqf8 \repeatTie ]
+                        a4.
+                        af2.
+                        af4. \repeatTie
+                        g8 [
+                        g8 \repeatTie
+                        a8 ]
+                        a2. \repeatTie
+                        r4
                         R1 * 9/2
                         \bar "|"
                     }
