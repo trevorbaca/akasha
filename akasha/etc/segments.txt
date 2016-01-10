@@ -69,17 +69,22 @@ intro (15")
     attaca;
 
 [C] (45")
+
     1-3(1+halt+2). sputtering exposition of detuned va, vc octave: time is 
     frozen during octave but very small glissandi lentissimi attempt to 
     activate the field of the detuned octave; attempt gets underway; then 
     stops; then attempts to get underway; then stops; and so on. introduces 
     surprisingly short duration in middle of chain of attempts
+
     4(2). detuned octave field grows quiet under diminiuendo that leads to va, 
     vc OB; recapitulation of get. pianiss. descent
+
     5-7(1+halt+1). get. pianiss. descent stalls and is interrupted by single 
     scratch detache; scratch begins to align rhythmically with OB underneath;
+
     8(2). OB continues with rhythm of sputtering exposition introduced in first
     stage of segment; [two-voice microtonal harmonies recall previous segment]
+
     9(1+halt). short end-cap of first appearance of trill combined with detuned 
     octave combined with OB; segment ends with question mark
 

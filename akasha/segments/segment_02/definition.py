@@ -69,7 +69,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(3)),
     new(
-        akasha.materials.sparse_getato_rhythm_specifier,
+        akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence([0, 1], inverted=True),
         )
     )
@@ -77,7 +77,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(3)),
     new(
-        akasha.materials.sparse_getato_rhythm_specifier,
+        akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence([-1], inverted=True),
         )
     )
@@ -128,7 +128,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(7)),
     new(
-        akasha.materials.sparse_getato_rhythm_specifier,
+        akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence([-2, -1], inverted=True),
         )
     )
@@ -295,7 +295,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(15)),
     new(
-        akasha.materials.sparse_getato_rhythm_specifier,
+        akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence([1], inverted=True),
         )
     )
