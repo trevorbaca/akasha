@@ -30,7 +30,7 @@ segment_maker = baca.tools.SegmentMaker(
     label_clock_time=False,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    show_stage_annotations=False,
+    label_stage_numbers=False,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -43,9 +43,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     (va, stages(1)),
     [
-        baca.tools.RhythmSpecifier(
-            rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-            ),
+        baca.rhythm.messiaen_tied_note_rhythm_specifier,
         baca.markup.OB_no_pitch,
         baca.tools.PitchSpecifier(source='B3'),
         ],
