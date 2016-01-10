@@ -18,7 +18,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -33,7 +33,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -89,7 +89,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ushortfermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -104,7 +104,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -119,7 +119,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -177,42 +177,17 @@
                     \newSpacingSection
                     \mark #1
                     s1 * 3/4 \startTextSpan
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'00''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A1]
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'04''
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A2]
-                            }
-                        ^ \markup {
+                    s1 * 1/4 \stopTextSpan ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -231,34 +206,15 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'09''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A3]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A4]
-                            }
                 }
                 {
                     \time 5/4
@@ -294,77 +250,33 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4 \startTextSpan
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'14''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A5]
-                            }
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'21''
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A6]
-                            }
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 128)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'28''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A7]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A8]
-                            }
-                        ^ \markup {
+                    s1 * 1/4 \stopTextSpan ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -383,148 +295,62 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 64)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'37''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A9]
-                            }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 64)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'44''
-                            }
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'50''
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A10]
-                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                0'56''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A11]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A12]
-                            }
                 }
                 {
                     \time 5/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'03''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A13]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A14]
-                            }
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 3/4
-                        ^ \markup {
-                            \fontsize
-                                #-2
-                                1'10''
-                            }
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A15]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A16]
-                            }
                 }
             }
         >>
@@ -552,72 +378,66 @@
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         R1 * 3
-                        \times 2/3 {
-                            r4
-                            c'8
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                        }
-                        \times 4/5 {
-                            c'4 \repeatTie
-                            c'16 \repeatTie
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8 \repeatTie [
-                            c'8 ]
-                        }
-                        {
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        \times 4/5 {
-                            c'8. \repeatTie [
-                            c'8 ]
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                        }
-                        {
-                            c'4 \repeatTie
-                        }
-                        \times 4/5 {
-                            c'4 \repeatTie
-                            c'16 \repeatTie
-                        }
-                        R1 * 1/4
-                        r4.
-                        {
-                            c'4.
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
-                            c'4
-                            c'8.
-                        }
-                        r4.
+                        e'4 \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + slow bow (poco scratch)"
+                                }
+                        f'2
+                        f'4. \repeatTie
+                        eqs'8
+                        eqs'8 \repeatTie
+                        r2..
                         R1 * 1/4
                         r4
                         r4
                         r4
                         r4
+                        \times 8/9 {
+                            b32 -\staccato \p [
+                                ^ \markup {
+                                    \larger
+                                        \italic
+                                            "leggierissimo (off-string bowing on staccati)"
+                                    }
+                            cs'32 -\staccato
+                            c'32 -\staccato ]
+                            r8.
+                        }
+                        \times 8/9 {
+                            r16.
+                            b32 -\staccato [
+                            bf32 -\staccato ]
+                            r8
+                        }
+                        R1 * 1/4
+                        r2.
+                        r2
+                        d''4 \pp
+                            ^ \markup {
+                                \upright
+                                    "tasto + XFB flaut."
+                                }
+                        e''4
                         r4
-                        c'4
-                        c'4
+                        d''4
                         r4
-                        c'4
+                        e''4
+                        d''4
+                        r1
+                        R1 * 1/4
+                        e''4
+                        d''4
                         r4
-                        c'4
-                        c'4
+                        e''4
+                        r2
+                        R1 * 1/4
+                        d''4
+                        e''4
+                        d''4
+                        e''4
                         r4
-                        r4
-                        r4
-                        r4
-                        R1 * 9/2
+                        R1 * 5/4
                         \bar "|"
                     }
                 }
@@ -643,127 +463,73 @@
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 7/4
-                        \times 2/3 {
-                            r16
-                            c'32 [
-                            c'32 ]
-                            r8
-                            r8
-                        }
-                        r4
-                        r4
-                        \times 4/5 {
-                            r8
-                            r16
-                            c'32 [
-                            c'32 ]
-                            r16
-                        }
-                        R1 * 1/4
-                        r4
-                        r4
-                        r4
-                        r4
-                        {
-                            c'8. [
-                            c'16 ]
-                        }
-                        \times 4/5 {
-                            c'4
-                            c'16
-                        }
-                        {
-                            c'4
-                        }
-                        {
-                            c'4
-                        }
-                        r4
-                        R1 * 1/4
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r16
-                            c'32 [
-                            c'32 ]
-                            r8
-                            r8
-                            c'32 [
-                            c'32
-                            c'32 ]
-                            r32
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
-                            r4..
-                        }
-                        r4.
-                        r4.
-                        R1 * 1/4
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r4
+                        \times 8/9 {
+                            bf32 -\staccato \p [
+                                ^ \markup {
+                                    \larger
+                                        \italic
+                                            "leggierissimo (off-string bowing on staccati)"
+                                    }
+                            b32 -\staccato
+                            bf32 -\staccato ]
                             r8.
-                            c'16
                         }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'16 ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'8.
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                            r4
-                        }
-                        {
-                            r8
-                            r4
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
-                            r16
-                            r4
+                        \times 8/9 {
+                            r16.
+                            a32 -\staccato [
+                            af32 -\staccato ]
                             r8
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4.
-                            c'16
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'8
-                        }
-                        \times 4/5 {
-                            c'8 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
-                        {
-                            c'4
-                        }
-                        {
-                            c'4
-                        }
-                        \times 4/5 {
-                            c'16 \repeatTie
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
-                        }
-                        R1 * 9/2
+                        r4
+                        r4
+                        R1 * 1/4
+                        r2.
+                        r4.
+                        d'8 \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + slow bow (poco scratch)"
+                                }
+                        d'8 \repeatTie
+                        dqf'4.
+                        c'2
+                        R1 * 1/4
+                        r4
+                        cs'4.
+                        ctqs'2..
+                        R1 * 1/4
+                        r1.
+                        r4
+                        bf'4 \pp
+                            ^ \markup {
+                                \upright
+                                    "tasto + XFB flaut."
+                                }
+                        r4
+                        c''4
+                        bf'4
+                        r4
+                        r4
+                        c''4
+                        bf'4
+                        r4
+                        R1 * 1/4
+                        r4
+                        c''4
+                        bf'4
+                        c''4
+                        r4
+                        bf'4
+                        R1 * 1/4
+                        r4
+                        c''4
+                        r4
+                        bf'4
+                        c''4
+                        R1 * 1/4
+                        r2
+                        bf'4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -782,71 +548,52 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         R1 * 7/4
                         r4
-                        \times 4/5 {
-                            c'32 [
-                            c'32
-                            c'32 ]
-                            r32
-                            r8.
-                        }
                         r4
                         r4
-                        R1 * 1/4
-                        r4
-                        r4
-                        r4
-                        {
-                            c'4
-                        }
-                        {
-                            c'4
-                        }
-                        \times 4/5 {
-                            c'8. [
-                            c'8 ]
-                        }
-                        \times 2/3 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8 \repeatTie
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
-                        }
-                        {
-                            c'4 \repeatTie
-                        }
-                        \times 4/5 {
-                            c'4 \repeatTie
-                            c'16 \repeatTie
-                        }
-                        R1 * 1/4
-                        r4.
-                        r4.
-                        {
-                            c'4.
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            c'4..
-                            c'16
+                        \times 8/9 {
+                            r8
+                            bf32 -\staccato \p [
+                                ^ \markup {
+                                    \larger
+                                        \italic
+                                            "leggierissimo (off-string bowing on staccati)"
+                                    }
+                            a32 -\staccato
+                            bf32 -\staccato ]
+                            r16
                         }
                         R1 * 1/4
                         r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        c'4
-                        r4
-                        c'4
-                        c'4
-                        c'4
-                        r4
-                        c'4
-                        r4
-                        r4
-                        r4
-                        r4
-                        R1 * 9/2
+                        ef'2 \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + slow bow (poco scratch)"
+                                }
+                        ef'4. \repeatTie
+                        d'8
+                        d'8 \repeatTie
+                        e'4.
+                        r2
+                        R1 * 1/4
+                        r2
+                        r8
+                        c'2..
+                        R1 * 1/4
+                        d'2.
+                        d'4. \repeatTie
+                        dqs'8 [
+                        dqs'8 \repeatTie
+                        ds'8 ]
+                        ds'2. \repeatTie
+                        e'4
+                        fs'4.
+                        f'8
+                        f'1 \repeatTie
+                        R1 * 1/4
+                        ef'4.
+                        d'4.
+                        d'2. \repeatTie
+                        R1 * 11/4
                         \bar "|"
                     }
                 }
@@ -879,109 +626,48 @@
                         fqs4. \repeatTie
                         fs8
                         c4
-                        R1 * 3/2
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        r4
-                        {
-                            c'4
-                        }
-                        {
-                            c'4
-                        }
-                        \times 4/5 {
-                            c'8 [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
-                        }
+                        R1 * 4
+                        c'4 \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + slow bow (poco scratch)"
+                                }
+                        cqf'4.
+                        b2..
                         R1 * 1/4
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            c'4.
-                            c'8
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4. \repeatTie
-                        }
-                        {
-                            c'4. \repeatTie
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            c'8. \repeatTie
-                            c'4
-                            c'16
-                        }
+                        bf2..
+                        btqf8 [
+                        btqf8 \repeatTie ]
+                        a4.
+                        af2.
+                        af4. \repeatTie
+                        g8 [
+                        g8 \repeatTie
+                        a8 ]
+                        a2. \repeatTie
+                        r4
                         R1 * 1/4
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            c'4.
-                            c'8
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. \repeatTie [
-                            c'8. ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
-                            c'8. ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            c'8. \repeatTie
-                            c'4
-                            c'16 \repeatTie
-                        }
-                        {
-                            r4
+                        a4
+                        as2
+                        as4. \repeatTie
+                        b8 [
+                        b8 \repeatTie ]
+                        r8
+                        R1 * 7/4
+                        r4
+                        \times 8/9 {
+                            r16.
+                            c'32 -\staccato \p [
+                                ^ \markup {
+                                    \larger
+                                        \italic
+                                            "leggierissimo (off-string bowing on staccati)"
+                                    }
+                            cs'32 -\staccato ]
                             r8
                         }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/7 {
-                            r16
-                            r4.
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 3/4 {
-                            r4
-                            r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
-                        }
-                        {
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            c'4 \repeatTie
-                            c'16
-                        }
-                        \times 2/3 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'8
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8 \repeatTie [
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            c'16 \repeatTie
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
-                        }
-                        R1 * 9/2
+                        r4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
