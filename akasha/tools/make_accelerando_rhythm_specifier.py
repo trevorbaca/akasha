@@ -3,10 +3,10 @@ import baca
 from abjad import *
 
 
-def make_accelerando_rhythm_specifier():
+def make_accelerando_rhythm_specifier(fuse_counts=(1, 2)):
     return baca.tools.RhythmSpecifier(
         division_expression=sequence()
-            .partition_by_counts([1, 2], cyclic=True, overhang=True)
+            .partition_by_counts(fuse_counts, cyclic=True, overhang=True)
             .map()
             .sum()
             .flatten()
