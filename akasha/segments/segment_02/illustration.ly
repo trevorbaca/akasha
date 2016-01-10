@@ -1,4 +1,4 @@
-% 2016-01-09 18:14
+% 2016-01-09 18:40
 
 \version "2.19.35"
 \language "english"
@@ -353,7 +353,7 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 3/4
                 }
@@ -436,7 +436,19 @@
                         e''4
                         d''4
                         r1
-                        R1 * 9/2
+                        R1 * 1/4
+                        e''4
+                        d''4
+                        r4
+                        e''4
+                        r2
+                        R1 * 1/4
+                        d''4
+                        e''4
+                        d''4
+                        e''4
+                        r4
+                        R1 * 5/4
                         \bar "|"
                     }
                 }
@@ -512,7 +524,23 @@
                         c''4
                         bf'4
                         r4
-                        R1 * 9/2
+                        R1 * 1/4
+                        r4
+                        c''4
+                        bf'4
+                        c''4
+                        r4
+                        bf'4
+                        R1 * 1/4
+                        r4
+                        c''4
+                        r4
+                        bf'4
+                        c''4
+                        R1 * 1/4
+                        r2
+                        bf'4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -572,7 +600,11 @@
                         fs'4.
                         f'8
                         f'1 \repeatTie
-                        R1 * 9/2
+                        R1 * 1/4
+                        ef'4.
+                        d'4.
+                        d'2. \repeatTie
+                        R1 * 11/4
                         \bar "|"
                     }
                 }
@@ -609,7 +641,7 @@
                         c'4 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + XFB flaut."
+                                    "tasto + slow bow (poco scratch)"
                                 }
                         cqf'4.
                         b2..
@@ -625,7 +657,28 @@
                         a8 ]
                         a2. \repeatTie
                         r4
-                        R1 * 9/2
+                        R1 * 1/4
+                        a4
+                        as2
+                        as4. \repeatTie
+                        b8 [
+                        b8 \repeatTie ]
+                        r8
+                        R1 * 7/4
+                        r4
+                        \times 8/9 {
+                            r16.
+                            c'32 -\staccato \p [
+                                ^ \markup {
+                                    \larger
+                                        \italic
+                                            "leggierissimo (off-string bowing on staccati)"
+                                    }
+                            cs'32 -\staccato ]
+                            r8
+                        }
+                        r4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
