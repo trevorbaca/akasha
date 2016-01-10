@@ -39,9 +39,9 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
+    #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=True,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -222,8 +222,9 @@ segment_maker.append_specifiers(
     [
         new(
             akasha.tools.make_accelerando_rhythm_specifier(),
+            rhythm_maker__logical_tie_masks=silence(
+                [0, 2, 3, -1], inverted=True),
             ),
-        label().with_indices(),
         ]
     )
     
@@ -232,8 +233,9 @@ segment_maker.append_specifiers(
     [
         new(
             akasha.tools.make_ritardando_rhythm_specifier(),
+            rhythm_maker__logical_tie_masks=silence(
+                [0, 1, 4, -1], inverted=True),
             ),
-        label().with_indices(),
         ]
     )
 
@@ -263,8 +265,8 @@ segment_maker.append_specifiers(
     [
         new(
             akasha.tools.make_ritardando_rhythm_specifier(),
+            rhythm_maker__logical_tie_masks=silence([0, 2, -1], inverted=True),
             ),
-        label().with_indices(),
         ]
     )
     
@@ -273,8 +275,8 @@ segment_maker.append_specifiers(
     [
         new(
             akasha.tools.make_accelerando_rhythm_specifier(),
+            rhythm_maker__logical_tie_masks=silence([0, 2, -1], inverted=True),
             ),
-        label().with_indices(),
         ]
     )
 
@@ -285,8 +287,8 @@ segment_maker.append_specifiers(
     [
         new(
             akasha.tools.make_ritardando_rhythm_specifier(),
+            rhythm_maker__logical_tie_masks=silence([0, 1, -1], inverted=True),
             ),
-        label().with_indices(),
         ]
     )
 
@@ -298,7 +300,7 @@ segment_maker.append_specifiers(
         )
     )
 
-### LATER SPECIFIERS ###
+### across stages ###
 
 segment_maker.append_specifiers(
     baca.tools.CompoundScope([(vn_2, 3), (va, 3), (vn_1, 7), (vc, 15)]),

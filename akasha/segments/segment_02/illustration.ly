@@ -1,4 +1,4 @@
-% 2016-01-10 16:14
+% 2016-01-10 16:24
 
 \version "2.19.35"
 \language "english"
@@ -188,13 +188,6 @@
                     \newSpacingSection
                     \mark #1
                     s1 * 3/4 \startTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A1]
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -205,15 +198,7 @@
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A2]
-                            }
-                        ^ \markup {
+                    s1 * 1/4 \stopTextSpan ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -235,26 +220,12 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 1
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A3]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A4]
-                            }
                 }
                 {
                     \time 5/4
@@ -293,13 +264,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4 \startTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A5]
-                            }
                 }
                 {
                     \time 4/4
@@ -312,40 +276,18 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A6]
-                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A7]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A8]
-                            }
-                        ^ \markup {
+                    s1 * 1/4 \stopTextSpan ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -367,13 +309,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A9]
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -391,91 +326,42 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A10]
-                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A11]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A12]
-                            }
                 }
                 {
                     \time 5/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A13]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A14]
-                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 3/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A15]
-                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [A16]
-                            }
                 }
             }
         >>
@@ -623,35 +509,11 @@
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
                             e''16 * 241/32 [
-                                ^ \markup {
-                                    \small
-                                        0
-                                    }
-                            d''16 * 49/8
-                                ^ \markup {
-                                    \small
-                                        1
-                                    }
-                            e''16 * 243/64
-                                ^ \markup {
-                                    \small
-                                        2
-                                    }
-                            d''16 * 165/64
-                                ^ \markup {
-                                    \small
-                                        3
-                                    }
-                            e''16 * 33/16
-                                ^ \markup {
-                                    \small
-                                        4
-                                    }
+                            r16 * 49/8
+                            d''16 * 243/64
+                            e''16 * 165/64
+                            r16 * 33/16
                             d''16 * 61/32 ]
-                                ^ \markup {
-                                    \small
-                                        5
-                                    }
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -691,35 +553,11 @@
                             \once \override Beam #'grow-direction = #left
                             \override Staff.Stem #'stemlet-length = #0.75
                             e''16 * 113/64 [
-                                ^ \markup {
-                                    \small
-                                        0
-                                    }
-                            d''16 * 121/64
-                                ^ \markup {
-                                    \small
-                                        1
-                                    }
-                            e''16 * 147/64
-                                ^ \markup {
-                                    \small
-                                        2
-                                    }
-                            d''16 * 25/8
-                                ^ \markup {
-                                    \small
-                                        3
-                                    }
-                            e''16 * 145/32
-                                ^ \markup {
-                                    \small
-                                        4
-                                    }
-                            d''16 * 409/64 ]
-                                ^ \markup {
-                                    \small
-                                        5
-                                    }
+                            r16 * 121/64
+                            d''16 * 147/64
+                            r16 * 25/8
+                            r16 * 145/32
+                            e''16 * 409/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -870,40 +708,12 @@
                             \once \override Beam #'grow-direction = #left
                             \override Staff.Stem #'stemlet-length = #0.75
                             c''16 * 115/64 [
-                                ^ \markup {
-                                    \small
-                                        0
-                                    }
                             bf'16 * 121/64
-                                ^ \markup {
-                                    \small
-                                        1
-                                    }
-                            c''16 * 139/64
-                                ^ \markup {
-                                    \small
-                                        2
-                                    }
-                            bf'16 * 87/32
-                                ^ \markup {
-                                    \small
-                                        3
-                                    }
+                            r16 * 139/64
+                            r16 * 87/32
                             c''16 * 117/32
-                                ^ \markup {
-                                    \small
-                                        4
-                                    }
-                            bf'16 * 81/16
-                                ^ \markup {
-                                    \small
-                                        5
-                                    }
-                            c''16 * 429/64 ]
-                                ^ \markup {
-                                    \small
-                                        6
-                                    }
+                            r16 * 81/16
+                            bf'16 * 429/64 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -942,31 +752,11 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            bf'16 * 477/64 [
-                                ^ \markup {
-                                    \small
-                                        0
-                                    }
-                            c''16 * 353/64
-                                ^ \markup {
-                                    \small
-                                        1
-                                    }
+                            c''16 * 477/64 [
+                            r16 * 353/64
                             bf'16 * 97/32
-                                ^ \markup {
-                                    \small
-                                        2
-                                    }
-                            c''16 * 17/8
-                                ^ \markup {
-                                    \small
-                                        3
-                                    }
-                            bf'16 * 15/8 ]
-                                ^ \markup {
-                                    \small
-                                        4
-                                    }
+                            r16 * 17/8
+                            c''16 * 15/8 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
@@ -1004,26 +794,10 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #left
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c''16 * 13/8 [
-                                ^ \markup {
-                                    \small
-                                        0
-                                    }
-                            bf'16 * 125/64
-                                ^ \markup {
-                                    \small
-                                        1
-                                    }
-                            c''16 * 49/16
-                                ^ \markup {
-                                    \small
-                                        2
-                                    }
+                            bf'16 * 13/8 [
+                            c''16 * 125/64
+                            r16 * 49/16
                             bf'16 * 343/64 ]
-                                ^ \markup {
-                                    \small
-                                        3
-                                    }
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
