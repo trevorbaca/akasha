@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-from abjad import *
-import baca
 import akasha
-from baca.__abbreviations__ import *
+import baca
+from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -53,34 +52,34 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     ((vn_1, vn_2, va), stages(1)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     ((vn_1, vn_2, va), stages(3)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     ((vn_1, vn_2, va), stages(4)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(3, 5)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )

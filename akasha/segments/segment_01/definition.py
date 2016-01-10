@@ -2,7 +2,6 @@
 from abjad import *
 import baca
 import akasha
-from baca.__abbreviations__ import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -41,17 +40,13 @@ segment_maker.validate_measure_count(3)
 segment_maker.validate_stage_count(2)
 segment_maker.validate_measures_per_stage()
 
-###############################################################################
-################################# SPECIFIERS ##################################
-###############################################################################
-
 segment_maker.append_specifiers(
     (va, stages(1)),
     [
         baca.tools.RhythmSpecifier(
-            rhythm_maker=messiaen_tied_note_rhythm_maker,
+            rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
             ),
-        OB_no_pitch,
-        make_pitches(['B3']),
+        baca.markup.OB_no_pitch,
+        baca.tools.PitchSpecifier(source='B3'),
         ],
     )

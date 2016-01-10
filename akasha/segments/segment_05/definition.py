@@ -2,7 +2,6 @@
 from abjad import *
 import baca
 import akasha
-from baca.__abbreviations__ import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -175,7 +174,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(10)),
     baca.tools.RhythmSpecifier(
         division_expression=sequence()[:-1],
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 
@@ -183,28 +182,28 @@ segment_maker.append_specifiers(
     (vn_1, stages(10)),
     baca.tools.RhythmSpecifier(
         division_expression=sequence()[-1].sequence(),
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(10)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
     
 segment_maker.append_specifiers(
     (va, stages(10)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 
@@ -214,7 +213,7 @@ segment_maker.append_specifiers(
         division_expression=sequence().
             partition_by_ratio_of_lengths(Ratio((1, 1)))[0]
             ,
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 

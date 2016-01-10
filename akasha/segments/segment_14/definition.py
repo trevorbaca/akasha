@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-from abjad import *
-import baca
 import akasha
-from baca.__abbreviations__ import *
+import baca
+from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -66,7 +65,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(1, 3)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rewrite_meter=True,
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             burnish_specifier=rhythmmakertools.BurnishSpecifier(

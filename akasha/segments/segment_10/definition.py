@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-from abjad import *
-import baca
 import akasha
-from baca.__abbreviations__ import *
+import baca
+from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -55,29 +54,29 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     (tutti, stages(1)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(3)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     ((vn_1, vn_2, vc), stages(4)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(4, 11)),
     baca.tools.RhythmSpecifier(
-        division_expression=split_by_durations([Duration(2, 4)]),
-        rhythm_maker=messiaen_note_rhythm_maker,
+        division_expression=baca.rhythm.split_by_durations([Duration(2, 4)]),
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         split_at_measure_boundaries=True,
         ),
     )
@@ -85,27 +84,27 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(5, 6)),
     baca.tools.RhythmSpecifier(
-        division_expression=split_by_durations([Duration(3, 4)]),
+        division_expression=baca.rhythm.split_by_durations([Duration(3, 4)]),
         rewrite_meter=True,
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(5, 6)),
     baca.tools.RhythmSpecifier(
-        division_expression=split_by_durations([Duration(4, 4)]),
+        division_expression=baca.rhythm.split_by_durations([Duration(4, 4)]),
         rewrite_meter=True,
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(5, 6)),
     baca.tools.RhythmSpecifier(
-        division_expression=split_by_durations([Duration(5, 4)]),
+        division_expression=baca.rhythm.split_by_durations([Duration(5, 4)]),
         rewrite_meter=True,
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 
@@ -114,7 +113,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(7)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=make_accelerando_rhythm_maker(
+        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
             interpolation_specifiers=[
                 rhythmmakertools.InterpolationSpecifier(
                     start_duration=Duration(1, 2),
@@ -134,7 +133,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(7)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=make_accelerando_rhythm_maker(
+        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
             interpolation_specifiers=[
                 rhythmmakertools.InterpolationSpecifier(
                     start_duration=Duration(1, 8),
@@ -154,8 +153,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(7)),
     baca.tools.RhythmSpecifier(
-        division_expression=fuse_divisions(),
-        rhythm_maker=make_accelerando_rhythm_maker(
+        division_expression=sequence().sum().sequence(),
+        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
             interpolation_specifiers=[
                 rhythmmakertools.InterpolationSpecifier(
                     start_duration=Duration(1, 8),
@@ -172,7 +171,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(8, 11)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             burnish_specifier=rhythmmakertools.BurnishSpecifier(
                 left_classes=[Rest],
@@ -193,9 +192,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(8, 11)),
     baca.tools.RhythmSpecifier(
-        division_expression=split_by_durations([Duration(4, 4)]),
+        division_expression=baca.rhythm.split_by_durations([Duration(4, 4)]),
         rewrite_meter=True,
-        rhythm_maker=messiaen_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
         ),
     )
 

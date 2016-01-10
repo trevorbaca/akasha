@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-from abjad import *
-import baca
 import akasha
-from baca.__abbreviations__ import *
+import baca
+from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -78,7 +77,7 @@ off_string_rhythm_maker = rhythmmakertools.EvenDivisionRhythmMaker(
 segment_maker.append_specifiers(
     (va, stages(1)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(0),
@@ -89,7 +88,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(3)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-1),
@@ -102,7 +101,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(5)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-2),
@@ -129,7 +128,7 @@ def incised_rhythm_maker(n):
 segment_maker.append_specifiers(
     (vn_1, stages(7)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-3),
@@ -184,7 +183,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-4),
@@ -211,7 +210,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(11)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-5),
@@ -239,7 +238,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(13)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-6),
@@ -269,7 +268,7 @@ segment_maker.append_specifiers(
     (tutti, stages(14, 17)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         tie_last=True,
         ),
     )
@@ -280,7 +279,7 @@ segment_maker.append_specifiers(
     (tutti, stages(18, 21)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         tie_last=True,
         ),
     )
@@ -291,7 +290,7 @@ segment_maker.append_specifiers(
     (tutti, stages(22, 25)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         tie_last=True,
         ),
     )
@@ -302,6 +301,6 @@ segment_maker.append_specifiers(
     (tutti, stages(26, 31)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
