@@ -11,14 +11,14 @@ from akasha.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    2, Fermata(),
-    1, Fermata(),
-    2, Fermata('shortfermata'),
-    1, Fermata('shortfermata'),
-    3, Fermata('shortfermata'),
-    1, Fermata(),
-    1, Fermata(),
-    1, Fermata('shortfermata'),
+    2, Fermata('longfermata'), # 1-2
+    1, Fermata('longfermata'), # 3-4
+    2, Fermata('shortfermata'), # 5-6
+    1, Fermata('shortfermata'), # 7-8
+    3, Fermata('longfermata'), # 9-10
+    1, Fermata('longfermata'), # 11-12
+    1, Fermata('longfermata'), # 13-14
+    1, Fermata('shortfermata'), # 15-16
     ])
 
 tempo_map = baca.tools.TempoMap([
@@ -42,7 +42,7 @@ segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    show_stage_annotations=True,
+    #show_stage_annotations=True,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -217,68 +217,79 @@ segment_maker.append_specifiers(
             rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
             ),
         pitch_specifier(source='C4 C~4 B3'),
+        baca.markup.tasto_XFB_flaut,
+        Dynamic('mp'),
         ]
     )
 
 ### stages 9-10 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(9)),
-    baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            division_masks=[
-                silence_first(4),
-                silence_every(indices=[2, 4], period=5),
-                silence_last(4),
-                ],
-            ),
-        ),
+loop_rhythm_specifier = baca.tools.RhythmSpecifier(
+    division_expression=strict_quarter_divisions,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-counts = [5, 4, 3, 6]
+segment_maker.append_specifiers(
+    (vn_1, stages(9)),
+    [
+        new(
+            loop_rhythm_specifier,
+            rhythm_maker__division_masks=silence(
+                [5, 6, 8, 10, 11], inverted=True),
+            ),
+        pitch_specifier(source='D5 E5'),
+        baca.markup.tasto_XFB_flaut,
+        Dynamic('pp'),
+        ]
+    )
 
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
-    baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
-            extra_counts_per_division=[2, 0, 1],
-            logical_tie_masks=[
-                silence(indices=[0, 1, 6, 7, 8, 9]),
-                ],
-            talea=rhythmmakertools.Talea(
-                counts=sequencetools.rotate_sequence(counts, -1),
-                denominator=16,
-                ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
-                ),
-            tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-                simplify_redundant_tuplets=True,
-                ),
+    [
+        new(
+            loop_rhythm_specifier,
+            rhythm_maker__division_masks=silence(
+                [7, 9, 10, 13, 14], inverted=True),
             ),
-        ),
+        pitch_specifier(source='Bb4 C5'),
+        baca.markup.tasto_XFB_flaut,
+        Dynamic('pp'),
+        ]
     )
 
-segment_maker.copy_specifier(
-    (vn_1, 9),
+polyphony_rhythm_specifier_3 = new(
+    polyphony_rhythm_specifier_1,
+    rhythm_maker__talea__counts=make_counts(-4),
+    )
+
+polyphony_rhythm_specifier_4 = new(
+    polyphony_rhythm_specifier_1,
+    rhythm_maker__talea__counts=make_counts(-6),
+    )
+
+segment_maker.append_specifiers(
     (va, stages(9)),
-    rhythm_maker__division_masks=[
-        silence_first(4),
-        silence_every(indices=[0, 4], period=6),
-        silence_last(4),
-        ],
+    [
+        polyphony_rhythm_specifier_3,
+        pitch_specifier(source='D4 D+4 D#4 E4 F#4 F4'),
+        ]
     )
 
-segment_maker.copy_specifier(
-    (vn_2, 9),
+segment_maker.append_specifiers(
     (vc, stages(9)),
-    rhythm_maker__talea__counts=sequencetools.rotate_sequence(counts, -3),
-    rhythm_maker__logical_tie_masks=[
-        silence([6, 7, 8, 9]),
-        ],
+    [
+        new(
+            polyphony_rhythm_specifier_4,
+            rhythm_maker__logical_tie_masks=silence_last(1),
+            ),
+        pitch_specifier(source='Bb3 Bb~3 A3 Ab3 G3 A3'),
+        ]
     )
+
+### stages 11-? ###
+
+### LATER SPECIFIERS ###
 
 segment_maker.append_specifiers(
     compound_scope([(vn_2, 3), (va, 3), (vn_1, 7)]),
@@ -287,10 +298,6 @@ segment_maker.append_specifiers(
         staccati,
         ],
     )
-
-### stages 11-? ###
-
-### LATER SPECIFIERS ###
 
 segment_maker.append_specifiers(
     [(vn_2, 3), (va, 3), (vn_1, 7)],
