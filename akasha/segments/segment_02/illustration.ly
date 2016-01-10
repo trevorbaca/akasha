@@ -1,4 +1,4 @@
-% 2016-01-10 13:41
+% 2016-01-10 16:14
 
 \version "2.19.35"
 \language "english"
@@ -188,6 +188,13 @@
                     \newSpacingSection
                     \mark #1
                     s1 * 3/4 \startTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A1]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -198,7 +205,15 @@
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan ^ \markup {
+                    s1 * 1/4 \stopTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A2]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -220,12 +235,26 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 1
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A3]
+                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A4]
+                            }
                 }
                 {
                     \time 5/4
@@ -264,6 +293,13 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4 \startTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A5]
+                            }
                 }
                 {
                     \time 4/4
@@ -276,18 +312,40 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A6]
+                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 3/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A7]
+                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan ^ \markup {
+                    s1 * 1/4 \stopTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A8]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -309,6 +367,13 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A9]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -326,42 +391,91 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A10]
+                            }
                 }
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A11]
+                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A12]
+                            }
                 }
                 {
                     \time 5/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 5/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A13]
+                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A14]
+                            }
                 }
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 3/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A15]
+                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A16]
+                            }
                 }
             }
         >>
@@ -421,32 +535,194 @@
                             r8
                         }
                         R1 * 1/4
-                        r2.
-                        r2
-                        d''4 \pp
-                            ^ \markup {
-                                \upright
-                                    "tasto + XFB flaut."
-                                }
-                        e''4
-                        r4
-                        d''4
-                        r4
-                        e''4
-                        d''4
-                        r1
+                        r1.
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'\breve ~
+                                                c'2
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            d''16 * 15/8 \pp [
+                                ^ \markup {
+                                    \upright
+                                        "tasto + XFB flaut."
+                                    }
+                            e''16 * 61/32
+                            r16 * 129/64
+                            d''16 * 141/64
+                            r16 * 159/64
+                            e''16 * 185/64
+                            r16 * 111/32
+                            d''16 * 17/4
+                            r16 * 335/64
+                            e''16 * 407/64
+                            d''16 * 117/16 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
                         R1 * 1/4
-                        e''4
-                        d''4
-                        r4
-                        e''4
-                        r2
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            e''16 * 241/32 [
+                                ^ \markup {
+                                    \small
+                                        0
+                                    }
+                            d''16 * 49/8
+                                ^ \markup {
+                                    \small
+                                        1
+                                    }
+                            e''16 * 243/64
+                                ^ \markup {
+                                    \small
+                                        2
+                                    }
+                            d''16 * 165/64
+                                ^ \markup {
+                                    \small
+                                        3
+                                    }
+                            e''16 * 33/16
+                                ^ \markup {
+                                    \small
+                                        4
+                                    }
+                            d''16 * 61/32 ]
+                                ^ \markup {
+                                    \small
+                                        5
+                                    }
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
                         R1 * 1/4
-                        d''4
-                        e''4
-                        d''4
-                        e''4
-                        r4
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1 ~
+                                                c'4
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            e''16 * 113/64 [
+                                ^ \markup {
+                                    \small
+                                        0
+                                    }
+                            d''16 * 121/64
+                                ^ \markup {
+                                    \small
+                                        1
+                                    }
+                            e''16 * 147/64
+                                ^ \markup {
+                                    \small
+                                        2
+                                    }
+                            d''16 * 25/8
+                                ^ \markup {
+                                    \small
+                                        3
+                                    }
+                            e''16 * 145/32
+                                ^ \markup {
+                                    \small
+                                        4
+                                    }
+                            d''16 * 409/64 ]
+                                ^ \markup {
+                                    \small
+                                        5
+                                    }
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
                         R1 * 5/4
                         \bar "|"
                     }
@@ -508,36 +784,249 @@
                         ctqs'2..
                         R1 * 1/4
                         r1.
-                        r4
-                        bf'4 \pp
-                            ^ \markup {
-                                \upright
-                                    "tasto + XFB flaut."
-                                }
-                        r4
-                        c''4
-                        bf'4
-                        r4
-                        r4
-                        c''4
-                        bf'4
-                        r4
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'\breve ~
+                                                c'2
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            bf'16 * 247/32 \pp [
+                                ^ \markup {
+                                    \upright
+                                        "tasto + XFB flaut."
+                                    }
+                            r16 * 459/64
+                            c''16 * 187/32
+                            bf'16 * 287/64
+                            r16 * 223/64
+                            c''16 * 181/64
+                            r16 * 153/64
+                            bf'16 * 137/64
+                            c''16 * 2
+                            bf'16 * 31/16 ]
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
                         R1 * 1/4
-                        r4
-                        c''4
-                        bf'4
-                        c''4
-                        r4
-                        bf'4
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c''16 * 115/64 [
+                                ^ \markup {
+                                    \small
+                                        0
+                                    }
+                            bf'16 * 121/64
+                                ^ \markup {
+                                    \small
+                                        1
+                                    }
+                            c''16 * 139/64
+                                ^ \markup {
+                                    \small
+                                        2
+                                    }
+                            bf'16 * 87/32
+                                ^ \markup {
+                                    \small
+                                        3
+                                    }
+                            c''16 * 117/32
+                                ^ \markup {
+                                    \small
+                                        4
+                                    }
+                            bf'16 * 81/16
+                                ^ \markup {
+                                    \small
+                                        5
+                                    }
+                            c''16 * 429/64 ]
+                                ^ \markup {
+                                    \small
+                                        6
+                                    }
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
                         R1 * 1/4
-                        r4
-                        c''4
-                        r4
-                        bf'4
-                        c''4
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1 ~
+                                                c'4
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            bf'16 * 477/64 [
+                                ^ \markup {
+                                    \small
+                                        0
+                                    }
+                            c''16 * 353/64
+                                ^ \markup {
+                                    \small
+                                        1
+                                    }
+                            bf'16 * 97/32
+                                ^ \markup {
+                                    \small
+                                        2
+                                    }
+                            c''16 * 17/8
+                                ^ \markup {
+                                    \small
+                                        3
+                                    }
+                            bf'16 * 15/8 ]
+                                ^ \markup {
+                                    \small
+                                        4
+                                    }
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
                         R1 * 1/4
-                        r2
-                        bf'4
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'2.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            c''16 * 13/8 [
+                                ^ \markup {
+                                    \small
+                                        0
+                                    }
+                            bf'16 * 125/64
+                                ^ \markup {
+                                    \small
+                                        1
+                                    }
+                            c''16 * 49/16
+                                ^ \markup {
+                                    \small
+                                        2
+                                    }
+                            bf'16 * 343/64 ]
+                                ^ \markup {
+                                    \small
+                                        3
+                                    }
+                            \revert Staff.Stem #'stemlet-length
+                        }
+                        \revert TupletNumber #'text
                         R1 * 1/4
                         \bar "|"
                     }
