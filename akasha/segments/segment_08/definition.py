@@ -2,7 +2,6 @@
 from abjad import *
 import baca
 import akasha
-from baca.__abbreviations__ import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -52,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1])
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1])
             .partition_by_ratio_of_lengths(Ratio((2, 1)))
             [0]
             ,

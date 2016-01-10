@@ -2,7 +2,6 @@
 from abjad import *
 import baca
 import akasha
-from baca.__abbreviations__ import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -61,8 +60,8 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     (vc, stages(1)),
     [
-        rhythm_specifier(cello_solo_rhythm_maker(rotation=0)),
-        pitch_specifier(source=akasha.materials.cello_solo),
+        akasha.tools.make_cello_solo_rhythm_specifier(rotation=0),
+        baca.tools.PitchSpecifier(source=akasha.materials.cello_solo),
         baca.markup.half_clt,
         Dynamic('mp'),
         baca.markup.pochiss_vib,
@@ -71,8 +70,8 @@ segment_maker.append_specifiers(
 
 ### stages 3-4 ###
 
-sparse_getato_rhythm_specifier = rhythm_specifier(
-    division_expression=strict_quarter_divisions,
+sparse_getato_rhythm_specifier = baca.tools.RhythmSpecifier(
+    division_expression=baca.rhythm.strict_quarter_divisions,
     rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
         division_masks=silence([0, 1], inverted=True),
         extra_counts_per_division=[1],
@@ -129,7 +128,7 @@ segment_maker.append_specifiers(
             polyphony_rhythm_specifier_1,
             rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
             ),
-        pitch_specifier(source='E4 F4 E+4'),
+        baca.tools.PitchSpecifier(source='E4 F4 E+4'),
         baca.markup.tasto_slow_bow,
         Dynamic('mp'),
         ]
@@ -142,7 +141,7 @@ segment_maker.append_specifiers(
             polyphony_rhythm_specifier_1,
             rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
             ),
-        pitch_specifier(source='D4 D~4 C4'),
+        baca.tools.PitchSpecifier(source='D4 D~4 C4'),
         baca.markup.tasto_slow_bow,
         Dynamic('mp'),
         ]
@@ -155,7 +154,7 @@ segment_maker.append_specifiers(
             polyphony_rhythm_specifier_1,
             rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
             ),
-        pitch_specifier(source='Eb4 D4 E4'),
+        baca.tools.PitchSpecifier(source='Eb4 D4 E4'),
         baca.markup.tasto_slow_bow,
         Dynamic('mp'),
         ]
@@ -183,7 +182,7 @@ segment_maker.append_specifiers(
             polyphony_rhythm_specifier_2,
             rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
             ),
-        pitch_specifier(source='C#4 C#+4'),
+        baca.tools.PitchSpecifier(source='C#4 C#+4'),
         ]
     )
 
@@ -194,7 +193,7 @@ segment_maker.append_specifiers(
             polyphony_rhythm_specifier_2,
             rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
             ),
-        pitch_specifier(source='C4'),
+        baca.tools.PitchSpecifier(source='C4'),
         ]
     )
 
@@ -205,7 +204,7 @@ segment_maker.append_specifiers(
             polyphony_rhythm_specifier_2,
             rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
             ),
-        pitch_specifier(source='C4 C~4 B3'),
+        baca.tools.PitchSpecifier(source='C4 C~4 B3'),
         baca.markup.tasto_slow_bow,
         Dynamic('mp'),
         ]
@@ -214,7 +213,7 @@ segment_maker.append_specifiers(
 ### stages 9-10 ###
 
 loop_rhythm_specifier = baca.tools.RhythmSpecifier(
-    division_expression=strict_quarter_divisions,
+    division_expression=baca.rhythm.strict_quarter_divisions,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
@@ -259,7 +258,7 @@ segment_maker.append_specifiers(
     (va, stages(9)),
     [
         polyphony_rhythm_specifier_3,
-        pitch_specifier(source='D4 D+4 D#4 E4 F#4 F4'),
+        baca.tools.PitchSpecifier(source='D4 D+4 D#4 E4 F#4 F4'),
         ]
     )
 
@@ -270,7 +269,7 @@ segment_maker.append_specifiers(
             polyphony_rhythm_specifier_4,
             rhythm_maker__logical_tie_masks=silence_last(1),
             ),
-        pitch_specifier(source='Bb3 Bb~3 A3 Ab3 G3 A3'),
+        baca.tools.PitchSpecifier(source='Bb3 Bb~3 A3 Ab3 G3 A3'),
         ]
     )
 
@@ -310,7 +309,7 @@ segment_maker.append_specifiers(
     (va, stages(11)),
     [
         polyphony_rhythm_specifier_5,
-        pitch_specifier(source='Eb4 D4'),
+        baca.tools.PitchSpecifier(source='Eb4 D4'),
         ]
     )
 
@@ -321,7 +320,7 @@ segment_maker.append_specifiers(
             polyphony_rhythm_specifier_6,
             rhythm_maker__logical_tie_masks=silence_last(1),
             ),
-        pitch_specifier(source='A3 A#3 B3'),
+        baca.tools.PitchSpecifier(source='A3 A#3 B3'),
         ]
     )
 
@@ -371,10 +370,10 @@ segment_maker.append_specifiers(
 ### LATER SPECIFIERS ###
 
 segment_maker.append_specifiers(
-    compound_scope([(vn_2, 3), (va, 3), (vn_1, 7), (vc, 15)]),
+    baca.tools.CompoundScope([(vn_2, 3), (va, 3), (vn_1, 7), (vc, 15)]),
     [
-        make_getato_pitch_specifier('Bb3'),
-        staccati,
+        akasha.tools.make_getato_pitch_specifier('Bb3'),
+        baca.articulations.staccati,
         ],
     )
 
@@ -382,16 +381,16 @@ segment_maker.append_specifiers(
     [(vn_2, 3), (va, 3), (vn_1, 7), (vc, 15)],
     [
         Dynamic('p'),
-        leggierissimo_off_string,
+        baca.markup.leggierissimo_off_string,
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_1, (9, 15)),
-    pitch_specifier(source='D5 E5'),
+    baca.tools.PitchSpecifier(source='D5 E5'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, (9, 15)),
-    pitch_specifier(source='Bb4 C5'),
+    baca.tools.PitchSpecifier(source='Bb4 C5'),
     )

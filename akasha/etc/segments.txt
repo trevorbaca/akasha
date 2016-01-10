@@ -52,14 +52,21 @@ intro (15")
     short fermata;
 
 [B] (30")
-    1(3). two-voice microtonal harmonies animated according to one rhythm; 
-    mixed with two-note written-out alternation as implication of trill; with
-    extremely thin get. pianiss. carried over from previous stage
-    2-7. get. pianiss. fills in somewhat and continues longer than expected;
-    descends register a little bit but not too much; halts inserted into
-    descent but different type of halts than exposition halts heard so far
-    8. two-note written-out prefiguration of trill resumes; now timed together
-    with first appearance of detuned va, vc octave, possibly played only once
+
+    1 (3)[55]
+    two-voice microtonal harmonies;
+    mixed with two-note written-out alternation as implication of trill;
+    with extremely thin get. pianiss. carried over from previous stage;
+
+    2-7 (1 + long fermata + 1 + short fermata + 1 + short fermata)
+    get. pianiss. fills in somewhat and continues longer than expected;
+    descends register a little bit but not too much;
+    halts inserted into descent but different halts heard in exposition;
+
+    8 (2)
+    two-note written-out prefiguration of trill resumes;
+    timed together with first appearance of detuned va, vc octave;
+    attaca;
 
 [C] (45")
     1-3(1+halt+2). sputtering exposition of detuned va, vc octave: time is 

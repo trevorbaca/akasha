@@ -2,7 +2,6 @@
 from abjad import *
 import baca
 import akasha
-from baca.__abbreviations__ import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -82,7 +81,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(2)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[6, 4, 6, 3],
@@ -96,7 +95,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(2)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[4, 6, 3, 6],
@@ -110,7 +109,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(2)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[6, 3, 6, 4],
@@ -126,7 +125,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(4)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=note_rhythm_maker,
+        rhythm_maker=baca.rhythm.note_rhythm_maker,
         ),
     )
 
@@ -135,7 +134,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(6)),
     baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
+        division_expression=baca.rhythm.strict_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=[1],
             talea=rhythmmakertools.Talea(
@@ -152,7 +151,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(6)),
     baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
+        division_expression=baca.rhythm.strict_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=[0],
             talea=rhythmmakertools.Talea(
@@ -168,7 +167,7 @@ segment_maker.append_specifiers(
 
 ### stage 8 ###
 
-silence_pattern = select_every([1], period=4) | select_every([4], period=5)
+silence_pattern = patterntools.select_every([1], period=4) | patterntools.select_every([4], period=5)
 silence_mask = silence(silence_pattern)
 sustain_mask = sustain([0, -1])
 
@@ -179,7 +178,7 @@ def division_expression(index):
     expression = expression.map()
     expression = expression.sequence()
     expression = expression.split(
-        [abjad.durationtools.Duration(1, 4)],
+        [Duration(1, 4)],
         cyclic=True, 
         overhang=True,
         )
@@ -285,7 +284,7 @@ segment_maker.append_specifiers(
 
 ### violin 2 ###
 
-silence_pattern = select_every([2], period=4) | select_every([4], period=5)
+silence_pattern = patterntools.select_every([2], period=4) | patterntools.select_every([4], period=5)
 silence_mask = silence(silence_pattern)
 sustain_mask = sustain([0, -1])
 
@@ -296,7 +295,7 @@ def division_expression(index):
     expression = expression.map()
     expression = expression.sequence()
     expression = expression.split(
-        [abjad.durationtools.Duration(1, 4)],
+        [Duration(1, 4)],
         cyclic=True, 
         overhang=True,
         )
@@ -424,7 +423,7 @@ cello_counts = [sum(_) for _ in cello_counts]
 segment_maker.append_specifiers(
     (va, stages(8, 9)),
     baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
+        division_expression=baca.rhythm.strict_quarter_divisions,
         rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             read_talea_once_only=True,
@@ -443,7 +442,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(8)),
     baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
+        division_expression=baca.rhythm.strict_quarter_divisions,
         rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             read_talea_once_only=True,
@@ -488,7 +487,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(9, 11)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             division_masks=silence([0, 1, 3, 4, 5, 8, 9, 12, 15]),
@@ -503,7 +502,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
     baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions
+        division_expression=baca.rhythm.strict_quarter_divisions
             .partition_by_ratio_of_lengths(Ratio((1, 1)))
             [0]
             ,
@@ -514,7 +513,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(10, 11)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([1, 2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([1, 2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             division_masks=silence([0, 1, 3, 6, 8]),
@@ -531,7 +530,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(13)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[6, 4, 6, 3],
@@ -545,7 +544,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(13)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[4, 6, 3, 6],
@@ -559,7 +558,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(13)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[3, 6, 4, 6],
@@ -573,7 +572,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(13)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[6, 3, 6, 4],
@@ -589,7 +588,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(15)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=note_rhythm_maker,
+        rhythm_maker=baca.rhythm.note_rhythm_maker,
         ),
     )
 
@@ -598,7 +597,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[6, 4, 6, 3],
@@ -612,7 +611,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(17)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[4, 6, 3, 6],
@@ -626,7 +625,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(17)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[3, 6, 4, 6],
@@ -640,7 +639,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(17)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=[6, 3, 6, 4],
@@ -656,6 +655,6 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(19)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=note_rhythm_maker,
+        rhythm_maker=baca.rhythm.note_rhythm_maker,
         ),
     )

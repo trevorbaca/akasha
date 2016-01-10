@@ -26,7 +26,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ulongfermata"
                             }
                 }
                 {
@@ -41,7 +41,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ushortfermata"
                             }
                 }
                 {
@@ -56,7 +56,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ufermata"
+                                #"scripts.ushortfermata"
                             }
                 }
                 {
@@ -74,6 +74,11 @@
                     \newSpacingSection
                     \mark #2
                     s1 * 9/8
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'00''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -102,18 +107,33 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 3 112)
                     \newSpacingSection
                     s1 * 9/8
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'04''
+                            }
                 }
                 {
                     \time 4/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'09''
+                            }
                 }
                 {
                     \time 8/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                     \newSpacingSection
                     s1 * 1
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'12''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -140,6 +160,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 48)
                     \newSpacingSection
                     s1 * 3/8
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'17''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -166,6 +191,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                     \newSpacingSection
                     s1 * 1/2
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'20''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -192,6 +222,11 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 7/8
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'23''
+                            }
                         - \markup {
                             \fontsize
                                 #-3
@@ -201,9 +236,14 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 7/8
+                        ^ \markup {
+                            \fontsize
+                                #-2
+                                0'27''
+                            }
                 }
             }
         >>
@@ -398,7 +438,7 @@
                                                 \override TupletNumber #'text = #tuplet-number::calc-fraction-text
                                                 tupletFullLength = ##t
                                             } {
-                                                c'2..
+                                                c'1..
                                             }
                                         >>
                                         \layout {
@@ -410,53 +450,13 @@
                         \times 1/1 {
                             \once \override Beam #'grow-direction = #right
                             \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 121/32 [
-                            r16 * 219/64
-                            c'16 * 173/64
-                            r16 * 139/64
-                            r16 * 123/64 ]
-                            \revert Staff.Stem #'stemlet-length
-                        }
-                        \revert TupletNumber #'text
-                        \override TupletNumber #'text = \markup {
-                            \scale
-                                #'(0.75 . 0.75)
-                                \score
-                                    {
-                                        \new Score \with {
-                                            \override SpacingSpanner #'spacing-increment = #0.5
-                                            proportionalNotationDuration = ##f
-                                        } <<
-                                            \new RhythmicStaff \with {
-                                                \remove Time_signature_engraver
-                                                \remove Staff_symbol_engraver
-                                                \override Stem #'direction = #up
-                                                \override Stem #'length = #5
-                                                \override TupletBracket #'bracket-visibility = ##t
-                                                \override TupletBracket #'direction = #up
-                                                \override TupletBracket #'padding = #1.25
-                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                                tupletFullLength = ##t
-                                            } {
-                                                c'2..
-                                            }
-                                        >>
-                                        \layout {
-                                            indent = #0
-                                            ragged-right = ##t
-                                        }
-                                    }
-                            }
-                        \times 1/1 {
-                            \once \override Beam #'grow-direction = #left
-                            \override Staff.Stem #'stemlet-length = #0.75
-                            c'16 * 53/32 [
-                            c'16 * 7/4
-                            r16 * 127/64
-                            c'16 * 153/64
-                            r16 * 187/64
-                            c'16 * 211/64 ]
+                            c'16 * 487/64 [
+                            c'16 * 209/32
+                            c'16 * 143/32
+                            r16 * 197/64
+                            c'16 * 19/8
+                            c'16 * 65/32
+                            c'16 * 61/32 ]
                             \bar "|"
                             \revert Staff.Stem #'stemlet-length
                         }
@@ -530,18 +530,8 @@
                             \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'4
                         }
-                        R1 * 21/8
-                        r4
-                        r4
-                        r4
-                        r8
-                        r4
-                        \times 8/9 {
-                            c'4
-                            c'32
-                        }
-                        r4
-                        r8
+                        R1 * 7/2
+                        c'2..
                         \bar "|"
                     }
                 }
@@ -684,18 +674,8 @@
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        R1 * 21/8
-                        r4
-                        r4
-                        r4
-                        r8
-                        r4
-                        \times 8/9 {
-                            c'4
-                            c'32
-                        }
-                        r4
-                        r8
+                        R1 * 7/2
+                        c'2..
                         \bar "|"
                     }
                 }

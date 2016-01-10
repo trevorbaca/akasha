@@ -1,4 +1,4 @@
-% 2016-01-09 18:40
+% 2016-01-10 13:41
 
 \version "2.19.35"
 \language "english"
@@ -407,9 +407,8 @@
                         \times 8/9 {
                             b32 -\staccato \p [
                                 ^ \markup {
-                                    \larger
-                                        \italic
-                                            "leggierissimo (off-string bowing on staccati)"
+                                    \upright
+                                        "leggierissimo (off-string bowing on staccati)"
                                     }
                             cs'32 -\staccato
                             c'32 -\staccato ]
@@ -477,9 +476,8 @@
                         \times 8/9 {
                             bf32 -\staccato \p [
                                 ^ \markup {
-                                    \larger
-                                        \italic
-                                            "leggierissimo (off-string bowing on staccati)"
+                                    \upright
+                                        "leggierissimo (off-string bowing on staccati)"
                                     }
                             b32 -\staccato
                             bf32 -\staccato ]
@@ -565,9 +563,8 @@
                             r8
                             bf32 -\staccato \p [
                                 ^ \markup {
-                                    \larger
-                                        \italic
-                                            "leggierissimo (off-string bowing on staccati)"
+                                    \upright
+                                        "leggierissimo (off-string bowing on staccati)"
                                     }
                             a32 -\staccato
                             bf32 -\staccato ]
@@ -670,9 +667,8 @@
                             r16.
                             c'32 -\staccato \p [
                                 ^ \markup {
-                                    \larger
-                                        \italic
-                                            "leggierissimo (off-string bowing on staccati)"
+                                    \upright
+                                        "leggierissimo (off-string bowing on staccati)"
                                     }
                             cs'32 -\staccato ]
                             r8

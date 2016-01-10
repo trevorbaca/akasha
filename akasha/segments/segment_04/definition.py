@@ -2,7 +2,6 @@
 from abjad import *
 import baca
 import akasha
-from baca.__abbreviations__ import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -52,14 +51,14 @@ spiccato_counts = [1, 1, 1, -2, 1, 1, -7, 1, -12, 1, 1, 1, 1, -8, 1, 1]
 segment_maker.append_specifiers(
     (va, stages(1)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=note_rhythm_maker,
+        rhythm_maker=baca.rhythm.note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=note_rhythm_maker,
+        rhythm_maker=baca.rhythm.note_rhythm_maker,
         ),
     )
 
@@ -76,7 +75,7 @@ segment_maker.copy_specifier(
 segment_maker.append_specifiers(
     (vn_1, stages(4, 5)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             division_masks=[
                 rhythmmakertools.silence_first(3),
@@ -105,16 +104,16 @@ segment_maker.copy_specifier(
 segment_maker.append_specifiers(
     (va, stages(5)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
-        rhythm_maker=note_rhythm_maker,
+        division_expression=baca.rhythm.compound_quarter_divisions,
+        rhythm_maker=baca.rhythm.note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(5)),
     baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
-        rhythm_maker=note_rhythm_maker,
+        division_expression=baca.rhythm.strict_quarter_divisions,
+        rhythm_maker=baca.rhythm.note_rhythm_maker,
         ),
     )
 
@@ -130,7 +129,7 @@ segment_maker.copy_specifier(
 segment_maker.append_specifiers(
     (vn_1, stages(8, 9)),
     baca.tools.RhythmSpecifier(
-        division_expression=strict_quarter_divisions,
+        division_expression=baca.rhythm.strict_quarter_divisions,
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=[
                 rhythmmakertools.silence_first(),
@@ -142,7 +141,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(7, 8)),
     baca.tools.RhythmSpecifier(
-        division_expression=compound_quarter_divisions,
+        division_expression=baca.rhythm.compound_quarter_divisions,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=(1,),
             logical_tie_masks=[
@@ -181,7 +180,7 @@ segment_maker.copy_specifier(
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
     baca.tools.RhythmSpecifier(
-        division_expression=fused_compound_quarter_divisions([1, 4]),
+        division_expression=baca.rhythm.fused_compound_quarter_divisions([1, 4]),
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=[
                 rhythmmakertools.silence_first(),

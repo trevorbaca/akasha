@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-from abjad import *
-import baca
 import akasha
-from baca.__abbreviations__ import *
+import baca
+from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -63,7 +62,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=make_accelerando_rhythm_maker(
+        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
             interpolation_specifiers=[
                 rhythmmakertools.InterpolationSpecifier(
                     start_duration=Duration(1, 2),
@@ -83,7 +82,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(1)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=make_accelerando_rhythm_maker(
+        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
             interpolation_specifiers=[
                 rhythmmakertools.InterpolationSpecifier(
                     start_duration=Duration(1, 8),
@@ -103,8 +102,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1)),
     baca.tools.RhythmSpecifier(
-        division_expression=fuse_divisions(),
-        rhythm_maker=make_accelerando_rhythm_maker(
+        division_expression=sequence().sum().sequence(),
+        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
             interpolation_specifiers=[
                 rhythmmakertools.InterpolationSpecifier(
                     start_duration=Duration(1, 8),
@@ -120,42 +119,42 @@ segment_maker.append_specifiers(
     (vc, stages(1, 2)),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(2)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(2)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(2)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(4)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(4)),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
+        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
         ),
     )
 
