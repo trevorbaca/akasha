@@ -38,7 +38,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
-    #label_stage_numbers=True,
+    label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     spacing_specifier=spacing_specifier,
@@ -57,6 +57,32 @@ segment_maker.append_specifiers(
         ([vn_1, va, vc], stages(1)),
         ],
     baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(1)),
+    [
+        baca.markup.string_number(2),
+        Dynamic('mp'),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(1)),
+    [
+        baca.markup.string_number(4),
+        Clef('treble'),
+        Dynamic('mp'),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1)),
+    [
+        baca.markup.string_number(4),
+        Clef('treble'),
+        Dynamic('mp'),
+        ]
     )
 
 ### stages 3-4 ###
@@ -212,4 +238,31 @@ segment_maker.append_specifiers(
         (vc, stages(16)),
         ],
     akasha.tools.make_glissando_rhythm_specifier(),
+    )
+
+### across segments ###
+
+segment_maker.append_specifiers(
+    (vn_1, stages(1, 3)),
+    [
+        baca.overrides.natural_harmonics(),
+        baca.spanners.ottava,
+        baca.tools.PitchSpecifier(source='C#7'),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(1, 3)),
+    [
+        baca.overrides.natural_harmonics(),
+        baca.tools.PitchSpecifier(source='G~5'),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1, 3)),
+    [
+        baca.overrides.natural_harmonics(),
+        baca.tools.PitchSpecifier(source='D5'),
+        ]
     )
