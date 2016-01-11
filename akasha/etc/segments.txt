@@ -113,43 +113,44 @@ intro (15")
 
 [D] (45")
 
-    1-2 (4+short breath)[126]
-    three-note spectral chord in vn1, vn2, va, time is frozen;
-    vc tacet;
-    short breath
+    1-2 (8 + short fermata)[126]
+    three-note vn1, va, vc spectral chord freezes time;
+    vn2 tacet;
+    short fermata;
 
-    3-4 (8+short breath)
-    three-note spectral chord resumes in vn1, vn2, va;
-    ppp XSP glissandi animated underneath in vc;
-    short breath
+    3-4 (8 + short fermata)
+    three-note vn1, va, vc spectral chord resumes;
+    vn2 ppp XSP glissandi animated underneath;
+    short fermata;
 
-    5-6 (4+short breath)
-    two-note spectral chord in vn2, va;
-    ppp XSP glissandi animated underneath in vn1, vc;
-    short breath
+    5-6 (4 + short fermata)
+    two-note va, vc spectral chord;
+    vn1, vn2 ppp XSP glissandi animated underneath;
+    short fermata;
 
-    7-8 (8+breath)
-    one-note spectral chord in va;
-    ppp XSP glissandi animated in vn1, vn2, vc;
-    breath to highlight introduction of trill in next section
+    7-8 (8 + fermata)
+    one-note va spectral chord;
+    vn1, vn2, vc ppp XSP glissandi animated underneath;
+    fermata;
 
-    9 (4)[55]
-    [memory of previous segment: detuned octave field grows quiet 
-    under diminiuendo; inserted as type of intercalation-as-memory];
-    no breath
+    9-11 (4 + fermata)[55]
+    vn1, vn2 ppp XSP glissandi resume;
+    [memory of previous segment: detuned va, vc octave diminuendo];
+    fermata to highlight introduction of trill at next stage;
 
-    10-11 (4+breath)[126]
-    tutti ppp XSP glissandi resumes;
-    now capped with a single trill;
-    happens once then another breath in all players;
+    12-13 (4 + fermata)[126->44]
+    vn1, va vc ppp XSP glissandi resume;
+    now capped with a single vn2 trill;
+    happens once then another fermata;
 
-    12-13 (8+grand pause)[126->rit.]
-    tutti ppp XSP glissandi resumes;
-    capped again with a single trill;
+    14 (4)[126->44]
+    vn1, va ppp XSP glissandi resumes;
+    capped again with a single vn2 trill;
     now with the accompaniment of a slow low-register vc down-glissando; 
-    vc down-glissando outlasts rest of materials and closes segment 
-    unaccompanied;
-    grand pause
+
+    15-17 (3 + 1 + long fermata)[44]
+    vc down-glissando outlasts rest of materials and closes segment unacc.;
+    long fermata;
 
 [E] (2')
 
