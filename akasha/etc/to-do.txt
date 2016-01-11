@@ -10,7 +10,11 @@
             rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
             )
 
-2.  Partials:
+2.  Optimize SpacingSpecifier.__call__().
+
+3.  Optimize SegmentMaker generally.
+
+4.  Partials:
 
         vc      va      vn
         
