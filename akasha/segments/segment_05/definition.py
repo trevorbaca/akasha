@@ -10,19 +10,22 @@ from akasha.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    4, Fermata('shortfermata'),
-    8, Fermata('shortfermata'),
-    4, Fermata('shortfermata'),
-    8, Fermata(),
-    4, # stage 9
-    4, Fermata('shortfermata'),
-    8, Fermata('longfermata'),
+    8, Fermata('shortfermata'), # 1-2
+    8, Fermata('shortfermata'), # 3-4
+    4, Fermata('shortfermata'), # 5-6
+    8, Fermata(), # 7-8
+    3, 1, Fermata(), # 9-11
+    4, Fermata(),  # 12-13
+    4, # 14
+    3, 1, Fermata('longfermata'), # 15-17
     ])
 
 tempo_map = baca.tools.TempoMap([
     (1, akasha.materials.tempi[126]),
     (9, akasha.materials.tempi[55]),
-    (10, akasha.materials.tempi[126]),
+    (11, akasha.materials.tempi[126]),
+    (12, Ritardando()),
+    (15, akasha.materials.tempi[44]),
     ])
 
 maker = akasha.tools.TimeSignatureMaker('B', 12, stage_specifier, tempo_map)
@@ -34,209 +37,179 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_clock_time=True,
+    #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=True,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
     )
 
-segment_maker.validate_measure_count(46)
-segment_maker.validate_stage_count(13)
+segment_maker.validate_measure_count(51)
+segment_maker.validate_stage_count(17)
 segment_maker.validate_measures_per_stage()
 
-###############################################################################
-################################# SPECIFIERS ##################################
-###############################################################################
+### stages 1-2 ###
 
 segment_maker.append_specifiers(
-    (vn_1, stages(1)),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                tie_across_divisions=True,
-                use_messiaen_style_ties=True,
-                ),
-            ),
-        ),
+    [
+        ([vn_1, va, vc], stages(1)),
+        ],
+    baca.rhythm.messiaen_tied_note_rhythm_specifier,
     )
 
-segment_maker.copy_specifier(
-    (vn_1, 1),
-    (vn_2, stages(1)),
-    )
+### stages 3-4 ###
 
-segment_maker.copy_specifier(
-    (vn_1, 1),
-    (va, stages(1)),
-    )
-
-segment_maker.copy_specifier(
-    (vn_1, 1),
-    (vn_1, stages(3)),
-    )
-
-segment_maker.copy_specifier(
-    (vn_2, 1),
-    (vn_2, stages(3)),
-    )
-
-segment_maker.copy_specifier(
-    (va, 1),
-    (va, stages(3)),
-    )
-    
 segment_maker.append_specifiers(
-    (vc, stages(3)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
-                rewrite_meter=True,
-                ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                strip_ties=True,
-                ),
-            ),
-        ),
-    )
-
-segment_maker.copy_specifier(
-    (vc, 3),
-    (vn_1, stages(5))
-    )
-
-segment_maker.copy_specifier(
-    (vn_2, 3),
-    (vn_2, stages(5)),
-    )
-
-segment_maker.copy_specifier(
-    (va, 3),
-    (va, stages(5)),
-    )
-
-segment_maker.copy_specifier(
-    (vc, 3),
-    (vc, stages(5)),
-    )
-
-segment_maker.copy_specifier(
-    (vn_1, 5),
-    (vn_1, stages(7)),
-    )
-
-segment_maker.copy_specifier(
-    (vc, 5),
-    (vn_2, stages(7)),
-    )
-
-segment_maker.copy_specifier(
-    (va, 5),
-    (va, stages(7)),
-    )
-
-segment_maker.copy_specifier(
-    (vc, 5),
-    (vc, stages(7)),
+    [
+        ([vn_1, va, vc], stages(3)),
+        ],
+    baca.rhythm.messiaen_tied_note_rhythm_specifier,
     )
 
 segment_maker.append_specifiers(
-    (vn_1, stages(9)),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                tie_across_divisions=True,
-                use_messiaen_style_ties=True,
-                ),
-            ),
-        ),
+    [
+        (vn_2, stages(3)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
-segment_maker.copy_specifier(
-    (vn_1, 9),
-    (vn_2, stages(9)),
-    )
+### stages 5-6 ###
 
-segment_maker.copy_specifier(
-    (vn_1, 9),
-    (va, stages(9)),
-    )
-    
-segment_maker.copy_specifier(
-    (vn_1, 9),
-    (vc, stages(9)),
+segment_maker.append_specifiers(
+    [
+        ([va, vc], stages(5)),
+        ],
+    baca.rhythm.messiaen_tied_note_rhythm_specifier,
     )
 
 segment_maker.append_specifiers(
-    (vn_1, stages(10)),
-    baca.tools.RhythmSpecifier(
-        division_expression=sequence()[:-1],
-        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
-        ),
+    [
+        ([vn_1, vn_2], stages(5)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
+    )
+
+### stages 7-8 ###
+
+segment_maker.append_specifiers(
+    [
+        (va, stages(7)),
+        ],
+    baca.rhythm.messiaen_tied_note_rhythm_specifier,
     )
 
 segment_maker.append_specifiers(
-    (vn_1, stages(10)),
-    baca.tools.RhythmSpecifier(
-        division_expression=sequence()[-1].sequence(),
-        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
-        ),
+    [
+        ([vn_1, vn_2, vc], stages(7)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
+    )
+
+### stages 9-11 ###
+
+segment_maker.append_specifiers(
+    [
+        ([vn_1, vn_2], stages(9, 10)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vn_2, stages(10)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
-        ),
-    )
-    
-segment_maker.append_specifiers(
-    (va, stages(10)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
-        ),
+    [
+        (va, stages(9)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(10)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
-        ),
+    [
+        (va, stages(10)),
+        ],
+    akasha.tools.make_glissando_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vn_1, stages(12)),
+    [
+        (vc, stages(9, 10)),
+        ],
+    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    )
+
+### stages 12-13 ###
+
+segment_maker.append_specifiers(
+    [
+        ([vn_1, va, vc], stages(12)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    [
+        (vn_2, stages(12)),
+        ],
     baca.tools.RhythmSpecifier(
-        division_expression=sequence().
-            partition_by_ratio_of_lengths(Ratio((1, 1)))[0]
+        division_expression=sequence()
+            .partition_by_ratio_of_lengths(Ratio((1, 1)))
+            [0]
             ,
-        rhythm_maker=baca.rhythm.messiaen_note_rhythm_maker,
-        ),
+        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+            tie_specifier=rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                ),
+            ),
+        )
     )
 
-segment_maker.copy_specifier(
-    (vn_1, 12),
-    (vn_2, stages(12)),
-    )
+### stage 14 ###
 
-segment_maker.copy_specifier(
-    (vn_1, 12),
-    (va, stages(12)),
+segment_maker.append_specifiers(
+    [
+        ([vn_1, va], stages(14)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(12)),
+    [
+        (vn_2, stages(14)),
+        ],
     baca.tools.RhythmSpecifier(
+        division_expression=sequence()
+            .partition_by_ratio_of_lengths(Ratio((1, 1)))
+            [0]
+            ,
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
-                rewrite_meter=True,
-                ),
             tie_specifier=rhythmmakertools.TieSpecifier(
-                strip_ties=True,
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
                 ),
             ),
-        ),
+        )
+    )
+
+segment_maker.append_specifiers(
+    [
+        (vc, stages(14)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
+    )
+
+### stages 15-17 ###
+
+segment_maker.append_specifiers(
+    [
+        (vc, stages(15)),
+        ],
+    akasha.tools.make_untied_notes_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    [
+        (vc, stages(16)),
+        ],
+    akasha.tools.make_glissando_rhythm_specifier(),
     )
