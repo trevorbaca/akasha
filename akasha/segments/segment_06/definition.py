@@ -341,7 +341,7 @@ def extra_counts(rotation=0):
 segment_maker.append_specifiers(
     (vn_1, stages(12, 13)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             division_masks=[
                 rhythmmakertools.silence_every([7], period=8),
@@ -358,7 +358,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(12, 13)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions
+        division_expression=baca.rhythm.make_compound_quarter_divisions()
             .partition_by_ratio_of_lengths(Ratio((3, 1)))
             [0]
             ,
@@ -395,7 +395,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(12)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             division_masks=[
                 rhythmmakertools.silence_every([5], period=6),

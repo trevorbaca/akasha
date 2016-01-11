@@ -134,7 +134,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(6)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.strict_quarter_divisions,
+        division_expression=baca.rhythm.make_strict_quarter_divisions(),
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=[1],
             talea=rhythmmakertools.Talea(
@@ -151,7 +151,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(6)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.strict_quarter_divisions,
+        division_expression=baca.rhythm.make_strict_quarter_divisions(),
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=[0],
             talea=rhythmmakertools.Talea(
@@ -423,7 +423,7 @@ cello_counts = [sum(_) for _ in cello_counts]
 segment_maker.append_specifiers(
     (va, stages(8, 9)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.strict_quarter_divisions,
+        division_expression=baca.rhythm.make_strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             read_talea_once_only=True,
@@ -442,7 +442,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(8)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.strict_quarter_divisions,
+        division_expression=baca.rhythm.make_strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             read_talea_once_only=True,
@@ -502,7 +502,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.strict_quarter_divisions
+        division_expression=baca.rhythm.make_strict_quarter_divisions()
             .partition_by_ratio_of_lengths(Ratio((1, 1)))
             [0]
             ,

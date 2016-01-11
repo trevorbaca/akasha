@@ -70,23 +70,46 @@ intro (15")
 
 [C] (45")
 
-    1-3(1+halt+2). sputtering exposition of detuned va, vc octave: time is 
-    frozen during octave but very small glissandi lentissimi attempt to 
-    activate the field of the detuned octave; attempt gets underway; then 
-    stops; then attempts to get underway; then stops; and so on. introduces 
-    surprisingly short duration in middle of chain of attempts
+    1-8 (4x: 1 + fermata)
+    sputtering exposition of detuned va, vc octave with glissandi lentiss.;
+    start; fermata;
+    start; fermata;
+    start; fermata;
+    start; fermata;
 
-    4(2). detuned octave field grows quiet under diminiuendo that leads to va, 
-    vc OB; recapitulation of get. pianiss. descent
+    9 (4)
+    detuned va, vc octave grows quiet under long dim.;
+    vn1, vn2 OB on top of this;
 
-    5-7(1+halt+1). get. pianiss. descent stalls and is interrupted by single 
-    scratch detache; scratch begins to align rhythmically with OB underneath;
+    10-11 (1 + fermata)
+    vn1, vn2 OB revealed after va, vc fall silent;
+    fermata;
 
-    8(2). OB continues with rhythm of sputtering exposition introduced in first
-    stage of segment; [two-voice microtonal harmonies recall previous segment]
+    12 (1)
+    recapitulation of get. pianiss. descent (vc) solo;
+    attaca;
 
-    9(1+halt). short end-cap of first appearance of trill combined with detuned 
-    octave combined with OB; segment ends with question mark
+    13 (1)
+    get. pianiss. descent interrupted by single scratch detache (va);
+    on top of this vn1, vn2 OB;
+    attaca;
+
+    14-19 (3x: 1 + fermata)
+    vn1, vn2 OB start; fermata;
+    vn1, vn2 OB start; fermata;
+    vn1, vn2 OB start; fermata;
+
+    20-21 (1 + fermata)
+    vn1, vn2 OB;
+    [va, vc two-voice microtonal harmonies recall previous segment];
+    fermata;
+
+    22-24 (1 + 1 + long fermata)
+    vn1 OB for full stage;
+    vn2 plays first appearance of trill during second half of stage;
+    va, vc detuned octave diminuendo for full stage;
+    segment ends with question mark;
+    long fermata;
 
 [D] (45")
 

@@ -77,7 +77,7 @@ off_string_rhythm_maker = rhythmmakertools.EvenDivisionRhythmMaker(
 segment_maker.append_specifiers(
     (va, stages(1)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(0),
@@ -88,7 +88,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(3)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-1),
@@ -101,7 +101,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(5)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-2),
@@ -128,7 +128,7 @@ def incised_rhythm_maker(n):
 segment_maker.append_specifiers(
     (vn_1, stages(7)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-3),
@@ -183,7 +183,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-4),
@@ -210,7 +210,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(11)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-5),
@@ -238,7 +238,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(13)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.compound_quarter_divisions,
+        division_expression=baca.rhythm.make_compound_quarter_divisions(),
         rhythm_maker=new(
             off_string_rhythm_maker,
             extra_counts_per_division=extra_counts_per_division(-6),
