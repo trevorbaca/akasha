@@ -120,31 +120,31 @@ intro (15")
 
     3-4 (8 + short fermata)
     three-note vn1, va, vc spectral chord resumes;
-    vn2 ppp XSP glissandi animated underneath;
+    vn2 ppp XP glissandi animated underneath;
     short fermata;
 
     5-6 (4 + short fermata)
     two-note va, vc spectral chord;
-    vn1, vn2 ppp XSP glissandi animated underneath;
+    vn1, vn2 ppp XP glissandi animated underneath;
     short fermata;
 
     7-8 (8 + fermata)
     one-note va spectral chord;
-    vn1, vn2, vc ppp XSP glissandi animated underneath;
+    vn1, vn2, vc ppp XP glissandi animated underneath;
     fermata;
 
     9-11 (4 + fermata)[55]
-    vn1, vn2 ppp XSP glissandi resume;
+    vn1, vn2 ppp XP glissandi resume;
     [memory of previous segment: detuned va, vc octave diminuendo];
     fermata to highlight introduction of trill at next stage;
 
     12-13 (4 + fermata)[126->44]
-    vn1, va vc ppp XSP glissandi resume;
+    vn1, va vc ppp XP glissandi resume;
     now capped with a single vn2 trill;
     happens once then another fermata;
 
     14 (4)[126->44]
-    vn1, va ppp XSP glissandi resumes;
+    vn1, va ppp XP glissandi resumes;
     capped again with a single vn2 trill;
     now with the accompaniment of a slow low-register vc down-glissando; 
 
@@ -337,14 +337,14 @@ intro (15")
     tutti ppp OB + 3/4 OB > 1/2 OB + 1/4 OB (Bb);
 
     6 (2)[89]
-    tutti ppp 1/2 OB + 1/4 OB > 1/4 OB + XSP (Bb);
+    tutti ppp 1/2 OB + 1/4 OB > 1/4 OB + XP (Bb);
 
     7 (2)[89]
     [intercalated memory: tutti looping of 3-note tasto and trills (c5)
     with mixed mecc. fluido]
 
     8 (4)[89->55]
-    transformation of tutti ppp XSP (Bb) to three-player ppp XSP with moving
+    transformation of tutti ppp XP (Bb) to three-player ppp XP with moving
     microtonal polyphony that recalls micropolyphony earlier in the piece;
     on top of this occurs a recapitulation of vn1 maximally dense get. solo
     from beginning of [G];
@@ -352,8 +352,8 @@ intro (15")
 
     9 (2)[55]
     vn1 get. solo continues to rit and is now perforated;
-    ppp XSP microtonal polyphony sustains ppp but transitions gradually from
-    XSP to tasto;
+    ppp XP microtonal polyphony sustains ppp but transitions gradually from
+    XP to tasto;
 
     10 (2)[55->44]
     vn1 get. solo continues to rit and is now very perforated;
@@ -400,7 +400,7 @@ intro (15")
 
     18-21 (6x4)
     tutti tasto trills begin;
-    tutti trills repeat six times with tutti swells and tasto > XSP > tasto
+    tutti trills repeat six times with tutti swells and tasto > XP > tasto
     enveloping;
     attaca;
 
@@ -462,10 +462,10 @@ intro (15")
     staggered SP > MSP;
 
     9 (2)
-    staggered MSP > XSP;
+    staggered MSP > XP;
 
     10-11 (2+halt)
-    staggered XSP > 1/4 OB;
+    staggered XP > 1/4 OB;
     freeze;
 
     12 (2)
