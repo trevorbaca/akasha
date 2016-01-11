@@ -65,7 +65,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(3)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([-1]), [-2]
+        [4],
+        silence_except([-1]),
+        [-2]
         ),
     )
 
@@ -77,7 +79,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(3)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([1]), [-1],
+        [4],
+        silence_except([1]),
+        [-1],
         ),
     )
 
@@ -86,14 +90,18 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(5)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([0]), [-2],
+        [4],
+        silence_except([0]),
+        [-2],
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(5)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([2]), [-1],
+        [4],
+        silence_except([2]),
+        [-1],
         ),
     )
 
@@ -107,14 +115,18 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(7)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([0]), [-2],
+        [4],
+        silence_except([0]),
+        [-2],
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(7)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([-1]), [1],
+        [4],
+        silence_except([-1]),
+        [1],
         ),
     )
 
@@ -126,7 +138,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(7)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([1]), [-1],
+        [4],
+        silence_except([1]),
+        [-1],
         ),
     )
 
@@ -142,105 +156,127 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(9)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([1, -3]), [1],
+        [4],
+        silence_except([1, -3]),
+        [1],
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([2, -1]), [0],
+        [4],
+        silence_except([2, -1]),
+        [0],
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [4], silence_except([2, -2]), [2],
+        [4],
+        silence_except([2, -2]),
+        [2],
         ),
     )
 
-### stages 10-11 ###
+### stages 10-18 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(10, 14)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [8], silence_every([0, 3], inverted=True, period=8), [1],
+        [8],
+        silence_every([0, 3], inverted=True, period=8),
+        [1],
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(15, 17)),
+    new(
+        akasha.tools.make_dense_getato_rhythm_specifier(
+            [1],
+            [3, 0, 2, 1],
+            ),
+        rhythm_maker__division_masks=[
+            silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+            silence_last(7),
+            ],
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(10, 13)),
     akasha.tools.make_scratch_rhythm_specifier(
-        [8], silence_every([1, 4], inverted=True, period=9), [-1],
+        [8],
+        silence_every([1, 4], inverted=True, period=9),
+        [-1],
         ),
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(10, 12)),
-    akasha.tools.make_scratch_rhythm_specifier(
-        [8], silence_every([2, 5], inverted=True, period=9), [2],
-        ),
-    )
-
-### stages 12-13 ###
-
-segment_maker.append_specifiers(
-    (vc, stages(13, 14)),
-    new(
-        akasha.tools.make_dense_getato_rhythm_specifier(
-            [2, 1, 2], [4, 2, 4, 1]),
-        rhythm_maker__division_masks=silence([1, 3]),
-        )
-    )
-
-### stages 15-16 ###
-
-segment_maker.append_specifiers(
-    (vn_1, stages(15, 16)),
-    akasha.tools.make_dense_getato_rhythm_specifier(
-        [2, 2, 1, 2, 1], [4, 2, 4, 1])
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(14, 16)),
-    akasha.tools.make_dense_getato_rhythm_specifier(
-        [2, 1, 2, 1, 2], [2, 4, 1, 4])
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(15, 16)),
-    akasha.tools.make_dense_getato_rhythm_specifier(
-        [1, 2, 1, 2, 2], [4, 1, 4, 2])
-    )
-
-### stage 17 ###
-
-segment_maker.append_specifiers(
-    (vn_1, stages(17)),
     new(
         akasha.tools.make_dense_getato_rhythm_specifier(
-            [2, 2, 1, 2, 1], [6, 4, 6, 3]),
-        rhythm_maker__division_masks=silence_last(4),
-        )
+            [1],
+            [0, 2, 1, 3],
+            ),
+        rhythm_maker__division_masks=silence(
+            [0, 2, 3, 4, 5, 6, 10, 14, 22]),
+        ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(17)),
     new(
         akasha.tools.make_dense_getato_rhythm_specifier(
-            [2, 1, 2, 1, 2], [4, 6, 3, 6]),
+            [1, 2, 1, 2, 2],
+            [6, 3, 5, 4],
+            ),
         rhythm_maker__division_masks=silence_last(5),
-        )
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(10, 12)),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [8],
+        silence_every([2, 5], inverted=True, period=9),
+        [2],
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(13, 15)),
+    [
+        new(
+            akasha.tools.make_dense_getato_rhythm_specifier(
+                [1],
+                [3, 0, 2, 1],
+                ),
+            rhythm_maker__division_masks=silence(
+                [0, 2, 3, 4, 5, 6, 10, 14, 22]),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(16)),
+    akasha.tools.make_dense_getato_rhythm_specifier(
+        [1, 2, 1, 2, 2],
+        [4, 1, 3, 2],
+        ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(17)),
     new(
         akasha.tools.make_dense_getato_rhythm_specifier(
-            [1, 2, 1, 2, 2], [6, 3, 6, 4]),
+            [1, 2, 1, 2, 2],
+            [6, 3, 5, 4],
+            ),
         rhythm_maker__division_masks=silence_last(5),
-        )
+        ),
     )
 
 ### across stages ###
@@ -254,5 +290,5 @@ segment_maker.append_specifiers(
         baca.spanners.one_line_staff,
         baca.tools.PitchSpecifier(source='C4'),
         Dynamic('mf'),
-        ]
+        ],
     )
