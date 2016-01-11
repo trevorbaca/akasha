@@ -1,4 +1,4 @@
-% 2016-01-10 13:53
+% 2016-01-11 14:27
 
 \version "2.19.35"
 \language "english"
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #93
+        currentBarNumber = #113
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -199,8 +199,6 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     \mark #5
                     s1 * 1
                         - \markup {
@@ -229,8 +227,6 @@
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -242,8 +238,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/2
                         - \markup {
                             \fontsize
@@ -255,8 +249,6 @@
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -268,8 +260,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/2
                         - \markup {
                             \fontsize
@@ -281,8 +271,6 @@
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -294,8 +282,6 @@
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 5/4
                         - \markup {
                             \fontsize
@@ -307,8 +293,6 @@
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -320,8 +304,6 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                         - \markup {
                             \fontsize
@@ -348,14 +330,10 @@
                         }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                         - \markup {
                             \fontsize
@@ -366,8 +344,6 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
@@ -393,8 +369,6 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 5/4 \startTextSpan
                         - \markup {
                             \fontsize
@@ -406,13 +380,9 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 3/4 \stopTextSpan
                         - \markup {
                             \fontsize
@@ -440,20 +410,14 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 56)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 64)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
@@ -478,8 +442,6 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 64)
-                    \newSpacingSection
                     s1 * 3/2 \startTextSpan
                         - \markup {
                             \fontsize
@@ -490,26 +452,18 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 1
                         - \markup {
                             \fontsize
@@ -521,24 +475,16 @@
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 3/4 \stopTextSpan
                         - \markup {
                             \fontsize
@@ -566,36 +512,24 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 3/2
                         - \markup {
                             \fontsize
@@ -607,37 +541,25 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -2020,53 +1942,46 @@
                         c'4.
                         r8
                         R1 * 1/4
-                        r4
-                        c'4.
-                        c'4
-                        c'4
                         r4.
-                        R1 * 1/4
-                        r4
-                        c'4.
                         c'4
                         c'4.
+                        c'4
                         r4
                         R1 * 1/4
                         r4.
                         c'4
                         c'4
+                        c'4.
+                        r4
+                        R1 * 1/4
+                        r4
+                        c'4.
+                        c'4
                         r4.
                         R1 * 1/4
-                        r4.
-                        c'4
+                        r4
                         c'4.
-                        c'4
-                        c'4
-                        c'4.
-                        c'4
-                        c'4.
-                        c'4
+                        c'8 ~ [
+                        c'8 ]
                         c'4
                         c'4.
                         c'4
                         c'4.
                         c'4
-                        c'4
+                        c'8 ~ [
+                        c'8 ]
                         c'4.
                         c'4
-                        c'4.
+                        c'4 ~
+                        c'8
                         c'4
                         c'4
                         c'4.
                         c'4
                         c'4.
                         c'4
-                        c'4
-                        c'4.
-                        c'4
-                        c'4.
-                        c'4
-                        c'4
+                        c'8 ~ [
+                        c'8 ]
                         c'4.
                         c'4
                         c'4.
@@ -2077,60 +1992,60 @@
                         c'4.
                         c'4
                         c'4
-                        c'4.
-                        c'4
-                        c'4.
+                        c'8 ~
                         c'4
                         c'4
                         c'4.
                         c'4
-                        c'4.
+                        c'4
+                        c'8 ~
                         c'4
                         c'4
                         c'4.
                         c'4
-                        c'4.
+                        c'4
+                        c'8 ~
                         c'4
                         c'4
                         c'4.
                         c'4
-                        c'4.
+                        c'4
+                        c'8 ~
                         c'4
                         c'4
                         c'4.
-                        c'4
-                        c'4.
-                        c'4
-                        c'4
-                        c'4.
-                        c'4
-                        c'4.
-                        c'4
+                        c'8 ~ [
+                        c'8 ]
                         c'4
                         c'4.
                         c'4
                         c'4.
                         c'4
+                        c'8 ~ [
+                        c'8 ]
+                        c'4.
+                        c'4
+                        c'4.
+                        c'8 ~ [
+                        c'8 ]
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'8 ~ [
+                        c'8 ]
                         c'4
                         c'4.
                         c'4
                         c'4.
                         c'4
-                        c'4
+                        c'8 ~ [
+                        c'8 ]
                         c'4.
                         c'4
                         c'4.
-                        c'4
-                        c'4
-                        c'4.
-                        c'4
-                        c'4.
-                        c'4
-                        c'4
-                        c'4.
-                        c'4
-                        c'4.
-                        c'4
+                        c'8 ~ [
+                        c'8 ]
                         c'4
                         c'4.
                         c'4
@@ -2144,7 +2059,32 @@
                         c'4
                         c'4.
                         c'4
-                        r4.
+                        c'4.
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'8 ~
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'4
+                        c'8 ~
+                        c'4
+                        c'4
+                        c'4.
+                        c'4
+                        c'8 ~ [
+                        c'8 ]
+                        c'4.
+                        c'4
+                        c'4.
+                        c'4
+                        r8
                         R1 * 1/4
                         \bar "|"
                     }

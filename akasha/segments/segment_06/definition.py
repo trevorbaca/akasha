@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from abjad import *
-import baca
 import akasha
+import baca
+from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -13,8 +13,8 @@ stage_specifier = baca.tools.StageSpecifier([
     1, Fermata(),
     1, Fermata(),
     1, Fermata(),
-    1, Fermata(),
-    2, # stage 9
+    1, Fermata(), # 1-8
+    2, # 9
     2, 2, 4, 4, 4, 6, 6,
     Fermata('longfermata'),
     ])
@@ -40,7 +40,7 @@ segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     label_stage_numbers=True,
-    spacing_specifier=spacing_specifier,
+    #spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
     )
@@ -49,238 +49,110 @@ segment_maker.validate_measure_count(39)
 segment_maker.validate_stage_count(17)
 segment_maker.validate_measures_per_stage()
 
-###############################################################################
-################################# SPECIFIERS ##################################
-###############################################################################
-
-def _make_viola_divisions(rotation=0):
-    durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
-    durations = [Duration(_) for _ in durations]
-    durations = Sequence(durations)
-    durations = durations.rotate(index=rotation)
-    expression = sequence()
-    expression = expression.sum()
-    expression = expression.sequence()
-    expression = expression.split(
-        durations, 
-        cyclic=True,
-        overhang=True,
-        )
-    expression = expression.flatten()
-    return expression
+### stages 1-2 ###
 
 segment_maker.append_specifiers(
     (va, stages(1)),
-    baca.tools.RhythmSpecifier(
-        division_expression=_make_viola_divisions(rotation=0),
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            division_masks=[
-                rhythmmakertools.silence_first(),
-                rhythmmakertools.silence_last(),
-                ],
-            ),
-        ),
+    akasha.tools.make_viola_ob_rhythm_specifier(rotation=0),
     )
 
-### stage 3 ###
+### stages 3-4 ###
 
 segment_maker.append_specifiers(
     (vn_2, stages(3)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([-1]),
-                ],
-            extra_counts_per_division=[-2],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([-1]), [-2]
         ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(3)),
-    baca.tools.RhythmSpecifier(
-        division_expression=_make_viola_divisions(rotation=2),
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            division_masks=[
-                rhythmmakertools.silence_first(),
-                rhythmmakertools.silence_last(),
-                ],
-            ),
-        ),
+    akasha.tools.make_viola_ob_rhythm_specifier(rotation=-2),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(3)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([1]),
-                ],
-            extra_counts_per_division=[-1],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([1]), [-1],
         ),
     )
 
-### stage 5 ###
+### stages 5-6 ###
     
 segment_maker.append_specifiers(
     (vn_1, stages(5)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([0]),
-                ],
-            extra_counts_per_division=[-2],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([0]), [-2],
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(5)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([2]),
-                ],
-            extra_counts_per_division=[-1],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([2]), [-1],
         ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(5)),
-    baca.tools.RhythmSpecifier(
-        division_expression=_make_viola_divisions(rotation=4),
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            division_masks=[
-                rhythmmakertools.silence_first(),
-                rhythmmakertools.silence_last(),
-                ],
-            ),
-        ),
+    akasha.tools.make_viola_ob_rhythm_specifier(rotation=-4),
     )
 
-### stage 7 ###
+### stages 7-8 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(7)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([0]),
-                ],
-            extra_counts_per_division=[-2],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([0]), [-2],
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(7)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([-1]),
-                ],
-            extra_counts_per_division=[1],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([-1]), [1],
         ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(7)),
-    baca.tools.RhythmSpecifier(
-        division_expression=_make_viola_divisions(rotation=6),
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            division_masks=[
-                rhythmmakertools.silence_first(),
-                rhythmmakertools.silence_last(),
-                ],
-            ),
-        ),
+    akasha.tools.make_viola_ob_rhythm_specifier(rotation=-6),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(7)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([1]),
-                ],
-            extra_counts_per_division=[-1],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([1]), [-1],
         ),
     )
 
-### viola 9-16 ###
+### viola stages 9-16 ###
 
 segment_maker.append_specifiers(
     (va, stages(9, 16)),
-    baca.tools.RhythmSpecifier(
-        division_expression=_make_viola_divisions(rotation=8),
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            division_masks=[
-                rhythmmakertools.silence_first(),
-                rhythmmakertools.silence_last(),
-                ],
-            ),
-        ),
+    akasha.tools.make_viola_ob_rhythm_specifier(rotation=-8),
     )
 
 ### stage 9 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(9)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([1, -3]),
-                ],
-            extra_counts_per_division=[1],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([1, -3]), [1],
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([2, -1]),
-                ],
-            extra_counts_per_division=[0],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([2, -1]), [0],
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[4],
-            logical_tie_masks=[
-                silence_all(),
-                sustain([2, -2]),
-                ],
-            extra_counts_per_division=[2],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [4], silence_except([2, -2]), [2],
         ),
     )
 
@@ -288,43 +160,22 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(10, 11)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[8],
-            logical_tie_masks=[
-                silence_all(),
-                sustain_every([0, 3], period=8),
-                ],
-            extra_counts_per_division=[1],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [8], silence_every([0, 3], inverted=True, period=8), [1],
         ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(10, 11)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[8],
-            logical_tie_masks=[
-                silence_all(),
-                sustain_every([1, 4], period=9),
-                ],
-            extra_counts_per_division=[-1],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [8], silence_every([1, 4], inverted=True, period=9), [-1],
         ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10, 11)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-            denominators=[8],
-            logical_tie_masks=[
-                silence_all(),
-                sustain_every([2, 5], period=9),
-                ],
-            extra_counts_per_division=[2],
-            ),
+    akasha.tools.make_scratch_rhythm_specifier(
+        [8], silence_every([2, 5], inverted=True, period=9), [2],
         ),
     )
 

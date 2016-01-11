@@ -154,57 +154,51 @@ intro (15")
 
 [E] (2')
 
-    1-8(1+halt+1+halt+1+halt+1+halt)[44]
-    segment begins with mod. rhythmicized OB in viola;
-    no OB in other players;
+    1-8 (4x: 1 + fermata)[44]
+    segment begins with mod. rhythmicized va OB;
     large process of revealing getati begins;
-    process begins with isolated scratch tenuti in v1, v2, vc;
-    many halts between measures;
-    time feels different because of va OB accompaniment;
+    process begins with isolated v1, v2, vc scratch tenuti;
+    fermata;
 
-    9(2)[55]
+    9 (2)[55]
     v1, v2, vc scratch become denser;
-    no more halting;
     va OB;
+    no more halting: attaca;
 
-    10(2)
+    10 (2)
     v1, v2, vc scratch durations become shorter;
     va OB;
 
-    11(2)[55: accel.-->]
+    11 (2)[55->accel.]
     v1, v2, vc scratch staccatiss.;
-    accel.;
     va OB;
 
-    12(4)[89]
+    12 (4)[89]
     v1, v2, vc scratch staccatiss crossfade to get. ord. mf;
-    va OB continues;
+    va OB;
 
-    13(4)[89 accel.-->] 
+    13 (4)[89->accel.]
     v1, v2, vc all get. ord. mf;
     ascent begins;
-    accel. begins;
     va OB;
 
-    14(4)[-->]
+    14 (4)[89-->accel.]
     v1, v2, vc get. become dense piano;
     ascent continues;
-    accel. continues;
     va OB;
 
-    15(6)[126]
+    15 (6)[126]
     v1, v2, vc get. become very dense pianiss.;
     ascent continues;
     va OB;
 
-    16(6)
+    16-17 (6 + long fermata)
     v1, v2, vc get. very dense pianiss.;
-    ascent continues;
-    va OB;
-
-    17(1)
-    grand pause;
     [v1, v2, vc max. dense get. pianiss. *withheld and does not appear yet*]
+    ascent reaches peak;
+    va OB;
+    long fermata;
+
 
 [F] (3')
 

@@ -3,6 +3,7 @@ from baca.__abbreviations__ import stages
 from abjad.tools.rhythmmakertools import silence
 from abjad.tools.rhythmmakertools import silence_all
 from abjad.tools.rhythmmakertools import silence_every
+from abjad.tools.rhythmmakertools import silence_except
 from abjad.tools.rhythmmakertools import silence_first
 from abjad.tools.rhythmmakertools import silence_last
 from abjad.tools.rhythmmakertools import sustain
