@@ -161,9 +161,9 @@ intro (15")
     fermata;
 
     9 (2)[55]
+    no more halting;
     v1, v2, vc scratch become denser;
     va OB;
-    no more halting: attaca;
 
     10 (2)
     v1, v2, vc scratch durations become shorter;
@@ -177,28 +177,27 @@ intro (15")
     v1, v2, vc scratch staccatiss crossfade to get. ord. mf;
     va OB;
 
-    13 (4)[89->accel.]
+    13-14 (4)[89->accel.]
     v1, v2, vc all get. ord. mf;
     ascent begins;
     va OB;
 
-    14 (4)[89-->accel.]
+    15 (4)[89-->accel.]
     v1, v2, vc get. become dense piano;
     ascent continues;
     va OB;
 
-    15 (6)[126]
+    16 (6)[126]
     v1, v2, vc get. become very dense pianiss.;
     ascent continues;
     va OB;
 
-    16-17 (6 + long fermata)
+    17-18 (6 + long fermata)
     v1, v2, vc get. very dense pianiss.;
     [v1, v2, vc max. dense get. pianiss. *withheld and does not appear yet*]
     ascent reaches peak;
     va OB;
     long fermata;
-
 
 [F] (3')
 
