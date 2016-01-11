@@ -206,17 +206,17 @@ intro (15")
     microtonal vc melody returns from beginning of piece;
     attaca;
 
-    2-3 (2+halt)[126]
+    2-3 (2 + fermata)[126]
     [intercalated memory of vn1, vn2, vc dense get. pianiss. from prev. seg.];
-    breath;
+    fermata;
 
-    4-5 (1+halt)[55]
+    4-5 (1 + fermata)[55]
     single va scratch tenuto;
-    breath;
+    fermata;
 
-    6-7 (2+halt)[89]
+    6-7 (2 + fermata)[89]
     vn1, vn2 tasto tenuto loops;
-    breath;
+    fermata;
 
     8 (12)[89]
     vn1, vn2 tasto loops progress from tenuti (three pitches per loop) to 

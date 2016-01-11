@@ -5,10 +5,10 @@ from abjad.tools import pitchtools
 
 
 def make_getato_pitch_specifier(start_pitches, direction=Up):
-    assert isinstance(start_pitches, str), repr(start_pitches)
-    start_pitches = start_pitches.split()
-    start_pitches = [pitchtools.NumberedPitch(_) for _ in start_pitches]
-    start_pitches = [_.pitch_number for _ in start_pitches]
+    if isinstance(start_pitches, str):
+        start_pitches = start_pitches.split()
+        start_pitches = [pitchtools.NumberedPitch(_) for _ in start_pitches]
+        start_pitches = [_.pitch_number for _ in start_pitches]
     pitch_numbers = []
     for start_pitch in start_pitches:
         pitch_numbers_ = akasha.materials.getato_intervals

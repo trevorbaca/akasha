@@ -43,7 +43,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=True,
+    #label_stage_numbers=True,
     #spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -219,7 +219,7 @@ segment_maker.append_specifiers(
     new(
         akasha.tools.make_dense_getato_rhythm_specifier(
             [1],
-            [0, 2, 1, 3],
+            [2, 1, 3, 0],
             ),
         rhythm_maker__division_masks=silence(
             [0, 2, 3, 4, 5, 6, 10, 14, 22]),
@@ -272,14 +272,113 @@ segment_maker.append_specifiers(
     (vc, stages(17)),
     new(
         akasha.tools.make_dense_getato_rhythm_specifier(
-            [1, 2, 1, 2, 2],
+            [2, 1, 2, 2, 1],
             [6, 3, 5, 4],
             ),
-        rhythm_maker__division_masks=silence_last(5),
+        rhythm_maker__division_masks=silence_last(4),
         ),
     )
 
 ### across stages ###
+
+### violin 1 ###
+
+segment_maker.append_specifiers(
+    (vn_1, stages(1, 18)),
+    [
+        akasha.tools.make_getato_pitch_specifier([
+            5, 7, 9, 11, 13, 15, 17, 19, 21, 23,
+            25, 27, 29, 31, 33, 35, 37, 39, 41,
+            ])
+        ],
+    )
+    
+segment_maker.append_specifiers(
+    (vn_1, stages(1, 11)),
+    [
+        baca.markup.scratch_moltiss(),
+        baca.markup.terminate_each_note_abruptly(),
+        Dynamic('ff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(12, 14)),
+    [
+        baca.markup.piu_meno_scratch(),
+        Dynamic('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(15, 18)),
+    [
+        baca.articulations.staccati(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(15, 16)),
+    [
+        baca.markup.leggierissimo_off_string(),
+        baca.markup.senza_scratch(),
+        Hairpin('mf > pp'),
+        ],
+    )
+
+### violin 2 ###
+
+segment_maker.append_specifiers(
+    (vn_2, stages(1, 18)),
+    [
+        akasha.tools.make_getato_pitch_specifier([
+            -3, -1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 
+            19, 21, 23, 25, 27, 29, 31, 33, 35
+            ])
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(1, 9)),
+    [
+        baca.markup.scratch_moltiss(),
+        baca.markup.terminate_each_note_abruptly(),
+        Dynamic('ff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(10, 12)),
+    [
+        baca.markup.piu_meno_scratch(),
+        Dynamic('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(13)),
+    [
+        baca.markup.senza_scratch(),
+        Dynamic('mf'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(14, 18)),
+    [
+        baca.articulations.staccati(),
+        baca.markup.leggierissimo_off_string(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(15, 16)),
+    [
+        Hairpin('mf > pp'),
+        ],
+    )
+
+### viola ###
 
 segment_maker.append_specifiers(
     (va, stages(1, 18)),
@@ -290,5 +389,65 @@ segment_maker.append_specifiers(
         baca.spanners.one_line_staff,
         baca.tools.PitchSpecifier(source='C4'),
         Dynamic('mf'),
+        ],
+    )
+
+### cello ###
+
+segment_maker.append_specifiers(
+    (vc, stages(1, 18)),
+    [
+        akasha.tools.make_getato_pitch_specifier([
+            -13, -11, -9, -7, -5, -3, -1, 1, 3, 
+            5, 7, 9, 11, 13, 15, 17, 19, 21
+            ]),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1, 8)),
+    [
+        baca.markup.scratch_moltiss(),
+        baca.markup.terminate_each_note_abruptly(),
+        Dynamic('ff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(9, 11)),
+    [
+        baca.markup.piu_meno_scratch(),
+        Dynamic('f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(12)),
+    [
+        baca.markup.senza_scratch(),
+        Dynamic('mf'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(13, 18)),
+    [
+        baca.articulations.staccati(),
+        baca.markup.leggierissimo_off_string(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(15, 16)),
+    [
+        baca.articulations.staccati(),
+        Hairpin('mf > pp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(16)),
+    [
+        Clef('treble'),
         ],
     )
