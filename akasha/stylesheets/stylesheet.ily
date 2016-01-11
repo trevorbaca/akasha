@@ -170,7 +170,7 @@
         \override TimeSignature.style = #'numbered
         \override VerticalAxisGroup.default-staff-staff-spacing = #'(
             (basic-distance . 0)
-            (minimum-distance . 10)
+            (minimum-distance . 12) % distance below time signature context
             (padding . 0)
             (stretchability . 0)
         )
