@@ -61,57 +61,19 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
-            interpolation_specifiers=[
-                rhythmmakertools.InterpolationSpecifier(
-                    start_duration=Duration(1, 2),
-                    stop_duration=Duration(1, 8),
-                    written_duration=Duration(1, 16),
-                    ),
-                rhythmmakertools.InterpolationSpecifier(
-                    start_duration=Duration(1, 8),
-                    stop_duration=Duration(1, 2),
-                    written_duration=Duration(1, 16),
-                    ),
-                ],
-            ),
-        ),
+    akasha.tools.make_accelerando_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(1)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
-            interpolation_specifiers=[
-                rhythmmakertools.InterpolationSpecifier(
-                    start_duration=Duration(1, 8),
-                    stop_duration=Duration(1, 2),
-                    written_duration=Duration(1, 16),
-                    ),
-                rhythmmakertools.InterpolationSpecifier(
-                    start_duration=Duration(1, 2),
-                    stop_duration=Duration(1, 8),
-                    written_duration=Duration(1, 16),
-                    ),
-                ],
-            ),
-        ),
+    akasha.tools.make_ritardando_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(1)),
-    baca.tools.RhythmSpecifier(
+    new(
+        akasha.tools.make_ritardando_rhythm_specifier(),
         division_expression=sequence().sum().sequence(),
-        rhythm_maker=baca.rhythm.make_accelerando_rhythm_maker(
-            interpolation_specifiers=[
-                rhythmmakertools.InterpolationSpecifier(
-                    start_duration=Duration(1, 8),
-                    stop_duration=Duration(1, 2),
-                    written_duration=Duration(1, 16),
-                    ),
-                ],
-            ),
         ),
     )
 
