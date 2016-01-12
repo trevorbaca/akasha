@@ -342,7 +342,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     baca.tools.CompoundScope([(vn_2, 3), (va, 3), (vn_1, 7), (vc, 15)]),
     [
-        akasha.tools.make_getato_pitch_specifier([-2], [0]),
+        akasha.tools.make_getato_pitch_specifier(-2, [0]),
         baca.articulations.staccati(),
         ],
     )
