@@ -56,7 +56,7 @@ segment_maker.append_specifiers(
     [
         ([vn_1, va, vc], stages(1)),
         ],
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -91,7 +91,7 @@ segment_maker.append_specifiers(
     [
         ([vn_1, va, vc], stages(3)),
         ],
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -107,7 +107,7 @@ segment_maker.append_specifiers(
     [
         ([va, vc], stages(5)),
         ],
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -123,7 +123,7 @@ segment_maker.append_specifiers(
     [
         (va, stages(7)),
         ],
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -160,7 +160,7 @@ segment_maker.append_specifiers(
     [
         (vc, stages(9, 10)),
         ],
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### stages 12-13 ###
@@ -255,7 +255,7 @@ segment_maker.append_specifiers(
     [
         baca.overrides.natural_harmonics(),
         baca.spanners.ottava,
-        baca.tools.PitchSpecifier(source='C#7'),
+        baca.pitch.pitches(source='C#7'),
         ]
     )
 
@@ -331,7 +331,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto,
         baca.spanners.pervasive_trills_at_interval(2),
-        baca.tools.PitchSpecifier(source='G5'),
+        baca.pitch.pitches(source='G5'),
         Dynamic('p'),
         ]
     )
@@ -340,7 +340,7 @@ segment_maker.append_specifiers(
     (va, stages(1, 7)),
     [
         baca.overrides.natural_harmonics(),
-        baca.tools.PitchSpecifier(source='G~5'),
+        baca.pitch.pitches(source='G~5'),
         ]
     )
 
@@ -349,7 +349,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto,
         baca.spanners.glissandi(),
-        baca.tools.PitchSpecifier(source='Fb3 E3 D#3 C#3 B#2'),
+        baca.pitch.pitches(source='Fb3 E3 D#3 C#3 B#2'),
         Clef('alto'),
         Hairpin('sf > ppp'),
         ]
@@ -380,7 +380,7 @@ segment_maker.append_specifiers(
     (vc, stages(1, 5)),
     [
         baca.overrides.natural_harmonics(),
-        baca.tools.PitchSpecifier(source='D5'),
+        baca.pitch.pitches(source='D5'),
         ]
     )
 
@@ -405,7 +405,7 @@ segment_maker.append_specifiers(
     (vc, stages(9)),
     [
         baca.markup.tasto,
-        baca.tools.PitchSpecifier(source='C#2'),
+        baca.pitch.pitches(source='C#2'),
         Hairpin('sf > ppp'),
         ]
     )
@@ -431,7 +431,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto,
         baca.spanners.glissandi(),
-        baca.tools.PitchSpecifier(
+        baca.pitch.pitches(
             source='Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1'),
         Hairpin('sf > ppp'),
         ]

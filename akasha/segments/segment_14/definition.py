@@ -29,6 +29,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    final_markup=akasha.materials.colophon_markup,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     label_stage_numbers=True,
@@ -40,10 +41,6 @@ segment_maker = baca.tools.SegmentMaker(
 segment_maker.validate_measure_count(17)
 segment_maker.validate_stage_count(4)
 segment_maker.validate_measures_per_stage()
-
-###############################################################################
-################################# SPECIFIERS ##################################
-###############################################################################
 
 segment_maker.append_specifiers(
     ((vn_1, va, vc), stages(1, 2)),
@@ -65,7 +62,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(1, 3)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fuse_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rewrite_meter=True,
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             burnish_specifier=rhythmmakertools.BurnishSpecifier(
@@ -81,4 +78,12 @@ segment_maker.append_specifiers(
             extra_counts_per_division=[6, 4, 6, 3],
             ),
         ),
+    )
+
+### across stages ###
+
+segment_maker.append_specifiers(
+    (vc, stages(1)),
+    [
+        ]
     )

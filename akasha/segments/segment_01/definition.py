@@ -43,8 +43,8 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     (va, stages(1)),
     [
-        baca.rhythm.messiaen_tied_note_rhythm_specifier,
+        baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
         baca.markup.OB_no_pitch,
-        baca.tools.PitchSpecifier(source='B3'),
+        baca.pitch.pitches(source='B3'),
         ],
     )

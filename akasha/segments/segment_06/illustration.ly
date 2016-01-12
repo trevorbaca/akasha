@@ -1,4 +1,4 @@
-% 2016-01-11 17:50
+% 2016-01-12 08:46
 
 \version "2.19.35"
 \language "english"
@@ -476,12 +476,13 @@
                         \times 6/4 {
                             f'4 \ff
                                 ^ \markup {
-                                    \upright
-                                        "scratch moltiss."
-                                    }
-                                - \markup {
-                                    \upright
-                                        "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \upright
+                                                "scratch moltiss."
+                                            \upright
+                                                "terminate each note abruptly"
+                                        }
                                     }
                             r4
                             r4
@@ -562,7 +563,7 @@
                             r8
                             r8
                             af'8 \f
-                                - \markup {
+                                ^ \markup {
                                     \upright
                                         "più meno scratch"
                                     }
@@ -670,12 +671,13 @@
                             r16
                             a'16 -\staccato \> \mf [
                                 ^ \markup {
-                                    \upright
-                                        "senza scratch"
-                                    }
-                                - \markup {
-                                    \upright
-                                        "leggierissimo (off-string bowing on staccati)"
+                                    \column
+                                        {
+                                            \upright
+                                                "leggierissimo (off-string bowing on staccati)"
+                                            \upright
+                                                "ord. (senza scratch)"
+                                        }
                                     }
                             bf'16 -\staccato
                             b'16 -\staccato ]
@@ -1104,12 +1106,13 @@
                             r4
                             a4 \ff
                                 ^ \markup {
-                                    \upright
-                                        "scratch moltiss."
-                                    }
-                                - \markup {
-                                    \upright
-                                        "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \upright
+                                                "scratch moltiss."
+                                            \upright
+                                                "terminate each note abruptly"
+                                        }
                                     }
                         }
                         R1 * 1/4
@@ -1146,7 +1149,7 @@
                         \times 8/7 {
                             r8
                             a8 \f
-                                - \markup {
+                                ^ \markup {
                                     \upright
                                         "più meno scratch"
                                     }
@@ -1239,7 +1242,7 @@
                             cs'8 \mf
                                 ^ \markup {
                                     \upright
-                                        "senza scratch"
+                                        "ord. (senza scratch)"
                                     }
                             r8
                             r8
@@ -1268,7 +1271,7 @@
                         \times 4/5 {
                             r16
                             bf16 -\staccato [
-                                - \markup {
+                                ^ \markup {
                                     \upright
                                         "leggierissimo (off-string bowing on staccati)"
                                     }
@@ -2056,12 +2059,13 @@
                             r4
                             b,4 \ff
                                 ^ \markup {
-                                    \upright
-                                        "scratch moltiss."
-                                    }
-                                - \markup {
-                                    \upright
-                                        "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \upright
+                                                "scratch moltiss."
+                                            \upright
+                                                "terminate each note abruptly"
+                                        }
                                     }
                             r4
                             r4
@@ -2081,7 +2085,7 @@
                             r4
                             r4
                             b,4 \f
-                                - \markup {
+                                ^ \markup {
                                     \upright
                                         "più meno scratch"
                                     }
@@ -2152,7 +2156,7 @@
                             cs8 \mf
                                 ^ \markup {
                                     \upright
-                                        "senza scratch"
+                                        "ord. (senza scratch)"
                                     }
                             r8
                             r8
@@ -2211,7 +2215,7 @@
                         {
                             r16
                             cs16 -\staccato [
-                                - \markup {
+                                ^ \markup {
                                     \upright
                                         "leggierissimo (off-string bowing on staccati)"
                                     }
