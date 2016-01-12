@@ -133,7 +133,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(8, 11)),
     baca.tools.RhythmSpecifier(
-        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
+        division_expression=baca.rhythm.fuse_compound_quarter_divisions([2, 2, 1, 2, 1]),
         rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
             burnish_specifier=rhythmmakertools.BurnishSpecifier(
                 left_classes=[Rest],

@@ -53,7 +53,7 @@ segment_maker.append_specifiers(
             rhythm_maker__logical_tie_masks=silence([1]),
             rhythm_maker__division_masks=silence_last(2),
             ),
-        baca.tools.PitchSpecifier(source='E5 D5'),
+        baca.pitch.pitches(source='E5 D5'),
         ]
     )
 
@@ -61,7 +61,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(1)),
     [   
         akasha.tools.make_polyphony_rhythm_specifier(),
-        baca.tools.PitchSpecifier(source='D#4 E4 F4 F~4 E4'),
+        baca.pitch.pitches(source='D#4 E4 F4 F~4 E4'),
         ]
     )
 
@@ -72,7 +72,7 @@ segment_maker.append_specifiers(
             akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
             rhythm_maker__logical_tie_masks=silence_first(2),
             ),
-        baca.tools.PitchSpecifier(source='Db4 Db~4 C4'),
+        baca.pitch.pitches(source='Db4 Db~4 C4'),
         ]
     )
 
@@ -119,7 +119,7 @@ segment_maker.append_specifiers(
             akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=(2, 1)),
             rhythm_maker__logical_tie_masks=silence([3]),
             ),
-        baca.tools.PitchSpecifier(source='C5 Bb4'),
+        baca.pitch.pitches(source='C5 Bb4'),
         ]
     )
 
@@ -127,10 +127,10 @@ segment_maker.append_specifiers(
     (va, stages(8)),
     [
         new(
-            baca.rhythm.messiaen_tied_note_rhythm_specifier,
+            baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
             division_expression=sequence()[-1].sequence(),
             ),
-        baca.tools.PitchSpecifier(source='D#3'),
+        baca.pitch.pitches(source='D#3'),
         baca.markup.tasto,
         Dynamic('mp'),
         ]
@@ -140,10 +140,10 @@ segment_maker.append_specifiers(
     (vc, stages(8)),
     [
         new(
-            baca.rhythm.messiaen_tied_note_rhythm_specifier,
+            baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
             division_expression=sequence()[-1].sequence(),
             ),
-        baca.tools.PitchSpecifier(source='C#2'),
+        baca.pitch.pitches(source='C#2'),
         baca.markup.tasto,
         Dynamic('mp'),
         ]

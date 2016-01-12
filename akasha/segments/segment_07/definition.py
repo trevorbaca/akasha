@@ -43,6 +43,10 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     minimum_width=Duration(1, 12),
     )
 
+volta_map = baca.tools.VoltaMap([
+    baca.tools.MeasureExpression(-4, -2),
+    ])
+
 segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
@@ -50,6 +54,7 @@ segment_maker = baca.tools.SegmentMaker(
     #spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
+    volta_map=volta_map,
     )
 
 segment_maker.validate_measure_count(48)
@@ -63,8 +68,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_cello_solo_rhythm_specifier(rotation=0),
         akasha.tools.make_cello_solo_pitch_specifier(transposition=1),
-        baca.markup.tasto_slow_bow(),
-        Clef('bass'),
+        baca.markup.tasto_poco_scratch(),
         Dynamic('mp'),
         ],
     )
@@ -99,7 +103,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(4)),
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### stages 6-7 ###
@@ -108,7 +112,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(6)),
     new(
         akasha.tools.make_accelerando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([1, 4, 6]),
+        rhythm_maker__logical_tie_masks=silence([1, 6]),
         ),
     )
 
@@ -116,7 +120,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(6)),
     new(
         akasha.tools.make_ritardando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([2, 5, 7]),
+        rhythm_maker__logical_tie_masks=silence([2, 5]),
         ),
     )
 
@@ -231,7 +235,6 @@ segment_maker.append_specifiers(
     baca.tools.RhythmSpecifier(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
-        tie_last=True,
         ),
     )
 
@@ -347,7 +350,7 @@ segment_maker.append_specifiers(
     baca.tools.RhythmSpecifier(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
-        tie_last=True,
+        tie_last=False,
         ),
     )
 
@@ -355,7 +358,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2], stages(9, 11)),
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### viola & cello: stages 8-12 ###
@@ -393,7 +396,7 @@ segment_maker.append_specifiers(
                 use_messiaen_style_ties=True,
                 )
             ),
-        tie_last=True,
+        tie_last=False,
         ),
     )
 
@@ -412,91 +415,27 @@ segment_maker.append_specifiers(
                 use_messiaen_style_ties=True,
                 )
             ),
-        tie_last=True,
+        tie_last=False,
         ),
     )
 
 segment_maker.append_specifiers(
     (va, (10, 11)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                tie_across_divisions=True,
-                use_messiaen_style_ties=True,
-                )
-            ),
-        ),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10, 11)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-            tie_specifier=rhythmmakertools.TieSpecifier(
-                tie_across_divisions=True,
-                use_messiaen_style_ties=True,
-                )
-            ),
-        ),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### stages 9-10 ###
 
-#segment_maker.append_specifiers(
-#    (vn_1, stages(9, 11)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            division_masks=silence([0, 1, 3, 4, 5, 8, 9, 12, 15]),
-#            extra_counts_per_division=[6, 4, 6, 3],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
-#    )
-
-#segment_maker.append_specifiers(
-#    (vn_2, stages(9)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.make_strict_quarter_divisions()
-#            .partition_by_ratio_of_lengths(Ratio((1, 1)))
-#            [0]
-#            ,
-#        rhythm_maker=talea_rhythm_maker,
-#        ),
-#    )
-
-#segment_maker.append_specifiers(
-#    (vn_2, stages(10, 11)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([1, 2, 2, 1, 2, 1]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            division_masks=silence([0, 1, 3, 6, 8]),
-#            extra_counts_per_division=[6, 4, 6, 3, 6],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
-#    )
 
 ### stages 13-14 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(13)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            extra_counts_per_division=[6, 4, 6, 3],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
     akasha.tools.make_dense_getato_rhythm_specifier(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -505,16 +444,6 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_2, stages(13)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            extra_counts_per_division=[4, 6, 3, 6],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
     akasha.tools.make_dense_getato_rhythm_specifier(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
@@ -523,16 +452,6 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(13)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            extra_counts_per_division=[3, 6, 4, 6],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
     akasha.tools.make_dense_getato_rhythm_specifier(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
@@ -541,16 +460,6 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(13)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            extra_counts_per_division=[6, 3, 6, 4],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
     akasha.tools.make_dense_getato_rhythm_specifier(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
@@ -561,66 +470,10 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(15)),
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### stages 17-18 ###
-
-#segment_maker.append_specifiers(
-#    (vn_1, stages(17)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 2, 1, 2, 1]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            extra_counts_per_division=[6, 4, 6, 3],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
-#    )
-#
-#segment_maker.append_specifiers(
-#    (vn_2, stages(17)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 1, 2]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            extra_counts_per_division=[4, 6, 3, 6],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
-#    )
-#
-#segment_maker.append_specifiers(
-#    (va, stages(17)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([2, 1, 2, 2, 1]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            extra_counts_per_division=[3, 6, 4, 6],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
-#    )
-#
-#segment_maker.append_specifiers(
-#    (vc, stages(17)),
-#    baca.tools.RhythmSpecifier(
-#        division_expression=baca.rhythm.fused_compound_quarter_divisions([1, 2, 1, 2, 2]),
-#        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#            denominators=[16],
-#            extra_counts_per_division=[6, 3, 6, 4],
-#            tie_specifier=rhythmmakertools.TieSpecifier(
-#                tie_across_divisions=True,
-#                ),
-#            ),
-#        ),
-#    )
 
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
@@ -657,13 +510,19 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(19)),
-    baca.rhythm.messiaen_tied_note_rhythm_specifier,
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### across stages ###
 
 ### stages 2-3 ###
 
+segment_maker.append_specifiers(
+    (vc, stages(1)),
+    [
+        Clef('treble'),
+        ]
+    )
 segment_maker.append_specifiers(
     (vn_1, stages(2)),
     [
@@ -685,7 +544,6 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier([21, 23, 25, 27]),
         baca.articulations.staccati(),
-        Clef('treble'),
         Dynamic('pp'),
         ]
     )
@@ -697,7 +555,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.scratch_moltiss(),
         baca.markup.terminate_abruptly(),
-        baca.tools.PitchSpecifier(source='F#3'),
+        baca.pitch.pitches('F#3'),
         Dynamic('ff'),
         ]
     )
@@ -707,8 +565,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(6)),
     [
-        baca.markup.tasto_XFB_flaut,
-        baca.tools.PitchSpecifier(source='Eb5 F5'),
+        baca.markup.tasto_XFB_flaut(),
+        baca.pitch.pitches('Eb5 F5'),
         Dynamic('pp'),
         ]
     )
@@ -716,9 +574,100 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(6)),
     [
-        baca.markup.tasto_XFB_flaut,
-        baca.tools.PitchSpecifier(source='B4 C#5'),
+        baca.markup.tasto_XFB_flaut(),
+        baca.pitch.pitches('B4 C#5'),
         Dynamic('pp'),
+        ]
+    )
+
+### stages 8-9 ###
+
+segment_maker.append_specifiers(
+    (vn_1, stages(8)),
+    [
+        baca.dynamics.make_repeated_hairpins(
+            ['pp < p', 'p > pp'],
+            span='nontrivial ties',
+            ),
+        baca.pitch.infinite_pitches(
+            [15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18],
+            [1],
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(8)),
+    [
+        baca.dynamics.make_repeated_hairpins(
+            ['pp < p', 'p > pp'],
+            span='nontrivial ties',
+            ),
+        baca.pitch.infinite_pitches(
+            [11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], 
+            [1],
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(8)),
+    [
+        Dynamic('mp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    #(va, stages(9, 10)),
+    (va, stages(10, 11)),
+    [
+        Hairpin('mp < f'),
+        ],
+    )
+
+#segment_maker.append_specifiers(
+#    ([vn_1, vn_2, va, vc], stages(10, 11)),
+#    [
+#        baca.spanners.make_transition(
+#            baca.markup.tasto_poco_scratch(),
+#            baca.markup.tasto_scratch_moltiss(),
+#            ),
+#        ],
+#    )
+
+segment_maker.append_specifiers(
+    (va, stages(8, 11)),
+    [
+        baca.markup.tasto_slow_bow(),
+        # 6 pitches
+        #baca.pitch.exact_pitches('Ab3 A3 B3 B~3 Bb3 C4 G4 A4 B4'),
+        baca.pitch.pitches('Ab3 A3 B3 B~3 Bb3 C4 G4 A4 B4'),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(8)),
+    [
+        Dynamic('mp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    #(vc, stages(9, 10)),
+    (vc, stages(10, 11)),
+    [
+        Hairpin('mp < f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(8, 11)),
+    [
+        baca.markup.tasto_slow_bow(),
+        # 7 pitches
+        #baca.pitch.exact_pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2 C2 B1 A1'),
+        baca.pitch.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2 C2 B1 A1'),
+        Clef('bass'),
         ]
     )
 
@@ -769,7 +718,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.OB_no_pitch(),
         baca.spanners.one_line_staff(),
-        baca.tools.PitchSpecifier(source='B4'),
+        baca.pitch.pitches(source='B4'),
         Dynamic('mf'),
         ]
     )
@@ -779,8 +728,16 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
     [
+        baca.markup.make_boxed_repeat_count(8),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(17)),
+    [
         akasha.tools.make_getato_pitch_specifier([29, 31, 33, 35]),
         baca.articulations.staccati(),
+        baca.markup.leggieriss(),
         Dynamic('pp'),
         ]
     )
@@ -790,6 +747,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier([26, 28, 30, 32]),
         baca.articulations.staccati(),
+        baca.markup.leggieriss(),
         Dynamic('pp'),
         ]
     )
@@ -799,6 +757,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier([23, 25, 27, 29]),
         baca.articulations.staccati(),
+        baca.markup.leggieriss(),
         Dynamic('pp'),
         ]
     )
@@ -808,6 +767,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier([20, 22, 24, 26]),
         baca.articulations.staccati(),
+        baca.markup.leggieriss(),
         Dynamic('pp'),
         ]
     )
@@ -819,7 +779,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.OB_no_pitch(),
         baca.spanners.one_line_staff(),
-        baca.tools.PitchSpecifier(source='B4'),
+        baca.pitch.pitches(source='B4'),
         Dynamic('mf'),
         ]
     )
