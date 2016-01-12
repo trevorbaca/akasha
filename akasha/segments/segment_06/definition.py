@@ -286,10 +286,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(1, 18)),
     [
-        akasha.tools.make_getato_pitch_specifier([
-            5, 7, 9, 11, 13, 15, 17, 19, 21, 23,
-            25, 27, 29, 31, 33, 35, 37, 39, 41,
-            ])
+        akasha.tools.make_getato_pitch_specifier(5, [2]),
         ],
     )
     
@@ -331,10 +328,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(1, 18)),
     [
-        akasha.tools.make_getato_pitch_specifier([
-            -3, -1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 
-            19, 21, 23, 25, 27, 29, 31, 33, 35
-            ])
+        akasha.tools.make_getato_pitch_specifier(-3, [2]),
         ],
     )
 
@@ -397,10 +391,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1, 18)),
     [
-        akasha.tools.make_getato_pitch_specifier([
-            -13, -11, -9, -7, -5, -3, -1, 1, 3, 
-            5, 7, 9, 11, 13, 15, 17, 19, 21
-            ]),
+        akasha.tools.make_getato_pitch_specifier(-13, [2]),
         ],
     )
 
