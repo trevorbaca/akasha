@@ -14,7 +14,7 @@ stage_specifier = baca.tools.StageSpecifier([
     1, Fermata('longfermata'), # 2-3
     1, Fermata('shortfermata'), # 4-5
     1, Fermata('shortfermata'), # 6-7
-    2, # 8
+    1, 1, # 8-9
     ])
 
 tempo_map = baca.tools.TempoMap([
@@ -40,40 +40,31 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_measure_count(11)
-segment_maker.validate_stage_count(8)
+segment_maker.validate_stage_count(9)
 segment_maker.validate_measures_per_stage()
 
 ### stages 1-2 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
-    [
-        new(
-            akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=[1]), 
-            rhythm_maker__logical_tie_masks=silence([1]),
-            rhythm_maker__division_masks=silence_last(2),
-            ),
-        baca.pitch.pitches(source='E5 D5'),
-        ]
+    new(
+        akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=[1]), 
+        rhythm_maker__logical_tie_masks=silence([1]),
+        rhythm_maker__division_masks=silence_last(2),
+        ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(1)),
-    [   
-        akasha.tools.make_polyphony_rhythm_specifier(),
-        baca.pitch.pitches(source='D#4 E4 F4 F~4 E4'),
-        ]
+    akasha.tools.make_polyphony_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, 1),
-    [
-        new(
-            akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
-            rhythm_maker__logical_tie_masks=silence_first(2),
-            ),
-        baca.pitch.pitches(source='Db4 Db~4 C4'),
-        ]
+    new(
+        akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
+        rhythm_maker__logical_tie_masks=silence_first(2),
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -110,67 +101,88 @@ segment_maker.append_specifiers(
         ),
     )
 
-### stage 8 ###
+### stages 8-9 ###
 
 segment_maker.append_specifiers(
-    (vn_2, stages(8)),
-    [
-        new(
-            akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=(2, 1)),
-            rhythm_maker__logical_tie_masks=silence([3]),
-            ),
-        baca.pitch.pitches(source='C5 Bb4'),
-        ]
+    (vn_2, stages(8, 9)),
+    new(
+        akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=(2, 1)),
+        rhythm_maker__logical_tie_masks=silence([3]),
+        ),
     )
 
 segment_maker.append_specifiers(
-    (va, stages(8)),
-    [
-        new(
-            baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-            division_expression=sequence()[-1].sequence(),
-            ),
-        baca.pitch.pitches('D#3'),
-        baca.markup.tasto(),
-        Dynamic('mp'),
-        ]
+    (va, stages(9)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(8)),
-    [
-        new(
-            baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-            division_expression=sequence()[-1].sequence(),
-            ),
-        baca.pitch.pitches(source='C#2'),
-        baca.markup.tasto,
-        Dynamic('mp'),
-        ]
+    (vc, stages(9)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### across stages ###
 
 segment_maker.append_specifiers(
+    (vn_1, stages(1)),
+    [
+        baca.pitch.pitches(source='E5 D5'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(1)),
+    [   
+        baca.pitch.fixed_pitches(source='D#4 E4 F4 F~4 E4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, 1),
+    [
+        baca.pitch.fixed_pitches(source='Db4 Db~4 C4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (vn_2, stages(1)),
     [
-        baca.markup.tasto_slow_bow,
+        baca.markup.tasto_poco_scratch(),
         Dynamic('mp'),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1, 6)),
     [
-        akasha.tools.make_getato_pitch_specifier('Bb3 G3 E3', direction=Down),
-        baca.articulations.staccati,
-        ]
+        akasha.tools.make_getato_pitch_specifier(-2, [-3], direction=Down),
+        baca.articulations.staccati(),
+        ],
     )
 
 segment_maker.append_specifiers(
-    (vn_2, stages(8)),
+    (vn_2, stages(8, 9)),
     [
-        baca.markup.tasto_XFB_flaut,
+        baca.markup.tasto_XFB_flaut(),
+        baca.pitch.pitches(source='C5 Bb4'),
         Dynamic('pp'),
-        ]
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(9)),
+    [
+        baca.pitch.pitches('D#3'),
+        baca.markup.tasto(),
+        Dynamic('mp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(9)),
+    [
+        baca.pitch.pitches(source='C#2'),
+        baca.markup.tasto(),
+        Dynamic('mp'),
+        ],
     )
