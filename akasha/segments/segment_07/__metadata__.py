@@ -8,8 +8,8 @@ metadata = datastructuretools.TypedOrderedDict(
             'end_clefs_by_staff',
             datastructuretools.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', 'bass'),
-                    ('Viola Music Staff', 'alto'),
+                    ('Cello Music Staff', 'treble'),
+                    ('Viola Music Staff', 'treble'),
                     ('Violin One Music Staff', 'treble'),
                     ('Violin Two Music Staff', 'treble'),
                     ]
