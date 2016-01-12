@@ -130,8 +130,8 @@ segment_maker.append_specifiers(
             baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
             division_expression=sequence()[-1].sequence(),
             ),
-        baca.pitch.pitches(source='D#3'),
-        baca.markup.tasto,
+        baca.pitch.pitches('D#3'),
+        baca.markup.tasto(),
         Dynamic('mp'),
         ]
     )
