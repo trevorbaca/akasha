@@ -1,4 +1,4 @@
-% 2016-01-10 13:59
+% 2016-01-11 21:44
 
 \version "2.19.35"
 \language "english"
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #132
+        currentBarNumber = #152
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -256,8 +256,6 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     \mark #6
                     s1 * 3/4
                         - \markup {
@@ -286,14 +284,10 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 5/4
                         - \markup {
                             \fontsize
@@ -321,14 +315,10 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -340,8 +330,6 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                         - \markup {
                             \fontsize
@@ -369,8 +357,6 @@
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -382,8 +368,6 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 3/4
                         - \markup {
                             \fontsize
@@ -411,14 +395,10 @@
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -430,8 +410,6 @@
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 5/4
                         - \markup {
                             \fontsize
@@ -443,69 +421,45 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 5/4
                         - \markup {
                             \fontsize
@@ -517,25 +471,17 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 5 128)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 5 128)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 1
                         - \markup {
                             \fontsize
@@ -547,18 +493,12 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 5 128)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
-                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
@@ -584,8 +524,6 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 1 \startTextSpan
                         - \markup {
                             \fontsize
@@ -597,26 +535,18 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4 \stopTextSpan
                         - \markup {
                             \fontsize
@@ -644,8 +574,6 @@
                 }
                 {
                     \time 3/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 3/4
                         - \markup {
                             \fontsize
@@ -656,37 +584,25 @@
                             }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
-                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 4/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
-                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -698,8 +614,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/2
                         - \markup {
                             \fontsize
@@ -727,8 +641,6 @@
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -740,8 +652,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
-                    \newSpacingSection
                     s1 * 3/2
                         - \markup {
                             \fontsize
@@ -769,8 +679,6 @@
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -782,8 +690,6 @@
                 }
                 {
                     \time 6/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     s1 * 3/2
                         - \markup {
                             \fontsize
@@ -811,8 +717,6 @@
                 }
                 {
                     \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
                     s1 * 1/4
                         - \markup {
                             \fontsize
@@ -848,100 +752,151 @@
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         R1 * 7/4
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                        \times 4/7 {
+                            r16
+                            ef'''16 -\staccato [
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            ef'''16 -\staccato ]
                         }
-                        \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                        {
+                            r16
+                            d'''16 -\staccato [
+                            ef'''16 -\staccato
+                            e'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            fs'''16 -\staccato [
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
-                        \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                        \times 4/5 {
+                            r16
+                            fs'''16 -\staccato [
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            af'''16 -\staccato ]
+                        }
+                        \times 4/7 {
+                            r16
+                            a'''16 -\staccato [
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato ]
+                        }
+                        {
+                            r16
+                            e'''16 -\staccato [
+                            ef'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            e'''16 -\staccato [
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato ]
+                        }
+                        \times 4/5 {
+                            r16
+                            fs'''16 -\staccato [
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato ]
                         }
                         R1 * 5/4
-                        \times 4/5 {
-                            c'4
-                            c'16 \repeatTie
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'2.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            ef''16 * 227/32 \pp [
+                                ^ \markup {
+                                    \upright
+                                        "tasto + XFB flaut."
+                                    }
+                            r16 * 199/64
+                            f''16 * 115/64 ]
+                            \revert Staff.Stem #'stemlet-length
                         }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'16
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            ef''16 * 109/64 [
+                            r16 * 61/32
+                            f''16 * 163/64
+                            r16 * 31/8
+                            ef''16 * 191/32 ]
+                            \revert Staff.Stem #'stemlet-length
                         }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. \repeatTie [
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'16 \repeatTie
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'16 \repeatTie
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4
-                        }
-                        \times 4/5 {
-                            c'8. \repeatTie [
-                            c'8 ]
-                        }
-                        \times 4/5 {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                            c'16 \repeatTie
-                        }
+                        \revert TupletNumber #'text
                         R1 * 1/4
                         \times 4/5 {
                             c'4
@@ -1211,495 +1166,229 @@
                             c'16 * 37/16
                             c'16 * 135/64
                             r16 * 127/64
+                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                             c'16 * 31/16 ]
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        r2
-                        r2
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        r2
-                        r4
-                        r2
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 10/16 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 6/9 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        r2.
-                        r4
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 10/13 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        r4.
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 12/16 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        r2.
-                        \times 12/18 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 6/10 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 12/18 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/7 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/7 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'1. \repeatTie
+                        c'1 \repeatTie
+                        c'1. \repeatTie
+                        c'1. \repeatTie
+                        c'1. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
                         R1 * 1/4
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            f'''16 -\staccato \< \ff [
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            g'''16 -\staccato [
+                            af'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            bf'''16 -\staccato
+                            b'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            fs'''16 -\staccato [
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            af'''16 -\staccato [
+                            bf'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            b'''16 -\staccato
+                            bf'''16 -\staccato
+                            c''''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs''''16 -\staccato [
+                            b'''16 -\staccato
+                            c''''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            a'''16 -\staccato [
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            c''''16 -\staccato
+                            b'''16 -\staccato
+                            bf'''16 -\staccato
+                            a'''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            b'''16 -\staccato [
+                            c''''16 -\staccato
+                            cs''''16 -\staccato
+                            c''''16 -\staccato
+                            d''''16 -\staccato
+                            ef''''16 -\staccato
+                            cs''''16 -\staccato
+                            d''''16 -\staccato
+                            b'''16 -\staccato
+                            c''''16 -\staccato
+                            b'''16 -\staccato
+                            bf'''16 -\staccato
+                            a'''16 -\staccato ]
                         }
                         \times 4/7 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            b'''16 -\staccato [
+                            bf'''16 -\staccato
+                            b'''16 -\staccato
+                            c''''16 -\staccato
+                            d''''16 -\staccato
+                            cs''''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            c''''16 -\staccato [
+                            b'''16 -\staccato
+                            cs''''16 -\staccato
+                            d''''16 -\staccato
+                            ef''''16 -\staccato
+                            d''''16 -\staccato
+                            e''''16 -\staccato
+                            f''''16 -\staccato
+                            ef''''16 -\staccato
+                            e''''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
                         {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            e'''16 -\staccato [
+                            ef'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            e'''16 -\staccato [
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            bf'''16 -\staccato
+                            b'''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            a'''16 -\staccato [
+                            bf'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            af'''16 -\staccato [
+                            bf'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
                         {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            a'''16 -\staccato [
+                            bf'''16 -\staccato
+                            b'''16 -\staccato \fff ]
                         }
                         R1 * 2
                         \times 12/18 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            f'''16 -\staccato \pp [
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato ]
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 12/16 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            bf'''16 -\staccato [
+                            b'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            bf'''16 -\staccato
+                            a'''16 -\staccato ]
                         }
                         R1 * 2
                         \bar "|"
@@ -1727,87 +1416,149 @@
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 7/4
-                        \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            c'''16 -\staccato [
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            c'''16 -\staccato [
+                            b''16 -\staccato
+                            c'''16 -\staccato
+                            cs'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato ]
                         }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                        \times 4/5 {
+                            r16
+                            e'''16 -\staccato [
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            e'''16 -\staccato [
+                            f'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato ]
+                        }
+                        \times 8/14 {
+                            r16
+                            f'''16 -\staccato [
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            e'''16 -\staccato ]
                         }
                         R1 * 5/4
-                        {
-                            c'4
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'2.
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #left
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            b'16 * 13/8 \pp [
+                                ^ \markup {
+                                    \upright
+                                        "tasto + XFB flaut."
+                                    }
+                            cs''16 * 125/64
+                            r16 * 49/16
+                            b'16 * 343/64 ]
+                            \revert Staff.Stem #'stemlet-length
                         }
-                        {
-                            c'4
+                        \revert TupletNumber #'text
+                        \override TupletNumber #'text = \markup {
+                            \scale
+                                #'(0.75 . 0.75)
+                                \score
+                                    {
+                                        \new Score \with {
+                                            \override SpacingSpanner #'spacing-increment = #0.5
+                                            proportionalNotationDuration = ##f
+                                        } <<
+                                            \new RhythmicStaff \with {
+                                                \remove Time_signature_engraver
+                                                \remove Staff_symbol_engraver
+                                                \override Stem #'direction = #up
+                                                \override Stem #'length = #5
+                                                \override TupletBracket #'bracket-visibility = ##t
+                                                \override TupletBracket #'direction = #up
+                                                \override TupletBracket #'padding = #1.25
+                                                \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                tupletFullLength = ##t
+                                            } {
+                                                c'1
+                                            }
+                                        >>
+                                        \layout {
+                                            indent = #0
+                                            ragged-right = ##t
+                                        }
+                                    }
+                            }
+                        \times 1/1 {
+                            \once \override Beam #'grow-direction = #right
+                            \override Staff.Stem #'stemlet-length = #0.75
+                            cs''16 * 117/16 [
+                            r16 * 73/16
+                            b'16 * 73/32
+                            r16 * 59/32 ]
+                            \revert Staff.Stem #'stemlet-length
                         }
-                        {
-                            c'4 \repeatTie
-                        }
-                        {
-                            c'4
-                        }
-                        {
-                            c'8. \repeatTie [
-                            c'16 ]
-                        }
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
-                        }
-                        {
-                            c'4 \repeatTie
-                        }
+                        \revert TupletNumber #'text
                         R1 * 1/4
                         {
                             c'4
@@ -2049,455 +1800,223 @@
                             \revert Staff.Stem #'stemlet-length
                         }
                         \revert TupletNumber #'text
-                        {
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'4 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'1. \repeatTie
+                        c'1 \repeatTie
+                        c'1. \repeatTie
+                        c'1. \repeatTie
+                        c'1. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        R1 * 1/4
+                        \times 8/12 {
+                            r16
+                            d'''16 -\staccato \< \ff [
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato ]
                         }
-                        {
-                            c'4 \repeatTie
+                        \times 4/6 {
+                            r16
+                            ef'''16 -\staccato [
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato ]
                         }
-                        {
-                            c'16 \repeatTie [
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8. ]
+                        \times 8/11 {
+                            r16
+                            f'''16 -\staccato [
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato ]
                         }
-                        {
-                            c'16 \repeatTie
-                            r8.
+                        \times 4/6 {
+                            r16
+                            e'''16 -\staccato [
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
-                        {
-                            r4
+                        \times 8/12 {
+                            r16
+                            fs'''16 -\staccato [
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato ]
+                        }
+                        \times 8/14 {
+                            r16
+                            fs'''16 -\staccato [
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato ]
+                        }
+                        \times 4/7 {
+                            r16
+                            af'''16 -\staccato [
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            a'''16 -\staccato
+                            b'''16 -\staccato
+                            c''''16 -\staccato ]
+                        }
+                        \times 8/14 {
+                            r16
+                            bf'''16 -\staccato [
+                            b'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato
+                            b'''16 -\staccato
+                            bf'''16 -\staccato ]
                         }
                         {
                             r16
-                            \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                            c'8.
+                            a'''16 -\staccato [
+                            af'''16 -\staccato
+                            bf'''16 -\staccato ]
                         }
-                        {
-                            c'4 \repeatTie
-                        }
-                        {
-                            c'4
-                        }
-                        {
-                            c'4 \repeatTie
-                        }
-                        R1 * 2
-                        r4
-                        r2
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 10/16 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        r4.
-                        \times 12/18 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        r4.
-                        \times 12/18 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        r2.
-                        {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \tweak #'text #tuplet-number::calc-fraction-text
-                        \times 10/16 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                        \times 8/14 {
+                            r16
+                            b'''16 -\staccato [
+                            c''''16 -\staccato
+                            b'''16 -\staccato
+                            cs''''16 -\staccato
+                            d''''16 -\staccato
+                            c''''16 -\staccato
+                            cs''''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs'''16 -\staccato [
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            f'''16 -\staccato [
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            e'''16 -\staccato [
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/7 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        R1 * 1/4
-                        \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/7 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
-                        }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            f'''16 -\staccato [
+                            e'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato \fff ]
                         }
                         R1 * 2
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 12/16 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            d'''16 -\staccato \pp [
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
                         {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            fs'''16 -\staccato [
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            fs'''16 -\staccato ]
                         }
                         \times 6/9 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            g'''16 -\staccato [
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato ]
                         }
                         R1 * 2
                         \bar "|"
@@ -2517,7 +2036,16 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         R1 * 4
-                        c'2.
+                        fs2. \ff
+                            ^ \markup {
+                                \column
+                                    {
+                                        \upright
+                                            "scratch moltiss."
+                                        \upright
+                                            "terminate abruptly"
+                                    }
+                                }
                         R1 * 9/4
                         c'2
                         c'8. \repeatTie [
@@ -2570,216 +2098,234 @@
                         c'4 \repeatTie
                         R1 * 1/4
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            \clef "treble"
+                            r16
+                            b''16 -\staccato \< \ff [
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs'''16 -\staccato [
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            ef'''16 -\staccato [
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs'''16 -\staccato [
+                            c'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            fs'''16 -\staccato ]
                         }
                         \times 4/7 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            g'''16 -\staccato [
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            d'''16 -\staccato [
+                            cs'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
                         {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            fs'''16 -\staccato [
+                            af'''16 -\staccato
+                            a'''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            g'''16 -\staccato [
+                            af'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            fs'''16 -\staccato [
+                            f'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            bf'''16 -\staccato
+                            b'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            b''16 -\staccato [
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            b''16 -\staccato [
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            d'''16 -\staccato [
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs'''16 -\staccato [
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            ef'''16 -\staccato [
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato \fff ]
                         }
                         R1 * 1/4
-                        c'1.
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
+                        b'1. \mf
+                            ^ \markup {
+                                \upright
+                                    "OB (no pitch)"
+                                }
+                        \stopStaff
+                        \startStaff
                         R1 * 1/4
                         \times 12/15 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            b''16 -\staccato \pp [
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato ]
                         }
                         {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            d'''16 -\staccato [
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/10 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            ef'''16 -\staccato [
+                            e'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato ]
                         }
                         R1 * 1/4
-                        c'1.
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
+                        b'1. \mf
+                            ^ \markup {
+                                \upright
+                                    "OB (no pitch)"
+                                }
+                        \stopStaff
+                        \startStaff
                         R1 * 1/4
                         \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "bass"
                     \set Staff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -2791,72 +2337,81 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        c'4..
-                        c'16
+                        \clef "bass"
+                        f4.. \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + slow bow (poco scratch)"
+                                }
+                        gf16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
-                        c'4. \repeatTie
-                        c'8
-                        c'4..
-                        c'16
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                        gqf4
+                        gqf4. \repeatTie
+                        g8
+                        df4..
+                        c16
+                        \times 8/14 {
+                            \clef "treble"
+                            r16
+                            a''16 -\staccato \pp [
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            g''16 -\staccato
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            a''16 -\staccato
+                            bf''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato ]
                         }
-                        \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                        \times 4/7 {
+                            r16
+                            b''16 -\staccato [
+                            c'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato ]
                         }
-                        \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                        \times 8/13 {
+                            r16
+                            cs'''16 -\staccato [
+                            d'''16 -\staccato
+                            b''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs'''16 -\staccato [
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato ]
                         }
-                        \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                        \times 4/6 {
+                            r16
+                            cs'''16 -\staccato [
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato ]
                         }
                         R1 * 13/4
                         c'4..
@@ -2889,8 +2444,12 @@
                         c'2. \repeatTie
                         c'1 \repeatTie
                         c'1 \repeatTie
-                        R1 * 17/4
-                        c'1
+                        c'2. \repeatTie
+                        c'2 \repeatTie
+                        c'2. \repeatTie
+                        c'2. \repeatTie
+                        c'1. \repeatTie
+                        c'1 \repeatTie
                         c'1. \repeatTie
                         c'1. \repeatTie
                         c'1. \repeatTie
@@ -2901,200 +2460,201 @@
                         c'4 \repeatTie
                         R1 * 1/4
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            \clef "treble"
+                            r16
+                            af''16 -\staccato \< \ff [
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            g''16 -\staccato
+                            fs''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            af''16 -\staccato [
+                            g''16 -\staccato
+                            af''16 -\staccato
+                            a''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            c'''16 -\staccato [
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            c'''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs'''16 -\staccato [
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            c'''16 -\staccato [
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            c'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            c'''16 -\staccato
+                            cs'''16 -\staccato ]
                         }
                         \times 4/7 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            c'''16 -\staccato [
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            c'''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs'''16 -\staccato [
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
                         {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            d'''16 -\staccato [
+                            ef'''16 -\staccato
+                            d'''16 -\staccato ]
                         }
                         \times 8/14 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            cs'''16 -\staccato [
+                            c'''16 -\staccato
+                            d'''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            ef'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            fs'''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            f'''16 -\staccato [
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            af''16 -\staccato
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            g''16 -\staccato
+                            fs''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            af''16 -\staccato [
+                            g''16 -\staccato
+                            af''16 -\staccato
+                            a''16 -\staccato
+                            b''16 -\staccato ]
                         }
                         \times 8/12 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            bf''16 -\staccato [
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato
+                            c'''16 -\staccato
+                            cs'''16 -\staccato ]
                         }
                         \times 4/6 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            bf''16 -\staccato [
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            af''16 -\staccato ]
                         }
                         \times 8/11 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            bf''16 -\staccato [
+                            a''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            c'''16 -\staccato
+                            cs'''16 -\staccato \fff ]
                         }
                         R1 * 2
                         {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            af''16 -\staccato \pp [
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            g''16 -\staccato
+                            fs''16 -\staccato ]
                         }
                         \times 12/15 {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ~ ]
+                            r16
+                            af''16 -\staccato [
+                            g''16 -\staccato
+                            af''16 -\staccato
+                            a''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato
+                            a''16 -\staccato
+                            af''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            c'''16 -\staccato
+                            b''16 -\staccato
+                            cs'''16 -\staccato
+                            d'''16 -\staccato ]
                         }
                         {
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
+                            r16
+                            c'''16 -\staccato [
+                            cs'''16 -\staccato
+                            bf''16 -\staccato
+                            b''16 -\staccato
+                            bf''16 -\staccato ]
                         }
                         R1 * 2
                         \bar "|"

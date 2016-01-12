@@ -206,22 +206,21 @@ intro (15")
     microtonal vc melody returns from beginning of piece;
     attaca;
 
-    2-3 (2 + fermata)[126]
+    2-3 (2 + long fermata)[126]
     [intercalated memory of vn1, vn2, vc dense get. pianiss. from prev. seg.];
-    fermata;
+    long fermata;
 
-    4-5 (1 + fermata)[55]
+    4-5 (1 + long fermata)[55]
     single va scratch tenuto;
-    fermata;
+    long fermata;
 
-    6-7 (2 + fermata)[89]
+    6-7 (2 + long fermata)[89]
     vn1, vn2 tasto tenuto loops;
-    fermata;
+    long fermata;
 
     8 (12)[89]
-    vn1, vn2 tasto loops progress from tenuti (three pitches per loop) to 
-    accel. and rit. (still three pitches per loop);
-    va, vc microtonal polyphony starts then gets slower and slower;
+    vn1, vn2 mixed counted and accel./rit. tasto loops;
+    va, vc microtonal polyphony starts and then gets slower and slower;
     vn1, vn2 tasto loops disappear at end of segment;
     va, vc microtonal polyphony continues across segment boundary;
     attaca;
@@ -232,31 +231,30 @@ intro (15")
     attaca;
 
     10 (4)[89]
-    vn1, vn2 get. pianiss. fills in many silenced divisions;
-    va, vc, microtonal field arrives and rearticulation stops;
+    va, vc, microtonal field freezes and undergoes big crescendo;
     attaca;
 
-    11-12 (4+halt)[89-->126]
-    vn1, vn2 get. pianiss. fills in all divisions and reaches density at end of
-    previous segment;
-    va, vc microtonal field persists until end of stage and then disappears;
-    short breath;
+    11-12 (4 + fermata)[89-->126]
+    va, vc microtonal field big crescendo stops at end of stage;
+    fermata;
 
-    13-14 (6+halt)[126]
-    get. subito vn1, vn2, va, vc reaches max. density for first time in piece;
-    breath;
+    13-14 (6 + fermata)[126]
+    get. subito vn1, vn2, va, vc max. density for first time in piece;
+    tutti fortissimo;
+    fermata;
 
-    15-16 (1+halt)[55]
-    single note of va OB pedal;
-    breath;
+    15-16 (1 + fermata)[55]
+    single note of va OB;
+    fermata;
 
-    17-18 8x(1+halt)[126]
+    17-18 (8x: 1 + short fermata)[126]
     vn1, vn2, va, vc get. field repeats eight times;
-    extremely short breath after each repetition;
+    tutti pianissimo;
+    short breath after each repetition;
 
-    19-20 (1+halt)[55]
-    single note of va OB pedal;
-    breath;
+    19-20 (1 + fermata)[55]
+    single note of va OB;
+    fermata;
 
 [G] (1')
     1 (4)[126-->44]
