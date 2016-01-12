@@ -1,4 +1,4 @@
-% 2016-01-10 23:50
+% 2016-01-12 16:40
 
 \version "2.19.35"
 \language "english"
@@ -725,7 +725,7 @@
                         ds'4 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + slow bow (poco scratch)"
+                                    "tasto + poco scratch"
                                 }
                         dtqs'4.
                         e'4.
@@ -792,7 +792,7 @@
                         c'1 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + slow bow (poco scratch)"
+                                    "tasto + poco scratch"
                                 }
                         R1 * 1/4
                         cs,1. \> \mp

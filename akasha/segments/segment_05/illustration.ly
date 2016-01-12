@@ -1,4 +1,4 @@
-% 2016-01-11 11:49
+% 2016-01-12 16:50
 
 \version "2.19.35"
 \language "english"
@@ -789,8 +789,8 @@
                         \once \override NoteHead #'style = #'harmonic
                         \ottava #1
                         cs''''4. \mp
-                            _ \markup {
-                                \larger
+                            ^ \markup {
+                                \upright
                                     II
                                 }
                         \once \override NoteHead #'style = #'harmonic
@@ -1023,8 +1023,8 @@
                         \once \override NoteHead #'style = #'harmonic
                         \clef "treble"
                         gqf''4. \mp
-                            _ \markup {
-                                \larger
+                            ^ \markup {
+                                \upright
                                     IV
                                 }
                         \once \override NoteHead #'style = #'harmonic
@@ -1154,8 +1154,8 @@
                         \once \override NoteHead #'style = #'harmonic
                         \clef "treble"
                         d''4. \mp
-                            _ \markup {
-                                \larger
+                            ^ \markup {
+                                \upright
                                     IV
                                 }
                         \once \override NoteHead #'style = #'harmonic
