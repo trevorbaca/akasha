@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #361
+        currentBarNumber = #381
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -430,6 +430,14 @@
                         c'4..
                         r4..
                         R1 * 29/8
+                            _ \markup {
+                                \italic
+                                    \right-column
+                                        {
+                                            "Cambridge, MA; Dallas; Madison, WI"
+                                            "Oct. 2015 - Dec. 2015"
+                                        }
+                                }
                         \bar "|."
                     }
                 }
