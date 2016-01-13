@@ -128,12 +128,27 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        b4.
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
+                        c'4. -\downbow
                             ^ \markup {
                                 \upright
-                                    "OB (no pitch)"
+                                    OB
                                 }
-                        b2. \repeatTie
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    mf
+                                \larger
+                                    \italic
+                                        ”
+                                }
+                        c'2. \repeatTie
+                        \stopStaff
+                        \startStaff
                         R1 * 1/4
                         \bar "|"
                     }

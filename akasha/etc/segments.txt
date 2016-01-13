@@ -8,9 +8,10 @@ D: B[12]
 E, F: A[6], A[9]
 G: B[18]
 H, I: A[12], A[15]
-J: B[24]
-K, L: A[18], A[21]
-M: B[30]
+[J:E]
+K: B[24]
+L, M: A[18], A[21]
+N: B[30]
 
 intro (15")
 
@@ -363,15 +364,13 @@ intro (15")
     tutti mp scratch moltiss. (B);
     very long fermata;
 
-[I2]
+[J] (30")
 
-    1-4 (3 + long fermata)[44]
+    1-4 (3 + very long fermata)[44]
     exact recall of first three scratch measures of [E];
-    borrow exact time signatures;
-    maybe call segment [I2];
-    long fermata;
+    very long fermata;
 
-[J] (4')
+[K] (4')
 
     1 (4)[44]
     tutti assume finger chord of trill field;
@@ -455,7 +454,7 @@ intro (15")
     30 (1)
     very long fermata;
 
-[K] (15")
+[L] (15")
 
     1-2 (2+halt)[89]
     vc Bb1;
@@ -472,7 +471,7 @@ intro (15")
     trilled chord in other three players on last time;
     vc Bb1 sustained as pedal over large pause;
 
-[L] (1'30")
+[M] (1'30")
 
     1 (6)[55]
     vc Bb1 sustained for a very long time with very very long crescendo;
@@ -513,7 +512,7 @@ intro (15")
     tutti OB;
     freeze;
 
-[M] (30")
+[N] (30")
 
     1 (8)[89]
     sub. tempo slightly faster;
@@ -544,7 +543,8 @@ F   3'
 G   1'
 H   30"
 I   1'30"
-J   3' or 4'
-K   15"
-L   1'30"
-M   30"
+J   30"
+K   3' or 4'
+L   15"
+M   1'30"
+N   30"
