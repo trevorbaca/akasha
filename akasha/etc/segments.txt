@@ -298,17 +298,17 @@ intro (15")
     isolated va, vc detuned octave;
     fermata;
 
-[I] (1'30"-2'30")
+[I] (2'30")
 
     1-2 (2 + fermata)[89]
-    tutti detuned ord. octave B with swell (cres. + vib.);
+    tutti detuned ord. octave B (B1, B+2, A#+3 B6) with swell (cres. + vib.);
     fermata;
 
     3 (2)[55]
     vn1, vn2, vc pure ord. octave B with swell (cres. + vib.);
     quarter-note ppp va OB > 3/4OB (B2) underneath;
 
-    4 (1)
+    4 (2)
     quarter-note ppp va OB > 3/4OB (B2) continues unaccompanied;
 
     5 (3)[89]
@@ -345,21 +345,21 @@ intro (15")
     vn1 maximally dense ppp getato altissimo solo unaccompanied;
     attaca;
 
-    12 (2 + short fermata)[55]
+    12-13 (2 + short fermata)[55]
     tutti ppp flaut. XP > tasto (B);
     short fermata;
 
-    13 (2 + short fermata)[89]
+    14-15 (2 + short fermata)[89]
     [intercalated memory: tutti looping of 3-note tasto and trills (c5)];
     short fermata;
 
-    14 (2)[55]
+    16 (2)[55]
     tutti ppp tasto flaut > poco scratch (B);
 
-    15 (2)[55->44]
+    17 (2)[55->44]
     tutti ppp poco scratch > scratch moltiss. (B);
 
-    16 (2 + very long fermata)[44]
+    18-19 (2 + very long fermata)[44]
     tutti ppp scratch moltiss. (B);
     very long fermata;
 
