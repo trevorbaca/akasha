@@ -30,9 +30,13 @@ stage_specifier = baca.tools.StageSpecifier([
 tempo_map = baca.tools.TempoMap([
     (1, akasha.materials.tempi[89]),
     (3, akasha.materials.tempi[55]),
+    (3, Accelerando()),
     (5, akasha.materials.tempi[89]),
+    (5, Ritardando()),
     (7, akasha.materials.tempi[55]),
+    (7, Accelerando()),
     (9, akasha.materials.tempi[89]),
+    (9, Ritardando()),
     (10, akasha.materials.tempi[55]),
     (11, akasha.materials.tempi[126]),
     (12, akasha.materials.tempi[55]),
@@ -51,9 +55,9 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=True,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -413,8 +417,16 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (vc, stages(9, 13)),
+    [
+        baca.pitch.pitches('B1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (vc, stages(9)),
     [
+        baca.articulations.alternate_bow_strokes(),
         baca.spanners.make_transition(
             baca.markup.OB(),
             baca.markup.XP(),
@@ -429,6 +441,7 @@ segment_maker.append_specifiers(
     (tutti, stages(10)),
     [
         baca.markup.XP_FB_flaut(),
+        Hairpin('ppp < mp'),
         ],
     )
 
@@ -438,7 +451,110 @@ segment_maker.append_specifiers(
     (vn_1, stages(11)),
     [
         akasha.tools.make_getato_pitch_specifier(31, [2]),
+        baca.articulations.staccati(),
         baca.markup.leggieriss(),
         Dynamic('ppp'),
+        ],
+    )
+
+### stage 12 (and short fermata) ###
+
+segment_maker.append_specifiers(
+    (tutti, stages(12)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.XP_FB_flaut(),
+            baca.markup.tasto_FB_flaut(),
+            ),
+        Hairpin('ppp < mp'),
+        ],
+    )
+
+### stage 14 (and short fermata) ###
+
+segment_maker.append_specifiers(
+    (tutti, stages(14)),
+    [
+        Dynamic('p'),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(14)),
+    [
+        baca.pitch.pitches('D#4 E#4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(14)),
+    [
+        baca.pitch.pitches('D4 E4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(14)),
+    [
+        baca.pitch.pitches('C#4 D#4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(14)),
+    [
+        baca.pitch.pitches('C4 D4'),
+        ],
+    )
+
+### stages 16-19 (and very long fermata) ###
+
+segment_maker.append_specifiers(
+    (vn_1, stages(16, 19)),
+    [
+        baca.pitch.pitches('B4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(16, 19)),
+    [
+        baca.pitch.pitches('B3'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(16, 19)),
+    [
+        baca.pitch.pitches('B2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(16, 19)),
+    [
+        baca.pitch.pitches('B1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (tutti, stages(16)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.tasto_poco_scratch(),
+            ),
+        Hairpin('ppp < mp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (tutti, stages(17)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.scratch_moltiss(),
+            ),
+        Hairpin('mp < mf'),
         ],
     )

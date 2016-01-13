@@ -42,6 +42,10 @@ segment_maker.validate_measure_count(17)
 segment_maker.validate_stage_count(4)
 segment_maker.validate_measures_per_stage()
 
+###############################################################################
+#################################### TIME #####################################
+###############################################################################
+
 segment_maker.append_specifiers(
     ((vn_1, va, vc), stages(1, 2)),
     baca.tools.RhythmSpecifier(
@@ -80,7 +84,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-### across stages ###
+###############################################################################
+#################################### COLOR ####################################
+###############################################################################
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
