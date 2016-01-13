@@ -50,3 +50,7 @@ __illustrate_material__.py
 *.candidate.ly
 *.candidate.ps
 *.candidate.pdf
+
+# more Abjad IDE
+illustration.ly
+illustration.pdf
