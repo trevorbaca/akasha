@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #47
+        currentBarNumber = #62
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -20,17 +20,6 @@
                     R1 * 3/4
                 }
                 {
-                    \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest #'transparent = ##t
-                    \once \override Score.TimeSignature #'stencil = ##f
-                    R1 * 1/4
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
-                }
-                {
                     \time 7/8
                     R1 * 7/8
                 }
@@ -46,6 +35,17 @@
                     R1 * 1
                 }
                 {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
                     \time 9/8
                     R1 * 9/8
                 }
@@ -59,17 +59,6 @@
                 {
                     \time 3/8
                     R1 * 3/8
-                }
-                {
-                    \time 1/4
-                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest #'transparent = ##t
-                    \once \override Score.TimeSignature #'stencil = ##f
-                    R1 * 1/4
-                        ^ \markup {
-                            \musicglyph
-                                #"scripts.ushortfermata"
-                            }
                 }
                 {
                     \time 6/8
@@ -115,6 +104,17 @@
                     R1 * 3/8
                 }
                 {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ushortfermata"
+                            }
+                }
+                {
                     \time 9/8
                     R1 * 9/8
                 }
@@ -128,6 +128,21 @@
                 {
                     \time 8/8
                     R1 * 1
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
                 }
                 {
                     \time 1/4
@@ -145,21 +160,6 @@
                     R1 * 3/8
                 }
                 {
-                    \time 4/8
-                    R1 * 1/2
-                }
-                {
-                    \time 7/8
-                    R1 * 7/8
-                }
-                {
-                    R1 * 7/8
-                }
-                {
-                    \time 3/8
-                    R1 * 3/8
-                }
-                {
                     \time 6/8
                     R1 * 3/4
                 }
@@ -179,7 +179,7 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.ushortfermata"
+                                #"scripts.ufermata"
                             }
                 }
                 {
@@ -198,6 +198,17 @@
                     R1 * 3/8
                 }
                 {
+                    \time 1/4
+                    \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
+                    \once \override Score.MultiMeasureRest #'transparent = ##t
+                    \once \override Score.TimeSignature #'stencil = ##f
+                    R1 * 1/4
+                        ^ \markup {
+                            \musicglyph
+                                #"scripts.ufermata"
+                            }
+                }
+                {
                     \time 8/8
                     R1 * 1
                 }
@@ -211,6 +222,21 @@
                 {
                     \time 4/8
                     R1 * 1/2
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 6/8
+                    R1 * 3/4
+                }
+                {
+                    \time 7/8
+                    R1 * 7/8
+                }
+                {
+                    R1 * 7/8
                 }
                 {
                     \time 1/4
@@ -274,30 +300,10 @@
                     s1 * 3/4
                 }
                 {
-                    \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
-                    s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [D2]
-                            }
-                }
-                {
                     \time 7/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 7/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [D3]
-                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -317,10 +323,30 @@
                     s1 * 1
                 }
                 {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D2]
+                            }
+                }
+                {
                     \time 9/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 9/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D3]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -338,6 +364,30 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/8
+                }
+                {
+                    \time 6/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \time 7/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 7/8
+                }
+                {
+                    \time 9/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 9/8
+                }
+                {
+                    \time 4/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
                 }
                 {
                     \time 1/4
@@ -353,50 +403,6 @@
                             }
                 }
                 {
-                    \time 6/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [D5]
-                            }
-                }
-                {
-                    \time 7/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/8
-                }
-                {
-                    \time 9/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 9/8
-                }
-                {
-                    \time 4/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
-                    s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [D6]
-                            }
-                }
-                {
                     \time 8/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
@@ -406,7 +412,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [D7]
+                                    [D5]
                             }
                 }
                 {
@@ -428,10 +434,30 @@
                     s1 * 3/8
                 }
                 {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D6]
+                            }
+                }
+                {
                     \time 9/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 9/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D7]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -449,6 +475,29 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                }
+                {
+                    \time 3/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/8
+                }
+                {
+                    \time 4/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                }
+                {
+                    \time 7/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 7/8
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 7/8
                 }
                 {
                     \time 1/4
@@ -493,52 +542,6 @@
                         }
                 }
                 {
-                    \time 4/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 7/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/8
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/8
-                }
-                {
-                    \time 3/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [D10]
-                            }
-                        ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #2
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                126
-                            }
-                        }
-                }
-                {
                     \time 6/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
@@ -552,9 +555,16 @@
                 }
                 {
                     \time 3/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D10]
+                            }
                 }
                 {
                     \time 1/4
@@ -571,9 +581,41 @@
                 }
                 {
                     \time 6/8
+                    \once \override TextSpanner.arrow-width = 0.25
+                    \once \override TextSpanner.bound-details.left-broken.padding = 0
+                    \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                        \null
+                        }
+                    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    \once \override TextSpanner.bound-details.left.text = \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                126
+                            }
+                        \hspace
+                            #1.25
+                        }
+                    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                    \once \override TextSpanner.bound-details.right-broken.padding = 0
+                    \once \override TextSpanner.bound-details.right-broken.text = ##f
+                    \once \override TextSpanner.bound-details.right.arrow = ##t
+                    \once \override TextSpanner.bound-details.right.padding = 2
+                    \once \override TextSpanner.bound-details.right.text = ##f
+                    \once \override TextSpanner.dash-fraction = 0.25
+                    \once \override TextSpanner.dash-period = 1.5
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 3/4
+                    s1 * 3/4 \startTextSpan
                         - \markup {
                             \fontsize
                                 #-3
@@ -600,10 +642,30 @@
                     s1 * 3/8
                 }
                 {
+                    \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D13]
+                            }
+                }
+                {
                     \time 8/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D14]
+                            }
                 }
                 {
                     \time 9/8
@@ -623,6 +685,59 @@
                     s1 * 1/2
                 }
                 {
+                    \time 3/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/8 \stopTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D15]
+                            }
+                        ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                44
+                            }
+                        }
+                }
+                {
+                    \time 6/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \time 7/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 7/8
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 7/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D16]
+                            }
+                }
+                {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
@@ -632,7 +747,7 @@
                                 #-3
                                 \with-color
                                     #blue
-                                    [D13]
+                                    [D17]
                             }
                 }
             }
@@ -660,54 +775,119 @@
                             }
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        c'4.
-                        c'2 \repeatTie
-                        c'4. \repeatTie
-                        c'2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        \ottava #1
+                        cs''''4. \mp
+                            ^ \markup {
+                                \upright
+                                    II
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''1 \repeatTie
                         R1 * 1/4
-                        c'2..
-                        c'2.. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2.. \repeatTie
-                        c'4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2.
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2 \repeatTie
+                        \ottava #0
                         R1 * 1/4
-                        c'2.
-                        c'2..
-                        c'2.
-                        c'4.
-                        c'2
+                        \once \override NoteHead #'style = #'harmonic
+                        a'1 -\upbow \ppp \glissando
+                            ^ \markup {
+                                \upright
+                                    "XP + full bow strokes"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        c''2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'2 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'4. -\upbow
                         R1 * 1/4
-                        c'1
-                        c'2.
-                        c'4.
-                        c'2
-                        c'4.
-                        c'2.
-                        c'4.
-                        c'2.
-                        c'4.
-                        c'2
-                        c'1
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''1 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''2.. -\upbow
                         R1 * 1/4
-                        c'4.
-                        c'2 \repeatTie
-                        c'2.. \repeatTie
-                        c'2.. \repeatTie
-                        c'4.
-                        c'2.
-                        c'2
-                        c'4.
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''4. -\upbow
                         R1 * 1/4
-                        c'2.
-                        c'2..
-                        c'2..
-                        c'4.
-                        R1 * 4
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'''2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c'''2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\upbow
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'1 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''2 -\upbow
+                        R1 * 25/8
                         \bar "|"
                     }
                 }
@@ -732,59 +912,92 @@
                             }
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        c'4.
-                        c'2 \repeatTie
-                        c'4. \repeatTie
-                        c'2. \repeatTie
+                        R1 * 11/2
+                        \once \override NoteHead #'style = #'harmonic
+                        a'2. -\upbow \ppp \glissando
+                            ^ \markup {
+                                \upright
+                                    "XP + full bow strokes"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        c''4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2 -\upbow
                         R1 * 1/4
-                        c'2..
-                        c'2.. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2.. \repeatTie
-                        c'4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'1 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''4. -\downbow
                         R1 * 1/4
-                        c'2.
-                        c'2.. \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        a'2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c'''1 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'''4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''2 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c'''2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'2.. -\downbow
                         R1 * 1/4
-                        c'1
-                        c'2.
-                        c'4.
-                        c'2
-                        c'4.
-                        c'2.
-                        c'4.
-                        c'2.
-                        c'4.
-                        c'2
-                        c'1
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'''4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c'''2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow
                         R1 * 1/4
-                        c'4.
-                        c'2 \repeatTie
-                        c'2.. \repeatTie
-                        c'2.. \repeatTie
-                        c'4.
-                        c'2.
-                        c'2
-                        c'4.
-                        R1 * 1/4
-                        c'2.
-                        c'2..
-                        c'2..
-                        c'4.
-                        R1 * 4
+                        \pitchedTrill
+                        g''2. \p \startTrillSpan
+                            ^ \markup {
+                                \upright
+                                    tasto
+                                } a''
+                        g''2.. \repeatTie
+                        R1 * 3/2 \stopTrillSpan
+                        \pitchedTrill
+                        g''1 \startTrillSpan a''
+                        g''2. \repeatTie
+                        g''4. \repeatTie
+                        R1 * 19/4 \stopTrillSpan
                         \bar "|"
                     }
                 }
                 \context ViolaMusicStaff = "Viola Music Staff" {
-                    \clef "alto"
                     \set Staff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -796,59 +1009,126 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        c'4.
-                        c'2 \repeatTie
-                        c'4. \repeatTie
-                        c'2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        \clef "treble"
+                        gqf''4. \mp
+                            ^ \markup {
+                                \upright
+                                    IV
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''1 \repeatTie
                         R1 * 1/4
-                        c'2..
-                        c'2.. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2.. \repeatTie
-                        c'4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie
                         R1 * 1/4
-                        c'2.
-                        c'2.. \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''1
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
                         R1 * 1/4
-                        c'1
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2 \repeatTie
-                        c'4. \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2. \repeatTie
-                        c'4. \repeatTie
-                        c'2 \repeatTie
-                        c'1 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''1 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.. \repeatTie
                         R1 * 1/4
-                        c'4.
-                        c'2 \repeatTie
-                        c'2.. \repeatTie
-                        c'2.. \repeatTie
-                        c'4.
-                        c'2.
-                        c'2
-                        c'4.
+                        \clef "alto"
+                        ff4. \glissando \> \sf
+                            ^ \markup {
+                                \upright
+                                    tasto
+                                }
+                        e2. \glissando
+                        ds2 \glissando
+                        \times 2/3 {
+                            cs2 \glissando
+                            bs,16 \ppp
+                        }
                         R1 * 1/4
-                        c'2.
-                        c'2..
-                        c'2..
-                        c'4.
-                        R1 * 4
+                        \once \override NoteHead #'style = #'harmonic
+                        af2. -\upbow \ppp \glissando
+                            ^ \markup {
+                                \upright
+                                    "XP + full bow strokes"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        b2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        af2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        f4. -\downbow
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        f1 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        af2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        b4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        f'2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        d'4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        b2 -\downbow
+                        R1 * 25/8
                         \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "bass"
                     \set Staff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -860,55 +1140,127 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        R1 * 9/4
-                        c'2..
-                        c'2..
-                        c'2
-                        c'1
-                        c'2.
-                        c'4.
-                        c'2.
-                        c'4.
-                        c'2..
-                        c'4.
+                        \once \override NoteHead #'style = #'harmonic
+                        \clef "treble"
+                        d''4. \mp
+                            ^ \markup {
+                                \upright
+                                    IV
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''1 \repeatTie
                         R1 * 1/4
-                        c'2.
-                        c'2..
-                        c'2.
-                        c'4.
-                        c'2
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2 \repeatTie
                         R1 * 1/4
-                        c'1
-                        c'2.
-                        c'4.
-                        c'2
-                        c'4.
-                        c'2.
-                        c'4.
-                        c'2.
-                        c'4.
-                        c'2
-                        c'1
+                        \once \override NoteHead #'style = #'harmonic
+                        d''1
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
                         R1 * 1/4
-                        c'4.
-                        c'2 \repeatTie
-                        c'2.. \repeatTie
-                        c'2.. \repeatTie
-                        c'4.
-                        c'2.
-                        c'2
-                        c'4.
+                        \once \override NoteHead #'style = #'harmonic
+                        \clef "bass"
+                        g,2. -\upbow \ppp \glissando
+                            ^ \markup {
+                                \upright
+                                    "XP + full bow strokes"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        bf,4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        g,2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        e,4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        cs,2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        g,1 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        e,4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        g,2 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        bf,2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        e2.. -\downbow
                         R1 * 1/4
-                        c'2.
-                        c'2..
-                        c'2..
-                        c'4.
-                        c'1
-                        c'2.
-                        c'4.
-                        c'2.
-                        c'4.
-                        c'2
+                        cs,4. \> \sf
+                            ^ \markup {
+                                \upright
+                                    tasto
+                                }
+                        cs,2. \repeatTie
+                        cs,2 \repeatTie
+                        cs,4. \repeatTie \ppp
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        e,2. -\upbow \ppp \glissando
+                            ^ \markup {
+                                \upright
+                                    "XP + full bow strokes"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        g,2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        bf,2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        e4. -\downbow
+                        R1 * 1/4
+                        df1 \glissando \> \sf
+                            ^ \markup {
+                                \upright
+                                    tasto
+                                }
+                        c2. \glissando
+                        bf,4. \glissando
+                        af,2. \glissando
+                        g,4. \glissando
+                        f,2 \glissando
+                        ef,4. \glissando
+                        d,2. \glissando
+                        c,2.. \glissando
+                        \times 8/9 {
+                            bf,,2.. \glissando
+                            a,,16.. \ppp
+                        }
                         R1 * 1/4
                         \bar "|"
                     }
