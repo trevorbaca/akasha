@@ -50,6 +50,10 @@ segment_maker.validate_measure_count(51)
 segment_maker.validate_stage_count(17)
 segment_maker.validate_measures_per_stage()
 
+###############################################################################
+#################################### TIME #####################################
+###############################################################################
+
 ### stages 1-2 ###
 
 segment_maker.append_specifiers(
@@ -186,7 +190,9 @@ segment_maker.append_specifiers(
     akasha.tools.make_glissando_rhythm_specifier(),
     )
 
-### across segments ###
+###############################################################################
+#################################### COLOR ####################################
+###############################################################################
 
 segment_maker.append_specifiers(
     (vn_1, stages(1)),

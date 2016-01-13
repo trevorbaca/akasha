@@ -43,6 +43,10 @@ segment_maker.validate_measure_count(11)
 segment_maker.validate_stage_count(9)
 segment_maker.validate_measures_per_stage()
 
+###############################################################################
+#################################### TIME #####################################
+###############################################################################
+
 ### stages 1-2 ###
 
 segment_maker.append_specifiers(
@@ -121,7 +125,9 @@ segment_maker.append_specifiers(
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
-### across stages ###
+###############################################################################
+#################################### COLOR ####################################
+###############################################################################
 
 segment_maker.append_specifiers(
     (vn_1, stages(1)),

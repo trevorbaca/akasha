@@ -354,13 +354,13 @@ intro (15")
     short fermata;
 
     16 (2)[55]
-    tutti ppp tasto flaut > poco scratch (B);
+    tutti ppp tasto flaut < poco scratch (B);
 
     17 (2)[55->44]
-    tutti ppp poco scratch > scratch moltiss. (B);
+    tutti ppp poco scratch < scratch moltiss. (B);
 
     18-19 (2 + very long fermata)[44]
-    tutti ppp scratch moltiss. (B);
+    tutti mp scratch moltiss. (B);
     very long fermata;
 
 [I2]
