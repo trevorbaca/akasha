@@ -317,7 +317,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(15, 16)),
     [
-        baca.markup.leggierissimo_off_string(),
+        baca.markup.leggieriss(),
         baca.markup.ord_senza_scratch(),
         Hairpin('mf > pp'),
         ],
@@ -361,7 +361,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(14, 18)),
     [
         baca.articulations.staccati(),
-        baca.markup.leggierissimo_off_string(),
+        baca.markup.leggieriss(),
         ],
     )
 
@@ -424,7 +424,7 @@ segment_maker.append_specifiers(
     (vc, stages(13, 18)),
     [
         baca.articulations.staccati(),
-        baca.markup.leggierissimo_off_string(),
+        baca.markup.leggieriss(),
         ],
     )
 
