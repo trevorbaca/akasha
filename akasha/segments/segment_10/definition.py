@@ -78,7 +78,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ((vn_1, vc), stages(5)),
+    ([vn_2, vc], stages(5)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
@@ -93,12 +93,12 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn_2, stages(5, 9)),
+    (vn_1, stages(5, 9)),
     baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
-    (vn_1, stages(7, 9)),
+    (vn_2, stages(7, 9)),
     baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
     )
 
@@ -169,3 +169,276 @@ segment_maker.append_specifiers(
 ###############################################################################
 #################################### COLOR ####################################
 ###############################################################################
+
+### stage 1 (and fermata) ###
+
+segment_maker.append_specifiers(
+    (vn_1, stages(1)),
+    [
+        baca.pitch.pitches('B5'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(1)),
+    [
+        baca.pitch.pitches('A#+3'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(1)),
+    [
+        baca.pitch.pitches('B+2'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1)),
+    [
+        baca.pitch.pitches('B1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (tutti, stages(1)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.pos_ord_senza_vib(),
+            baca.markup.vib_moltiss(),
+            ),
+        Hairpin('sfp < f'),
+        ],
+    )
+
+### stages 3-4 ###
+
+segment_maker.append_specifiers(
+    (vn_1, stages(3)),
+    [
+        baca.pitch.pitches('B5'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(3)),
+    [
+        baca.pitch.pitches('B3'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(3)),
+    [
+        baca.pitch.pitches('B1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([vn_1, vn_2, vc], stages(3)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.senza_vib(),
+            baca.markup.vib_moltiss(),
+            ),
+        Hairpin('sfp < f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(3, 13)),
+    [
+        baca.markup.OB(),
+        baca.pitch.pitches('B2'),
+        Dynamic('ppp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(3, 9)),
+    [
+        baca.articulations.alternate_bow_strokes(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(4)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_fractional_OB(3, 4),
+            ),
+        ],
+    )
+
+### stages 5-6 ###
+
+segment_maker.append_specifiers(
+    (vn_2, stages(5)),
+    [
+        baca.pitch.pitches('A#+3'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(5)),
+    [
+        baca.pitch.pitches('B1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([vn_2, vc], stages(5)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.senza_vib(),
+            baca.markup.vib_moltiss(),
+            ),
+        Hairpin('sfp < f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(5, 13)),
+    [
+        baca.markup.OB(),
+        baca.pitch.pitches('B4'),
+        Dynamic('ppp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(5, 9)),
+    [
+        baca.articulations.alternate_bow_strokes(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(6)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_fractional_OB(3, 4),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(6)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_fractional_OB(1, 2),
+            ),
+        ],
+    )
+
+### stages 7-8 ###
+
+segment_maker.append_specifiers(
+    (vc, stages(7)),
+    [
+        baca.pitch.pitches('B1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(7)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.senza_vib(),
+            baca.markup.vib_moltiss(),
+            ),
+        Hairpin('sfp < f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(7, 13)),
+    [
+        baca.markup.OB(),
+        baca.pitch.pitches('B3'),
+        Dynamic('ppp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(7, 9)),
+    [
+        baca.articulations.alternate_bow_strokes(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(8)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_fractional_OB(1, 2),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(8)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_fractional_OB(3, 4),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(8)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_fractional_OB(1, 4),
+            ),
+        ],
+    )
+
+### stage 9 ###
+
+segment_maker.append_specifiers(
+    ([vn_1, vn_2, va], stages(9)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.trans(),
+            baca.markup.XP(),
+            ),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(9)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.OB(),
+            baca.markup.XP(),
+            ),
+        Dynamic('ppp'),
+        ],
+    )
+
+### stage 10 ###
+
+segment_maker.append_specifiers(
+    (tutti, stages(10)),
+    [
+        baca.markup.XP_FB_flaut(),
+        ],
+    )
+
+### stage 11 ###
+
+segment_maker.append_specifiers(
+    (vn_1, stages(11)),
+    [
+        akasha.tools.make_getato_pitch_specifier(31, [2]),
+        baca.markup.leggieriss(),
+        Dynamic('ppp'),
+        ],
+    )

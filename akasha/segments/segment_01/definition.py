@@ -40,11 +40,26 @@ segment_maker.validate_measure_count(3)
 segment_maker.validate_stage_count(2)
 segment_maker.validate_measures_per_stage()
 
+###############################################################################
+#################################### TIME #####################################
+###############################################################################
+
+segment_maker.append_specifiers(
+    (va, stages(1)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+###############################################################################
+#################################### COLOR ####################################
+###############################################################################
+
 segment_maker.append_specifiers(
     (va, stages(1)),
     [
-        baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-        baca.markup.OB_no_pitch,
-        baca.pitch.pitches(source='B3'),
+        baca.articulations.down_bows(),
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.OB(),
+        baca.pitch.pitches('C4'),
+        baca.spanners.one_line_staff(),
         ],
     )
