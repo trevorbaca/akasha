@@ -302,6 +302,7 @@
         \override TextScript.X-extent = ##f
         \override TextScript.Y-extent = #'(-1.5 . 1.5)
         \override TextScript.padding = 1
+        \override TextSpanner.staff-padding = 2 % HERE
         \override TrillSpanner.bound-details.right.padding = 2
         \override TupletBracket.breakable = ##t
         \override TupletBracket.full-length-to-extent = ##f

@@ -257,6 +257,7 @@ intro (15")
     fermata;
 
 [G] (1')
+
     1 (4)[126-->44]
     microtonal field resumes 12ET in v2, va, vc SB;
     get. field handled exclusively as vn1 solo maximally fast burst;
@@ -271,10 +272,10 @@ intro (15")
     microtonal field sub. 12ET;
     ord > FB;
 
-    4-5 (3+halt)
+    4-5 (3 + fermata)
     microtonal field sub. 24ET;
     FB > XFB;
-    breath;
+    fermata;
 
     6 (2)[44-->55]
     microtonal field (24ET) XFB with OB pedal underneath;
