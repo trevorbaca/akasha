@@ -301,39 +301,39 @@ intro (15")
 [I] (2'30")
 
     1-2 (2 + fermata)[89]
-    tutti detuned ord. octave B (B1, B+2, A#+3 B6) with swell (cres. + vib.);
+    tutti detuned ord. octave B (B1, B+2, A#+3 B5) with swell (cres. + vib.);
     fermata;
 
     3 (2)[55]
-    vn1, vn2, vc pure ord. octave B with swell (cres. + vib.);
+    vn1, vn2, vc pure ord. octave B (B1, B3, B5) with swell (cres. + vib.);
     quarter-note ppp va OB > 3/4OB (B2) underneath;
 
     4 (2)
     quarter-note ppp va OB > 3/4OB (B2) continues unaccompanied;
 
     5 (3)[89]
-    vn1, vc detuned ord. octave B with swell (cres. + vib.);
-    quarter-note ppp vn2 OB > 3/4OB (B3) underneath;
+    vn2, vc detuned ord. octave B with swell (cres. + vib.);
+    quarter-note ppp vn1 OB > 3/4OB (B4) underneath;
     quarter-note ppp va 3/4OB > 1/2OB (B2) underneath;
 
     6 (2)
+    quarter-note ppp vn1 OB > 3/4OB (B4) continues unaccompanied;
     quarter-note ppp va 3/4OB > 1/2OB (B2) continues unaccompanied;
-    quarter-note ppp vn2 OB > 3/4OB (B3) continues unaccompanied;
 
     7 (2)[55]
     vc pure ord. B1 with swell (cres. + vib.);
-    quarter-note ppp vn1 OB > 3/4OB (B3) underneath;
-    quarter-note ppp vn2 3/4OB > 1/2OB (B3) underneath;
+    quarter-note ppp vn1 3/4OB > 1/2OB (B4) underneath;
+    quarter-note ppp vn2 OB > 3/4OB (B3) underneath;
     quarter-note ppp va 1/2OB > 1/4OB (B2) underneath;
 
     8 (2)
-    quarter-note ppp vn1 OB > 3/4OB (B3) continues unacc.;
-    quarter-note ppp vn2 3/4OB > 1/2OB (B3) continues unacc.;
+    quarter-note ppp vn1 3/4OB > 1/2OB (B4) continues unacc.;
+    quarter-note ppp vn2 OB > 3/4OB (B3) continues unacc.;
     quarter-note ppp va 1/2OB > 1/4OB (B2) continues unacc.;
 
     9 (4)[89]
-    quarter-note ppp vn1 3/4OB > XP (B3);
-    quarter-note ppp vn2 1/2OB > XP (B3);
+    quarter-note ppp vn1 1/2OB > XP (B3);
+    quarter-note ppp vn2 3/4OB > XP (B3);
     quarter-note ppp va XP (B2);
     quarter-note ppp vc OB > XP (B1);
 
