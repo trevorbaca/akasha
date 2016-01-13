@@ -301,44 +301,44 @@ intro (15")
 [I] (1'30"-2'30")
 
     1-2 (2 + fermata)[89]
-    tutti detuned ord. octave Bb with swell (cres. + vib.);
+    tutti detuned ord. octave B with swell (cres. + vib.);
     fermata;
 
     3 (2)[55]
-    vn1, vn2, vc pure ord. octave Bb with swell (cres. + vib.);
-    quarter-note ppp va OB > 3/4OB (Bb2) underneath;
+    vn1, vn2, vc pure ord. octave B with swell (cres. + vib.);
+    quarter-note ppp va OB > 3/4OB (B2) underneath;
 
     4 (1)
-    quarter-note ppp va OB > 3/4OB (Bb2) continues unaccompanied;
+    quarter-note ppp va OB > 3/4OB (B2) continues unaccompanied;
 
     5 (3)[89]
-    vn1, vc detuned ord. octave Bb with swell (cres. + vib.);
-    quarter-note ppp vn2 OB > 3/4OB (Bb3) underneath;
-    quarter-note ppp va 3/4OB > 1/2OB (Bb2) underneath;
+    vn1, vc detuned ord. octave B with swell (cres. + vib.);
+    quarter-note ppp vn2 OB > 3/4OB (B3) underneath;
+    quarter-note ppp va 3/4OB > 1/2OB (B2) underneath;
 
     6 (2)
-    quarter-note ppp va 3/4OB > 1/2OB (Bb2) continues unaccompanied;
-    quarter-note ppp vn2 OB > 3/4OB (Bb3) continues unaccompanied;
+    quarter-note ppp va 3/4OB > 1/2OB (B2) continues unaccompanied;
+    quarter-note ppp vn2 OB > 3/4OB (B3) continues unaccompanied;
 
     7 (2)[55]
-    vc pure ord. Bb1 with swell (cres. + vib.);
-    quarter-note ppp vn1 OB > 3/4OB (Bb3) underneath;
-    quarter-note ppp vn2 3/4OB > 1/2OB (Bb3) underneath;
-    quarter-note ppp va 1/2OB > 1/4OB (Bb2) underneath;
+    vc pure ord. B1 with swell (cres. + vib.);
+    quarter-note ppp vn1 OB > 3/4OB (B3) underneath;
+    quarter-note ppp vn2 3/4OB > 1/2OB (B3) underneath;
+    quarter-note ppp va 1/2OB > 1/4OB (B2) underneath;
 
     8 (2)
-    quarter-note ppp vn1 OB > 3/4OB (Bb3) continues unacc.;
-    quarter-note ppp vn2 3/4OB > 1/2OB (Bb3) continues unacc.;
-    quarter-note ppp va 1/2OB > 1/4OB (Bb2) continues unacc.;
+    quarter-note ppp vn1 OB > 3/4OB (B3) continues unacc.;
+    quarter-note ppp vn2 3/4OB > 1/2OB (B3) continues unacc.;
+    quarter-note ppp va 1/2OB > 1/4OB (B2) continues unacc.;
 
     9 (4)[89]
-    quarter-note ppp vn1 3/4OB > XP (Bb3);
-    quarter-note ppp vn2 1/2OB > XP (Bb3);
-    quarter-note ppp va XP (Bb2);
-    quarter-note ppp vc OB > XP (Bb1);
+    quarter-note ppp vn1 3/4OB > XP (B3);
+    quarter-note ppp vn2 1/2OB > XP (B3);
+    quarter-note ppp va XP (B2);
+    quarter-note ppp vc OB > XP (B1);
 
     10 (2)[55]
-    tutti ppp XP flaut. (Bb);
+    tutti ppp XP flaut. (B);
     attaca;
 
     11 (2)[126]
@@ -346,7 +346,7 @@ intro (15")
     attaca;
 
     12 (2 + short fermata)[55]
-    tutti ppp flaut. XP > tasto (Bb);
+    tutti ppp flaut. XP > tasto (B);
     short fermata;
 
     13 (2 + short fermata)[89]
@@ -354,13 +354,13 @@ intro (15")
     short fermata;
 
     14 (2)[55]
-    tutti ppp tasto flaut > poco scratch (Bb);
+    tutti ppp tasto flaut > poco scratch (B);
 
     15 (2)[55->44]
-    tutti ppp poco scratch > scratch moltiss. (Bb);
+    tutti ppp poco scratch > scratch moltiss. (B);
 
     16 (2 + very long fermata)[44]
-    tutti ppp scratch moltiss. (Bb);
+    tutti ppp scratch moltiss. (B);
     very long fermata;
 
 [I2]
@@ -406,19 +406,53 @@ intro (15")
     short fermata;
 
     13-17 (6x:4)
-    tutti detuned octaves (A1, A+2, G#+3, A4);
+    tutti detuned octaves (A1, A+2, G#+3, A5);
     tutti ord < XP > ord enveloping (each time slightly more);
     tutti sf < fff > f enveloping (each time slightly more);
 
     18 (1)
     short fermata;
 
-    19-22 (6x:4) [38(!)]
-    tutti trilled spectral chord (A);
-    tutti swells persist;
-    gigantic crescendo to fff;
+    19 (4)
+    tutti pure octaves (A1, A2, A3, A5);
+    tutti ff ord > tasto pp;
+    tutti no vib. < vib. moltiss. > no vib.;
+    attaca;
 
-    23 (1)
+    20 (2)
+    vn1, vn2, va pure octaves (A2, A3, A5) tasto pp;
+    vc A1+D5 (IV/11°) natural harmonic tasto trill pp < mf;
+
+    21 (2)
+    vn1, vn2 pure octaves (A3, A5) tasto pp;
+    va A2+G~5 (IV/9°) natural harmonic tasto trill pp < mf;
+    vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
+
+    22 (2)
+    vn1 pure A5 tasto pp;
+    vn2 A4+C#7 (IV/5°) natural harmonic tasto trill pp < mf;
+    va A2+G~5 (IV/7°) natural harmonic tasto trill mf;
+    vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
+
+    23 (2)[44->38(!)]
+    vn1 A4+B7 (IV/9°) natural harmonic tasto trill mf;
+    vn2 A4+C#7 (IV/5°) natural harmonic tasto trill mf;
+    va A2+G~5 (IV/7°) natural harmonic tasto trill mf;
+    vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
+
+    24-27 (6x:4) [38]
+    tutti ord < XP > ord enveloping (each time slightly more);
+    tutti mf < fff > mf enveloping (each time slightly more);
+
+    28 (2)
+    tutti ord < XP;
+    tutti mf < fff;
+
+    29 (6)
+    tutti XP;
+    tutti fff;
+
+    30 (1)
     very long fermata;
 
 [K] (15")
