@@ -10,29 +10,18 @@ from akasha.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    2,
-    1, Fermata(),
-    2, Fermata(),
+    2, # 1
+    1, Fermata(), # 2-3
+    2, Fermata(), # 4-5
     ])
 
 tempo_map = baca.tools.TempoMap([
     (1, akasha.materials.tempi[89]),
     (2, akasha.materials.tempi[44]),
-    (2, Accelerando()),
-    (3, akasha.materials.tempi[55]),
-    (6, akasha.materials.tempi[89]),
-    (7, akasha.materials.tempi[44]),
-    (7, Accelerando()),
-    (8, akasha.materials.tempi[55]),
+    (4, akasha.materials.tempi[55]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker(
-    'A', 
-    12, 
-    stage_specifier, 
-    tempo_map,
-    repeat_count=2,
-    )
+maker = akasha.tools.TimeSignatureMaker('A', 12, stage_specifier, tempo_map)
 measures_per_stage, tempo_map, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -40,17 +29,22 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     minimum_width=Duration(1, 12),
     )
 
+volta_map = baca.tools.VoltaMap([
+    baca.tools.MeasureExpression(start=0, stop=None), 
+    ])
+
 segment_maker = baca.tools.SegmentMaker(
+    #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=True,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
+    volta_map=volta_map,
     )
 
-segment_maker.validate_measure_count(14)
-segment_maker.validate_stage_count(10)
+segment_maker.validate_measure_count(7)
+segment_maker.validate_stage_count(5)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
@@ -70,7 +64,12 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(1)),
+    (va, stages(1, 2)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(1)),
     new(
         akasha.tools.make_ritardando_rhythm_specifier(),
         division_expression=sequence().sum().sequence(),
@@ -78,91 +77,100 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(1, 2)),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (vn_1, stages(2)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (vn_2, stages(2)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(2)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
+    ([vn_1, vn_2, vc], stages(2)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(4)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
+    akasha.tools.make_glissando_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(4)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
-### repetition ###
+###############################################################################
+#################################### COLOR ####################################
+###############################################################################
 
-segment_maker.copy_specifier(
-    (vn_1, 1),
-    (vn_1, stages(1+5)),
+segment_maker.append_specifiers(
+    ([vn_1, vn_2, vc], stages(1)),
+    [
+        baca.markup.XFB_flaut(),
+        Dynamic('p'),
+        ]
     )
 
-segment_maker.copy_specifier(
-    (vn_1, 2),
-    (vn_1, stages(2+5)),
+segment_maker.append_specifiers(
+    (vn_1, stages(1)),
+    [
+        baca.pitch.pitches('D4 E4'),
+        ],
     )
 
-segment_maker.copy_specifier(
-    (vn_2, 1),
-    (vn_2, stages(1+5)),
+segment_maker.append_specifiers(
+    (vn_2, stages(1)),
+    [
+        baca.pitch.pitches('C#4 D#4'),
+        ],
     )
 
-segment_maker.copy_specifier(
-    (vn_2, 2),
-    (vn_2, stages(2+5)),
+segment_maker.append_specifiers(
+    (vc, stages(1)),
+    [
+        baca.pitch.pitches('C4 D4'),
+        ],
     )
 
-segment_maker.copy_specifier(
-    (va, 1),
-    (va, stages(1+5)),
+segment_maker.append_specifiers(
+    (va, stages(1, 2)),
+    [
+        baca.pitch.pitches('C4'),
+        baca.spanners.one_line_staff(),
+        ],
     )
 
-segment_maker.copy_specifier(
-    (va, 2),
-    (va, stages(2+5)),
+segment_maker.append_specifiers(
+    (vn_1, stages(2)),
+    [
+        baca.pitch.pitches('F#5'),
+        Dynamic('ppp'),
+        ],
     )
 
-segment_maker.copy_specifier(
-    (va, 4),
-    (va, stages(4+5)),
+segment_maker.append_specifiers(
+    (vn_2, stages(2)),
+    [
+        baca.pitch.pitches('Ab4'),
+        Dynamic('ppp'),
+        ],
     )
 
-segment_maker.copy_specifier(
-    (vc, 1),
-    (vc, stages(1+5)),
+segment_maker.append_specifiers(
+    (vc, stages(2)),
+    [
+        baca.pitch.pitches('C#2'),
+        Dynamic('ppp'),
+        ],
     )
 
-segment_maker.copy_specifier(
-    (vc, 4),
-    (vc, stages(4+5)),
+segment_maker.append_specifiers(
+    (va, stages(4)),
+    [
+        baca.markup.tasto(),
+        baca.pitch.fixed_pitches('D#3 C+3'),
+        baca.spanners.glissandi(),
+        Dynamic('mp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(4)),
+    [
+        baca.markup.tasto(),
+        baca.pitch.pitches('C#2'),
+        Dynamic('mp'),
+        ],
     )
