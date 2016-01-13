@@ -92,7 +92,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(6)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -115,7 +115,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn_1, stages(2, 6)),
+    (vn_1, stages(2, 5)),
     [
         baca.pitch.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
         baca.spanners.glissandi(),
@@ -123,7 +123,7 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn_2, stages(1, 6)),
+    (vn_2, stages(1, 5)),
     [
         baca.pitch.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
         baca.spanners.glissandi(),
@@ -151,12 +151,36 @@ segment_maker.append_specifiers(
 
 
 segment_maker.append_specifiers(
-    (vc, stages(1, 6)),
+    (vc, stages(1, 5)),
     [
         baca.pitch.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
         baca.spanners.glissandi(),
         Clef('bass'),
         ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(6)),
+    [
+        baca.pitch.pitches('F#5'),
+        Dynamic('ppp'),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(6)),
+    [
+        baca.pitch.pitches('Ab4'),
+        Dynamic('ppp'),
+        ]
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(6)),
+    [
+        baca.pitch.pitches('C#2'),
+        Dynamic('ppp'),
+        ]
     )
 
 segment_maker.append_specifiers(

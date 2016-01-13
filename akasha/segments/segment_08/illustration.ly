@@ -1,4 +1,4 @@
-% 2016-01-12 22:25
+% 2016-01-12 23:14
 
 \version "2.19.35"
 \language "english"
@@ -463,8 +463,8 @@
                                 "XFB flaut."
                             }
                         R1 * 1/4
-                        e''2 \glissando
-                        g''2
+                        fs''2 \ppp
+                        fs''2 \repeatTie
                         R1 * 3/8
                         \bar "|"
                     }
@@ -596,8 +596,8 @@
                                 "XFB flaut."
                             }
                         R1 * 1/4
-                        f'2 \glissando
-                        g'2
+                        af'2 \ppp
+                        af'2 \repeatTie
                         R1 * 3/8
                         \bar "|"
                     }
@@ -865,8 +865,8 @@
                                 "XFB flaut."
                             }
                         R1 * 1/4
-                        cs,2 \glissando
-                        ef,2
+                        cs,2 \ppp
+                        cs,2 \repeatTie
                         R1 * 3/8
                         \bar "|"
                     }

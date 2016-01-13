@@ -285,19 +285,7 @@ intro (15")
     OB pedal which continues through end of segment;
     attaca;
 
-[H] (30")
-    1 (2)
-    tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
-
-    2 (2+halt)
-    [intercalated memory of XFB microtonal field (24ET)];
-    breath;
-
-    3 (2+halt)
-    isolated va, vc detuned octave;
-    breath;
-
-    repeat:
+[H] (30") [whole segment repeats]
 
     1 (2)
     tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
@@ -356,7 +344,7 @@ intro (15")
     ppp SB microtonal polyphony transitions from SB to XSB;
     breath;
 
-[J] (3' maybe 4')
+[J] (4' maybe 5')
 
     1-6 (1+halt+1+halt+1+halt)[55]
     vn2 silence with occ. get. strand;
