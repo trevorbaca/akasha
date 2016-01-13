@@ -1,4 +1,4 @@
-% 2016-01-12 23:22
+% 2016-01-13 08:45
 
 \version "2.19.35"
 \language "english"
@@ -403,12 +403,12 @@
                         \startStaff
                         R1 * 1/4
                         \times 8/9 {
-                            ds1.. \mp \glissando
+                            ds1.. \glissando \> \mp
                                 ^ \markup {
                                     \upright
                                         tasto
                                     }
-                            cqs8..
+                            cqs8.. \pp
                         }
                         R1 * 1/4
                         \bar "|"
@@ -480,12 +480,14 @@
                         \revert TupletNumber #'text
                         cs,2. \ppp
                         R1 * 1/4
-                        cs,2. \mp
-                            ^ \markup {
-                                \upright
-                                    tasto
-                                }
-                        cs,1 \repeatTie
+                        \times 8/9 {
+                            cs,1.. \glissando \> \mp
+                                ^ \markup {
+                                    \upright
+                                        tasto
+                                    }
+                            bf,,8.. \pp
+                        }
                         R1 * 1/4
                         \bar "|"
                     }
