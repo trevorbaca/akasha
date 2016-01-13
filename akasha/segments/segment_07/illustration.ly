@@ -1,4 +1,4 @@
-% 2016-01-12 14:49
+% 2016-01-12 18:08
 
 \version "2.19.35"
 \language "english"
@@ -256,16 +256,10 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     \mark #6
-                    s1 * 3/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F1]
-                            }
-                        ^ \markup {
+                    s1 * 3/4 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -284,19 +278,15 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
-                    s1 * 5/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F2]
-                            }
-                        ^ \markup {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \newSpacingSection
+                    s1 * 5/4 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -315,30 +305,21 @@
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F3]
-                            }
                 }
                 {
                     \time 3/4
-                    s1 * 3/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F4]
-                            }
-                        ^ \markup {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -357,26 +338,15 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F5]
-                            }
                 }
                 {
                     \time 3/4
-                    s1 * 3/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F6]
-                            }
-                        ^ \markup {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -395,110 +365,126 @@
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F7]
-                            }
                 }
                 {
                     \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 5/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F8]
-                            }
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
+                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F9]
-                            }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F10]
-                            }
                 }
                 {
                     \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/2
                 }
                 {
@@ -524,38 +510,33 @@
                     \once \override TextSpanner.bound-details.right.text = ##f
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1 \startTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F11]
-                            }
                 }
                 {
                     \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 1/4
-                    s1 * 1/4 \stopTextSpan
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F12]
-                            }
-                        ^ \markup {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
+                    s1 * 1/4 \stopTextSpan ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -574,55 +555,49 @@
                 }
                 {
                     \time 3/4
-                    s1 * 3/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F13]
-                            }
-                }
-                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \newSpacingSection
                     s1 * 3/4
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
+                    \newSpacingSection
                     s1 * 5/4
                 }
                 {
                     \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \newSpacingSection
                     s1 * 1
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F14]
-                            }
                 }
                 {
                     \time 6/4
-                    s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F15]
-                            }
-                        ^ \markup {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -641,28 +616,17 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F16]
-                            }
                 }
                 \repeat volta 2
                 {
                     {
                         \time 6/4
-                        s1 * 3/2
-                            - \markup {
-                                \fontsize
-                                    #-3
-                                    \with-color
-                                        #blue
-                                        [F17]
-                                }
-                            ^ \markup {
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
+                        \newSpacingSection
+                        s1 * 3/2 ^ \markup {
                             \fontsize
                                 #-6
                                 \general-align
@@ -681,27 +645,16 @@
                     }
                     {
                         \time 1/4
+                        \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                        \newSpacingSection
                         s1 * 1/4
-                            - \markup {
-                                \fontsize
-                                    #-3
-                                    \with-color
-                                        #blue
-                                        [F18]
-                                }
                     }
                 }
                 {
                     \time 6/4
-                    s1 * 3/2
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F19]
-                            }
-                        ^ \markup {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -720,14 +673,9 @@
                 }
                 {
                     \time 1/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                    \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [F20]
-                            }
                 }
             }
         >>
@@ -1174,20 +1122,46 @@
                         }
                         \revert TupletNumber #'text
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2.
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2. \repeatTie
-                        c'1. \repeatTie
-                        c'1 \repeatTie
-                        c'1. \repeatTie
-                        c'1. \repeatTie
-                        c'1. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
+                        e''2. \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + poco scratch"
+                                }
+                        e''2 \repeatTie
+                        e''2. \repeatTie
+                        e''2. \repeatTie
+                        e''1. \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        "tasto + poco scratch"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        f''1 \< \mp \startTextSpan
+                        f''1. \repeatTie
+                        f''1. \repeatTie
+                        f''1. \repeatTie
+                        f''1 \repeatTie
+                        f''2. \repeatTie
+                        f''1 \repeatTie
+                        f''2. \repeatTie
+                        f''2 \repeatTie \f \stopTextSpan ^ \markup {
+                            \upright
+                                "tasto + scratch moltiss."
+                            }
                         R1 * 1/4
                         \times 8/14 {
                             r16
@@ -1299,58 +1273,58 @@
                             f''''16 -\staccato
                             ef''''16 -\staccato
                             e''''16 -\staccato
-                            f'''16 -\staccato
-                            fs'''16 -\staccato
-                            f'''16 -\staccato ]
+                            cs''''16 -\staccato
+                            d''''16 -\staccato
+                            cs''''16 -\staccato ]
                         }
                         {
                             r16
-                            e'''16 -\staccato [
-                            ef'''16 -\staccato
-                            f'''16 -\staccato ]
+                            c''''16 -\staccato [
+                            b'''16 -\staccato
+                            cs''''16 -\staccato ]
                         }
                         \times 8/14 {
                             r16
-                            e'''16 -\staccato [
-                            f'''16 -\staccato
-                            fs'''16 -\staccato
-                            af'''16 -\staccato
-                            g'''16 -\staccato
-                            fs'''16 -\staccato
-                            f'''16 -\staccato
-                            g'''16 -\staccato
-                            af'''16 -\staccato
-                            a'''16 -\staccato
-                            af'''16 -\staccato
-                            bf'''16 -\staccato
-                            b'''16 -\staccato ]
+                            c''''16 -\staccato [
+                            cs''''16 -\staccato
+                            d''''16 -\staccato
+                            e''''16 -\staccato
+                            ef''''16 -\staccato
+                            d''''16 -\staccato
+                            cs''''16 -\staccato
+                            ef''''16 -\staccato
+                            e''''16 -\staccato
+                            f''''16 -\staccato
+                            e''''16 -\staccato
+                            fs''''16 -\staccato
+                            g''''16 -\staccato ]
                         }
                         \times 8/11 {
                             r16
-                            a'''16 -\staccato [
-                            bf'''16 -\staccato
-                            g'''16 -\staccato
-                            af'''16 -\staccato
-                            g'''16 -\staccato
-                            fs'''16 -\staccato
-                            f'''16 -\staccato
-                            g'''16 -\staccato
-                            fs'''16 -\staccato
-                            g'''16 -\staccato ]
+                            f''''16 -\staccato [
+                            fs''''16 -\staccato
+                            ef''''16 -\staccato
+                            e''''16 -\staccato
+                            ef''''16 -\staccato
+                            d''''16 -\staccato
+                            cs''''16 -\staccato
+                            ef''''16 -\staccato
+                            d''''16 -\staccato
+                            ef''''16 -\staccato ]
                         }
                         \times 4/6 {
                             r16
-                            af'''16 -\staccato [
-                            bf'''16 -\staccato
-                            a'''16 -\staccato
-                            af'''16 -\staccato
-                            g'''16 -\staccato ]
+                            e''''16 -\staccato [
+                            fs''''16 -\staccato
+                            f''''16 -\staccato
+                            e''''16 -\staccato
+                            ef''''16 -\staccato ]
                         }
                         {
                             r16
-                            a'''16 -\staccato [
-                            bf'''16 -\staccato
-                            b'''16 -\staccato \fff ]
+                            f''''16 -\staccato [
+                            fs''''16 -\staccato
+                            g''''16 -\staccato \fff ]
                         }
                         R1 * 2
                         \times 12/18 {
@@ -1818,20 +1792,46 @@
                         }
                         \revert TupletNumber #'text
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2.
-                        c'2 \repeatTie
-                        c'2. \repeatTie
-                        c'2. \repeatTie
-                        c'1. \repeatTie
-                        c'1 \repeatTie
-                        c'1. \repeatTie
-                        c'1. \repeatTie
-                        c'1. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'1 \repeatTie
-                        c'2. \repeatTie
-                        c'2 \repeatTie
+                        fs'2. \mp
+                            ^ \markup {
+                                \upright
+                                    "tasto + poco scratch"
+                                }
+                        fs'2 \repeatTie
+                        fs'2. \repeatTie
+                        fs'2. \repeatTie
+                        fs'1. \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        "tasto + poco scratch"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        fs'1 \< \mp \startTextSpan
+                        fs'1. \repeatTie
+                        fs'1. \repeatTie
+                        fs'1. \repeatTie
+                        fs'1 \repeatTie
+                        fs'2. \repeatTie
+                        fs'1 \repeatTie
+                        fs'2. \repeatTie
+                        fs'2 \repeatTie \f \stopTextSpan ^ \markup {
+                            \upright
+                                "tasto + scratch moltiss."
+                            }
                         R1 * 1/4
                         \times 8/12 {
                             r16
@@ -1946,55 +1946,55 @@
                             d''''16 -\staccato
                             c''''16 -\staccato
                             cs''''16 -\staccato
-                            d'''16 -\staccato
-                            ef'''16 -\staccato
-                            d'''16 -\staccato
-                            cs'''16 -\staccato
-                            c'''16 -\staccato
-                            d'''16 -\staccato ]
+                            bf'''16 -\staccato
+                            b'''16 -\staccato
+                            bf'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            bf'''16 -\staccato ]
                         }
                         \times 8/11 {
                             r16
-                            cs'''16 -\staccato [
-                            d'''16 -\staccato
-                            ef'''16 -\staccato
-                            f'''16 -\staccato
-                            e'''16 -\staccato
-                            ef'''16 -\staccato
-                            d'''16 -\staccato
-                            e'''16 -\staccato
-                            f'''16 -\staccato
-                            fs'''16 -\staccato ]
+                            a'''16 -\staccato [
+                            bf'''16 -\staccato
+                            b'''16 -\staccato
+                            cs''''16 -\staccato
+                            c''''16 -\staccato
+                            b'''16 -\staccato
+                            bf'''16 -\staccato
+                            c''''16 -\staccato
+                            cs''''16 -\staccato
+                            d''''16 -\staccato ]
                         }
                         \times 4/6 {
                             r16
-                            f'''16 -\staccato [
-                            g'''16 -\staccato
-                            af'''16 -\staccato
-                            fs'''16 -\staccato
-                            g'''16 -\staccato ]
+                            cs''''16 -\staccato [
+                            ef''''16 -\staccato
+                            e''''16 -\staccato
+                            d''''16 -\staccato
+                            ef''''16 -\staccato ]
                         }
                         \times 8/12 {
                             r16
-                            e'''16 -\staccato [
-                            f'''16 -\staccato
-                            e'''16 -\staccato
-                            ef'''16 -\staccato
-                            d'''16 -\staccato
-                            e'''16 -\staccato
-                            ef'''16 -\staccato
-                            e'''16 -\staccato
-                            f'''16 -\staccato
-                            g'''16 -\staccato
-                            fs'''16 -\staccato ]
+                            c''''16 -\staccato [
+                            cs''''16 -\staccato
+                            c''''16 -\staccato
+                            b'''16 -\staccato
+                            bf'''16 -\staccato
+                            c''''16 -\staccato
+                            b'''16 -\staccato
+                            c''''16 -\staccato
+                            cs''''16 -\staccato
+                            ef''''16 -\staccato
+                            d''''16 -\staccato ]
                         }
                         \times 4/6 {
                             r16
-                            f'''16 -\staccato [
-                            e'''16 -\staccato
-                            fs'''16 -\staccato
-                            g'''16 -\staccato
-                            af'''16 -\staccato \fff ]
+                            cs''''16 -\staccato [
+                            c''''16 -\staccato
+                            d''''16 -\staccato
+                            ef''''16 -\staccato
+                            e''''16 -\staccato \fff ]
                         }
                         R1 * 2
                         \tweak #'text #tuplet-number::calc-fraction-text
@@ -2068,12 +2068,12 @@
                                     }
                                 }
                         R1 * 9/4
-                        af2 \mp
+                        gs2 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + slow bow (poco scratch)"
+                                    "tasto + poco scratch"
                                 }
-                        af8. \repeatTie [
+                        gs8. \repeatTie [
                         a16 ]
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         a2 \repeatTie
@@ -2091,36 +2091,58 @@
                         c'2 \repeatTie
                         c'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        g'4..
-                        g'1. \repeatTie
-                        g'4.. \repeatTie
-                        a'16
+                        cs'4..
+                        cs'1. \repeatTie
+                        cs'4.. \repeatTie
+                        cqs'16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a'4 \repeatTie
-                        a'2. \repeatTie
-                        a'2 \repeatTie
-                        a'8. \repeatTie [
-                        b'16 ]
+                        cqs'4 \repeatTie
+                        cqs'2. \repeatTie
+                        cqs'2 \repeatTie
+                        cqs'8. \repeatTie [
+                        d'16 ]
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        b'2 \repeatTie
-                        b'2. \repeatTie
-                        b'2. \repeatTie
-                        b'1 \repeatTie
-                        b'1 \repeatTie
-                        b'2. \repeatTie
-                        b'2 \repeatTie
-                        b'2. \repeatTie
-                        b'2. \repeatTie
-                        b'1. \repeatTie
-                        af1 \< \mp
-                        af1. \repeatTie
-                        af1. \repeatTie
-                        af1. \repeatTie
-                        af1 \repeatTie
-                        af2. \repeatTie
-                        af1 \repeatTie
-                        af2. \repeatTie
-                        af2 \repeatTie \f
+                        d'2 \repeatTie
+                        d'2. \repeatTie
+                        d'2. \repeatTie
+                        d'1 \repeatTie
+                        d'1 \repeatTie
+                        d'2. \repeatTie
+                        d'2 \repeatTie
+                        d'2. \repeatTie
+                        d'2. \repeatTie
+                        d'1. \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        "tasto + poco scratch"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        ds'1 \< \mp \startTextSpan
+                        ds'1. \repeatTie
+                        ds'1. \repeatTie
+                        ds'1. \repeatTie
+                        ds'1 \repeatTie
+                        ds'2. \repeatTie
+                        ds'1 \repeatTie
+                        ds'2. \repeatTie
+                        ds'2 \repeatTie \f \stopTextSpan ^ \markup {
+                            \upright
+                                "tasto + scratch moltiss."
+                            }
                         R1 * 1/4
                         \times 8/11 {
                             \clef "treble"
@@ -2236,54 +2258,54 @@
                         }
                         \times 4/6 {
                             r16
-                            b''16 -\staccato [
-                            c'''16 -\staccato
-                            b''16 -\staccato
-                            bf''16 -\staccato
-                            a''16 -\staccato ]
+                            g'''16 -\staccato [
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato ]
                         }
                         \times 8/12 {
                             r16
-                            b''16 -\staccato [
-                            bf''16 -\staccato
-                            b''16 -\staccato
-                            c'''16 -\staccato
-                            d'''16 -\staccato
-                            cs'''16 -\staccato
-                            c'''16 -\staccato
-                            b''16 -\staccato
-                            cs'''16 -\staccato
-                            d'''16 -\staccato
-                            ef'''16 -\staccato ]
+                            g'''16 -\staccato [
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            bf'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            b'''16 -\staccato ]
                         }
                         \times 4/6 {
                             r16
-                            d'''16 -\staccato [
-                            e'''16 -\staccato
-                            f'''16 -\staccato
-                            ef'''16 -\staccato
-                            e'''16 -\staccato ]
+                            bf'''16 -\staccato [
+                            c''''16 -\staccato
+                            cs''''16 -\staccato
+                            b'''16 -\staccato
+                            c''''16 -\staccato ]
                         }
                         \times 8/11 {
                             r16
-                            cs'''16 -\staccato [
-                            d'''16 -\staccato
-                            cs'''16 -\staccato
-                            c'''16 -\staccato
-                            b''16 -\staccato
-                            cs'''16 -\staccato
-                            c'''16 -\staccato
-                            cs'''16 -\staccato
-                            d'''16 -\staccato
-                            e'''16 -\staccato ]
+                            a'''16 -\staccato [
+                            bf'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            c''''16 -\staccato ]
                         }
                         \times 4/6 {
                             r16
-                            ef'''16 -\staccato [
-                            d'''16 -\staccato
-                            cs'''16 -\staccato
-                            ef'''16 -\staccato
-                            e'''16 -\staccato \fff ]
+                            b'''16 -\staccato [
+                            bf'''16 -\staccato
+                            a'''16 -\staccato
+                            b'''16 -\staccato
+                            c''''16 -\staccato \fff ]
                         }
                         R1 * 1/4
                         \stopStaff
@@ -2369,8 +2391,13 @@
                         \clef "treble"
                         f4.. \mp
                             ^ \markup {
-                                \upright
-                                    "tasto + poco scratch"
+                                \column
+                                    {
+                                        \upright
+                                            leggieriss.
+                                        \upright
+                                            "tasto + poco scratch"
+                                    }
                                 }
                         gf16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -2446,7 +2473,7 @@
                         af,4.. \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + slow bow (poco scratch)"
+                                    "tasto + poco scratch"
                                 }
                         g,16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -2482,15 +2509,37 @@
                         ef,2. \repeatTie
                         ef,2. \repeatTie
                         ef,1. \repeatTie
-                        c,1 \< \mp
-                        c,1. \repeatTie
-                        c,1. \repeatTie
-                        c,1. \repeatTie
-                        c,1 \repeatTie
-                        c,2. \repeatTie
-                        c,1 \repeatTie
-                        c,2. \repeatTie
-                        c,2 \repeatTie \f
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        "tasto + poco scratch"
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        df,1 \< \mp \startTextSpan
+                        df,1. \repeatTie
+                        df,1. \repeatTie
+                        df,1. \repeatTie
+                        df,1 \repeatTie
+                        df,2. \repeatTie
+                        df,1 \repeatTie
+                        df,2. \repeatTie
+                        df,2 \repeatTie \f \stopTextSpan ^ \markup {
+                            \upright
+                                "tasto + scratch moltiss."
+                            }
                         R1 * 1/4
                         \times 4/6 {
                             \clef "treble"
@@ -2606,54 +2655,54 @@
                             af'''16 -\staccato
                             fs'''16 -\staccato
                             g'''16 -\staccato
-                            af''16 -\staccato
-                            a''16 -\staccato
-                            af''16 -\staccato
-                            g''16 -\staccato
-                            fs''16 -\staccato ]
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            ef'''16 -\staccato
+                            d'''16 -\staccato ]
                         }
                         \times 4/6 {
                             r16
-                            af''16 -\staccato [
-                            g''16 -\staccato
-                            af''16 -\staccato
-                            a''16 -\staccato
-                            b''16 -\staccato ]
+                            e'''16 -\staccato [
+                            ef'''16 -\staccato
+                            e'''16 -\staccato
+                            f'''16 -\staccato
+                            g'''16 -\staccato ]
                         }
                         \times 8/12 {
                             r16
-                            bf''16 -\staccato [
-                            a''16 -\staccato
-                            af''16 -\staccato
-                            bf''16 -\staccato
-                            b''16 -\staccato
-                            c'''16 -\staccato
-                            b''16 -\staccato
-                            cs'''16 -\staccato
-                            d'''16 -\staccato
-                            c'''16 -\staccato
-                            cs'''16 -\staccato ]
+                            fs'''16 -\staccato [
+                            f'''16 -\staccato
+                            e'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            a'''16 -\staccato
+                            bf'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato ]
                         }
                         \times 4/6 {
                             r16
-                            bf''16 -\staccato [
-                            b''16 -\staccato
-                            bf''16 -\staccato
-                            a''16 -\staccato
-                            af''16 -\staccato ]
+                            fs'''16 -\staccato [
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            f'''16 -\staccato
+                            e'''16 -\staccato ]
                         }
                         \times 8/11 {
                             r16
-                            bf''16 -\staccato [
-                            a''16 -\staccato
-                            bf''16 -\staccato
-                            b''16 -\staccato
-                            cs'''16 -\staccato
-                            c'''16 -\staccato
-                            b''16 -\staccato
-                            bf''16 -\staccato
-                            c'''16 -\staccato
-                            cs'''16 -\staccato \fff ]
+                            fs'''16 -\staccato [
+                            f'''16 -\staccato
+                            fs'''16 -\staccato
+                            g'''16 -\staccato
+                            a'''16 -\staccato
+                            af'''16 -\staccato
+                            g'''16 -\staccato
+                            fs'''16 -\staccato
+                            af'''16 -\staccato
+                            a'''16 -\staccato \fff ]
                         }
                         R1 * 2
                         {

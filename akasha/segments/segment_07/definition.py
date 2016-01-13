@@ -48,10 +48,10 @@ volta_map = baca.tools.VoltaMap([
     ])
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=True,
-    #spacing_specifier=spacing_specifier,
+    spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
     volta_map=volta_map,
@@ -65,12 +65,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
-    [
-        akasha.tools.make_cello_solo_rhythm_specifier(rotation=0),
-        akasha.tools.make_cello_solo_pitch_specifier(transposition=1),
-        baca.markup.tasto_poco_scratch(),
-        Dynamic('mp'),
-        ],
+    akasha.tools.make_cello_solo_rhythm_specifier(),
     )
 
 ### stages 2-3 ###
@@ -354,14 +349,17 @@ segment_maker.append_specifiers(
         ),
     )
 
-### violins 1 & 2: stages 9-11 ###
+### stages 9-12 ###
 
 segment_maker.append_specifiers(
-    ([vn_1, vn_2], stages(9, 11)),
+    ([vn_1, vn_2], stages(9)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
-### viola & cello: stages 8-12 ###
+segment_maker.append_specifiers(
+    ([vn_1, vn_2], stages(10, 11)),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    )
 
 counts = [7, 4, 11, 8]
 counts += [14, 8, 11, 8]
@@ -428,9 +426,6 @@ segment_maker.append_specifiers(
     (vc, stages(10, 11)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
-
-### stages 9-10 ###
-
 
 ### stages 13-14 ###
 
@@ -515,37 +510,51 @@ segment_maker.append_specifiers(
 
 ### across stages ###
 
+### stage 1 ###
+
+segment_maker.append_specifiers(
+    (vc, stages(1)),
+    [
+        akasha.tools.make_cello_solo_pitch_specifier(transposition=1),
+        baca.markup.leggieriss(),
+        baca.markup.tasto_poco_scratch(),
+        Dynamic('mp'),
+        ],
+    )
+
 ### stages 2-3 ###
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
     [
         Clef('treble'),
-        ]
+        ],
     )
 segment_maker.append_specifiers(
     (vn_1, stages(2)),
     [
-        akasha.tools.make_getato_pitch_specifier([27, 29, 31, 33]),
+        #akasha.tools.make_getato_pitch_specifier([27, 29, 31, 33]),
+        akasha.tools.make_getato_pitch_specifier(27, [2]),
         baca.articulations.staccati(),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(2)),
     [
-        akasha.tools.make_getato_pitch_specifier([24, 26, 28, 30]),
+        #akasha.tools.make_getato_pitch_specifier([24, 26, 28, 30]),
+        akasha.tools.make_getato_pitch_specifier(24, [2]),
         baca.articulations.staccati(),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(2)),
     [
-        akasha.tools.make_getato_pitch_specifier([21, 23, 25, 27]),
+        akasha.tools.make_getato_pitch_specifier(21, [2]),
         baca.articulations.staccati(),
         Dynamic('pp'),
-        ]
+        ],
     )
 
 ### stages 4-5 ###
@@ -557,7 +566,7 @@ segment_maker.append_specifiers(
         baca.markup.terminate_abruptly(),
         baca.pitch.pitches('F#3'),
         Dynamic('ff'),
-        ]
+        ],
     )
 
 ### stages 6-7 ###
@@ -568,7 +577,7 @@ segment_maker.append_specifiers(
         baca.markup.tasto_XFB_flaut(),
         baca.pitch.pitches('Eb5 F5'),
         Dynamic('pp'),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
@@ -577,10 +586,10 @@ segment_maker.append_specifiers(
         baca.markup.tasto_XFB_flaut(),
         baca.pitch.pitches('B4 C#5'),
         Dynamic('pp'),
-        ]
+        ],
     )
 
-### stages 8-9 ###
+### stage 8 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(8)),
@@ -611,64 +620,81 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(8)),
+    (va, stages(8, 9)),
     [
+        baca.markup.tasto_poco_scratch(),
+        baca.pitch.fixed_pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4'),
         Dynamic('mp'),
         ],
     )
 
 segment_maker.append_specifiers(
-    #(va, stages(9, 10)),
+    (vc, stages(8, 9)),
+    [
+        baca.markup.tasto_poco_scratch(),
+        baca.pitch.fixed_pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2'),
+        Clef('bass'),
+        Dynamic('mp'),
+        ],
+    )
+
+#### stages 9-11 ###
+
+segment_maker.append_specifiers(
+    (vn_1, stages(9)),
+    [
+        baca.markup.tasto_poco_scratch(),
+        baca.pitch.pitches('E5'),
+        Dynamic('mp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(9)),
+    [
+        baca.markup.tasto_poco_scratch(),
+        baca.pitch.pitches('F#4'),
+        Dynamic('mp'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (tutti, stages(10, 11)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.tasto_poco_scratch(),
+            baca.markup.tasto_scratch_moltiss(),
+            ),
+        Hairpin('mp < f'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(10, 11)),
+    [
+        baca.pitch.pitches('F5'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(10, 11)),
+    [
+        baca.pitch.pitches('F#4'),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (va, stages(10, 11)),
     [
-        Hairpin('mp < f'),
-        ],
-    )
-
-#segment_maker.append_specifiers(
-#    ([vn_1, vn_2, va, vc], stages(10, 11)),
-#    [
-#        baca.spanners.make_transition(
-#            baca.markup.tasto_poco_scratch(),
-#            baca.markup.tasto_scratch_moltiss(),
-#            ),
-#        ],
-#    )
-
-segment_maker.append_specifiers(
-    (va, stages(8, 11)),
-    [
-        baca.markup.tasto_slow_bow(),
-        # 6 pitches
-        #baca.pitch.exact_pitches('Ab3 A3 B3 B~3 Bb3 C4 G4 A4 B4'),
-        baca.pitch.pitches('Ab3 A3 B3 B~3 Bb3 C4 G4 A4 B4'),
-        ]
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(8)),
-    [
-        Dynamic('mp'),
+        baca.pitch.pitches('D#4'),
         ],
     )
 
 segment_maker.append_specifiers(
-    #(vc, stages(9, 10)),
     (vc, stages(10, 11)),
     [
-        Hairpin('mp < f'),
+        baca.pitch.pitches('Db2'),
         ],
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(8, 11)),
-    [
-        baca.markup.tasto_slow_bow(),
-        # 7 pitches
-        #baca.pitch.exact_pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2 C2 B1 A1'),
-        baca.pitch.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2 C2 B1 A1'),
-        Clef('bass'),
-        ]
     )
 
 ### stages 13-14 ###
@@ -676,39 +702,39 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(13)),
     [
-        akasha.tools.make_getato_pitch_specifier([29, 31, 33, 35]),
+        akasha.tools.make_getato_pitch_specifier(29, [2]),
         baca.articulations.staccati(),
         Hairpin('ff < fff'),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(13)),
     [
-        akasha.tools.make_getato_pitch_specifier([26, 28, 30, 32]),
+        akasha.tools.make_getato_pitch_specifier(26, [2]),
         baca.articulations.staccati(),
         Hairpin('ff < fff'),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(13)),
     [
-        akasha.tools.make_getato_pitch_specifier([23, 25, 27, 29]),
+        akasha.tools.make_getato_pitch_specifier(23, [2]),
         baca.articulations.staccati(),
         Clef('treble'),
         Hairpin('ff < fff'),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(13)),
     [
-        akasha.tools.make_getato_pitch_specifier([20, 22, 24, 26]),
+        akasha.tools.make_getato_pitch_specifier(20, [2]),
         baca.articulations.staccati(),
         Clef('treble'),
         Hairpin('ff < fff'),
-        ]
+        ],
     )
 
 ### stages 15-16 ###
@@ -717,10 +743,10 @@ segment_maker.append_specifiers(
     (va, stages(15)),
     [
         baca.markup.OB_no_pitch(),
-        baca.spanners.one_line_staff(),
         baca.pitch.pitches(source='B4'),
+        baca.spanners.one_line_staff(),
         Dynamic('mf'),
-        ]
+        ],
     )
 
 ### stages 17-18 (x8) ###
@@ -729,47 +755,47 @@ segment_maker.append_specifiers(
     (vn_1, stages(17)),
     [
         baca.markup.make_boxed_repeat_count(8),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
     [
-        akasha.tools.make_getato_pitch_specifier([29, 31, 33, 35]),
+        akasha.tools.make_getato_pitch_specifier(29, [2]),
         baca.articulations.staccati(),
         baca.markup.leggieriss(),
         Dynamic('pp'),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(17)),
     [
-        akasha.tools.make_getato_pitch_specifier([26, 28, 30, 32]),
+        akasha.tools.make_getato_pitch_specifier(26, [2]),
         baca.articulations.staccati(),
         baca.markup.leggieriss(),
         Dynamic('pp'),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(17)),
     [
-        akasha.tools.make_getato_pitch_specifier([23, 25, 27, 29]),
+        akasha.tools.make_getato_pitch_specifier(23, [2]),
         baca.articulations.staccati(),
         baca.markup.leggieriss(),
         Dynamic('pp'),
-        ]
+        ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(17)),
     [
-        akasha.tools.make_getato_pitch_specifier([20, 22, 24, 26]),
+        akasha.tools.make_getato_pitch_specifier(20, [2]),
         baca.articulations.staccati(),
         baca.markup.leggieriss(),
         Dynamic('pp'),
-        ]
+        ],
     )
 
 ### stages 19-20 ###
@@ -778,8 +804,8 @@ segment_maker.append_specifiers(
     (va, stages(19)),
     [
         baca.markup.OB_no_pitch(),
-        baca.spanners.one_line_staff(),
         baca.pitch.pitches(source='B4'),
+        baca.spanners.one_line_staff(),
         Dynamic('mf'),
-        ]
+        ],
     )
