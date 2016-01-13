@@ -290,115 +290,136 @@ intro (15")
     1 (2)
     tutti looping of 3-note tasto and trills (c5) with mixed mecc. fluido;
 
-    2 (2+halt)
+    2 (2+ fermata)
     [intercalated memory of XFB microtonal field (24ET)];
-    breath;
+    fermata;
 
-    3 (2+halt)
+    3 (2 + fermata)
     isolated va, vc detuned octave;
-    breath;
+    fermata;
 
-[I] (1'30")
+[I] (1'30"-2'30")
 
-    1-2 (2+halt)[89]
-    tutti detuned octave Bb with tutti swell;
-    breath;
+    1-2 (2 + fermata)[89]
+    tutti detuned ord. octave Bb with swell (cres. + vib.);
+    fermata;
 
     3 (2)[55]
-    tutti pure octave Bb with tutti swell;
+    vn1, vn2, vc pure ord. octave Bb with swell (cres. + vib.);
+    quarter-note ppp va OB > 3/4OB (Bb2) underneath;
+
+    4 (1)
+    quarter-note ppp va OB > 3/4OB (Bb2) continues unaccompanied;
+
+    5 (3)[89]
+    vn1, vc detuned ord. octave Bb with swell (cres. + vib.);
+    quarter-note ppp vn2 OB > 3/4OB (Bb3) underneath;
+    quarter-note ppp va 3/4OB > 1/2OB (Bb2) underneath;
+
+    6 (2)
+    quarter-note ppp va 3/4OB > 1/2OB (Bb2) continues unaccompanied;
+    quarter-note ppp vn2 OB > 3/4OB (Bb3) continues unaccompanied;
+
+    7 (2)[55]
+    vc pure ord. Bb1 with swell (cres. + vib.);
+    quarter-note ppp vn1 OB > 3/4OB (Bb3) underneath;
+    quarter-note ppp vn2 3/4OB > 1/2OB (Bb3) underneath;
+    quarter-note ppp va 1/2OB > 1/4OB (Bb2) underneath;
+
+    8 (2)
+    quarter-note ppp vn1 OB > 3/4OB (Bb3) continues unacc.;
+    quarter-note ppp vn2 3/4OB > 1/2OB (Bb3) continues unacc.;
+    quarter-note ppp va 1/2OB > 1/4OB (Bb2) continues unacc.;
+
+    9 (4)[89]
+    quarter-note ppp vn1 3/4OB > XP (Bb3);
+    quarter-note ppp vn2 1/2OB > XP (Bb3);
+    quarter-note ppp va XP (Bb2);
+    quarter-note ppp vc OB > XP (Bb1);
+
+    10 (2)[55]
+    tutti ppp XP flaut. (Bb);
     attaca;
 
-    4 (2)[89]
-    tutti detuned octave Bb with tutti swell;
-    quarter note OB + 3/4;
-    OB ppp revealed underneath (Bb);
-
-    5 (2)[89]
-    tutti ppp OB + 3/4 OB > 1/2 OB + 1/4 OB (Bb);
-
-    6 (2)[89]
-    tutti ppp 1/2 OB + 1/4 OB > 1/4 OB + XP (Bb);
-
-    7 (2)[89]
-    [intercalated memory: tutti looping of 3-note tasto and trills (c5)
-    with mixed mecc. fluido]
-
-    8 (4)[89->55]
-    transformation of tutti ppp XP (Bb) to three-player ppp XP with moving
-    microtonal polyphony that recalls micropolyphony earlier in the piece;
-    on top of this occurs a recapitulation of vn1 maximally dense get. solo
-    from beginning of [G];
-    vn1 get. solo begins to rit.;
-
-    9 (2)[55]
-    vn1 get. solo continues to rit and is now perforated;
-    ppp XP microtonal polyphony sustains ppp but transitions gradually from
-    XP to tasto;
-
-    10 (2)[55->44]
-    vn1 get. solo continues to rit and is now very perforated;
-    ppp tasto microtonal polyphony transitions from ord to SB;
-
-    11-12 (4+halt)[44]
-    vn1 get. solo continues to rit and is now silence with occ. get. strand;
-    ppp SB microtonal polyphony transitions from SB to XSB;
-    breath;
-
-[J] (4' maybe 5')
-
-    1-6 (1+halt+1+halt+1+halt)[55]
-    vn2 silence with occ. get. strand;
-    other three players tacet;
-    halting;
-
-    7-12 (1+halt+1+halt+1+halt)
-    vn2 silence with occ. get. strand;
-    other three players assume finger chord of trill field and then begin
-    upbows so incredibly slow as to produce only very very sparsely
-    individuated clicks (all tasto);
-    halting;
-
-    13 (4)
-    vn2 silence with occ. get. strand even thinner;
-    other three players increase bow speed to slightly faster clicks (all 
-    tasto);
+    11 (2)[126]
+    vn1 maximally dense ppp getato altissimo solo unaccompanied;
     attaca;
 
-    14 (4)
-    vn2 silence almost complete;
-    other three players transition slowly from individuated clicks to XSB (all
-    tasto);
+    12 (2 + short fermata)[55]
+    tutti ppp flaut. XP > tasto (Bb);
+    short fermata;
 
-    15 (4)
-    tutti XSB > SB (all tasto);
+    13 (2 + short fermata)[89]
+    [intercalated memory: tutti looping of 3-note tasto and trills (c5)];
+    short fermata;
 
-    16 (4)
-    tutti SB > ord (all tasto);
+    14 (2)[55]
+    tutti ppp tasto flaut > poco scratch (Bb);
 
-    17 (4)
-    tutti tasto (trill root chord);
+    15 (2)[55->44]
+    tutti ppp poco scratch > scratch moltiss. (Bb);
 
-    18-21 (6x4)
-    tutti tasto trills begin;
-    tutti trills repeat six times with tutti swells and tasto > XP > tasto
-    enveloping;
-    attaca;
+    16 (2 + very long fermata)[44]
+    tutti ppp scratch moltiss. (Bb);
+    very long fermata;
 
-    22-25 (4x4)
-    tutti detuned octaves (A);
-    repeats multiple times;
-    tutti swells persist;
-    attaca;
+[I2]
 
-    26-31 (6x6+halt)[44]
-    sub. slower tempo;
+    1-4 (3 + long fermata)[44]
+    exact recall of first three scratch measures of [E];
+    borrow exact time signatures;
+    maybe call segment [I2];
+    long fermata;
+
+[J] (4')
+
+    1 (4)[44]
+    tutti assume finger chord of trill field;
+    tutti begin tasto extremely sparse clicks (1 click per 3-4 sec.);
+    "fff"
+
+    2 (4)
+    tutti (1 click per 3-4 sec.) -> (1 click per 1-2 sec.);
+
+    3 (4)
+    tutti (1 click per 1-2 sec.) -> (1-2 clicks per sec.);
+
+    4 (4)
+    tutti (1-2 clicks per sec.) -> scratch (ff)
+    
+    5 (4)
+    tutti scratch (ff) -> poco scratch (f)
+
+    6 (4)
+    tutti poco scratch (f) -> tasto (p)
+
+    7 (4 + short fermata)
+    tutti tasto (p) senza vib. -> vib. moltiss.
+    short fermata;
+
+    8-11 (6x:4)
+    tutti tasto trills;
+    tutti tasto < XP > tasto enveloping (each time slightly more);
+    tutti sfp < f > p enveloping (each time slightly more);
+
+    12 (1)
+    short fermata;
+
+    13-17 (6x:4)
+    tutti detuned octaves (A1, A+2, G#+3, A4);
+    tutti ord < XP > ord enveloping (each time slightly more);
+    tutti sf < fff > f enveloping (each time slightly more);
+
+    18 (1)
+    short fermata;
+
+    19-22 (6x:4) [38(!)]
     tutti trilled spectral chord (A);
-    repeats multiple times;
     tutti swells persist;
     gigantic crescendo to fff;
 
-    32 (halt)
-    grand pause;
+    23 (1)
+    very long fermata;
 
 [K] (15")
 

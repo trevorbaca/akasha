@@ -82,13 +82,8 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (va, stages(4)),
+    ([va, vc], stages(4)),
     akasha.tools.make_glissando_rhythm_specifier(),
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(4)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -162,7 +157,7 @@ segment_maker.append_specifiers(
         baca.markup.tasto(),
         baca.pitch.fixed_pitches('D#3 C+3'),
         baca.spanners.glissandi(),
-        Dynamic('mp'),
+        Hairpin('mp > pp'),
         ],
     )
 
@@ -170,7 +165,8 @@ segment_maker.append_specifiers(
     (vc, stages(4)),
     [
         baca.markup.tasto(),
-        baca.pitch.pitches('C#2'),
-        Dynamic('mp'),
+        baca.pitch.fixed_pitches('C#2 Bb1'),
+        baca.spanners.glissandi(),
+        Hairpin('mp > pp'),
         ],
     )
