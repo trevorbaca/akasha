@@ -663,7 +663,7 @@
                                     \column
                                         {
                                             \upright
-                                                "leggierissimo (off-string bowing on staccati)"
+                                                leggieriss.
                                             \upright
                                                 "ord. (senza scratch)"
                                         }
@@ -1262,7 +1262,7 @@
                             bf16 -\staccato [
                                 ^ \markup {
                                     \upright
-                                        "leggierissimo (off-string bowing on staccati)"
+                                        leggieriss.
                                     }
                             a16 -\staccato
                             b16 -\staccato
@@ -2206,7 +2206,7 @@
                             cs16 -\staccato [
                                 ^ \markup {
                                     \upright
-                                        "leggierissimo (off-string bowing on staccati)"
+                                        leggieriss.
                                     }
                             c16 -\staccato
                             b,16 -\staccato
