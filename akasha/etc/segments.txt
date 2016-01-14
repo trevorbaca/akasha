@@ -469,70 +469,70 @@ intro (15")
     very long fermata;
 
     5 (2)
-    ppp vc Bb1 pochiss. vib.;
+    pp vc Bb1 pochiss. vib.;
     attaca;
 
 [M] (1'30")
 
     1 (6)[55]
-    vc Bb1 sustained for a very long time with very very long crescendo;
+    vc Bb1 ppp < ff;
+    vc Bb1 pochiss. vib. < vib. moltiss.;
     other three players tacet;
     attaca;
 
-    2-3 (1+halt)
-    at peak of vc Bb1 crescendo other three players enter ppp Bb tast. octaves;
-    pause;
-
-    4 (2)[89]
-    tutti resume ppp Bb tasto octaves;
+    2 (2)[89]
+    vn1, vn2, va enter on tasto XFB in octaves (Bb2, Bb3, Bb4) pp;
+    vc Bb1 ff vib. moltiss.;
+    
+    3 (2)
+    vn1, vn2, va enter on tasto XFB in octaves (Bb2, Bb3, Bb4) pp;
+    vc sub. tacet;
 
     5 (2)
-    staggered tasto > ord;
+    vn1, vn2, va ppp tasto XFB < ord XFB;
+    vc Bb1 ff > pp;
+    vc Bb1 vib. moltiss. > vib. pochiss.;
 
-    6-7 (2+halt)
-    staggered ord > SP;
-    freeze;
+    6-7 (2 + short fermata)
+    vn1, vn2, va ppp ord XFB < SP XFB;
+    short fermata;
 
     8 (2)
-    staggered SP > MSP;
+    vn1, vn2, va ppp SP XFB < XP XFB;
 
-    9 (2)
-    staggered MSP > XP;
+    9 (4)[89->55]
+    vn1, vn2, va ppp XP XFB > ppp XP;
 
-    10-11 (2+halt)
-    staggered XP > 1/4 OB;
-    freeze;
+    10 (2 + short fermata)[55->44]
+    vn1, vn2, va ppp XP > 1/4OB;
+    short fermata;
 
-    12 (2)
-    staggered 1/4 OB > 3/4 OB;
+    11 (2)[55->44]
+    vn1, vn2, va ppp 1/4OB > ppp 3/4OB;
 
-    13 (2)
-    staggered 3/4 OB > OB;
+    12-13 (2 + fermata)[44]
+    vn1, vn2, va ppp 3/4OB > OB;
+    fermata;
 
-    14-15 (4+halt)
-    tutti OB;
-    freeze;
 
 [N] (30")
 
-    1 (8)[89]
-    sub. tempo slightly faster;
-    tutti OB homorhythm with tutti rests between each stroke;
-    microtonal polyphony hidden in glissandi in vn2, va, vc;
-    vn2, va, vc glissandi do not sound because OB is completely without pitch;
-    vn1 plays incredibly pianiss. get. strands with incredible perforation;
+    1 (8)[55]
+    vn1, va, vc OB homorhythm with tutti rests between each stroke;
+    vn2 tacet;
     attaca;
 
     2 (8)
-    vn2, va, vc bows freeze;
-    vn2, va, vc lh glissandi continue without only sound of fingers on strings;
-    vn1 incredibly perforated get. pianiss.;
+    vn1, va, vc OB homorhythm with tutti rests between each stroke;
+    vn2 incredibly sparse get pianiss.;
     attaca;
 
-    3-4 (4+halt)
-    vn2, va, vc freeze;
+    3 (8)
+    vn1, va, vc tacet;
     vn1 incredibly perforated get. pianiss.;
-    grand pause.
+
+    4 (1)
+    very long fermata.
 
 in. 15"
 A   15"
