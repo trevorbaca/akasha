@@ -4,6 +4,7 @@
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
+\include "/Users/trevorbaca/Documents/baca/baca/stylesheets/scheme.ily"
 \include "../stylesheets/stylesheet.ily"
 
 \score {
