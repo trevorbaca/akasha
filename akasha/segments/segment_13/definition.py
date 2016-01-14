@@ -6,22 +6,19 @@ from akasha.materials.__abbreviations__ import *
 
 
 ###############################################################################
-##################################### [K] #####################################
+##################################### [L] #####################################
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    1, Fermata('longfermata'),
     1,
-    2, Fermata('longfermata'),
+    Fermata('verylongfermata'),
+    1,
+    Fermata('verylongfermata'),
+    2,
     ])
 
 tempo_map = baca.tools.TempoMap([
-    (1, akasha.materials.tempi[89]),
-    (1, Ritardando()),
-    (2, akasha.materials.tempi[55]),
-    (3, akasha.materials.tempi[89]),
-    (3, Ritardando()),
-    (4, akasha.materials.tempi[55]),
+    (1, akasha.materials.tempi[55]),
     ])
 
 maker = akasha.tools.TimeSignatureMaker('A', 18, stage_specifier, tempo_map)
@@ -33,9 +30,9 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=True,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -50,26 +47,41 @@ segment_maker.validate_measures_per_stage()
 ###############################################################################
 
 segment_maker.append_specifiers(
-    ((vn_1, vn_2, va), stages(1)),
+    (va, stages(1)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(1)),
+    (va, stages(3)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
-    ((vn_1, vn_2, va), stages(3)),
+    (vc, stages(5)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
+###############################################################################
+#################################### COLOR ####################################
+###############################################################################
+
 segment_maker.append_specifiers(
-    ((vn_1, vn_2, va), stages(4)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (va, stages(1, 3)),
+    [
+        baca.articulations.alternate_bow_strokes(),
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.OB(),
+        baca.pitch.pitches('C4'),
+        baca.spanners.one_line_staff(),
+        ],
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(3, 5)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    (vc, stages(5)),
+    [
+        baca.markup.ord_(),
+        baca.markup.pochiss_vib(),
+        baca.pitch.pitches('Bb1'),
+        Dynamic('pp'),
+        ],
     )

@@ -460,12 +460,17 @@ intro (15")
 
 [L] (15")
 
-    1-2 (1 + very long fermata)[55]
+    1 (1)[55]
+    va OB;
+
+    2 (1)
+    very long fermata;
+
+    3 (1)
     va OB;
     very long fermata;
 
-    3-4 (1 + very long fermata)
-    va OB;
+    4 (1)
     very long fermata;
 
     5 (2)
