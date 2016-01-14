@@ -413,46 +413,49 @@ intro (15")
 
     12 (2+1+2)
     tutti pure octaves (A1, A2, A4, A5);
-    tutti sffp ord > tasto pp;
-    tutti no vib. < vib. moltiss. > no vib.;
+    tutti sffp > pp;
+    tutti ord > tasto moltiss.;
 
     13 (1)
     fermata;
 
     14 (2)
     vn1, vn2, va pure octaves (A2, A4, A5) tasto pp;
-    vc A1+D5 (IV/11°) natural harmonic ord. sfp < mf;
+    vc A1+D5 (IV/11°) natural harmonic ord. sffp < mf;
 
     15 (2)
     vn1, vn2 pure octaves (A4, A5) tasto pp;
-    va A2+G~5 (IV/9°) natural harmonic ord. trill sfp < mf;
+    va A2+G~5 (IV/9°) natural harmonic ord. trill sffp < mf;
     vc A1+D5 (IV/11°) natural harmonic ord. trill ord. mf;
 
     16 (2)
     vn1 pure A5 tasto pp;
-    vn2 A4+C#7 (IV/5°) natural harmonic ord. trill sfp < mf;
+    vn2 A4+C#7 (IV/5°) natural harmonic ord. trill sffp < mf;
     va A2+G~5 (IV/7°) natural harmonic ord. trill mf;
     vc A1+D5 (IV/11°) natural harmonic ord. trill mf;
 
     17 (2)[44->38(!)]
-    vn1 A4+B7 (IV/9°) natural harmonic ord. trill sfp < mf;
+    vn1 A4+B7 (IV/9°) natural harmonic ord. trill sffp < mf;
     vn2 A4+C#7 (IV/5°) natural harmonic ord. trill mf;
     va A2+G~5 (IV/7°) natural harmonic ord. trill mf;
     vc A1+D5 (IV/11°) natural harmonic ord. trill mf;
 
-    18 (6x:2+1+2) [38]
+    18 (1)
+    short fermata;
+
+    19 (6x:2+1+2) [38]
     tutti ord < XP > ord enveloping (each time slightly more);
     tutti sffp < fff > ff enveloping (each time slightly more);
 
-    19 (2)
+    20 (2)
     tutti ord < XP;
     tutti sffp < fff;
 
-    20 (6)
+    21 (6)
     tutti XP;
     tutti fff;
 
-    21 (1)
+    22 (1)
     very long fermata;
 
 [L] (15")
