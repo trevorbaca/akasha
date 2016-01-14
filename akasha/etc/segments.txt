@@ -392,66 +392,66 @@ intro (15")
     6 (4)
     tutti poco scratch (f) -> tasto (p)
 
-    7 (4 + short fermata)
+    7-8 (4 + short fermata)
     tutti tasto (p) senza vib. -> vib. moltiss.
     short fermata;
 
-    8-11 (6x:4)
+    9 (6x:2+1+2)
     tutti tasto trills;
     tutti tasto < XP > tasto enveloping (each time slightly more);
     tutti sfp < f > p enveloping (each time slightly more);
 
-    12 (1)
+    10 (1)
     short fermata;
 
-    13-17 (6x:4)
+    11 (6x:2+1+2)
     tutti detuned octaves (A1, A+2, G#+3, A5);
     tutti ord < XP > ord enveloping (each time slightly more);
     tutti sf < fff > f enveloping (each time slightly more);
 
-    18 (1)
+    12 (1)
     short fermata;
 
-    19 (4)
+    13 (2+1+2)
     tutti pure octaves (A1, A2, A3, A5);
     tutti ff ord > tasto pp;
     tutti no vib. < vib. moltiss. > no vib.;
     attaca;
 
-    20 (2)
+    14 (2)
     vn1, vn2, va pure octaves (A2, A3, A5) tasto pp;
     vc A1+D5 (IV/11°) natural harmonic tasto trill pp < mf;
 
-    21 (2)
+    15 (2)
     vn1, vn2 pure octaves (A3, A5) tasto pp;
     va A2+G~5 (IV/9°) natural harmonic tasto trill pp < mf;
     vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
 
-    22 (2)
+    16 (2)
     vn1 pure A5 tasto pp;
     vn2 A4+C#7 (IV/5°) natural harmonic tasto trill pp < mf;
     va A2+G~5 (IV/7°) natural harmonic tasto trill mf;
     vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
 
-    23 (2)[44->38(!)]
+    16 (2)[44->38(!)]
     vn1 A4+B7 (IV/9°) natural harmonic tasto trill mf;
     vn2 A4+C#7 (IV/5°) natural harmonic tasto trill mf;
     va A2+G~5 (IV/7°) natural harmonic tasto trill mf;
     vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
 
-    24-27 (6x:4) [38]
+    18 (6x:2+1+2) [38]
     tutti ord < XP > ord enveloping (each time slightly more);
     tutti mf < fff > mf enveloping (each time slightly more);
 
-    28 (2)
+    19 (2)
     tutti ord < XP;
     tutti mf < fff;
 
-    29 (6)
+    20 (6)
     tutti XP;
     tutti fff;
 
-    30 (1)
+    21 (1)
     very long fermata;
 
 [L] (15")
