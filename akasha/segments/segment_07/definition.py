@@ -760,7 +760,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
     [
-        baca.markup.make_boxed_repeat_count(8),
+        baca.markup.make_boxed_repeat_count(6),
         ],
     )
 

@@ -213,7 +213,7 @@ segment_maker.append_specifiers(
         ],
     )
 
-### stages 9 + 10 ###
+### stage 9 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(9)),
@@ -244,6 +244,37 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (vn_1, stages(9, 10)),
+    [
+        baca.markup.make_boxed_repeat_count(6),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (tutti, stage_leaves(9, 0, 3)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.ord_(),
+            baca.markup.XP(),
+            ),
+        Hairpin('sfp < fff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (tutti, stage_leaves(9, -2)),
+    [
+        Hairpin('fff > p'),
+        baca.spanners.make_transition(
+            baca.markup.XP(),
+            baca.markup.ord_(),
+            ),
+        ],
+    )
+
+### stage 10 ###
+
+segment_maker.append_specifiers(
     (vn_1, stages(10)),
     [
         baca.pitch.pitches('A5'),
@@ -268,6 +299,28 @@ segment_maker.append_specifiers(
     (vc, stages(10)),
     [
         baca.pitch.pitches('A1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (tutti, stage_leaves(10, 0, 2)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.ord_(),
+            baca.markup.XP(),
+            ),
+        Hairpin('sfp < fff'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (tutti, stage_leaves(10, -2)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.XP(),
+            baca.markup.ord_(),
+            ),
+        Hairpin('fff > p'),
         ],
     )
 
