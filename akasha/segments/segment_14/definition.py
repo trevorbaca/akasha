@@ -10,16 +10,26 @@ from akasha.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    6,
-    1, Fermata('longfermata'),
-    2, 2, 2, Fermata(), # stages 4-7
-    2, 2, 2, Fermata(), # stages 8-11
-    2, 2, 4, Fermata('longfermata'), # stages 12-15
+    6, # 1
+    4, # 2
+    4, # 3
+    2, # 4
+    2, # 5
+    2, # 6
+    4, # 7
+    2, # 8
+    2, # 9
+    2, # 10
+    Fermata(), # 11
     ])
 
 tempo_map = baca.tools.TempoMap([
     (1, akasha.materials.tempi[55]),
-    (4, akasha.materials.tempi[89]),
+    (2, Accelerando()),
+    (3, akasha.materials.tempi[89]),
+    (7, Ritardando()),
+    (10, akasha.materials.tempi[44]),
+    (11, Fermata()),
     ])
 
 maker = akasha.tools.TimeSignatureMaker('A', 21, stage_specifier, tempo_map)
@@ -40,87 +50,53 @@ segment_maker = baca.tools.SegmentMaker(
     )
 
 segment_maker.validate_measure_count(31)
-segment_maker.validate_stage_count(15)
+segment_maker.validate_stage_count(11)
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
 #################################### TIME #####################################
 ###############################################################################
 
-### stages 1-2 ###
+### stage 1 ###
 
 segment_maker.append_specifiers(
     (vc, stages(1, 2)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
+### stages 2-10 ###
+
 segment_maker.append_specifiers(
-    ((vn_1, vn_2, va), stages(2)),
+    ((vn_1, vn_2, va), stages(2, 10)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
-### stages 4-7 ###
-
 segment_maker.append_specifiers(
-    (vn_1, stages(4, 6)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(3, 4)),
-    )
-
-segment_maker.append_specifiers(
-    (vn_2, stages(4, 6)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(5, 4)),
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(4, 6)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(5, 4)),
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(4, 6)),
+    (vc, stages(4, 8)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
-### stages 8-11 ###
+###############################################################################
+#################################### COLOR ####################################
+###############################################################################
+
+### stage 1 ###
 
 segment_maker.append_specifiers(
-    (vn_1, stages(8, 10)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(3, 4)),
+    (vc, stages(1, 8)),
+    [
+        baca.pitch.pitches('Bb1'),
+        ],
     )
 
 segment_maker.append_specifiers(
-    (vn_2, stages(8, 10)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(3, 4)),
+    (vc, stage_leaves((1, 2), 0, 9)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.vib_pochiss(),
+            baca.markup.vib_moltiss(),
+            ),
+        Hairpin('ppp < ff'),
+        ],
     )
 
-segment_maker.append_specifiers(
-    (va, stages(8, 10)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(5, 4)),
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(8, 10)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-    )
-
-### stages 12-15 ###
-
-segment_maker.append_specifiers(
-    (vn_1, stages(12, 14)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(5, 4)),
-    )
-
-segment_maker.append_specifiers(
-    (vn_2, stages(12, 14)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(4, 4)),
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(12, 14)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(3, 4)),
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(12, 14)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
-    )
