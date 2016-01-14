@@ -485,44 +485,49 @@ intro (15")
     other three players tacet;
     attaca;
 
-    2 (2)[89]
-    vn1, vn2, va enter on tasto XFB in octaves (Bb2, Bb3, Bb4) pp;
+    2 (4)[55->89]
+    vn1, vn2, va enter on ppp tasto XFB Bb octaves (Bb2, Bb3, Bb4);
     vc Bb1 ff vib. moltiss.;
     
-    3 (2)
-    vn1, vn2, va enter on tasto XFB in octaves (Bb2, Bb3, Bb4) pp;
+    3 (4)[89]
+    vn1, vn2, va ppp tasto XFB Bb octaves (Bb2, Bb3, Bb4);
     vc sub. tacet;
 
+    4 (2)
+    vn1, vn2, va ppp tasto XFB > ord XFB;
+    vc Bb1 pp vib. pochiss.;
+
     5 (2)
-    vn1, vn2, va ppp tasto XFB < ord XFB;
-    vc Bb1 ff > pp;
-    vc Bb1 vib. moltiss. > vib. pochiss.;
+    vn1, vn2, va ppp ord XFB > SP XFB;
+    vc Bb1 pp vib. pochiss.;
 
-    6-7 (2 + short fermata)
-    vn1, vn2, va ppp ord XFB < SP XFB;
-    short fermata;
+    6 (2)
+    vn1, vn2, va ppp SP XFB > XP XFB;
+    vc Bb1 pp vib. pochiss.;
 
-    8 (2)
-    vn1, vn2, va ppp SP XFB < XP XFB;
-
-    9 (4)[89->55]
+    7 (4)[89->44]
     vn1, vn2, va ppp XP XFB > ppp XP;
+    vc Bb1 pp vib. pochiss.;
 
-    10 (2 + short fermata)[55->44]
+    8 (2)[89->44]
     vn1, vn2, va ppp XP > 1/4OB;
-    short fermata;
+    vc Bb1 vib. pochiss. pp > niente;
 
-    11 (2)[55->44]
+    9 (2)[89->44]
     vn1, vn2, va ppp 1/4OB > ppp 3/4OB;
+    vc tacet;
 
-    12-13 (2 + fermata)[44]
+    10 (2)[44]
     vn1, vn2, va ppp 3/4OB > OB;
+    fermata;
+
+    11 (1)
     fermata;
 
 
 [N] (30")
 
-    1 (8)[55]
+    1 (8)[89]
     vn1, va, vc OB homorhythm with tutti rests between each stroke;
     vn2 tacet;
     attaca;
