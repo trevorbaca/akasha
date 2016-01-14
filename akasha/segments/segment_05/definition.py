@@ -197,7 +197,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
     [
-        baca.markup.string_number(2),
+        baca.markup.make_string_number(2),
         Dynamic('mp'),
         ],
     )
@@ -214,7 +214,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1)),
     [
-        baca.markup.string_number(4),
+        baca.markup.make_string_number(4),
         Clef('treble'),
         Dynamic('mp'),
         ],
@@ -223,7 +223,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1)),
     [
-        baca.markup.string_number(4),
+        baca.markup.make_string_number(4),
         Clef('treble'),
         Dynamic('mp'),
         ],
