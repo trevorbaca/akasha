@@ -375,7 +375,7 @@ intro (15")
     1 (4)[44]
     tutti assume finger chord of trill field;
     tutti begin tasto extremely sparse clicks (1 click per 3-4 sec.);
-    "fff"
+    "ff"
 
     2 (4)
     tutti (1 click per 3-4 sec.) -> (1 click per 1-2 sec.);
@@ -396,56 +396,57 @@ intro (15")
     tutti tasto (p) senza vib. -> vib. moltiss.
     short fermata;
 
-    9 (6x:2+1+2)
-    tutti tasto trills;
-    tutti tasto < XP > tasto enveloping (each time slightly more);
-    tutti sfp < f > p enveloping (each time slightly more);
+    volta (x6):
 
-    10 (1)
+        9 (2+1+2)
+        tutti pure octaves (A1, A2, A4, A5);
+        tutti ord < XP > ord enveloping (each time slightly more);
+        tutti sffp < fff > ff enveloping (each time slightly more);
+
+        10 (2+1+2)
+        tutti detuned octaves (A1, A+2, G#+4, A5);
+        tutti ord < XP > ord enveloping (each time slightly more);
+        tutti sffp < fff > ff enveloping (each time slightly more);
+
+    11 (1)
     short fermata;
 
-    11 (6x:2+1+2)
-    tutti detuned octaves (A1, A+2, G#+3, A5);
-    tutti ord < XP > ord enveloping (each time slightly more);
-    tutti sf < fff > f enveloping (each time slightly more);
-
-    12 (1)
-    short fermata;
-
-    13 (2+1+2)
-    tutti pure octaves (A1, A2, A3, A5);
-    tutti ff ord > tasto pp;
+    12 (2+1+2)
+    tutti pure octaves (A1, A2, A4, A5);
+    tutti sffp ord > tasto pp;
     tutti no vib. < vib. moltiss. > no vib.;
-    attaca;
+
+    13 (1)
+    fermata;
 
     14 (2)
-    vn1, vn2, va pure octaves (A2, A3, A5) tasto pp;
-    vc A1+D5 (IV/11°) natural harmonic tasto trill pp < mf;
+    vn1, vn2, va pure octaves (A2, A4, A5) tasto pp;
+    vc A1+D5 (IV/11°) natural harmonic ord. sfp < mf;
 
     15 (2)
-    vn1, vn2 pure octaves (A3, A5) tasto pp;
-    va A2+G~5 (IV/9°) natural harmonic tasto trill pp < mf;
-    vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
+    vn1, vn2 pure octaves (A4, A5) tasto pp;
+    va A2+G~5 (IV/9°) natural harmonic ord. trill sfp < mf;
+    vc A1+D5 (IV/11°) natural harmonic ord. trill ord. mf;
 
     16 (2)
     vn1 pure A5 tasto pp;
-    vn2 A4+C#7 (IV/5°) natural harmonic tasto trill pp < mf;
-    va A2+G~5 (IV/7°) natural harmonic tasto trill mf;
-    vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
+    vn2 A4+C#7 (IV/5°) natural harmonic ord. trill sfp < mf;
+    va A2+G~5 (IV/7°) natural harmonic ord. trill mf;
+    vc A1+D5 (IV/11°) natural harmonic ord. trill mf;
 
-    16 (2)[44->38(!)]
-    vn1 A4+B7 (IV/9°) natural harmonic tasto trill mf;
-    vn2 A4+C#7 (IV/5°) natural harmonic tasto trill mf;
-    va A2+G~5 (IV/7°) natural harmonic tasto trill mf;
-    vc A1+D5 (IV/11°) natural harmonic tasto trill mf;
+    17 (2)[44->38(!)]
+    vn1 A4+B7 (IV/9°) natural harmonic ord. trill sfp < mf;
+    vn2 A4+C#7 (IV/5°) natural harmonic ord. trill mf;
+    va A2+G~5 (IV/7°) natural harmonic ord. trill mf;
+    vc A1+D5 (IV/11°) natural harmonic ord. trill mf;
 
     18 (6x:2+1+2) [38]
     tutti ord < XP > ord enveloping (each time slightly more);
-    tutti mf < fff > mf enveloping (each time slightly more);
+    tutti sffp < fff > ff enveloping (each time slightly more);
 
     19 (2)
     tutti ord < XP;
-    tutti mf < fff;
+    tutti sffp < fff;
 
     20 (6)
     tutti XP;

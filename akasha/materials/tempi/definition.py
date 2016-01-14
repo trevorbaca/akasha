@@ -5,6 +5,10 @@ from abjad import *
 
 tempi = collections.OrderedDict([
     (
+        38,
+        Tempo(Duration(1, 4), 38),
+        ),
+    (
         44,
         Tempo(Duration(1, 4), 44),
         ),
