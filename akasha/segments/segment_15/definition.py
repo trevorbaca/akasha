@@ -6,7 +6,7 @@ from akasha.materials.__abbreviations__ import *
 
 
 ###############################################################################
-##################################### [M] #####################################
+##################################### [N] #####################################
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
@@ -29,10 +29,11 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    label_stage_numbers=True,
     final_markup=akasha.materials.colophon_markup,
+    final_markup_extra_offset=(-17, -3),
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=True,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -80,6 +81,15 @@ segment_maker.append_specifiers(
                 silence([12, -2], inverted=True),
                 ],
             extra_counts_per_division=[6, 4, 6, 3],
+            ),
+        ),
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(3)),
+    baca.tools.RhythmSpecifier(
+        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+            division_masks=silence_all(use_multimeasure_rests=True),
             ),
         ),
     )

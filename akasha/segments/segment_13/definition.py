@@ -51,35 +51,25 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     ((vn_1, vn_2, va), stages(1)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     ((vn_1, vn_2, va), stages(3)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     ((vn_1, vn_2, va), stages(4)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(3, 5)),
-    baca.tools.RhythmSpecifier(
-        rhythm_maker=baca.rhythm.messiaen_tied_note_rhythm_maker,
-        ),
+    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
