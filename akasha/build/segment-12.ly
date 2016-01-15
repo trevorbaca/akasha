@@ -916,7 +916,7 @@
                         a''1 \repeatTie
                         a''2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "ord. + poco scratch"
+                                "pos. ord. + poco scratch"
                             }
                         a''4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -942,7 +942,7 @@
                         a''2.. \repeatTie
                         a''4. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         a''2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -981,7 +981,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1034,7 +1034,7 @@
                         a''2. \repeatTie \> \fff \startTextSpan
                         a''4. \repeatTie \p \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1043,7 +1043,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1083,7 +1083,7 @@
                         a''2. \repeatTie \> \fff \startTextSpan
                         a''2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         R1 * 1/4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1093,7 +1093,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1121,25 +1121,20 @@
                         a''1 \repeatTie
                         a''2. \repeatTie
                         a''4. \repeatTie
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a''2. \< \sffp \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        \ottava #1
+                        b''''2. \< \sffp \startTrillSpan
                             ^ \markup {
-                                \column
-                                    {
-                                        \upright
-                                            (A4/9°)
-                                        \upright
-                                            ord.
-                                    }
-                                }
-                            _ \markup {
                                 \upright
-                                    IV
-                                } b''''
-                        a''4. \repeatTie
-                        a''2.. \repeatTie \f
+                                    "pos. ord. + 9°/A4(II)"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2.. \repeatTie \f
+                        \ottava #0
                         R1 * 1/4 \stopTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1147,7 +1142,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1159,9 +1154,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a''4. \< \sf \startTextSpan \startTrillSpan
+                        \ottava #1
+                        b''''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1172,13 +1166,17 @@
                                                 \bold
                                                     \sans
                                                         x6
-                                } b''''
-                        a''2. \repeatTie
-                        a''2.. \repeatTie \fff \stopTextSpan ^ \markup {
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
-                        a''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1198,11 +1196,13 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''4. \repeatTie \> \fff \startTextSpan
-                        a''2 \repeatTie \f \stopTextSpan ^ \markup {
+                        b''''4. \repeatTie \> \fff \startTextSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1210,7 +1210,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1222,22 +1222,31 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan b''''
-                        a''2. \repeatTie
-                        a''4. \repeatTie \fff \stopTextSpan ^ \markup {
+                        b''''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
-                        a''2 \repeatTie
-                        a''4. \repeatTie
-                        a''2. \repeatTie
-                        a''4. \repeatTie
-                        a''2. \repeatTie
-                        a''4. \repeatTie
-                        a''2 \repeatTie
-                        a''1 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        b''''1 \repeatTie
+                        \ottava #0
                         R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
@@ -1386,7 +1395,7 @@
                         gtqs'1 \repeatTie
                         gtqs'2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "ord. + poco scratch"
+                                "pos. ord. + poco scratch"
                             }
                         gtqs'4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1412,7 +1421,7 @@
                         gtqs'2.. \repeatTie
                         gtqs'4. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         gtqs'2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1451,7 +1460,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1493,7 +1502,7 @@
                         a'2. \repeatTie \> \fff \startTextSpan
                         a'4. \repeatTie \p \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1502,7 +1511,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1542,7 +1551,7 @@
                         gtqs'2. \repeatTie \> \fff \startTextSpan
                         gtqs'2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         R1 * 1/4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1552,7 +1561,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1577,28 +1586,26 @@
                         a'2.. \repeatTie
                         a'2.. \repeatTie
                         a'2 \repeatTie
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a'1 \< \sffp \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        \ottava #1
+                        cs''''1 \< \sffp \startTrillSpan
                             ^ \markup {
-                                \column
-                                    {
-                                        \upright
-                                            (A4/5°)
-                                        \upright
-                                            ord.
-                                    }
-                                }
-                            _ \markup {
                                 \upright
-                                    IV
-                                } cs''''
-                        a'2. \repeatTie
-                        a'4. \repeatTie
-                        a'2. \repeatTie \f
-                        a'4. \repeatTie
-                        a'2.. \repeatTie
+                                    "pos. ord. + 5°/A4(II)"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie \f
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2.. \repeatTie
+                        \ottava #0
                         R1 * 1/4 \stopTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1606,7 +1613,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1618,15 +1625,18 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a'4. \< \sf \startTextSpan \startTrillSpan cs''''
-                        a'2. \repeatTie
-                        a'2.. \repeatTie \fff \stopTextSpan ^ \markup {
+                        \ottava #1
+                        cs''''4. \< \sf \startTextSpan \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
-                        a'2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1646,11 +1656,13 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a'4. \repeatTie \> \fff \startTextSpan
-                        a'2 \repeatTie \f \stopTextSpan ^ \markup {
+                        cs''''4. \repeatTie \> \fff \startTextSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1658,7 +1670,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1670,22 +1682,31 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a'1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan cs''''
-                        a'2. \repeatTie
-                        a'4. \repeatTie \fff \stopTextSpan ^ \markup {
+                        cs''''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
-                        a'2 \repeatTie
-                        a'4. \repeatTie
-                        a'2. \repeatTie
-                        a'4. \repeatTie
-                        a'2. \repeatTie
-                        a'4. \repeatTie
-                        a'2 \repeatTie
-                        a'1 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        cs''''1 \repeatTie
+                        \ottava #0
                         R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
@@ -1826,7 +1847,7 @@
                         aqs,1 \repeatTie
                         aqs,2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "ord. + poco scratch"
+                                "pos. ord. + poco scratch"
                             }
                         aqs,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1852,7 +1873,7 @@
                         aqs,2.. \repeatTie
                         aqs,4. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         aqs,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1891,7 +1912,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1933,7 +1954,7 @@
                         a,2. \repeatTie \> \fff \startTextSpan
                         a,4. \repeatTie \p \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1942,7 +1963,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1982,7 +2003,7 @@
                         aqs,2. \repeatTie \> \fff \startTextSpan
                         aqs,2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         R1 * 1/4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1992,7 +2013,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2015,30 +2036,29 @@
                         R1 * 1/4
                         a,2.
                         a,2.. \repeatTie
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a,2.. \< \sffp \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        \clef "treble"
+                        gqf''2.. \< \sffp \startTrillSpan
                             ^ \markup {
-                                \column
-                                    {
-                                        \upright
-                                            (A2/9°)
-                                        \upright
-                                            ord.
-                                    }
-                                }
-                            _ \markup {
                                 \upright
-                                    IV
-                                } gqf''
-                        a,2 \repeatTie
-                        a,1 \repeatTie
-                        a,2. \repeatTie \f
-                        a,4. \repeatTie
-                        a,2. \repeatTie
-                        a,4. \repeatTie
-                        a,2.. \repeatTie
+                                    "pos. ord. + 7°/A2(IV)"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''1 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie \f
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.. \repeatTie
                         R1 * 1/4 \stopTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2046,7 +2066,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2058,15 +2078,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a,4. \< \sf \startTextSpan \startTrillSpan gqf''
-                        a,2. \repeatTie
-                        a,2.. \repeatTie \fff \stopTextSpan ^ \markup {
+                        gqf''4. \< \sf \startTextSpan \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
-                        a,2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2086,11 +2108,13 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,4. \repeatTie \> \fff \startTextSpan
-                        a,2 \repeatTie \f \stopTextSpan ^ \markup {
+                        gqf''4. \repeatTie \> \fff \startTextSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2098,7 +2122,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2110,22 +2134,30 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a,1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan gqf''
-                        a,2. \repeatTie
-                        a,4. \repeatTie \fff \stopTextSpan ^ \markup {
+                        gqf''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
-                        a,2 \repeatTie
-                        a,4. \repeatTie
-                        a,2. \repeatTie
-                        a,4. \repeatTie
-                        a,2. \repeatTie
-                        a,4. \repeatTie
-                        a,2 \repeatTie
-                        a,1 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        gqf''1 \repeatTie
                         R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
@@ -2266,7 +2298,7 @@
                         a,,1 \repeatTie
                         a,,2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "ord. + poco scratch"
+                                "pos. ord. + poco scratch"
                             }
                         a,,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2292,7 +2324,7 @@
                         a,,2.. \repeatTie
                         a,,4. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         a,,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2331,7 +2363,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2373,7 +2405,7 @@
                         a,,2. \repeatTie \> \fff \startTextSpan
                         a,,4. \repeatTie \p \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2382,7 +2414,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2422,7 +2454,7 @@
                         a,,2. \repeatTie \> \fff \startTextSpan
                         a,,2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
                         R1 * 1/4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2432,7 +2464,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2453,32 +2485,33 @@
                             }
                         a,,4. \repeatTie
                         R1 * 1/4
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a,,2. \< \sffp \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        \clef "treble"
+                        d''2. \< \sffp \startTrillSpan
                             ^ \markup {
-                                \column
-                                    {
-                                        \upright
-                                            (A1/11°)
-                                        \upright
-                                            ord.
-                                    }
-                                }
-                            _ \markup {
                                 \upright
-                                    IV
-                                } d''
-                        a,,2.. \repeatTie
-                        a,,2.. \repeatTie
-                        a,,2 \repeatTie \f
-                        a,,1 \repeatTie
-                        a,,2. \repeatTie
-                        a,,4. \repeatTie
-                        a,,2. \repeatTie
-                        a,,4. \repeatTie
-                        a,,2.. \repeatTie
+                                    "pos. ord. + 11°/A1(IV)"
+                                }
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2 \repeatTie \f
+                        \once \override NoteHead #'style = #'harmonic
+                        d''1 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.. \repeatTie
                         R1 * 1/4 \stopTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2486,7 +2519,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2498,15 +2531,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a,,4. \< \sf \startTextSpan \startTrillSpan d''
-                        a,,2. \repeatTie
-                        a,,2.. \repeatTie \fff \stopTextSpan ^ \markup {
+                        d''4. \< \sf \startTextSpan \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
-                        a,,2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2526,11 +2561,13 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,4. \repeatTie \> \fff \startTextSpan
-                        a,,2 \repeatTie \f \stopTextSpan ^ \markup {
+                        d''4. \repeatTie \> \fff \startTextSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \upright
-                                ord.
+                                "pos. ord."
                             }
+                        \once \override NoteHead #'style = #'harmonic
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2538,7 +2575,7 @@
                             \concat
                                 {
                                     \upright
-                                        ord.
+                                        "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2550,22 +2587,30 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-                        \pitchedTrill
-                        a,,1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan d''
-                        a,,2. \repeatTie
-                        a,,4. \repeatTie \fff \stopTextSpan ^ \markup {
+                        d''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
-                        a,,2 \repeatTie
-                        a,,4. \repeatTie
-                        a,,2. \repeatTie
-                        a,,4. \repeatTie
-                        a,,2. \repeatTie
-                        a,,4. \repeatTie
-                        a,,2 \repeatTie
-                        a,,1 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''4. \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''2 \repeatTie
+                        \once \override NoteHead #'style = #'harmonic
+                        d''1 \repeatTie
                         R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
