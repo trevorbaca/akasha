@@ -55,11 +55,11 @@ segment_maker.append_specifiers(
 ###############################################################################
 
 segment_maker.append_specifiers(
-    (va, stages(1)),
+    (va, stages(1, 2)),
     [
         baca.articulations.down_bows(),
         baca.dynamics.make_effort_dynamic('mf'),
-        baca.markup.OB(),
+        baca.markup.OB_terminate_abruptly(),
         baca.pitch.pitches('C4'),
         baca.spanners.one_line_staff(),
         ],

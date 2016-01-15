@@ -381,7 +381,7 @@
                         e'4 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         f'2
                         f'4. \repeatTie
@@ -393,13 +393,8 @@
                         \times 8/9 {
                             b32 -\staccato \p [
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \upright
-                                                leggierissimo
-                                            \upright
-                                                "off-string bowing on staccati"
-                                        }
+                                    \upright
+                                        "leggierissimo: off-string bowing on staccati"
                                     }
                             cs'32 -\staccato
                             c'32 -\staccato ]
@@ -450,7 +445,7 @@
                             d''16 * 15/8 \pp [
                                 ^ \markup {
                                     \upright
-                                        "tasto + XFB flaut."
+                                        "tasto + XFB"
                                     }
                             e''16 * 61/32
                             r16 * 129/64
@@ -581,13 +576,8 @@
                         \times 8/9 {
                             bf32 -\staccato \p [
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \upright
-                                                leggierissimo
-                                            \upright
-                                                "off-string bowing on staccati"
-                                        }
+                                    \upright
+                                        "leggierissimo: off-string bowing on staccati"
                                     }
                             b32 -\staccato
                             bf32 -\staccato ]
@@ -606,7 +596,7 @@
                         d'8 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         d'8 \repeatTie
                         dqf'4.
@@ -654,7 +644,7 @@
                             bf'16 * 247/32 \pp [
                                 ^ \markup {
                                     \upright
-                                        "tasto + XFB flaut."
+                                        "tasto + XFB"
                                     }
                             r16 * 459/64
                             c''16 * 187/32
@@ -819,13 +809,8 @@
                             r8
                             bf32 -\staccato \p [
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \upright
-                                                leggierissimo
-                                            \upright
-                                                "off-string bowing on staccati"
-                                        }
+                                    \upright
+                                        "leggierissimo: off-string bowing on staccati"
                                     }
                             a32 -\staccato
                             bf32 -\staccato ]
@@ -836,7 +821,7 @@
                         ef'2 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         ef'4. \repeatTie
                         d'8
@@ -882,7 +867,7 @@
                         e4.. \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         f16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -919,13 +904,8 @@
                             r16.
                             c'32 -\staccato \p [
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \upright
-                                                leggierissimo
-                                            \upright
-                                                "off-string bowing on staccati"
-                                        }
+                                    \upright
+                                        "leggierissimo: off-string bowing on staccati"
                                     }
                             cs'32 -\staccato ]
                             r8

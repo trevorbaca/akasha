@@ -128,7 +128,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(2)),
     [
-        baca.markup.tasto_XFB_flaut(),
+        baca.markup.tasto_XFB(),
         Dynamic('pp'),
         ],
     )

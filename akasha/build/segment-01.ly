@@ -134,14 +134,16 @@
                         c'4. -\downbow
                             ^ \markup {
                                 \upright
-                                    OB
+                                    "OB + terminate abruptly"
                                 }
                             _ \markup {
                                 \larger
                                     \italic
                                         “
                                 \dynamic
-                                    mf
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
                                 \larger
                                     \italic
                                         ”

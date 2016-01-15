@@ -524,7 +524,7 @@ segment_maker.append_specifiers(
     (vc, stages(1)),
     [
         akasha.tools.make_cello_solo_pitch_specifier(transposition=1),
-        baca.markup.tasto_poco_scratch(),
+        baca.markup.make_tasto_fractional_scratch(1, 2),
         Clef('treble'),
         Dynamic('mp'),
         ],
@@ -575,7 +575,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(6)),
     [
-        baca.markup.tasto_XFB_flaut(),
+        baca.markup.tasto_XFB(),
         baca.pitch.pitches('Eb5 F5'),
         Dynamic('pp'),
         ],
@@ -584,7 +584,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(6)),
     [
-        baca.markup.tasto_XFB_flaut(),
+        baca.markup.tasto_XFB(),
         baca.pitch.pitches('B4 C#5'),
         Dynamic('pp'),
         ],
@@ -623,7 +623,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(8, 9)),
     [
-        baca.markup.tasto_poco_scratch(),
+        baca.markup.make_tasto_fractional_scratch(1, 2),
         baca.pitch.fixed_pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4'),
         Dynamic('mp'),
         ],
@@ -632,7 +632,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(8, 9)),
     [
-        baca.markup.tasto_poco_scratch(),
+        baca.markup.make_tasto_fractional_scratch(1, 2),
         baca.pitch.fixed_pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2'),
         Clef('bass'),
         Dynamic('mp'),
@@ -644,7 +644,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(9)),
     [
-        baca.markup.tasto_poco_scratch(),
+        baca.markup.make_tasto_fractional_scratch(1, 2),
         baca.pitch.pitches('E5'),
         Dynamic('mp'),
         ],
@@ -653,7 +653,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
     [
-        baca.markup.tasto_poco_scratch(),
+        baca.markup.make_tasto_fractional_scratch(1, 2),
         baca.pitch.pitches('F#4'),
         Dynamic('mp'),
         ],
@@ -663,7 +663,7 @@ segment_maker.append_specifiers(
     (tutti, stages(10, 11)),
     [
         baca.spanners.make_transition(
-            baca.markup.tasto_poco_scratch(),
+            baca.markup.make_tasto_fractional_scratch(1, 2),
             baca.markup.tasto_scratch_moltiss(),
             ),
         Hairpin('mp < f'),

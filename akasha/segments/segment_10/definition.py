@@ -542,7 +542,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.tasto_poco_scratch(),
+            baca.markup.make_tasto_fractional_scratch(1, 2),
             ),
         Hairpin('ppp < mp'),
         ],

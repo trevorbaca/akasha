@@ -38,7 +38,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
-    #label_stage_numbers=True,
+    label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     spacing_specifier=spacing_specifier,
@@ -197,24 +197,31 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
     [
-        baca.markup.make_string_number(2),
-        Dynamic('mp'),
+        baca.spanners.ottava(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(3)),
+    [
+        baca.spanners.ottava(),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(1, 3)),
     [
+        baca.markup.make_markup('5°/A4(II) + vib. mod.'),
         baca.overrides.natural_harmonics(),
-        baca.spanners.ottava(),
         baca.pitch.pitches('C#7'),
+        Dynamic('mp'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(1)),
     [
-        baca.markup.make_string_number(4),
+        baca.markup.make_markup('7°/A2(IV) + vib. mod.'),
         Clef('treble'),
         Dynamic('mp'),
         ],
@@ -223,7 +230,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1)),
     [
-        baca.markup.make_string_number(4),
+        baca.markup.make_markup('11°/A1(IV) + vib. mod.'),
         Clef('treble'),
         Dynamic('mp'),
         ],
@@ -279,8 +286,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(5, 14)),
     [
-        baca.articulations.alternate_bow_strokes(),
-        baca.markup.XP_full_bow_strokes(),
+        baca.markup.make_markup('XP + senza vib. + full bow strokes'),
         baca.overrides.natural_harmonics(),
         baca.spanners.glissandi(),
         Dynamic('ppp'),
@@ -327,7 +333,6 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(3, 10)),
     [
-        baca.articulations.alternate_bow_strokes(),
         baca.markup.XP_full_bow_strokes(),
         baca.overrides.natural_harmonics(),
         baca.spanners.glissandi(),
@@ -356,7 +361,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(9, 10)),
     [
-        baca.markup.tasto(),
+        baca.markup.tasto_senza_vib(),
         baca.pitch.fixed_pitches('Fb3 E3 D#3 C#3 B#2'),
         baca.spanners.glissandi(),
         Clef('alto'),
@@ -384,7 +389,6 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(12, 14)),
     [
-        baca.articulations.alternate_bow_strokes(),
         baca.markup.XP_full_bow_strokes(),
         baca.overrides.natural_harmonics(),
         baca.spanners.glissandi(),
@@ -410,8 +414,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(7)),
     [
-        baca.articulations.alternate_bow_strokes(),
-        baca.markup.XP_full_bow_strokes(),
+        baca.markup.make_markup('XP + senza vib. + full bow strokes'),
         baca.overrides.natural_harmonics(),
         baca.spanners.glissandi(),
         Clef('bass'),
@@ -441,7 +444,6 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(12)),
     [
-        baca.articulations.alternate_bow_strokes(),
         baca.markup.XP_full_bow_strokes(),
         baca.overrides.natural_harmonics(),
         baca.spanners.glissandi(),
@@ -456,5 +458,21 @@ segment_maker.append_specifiers(
         baca.pitch.fixed_pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1'),
         baca.spanners.glissandi(),
         Hairpin('sf > ppp'),
+        ],
+    )
+
+### alternate bow strokes ###
+
+segment_maker.append_specifiers(
+    [
+        (vn_2, stages(3)),
+        ([vn_1, vn_2], stages(5)),
+        ([vn_1, vn_2, vc], stages(7)),
+        ([vn_1, vn_2], stages(9, 10)),
+        ([vn_1, va, vc], stages(12)),
+        ([vn_1, va], stages(14)),
+        ],
+    [
+        baca.articulations.alternate_bow_strokes(),
         ],
     )
