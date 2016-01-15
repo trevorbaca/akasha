@@ -1,10 +1,9 @@
 % Akasha (2015) 
 
-\version "2.19.32"
+\version "2.19.35"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
-\include "/Users/trevorbaca/Documents/baca/baca/stylesheets/scheme.ily"
 \include "../stylesheets/stylesheet.ily"
 
 \score {
@@ -23,5 +22,6 @@
     \include "segment-12.ly"
     \include "segment-13.ly"
     \include "segment-14.ly"
+    \include "segment-15.ly"
     }
 }

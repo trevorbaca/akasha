@@ -1,5 +1,5 @@
     \context Score = "Score" \with {
-        currentBarNumber = #385
+        currentBarNumber = #369
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
@@ -65,6 +65,35 @@
                     R1 * 9/8
                 }
                 {
+                    R1 * 9/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    R1 * 1/2
+                }
+                {
+                    \time 3/8
+                    R1 * 3/8
+                }
+                {
+                    \time 4/8
+                    R1 * 1/2
+                }
+                {
+                    \time 8/8
+                    R1 * 1
+                }
+                {
+                    \time 9/8
+                    R1 * 9/8
+                }
+                {
+                    R1 * 9/8
+                }
+                {
                     \time 1/4
                     \once \override MultiMeasureRestText #'extra-offset = #'(0 . -7)
                     \once \override Score.MultiMeasureRest #'transparent = ##t
@@ -81,16 +110,8 @@
                     \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    \mark #13
-                    s1 * 3/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [M1]
-                            }
-                        ^ \markup {
+                    \mark #14
+                    s1 * 3/8 ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -138,19 +159,12 @@
                 }
                 {
                     \time 9/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 9/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [M2]
-                            }
                 }
                 {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 9/8
                 }
@@ -162,7 +176,7 @@
                 }
                 {
                     \time 8/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                     \newSpacingSection
                     s1 * 1
                 }
@@ -182,13 +196,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 7/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [M3]
-                            }
                 }
                 {
                     \time 3/8
@@ -204,7 +211,52 @@
                 }
                 {
                     \time 9/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 9/8
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 9/8
+                }
+                {
+                    \time 4/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
+                    \newSpacingSection
+                    s1 * 1/2
+                }
+                {
+                    \time 3/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
+                    \newSpacingSection
+                    s1 * 3/8
+                }
+                {
+                    \time 4/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1/2
+                }
+                {
+                    \time 8/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 9/8
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 9/8
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 9/8
                 }
@@ -213,13 +265,6 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [M4]
-                            }
                 }
             }
         >>
@@ -246,36 +291,69 @@
                             }
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        c'8.
-                        r8.
-                        c'4
-                        r4
-                        c'4..
-                        r4..
-                        c'4..
-                        r4..
-                        c'8.
-                        r8.
-                        c'4.
+                        \once \override RepeatTie #'direction = #up
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
+                        b'4. -\downbow
+                            ^ \markup {
+                                \column
+                                    {
+                                        \upright
+                                            "full bow each stroke"
+                                        \upright
+                                            "terminate each note abruptly"
+                                    }
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    mf
+                                \larger
+                                    \italic
+                                        ”
+                                }
+                        \once \override RepeatTie #'direction = #up
+                        r2
+                        \once \override RepeatTie #'direction = #up
+                        b'2.. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        r2..
+                        \once \override RepeatTie #'direction = #up
+                        b'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
+                        b'2. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        b'4. \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
                         r4.
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        c'4
-                        r4
-                        c'2
-                        r2
-                        c'4.
+                        \once \override RepeatTie #'direction = #up
+                        b'2 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        r1
+                        \once \override RepeatTie #'direction = #up
+                        b'2. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        r2..
+                        \once \override RepeatTie #'direction = #up
+                        b'2.. -\downbow
+                        \once \override RepeatTie #'direction = #up
                         r4.
-                        c'4..
-                        r4..
-                        R1 * 29/8
+                        \once \override RepeatTie #'direction = #up
+                        b'1 -\upbow
+                        \stopStaff
+                        \startStaff
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
+                        r4.
+                        R1 * 13/2
                         \bar "|."
                     }
                 }
@@ -300,43 +378,51 @@
                             }
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        r4.
+                        R1 * 6
                         r2
-                        r2..
-                        r2..
-                        r4.
-                        r2.
-                        r2.
-                        r4.
-                        r4.
-                        {
+                        r4
+                        \times 8/9 {
+                            r8
+                            f'''32 -\staccato \pp [
+                                ^ \markup {
+                                    \upright
+                                        leggieriss.
+                                    }
+                            e'''32 -\staccato
+                            f'''32 -\staccato ]
                             r16
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
                         }
-                        r4.
                         r2
-                        r1
                         r2.
                         r2..
                         r2..
                         r4.
                         r1
-                        \times 6/9 {
-                            r16
-                            r16
-                            r16
-                            r16
-                            c'16
-                            r16
-                            r16
-                            r16
-                            r16
-                        }
                         r2.
+                        r4.
+                        r2.
+                        r4.
+                        r2
+                        r4
+                        \times 8/9 {
+                            r8
+                            r32
+                            fs'''32 -\staccato
+                            r16.
+                        }
+                        \times 8/9 {
+                            r8.
+                            g'''32 -\staccato [
+                            f'''32 -\staccato
+                            fs'''32 -\staccato ]
+                        }
+                        r8
+                        r2
+                        r1
+                        r2.
+                        r4.
+                        r2.
+                        r4.
                         R1 * 1/4
                         \bar "|."
                     }
@@ -354,36 +440,69 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        c'8.
-                        r8.
-                        c'4
-                        r4
-                        c'4..
-                        r4..
-                        c'4..
-                        r4..
-                        c'8.
-                        r8.
-                        c'4.
+                        \once \override RepeatTie #'direction = #up
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
+                        c'4. -\downbow
+                            ^ \markup {
+                                \column
+                                    {
+                                        \upright
+                                            "full bow each stroke"
+                                        \upright
+                                            "terminate each note abruptly"
+                                    }
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    mf
+                                \larger
+                                    \italic
+                                        ”
+                                }
+                        \once \override RepeatTie #'direction = #up
+                        r2
+                        \once \override RepeatTie #'direction = #up
+                        c'2.. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        r2..
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
+                        c'2. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
                         r4.
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        c'4
-                        r4
-                        c'2
-                        r2
-                        c'4.
+                        \once \override RepeatTie #'direction = #up
+                        c'2 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        r1
+                        \once \override RepeatTie #'direction = #up
+                        c'2. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        r2..
+                        \once \override RepeatTie #'direction = #up
+                        c'2.. -\downbow
+                        \once \override RepeatTie #'direction = #up
                         r4.
-                        c'4..
-                        r4..
-                        R1 * 29/8
+                        \once \override RepeatTie #'direction = #up
+                        c'1 -\upbow
+                        \stopStaff
+                        \startStaff
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
+                        r4.
+                        R1 * 13/2
                         \bar "|."
                     }
                 }
@@ -400,42 +519,84 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        c'8.
-                        r8.
-                        c'4
-                        r4
-                        c'4..
-                        r4..
-                        c'4..
-                        r4..
-                        c'8.
-                        r8.
-                        c'4.
-                        r4.
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        c'4
-                        r4
-                        c'2
-                        r2
-                        c'4.
-                        r4.
-                        c'4..
-                        r4..
-                        R1 * 29/8
+                        \once \override RepeatTie #'direction = #up
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
+                        d4. -\downbow
+                            ^ \markup {
+                                \column
+                                    {
+                                        \upright
+                                            "full bow each stroke"
+                                        \upright
+                                            "terminate each note abruptly"
+                                    }
+                                }
                             _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    mf
+                                \larger
+                                    \italic
+                                        ”
+                                }
+                        \once \override RepeatTie #'direction = #up
+                        r2
+                        \once \override RepeatTie #'direction = #up
+                        d2.. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        r2..
+                        \once \override RepeatTie #'direction = #up
+                        d4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
+                        d2. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        d4. \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
+                        r4.
+                        \once \override RepeatTie #'direction = #up
+                        d2 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        r1
+                        \once \override RepeatTie #'direction = #up
+                        d2. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        r2..
+                        \once \override RepeatTie #'direction = #up
+                        d2.. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        r4.
+                        \once \override RepeatTie #'direction = #up
+                        d1 -\upbow
+                        \stopStaff
+                        \startStaff
+                        \once \override RepeatTie #'direction = #up
+                        r2.
+                        \once \override RepeatTie #'direction = #up
+                        r4.
+                        R1 * 9/8
+                        R1 * 1/2
+                        R1 * 1/2
+                        R1 * 3/8
+                        R1 * 1/2
+                        R1 * 1
+                        R1 * 9/8
+                        R1 * 9/8
+                        \once \override MultiMeasureRestText #'extra-offset = #'(-17 . -12)
+                        R1 * 1/4
+                            ^ \markup {
                                 \italic
                                     \right-column
                                         {
-                                            "Cambridge, MA; Dallas; Madison, WI"
-                                            "Oct. 2015 - Dec. 2015"
+                                            "Cambridge, MA; Dallas, TX; Madison, WI"
+                                            "Oct. - Dec. 2015"
                                         }
                                 }
                         \bar "|."

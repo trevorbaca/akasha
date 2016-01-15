@@ -1,68 +1,109 @@
     \context Score = "Score" \with {
-        currentBarNumber = #381
+        currentBarNumber = #340
     } <<
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
-                    \time 3/8
-                    R1 * 3/8
+                    \time 5/4
+                    R1 * 5/4
                 }
                 {
-                    \time 4/8
-                    R1 * 1/2
-                }
-                {
-                    \time 7/8
-                    R1 * 7/8
-                }
-                {
-                    R1 * 7/8
-                }
-                {
-                    \time 3/8
-                    R1 * 3/8
-                }
-                {
-                    \time 6/8
+                    \time 3/4
                     R1 * 3/4
                 }
                 {
-                    \time 9/8
-                    R1 * 9/8
-                }
-                {
-                    R1 * 9/8
-                }
-                {
-                    \time 4/8
-                    R1 * 1/2
-                }
-                {
-                    \time 8/8
-                    R1 * 1
-                }
-                {
-                    \time 6/8
                     R1 * 3/4
                 }
                 {
-                    \time 7/8
-                    R1 * 7/8
-                }
-                {
-                    R1 * 7/8
-                }
-                {
-                    \time 3/8
-                    R1 * 3/8
-                }
-                {
-                    \time 8/8
+                    \time 4/4
                     R1 * 1
                 }
                 {
-                    \time 9/8
-                    R1 * 9/8
+                    R1 * 1
+                }
+                {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    R1 * 3/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    R1 * 1
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    R1 * 3/2
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    \time 3/4
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    R1 * 3/4
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 5/4
+                    R1 * 5/4
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
+                }
+                {
+                    \time 6/4
+                    R1 * 3/2
+                }
+                {
+                    R1 * 3/2
+                }
+                {
+                    R1 * 3/2
+                }
+                {
+                    \time 4/4
+                    R1 * 1
                 }
                 {
                     \time 1/4
@@ -72,25 +113,109 @@
                     R1 * 1/4
                         ^ \markup {
                             \musicglyph
-                                #"scripts.uverylongfermata"
+                                #"scripts.ufermata"
                             }
                 }
             }
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
-                    \time 3/8
+                    \time 5/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     \mark #13
-                    s1 * 3/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [M1]
+                    s1 * 5/4 ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                55
                             }
-                        ^ \markup {
+                        }
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 5/4
+                }
+                {
+                    \time 3/4
+                    \once \override TextSpanner.arrow-width = 0.25
+                    \once \override TextSpanner.bound-details.left-broken.padding = 0
+                    \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                        \null
+                        }
+                    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    \once \override TextSpanner.bound-details.left.text = \markup {
+                        \large
+                            \upright
+                                accel.
+                        \hspace
+                            #0.75
+                        }
+                    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                    \once \override TextSpanner.bound-details.right-broken.padding = 0
+                    \once \override TextSpanner.bound-details.right-broken.text = ##f
+                    \once \override TextSpanner.bound-details.right.arrow = ##t
+                    \once \override TextSpanner.bound-details.right.padding = 2
+                    \once \override TextSpanner.bound-details.right.text = ##f
+                    \once \override TextSpanner.dash-fraction = 0.25
+                    \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4 \startTextSpan
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1 \stopTextSpan ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -108,118 +233,142 @@
                         }
                 }
                 {
-                    \time 4/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 7/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/8
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/8
-                }
-                {
-                    \time 3/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/8
-                }
-                {
-                    \time 6/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/4
-                }
-                {
-                    \time 9/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
-                    s1 * 9/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [M2]
-                            }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
-                    s1 * 9/8
-                }
-                {
-                    \time 4/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 8/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
                 }
                 {
-                    \time 6/8
+                    \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2
+                }
+                {
+                    \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4
                 }
                 {
-                    \time 7/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/8
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 7/8
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [M3]
-                            }
-                }
-                {
-                    \time 3/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
-                    s1 * 3/8
-                }
-                {
-                    \time 8/8
+                    \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
                 }
                 {
-                    \time 9/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
+                    \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 9/8
+                    s1 * 5/4
+                }
+                {
+                    \time 3/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \once \override TextSpanner.arrow-width = 0.25
+                    \once \override TextSpanner.bound-details.left-broken.padding = 0
+                    \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                        \null
+                        }
+                    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    \once \override TextSpanner.bound-details.left.text = \markup {
+                        \large
+                            \upright
+                                rit.
+                        \hspace
+                            #0.75
+                        }
+                    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                    \once \override TextSpanner.bound-details.right-broken.padding = 0
+                    \once \override TextSpanner.bound-details.right-broken.text = ##f
+                    \once \override TextSpanner.bound-details.right.arrow = ##t
+                    \once \override TextSpanner.bound-details.right.padding = 2
+                    \once \override TextSpanner.bound-details.right.text = ##f
+                    \once \override TextSpanner.dash-fraction = 0.25
+                    \once \override TextSpanner.dash-period = 1.5
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4 \startTextSpan
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/4
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 5/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 5/4
+                }
+                {
+                    \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
+                }
+                {
+                    \time 6/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2
+                }
+                {
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 3/2 \stopTextSpan ^ \markup {
+                        \fontsize
+                            #-6
+                            \general-align
+                                #Y
+                                #DOWN
+                                \note-by-number
+                                    #2
+                                    #0
+                                    #1
+                        \upright
+                            {
+                                =
+                                44
+                            }
+                        }
+                }
+                {
+                    \time 4/4
+                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
+                    \newSpacingSection
+                    s1 * 1
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
-                        - \markup {
-                            \fontsize
-                                #-3
-                                \with-color
-                                    #blue
-                                    [M4]
-                            }
                 }
             }
         >>
@@ -246,37 +395,215 @@
                             }
                     }
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        c'8.
-                        r8.
-                        c'4
-                        r4
-                        c'4..
-                        r4..
-                        c'4..
-                        r4..
-                        c'8.
-                        r8.
-                        c'4.
-                        r4.
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        c'4
-                        r4
-                        c'2
-                        r2
-                        c'4.
-                        r4.
-                        c'4..
-                        r4..
-                        R1 * 29/8
-                        \bar "|."
+                        R1 * 6
+                        \once \override RepeatTie #'direction = #up
+                        bf'2. \ppp
+                            ^ \markup {
+                                \upright
+                                    "tasto + XFB flaut."
+                                }
+                        \once \override RepeatTie #'direction = #up
+                        bf'2. \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        bf'1. \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        bf'1. \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        bf'1 \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        bf'1 \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf'1. \repeatTie \startTextSpan
+                        \once \override RepeatTie #'direction = #up
+                        bf'1. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "pos. ord. + XFB flaut."
+                            }
+                        \once \override RepeatTie #'direction = #up
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf'2. \repeatTie \startTextSpan
+                        \once \override RepeatTie #'direction = #up
+                        bf'1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "pont. + XFB flaut."
+                            }
+                        \once \override RepeatTie #'direction = #up
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf'2. \repeatTie \startTextSpan
+                        \once \override RepeatTie #'direction = #up
+                        bf'2 \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        bf'2. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "XP + XFB flaut."
+                            }
+                        \once \override RepeatTie #'direction = #up
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf'2. \repeatTie \startTextSpan
+                        \once \override RepeatTie #'direction = #up
+                        bf'2. \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        bf'1 \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        bf'2. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "XP + no flaut"
+                            }
+                        \once \override RepeatTie #'direction = #up
+                        bf'2 \repeatTie
+                        \once \override RepeatTie #'direction = #up
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf'1. \repeatTie \startTextSpan
+                        \once \override RepeatTie #'direction = #up
+                        bf'1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                1/3OB
+                            }
+                        \once \override RepeatTie #'direction = #up
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf'1. \repeatTie \startTextSpan
+                        \once \override RepeatTie #'direction = #up
+                        bf'1. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                2/3OB
+                            }
+                        \once \override RepeatTie #'direction = #up
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf'1. \repeatTie \startTextSpan
+                        \once \override RepeatTie #'direction = #up
+                        bf'1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "OB (no pitch)"
+                            }
+                        R1 * 1/4
+                        \bar "|"
                     }
                 }
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
@@ -300,45 +627,191 @@
                             }
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        r4.
-                        r2
-                        r2..
-                        r2..
-                        r4.
-                        r2.
-                        r2.
-                        r4.
-                        r4.
-                        {
-                            r16
-                            c'16 [
-                            c'16
-                            c'16
-                            c'16
-                            c'16 ]
-                        }
-                        r4.
-                        r2
-                        r1
-                        r2.
-                        r2..
-                        r2..
-                        r4.
-                        r1
-                        \times 6/9 {
-                            r16
-                            r16
-                            r16
-                            r16
-                            c'16
-                            r16
-                            r16
-                            r16
-                            r16
-                        }
-                        r2.
+                        R1 * 6
+                        bf2. \ppp
+                            ^ \markup {
+                                \upright
+                                    "tasto + XFB flaut."
+                                }
+                        bf2. \repeatTie
+                        bf1. \repeatTie
+                        bf1. \repeatTie
+                        bf1 \repeatTie
+                        bf1 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf1. \repeatTie \startTextSpan
+                        bf1. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "pos. ord. + XFB flaut."
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf2. \repeatTie \startTextSpan
+                        bf1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "pont. + XFB flaut."
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf2. \repeatTie \startTextSpan
+                        bf2 \repeatTie
+                        bf2. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "XP + XFB flaut."
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf2. \repeatTie \startTextSpan
+                        bf2. \repeatTie
+                        bf1 \repeatTie
+                        bf2. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "XP + no flaut"
+                            }
+                        bf2 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf1. \repeatTie \startTextSpan
+                        bf1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                1/3OB
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf1. \repeatTie \startTextSpan
+                        bf1. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                2/3OB
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf1. \repeatTie \startTextSpan
+                        bf1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "OB (no pitch)"
+                            }
                         R1 * 1/4
-                        \bar "|."
+                        \bar "|"
                     }
                 }
                 \context ViolaMusicStaff = "Viola Music Staff" {
@@ -354,37 +827,191 @@
                         Va.
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        c'8.
-                        r8.
-                        c'4
-                        r4
-                        c'4..
-                        r4..
-                        c'4..
-                        r4..
-                        c'8.
-                        r8.
-                        c'4.
-                        r4.
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        c'4
-                        r4
-                        c'2
-                        r2
-                        c'4.
-                        r4.
-                        c'4..
-                        r4..
-                        R1 * 29/8
-                        \bar "|."
+                        R1 * 6
+                        bf,2. \ppp
+                            ^ \markup {
+                                \upright
+                                    "tasto + XFB flaut."
+                                }
+                        bf,2. \repeatTie
+                        bf,1. \repeatTie
+                        bf,1. \repeatTie
+                        bf,1 \repeatTie
+                        bf,1 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf,1. \repeatTie \startTextSpan
+                        bf,1. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "pos. ord. + XFB flaut."
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf,2. \repeatTie \startTextSpan
+                        bf,1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "pont. + XFB flaut."
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf,2. \repeatTie \startTextSpan
+                        bf,2 \repeatTie
+                        bf,2. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "XP + XFB flaut."
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf,2. \repeatTie \startTextSpan
+                        bf,2. \repeatTie
+                        bf,1 \repeatTie
+                        bf,2. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "XP + no flaut"
+                            }
+                        bf,2 \repeatTie
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf,1. \repeatTie \startTextSpan
+                        bf,1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                1/3OB
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf,1. \repeatTie \startTextSpan
+                        bf,1. \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                2/3OB
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf,1. \repeatTie \startTextSpan
+                        bf,1 \repeatTie \stopTextSpan ^ \markup {
+                            \upright
+                                "OB (no pitch)"
+                            }
+                        R1 * 1/4
+                        \bar "|"
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
@@ -400,45 +1027,62 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        c'8.
-                        r8.
-                        c'4
-                        r4
-                        c'4..
-                        r4..
-                        c'4..
-                        r4..
-                        c'8.
-                        r8.
-                        c'4.
-                        r4.
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'2
-                        c'16 \repeatTie
-                        r2
-                        r16
-                        c'4
-                        r4
-                        c'2
-                        r2
-                        c'4.
-                        r4.
-                        c'4..
-                        r4..
-                        R1 * 29/8
-                            _ \markup {
-                                \italic
-                                    \right-column
-                                        {
-                                            "Cambridge, MA; Dallas; Madison, WI"
-                                            "Oct. 2015 - Dec. 2015"
-                                        }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        "vib. pochiss."
+                                    \hspace
+                                        #0.5
                                 }
-                        \bar "|."
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        bf,,2. \< \ppp \startTextSpan
+                        bf,,2 \repeatTie
+                        bf,,2. \repeatTie
+                        bf,,2. \repeatTie
+                        bf,,1 \repeatTie
+                        bf,,1 \repeatTie
+                        bf,,2. \repeatTie
+                        bf,,2 \repeatTie
+                        bf,,2. \repeatTie \ff \stopTextSpan ^ \markup {
+                            \upright
+                                "vib. moltiss."
+                            }
+                        bf,,2. \repeatTie
+                        bf,,1. \repeatTie
+                        bf,,1. \repeatTie
+                        R1 * 2
+                        bf,,1. \pp
+                            ^ \markup {
+                                \upright
+                                    "vib. pochiss."
+                                }
+                        bf,,1. \repeatTie
+                        bf,,2. \repeatTie
+                        bf,,1 \repeatTie
+                        bf,,2. \repeatTie
+                        bf,,2 \repeatTie
+                        bf,,2. \repeatTie
+                        \once \override Hairpin #'circled-tip = ##t
+                        bf,,2. \repeatTie \> \pp
+                        bf,,2. \repeatTie
+                        bf,,1 \repeatTie
+                        bf,,2. \repeatTie
+                        bf,,2 \repeatTie
+                        bf,,1. \repeatTie
+                        bf,,1 \repeatTie \!
+                        R1 * 23/4
+                        \bar "|"
                     }
                 }
             >>
