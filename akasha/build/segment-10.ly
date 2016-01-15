@@ -713,12 +713,11 @@
                                 "vib. moltiss."
                             }
                         R1 * 5/2
-                        b'4 -\upbow \ppp
+                        b'4 -\downbow \ppp
                             ^ \markup {
                                 \upright
                                     OB
                                 }
-                        b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
@@ -728,73 +727,7 @@
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
-                        \once \override TextSpanner.arrow-width = 0.25
-                        \once \override TextSpanner.bound-details.left-broken.text = ##f
-                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-                        \once \override TextSpanner.bound-details.left.text = \markup {
-                            \concat
-                                {
-                                    \upright
-                                        trans.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                        \once \override TextSpanner.bound-details.right-broken.padding = 0
-                        \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
-                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-                        \once \override TextSpanner.dash-fraction = 0.25
-                        \once \override TextSpanner.dash-period = 1.5
-                        b'4 -\downbow \startTextSpan
-                        b'4 -\upbow
                         b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow \stopTextSpan ^ \markup {
-                            \upright
-                                3/4OB
-                            }
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        \once \override TextSpanner.arrow-width = 0.25
-                        \once \override TextSpanner.bound-details.left-broken.text = ##f
-                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-                        \once \override TextSpanner.bound-details.left.text = \markup {
-                            \concat
-                                {
-                                    \upright
-                                        trans.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                        \once \override TextSpanner.bound-details.right-broken.padding = 0
-                        \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
-                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-                        \once \override TextSpanner.dash-fraction = 0.25
-                        \once \override TextSpanner.dash-period = 1.5
-                        b'4 -\downbow \startTextSpan
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow \stopTextSpan ^ \markup {
-                            \upright
-                                1/2OB
-                            }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -821,21 +754,88 @@
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
-                        b'4 -\downbow
-                        b'4 -\upbow
                         b'4 -\downbow \stopTextSpan ^ \markup {
+                            \upright
+                                3/4OB
+                            }
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        b'4 -\upbow \startTextSpan
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow \stopTextSpan ^ \markup {
+                            \upright
+                                1/2OB
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        b'4 -\downbow \startTextSpan
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow
+                        b'4 -\downbow
+                        b'4 -\upbow \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
@@ -1174,47 +1174,18 @@
                                 "vib. moltiss."
                             }
                         R1 * 2
-                        b4 -\upbow \ppp
+                        b4 -\downbow \ppp
                             ^ \markup {
                                 \upright
                                     OB
                                 }
-                        b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
-                        \once \override TextSpanner.arrow-width = 0.25
-                        \once \override TextSpanner.bound-details.left-broken.text = ##f
-                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-                        \once \override TextSpanner.bound-details.left.text = \markup {
-                            \concat
-                                {
-                                    \upright
-                                        trans.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                        \once \override TextSpanner.bound-details.right-broken.padding = 0
-                        \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
-                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-                        \once \override TextSpanner.dash-fraction = 0.25
-                        \once \override TextSpanner.dash-period = 1.5
-                        b4 -\upbow \startTextSpan
-                        b4 -\downbow
                         b4 -\upbow
-                        b4 -\downbow
-                        b4 -\upbow
-                        b4 -\downbow
-                        b4 -\upbow \stopTextSpan ^ \markup {
-                            \upright
-                                3/4OB
-                            }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1240,6 +1211,30 @@
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
+                        b4 -\downbow \stopTextSpan ^ \markup {
+                            \upright
+                                3/4OB
+                            }
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        b4 -\upbow \startTextSpan
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
@@ -1255,7 +1250,12 @@
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
-                        b4 -\upbow \stopTextSpan ^ \markup {
+                        b4 -\upbow
+                        b4 -\downbow
+                        b4 -\upbow
+                        b4 -\downbow
+                        b4 -\upbow
+                        b4 -\downbow \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
@@ -1465,11 +1465,54 @@
                                 "vib. moltiss."
                             }
                         R1 * 1/4
-                        b,4 -\upbow \ppp
+                        b,4 -\downbow \ppp
                             ^ \markup {
                                 \upright
                                     OB
                                 }
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow
+                        \once \override TextSpanner.arrow-width = 0.25
+                        \once \override TextSpanner.bound-details.left-broken.text = ##f
+                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.left.text = \markup {
+                            \concat
+                                {
+                                    \upright
+                                        trans.
+                                    \hspace
+                                        #0.5
+                                }
+                            }
+                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                        \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right.arrow = ##t
+                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.dash-fraction = 0.25
+                        \once \override TextSpanner.dash-period = 1.5
+                        b,4 -\downbow \startTextSpan
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow
+                        b,4 -\downbow
+                        b,4 -\upbow \stopTextSpan ^ \markup {
+                            \upright
+                                3/4OB
+                            }
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
@@ -1507,11 +1550,9 @@
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
-                        b,4 -\downbow
-                        b,4 -\upbow
                         b,4 -\downbow \stopTextSpan ^ \markup {
                             \upright
-                                3/4OB
+                                1/2OB
                             }
                         b,4 -\upbow
                         b,4 -\downbow
@@ -1521,9 +1562,6 @@
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
-                        b,4 -\upbow
-                        b,4 -\downbow
-                        b,4 -\upbow
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1543,51 +1581,13 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        b,4 -\downbow \startTextSpan
-                        b,4 -\upbow
+                        b,4 -\upbow \startTextSpan
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow \stopTextSpan ^ \markup {
-                            \upright
-                                1/2OB
-                            }
-                        b,4 -\downbow
-                        b,4 -\upbow
-                        b,4 -\downbow
-                        b,4 -\upbow
-                        b,4 -\downbow
-                        b,4 -\upbow
-                        b,4 -\downbow
-                        b,4 -\upbow
-                        \once \override TextSpanner.arrow-width = 0.25
-                        \once \override TextSpanner.bound-details.left-broken.text = ##f
-                        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-                        \once \override TextSpanner.bound-details.left.text = \markup {
-                            \concat
-                                {
-                                    \upright
-                                        trans.
-                                    \hspace
-                                        #0.5
-                                }
-                            }
-                        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                        \once \override TextSpanner.bound-details.right-broken.padding = 0
-                        \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
-                        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-                        \once \override TextSpanner.dash-fraction = 0.25
-                        \once \override TextSpanner.dash-period = 1.5
-                        b,4 -\downbow \startTextSpan
-                        b,4 -\upbow
-                        b,4 -\downbow
-                        b,4 -\upbow
-                        b,4 -\downbow
-                        b,4 -\upbow
-                        b,4 -\downbow \stopTextSpan ^ \markup {
                             \upright
                                 1/4OB
                             }
@@ -1610,8 +1610,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        b,4 -\upbow \startTextSpan
-                        b,4 -\downbow
+                        b,4 -\downbow \startTextSpan
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
@@ -1631,7 +1630,8 @@
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
-                        b,4 -\downbow \stopTextSpan ^ \markup {
+                        b,4 -\downbow
+                        b,4 -\upbow \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }
@@ -1901,8 +1901,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        b,,4 -\upbow \ppp \startTextSpan
-                        b,,4 -\downbow
+                        b,,4 -\downbow \ppp \startTextSpan
                         b,,4 -\upbow
                         b,,4 -\downbow
                         b,,4 -\upbow
@@ -1922,7 +1921,8 @@
                         b,,4 -\upbow
                         b,,4 -\downbow
                         b,,4 -\upbow
-                        b,,4 -\downbow \stopTextSpan ^ \markup {
+                        b,,4 -\downbow
+                        b,,4 -\upbow \stopTextSpan ^ \markup {
                             \upright
                                 XP
                             }

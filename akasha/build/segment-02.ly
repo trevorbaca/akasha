@@ -389,10 +389,7 @@
                         eqs'8 \repeatTie
                         r2..
                         R1 * 1/4
-                        r4
-                        r4
-                        r4
-                        r4
+                        r1
                         \times 8/9 {
                             b32 -\staccato \p [
                                 ^ \markup {
@@ -602,8 +599,7 @@
                             af32 -\staccato ]
                             r8
                         }
-                        r4
-                        r4
+                        r2
                         R1 * 1/4
                         r2.
                         r4.
@@ -818,9 +814,7 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         R1 * 7/4
-                        r4
-                        r4
-                        r4
+                        r2.
                         \times 8/9 {
                             r8
                             bf32 -\staccato \p [

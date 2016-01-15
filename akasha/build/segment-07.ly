@@ -1330,7 +1330,7 @@
                                                             #6
                                                             \bold
                                                                 \sans
-                                                                    x8
+                                                                    x6
                                             \upright
                                                 leggieriss.
                                         }

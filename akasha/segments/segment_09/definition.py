@@ -30,7 +30,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 volta_map = baca.tools.VoltaMap([
-    baca.tools.MeasureExpression(start=0, stop=None), 
+    baca.tools.MeasureExpression(start_number=0, stop_number=None), 
     ])
 
 segment_maker = baca.tools.SegmentMaker(

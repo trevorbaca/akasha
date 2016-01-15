@@ -665,22 +665,7 @@
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
-                    s1 * 1/4 \stopTextSpan ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #2
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                38
-                            }
-                        }
+                    s1 * 1/4
                 }
                 \repeat volta 2
                 {
@@ -688,7 +673,22 @@
                         \time 3/8
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                         \newSpacingSection
-                        s1 * 3/8
+                        s1 * 3/8 \stopTextSpan ^ \markup {
+                            \fontsize
+                                #-6
+                                \general-align
+                                    #Y
+                                    #DOWN
+                                    \note-by-number
+                                        #2
+                                        #0
+                                        #1
+                            \upright
+                                {
+                                    =
+                                    38
+                                }
+                            }
                     }
                     {
                         \time 6/8
