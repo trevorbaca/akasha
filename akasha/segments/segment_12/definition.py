@@ -423,7 +423,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.pos_ord(),
-            baca.markup.tasto_moltiss(),
+            baca.markup.XT(),
             ),
         Hairpin('sffp > pp'),
         ],

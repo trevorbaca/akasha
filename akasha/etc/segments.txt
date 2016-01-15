@@ -563,3 +563,6 @@ K   283" + 49" (5x) + 29" (5x) + 3 short + 1 fermata + 1 very long (10-13")
 L   23" + 2 very long fermatas (16-20" silence)
 M   113" + 1 fermata (4-6" silence)
 N   51" + 1 very long fermata (8-10" silence)
+
+1325" + (164-232" silence)
+24.5-26' (depending on interpretation of silences)
