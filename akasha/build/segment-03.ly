@@ -348,11 +348,8 @@
                         Vc.
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        r4
-                        r4
-                        r4
-                        r4
-                        r8
+                        r2.
+                        r4.
                         \times 8/9 {
                             r16.
                             bf32 -\staccato [
@@ -361,10 +358,7 @@
                             b32 -\staccato ]
                             r16
                         }
-                        r4
-                        r4
-                        r4
-                        r8
+                        r2..
                         {
                             r8.
                             c'32 -\staccato [

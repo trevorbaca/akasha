@@ -778,7 +778,7 @@
                         \once \override NoteHead #'style = #'harmonic
                         \ottava #1
                         cs''''4. \mp
-                            ^ \markup {
+                            _ \markup {
                                 \upright
                                     II
                                 }
@@ -822,71 +822,71 @@
                         \ottava #0
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        a'1 -\upbow \ppp \glissando
+                        a'1 -\downbow \ppp \glissando
                             ^ \markup {
                                 \upright
                                     "XP + full bow strokes"
                                 }
                         \once \override NoteHead #'style = #'harmonic
-                        c''2. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        fs'2 -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        ef'4. -\upbow
-                        R1 * 1/4
-                        \once \override NoteHead #'style = #'harmonic
-                        fs'2. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        c''2. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        fs''4. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        ef''2 -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        c''1 -\upbow \glissando
+                        c''2. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
                         a'4. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        ef''2 -\upbow \glissando
+                        fs'2 -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        fs''2.. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a''2.. -\upbow
+                        ef'4. -\downbow
                         R1 * 1/4
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        ef''2. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        fs''2 -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a''4. -\upbow
-                        R1 * 1/4
-                        \once \override NoteHead #'style = #'harmonic
-                        ef'''2. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a''2.. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        c'''2.. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\upbow
-                        R1 * 1/4
-                        \once \override NoteHead #'style = #'harmonic
-                        fs'1 -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        ef'2. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
                         fs'2. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
                         a'4. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        c''2 -\upbow
+                        c''2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''1 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''2.. -\downbow
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''4. -\downbow
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'''2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c'''2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'1 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''2 -\downbow
                         R1 * 25/8
                         \bar "|"
                     }
@@ -914,72 +914,72 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 11/2
                         \once \override NoteHead #'style = #'harmonic
-                        a'2. -\upbow \ppp \glissando
+                        a'2. -\downbow \ppp \glissando
                             ^ \markup {
                                 \upright
                                     "XP + full bow strokes"
                                 }
                         \once \override NoteHead #'style = #'harmonic
-                        c''4. -\downbow \glissando
+                        c''4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a'2. -\upbow \glissando
+                        a'2. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        fs'4. -\downbow \glissando
+                        fs'4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        ef'2.. -\upbow \glissando
+                        ef'2.. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a'4. -\downbow \glissando
+                        a'4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        fs'2. -\upbow \glissando
+                        fs'2. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a'2.. -\downbow \glissando
+                        a'2.. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        c''2. -\upbow \glissando
+                        c''2. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        fs''4. -\downbow \glissando
+                        fs''4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        ef''2 -\upbow
+                        ef''2 -\downbow
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        fs'1 -\downbow \glissando
+                        fs'1 -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a'2. -\upbow \glissando
+                        a'2. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        c''4. -\downbow \glissando
+                        c''4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        fs''2 -\upbow \glissando
+                        fs''2 -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        ef''4. -\downbow
+                        ef''4. -\upbow
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        a'2. -\upbow \glissando
+                        a'2. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        ef''4. -\downbow \glissando
+                        ef''4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        fs''2. -\upbow \glissando
+                        fs''2. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a''4. -\downbow \glissando
+                        a''4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        fs''2 -\upbow \glissando
+                        fs''2 -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        c'''1 -\downbow \glissando
+                        c'''1 -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        ef'''4. -\upbow \glissando
+                        ef'''4. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a''2 -\downbow \glissando
+                        a''2 -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        c'''2.. -\upbow \glissando
+                        c'''2.. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a'2.. -\downbow
+                        a'2.. -\upbow
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        ef'''4. -\upbow \glissando
+                        ef'''4. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a''2. -\downbow \glissando
+                        a''2. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        c'''2 -\upbow \glissando
+                        c'''2 -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a'4. -\downbow
+                        a'4. -\upbow
                         R1 * 1/4
                         \pitchedTrill
                         g''2. \p \startTrillSpan
@@ -1012,7 +1012,7 @@
                         \once \override NoteHead #'style = #'harmonic
                         \clef "treble"
                         gqf''4. \mp
-                            ^ \markup {
+                            _ \markup {
                                 \upright
                                     IV
                                 }
@@ -1100,30 +1100,30 @@
                         }
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        af2. -\upbow \ppp \glissando
+                        af2. -\downbow \ppp \glissando
                             ^ \markup {
                                 \upright
                                     "XP + full bow strokes"
                                 }
                         \once \override NoteHead #'style = #'harmonic
-                        b2.. -\downbow \glissando
+                        b2.. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        af2.. -\upbow \glissando
+                        af2.. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        f4. -\downbow
+                        f4. -\upbow
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        f1 -\upbow \glissando
+                        f1 -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        af2. -\downbow \glissando
+                        af2. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        b4. -\upbow \glissando
+                        b4. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        f'2. -\downbow \glissando
+                        f'2. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        d'4. -\upbow \glissando
+                        d'4. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        b2 -\downbow
+                        b2 -\upbow
                         R1 * 25/8
                         \bar "|"
                     }
@@ -1143,7 +1143,7 @@
                         \once \override NoteHead #'style = #'harmonic
                         \clef "treble"
                         d''4. \mp
-                            ^ \markup {
+                            _ \markup {
                                 \upright
                                     IV
                                 }
@@ -1198,29 +1198,29 @@
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
                         \clef "bass"
-                        g,2. -\upbow \ppp \glissando
+                        g,2. -\downbow \ppp \glissando
                             ^ \markup {
                                 \upright
                                     "XP + full bow strokes"
                                 }
                         \once \override NoteHead #'style = #'harmonic
-                        bf,4. -\downbow \glissando
+                        bf,4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        g,2. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        e,4. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        cs,2 -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        g,1 -\downbow \glissando
+                        g,2. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
                         e,4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        g,2 -\downbow \glissando
+                        cs,2 -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        bf,2.. -\upbow \glissando
+                        g,1 -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        e2.. -\downbow
+                        e,4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        g,2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        bf,2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        e2.. -\upbow
                         R1 * 1/4
                         cs,4. \> \sf
                             ^ \markup {
@@ -1232,17 +1232,17 @@
                         cs,4. \repeatTie \ppp
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        e,2. -\upbow \ppp \glissando
+                        e,2. -\downbow \ppp \glissando
                             ^ \markup {
                                 \upright
                                     "XP + full bow strokes"
                                 }
                         \once \override NoteHead #'style = #'harmonic
-                        g,2.. -\downbow \glissando
+                        g,2.. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        bf,2.. -\upbow \glissando
+                        bf,2.. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        e4. -\downbow
+                        e4. -\upbow
                         R1 * 1/4
                         df1 \glissando \> \sf
                             ^ \markup {
