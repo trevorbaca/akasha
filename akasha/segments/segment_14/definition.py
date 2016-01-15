@@ -138,7 +138,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(4, 6)),
     [
-        baca.markup.vib_pochiss(),
+        baca.markup.vib_poco(),
         Dynamic('pp'),
         ],
     )
@@ -148,7 +148,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.pos_ord_XFB_flaut(),
+            baca.markup.pos_ord_XFB(),
             ),
         ],
     )
@@ -160,7 +160,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.pont_XFB_flaut(),
+            baca.markup.pont_XFB(),
             ),
         ],
     )
@@ -172,7 +172,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.XP_XFB_flaut(),
+            baca.markup.XP_XFB(),
             ),
         ],
     )
@@ -184,7 +184,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.XP_no_flaut(),
+            baca.markup.XP(),
             ),
         ],
     )

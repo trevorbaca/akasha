@@ -103,7 +103,7 @@ segment_maker.append_specifiers(
     [
         baca.articulations.alternate_bow_strokes(),
         baca.dynamics.make_effort_dynamic('mf'),
-        baca.markup.full_bow_each_stroke(),
+        baca.markup.full_bow_strokes(),
         baca.markup.terminate_each_note_abruptly(),
         baca.overrides.repeat_tie_up(),
         baca.spanners.one_line_staff(),

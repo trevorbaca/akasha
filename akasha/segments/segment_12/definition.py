@@ -202,7 +202,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.tasto_scratch_moltiss(),
+            baca.markup.scratch_moltiss(),
             ),
         ],
     )
@@ -219,7 +219,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.pos_ord_poco_scratch(),
+            baca.markup.make_fractional_scratch(1, 2),
             ),
         ],
     )
@@ -238,7 +238,7 @@ segment_maker.append_specifiers(
     (tutti, stage_leaves(7, 0, -1)),
     [
         baca.spanners.make_transition(
-            baca.markup.senza_vib(),
+            baca.markup.trans(),
             baca.markup.vib_moltiss(),
             ),
         Hairpin('ff < fff'),
@@ -286,7 +286,7 @@ segment_maker.append_specifiers(
     (tutti, stage_leaves(9, 0, 3)),
     [
         baca.spanners.make_transition(
-            baca.markup.pos_ord(),
+            baca.markup.pos_ord_senza_vib(),
             baca.markup.XP(),
             ),
         Hairpin('sffp < fff'),

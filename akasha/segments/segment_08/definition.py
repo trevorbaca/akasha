@@ -35,6 +35,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_clock_time=True,
     #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
@@ -142,6 +143,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(6)),
     [
+        baca.articulations.down_bows(),
         baca.dynamics.make_effort_dynamic('mf'),
         baca.markup.OB(),
         baca.spanners.one_line_staff(),
@@ -188,14 +190,25 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.tasto_scratch_moltiss(),
-            baca.markup.poco_scratch(),
+            baca.markup.make_fractional_scratch(1, 4),
             ),
         Hairpin('ff > f'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (tutti, stages(2)),
+    (vn_1, stages(2)),
+    [
+        baca.spanners.make_transition(
+            baca.markup.make_tasto_fractional_scratch(1, 4),
+            baca.markup.tasto(),
+            ),
+        Hairpin('f > mf'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    ([vn_2, va, vc], stages(2)),
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
@@ -210,7 +223,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.FB_flaut(),
+            baca.markup.FB(),
             ),
         Hairpin('mf > p'),
         ],
@@ -221,7 +234,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.XFB_flaut(),
+            baca.markup.XFB(),
             ),
         Hairpin('p > pp'),
         ],

@@ -41,9 +41,10 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_clock_time=True,
+    #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    #label_stage_numbers=True,
     spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
@@ -324,7 +325,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(15, 16)),
     [
         baca.markup.leggieriss(),
-        baca.markup.ord_senza_scratch(),
+        baca.markup.senza_scratch(),
         Hairpin('mf > pp'),
         ],
     )
@@ -358,7 +359,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(13)),
     [
-        baca.markup.ord_senza_scratch(),
+        baca.articulations.staccati(),
+        baca.markup.senza_scratch(),
         Dynamic('mf'),
         ],
     )
@@ -383,12 +385,12 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1, 18)),
     [
-        baca.articulations.alternate_accented_bow_strokes(),
-        baca.markup.full_bow_each_stroke(),
+        baca.articulations.alternate_bow_strokes(),
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.OB(),
         baca.overrides.repeat_tie_up(),
         baca.spanners.one_line_staff(),
-        baca.pitch.pitches(source='C4'),
-        Dynamic('mf'),
+        baca.pitch.pitches('C4'),
         ],
     )
 
@@ -421,7 +423,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(12)),
     [
-        baca.markup.ord_senza_scratch(),
+        baca.articulations.staccati(),
+        baca.markup.senza_scratch(),
         Dynamic('mf'),
         ],
     )

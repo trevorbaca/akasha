@@ -663,8 +663,8 @@ segment_maker.append_specifiers(
     (tutti, stages(10, 11)),
     [
         baca.spanners.make_transition(
-            baca.markup.make_tasto_fractional_scratch(1, 2),
-            baca.markup.tasto_scratch_moltiss(),
+            baca.markup.trans(),
+            baca.markup.scratch_moltiss(),
             ),
         Hairpin('mp < f'),
         ],
@@ -705,6 +705,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier(29, [2]),
         baca.articulations.staccati(),
+        baca.markup.pos_ord(),
         Hairpin('ff < fff'),
         ],
     )
@@ -714,6 +715,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier(26, [2]),
         baca.articulations.staccati(),
+        baca.markup.pos_ord(),
         Hairpin('ff < fff'),
         ],
     )
@@ -723,6 +725,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier(23, [2]),
         baca.articulations.staccati(),
+        baca.markup.pos_ord(),
         Clef('treble'),
         Hairpin('ff < fff'),
         ],
@@ -733,6 +736,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier(20, [2]),
         baca.articulations.staccati(),
+        baca.markup.pos_ord(),
         Clef('treble'),
         Hairpin('ff < fff'),
         ],
@@ -743,10 +747,11 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(15)),
     [
-        baca.markup.OB_no_pitch(),
-        baca.pitch.pitches(source='B4'),
+        baca.articulations.down_bows(),
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.OB_terminate_abruptly(),
+        baca.pitch.pitches('B4'),
         baca.spanners.one_line_staff(),
-        Dynamic('mf'),
         ],
     )
 
@@ -804,9 +809,10 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(19)),
     [
-        baca.markup.OB_no_pitch(),
-        baca.pitch.pitches(source='B4'),
+        baca.articulations.down_bows(),
+        baca.dynamics.make_effort_dynamic('mf'),
+        baca.markup.OB_terminate_abruptly(),
+        baca.pitch.pitches('B4'),
         baca.spanners.one_line_staff(),
-        Dynamic('mf'),
         ],
     )

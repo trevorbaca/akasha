@@ -842,15 +842,20 @@
                         b'1. \< \ppp
                             ^ \markup {
                                 \upright
-                                    "XP + FB flaut."
+                                    "XP + FB"
                                 }
                         b'2. \repeatTie \mp
                         \times 8/14 {
                             r16
                             g'''16 -\staccato \ppp [
                                 ^ \markup {
-                                    \upright
-                                        leggieriss.
+                                    \column
+                                        {
+                                            \upright
+                                                leggieriss.
+                                            \upright
+                                                "pos. ord."
+                                        }
                                     }
                             af'''16 -\staccato
                             g'''16 -\staccato
@@ -921,7 +926,7 @@
                             \concat
                                 {
                                     \upright
-                                        "XP + FB flaut."
+                                        "XP + FB"
                                     \hspace
                                         #0.5
                                 }
@@ -937,7 +942,7 @@
                         b'2. \< \ppp \startTextSpan
                         b'2. \repeatTie \mp \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + FB flaut."
+                                "tasto + FB"
                             }
                         R1 * 1/4
                         \override TupletNumber #'text = \markup {
@@ -1044,7 +1049,7 @@
                         b'2 \repeatTie
                         b'1. \repeatTie \mp \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + poco scratch"
+                                "tasto + 1/2 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1262,7 +1267,7 @@
                         b1. \< \ppp
                             ^ \markup {
                                 \upright
-                                    "XP + FB flaut."
+                                    "XP + FB"
                                 }
                         b2. \repeatTie \mp
                         R1 * 9/4
@@ -1273,7 +1278,7 @@
                             \concat
                                 {
                                     \upright
-                                        "XP + FB flaut."
+                                        "XP + FB"
                                     \hspace
                                         #0.5
                                 }
@@ -1288,7 +1293,7 @@
                         b2. \< \ppp \startTextSpan
                         b2. \repeatTie \mp \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + FB flaut."
+                                "tasto + FB"
                             }
                         R1 * 1/4
                         \override TupletNumber #'text = \markup {
@@ -1395,7 +1400,7 @@
                         b2 \repeatTie
                         b1. \repeatTie \mp \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + poco scratch"
+                                "tasto + 1/2 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1638,7 +1643,7 @@
                         b,1. \< \ppp
                             ^ \markup {
                                 \upright
-                                    "XP + FB flaut."
+                                    "XP + FB"
                                 }
                         b,2. \repeatTie \mp
                         R1 * 9/4
@@ -1649,7 +1654,7 @@
                             \concat
                                 {
                                     \upright
-                                        "XP + FB flaut."
+                                        "XP + FB"
                                     \hspace
                                         #0.5
                                 }
@@ -1664,7 +1669,7 @@
                         b,2. \< \ppp \startTextSpan
                         b,2. \repeatTie \mp \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + FB flaut."
+                                "tasto + FB"
                             }
                         R1 * 1/4
                         \override TupletNumber #'text = \markup {
@@ -1734,7 +1739,7 @@
                         b,2 \repeatTie
                         b,1. \repeatTie \mp \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + poco scratch"
+                                "tasto + 1/2 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1929,7 +1934,7 @@
                         b,,1. \< \ppp
                             ^ \markup {
                                 \upright
-                                    "XP + FB flaut."
+                                    "XP + FB"
                                 }
                         b,,2. \repeatTie \mp
                         R1 * 9/4
@@ -1940,7 +1945,7 @@
                             \concat
                                 {
                                     \upright
-                                        "XP + FB flaut."
+                                        "XP + FB"
                                     \hspace
                                         #0.5
                                 }
@@ -1955,7 +1960,7 @@
                         b,,2. \< \ppp \startTextSpan
                         b,,2. \repeatTie \mp \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + FB flaut."
+                                "tasto + FB"
                             }
                         R1 * 1/4
                         \override TupletNumber #'text = \markup {
@@ -2026,7 +2031,7 @@
                         b,,2 \repeatTie
                         b,,1. \repeatTie \mp \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + poco scratch"
+                                "tasto + 1/2 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f

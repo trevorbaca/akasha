@@ -789,7 +789,7 @@
                             ef''16 * 227/32 \pp [
                                 ^ \markup {
                                     \upright
-                                        "tasto + XFB flaut."
+                                        "tasto + XFB"
                                     }
                             r16 * 199/64
                             f''16 * 115/64 ]
@@ -1114,7 +1114,7 @@
                         e''2. \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         e''2 \repeatTie
                         e''2. \repeatTie
@@ -1127,7 +1127,7 @@
                             \concat
                                 {
                                     \upright
-                                        "tasto + poco scratch"
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1155,6 +1155,10 @@
                         \times 8/14 {
                             r16
                             f'''16 -\staccato \< \ff [
+                                ^ \markup {
+                                    \upright
+                                        "pos. ord."
+                                    }
                             fs'''16 -\staccato
                             f'''16 -\staccato
                             e'''16 -\staccato
@@ -1492,7 +1496,7 @@
                             b'16 * 13/8 \pp [
                                 ^ \markup {
                                     \upright
-                                        "tasto + XFB flaut."
+                                        "tasto + XFB"
                                     }
                             cs''16 * 125/64
                             r16 * 49/16
@@ -1784,7 +1788,7 @@
                         fs'2. \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         fs'2 \repeatTie
                         fs'2. \repeatTie
@@ -1797,7 +1801,7 @@
                             \concat
                                 {
                                     \upright
-                                        "tasto + poco scratch"
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1825,6 +1829,10 @@
                         \times 8/12 {
                             r16
                             d'''16 -\staccato \< \ff [
+                                ^ \markup {
+                                    \upright
+                                        "pos. ord."
+                                    }
                             ef'''16 -\staccato
                             d'''16 -\staccato
                             cs'''16 -\staccato
@@ -2060,7 +2068,7 @@
                         gs2 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         gs8. \repeatTie [
                         a16 ]
@@ -2108,7 +2116,7 @@
                             \concat
                                 {
                                     \upright
-                                        "tasto + poco scratch"
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2137,6 +2145,10 @@
                             \clef "treble"
                             r16
                             b''16 -\staccato \< \ff [
+                                ^ \markup {
+                                    \upright
+                                        "pos. ord."
+                                    }
                             c'''16 -\staccato
                             b''16 -\staccato
                             bf''16 -\staccato
@@ -2300,10 +2312,22 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        b'1. \mf
+                        b'1. -\downbow
                             ^ \markup {
                                 \upright
-                                    "OB (no pitch)"
+                                    "OB + terminate abruptly"
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
+                                \larger
+                                    \italic
+                                        ”
                                 }
                         \stopStaff
                         \startStaff
@@ -2354,10 +2378,22 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        b'1. \mf
+                        b'1. -\downbow
                             ^ \markup {
                                 \upright
-                                    "OB (no pitch)"
+                                    "OB + terminate abruptly"
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
+                                \larger
+                                    \italic
+                                        ”
                                 }
                         \stopStaff
                         \startStaff
@@ -2381,7 +2417,7 @@
                         f4.. \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         gf16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -2461,7 +2497,7 @@
                         af,4.. \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         g,16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -2504,7 +2540,7 @@
                             \concat
                                 {
                                     \upright
-                                        "tasto + poco scratch"
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2533,6 +2569,10 @@
                             \clef "treble"
                             r16
                             af''16 -\staccato \< \ff [
+                                ^ \markup {
+                                    \upright
+                                        "pos. ord."
+                                    }
                             a''16 -\staccato
                             af''16 -\staccato
                             g''16 -\staccato
