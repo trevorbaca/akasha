@@ -178,14 +178,16 @@
                         c'1 -\downbow
                             ^ \markup {
                                 \upright
-                                    OB
+                                    "OB + terminate each note abruptly"
                                 }
                             _ \markup {
                                 \larger
                                     \italic
                                         “
                                 \dynamic
-                                    mf
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
                                 \larger
                                     \italic
                                         ”
@@ -216,7 +218,7 @@
                         bf,,1. \pp
                             ^ \markup {
                                 \upright
-                                    "pos. ord. + vib. pochiss."
+                                    "pos. ord. + vib. poco"
                                 }
                         bf,,2. \repeatTie
                         \bar "|"

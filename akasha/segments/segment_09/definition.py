@@ -34,6 +34,7 @@ volta_map = baca.tools.VoltaMap([
     ])
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_clock_time=True,
     #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
@@ -93,7 +94,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(1)),
     [
-        baca.markup.XFB_flaut(),
+        baca.markup.XFB(),
         Dynamic('p'),
         ]
     )

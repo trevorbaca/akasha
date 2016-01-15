@@ -252,7 +252,7 @@ segment_maker.append_specifiers(
     (va, stages(13)),
     [
         baca.markup.tasto_scratch_moltiss(),
-        Dynamic('f'),
+        Dynamic('ff'),
         ],
     )
 

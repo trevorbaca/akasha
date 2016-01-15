@@ -743,7 +743,7 @@
                                             \upright
                                                 leggieriss.
                                             \upright
-                                                "ord. (senza scratch)"
+                                                "senza scratch"
                                         }
                                     }
                             bf'16 -\staccato
@@ -1306,14 +1306,14 @@
                         \times 12/11 {
                             r8
                             r8
-                            cs'8 \mf
+                            cs'8 -\staccato \mf
                                 ^ \markup {
                                     \upright
-                                        "ord. (senza scratch)"
+                                        "senza scratch"
                                     }
                             r8
                             r8
-                            d'8
+                            d'8 -\staccato
                             r8
                             r8
                             r8
@@ -1322,16 +1322,16 @@
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 12/11 {
-                            b8
+                            b8 -\staccato
                             r8
                             r8
-                            c'8
+                            c'8 -\staccato
                             r8
                             r8
                             r8
                             r8
                             r8
-                            b8
+                            b8 -\staccato
                             r8
                         }
                         r4
@@ -1808,297 +1808,309 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        c'4 -\accent -\upbow \mf
+                        c'4 -\downbow
                             ^ \markup {
                                 \upright
-                                    "full bow each stroke"
+                                    OB
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
+                                \larger
+                                    \italic
+                                        ”
                                 }
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
                         r8
                         R1 * 1/4
                         \once \override RepeatTie #'direction = #up
                         r4.
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
                         r4
                         R1 * 1/4
                         \once \override RepeatTie #'direction = #up
                         r4.
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
                         r4
                         R1 * 1/4
                         \once \override RepeatTie #'direction = #up
                         r4
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
+                        c'4. -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
                         r4.
                         R1 * 1/4
                         \once \override RepeatTie #'direction = #up
                         r4
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
+                        c'4. -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~ [
-                        \once \override RepeatTie #'direction = #up
-                        c'8 ]
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~ [
+                        c'8 -\upbow ~ [
                         \once \override RepeatTie #'direction = #up
                         c'8 ]
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow ~
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\upbow ~ [
+                        \once \override RepeatTie #'direction = #up
+                        c'8 ]
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow ~
                         \once \override RepeatTie #'direction = #up
                         c'8
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~ [
+                        c'8 -\upbow ~ [
                         \once \override RepeatTie #'direction = #up
                         c'8 ]
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
+                        c'4. -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
+                        c'4. -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\upbow ~
+                        c'8 -\downbow ~
                         \once \override RepeatTie #'direction = #up
                         c'4
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
+                        c'4. -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~
-                        \once \override RepeatTie #'direction = #up
-                        c'4
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\upbow ~
+                        c'8 -\upbow ~
                         \once \override RepeatTie #'direction = #up
                         c'4
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~
-                        \once \override RepeatTie #'direction = #up
-                        c'4
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\upbow ~ [
-                        \once \override RepeatTie #'direction = #up
-                        c'8 ]
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\upbow ~ [
-                        \once \override RepeatTie #'direction = #up
-                        c'8 ]
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\upbow ~ [
-                        \once \override RepeatTie #'direction = #up
-                        c'8 ]
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~ [
-                        \once \override RepeatTie #'direction = #up
-                        c'8 ]
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~ [
-                        \once \override RepeatTie #'direction = #up
-                        c'8 ]
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~ [
-                        \once \override RepeatTie #'direction = #up
-                        c'8 ]
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\downbow ~
+                        c'8 -\downbow ~
                         \once \override RepeatTie #'direction = #up
                         c'4
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4. -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\upbow ~
+                        c'8 -\upbow ~
                         \once \override RepeatTie #'direction = #up
                         c'4
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
+                        c'4 -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\upbow
+                        c'4. -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\downbow
-                        \once \override RepeatTie #'direction = #up
-                        c'8 -\accent -\upbow ~ [
+                        c'8 -\downbow ~ [
                         \once \override RepeatTie #'direction = #up
                         c'8 ]
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4. -\downbow
                         \once \override RepeatTie #'direction = #up
-                        c'4. -\accent -\downbow
+                        c'4 -\upbow
                         \once \override RepeatTie #'direction = #up
-                        c'4 -\accent -\upbow
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\downbow ~ [
+                        \once \override RepeatTie #'direction = #up
+                        c'8 ]
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\downbow ~ [
+                        \once \override RepeatTie #'direction = #up
+                        c'8 ]
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\upbow ~ [
+                        \once \override RepeatTie #'direction = #up
+                        c'8 ]
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\upbow ~ [
+                        \once \override RepeatTie #'direction = #up
+                        c'8 ]
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\upbow ~ [
+                        \once \override RepeatTie #'direction = #up
+                        c'8 ]
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\upbow ~
+                        \once \override RepeatTie #'direction = #up
+                        c'4
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\downbow ~
+                        \once \override RepeatTie #'direction = #up
+                        c'4
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'8 -\downbow ~ [
+                        \once \override RepeatTie #'direction = #up
+                        c'8 ]
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4. -\upbow
+                        \once \override RepeatTie #'direction = #up
+                        c'4 -\downbow
                         \stopStaff
                         \startStaff
                         \once \override RepeatTie #'direction = #up
@@ -2220,32 +2232,32 @@
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 6/8 {
                             r8
-                            cs8 \mf
+                            cs8 -\staccato \mf
                                 ^ \markup {
                                     \upright
-                                        "ord. (senza scratch)"
+                                        "senza scratch"
                                     }
                             r8
                             r8
                             r8
                             r8
                             r8
-                            d8
+                            d8 -\staccato
                         }
                         \tweak #'text #tuplet-number::calc-fraction-text
                         \times 12/14 {
                             r8
                             r8
-                            ef8
+                            ef8 -\staccato
                             r8
                             r8
                             r8
                             r8
                             r8
-                            d8
+                            d8 -\staccato
                             r8
                             r8
-                            e8
+                            e8 -\staccato
                             r8
                             r8
                         }
@@ -2253,10 +2265,10 @@
                             r8
                             r8
                             r8
-                            f8
+                            f8 -\staccato
                             r8
                             r8
-                            ef8
+                            ef8 -\staccato
                             r8
                             r8
                             r8
@@ -2265,16 +2277,16 @@
                         \times 12/14 {
                             r8
                             r8
-                            e8
+                            e8 -\staccato
                             r8
                             r8
-                            cs8
+                            cs8 -\staccato
                             r8
                             r8
                             r8
                             r8
                             r8
-                            d8
+                            d8 -\staccato
                             r8
                             r8
                         }

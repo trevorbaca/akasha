@@ -400,7 +400,7 @@
                         bf'2. \pp
                             ^ \markup {
                                 \upright
-                                    "tasto + XFB flaut."
+                                    "tasto + XFB"
                                 }
                         \once \override RepeatTie #'direction = #up
                         bf'2. \repeatTie
@@ -436,7 +436,7 @@
                         \once \override RepeatTie #'direction = #up
                         bf'1. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pos. ord. + XFB flaut."
+                                "pos. ord. + XFB"
                             }
                         \once \override RepeatTie #'direction = #up
                         \once \override TextSpanner.arrow-width = 0.25
@@ -462,7 +462,7 @@
                         \once \override RepeatTie #'direction = #up
                         bf'1 \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pont. + XFB flaut."
+                                "pont. + XFB"
                             }
                         \once \override RepeatTie #'direction = #up
                         \once \override TextSpanner.arrow-width = 0.25
@@ -490,7 +490,7 @@
                         \once \override RepeatTie #'direction = #up
                         bf'2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "XP + XFB flaut."
+                                "XP + XFB"
                             }
                         \once \override RepeatTie #'direction = #up
                         \once \override TextSpanner.arrow-width = 0.25
@@ -520,7 +520,7 @@
                         \once \override RepeatTie #'direction = #up
                         bf'2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "XP + no flaut"
+                                XP
                             }
                         \once \override RepeatTie #'direction = #up
                         bf'2 \repeatTie
@@ -631,7 +631,7 @@
                         bf2. \pp
                             ^ \markup {
                                 \upright
-                                    "tasto + XFB flaut."
+                                    "tasto + XFB"
                                 }
                         bf2. \repeatTie
                         bf1. \repeatTie
@@ -660,7 +660,7 @@
                         bf1. \repeatTie \startTextSpan
                         bf1. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pos. ord. + XFB flaut."
+                                "pos. ord. + XFB"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -684,7 +684,7 @@
                         bf2. \repeatTie \startTextSpan
                         bf1 \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pont. + XFB flaut."
+                                "pont. + XFB"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -709,7 +709,7 @@
                         bf2 \repeatTie
                         bf2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "XP + XFB flaut."
+                                "XP + XFB"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -735,7 +735,7 @@
                         bf1 \repeatTie
                         bf2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "XP + no flaut"
+                                XP
                             }
                         bf2 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -831,7 +831,7 @@
                         bf,2. \pp
                             ^ \markup {
                                 \upright
-                                    "tasto + XFB flaut."
+                                    "tasto + XFB"
                                 }
                         bf,2. \repeatTie
                         bf,1. \repeatTie
@@ -860,7 +860,7 @@
                         bf,1. \repeatTie \startTextSpan
                         bf,1. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pos. ord. + XFB flaut."
+                                "pos. ord. + XFB"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -884,7 +884,7 @@
                         bf,2. \repeatTie \startTextSpan
                         bf,1 \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pont. + XFB flaut."
+                                "pont. + XFB"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -909,7 +909,7 @@
                         bf,2 \repeatTie
                         bf,2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "XP + XFB flaut."
+                                "XP + XFB"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -935,7 +935,7 @@
                         bf,1 \repeatTie
                         bf,2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "XP + no flaut"
+                                XP
                             }
                         bf,2 \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1065,7 +1065,7 @@
                         bf,,1. \pp
                             ^ \markup {
                                 \upright
-                                    "vib. pochiss."
+                                    "vib. poco."
                                 }
                         bf,,1. \repeatTie
                         bf,,2. \repeatTie

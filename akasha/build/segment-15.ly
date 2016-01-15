@@ -300,7 +300,7 @@
                                 \column
                                     {
                                         \upright
-                                            "full bow each stroke"
+                                            "full bow strokes"
                                         \upright
                                             "terminate each note abruptly"
                                     }
@@ -310,7 +310,9 @@
                                     \italic
                                         “
                                 \dynamic
-                                    mf
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
                                 \larger
                                     \italic
                                         ”
@@ -449,7 +451,7 @@
                                 \column
                                     {
                                         \upright
-                                            "full bow each stroke"
+                                            "full bow strokes"
                                         \upright
                                             "terminate each note abruptly"
                                     }
@@ -459,7 +461,9 @@
                                     \italic
                                         “
                                 \dynamic
-                                    mf
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
                                 \larger
                                     \italic
                                         ”
@@ -528,7 +532,7 @@
                                 \column
                                     {
                                         \upright
-                                            "full bow each stroke"
+                                            "full bow strokes"
                                         \upright
                                             "terminate each note abruptly"
                                     }
@@ -538,7 +542,9 @@
                                     \italic
                                         “
                                 \dynamic
-                                    mf
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
                                 \larger
                                     \italic
                                         ”

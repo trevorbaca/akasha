@@ -560,7 +560,7 @@
                         cs2. \glissando
                         bs,1 \pp
                         R1 * 9/4
-                        c'2. \f
+                        c'2. \ff
                             ^ \markup {
                                 \upright
                                     "tasto + scratch moltiss."

@@ -378,7 +378,7 @@
                             \concat
                                 {
                                     \upright
-                                        trans.
+                                        "tasto + 1/4 scratch"
                                     \hspace
                                         #0.5
                                 }
@@ -422,7 +422,7 @@
                         fs''4. \glissando
                         e''2 \p \stopTextSpan \glissando ^ \markup {
                             \upright
-                                "FB flaut."
+                                FB
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -503,7 +503,7 @@
                         f'4. \glissando
                         ef'2. \f \stopTextSpan \glissando ^ \markup {
                             \upright
-                                "poco scratch"
+                                "1/4 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -555,7 +555,7 @@
                         fs'4. \glissando
                         e'2 \p \stopTextSpan \glissando ^ \markup {
                             \upright
-                                "FB flaut."
+                                FB
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -628,7 +628,7 @@
                         d'4. \glissando
                         e'2. \f \stopTextSpan \glissando ^ \markup {
                             \upright
-                                "poco scratch"
+                                "1/4 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -680,7 +680,7 @@
                         ef'4. \glissando
                         f'2 \p \stopTextSpan \glissando ^ \markup {
                             \upright
-                                "FB flaut."
+                                FB
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -713,7 +713,7 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        c'2
+                        c'2 -\downbow
                             ^ \markup {
                                 \upright
                                     OB
@@ -723,7 +723,9 @@
                                     \italic
                                         “
                                 \dynamic
-                                    mf
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
                                 \larger
                                     \italic
                                         ”
@@ -772,7 +774,7 @@
                         f,4. \glissando
                         d,2. \f \stopTextSpan \glissando ^ \markup {
                             \upright
-                                "poco scratch"
+                                "1/4 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -824,7 +826,7 @@
                         e,4. \glissando
                         cs,2 \p \stopTextSpan \glissando ^ \markup {
                             \upright
-                                "FB flaut."
+                                FB
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f

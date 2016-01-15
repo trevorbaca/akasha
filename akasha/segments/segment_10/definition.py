@@ -440,7 +440,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(10)),
     [
-        baca.markup.XP_FB_flaut(),
+        baca.markup.XP_FB(),
         Hairpin('ppp < mp'),
         ],
     )
@@ -453,6 +453,7 @@ segment_maker.append_specifiers(
         akasha.tools.make_getato_pitch_specifier(31, [2]),
         baca.articulations.staccati(),
         baca.markup.leggieriss(),
+        baca.markup.pos_ord(),
         Dynamic('ppp'),
         ],
     )
@@ -463,8 +464,8 @@ segment_maker.append_specifiers(
     (tutti, stages(12)),
     [
         baca.spanners.make_transition(
-            baca.markup.XP_FB_flaut(),
-            baca.markup.tasto_FB_flaut(),
+            baca.markup.XP_FB(),
+            baca.markup.tasto_FB(),
             ),
         Hairpin('ppp < mp'),
         ],

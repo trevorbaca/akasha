@@ -803,7 +803,9 @@
                                     \italic
                                         “
                                 \dynamic
-                                    ff
+                                    \override
+                                        #'(font-name . #f)
+                                        ff
                                 \larger
                                     \italic
                                         ”
@@ -888,7 +890,7 @@
                         a''4. \repeatTie
                         a''2. \ff \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + scratch moltiss."
+                                "scratch moltiss."
                             }
                         a''2.. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -916,7 +918,7 @@
                         a''1 \repeatTie
                         a''2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pos. ord. + poco scratch"
+                                "1/2 scratch"
                             }
                         a''4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -952,7 +954,7 @@
                             \concat
                                 {
                                     \upright
-                                        "senza vib."
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
@@ -981,7 +983,7 @@
                             \concat
                                 {
                                     \upright
-                                        "pos. ord."
+                                        "pos. ord. + senza vib"
                                     \hspace
                                         #0.5
                                 }
@@ -1282,7 +1284,9 @@
                                     \italic
                                         “
                                 \dynamic
-                                    ff
+                                    \override
+                                        #'(font-name . #f)
+                                        ff
                                 \larger
                                     \italic
                                         ”
@@ -1367,7 +1371,7 @@
                         gtqs'4. \repeatTie
                         gtqs'2. \ff \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + scratch moltiss."
+                                "scratch moltiss."
                             }
                         gtqs'2.. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1395,7 +1399,7 @@
                         gtqs'1 \repeatTie
                         gtqs'2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pos. ord. + poco scratch"
+                                "1/2 scratch"
                             }
                         gtqs'4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1431,7 +1435,7 @@
                             \concat
                                 {
                                     \upright
-                                        "senza vib."
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1460,7 +1464,7 @@
                             \concat
                                 {
                                     \upright
-                                        "pos. ord."
+                                        "pos. ord. + senza vib"
                                     \hspace
                                         #0.5
                                 }
@@ -1734,7 +1738,9 @@
                                     \italic
                                         “
                                 \dynamic
-                                    ff
+                                    \override
+                                        #'(font-name . #f)
+                                        ff
                                 \larger
                                     \italic
                                         ”
@@ -1819,7 +1825,7 @@
                         aqs,4. \repeatTie
                         aqs,2. \ff \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + scratch moltiss."
+                                "scratch moltiss."
                             }
                         aqs,2.. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1847,7 +1853,7 @@
                         aqs,1 \repeatTie
                         aqs,2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pos. ord. + poco scratch"
+                                "1/2 scratch"
                             }
                         aqs,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1883,7 +1889,7 @@
                             \concat
                                 {
                                     \upright
-                                        "senza vib."
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1912,7 +1918,7 @@
                             \concat
                                 {
                                     \upright
-                                        "pos. ord."
+                                        "pos. ord. + senza vib"
                                     \hspace
                                         #0.5
                                 }
@@ -2185,7 +2191,9 @@
                                     \italic
                                         “
                                 \dynamic
-                                    ff
+                                    \override
+                                        #'(font-name . #f)
+                                        ff
                                 \larger
                                     \italic
                                         ”
@@ -2270,7 +2278,7 @@
                         a,,4. \repeatTie
                         a,,2. \ff \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + scratch moltiss."
+                                "scratch moltiss."
                             }
                         a,,2.. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2298,7 +2306,7 @@
                         a,,1 \repeatTie
                         a,,2. \repeatTie \stopTextSpan ^ \markup {
                             \upright
-                                "pos. ord. + poco scratch"
+                                "1/2 scratch"
                             }
                         a,,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2334,7 +2342,7 @@
                             \concat
                                 {
                                     \upright
-                                        "senza vib."
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2363,7 +2371,7 @@
                             \concat
                                 {
                                     \upright
-                                        "pos. ord."
+                                        "pos. ord. + senza vib"
                                     \hspace
                                         #0.5
                                 }
