@@ -15,7 +15,8 @@ stage_specifier = baca.tools.StageSpecifier([
     1, Fermata('longfermata'), # 4-5
     2, Fermata('longfermata'), # 6-7
     12, # 8
-    4, 4,
+    4,
+    4,
     4, Fermata(), # 11-12
     6, Fermata(), # 13-14
     1, Fermata(), # 15-16
@@ -48,6 +49,7 @@ volta_map = baca.tools.VoltaMap([
     ])
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_clock_time=True,
     #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
@@ -522,8 +524,8 @@ segment_maker.append_specifiers(
     (vc, stages(1)),
     [
         akasha.tools.make_cello_solo_pitch_specifier(transposition=1),
-        baca.markup.leggieriss(),
         baca.markup.tasto_poco_scratch(),
+        Clef('treble'),
         Dynamic('mp'),
         ],
     )
@@ -531,15 +533,8 @@ segment_maker.append_specifiers(
 ### stages 2-3 ###
 
 segment_maker.append_specifiers(
-    (vc, stages(1)),
-    [
-        Clef('treble'),
-        ],
-    )
-segment_maker.append_specifiers(
     (vn_1, stages(2)),
     [
-        #akasha.tools.make_getato_pitch_specifier([27, 29, 31, 33]),
         akasha.tools.make_getato_pitch_specifier(27, [2]),
         baca.articulations.staccati(),
         ],
@@ -548,7 +543,6 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(2)),
     [
-        #akasha.tools.make_getato_pitch_specifier([24, 26, 28, 30]),
         akasha.tools.make_getato_pitch_specifier(24, [2]),
         baca.articulations.staccati(),
         ],
@@ -559,6 +553,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier(21, [2]),
         baca.articulations.staccati(),
+        baca.markup.leggieriss(),
         Dynamic('pp'),
         ],
     )

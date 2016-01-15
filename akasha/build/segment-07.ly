@@ -2380,13 +2380,8 @@
                         \clef "treble"
                         f4.. \mp
                             ^ \markup {
-                                \column
-                                    {
-                                        \upright
-                                            leggieriss.
-                                        \upright
-                                            "tasto + poco scratch"
-                                    }
+                                \upright
+                                    "tasto + poco scratch"
                                 }
                         gf16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -2398,6 +2393,10 @@
                         \times 8/14 {
                             r16
                             a''16 -\staccato \pp [
+                                ^ \markup {
+                                    \upright
+                                        leggieriss.
+                                    }
                             bf''16 -\staccato
                             a''16 -\staccato
                             af''16 -\staccato
