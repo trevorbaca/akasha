@@ -245,7 +245,7 @@
                         ds'4 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         e'2..
                         f'4
@@ -290,7 +290,7 @@
                             c''16 * 487/64 \pp [
                                 ^ \markup {
                                     \upright
-                                        "tasto + XFB flaut."
+                                        "tasto + XFB"
                                     }
                             bf'16 * 209/32
                             c''16 * 143/32

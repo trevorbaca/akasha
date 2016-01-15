@@ -256,7 +256,15 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     \mark #4
-                    s1 * 3/8 ^ \markup {
+                    s1 * 3/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D1]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -319,12 +327,26 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D2]
+                            }
                 }
                 {
                     \time 9/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 9/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D3]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -372,12 +394,26 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D4]
+                            }
                 }
                 {
                     \time 8/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D5]
+                            }
                 }
                 {
                     \time 9/8
@@ -402,12 +438,26 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D6]
+                            }
                 }
                 {
                     \time 9/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 9/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D7]
+                            }
                 }
                 {
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -454,12 +504,27 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D8]
+                            }
                 }
                 {
                     \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 3/8 ^ \markup {
+                    s1 * 3/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D9]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -493,12 +558,26 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                     \newSpacingSection
                     s1 * 3/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D10]
+                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D11]
+                            }
                 }
                 {
                     \time 6/8
@@ -537,6 +616,13 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 3/4 \startTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D12]
+                            }
                 }
                 {
                     \time 7/8
@@ -560,12 +646,26 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D13]
+                            }
                 }
                 {
                     \time 8/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 1
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D14]
+                            }
                 }
                 {
                     \time 9/8
@@ -588,7 +688,15 @@
                     \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
-                    s1 * 3/8 \stopTextSpan ^ \markup {
+                    s1 * 3/8 \stopTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D15]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -621,12 +729,26 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \newSpacingSection
                     s1 * 7/8
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D16]
+                            }
                 }
                 {
                     \time 1/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \newSpacingSection
                     s1 * 1/4
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [D17]
+                            }
                 }
             }
         >>
@@ -656,9 +778,9 @@
                         \once \override NoteHead #'style = #'harmonic
                         \ottava #1
                         cs''''4. \mp
-                            _ \markup {
+                            ^ \markup {
                                 \upright
-                                    II
+                                    "5°/A4(II) + vib. mod."
                                 }
                         \once \override NoteHead #'style = #'harmonic
                         cs''''2 \repeatTie
@@ -674,8 +796,10 @@
                         cs''''2 \repeatTie
                         \once \override NoteHead #'style = #'harmonic
                         cs''''1 \repeatTie
+                        \ottava #0
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
+                        \ottava #1
                         cs''''2.
                         \once \override NoteHead #'style = #'harmonic
                         cs''''4. \repeatTie
@@ -703,7 +827,7 @@
                         a'1 -\downbow \ppp \glissando
                             ^ \markup {
                                 \upright
-                                    "XP + full bow strokes"
+                                    "XP + senza vib. + full bow strokes"
                                 }
                         \once \override NoteHead #'style = #'harmonic
                         c''2. -\upbow \glissando
@@ -715,56 +839,56 @@
                         ef'4. -\downbow
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        fs'2. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        c''2. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        fs''4. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        ef''2 -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        c''1 -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        ef''2 -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        fs''2.. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a''2.. -\downbow
-                        R1 * 1/4
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        ef''2. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        fs''2 -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a''4. -\downbow
-                        R1 * 1/4
-                        \once \override NoteHead #'style = #'harmonic
-                        ef'''2. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a''2.. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        c'''2.. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\downbow
-                        R1 * 1/4
-                        \once \override NoteHead #'style = #'harmonic
-                        fs'1 -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        ef'2. -\downbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        a'4. -\upbow \glissando
-                        \once \override NoteHead #'style = #'harmonic
                         fs'2. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
                         a'4. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        c''2 -\downbow
+                        c''2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''4. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''1 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2 -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''2.. -\upbow
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef''2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs''2 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''4. -\upbow
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'''2. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a''2.. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c'''2.. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\upbow
+                        R1 * 1/4
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'1 -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        ef'2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        fs'2. -\upbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        a'4. -\downbow \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        c''2 -\upbow
                         R1 * 25/8
                         \bar "|"
                     }
@@ -819,15 +943,15 @@
                         ef''2 -\downbow
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
-                        fs'1 -\upbow \glissando
+                        fs'1 -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a'2. -\downbow \glissando
+                        a'2. -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        c''4. -\upbow \glissando
+                        c''4. -\downbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        fs''2 -\downbow \glissando
+                        fs''2 -\upbow \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        ef''4. -\upbow
+                        ef''4. -\downbow
                         R1 * 1/4
                         \once \override NoteHead #'style = #'harmonic
                         a'2. -\downbow \glissando
@@ -890,9 +1014,9 @@
                         \once \override NoteHead #'style = #'harmonic
                         \clef "treble"
                         gqf''4. \mp
-                            _ \markup {
+                            ^ \markup {
                                 \upright
-                                    IV
+                                    "7°/A2(IV) + vib. mod."
                                 }
                         \once \override NoteHead #'style = #'harmonic
                         gqf''2 \repeatTie
@@ -968,7 +1092,7 @@
                         ff4. \glissando \> \sf
                             ^ \markup {
                                 \upright
-                                    tasto
+                                    "tasto + senza vib."
                                 }
                         e2. \glissando
                         ds2 \glissando
@@ -1021,9 +1145,9 @@
                         \once \override NoteHead #'style = #'harmonic
                         \clef "treble"
                         d''4. \mp
-                            _ \markup {
+                            ^ \markup {
                                 \upright
-                                    IV
+                                    "11°/A1(IV) + vib. mod."
                                 }
                         \once \override NoteHead #'style = #'harmonic
                         d''2 \repeatTie
@@ -1079,7 +1203,7 @@
                         g,2. -\downbow \ppp \glissando
                             ^ \markup {
                                 \upright
-                                    "XP + full bow strokes"
+                                    "XP + senza vib. + full bow strokes"
                                 }
                         \once \override NoteHead #'style = #'harmonic
                         bf,4. -\upbow \glissando

@@ -13,9 +13,9 @@ K: B[24]
 L, M: A[18], A[21]
 N: B[30]
 
-intro (15")
+intro (8")
 
-[A] (30")
+[A] (72")
     1-2 (2 + long fermata)
     microtonal cello line;
     long fermata;
@@ -52,7 +52,7 @@ intro (15")
     dialogue with ext. thin get. pianiss.;
     short fermata;
 
-[B] (30")
+[B] (31")
 
     1 (3)[55]
     two-voice microtonal harmonies;
@@ -69,7 +69,7 @@ intro (15")
     timed together with first appearance of detuned va, vc octave;
     attaca;
 
-[C] (45")
+[C] (96")
 
     1-8 (4x: 1 + fermata)
     sputtering exposition of detuned va, vc octave with glissandi lentiss.;
@@ -112,7 +112,7 @@ intro (15")
     segment ends with question mark;
     long fermata;
 
-[D] (45")
+[D] (89")
 
     1-2 (8 + short fermata)[126]
     three-note vn1, va, vc spectral chord freezes time;
@@ -543,11 +543,11 @@ intro (15")
     4 (1)
     very long fermata.
 
-in. 15"
-A   15"
-B   30"
-C   45"
-D   45"
+(i) 8" + 1 very long fermata
+A   72" + 3 short fermatas + 5 long fermatas
+B   31" + 2 short fermatas + 1 long fermata
+C   96" + 9 fermatas + 1 long fermata
+D   89" + 3 short fermatas + 3 fermatas + 1 long fermata
 E   2'
 F   3'
 G   1'

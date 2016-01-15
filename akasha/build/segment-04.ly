@@ -385,10 +385,22 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        b'1. \mp
+                        b'1.
                             ^ \markup {
                                 \upright
-                                    "OB (no pitch)"
+                                    OB
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
+                                \larger
+                                    \italic
+                                        ”
                                 }
                         \once \override RepeatTie #'direction = #up
                         b'1 \repeatTie
@@ -453,10 +465,22 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        b'1. \mp
+                        b'1.
                             ^ \markup {
                                 \upright
-                                    "OB (no pitch)"
+                                    OB
+                                }
+                            _ \markup {
+                                \larger
+                                    \italic
+                                        “
+                                \dynamic
+                                    \override
+                                        #'(font-name . #f)
+                                        mf
+                                \larger
+                                    \italic
+                                        ”
                                 }
                         \once \override RepeatTie #'direction = #up
                         b'1 \repeatTie
@@ -536,16 +560,16 @@
                         cs2. \glissando
                         bs,1 \pp
                         R1 * 9/4
-                        c'2. \mf
+                        c'2. \f
                             ^ \markup {
                                 \upright
-                                    "tasto + scratch"
+                                    "tasto + scratch moltiss."
                                 }
                         R1 * 15/4
                         ds'4 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         dtqs'4.
                         e'4.
@@ -591,6 +615,10 @@
                         R1 * 3/2
                         \times 8/9 {
                             cs32 -\staccato \p [
+                                ^ \markup {
+                                    \upright
+                                        leggieriss.
+                                    }
                             c32 -\staccato ]
                             r8..
                         }
@@ -612,7 +640,7 @@
                         c'1 \mp
                             ^ \markup {
                                 \upright
-                                    "tasto + poco scratch"
+                                    "tasto + 1/2 scratch"
                                 }
                         R1 * 1/4
                         cs,1. \> \mp
