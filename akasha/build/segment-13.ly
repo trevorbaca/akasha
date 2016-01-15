@@ -160,7 +160,6 @@
                     }
                 }
                 \context ViolaMusicStaff = "Viola Music Staff" {
-                    \clef "alto"
                     \set Staff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -175,6 +174,7 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \clef "alto"
                         c'1 -\downbow
                             ^ \markup {
                                 \upright
@@ -199,7 +199,7 @@
                     }
                 }
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "bass"
+                    \clef "treble"
                     \set Staff.instrumentName = \markup {
                     \hcenter-in
                         #16
@@ -212,15 +212,11 @@
                     }
                     \context CelloMusicVoice = "Cello Music Voice" {
                         R1 * 3
+                        \clef "bass"
                         bf,,1. \pp
                             ^ \markup {
-                                \column
-                                    {
-                                        \upright
-                                            ord.
-                                        \upright
-                                            "pochiss. vib."
-                                    }
+                                \upright
+                                    "pos. ord. + vib. pochiss."
                                 }
                         bf,,2. \repeatTie
                         \bar "|"

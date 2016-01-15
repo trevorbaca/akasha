@@ -300,10 +300,11 @@
         \override StemTremolo.beam-width = 1.5
         \override StemTremolo.flag-count = 4
         \override StemTremolo.slope = 0.5
+        \override TextScript.font-name = #"Palatino"
+        \override TextScript.padding = 1
         \override TextScript.X-extent = ##f
         \override TextScript.Y-extent = #'(-1.5 . 1.5)
-        \override TextScript.padding = 1
-        \override TextSpanner.staff-padding = 2 % HERE
+        \override TextSpanner.staff-padding = 2
         \override TrillSpanner.bound-details.right.padding = 2
         \override TupletBracket.breakable = ##t
         \override TupletBracket.full-length-to-extent = ##f

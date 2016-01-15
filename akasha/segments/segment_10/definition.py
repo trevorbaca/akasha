@@ -370,7 +370,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(7, 9)),
     [
-        baca.articulations.alternate_bow_strokes(),
+        baca.articulations.alternate_bow_strokes(downbow_first=False),
         ],
     )
 

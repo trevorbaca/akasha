@@ -30,6 +30,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    #label_clock_time=True,
     #label_stage_numbers=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
@@ -73,15 +74,16 @@ segment_maker.append_specifiers(
         baca.markup.OB(),
         baca.pitch.pitches('C4'),
         baca.spanners.one_line_staff(),
+        Clef('alto'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(5)),
     [
-        baca.markup.ord_(),
-        baca.markup.pochiss_vib(),
+        baca.markup.pos_ord_vib_pochiss(),
         baca.pitch.pitches('Bb1'),
+        Clef('bass'),
         Dynamic('pp'),
         ],
     )
