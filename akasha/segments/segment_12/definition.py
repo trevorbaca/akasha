@@ -55,6 +55,7 @@ volta_map = baca.tools.VoltaMap([
 
 segment_maker = baca.tools.SegmentMaker(
     #label_stage_numbers=True,
+    #label_clock_time=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     spacing_specifier=spacing_specifier,
@@ -90,7 +91,6 @@ segment_maker.append_specifiers(
     (tutti, stages(12)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
-
 
 segment_maker.append_specifiers(
     (vc, stages(14, 17)),
@@ -219,7 +219,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.ord_poco_scratch(),
+            baca.markup.pos_ord_poco_scratch(),
             ),
         ],
     )
@@ -229,7 +229,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.trans(),
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             ),
         ],
     )
@@ -286,7 +286,7 @@ segment_maker.append_specifiers(
     (tutti, stage_leaves(9, 0, 3)),
     [
         baca.spanners.make_transition(
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             baca.markup.XP(),
             ),
         Hairpin('sffp < fff'),
@@ -299,7 +299,7 @@ segment_maker.append_specifiers(
         Hairpin('fff > p'),
         baca.spanners.make_transition(
             baca.markup.XP(),
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             ),
         ],
     )
@@ -338,7 +338,7 @@ segment_maker.append_specifiers(
     (tutti, stage_leaves(10, 0, 2)),
     [
         baca.spanners.make_transition(
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             baca.markup.XP(),
             ),
         Hairpin('sffp < fff'),
@@ -350,7 +350,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.XP(),
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             ),
         Hairpin('fff > p'),
         ],
@@ -359,30 +359,62 @@ segment_maker.append_specifiers(
 ### stages 12-21 ###
 
 segment_maker.append_specifiers(
-    (vn_1, stages(12, 21)),
+    (vn_1, stages(12, 16)),
     [
         baca.pitch.pitches('A5'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (vn_2, stages(12, 21)),
+    (vn_1, stages(17, 21)),
+    [
+        baca.overrides.natural_harmonics(),
+        baca.pitch.pitches('B7'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(12, 15)),
     [
         baca.pitch.pitches('A4'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (va, stages(12, 21)),
+    (vn_2, stages(16, 21)),
+    [
+        baca.overrides.natural_harmonics(),
+        baca.pitch.pitches('C#7'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (va, stages(12, 14)),
     [
         baca.pitch.pitches('A2'),
         ],
     )
 
 segment_maker.append_specifiers(
-    (vc, stages(12, 21)),
+    (va, stages(15, 21)),
+    [
+        baca.overrides.natural_harmonics(),
+        baca.pitch.pitches('G~5'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(12)),
     [
         baca.pitch.pitches('A1'),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vc, stages(14, 21)),
+    [
+        baca.overrides.natural_harmonics(),
+        baca.pitch.pitches('D5'),
         ],
     )
 
@@ -390,7 +422,7 @@ segment_maker.append_specifiers(
     (tutti, stage_leaves(12, 0, -1)),
     [
         baca.spanners.make_transition(
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             baca.markup.tasto_moltiss(),
             ),
         Hairpin('sffp > pp'),
@@ -402,16 +434,15 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(14, 17)),
     [
-        baca.markup.make_markup('(A1/11°)'),
-        baca.markup.make_string_number(4),
-        baca.spanners.pervasive_trills_at_pitch('D5', is_harmonic=True),
+        baca.markup.make_markup('pos. ord. + 11°/A1(IV)'),
+        baca.spanners.pervasive_trills(),
+        Clef('treble'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stage_leaves((14, 15), 0, 4)),
     [
-        baca.markup.ord_(),
         Hairpin('sffp < f'),
         ],
     )
@@ -421,16 +452,15 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(15, 17)),
     [
-        baca.markup.make_markup('(A2/9°)'),
-        baca.markup.make_string_number(4),
-        baca.spanners.pervasive_trills_at_pitch('G~5', is_harmonic=True),
+        baca.markup.make_markup('pos. ord. + 7°/A2(IV)'),
+        baca.spanners.pervasive_trills(),
+        Clef('treble'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stage_leaves((15, 16), 0, 4)),
     [
-        baca.markup.ord_(),
         Hairpin('sffp < f'),
         ],
     )
@@ -440,16 +470,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(16, 17)),
     [
-        baca.markup.make_markup('(A4/5°)'),
-        baca.markup.make_string_number(4),
-        baca.spanners.pervasive_trills_at_pitch('C#7', is_harmonic=True),
+        baca.spanners.ottava(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_2, stages(16, 17)),
+    [
+        baca.markup.make_markup('pos. ord. + 5°/A4(II)'),
+        baca.spanners.pervasive_trills(),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stage_leaves((16, 17), 0, 4)),
     [
-        baca.markup.ord_(),
         Hairpin('sffp < f'),
         ],
     )
@@ -459,10 +494,15 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
     [
-        baca.markup.make_markup('(A4/9°)'),
-        baca.markup.make_string_number(4),
-        baca.markup.ord_(),
-        baca.spanners.pervasive_trills_at_pitch('B7', is_harmonic=True),
+        baca.spanners.ottava(),
+        ],
+    )
+
+segment_maker.append_specifiers(
+    (vn_1, stages(17)),
+    [
+        baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
+        baca.spanners.pervasive_trills(),
         Hairpin('sffp < f'),
         ],
     )
@@ -470,30 +510,9 @@ segment_maker.append_specifiers(
 ### stage 19 ###
 
 segment_maker.append_specifiers(
-    (vn_1, stages(19)),
+    ([vn_1, vn_2], stages(19, 22)),
     [
-        baca.spanners.pervasive_trills_at_pitch('B7', is_harmonic=True),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (vn_2, stages(19)),
-    [
-        baca.spanners.pervasive_trills_at_pitch('C#7', is_harmonic=True),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(19)),
-    [
-        baca.spanners.pervasive_trills_at_pitch('G~5', is_harmonic=True),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(19)),
-    [
-        baca.spanners.pervasive_trills_at_pitch('D5', is_harmonic=True),
+        baca.spanners.ottava(),
         ],
     )
 
@@ -505,10 +524,17 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
+    (tutti, stages(19)),
+    [
+        baca.spanners.pervasive_trills(),
+        ],
+    )
+
+segment_maker.append_specifiers(
     (tutti, stage_leaves(19, 0, 3)),
     [
         baca.spanners.make_transition(
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             baca.markup.XP(),
             ),
         Hairpin('sf < fff'),
@@ -520,7 +546,7 @@ segment_maker.append_specifiers(
     [
         baca.spanners.make_transition(
             baca.markup.XP(),
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             ),
         Hairpin('fff > f'),
         ],
@@ -529,38 +555,17 @@ segment_maker.append_specifiers(
 ### stages 20-21 ###
 
 segment_maker.append_specifiers(
-    (vn_1, stages(20, 21)),
+    (tutti, stages(20, 21)),
     [
-        baca.spanners.pervasive_trills_at_pitch('B7', is_harmonic=True),
+        baca.spanners.pervasive_trills(),
         ],
     )
 
 segment_maker.append_specifiers(
-    (vn_2, stages(20, 21)),
-    [
-        baca.spanners.pervasive_trills_at_pitch('C#7', is_harmonic=True),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (va, stages(20, 21)),
-    [
-        baca.spanners.pervasive_trills_at_pitch('G~5', is_harmonic=True),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (vc, stages(20, 21)),
-    [
-        baca.spanners.pervasive_trills_at_pitch('D5', is_harmonic=True),
-        ],
-    )
-
-segment_maker.append_specifiers(
-    (tutti, stage_leaves(20, 0, 4)),
+    (tutti, stage_leaves((20, 21), 0, 4)),
     [
         baca.spanners.make_transition(
-            baca.markup.ord_(),
+            baca.markup.pos_ord(),
             baca.markup.XP(),
             ),
         Hairpin('sffp < fff'),
