@@ -11,6 +11,7 @@ def make_sparse_getato_rhythm_specifier(
     ):
     return baca.tools.RhythmSpecifier(
         division_expression=baca.rhythm.make_strict_quarter_divisions(),
+        rewrite_meter=True,
         rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
             talea=rhythmmakertools.Talea(
