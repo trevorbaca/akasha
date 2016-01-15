@@ -397,7 +397,7 @@
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         R1 * 6
                         \once \override RepeatTie #'direction = #up
-                        bf'2. \ppp
+                        bf'2. \pp
                             ^ \markup {
                                 \upright
                                     "tasto + XFB flaut."
@@ -628,7 +628,7 @@
                     }
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 6
-                        bf2. \ppp
+                        bf2. \pp
                             ^ \markup {
                                 \upright
                                     "tasto + XFB flaut."
@@ -828,7 +828,7 @@
                     }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         R1 * 6
-                        bf,2. \ppp
+                        bf,2. \pp
                             ^ \markup {
                                 \upright
                                     "tasto + XFB flaut."
@@ -1034,7 +1034,7 @@
                             \concat
                                 {
                                     \upright
-                                        "vib. pochiss."
+                                        trans.
                                     \hspace
                                         #0.5
                                 }
