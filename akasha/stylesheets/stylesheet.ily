@@ -1,6 +1,7 @@
 #(set-default-paper-size "11x17" 'landscape)
 #(set-global-staff-size 12)
 
+\include "/Users/trevorbaca/Documents/baca/baca/stylesheets/scheme.ily"
 \include "default-instrument-names.ily"
 
 \paper {
@@ -52,7 +53,7 @@
         (padding . 0)
         (stretchability . 0)
     )
-    %systems-per-page = 3
+    systems-per-page = 3
     top-markup-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 18)

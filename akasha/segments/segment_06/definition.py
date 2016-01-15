@@ -44,7 +44,7 @@ segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     #label_stage_numbers=True,
-    #spacing_specifier=spacing_specifier,
+    spacing_specifier=spacing_specifier,
     tempo_map=tempo_map,
     time_signatures=time_signatures,
     )
