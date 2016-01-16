@@ -276,7 +276,8 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn_1, stages(9, 10)),
+    #(vn_1, stages(9, 10)),
+    (tutti, stages(9, 10)),
     [
         baca.markup.make_boxed_repeat_count(6),
         ],
@@ -517,7 +518,8 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vn_1, stages(19)),
+    #(vn_1, stages(19)),
+    (tutti, stages(19)),
     [
         baca.markup.make_boxed_repeat_count(6),
         ],

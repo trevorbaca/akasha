@@ -1480,6 +1480,17 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a'4. \< \sffp \startTextSpan
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.5)
+                                    \box
+                                        \upright
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                                }
                         a'2 \repeatTie
                         a'1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
@@ -1634,6 +1645,17 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \ottava #1
                         cs''''4. \< \sf \startTextSpan \startTrillSpan
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.5)
+                                    \box
+                                        \upright
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                                }
                         \once \override NoteHead #'style = #'harmonic
                         cs''''2. \repeatTie
                         \once \override NoteHead #'style = #'harmonic
@@ -1935,6 +1957,17 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,4. \< \sffp \startTextSpan
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.5)
+                                    \box
+                                        \upright
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                                }
                         a,2 \repeatTie
                         a,1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
@@ -2089,6 +2122,17 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gqf''4. \< \sf \startTextSpan \startTrillSpan
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.5)
+                                    \box
+                                        \upright
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                                }
                         \once \override NoteHead #'style = #'harmonic
                         gqf''2. \repeatTie
                         \once \override NoteHead #'style = #'harmonic
@@ -2389,6 +2433,17 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,4. \< \sffp \startTextSpan
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.5)
+                                    \box
+                                        \upright
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                                }
                         a,,2 \repeatTie
                         a,,1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \upright
@@ -2545,6 +2600,17 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d''4. \< \sf \startTextSpan \startTrillSpan
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.5)
+                                    \box
+                                        \upright
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                                }
                         \once \override NoteHead #'style = #'harmonic
                         d''2. \repeatTie
                         \once \override NoteHead #'style = #'harmonic

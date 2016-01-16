@@ -667,6 +667,7 @@
                     \newSpacingSection
                     s1 * 1/4
                 }
+                \pageBreak % MANUAL
             }
         >>
         \context MusicContext = "Music Context" {
@@ -2002,8 +2003,20 @@
                             r16
                             d'''16 -\staccato \pp [
                                 ^ \markup {
-                                    \upright
-                                        leggieriss.
+                                    \column
+                                        {
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    \upright
+                                                        \fontsize
+                                                            #6
+                                                            \bold
+                                                                \sans
+                                                                    x6
+                                            \upright
+                                                leggieriss.
+                                        }
                                     }
                             ef'''16 -\staccato
                             d'''16 -\staccato
@@ -2340,8 +2353,20 @@
                             r16
                             b''16 -\staccato \pp [
                                 ^ \markup {
-                                    \upright
-                                        leggieriss.
+                                    \column
+                                        {
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    \upright
+                                                        \fontsize
+                                                            #6
+                                                            \bold
+                                                                \sans
+                                                                    x6
+                                            \upright
+                                                leggieriss.
+                                        }
                                     }
                             c'''16 -\staccato
                             b''16 -\staccato
@@ -2742,8 +2767,20 @@
                             r16
                             af''16 -\staccato \pp [
                                 ^ \markup {
-                                    \upright
-                                        leggieriss.
+                                    \column
+                                        {
+                                            \override
+                                                #'(box-padding . 0.5)
+                                                \box
+                                                    \upright
+                                                        \fontsize
+                                                            #6
+                                                            \bold
+                                                                \sans
+                                                                    x6
+                                            \upright
+                                                leggieriss.
+                                        }
                                     }
                             a''16 -\staccato
                             af''16 -\staccato
