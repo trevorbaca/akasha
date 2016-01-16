@@ -1,6 +1,7 @@
     \context Score = "Score" \with {
         currentBarNumber = #152
     } <<
+        \tag violin_one.violin_two.viola.cello
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
@@ -670,6 +671,7 @@
         >>
         \context MusicContext = "Music Context" {
             \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+                \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \clef "treble"
                     \set Staff.instrumentName = \markup {
@@ -1149,7 +1151,7 @@
                         f''2. \repeatTie
                         f''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + scratch moltiss."
+                                "scratch moltiss."
                             }
                         R1 * 1/4
                         \times 8/14 {
@@ -1379,6 +1381,7 @@
                         \bar "|"
                     }
                 }
+                \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \clef "treble"
                     \set Staff.instrumentName = \markup {
@@ -1823,7 +1826,7 @@
                         fs'2. \repeatTie
                         fs'2 \repeatTie \f \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + scratch moltiss."
+                                "scratch moltiss."
                             }
                         R1 * 1/4
                         \times 8/12 {
@@ -2040,6 +2043,7 @@
                         \bar "|"
                     }
                 }
+                \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \clef "alto"
                     \set Staff.instrumentName = \markup {
@@ -2138,7 +2142,7 @@
                         ds'2. \repeatTie
                         ds'2 \repeatTie \f \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + scratch moltiss."
+                                "scratch moltiss."
                             }
                         R1 * 1/4
                         \times 8/11 {
@@ -2401,6 +2405,7 @@
                         \bar "|"
                     }
                 }
+                \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \set Staff.instrumentName = \markup {
                     \hcenter-in
@@ -2562,7 +2567,7 @@
                         df,2. \repeatTie
                         df,2 \repeatTie \f \stopTextSpan ^ \markup {
                             \upright
-                                "tasto + scratch moltiss."
+                                "scratch moltiss."
                             }
                         R1 * 1/4
                         \times 4/6 {

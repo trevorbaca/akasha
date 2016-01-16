@@ -1,6 +1,7 @@
     \context Score = "Score" \with {
         currentBarNumber = #369
     } <<
+        \tag violin_one.violin_two.viola.cello
         \context TimeSignatureContext = "Time Signature Context" <<
             \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
                 {
@@ -270,6 +271,7 @@
         >>
         \context MusicContext = "Music Context" {
             \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+                \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \clef "treble"
                     \set Staff.instrumentName = \markup {
@@ -359,6 +361,7 @@
                         \bar "|."
                     }
                 }
+                \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \clef "treble"
                     \set Staff.instrumentName = \markup {
@@ -429,6 +432,7 @@
                         \bar "|."
                     }
                 }
+                \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \clef "alto"
                     \set Staff.instrumentName = \markup {
@@ -510,6 +514,7 @@
                         \bar "|."
                     }
                 }
+                \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \clef "bass"
                     \set Staff.instrumentName = \markup {
