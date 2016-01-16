@@ -1,0 +1,13 @@
+lily parts-music-violin-1.ly
+pdflatex parts-violin-1.tex
+
+lily parts-music-violin-2.ly
+pdflatex parts-violin-2.tex
+
+lily parts-music-viola.ly
+pdflatex parts-viola.tex
+
+lily parts-music-cello.ly
+pdflatex parts-cello.tex
+
+rmlx

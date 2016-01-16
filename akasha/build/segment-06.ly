@@ -514,6 +514,7 @@
                     \newSpacingSection
                     s1 * 1/4
                 }
+                \pageBreak % MANUAL
             }
         >>
         \context MusicContext = "Music Context" {
