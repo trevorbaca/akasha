@@ -6,9 +6,9 @@ metadata = datastructuretools.TypedOrderedDict(
     [
         ('catalog_number', 'AWN-016'),
         ('composer', 'Ba\xc4\x8da'),
-        ('forces_agline', 'for string quartet'),
+        ('forces_tagline', 'for string quartet'),
         ('paper_dimensions', '17 x 11 in'),
-        ('price', '\\euro 54 / \\$60'),
+        ('price', '\\$60 / \\euro 54'),
         ('title', 'Akasha'),
         ('year', 2015),
         ]
