@@ -1,20 +1,4 @@
-1.  Make RhythmSpecifier.rewrite_meter work when
-    RhythmSpecifier.division_expression selects only part of a stage.
-    Example:
-        baca.tools.RhythmSpecifier(
-            division_expression=sequence()
-                .partition_by_ratio_of_lengths(Ratio((1, 1)))
-                [0]
-                ,
-            rewrite_meter=True,
-            rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
-            )
-
-2.  Optimize SpacingSpecifier.__call__().
-
-3.  Optimize SegmentMaker generally.
-
-4.  Partials:
+1.  Partials:
 
         vc      va      vn
         
