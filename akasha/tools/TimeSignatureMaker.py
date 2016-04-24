@@ -24,13 +24,13 @@ class TimeSignatureMaker(object):
         series,
         rotation,
         stage_specifier,
-        tempo_map,
+        tempo_specifier,
         repeat_count=None,
         ):
         self._series = series
         self._rotation = rotation
         self._stage_specifier = stage_specifier
-        self._tempo_map = tempo_map
+        self._tempo_map = tempo_specifier
         self._repeat_count = repeat_count
 
     ### SPECIAL METHODS ###
@@ -67,9 +67,9 @@ class TimeSignatureMaker(object):
         measures_per_stage = [len(_) for _ in time_signature_groups]
         time_signatures = sequencetools.flatten_sequence(time_signature_groups)
         fermata_entries = self.stage_specifier.make_fermata_entries()
-        items = self.tempo_map.items + fermata_entries
-        tempo_map = baca.tools.TempoMap(items=items)
-        return measures_per_stage, tempo_map, time_signatures
+        items = self.tempo_specifier.items + fermata_entries
+        tempo_specifier = baca.tools.TempoSpecifier(items=items)
+        return measures_per_stage, tempo_specifier, time_signatures
 
     ### PUBLIC PROPERTIES ###
 
@@ -98,7 +98,7 @@ class TimeSignatureMaker(object):
         return self._stage_specifier
 
     @property
-    def tempo_map(self):
+    def tempo_specifier(self):
         r'''Gets tempo map.
         '''
         return self._tempo_map
