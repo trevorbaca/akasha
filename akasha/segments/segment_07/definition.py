@@ -24,7 +24,7 @@ stage_specifier = baca.tools.StageSpecifier([
     1, Fermata(), # 19-20
     ])
 
-tempo_map = baca.tools.TempoMap([
+tempo_specifier = baca.tools.TempoSpecifier([
     (1, akasha.materials.tempi[44]),
     (2, akasha.materials.tempi[126]),
     (4, akasha.materials.tempi[55]),
@@ -36,15 +36,15 @@ tempo_map = baca.tools.TempoMap([
     (19, akasha.materials.tempi[55]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker('A', 9, stage_specifier, tempo_map)
-measures_per_stage, tempo_map, time_signatures = maker()
+maker = akasha.tools.TimeSignatureMaker('A', 9, stage_specifier, tempo_specifier)
+measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
     fermata_measure_width=Duration(1, 4),
     minimum_width=Duration(1, 12),
     )
 
-volta_map = baca.tools.VoltaMap([
+volta_specifier = baca.tools.VoltaSpecifier([
     baca.tools.MeasureExpression(-4, -2),
     ])
 
@@ -54,9 +54,9 @@ segment_maker = baca.tools.SegmentMaker(
     measures_per_stage=measures_per_stage,
     score_package=akasha,
     spacing_specifier=spacing_specifier,
-    tempo_map=tempo_map,
+    tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
-    volta_map=volta_map,
+    volta_specifier=volta_specifier,
     )
 
 segment_maker.validate_measure_count(48)
