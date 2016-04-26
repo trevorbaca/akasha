@@ -178,8 +178,10 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(1)),
     [
-        baca.dynamics.make_effort_dynamic('ff'),
-        baca.markup.make_markup('tasto + 1 click/3-4 sec.'),
+        baca.select_.first_note(baca.dynamics.make_effort_dynamic('ff')),
+        baca.select_.first_note(
+            baca.markup.make_markup('tasto + 1 click/3-4 sec.'),
+            ),
         ],
     )
 
@@ -306,7 +308,7 @@ segment_maker.append_specifiers(
     #(vn_1, stages(9, 10)),
     (tutti, stages(9, 10)),
     [
-        baca.markup.make_boxed_repeat_count(6),
+        baca.select_.first_note(baca.markup.make_boxed_repeat_count(6)),
         ],
     )
 
@@ -492,9 +494,11 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(14, 17)),
     [
-        baca.markup.make_markup('pos. ord. + 11°/A1(IV)'),
+        baca.select_.first_note(
+            baca.markup.make_markup('pos. ord. + 11°/A1(IV)'),
+            ),
         baca.spanners.pervasive_trills(),
-        Clef('treble'),
+        baca.select_.first_leaf(Clef('treble')),
         ],
     )
 
@@ -513,9 +517,11 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(15, 17)),
     [
-        baca.markup.make_markup('pos. ord. + 7°/A2(IV)'),
+        baca.select_.first_note(
+            baca.markup.make_markup('pos. ord. + 7°/A2(IV)'),
+            ),
         baca.spanners.pervasive_trills(),
-        Clef('treble'),
+        baca.select_.first_leaf(Clef('treble')),
         ],
     )
 
@@ -541,7 +547,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(16, 17)),
     [
-        baca.markup.make_markup('pos. ord. + 5°/A4(II)'),
+        baca.select_.first_note(
+            baca.markup.make_markup('pos. ord. + 5°/A4(II)'),
+            ),
         baca.spanners.pervasive_trills(),
         ],
     )
@@ -568,7 +576,9 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
     [
-        baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
+        baca.select_.first_note(
+            baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
+            ),
         baca.spanners.pervasive_trills(),
         baca.select_.leaves(Hairpin('sffp < f')),
         ],
@@ -587,7 +597,9 @@ segment_maker.append_specifiers(
     #(vn_1, stages(19)),
     (tutti, stages(19)),
     [
-        baca.markup.make_boxed_repeat_count(6),
+        baca.select_.first_note(
+            baca.markup.make_boxed_repeat_count(6),
+            ),
         ],
     )
 
