@@ -538,7 +538,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(16, 17)),
     [
-        baca.spanners.ottava(),
+        baca.select.leaves(specifier=baca.spanners.ottava()),
         ],
     )
 
@@ -565,7 +565,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
     [
-        baca.spanners.ottava(),
+        baca.select.leaves(baca.spanners.ottava()),
         ],
     )
 
@@ -574,7 +574,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
         baca.spanners.pervasive_trills(),
-        Hairpin('sffp < f'),
+        baca.select.leaves(Hairpin('sffp < f')),
         ],
     )
 
@@ -583,7 +583,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, vn_2], stages(19, 22)),
     [
-        baca.spanners.ottava(),
+        baca.select.leaves(baca.spanners.ottava()),
         ],
     )
 
