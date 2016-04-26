@@ -137,7 +137,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(2)),
     [
-        baca.markup.tasto_XFB(),
+        baca.select_.first_note(baca.markup.tasto_XFB()),
         baca.select_.first_note(Dynamic('pp')),
         ],
     )
@@ -147,7 +147,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(4, 6)),
     [
-        baca.markup.vib_poco(),
+        baca.select_.first_note(baca.markup.vib_poco()),
         baca.select_.first_note(Dynamic('pp')),
         ],
     )
