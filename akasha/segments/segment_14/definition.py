@@ -32,7 +32,12 @@ tempo_specifier = baca.tools.TempoSpecifier([
     (11, Fermata()),
     ])
 
-maker = akasha.tools.TimeSignatureMaker('A', 21, stage_specifier, tempo_specifier)
+maker = baca.tools.TimeSignatureMaker(
+    akasha.materials.time_signatures_a,
+    rotation=21,
+    stage_specifier=stage_specifier, 
+    tempo_specifier=tempo_specifier,
+    )
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
@@ -65,8 +70,6 @@ segment_maker.append_specifiers(
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
     )
 
-### stages 2-10 ###
-
 segment_maker.append_specifiers(
     ((vn_1, vn_2, va), stages(2, 10)),
     baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
@@ -91,13 +94,19 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    (vc, stage_leaves((1, 2), 0, 9)),
+    (vc, stages(1, 2)),
     [
-        baca.spanners.make_transition(
-            baca.markup.trans(),
-            baca.markup.vib_moltiss(),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.vib_moltiss(),
+                ),
+            stop_index=9,
             ),
-        Hairpin('ppp < ff'),
+        baca.tools.SpecifierWrapper(
+            specifier=Hairpin('ppp < ff'),
+            stop_index=9,
+            ),
         ],
     )
 
@@ -144,11 +153,14 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stage_leaves(4, 0, 2)),
+    ([vn_1, vn_2, va], stages(4)),
     [
-        baca.spanners.make_transition(
-            baca.markup.trans(),
-            baca.markup.pos_ord_XFB(),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.pos_ord_XFB(),
+                ),
+            stop_index=2,
             ),
         ],
     )
@@ -156,11 +168,14 @@ segment_maker.append_specifiers(
 ### stage 5 ###
 
 segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stage_leaves(5, 0, 2)),
+    ([vn_1, vn_2, va], stages(5)),
     [
-        baca.spanners.make_transition(
-            baca.markup.trans(),
-            baca.markup.pont_XFB(),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.pont_XFB(),
+                ),
+            stop_index=2,
             ),
         ],
     )
@@ -168,11 +183,14 @@ segment_maker.append_specifiers(
 ### stage 6 ###
 
 segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stage_leaves(6, 0, 3)),
+    ([vn_1, vn_2, va], stages(6)),
     [
-        baca.spanners.make_transition(
-            baca.markup.trans(),
-            baca.markup.XP_XFB(),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.XP_XFB(),
+                ),
+            stop_index=3,
             ),
         ],
     )
@@ -180,30 +198,39 @@ segment_maker.append_specifiers(
 ### stage 7 ###
 
 segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stage_leaves(7, 0, 4)),
+    ([vn_1, vn_2, va], stages(7)),
     [
-        baca.spanners.make_transition(
-            baca.markup.trans(),
-            baca.markup.XP(),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.XP(),
+                ),
+            stop_index=4,
             ),
         ],
     )
 
 segment_maker.append_specifiers(
-    (vc, stage_leaves((7, 8), None, None)),
+    (vc, stages(7, 8)),
     [
-        Hairpin('pp > niente'),
+        baca.tools.SpecifierWrapper(
+            specifier=Hairpin('pp > niente', include_rests=True),
+            with_next_leaf=True,
+            ),
         ],
     )
 
 ### stage 8 ###
 
 segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stage_leaves(8, 0, 2)),
+    ([vn_1, vn_2, va], stages(8)),
     [
-        baca.spanners.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_fractional_OB(1, 3),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.make_fractional_OB(1, 3),
+                ),
+            stop_index=2,
             ),
         ],
     )
@@ -211,11 +238,14 @@ segment_maker.append_specifiers(
 ### stage 9 ###
 
 segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stage_leaves(9, 0, 2)),
+    ([vn_1, vn_2, va], stages(9)),
     [
-        baca.spanners.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_fractional_OB(2, 3),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.make_fractional_OB(2, 3),
+                ),
+            stop_index=2,
             ),
         ],
     )
@@ -223,11 +253,14 @@ segment_maker.append_specifiers(
 ### stage 10 ###
 
 segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stage_leaves(10, 0, 2)),
+    ([vn_1, vn_2, va], stages(10)),
     [
-        baca.spanners.make_transition(
-            baca.markup.trans(),
-            baca.markup.OB_no_pitch(),
+        baca.tools.SpecifierWrapper(
+            specifier=baca.spanners.make_transition(
+                baca.markup.trans(),
+                baca.markup.OB_no_pitch(),
+                ),
+            stop_index=2,
             ),
         ],
     )
