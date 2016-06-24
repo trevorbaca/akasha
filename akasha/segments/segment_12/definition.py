@@ -60,7 +60,7 @@ volta_specifier = baca.tools.VoltaSpecifier([
     ])
 
 segment_maker = baca.tools.SegmentMaker(
-    #label_stage_numbers=True,
+    #label_stages=True,
     #label_clock_time=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,

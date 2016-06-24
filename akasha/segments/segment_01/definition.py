@@ -28,10 +28,10 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
-    #label_stage_numbers=True,
+    #label_stages=True,
     measures_per_stage=measures_per_stage,
     score_package=akasha,
-    label_stage_numbers=False,
+    label_stages=False,
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
