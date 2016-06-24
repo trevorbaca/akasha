@@ -30,7 +30,7 @@ spacing_specifier = baca.tools.SpacingSpecifier(
 
 segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
-    #label_stage_numbers=True,
+    #label_stages=True,
     final_markup=akasha.materials.colophon_markup,
     final_markup_extra_offset=(-17, -12),
     measures_per_stage=measures_per_stage,
