@@ -40,16 +40,16 @@ class ScoreTemplate(abctools.AbjadValueObject):
                             \tag violin_one
                             \context ViolinOneMusicStaff = "Violin One Music Staff" {
                                 \clef "treble"
-                                \set Staff.instrumentName = \markup { Violin 1 }
-                                \set Staff.shortInstrumentName = \markup { Vn. 1 }
+                                \set Staff.instrumentName = \markup { "Violin 1" }
+                                \set Staff.shortInstrumentName = \markup { "Vn. 1" }
                                 \context ViolinOneMusicVoice = "Violin One Music Voice" {
                                 }
                             }
                             \tag violin_two
                             \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                                 \clef "treble"
-                                \set Staff.instrumentName = \markup { Violin 2 }
-                                \set Staff.shortInstrumentName = \markup { Vn. 2 }
+                                \set Staff.instrumentName = \markup { "Violin 2" }
+                                \set Staff.shortInstrumentName = \markup { "Vn. 2" }
                                 \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                                 }
                             }
