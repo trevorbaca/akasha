@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
-class ScoreTemplate(abctools.AbjadValueObject):
+class ScoreTemplate(abjad.abctools.AbjadValueObject):
     r'''Score template.
+
+    ::
+
+        >>> import akasha
+
     '''
 
     ### SPECIAL METHODS ###
@@ -14,10 +19,6 @@ class ScoreTemplate(abctools.AbjadValueObject):
         ..  container:: example
 
             **Example.** Calls score template:
-
-            ::
-
-                >>> import akasha
 
             ::
 
@@ -75,15 +76,15 @@ class ScoreTemplate(abctools.AbjadValueObject):
 
         Returns score.
         '''
-        time_signature_context_multimeasure_rests = scoretools.Context(
+        time_signature_context_multimeasure_rests = abjad.scoretools.Context(
             context_name='TimeSignatureContextMultimeasureRests',
             name='Time Signature Context Multimeasure Rests',
             )
-        time_signature_context_skips = scoretools.Context(
+        time_signature_context_skips = abjad.scoretools.Context(
             context_name='TimeSignatureContextSkips',
             name='Time Signature Context Skips',
             )
-        time_signature_context = scoretools.Context(
+        time_signature_context = abjad.scoretools.Context(
             [
                 time_signature_context_multimeasure_rests,
                 time_signature_context_skips,
@@ -100,69 +101,69 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         tag_string = '.'.join(instrument_tags)
         tag_string = 'tag {}'.format(tag_string)
-        tag_command = indicatortools.LilyPondCommand(tag_string, 'before')
-        attach(tag_command, time_signature_context)
-        violin_one_music_voice = scoretools.Voice(
+        tag_command = abjad.LilyPondCommand(tag_string, 'before')
+        abjad.attach(tag_command, time_signature_context)
+        violin_one_music_voice = abjad.Voice(
             [], 
             context_name='ViolinOneMusicVoice',
             name='Violin One Music Voice',
             )
-        violin_one_music_staff = scoretools.Staff(
+        violin_one_music_staff = abjad.Staff(
             [violin_one_music_voice], 
             context_name='ViolinOneMusicStaff',
             name='Violin One Music Staff',
             )
-        violin_one = instrumenttools.Violin(
+        violin_one = abjad.instrumenttools.Violin(
             instrument_name='violin 1',
             short_instrument_name='vn. 1',
             )
-        attach(violin_one, violin_one_music_staff)
-        attach(Clef('treble'), violin_one_music_staff)
+        abjad.attach(violin_one, violin_one_music_staff)
+        abjad.attach(abjad.Clef('treble'), violin_one_music_staff)
         self._attach_tag('violin_one', violin_one_music_staff)
-        violin_two_music_voice = scoretools.Voice(
+        violin_two_music_voice = abjad.Voice(
             [], 
             context_name='ViolinTwoMusicVoice',
             name='Violin Two Music Voice',
             )
-        violin_two_music_staff = scoretools.Staff(
+        violin_two_music_staff = abjad.Staff(
             [violin_two_music_voice], 
             context_name='ViolinTwoMusicStaff',
             name='Violin Two Music Staff',
             )
-        violin_two = instrumenttools.Violin(
+        violin_two = abjad.instrumenttools.Violin(
             instrument_name='violin 2',
             short_instrument_name='vn. 2',
             )
-        attach(violin_two, violin_two_music_staff)
-        attach(Clef('treble'), violin_two_music_staff)
+        abjad.attach(violin_two, violin_two_music_staff)
+        abjad.attach(abjad.Clef('treble'), violin_two_music_staff)
         self._attach_tag('violin_two', violin_two_music_staff)
-        viola_music_voice = scoretools.Voice(
+        viola_music_voice = abjad.Voice(
             [], 
             context_name='ViolaMusicVoice',
             name='Viola Music Voice',
             )
-        viola_music_staff = scoretools.Staff(
+        viola_music_staff = abjad.Staff(
             [viola_music_voice], 
             context_name='ViolaMusicStaff',
             name='Viola Music Staff',
             )
-        attach(instrumenttools.Viola(), viola_music_staff)
-        attach(Clef('alto'), viola_music_staff)
+        abjad.attach(abjad.instrumenttools.Viola(), viola_music_staff)
+        abjad.attach(abjad.Clef('alto'), viola_music_staff)
         self._attach_tag('viola', viola_music_staff)
-        cello_music_voice = scoretools.Voice(
+        cello_music_voice = abjad.Voice(
             [], 
             context_name='CelloMusicVoice',
             name='Cello Music Voice',
             )
-        cello_music_staff = scoretools.Staff(
+        cello_music_staff = abjad.Staff(
             [cello_music_voice], 
             context_name='CelloMusicStaff',
             name='Cello Music Staff',
             )
-        attach(instrumenttools.Cello(), cello_music_staff)
-        attach(Clef('bass'), cello_music_staff)
+        abjad.attach(abjad.instrumenttools.Cello(), cello_music_staff)
+        abjad.attach(abjad.Clef('bass'), cello_music_staff)
         self._attach_tag('cello', cello_music_staff)
-        string_quartet_staff_group = scoretools.StaffGroup(
+        string_quartet_staff_group = abjad.StaffGroup(
             [
                 violin_one_music_staff, 
                 violin_two_music_staff, 
@@ -172,14 +173,14 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='StringQuartetStaffGroup',
             name='String Quartet Staff Group',
             )
-        music_context = scoretools.Context(
+        music_context = abjad.scoretools.Context(
             [
                 string_quartet_staff_group,
             ],
             context_name='MusicContext',
             name='Music Context',
             )
-        score = Score(
+        score = abjad.Score(
             [
             time_signature_context,
             music_context,
@@ -193,5 +194,5 @@ class ScoreTemplate(abctools.AbjadValueObject):
     def _attach_tag(self, instrument_tag, context):
         assert isinstance(instrument_tag, str), repr(str)
         tag_string = 'tag {}'.format(instrument_tag)
-        tag_command = indicatortools.LilyPondCommand(tag_string, 'before')
-        attach(tag_command, context)
+        tag_command = abjad.LilyPondCommand(tag_string, 'before')
+        abjad.attach(tag_command, context)

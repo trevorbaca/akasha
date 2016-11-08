@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import akasha
 import baca
-from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -13,25 +13,26 @@ stage_specifier = baca.tools.StageSpecifier([
     4, # 1
     3, # 2
     3, # 3
-    3, Fermata(), # 4-5
+    3, abjad.Fermata(), # 4-5
     2, # 6
     1, # 7
     ])
 
 tempo_specifier = baca.tools.TempoSpecifier([
     (1, akasha.materials.tempi[126]),
-    (1, Ritardando()),
+    (1, abjad.Ritardando()),
     (2, akasha.materials.tempi[44]),
-    (6, Accelerando()),
+    (6, abjad.Accelerando()),
     (7, akasha.materials.tempi[89]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker('B', 18, stage_specifier, tempo_specifier)
+maker = akasha.tools.TimeSignatureMaker(
+    'B', 18, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
-    fermata_measure_width=Duration(1, 4),
-    minimum_width=Duration(1, 12),
+    fermata_measure_width=abjad.Duration(1, 4),
+    minimum_width=abjad.Duration(1, 12),
     )
 
 segment_maker = baca.tools.SegmentMaker(

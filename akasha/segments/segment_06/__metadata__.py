@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import abjad
-from abjad import *
 
 
 metadata = abjad.datastructuretools.TypedOrderedDict(

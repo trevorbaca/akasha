@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import akasha
 import baca
-from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 

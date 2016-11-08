@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
 score_setup = {
     'ViolinOneMusicStaff': (
-        instrumenttools.Violin,
+        abjad.instrumenttools.Violin,
         ),
     'ViolinTwoMusicStaff': (
-        instrumenttools.Violin,
+        abjad.instrumenttools.Violin,
         ),
     'ViolaMusicStaff': (
-        instrumenttools.Viola,
+        abjad.instrumenttools.Viola,
         ),
     'CelloMusicStaff': (
-        instrumenttools.Cello,
+        abjad.instrumenttools.Cello,
         ),
     }

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad import *
 
 
 class TimeSignatureMaker(object):
@@ -49,7 +49,7 @@ class TimeSignatureMaker(object):
             message = 'unknown time signature series: {!r}.'
             message = message.format(series)
             raise Exception(message)
-        time_signatures = sequence(time_signatures)
+        time_signatures = abjad.sequence(time_signatures)
         time_signatures = time_signatures.rotate(self.rotation)
         time_signatures = time_signatures.flatten()
         items = []
@@ -65,7 +65,7 @@ class TimeSignatureMaker(object):
             )
         time_signature_groups = preprocessor()
         measures_per_stage = [len(_) for _ in time_signature_groups]
-        time_signatures = sequencetools.flatten_sequence(time_signature_groups)
+        time_signatures = abjad.sequencetools.flatten_sequence(time_signature_groups)
         fermata_entries = self.stage_specifier.make_fermata_entries()
         items = self.tempo_specifier.items + fermata_entries
         tempo_specifier = baca.tools.TempoSpecifier(items=items)

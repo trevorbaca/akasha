@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import akasha
 import baca
-from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -10,30 +10,31 @@ from akasha.materials.__abbreviations__ import *
 ###############################################################################
 
 stage_specifier = baca.tools.StageSpecifier([
-    8, Fermata('shortfermata'), # 1-2
-    8, Fermata('shortfermata'), # 3-4
-    4, Fermata('shortfermata'), # 5-6
-    8, Fermata(), # 7-8
-    3, 1, Fermata(), # 9-11
-    4, Fermata(),  # 12-13
+    8, abjad.Fermata('shortfermata'), # 1-2
+    8, abjad.Fermata('shortfermata'), # 3-4
+    4, abjad.Fermata('shortfermata'), # 5-6
+    8, abjad.Fermata(), # 7-8
+    3, 1, abjad.Fermata(), # 9-11
+    4, abjad.Fermata(),  # 12-13
     4, # 14
-    3, 1, Fermata('longfermata'), # 15-17
+    3, 1, abjad.Fermata('longfermata'), # 15-17
     ])
 
 tempo_specifier = baca.tools.TempoSpecifier([
     (1, akasha.materials.tempi[126]),
     (9, akasha.materials.tempi[55]),
     (12, akasha.materials.tempi[126]),
-    (12, Ritardando()),
+    (12, abjad.Ritardando()),
     (15, akasha.materials.tempi[44]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker('B', 12, stage_specifier, tempo_specifier)
+maker = akasha.tools.TimeSignatureMaker(
+    'B', 12, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
-    fermata_measure_width=Duration(1, 4),
-    minimum_width=Duration(1, 12),
+    fermata_measure_width=abjad.Duration(1, 4),
+    minimum_width=abjad.Duration(1, 12),
     )
 
 segment_maker = baca.tools.SegmentMaker(
@@ -133,12 +134,12 @@ segment_maker.append_specifiers(
             .partition_by_ratio_of_lengths(Ratio((1, 1)))
             [0]
             ,
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             duration_spelling_specifier=\
-                rhythmmakertools.DurationSpellingSpecifier(
+                abjad.rhythmmakertools.DurationSpellingSpecifier(
                 rewrite_meter=True,
                 ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
@@ -160,12 +161,12 @@ segment_maker.append_specifiers(
             .partition_by_ratio_of_lengths(Ratio((1, 1)))
             [0]
             ,
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             duration_spelling_specifier=\
-                rhythmmakertools.DurationSpellingSpecifier(
+                abjad.rhythmmakertools.DurationSpellingSpecifier(
                 rewrite_meter=True,
                 ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
