@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
 def make_perforated_counts(degree=0, rotation=None):
     r'''Makes perforated counts.
 
+    ::
+
+        >>> import akasha
+
     ..  container:: example
 
         **Example 1.** Makes perforated counts:
-
-        ::
-
-            >>> import akasha
 
         ::
 
@@ -29,12 +29,12 @@ def make_perforated_counts(degree=0, rotation=None):
     '''
     counts = []
     if degree == 0:
-        pattern_1 = patterntools.select_every([0, 1, 2, 3], period=12)
-        pattern_2 = patterntools.select_every([0, 1, 2, 3], period=20)
+        pattern_1 = abjad.patterntools.select_every([0, 1, 2, 3], period=12)
+        pattern_2 = abjad.patterntools.select_every([0, 1, 2, 3], period=20)
         pattern = pattern_1 | pattern_2
         pattern = ~pattern
     elif degree == 1:
-        pattern = patterntools.select_every(
+        pattern = abjad.patterntools.select_every(
             [0, 1, 2, 12, 13, 21, 31, 32, 33],
             period=36,
             )
@@ -43,7 +43,7 @@ def make_perforated_counts(degree=0, rotation=None):
         message = message.format(degree)
         raise ValueError(message)
     vector = pattern.get_boolean_vector()
-    parts = sequencetools.partition_sequence_by_value_of_elements(vector)
+    parts = abjad.sequencetools.partition_sequence_by_value_of_elements(vector)
     for part in parts:
         if part[0] == 0:
             counts.append(-len(part))
@@ -51,4 +51,4 @@ def make_perforated_counts(degree=0, rotation=None):
             counts.extend(part)
         else:
             raise ValueError(part)
-    return sequence(counts).rotate(index=rotation)
+    return abjad.sequence(counts).rotate(index=rotation)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import akasha
 import baca
-from abjad import *
 from akasha.materials.__abbreviations__ import *
 
 
@@ -11,17 +11,17 @@ from akasha.materials.__abbreviations__ import *
 
 stage_specifier = baca.tools.StageSpecifier([
     2,
-    2, Fermata('longfermata'), # 2-3
-    1, Fermata('longfermata'), # 4-5
-    2, Fermata('longfermata'), # 6-7
+    2, abjad.Fermata('longfermata'), # 2-3
+    1, abjad.Fermata('longfermata'), # 4-5
+    2, abjad.Fermata('longfermata'), # 6-7
     12, # 8
     4,
     4,
-    4, Fermata(), # 11-12
-    6, Fermata(), # 13-14
-    1, Fermata(), # 15-16
-    1, Fermata('shortfermata'), # 17-18
-    1, Fermata(), # 19-20
+    4, abjad.Fermata(), # 11-12
+    6, abjad.Fermata(), # 13-14
+    1, abjad.Fermata(), # 15-16
+    1, abjad.Fermata('shortfermata'), # 17-18
+    1, abjad.Fermata(), # 19-20
     ])
 
 tempo_specifier = baca.tools.TempoSpecifier([
@@ -36,12 +36,13 @@ tempo_specifier = baca.tools.TempoSpecifier([
     (19, akasha.materials.tempi[55]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker('A', 9, stage_specifier, tempo_specifier)
+maker = akasha.tools.TimeSignatureMaker(
+    'A', 9, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.SpacingSpecifier(
-    fermata_measure_width=Duration(1, 4),
-    minimum_width=Duration(1, 12),
+    fermata_measure_width=abjad.Duration(1, 4),
+    minimum_width=abjad.Duration(1, 12),
     )
 
 volta_specifier = baca.tools.VoltaSpecifier([
@@ -137,7 +138,7 @@ def division_expression(index):
     expression = expression.map()
     expression = expression.sequence()
     expression = expression.split(
-        [Duration(1, 4)],
+        [abjad.Duration(1, 4)],
         cyclic=True, 
         overhang=True,
         )
@@ -146,42 +147,42 @@ def division_expression(index):
     expression = expression[index]
     return expression
 
-talea_rhythm_maker = rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+talea_rhythm_maker = rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
     extra_counts_per_division=[1],
     logical_tie_masks=[
         silence_mask,
         sustain_mask,
         ],
-    talea=rhythmmakertools.Talea(
+    talea=abjad.rhythmmakertools.Talea(
         counts=[9, 4, 8, 7],
         denominator=16,
         ),
-    tie_specifier=rhythmmakertools.TieSpecifier(
+    tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
         ),
     )
 
-accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
-    beam_specifier=rhythmmakertools.BeamSpecifier(
+accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
+    beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
         beam_rests=True,
         stemlet_length=0.75,
         use_feather_beams=True,
         ),
     interpolation_specifiers=[
-        rhythmmakertools.InterpolationSpecifier(
-            start_duration=Duration(1, 2),
-            stop_duration=Duration(1, 8),
-            written_duration=Duration(1, 16),
+        abjad.rhythmmakertools.InterpolationSpecifier(
+            start_duration=abjad.Duration(1, 2),
+            stop_duration=abjad.Duration(1, 8),
+            written_duration=abjad.Duration(1, 16),
             ),
         ],
     logical_tie_masks=[
         silence_mask,
         sustain_mask,
         ],
-    tie_specifier=rhythmmakertools.TieSpecifier(
+    tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
         ),
-    tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+    tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
         use_note_duration_bracket=True,
         ),
     )
@@ -251,7 +252,7 @@ def division_expression(index):
     expression = expression.map()
     expression = expression.sequence()
     expression = expression.split(
-        [Duration(1, 4)],
+        [abjad.Duration(1, 4)],
         cyclic=True, 
         overhang=True,
         )
@@ -260,43 +261,43 @@ def division_expression(index):
     expression = expression[index]
     return expression
 
-talea_rhythm_maker = rhythmmakertools.TaleaRhythmMaker(
+talea_rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
     #extra_counts_per_division=[2],
     extra_counts_per_division=[0],
     logical_tie_masks=[
         silence_mask,
         sustain_mask,
         ],
-    talea=rhythmmakertools.Talea(
+    talea=abjad.rhythmmakertools.Talea(
         counts=[9, 4, 8, 7],
         denominator=16,
         ),
-    tie_specifier=rhythmmakertools.TieSpecifier(
+    tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
         ),
     )
 
-accelerando_rhythm_maker = rhythmmakertools.AccelerandoRhythmMaker(
-    beam_specifier=rhythmmakertools.BeamSpecifier(
+accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
+    beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
         beam_rests=True,
         stemlet_length=0.75,
         use_feather_beams=True,
         ),
     interpolation_specifiers=[
-        rhythmmakertools.InterpolationSpecifier(
-            start_duration=Duration(1, 2),
-            stop_duration=Duration(1, 8),
-            written_duration=Duration(1, 16),
+        abjad.rhythmmakertools.InterpolationSpecifier(
+            start_duration=abjad.Duration(1, 2),
+            stop_duration=abjad.Duration(1, 8),
+            written_duration=abjad.Duration(1, 16),
             ),
         ],
     logical_tie_masks=[
         silence_mask,
         sustain_mask,
         ],
-    tie_specifier=rhythmmakertools.TieSpecifier(
+    tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
         ),
-    tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+    tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
         use_note_duration_bracket=True,
         ),
     )
@@ -390,13 +391,13 @@ segment_maker.append_specifiers(
     baca.tools.RhythmSpecifier(
         division_expression=baca.rhythm.make_strict_quarter_divisions(),
         rewrite_meter=True,
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
             read_talea_once_only=True,
-            talea=rhythmmakertools.Talea(
+            talea=abjad.rhythmmakertools.Talea(
                 counts=viola_counts,
                 denominator=16,
                 ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 use_messiaen_style_ties=True,
                 )
             ),
@@ -409,13 +410,13 @@ segment_maker.append_specifiers(
     baca.tools.RhythmSpecifier(
         division_expression=baca.rhythm.make_strict_quarter_divisions(),
         rewrite_meter=True,
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
             read_talea_once_only=True,
-            talea=rhythmmakertools.Talea(
+            talea=abjad.rhythmmakertools.Talea(
                 counts=cello_counts,
                 denominator=16,
                 ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 use_messiaen_style_ties=True,
                 )
             ),
