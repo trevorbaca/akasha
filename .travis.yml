@@ -20,8 +20,8 @@ install:
     - pip install -e .
 
 script:
-    - ajv doctest ./akasha -x
-    - py.test -rf ./akasha -x
+    - ajv doctest -x ./akasha
+    - py.test -xrf ./akasha
     - python ./akasha/test/test_segments.py
 
 notifications:
