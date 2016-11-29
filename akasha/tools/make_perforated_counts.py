@@ -51,4 +51,4 @@ def make_perforated_counts(degree=0, rotation=None):
             counts.extend(part)
         else:
             raise ValueError(part)
-    return abjad.sequence(counts).rotate(index=rotation)
+    return abjad.sequence(counts).rotate(n=rotation)

@@ -9,7 +9,7 @@ def make_viola_ob_rhythm_specifier(rotation=None):
     durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     durations = [durationtools.Duration(_) for _ in durations]
     durations = sequence(durations)
-    durations = durations.rotate(index=rotation)
+    durations = durations.rotate(n=rotation)
     division_expression = baca.rhythm.split_by_durations(durations)
     return baca.tools.RhythmSpecifier(
         division_expression=division_expression,
