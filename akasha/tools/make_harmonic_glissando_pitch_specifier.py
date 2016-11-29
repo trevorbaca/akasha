@@ -17,5 +17,5 @@ def make_harmonic_glissando_pitch_specifier(
     if direction is Down:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
-    pitch_numbers = sequence(pitch_numbers).rotate(index=rotation)
+    pitch_numbers = sequence(pitch_numbers).rotate(n=rotation)
     return baca.tools.PitchSpecifier(source=pitch_numbers)
