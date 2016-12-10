@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-import collections
-from abjad.tools import instrumenttools
 
 
-instruments = collections.OrderedDict([
+instruments = abjad.datastructuretools.TypedOrderedDict([
     (
         'violin 1', 
-        instrumenttools.Violin(
+        abjad.instrumenttools.Violin(
             instrument_name='violin 1',
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Violin 1',
@@ -23,7 +22,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'violin 2', 
-        instrumenttools.Violin(
+        abjad.instrumenttools.Violin(
             instrument_name='violin 2',
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Violin 2',
@@ -39,7 +38,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'viola', 
-        instrumenttools.Viola(
+        abjad.instrumenttools.Viola(
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Viola'),
             short_instrument_name_markup=\
@@ -48,7 +47,7 @@ instruments = collections.OrderedDict([
         ),
     (
         'cello', 
-        instrumenttools.Cello(
+        abjad.instrumenttools.Cello(
             instrument_name_markup=baca.markup.make_instrument_name_markup(
                 'Cello'),
             short_instrument_name_markup=\
