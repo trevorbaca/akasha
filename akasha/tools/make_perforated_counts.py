@@ -11,7 +11,7 @@ def make_perforated_counts(degree=0, rotation=None):
 
     ..  container:: example
 
-        **Example 1.** Makes perforated counts:
+        Makes perforated counts:
 
         ::
 
