@@ -10,4 +10,4 @@ pdflatex parts-viola.tex
 lily parts-music-cello.ly
 pdflatex parts-cello.tex
 
-rmlx
+remove-latex-temporary-files
