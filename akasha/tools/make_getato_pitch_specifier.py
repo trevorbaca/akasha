@@ -15,7 +15,7 @@ def make_getato_pitch_specifier(
     if direction is Down:
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
-    return baca.tools.PitchSpecifier(
+    return baca.tools.ScorePitchSpecifier(
         repetition_intervals=repetition_intervals,
         source=pitch_numbers,
         )
