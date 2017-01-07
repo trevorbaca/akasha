@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
 
 
 def make_untied_notes_rhythm_specifier():
     return baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             duration_spelling_specifier=\
-                rhythmmakertools.DurationSpellingSpecifier(
+                abjad.rhythmmakertools.DurationSpellingSpecifier(
                 rewrite_meter=True,
                 ),
-            tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 strip_ties=True,
                 ),
             ),

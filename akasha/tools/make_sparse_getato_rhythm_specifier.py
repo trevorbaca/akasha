@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+import abjad
 import akasha
 import baca
-from abjad.tools import rhythmmakertools
 
 
 def make_sparse_getato_rhythm_specifier(
@@ -12,16 +12,16 @@ def make_sparse_getato_rhythm_specifier(
     return baca.tools.RhythmSpecifier(
         division_expression=baca.rhythm.make_strict_quarter_divisions(),
         rewrite_meter=True,
-        rhythm_maker=rhythmmakertools.TaleaRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
-            talea=rhythmmakertools.Talea(
+            talea=abjad.rhythmmakertools.Talea(
                 counts=akasha.tools.make_perforated_counts(
                     degree=degree,
                     rotation=rotation,
                     ),
                 denominator=32,
                 ),
-            tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
                 rewrite_rest_filled_tuplets=True,
                 )
             ),
