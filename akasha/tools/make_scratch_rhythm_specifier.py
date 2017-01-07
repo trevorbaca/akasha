@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad.tools import rhythmmakertools
 
 
 def make_scratch_rhythm_specifier(
@@ -9,7 +9,7 @@ def make_scratch_rhythm_specifier(
     extra_counts_per_division,
     ):
     return baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=denominators,
             logical_tie_masks=logical_tie_masks,
             extra_counts_per_division=extra_counts_per_division,
