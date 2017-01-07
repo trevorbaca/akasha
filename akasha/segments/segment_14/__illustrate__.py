@@ -1,12 +1,10 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+import abjad
+import ide
 import os
 import sys
 import traceback
-from abjad import persist
-from abjad.tools import stringtools
-from abjad.tools import systemtools
-from ide.tools import idetools
 
 
 if __name__ == '__main__':
@@ -50,7 +48,7 @@ if __name__ == '__main__':
             sys.exit(1)
         message = 'Abjad runtime {} {} ...'
         total_time = int(timer.elapsed_time)
-        identifier = stringtools.pluralize('second', total_time)
+        identifier = abjad.stringtools.pluralize('second', total_time)
         message = message.format(total_time, identifier)
         print(message)
     try:
@@ -65,10 +63,10 @@ if __name__ == '__main__':
             )
         output_paths = (ly_path, pdf_path)
         with systemtools.Timer() as timer:
-            persist(lilypond_file).as_pdf(pdf_path)
+            abjad.persist(lilypond_file).as_pdf(pdf_path)
         message = 'LilyPond runtime {} {} ...'
         total_time = int(timer.elapsed_time)
-        identifier = stringtools.pluralize('second', total_time)
+        identifier = abjad.stringtools.pluralize('second', total_time)
         message = message.format(total_time, identifier)
         print(message)
         for output_path in output_paths:
