@@ -8,7 +8,7 @@ def make_getato_pitch_specifier(
     repetition_intervals=[0], 
     direction=Up,
     ):
-    start_pitch = abjad.pitchtools.NumberedPitch(start_pitch)
+    start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.pitch_number
     pitch_numbers = akasha.materials.getato_intervals
     if direction is Down:

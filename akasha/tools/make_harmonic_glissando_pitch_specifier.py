@@ -8,7 +8,7 @@ def make_harmonic_glissando_pitch_specifier(
     direction=Up,
     rotation=None,
     ):
-    start_pitch = abjad.pitchtools.NumberedPitch(start_pitch)
+    start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.pitch_number
     pitch_numbers = akasha.materials.getato_intervals
     pitch_numbers = [3 * _ for _ in pitch_numbers]
