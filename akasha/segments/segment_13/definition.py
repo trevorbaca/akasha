@@ -49,17 +49,17 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (va, stages(1)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(3)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(5)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -69,11 +69,11 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1, 3)),
     [
-        baca.articulations.alternate_bow_strokes(),
-        baca.dynamics.make_effort_dynamic('mf'),
+        baca.alternate_bow_strokes(),
+        baca.make_effort_dynamic('mf'),
         baca.markup.OB_terminate_each_note_abruptly(),
         baca.pitches('C4'),
-        baca.spanners.one_line_staff(),
+        baca.one_line_staff(),
         Clef('alto'),
         ],
     )

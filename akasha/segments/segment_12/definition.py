@@ -80,67 +80,67 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (tutti, stages(1, 7)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(9)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(10)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(12)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14, 17)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(14)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(15, 17)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(14, 15)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(16, 17)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(14, 16)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(19)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(20, 21)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -178,7 +178,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(1)),
     [
-        baca.wrap.first_note(baca.dynamics.make_effort_dynamic('ff')),
+        baca.wrap.first_note(baca.make_effort_dynamic('ff')),
         baca.wrap.first_note(
             baca.markup.make_markup('tasto + 1 click/3-4 sec.'),
             ),
@@ -189,7 +189,7 @@ segment_maker.append_specifiers(
     (tutti, stages(2)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.trans(),
                 baca.markup.make_one_click_every(1, 2),
                 ),
@@ -202,7 +202,7 @@ segment_maker.append_specifiers(
     (tutti, stages(3)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.trans(),
                 baca.markup.make_clicks_per_second(1, 2),
                 ),
@@ -215,7 +215,7 @@ segment_maker.append_specifiers(
     (tutti, stages(4)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.trans(),
                 baca.markup.scratch_moltiss(),
                 ),
@@ -235,7 +235,7 @@ segment_maker.append_specifiers(
     (tutti, stages(5)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.trans(),
                 baca.markup.make_fractional_scratch(1, 2),
                 ),
@@ -248,7 +248,7 @@ segment_maker.append_specifiers(
     (tutti, stages(6)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.trans(),
                 baca.markup.pos_ord(),
                 ),
@@ -261,7 +261,7 @@ segment_maker.append_specifiers(
     (tutti, stages(7)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.trans(),
                 baca.markup.vib_moltiss(),
                 ),
@@ -316,7 +316,7 @@ segment_maker.append_specifiers(
     (tutti, stages(9)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.pos_ord_senza_vib(),
                 baca.markup.XP(),
                 ),
@@ -337,7 +337,7 @@ segment_maker.append_specifiers(
             start=-2,
             ),
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.XP(),
                 baca.markup.pos_ord(),
                 ),
@@ -380,7 +380,7 @@ segment_maker.append_specifiers(
     (tutti, stages(10)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.pos_ord(),
                 baca.markup.XP(),
                 ),
@@ -397,7 +397,7 @@ segment_maker.append_specifiers(
     (tutti, stages(10)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.XP(),
                 baca.markup.pos_ord(),
                 ),
@@ -422,7 +422,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(17, 21)),
     [
-        baca.overrides.natural_harmonics(),
+        baca.natural_harmonics(),
         baca.pitches('B7'),
         ],
     )
@@ -437,7 +437,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(16, 21)),
     [
-        baca.overrides.natural_harmonics(),
+        baca.natural_harmonics(),
         baca.pitches('C#7'),
         ],
     )
@@ -452,7 +452,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(15, 21)),
     [
-        baca.overrides.natural_harmonics(),
+        baca.natural_harmonics(),
         baca.pitches('G~5'),
         ],
     )
@@ -467,7 +467,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(14, 21)),
     [
-        baca.overrides.natural_harmonics(),
+        baca.natural_harmonics(),
         baca.pitches('D5'),
         ],
     )
@@ -476,7 +476,7 @@ segment_maker.append_specifiers(
     (tutti, stages(12)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.pos_ord(),
                 baca.markup.XT(),
                 ),
@@ -497,7 +497,7 @@ segment_maker.append_specifiers(
         baca.wrap.first_note(
             baca.markup.make_markup('pos. ord. + 11°/A1(IV)'),
             ),
-        baca.spanners.pervasive_trills(),
+        baca.pervasive_trills(),
         baca.wrap.first_leaf(Clef('treble')),
         ],
     )
@@ -520,7 +520,7 @@ segment_maker.append_specifiers(
         baca.wrap.first_note(
             baca.markup.make_markup('pos. ord. + 7°/A2(IV)'),
             ),
-        baca.spanners.pervasive_trills(),
+        baca.pervasive_trills(),
         baca.wrap.first_leaf(Clef('treble')),
         ],
     )
@@ -540,7 +540,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(16, 17)),
     [
-        baca.wrap.leaves(baca.spanners.ottava()),
+        baca.wrap.leaves(baca.ottava()),
         ],
     )
 
@@ -550,7 +550,7 @@ segment_maker.append_specifiers(
         baca.wrap.first_note(
             baca.markup.make_markup('pos. ord. + 5°/A4(II)'),
             ),
-        baca.spanners.pervasive_trills(),
+        baca.pervasive_trills(),
         ],
     )
 
@@ -569,7 +569,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
     [
-        baca.wrap.leaves(baca.spanners.ottava()),
+        baca.wrap.leaves(baca.ottava()),
         ],
     )
 
@@ -579,7 +579,7 @@ segment_maker.append_specifiers(
         baca.wrap.first_note(
             baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
             ),
-        baca.spanners.pervasive_trills(),
+        baca.pervasive_trills(),
         baca.wrap.leaves(Hairpin('sffp < f')),
         ],
     )
@@ -589,7 +589,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, vn_2], stages(19, 22)),
     [
-        baca.wrap.leaves(baca.spanners.ottava()),
+        baca.wrap.leaves(baca.ottava()),
         ],
     )
 
@@ -606,7 +606,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(19)),
     [
-        baca.spanners.pervasive_trills(),
+        baca.pervasive_trills(),
         ],
     )
 
@@ -614,7 +614,7 @@ segment_maker.append_specifiers(
     (tutti, stages(19)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.pos_ord(),
                 baca.markup.XP(),
                 ),
@@ -631,7 +631,7 @@ segment_maker.append_specifiers(
     (tutti, stages(19)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.XP(),
                 baca.markup.pos_ord(),
                 ),
@@ -649,7 +649,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(20, 21)),
     [
-        baca.spanners.pervasive_trills(),
+        baca.pervasive_trills(),
         ],
     )
 
@@ -657,7 +657,7 @@ segment_maker.append_specifiers(
     (tutti, stages(20, 21)),
     [
         baca.wrap.leaves(
-            baca.spanners.make_transition(
+            baca.make_transition(
                 baca.markup.pos_ord(),
                 baca.markup.XP(),
                 ),

@@ -73,47 +73,47 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (tutti, stages(1)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(3)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     ([vn_2, vc], stages(5)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(7)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(3, 9)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
+    baca.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(5, 9)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
+    baca.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(7, 9)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
+    baca.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.rhythm.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
+    baca.make_repeated_duration_rhythm_specifier(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(10)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -126,7 +126,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(12)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -157,17 +157,17 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(16)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(17)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(18)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -207,7 +207,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(1)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.pos_ord_senza_vib(),
             baca.markup.vib_moltiss(),
             ),
@@ -241,7 +241,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(3)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.senza_vib(),
             baca.markup.vib_moltiss(),
             ),
@@ -261,14 +261,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(3, 9)),
     [
-        baca.articulations.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(4)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_fractional_OB(3, 4),
             ),
@@ -294,7 +294,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_2, vc], stages(5)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.senza_vib(),
             baca.markup.vib_moltiss(),
             ),
@@ -314,14 +314,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(5, 9)),
     [
-        baca.articulations.alternate_bow_strokes(),
+        baca.alternate_bow_strokes(),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(6)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_fractional_OB(3, 4),
             ),
@@ -331,7 +331,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(6)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_fractional_OB(1, 2),
             ),
@@ -350,7 +350,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(7)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.senza_vib(),
             baca.markup.vib_moltiss(),
             ),
@@ -370,14 +370,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(7, 9)),
     [
-        baca.articulations.alternate_bow_strokes(downbow_first=False),
+        baca.alternate_bow_strokes(downbow_first=False),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(8)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_fractional_OB(1, 2),
             ),
@@ -387,7 +387,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(8)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_fractional_OB(3, 4),
             ),
@@ -397,7 +397,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(8)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_fractional_OB(1, 4),
             ),
@@ -409,7 +409,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(9)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.XP(),
             ),
@@ -426,8 +426,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9)),
     [
-        baca.articulations.alternate_bow_strokes(),
-        baca.spanners.make_transition(
+        baca.alternate_bow_strokes(),
+        baca.make_transition(
             baca.markup.OB(),
             baca.markup.XP(),
             ),
@@ -451,7 +451,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(11)),
     [
         akasha.tools.make_getato_pitch_specifier(31, [2]),
-        baca.articulations.staccati(),
+        baca.staccati(),
         baca.markup.leggieriss(),
         baca.markup.pos_ord(),
         Dynamic('ppp'),
@@ -463,7 +463,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(12)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.XP_FB(),
             baca.markup.tasto_FB(),
             ),
@@ -541,7 +541,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(16)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_tasto_fractional_scratch(1, 2),
             ),
@@ -552,7 +552,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(17)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.scratch_moltiss(),
             ),

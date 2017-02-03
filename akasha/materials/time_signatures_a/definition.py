@@ -4,7 +4,7 @@ import baca
 
 
 numerators = [[3, 3, 4, 5], [4, 6, 6]]
-numerator_groups = baca.transforms.helianthate(numerators, -1, 1)
+numerator_groups = baca.helianthate(numerators, -1, 1)
 assert len(numerator_groups) == 24
 lengths = [len(_) for _ in numerator_groups]
 numerators = baca.Sequence(numerator_groups).flatten()

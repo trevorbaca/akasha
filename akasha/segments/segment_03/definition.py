@@ -117,12 +117,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(9)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -162,7 +162,7 @@ segment_maker.append_specifiers(
     (vc, stages(1, 6)),
     [
         akasha.tools.make_getato_pitch_specifier(-2, [-3], direction=Down),
-        baca.articulations.staccati(),
+        baca.staccati(),
         ],
     )
 

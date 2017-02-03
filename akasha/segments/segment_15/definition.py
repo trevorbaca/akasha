@@ -51,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     ([vn_1, va, vc], stages(1, 2)),
     new(
-        baca.rhythm.make_messiaen_note_rhythm_specifier(),
+        baca.make_messiaen_note_rhythm_specifier(),
         rhythm_maker__division_masks=silence_every([1], period=2),
         ),
     )
@@ -101,12 +101,12 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, va, vc], stages(1, 2)),
     [
-        baca.articulations.alternate_bow_strokes(),
-        baca.dynamics.make_effort_dynamic('mf'),
+        baca.alternate_bow_strokes(),
+        baca.make_effort_dynamic('mf'),
         baca.markup.full_bow_strokes(),
         baca.markup.terminate_each_note_abruptly(),
-        baca.overrides.repeat_tie_up(),
-        baca.spanners.one_line_staff(),
+        baca.repeat_tie_up(),
+        baca.one_line_staff(),
         ],
     )
 
@@ -114,7 +114,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(2, 3)),
     [
         akasha.tools.make_getato_pitch_specifier(29, direction=Down),
-        baca.articulations.staccati(),
+        baca.staccati(),
         baca.markup.leggieriss(),
         abjad.Dynamic('pp'),
         ],

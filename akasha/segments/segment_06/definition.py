@@ -318,7 +318,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(15, 18)),
     [
-        baca.articulations.staccati(),
+        baca.staccati(),
         ],
     )
 
@@ -360,7 +360,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(13)),
     [
-        baca.articulations.staccati(),
+        baca.staccati(),
         baca.markup.senza_scratch(),
         Dynamic('mf'),
         ],
@@ -369,7 +369,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(14, 18)),
     [
-        baca.articulations.staccati(),
+        baca.staccati(),
         baca.markup.leggieriss(),
         ],
     )
@@ -386,11 +386,11 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1, 18)),
     [
-        baca.articulations.alternate_bow_strokes(),
-        baca.dynamics.make_effort_dynamic('mf'),
+        baca.alternate_bow_strokes(),
+        baca.make_effort_dynamic('mf'),
         baca.markup.OB(),
-        baca.overrides.repeat_tie_up(),
-        baca.spanners.one_line_staff(),
+        baca.repeat_tie_up(),
+        baca.one_line_staff(),
         baca.pitches('C4'),
         ],
     )
@@ -424,7 +424,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(12)),
     [
-        baca.articulations.staccati(),
+        baca.staccati(),
         baca.markup.senza_scratch(),
         Dynamic('mf'),
         ],
@@ -433,7 +433,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(13, 18)),
     [
-        baca.articulations.staccati(),
+        baca.staccati(),
         baca.markup.leggieriss(),
         ],
     )
@@ -441,7 +441,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(15, 16)),
     [
-        baca.articulations.staccati(),
+        baca.staccati(),
         Hairpin('mf > pp'),
         ],
     )
