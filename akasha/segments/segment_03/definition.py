@@ -132,21 +132,21 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
     [
-        baca.pitch.pitches('E5 D5'),
+        baca.pitches('E5 D5'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(1)),
     [   
-        baca.pitch.fixed_pitches('D#4 E4 F4 F~4 E4'),
+        baca.fixed_pitches('D#4 E4 F4 F~4 E4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, 1),
     [
-        baca.pitch.fixed_pitches('Db4 Db~4 C4'),
+        baca.fixed_pitches('Db4 Db~4 C4'),
         ],
     )
 
@@ -170,7 +170,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(8, 9)),
     [
         baca.markup.tasto_XFB(),
-        baca.pitch.pitches('C5 Bb4'),
+        baca.pitches('C5 Bb4'),
         Dynamic('pp'),
         ],
     )
@@ -178,7 +178,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(9)),
     [
-        baca.pitch.pitches('D#3'),
+        baca.pitches('D#3'),
         baca.markup.tasto(),
         Dynamic('mp'),
         ],
@@ -187,7 +187,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9)),
     [
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         baca.markup.tasto(),
         Dynamic('mp'),
         ],

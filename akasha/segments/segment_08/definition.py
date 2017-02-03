@@ -119,7 +119,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(2, 5)),
     [
-        baca.pitch.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
+        baca.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
         baca.spanners.glissandi(),
         ],
     )
@@ -127,7 +127,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(1, 5)),
     [
-        baca.pitch.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
+        baca.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
         baca.spanners.glissandi(),
         ],
     )
@@ -135,7 +135,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1, 5)),
     [
-        baca.pitch.infinite_pitches([3, 5, 2, 4, 2, 0], [1]),
+        baca.infinite_pitches([3, 5, 2, 4, 2, 0], [1]),
         baca.spanners.glissandi(),
         Clef('alto'),
         ],
@@ -148,7 +148,7 @@ segment_maker.append_specifiers(
         baca.dynamics.make_effort_dynamic('mf'),
         baca.markup.OB(),
         baca.spanners.one_line_staff(),
-        baca.pitch.pitches('C4'),
+        baca.pitches('C4'),
         ],
     )
 
@@ -156,7 +156,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1, 5)),
     [
-        baca.pitch.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
+        baca.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
         baca.spanners.glissandi(),
         Clef('bass'),
         ],
@@ -165,7 +165,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(6)),
     [
-        baca.pitch.pitches('F#5'),
+        baca.pitches('F#5'),
         Dynamic('ppp'),
         ]
     )
@@ -173,7 +173,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(6)),
     [
-        baca.pitch.pitches('Ab4'),
+        baca.pitches('Ab4'),
         Dynamic('ppp'),
         ]
     )
@@ -181,7 +181,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(6)),
     [
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         Dynamic('ppp'),
         ]
     )

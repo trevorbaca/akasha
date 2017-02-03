@@ -214,7 +214,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.make_markup('5°/A4(II) + vib. mod.'),
         baca.overrides.natural_harmonics(),
-        baca.pitch.pitches('C#7'),
+        baca.pitches('C#7'),
         Dynamic('mp'),
         ],
     )
@@ -346,7 +346,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto(),
         baca.spanners.pervasive_trills_at_interval(2),
-        baca.pitch.pitches('G5'),
+        baca.pitches('G5'),
         Dynamic('p'),
         ],
     )
@@ -355,7 +355,7 @@ segment_maker.append_specifiers(
     (va, stages(1, 7)),
     [
         baca.overrides.natural_harmonics(),
-        baca.pitch.pitches('G~5'),
+        baca.pitches('G~5'),
         ],
     )
 
@@ -363,7 +363,7 @@ segment_maker.append_specifiers(
     (va, stages(9, 10)),
     [
         baca.markup.tasto_senza_vib(),
-        baca.pitch.fixed_pitches('Fb3 E3 D#3 C#3 B#2'),
+        baca.fixed_pitches('Fb3 E3 D#3 C#3 B#2'),
         baca.spanners.glissandi(),
         Clef('alto'),
         Hairpin('sf > ppp'),
@@ -401,7 +401,7 @@ segment_maker.append_specifiers(
     (vc, stages(1, 5)),
     [
         baca.overrides.natural_harmonics(),
-        baca.pitch.pitches('D5'),
+        baca.pitches('D5'),
         ],
     )
 
@@ -427,7 +427,7 @@ segment_maker.append_specifiers(
     (vc, stages(9)),
     [
         baca.markup.tasto(),
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         Hairpin('sf > ppp'),
         ],
     )
@@ -456,7 +456,7 @@ segment_maker.append_specifiers(
     (vc, stages(14, 16)),
     [
         baca.markup.tasto(),
-        baca.pitch.fixed_pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1'),
+        baca.fixed_pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1'),
         baca.spanners.glissandi(),
         Hairpin('sf > ppp'),
         ],
