@@ -75,24 +75,24 @@ segment_maker.append_specifiers(
         (vc, stages(5)),
         (vc, stages(7)),
         ],
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### stages 9-11 ###
 
 segment_maker.append_specifiers(
     [(vn_1, stages(9, 10)), (vn_2, stages(9, 10))],
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(9)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ### stage 12 ###
@@ -120,12 +120,12 @@ segment_maker.append_specifiers(
         (vn_2, stages(18)),
         (vn_2, stages(20)),
         ],
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(13)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -143,14 +143,14 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(22, 23)),
     new(
-        baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+        baca.make_messiaen_tied_note_rhythm_specifier(),
         rhythm_maker__division_masks=silence_first(),
         ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(22)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -160,7 +160,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(22, 23)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -175,7 +175,7 @@ segment_maker.append_specifiers(
         (va, stages(7)),
         ],
     [
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         baca.fixed_pitches('D#3 C+3'),
         ],
     )
@@ -198,7 +198,7 @@ segment_maker.append_specifiers(
         (vn_2, stages(9, 10)),
         ],
     [
-        baca.dynamics.make_effort_dynamic('mf'),
+        baca.make_effort_dynamic('mf'),
         baca.markup.OB(),
         baca.pitches('B4'),
         ],
@@ -207,8 +207,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(9, 22)),
     [
-        baca.overrides.repeat_tie_up(),
-        baca.spanners.one_line_staff(),
+        baca.repeat_tie_up(),
+        baca.one_line_staff(),
         baca.pitches('B4'),
         ],
     )
@@ -216,8 +216,8 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_2, stages(9, 21)),
     [
-        baca.overrides.repeat_tie_up(),
-        baca.spanners.one_line_staff(),
+        baca.repeat_tie_up(),
+        baca.one_line_staff(),
         baca.pitches('B4'),
         ],
     )
@@ -226,7 +226,7 @@ segment_maker.append_specifiers(
     (va, stages(9)),
     [
         baca.fixed_pitches('Eb3 D3 C#3 B#2'),
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         Hairpin('mp > pp'),
         ],
     )
@@ -244,7 +244,7 @@ segment_maker.append_specifiers(
     [
         akasha.tools.make_getato_pitch_specifier('C#3', direction=Down),
         baca.markup.leggieriss(),
-        baca.articulations.staccati(),
+        baca.staccati(),
         Dynamic('p'),
         ],
     )
@@ -279,7 +279,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(22, 23)),
     [
         baca.markup.tasto(),
-        baca.spanners.pervasive_trills_at_interval(2),
+        baca.pervasive_trills_at_interval(2),
         baca.pitches('G5'),
         Dynamic('pp'),
         ],
@@ -289,7 +289,7 @@ segment_maker.append_specifiers(
     (va, stages(22, 23)),
     [
         baca.markup.tasto(),
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         baca.fixed_pitches('E3 D#3 C+3'),
         Hairpin('mp > pp'),
         ],

@@ -65,14 +65,14 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(1)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 ### stage 2 ###
 
 segment_maker.append_specifiers(
     (tutti, stages(2)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 ### stage 3 ###
@@ -80,26 +80,26 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(3)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 ### stage 4 + fermata ###
 
 segment_maker.append_specifiers(
     (tutti, stages(4)),
-    baca.rhythm.make_messiaen_note_rhythm_specifier(),
+    baca.make_messiaen_note_rhythm_specifier(),
     )
 
 ### stages 6-7 ###
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(6)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(6, 7)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -120,7 +120,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(2, 5)),
     [
         baca.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         ],
     )
 
@@ -128,7 +128,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(1, 5)),
     [
         baca.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         ],
     )
 
@@ -136,7 +136,7 @@ segment_maker.append_specifiers(
     (va, stages(1, 5)),
     [
         baca.infinite_pitches([3, 5, 2, 4, 2, 0], [1]),
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         Clef('alto'),
         ],
     )
@@ -144,10 +144,10 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(6)),
     [
-        baca.articulations.down_bows(),
-        baca.dynamics.make_effort_dynamic('mf'),
+        baca.down_bows(),
+        baca.make_effort_dynamic('mf'),
         baca.markup.OB(),
-        baca.spanners.one_line_staff(),
+        baca.one_line_staff(),
         baca.pitches('C4'),
         ],
     )
@@ -157,7 +157,7 @@ segment_maker.append_specifiers(
     (vc, stages(1, 5)),
     [
         baca.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         Clef('bass'),
         ],
     )
@@ -189,7 +189,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(1)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.tasto_scratch_moltiss(),
             baca.markup.make_fractional_scratch(1, 4),
             ),
@@ -200,7 +200,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(2)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.make_tasto_fractional_scratch(1, 4),
             baca.markup.tasto(),
             ),
@@ -211,7 +211,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(2)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.tasto(),
             ),
@@ -222,7 +222,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(3)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.FB(),
             ),
@@ -233,7 +233,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (tutti, stages(4)),
     [
-        baca.spanners.make_transition(
+        baca.make_transition(
             baca.markup.trans(),
             baca.markup.XFB(),
             ),

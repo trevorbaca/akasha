@@ -67,7 +67,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(1, 2)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -80,7 +80,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(2)),
-    baca.rhythm.make_messiaen_tied_note_rhythm_specifier(),
+    baca.make_messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -125,7 +125,7 @@ segment_maker.append_specifiers(
     (va, stages(1, 2)),
     [
         baca.pitches('C4'),
-        baca.spanners.one_line_staff(),
+        baca.one_line_staff(),
         ],
     )
 
@@ -158,7 +158,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto(),
         baca.fixed_pitches('D#3 C+3'),
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         Hairpin('mp > pp'),
         ],
     )
@@ -168,7 +168,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto(),
         baca.fixed_pitches('C#2 Bb1'),
-        baca.spanners.glissandi(),
+        baca.glissandi(),
         Hairpin('mp > pp'),
         ],
     )
