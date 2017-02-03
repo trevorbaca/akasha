@@ -176,7 +176,7 @@ segment_maker.append_specifiers(
         ],
     [
         baca.spanners.glissandi(),
-        baca.pitch.fixed_pitches('D#3 C+3'),
+        baca.fixed_pitches('D#3 C+3'),
         ],
     )
 
@@ -188,7 +188,7 @@ segment_maker.append_specifiers(
         (vc, stages(7)),
         ],
     [
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         ],
     )
 
@@ -200,7 +200,7 @@ segment_maker.append_specifiers(
     [
         baca.dynamics.make_effort_dynamic('mf'),
         baca.markup.OB(),
-        baca.pitch.pitches('B4'),
+        baca.pitches('B4'),
         ],
     )
 
@@ -209,7 +209,7 @@ segment_maker.append_specifiers(
     [
         baca.overrides.repeat_tie_up(),
         baca.spanners.one_line_staff(),
-        baca.pitch.pitches('B4'),
+        baca.pitches('B4'),
         ],
     )
 
@@ -218,14 +218,14 @@ segment_maker.append_specifiers(
     [
         baca.overrides.repeat_tie_up(),
         baca.spanners.one_line_staff(),
-        baca.pitch.pitches('B4'),
+        baca.pitches('B4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(9)),
     [
-        baca.pitch.fixed_pitches('Eb3 D3 C#3 B#2'),
+        baca.fixed_pitches('Eb3 D3 C#3 B#2'),
         baca.spanners.glissandi(),
         Hairpin('mp > pp'),
         ],
@@ -234,7 +234,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(9)),
     [
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         Hairpin('mp > pp'),
         ],
     )
@@ -261,7 +261,7 @@ segment_maker.append_specifiers(
     (va, stages(20)),
     [
         baca.markup.make_tasto_fractional_scratch(1, 2),
-        baca.pitch.fixed_pitches('D#4 D#+4 E4'),
+        baca.fixed_pitches('D#4 D#+4 E4'),
         Dynamic('mp'),
         ],
     )
@@ -270,7 +270,7 @@ segment_maker.append_specifiers(
     (vc, stages(20)),
     [
         baca.markup.make_tasto_fractional_scratch(1, 2),
-        baca.pitch.pitches('C4'),
+        baca.pitches('C4'),
         Dynamic('mp'),
         ],
     )
@@ -280,7 +280,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto(),
         baca.spanners.pervasive_trills_at_interval(2),
-        baca.pitch.pitches('G5'),
+        baca.pitches('G5'),
         Dynamic('pp'),
         ],
     )
@@ -290,7 +290,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.tasto(),
         baca.spanners.glissandi(),
-        baca.pitch.fixed_pitches('E3 D#3 C+3'),
+        baca.fixed_pitches('E3 D#3 C+3'),
         Hairpin('mp > pp'),
         ],
     )
@@ -299,7 +299,7 @@ segment_maker.append_specifiers(
     (vc, stages(22, 23)),
     [
         baca.markup.tasto(),
-        baca.pitch.pitches('C#2'),
+        baca.pitches('C#2'),
         Hairpin('mp > pp'),
         ],
     )

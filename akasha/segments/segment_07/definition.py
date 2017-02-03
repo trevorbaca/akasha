@@ -566,7 +566,7 @@ segment_maker.append_specifiers(
     [
         baca.markup.scratch_moltiss(),
         baca.markup.terminate_abruptly(),
-        baca.pitch.pitches('F#3'),
+        baca.pitches('F#3'),
         Dynamic('ff'),
         ],
     )
@@ -577,7 +577,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(6)),
     [
         baca.markup.tasto_XFB(),
-        baca.pitch.pitches('Eb5 F5'),
+        baca.pitches('Eb5 F5'),
         Dynamic('pp'),
         ],
     )
@@ -586,7 +586,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(6)),
     [
         baca.markup.tasto_XFB(),
-        baca.pitch.pitches('B4 C#5'),
+        baca.pitches('B4 C#5'),
         Dynamic('pp'),
         ],
     )
@@ -600,7 +600,7 @@ segment_maker.append_specifiers(
             ['pp < p', 'p > pp'],
             span='nontrivial ties',
             ),
-        baca.pitch.infinite_pitches(
+        baca.infinite_pitches(
             [15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18],
             [1],
             ),
@@ -614,7 +614,7 @@ segment_maker.append_specifiers(
             ['pp < p', 'p > pp'],
             span='nontrivial ties',
             ),
-        baca.pitch.infinite_pitches(
+        baca.infinite_pitches(
             [11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], 
             [1],
             ),
@@ -625,7 +625,7 @@ segment_maker.append_specifiers(
     (va, stages(8, 9)),
     [
         baca.markup.make_tasto_fractional_scratch(1, 2),
-        baca.pitch.fixed_pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4'),
+        baca.fixed_pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4'),
         Dynamic('mp'),
         ],
     )
@@ -634,7 +634,7 @@ segment_maker.append_specifiers(
     (vc, stages(8, 9)),
     [
         baca.markup.make_tasto_fractional_scratch(1, 2),
-        baca.pitch.fixed_pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2'),
+        baca.fixed_pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2'),
         Clef('bass'),
         Dynamic('mp'),
         ],
@@ -646,7 +646,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(9)),
     [
         baca.markup.make_tasto_fractional_scratch(1, 2),
-        baca.pitch.pitches('E5'),
+        baca.pitches('E5'),
         Dynamic('mp'),
         ],
     )
@@ -655,7 +655,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(9)),
     [
         baca.markup.make_tasto_fractional_scratch(1, 2),
-        baca.pitch.pitches('F#4'),
+        baca.pitches('F#4'),
         Dynamic('mp'),
         ],
     )
@@ -674,28 +674,28 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(10, 11)),
     [
-        baca.pitch.pitches('F5'),
+        baca.pitches('F5'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(10, 11)),
     [
-        baca.pitch.pitches('F#4'),
+        baca.pitches('F#4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(10, 11)),
     [
-        baca.pitch.pitches('D#4'),
+        baca.pitches('D#4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10, 11)),
     [
-        baca.pitch.pitches('Db2'),
+        baca.pitches('Db2'),
         ],
     )
 
@@ -751,7 +751,7 @@ segment_maker.append_specifiers(
         baca.articulations.down_bows(),
         baca.dynamics.make_effort_dynamic('mf'),
         baca.markup.OB_terminate_abruptly(),
-        baca.pitch.pitches('B4'),
+        baca.pitches('B4'),
         baca.spanners.one_line_staff(),
         ],
     )
@@ -814,7 +814,7 @@ segment_maker.append_specifiers(
         baca.articulations.down_bows(),
         baca.dynamics.make_effort_dynamic('mf'),
         baca.markup.OB_terminate_abruptly(),
-        baca.pitch.pitches('B4'),
+        baca.pitches('B4'),
         baca.spanners.one_line_staff(),
         ],
     )

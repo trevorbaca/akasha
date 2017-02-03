@@ -72,7 +72,7 @@ segment_maker.append_specifiers(
         baca.articulations.alternate_bow_strokes(),
         baca.dynamics.make_effort_dynamic('mf'),
         baca.markup.OB_terminate_each_note_abruptly(),
-        baca.pitch.pitches('C4'),
+        baca.pitches('C4'),
         baca.spanners.one_line_staff(),
         Clef('alto'),
         ],
@@ -82,7 +82,7 @@ segment_maker.append_specifiers(
     (vc, stages(5)),
     [
         baca.markup.pos_ord_vib_poco(),
-        baca.pitch.pitches('Bb1'),
+        baca.pitches('Bb1'),
         Clef('bass'),
         Dynamic('pp'),
         ],

@@ -150,28 +150,28 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(1, 7)),
     [
-        baca.pitch.pitches('A5'),
+        baca.pitches('A5'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(1, 7)),
     [
-        baca.pitch.pitches('G#+4'),
+        baca.pitches('G#+4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(1, 7)),
     [
-        baca.pitch.pitches('A+2'),
+        baca.pitches('A+2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1, 7)),
     [
-        baca.pitch.pitches('A1'),
+        baca.pitches('A1'),
         ],
     )
 
@@ -279,28 +279,28 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(9)),
     [
-        baca.pitch.pitches('A5'),
+        baca.pitches('A5'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
     [
-        baca.pitch.pitches('A4'),
+        baca.pitches('A4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(9)),
     [
-        baca.pitch.pitches('A2'),
+        baca.pitches('A2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
     [
-        baca.pitch.pitches('A1'),
+        baca.pitches('A1'),
         ],
     )
 
@@ -351,28 +351,28 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(10)),
     [
-        baca.pitch.pitches('A5'),
+        baca.pitches('A5'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(10)),
     [
-        baca.pitch.pitches('G#+4'),
+        baca.pitches('G#+4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(10)),
     [
-        baca.pitch.pitches('A+2'),
+        baca.pitches('A+2'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10)),
     [
-        baca.pitch.pitches('A1'),
+        baca.pitches('A1'),
         ],
     )
 
@@ -415,7 +415,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(12, 16)),
     [
-        baca.pitch.pitches('A5'),
+        baca.pitches('A5'),
         ],
     )
 
@@ -423,14 +423,14 @@ segment_maker.append_specifiers(
     (vn_1, stages(17, 21)),
     [
         baca.overrides.natural_harmonics(),
-        baca.pitch.pitches('B7'),
+        baca.pitches('B7'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(12, 15)),
     [
-        baca.pitch.pitches('A4'),
+        baca.pitches('A4'),
         ],
     )
 
@@ -438,14 +438,14 @@ segment_maker.append_specifiers(
     (vn_2, stages(16, 21)),
     [
         baca.overrides.natural_harmonics(),
-        baca.pitch.pitches('C#7'),
+        baca.pitches('C#7'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(12, 14)),
     [
-        baca.pitch.pitches('A2'),
+        baca.pitches('A2'),
         ],
     )
 
@@ -453,14 +453,14 @@ segment_maker.append_specifiers(
     (va, stages(15, 21)),
     [
         baca.overrides.natural_harmonics(),
-        baca.pitch.pitches('G~5'),
+        baca.pitches('G~5'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vc, stages(12)),
     [
-        baca.pitch.pitches('A1'),
+        baca.pitches('A1'),
         ],
     )
 
@@ -468,7 +468,7 @@ segment_maker.append_specifiers(
     (vc, stages(14, 21)),
     [
         baca.overrides.natural_harmonics(),
-        baca.pitch.pitches('D5'),
+        baca.pitches('D5'),
         ],
     )
 

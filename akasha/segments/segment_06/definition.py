@@ -391,7 +391,7 @@ segment_maker.append_specifiers(
         baca.markup.OB(),
         baca.overrides.repeat_tie_up(),
         baca.spanners.one_line_staff(),
-        baca.pitch.pitches('C4'),
+        baca.pitches('C4'),
         ],
     )
 

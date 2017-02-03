@@ -89,7 +89,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1, 8)),
     [
-        baca.pitch.pitches('Bb1'),
+        baca.pitches('Bb1'),
         ],
     )
 
@@ -116,21 +116,21 @@ segment_maker.append_specifiers(
     (vn_1, stages(2, 10)),
     [
         baca.overrides.repeat_tie_up(),
-        baca.pitch.pitches('Bb4'),
+        baca.pitches('Bb4'),
         ],
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(2, 10)),
     [
-        baca.pitch.pitches('Bb3'),
+        baca.pitches('Bb3'),
         ],
     )
 
 segment_maker.append_specifiers(
     (va, stages(2, 10)),
     [
-        baca.pitch.pitches('Bb2'),
+        baca.pitches('Bb2'),
         ],
     )
 
