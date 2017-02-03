@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import abjad
+import baca
 
 
 def make_perforated_counts(degree=0, rotation=None):
@@ -43,7 +44,7 @@ def make_perforated_counts(degree=0, rotation=None):
         message = message.format(degree)
         raise ValueError(message)
     vector = pattern.get_boolean_vector()
-    parts = abjad.sequencetools.partition_sequence_by_value_of_elements(vector)
+    parts = baca.Sequence(vector).group_by()
     for part in parts:
         if part[0] == 0:
             counts.append(-len(part))
