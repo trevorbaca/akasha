@@ -12,7 +12,7 @@ def make_viola_ob_rhythm_specifier(rotation=None):
     return baca.tools.RhythmSpecifier(
         division_expression=division_expression,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            division_masks=abjad.rhythmmakertools.silence([0, -1]),
+            division_masks=abjad.silence([0, -1]),
             ),
         split_at_measure_boundaries=True,
         )
