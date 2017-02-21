@@ -79,43 +79,33 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(1, 2)),
-    [
-        baca.pitches('B4'),
-        ],
+    baca.pitches('B4'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(1, 2)),
-    [
-        baca.pitches('C4'),
-        ],
+    baca.pitches('C4'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1, 2)),
-    [
-        baca.pitches('D3'),
-        ],
+    baca.pitches('D3'),
     )
 
 segment_maker.append_specifiers(
     ([vn_1, va, vc], stages(1, 2)),
-    [
-        baca.alternate_bow_strokes(),
-        baca.make_effort_dynamic('mf'),
-        baca.markup.full_bow_strokes(),
-        baca.markup.terminate_each_note_abruptly(),
-        baca.repeat_tie_up(),
-        baca.one_line_staff(),
-        ],
+    baca.alternate_bow_strokes(),
+    baca.make_effort_dynamic('mf'),
+    baca.markup.full_bow_strokes(),
+    baca.markup.terminate_each_note_abruptly(),
+    baca.repeat_tie_up(),
+    baca.one_line_staff(),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(2, 3)),
-    [
-        akasha.tools.make_getato_pitch_specifier(29, direction=Down),
-        baca.staccati(),
-        baca.markup.leggieriss(),
-        abjad.Dynamic('pp'),
-        ],
+    akasha.tools.make_getato_pitch_specifier(29, direction=Down),
+    baca.staccati(),
+    baca.markup.leggieriss(),
+    abjad.Dynamic('pp'),
     )

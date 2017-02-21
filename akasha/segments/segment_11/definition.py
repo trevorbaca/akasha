@@ -122,30 +122,24 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(1, 3)),
-    [
-        akasha.tools.make_getato_pitch_specifier(5, [2]),
-        baca.markup.scratch_moltiss(),
-        baca.markup.terminate_each_note_abruptly(),
-        Dynamic('ff'),
-        ],
+    akasha.tools.make_getato_pitch_specifier(5, [2]),
+    baca.markup.scratch_moltiss(),
+    baca.markup.terminate_each_note_abruptly(),
+    Dynamic('ff'),
     )
     
 segment_maker.append_specifiers(
     (vn_2, stages(1, 3)),
-    [
-        akasha.tools.make_getato_pitch_specifier(-3, [2]),
-        baca.markup.scratch_moltiss(),
-        baca.markup.terminate_each_note_abruptly(),
-        Dynamic('ff'),
-        ],
+    akasha.tools.make_getato_pitch_specifier(-3, [2]),
+    baca.markup.scratch_moltiss(),
+    baca.markup.terminate_each_note_abruptly(),
+    Dynamic('ff'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1, 3)),
-    [
-        akasha.tools.make_getato_pitch_specifier(-13, [2]),
-        baca.markup.scratch_moltiss(),
-        baca.markup.terminate_each_note_abruptly(),
-        Dynamic('ff'),
-        ],
+    akasha.tools.make_getato_pitch_specifier(-13, [2]),
+    baca.markup.scratch_moltiss(),
+    baca.markup.terminate_each_note_abruptly(),
+    Dynamic('ff'),
     )

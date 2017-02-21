@@ -247,119 +247,89 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
-    [
-        akasha.tools.make_cello_solo_pitch_specifier(),
-        baca.markup.make_tasto_fractional_scratch(1, 2),
-        Dynamic('mp'),
-        ],
+    akasha.tools.make_cello_solo_pitch_specifier(),
+    baca.markup.make_tasto_fractional_scratch(1, 2),
+    Dynamic('mp'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(5)),
-    [
-        baca.fixed_pitches('E4 F4 E+4'),
-        baca.markup.make_tasto_fractional_scratch(1, 2),
-        Dynamic('mp'),
-        ],
+    baca.fixed_pitches('E4 F4 E+4'),
+    baca.markup.make_tasto_fractional_scratch(1, 2),
+    Dynamic('mp'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(5)),
-    [
-        baca.fixed_pitches('D4 D~4 C4'),
-        baca.markup.make_tasto_fractional_scratch(1, 2),
-        Dynamic('mp'),
-        ],
+    baca.fixed_pitches('D4 D~4 C4'),
+    baca.markup.make_tasto_fractional_scratch(1, 2),
+    Dynamic('mp'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(5)),
-    [
-        baca.fixed_pitches('Eb4 D4 E4'),
-        baca.markup.make_tasto_fractional_scratch(1, 2),
-        Dynamic('mp'),
-        ],
+    baca.fixed_pitches('Eb4 D4 E4'),
+    baca.markup.make_tasto_fractional_scratch(1, 2),
+    Dynamic('mp'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(7)),
-    [
-        baca.fixed_pitches('C#4 C#+4'),
-        ],
+    baca.fixed_pitches('C#4 C#+4'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(7)),
-    [
-        baca.fixed_pitches('C4'),
-        ],
+    baca.fixed_pitches('C4'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(7)),
-    [
-        baca.fixed_pitches('C4 C~4 B3'),
-        ],
+    baca.fixed_pitches('C4 C~4 B3'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(9)),
-    [
-        baca.markup.tasto_XFB(),
-        Dynamic('pp'),
-        ],
+    baca.markup.tasto_XFB(),
+    Dynamic('pp'),
     )
     
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
-    [
-        baca.markup.tasto_XFB(),
-        Dynamic('pp'),
-        ],
+    baca.markup.tasto_XFB(),
+    Dynamic('pp'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(9)),
-    [
-        baca.fixed_pitches('D4 D+4 D#4 E4 F#4 F4'),
-        ],
+    baca.fixed_pitches('D4 D+4 D#4 E4 F#4 F4'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    [
-        baca.fixed_pitches('Bb3 Bb~3 A3 Ab3 G3 A3'),
-        ],
+    baca.fixed_pitches('Bb3 Bb~3 A3 Ab3 G3 A3'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(11)),
-    [
-        baca.fixed_pitches('Eb4 D4'),
-        ],
+    baca.fixed_pitches('Eb4 D4'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(11)),
-    [
-        baca.fixed_pitches('A3 A#3 B3'),
-        ],
+    baca.fixed_pitches('A3 A#3 B3'),
     )
 
 segment_maker.append_specifiers(
     baca.tools.CompoundScope([(vn_2, 3), (va, 3), (vn_1, 7), (vc, 15)]),
-    [
-        akasha.tools.make_getato_pitch_specifier(-2, [0]),
-        baca.staccati(),
-        ],
+    akasha.tools.make_getato_pitch_specifier(-2, [0]),
+    baca.staccati(),
     )
 
 segment_maker.append_specifiers(
     [(vn_2, stages(3)), (va, stages(3)), (vn_1, stages(7)), (vc, stages(15))],
-    [
-        baca.markup.leggierissimo_off_string_bowing_on_staccati(),
-        Dynamic('p'),
-        ],
+    baca.markup.leggierissimo_off_string_bowing_on_staccati(),
+    Dynamic('p'),
     )
 
 segment_maker.append_specifiers(

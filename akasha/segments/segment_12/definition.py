@@ -149,523 +149,423 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(1, 7)),
-    [
-        baca.pitches('A5'),
-        ],
+    baca.pitches('A5'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(1, 7)),
-    [
-        baca.pitches('G#+4'),
-        ],
+    baca.pitches('G#+4'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(1, 7)),
-    [
-        baca.pitches('A+2'),
-        ],
+    baca.pitches('A+2'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1, 7)),
-    [
-        baca.pitches('A1'),
-        ],
+    baca.pitches('A1'),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(1)),
-    [
-        baca.wrap.first_note(baca.make_effort_dynamic('ff')),
-        baca.wrap.first_note(
-            baca.markup.make_markup('tasto + 1 click/3-4 sec.'),
-            ),
-        ],
+    baca.wrap.first_note(baca.make_effort_dynamic('ff')),
+    baca.wrap.first_note(
+        baca.markup.make_markup('tasto + 1 click/3-4 sec.'),
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(2)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.make_one_click_every(1, 2),
-                ),
-            stop=-1,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_one_click_every(1, 2),
             ),
-        ],
+        stop=-1,
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(3)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.make_clicks_per_second(1, 2),
-                ),
-            stop=-1,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_clicks_per_second(1, 2),
             ),
-        ],
+        stop=-1,
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(4)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.scratch_moltiss(),
-                ),
-            stop=-1,
-            )
-        ],
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.scratch_moltiss(),
+            ),
+        stop=-1,
+        )
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(4)),
-    [
-        baca.wrap.note(Dynamic('ff'), n=2),
-        ],
+    baca.wrap.note(Dynamic('ff'), n=2),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(5)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.make_fractional_scratch(1, 2),
-                ),
-            stop=-1,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.make_fractional_scratch(1, 2),
             ),
-        ],
+        stop=-1,
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(6)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.pos_ord(),
-                ),
-            stop=-1,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.pos_ord(),
             ),
-        ],
+        stop=-1,
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(7)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.trans(),
-                baca.markup.vib_moltiss(),
-                ),
-            stop=-1,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.trans(),
+            baca.markup.vib_moltiss(),
             ),
-        baca.wrap.leaves(
-            Hairpin('ff < fff'),
-            stop=-1,
-            ),
-        ],
+        stop=-1,
+        ),
+    baca.wrap.leaves(
+        Hairpin('ff < fff'),
+        stop=-1,
+        ),
     )
 
 ### stage 9 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(9)),
-    [
-        baca.pitches('A5'),
-        ],
+    baca.pitches('A5'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(9)),
-    [
-        baca.pitches('A4'),
-        ],
+    baca.pitches('A4'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(9)),
-    [
-        baca.pitches('A2'),
-        ],
+    baca.pitches('A2'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    [
-        baca.pitches('A1'),
-        ],
+    baca.pitches('A1'),
     )
 
 segment_maker.append_specifiers(
     #(vn_1, stages(9, 10)),
     (tutti, stages(9, 10)),
-    [
-        baca.wrap.first_note(baca.markup.make_boxed_repeat_count(6)),
-        ],
+    baca.wrap.first_note(baca.markup.make_boxed_repeat_count(6)),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(9)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.pos_ord_senza_vib(),
-                baca.markup.XP(),
-                ),
-            stop=3,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.pos_ord_senza_vib(),
+            baca.markup.XP(),
             ),
-        baca.wrap.leaves(
-            Hairpin('sffp < fff'),
-            stop=3,
-            ),
-        ],
+        stop=3,
+        ),
+    baca.wrap.leaves(
+        Hairpin('sffp < fff'),
+        stop=3,
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(9)),
-    [
-        baca.wrap.leaves(
-            Hairpin('fff > p'),
-            start=-2,
+    baca.wrap.leaves(
+        Hairpin('fff > p'),
+        start=-2,
+        ),
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.XP(),
+            baca.markup.pos_ord(),
             ),
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.XP(),
-                baca.markup.pos_ord(),
-                ),
-            start=-2,
-            ),
-        ],
+        start=-2,
+        ),
     )
 
 ### stage 10 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(10)),
-    [
-        baca.pitches('A5'),
-        ],
+    baca.pitches('A5'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(10)),
-    [
-        baca.pitches('G#+4'),
-        ],
+    baca.pitches('G#+4'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(10)),
-    [
-        baca.pitches('A+2'),
-        ],
+    baca.pitches('A+2'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(10)),
-    [
-        baca.pitches('A1'),
-        ],
+    baca.pitches('A1'),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(10)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.pos_ord(),
-                baca.markup.XP(),
-                ),
-            stop=2,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.pos_ord(),
+            baca.markup.XP(),
             ),
-        baca.wrap.leaves(
-            Hairpin('sffp < fff'),
-            stop=2,
-            ),
-        ],
+        stop=2,
+        ),
+    baca.wrap.leaves(
+        Hairpin('sffp < fff'),
+        stop=2,
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(10)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.XP(),
-                baca.markup.pos_ord(),
-                ),
-            start=-2,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.XP(),
+            baca.markup.pos_ord(),
             ),
-        baca.wrap.leaves(
-            Hairpin('fff > p'),
-            start=-2,
-            ),
-        ],
+        start=-2,
+        ),
+    baca.wrap.leaves(
+        Hairpin('fff > p'),
+        start=-2,
+        ),
     )
 
 ### stages 12-21 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(12, 16)),
-    [
-        baca.pitches('A5'),
-        ],
+    baca.pitches('A5'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(17, 21)),
-    [
-        baca.natural_harmonics(),
-        baca.pitches('B7'),
-        ],
+    baca.natural_harmonics(),
+    baca.pitches('B7'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(12, 15)),
-    [
-        baca.pitches('A4'),
-        ],
+    baca.pitches('A4'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(16, 21)),
-    [
-        baca.natural_harmonics(),
-        baca.pitches('C#7'),
-        ],
+    baca.natural_harmonics(),
+    baca.pitches('C#7'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(12, 14)),
-    [
-        baca.pitches('A2'),
-        ],
+    baca.pitches('A2'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(15, 21)),
-    [
-        baca.natural_harmonics(),
-        baca.pitches('G~5'),
-        ],
+    baca.natural_harmonics(),
+    baca.pitches('G~5'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(12)),
-    [
-        baca.pitches('A1'),
-        ],
+    baca.pitches('A1'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14, 21)),
-    [
-        baca.natural_harmonics(),
-        baca.pitches('D5'),
-        ],
+    baca.natural_harmonics(),
+    baca.pitches('D5'),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(12)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.pos_ord(),
-                baca.markup.XT(),
-                ),
-            stop=-1,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.pos_ord(),
+            baca.markup.XT(),
             ),
-        baca.wrap.leaves(
-            Hairpin('sffp > pp'),
-            stop=-1,
-            ),
-        ],
+        stop=-1,
+        ),
+    baca.wrap.leaves(
+        Hairpin('sffp > pp'),
+        stop=-1,
+        ),
     )
 
 ### stage 14 ###
 
 segment_maker.append_specifiers(
     (vc, stages(14, 17)),
-    [
-        baca.wrap.first_note(
-            baca.markup.make_markup('pos. ord. + 11°/A1(IV)'),
-            ),
-        baca.pervasive_trills(),
-        baca.wrap.first_leaf(Clef('treble')),
-        ],
+    baca.wrap.first_note(
+        baca.markup.make_markup('pos. ord. + 11°/A1(IV)'),
+        ),
+    baca.pervasive_trills(),
+    baca.wrap.first_leaf(Clef('treble')),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14, 15)),
-    [
-        baca.wrap.leaves(
-            Hairpin('sffp < f'),
-            stop=4,
-            ),
-        ],
+    baca.wrap.leaves(
+        Hairpin('sffp < f'),
+        stop=4,
+        ),
     )
 
 ### stage 15 ###
 
 segment_maker.append_specifiers(
     (va, stages(15, 17)),
-    [
-        baca.wrap.first_note(
-            baca.markup.make_markup('pos. ord. + 7°/A2(IV)'),
-            ),
-        baca.pervasive_trills(),
-        baca.wrap.first_leaf(Clef('treble')),
-        ],
+    baca.wrap.first_note(
+        baca.markup.make_markup('pos. ord. + 7°/A2(IV)'),
+        ),
+    baca.pervasive_trills(),
+    baca.wrap.first_leaf(Clef('treble')),
     )
 
 segment_maker.append_specifiers(
     (va, stages(15, 16)),
-    [
-        baca.wrap.leaves(
-            Hairpin('sffp < f'),
-            stop=4,
-            ),
-        ],
+    baca.wrap.leaves(
+        Hairpin('sffp < f'),
+        stop=4,
+        ),
     )
 
 ### stage 16 ###
 
 segment_maker.append_specifiers(
     (vn_2, stages(16, 17)),
-    [
-        baca.wrap.leaves(baca.ottava()),
-        ],
+    baca.wrap.leaves(baca.ottava()),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(16, 17)),
-    [
-        baca.wrap.first_note(
-            baca.markup.make_markup('pos. ord. + 5°/A4(II)'),
-            ),
-        baca.pervasive_trills(),
-        ],
+    baca.wrap.first_note(
+        baca.markup.make_markup('pos. ord. + 5°/A4(II)'),
+        ),
+    baca.pervasive_trills(),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(16, 17)),
-    [
-        baca.wrap.leaves(
-            Hairpin('sffp < f'),
-            stop=4,
-            ),
-        ],
+    baca.wrap.leaves(
+        Hairpin('sffp < f'),
+        stop=4,
+        ),
     )
 
 ### stage 17 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
-    [
-        baca.wrap.leaves(baca.ottava()),
-        ],
+    baca.wrap.leaves(baca.ottava()),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(17)),
-    [
-        baca.wrap.first_note(
-            baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
-            ),
-        baca.pervasive_trills(),
-        baca.wrap.leaves(Hairpin('sffp < f')),
-        ],
+    baca.wrap.first_note(
+        baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
+        ),
+    baca.pervasive_trills(),
+    baca.wrap.leaves(Hairpin('sffp < f')),
     )
 
 ### stage 19 ###
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2], stages(19, 22)),
-    [
-        baca.wrap.leaves(baca.ottava()),
-        ],
+    baca.wrap.leaves(baca.ottava()),
     )
 
 segment_maker.append_specifiers(
     #(vn_1, stages(19)),
     (tutti, stages(19)),
-    [
-        baca.wrap.first_note(
-            baca.markup.make_boxed_repeat_count(6),
-            ),
-        ],
+    baca.wrap.first_note(
+        baca.markup.make_boxed_repeat_count(6),
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(19)),
-    [
-        baca.pervasive_trills(),
-        ],
+    baca.pervasive_trills(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(19)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.pos_ord(),
-                baca.markup.XP(),
-                ),
-            stop=3,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.pos_ord(),
+            baca.markup.XP(),
             ),
-        baca.wrap.leaves(
-            Hairpin('sf < fff'),
-            stop=3,
-            ),
-        ],
+        stop=3,
+        ),
+    baca.wrap.leaves(
+        Hairpin('sf < fff'),
+        stop=3,
+        ),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(19)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.XP(),
-                baca.markup.pos_ord(),
-                ),
-            start=-2,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.XP(),
+            baca.markup.pos_ord(),
             ),
-        baca.wrap.leaves(
-            Hairpin('fff > f'),
-            start=-2,
-            ),
-        ],
+        start=-2,
+        ),
+    baca.wrap.leaves(
+        Hairpin('fff > f'),
+        start=-2,
+        ),
     )
 
 ### stages 20-21 ###
 
 segment_maker.append_specifiers(
     (tutti, stages(20, 21)),
-    [
-        baca.pervasive_trills(),
-        ],
+    baca.pervasive_trills(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(20, 21)),
-    [
-        baca.wrap.leaves(
-            baca.make_transition(
-                baca.markup.pos_ord(),
-                baca.markup.XP(),
-                ),
-            stop=4,
+    baca.wrap.leaves(
+        baca.make_transition(
+            baca.markup.pos_ord(),
+            baca.markup.XP(),
             ),
-        baca.wrap.leaves(
-            Hairpin('sffp < fff'),
-            stop=4,
-            ),
-        ],
+        stop=4,
+        ),
+    baca.wrap.leaves(
+        Hairpin('sffp < fff'),
+        stop=4,
+        ),
     )

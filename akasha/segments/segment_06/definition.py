@@ -254,16 +254,14 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(13, 15)),
-    [
-        new(
-            akasha.tools.make_dense_getato_rhythm_specifier(
-                [1],
-                [3, 0, 2, 1],
-                ),
-            rhythm_maker__division_masks=silence(
-                [0, 2, 3, 4, 5, 6, 10, 14, 22]),
+    new(
+        akasha.tools.make_dense_getato_rhythm_specifier(
+            [1],
+            [3, 0, 2, 1],
             ),
-        ],
+        rhythm_maker__division_masks=silence(
+            [0, 2, 3, 4, 5, 6, 10, 14, 22]),
+        ),
     )
 
 segment_maker.append_specifiers(
@@ -293,162 +291,124 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(1, 18)),
-    [
-        akasha.tools.make_getato_pitch_specifier(5, [2]),
-        ],
+    akasha.tools.make_getato_pitch_specifier(5, [2]),
     )
     
 segment_maker.append_specifiers(
     (vn_1, stages(1, 11)),
-    [
-        baca.markup.scratch_moltiss(),
-        baca.markup.terminate_each_note_abruptly(),
-        Dynamic('ff'),
-        ],
+    baca.markup.scratch_moltiss(),
+    baca.markup.terminate_each_note_abruptly(),
+    Dynamic('ff'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(12, 14)),
-    [
-        baca.markup.piu_meno_scratch(),
-        Dynamic('f'),
-        ],
+    baca.markup.piu_meno_scratch(),
+    Dynamic('f'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(15, 18)),
-    [
-        baca.staccati(),
-        ],
+    baca.staccati(),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(15, 16)),
-    [
-        baca.markup.leggieriss(),
-        baca.markup.senza_scratch(),
-        Hairpin('mf > pp'),
-        ],
+    baca.markup.leggieriss(),
+    baca.markup.senza_scratch(),
+    Hairpin('mf > pp'),
     )
 
 ### violin 2 ###
 
 segment_maker.append_specifiers(
     (vn_2, stages(1, 18)),
-    [
-        akasha.tools.make_getato_pitch_specifier(-3, [2]),
-        ],
+    akasha.tools.make_getato_pitch_specifier(-3, [2]),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(1, 9)),
-    [
-        baca.markup.scratch_moltiss(),
-        baca.markup.terminate_each_note_abruptly(),
-        Dynamic('ff'),
-        ],
+    baca.markup.scratch_moltiss(),
+    baca.markup.terminate_each_note_abruptly(),
+    Dynamic('ff'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(10, 12)),
-    [
-        baca.markup.piu_meno_scratch(),
-        Dynamic('f'),
-        ],
+    baca.markup.piu_meno_scratch(),
+    Dynamic('f'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(13)),
-    [
-        baca.staccati(),
-        baca.markup.senza_scratch(),
-        Dynamic('mf'),
-        ],
+    baca.staccati(),
+    baca.markup.senza_scratch(),
+    Dynamic('mf'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(14, 18)),
-    [
-        baca.staccati(),
-        baca.markup.leggieriss(),
-        ],
+    baca.staccati(),
+    baca.markup.leggieriss(),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(15, 16)),
-    [
-        Hairpin('mf > pp'),
-        ],
+    Hairpin('mf > pp'),
     )
 
 ### viola ###
 
 segment_maker.append_specifiers(
     (va, stages(1, 18)),
-    [
-        baca.alternate_bow_strokes(),
-        baca.make_effort_dynamic('mf'),
-        baca.markup.OB(),
-        baca.repeat_tie_up(),
-        baca.one_line_staff(),
-        baca.pitches('C4'),
-        ],
+    baca.alternate_bow_strokes(),
+    baca.make_effort_dynamic('mf'),
+    baca.markup.OB(),
+    baca.repeat_tie_up(),
+    baca.one_line_staff(),
+    baca.pitches('C4'),
     )
 
 ### cello ###
 
 segment_maker.append_specifiers(
     (vc, stages(1, 18)),
-    [
-        akasha.tools.make_getato_pitch_specifier(-13, [2]),
-        ],
+    akasha.tools.make_getato_pitch_specifier(-13, [2]),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1, 8)),
-    [
-        baca.markup.scratch_moltiss(),
-        baca.markup.terminate_each_note_abruptly(),
-        Dynamic('ff'),
-        ],
+    baca.markup.scratch_moltiss(),
+    baca.markup.terminate_each_note_abruptly(),
+    Dynamic('ff'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9, 11)),
-    [
-        baca.markup.piu_meno_scratch(),
-        Dynamic('f'),
-        ],
+    baca.markup.piu_meno_scratch(),
+    Dynamic('f'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(12)),
-    [
-        baca.staccati(),
-        baca.markup.senza_scratch(),
-        Dynamic('mf'),
-        ],
+    baca.staccati(),
+    baca.markup.senza_scratch(),
+    Dynamic('mf'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(13, 18)),
-    [
-        baca.staccati(),
-        baca.markup.leggieriss(),
-        ],
+    baca.staccati(),
+    baca.markup.leggieriss(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(15, 16)),
-    [
-        baca.staccati(),
-        Hairpin('mf > pp'),
-        ],
+    baca.staccati(),
+    Hairpin('mf > pp'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(16)),
-    [
-        Clef('treble'),
-        ],
+    Clef('treble'),
     )
