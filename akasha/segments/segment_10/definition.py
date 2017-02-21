@@ -178,384 +178,298 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
-    [
-        baca.pitches('B5'),
-        ],
+    baca.pitches('B5'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(1)),
-    [
-        baca.pitches('A#+3'),
-        ],
+    baca.pitches('A#+3'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(1)),
-    [
-        baca.pitches('B+2'),
-        ],
+    baca.pitches('B+2'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(1)),
-    [
-        baca.pitches('B1'),
-        ],
+    baca.pitches('B1'),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(1)),
-    [
-        baca.make_transition(
-            baca.markup.pos_ord_senza_vib(),
-            baca.markup.vib_moltiss(),
-            ),
-        Hairpin('sfp < f'),
-        ],
+    baca.make_transition(
+        baca.markup.pos_ord_senza_vib(),
+        baca.markup.vib_moltiss(),
+        ),
+    Hairpin('sfp < f'),
     )
 
 ### stages 3-4 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(3)),
-    [
-        baca.pitches('B5'),
-        ],
+    baca.pitches('B5'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(3)),
-    [
-        baca.pitches('B3'),
-        ],
+    baca.pitches('B3'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(3)),
-    [
-        baca.pitches('B1'),
-        ],
+    baca.pitches('B1'),
     )
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(3)),
-    [
-        baca.make_transition(
-            baca.markup.senza_vib(),
-            baca.markup.vib_moltiss(),
-            ),
-        Hairpin('sfp < f'),
-        ],
+    baca.make_transition(
+        baca.markup.senza_vib(),
+        baca.markup.vib_moltiss(),
+        ),
+    Hairpin('sfp < f'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(3, 13)),
-    [
-        baca.markup.OB(),
-        baca.pitches('B2'),
-        Dynamic('ppp'),
-        ],
+    baca.markup.OB(),
+    baca.pitches('B2'),
+    Dynamic('ppp'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(3, 9)),
-    [
-        baca.alternate_bow_strokes(),
-        ],
+    baca.alternate_bow_strokes(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(4)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_fractional_OB(3, 4),
-            ),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.make_fractional_OB(3, 4),
+        ),
     )
 
 ### stages 5-6 ###
 
 segment_maker.append_specifiers(
     (vn_2, stages(5)),
-    [
-        baca.pitches('A#+3'),
-        ],
+    baca.pitches('A#+3'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(5)),
-    [
-        baca.pitches('B1'),
-        ],
+    baca.pitches('B1'),
     )
 
 segment_maker.append_specifiers(
     ([vn_2, vc], stages(5)),
-    [
-        baca.make_transition(
-            baca.markup.senza_vib(),
-            baca.markup.vib_moltiss(),
-            ),
-        Hairpin('sfp < f'),
-        ],
+    baca.make_transition(
+        baca.markup.senza_vib(),
+        baca.markup.vib_moltiss(),
+        ),
+    Hairpin('sfp < f'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(5, 13)),
-    [
-        baca.markup.OB(),
-        baca.pitches('B4'),
-        Dynamic('ppp'),
-        ],
+    baca.markup.OB(),
+    baca.pitches('B4'),
+    Dynamic('ppp'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(5, 9)),
-    [
-        baca.alternate_bow_strokes(),
-        ],
+    baca.alternate_bow_strokes(),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(6)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_fractional_OB(3, 4),
-            ),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.make_fractional_OB(3, 4),
+        ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(6)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_fractional_OB(1, 2),
-            ),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.make_fractional_OB(1, 2),
+        ),
     )
 
 ### stages 7-8 ###
 
 segment_maker.append_specifiers(
     (vc, stages(7)),
-    [
-        baca.pitches('B1'),
-        ],
+    baca.pitches('B1'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(7)),
-    [
-        baca.make_transition(
-            baca.markup.senza_vib(),
-            baca.markup.vib_moltiss(),
-            ),
-        Hairpin('sfp < f'),
-        ],
+    baca.make_transition(
+        baca.markup.senza_vib(),
+        baca.markup.vib_moltiss(),
+        ),
+    Hairpin('sfp < f'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(7, 13)),
-    [
-        baca.markup.OB(),
-        baca.pitches('B3'),
-        Dynamic('ppp'),
-        ],
+    baca.markup.OB(),
+    baca.pitches('B3'),
+    Dynamic('ppp'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(7, 9)),
-    [
-        baca.alternate_bow_strokes(downbow_first=False),
-        ],
+    baca.alternate_bow_strokes(downbow_first=False),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(8)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_fractional_OB(1, 2),
-            ),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.make_fractional_OB(1, 2),
+        ),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(8)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_fractional_OB(3, 4),
-            ),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.make_fractional_OB(3, 4),
+        ),
     )
 
 segment_maker.append_specifiers(
     (va, stages(8)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_fractional_OB(1, 4),
-            ),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.make_fractional_OB(1, 4),
+        ),
     )
 
 ### stage 9 ###
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(9)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.XP(),
-            ),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.XP(),
+        ),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9, 13)),
-    [
-        baca.pitches('B1'),
-        ],
+    baca.pitches('B1'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    [
-        baca.alternate_bow_strokes(),
-        baca.make_transition(
-            baca.markup.OB(),
-            baca.markup.XP(),
-            ),
-        Dynamic('ppp'),
-        ],
+    baca.alternate_bow_strokes(),
+    baca.make_transition(
+        baca.markup.OB(),
+        baca.markup.XP(),
+        ),
+    Dynamic('ppp'),
     )
 
 ### stage 10 ###
 
 segment_maker.append_specifiers(
     (tutti, stages(10)),
-    [
-        baca.markup.XP_FB(),
-        Hairpin('ppp < mp'),
-        ],
+    baca.markup.XP_FB(),
+    Hairpin('ppp < mp'),
     )
 
 ### stage 11 ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(11)),
-    [
-        akasha.tools.make_getato_pitch_specifier(31, [2]),
-        baca.staccati(),
-        baca.markup.leggieriss(),
-        baca.markup.pos_ord(),
-        Dynamic('ppp'),
-        ],
+    akasha.tools.make_getato_pitch_specifier(31, [2]),
+    baca.staccati(),
+    baca.markup.leggieriss(),
+    baca.markup.pos_ord(),
+    Dynamic('ppp'),
     )
 
 ### stage 12 (and short fermata) ###
 
 segment_maker.append_specifiers(
     (tutti, stages(12)),
-    [
-        baca.make_transition(
-            baca.markup.XP_FB(),
-            baca.markup.tasto_FB(),
-            ),
-        Hairpin('ppp < mp'),
-        ],
+    baca.make_transition(
+        baca.markup.XP_FB(),
+        baca.markup.tasto_FB(),
+        ),
+    Hairpin('ppp < mp'),
     )
 
 ### stage 14 (and short fermata) ###
 
 segment_maker.append_specifiers(
     (tutti, stages(14)),
-    [
-        Dynamic('p'),
-        ]
+    Dynamic('p'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(14)),
-    [
-        baca.pitches('D#4 E#4'),
-        ],
+    baca.pitches('D#4 E#4'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(14)),
-    [
-        baca.pitches('D4 E4'),
-        ],
+    baca.pitches('D4 E4'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(14)),
-    [
-        baca.pitches('C#4 D#4'),
-        ],
+    baca.pitches('C#4 D#4'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(14)),
-    [
-        baca.pitches('C4 D4'),
-        ],
+    baca.pitches('C4 D4'),
     )
 
 ### stages 16-19 (and very long fermata) ###
 
 segment_maker.append_specifiers(
     (vn_1, stages(16, 19)),
-    [
-        baca.pitches('B4'),
-        ],
+    baca.pitches('B4'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(16, 19)),
-    [
-        baca.pitches('B3'),
-        ],
+    baca.pitches('B3'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(16, 19)),
-    [
-        baca.pitches('B2'),
-        ],
+    baca.pitches('B2'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(16, 19)),
-    [
-        baca.pitches('B1'),
-        ],
+    baca.pitches('B1'),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(16)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.make_tasto_fractional_scratch(1, 2),
-            ),
-        Hairpin('ppp < mp'),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.make_tasto_fractional_scratch(1, 2),
+        ),
+    Hairpin('ppp < mp'),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(17)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.scratch_moltiss(),
-            ),
-        Hairpin('mp < mf'),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.scratch_moltiss(),
+        ),
+    Hairpin('mp < mf'),
     )

@@ -110,133 +110,105 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(1)),
-    [
-        akasha.tools.make_getato_pitch_specifier(31, [2]),
-        Hairpin('pp > niente'),
-        ],
+    akasha.tools.make_getato_pitch_specifier(31, [2]),
+    Hairpin('pp > niente'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(2, 5)),
-    [
-        baca.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
-        baca.glissandi(),
-        ],
+    baca.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
+    baca.glissandi(),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(1, 5)),
-    [
-        baca.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
-        baca.glissandi(),
-        ],
+    baca.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
+    baca.glissandi(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(1, 5)),
-    [
-        baca.infinite_pitches([3, 5, 2, 4, 2, 0], [1]),
-        baca.glissandi(),
-        Clef('alto'),
-        ],
+    baca.infinite_pitches([3, 5, 2, 4, 2, 0], [1]),
+    baca.glissandi(),
+    Clef('alto'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(6)),
-    [
-        baca.down_bows(),
-        baca.make_effort_dynamic('mf'),
-        baca.markup.OB(),
-        baca.one_line_staff(),
-        baca.pitches('C4'),
-        ],
+    baca.down_bows(),
+    baca.make_effort_dynamic('mf'),
+    baca.markup.OB(),
+    baca.one_line_staff(),
+    baca.pitches('C4'),
     )
 
 
 segment_maker.append_specifiers(
     (vc, stages(1, 5)),
-    [
-        baca.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
-        baca.glissandi(),
-        Clef('bass'),
-        ],
+    baca.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
+    baca.glissandi(),
+    Clef('bass'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(6)),
-    [
-        baca.pitches('F#5'),
-        Dynamic('ppp'),
-        ]
+    baca.pitches('F#5'),
+    Dynamic('ppp'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(6)),
-    [
-        baca.pitches('Ab4'),
-        Dynamic('ppp'),
-        ]
+    baca.pitches('Ab4'),
+    Dynamic('ppp'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(6)),
-    [
-        baca.pitches('C#2'),
-        Dynamic('ppp'),
-        ]
+    baca.pitches('C#2'),
+    Dynamic('ppp'),
     )
 
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(1)),
-    [
-        baca.make_transition(
-            baca.markup.tasto_scratch_moltiss(),
-            baca.markup.make_fractional_scratch(1, 4),
-            ),
-        Hairpin('ff > f'),
-        ],
+    baca.make_transition(
+        baca.markup.tasto_scratch_moltiss(),
+        baca.markup.make_fractional_scratch(1, 4),
+        ),
+    Hairpin('ff > f'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(2)),
-    [
-        baca.make_transition(
-            baca.markup.make_tasto_fractional_scratch(1, 4),
-            baca.markup.tasto(),
-            ),
-        Hairpin('f > mf'),
-        ],
+    baca.make_transition(
+        baca.markup.make_tasto_fractional_scratch(1, 4),
+        baca.markup.tasto(),
+        ),
+    Hairpin('f > mf'),
     )
 
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(2)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.tasto(),
-            ),
-        Hairpin('f > mf'),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.tasto(),
+        ),
+    Hairpin('f > mf'),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(3)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.FB(),
-            ),
-        Hairpin('mf > p'),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.FB(),
+        ),
+    Hairpin('mf > p'),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(4)),
-    [
-        baca.make_transition(
-            baca.markup.trans(),
-            baca.markup.XFB(),
-            ),
-        Hairpin('p > pp'),
-        ],
+    baca.make_transition(
+        baca.markup.trans(),
+        baca.markup.XFB(),
+        ),
+    Hairpin('p > pp'),
     )

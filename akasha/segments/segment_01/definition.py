@@ -57,11 +57,9 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(1, 2)),
-    [
-        baca.down_bows(),
-        baca.make_effort_dynamic('mf'),
-        baca.markup.OB_terminate_abruptly(),
-        baca.pitches('C4'),
-        baca.one_line_staff(),
-        ],
+    baca.down_bows(),
+    baca.make_effort_dynamic('mf'),
+    baca.markup.OB_terminate_abruptly(),
+    baca.pitches('C4'),
+    baca.one_line_staff(),
     )

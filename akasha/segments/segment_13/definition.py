@@ -68,22 +68,18 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(1, 3)),
-    [
-        baca.alternate_bow_strokes(),
-        baca.make_effort_dynamic('mf'),
-        baca.markup.OB_terminate_each_note_abruptly(),
-        baca.pitches('C4'),
-        baca.one_line_staff(),
-        Clef('alto'),
-        ],
+    baca.alternate_bow_strokes(),
+    baca.make_effort_dynamic('mf'),
+    baca.markup.OB_terminate_each_note_abruptly(),
+    baca.pitches('C4'),
+    baca.one_line_staff(),
+    Clef('alto'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(5)),
-    [
-        baca.markup.pos_ord_vib_poco(),
-        baca.pitches('Bb1'),
-        Clef('bass'),
-        Dynamic('pp'),
-        ],
+    baca.markup.pos_ord_vib_poco(),
+    baca.pitches('Bb1'),
+    Clef('bass'),
+    Dynamic('pp'),
     )
