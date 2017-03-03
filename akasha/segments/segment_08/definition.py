@@ -172,7 +172,7 @@ segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(1)),
     baca.transition_spanner(
         baca.markup.tasto_scratch_moltiss(),
-        baca.markup.make_fractional_scratch(1, 4),
+        baca.markup.fractional_scratch(1, 4),
         ),
     Hairpin('ff > f'),
     )
@@ -180,7 +180,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vn_1, stages(2)),
     baca.transition_spanner(
-        baca.markup.make_tasto_fractional_scratch(1, 4),
+        baca.markup.tasto_fractional_scratch(1, 4),
         baca.markup.tasto(),
         ),
     Hairpin('f > mf'),

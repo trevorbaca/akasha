@@ -247,7 +247,7 @@ segment_maker.append_specifiers(
     (va, stages(4)),
     baca.transition_spanner(
         baca.markup.trans(),
-        baca.markup.make_fractional_OB(3, 4),
+        baca.markup.fractional_OB(3, 4),
         ),
     )
 
@@ -288,7 +288,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(6)),
     baca.transition_spanner(
         baca.markup.trans(),
-        baca.markup.make_fractional_OB(3, 4),
+        baca.markup.fractional_OB(3, 4),
         ),
     )
 
@@ -296,7 +296,7 @@ segment_maker.append_specifiers(
     (va, stages(6)),
     baca.transition_spanner(
         baca.markup.trans(),
-        baca.markup.make_fractional_OB(1, 2),
+        baca.markup.fractional_OB(1, 2),
         ),
     )
 
@@ -332,7 +332,7 @@ segment_maker.append_specifiers(
     (vn_1, stages(8)),
     baca.transition_spanner(
         baca.markup.trans(),
-        baca.markup.make_fractional_OB(1, 2),
+        baca.markup.fractional_OB(1, 2),
         ),
     )
 
@@ -340,7 +340,7 @@ segment_maker.append_specifiers(
     (vn_2, stages(8)),
     baca.transition_spanner(
         baca.markup.trans(),
-        baca.markup.make_fractional_OB(3, 4),
+        baca.markup.fractional_OB(3, 4),
         ),
     )
 
@@ -348,7 +348,7 @@ segment_maker.append_specifiers(
     (va, stages(8)),
     baca.transition_spanner(
         baca.markup.trans(),
-        baca.markup.make_fractional_OB(1, 4),
+        baca.markup.fractional_OB(1, 4),
         ),
     )
 
@@ -460,7 +460,7 @@ segment_maker.append_specifiers(
     (tutti, stages(16)),
     baca.transition_spanner(
         baca.markup.trans(),
-        baca.markup.make_tasto_fractional_scratch(1, 2),
+        baca.markup.tasto_fractional_scratch(1, 2),
         ),
     Hairpin('ppp < mp'),
     )

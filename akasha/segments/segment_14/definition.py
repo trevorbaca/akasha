@@ -203,7 +203,7 @@ segment_maker.append_specifiers(
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
-            baca.markup.make_fractional_OB(1, 3),
+            baca.markup.fractional_OB(1, 3),
             ),
         stop=2,
         ),
@@ -216,7 +216,7 @@ segment_maker.append_specifiers(
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
-            baca.markup.make_fractional_OB(2, 3),
+            baca.markup.fractional_OB(2, 3),
             ),
         stop=2,
         ),
