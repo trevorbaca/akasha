@@ -362,7 +362,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(1, 18)),
     baca.alternate_bow_strokes(),
-    baca.make_effort_dynamic('mf'),
+    baca.effort_dynamic('mf'),
     baca.markup.OB(),
     baca.repeat_tie_up(),
     baca.one_line_staff(),
