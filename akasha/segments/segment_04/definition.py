@@ -241,14 +241,14 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(20)),
-    baca.markup.make_tasto_fractional_scratch(1, 2),
+    baca.markup.tasto_fractional_scratch(1, 2),
     baca.fixed_pitches('D#4 D#+4 E4'),
     Dynamic('mp'),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(20)),
-    baca.markup.make_tasto_fractional_scratch(1, 2),
+    baca.markup.tasto_fractional_scratch(1, 2),
     baca.pitches('C4'),
     Dynamic('mp'),
     )

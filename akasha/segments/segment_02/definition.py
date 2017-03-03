@@ -248,28 +248,28 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (vc, stages(1)),
     akasha.tools.make_cello_solo_pitch_specifier(),
-    baca.markup.make_tasto_fractional_scratch(1, 2),
+    baca.markup.tasto_fractional_scratch(1, 2),
     Dynamic('mp'),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(5)),
     baca.fixed_pitches('E4 F4 E+4'),
-    baca.markup.make_tasto_fractional_scratch(1, 2),
+    baca.markup.tasto_fractional_scratch(1, 2),
     Dynamic('mp'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(5)),
     baca.fixed_pitches('D4 D~4 C4'),
-    baca.markup.make_tasto_fractional_scratch(1, 2),
+    baca.markup.tasto_fractional_scratch(1, 2),
     Dynamic('mp'),
     )
 
 segment_maker.append_specifiers(
     (va, stages(5)),
     baca.fixed_pitches('Eb4 D4 E4'),
-    baca.markup.make_tasto_fractional_scratch(1, 2),
+    baca.markup.tasto_fractional_scratch(1, 2),
     Dynamic('mp'),
     )
 

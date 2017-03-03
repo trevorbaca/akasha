@@ -146,7 +146,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_2, stages(1)),
-    baca.markup.make_tasto_fractional_scratch(1, 2),
+    baca.markup.tasto_fractional_scratch(1, 2),
     Dynamic('mp'),
     )
 

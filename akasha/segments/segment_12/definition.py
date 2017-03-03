@@ -180,7 +180,7 @@ segment_maker.append_specifiers(
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
-            baca.markup.make_one_click_every(1, 2),
+            baca.markup.one_click_every(1, 2),
             ),
         stop=-1,
         ),
@@ -191,7 +191,7 @@ segment_maker.append_specifiers(
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
-            baca.markup.make_clicks_per_second(1, 2),
+            baca.markup.clicks_per_second(1, 2),
             ),
         stop=-1,
         ),
@@ -218,7 +218,7 @@ segment_maker.append_specifiers(
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
-            baca.markup.make_fractional_scratch(1, 2),
+            baca.markup.fractional_scratch(1, 2),
             ),
         stop=-1,
         ),
@@ -275,7 +275,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     #(vn_1, stages(9, 10)),
     (tutti, stages(9, 10)),
-    baca.wrap_first_note(baca.markup.make_boxed_repeat_count(6)),
+    baca.wrap_first_note(baca.markup.boxed_repeat_countt(6)),
     )
 
 segment_maker.append_specifiers(
@@ -509,7 +509,7 @@ segment_maker.append_specifiers(
     #(vn_1, stages(19)),
     (tutti, stages(19)),
     baca.wrap_first_note(
-        baca.markup.make_boxed_repeat_count(6),
+        baca.markup.boxed_repeat_countt(6),
         ),
     )
 
