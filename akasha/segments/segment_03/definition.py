@@ -117,12 +117,12 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(9)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################

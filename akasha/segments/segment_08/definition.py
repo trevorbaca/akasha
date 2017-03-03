@@ -65,14 +65,14 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(1)),
-    baca.make_messiaen_note_rhythm_specifier(),
+    baca.messiaen_note_rhythm_specifier(),
     )
 
 ### stage 2 ###
 
 segment_maker.append_specifiers(
     (tutti, stages(2)),
-    baca.make_messiaen_note_rhythm_specifier(),
+    baca.messiaen_note_rhythm_specifier(),
     )
 
 ### stage 3 ###
@@ -80,26 +80,26 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(3)),
-    baca.make_messiaen_note_rhythm_specifier(),
+    baca.messiaen_note_rhythm_specifier(),
     )
 
 ### stage 4 + fermata ###
 
 segment_maker.append_specifiers(
     (tutti, stages(4)),
-    baca.make_messiaen_note_rhythm_specifier(),
+    baca.messiaen_note_rhythm_specifier(),
     )
 
 ### stages 6-7 ###
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(6)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(6, 7)),
-    baca.make_messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_note_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -136,7 +136,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     (va, stages(6)),
     baca.down_bows(),
-    baca.make_effort_dynamic('mf'),
+    baca.effort_dynamic('mf'),
     baca.markup.OB(),
     baca.one_line_staff(),
     baca.pitches('C4'),
@@ -170,7 +170,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(1)),
-    baca.make_transition(
+    baca.transition_spanner(
         baca.markup.tasto_scratch_moltiss(),
         baca.markup.make_fractional_scratch(1, 4),
         ),
@@ -179,7 +179,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(2)),
-    baca.make_transition(
+    baca.transition_spanner(
         baca.markup.make_tasto_fractional_scratch(1, 4),
         baca.markup.tasto(),
         ),
@@ -188,7 +188,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(2)),
-    baca.make_transition(
+    baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tasto(),
         ),
@@ -197,7 +197,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(3)),
-    baca.make_transition(
+    baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.FB(),
         ),
@@ -206,7 +206,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(4)),
-    baca.make_transition(
+    baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.XFB(),
         ),

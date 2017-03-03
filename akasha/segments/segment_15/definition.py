@@ -51,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     ([vn_1, va, vc], stages(1, 2)),
     new(
-        baca.make_messiaen_note_rhythm_specifier(),
+        baca.messiaen_note_rhythm_specifier(),
         rhythm_maker__division_masks=silence_every([1], period=2),
         ),
     )
@@ -95,7 +95,7 @@ segment_maker.append_specifiers(
 segment_maker.append_specifiers(
     ([vn_1, va, vc], stages(1, 2)),
     baca.alternate_bow_strokes(),
-    baca.make_effort_dynamic('mf'),
+    baca.effort_dynamic('mf'),
     baca.markup.full_bow_strokes(),
     baca.markup.terminate_each_note_abruptly(),
     baca.repeat_tie_up(),
