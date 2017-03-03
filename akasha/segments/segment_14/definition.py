@@ -93,14 +93,14 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(1, 2)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         baca.make_transition(
             baca.markup.trans(),
             baca.markup.vib_moltiss(),
             ),
         stop=9,
         ),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         Hairpin('ppp < ff'),
         stop=9,
         ),
@@ -126,21 +126,21 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(2)),
-    baca.wrap.first_note(baca.markup.tasto_XFB()),
-    baca.wrap.first_note(Dynamic('pp')),
+    baca.wrap_first_note(baca.markup.tasto_XFB()),
+    baca.wrap_first_note(Dynamic('pp')),
     )
 
 ### stage 4 ###
 
 segment_maker.append_specifiers(
     (vc, stages(4, 6)),
-    baca.wrap.first_note(baca.markup.vib_poco()),
-    baca.wrap.first_note(Dynamic('pp')),
+    baca.wrap_first_note(baca.markup.vib_poco()),
+    baca.wrap_first_note(Dynamic('pp')),
     )
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(4)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         baca.make_transition(
             baca.markup.trans(),
             baca.markup.pos_ord_XFB(),
@@ -153,7 +153,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(5)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         baca.make_transition(
             baca.markup.trans(),
             baca.markup.pont_XFB(),
@@ -166,7 +166,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(6)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         baca.make_transition(
             baca.markup.trans(),
             baca.markup.XP_XFB(),
@@ -179,7 +179,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(7)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         baca.make_transition(
             baca.markup.trans(),
             baca.markup.XP(),
@@ -190,7 +190,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(7, 8)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         Hairpin('pp > niente', include_rests=True),
         with_next_leaf=True,
         ),
@@ -200,7 +200,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(8)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_fractional_OB(1, 3),
@@ -213,7 +213,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(9)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         baca.make_transition(
             baca.markup.trans(),
             baca.markup.make_fractional_OB(2, 3),
@@ -226,7 +226,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, va], stages(10)),
-    baca.wrap.leaves(
+    baca.wrap_leaves(
         baca.make_transition(
             baca.markup.trans(),
             baca.markup.OB_no_pitch(),
