@@ -110,7 +110,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(2, 10)),
-    baca.repeat_tie_up(),
+    baca.repeat_ties_up(),
     baca.pitches('Bb4'),
     )
 

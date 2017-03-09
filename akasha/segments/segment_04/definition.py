@@ -200,14 +200,14 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vn_1, stages(9, 22)),
-    baca.repeat_tie_up(),
+    baca.repeat_ties_up(),
     baca.one_line_staff(),
     baca.pitches('B4'),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(9, 21)),
-    baca.repeat_tie_up(),
+    baca.repeat_ties_up(),
     baca.one_line_staff(),
     baca.pitches('B4'),
     )

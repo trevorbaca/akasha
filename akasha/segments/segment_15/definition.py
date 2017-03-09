@@ -98,7 +98,7 @@ segment_maker.append_specifiers(
     baca.effort_dynamic('mf'),
     baca.markup.full_bow_strokes(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.repeat_tie_up(),
+    baca.repeat_ties_up(),
     baca.one_line_staff(),
     )
 

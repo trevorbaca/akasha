@@ -364,7 +364,7 @@ segment_maker.append_specifiers(
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
-    baca.repeat_tie_up(),
+    baca.repeat_ties_up(),
     baca.one_line_staff(),
     baca.pitches('C4'),
     )
