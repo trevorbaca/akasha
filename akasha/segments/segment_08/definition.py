@@ -65,14 +65,14 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([vn_2, va, vc], stages(1)),
-    baca.messiaen_note_rhythm_specifier(),
+    baca.messiaen_notes(),
     )
 
 ### stage 2 ###
 
 segment_maker.append_specifiers(
     (tutti, stages(2)),
-    baca.messiaen_note_rhythm_specifier(),
+    baca.messiaen_notes(),
     )
 
 ### stage 3 ###
@@ -80,26 +80,26 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(3)),
-    baca.messiaen_note_rhythm_specifier(),
+    baca.messiaen_notes(),
     )
 
 ### stage 4 + fermata ###
 
 segment_maker.append_specifiers(
     (tutti, stages(4)),
-    baca.messiaen_note_rhythm_specifier(),
+    baca.messiaen_notes(),
     )
 
 ### stages 6-7 ###
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(6)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(6, 7)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 ###############################################################################

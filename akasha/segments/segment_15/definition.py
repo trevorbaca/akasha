@@ -51,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_specifiers(
     ([vn_1, va, vc], stages(1, 2)),
     new(
-        baca.messiaen_note_rhythm_specifier(),
+        baca.messiaen_notes(),
         rhythm_maker__division_masks=silence_every([1], period=2),
         ),
     )
