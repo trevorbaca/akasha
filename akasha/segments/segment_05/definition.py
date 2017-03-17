@@ -59,14 +59,14 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     ([vn_1, va, vc], stages(1)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 ### stages 3-4 ###
 
 segment_maker.append_specifiers(
     ([vn_1, va, vc], stages(3)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -78,7 +78,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     ([va, vc], stages(5)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -90,7 +90,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (va, stages(7)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -117,7 +117,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (vc, stages(9, 10)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 ### stages 12-13 ###

@@ -73,47 +73,47 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_specifiers(
     (tutti, stages(1)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
     ([vn_1, vn_2, vc], stages(3)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
     ([vn_2, vc], stages(5)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(7)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
     (va, stages(3, 9)),
-    baca.repeated_duration_rhythm_specifier(Duration(1, 4)),
+    baca.repeated_durations(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
     (vn_1, stages(5, 9)),
-    baca.repeated_duration_rhythm_specifier(Duration(1, 4)),
+    baca.repeated_durations(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
     (vn_2, stages(7, 9)),
-    baca.repeated_duration_rhythm_specifier(Duration(1, 4)),
+    baca.repeated_durations(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
     (vc, stages(9)),
-    baca.repeated_duration_rhythm_specifier(Duration(1, 4)),
+    baca.repeated_durations(Duration(1, 4)),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(10)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -126,7 +126,7 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(12)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
@@ -157,17 +157,17 @@ segment_maker.append_specifiers(
 
 segment_maker.append_specifiers(
     (tutti, stages(16)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(17)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_specifiers(
     (tutti, stages(18)),
-    baca.messiaen_tied_note_rhythm_specifier(),
+    baca.messiaen_tied_notes(),
     )
 
 ###############################################################################
