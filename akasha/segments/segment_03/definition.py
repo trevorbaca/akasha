@@ -49,8 +49,9 @@ segment_maker.validate_measures_per_stage()
 
 ### stages 1-2 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(1)),
+segment_maker.append_commands(
+    vn_1,
+    stages(1),
     new(
         akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=[1]), 
         rhythm_maker__logical_tie_masks=silence([1]),
@@ -58,21 +59,24 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(1)),
+segment_maker.append_commands(
+    vn_2,
+    stages(1),
     akasha.tools.make_polyphony_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (va, 1),
+segment_maker.append_commands(
+    va,
+    stages(1),
     new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
         rhythm_maker__logical_tie_masks=silence_first(2),
         ),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 2)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 2),
     new(
         akasha.tools.make_sparse_getato_rhythm_specifier(
             degree=0,
@@ -85,8 +89,9 @@ segment_maker.append_specifiers(
 
 ### stages 4-5 ###
 
-segment_maker.append_specifiers(
-    (vc, stages(4)),
+segment_maker.append_commands(
+    vc,
+    stages(4),
     akasha.tools.make_sparse_getato_rhythm_specifier(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
@@ -96,8 +101,9 @@ segment_maker.append_specifiers(
 
 ### stages 6-7 ###
 
-segment_maker.append_specifiers(
-    (vc, stages(6)),
+segment_maker.append_commands(
+    vc,
+    stages(6),
     akasha.tools.make_sparse_getato_rhythm_specifier(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
@@ -107,21 +113,24 @@ segment_maker.append_specifiers(
 
 ### stages 8-9 ###
 
-segment_maker.append_specifiers(
-    (vn_2, stages(8, 9)),
+segment_maker.append_commands(
+    vn_2,
+    stages(8, 9),
     new(
         akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=(2, 1)),
         rhythm_maker__logical_tie_masks=silence([3]),
         ),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(9)),
+segment_maker.append_commands(
+    va,
+    stages(9),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(9)),
+segment_maker.append_commands(
+    vc,
+    stages(9),
     baca.messiaen_tied_notes(),
     )
 
@@ -129,49 +138,57 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (vn_1, stages(1)),
+segment_maker.append_commands(
+    vn_1,
+    stages(1),
     baca.pitches('E5 D5'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(1)),
+segment_maker.append_commands(
+    vn_2,
+    stages(1),
     baca.fixed_pitches('D#4 E4 F4 F~4 E4'),
     )
 
-segment_maker.append_specifiers(
-    (va, 1),
+segment_maker.append_commands(
+    va,
+    stages(1),
     baca.fixed_pitches('Db4 Db~4 C4'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(1)),
+segment_maker.append_commands(
+    vn_2,
+    stages(1),
     baca.markup.tasto_fractional_scratch(1, 2),
     Dynamic('mp'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 6)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 6),
     akasha.tools.make_getato_pitch_specifier(-2, [-3], direction=Down),
     baca.staccati(),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(8, 9)),
+segment_maker.append_commands(
+    vn_2,
+    stages(8, 9),
     baca.markup.tasto_XFB(),
     baca.pitches('C5 Bb4'),
     Dynamic('pp'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(9)),
+segment_maker.append_commands(
+    va,
+    stages(9),
     baca.pitches('D#3'),
     baca.markup.tasto(),
     Dynamic('mp'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(9)),
+segment_maker.append_commands(
+    vc,
+    stages(9),
     baca.pitches('C#2'),
     baca.markup.tasto(),
     Dynamic('mp'),

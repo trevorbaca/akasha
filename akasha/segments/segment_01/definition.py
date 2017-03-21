@@ -46,8 +46,9 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (va, stages(1)),
+segment_maker.append_commands(
+    va,
+    stages(1),
     baca.messiaen_tied_notes(),
     )
 
@@ -55,8 +56,9 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (va, stages(1, 2)),
+segment_maker.append_commands(
+    va,
+    stages(1, 2),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),

@@ -55,36 +55,42 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(1)),
+segment_maker.append_commands(
+    vn_1,
+    stages(1),
     akasha.tools.make_accelerando_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(1)),
+segment_maker.append_commands(
+    vn_2,
+    stages(1),
     akasha.tools.make_ritardando_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(1, 2)),
+segment_maker.append_commands(
+    va,
+    stages(1, 2),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1)),
+segment_maker.append_commands(
+    vc,
+    stages(1),
     new(
         akasha.tools.make_ritardando_rhythm_specifier(),
         division_expression=sequence().sum().sequence(),
         ),
     )
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, vc], stages(2)),
+segment_maker.append_commands(
+    [vn_1, vn_2, vc],
+    stages(2),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    ([va, vc], stages(4)),
+segment_maker.append_commands(
+    [va, vc],
+    stages(4),
     akasha.tools.make_glissando_rhythm_specifier(),
     )
 
@@ -92,61 +98,71 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, vc], stages(1)),
+segment_maker.append_commands(
+    [vn_1, vn_2, vc],
+    stages(1),
     baca.markup.XFB(),
     Dynamic('p'),
     )
 
-segment_maker.append_specifiers(
-    (vn_1, stages(1)),
+segment_maker.append_commands(
+    vn_1,
+    stages(1),
     baca.pitches('D4 E4'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(1)),
+segment_maker.append_commands(
+    vn_2,
+    stages(1),
     baca.pitches('C#4 D#4'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1)),
+segment_maker.append_commands(
+    vc,
+    stages(1),
     baca.pitches('C4 D4'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(1, 2)),
+segment_maker.append_commands(
+    va,
+    stages(1, 2),
     baca.pitches('C4'),
     baca.one_line_staff(),
     )
 
-segment_maker.append_specifiers(
-    (vn_1, stages(2)),
+segment_maker.append_commands(
+    vn_1,
+    stages(2),
     baca.pitches('F#5'),
     Dynamic('ppp'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(2)),
+segment_maker.append_commands(
+    vn_2,
+    stages(2),
     baca.pitches('Ab4'),
     Dynamic('ppp'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(2)),
+segment_maker.append_commands(
+    vc,
+    stages(2),
     baca.pitches('C#2'),
     Dynamic('ppp'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(4)),
+segment_maker.append_commands(
+    va,
+    stages(4),
     baca.markup.tasto(),
     baca.fixed_pitches('D#3 C+3'),
     baca.glissandi(),
     Hairpin('mp > pp'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(4)),
+segment_maker.append_commands(
+    vc,
+    stages(4),
     baca.markup.tasto(),
     baca.fixed_pitches('C#2 Bb1'),
     baca.glissandi(),

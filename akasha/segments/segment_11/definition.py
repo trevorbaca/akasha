@@ -49,8 +49,9 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker.append_specifiers(
-    (vn_2, stages(1)),
+segment_maker.append_commands(
+    vn_2,
+    stages(1),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([-1]),
@@ -58,8 +59,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1)),
+segment_maker.append_commands(
+    vc,
+    stages(1),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([1]),
@@ -69,8 +71,9 @@ segment_maker.append_specifiers(
 
 ### stage 2 ###
     
-segment_maker.append_specifiers(
-    (vn_1, stages(2)),
+segment_maker.append_commands(
+    vn_1,
+    stages(2),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([0]),
@@ -78,8 +81,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(2)),
+segment_maker.append_commands(
+    vn_2,
+    stages(2),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([2]),
@@ -89,8 +93,9 @@ segment_maker.append_specifiers(
 
 ### stages 3 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(3)),
+segment_maker.append_commands(
+    vn_1,
+    stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([0]),
@@ -98,8 +103,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(3)),
+segment_maker.append_commands(
+    vn_2,
+    stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([-1]),
@@ -107,8 +113,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(3)),
+segment_maker.append_commands(
+    vc,
+    stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([1]),
@@ -120,24 +127,27 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (vn_1, stages(1, 3)),
+segment_maker.append_commands(
+    vn_1,
+    stages(1, 3),
     akasha.tools.make_getato_pitch_specifier(5, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     Dynamic('ff'),
     )
     
-segment_maker.append_specifiers(
-    (vn_2, stages(1, 3)),
+segment_maker.append_commands(
+    vn_2,
+    stages(1, 3),
     akasha.tools.make_getato_pitch_specifier(-3, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     Dynamic('ff'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 3)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 3),
     akasha.tools.make_getato_pitch_specifier(-13, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
