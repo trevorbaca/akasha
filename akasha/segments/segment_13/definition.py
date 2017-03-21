@@ -47,18 +47,21 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (va, stages(1)),
+segment_maker.append_commands(
+    va,
+    stages(1),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(3)),
+segment_maker.append_commands(
+    va,
+    stages(3),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(5)),
+segment_maker.append_commands(
+    vc,
+    stages(5),
     baca.messiaen_tied_notes(),
     )
 
@@ -66,8 +69,9 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (va, stages(1, 3)),
+segment_maker.append_commands(
+    va,
+    stages(1, 3),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_each_note_abruptly(),
@@ -76,8 +80,9 @@ segment_maker.append_specifiers(
     Clef('alto'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(5)),
+segment_maker.append_commands(
+    vc,
+    stages(5),
     baca.markup.pos_ord_vib_poco(),
     baca.pitches('Bb1'),
     Clef('bass'),

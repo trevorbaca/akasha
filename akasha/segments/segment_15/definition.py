@@ -48,24 +48,27 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    ([vn_1, va, vc], stages(1, 2)),
+segment_maker.append_commands(
+    [vn_1, va, vc],
+    stages(1, 2),
     new(
         baca.messiaen_notes(),
         rhythm_maker__division_masks=silence_every([1], period=2),
         ),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(2, 3)),
+segment_maker.append_commands(
+    vn_2,
+    stages(2, 3),
     new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence_except([3, 36, 37]),
         ),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(3)),
+segment_maker.append_commands(
+    vc,
+    stages(3),
     baca.tools.RhythmSpecifier(
         rhythm_maker=rhythmmakertools.NoteRhythmMaker(
             division_masks=silence_all(use_multimeasure_rests=True),
@@ -77,23 +80,27 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (vn_1, stages(1, 2)),
+segment_maker.append_commands(
+    vn_1,
+    stages(1, 2),
     baca.pitches('B4'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(1, 2)),
+segment_maker.append_commands(
+    va,
+    stages(1, 2),
     baca.pitches('C4'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 2)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 2),
     baca.pitches('D3'),
     )
 
-segment_maker.append_specifiers(
-    ([vn_1, va, vc], stages(1, 2)),
+segment_maker.append_commands(
+    [vn_1, va, vc],
+    stages(1, 2),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.full_bow_strokes(),
@@ -102,8 +109,9 @@ segment_maker.append_specifiers(
     baca.one_line_staff(),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(2, 3)),
+segment_maker.append_commands(
+    vn_2,
+    stages(2, 3),
     akasha.tools.make_getato_pitch_specifier(29, direction=Down),
     baca.staccati(),
     baca.markup.leggieriss(),

@@ -65,18 +65,21 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 2)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 2),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    ((vn_1, vn_2, va), stages(2, 10)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(2, 10),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(4, 8)),
+segment_maker.append_commands(
+    vc,
+    stages(4, 8),
     baca.messiaen_tied_notes(),
     )
 
@@ -86,13 +89,15 @@ segment_maker.append_specifiers(
 
 ### stage 1 ###
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 8)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 8),
     baca.pitches('Bb1'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 2)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 2),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -108,38 +113,44 @@ segment_maker.append_specifiers(
 
 ### stage 2 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(2, 10)),
+segment_maker.append_commands(
+    vn_1,
+    stages(2, 10),
     baca.repeat_ties_up(),
     baca.pitches('Bb4'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(2, 10)),
+segment_maker.append_commands(
+    vn_2,
+    stages(2, 10),
     baca.pitches('Bb3'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(2, 10)),
+segment_maker.append_commands(
+    va,
+    stages(2, 10),
     baca.pitches('Bb2'),
     )
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stages(2)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(2),
     baca.wrap_first_note(baca.markup.tasto_XFB()),
     baca.wrap_first_note(Dynamic('pp')),
     )
 
 ### stage 4 ###
 
-segment_maker.append_specifiers(
-    (vc, stages(4, 6)),
+segment_maker.append_commands(
+    vc,
+    stages(4, 6),
     baca.wrap_first_note(baca.markup.vib_poco()),
     baca.wrap_first_note(Dynamic('pp')),
     )
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stages(4)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(4),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -151,8 +162,9 @@ segment_maker.append_specifiers(
 
 ### stage 5 ###
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stages(5)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(5),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -164,8 +176,9 @@ segment_maker.append_specifiers(
 
 ### stage 6 ###
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stages(6)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(6),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -177,8 +190,9 @@ segment_maker.append_specifiers(
 
 ### stage 7 ###
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stages(7)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(7),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -188,8 +202,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(7, 8)),
+segment_maker.append_commands(
+    vc,
+    stages(7, 8),
     baca.wrap_leaves(
         Hairpin('pp > niente', include_rests=True),
         with_next_leaf=True,
@@ -198,8 +213,9 @@ segment_maker.append_specifiers(
 
 ### stage 8 ###
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stages(8)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(8),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -211,8 +227,9 @@ segment_maker.append_specifiers(
 
 ### stage 9 ###
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stages(9)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(9),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -224,8 +241,9 @@ segment_maker.append_specifiers(
 
 ### stage 10 ###
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2, va], stages(10)),
+segment_maker.append_commands(
+    [vn_1, vn_2, va],
+    stages(10),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),

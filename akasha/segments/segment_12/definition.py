@@ -78,68 +78,81 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (tutti, stages(1, 7)),
+segment_maker.append_commands(
+    tutti,
+    stages(1, 7),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(9)),
+segment_maker.append_commands(
+    tutti,
+    stages(9),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(10)),
+segment_maker.append_commands(
+    tutti,
+    stages(10),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(12)),
+segment_maker.append_commands(
+    tutti,
+    stages(12),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(14, 17)),
+segment_maker.append_commands(
+    vc,
+    stages(14, 17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(14)),
+segment_maker.append_commands(
+    va,
+    stages(14),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(15, 17)),
+segment_maker.append_commands(
+    va,
+    stages(15, 17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(14, 15)),
+segment_maker.append_commands(
+    vn_2,
+    stages(14, 15),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(16, 17)),
+segment_maker.append_commands(
+    vn_2,
+    stages(16, 17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vn_1, stages(14, 16)),
+segment_maker.append_commands(
+    vn_1,
+    stages(14, 16),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (vn_1, stages(17)),
+segment_maker.append_commands(
+    vn_1,
+    stages(17),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(19)),
+segment_maker.append_commands(
+    tutti,
+    stages(19),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(20, 21)),
+segment_maker.append_commands(
+    tutti,
+    stages(20, 21),
     baca.messiaen_tied_notes(),
     )
 
@@ -147,36 +160,42 @@ segment_maker.append_specifiers(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
-    (vn_1, stages(1, 7)),
+segment_maker.append_commands(
+    vn_1,
+    stages(1, 7),
     baca.pitches('A5'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(1, 7)),
+segment_maker.append_commands(
+    vn_2,
+    stages(1, 7),
     baca.pitches('G#+4'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(1, 7)),
+segment_maker.append_commands(
+    va,
+    stages(1, 7),
     baca.pitches('A+2'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(1, 7)),
+segment_maker.append_commands(
+    vc,
+    stages(1, 7),
     baca.pitches('A1'),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(1)),
+segment_maker.append_commands(
+    tutti,
+    stages(1),
     baca.wrap_first_note(baca.effort_dynamic('ff')),
     baca.wrap_first_note(
         baca.markup.make_markup('tasto + 1 click/3-4 sec.'),
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(2)),
+segment_maker.append_commands(
+    tutti,
+    stages(2),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -186,8 +205,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(3)),
+segment_maker.append_commands(
+    tutti,
+    stages(3),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -197,8 +217,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(4)),
+segment_maker.append_commands(
+    tutti,
+    stages(4),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -208,13 +229,15 @@ segment_maker.append_specifiers(
         )
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(4)),
+segment_maker.append_commands(
+    tutti,
+    stages(4),
     baca.wrap_note(Dynamic('ff'), n=2),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(5)),
+segment_maker.append_commands(
+    tutti,
+    stages(5),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -224,8 +247,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(6)),
+segment_maker.append_commands(
+    tutti,
+    stages(6),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -235,8 +259,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(7)),
+segment_maker.append_commands(
+    tutti,
+    stages(7),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.trans(),
@@ -252,34 +277,40 @@ segment_maker.append_specifiers(
 
 ### stage 9 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(9)),
+segment_maker.append_commands(
+    vn_1,
+    stages(9),
     baca.pitches('A5'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(9)),
+segment_maker.append_commands(
+    vn_2,
+    stages(9),
     baca.pitches('A4'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(9)),
+segment_maker.append_commands(
+    va,
+    stages(9),
     baca.pitches('A2'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(9)),
+segment_maker.append_commands(
+    vc,
+    stages(9),
     baca.pitches('A1'),
     )
 
-segment_maker.append_specifiers(
+segment_maker.append_commands(
     #(vn_1, stages(9, 10)),
-    (tutti, stages(9, 10)),
+    tutti,
+    stages(9, 10),
     baca.wrap_first_note(baca.markup.boxed_repeat_countt(6)),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(9)),
+segment_maker.append_commands(
+    tutti,
+    stages(9),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.pos_ord_senza_vib(),
@@ -293,8 +324,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(9)),
+segment_maker.append_commands(
+    tutti,
+    stages(9),
     baca.wrap_leaves(
         Hairpin('fff > p'),
         start=-2,
@@ -310,28 +342,33 @@ segment_maker.append_specifiers(
 
 ### stage 10 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(10)),
+segment_maker.append_commands(
+    vn_1,
+    stages(10),
     baca.pitches('A5'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(10)),
+segment_maker.append_commands(
+    vn_2,
+    stages(10),
     baca.pitches('G#+4'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(10)),
+segment_maker.append_commands(
+    va,
+    stages(10),
     baca.pitches('A+2'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(10)),
+segment_maker.append_commands(
+    vc,
+    stages(10),
     baca.pitches('A1'),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(10)),
+segment_maker.append_commands(
+    tutti,
+    stages(10),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.pos_ord(),
@@ -345,8 +382,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(10)),
+segment_maker.append_commands(
+    tutti,
+    stages(10),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.XP(),
@@ -362,52 +400,61 @@ segment_maker.append_specifiers(
 
 ### stages 12-21 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(12, 16)),
+segment_maker.append_commands(
+    vn_1,
+    stages(12, 16),
     baca.pitches('A5'),
     )
 
-segment_maker.append_specifiers(
-    (vn_1, stages(17, 21)),
+segment_maker.append_commands(
+    vn_1,
+    stages(17, 21),
     baca.natural_harmonics(),
     baca.pitches('B7'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(12, 15)),
+segment_maker.append_commands(
+    vn_2,
+    stages(12, 15),
     baca.pitches('A4'),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(16, 21)),
+segment_maker.append_commands(
+    vn_2,
+    stages(16, 21),
     baca.natural_harmonics(),
     baca.pitches('C#7'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(12, 14)),
+segment_maker.append_commands(
+    va,
+    stages(12, 14),
     baca.pitches('A2'),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(15, 21)),
+segment_maker.append_commands(
+    va,
+    stages(15, 21),
     baca.natural_harmonics(),
     baca.pitches('G~5'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(12)),
+segment_maker.append_commands(
+    vc,
+    stages(12),
     baca.pitches('A1'),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(14, 21)),
+segment_maker.append_commands(
+    vc,
+    stages(14, 21),
     baca.natural_harmonics(),
     baca.pitches('D5'),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(12)),
+segment_maker.append_commands(
+    tutti,
+    stages(12),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.pos_ord(),
@@ -423,8 +470,9 @@ segment_maker.append_specifiers(
 
 ### stage 14 ###
 
-segment_maker.append_specifiers(
-    (vc, stages(14, 17)),
+segment_maker.append_commands(
+    vc,
+    stages(14, 17),
     baca.wrap_first_note(
         baca.markup.make_markup('pos. ord. + 11°/A1(IV)'),
         ),
@@ -432,8 +480,9 @@ segment_maker.append_specifiers(
     baca.wrap_first_leaf(Clef('treble')),
     )
 
-segment_maker.append_specifiers(
-    (vc, stages(14, 15)),
+segment_maker.append_commands(
+    vc,
+    stages(14, 15),
     baca.wrap_leaves(
         Hairpin('sffp < f'),
         stop=4,
@@ -442,8 +491,9 @@ segment_maker.append_specifiers(
 
 ### stage 15 ###
 
-segment_maker.append_specifiers(
-    (va, stages(15, 17)),
+segment_maker.append_commands(
+    va,
+    stages(15, 17),
     baca.wrap_first_note(
         baca.markup.make_markup('pos. ord. + 7°/A2(IV)'),
         ),
@@ -451,8 +501,9 @@ segment_maker.append_specifiers(
     baca.wrap_first_leaf(Clef('treble')),
     )
 
-segment_maker.append_specifiers(
-    (va, stages(15, 16)),
+segment_maker.append_commands(
+    va,
+    stages(15, 16),
     baca.wrap_leaves(
         Hairpin('sffp < f'),
         stop=4,
@@ -461,21 +512,24 @@ segment_maker.append_specifiers(
 
 ### stage 16 ###
 
-segment_maker.append_specifiers(
-    (vn_2, stages(16, 17)),
+segment_maker.append_commands(
+    vn_2,
+    stages(16, 17),
     baca.wrap_leaves(baca.ottava()),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(16, 17)),
+segment_maker.append_commands(
+    vn_2,
+    stages(16, 17),
     baca.wrap_first_note(
         baca.markup.make_markup('pos. ord. + 5°/A4(II)'),
         ),
     baca.pervasive_trills(),
     )
 
-segment_maker.append_specifiers(
-    (vn_2, stages(16, 17)),
+segment_maker.append_commands(
+    vn_2,
+    stages(16, 17),
     baca.wrap_leaves(
         Hairpin('sffp < f'),
         stop=4,
@@ -484,13 +538,15 @@ segment_maker.append_specifiers(
 
 ### stage 17 ###
 
-segment_maker.append_specifiers(
-    (vn_1, stages(17)),
+segment_maker.append_commands(
+    vn_1,
+    stages(17),
     baca.wrap_leaves(baca.ottava()),
     )
 
-segment_maker.append_specifiers(
-    (vn_1, stages(17)),
+segment_maker.append_commands(
+    vn_1,
+    stages(17),
     baca.wrap_first_note(
         baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
         ),
@@ -500,26 +556,30 @@ segment_maker.append_specifiers(
 
 ### stage 19 ###
 
-segment_maker.append_specifiers(
-    ([vn_1, vn_2], stages(19, 22)),
+segment_maker.append_commands(
+    [vn_1, vn_2],
+    stages(19, 22),
     baca.wrap_leaves(baca.ottava()),
     )
 
-segment_maker.append_specifiers(
+segment_maker.append_commands(
     #(vn_1, stages(19)),
-    (tutti, stages(19)),
+    tutti,
+    stages(19),
     baca.wrap_first_note(
         baca.markup.boxed_repeat_countt(6),
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(19)),
+segment_maker.append_commands(
+    tutti,
+    stages(19),
     baca.pervasive_trills(),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(19)),
+segment_maker.append_commands(
+    tutti,
+    stages(19),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.pos_ord(),
@@ -533,8 +593,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(19)),
+segment_maker.append_commands(
+    tutti,
+    stages(19),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.XP(),
@@ -550,13 +611,15 @@ segment_maker.append_specifiers(
 
 ### stages 20-21 ###
 
-segment_maker.append_specifiers(
-    (tutti, stages(20, 21)),
+segment_maker.append_commands(
+    tutti,
+    stages(20, 21),
     baca.pervasive_trills(),
     )
 
-segment_maker.append_specifiers(
-    (tutti, stages(20, 21)),
+segment_maker.append_commands(
+    tutti,
+    stages(20, 21),
     baca.wrap_leaves(
         baca.transition_spanner(
             baca.markup.pos_ord(),
