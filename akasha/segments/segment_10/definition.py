@@ -49,7 +49,7 @@ tempo_specifier = baca.tools.TempoSpecifier([
 maker = akasha.tools.TimeSignatureMaker('A', 15, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
-spacing_specifier = baca.tools.HorizontalSpacingSpecifier(
+spacing_specifier = baca.tools.HorizontalSpacingCommand(
     fermata_measure_width=Duration(1, 4),
     minimum_width=Duration(1, 12),
     )

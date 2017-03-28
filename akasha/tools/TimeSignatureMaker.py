@@ -54,22 +54,52 @@ class TimeSignatureMaker(object):
         time_signatures = time_signatures.flatten()
         items = []
         for item in self.stage_specifier:
-            if isinstance(item, Fermata):
-                item = TimeSignature((1, 4))
+            if isinstance(item, abjad.Fermata):
+                item = abjad.TimeSignature((1, 4))
             items.append(item)
         stage_specifier = baca.tools.StageSpecifier(items=items)
-        preprocessor = baca.tools.TimeSignaturePreprocessor(
-            repeat_count=self.repeat_count,
-            stage_specifier=stage_specifier,
-            time_signatures=time_signatures,
+#        preprocessor = baca.tools.TimeSignaturePreprocessor(
+#            repeat_count=self.repeat_count,
+#            stage_specifier=stage_specifier,
+#            time_signatures=time_signatures,
+#            )
+#        time_signature_groups = preprocessor()
+        time_signature_groups = self._make_time_signature_groups(
+            self.repeat_count,
+            stage_specifier,
+            time_signatures,
             )
-        time_signature_groups = preprocessor()
         measures_per_stage = [len(_) for _ in time_signature_groups]
         time_signatures = baca.Sequence(time_signature_groups).flatten()
         fermata_entries = self.stage_specifier._make_fermata_entries()
         items = self.tempo_specifier.items + fermata_entries
         tempo_specifier = baca.tools.TempoSpecifier(items=items)
         return measures_per_stage, tempo_specifier, time_signatures
+
+    ### PRIVATE METHODS ###
+
+    def _make_time_signature_groups(
+        self,
+        repeat_count,
+        stage_specifier,
+        time_signatures,
+        ):
+        time_signatures = abjad.CyclicTuple(time_signatures)
+        time_signature_lists = []
+        index = 0
+        for x in stage_specifier:
+            if isinstance(x, abjad.TimeSignature):
+                time_signature_list = [x]
+            elif isinstance(x, (tuple, list)):
+                time_signature_list = list(x)
+            else:
+                time_signature_list = time_signatures[index:index+x]
+                time_signature_list = list(time_signature_list)
+                index += x
+            time_signature_lists.append(time_signature_list)
+        repeat_count = repeat_count or 1
+        time_signature_lists *= repeat_count
+        return time_signature_lists
 
     ### PUBLIC PROPERTIES ###
 
