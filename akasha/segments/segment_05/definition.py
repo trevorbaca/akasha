@@ -38,10 +38,11 @@ spacing_specifier = baca.tools.HorizontalSpacingCommand(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    ignore_repeat_pitch_classes=True,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    score_package=akasha,
+    score_template=akasha.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -59,7 +60,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_commands(
     [vn_1, va, vc],
-    stages(1),
+    baca.select_stages(1),
     baca.messiaen_tied_notes(),
     )
 
@@ -67,13 +68,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     [vn_1, va, vc],
-    stages(3),
+    baca.select_stages(3),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(3),
+    baca.select_stages(3),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
@@ -81,13 +82,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     [va, vc],
-    stages(5),
+    baca.select_stages(5),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     [vn_1, vn_2],
-    stages(5),
+    baca.select_stages(5),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
@@ -95,13 +96,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(7),
+    baca.select_stages(7),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     [vn_1, vn_2, vc],
-    stages(7),
+    baca.select_stages(7),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
@@ -109,25 +110,25 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     [vn_1, vn_2],
-    stages(9, 10),
+    baca.select_stages(9, 10),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(9),
+    baca.select_stages(9),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(10),
+    baca.select_stages(10),
     akasha.tools.make_glissando_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(9, 10),
+    baca.select_stages(9, 10),
     baca.messiaen_tied_notes(),
     )
 
@@ -135,16 +136,16 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     [vn_1, va, vc],
-    stages(12),
+    baca.select_stages(12),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(12),
+    baca.select_stages(12),
     baca.tools.RhythmSpecifier(
-        division_expression=sequence()
-            .partition_by_ratio_of_lengths(Ratio((1, 1)))
+        division_expression=baca.sequence()
+            .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0]
             ,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
@@ -164,16 +165,16 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     [vn_1, va],
-    stages(14),
+    baca.select_stages(14),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(14),
+    baca.select_stages(14),
     baca.tools.RhythmSpecifier(
-        division_expression=sequence()
-            .partition_by_ratio_of_lengths(Ratio((1, 1)))
+        division_expression=baca.sequence()
+            .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0]
             ,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
@@ -191,7 +192,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(14),
+    baca.select_stages(14),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
@@ -199,13 +200,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(15),
+    baca.select_stages(15),
     akasha.tools.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(16),
+    baca.select_stages(16),
     akasha.tools.make_glissando_rhythm_specifier(),
     )
 
@@ -215,50 +216,50 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(1),
+    baca.select_stages(1),
     baca.ottava(),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(3),
+    baca.select_stages(3),
     baca.ottava(),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(1, 3),
+    baca.select_stages(1, 3),
     baca.markup.make_markup('5°/A4(II) + vib. mod.'),
     baca.natural_harmonics(),
     baca.pitches('C#7'),
-    Dynamic('mp'),
+    baca.dynamic('mp'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(1),
+    baca.select_stages(1),
     baca.markup.make_markup('7°/A2(IV) + vib. mod.'),
-    Clef('treble'),
-    Dynamic('mp'),
+    baca.clef('treble'),
+    baca.dynamic('mp'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(1),
+    baca.select_stages(1),
     baca.markup.make_markup('11°/A1(IV) + vib. mod.'),
-    Clef('treble'),
-    Dynamic('mp'),
+    baca.clef('treble'),
+    baca.dynamic('mp'),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(5),
+    baca.select_stages(5),
     akasha.tools.make_harmonic_glissando_pitch_specifier('A4'),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(7),
+    baca.select_stages(7),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'A4',
         rotation=-6,
@@ -267,7 +268,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(9, 10),
+    baca.select_stages(9, 10),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-12,
@@ -276,7 +277,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(12),
+    baca.select_stages(12),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-18,
@@ -285,7 +286,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(14),
+    baca.select_stages(14),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-24,
@@ -294,22 +295,22 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(5, 14),
+    baca.select_stages(5, 14),
     baca.markup.make_markup('XP + senza vib. + full bow strokes'),
     baca.natural_harmonics(),
     baca.glissandi(),
-    Dynamic('ppp'),
+    baca.dynamic('ppp'),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(3),
+    baca.select_stages(3),
     akasha.tools.make_harmonic_glissando_pitch_specifier('A4'),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(5),
+    baca.select_stages(5),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-6,
@@ -318,7 +319,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(7),
+    baca.select_stages(7),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-12,
@@ -327,7 +328,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(9, 10),
+    baca.select_stages(9, 10),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-18,
@@ -336,48 +337,48 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(3, 10),
+    baca.select_stages(3, 10),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
     baca.glissandi(),
-    Dynamic('ppp'),
+    baca.dynamic('ppp'),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(12, 14),
+    baca.select_stages(12, 14),
     baca.markup.tasto(),
     baca.pervasive_trills_at_interval(2),
     baca.pitches('G5'),
-    Dynamic('p'),
+    baca.dynamic('p'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(1, 7),
+    baca.select_stages(1, 7),
     baca.natural_harmonics(),
     baca.pitches('G~5'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(9, 10),
+    baca.select_stages(9, 10),
     baca.markup.tasto_senza_vib(),
     baca.fixed_pitches('Fb3 E3 D#3 C#3 B#2'),
     baca.glissandi(),
-    Clef('alto'),
-    Hairpin('sf > ppp'),
+    baca.clef('alto'),
+    baca.hairpins(['sf > ppp']),
     )
 
 segment_maker.append_commands(
     va,
-    stages(12),
+    baca.select_stages(12),
     akasha.tools.make_harmonic_glissando_pitch_specifier('Ab3'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(14),
+    baca.select_stages(14),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'Ab3', 
         rotation=-6,
@@ -386,47 +387,47 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(12, 14),
+    baca.select_stages(12, 14),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
     baca.glissandi(),
-    Dynamic('ppp'),
+    baca.dynamic('ppp'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(1, 5),
+    baca.select_stages(1, 5),
     baca.natural_harmonics(),
     baca.pitches('D5'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(7),
+    baca.select_stages(7),
     akasha.tools.make_harmonic_glissando_pitch_specifier('G2'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(7),
+    baca.select_stages(7),
     baca.markup.make_markup('XP + senza vib. + full bow strokes'),
     baca.natural_harmonics(),
     baca.glissandi(),
-    Clef('bass'),
-    Dynamic('ppp'),
+    baca.clef('bass'),
+    baca.dynamic('ppp'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(9),
+    baca.select_stages(9),
     baca.markup.tasto(),
     baca.pitches('C#2'),
-    Hairpin('sf > ppp'),
+    baca.hairpins(['sf > ppp']),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(12),
+    baca.select_stages(12),
     akasha.tools.make_harmonic_glissando_pitch_specifier(
         'G2', 
         rotation=-6,
@@ -435,32 +436,32 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(12),
+    baca.select_stages(12),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
     baca.glissandi(),
-    Dynamic('ppp'),
+    baca.dynamic('ppp'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(14, 16),
+    baca.select_stages(14, 16),
     baca.markup.tasto(),
     baca.fixed_pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1'),
     baca.glissandi(),
-    Hairpin('sf > ppp'),
+    baca.hairpins(['sf > ppp']),
     )
 
 ### alternate bow strokes ###
 
 segment_maker.append_specifiers(
     [
-        (vn_2, stages(3)),
-        ([vn_1, vn_2], stages(5)),
-        ([vn_1, vn_2, vc], stages(7)),
-        ([vn_1, vn_2], stages(9, 10)),
-        ([vn_1, va, vc], stages(12)),
-        ([vn_1, va], stages(14)),
+        (vn_2, baca.select_stages(3)),
+        ([vn_1, vn_2], baca.select_stages(5)),
+        ([vn_1, vn_2, vc], baca.select_stages(7)),
+        ([vn_1, vn_2], baca.select_stages(9, 10)),
+        ([vn_1, va, vc], baca.select_stages(12)),
+        ([vn_1, va], baca.select_stages(14)),
         ],
     baca.alternate_bow_strokes(),
     )
