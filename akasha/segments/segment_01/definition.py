@@ -19,10 +19,14 @@ tempo_specifier = baca.tools.TempoSpecifier([
     ])
 
 maker = akasha.tools.TimeSignatureMaker(
-    'B', 0, stage_specifier, tempo_specifier)
+    'B',
+    0,
+    stage_specifier,
+    tempo_specifier,
+    )
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
-spacing_specifier = baca.tools.HorizontalSpacingSpecifier(
+spacing_specifier = baca.tools.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
     minimum_width=abjad.Duration(1, 12),
     )
@@ -31,8 +35,8 @@ segment_maker = baca.tools.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    score_package=akasha,
-    label_stages=False,
+    #score_package=akasha,
+    score_template=akasha.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -48,7 +52,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_commands(
     va,
-    stages(1),
+    baca.select_stages(1),
     baca.messiaen_tied_notes(),
     )
 
@@ -58,7 +62,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(1, 2),
+    baca.select_stages(1, 2),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),

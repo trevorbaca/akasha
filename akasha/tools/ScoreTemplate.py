@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
 import abjad
+import baca
 
 
-class ScoreTemplate(abjad.abctools.AbjadValueObject):
+class ScoreTemplate(baca.tools.ScoreTemplate):
     r'''Score template.
 
     ::
 
         >>> import akasha
+        >>> import baca
 
     '''
 
