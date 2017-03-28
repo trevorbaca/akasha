@@ -64,6 +64,7 @@ segment_maker.append_commands(
     vc,
     baca.select_stages(1),
     akasha.tools.make_cello_solo_rhythm_specifier(rotation=0),
+    baca.clef('bass'),
     )
 
 ### baca.select_stages 3-4 ###
