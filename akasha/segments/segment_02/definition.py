@@ -39,10 +39,12 @@ spacing_specifier = baca.tools.HorizontalSpacingCommand(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    ignore_repeat_pitch_classes=True,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    score_package=akasha,
+    #score_package=akasha,
+    score_template=akasha.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -56,20 +58,20 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-### stages 1-2 ###
+### baca.select_stages 1-2 ###
 
 segment_maker.append_commands(
     vc,
-    stages(1),
+    baca.select_stages(1),
     akasha.tools.make_cello_solo_rhythm_specifier(rotation=0),
     )
 
-### stages 3-4 ###
+### baca.select_stages 3-4 ###
 
 segment_maker.append_commands(
     vn_2,
-    stages(3),
-    new(
+    baca.select_stages(3),
+    abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence([0, 1], inverted=True),
         ),
@@ -77,19 +79,19 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(3),
-    new(
+    baca.select_stages(3),
+    abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence([-1], inverted=True),
         ),
     )
 
-### stages 5-6 ###
+### baca.select_stages 5-6 ###
 
 segment_maker.append_commands(
     vn_1,
-    stages(5),
-    new(
+    baca.select_stages(5),
+    abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
         rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
         ),
@@ -97,8 +99,8 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(5),
-    new(
+    baca.select_stages(5),
+    abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
         rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
         ),
@@ -106,19 +108,19 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(5),
-    new(
+    baca.select_stages(5),
+    abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
         rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
         ),
     )
     
-### stages 7-8 ###
+### baca.select_stages 7-8 ###
 
 segment_maker.append_commands(
     vn_1,
-    stages(7),
-    new(
+    baca.select_stages(7),
+    abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence([-2, -1], inverted=True),
         ),
@@ -126,8 +128,8 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(7),
-    new(
+    baca.select_stages(7),
+    abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
         rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
         ),
@@ -135,8 +137,8 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(7),
-    new(
+    baca.select_stages(7),
+    abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
         rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
         ),
@@ -144,19 +146,19 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(7),
-    new(
+    baca.select_stages(7),
+    abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
         rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
         ),
     )
 
-### stages 9-10 ###
+### baca.select_stages 9-10 ###
 
 segment_maker.append_commands(
     vn_1,
-    stages(9),
-    new(
+    baca.select_stages(9),
+    abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(),
         rhythm_maker__division_masks=silence_first(),
         rhythm_maker__logical_tie_masks=silence([3, 5, 7, 9]),
@@ -165,8 +167,8 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(9),
-    new(
+    baca.select_stages(9),
+    abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
         rhythm_maker__division_masks=silence_first(),
         rhythm_maker__logical_tie_masks=silence([2, 5, 7]),
@@ -175,25 +177,25 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(9),
+    baca.select_stages(9),
     akasha.tools.make_polyphony_rhythm_specifier(rotation=-4),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(9),
-    new(
+    baca.select_stages(9),
+    abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-6),
         rhythm_maker__logical_tie_masks=silence_last(1),
         ),
     )
 
-### stages 11-12 ###
+### baca.select_stages 11-12 ###
 
 segment_maker.append_commands(
     vn_1,
-    stages(11),
-    new(
+    baca.select_stages(11),
+    abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=silence([0, 2, 3, -1], inverted=True),
         ),
@@ -201,8 +203,8 @@ segment_maker.append_commands(
     
 segment_maker.append_commands(
     vn_2,
-    stages(11),
-    new(
+    baca.select_stages(11),
+    abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=silence([0, 1, 4, -1], inverted=True),
         ),
@@ -210,25 +212,25 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     va,
-    stages(11),
+    baca.select_stages(11),
     akasha.tools.make_polyphony_rhythm_specifier(rotation=-8),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(11),
-    new(
+    baca.select_stages(11),
+    abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-10),
         rhythm_maker__logical_tie_masks=silence_last(1),
         ),
     )
 
-### stages 13-14 ###
+### baca.select_stages 13-14 ###
 
 segment_maker.append_commands(
     vn_1,
-    stages(13),
-    new(
+    baca.select_stages(13),
+    abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=silence([0, 2, -1], inverted=True),
         ),
@@ -236,19 +238,19 @@ segment_maker.append_commands(
     
 segment_maker.append_commands(
     vn_2,
-    stages(13),
-    new(
+    baca.select_stages(13),
+    abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=silence([0, 2, -1], inverted=True),
         ),
     )
 
-### stages 15-16 ###
+### baca.select_stages 15-16 ###
 
 segment_maker.append_commands(
     vn_2,
-    stages(15),
-    new(
+    baca.select_stages(15),
+    abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=silence([0, 1, -1], inverted=True),
         ),
@@ -256,8 +258,8 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(15),
-    new(
+    baca.select_stages(15),
+    abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence([1], inverted=True),
         ),
@@ -269,89 +271,95 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(1),
+    baca.select_stages(1),
     akasha.tools.make_cello_solo_pitch_specifier(),
     baca.markup.tasto_fractional_scratch(1, 2),
-    Dynamic('mp'),
+    #Dynamic('mp'),
+    baca.dynamic('mp'),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(5),
+    baca.select_stages(5),
     baca.fixed_pitches('E4 F4 E+4'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    Dynamic('mp'),
+    #Dynamic('mp'),
+    baca.dynamic('mp'),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(5),
+    baca.select_stages(5),
     baca.fixed_pitches('D4 D~4 C4'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    Dynamic('mp'),
+    #Dynamic('mp'),
+    baca.dynamic('mp'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(5),
+    baca.select_stages(5),
     baca.fixed_pitches('Eb4 D4 E4'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    Dynamic('mp'),
+    #Dynamic('mp'),
+    baca.dynamic('mp'),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(7),
+    baca.select_stages(7),
     baca.fixed_pitches('C#4 C#+4'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(7),
+    baca.select_stages(7),
     baca.fixed_pitches('C4'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(7),
+    baca.select_stages(7),
     baca.fixed_pitches('C4 C~4 B3'),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(9),
+    baca.select_stages(9),
     baca.markup.tasto_XFB(),
-    Dynamic('pp'),
+    #Dynamic('pp'),
+    baca.dynamic('pp'),
     )
     
 segment_maker.append_commands(
     vn_2,
-    stages(9),
+    baca.select_stages(9),
     baca.markup.tasto_XFB(),
-    Dynamic('pp'),
+    #Dynamic('pp'),
+    baca.dynamic('pp'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(9),
+    baca.select_stages(9),
     baca.fixed_pitches('D4 D+4 D#4 E4 F#4 F4'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(9),
+    baca.select_stages(9),
     baca.fixed_pitches('Bb3 Bb~3 A3 Ab3 G3 A3'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(11),
+    baca.select_stages(11),
     baca.fixed_pitches('Eb4 D4'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(11),
+    baca.select_stages(11),
     baca.fixed_pitches('A3 A#3 B3'),
     )
 
@@ -362,19 +370,20 @@ segment_maker.append_specifiers(
     )
 
 segment_maker.append_specifiers(
-    [(vn_2, stages(3)), (va, stages(3)), (vn_1, stages(7)), (vc, stages(15))],
+    [(vn_2, baca.select_stages(3)), (va, baca.select_stages(3)), (vn_1, baca.select_stages(7)), (vc, baca.select_stages(15))],
     baca.markup.leggierissimo_off_string_bowing_on_staccati(),
-    Dynamic('p'),
+    #Dynamic('p'),
+    baca.dynamic('p'),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(9, 15),
+    baca.select_stages(9, 15),
     baca.pitches('D5 E5'),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(9, 15),
+    baca.select_stages(9, 15),
     baca.pitches('Bb4 C5'),
     )
