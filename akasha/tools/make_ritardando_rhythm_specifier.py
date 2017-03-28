@@ -5,10 +5,9 @@ import baca
 
 def make_ritardando_rhythm_specifier():
     return baca.tools.RhythmSpecifier(
-        division_expression=sequence()
+        division_expression=baca.sequence()
             .partition_by_counts([1, 2], cyclic=True, overhang=True)
-            .map()
-            .sum()
+            .map(baca.sequence().sum())
             .flatten()
             ,
         rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(

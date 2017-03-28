@@ -16,4 +16,4 @@ def make_harmonic_glissando_pitch_specifier(
         pitch_numbers = [-_ for _ in pitch_numbers]
     pitch_numbers = [_ + start_pitch for _ in pitch_numbers]
     pitch_numbers = abjad.sequence(pitch_numbers).rotate(n=rotation)
-    return baca.tools.ScorePitchSpecifier(source=pitch_numbers)
+    return baca.tools.ScorePitchCommand(source=pitch_numbers)
