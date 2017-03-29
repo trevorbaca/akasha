@@ -14,4 +14,4 @@ def make_scratch_rhythm_specifier(
             logical_tie_masks=logical_tie_masks,
             extra_counts_per_division=extra_counts_per_division,
             ),
-        ),
+        )
