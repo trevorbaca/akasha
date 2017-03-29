@@ -36,10 +36,11 @@ spacing_specifier = baca.tools.HorizontalSpacingCommand(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    ignore_repeat_pitch_classes=True,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    score_package=akasha,
+    score_template=akasha.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -57,7 +58,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_commands(
     vn_1,
-    stages(1),
+    baca.select_stages(1),
     akasha.tools.make_dense_getato_rhythm_specifier(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -66,7 +67,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     [vn_2, va, vc],
-    stages(1),
+    baca.select_stages(1),
     baca.messiaen_notes(),
     )
 
@@ -74,7 +75,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     tutti,
-    stages(2),
+    baca.select_stages(2),
     baca.messiaen_notes(),
     )
 
@@ -83,7 +84,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     tutti,
-    stages(3),
+    baca.select_stages(3),
     baca.messiaen_notes(),
     )
 
@@ -91,7 +92,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     tutti,
-    stages(4),
+    baca.select_stages(4),
     baca.messiaen_notes(),
     )
 
@@ -99,13 +100,13 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     [vn_1, vn_2, vc],
-    stages(6),
+    baca.select_stages(6),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(6, 7),
+    baca.select_stages(6, 7),
     baca.messiaen_tied_notes(),
     )
 
@@ -117,36 +118,36 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(1),
+    baca.select_stages(1),
     akasha.tools.make_getato_pitch_specifier(31, [2]),
-    Hairpin('pp > niente'),
+    baca.hairpins(['pp > niente']),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(2, 5),
+    baca.select_stages(2, 5),
     baca.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
     baca.glissandi(),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(1, 5),
+    baca.select_stages(1, 5),
     baca.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
     baca.glissandi(),
     )
 
 segment_maker.append_commands(
     va,
-    stages(1, 5),
+    baca.select_stages(1, 5),
     baca.infinite_pitches([3, 5, 2, 4, 2, 0], [1]),
     baca.glissandi(),
-    Clef('alto'),
+    baca.clef('alto'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(6),
+    baca.select_stages(6),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
@@ -157,79 +158,79 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(1, 5),
+    baca.select_stages(1, 5),
     baca.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
     baca.glissandi(),
-    Clef('bass'),
+    baca.clef('bass'),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(6),
+    baca.select_stages(6),
     baca.pitches('F#5'),
-    Dynamic('ppp'),
+    baca.dynamic('ppp'),
     )
 
 segment_maker.append_commands(
     vn_2,
-    stages(6),
+    baca.select_stages(6),
     baca.pitches('Ab4'),
-    Dynamic('ppp'),
+    baca.dynamic('ppp'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(6),
+    baca.select_stages(6),
     baca.pitches('C#2'),
-    Dynamic('ppp'),
+    baca.dynamic('ppp'),
     )
 
 segment_maker.append_commands(
     [vn_2, va, vc],
-    stages(1),
+    baca.select_stages(1),
     baca.transition_spanner(
-        baca.markup.tasto_scratch_moltiss(),
+        baca.markup.tasto_plus_scratch_moltiss(),
         baca.markup.fractional_scratch(1, 4),
         ),
-    Hairpin('ff > f'),
+    baca.hairpins(['ff > f']),
     )
 
 segment_maker.append_commands(
     vn_1,
-    stages(2),
+    baca.select_stages(2),
     baca.transition_spanner(
         baca.markup.tasto_fractional_scratch(1, 4),
         baca.markup.tasto(),
         ),
-    Hairpin('f > mf'),
+    baca.hairpins(['f > mf']),
     )
 
 segment_maker.append_commands(
     [vn_2, va, vc],
-    stages(2),
+    baca.select_stages(2),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.tasto(),
         ),
-    Hairpin('f > mf'),
+    baca.hairpins(['f > mf']),
     )
 
 segment_maker.append_commands(
     tutti,
-    stages(3),
+    baca.select_stages(3),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.FB(),
         ),
-    Hairpin('mf > p'),
+    baca.hairpins(['mf > p']),
     )
 
 segment_maker.append_commands(
     tutti,
-    stages(4),
+    baca.select_stages(4),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.XFB(),
         ),
-    Hairpin('p > pp'),
+    baca.hairpins(['p > pp']),
     )
