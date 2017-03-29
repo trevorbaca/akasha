@@ -30,10 +30,11 @@ spacing_specifier = baca.tools.HorizontalSpacingCommand(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    ignore_repeat_pitch_classes=True,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    score_package=akasha,
+    score_template=akasha.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -51,7 +52,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_commands(
     vn_2,
-    stages(1),
+    baca.select_stages(1),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([-1]),
@@ -61,7 +62,9 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(1),
+    baca.select_stages(1),
+    # TODO: remove in favor of segment metadata
+    baca.clef('bass'),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([1]),
@@ -73,7 +76,7 @@ segment_maker.append_commands(
     
 segment_maker.append_commands(
     vn_1,
-    stages(2),
+    baca.select_stages(2),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([0]),
@@ -83,7 +86,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(2),
+    baca.select_stages(2),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([2]),
@@ -95,7 +98,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(3),
+    baca.select_stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([0]),
@@ -105,7 +108,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(3),
+    baca.select_stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([-1]),
@@ -115,7 +118,7 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(3),
+    baca.select_stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
         silence_except([1]),
@@ -129,27 +132,27 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(1, 3),
+    baca.select_stages(1, 3),
     akasha.tools.make_getato_pitch_specifier(5, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    Dynamic('ff'),
+    baca.dynamic('ff'),
     )
     
 segment_maker.append_commands(
     vn_2,
-    stages(1, 3),
+    baca.select_stages(1, 3),
     akasha.tools.make_getato_pitch_specifier(-3, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    Dynamic('ff'),
+    baca.dynamic('ff'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(1, 3),
+    baca.select_stages(1, 3),
     akasha.tools.make_getato_pitch_specifier(-13, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    Dynamic('ff'),
+    baca.dynamic('ff'),
     )
