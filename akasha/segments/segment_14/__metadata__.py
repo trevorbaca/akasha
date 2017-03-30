@@ -8,8 +8,8 @@ metadata = abjad.datastructuretools.TypedOrderedDict(
             'end_clefs_by_staff',
             abjad.datastructuretools.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', None),
-                    ('Viola Music Staff', None),
+                    ('Cello Music Staff', 'bass'),
+                    ('Viola Music Staff', 'alto'),
                     ('Violin One Music Staff', None),
                     ('Violin Two Music Staff', None),
                     ]
@@ -32,7 +32,7 @@ metadata = abjad.datastructuretools.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_tempo', 44),
+        ('end_tempo', None),
         ('end_time_signature', '1/4'),
         ('first_bar_number', 340),
         ('measure_count', 29),
