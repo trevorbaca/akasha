@@ -13,14 +13,15 @@ stage_specifier = baca.tools.StageSpecifier([
     8,
     8,
     8,
-    Fermata('verylongfermata'),
+    abjad.Fermata('verylongfermata'),
     ])
 
 tempo_specifier = baca.tools.TempoSpecifier([
     (1, akasha.materials.tempi[89]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker('B', 30, stage_specifier, tempo_specifier)
+maker = akasha.tools.TimeSignatureMaker(
+    'B', 30, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.tools.HorizontalSpacingCommand(
@@ -29,12 +30,13 @@ spacing_specifier = baca.tools.HorizontalSpacingCommand(
     )
 
 segment_maker = baca.tools.SegmentMaker(
+    ignore_repeat_pitch_classes=True,
     #label_clock_time=True,
     #label_stages=True,
     final_markup=akasha.materials.colophon_markup,
     final_markup_extra_offset=(-17, -12),
     measures_per_stage=measures_per_stage,
-    score_package=akasha,
+    score_template=akasha.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -50,8 +52,8 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker.append_commands(
     [vn_1, va, vc],
-    stages(1, 2),
-    new(
+    baca.select_stages(1, 2),
+    abjad.new(
         baca.messiaen_notes(),
         rhythm_maker__division_masks=silence_every([1], period=2),
         ),
@@ -59,8 +61,8 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(2, 3),
-    new(
+    baca.select_stages(2, 3),
+    abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=silence_except([3, 36, 37]),
         ),
@@ -68,9 +70,9 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    stages(3),
+    baca.select_stages(3),
     baca.tools.RhythmSpecifier(
-        rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=silence_all(use_multimeasure_rests=True),
             ),
         ),
@@ -82,25 +84,29 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_1,
-    stages(1, 2),
+    baca.select_stages(1, 2),
     baca.pitches('B4'),
     )
 
 segment_maker.append_commands(
     va,
-    stages(1, 2),
+    baca.select_stages(1, 2),
+    # TODO: remove in favor of segment metadata
+    baca.clef('alto'),
     baca.pitches('C4'),
     )
 
 segment_maker.append_commands(
     vc,
-    stages(1, 2),
+    baca.select_stages(1, 2),
+    # TODO: remove in favor of segment metadata
+    baca.clef('bass'),
     baca.pitches('D3'),
     )
 
 segment_maker.append_commands(
     [vn_1, va, vc],
-    stages(1, 2),
+    baca.select_stages(1, 2),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.full_bow_strokes(),
@@ -111,9 +117,9 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vn_2,
-    stages(2, 3),
+    baca.select_stages(2, 3),
     akasha.tools.make_getato_pitch_specifier(29, direction=Down),
     baca.staccati(),
     baca.markup.leggieriss(),
-    abjad.Dynamic('pp'),
+    baca.dynamic('pp'),
     )
