@@ -101,22 +101,11 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 2),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.trans(),
-#            baca.markup.vib_moltiss(),
-#            ),
-#        stop=9,
-#        ),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
         selector=baca.select_leaves(stop=9),
         ),
-#    baca.wrap_leaves(
-#        Hairpin('ppp < ff'),
-#        stop=9,
-#        ),
     baca.hairpins(['ppp < ff'], selector=baca.select_leaves(stop=9)),
     )
 
@@ -146,9 +135,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2, va],
     baca.select_stages(2),
-    #baca.wrap_first_note(baca.markup.tasto_XFB()),
     baca.markup.tasto_XFB(),
-    #baca.wrap_first_note(Dynamic('pp')),
     baca.dynamic('pp'),
     )
 
@@ -157,22 +144,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(4, 6),
-    #baca.wrap_first_note(baca.markup.vib_poco()),
     baca.markup.vib_poco(),
-    #baca.wrap_first_note(Dynamic('pp')),
     baca.dynamic('pp'),
     )
 
 segment_maker.append_commands(
     [vn_1, vn_2, va],
     baca.select_stages(4),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.trans(),
-#            baca.markup.pos_ord_XFB(),
-#            ),
-#        stop=2,
-#        ),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.pos_ord_XFB(),
@@ -185,13 +163,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2, va],
     baca.select_stages(5),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.trans(),
-#            baca.markup.pont_XFB(),
-#            ),
-#        stop=2,
-#        ),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.pont_XFB(),
@@ -204,13 +175,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2, va],
     baca.select_stages(6),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.trans(),
-#            baca.markup.XP_XFB(),
-#            ),
-#        stop=3,
-#        ),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.XP_XFB(),
@@ -223,13 +187,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2, va],
     baca.select_stages(7),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.trans(),
-#            baca.markup.XP(),
-#            ),
-#        stop=4,
-#        ),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.XP(),
@@ -240,10 +197,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(7, 8),
-#    baca.wrap_leaves(
-#        Hairpin('pp > niente', include_rests=True),
-#        with_next_leaf=True,
-#        ),
     baca.hairpins(
         ['pp > niente'],
         include_rests=True,
@@ -256,13 +209,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2, va],
     baca.select_stages(8),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.trans(),
-#            baca.markup.fractional_OB(1, 3),
-#            ),
-#        stop=2,
-#        ),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 3),
@@ -275,13 +221,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2, va],
     baca.select_stages(9),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.trans(),
-#            baca.markup.fractional_OB(2, 3),
-#            ),
-#        stop=2,
-#        ),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.fractional_OB(2, 3),
@@ -294,13 +233,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2, va],
     baca.select_stages(10),
-#    baca.wrap_leaves(
-#        baca.transition_spanner(
-#            baca.markup.trans(),
-#            baca.markup.OB_no_pitch(),
-#            ),
-#        stop=2,
-#        ),
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.OB_no_pitch(),
