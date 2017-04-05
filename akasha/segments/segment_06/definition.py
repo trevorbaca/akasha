@@ -340,7 +340,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(12, 14),
-    baca.markup.piu_meno_scratch(),
+    baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
     )
 
@@ -377,7 +377,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(10, 12),
-    baca.markup.piu_meno_scratch(),
+    baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
     )
 
@@ -434,7 +434,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(9, 11),
-    baca.markup.piu_meno_scratch(),
+    baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
     )
 
