@@ -178,23 +178,15 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
         music_context = abjad.Context(
             [
                 string_quartet_staff_group,
-            ],
+                ],
             context_name='MusicContext',
             name='Music Context',
             )
         score = abjad.Score(
             [
-            time_signature_context,
-            music_context,
-            ],
+                time_signature_context,
+                music_context,
+                ],
             name='Score',
             )
         return score
-
-    ### PRIVATE METHODS ###
-
-    def _attach_tag(self, instrument_tag, context):
-        assert isinstance(instrument_tag, str), repr(str)
-        tag_string = 'tag {}'.format(instrument_tag)
-        tag_command = abjad.LilyPondCommand(tag_string, 'before')
-        abjad.attach(tag_command, context)
