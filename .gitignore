@@ -52,5 +52,4 @@ __illustrate_material__.py
 *.candidate.pdf
 
 # more Abjad IDE
-illustration.ly
 illustration.pdf
