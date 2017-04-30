@@ -1,4 +1,5 @@
 *.py[cod]
+.cache
 
 # C extensions
 *.so
@@ -50,6 +51,4 @@ __illustrate_material__.py
 *.candidate.ly
 *.candidate.ps
 *.candidate.pdf
-
-# more Abjad IDE
 illustration.pdf
