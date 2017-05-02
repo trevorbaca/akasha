@@ -1,4 +1,5 @@
 DESIDERATA
+==========
 
 1. wonder
 
@@ -11,6 +12,7 @@ DESIDERATA
 5. memory
 
 MATERIALS
+=========
 
 1. 1/2 clt
 
@@ -31,6 +33,7 @@ MATERIALS
 10. true ppppp
 
 COLORS
+======
 
 A. getati
     a1. isolated scratch tenuti
