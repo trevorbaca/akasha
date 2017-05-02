@@ -17,6 +17,7 @@ N: B[30]
 intro (8")
 
 [A] (72")
+
     1-2 (2 + long fermata)
     microtonal cello line;
     long fermata;
@@ -549,21 +550,21 @@ fermata: 2-3"
 long fermata: 4-6"
 very long fermata: 8-10"
 
-(i) 8" + 1 very long fermata (8-10" silence)
-A   72" + 3 short fermatas + 5 long fermatas (20-30" silence)
-B   31" + 2 short fermatas + 1 long fermata (4-6" silence)
-C   96" + 9 fermatas + 1 long fermata (22-33" silence)
-D   89" + 3 short fermatas + 3 fermatas + 1 long fermata (10-15" silence)
-E   115" + 4 fermatas + 1 long fermata (12-18" silence)
-F   127" + 6 short fermatas + 4 fermatas + 3 long fermatas (20-30" silence)
-G   57" + 1 fermata (4-6" silence)
-H   20" + 2 fermatas (8-12" silence)
-I   139" + 2 short fermatas + 1 fermata + 1 very long fermata (10-13" silence)
-J   23" + 1 very long fermata (8-10" silence)
-K   283" + 49" (5x) + 29" (5x) + 3 short + 1 fermata + 1 very long (10-13")
-L   23" + 2 very long fermatas (16-20" silence)
-M   113" + 1 fermata (4-6" silence)
-N   51" + 1 very long fermata (8-10" silence)
+- (i) 8" + 1 very long fermata (8-10" silence)
+- A   72" + 3 short fermatas + 5 long fermatas (20-30" silence)
+- B   31" + 2 short fermatas + 1 long fermata (4-6" silence)
+- C   96" + 9 fermatas + 1 long fermata (22-33" silence)
+- D   89" + 3 short fermatas + 3 fermatas + 1 long fermata (10-15" silence)
+- E   115" + 4 fermatas + 1 long fermata (12-18" silence)
+- F   127" + 6 short fermatas + 4 fermatas + 3 long fermatas (20-30" silence)
+- G   57" + 1 fermata (4-6" silence)
+- H   20" + 2 fermatas (8-12" silence)
+- I   139" + 2 short fermatas + 1 fermata + 1 very long fermata (10-13" silence)
+- J   23" + 1 very long fermata (8-10" silence)
+- K   283" + 49" (5x) + 29" (5x) + 3 short + 1 fermata + 1 very long (10-13")
+- L   23" + 2 very long fermatas (16-20" silence)
+- M   113" + 1 fermata (4-6" silence)
+- N   51" + 1 very long fermata (8-10" silence)
 
-1325" + (164-232" silence)
-24.5-26' (depending on interpretation of silences)
+1325" + (164-232" silence) or 24.5-26' (depending on interpretation of
+silences).
