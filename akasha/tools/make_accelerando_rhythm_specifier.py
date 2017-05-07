@@ -4,7 +4,7 @@ import baca
 
 
 def make_accelerando_rhythm_specifier(fuse_counts=(1, 2)):
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         division_expression=baca.sequence()
             .partition_by_counts(fuse_counts, cyclic=True, overhang=True)
             .map(baca.sequence().sum())

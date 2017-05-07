@@ -9,7 +9,7 @@ from akasha.materials.__abbreviations__ import *
 ##################################### [F] #####################################
 ###############################################################################
 
-stage_specifier = baca.tools.StageSpecifier([
+stage_specifier = baca.StageSpecifier([
     2,
     2, abjad.Fermata('longfermata'), # 2-3
     1, abjad.Fermata('longfermata'), # 4-5
@@ -24,7 +24,7 @@ stage_specifier = baca.tools.StageSpecifier([
     1, abjad.Fermata(), # 19-20
     ])
 
-tempo_specifier = baca.tools.TempoSpecifier([
+tempo_specifier = baca.TempoSpecifier([
     (1, akasha.materials.tempi[44]),
     (2, akasha.materials.tempi[126]),
     (4, akasha.materials.tempi[55]),
@@ -40,16 +40,16 @@ maker = akasha.tools.TimeSignatureMaker(
     'A', 9, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
-spacing_specifier = baca.tools.HorizontalSpacingCommand(
+spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
     minimum_width=abjad.Duration(1, 12),
     )
 
-volta_specifier = baca.tools.VoltaSpecifier([
-    baca.tools.MeasureExpression(-4, -2),
+volta_specifier = baca.VoltaSpecifier([
+    baca.MeasureExpression(-4, -2),
     ])
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     #label_clock_time=True,
     #label_stages=True,
@@ -206,7 +206,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(0),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -216,7 +216,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(1).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -226,7 +226,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(2),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -236,7 +236,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(3).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -246,7 +246,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(4),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -256,7 +256,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         ),
@@ -335,7 +335,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(0),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -345,7 +345,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(1).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -355,7 +355,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(2),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -365,7 +365,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(3).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -375,7 +375,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(4),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -385,7 +385,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(8),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=False,
@@ -427,7 +427,7 @@ cello_counts = [sum(_) for _ in cello_counts]
 segment_maker.append_commands(
     va,
     baca.select_stages(8, 9),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
@@ -447,7 +447,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(8, 9),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
