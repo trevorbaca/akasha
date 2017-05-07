@@ -9,7 +9,7 @@ from akasha.materials.__abbreviations__ import *
 ##################################### [K] #####################################
 ###############################################################################
 
-stage_specifier = baca.tools.StageSpecifier([
+stage_specifier = baca.StageSpecifier([
     4, # 1
     4, # 2
     4, # 3
@@ -34,14 +34,14 @@ stage_specifier = baca.tools.StageSpecifier([
     abjad.Fermata('verylongfermata'), # 22
     ])
 
-tempo_specifier = baca.tools.TempoSpecifier([
+tempo_specifier = baca.TempoSpecifier([
     (1, akasha.materials.tempi[44]),
     (17, abjad.Ritardando()),
     (19, akasha.materials.tempi[38]),
     ])
 
 #maker = akasha.tools.TimeSignatureMaker('B', 24, stage_specifier, tempo_specifier)
-maker = baca.tools.TimeSignatureMaker(
+maker = baca.TimeSignatureMaker(
     akasha.materials.time_signatures_b,
     rotation=24,
     stage_specifier=stage_specifier,
@@ -49,17 +49,17 @@ maker = baca.tools.TimeSignatureMaker(
     )
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
-spacing_specifier = baca.tools.HorizontalSpacingCommand(
+spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
     minimum_width=abjad.Duration(1, 12),
     )
 
-volta_specifier = baca.tools.VoltaSpecifier([
-    baca.tools.StageSliceExpression(9, 11),
-    baca.tools.StageSliceExpression(19, 20),
+volta_specifier = baca.VoltaSpecifier([
+    baca.StageSliceExpression(9, 11),
+    baca.StageSliceExpression(19, 20),
     ])
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     #label_stages=True,
     #label_clock_time=True,

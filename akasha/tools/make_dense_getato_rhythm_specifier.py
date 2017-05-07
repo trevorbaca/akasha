@@ -8,7 +8,7 @@ def make_dense_getato_rhythm_specifier(
     fuse_counts,
     extra_counts_per_division,
     ):
-    return baca.tools.RhythmSpecifier(
+    return baca.RhythmSpecifier(
         division_expression=baca.fuse_compound_quarter_divisions(
             fuse_counts,
             ),

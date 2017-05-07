@@ -57,8 +57,8 @@ class TimeSignatureMaker(object):
             if isinstance(item, abjad.Fermata):
                 item = abjad.TimeSignature((1, 4))
             items.append(item)
-        stage_specifier = baca.tools.StageSpecifier(items=items)
-#        preprocessor = baca.tools.TimeSignaturePreprocessor(
+        stage_specifier = baca.StageSpecifier(items=items)
+#        preprocessor = baca.TimeSignaturePreprocessor(
 #            repeat_count=self.repeat_count,
 #            stage_specifier=stage_specifier,
 #            time_signatures=time_signatures,
@@ -73,7 +73,7 @@ class TimeSignatureMaker(object):
         time_signatures = baca.Sequence(time_signature_groups).flatten()
         fermata_entries = self.stage_specifier._make_fermata_entries()
         items = self.tempo_specifier.items + fermata_entries
-        tempo_specifier = baca.tools.TempoSpecifier(items=items)
+        tempo_specifier = baca.TempoSpecifier(items=items)
         return measures_per_stage, tempo_specifier, time_signatures
 
     ### PRIVATE METHODS ###

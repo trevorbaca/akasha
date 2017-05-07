@@ -9,13 +9,13 @@ from akasha.materials.__abbreviations__ import *
 ##################################### [H] #####################################
 ###############################################################################
 
-stage_specifier = baca.tools.StageSpecifier([
+stage_specifier = baca.StageSpecifier([
     2, # 1
     1, abjad.Fermata(), # 2-3
     2, abjad.Fermata(), # 4-5
     ])
 
-tempo_specifier = baca.tools.TempoSpecifier([
+tempo_specifier = baca.TempoSpecifier([
     (1, akasha.materials.tempi[89]),
     (2, akasha.materials.tempi[44]),
     (4, akasha.materials.tempi[55]),
@@ -25,16 +25,16 @@ maker = akasha.tools.TimeSignatureMaker(
     'A', 12, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
-spacing_specifier = baca.tools.HorizontalSpacingCommand(
+spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
     minimum_width=abjad.Duration(1, 12),
     )
 
-volta_specifier = baca.tools.VoltaSpecifier([
-    baca.tools.MeasureExpression(start=0, stop=None), 
+volta_specifier = baca.VoltaSpecifier([
+    baca.MeasureExpression(start=0, stop=None), 
     ])
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     #label_clock_time=True,
     #label_stages=True,
