@@ -2,7 +2,12 @@
 import abjad
 import akasha
 import baca
-from akasha.materials.__abbreviations__ import *
+
+vn_1 = 'Violin One Music Voice'
+vn_2 = 'Violin Two Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [vn_1, vn_2, va, vc]
 
 
 ###############################################################################
@@ -74,7 +79,7 @@ segment_maker.append_commands(
     baca.select_stages(3),
     abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
-        rhythm_maker__division_masks=silence([0, 1], inverted=True),
+        rhythm_maker__division_masks=abjad.silence([0, 1], inverted=True),
         ),
     )
 
@@ -83,7 +88,7 @@ segment_maker.append_commands(
     baca.select_stages(3),
     abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
-        rhythm_maker__division_masks=silence([-1], inverted=True),
+        rhythm_maker__division_masks=abjad.silence([-1], inverted=True),
         ),
     )
 
@@ -94,7 +99,8 @@ segment_maker.append_commands(
     baca.select_stages(5),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
-        rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [0, 1, 2], inverted=True),
         ),
     )
 
@@ -103,7 +109,8 @@ segment_maker.append_commands(
     baca.select_stages(5),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
-        rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [2, 3, 4], inverted=True),
         ),
     )
 
@@ -112,7 +119,8 @@ segment_maker.append_commands(
     baca.select_stages(5),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
-        rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [1, 2, 3], inverted=True),
         ),
     )
     
@@ -123,7 +131,7 @@ segment_maker.append_commands(
     baca.select_stages(7),
     abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
-        rhythm_maker__division_masks=silence([-2, -1], inverted=True),
+        rhythm_maker__division_masks=abjad.silence([-2, -1], inverted=True),
         ),
     )
 
@@ -132,7 +140,8 @@ segment_maker.append_commands(
     baca.select_stages(7),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
-        rhythm_maker__logical_tie_masks=silence([1, 2, 3], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [1, 2, 3], inverted=True),
         ),
     )
 
@@ -141,7 +150,8 @@ segment_maker.append_commands(
     baca.select_stages(7),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
-        rhythm_maker__logical_tie_masks=silence([2, 3, 4], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [2, 3, 4], inverted=True),
         ),
     )
 
@@ -150,7 +160,8 @@ segment_maker.append_commands(
     baca.select_stages(7),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
-        rhythm_maker__logical_tie_masks=silence([0, 1, 2], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [0, 1, 2], inverted=True),
         ),
     )
 
@@ -161,8 +172,8 @@ segment_maker.append_commands(
     baca.select_stages(9),
     abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(),
-        rhythm_maker__division_masks=silence_first(),
-        rhythm_maker__logical_tie_masks=silence([3, 5, 7, 9]),
+        rhythm_maker__division_masks=abjad.silence_first(),
+        rhythm_maker__logical_tie_masks=abjad.silence([3, 5, 7, 9]),
         ),
     )
 
@@ -171,8 +182,8 @@ segment_maker.append_commands(
     baca.select_stages(9),
     abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
-        rhythm_maker__division_masks=silence_first(),
-        rhythm_maker__logical_tie_masks=silence([2, 5, 7]),
+        rhythm_maker__division_masks=abjad.silence_first(),
+        rhythm_maker__logical_tie_masks=abjad.silence([2, 5, 7]),
         ),
     )
 
@@ -187,7 +198,7 @@ segment_maker.append_commands(
     baca.select_stages(9),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-6),
-        rhythm_maker__logical_tie_masks=silence_last(1),
+        rhythm_maker__logical_tie_masks=abjad.silence_last(1),
         ),
     )
 
@@ -198,7 +209,8 @@ segment_maker.append_commands(
     baca.select_stages(11),
     abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([0, 2, 3, -1], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [0, 2, 3, -1], inverted=True),
         ),
     )
     
@@ -207,7 +219,8 @@ segment_maker.append_commands(
     baca.select_stages(11),
     abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([0, 1, 4, -1], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [0, 1, 4, -1], inverted=True),
         ),
     )
 
@@ -222,7 +235,7 @@ segment_maker.append_commands(
     baca.select_stages(11),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-10),
-        rhythm_maker__logical_tie_masks=silence_last(1),
+        rhythm_maker__logical_tie_masks=abjad.silence_last(1),
         ),
     )
 
@@ -233,7 +246,8 @@ segment_maker.append_commands(
     baca.select_stages(13),
     abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([0, 2, -1], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [0, 2, -1], inverted=True),
         ),
     )
     
@@ -242,7 +256,8 @@ segment_maker.append_commands(
     baca.select_stages(13),
     abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([0, 2, -1], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [0, 2, -1], inverted=True),
         ),
     )
 
@@ -253,7 +268,8 @@ segment_maker.append_commands(
     baca.select_stages(15),
     abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([0, 1, -1], inverted=True),
+        rhythm_maker__logical_tie_masks=abjad.silence(
+            [0, 1, -1], inverted=True),
         ),
     )
 
@@ -262,7 +278,7 @@ segment_maker.append_commands(
     baca.select_stages(15),
     abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
-        rhythm_maker__division_masks=silence([1], inverted=True),
+        rhythm_maker__division_masks=abjad.silence([1], inverted=True),
         ),
     )
 
