@@ -2,8 +2,14 @@
 import abjad
 import akasha
 import baca
-from akasha.materials.__abbreviations__ import *
 
+### CONTEXT NAMES ###
+
+vn_1 = 'Violin One Music Voice'
+vn_2 = 'Violin Two Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
 ##################################### [E] #####################################
@@ -77,7 +83,7 @@ segment_maker.append_commands(
     baca.select_stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([-1]),
+        abjad.silence_except([-1]),
         [-2]
         ),
     )
@@ -100,7 +106,7 @@ segment_maker.append_commands(
     baca.select_stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([1]),
+        abjad.silence_except([1]),
         [-1],
         ),
     )
@@ -112,7 +118,7 @@ segment_maker.append_commands(
     baca.select_stages(5),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([0]),
+        abjad.silence_except([0]),
         [-2],
         ),
     )
@@ -122,7 +128,7 @@ segment_maker.append_commands(
     baca.select_stages(5),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([2]),
+        abjad.silence_except([2]),
         [-1],
         ),
     )
@@ -140,7 +146,7 @@ segment_maker.append_commands(
     baca.select_stages(7),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([0]),
+        abjad.silence_except([0]),
         [-2],
         ),
     )
@@ -150,7 +156,7 @@ segment_maker.append_commands(
     baca.select_stages(7),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([-1]),
+        abjad.silence_except([-1]),
         [1],
         ),
     )
@@ -166,7 +172,7 @@ segment_maker.append_commands(
     baca.select_stages(7),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([1]),
+        abjad.silence_except([1]),
         [-1],
         ),
     )
@@ -186,7 +192,7 @@ segment_maker.append_commands(
     baca.select_stages(9),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([1, -3]),
+        abjad.silence_except([1, -3]),
         [1],
         ),
     )
@@ -196,7 +202,7 @@ segment_maker.append_commands(
     baca.select_stages(9),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([2, -1]),
+        abjad.silence_except([2, -1]),
         [0],
         ),
     )
@@ -206,7 +212,7 @@ segment_maker.append_commands(
     baca.select_stages(9),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([2, -2]),
+        abjad.silence_except([2, -2]),
         [2],
         ),
     )
@@ -218,7 +224,7 @@ segment_maker.append_commands(
     baca.select_stages(10, 14),
     akasha.tools.make_scratch_rhythm_specifier(
         [8],
-        silence_every([0, 3], inverted=True, period=8),
+        abjad.silence_every([0, 3], inverted=True, period=8),
         [1],
         ),
     )
@@ -232,8 +238,8 @@ segment_maker.append_commands(
             [3, 0, 2, 1],
             ),
         rhythm_maker__division_masks=[
-            silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
-            silence_last(7),
+            abjad.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+            abjad.silence_last(7),
             ],
         ),
     )
@@ -243,7 +249,7 @@ segment_maker.append_commands(
     baca.select_stages(10, 13),
     akasha.tools.make_scratch_rhythm_specifier(
         [8],
-        silence_every([1, 4], inverted=True, period=9),
+        abjad.silence_every([1, 4], inverted=True, period=9),
         [-1],
         ),
     )
@@ -256,7 +262,7 @@ segment_maker.append_commands(
             [1],
             [2, 1, 3, 0],
             ),
-        rhythm_maker__division_masks=silence(
+        rhythm_maker__division_masks=abjad.silence(
             [0, 2, 3, 4, 5, 6, 10, 14, 22]),
         ),
     )
@@ -269,7 +275,7 @@ segment_maker.append_commands(
             [1, 2, 1, 2, 2],
             [6, 3, 5, 4],
             ),
-        rhythm_maker__division_masks=silence_last(5),
+        rhythm_maker__division_masks=abjad.silence_last(5),
         ),
     )
 
@@ -278,7 +284,7 @@ segment_maker.append_commands(
     baca.select_stages(10, 12),
     akasha.tools.make_scratch_rhythm_specifier(
         [8],
-        silence_every([2, 5], inverted=True, period=9),
+        abjad.silence_every([2, 5], inverted=True, period=9),
         [2],
         ),
     )
@@ -291,7 +297,7 @@ segment_maker.append_commands(
             [1],
             [3, 0, 2, 1],
             ),
-        rhythm_maker__division_masks=silence(
+        rhythm_maker__division_masks=abjad.silence(
             [0, 2, 3, 4, 5, 6, 10, 14, 22]),
         ),
     )
@@ -313,7 +319,7 @@ segment_maker.append_commands(
             [2, 1, 2, 2, 1],
             [6, 3, 5, 4],
             ),
-        rhythm_maker__division_masks=silence_last(4),
+        rhythm_maker__division_masks=abjad.silence_last(4),
         ),
     )
 

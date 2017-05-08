@@ -3,12 +3,13 @@ import abjad
 import akasha
 import baca
 
+### CONTEXT NAMES ###
+
 vn_1 = 'Violin One Music Voice'
 vn_2 = 'Violin Two Music Voice'
 va = 'Viola Music Voice'
 vc = 'Cello Music Voice'
 tutti = [vn_1, vn_2, va, vc]
-
 
 ###############################################################################
 ##################################### [A] #####################################

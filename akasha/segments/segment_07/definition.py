@@ -2,8 +2,14 @@
 import abjad
 import akasha
 import baca
-from akasha.materials.__abbreviations__ import *
 
+### CONTEXT NAMES ###
+
+vn_1 = 'Violin One Music Voice'
+vn_2 = 'Violin Two Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
 ##################################### [F] #####################################
@@ -121,7 +127,7 @@ segment_maker.append_commands(
     baca.select_stages(6),
     abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([1, 6]),
+        rhythm_maker__logical_tie_masks=abjad.silence([1, 6]),
         ),
     )
 
@@ -130,16 +136,16 @@ segment_maker.append_commands(
     baca.select_stages(6),
     abjad.new(
         akasha.tools.make_ritardando_rhythm_specifier(),
-        rhythm_maker__logical_tie_masks=silence([2, 5]),
+        rhythm_maker__logical_tie_masks=abjad.silence([2, 5]),
         ),
     )
 
 ### stage 8 ###
 
-silence_pattern = abjad.select_every([1], period=4) | abjad.select_every(
+abjad.silence_pattern = abjad.select_every([1], period=4) | abjad.select_every(
     [4], period=5)
-silence_mask = silence(silence_pattern)
-sustain_mask = sustain([0, -1])
+abjad.silence_mask = abjad.silence(abjad.silence_pattern)
+abjad.sustain_mask = abjad.sustain([0, -1])
 
 #def division_expression(index):
 #    ratio = abjad.Ratio((2, 1, 2, 2, 1, 2))
@@ -166,8 +172,8 @@ def division_expression(index):
 talea_rhythm_maker = rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
     extra_counts_per_division=[1],
     logical_tie_masks=[
-        silence_mask,
-        sustain_mask,
+        abjad.silence_mask,
+        abjad.sustain_mask,
         ],
     talea=abjad.rhythmmakertools.Talea(
         counts=[9, 4, 8, 7],
@@ -192,8 +198,8 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
             ),
         ],
     logical_tie_masks=[
-        silence_mask,
-        sustain_mask,
+        abjad.silence_mask,
+        abjad.sustain_mask,
         ],
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
@@ -264,10 +270,10 @@ segment_maker.append_commands(
 
 ### violin 2 ###
 
-silence_pattern = abjad.select_every([2], period=4) | abjad.select_every(
+abjad.silence_pattern = abjad.select_every([2], period=4) | abjad.select_every(
     [4], period=5)
-silence_mask = silence(silence_pattern)
-sustain_mask = sustain([0, -1])
+abjad.silence_mask = abjad.silence(abjad.silence_pattern)
+abjad.sustain_mask = abjad.sustain([0, -1])
 
 #def division_expression(index):
 #    ratio = abjad.Ratio((1, 1, 2, 2, 1, 2))
@@ -295,8 +301,8 @@ talea_rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
     #extra_counts_per_division=[2],
     extra_counts_per_division=[0],
     logical_tie_masks=[
-        silence_mask,
-        sustain_mask,
+        abjad.silence_mask,
+        abjad.sustain_mask,
         ],
     talea=abjad.rhythmmakertools.Talea(
         counts=[9, 4, 8, 7],
@@ -321,8 +327,8 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
             ),
         ],
     logical_tie_masks=[
-        silence_mask,
-        sustain_mask,
+        abjad.silence_mask,
+        abjad.sustain_mask,
         ],
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
