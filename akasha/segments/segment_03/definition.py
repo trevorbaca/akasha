@@ -2,8 +2,14 @@
 import abjad
 import akasha
 import baca
-from akasha.materials.__abbreviations__ import *
 
+### CONTEXT NAMES ###
+
+vn_1 = 'Violin One Music Voice'
+vn_2 = 'Violin Two Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
 ##################################### [B] #####################################
@@ -55,8 +61,8 @@ segment_maker.append_commands(
     baca.select_stages(1),
     abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=[1]), 
-        rhythm_maker__logical_tie_masks=silence([1]),
-        rhythm_maker__division_masks=silence_last(2),
+        rhythm_maker__logical_tie_masks=abjad.silence([1]),
+        rhythm_maker__division_masks=abjad.silence_last(2),
         ),
     )
 
@@ -71,7 +77,7 @@ segment_maker.append_commands(
     baca.select_stages(1),
     abjad.new(
         akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
-        rhythm_maker__logical_tie_masks=silence_first(2),
+        rhythm_maker__logical_tie_masks=abjad.silence_first(2),
         ),
     )
 
@@ -83,7 +89,7 @@ segment_maker.append_commands(
             degree=0,
             extra_counts_per_division=[1, 1, 0, 2],
             ),
-        rhythm_maker__division_masks=silence(
+        rhythm_maker__division_masks=abjad.silence(
             [5, -6, -5, -4, -3, -2, -1], inverted=True),
         ),
     baca.clef('bass'),
@@ -120,7 +126,7 @@ segment_maker.append_commands(
     baca.select_stages(8, 9),
     abjad.new(
         akasha.tools.make_accelerando_rhythm_specifier(fuse_counts=(2, 1)),
-        rhythm_maker__logical_tie_masks=silence([3]),
+        rhythm_maker__logical_tie_masks=abjad.silence([3]),
         ),
     )
 

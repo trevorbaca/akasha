@@ -2,8 +2,14 @@
 import abjad
 import akasha
 import baca
-from akasha.materials.__abbreviations__ import *
 
+### CONTEXT NAMES ###
+
+vn_1 = 'Violin One Music Voice'
+vn_2 = 'Violin Two Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
 ##################################### [N] #####################################
@@ -55,7 +61,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 2),
     abjad.new(
         baca.messiaen_notes(),
-        rhythm_maker__division_masks=silence_every([1], period=2),
+        rhythm_maker__division_masks=abjad.silence_every([1], period=2),
         ),
     )
 
@@ -64,7 +70,7 @@ segment_maker.append_commands(
     baca.select_stages(2, 3),
     abjad.new(
         akasha.tools.make_sparse_getato_rhythm_specifier(),
-        rhythm_maker__division_masks=silence_except([3, 36, 37]),
+        rhythm_maker__division_masks=abjad.silence_except([3, 36, 37]),
         ),
     )
 
@@ -73,7 +79,7 @@ segment_maker.append_commands(
     baca.select_stages(3),
     baca.RhythmSpecifier(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            division_masks=silence_all(use_multimeasure_rests=True),
+            division_masks=abjad.silence_all(use_multimeasure_rests=True),
             ),
         ),
     )

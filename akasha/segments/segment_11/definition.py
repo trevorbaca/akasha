@@ -2,8 +2,14 @@
 import abjad
 import akasha
 import baca
-from akasha.materials.__abbreviations__ import *
 
+### CONTEXT NAMES ###
+
+vn_1 = 'Violin One Music Voice'
+vn_2 = 'Violin Two Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
 ##################################### [J] #####################################
@@ -55,7 +61,7 @@ segment_maker.append_commands(
     baca.select_stages(1),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([-1]),
+        abjad.silence_except([-1]),
         [-2]
         ),
     )
@@ -67,7 +73,7 @@ segment_maker.append_commands(
     baca.clef('bass'),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([1]),
+        abjad.silence_except([1]),
         [-1],
         ),
     )
@@ -79,7 +85,7 @@ segment_maker.append_commands(
     baca.select_stages(2),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([0]),
+        abjad.silence_except([0]),
         [-2],
         ),
     )
@@ -89,7 +95,7 @@ segment_maker.append_commands(
     baca.select_stages(2),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([2]),
+        abjad.silence_except([2]),
         [-1],
         ),
     )
@@ -101,7 +107,7 @@ segment_maker.append_commands(
     baca.select_stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([0]),
+        abjad.silence_except([0]),
         [-2],
         ),
     )
@@ -111,7 +117,7 @@ segment_maker.append_commands(
     baca.select_stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([-1]),
+        abjad.silence_except([-1]),
         [1],
         ),
     )
@@ -121,7 +127,7 @@ segment_maker.append_commands(
     baca.select_stages(3),
     akasha.tools.make_scratch_rhythm_specifier(
         [4],
-        silence_except([1]),
+        abjad.silence_except([1]),
         [-1],
         ),
     )
