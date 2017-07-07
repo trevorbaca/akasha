@@ -30,12 +30,12 @@ def make_perforated_counts(degree=0, rotation=None):
     '''
     counts = []
     if degree == 0:
-        pattern_1 = abjad.patterntools.select_every([0, 1, 2, 3], period=12)
-        pattern_2 = abjad.patterntools.select_every([0, 1, 2, 3], period=20)
+        pattern_1 = abjad.index_every([0, 1, 2, 3], period=12)
+        pattern_2 = abjad.index_every([0, 1, 2, 3], period=20)
         pattern = pattern_1 | pattern_2
         pattern = ~pattern
     elif degree == 1:
-        pattern = abjad.patterntools.select_every(
+        pattern = abjad.index_every(
             [0, 1, 2, 12, 13, 21, 31, 32, 33],
             period=36,
             )
