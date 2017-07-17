@@ -119,8 +119,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             instrument_name='violin 1',
             short_instrument_name='vn. 1',
             )
-        abjad.attach(violin_one, violin_one_music_staff)
-        abjad.attach(abjad.Clef('treble'), violin_one_music_staff)
+        #abjad.attach(violin_one, violin_one_music_staff)
+        #abjad.attach(abjad.Clef('treble'), violin_one_music_staff)
         self._attach_tag('violin_one', violin_one_music_staff)
         violin_two_music_voice = abjad.Voice(
             [], 
@@ -136,8 +136,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             instrument_name='violin 2',
             short_instrument_name='vn. 2',
             )
-        abjad.attach(violin_two, violin_two_music_staff)
-        abjad.attach(abjad.Clef('treble'), violin_two_music_staff)
+        #abjad.attach(violin_two, violin_two_music_staff)
+        #abjad.attach(abjad.Clef('treble'), violin_two_music_staff)
         self._attach_tag('violin_two', violin_two_music_staff)
         viola_music_voice = abjad.Voice(
             [], 
@@ -149,8 +149,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='ViolaMusicStaff',
             name='Viola Music Staff',
             )
-        abjad.attach(abjad.instrumenttools.Viola(), viola_music_staff)
-        abjad.attach(abjad.Clef('alto'), viola_music_staff)
+        #abjad.attach(abjad.instrumenttools.Viola(), viola_music_staff)
+        #abjad.attach(abjad.Clef('alto'), viola_music_staff)
         self._attach_tag('viola', viola_music_staff)
         cello_music_voice = abjad.Voice(
             [], 
@@ -162,8 +162,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='CelloMusicStaff',
             name='Cello Music Staff',
             )
-        abjad.attach(abjad.instrumenttools.Cello(), cello_music_staff)
-        abjad.attach(abjad.Clef('bass'), cello_music_staff)
+        #abjad.attach(abjad.instrumenttools.Cello(), cello_music_staff)
+        #abjad.attach(abjad.Clef('bass'), cello_music_staff)
         self._attach_tag('cello', cello_music_staff)
         string_quartet_staff_group = abjad.StaffGroup(
             [
