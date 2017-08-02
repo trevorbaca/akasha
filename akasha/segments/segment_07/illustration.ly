@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -256,8 +256,8 @@
                 {
                     \time 3/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     \mark #6
+                    \newSpacingSection
                     s1 * 3/4 ^ \markup {
                         \fontsize
                             #-6
@@ -785,8 +785,8 @@
                                             "tasto + XFB"
                                     }
                             r16 * 199/64
-                            f''16 * 115/64 ]
                             \revert Staff.Stem.stemlet-length
+                            f''16 * 115/64 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -826,8 +826,8 @@
                             f''16 * 61/32
                             ef''16 * 163/64
                             r16 * 31/8
-                            f''16 * 191/32 ]
                             \revert Staff.Stem.stemlet-length
+                            f''16 * 191/32 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -914,24 +914,23 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            ef''16 * 241/32 \repeatTie [
+                            f''16 * 241/32 [
                             r16 * 49/8
-                            f''16 * 243/64
-                            ef''16 * 165/64
+                            ef''16 * 243/64
+                            f''16 * 165/64
                             r16 * 33/16
-                            f''16 * 61/32 ]
                             \revert Staff.Stem.stemlet-length
+                            ef''16 * 61/32 ]
                         }
                         \revert TupletNumber.text
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            f''4 \repeatTie
-                            f''16 \repeatTie
+                            fs''4
+                            fs''16 \repeatTie
                         }
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            f''4 \repeatTie
+                            fs''4 \repeatTie
                             r16
                         }
                         \times 4/5 {
@@ -1009,25 +1008,23 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            fs''16 * 31/4 \repeatTie [
+                            e''16 * 31/4 [
                             r16 * 233/32
-                            ef''16 * 393/64
-                            fs''16 * 39/8
+                            fs''16 * 393/64
+                            e''16 * 39/8
                             r16 * 123/32
                             r16 * 25/8
-                            e''16 * 169/64
-                            fs''16 * 37/16
-                            e''16 * 135/64
+                            fs''16 * 169/64
+                            e''16 * 37/16
+                            fs''16 * 135/64
                             r16 * 127/64
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            fs''16 * 31/16 ]
                             \revert Staff.Stem.stemlet-length
+                            e''16 * 31/16 ]
                         }
                         \revert TupletNumber.text
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            fs''4 \repeatTie
+                            fs''4
                             fs''16 \repeatTie
                         }
                         \times 4/5 {
@@ -1048,10 +1045,10 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             e''16 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            fs''4
+                            g''4
                         }
                         \times 4/5 {
-                            fs''8. \repeatTie [
+                            g''8. \repeatTie [
                             e''8 ]
                         }
                         \override TupletNumber.text = \markup {
@@ -1088,19 +1085,18 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            e''16 * 31/4 \repeatTie [
+                            g''16 * 31/4 [
                             r16 * 233/32
-                            fs''16 * 393/64
-                            e''16 * 39/8
+                            e''16 * 393/64
+                            g''16 * 39/8
                             r16 * 123/32
                             r16 * 25/8
-                            g''16 * 169/64
-                            e''16 * 37/16
-                            g''16 * 135/64
+                            f''16 * 169/64
+                            g''16 * 37/16
+                            f''16 * 135/64
                             r16 * 127/64
-                            e''16 * 31/16 ]
                             \revert Staff.Stem.stemlet-length
+                            g''16 * 31/16 ]
                         }
                         \revert TupletNumber.text
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1491,8 +1487,8 @@
                                     }
                             cs''16 * 125/64
                             r16 * 49/16
-                            b'16 * 343/64 ]
                             \revert Staff.Stem.stemlet-length
+                            b'16 * 343/64 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -1531,8 +1527,8 @@
                             cs''16 * 117/16 [
                             r16 * 73/16
                             b'16 * 73/32
-                            cs''16 * 59/32 ]
                             \revert Staff.Stem.stemlet-length
+                            cs''16 * 59/32 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -1592,18 +1588,18 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            b'16 * 241/32 \repeatTie [
-                            cs''16 * 49/8
+                            cs''16 * 241/32 [
+                            b'16 * 49/8
                             r16 * 243/64
-                            b'16 * 165/64
+                            cs''16 * 165/64
                             r16 * 33/16
-                            cs''16 * 61/32 ]
                             \revert Staff.Stem.stemlet-length
+                            b'16 * 61/32 ]
                         }
                         \revert TupletNumber.text
                         {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            cs''4 \repeatTie
+                            cs''4
                         }
                         {
                             cs''4 \repeatTie
@@ -1623,10 +1619,10 @@
                         {
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            cs''8.
+                            d''8.
                         }
                         {
-                            cs''4 \repeatTie
+                            d''4 \repeatTie
                         }
                         {
                             r4
@@ -1684,25 +1680,24 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            d''16 * 497/64 \repeatTie [
-                            b'16 * 59/8
+                            b'16 * 497/64 [
+                            d''16 * 59/8
                             r16 * 51/8
-                            d''16 * 333/64
+                            c''16 * 333/64
                             r16 * 67/16
-                            b'16 * 219/64
+                            d''16 * 219/64
                             r16 * 185/64
-                            d''16 * 5/2
-                            c''16 * 9/4
+                            c''16 * 5/2
+                            d''16 * 9/4
                             r16 * 133/64
                             r16 * 127/64
-                            \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d''16 * 63/32 ]
                             \revert Staff.Stem.stemlet-length
+                            c''16 * 63/32 ]
                         }
                         \revert TupletNumber.text
                         {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d''4 \repeatTie
+                            d''4
                         }
                         {
                             d''4 \repeatTie
@@ -1760,19 +1755,19 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            d''16 * 497/64 \repeatTie [
-                            c''16 * 59/8
+                            c''16 * 497/64 [
+                            ef''16 * 59/8
                             r16 * 51/8
-                            d''16 * 333/64
+                            c''16 * 333/64
                             r16 * 67/16
-                            c''16 * 219/64
+                            ef''16 * 219/64
                             r16 * 185/64
-                            d''16 * 5/2
-                            c''16 * 9/4
+                            c''16 * 5/2
+                            ef''16 * 9/4
                             r16 * 133/64
                             r16 * 127/64
-                            ef''16 * 63/32 ]
                             \revert Staff.Stem.stemlet-length
+                            cs''16 * 63/32 ]
                         }
                         \revert TupletNumber.text
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2064,21 +2059,9 @@
                         s1 * 4
                         fs2. \ff
                             ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "scratch moltiss."
-                                            }
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "terminate abruptly"
-                                            }
-                                    }
+                                \whiteout
+                                    \upright
+                                        "terminate abruptly"
                                 }
                         s1 * 9/4
                         gs2 \mp

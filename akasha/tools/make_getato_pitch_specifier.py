@@ -10,7 +10,7 @@ def make_getato_pitch_specifier(
     direction=Up,
     ):
     start_pitch = abjad.NumberedPitch(start_pitch)
-    start_pitch = start_pitch.pitch_number
+    start_pitch = start_pitch.number
     pitch_numbers = akasha.materials.getato_intervals
     if direction is Down:
         pitch_numbers = [-_ for _ in pitch_numbers]

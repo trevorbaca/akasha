@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -184,8 +184,8 @@
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     \mark #1
+                    \newSpacingSection
                     s1 * 3/4 \startTextSpan
                 }
                 {
@@ -451,8 +451,8 @@
                             d''16 * 17/4
                             r16 * 335/64
                             e''16 * 407/64
-                            d''16 * 117/16 ]
                             \revert Staff.Stem.stemlet-length
+                            d''16 * 117/16 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -494,8 +494,8 @@
                             d''16 * 243/64
                             e''16 * 165/64
                             r16 * 33/16
-                            d''16 * 61/32 ]
                             \revert Staff.Stem.stemlet-length
+                            d''16 * 61/32 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -538,8 +538,8 @@
                             d''16 * 147/64
                             r16 * 25/8
                             r16 * 145/32
-                            e''16 * 409/64 ]
                             \revert Staff.Stem.stemlet-length
+                            e''16 * 409/64 ]
                         }
                         \revert TupletNumber.text
                         s1 * 5/4
@@ -634,8 +634,8 @@
                             r16 * 153/64
                             bf'16 * 137/64
                             c''16 * 2
-                            bf'16 * 31/16 ]
                             \revert Staff.Stem.stemlet-length
+                            bf'16 * 31/16 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -678,8 +678,8 @@
                             r16 * 87/32
                             c''16 * 117/32
                             r16 * 81/16
-                            bf'16 * 429/64 ]
                             \revert Staff.Stem.stemlet-length
+                            bf'16 * 429/64 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -721,8 +721,8 @@
                             r16 * 353/64
                             bf'16 * 97/32
                             r16 * 17/8
-                            c''16 * 15/8 ]
                             \revert Staff.Stem.stemlet-length
+                            c''16 * 15/8 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -762,8 +762,8 @@
                             bf'16 * 13/8 [
                             c''16 * 125/64
                             r16 * 49/16
-                            bf'16 * 343/64 ]
                             \revert Staff.Stem.stemlet-length
+                            bf'16 * 343/64 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4

@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -72,7 +72,6 @@
             \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                    \clef "treble"
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         R1 * 3/8
                         R1 * 3/4
@@ -82,7 +81,6 @@
                 }
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                    \clef "treble"
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         R1 * 3/8
                         R1 * 3/4
@@ -92,7 +90,6 @@
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
-                    \clef "alto"
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
@@ -124,7 +121,6 @@
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
-                    \clef "bass"
                     \context CelloMusicVoice = "Cello Music Voice" {
                         R1 * 3/8
                         R1 * 3/4

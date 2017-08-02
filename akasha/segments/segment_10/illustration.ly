@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -184,8 +184,8 @@
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     \mark #9
+                    \newSpacingSection
                     s1 * 3/2 ^ \markup {
                         \fontsize
                             #-6
@@ -873,21 +873,9 @@
                             r16
                             g'''16 -\staccato \ppp [
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            leggieriss.
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "pos. ord."
-                                                }
-                                        }
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     }
                             af'''16 -\staccato
                             g'''16 -\staccato
@@ -1018,8 +1006,8 @@
                             \override Staff.Stem.stemlet-length = #0.75
                             ds'16 * 227/32 \p [
                             es'16 * 199/64
-                            ds'16 * 115/64 ]
                             \revert Staff.Stem.stemlet-length
+                            ds'16 * 115/64 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -1059,8 +1047,8 @@
                             ds'16 * 61/32
                             es'16 * 163/64
                             ds'16 * 31/8
-                            es'16 * 191/32 ]
                             \revert Staff.Stem.stemlet-length
+                            es'16 * 191/32 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -1402,8 +1390,8 @@
                             d'16 * 13/8 \p [
                             e'16 * 125/64
                             d'16 * 49/16
-                            e'16 * 343/64 ]
                             \revert Staff.Stem.stemlet-length
+                            e'16 * 343/64 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -1442,8 +1430,8 @@
                             d'16 * 117/16 [
                             e'16 * 73/16
                             d'16 * 73/32
-                            e'16 * 59/32 ]
                             \revert Staff.Stem.stemlet-length
+                            e'16 * 59/32 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -1517,6 +1505,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \clef "alto"
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1539,7 +1528,6 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \clef "alto"
                         bqs,1. \< \sfp \startTextSpan
                         bqs,1 \repeatTie \f \stopTextSpan ^ \markup {
                             \override
@@ -1822,8 +1810,8 @@
                             ds'16 * 197/64
                             cs'16 * 19/8
                             ds'16 * 65/32
-                            cs'16 * 61/32 ]
                             \revert Staff.Stem.stemlet-length
+                            cs'16 * 61/32 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4
@@ -1897,6 +1885,7 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        \clef "bass"
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1919,7 +1908,6 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \clef "bass"
                         b,,1. \< \sfp \startTextSpan
                         b,,1 \repeatTie \f \stopTextSpan ^ \markup {
                             \override
@@ -2154,8 +2142,8 @@
                             c'16 * 201/64
                             d'16 * 33/8
                             c'16 * 11/2
-                            d'16 * 221/32 ]
                             \revert Staff.Stem.stemlet-length
+                            d'16 * 221/32 ]
                         }
                         \revert TupletNumber.text
                         s1 * 1/4

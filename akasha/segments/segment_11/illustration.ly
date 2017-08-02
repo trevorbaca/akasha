@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -40,8 +40,8 @@
                 {
                     \time 4/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     \mark #10
+                    \newSpacingSection
                     s1 * 1 ^ \markup {
                         \fontsize
                             #-6
@@ -88,21 +88,9 @@
                         \times 6/4 {
                             f'4 \ff
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                                    \whiteout
+                                        \upright
+                                            "terminate each note abruptly"
                                     }
                             r4
                             r4
@@ -128,21 +116,9 @@
                             r4
                             a4 \ff
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                                    \whiteout
+                                        \upright
+                                            "terminate each note abruptly"
                                     }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -186,21 +162,9 @@
                             r4
                             b,4 \ff
                                 ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                                    \whiteout
+                                        \upright
+                                            "terminate each note abruptly"
                                     }
                             r4
                         }

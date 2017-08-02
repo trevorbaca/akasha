@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -62,8 +62,8 @@
                     {
                         \time 4/4
                         \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                        \newSpacingSection
                         \mark #8
+                        \newSpacingSection
                         s1 * 1 ^ \markup {
                             \fontsize
                                 #-6
@@ -196,8 +196,8 @@
                                     }
                             e'16 * 73/16
                             d'16 * 73/32
-                            e'16 * 59/32 ]
                             \revert Staff.Stem.stemlet-length
+                            e'16 * 59/32 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -239,8 +239,8 @@
                             d'16 * 147/64
                             e'16 * 25/8
                             d'16 * 145/32
-                            e'16 * 409/64 ]
                             \revert Staff.Stem.stemlet-length
+                            e'16 * 409/64 ]
                         }
                         \revert TupletNumber.text
                         fs''2. \ppp
@@ -293,8 +293,8 @@
                             ds'16 * 61/32
                             cs'16 * 163/64
                             ds'16 * 31/8
-                            cs'16 * 191/32 ]
                             \revert Staff.Stem.stemlet-length
+                            cs'16 * 191/32 ]
                         }
                         \revert TupletNumber.text
                         \override TupletNumber.text = \markup {
@@ -335,8 +335,8 @@
                             cs'16 * 353/64
                             ds'16 * 97/32
                             cs'16 * 17/8
-                            ds'16 * 15/8 ]
                             \revert Staff.Stem.stemlet-length
+                            ds'16 * 15/8 ]
                         }
                         \revert TupletNumber.text
                         af'2. \ppp
@@ -347,10 +347,10 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \clef "alto"
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \clef "alto"
                         c'1
                         c'2. \repeatTie
                         c'2 \repeatTie
@@ -406,9 +406,9 @@
                                     }
                             }
                         \times 1/1 {
+                            \clef "bass"
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
-                            \clef "bass"
                             c'16 * 119/64 \p [
                                 ^ \markup {
                                     \whiteout
@@ -423,8 +423,8 @@
                             c'16 * 125/32
                             d'16 * 315/64
                             c'16 * 49/8
-                            d'16 * 461/64 ]
                             \revert Staff.Stem.stemlet-length
+                            d'16 * 461/64 ]
                         }
                         \revert TupletNumber.text
                         cs,2. \ppp

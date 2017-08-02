@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -264,8 +264,8 @@
                 {
                     \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     \mark #4
+                    \newSpacingSection
                     s1 * 3/8 ^ \markup {
                         \fontsize
                             #-6
@@ -674,8 +674,8 @@
                         cs''''2. \repeatTie
                         cs''''4. \repeatTie
                         cs''''2 \repeatTie
-                        \ottava #0
                         \revert NoteHead.style
+                        \ottava #0
                         s1 * 1/4
                         \override NoteHead.style = #'harmonic
                         a'1 -\downbow \ppp \glissando
