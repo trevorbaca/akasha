@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -193,8 +193,8 @@
                 {
                     \time 6/4
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     \mark #3
+                    \newSpacingSection
                     s1 * 3/2 ^ \markup {
                         \fontsize
                             #-6
@@ -412,9 +412,9 @@
                         b'1
                         s1 * 1/4
                         b'1.
+                        \revert RepeatTie.direction
                         \stopStaff
                         \startStaff
-                        \revert RepeatTie.direction
                         b'1. \repeatTie
                         s1 * 1/4
                         \bar "|"

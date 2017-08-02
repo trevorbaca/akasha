@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -81,8 +81,8 @@
                 {
                     \time 9/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
                     \mark #2
+                    \newSpacingSection
                     s1 * 9/8 ^ \markup {
                         \fontsize
                             #-6
@@ -202,8 +202,8 @@
                             e''16 * 249/32 [
                             r16 * 43/8
                             d''16 * 179/64
-                            e''16 * 131/64 ]
                             \revert Staff.Stem.stemlet-length
+                            e''16 * 131/64 ]
                         }
                         \revert TupletNumber.text
                         r1
@@ -273,9 +273,9 @@
                             r16 * 197/64
                             bf'16 * 19/8
                             c''16 * 65/32
+                            \revert Staff.Stem.stemlet-length
                             bf'16 * 61/32 ]
                             \bar "|"
-                            \revert Staff.Stem.stemlet-length
                         }
                         \revert TupletNumber.text
                     }

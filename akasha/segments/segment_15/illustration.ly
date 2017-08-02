@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -119,8 +119,8 @@
                 {
                     \time 3/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     \mark #14
+                    \newSpacingSection
                     s1 * 3/8 ^ \markup {
                         \fontsize
                             #-6
@@ -289,21 +289,9 @@
                         \override RepeatTie.direction = #up
                         b'4. -\downbow
                             ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "full bow strokes"
-                                            }
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "terminate each note abruptly"
-                                            }
-                                    }
+                                \whiteout
+                                    \upright
+                                        "terminate each note abruptly"
                                 }
                             _ \markup {
                                 \larger
@@ -398,28 +386,16 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \clef "alto"
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \clef "alto"
                         \override RepeatTie.direction = #up
                         c'4. -\downbow
                             ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "full bow strokes"
-                                            }
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "terminate each note abruptly"
-                                            }
-                                    }
+                                \whiteout
+                                    \upright
+                                        "terminate each note abruptly"
                                 }
                             _ \markup {
                                 \larger
@@ -461,28 +437,16 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        \clef "bass"
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \clef "bass"
                         \override RepeatTie.direction = #up
                         d4. -\downbow
                             ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "full bow strokes"
-                                            }
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "terminate each note abruptly"
-                                            }
-                                    }
+                                \whiteout
+                                    \upright
+                                        "terminate each note abruptly"
                                 }
                             _ \markup {
                                 \larger

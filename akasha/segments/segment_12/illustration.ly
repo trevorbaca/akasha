@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -319,8 +319,8 @@
                 {
                     \time 4/8
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
-                    \newSpacingSection
                     \mark #11
+                    \newSpacingSection
                     s1 * 1/2 ^ \markup {
                         \fontsize
                             #-6
@@ -1194,6 +1194,7 @@
                         b''''2.. \repeatTie \f
                         \ottava #0
                         s1 * 1/4 \stopTrillSpan
+                        \ottava #1
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1216,7 +1217,6 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \ottava #1
                         b''''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
@@ -1307,8 +1307,8 @@
                         b''''4. \repeatTie
                         b''''2 \repeatTie
                         b''''1 \repeatTie
-                        \ottava #0
                         \revert NoteHead.style
+                        \ottava #0
                         s1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
@@ -1725,6 +1725,7 @@
                         cs''''2.. \repeatTie
                         \ottava #0
                         s1 * 1/4 \stopTrillSpan
+                        \ottava #1
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1747,7 +1748,6 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \ottava #1
                         cs''''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
@@ -1838,8 +1838,8 @@
                         cs''''4. \repeatTie
                         cs''''2 \repeatTie
                         cs''''1 \repeatTie
-                        \ottava #0
                         \revert NoteHead.style
+                        \ottava #0
                         s1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
