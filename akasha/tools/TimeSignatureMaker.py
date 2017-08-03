@@ -70,7 +70,7 @@ class TimeSignatureMaker(object):
             time_signatures,
             )
         measures_per_stage = [len(_) for _ in time_signature_groups]
-        time_signatures = baca.Sequence(time_signature_groups).flatten()
+        time_signatures = baca.sequence(time_signature_groups).flatten()
         fermata_entries = self.stage_specifier._make_fermata_entries()
         items = self.tempo_specifier.items + fermata_entries
         tempo_specifier = baca.TempoSpecifier(items=items)
