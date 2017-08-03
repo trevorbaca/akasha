@@ -44,7 +44,7 @@ def make_perforated_counts(degree=0, rotation=None):
         message = message.format(degree)
         raise ValueError(message)
     vector = pattern.get_boolean_vector()
-    parts = baca.Sequence(vector).group_by()
+    parts = baca.sequence(vector).group_by()
     for part in parts:
         if part[0] == 0:
             counts.append(-len(part))

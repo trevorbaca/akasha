@@ -417,7 +417,7 @@ counts += [14, 8, 11, 8]
 counts += [14, 8, 22, 16]
 counts += [28, 16, 22, 16]
 counts += [46, 32, 22, 16]
-counts = baca.Sequence(counts)
+counts = baca.sequence(counts)
 assert len(counts) == 20
 
 viola_counts = [2, 1, 2, 1, 1, 3, 2, 1, 7]
