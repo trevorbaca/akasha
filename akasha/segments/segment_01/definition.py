@@ -38,10 +38,11 @@ spacing_specifier = baca.HorizontalSpacingCommand(
     )
 
 segment_maker = baca.SegmentMaker(
+    instruments=akasha.materials.instruments,
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    #score_package=akasha,
+    metronome_marks=akasha.materials.tempi,
     score_template=akasha.tools.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,

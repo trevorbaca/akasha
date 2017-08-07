@@ -1,4 +1,4 @@
-\version "2.19.64"
+\version "2.19.65"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -347,10 +347,10 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        \clef "alto"
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \clef "alto"
                         c'1
                         c'2. \repeatTie
                         c'2 \repeatTie
@@ -406,9 +406,9 @@
                                     }
                             }
                         \times 1/1 {
-                            \clef "bass"
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
+                            \clef "bass"
                             c'16 * 119/64 \p [
                                 ^ \markup {
                                     \whiteout

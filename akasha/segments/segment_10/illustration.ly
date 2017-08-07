@@ -1,4 +1,4 @@
-\version "2.19.64"
+\version "2.19.65"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -1505,7 +1505,6 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        \clef "alto"
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1528,6 +1527,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \clef "alto"
                         bqs,1. \< \sfp \startTextSpan
                         bqs,1 \repeatTie \f \stopTextSpan ^ \markup {
                             \override
@@ -1885,7 +1885,6 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        \clef "bass"
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1908,6 +1907,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \clef "bass"
                         b,,1. \< \sfp \startTextSpan
                         b,,1 \repeatTie \f \stopTextSpan ^ \markup {
                             \override
