@@ -10,15 +10,20 @@ metadata = abjad.TypedOrderedDict(
                 [
                     ('Cello Music Staff', 'bass'),
                     ('Viola Music Staff', 'alto'),
-                    ('Violin One Music Staff', None),
-                    ('Violin Two Music Staff', None),
+                    ('Violin One Music Staff', 'treble'),
+                    ('Violin Two Music Staff', 'treble'),
                     ]
                 ),
             ),
         (
             'end_instruments_by_context',
             abjad.TypedOrderedDict(
-                []
+                [
+                    ('Cello Music Staff', 'cello'),
+                    ('Viola Music Staff', 'viola'),
+                    ('Violin One Music Staff', 'violin 1'),
+                    ('Violin Two Music Staff', 'violin 2'),
+                    ]
                 ),
             ),
         (
@@ -32,7 +37,7 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_tempo', None),
+        ('end_tempo', 44),
         ('end_time_signature', '1/4'),
         ('first_bar_number', 340),
         ('measure_count', 29),
