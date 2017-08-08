@@ -26,17 +26,6 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        (
-            'end_instruments_by_staff',
-            abjad.TypedOrderedDict(
-                [
-                    ('Cello Music Staff', 'cello'),
-                    ('Viola Music Staff', 'viola'),
-                    ('Violin One Music Staff', 'violin 1'),
-                    ('Violin Two Music Staff', 'violin 2'),
-                    ]
-                ),
-            ),
         ('end_tempo', 44),
         ('end_time_signature', '1/4'),
         ('first_bar_number', 340),
