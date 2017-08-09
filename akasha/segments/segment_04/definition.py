@@ -35,7 +35,7 @@ tempo_specifier = baca.TempoSpecifier([
     (1, akasha.materials.tempi[55]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker(
+maker = akasha.TimeSignatureMaker(
     'A', 3, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
@@ -51,7 +51,7 @@ segment_maker = baca.SegmentMaker(
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.materials.tempi,
-    score_template=akasha.tools.ScoreTemplate(),
+    score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -74,7 +74,7 @@ segment_maker.append_specifiers(
         (va, baca.select_stages(5)),
         (va, baca.select_stages(7)),
         ],
-    akasha.tools.make_glissando_rhythm_specifier(),
+    akasha.make_glissando_rhythm_specifier(),
     )
 
 segment_maker.append_specifiers(
@@ -114,7 +114,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(12),
-    akasha.tools.make_sparse_getato_rhythm_specifier(
+    akasha.make_sparse_getato_rhythm_specifier(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
         rotation=-12,
@@ -147,13 +147,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(20),
-    akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
+    akasha.make_polyphony_rhythm_specifier(rotation=-2),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(20),
-    akasha.tools.make_polyphony_rhythm_specifier(rotation=-4),
+    akasha.make_polyphony_rhythm_specifier(rotation=-4),
     )
 
 ### stages 22-24 ###
@@ -176,7 +176,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(23),
-    akasha.tools.make_glissando_rhythm_specifier(),
+    akasha.make_glissando_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
@@ -268,7 +268,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(12),
-    akasha.tools.make_getato_pitch_specifier('C#3', direction=Down),
+    akasha.make_getato_pitch_specifier('C#3', direction=Down),
     baca.markup.leggieriss(),
     baca.staccati(),
     baca.dynamic('p'),

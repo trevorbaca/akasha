@@ -35,7 +35,7 @@ tempo_specifier = baca.TempoSpecifier([
     (8, akasha.materials.tempi[55]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker(
+maker = akasha.TimeSignatureMaker(
     'A', 0, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
@@ -51,7 +51,7 @@ segment_maker = baca.SegmentMaker(
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.materials.tempi,
-    score_template=akasha.tools.ScoreTemplate(),
+    score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -70,7 +70,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     vc,
     baca.select_stages(1),
-    akasha.tools.make_cello_solo_rhythm_specifier(rotation=0),
+    akasha.make_cello_solo_rhythm_specifier(rotation=0),
     baca.clef('bass'),
     )
 
@@ -80,7 +80,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(3),
     abjad.new(
-        akasha.tools.make_sparse_getato_rhythm_specifier(),
+        akasha.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=abjad.silence([0, 1], inverted=True),
         ),
     )
@@ -89,7 +89,7 @@ segment_maker.append_commands(
     va,
     baca.select_stages(3),
     abjad.new(
-        akasha.tools.make_sparse_getato_rhythm_specifier(),
+        akasha.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=abjad.silence([-1], inverted=True),
         ),
     )
@@ -100,7 +100,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(5),
     abjad.new(
-        akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
+        akasha.make_polyphony_rhythm_specifier(rotation=0),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [0, 1, 2], inverted=True),
         ),
@@ -110,7 +110,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(5),
     abjad.new(
-        akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
+        akasha.make_polyphony_rhythm_specifier(rotation=0),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [2, 3, 4], inverted=True),
         ),
@@ -120,7 +120,7 @@ segment_maker.append_commands(
     va,
     baca.select_stages(5),
     abjad.new(
-        akasha.tools.make_polyphony_rhythm_specifier(rotation=0),
+        akasha.make_polyphony_rhythm_specifier(rotation=0),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [1, 2, 3], inverted=True),
         ),
@@ -132,7 +132,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(7),
     abjad.new(
-        akasha.tools.make_sparse_getato_rhythm_specifier(),
+        akasha.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=abjad.silence([-2, -1], inverted=True),
         ),
     )
@@ -141,7 +141,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(7),
     abjad.new(
-        akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
+        akasha.make_polyphony_rhythm_specifier(rotation=-2),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [1, 2, 3], inverted=True),
         ),
@@ -151,7 +151,7 @@ segment_maker.append_commands(
     va,
     baca.select_stages(7),
     abjad.new(
-        akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
+        akasha.make_polyphony_rhythm_specifier(rotation=-2),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [2, 3, 4], inverted=True),
         ),
@@ -161,7 +161,7 @@ segment_maker.append_commands(
     vc,
     baca.select_stages(7),
     abjad.new(
-        akasha.tools.make_polyphony_rhythm_specifier(rotation=-2),
+        akasha.make_polyphony_rhythm_specifier(rotation=-2),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [0, 1, 2], inverted=True),
         ),
@@ -173,7 +173,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(9),
     abjad.new(
-        akasha.tools.make_accelerando_rhythm_specifier(),
+        akasha.make_accelerando_rhythm_specifier(),
         rhythm_maker__division_masks=abjad.silence_first(),
         rhythm_maker__logical_tie_masks=abjad.silence([3, 5, 7, 9]),
         ),
@@ -183,7 +183,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(9),
     abjad.new(
-        akasha.tools.make_ritardando_rhythm_specifier(),
+        akasha.make_ritardando_rhythm_specifier(),
         rhythm_maker__division_masks=abjad.silence_first(),
         rhythm_maker__logical_tie_masks=abjad.silence([2, 5, 7]),
         ),
@@ -192,14 +192,14 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(9),
-    akasha.tools.make_polyphony_rhythm_specifier(rotation=-4),
+    akasha.make_polyphony_rhythm_specifier(rotation=-4),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(9),
     abjad.new(
-        akasha.tools.make_polyphony_rhythm_specifier(rotation=-6),
+        akasha.make_polyphony_rhythm_specifier(rotation=-6),
         rhythm_maker__logical_tie_masks=abjad.silence_last(1),
         ),
     )
@@ -210,7 +210,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(11),
     abjad.new(
-        akasha.tools.make_accelerando_rhythm_specifier(),
+        akasha.make_accelerando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [0, 2, 3, -1], inverted=True),
         ),
@@ -220,7 +220,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(11),
     abjad.new(
-        akasha.tools.make_ritardando_rhythm_specifier(),
+        akasha.make_ritardando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [0, 1, 4, -1], inverted=True),
         ),
@@ -229,14 +229,14 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(11),
-    akasha.tools.make_polyphony_rhythm_specifier(rotation=-8),
+    akasha.make_polyphony_rhythm_specifier(rotation=-8),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(11),
     abjad.new(
-        akasha.tools.make_polyphony_rhythm_specifier(rotation=-10),
+        akasha.make_polyphony_rhythm_specifier(rotation=-10),
         rhythm_maker__logical_tie_masks=abjad.silence_last(1),
         ),
     )
@@ -247,7 +247,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(13),
     abjad.new(
-        akasha.tools.make_ritardando_rhythm_specifier(),
+        akasha.make_ritardando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [0, 2, -1], inverted=True),
         ),
@@ -257,7 +257,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(13),
     abjad.new(
-        akasha.tools.make_accelerando_rhythm_specifier(),
+        akasha.make_accelerando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [0, 2, -1], inverted=True),
         ),
@@ -269,7 +269,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(15),
     abjad.new(
-        akasha.tools.make_ritardando_rhythm_specifier(),
+        akasha.make_ritardando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=abjad.silence(
             [0, 1, -1], inverted=True),
         ),
@@ -279,7 +279,7 @@ segment_maker.append_commands(
     vc,
     baca.select_stages(15),
     abjad.new(
-        akasha.tools.make_sparse_getato_rhythm_specifier(),
+        akasha.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=abjad.silence([1], inverted=True),
         ),
     )
@@ -291,7 +291,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1),
-    akasha.tools.make_cello_solo_pitch_specifier(),
+    akasha.make_cello_solo_pitch_specifier(),
     baca.markup.tasto_fractional_scratch(1, 2),
     #Dynamic('mp'),
     baca.dynamic('mp'),
@@ -384,7 +384,7 @@ segment_maker.append_commands(
 
 segment_maker.append_specifiers(
     baca.CompoundScope([(vn_2, 3), (va, 3), (vn_1, 7), (vc, 15)]),
-    akasha.tools.make_getato_pitch_specifier(-2, [0]),
+    akasha.make_getato_pitch_specifier(-2, [0]),
     baca.staccati(),
     )
 

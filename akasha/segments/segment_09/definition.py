@@ -27,7 +27,7 @@ tempo_specifier = baca.TempoSpecifier([
     (4, akasha.materials.tempi[55]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker(
+maker = akasha.TimeSignatureMaker(
     'A', 12, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
@@ -47,7 +47,7 @@ segment_maker = baca.SegmentMaker(
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.materials.tempi,
-    score_template=akasha.tools.ScoreTemplate(),
+    score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -67,13 +67,13 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(1),
-    akasha.tools.make_accelerando_rhythm_specifier(),
+    akasha.make_accelerando_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(1),
-    akasha.tools.make_ritardando_rhythm_specifier(),
+    akasha.make_ritardando_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
@@ -90,7 +90,7 @@ segment_maker.append_commands(
     # TODO: remove after segment metaata work again
     baca.clef('bass'),
     abjad.new(
-        akasha.tools.make_ritardando_rhythm_specifier(),
+        akasha.make_ritardando_rhythm_specifier(),
         division_expression=baca.sequence().sum().sequence(),
         ),
     )
@@ -104,7 +104,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [va, vc],
     baca.select_stages(4),
-    akasha.tools.make_glissando_rhythm_specifier(),
+    akasha.make_glissando_rhythm_specifier(),
     )
 
 ###############################################################################

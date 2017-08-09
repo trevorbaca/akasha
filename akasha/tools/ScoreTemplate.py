@@ -18,7 +18,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ::
 
-            >>> template = akasha.tools.ScoreTemplate()
+            >>> template = akasha.ScoreTemplate()
             >>> lilypond_file = template.__illustrate__()
             >>> path = '/Users/trevorbaca/Scores/akasha/akasha'
             >>> path += '/stylesheets/context-definitions.ily'
