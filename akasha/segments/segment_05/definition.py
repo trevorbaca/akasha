@@ -34,7 +34,7 @@ tempo_specifier = baca.TempoSpecifier([
     (15, akasha.materials.tempi[44]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker(
+maker = akasha.TimeSignatureMaker(
     'B', 12, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
@@ -50,7 +50,7 @@ segment_maker = baca.SegmentMaker(
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.materials.tempi,
-    score_template=akasha.tools.ScoreTemplate(),
+    score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -83,7 +83,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(3),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 ### stages 5-6 ###
@@ -97,7 +97,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2],
     baca.select_stages(5),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 ### stages 7-8 ###
@@ -111,7 +111,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2, vc],
     baca.select_stages(7),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 ### stages 9-11 ###
@@ -119,19 +119,19 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, vn_2],
     baca.select_stages(9, 10),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(9),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(10),
-    akasha.tools.make_glissando_rhythm_specifier(),
+    akasha.make_glissando_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
@@ -145,7 +145,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, va, vc],
     baca.select_stages(12),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
@@ -174,7 +174,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn_1, va],
     baca.select_stages(14),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
@@ -201,7 +201,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(14),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 ### stages 15-17 ###
@@ -209,13 +209,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(15),
-    akasha.tools.make_untied_notes_rhythm_specifier(),
+    akasha.make_untied_notes_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(16),
-    akasha.tools.make_glissando_rhythm_specifier(),
+    akasha.make_glissando_rhythm_specifier(),
     )
 
 ###############################################################################
@@ -262,13 +262,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(5),
-    akasha.tools.make_harmonic_glissando_pitch_specifier('A4'),
+    akasha.make_harmonic_glissando_pitch_specifier('A4'),
     )
 
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(7),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'A4',
         rotation=-6,
         ),
@@ -277,7 +277,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(9, 10),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-12,
         ),
@@ -286,7 +286,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(12),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-18,
         ),
@@ -295,7 +295,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(14),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-24,
         ),
@@ -313,13 +313,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(3),
-    akasha.tools.make_harmonic_glissando_pitch_specifier('A4'),
+    akasha.make_harmonic_glissando_pitch_specifier('A4'),
     )
 
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(5),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-6,
         ),
@@ -328,7 +328,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(7),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-12,
         ),
@@ -337,7 +337,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(9, 10),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'A4', 
         rotation=-18,
         ),
@@ -381,13 +381,13 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(12),
-    akasha.tools.make_harmonic_glissando_pitch_specifier('Ab3'),
+    akasha.make_harmonic_glissando_pitch_specifier('Ab3'),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(14),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'Ab3', 
         rotation=-6,
         ),
@@ -412,7 +412,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(7),
-    akasha.tools.make_harmonic_glissando_pitch_specifier('G2'),
+    akasha.make_harmonic_glissando_pitch_specifier('G2'),
     )
 
 segment_maker.append_commands(
@@ -436,7 +436,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(12),
-    akasha.tools.make_harmonic_glissando_pitch_specifier(
+    akasha.make_harmonic_glissando_pitch_specifier(
         'G2', 
         rotation=-6,
         ),

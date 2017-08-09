@@ -26,7 +26,7 @@ tempo_specifier = baca.TempoSpecifier([
     (1, akasha.materials.tempi[89]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker(
+maker = akasha.TimeSignatureMaker(
     'B', 30, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
@@ -44,7 +44,7 @@ segment_maker = baca.SegmentMaker(
     final_markup_extra_offset=(-17, -12),
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.materials.tempi,
-    score_template=akasha.tools.ScoreTemplate(),
+    score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -71,7 +71,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(2, 3),
     abjad.new(
-        akasha.tools.make_sparse_getato_rhythm_specifier(),
+        akasha.make_sparse_getato_rhythm_specifier(),
         rhythm_maker__division_masks=abjad.silence_except([3, 36, 37]),
         ),
     )
@@ -126,7 +126,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(2, 3),
-    akasha.tools.make_getato_pitch_specifier(29, direction=Down),
+    akasha.make_getato_pitch_specifier(29, direction=Down),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),

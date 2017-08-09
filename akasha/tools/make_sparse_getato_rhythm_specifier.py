@@ -15,7 +15,7 @@ def make_sparse_getato_rhythm_specifier(
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
             talea=abjad.rhythmmakertools.Talea(
-                counts=akasha.tools.make_perforated_counts(
+                counts=akasha.make_perforated_counts(
                     degree=degree,
                     rotation=rotation,
                     ),

@@ -8,6 +8,7 @@ if not (
     raise ImportError('Requires Python 3.5.')
 del distutils
 del platform
-from akasha import tools
-from akasha import materials
+
+from akasha.tools import *
+from akasha.materials import *
 from akasha import segments

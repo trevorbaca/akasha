@@ -42,7 +42,7 @@ tempo_specifier = baca.TempoSpecifier([
     (19, akasha.materials.tempi[55]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker(
+maker = akasha.TimeSignatureMaker(
     'A', 9, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
@@ -62,7 +62,7 @@ segment_maker = baca.SegmentMaker(
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.materials.tempi,
-    score_template=akasha.tools.ScoreTemplate(),
+    score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -82,7 +82,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     vc,
     baca.select_stages(1),
-    akasha.tools.make_cello_solo_rhythm_specifier(),
+    akasha.make_cello_solo_rhythm_specifier(),
     )
 
 ### stages 2-3 ###
@@ -90,7 +90,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(2),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [1],
         [3, 0, 2, 1],
         ),
@@ -99,7 +99,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(2),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
         ),
@@ -108,7 +108,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(2),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
         ),
@@ -128,7 +128,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(6),
     abjad.new(
-        akasha.tools.make_accelerando_rhythm_specifier(),
+        akasha.make_accelerando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=abjad.silence([1, 6]),
         ),
     )
@@ -137,7 +137,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(6),
     abjad.new(
-        akasha.tools.make_ritardando_rhythm_specifier(),
+        akasha.make_ritardando_rhythm_specifier(),
         rhythm_maker__logical_tie_masks=abjad.silence([2, 5]),
         ),
     )
@@ -489,7 +489,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(13),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
         ),
@@ -498,7 +498,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(13),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
         ),
@@ -507,7 +507,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(13),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
         ),
@@ -516,7 +516,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(13),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
         ),
@@ -535,7 +535,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(17),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
         ),
@@ -544,7 +544,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(17),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
         ),
@@ -553,7 +553,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(17),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
         ),
@@ -562,7 +562,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(17),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
         ),
@@ -584,7 +584,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1),
-    akasha.tools.make_cello_solo_pitch_specifier(transposition=1),
+    akasha.make_cello_solo_pitch_specifier(transposition=1),
     baca.markup.tasto_fractional_scratch(1, 2),
     baca.clef('treble'),
     baca.dynamic('mp'),
@@ -595,21 +595,21 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(2),
-    akasha.tools.make_getato_pitch_specifier(27, [2]),
+    akasha.make_getato_pitch_specifier(27, [2]),
     baca.staccati(),
     )
 
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(2),
-    akasha.tools.make_getato_pitch_specifier(24, [2]),
+    akasha.make_getato_pitch_specifier(24, [2]),
     baca.staccati(),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(2),
-    akasha.tools.make_getato_pitch_specifier(21, [2]),
+    akasha.make_getato_pitch_specifier(21, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -748,7 +748,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(13),
-    akasha.tools.make_getato_pitch_specifier(29, [2]),
+    akasha.make_getato_pitch_specifier(29, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.hairpins(['ff < fff']),
@@ -757,7 +757,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(13),
-    akasha.tools.make_getato_pitch_specifier(26, [2]),
+    akasha.make_getato_pitch_specifier(26, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.hairpins(['ff < fff']),
@@ -766,7 +766,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(13),
-    akasha.tools.make_getato_pitch_specifier(23, [2]),
+    akasha.make_getato_pitch_specifier(23, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.clef('treble'),
@@ -776,7 +776,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(13),
-    akasha.tools.make_getato_pitch_specifier(20, [2]),
+    akasha.make_getato_pitch_specifier(20, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.clef('treble'),
@@ -807,7 +807,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(17),
-    akasha.tools.make_getato_pitch_specifier(29, [2]),
+    akasha.make_getato_pitch_specifier(29, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -816,7 +816,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(17),
-    akasha.tools.make_getato_pitch_specifier(26, [2]),
+    akasha.make_getato_pitch_specifier(26, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -825,7 +825,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(17),
-    akasha.tools.make_getato_pitch_specifier(23, [2]),
+    akasha.make_getato_pitch_specifier(23, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -834,7 +834,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(17),
-    akasha.tools.make_getato_pitch_specifier(20, [2]),
+    akasha.make_getato_pitch_specifier(20, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),

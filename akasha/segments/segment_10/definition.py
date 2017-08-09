@@ -52,7 +52,7 @@ tempo_specifier = baca.TempoSpecifier([
     (18, akasha.materials.tempi[44]),
     ])
 
-maker = akasha.tools.TimeSignatureMaker(
+maker = akasha.TimeSignatureMaker(
     'A', 15, stage_specifier, tempo_specifier)
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
@@ -67,7 +67,7 @@ segment_maker = baca.SegmentMaker(
     #label_stages=True,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.materials.tempi,
-    score_template=akasha.tools.ScoreTemplate(),
+    score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
     time_signatures=time_signatures,
@@ -152,7 +152,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(11),
-    akasha.tools.make_dense_getato_rhythm_specifier(
+    akasha.make_dense_getato_rhythm_specifier(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
         ),
@@ -167,20 +167,20 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(14),
-    akasha.tools.make_accelerando_rhythm_specifier(),
+    akasha.make_accelerando_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(14),
-    akasha.tools.make_ritardando_rhythm_specifier(),
+    akasha.make_ritardando_rhythm_specifier(),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(14),
     abjad.new(
-        akasha.tools.make_accelerando_rhythm_specifier(),
+        akasha.make_accelerando_rhythm_specifier(),
         division_expression=baca.sequence().sum().sequence(),
         ),
     )
@@ -189,7 +189,7 @@ segment_maker.append_commands(
     vc,
     baca.select_stages(14),
     abjad.new(
-        akasha.tools.make_ritardando_rhythm_specifier(),
+        akasha.make_ritardando_rhythm_specifier(),
         division_expression=baca.sequence().sum().sequence(),
         ),
     )
@@ -462,7 +462,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(11),
-    akasha.tools.make_getato_pitch_specifier(31, [2]),
+    akasha.make_getato_pitch_specifier(31, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.markup.pos_ord(),
