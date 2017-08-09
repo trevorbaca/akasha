@@ -11,8 +11,8 @@
         currentBarNumber = #200
     } <<
         \tag violin_one.violin_two.viola.cello
-        \context TimeSignatureContext = "Time Signature Context" <<
-            \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+        \context GlobalContext = "Global Context" <<
+            \context GlobalRests = "Global Rests" {
                 {
                     \time 7/8
                     R1 * 7/8
@@ -85,7 +85,7 @@
                     R1 * 3/8
                 }
             }
-            \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+            \context GlobalSkips = "Global Skips" {
                 {
                     \time 7/8
                     \once \override TextSpanner.arrow-width = 0.25

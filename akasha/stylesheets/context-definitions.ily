@@ -3,7 +3,7 @@
 
 \layout {
     \context {
-        \name TimeSignatureContextSkips
+        \name GlobalSkips
         \type Engraver_group
         \consists Staff_symbol_engraver
         \consists Script_engraver
@@ -18,7 +18,7 @@
         \override TextSpanner.staff-padding = 4
         }
     \context {
-        \name TimeSignatureContextMultimeasureRests
+        \name GlobalRests
         \type Engraver_group
         \consists Multi_measure_rest_engraver
         \override MultiMeasureRest.transparent = ##t
@@ -27,15 +27,15 @@
         \override MultiMeasureRestText.padding = 0
         }
     \context {
-        \name TimeSignatureContext
+        \name GlobalContext
         \type Engraver_group
         \consists Axis_group_engraver
         \consists Bar_number_engraver
         \consists Mark_engraver
         \consists Metronome_mark_engraver
         \consists Time_signature_engraver
-        \accepts TimeSignatureContextSkips
-        \accepts TimeSignatureContextMultimeasureRests
+        \accepts GlobalSkips
+        \accepts GlobalRests
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
         \override MetronomeMark.X-extent = #'(0 . 0)
@@ -147,7 +147,7 @@
     }
     \context {
         \Score
-        \accepts TimeSignatureContext
+        \accepts GlobalContext
         \accepts MusicContext
         \remove Bar_number_engraver
         \remove Mark_engraver
