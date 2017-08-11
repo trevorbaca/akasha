@@ -13,15 +13,14 @@ instruments = abjad.TypedOrderedDict([
                 column=False,
                 ),
             short_name='vn. 1',
-            short_name_markup=\
-                baca.markup.short_instrument(
+            short_name_markup=baca.markup.short_instrument(
                 'Vn. 1',
                 column=False,
                 ),
             ),
         ),
     (
-        'violin 2', 
+        'violin 2',
         abjad.instrumenttools.Violin(
             name='violin 2',
             name_markup=baca.markup.instrument(
@@ -29,29 +28,24 @@ instruments = abjad.TypedOrderedDict([
                 column=False,
                 ),
             short_name='vn. 2',
-            short_name_markup=\
-                baca.markup.short_instrument(
+            short_name_markup=baca.markup.short_instrument(
                 'Vn. 2',
                 column=False,
                 ),
             ),
         ),
     (
-        'viola', 
+        'viola',
         abjad.instrumenttools.Viola(
-            name_markup=baca.markup.instrument(
-                'Viola'),
-            short_name_markup=\
-                baca.markup.short_instrument('Va.'),
+            name_markup=baca.markup.instrument('Viola'),
+            short_name_markup=baca.markup.short_instrument('Va.'),
             ),
         ),
     (
-        'cello', 
+        'cello',
         abjad.instrumenttools.Cello(
-            name_markup=baca.markup.instrument(
-                'Cello'),
-            short_name_markup=\
-                baca.markup.short_instrument('Vc.'),
+            name_markup=baca.markup.instrument('Cello'),
+            short_name_markup=baca.markup.short_instrument('Vc.'),
             ),
         ),
     ])
