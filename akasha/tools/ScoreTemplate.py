@@ -180,8 +180,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Violin One Music Staff',
             )
         violin_one = abjad.instrumenttools.Violin(
-            instrument_name='violin 1',
-            short_instrument_name='vn. 1',
+            name='violin 1',
+            short_name='vn. 1',
             )
         abjad.annotate(
             violin_one_music_staff,
@@ -207,8 +207,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Violin Two Music Staff',
             )
         violin_two = abjad.instrumenttools.Violin(
-            instrument_name='violin 2',
-            short_instrument_name='vn. 2',
+            name='violin 2',
+            short_name='vn. 2',
             )
         abjad.annotate(
             violin_two_music_staff,
