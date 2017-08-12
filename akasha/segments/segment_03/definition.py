@@ -16,11 +16,16 @@ tutti = [vn_1, vn_2, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    3, # 1
-    1, abjad.Fermata('longfermata'), # 2-3
-    1, abjad.Fermata('shortfermata'), # 4-5
-    1, abjad.Fermata('shortfermata'), # 6-7
-    1, 1, # 8-9
+    # 1
+    3,
+    # 2-3
+    1, abjad.Fermata('longfermata'),
+    # 4-5
+    1, abjad.Fermata('shortfermata'),
+    # 6-7
+    1, abjad.Fermata('shortfermata'),
+    # 8-9
+    1, 1,
     ])
 
 tempo_specifier = baca.TempoSpecifier([
@@ -62,7 +67,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(1),
     abjad.new(
-        akasha.make_accelerando_rhythm_specifier(fuse_counts=[1]), 
+        akasha.make_accelerando_rhythm_specifier(fuse_counts=[1]),
         rhythm_maker__logical_tie_masks=abjad.silence([1]),
         rhythm_maker__division_masks=abjad.silence_last(2),
         ),

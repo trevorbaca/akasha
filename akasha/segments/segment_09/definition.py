@@ -16,9 +16,12 @@ tutti = [vn_1, vn_2, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    2, # 1
-    1, abjad.Fermata(), # 2-3
-    2, abjad.Fermata(), # 4-5
+    # 1
+    2,
+    # 2-3
+    1, abjad.Fermata(),
+    # 4-5
+    2, abjad.Fermata(),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
@@ -37,7 +40,7 @@ spacing_specifier = baca.HorizontalSpacingCommand(
     )
 
 volta_specifier = baca.VoltaSpecifier([
-    baca.MeasureExpression(start=0, stop=None), 
+    baca.MeasureExpression(start=0, stop=None),
     ])
 
 segment_maker = baca.SegmentMaker(

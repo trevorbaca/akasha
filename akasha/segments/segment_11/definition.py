@@ -81,7 +81,7 @@ segment_maker.append_commands(
     )
 
 ### stage 2 ###
-    
+
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(2),
@@ -146,7 +146,7 @@ segment_maker.append_commands(
     baca.markup.terminate_each_note_abruptly(),
     baca.dynamic('ff'),
     )
-    
+
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(1, 3),

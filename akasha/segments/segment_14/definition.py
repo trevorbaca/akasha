@@ -16,17 +16,18 @@ tutti = [vn_1, vn_2, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    6, # 1
-    4, # 2
-    2, # 3
-    2, # 4
-    2, # 5
-    2, # 6
-    4, # 7
-    2, # 8
-    2, # 9
-    2, # 10
-    abjad.Fermata(), # 11
+    # 1-11
+    6,
+    4,
+    2,
+    2,
+    2,
+    2,
+    4,
+    2,
+    2,
+    2,
+    abjad.Fermata(),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
@@ -41,7 +42,7 @@ tempo_specifier = baca.TempoSpecifier([
 maker = baca.TimeSignatureMaker(
     akasha.materials.time_signatures_a,
     rotation=21,
-    stage_specifier=stage_specifier, 
+    stage_specifier=stage_specifier,
     tempo_specifier=tempo_specifier,
     )
 measures_per_stage, tempo_specifier, time_signatures = maker()

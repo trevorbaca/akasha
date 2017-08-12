@@ -16,14 +16,22 @@ tutti = [vn_1, vn_2, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    2, abjad.Fermata('longfermata'), # 1-2
-    1, abjad.Fermata('longfermata'), # 3-4
-    2, abjad.Fermata('shortfermata'), # 5-6
-    1, abjad.Fermata('shortfermata'), # 7-8
-    3, abjad.Fermata('longfermata'), # 9-10
-    1, abjad.Fermata('longfermata'), # 11-12
-    1, abjad.Fermata('longfermata'), # 13-14
-    1, abjad.Fermata('shortfermata'), # 15-16
+    # 1-2
+    2, abjad.Fermata('longfermata'),
+    # 3-4
+    1, abjad.Fermata('longfermata'),
+    # 5-6
+    2, abjad.Fermata('shortfermata'),
+    # 7-8
+    1, abjad.Fermata('shortfermata'),
+    # 9-10
+    3, abjad.Fermata('longfermata'),
+    # 11-12
+    1, abjad.Fermata('longfermata'),
+    # 13-14
+    1, abjad.Fermata('longfermata'),
+    # 15-16
+    1, abjad.Fermata('shortfermata'),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
@@ -125,7 +133,7 @@ segment_maker.append_commands(
             [1, 2, 3], inverted=True),
         ),
     )
-    
+
 ### baca.select_stages 7-8 ###
 
 segment_maker.append_commands(
@@ -215,7 +223,7 @@ segment_maker.append_commands(
             [0, 2, 3, -1], inverted=True),
         ),
     )
-    
+
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(11),
@@ -252,7 +260,7 @@ segment_maker.append_commands(
             [0, 2, -1], inverted=True),
         ),
     )
-    
+
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(13),
@@ -349,7 +357,7 @@ segment_maker.append_commands(
     #Dynamic('pp'),
     baca.dynamic('pp'),
     )
-    
+
 segment_maker.append_commands(
     vn_2,
     baca.select_stages(9),
