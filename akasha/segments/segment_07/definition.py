@@ -17,17 +17,26 @@ tutti = [vn_1, vn_2, va, vc]
 
 stage_specifier = baca.StageSpecifier([
     2,
-    2, abjad.Fermata('longfermata'), # 2-3
-    1, abjad.Fermata('longfermata'), # 4-5
-    2, abjad.Fermata('longfermata'), # 6-7
-    12, # 8
+    # 2-3
+    2, abjad.Fermata('longfermata'),
+    # 4-5
+    1, abjad.Fermata('longfermata'),
+    # 6-7
+    2, abjad.Fermata('longfermata'),
+    # 8
+    12,
     4,
     4,
-    4, abjad.Fermata(), # 11-12
-    6, abjad.Fermata(), # 13-14
-    1, abjad.Fermata(), # 15-16
-    1, abjad.Fermata('shortfermata'), # 17-18
-    1, abjad.Fermata(), # 19-20
+    # 11-12
+    4, abjad.Fermata(),
+    # 13-14
+    6, abjad.Fermata(),
+    # 15-16
+    1, abjad.Fermata(),
+    # 17-18
+    1, abjad.Fermata('shortfermata'),
+    # 19-20
+    1, abjad.Fermata(),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
@@ -156,13 +165,15 @@ abjad.sustain_mask = abjad.sustain([0, -1])
 #    expression = expression.sequence()
 #    expression = expression.split(
 #        [abjad.Duration(1, 4)],
-#        cyclic=True, 
+#        cyclic=True,
 #        overhang=True,
 #        )
 #    expression = expression.flatten()
 #    expression = expression.partition_by_ratio_of_lengths(ratio)
 #    expression = expression[index]
 #    return expression
+
+
 def division_expression(index):
     ratio = abjad.Ratio((2, 1, 2, 2, 1, 2))
     expression = baca.split_by_durations(durations=[(1, 4)])
@@ -171,7 +182,8 @@ def division_expression(index):
     expression = expression[index]
     return expression
 
-talea_rhythm_maker = rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
+
+talea_rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
     extra_counts_per_division=[1],
     logical_tie_masks=[
         abjad.silence_mask,
@@ -284,13 +296,15 @@ abjad.sustain_mask = abjad.sustain([0, -1])
 #    expression = expression.sequence()
 #    expression = expression.split(
 #        [abjad.Duration(1, 4)],
-#        cyclic=True, 
+#        cyclic=True,
 #        overhang=True,
 #        )
 #    expression = expression.flatten()
 #    expression = expression.partition_by_ratio_of_lengths(ratio)
 #    expression = expression[index]
 #    return expression
+
+
 def division_expression(index):
     ratio = abjad.Ratio((1, 1, 2, 2, 1, 2))
     expression = baca.split_by_durations(durations=[(1, 4)])
@@ -298,6 +312,7 @@ def division_expression(index):
     expression = expression.partition_by_ratio_of_lengths(ratio)
     expression = expression[index]
     return expression
+
 
 talea_rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
     #extra_counts_per_division=[2],
@@ -650,10 +665,10 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(8),
     # TODO: revive hairpins
-#    baca.make_repeated_hairpins(
-#        ['pp < p', 'p > pp'],
-#        span='nontrivial ties',
-#        ),
+    #baca.make_repeated_hairpins(
+    #    ['pp < p', 'p > pp'],
+    #    span='nontrivial ties',
+    #    ),
     baca.infinite_pitches(
         [15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18],
         [1],
@@ -664,12 +679,12 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(8),
     # TODO: revive hairpins
-#    baca.make_repeated_hairpins(
-#        ['pp < p', 'p > pp'],
-#        span='nontrivial ties',
-#        ),
+    #baca.make_repeated_hairpins(
+    #    ['pp < p', 'p > pp'],
+    #    span='nontrivial ties',
+    #    ),
     baca.infinite_pitches(
-        [11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], 
+        [11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14],
         [1],
         ),
     )

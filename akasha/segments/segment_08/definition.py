@@ -16,12 +16,14 @@ tutti = [vn_1, vn_2, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    4, # 1
-    3, # 2
-    3, # 3
-    3, abjad.Fermata(), # 4-5
-    2, # 6
-    1, # 7
+    # 1-3
+    4,
+    3,
+    3,
+    # 4-7
+    3, abjad.Fermata(),
+    2,
+    1,
     ])
 
 tempo_specifier = baca.TempoSpecifier([

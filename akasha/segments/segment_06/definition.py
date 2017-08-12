@@ -19,14 +19,19 @@ stage_specifier = baca.StageSpecifier([
     1, abjad.Fermata(),
     1, abjad.Fermata(),
     1, abjad.Fermata(),
-    1, abjad.Fermata(), # 1-8
-    2, # 9
-    2, 2, 4, 
-    2, 2, # 13-14
-    4, # 15
-    6, # 16
-    6, # 17
-    abjad.Fermata('longfermata'), # 18
+    # 1-8
+    1, abjad.Fermata(),
+    # 9
+    2,
+    2, 2, 4,
+    # 13-14
+    2, 2,
+    # 15-17
+    4,
+    6,
+    6,
+    # 18
+    abjad.Fermata('longfermata'),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
@@ -114,7 +119,7 @@ segment_maker.append_commands(
     )
 
 ### baca.select_stages 5-6 ###
-    
+
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(5),
@@ -336,7 +341,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 18),
     akasha.make_getato_pitch_specifier(5, [2]),
     )
-    
+
 segment_maker.append_commands(
     vn_1,
     baca.select_stages(1, 11),

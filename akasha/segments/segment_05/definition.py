@@ -16,14 +16,22 @@ tutti = [vn_1, vn_2, va, vc]
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
-    8, abjad.Fermata('shortfermata'), # 1-2
-    8, abjad.Fermata('shortfermata'), # 3-4
-    4, abjad.Fermata('shortfermata'), # 5-6
-    8, abjad.Fermata(), # 7-8
-    3, 1, abjad.Fermata(), # 9-11
-    4, abjad.Fermata(),  # 12-13
-    4, # 14
-    3, 1, abjad.Fermata('longfermata'), # 15-17
+    # 1-2
+    8, abjad.Fermata('shortfermata'),
+    # 3-4
+    8, abjad.Fermata('shortfermata'),
+    # 5-6
+    4, abjad.Fermata('shortfermata'),
+    # 7-8
+    8, abjad.Fermata(),
+    # 9-11
+    3, 1, abjad.Fermata(),
+    # 12-13
+    4, abjad.Fermata(),
+    # 14
+    4,
+    # 15-17
+    3, 1, abjad.Fermata('longfermata'),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
@@ -154,11 +162,9 @@ segment_maker.append_commands(
     baca.RhythmSpecifier(
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
-            [0]
-            ,
+            [0],
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            duration_spelling_specifier=\
-                abjad.rhythmmakertools.DurationSpellingSpecifier(
+            duration_spelling_specifier=abjad.rhythmmakertools.DurationSpellingSpecifier(
                 rewrite_meter=True,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -183,11 +189,9 @@ segment_maker.append_commands(
     baca.RhythmSpecifier(
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
-            [0]
-            ,
+            [0],
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            duration_spelling_specifier=\
-                abjad.rhythmmakertools.DurationSpellingSpecifier(
+            duration_spelling_specifier=abjad.rhythmmakertools.DurationSpellingSpecifier(
                 rewrite_meter=True,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -278,7 +282,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(9, 10),
     akasha.make_harmonic_glissando_pitch_specifier(
-        'A4', 
+        'A4',
         rotation=-12,
         ),
     )
@@ -287,7 +291,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(12),
     akasha.make_harmonic_glissando_pitch_specifier(
-        'A4', 
+        'A4',
         rotation=-18,
         ),
     )
@@ -296,7 +300,7 @@ segment_maker.append_commands(
     vn_1,
     baca.select_stages(14),
     akasha.make_harmonic_glissando_pitch_specifier(
-        'A4', 
+        'A4',
         rotation=-24,
         ),
     )
@@ -320,7 +324,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(5),
     akasha.make_harmonic_glissando_pitch_specifier(
-        'A4', 
+        'A4',
         rotation=-6,
         ),
     )
@@ -329,7 +333,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(7),
     akasha.make_harmonic_glissando_pitch_specifier(
-        'A4', 
+        'A4',
         rotation=-12,
         ),
     )
@@ -338,7 +342,7 @@ segment_maker.append_commands(
     vn_2,
     baca.select_stages(9, 10),
     akasha.make_harmonic_glissando_pitch_specifier(
-        'A4', 
+        'A4',
         rotation=-18,
         ),
     )
@@ -388,7 +392,7 @@ segment_maker.append_commands(
     va,
     baca.select_stages(14),
     akasha.make_harmonic_glissando_pitch_specifier(
-        'Ab3', 
+        'Ab3',
         rotation=-6,
         ),
     )
@@ -437,7 +441,7 @@ segment_maker.append_commands(
     vc,
     baca.select_stages(12),
     akasha.make_harmonic_glissando_pitch_specifier(
-        'G2', 
+        'G2',
         rotation=-6,
         ),
     )

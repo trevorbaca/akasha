@@ -19,16 +19,23 @@ stage_specifier = baca.StageSpecifier([
     1, abjad.Fermata(),
     1, abjad.Fermata(),
     1, abjad.Fermata(),
-    1, abjad.Fermata(), # 1-8
-    4, # 9
-    1, abjad.Fermata(), # 10-11
-    1, # 12
-    1, # 13
-    1, abjad.Fermata(), 
+    # 1-8
     1, abjad.Fermata(),
-    1, abjad.Fermata(), # 14-19
-    1, abjad.Fermata(), # 20-21
-    1, 1, abjad.Fermata('longfermata'), # 22-24
+    # 9
+    4,
+    # 10-11
+    1, abjad.Fermata(),
+    # 12-13
+    1,
+    1,
+    1, abjad.Fermata(),
+    1, abjad.Fermata(),
+    # 14-19
+    1, abjad.Fermata(),
+    # 20-21
+    1, abjad.Fermata(),
+    # 22-24
+    1, 1, abjad.Fermata('longfermata'),
     ])
 
 tempo_specifier = baca.TempoSpecifier([
