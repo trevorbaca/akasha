@@ -7,8 +7,7 @@ def make_accelerando_rhythm_specifier(fuse_counts=(1, 2)):
         division_expression=baca.sequence()
             .partition_by_counts(fuse_counts, cyclic=True, overhang=True)
             .map(baca.sequence().sum())
-            .flatten()
-            ,
+            .flatten(),
         rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
             beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
                 beam_rests=True,

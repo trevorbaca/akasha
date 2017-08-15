@@ -4,7 +4,7 @@ import baca
 
 
 def make_sparse_getato_rhythm_specifier(
-    degree=1, 
+    degree=1,
     extra_counts_per_division=[1],
     rotation=None,
     ):

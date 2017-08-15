@@ -46,7 +46,7 @@ class TimeSignatureMaker(object):
             time_signatures = akasha.materials.time_signatures_b
         else:
             message = 'unknown time signature series: {!r}.'
-            message = message.format(series)
+            message = message.format(self.series)
             raise Exception(message)
         time_signatures = abjad.sequence(time_signatures)
         time_signatures = time_signatures.rotate(self.rotation)

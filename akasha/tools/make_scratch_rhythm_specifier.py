@@ -3,8 +3,8 @@ import baca
 
 
 def make_scratch_rhythm_specifier(
-    denominators, 
-    logical_tie_masks, 
+    denominators,
+    logical_tie_masks,
     extra_counts_per_division,
     ):
     return baca.RhythmSpecifier(

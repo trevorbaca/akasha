@@ -19,8 +19,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
             >>> template = akasha.ScoreTemplate()
             >>> lilypond_file = template.__illustrate__()
-            >>> path = '/Users/trevorbaca/Scores/akasha/akasha'
-            >>> path += '/stylesheets/context-definitions.ily'
+            >>> path = pathlib.Path(akasha.__path__[0], 'stylesheets')
+            >>> path = path.joinpath('context-definitions.ily')
             >>> lilypond_file = abjad.new(
             ...     lilypond_file,
             ...     global_staff_size=15,
@@ -169,18 +169,14 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # VIOLIN 1
         violin_one_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='ViolinOneMusicVoice',
             name='Violin One Music Voice',
             )
         violin_one_music_staff = abjad.Staff(
-            [violin_one_music_voice], 
+            [violin_one_music_voice],
             context_name='ViolinOneMusicStaff',
             name='Violin One Music Staff',
-            )
-        violin_one = abjad.instrumenttools.Violin(
-            name='violin 1',
-            short_name='vn. 1',
             )
         abjad.annotate(
             violin_one_music_staff,
@@ -196,18 +192,14 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # VIOLIN 2
         violin_two_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='ViolinTwoMusicVoice',
             name='Violin Two Music Voice',
             )
         violin_two_music_staff = abjad.Staff(
-            [violin_two_music_voice], 
+            [violin_two_music_voice],
             context_name='ViolinTwoMusicStaff',
             name='Violin Two Music Staff',
-            )
-        violin_two = abjad.instrumenttools.Violin(
-            name='violin 2',
-            short_name='vn. 2',
             )
         abjad.annotate(
             violin_two_music_staff,
@@ -223,12 +215,12 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # VIOLA
         viola_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='ViolaMusicVoice',
             name='Viola Music Voice',
             )
         viola_music_staff = abjad.Staff(
-            [viola_music_voice], 
+            [viola_music_voice],
             context_name='ViolaMusicStaff',
             name='Viola Music Staff',
             )
@@ -246,12 +238,12 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # CELLO
         cello_music_voice = abjad.Voice(
-            [], 
+            [],
             context_name='CelloMusicVoice',
             name='Cello Music Voice',
             )
         cello_music_staff = abjad.Staff(
-            [cello_music_voice], 
+            [cello_music_voice],
             context_name='CelloMusicStaff',
             name='Cello Music Staff',
             )
@@ -267,13 +259,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         self._attach_tag('cello', cello_music_staff)
 
-        string_quartet_staff_group = abjad.StaffGroup(
-            [
-                violin_one_music_staff, 
-                violin_two_music_staff, 
-                viola_music_staff, 
-                cello_music_staff,
-                ], 
+        string_quartet_staff_group = abjad.StaffGroup([
+            violin_one_music_staff,
+            violin_two_music_staff,
+            viola_music_staff,
+            cello_music_staff,
+            ],
             context_name='StringQuartetStaffGroup',
             name='String Quartet Staff Group',
             )

@@ -4,8 +4,8 @@ import baca
 
 
 def make_getato_pitch_specifier(
-    start_pitch, 
-    repetition_intervals=[0], 
+    start_pitch,
+    repetition_intervals=[0],
     direction=Up,
     ):
     start_pitch = abjad.NumberedPitch(start_pitch)
