@@ -4,7 +4,7 @@ import baca
 
 
 def make_harmonic_glissando_pitch_specifier(
-    start_pitch, 
+    start_pitch,
     direction=Up,
     rotation=None,
     ):

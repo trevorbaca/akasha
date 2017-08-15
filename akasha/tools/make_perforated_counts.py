@@ -16,8 +16,8 @@ def make_perforated_counts(degree=0, rotation=None):
         ::
 
             >>> akasha.make_perforated_counts(degree=0)
-            Sequence([-4, 1, 1, 1, 1, 1, 1, 1, 1, -4, 1, 1, 1, 1, -8, 
-                1, 1, 1, 1, 1, 1, 1, 1, -8, 1, 1, 1, 1, -4, 1, 1, 1, 
+            Sequence([-4, 1, 1, 1, 1, 1, 1, 1, 1, -4, 1, 1, 1, 1, -8,
+                1, 1, 1, 1, 1, 1, 1, 1, -8, 1, 1, 1, 1, -4, 1, 1, 1,
                 1, 1, 1, 1, 1])
 
         ::
