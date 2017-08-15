@@ -10,6 +10,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         >>> import akasha
         >>> import baca
+        >>> import pathlib
 
     ..  container:: example
 
@@ -181,7 +182,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             violin_one_music_staff,
             'default_instrument',
-            akasha.materials.instruments['violin 1'],
+            akasha.instruments['violin 1'],
             )
         abjad.annotate(
             violin_one_music_staff,
@@ -204,7 +205,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             violin_two_music_staff,
             'default_instrument',
-            akasha.materials.instruments['violin 2'],
+            akasha.instruments['violin 2'],
             )
         abjad.annotate(
             violin_two_music_staff,
@@ -227,7 +228,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             viola_music_staff,
             'default_instrument',
-            akasha.materials.instruments['viola'],
+            akasha.instruments['viola'],
             )
         abjad.annotate(
             viola_music_staff,
@@ -250,7 +251,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             cello_music_staff,
             'default_instrument',
-            akasha.materials.instruments['cello'],
+            akasha.instruments['cello'],
             )
         abjad.annotate(
             cello_music_staff,
