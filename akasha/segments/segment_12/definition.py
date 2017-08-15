@@ -45,14 +45,14 @@ stage_specifier = baca.StageSpecifier([
     ])
 
 tempo_specifier = baca.TempoSpecifier([
-    (1, akasha.materials.tempi[44]),
+    (1, akasha.tempi[44]),
     (17, abjad.Ritardando()),
-    (19, akasha.materials.tempi[38]),
+    (19, akasha.tempi[38]),
     ])
 
 #maker = akasha.TimeSignatureMaker('B', 24, stage_specifier, tempo_specifier)
 maker = baca.TimeSignatureMaker(
-    akasha.materials.time_signatures_b,
+    akasha.time_signatures_b,
     rotation=24,
     stage_specifier=stage_specifier,
     tempo_specifier=tempo_specifier,
@@ -71,11 +71,11 @@ volta_specifier = baca.VoltaSpecifier([
 
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    instruments=akasha.materials.instruments,
+    instruments=akasha.instruments,
     #label_stages=True,
     #label_clock_time=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=akasha.materials.tempi,
+    metronome_marks=akasha.tempi,
     score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,

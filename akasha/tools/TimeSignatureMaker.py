@@ -1,4 +1,5 @@
 import abjad
+import akasha
 import baca
 
 
@@ -39,11 +40,10 @@ class TimeSignatureMaker(object):
 
         Returns mesaures per stage, tempo map and time signatures.
         '''
-        import akasha
         if self.series == 'A':
-            time_signatures = akasha.materials.time_signatures_a
+            time_signatures = akasha.time_signatures_a
         elif self.series == 'B':
-            time_signatures = akasha.materials.time_signatures_b
+            time_signatures = akasha.time_signatures_b
         else:
             message = 'unknown time signature series: {!r}.'
             message = message.format(self.series)
