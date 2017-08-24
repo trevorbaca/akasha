@@ -15,7 +15,7 @@ def make_polyphony_rhythm_specifier(rotation=0):
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 use_messiaen_style_ties=True,
                 ),
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 simplify_redundant_tuplets=True,
                 ),
             ),

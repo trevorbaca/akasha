@@ -217,7 +217,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
         ),
-    tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+    tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
         use_note_duration_bracket=True,
         ),
     )
@@ -349,7 +349,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
         ),
-    tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+    tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
         use_note_duration_bracket=True,
         ),
     )
