@@ -9,7 +9,6 @@ class ScoreTemplate(baca.ScoreTemplate):
     ::
 
         >>> import akasha
-        >>> import baca
         >>> import pathlib
 
     ..  container:: example
@@ -19,13 +18,11 @@ class ScoreTemplate(baca.ScoreTemplate):
         ::
 
             >>> template = akasha.ScoreTemplate()
-            >>> lilypond_file = template.__illustrate__()
-            >>> path = pathlib.Path(akasha.__path__[0], 'stylesheets')
-            >>> path = path.joinpath('context-definitions.ily')
-            >>> lilypond_file = abjad.new(
-            ...     lilypond_file,
+            >>> path = pathlib.Path(akasha.__path__[0])
+            >>> path = path / 'stylesheets' / 'context-definitions.ily'
+            >>> lilypond_file = template.__illustrate__(
             ...     global_staff_size=15,
-            ...     includes=[str(path)],
+            ...     includes=[path],
             ...     )
             >>> show(lilypond_file) # doctest: +SKIP
 
@@ -140,23 +137,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         Returns score.
         '''
-        time_signature_context_multimeasure_rests = abjad.Context(
-            context_name='GlobalRests',
-            name='Global Rests',
-            )
-        time_signature_context_skips = abjad.Context(
-            context_name='GlobalSkips',
-            name='Global Skips',
-            )
-        time_signature_context = abjad.Context(
-            [
-                time_signature_context_multimeasure_rests,
-                time_signature_context_skips,
-            ],
-            context_name='GlobalContext',
-            is_simultaneous=True,
-            name='Global Context',
-            )
+        time_signature_context = self._make_time_signature_context()
         instrument_tags = (
             'violin_one',
             'violin_two',
@@ -164,13 +145,9 @@ class ScoreTemplate(baca.ScoreTemplate):
             'cello',
             )
         tag_string = '.'.join(instrument_tags)
-        tag_string = 'tag {}'.format(tag_string)
-        tag_command = abjad.LilyPondCommand(tag_string, 'before')
-        abjad.attach(tag_command, time_signature_context)
-
+        self._attach_tag(tag_string, time_signature_context)
         # VIOLIN 1
         violin_one_music_voice = abjad.Voice(
-            [],
             context_name='ViolinOneMusicVoice',
             name='Violin One Music Voice',
             )
@@ -184,16 +161,9 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['violin 1'],
             )
-        abjad.annotate(
-            violin_one_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
         self._attach_tag('violin_one', violin_one_music_staff)
-
         # VIOLIN 2
         violin_two_music_voice = abjad.Voice(
-            [],
             context_name='ViolinTwoMusicVoice',
             name='Violin Two Music Voice',
             )
@@ -207,16 +177,9 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['violin 2'],
             )
-        abjad.annotate(
-            violin_two_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
         self._attach_tag('violin_two', violin_two_music_staff)
-
         # VIOLA
         viola_music_voice = abjad.Voice(
-            [],
             context_name='ViolaMusicVoice',
             name='Viola Music Voice',
             )
@@ -230,16 +193,9 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['viola'],
             )
-        abjad.annotate(
-            viola_music_staff,
-            'default_clef',
-            abjad.Clef('alto'),
-            )
         self._attach_tag('viola', viola_music_staff)
-
         # CELLO
         cello_music_voice = abjad.Voice(
-            [],
             context_name='CelloMusicVoice',
             name='Cello Music Voice',
             )
@@ -253,19 +209,15 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['cello'],
             )
-        abjad.annotate(
-            cello_music_staff,
-            'default_clef',
-            abjad.Clef('bass'),
-            )
         self._attach_tag('cello', cello_music_staff)
-
-        string_quartet_staff_group = abjad.StaffGroup([
-            violin_one_music_staff,
-            violin_two_music_staff,
-            viola_music_staff,
-            cello_music_staff,
-            ],
+        # SCORE
+        string_quartet_staff_group = abjad.StaffGroup(
+            [
+                violin_one_music_staff,
+                violin_two_music_staff,
+                viola_music_staff,
+                cello_music_staff,
+                ],
             context_name='StringQuartetStaffGroup',
             name='String Quartet Staff Group',
             )
