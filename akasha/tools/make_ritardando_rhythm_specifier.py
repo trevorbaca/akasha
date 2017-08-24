@@ -26,7 +26,7 @@ def make_ritardando_rhythm_specifier():
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),

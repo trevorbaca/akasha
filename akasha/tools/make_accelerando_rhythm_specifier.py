@@ -26,7 +26,7 @@ def make_accelerando_rhythm_specifier(fuse_counts=(1, 2)):
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),

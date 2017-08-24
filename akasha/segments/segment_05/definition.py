@@ -163,7 +163,7 @@ segment_maker.append_commands(
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0],
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            duration_spelling_specifier=abjad.rhythmmakertools.DurationSpellingSpecifier(
+            duration_specifier=abjad.rhythmmakertools.DurationSpecifier(
                 rewrite_meter=True,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -190,7 +190,7 @@ segment_maker.append_commands(
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0],
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            duration_spelling_specifier=abjad.rhythmmakertools.DurationSpellingSpecifier(
+            duration_specifier=abjad.rhythmmakertools.DurationSpecifier(
                 rewrite_meter=True,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(

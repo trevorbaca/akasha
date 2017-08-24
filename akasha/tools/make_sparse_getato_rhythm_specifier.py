@@ -20,7 +20,7 @@ def make_sparse_getato_rhythm_specifier(
                     ),
                 denominator=32,
                 ),
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 rewrite_rest_filled_tuplets=True,
                 )
             ),
