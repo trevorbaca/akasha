@@ -73,7 +73,7 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set ViolinOneMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 \line
@@ -82,7 +82,7 @@
                                         1
                                     }
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 \line
@@ -101,7 +101,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set ViolinTwoMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 \line
@@ -110,7 +110,7 @@
                                         2
                                     }
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 \line
@@ -132,12 +132,12 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \set Staff.instrumentName = \markup {
+                        \set ViolaMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Viola
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Va.
@@ -171,12 +171,12 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        \set Staff.instrumentName = \markup {
+                        \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Cello
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set CelloMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Vc.

@@ -28,7 +28,7 @@ stage_specifier = baca.StageSpecifier([
     ])
 
 tempo_specifier = baca.TempoSpecifier([
-    (1, akasha.tempi[55]),
+    (1, akasha.metronome_marks[55]),
     ])
 
 maker = akasha.TimeSignatureMaker('B', 6, stage_specifier, tempo_specifier)
@@ -45,7 +45,7 @@ segment_maker = baca.SegmentMaker(
     #label_clock_time=True,
     #label_stages=True,
     measures_per_stage=measures_per_stage,
-    metronome_marks=akasha.tempi,
+    metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     tempo_specifier=tempo_specifier,
