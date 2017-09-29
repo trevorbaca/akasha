@@ -5,7 +5,7 @@ import baca
 instruments = abjad.TypedOrderedDict([
     (
         'violin 1',
-        abjad.instrumenttools.Violin(
+        abjad.Violin(
             name='violin 1',
             name_markup=baca.markup.instrument(
                 'Violin 1',
@@ -20,7 +20,7 @@ instruments = abjad.TypedOrderedDict([
         ),
     (
         'violin 2',
-        abjad.instrumenttools.Violin(
+        abjad.Violin(
             name='violin 2',
             name_markup=baca.markup.instrument(
                 'Violin 2',
@@ -35,14 +35,14 @@ instruments = abjad.TypedOrderedDict([
         ),
     (
         'viola',
-        abjad.instrumenttools.Viola(
+        abjad.Viola(
             name_markup=baca.markup.instrument('Viola'),
             short_name_markup=baca.markup.short_instrument('Va.'),
             ),
         ),
     (
         'cello',
-        abjad.instrumenttools.Cello(
+        abjad.Cello(
             name_markup=baca.markup.instrument('Cello'),
             short_name_markup=baca.markup.short_instrument('Vc.'),
             ),
