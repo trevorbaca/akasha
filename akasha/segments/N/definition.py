@@ -2,13 +2,6 @@ import abjad
 import akasha
 import baca
 
-### CONTEXT NAMES ###
-
-vn_1 = 'Violin One Music Voice'
-vn_2 = 'Violin Two Music Voice'
-va = 'Viola Music Voice'
-vc = 'Cello Music Voice'
-tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
 ##################################### [N] #####################################
@@ -58,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 ###############################################################################
 
 segment_maker.append_commands(
-    [vn_1, va, vc],
+    ['Violin One Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
     baca.select_stages(1, 2),
     abjad.new(
         baca.messiaen_notes(),
@@ -67,7 +60,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vn_2,
+    'Violin Two Music Voice',
     baca.select_stages(2, 3),
     abjad.new(
         akasha.make_sparse_getato_rhythm_specifier(),
@@ -76,7 +69,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(3),
     baca.RhythmSpecifier(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
@@ -90,13 +83,13 @@ segment_maker.append_commands(
 ###############################################################################
 
 segment_maker.append_commands(
-    vn_1,
+    'Violin One Music Voice',
     baca.select_stages(1, 2),
     baca.pitches('B4'),
     )
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(1, 2),
     # TODO: remove in favor of segment metadata
     baca.clef('alto'),
@@ -104,7 +97,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(1, 2),
     # TODO: remove in favor of segment metadata
     baca.clef('bass'),
@@ -112,7 +105,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    [vn_1, va, vc],
+    ['Violin One Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
     baca.select_stages(1, 2),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
@@ -123,7 +116,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vn_2,
+    'Violin Two Music Voice',
     baca.select_stages(2, 3),
     akasha.make_getato_pitch_specifier(29, direction=Down),
     baca.staccati(),
