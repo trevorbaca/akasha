@@ -2,13 +2,6 @@ import abjad
 import akasha
 import baca
 
-### CONTEXT NAMES ###
-
-vn_1 = 'Violin One Music Voice'
-vn_2 = 'Violin Two Music Voice'
-va = 'Viola Music Voice'
-vc = 'Cello Music Voice'
-tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
 ##################################### [J] #####################################
@@ -58,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 ### stage 1 ###
 
 segment_maker.append_commands(
-    vn_2,
+    'Violin Two Music Voice',
     baca.select_stages(1),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -68,7 +61,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(1),
     # TODO: remove in favor of segment metadata
     baca.clef('bass'),
@@ -82,7 +75,7 @@ segment_maker.append_commands(
 ### stage 2 ###
 
 segment_maker.append_commands(
-    vn_1,
+    'Violin One Music Voice',
     baca.select_stages(2),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -92,7 +85,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vn_2,
+    'Violin Two Music Voice',
     baca.select_stages(2),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -104,7 +97,7 @@ segment_maker.append_commands(
 ### stages 3 ###
 
 segment_maker.append_commands(
-    vn_1,
+    'Violin One Music Voice',
     baca.select_stages(3),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -114,7 +107,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vn_2,
+    'Violin Two Music Voice',
     baca.select_stages(3),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -124,7 +117,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(3),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -138,7 +131,7 @@ segment_maker.append_commands(
 ###############################################################################
 
 segment_maker.append_commands(
-    vn_1,
+    'Violin One Music Voice',
     baca.select_stages(1, 3),
     akasha.make_getato_pitch_specifier(5, [2]),
     baca.markup.scratch_moltiss(),
@@ -147,7 +140,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vn_2,
+    'Violin Two Music Voice',
     baca.select_stages(1, 3),
     akasha.make_getato_pitch_specifier(-3, [2]),
     baca.markup.scratch_moltiss(),
@@ -156,7 +149,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(1, 3),
     akasha.make_getato_pitch_specifier(-13, [2]),
     baca.markup.scratch_moltiss(),

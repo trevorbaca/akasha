@@ -2,13 +2,6 @@ import abjad
 import akasha
 import baca
 
-### CONTEXT NAMES ###
-
-vn_1 = 'Violin One Music Voice'
-vn_2 = 'Violin Two Music Voice'
-va = 'Viola Music Voice'
-vc = 'Cello Music Voice'
-tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
 ##################################### [M] #####################################
@@ -75,19 +68,19 @@ segment_maker.validate_measures_per_stage()
 ### stage 1 ###
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(1, 2),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(2, 10),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(4, 8),
     baca.messiaen_tied_notes(),
     )
@@ -99,7 +92,7 @@ segment_maker.append_commands(
 ### stage 1 ###
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(1, 8),
     # TODO: remove in favor of segment metadata
     baca.clef('bass'),
@@ -107,7 +100,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(1, 2),
     baca.transition_spanner(
         baca.markup.trans(),
@@ -120,20 +113,20 @@ segment_maker.append_commands(
 ### stage 2 ###
 
 segment_maker.append_commands(
-    vn_1,
+    'Violin One Music Voice',
     baca.select_stages(2, 10),
     baca.repeat_ties_up(),
     baca.pitches('Bb4'),
     )
 
 segment_maker.append_commands(
-    vn_2,
+    'Violin Two Music Voice',
     baca.select_stages(2, 10),
     baca.pitches('Bb3'),
     )
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(2, 10),
     # TODO: remove in favor of segment metadata
     baca.clef('alto'),
@@ -141,7 +134,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(2),
     baca.markup.tasto_XFB(),
     baca.dynamic('pp'),
@@ -150,14 +143,14 @@ segment_maker.append_commands(
 ### stage 4 ###
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(4, 6),
     baca.markup.vib_poco(),
     baca.dynamic('pp'),
     )
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(4),
     baca.transition_spanner(
         baca.markup.trans(),
@@ -169,7 +162,7 @@ segment_maker.append_commands(
 ### stage 5 ###
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(5),
     baca.transition_spanner(
         baca.markup.trans(),
@@ -181,7 +174,7 @@ segment_maker.append_commands(
 ### stage 6 ###
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(6),
     baca.transition_spanner(
         baca.markup.trans(),
@@ -193,7 +186,7 @@ segment_maker.append_commands(
 ### stage 7 ###
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(7),
     baca.transition_spanner(
         baca.markup.trans(),
@@ -203,7 +196,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(7, 8),
     baca.hairpins(
         ['pp > niente'],
@@ -215,7 +208,7 @@ segment_maker.append_commands(
 ### stage 8 ###
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(8),
     baca.transition_spanner(
         baca.markup.trans(),
@@ -227,7 +220,7 @@ segment_maker.append_commands(
 ### stage 9 ###
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(9),
     baca.transition_spanner(
         baca.markup.trans(),
@@ -239,7 +232,7 @@ segment_maker.append_commands(
 ### stage 10 ###
 
 segment_maker.append_commands(
-    [vn_1, vn_2, va],
+    ['Violin One Music Voice', 'Violin Two Music Voice', 'Viola Music Voice'],
     baca.select_stages(10),
     baca.transition_spanner(
         baca.markup.trans(),

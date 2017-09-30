@@ -2,16 +2,9 @@ import abjad
 import akasha
 import baca
 
-### CONTEXT NAMES ###
-
-vn_1 = 'Violin One Music Voice'
-vn_2 = 'Violin Two Music Voice'
-va = 'Viola Music Voice'
-vc = 'Cello Music Voice'
-tutti = [vn_1, vn_2, va, vc]
 
 ###############################################################################
-################################ [introduction] ###############################
+##################################### [_] #####################################
 ###############################################################################
 
 stage_specifier = baca.StageSpecifier([
@@ -57,7 +50,7 @@ segment_maker.validate_measures_per_stage()
 ###############################################################################
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(1),
     baca.messiaen_tied_notes(),
     )
@@ -67,7 +60,7 @@ segment_maker.append_commands(
 ###############################################################################
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(1, 2),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
