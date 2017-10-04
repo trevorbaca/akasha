@@ -32,8 +32,11 @@ segment_maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     #label_clock_time=True,
     #label_stages=True,
-    final_markup=akasha.colophon_markup,
-    final_markup_extra_offset=(-17, -12),
+    final_markup=(
+        ['Cambridge, MA', 'Dallas, TX', 'Madison, WI.'],
+        ['October', 'December 2015.'],
+        ),
+    final_markup_extra_offset=(-41, -4),
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
