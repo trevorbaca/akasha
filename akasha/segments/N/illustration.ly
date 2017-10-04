@@ -489,15 +489,45 @@
                         R1 * 1
                         R1 * 9/8
                         R1 * 9/8
-                        \once \override TextScript.extra-offset = #'(-17 . -12)
+                        \once \override TextScript.extra-offset = #'(-41 . -4)
                         s1 * 1/4
-                            - \markup {
-                                \italic
-                                    \right-column
-                                        {
-                                            "Cambridge, MA; Dallas, TX; Madison, WI"
-                                            "Oct. - Dec. 2015"
-                                        }
+                            _ \markup {
+                                \whiteout
+                                    \upright
+                                        \italic
+                                            \right-column
+                                                {
+                                                    \line
+                                                        {
+                                                            Cambridge,
+                                                            MA
+                                                            \hspace
+                                                                #0.75
+                                                            –
+                                                            \hspace
+                                                                #0.75
+                                                            Dallas,
+                                                            TX
+                                                            \hspace
+                                                                #0.75
+                                                            –
+                                                            \hspace
+                                                                #0.75
+                                                            Madison,
+                                                            WI.
+                                                        }
+                                                    \line
+                                                        {
+                                                            October
+                                                            \hspace
+                                                                #0.75
+                                                            –
+                                                            \hspace
+                                                                #0.75
+                                                            December
+                                                            2015.
+                                                        }
+                                                }
                                 }
                         \bar "|."
                     }
