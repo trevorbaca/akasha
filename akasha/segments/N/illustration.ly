@@ -494,7 +494,8 @@
                             _ \markup {
                                 \whiteout
                                     \upright
-                                        \italic
+                                        \with-color
+                                            #black
                                             \right-column
                                                 {
                                                     \line

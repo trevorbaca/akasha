@@ -34,8 +34,12 @@ tempo_specifier = baca.TempoSpecifier([
     (15, akasha.metronome_marks[44]),
     ])
 
-maker = akasha.TimeSignatureMaker(
-    'B', 12, stage_specifier, tempo_specifier)
+maker = baca.TimeSignatureMaker(
+    akasha.time_signatures_b,
+    rotation=12,
+    stage_specifier=stage_specifier,
+    tempo_specifier=tempo_specifier,
+    )
 measures_per_stage, tempo_specifier, time_signatures = maker()
 
 spacing_specifier = baca.HorizontalSpacingCommand(
