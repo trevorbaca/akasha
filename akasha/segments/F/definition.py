@@ -7,7 +7,7 @@ import baca
 ##################################### [F] #####################################
 ###############################################################################
 
-stage_specifier = baca.StageSpecifier([
+stage_measure_map = baca.StageMeasureMap([
     2,
     # 2-3
     2, abjad.Fermata('longfermata'),
@@ -31,7 +31,7 @@ stage_specifier = baca.StageSpecifier([
     1, abjad.Fermata(),
     ])
 
-tempo_specifier = baca.TempoSpecifier([
+metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, akasha.metronome_marks[44]),
     (2, akasha.metronome_marks[126]),
     (4, akasha.metronome_marks[55]),
@@ -46,18 +46,18 @@ tempo_specifier = baca.TempoSpecifier([
 maker = baca.TimeSignatureMaker(
     akasha.time_signatures_a,
     rotation=9,
-    stage_specifier=stage_specifier,
-    tempo_specifier=tempo_specifier,
+    stage_measure_map=stage_measure_map,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     )
-measures_per_stage, tempo_specifier, time_signatures = maker()
+measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 spacing_specifier = baca.HorizontalSpacingCommand(
     fermata_measure_width=abjad.Duration(1, 4),
     minimum_width=abjad.Duration(1, 12),
     )
 
-volta_specifier = baca.VoltaSpecifier([
-    baca.MeasureExpression(-4, -2),
+volta_measure_map = baca.VoltaMeasureMap([
+    baca.MeasureSpecifier(-4, -2),
     ])
 
 segment_maker = baca.SegmentMaker(
@@ -69,9 +69,9 @@ segment_maker = baca.SegmentMaker(
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
-    tempo_specifier=tempo_specifier,
+    metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
-    volta_specifier=volta_specifier,
+    volta_measure_map=volta_measure_map,
     )
 
 segment_maker.validate_measure_count(48)
