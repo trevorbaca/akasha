@@ -7,7 +7,7 @@ def make_scratch_rhythm_specifier(
     logical_tie_masks,
     extra_counts_per_division,
     ):
-    return baca.RhythmSpecifier(
+    return baca.RhythmCommand(
         rhythm_maker=abjad.rhythmmakertools.EvenDivisionRhythmMaker(
             denominators=denominators,
             logical_tie_masks=logical_tie_masks,

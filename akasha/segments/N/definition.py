@@ -78,7 +78,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Cello Music Voice',
     baca.select_stages(3),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=abjad.silence_all(use_multimeasure_rests=True),
             ),

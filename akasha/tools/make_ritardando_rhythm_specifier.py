@@ -3,7 +3,7 @@ import baca
 
 
 def make_ritardando_rhythm_specifier():
-    return baca.RhythmSpecifier(
+    return baca.RhythmCommand(
         division_expression=baca.sequence()
             .partition_by_counts([1, 2], cyclic=True, overhang=True)
             .map(baca.sequence().sum())
