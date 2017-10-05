@@ -70,7 +70,7 @@ segment_maker.validate_measures_per_stage()
 
 ### stages 1-8 ###
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     [
         ('Viola Music Voice', baca.select_stages(1)),
         ('Viola Music Voice', baca.select_stages(3)),
@@ -80,7 +80,7 @@ segment_maker.append_specifiers(
     akasha.make_glissando_rhythm_specifier(),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     [
         ('Cello Music Voice', baca.select_stages(1)),
         ('Cello Music Voice', baca.select_stages(3)),
@@ -92,7 +92,7 @@ segment_maker.append_specifiers(
 
 ### stages 9-11 ###
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     [
         ('Violin One Music Voice', baca.select_stages(9, 10)),
         ('Violin Two Music Voice', baca.select_stages(9, 10)),
@@ -126,7 +126,7 @@ segment_maker.append_commands(
 
 ### stages 13-21 ###
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     [
         ('Violin One Music Voice', baca.select_stages(13, 14)),
         ('Violin One Music Voice', baca.select_stages(16)),
@@ -192,7 +192,7 @@ segment_maker.append_commands(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     [
         ('Viola Music Voice', baca.select_stages(1)),
         ('Viola Music Voice', baca.select_stages(3)),
@@ -203,7 +203,7 @@ segment_maker.append_specifiers(
     baca.fixed_pitches('D#3 C+3'),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     [
         ('Cello Music Voice', baca.select_stages(1)),
         ('Cello Music Voice', baca.select_stages(3)),
@@ -213,7 +213,7 @@ segment_maker.append_specifiers(
     baca.pitches('C#2'),
     )
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     [
         ('Violin One Music Voice', baca.select_stages(9, 10)),
         ('Violin Two Music Voice', baca.select_stages(9, 10)),

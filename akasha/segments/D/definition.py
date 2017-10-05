@@ -462,7 +462,7 @@ segment_maker.append_commands(
 
 ### alternate bow strokes ###
 
-segment_maker.append_specifiers(
+segment_maker.thread_commands(
     [
         ('Violin Two Music Voice', baca.select_stages(3)),
         (['Violin One Music Voice',
