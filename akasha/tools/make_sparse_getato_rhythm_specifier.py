@@ -8,7 +8,7 @@ def make_sparse_getato_rhythm_specifier(
     extra_counts_per_division=[1],
     rotation=None,
     ):
-    return baca.RhythmSpecifier(
+    return baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(

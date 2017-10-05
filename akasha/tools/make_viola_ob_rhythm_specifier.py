@@ -8,7 +8,7 @@ def make_viola_ob_rhythm_specifier(rotation=None):
     durations = abjad.sequence(durations)
     durations = durations.rotate(n=rotation)
     division_expression = baca.split_by_durations(durations)
-    return baca.RhythmSpecifier(
+    return baca.RhythmCommand(
         division_expression=division_expression,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=abjad.silence([0, -1]),

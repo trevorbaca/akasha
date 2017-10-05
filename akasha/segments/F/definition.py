@@ -222,7 +222,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
 segment_maker.append_commands(
     'Violin One Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(0),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -232,7 +232,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin One Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(1).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -242,7 +242,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin One Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(2),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -252,7 +252,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin One Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(3).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -262,7 +262,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin One Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(4),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -272,7 +272,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin One Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         ),
@@ -354,7 +354,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
 segment_maker.append_commands(
     'Violin Two Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(0),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -364,7 +364,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Two Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(1).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -374,7 +374,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Two Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(2),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -384,7 +384,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Two Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(3).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -394,7 +394,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Two Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(4),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -404,7 +404,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Two Music Voice',
     baca.select_stages(8),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=False,
@@ -446,7 +446,7 @@ cello_counts = [sum(_) for _ in cello_counts]
 segment_maker.append_commands(
     'Viola Music Voice',
     baca.select_stages(8, 9),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
@@ -466,7 +466,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Cello Music Voice',
     baca.select_stages(8, 9),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
