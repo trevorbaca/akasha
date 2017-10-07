@@ -39,9 +39,7 @@ def make_perforated_counts(degree=0, rotation=None):
             period=36,
             )
     else:
-        message = 'degree must be between 0 and 1: {!r}.'
-        message = message.format(degree)
-        raise ValueError(message)
+        raise ValueError(f'degree must be between 0 and 1: {degree!r}.')
     vector = pattern.get_boolean_vector()
     parts = baca.sequence(vector).group_by()
     for part in parts:
