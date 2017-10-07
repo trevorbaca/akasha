@@ -19,11 +19,11 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks[126]),
+    (1, akasha.metronome_marks['126']),
     (1, abjad.Ritardando()),
-    (2, akasha.metronome_marks[44]),
+    (2, akasha.metronome_marks['44']),
     (6, abjad.Accelerando()),
-    (7, akasha.metronome_marks[89]),
+    (7, akasha.metronome_marks['89']),
     ])
 
 maker = baca.TimeSignatureMaker(

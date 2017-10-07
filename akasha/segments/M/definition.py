@@ -23,11 +23,11 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks[55]),
+    (1, akasha.metronome_marks['55']),
     (2, abjad.Accelerando()),
-    (3, akasha.metronome_marks[89]),
+    (3, akasha.metronome_marks['89']),
     (7, abjad.Ritardando()),
-    (10, akasha.metronome_marks[44]),
+    (10, akasha.metronome_marks['44']),
     (11, abjad.Fermata()),
     ])
 
