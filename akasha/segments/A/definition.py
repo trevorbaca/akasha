@@ -386,7 +386,7 @@ segment_maker.append_commands(
     baca.fixed_pitches('A3 A#3 B3'),
     )
 
-segment_maker.thread_commands(
+segment_maker.scope(
     baca.compound([
         baca.scope('Violin Two Music Voice', 3),
         baca.scope('Viola Music Voice', 3),
@@ -397,7 +397,7 @@ segment_maker.thread_commands(
     baca.staccati(),
     )
 
-segment_maker.thread_commands(
+segment_maker.scope(
     [
         baca.scope('Violin Two Music Voice', 3),
         baca.scope('Viola Music Voice', 3),
