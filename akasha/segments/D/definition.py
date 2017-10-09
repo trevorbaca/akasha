@@ -462,7 +462,7 @@ segment_maker.append_commands(
 
 ### alternate bow strokes ###
 
-segment_maker.thread_commands(
+segment_maker.scope(
     baca.sequence([
         baca.scope('Violin Two Music Voice', 3),
         baca.scopes([

@@ -70,7 +70,7 @@ segment_maker.validate_measures_per_stage()
 
 ### stages 1-8 ###
 
-segment_maker.thread_commands(
+segment_maker.scope(
     [
         baca.scope('Viola Music Voice', 1),
         baca.scope('Viola Music Voice', 3),
@@ -80,7 +80,7 @@ segment_maker.thread_commands(
     akasha.make_glissando_rhythm_specifier(),
     )
 
-segment_maker.thread_commands(
+segment_maker.scope(
     [
         baca.scope('Cello Music Voice', 1),
         baca.scope('Cello Music Voice', 3),
@@ -92,7 +92,7 @@ segment_maker.thread_commands(
 
 ### stages 9-11 ###
 
-segment_maker.thread_commands(
+segment_maker.scope(
     [
         baca.scope('Violin One Music Voice', 9, 10),
         baca.scope('Violin Two Music Voice', 9, 10),
@@ -126,7 +126,7 @@ segment_maker.append_commands(
 
 ### stages 13-21 ###
 
-segment_maker.thread_commands(
+segment_maker.scope(
     [
         baca.scope('Violin One Music Voice', 13, 14),
         baca.scope('Violin One Music Voice', 16),
@@ -192,7 +192,7 @@ segment_maker.append_commands(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.thread_commands(
+segment_maker.scope(
     [
         baca.scope('Viola Music Voice', 1),
         baca.scope('Viola Music Voice', 3),
@@ -203,7 +203,7 @@ segment_maker.thread_commands(
     baca.fixed_pitches('D#3 C+3'),
     )
 
-segment_maker.thread_commands(
+segment_maker.scope(
     [
         baca.scope('Cello Music Voice', 1),
         baca.scope('Cello Music Voice', 3),
@@ -213,7 +213,7 @@ segment_maker.thread_commands(
     baca.pitches('C#2'),
     )
 
-segment_maker.thread_commands(
+segment_maker.scope(
     [
         baca.scope('Violin One Music Voice', 9, 10),
         baca.scope('Violin Two Music Voice', 9, 10),
