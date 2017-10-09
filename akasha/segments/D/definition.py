@@ -463,25 +463,32 @@ segment_maker.append_commands(
 ### alternate bow strokes ###
 
 segment_maker.thread_commands(
-    [
-        ('Violin Two Music Voice', baca.select_stages(3)),
-        (['Violin One Music Voice',
-            'Violin Two Music Voice'],
-            baca.select_stages(5)),
-        (['Violin One Music Voice',
+    baca.sequence([
+        baca.scope('Violin Two Music Voice', 3),
+        baca.scopes([
+            'Violin One Music Voice', 'Violin Two Music Voice'],
+            [5],
+            ),
+        baca.scopes([
+            'Violin One Music Voice',
             'Violin Two Music Voice',
             'Cello Music Voice'],
-            baca.select_stages(7)),
-        (['Violin One Music Voice',
-            'Violin Two Music Voice'],
-            baca.select_stages(9, 10)),
-        (['Violin One Music Voice',
+            [7],
+            ),
+        baca.scopes(
+            ['Violin One Music Voice', 'Violin Two Music Voice'],
+            [(9, 10)],
+            ),
+        baca.scopes([
+            'Violin One Music Voice',
             'Viola Music Voice',
             'Cello Music Voice'],
-            baca.select_stages(12)),
-        (['Violin One Music Voice',
-            'Viola Music Voice'],
-            baca.select_stages(14)),
-        ],
+            [12],
+            ),
+        baca.scopes(
+            ['Violin One Music Voice', 'Viola Music Voice'],
+            [14],
+            ),
+        ]).flatten(),
     baca.alternate_bow_strokes(),
     )

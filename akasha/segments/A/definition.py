@@ -399,13 +399,12 @@ segment_maker.thread_commands(
 
 segment_maker.thread_commands(
     [
-        ('Violin Two Music Voice', baca.select_stages(3)),
-        ('Viola Music Voice', baca.select_stages(3)),
-        ('Violin One Music Voice', baca.select_stages(7)),
-        ('Cello Music Voice', baca.select_stages(15)),
+        baca.scope('Violin Two Music Voice', 3),
+        baca.scope('Viola Music Voice', 3),
+        baca.scope('Violin One Music Voice', 7),
+        baca.scope('Cello Music Voice', 15),
         ],
     baca.markup.leggierissimo_off_string_bowing_on_staccati(),
-    #Dynamic('p'),
     baca.dynamic('p'),
     )
 
