@@ -387,11 +387,11 @@ segment_maker.append_commands(
     )
 
 segment_maker.thread_commands(
-    baca.CompoundScope([
-        ('Violin Two Music Voice', 3),
-        ('Viola Music Voice', 3),
-        ('Violin One Music Voice', 7),
-        ('Cello Music Voice', 15),
+    baca.compound([
+        baca.scope('Violin Two Music Voice', 3),
+        baca.scope('Viola Music Voice', 3),
+        baca.scope('Violin One Music Voice', 7),
+        baca.scope('Cello Music Voice', 15),
         ]),
     akasha.make_getato_pitch_specifier(-2, [0]),
     baca.staccati(),
