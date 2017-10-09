@@ -100,23 +100,20 @@ segment_maker.scope(
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(9),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 9),
     baca.messiaen_notes(),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(9),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 9),
     baca.messiaen_tied_notes(),
     )
 
 ### stage 12 ###
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(12),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 12),
     akasha.make_sparse_getato_rhythm_specifier(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
@@ -141,50 +138,43 @@ segment_maker.scope(
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(13),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 13),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(20),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 20),
     akasha.make_polyphony_rhythm_specifier(rotation=-2),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(20),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 20),
     akasha.make_polyphony_rhythm_specifier(rotation=-4),
     )
 
 ### stages 22-24 ###
 
-segment_maker.append_commands(
-    'Violin Two Music Voice',
-    baca.select_stages(22, 23),
+segment_maker.scope(
+    baca.scope('Violin Two Music Voice', 22, 23),
     abjad.new(
         baca.messiaen_tied_notes(),
         rhythm_maker__division_masks=abjad.silence_first(),
         ),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(22),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 22),
     baca.messiaen_notes(),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(23),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 23),
     akasha.make_glissando_rhythm_specifier(),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(22, 23),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 22, 23),
     baca.messiaen_tied_notes(),
     )
 
@@ -223,107 +213,90 @@ segment_maker.scope(
     baca.pitches('B4'),
     )
 
-segment_maker.append_commands(
-    'Violin One Music Voice',
-    baca.select_stages(9, 22),
+segment_maker.scope(
+    baca.scope('Violin One Music Voice', 9, 22),
     baca.repeat_ties_up(),
     baca.one_line_staff(),
     baca.pitches('B4'),
     )
 
-segment_maker.append_commands(
-    'Violin Two Music Voice',
-    baca.select_stages(9, 21),
+segment_maker.scope(
+    baca.scope('Violin Two Music Voice', 9, 21),
     baca.repeat_ties_up(),
     baca.one_line_staff(),
     baca.pitches('B4'),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 1),
     baca.clef('alto'),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(9),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 9),
     baca.fixed_pitches('Eb3 D3 C#3 B#2'),
     baca.glissandi(),
-    #Hairpin('mp > pp'),
     baca.hairpins(['mp > pp']),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 1),
     baca.clef('bass'),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(9),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 9),
     baca.pitches('C#2'),
-    #Hairpin('mp > pp'),
     baca.hairpins(['mp > pp']),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(12),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 12),
     akasha.make_getato_pitch_specifier('C#3', direction=Down),
     baca.markup.leggieriss(),
     baca.staccati(),
     baca.dynamic('p'),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(13),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 13),
     baca.markup.tasto_plus_scratch_moltiss(),
     baca.dynamic('ff'),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(20),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 20),
     baca.markup.tasto_fractional_scratch(1, 2),
     baca.fixed_pitches('D#4 D#+4 E4'),
     baca.dynamic('mp'),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(20),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 20),
     baca.markup.tasto_fractional_scratch(1, 2),
     baca.pitches('C4'),
     baca.dynamic('mp'),
     )
 
-segment_maker.append_commands(
-    'Violin Two Music Voice',
-    baca.select_stages(22, 23),
+segment_maker.scope(
+    baca.scope('Violin Two Music Voice', 22, 23),
     baca.markup.tasto(),
     baca.pervasive_trills_at_interval(2),
     baca.pitches('G5'),
     baca.dynamic('pp'),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(22, 23),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 22, 23),
     baca.markup.tasto(),
     baca.glissandi(),
     baca.fixed_pitches('E3 D#3 C+3'),
-    #Hairpin('mp > pp'),
     baca.hairpins(['mp > pp']),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(22, 23),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 22, 23),
     baca.markup.tasto(),
     baca.pitches('C#2'),
-    #Hairpin('mp > pp'),
     baca.hairpins(['mp > pp']),
     )

@@ -63,29 +63,25 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker.append_commands(
-    'Violin One Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Violin One Music Voice', 1),
     akasha.make_accelerando_rhythm_specifier(),
     )
 
-segment_maker.append_commands(
-    'Violin Two Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Violin Two Music Voice', 1),
     akasha.make_ritardando_rhythm_specifier(),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(1, 2),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 1, 2),
     # TODO: remove after segment metaata work again
     baca.clef('alto'),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 1),
     # TODO: remove after segment metaata work again
     baca.clef('bass'),
     abjad.new(
@@ -94,15 +90,18 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.append_commands(
-    ['Violin One Music Voice', 'Violin Two Music Voice', 'Cello Music Voice'],
-    baca.select_stages(2),
+segment_maker.scope(
+    baca.scopes(
+        ['Violin One Music Voice',
+        'Violin Two Music Voice',
+        'Cello Music Voice'],
+        [2],
+        ),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_commands(
-    ['Viola Music Voice', 'Cello Music Voice'],
-    baca.select_stages(4),
+segment_maker.scope(
+    baca.scopes(['Viola Music Voice', 'Cello Music Voice'], [4]),
     akasha.make_glissando_rhythm_specifier(),
     )
 
@@ -110,71 +109,66 @@ segment_maker.append_commands(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_commands(
-    ['Violin One Music Voice', 'Violin Two Music Voice', 'Cello Music Voice'],
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scopes(
+        ['Violin One Music Voice',
+        'Violin Two Music Voice',
+        'Cello Music Voice'],
+        [1],
+        ),
     baca.markup.XFB(),
     baca.dynamic('p'),
     )
 
-segment_maker.append_commands(
-    'Violin One Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Violin One Music Voice', 1),
     baca.pitches('D4 E4'),
     )
 
-segment_maker.append_commands(
-    'Violin Two Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Violin Two Music Voice', 1),
     baca.pitches('C#4 D#4'),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 1),
     baca.pitches('C4 D4'),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(1, 2),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 1, 2),
     baca.pitches('C4'),
     baca.one_line_staff(),
     )
 
-segment_maker.append_commands(
-    'Violin One Music Voice',
-    baca.select_stages(2),
+segment_maker.scope(
+    baca.scope('Violin One Music Voice', 2),
     baca.pitches('F#5'),
     baca.dynamic('ppp'),
     )
 
-segment_maker.append_commands(
-    'Violin Two Music Voice',
-    baca.select_stages(2),
+segment_maker.scope(
+    baca.scope('Violin Two Music Voice', 2),
     baca.pitches('Ab4'),
     baca.dynamic('ppp'),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(2),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 2),
     baca.pitches('C#2'),
     baca.dynamic('ppp'),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(4),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 4),
     baca.markup.tasto(),
     baca.fixed_pitches('D#3 C+3'),
     baca.glissandi(),
     baca.hairpins(['mp > pp']),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(4),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 4),
     baca.markup.tasto(),
     baca.fixed_pitches('C#2 Bb1'),
     baca.glissandi(),

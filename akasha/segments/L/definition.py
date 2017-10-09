@@ -53,21 +53,18 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(1),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 1),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(3),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 3),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(5),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 5),
     baca.messiaen_tied_notes(),
     )
 
@@ -75,9 +72,8 @@ segment_maker.append_commands(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.append_commands(
-    'Viola Music Voice',
-    baca.select_stages(1, 3),
+segment_maker.scope(
+    baca.scope('Viola Music Voice', 1, 3),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_each_note_abruptly(),
@@ -86,9 +82,8 @@ segment_maker.append_commands(
     baca.clef('alto'),
     )
 
-segment_maker.append_commands(
-    'Cello Music Voice',
-    baca.select_stages(5),
+segment_maker.scope(
+    baca.scope('Cello Music Voice', 5),
     baca.markup.pos_ord_vib_poco(),
     baca.pitches('Bb1'),
     baca.clef('bass'),
