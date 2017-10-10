@@ -57,7 +57,7 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker.scope(
+segment_maker(
     baca.scopes([
         'Violin One Music Voice',
         'Viola Music Voice',
@@ -70,7 +70,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Two Music Voice', 2, 3),
     abjad.new(
         akasha.make_sparse_getato_rhythm_specifier(),
@@ -78,7 +78,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 3),
     baca.RhythmCommand(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
@@ -91,26 +91,26 @@ segment_maker.scope(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin One Music Voice', 1, 2),
     baca.pitches('B4'),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 1, 2),
     # TODO: remove in favor of segment metadata
     baca.clef('alto'),
     baca.pitches('C4'),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 1, 2),
     # TODO: remove in favor of segment metadata
     baca.clef('bass'),
     baca.pitches('D3'),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scopes([
         'Violin One Music Voice',
         'Viola Music Voice',
@@ -125,7 +125,7 @@ segment_maker.scope(
     baca.one_line_staff(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Two Music Voice', 2, 3),
     akasha.make_getato_pitch_specifier(29, direction=Down),
     baca.staccati(),

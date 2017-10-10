@@ -54,7 +54,7 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Two Music Voice', 1),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -63,7 +63,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 1),
     # TODO: remove in favor of segment metadata
     baca.clef('bass'),
@@ -76,7 +76,7 @@ segment_maker.scope(
 
 ### stage 2 ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin One Music Voice', 2),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -85,7 +85,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Two Music Voice', 2),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -96,7 +96,7 @@ segment_maker.scope(
 
 ### stages 3 ###
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin One Music Voice', 3),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -105,7 +105,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Two Music Voice', 3),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -114,7 +114,7 @@ segment_maker.scope(
         ),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 3),
     akasha.make_scratch_rhythm_specifier(
         [4],
@@ -127,7 +127,7 @@ segment_maker.scope(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin One Music Voice', 1, 3),
     akasha.make_getato_pitch_specifier(5, [2]),
     baca.markup.scratch_moltiss(),
@@ -135,7 +135,7 @@ segment_maker.scope(
     baca.dynamic('ff'),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Violin Two Music Voice', 1, 3),
     akasha.make_getato_pitch_specifier(-3, [2]),
     baca.markup.scratch_moltiss(),
@@ -143,7 +143,7 @@ segment_maker.scope(
     baca.dynamic('ff'),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 1, 3),
     akasha.make_getato_pitch_specifier(-13, [2]),
     baca.markup.scratch_moltiss(),
