@@ -53,17 +53,17 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 1),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 3),
     baca.messiaen_tied_notes(),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 5),
     baca.messiaen_tied_notes(),
     )
@@ -72,7 +72,7 @@ segment_maker.scope(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Viola Music Voice', 1, 3),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
@@ -82,7 +82,7 @@ segment_maker.scope(
     baca.clef('alto'),
     )
 
-segment_maker.scope(
+segment_maker(
     baca.scope('Cello Music Voice', 5),
     baca.markup.pos_ord_vib_poco(),
     baca.pitches('Bb1'),
