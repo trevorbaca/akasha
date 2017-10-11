@@ -3,7 +3,7 @@ import baca
 
 
 def make_untied_notes_rhythm_specifier():
-    return baca.RhythmCommand(
+    return baca.RhythmBuilder(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             duration_specifier=abjad.rhythmmakertools.DurationSpecifier(
                 rewrite_meter=True,
