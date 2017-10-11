@@ -1,4 +1,5 @@
 
-2017-10-11 08:23:18
-Abjad runtime: 8 seconds
-LilyPond runtime: 2 seconds
+2017-10-11 09:06:36
+Segment runtime: 9 seconds
+Abjad runtime: 0 seconds
+LilyPond runtime: 1 second
