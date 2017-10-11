@@ -214,7 +214,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(0),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -223,7 +223,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(1).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -232,7 +232,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(2),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -241,7 +241,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(3).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -250,7 +250,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(4),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -259,7 +259,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         ),
@@ -340,7 +340,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(0),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -349,7 +349,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(1).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -358,7 +358,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(2),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -367,7 +367,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(3).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
@@ -376,7 +376,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(4),
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
@@ -385,7 +385,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 8),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=False,
@@ -426,7 +426,7 @@ cello_counts = [sum(_) for _ in cello_counts]
 
 segment_maker(
     baca.scope('Viola Music Voice', 8, 9),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
@@ -445,7 +445,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 8, 9),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(

@@ -14,6 +14,6 @@ def make_cello_solo_rhythm_specifier(rotation=None):
             use_messiaen_style_ties=True,
             )
         )
-    return baca.RhythmCommand(
+    return baca.RhythmBuilder(
         rhythm_maker=rhythm_maker,
         )

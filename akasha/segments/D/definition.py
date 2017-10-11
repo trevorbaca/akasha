@@ -159,7 +159,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 12),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0],
@@ -184,7 +184,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 14),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0],

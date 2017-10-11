@@ -80,7 +80,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 3),
-    baca.RhythmCommand(
+    baca.RhythmBuilder(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=abjad.silence_all(use_multimeasure_rests=True),
             ),
