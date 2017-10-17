@@ -78,7 +78,7 @@ segment_maker(
     baca.clef('alto'),
     )
 
-### baca.select_stages 3-4 ###
+### stages 3-4 ###
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 3),
@@ -109,7 +109,7 @@ segment_maker(
         ),
     )
 
-### baca.select_stages 5-6 ###
+### stages 5-6 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 5),
@@ -134,7 +134,7 @@ segment_maker(
     akasha.make_viola_ob_rhythm_specifier(rotation=-4),
     )
 
-### baca.select_stages 7-8 ###
+### stages 7-8 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 7),
@@ -168,7 +168,7 @@ segment_maker(
         ),
     )
 
-### viola baca.select_stages 9-17 ###
+### viola stages 9-17 ###
 
 segment_maker(
     baca.scope('Viola Music Voice', 9, 17),
@@ -204,7 +204,7 @@ segment_maker(
         ),
     )
 
-### baca.select_stages 10-18 ###
+### stages 10-18 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 10, 14),

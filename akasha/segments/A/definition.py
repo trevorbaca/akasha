@@ -69,7 +69,7 @@ segment_maker.validate_measures_per_stage()
 ##################################### TIME ####################################
 ###############################################################################
 
-### baca.select_stages 1-2 ###
+### stages 1-2 ###
 
 segment_maker(
     baca.scope('Cello Music Voice', 1),
@@ -77,7 +77,7 @@ segment_maker(
     baca.clef('bass'),
     )
 
-### baca.select_stages 3-4 ###
+### stages 3-4 ###
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 3),
@@ -95,7 +95,7 @@ segment_maker(
         ),
     )
 
-### baca.select_stages 5-6 ###
+### stages 5-6 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 5),
@@ -124,7 +124,7 @@ segment_maker(
         ),
     )
 
-### baca.select_stages 7-8 ###
+### stages 7-8 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 7),
@@ -161,7 +161,7 @@ segment_maker(
         ),
     )
 
-### baca.select_stages 9-10 ###
+### stages 9-10 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 9),
@@ -194,7 +194,7 @@ segment_maker(
         ),
     )
 
-### baca.select_stages 11-12 ###
+### stages 11-12 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 11),
@@ -227,7 +227,7 @@ segment_maker(
         ),
     )
 
-### baca.select_stages 13-14 ###
+### stages 13-14 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 13),
@@ -247,7 +247,7 @@ segment_maker(
         ),
     )
 
-### baca.select_stages 15-16 ###
+### stages 15-16 ###
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 15),
