@@ -277,7 +277,7 @@ segment_maker(
         'Cello Music Voice'],
         [4],
         ),
-    baca.dynamic('ff', target=baca.select().note(2)),
+    baca.dynamic('ff', baca.select().note(2)),
     )
 
 segment_maker(
