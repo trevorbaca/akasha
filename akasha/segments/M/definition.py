@@ -105,7 +105,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
-        selector=baca.select().leaves()[:9],
+        baca.select().leaves()[:9].wrap(),
         ),
     baca.hairpins(['ppp < ff'], selector=baca.select().leaves()[:9].wrap()),
     )
@@ -159,7 +159,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.pos_ord_XFB(),
-        selector=baca.select().leaves()[:2],
+        baca.select().leaves()[:2].wrap(),
         ),
     )
 
@@ -175,7 +175,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.pont_XFB(),
-        selector=baca.select().leaves()[:2],
+        baca.select().leaves()[:2].wrap(),
         ),
     )
 
@@ -191,7 +191,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.XP_XFB(),
-        selector=baca.select().leaves()[:3],
+        baca.select().leaves()[:3].wrap(),
         ),
     )
 
@@ -207,7 +207,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.XP(),
-        selector=baca.select().leaves()[:4],
+        baca.select().leaves()[:4].wrap(),
         ),
     )
 
@@ -232,7 +232,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 3),
-        selector=baca.select().leaves()[:2],
+        baca.select().leaves()[:2].wrap(),
         ),
     )
 
@@ -248,7 +248,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.fractional_OB(2, 3),
-        selector=baca.select().leaves()[:2],
+        baca.select().leaves()[:2].wrap(),
         ),
     )
 
@@ -264,6 +264,6 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.OB_no_pitch(),
-        selector=baca.select().leaves()[:2],
+        baca.select().leaves()[:2].wrap(),
         ),
     )
