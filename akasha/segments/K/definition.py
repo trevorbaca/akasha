@@ -513,7 +513,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 14, 17),
     baca.markup.make_markup('pos. ord. + 11°/A1(IV)'),
-    baca.pervasive_trills(),
+    baca.trills(),
     baca.clef('treble'),
     )
 
@@ -527,7 +527,7 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 15, 17),
     baca.markup.make_markup('pos. ord. + 7°/A2(IV)'),
-    baca.pervasive_trills(),
+    baca.trills(),
     baca.clef('treble'),
     )
 
@@ -546,7 +546,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Two Music Voice', 16, 17),
     baca.markup.make_markup('pos. ord. + 5°/A4(II)'),
-    baca.pervasive_trills(),
+    baca.trills(),
     )
 
 segment_maker(
@@ -564,7 +564,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin One Music Voice', 17),
     baca.markup.make_markup('pos. ord. + 9°/A4(II)'),
-    baca.pervasive_trills(),
+    baca.trills(),
     baca.hairpins(['sffp < f']),
     )
 
@@ -598,7 +598,7 @@ segment_maker(
         'Cello Music Voice'],
         [19],
         ),
-    baca.pervasive_trills(),
+    baca.trills(),
     )
 
 segment_maker(
@@ -643,7 +643,7 @@ segment_maker(
         'Cello Music Voice'],
         [(20, 21)],
         ),
-    baca.pervasive_trills(),
+    baca.trills(),
     )
 
 segment_maker(
