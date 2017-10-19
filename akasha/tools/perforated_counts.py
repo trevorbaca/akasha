@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_perforated_counts(degree=0, rotation=None):
+def perforated_counts(degree=0, rotation=None):
     r'''Makes perforated counts.
 
     ::
@@ -15,14 +15,14 @@ def make_perforated_counts(degree=0, rotation=None):
 
         ::
 
-            >>> akasha.make_perforated_counts(degree=0)
+            >>> akasha.perforated_counts(degree=0)
             Sequence([-4, 1, 1, 1, 1, 1, 1, 1, 1, -4, 1, 1, 1, 1, -8,
                 1, 1, 1, 1, 1, 1, 1, 1, -8, 1, 1, 1, 1, -4, 1, 1, 1,
                 1, 1, 1, 1, 1])
 
         ::
 
-            >>> akasha.make_perforated_counts(degree=1)
+            >>> akasha.perforated_counts(degree=1)
             Sequence([1, 1, 1, -9, 1, 1, -7, 1, -9, 1, 1, 1, -2])
 
     Returns sequence.

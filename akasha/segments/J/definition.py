@@ -56,7 +56,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 1),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([-1]),
         [-2]
@@ -67,7 +67,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 1),
     # TODO: remove in favor of segment metadata
     baca.clef('bass'),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([1]),
         [-1],
@@ -78,7 +78,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 2),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([0]),
         [-2],
@@ -87,7 +87,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 2),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([2]),
         [-1],
@@ -98,7 +98,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 3),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([0]),
         [-2],
@@ -107,7 +107,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 3),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([-1]),
         [1],
@@ -116,7 +116,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 3),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([1]),
         [-1],

@@ -3,7 +3,7 @@ import akasha
 import baca
 
 
-def make_sparse_getato_rhythm_specifier(
+def sparse_getato_rhythm(
     degree=1,
     extra_counts_per_division=[1],
     rotation=None,
@@ -14,7 +14,7 @@ def make_sparse_getato_rhythm_specifier(
         rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts_per_division,
             talea=abjad.rhythmmakertools.Talea(
-                counts=akasha.make_perforated_counts(
+                counts=akasha.perforated_counts(
                     degree=degree,
                     rotation=rotation,
                     ),

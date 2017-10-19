@@ -65,12 +65,12 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker(
     baca.scope('Violin One Music Voice', 1),
-    akasha.make_accelerando_rhythm_specifier(),
+    akasha.accelerando_rhythm(),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 1),
-    akasha.make_ritardando_rhythm_specifier(),
+    akasha.ritardando_rhythm(),
     )
 
 segment_maker(
@@ -85,7 +85,7 @@ segment_maker(
     # TODO: remove after segment metaata work again
     baca.clef('bass'),
     abjad.new(
-        akasha.make_ritardando_rhythm_specifier(),
+        akasha.ritardando_rhythm(),
         division_expression=baca.sequence().sum().sequence(),
         ),
     )
@@ -102,7 +102,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Viola Music Voice', 'Cello Music Voice'], [4]),
-    akasha.make_glissando_rhythm_specifier(),
+    akasha.glissando_rhythm(),
     )
 
 ###############################################################################

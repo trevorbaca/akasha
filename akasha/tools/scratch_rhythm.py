@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_scratch_rhythm_specifier(
+def scratch_rhythm(
     denominators,
     logical_tie_masks,
     extra_counts_per_division,

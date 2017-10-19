@@ -3,7 +3,7 @@ import akasha
 import baca
 
 
-def make_harmonic_glissando_pitch_specifier(
+def harmonic_glissando_pitches(
     start_pitch,
     direction=Up,
     rotation=None,
