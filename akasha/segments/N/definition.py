@@ -127,7 +127,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 2, 3),
-    akasha.make_getato_pitch_specifier(29, direction=Down),
+    akasha.getato_pitches(29, direction=Down),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),

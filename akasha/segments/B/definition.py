@@ -164,7 +164,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 1, 6),
-    akasha.make_getato_pitch_specifier(-2, [-3], direction=Down),
+    akasha.getato_pitches(-2, [-3], direction=Down),
     baca.staccati(),
     )
 

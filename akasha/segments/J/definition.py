@@ -129,7 +129,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 1, 3),
-    akasha.make_getato_pitch_specifier(5, [2]),
+    akasha.getato_pitches(5, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     baca.dynamic('ff'),
@@ -137,7 +137,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 1, 3),
-    akasha.make_getato_pitch_specifier(-3, [2]),
+    akasha.getato_pitches(-3, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     baca.dynamic('ff'),
@@ -145,7 +145,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 1, 3),
-    akasha.make_getato_pitch_specifier(-13, [2]),
+    akasha.getato_pitches(-13, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     baca.dynamic('ff'),

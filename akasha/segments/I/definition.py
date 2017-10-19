@@ -476,7 +476,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 11),
-    akasha.make_getato_pitch_specifier(31, [2]),
+    akasha.getato_pitches(31, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.markup.pos_ord(),

@@ -3,7 +3,7 @@ import akasha
 import baca
 
 
-def make_getato_pitch_specifier(
+def getato_pitches(
     start_pitch,
     repetition_intervals=[0],
     direction=Up,
