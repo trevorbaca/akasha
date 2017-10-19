@@ -107,7 +107,7 @@ segment_maker(
         baca.markup.vib_moltiss(),
         selector=baca.select().leaves()[:9],
         ),
-    baca.hairpins(['ppp < ff'], selector=baca.select().leaves()[:9]),
+    baca.hairpins(['ppp < ff'], selector=baca.select().leaves()[:9].wrap()),
     )
 
 ### stage 2 ###
@@ -216,7 +216,7 @@ segment_maker(
     baca.hairpins(
         ['pp > niente'],
         include_rests=True,
-        selector=baca.select().leaves(leak=Right),
+        selector=baca.select().leaves(leak=Right).wrap(),
         ),
     )
 
