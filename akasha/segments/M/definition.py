@@ -215,7 +215,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 7, 8),
     baca.hairpins(
         ['pp > niente'],
-        selector=baca.select().leaves(leak=Right).wrap(),
+        selector=baca.select().rleaves().wrap(),
         ),
     )
 
