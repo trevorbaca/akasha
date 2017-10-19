@@ -571,19 +571,19 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 2),
-    akasha.make_getato_pitch_specifier(27, [2]),
+    akasha.getato_pitches(27, [2]),
     baca.staccati(),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 2),
-    akasha.make_getato_pitch_specifier(24, [2]),
+    akasha.getato_pitches(24, [2]),
     baca.staccati(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 2),
-    akasha.make_getato_pitch_specifier(21, [2]),
+    akasha.getato_pitches(21, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -714,7 +714,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 13),
-    akasha.make_getato_pitch_specifier(29, [2]),
+    akasha.getato_pitches(29, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.hairpins(['ff < fff']),
@@ -722,7 +722,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 13),
-    akasha.make_getato_pitch_specifier(26, [2]),
+    akasha.getato_pitches(26, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.hairpins(['ff < fff']),
@@ -730,7 +730,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 13),
-    akasha.make_getato_pitch_specifier(23, [2]),
+    akasha.getato_pitches(23, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.clef('treble'),
@@ -739,7 +739,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 13),
-    akasha.make_getato_pitch_specifier(20, [2]),
+    akasha.getato_pitches(20, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.clef('treble'),
@@ -774,7 +774,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 17),
-    akasha.make_getato_pitch_specifier(29, [2]),
+    akasha.getato_pitches(29, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -782,7 +782,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 17),
-    akasha.make_getato_pitch_specifier(26, [2]),
+    akasha.getato_pitches(26, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -790,7 +790,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 17),
-    akasha.make_getato_pitch_specifier(23, [2]),
+    akasha.getato_pitches(23, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -798,7 +798,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 17),
-    akasha.make_getato_pitch_specifier(20, [2]),
+    akasha.getato_pitches(20, [2]),
     baca.staccati(),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),

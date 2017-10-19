@@ -358,7 +358,7 @@ segment_maker(
         baca.scope('Violin One Music Voice', 7),
         baca.scope('Cello Music Voice', 15),
         ]),
-    akasha.make_getato_pitch_specifier(-2, [0]),
+    akasha.getato_pitches(-2, [0]),
     baca.staccati(),
     )
 

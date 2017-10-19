@@ -252,7 +252,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 12),
-    akasha.make_getato_pitch_specifier('C#3', direction=Down),
+    akasha.getato_pitches('C#3', direction=Down),
     baca.markup.leggieriss(),
     baca.staccati(),
     baca.dynamic('p'),
