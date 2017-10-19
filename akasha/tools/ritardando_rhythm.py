@@ -2,10 +2,10 @@ import abjad
 import baca
 
 
-def make_accelerando_rhythm_specifier(fuse_counts=(1, 2)):
+def ritardando_rhythm():
     return baca.RhythmBuilder(
         division_expression=baca.sequence()
-            .partition_by_counts(fuse_counts, cyclic=True, overhang=True)
+            .partition_by_counts([1, 2], cyclic=True, overhang=True)
             .map(baca.sequence().sum())
             .flatten(),
         rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
@@ -16,13 +16,13 @@ def make_accelerando_rhythm_specifier(fuse_counts=(1, 2)):
                 ),
             interpolation_specifiers=[
                 abjad.rhythmmakertools.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 2),
-                    stop_duration=abjad.Duration(1, 8),
+                    start_duration=abjad.Duration(1, 8),
+                    stop_duration=abjad.Duration(1, 2),
                     written_duration=abjad.Duration(1, 16),
                     ),
                 abjad.rhythmmakertools.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 8),
-                    stop_duration=abjad.Duration(1, 2),
+                    start_duration=abjad.Duration(1, 2),
+                    stop_duration=abjad.Duration(1, 8),
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],

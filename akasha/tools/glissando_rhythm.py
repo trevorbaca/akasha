@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_glissando_rhythm_specifier():
+def glissando_rhythm():
     return baca.RhythmBuilder(
         division_expression=baca.sequence().sum().sequence(),
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(

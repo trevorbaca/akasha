@@ -159,7 +159,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 11),
-    akasha.make_dense_getato_rhythm_specifier(
+    akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
         ),
@@ -178,18 +178,18 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 14),
-    akasha.make_accelerando_rhythm_specifier(),
+    akasha.accelerando_rhythm(),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 14),
-    akasha.make_ritardando_rhythm_specifier(),
+    akasha.ritardando_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 14),
     abjad.new(
-        akasha.make_accelerando_rhythm_specifier(),
+        akasha.accelerando_rhythm(),
         division_expression=baca.sequence().sum().sequence(),
         ),
     )
@@ -197,7 +197,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 14),
     abjad.new(
-        akasha.make_ritardando_rhythm_specifier(),
+        akasha.ritardando_rhythm(),
         division_expression=baca.sequence().sum().sequence(),
         ),
     )

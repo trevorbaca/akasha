@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_viola_ob_rhythm_specifier(rotation=None):
+def viola_ob_rhythm(rotation=None):
     durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     durations = [abjad.Duration(_) for _ in durations]
     durations = abjad.sequence(durations)

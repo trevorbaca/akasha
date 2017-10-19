@@ -64,7 +64,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker(
     baca.scope('Violin One Music Voice', 1),
-    akasha.make_dense_getato_rhythm_specifier(
+    akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
         ),

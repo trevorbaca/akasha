@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_dense_getato_rhythm_specifier(
+def dense_getato_rhythm(
     fuse_counts,
     extra_counts_per_division,
     ):

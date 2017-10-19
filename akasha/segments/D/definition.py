@@ -90,7 +90,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 3),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 ### stages 5-6 ###
@@ -102,7 +102,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Violin One Music Voice', 'Violin Two Music Voice'], [5]),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 ### stages 7-8 ###
@@ -119,7 +119,7 @@ segment_maker(
         'Cello Music Voice'],
         [7],
         ),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 ### stages 9-11 ###
@@ -129,17 +129,17 @@ segment_maker(
         ['Violin One Music Voice', 'Violin Two Music Voice'],
         [(9, 10)],
         ),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 9),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 10),
-    akasha.make_glissando_rhythm_specifier(),
+    akasha.glissando_rhythm(),
     )
 
 segment_maker(
@@ -154,7 +154,7 @@ segment_maker(
         ['Violin One Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [12],
         ),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 segment_maker(
@@ -179,7 +179,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Violin One Music Voice', 'Viola Music Voice'], [14]),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 segment_maker(
@@ -202,19 +202,19 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 14),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 ### stages 15-17 ###
 
 segment_maker(
     baca.scope('Cello Music Voice', 15),
-    akasha.make_untied_notes_rhythm_specifier(),
+    akasha.untied_notes(),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 16),
-    akasha.make_glissando_rhythm_specifier(),
+    akasha.glissando_rhythm(),
     )
 
 ###############################################################################
@@ -255,12 +255,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 5),
-    akasha.make_harmonic_glissando_pitch_specifier('A4'),
+    akasha.harmonic_glissando_pitches('A4'),
     )
 
 segment_maker(
     baca.scope('Violin One Music Voice', 7),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'A4',
         rotation=-6,
         ),
@@ -268,7 +268,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 9, 10),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'A4',
         rotation=-12,
         ),
@@ -276,7 +276,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 12),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'A4',
         rotation=-18,
         ),
@@ -284,7 +284,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 14),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'A4',
         rotation=-24,
         ),
@@ -300,12 +300,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 3),
-    akasha.make_harmonic_glissando_pitch_specifier('A4'),
+    akasha.harmonic_glissando_pitches('A4'),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 5),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'A4',
         rotation=-6,
         ),
@@ -313,7 +313,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 7),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'A4',
         rotation=-12,
         ),
@@ -321,7 +321,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 9, 10),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'A4',
         rotation=-18,
         ),
@@ -360,12 +360,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 12),
-    akasha.make_harmonic_glissando_pitch_specifier('Ab3'),
+    akasha.harmonic_glissando_pitches('Ab3'),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 14),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'Ab3',
         rotation=-6,
         ),
@@ -387,7 +387,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 7),
-    akasha.make_harmonic_glissando_pitch_specifier('G2'),
+    akasha.harmonic_glissando_pitches('G2'),
     )
 
 segment_maker(
@@ -408,7 +408,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 12),
-    akasha.make_harmonic_glissando_pitch_specifier(
+    akasha.harmonic_glissando_pitches(
         'G2',
         rotation=-6,
         ),

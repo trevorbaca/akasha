@@ -73,7 +73,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Two Music Voice', 2, 3),
     abjad.new(
-        akasha.make_sparse_getato_rhythm_specifier(),
+        akasha.sparse_getato_rhythm(),
         rhythm_maker__division_masks=abjad.silence_except([3, 36, 37]),
         ),
     )

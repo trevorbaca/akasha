@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_untied_notes_rhythm_specifier():
+def untied_notes():
     return baca.RhythmBuilder(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             duration_specifier=abjad.rhythmmakertools.DurationSpecifier(

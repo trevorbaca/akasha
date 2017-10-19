@@ -77,7 +77,7 @@ segment_maker(
         baca.scope('Viola Music Voice', 5),
         baca.scope('Viola Music Voice', 7),
         ],
-    akasha.make_glissando_rhythm_specifier(),
+    akasha.glissando_rhythm(),
     )
 
 segment_maker(
@@ -114,7 +114,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 12),
-    akasha.make_sparse_getato_rhythm_specifier(
+    akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
         rotation=-12,
@@ -145,12 +145,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 20),
-    akasha.make_polyphony_rhythm_specifier(rotation=-2),
+    akasha.polyphony_rhythm(rotation=-2),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 20),
-    akasha.make_polyphony_rhythm_specifier(rotation=-4),
+    akasha.polyphony_rhythm(rotation=-4),
     )
 
 ### stages 22-24 ###
@@ -170,7 +170,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 23),
-    akasha.make_glissando_rhythm_specifier(),
+    akasha.glissando_rhythm(),
     )
 
 segment_maker(

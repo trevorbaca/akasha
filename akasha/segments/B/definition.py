@@ -63,7 +63,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker(
     baca.scope('Violin One Music Voice', 1),
     abjad.new(
-        akasha.make_accelerando_rhythm_specifier(fuse_counts=[1]),
+        akasha.accelerando_rhythm(fuse_counts=[1]),
         rhythm_maker__logical_tie_masks=abjad.silence([1]),
         rhythm_maker__division_masks=abjad.silence_last(2),
         ),
@@ -71,13 +71,13 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 1),
-    akasha.make_polyphony_rhythm_specifier(),
+    akasha.polyphony_rhythm(),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 1),
     abjad.new(
-        akasha.make_polyphony_rhythm_specifier(rotation=-2),
+        akasha.polyphony_rhythm(rotation=-2),
         rhythm_maker__logical_tie_masks=abjad.silence_first(2),
         ),
     )
@@ -85,7 +85,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 1, 2),
     abjad.new(
-        akasha.make_sparse_getato_rhythm_specifier(
+        akasha.sparse_getato_rhythm(
             degree=0,
             extra_counts_per_division=[1, 1, 0, 2],
             ),
@@ -99,7 +99,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 4),
-    akasha.make_sparse_getato_rhythm_specifier(
+    akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
         rotation=-4,
@@ -110,7 +110,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 6),
-    akasha.make_sparse_getato_rhythm_specifier(
+    akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
         rotation=-8,
@@ -122,7 +122,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Two Music Voice', 8, 9),
     abjad.new(
-        akasha.make_accelerando_rhythm_specifier(fuse_counts=(2, 1)),
+        akasha.accelerando_rhythm(fuse_counts=(2, 1)),
         rhythm_maker__logical_tie_masks=abjad.silence([3]),
         ),
     )

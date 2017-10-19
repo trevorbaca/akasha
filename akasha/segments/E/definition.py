@@ -73,7 +73,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker(
     baca.scope('Viola Music Voice', 1),
-    akasha.make_viola_ob_rhythm_specifier(rotation=0),
+    akasha.viola_ob_rhythm(rotation=0),
     # TODO: remove after segment metadata are working again
     baca.clef('alto'),
     )
@@ -82,7 +82,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 3),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([-1]),
         [-2]
@@ -91,7 +91,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 3),
-    akasha.make_viola_ob_rhythm_specifier(rotation=-2),
+    akasha.viola_ob_rhythm(rotation=-2),
     )
 
 # TODO: remove after segment metadata are working again
@@ -102,7 +102,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 3),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([1]),
         [-1],
@@ -113,7 +113,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 5),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([0]),
         [-2],
@@ -122,7 +122,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 5),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([2]),
         [-1],
@@ -131,14 +131,14 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 5),
-    akasha.make_viola_ob_rhythm_specifier(rotation=-4),
+    akasha.viola_ob_rhythm(rotation=-4),
     )
 
 ### stages 7-8 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 7),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([0]),
         [-2],
@@ -147,7 +147,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 7),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([-1]),
         [1],
@@ -156,12 +156,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 7),
-    akasha.make_viola_ob_rhythm_specifier(rotation=-6),
+    akasha.viola_ob_rhythm(rotation=-6),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 7),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([1]),
         [-1],
@@ -172,14 +172,14 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 9, 17),
-    akasha.make_viola_ob_rhythm_specifier(rotation=-8),
+    akasha.viola_ob_rhythm(rotation=-8),
     )
 
 ### stage 9 ###
 
 segment_maker(
     baca.scope('Violin One Music Voice', 9),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([1, -3]),
         [1],
@@ -188,7 +188,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 9),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([2, -1]),
         [0],
@@ -197,7 +197,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 9),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [4],
         abjad.silence_except([2, -2]),
         [2],
@@ -208,7 +208,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 10, 14),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [8],
         abjad.silence_every([0, 3], inverted=True, period=8),
         [1],
@@ -218,7 +218,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin One Music Voice', 15, 17),
     abjad.new(
-        akasha.make_dense_getato_rhythm_specifier(
+        akasha.dense_getato_rhythm(
             [1],
             [3, 0, 2, 1],
             ),
@@ -231,7 +231,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 10, 13),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [8],
         abjad.silence_every([1, 4], inverted=True, period=9),
         [-1],
@@ -241,7 +241,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Two Music Voice', 14, 16),
     abjad.new(
-        akasha.make_dense_getato_rhythm_specifier(
+        akasha.dense_getato_rhythm(
             [1],
             [2, 1, 3, 0],
             ),
@@ -253,7 +253,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Two Music Voice', 17),
     abjad.new(
-        akasha.make_dense_getato_rhythm_specifier(
+        akasha.dense_getato_rhythm(
             [1, 2, 1, 2, 2],
             [6, 3, 5, 4],
             ),
@@ -263,7 +263,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 10, 12),
-    akasha.make_scratch_rhythm_specifier(
+    akasha.scratch_rhythm(
         [8],
         abjad.silence_every([2, 5], inverted=True, period=9),
         [2],
@@ -273,7 +273,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 13, 15),
     abjad.new(
-        akasha.make_dense_getato_rhythm_specifier(
+        akasha.dense_getato_rhythm(
             [1],
             [3, 0, 2, 1],
             ),
@@ -284,7 +284,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 16),
-    akasha.make_dense_getato_rhythm_specifier(
+    akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [4, 1, 3, 2],
         ),
@@ -293,7 +293,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 17),
     abjad.new(
-        akasha.make_dense_getato_rhythm_specifier(
+        akasha.dense_getato_rhythm(
             [2, 1, 2, 2, 1],
             [6, 3, 5, 4],
             ),

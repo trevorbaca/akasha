@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_cello_solo_rhythm_specifier(rotation=None):
+def cello_solo_rhythm(rotation=None):
     counts = abjad.sequence([7, 1, 10, 2])
     counts.rotate(n=rotation)
     rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
