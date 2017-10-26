@@ -8,12 +8,10 @@ import baca
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    # 1-3
     4,
     3,
-    3,
-    # 4-7
-    3, abjad.Fermata(),
+    3, # 3
+    3, abjad.Fermata(), # 4-5
     2,
     1,
     ])

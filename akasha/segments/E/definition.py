@@ -11,19 +11,14 @@ stage_measure_map = baca.StageMeasureMap([
     1, abjad.Fermata(),
     1, abjad.Fermata(),
     1, abjad.Fermata(),
-    # 1-8
-    1, abjad.Fermata(),
-    # 9
-    2,
-    2, 2, 4,
-    # 13-14
-    2, 2,
-    # 15-17
+    1, abjad.Fermata(), # 1-8
+    2, # 9
+    2, 2, 4, # 10-12
+    2, 2, # 13-14
     4,
     6,
-    6,
-    # 18
-    abjad.Fermata('longfermata'),
+    6, # 15-17
+    abjad.Fermata('longfermata'), # 18
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
