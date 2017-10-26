@@ -235,7 +235,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.one_click_every(1, 2),
-        baca.select().leaves()[:-1].wrap(),
+        baca.select().leaves()[:-1].group(),
         ),
     )
 
@@ -250,7 +250,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.clicks_per_second(1, 2),
-        baca.select().leaves()[:-1].wrap(),
+        baca.select().leaves()[:-1].group(),
         ),
     )
 
@@ -265,7 +265,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
-        baca.select().leaves()[:-1].wrap(),
+        baca.select().leaves()[:-1].group(),
         ),
     )
 
@@ -291,7 +291,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.fractional_scratch(1, 2),
-        baca.select().leaves()[:-1].wrap(),
+        baca.select().leaves()[:-1].group(),
         ),
     )
 
@@ -306,7 +306,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.pos_ord(),
-        baca.select().leaves()[:-1].wrap(),
+        baca.select().leaves()[:-1].group(),
         ),
     )
 
@@ -321,9 +321,9 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
-        baca.select().leaves()[:-1].wrap(),
+        baca.select().leaves()[:-1].group(),
         ),
-    baca.hairpins(['ff < fff'], selector=baca.select().leaves()[:-1].wrap()),
+    baca.hairpins(['ff < fff'], selector=baca.select().leaves()[:-1].group()),
     )
 
 ### stage 9 ###
@@ -371,9 +371,9 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.pos_ord_senza_vib(),
         baca.markup.XP(),
-        baca.select().leaves()[:3].wrap(),
+        baca.select().leaves()[:3].group(),
         ),
-    baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:3].wrap()),
+    baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:3].group()),
     )
 
 segment_maker(
@@ -384,11 +384,11 @@ segment_maker(
         'Cello Music Voice'],
         [9],
         ),
-    baca.hairpins(['fff > p'], selector=baca.select().leaves()[-2:].wrap()),
+    baca.hairpins(['fff > p'], selector=baca.select().leaves()[-2:].group()),
     baca.transition_spanner(
         baca.markup.XP(),
         baca.markup.pos_ord(),
-        baca.select().leaves()[-2:].wrap(),
+        baca.select().leaves()[-2:].group(),
         ),
     )
 
@@ -425,9 +425,9 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.pos_ord(),
         baca.markup.XP(),
-        baca.select().leaves()[:2].wrap(),
+        baca.select().leaves()[:2].group(),
         ),
-    baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:2].wrap()),
+    baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:2].group()),
     )
 
 segment_maker(
@@ -441,9 +441,9 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.XP(),
         baca.markup.pos_ord(),
-        baca.select().leaves()[-2:].wrap(),
+        baca.select().leaves()[-2:].group(),
         ),
-    baca.hairpins(['fff > p'], selector=baca.select().leaves()[-2:].wrap()),
+    baca.hairpins(['fff > p'], selector=baca.select().leaves()[-2:].group()),
     )
 
 ### stages 12-21 ###
@@ -503,9 +503,9 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.pos_ord(),
         baca.markup.XT(),
-        baca.select().leaves()[:-1].wrap(),
+        baca.select().leaves()[:-1].group(),
         ),
-    baca.hairpins(['sffp > pp'], selector=baca.select().leaves()[:-1].wrap()),
+    baca.hairpins(['sffp > pp'], selector=baca.select().leaves()[:-1].group()),
     )
 
 ### stage 14 ###
@@ -519,7 +519,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 14, 15),
-    baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].wrap()),
+    baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].group()),
     )
 
 ### stage 15 ###
@@ -533,7 +533,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 15, 16),
-    baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].wrap()),
+    baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].group()),
     )
 
 ### stage 16 ###
@@ -551,7 +551,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 16, 17),
-    baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].wrap()),
+    baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].group()),
     )
 
 ### stage 17 ###
@@ -612,9 +612,9 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.pos_ord(),
         baca.markup.XP(),
-        baca.select().leaves()[:3].wrap(),
+        baca.select().leaves()[:3].group(),
         ),
-    baca.hairpins(['sf < fff'], selector=baca.select().leaves()[:3].wrap()),
+    baca.hairpins(['sf < fff'], selector=baca.select().leaves()[:3].group()),
     )
 
 segment_maker(
@@ -628,9 +628,9 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.XP(),
         baca.markup.pos_ord(),
-        baca.select().leaves()[-2:].wrap(),
+        baca.select().leaves()[-2:].group(),
         ),
-    baca.hairpins(['fff > f'], selector=baca.select().leaves()[-2:].wrap()),
+    baca.hairpins(['fff > f'], selector=baca.select().leaves()[-2:].group()),
     )
 
 ### stages 20-21 ###
@@ -657,7 +657,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.pos_ord(),
         baca.markup.XP(),
-        baca.select().leaves()[:4].wrap(),
+        baca.select().leaves()[:4].group(),
         ),
-    baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:4].wrap()),
+    baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:4].group()),
     )
