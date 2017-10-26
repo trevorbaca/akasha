@@ -142,10 +142,9 @@ segment_maker(
 
 ### stage 8 ###
 
-abjad.silence_pattern = abjad.index_every([1], period=4) | abjad.index_every(
-    [4], period=5)
-abjad.silence_mask = abjad.silence(abjad.silence_pattern)
-abjad.sustain_mask = abjad.sustain([0, -1])
+pattern = abjad.index_every([1], period=4) | abjad.index_every([4], period=5)
+silence_mask = abjad.SilenceMask(pattern)
+sustain_mask = abjad.sustain([0, -1])
 
 #def division_expression(index):
 #    ratio = abjad.Ratio((2, 1, 2, 2, 1, 2))
@@ -175,8 +174,8 @@ def division_expression(index):
 talea_rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
     extra_counts_per_division=[1],
     logical_tie_masks=[
-        abjad.silence_mask,
-        abjad.sustain_mask,
+        silence_mask,
+        sustain_mask,
         ],
     talea=abjad.rhythmmakertools.Talea(
         counts=[9, 4, 8, 7],
@@ -201,8 +200,8 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
             ),
         ],
     logical_tie_masks=[
-        abjad.silence_mask,
-        abjad.sustain_mask,
+        silence_mask,
+        sustain_mask,
         ],
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
@@ -267,10 +266,9 @@ segment_maker(
 
 ### violin 2 ###
 
-abjad.silence_pattern = abjad.index_every([2], period=4) | abjad.index_every(
-    [4], period=5)
-abjad.silence_mask = abjad.silence(abjad.silence_pattern)
-abjad.sustain_mask = abjad.sustain([0, -1])
+pattern = abjad.index_every([2], period=4) | abjad.index_every([4], period=5)
+silence_mask = abjad.SilenceMask(pattern)
+sustain_mask = abjad.sustain([0, -1])
 
 #def division_expression(index):
 #    ratio = abjad.Ratio((1, 1, 2, 2, 1, 2))
@@ -301,8 +299,8 @@ talea_rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
     #extra_counts_per_division=[2],
     extra_counts_per_division=[0],
     logical_tie_masks=[
-        abjad.silence_mask,
-        abjad.sustain_mask,
+        silence_mask,
+        sustain_mask,
         ],
     talea=abjad.rhythmmakertools.Talea(
         counts=[9, 4, 8, 7],
@@ -327,8 +325,8 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
             ),
         ],
     logical_tie_masks=[
-        abjad.silence_mask,
-        abjad.sustain_mask,
+        silence_mask,
+        sustain_mask,
         ],
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         use_messiaen_style_ties=True,
