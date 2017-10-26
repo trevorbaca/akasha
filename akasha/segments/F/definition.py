@@ -9,26 +9,17 @@ import baca
 
 stage_measure_map = baca.StageMeasureMap([
     2,
-    # 2-3
-    2, abjad.Fermata('longfermata'),
-    # 4-5
-    1, abjad.Fermata('longfermata'),
-    # 6-7
-    2, abjad.Fermata('longfermata'),
-    # 8
-    12,
+    2, abjad.Fermata('longfermata'), #2-3
+    1, abjad.Fermata('longfermata'), # 4-5
+    2, abjad.Fermata('longfermata'), # 6-7
+    12, # 8
     4,
     4,
-    # 11-12
-    4, abjad.Fermata(),
-    # 13-14
-    6, abjad.Fermata(),
-    # 15-16
-    1, abjad.Fermata(),
-    # 17-18
-    1, abjad.Fermata('shortfermata'),
-    # 19-20
-    1, abjad.Fermata(),
+    4, abjad.Fermata(), # 11-12
+    6, abjad.Fermata(), # 13-14
+    1, abjad.Fermata(), # 15-16
+    1, abjad.Fermata('shortfermata'), # 17-18
+    1, abjad.Fermata(), # 19-20
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([

@@ -8,7 +8,6 @@ import baca
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    # 1-8
     4,
     4,
     4,
@@ -16,25 +15,20 @@ stage_measure_map = baca.StageMeasureMap([
     4,
     4,
     4,
-    abjad.Fermata('shortfermata'),
-    # 9-11
+    abjad.Fermata('shortfermata'), # 8
     5,
     5,
-    abjad.Fermata('shortfermata'),
-    # 12-13
-    5,
-    abjad.Fermata('fermata'),
-    # 14-18
+    abjad.Fermata('shortfermata'), # 11
+    5, abjad.Fermata('fermata'), # 12-13
     2,
     2,
     2,
     2,
-    abjad.Fermata('shortfermata'),
-    # 19-22
+    abjad.Fermata('shortfermata'), # 18
     5,
     2,
     6,
-    abjad.Fermata('verylongfermata'),
+    abjad.Fermata('verylongfermata'), # 22
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([

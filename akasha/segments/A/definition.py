@@ -8,22 +8,14 @@ import baca
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    # 1-2
-    2, abjad.Fermata('longfermata'),
-    # 3-4
-    1, abjad.Fermata('longfermata'),
-    # 5-6
-    2, abjad.Fermata('shortfermata'),
-    # 7-8
-    1, abjad.Fermata('shortfermata'),
-    # 9-10
-    3, abjad.Fermata('longfermata'),
-    # 11-12
-    1, abjad.Fermata('longfermata'),
-    # 13-14
-    1, abjad.Fermata('longfermata'),
-    # 15-16
-    1, abjad.Fermata('shortfermata'),
+    2, abjad.Fermata('longfermata'), # 1-2
+    1, abjad.Fermata('longfermata'), # 3-4
+    2, abjad.Fermata('shortfermata'), # 5-6
+    1, abjad.Fermata('shortfermata'), # 7-8
+    3, abjad.Fermata('longfermata'), # 9-10
+    1, abjad.Fermata('longfermata'), # 11-12
+    1, abjad.Fermata('longfermata'), # 13-14
+    1, abjad.Fermata('shortfermata'), # 15-16
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
@@ -274,7 +266,6 @@ segment_maker(
     baca.scope('Cello Music Voice', 1),
     akasha.cello_solo_pitches(),
     baca.markup.tasto_fractional_scratch(1, 2),
-    #Dynamic('mp'),
     baca.dynamic('mp'),
     )
 
@@ -282,7 +273,6 @@ segment_maker(
     baca.scope('Violin One Music Voice', 5),
     baca.fixed_pitches('E4 F4 E+4'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    #Dynamic('mp'),
     baca.dynamic('mp'),
     )
 
@@ -290,7 +280,6 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 5),
     baca.fixed_pitches('D4 D~4 C4'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    #Dynamic('mp'),
     baca.dynamic('mp'),
     )
 
@@ -298,7 +287,6 @@ segment_maker(
     baca.scope('Viola Music Voice', 5),
     baca.fixed_pitches('Eb4 D4 E4'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    #Dynamic('mp'),
     baca.dynamic('mp'),
     )
 
@@ -320,14 +308,12 @@ segment_maker(
 segment_maker(
     baca.scope('Violin One Music Voice', 9),
     baca.markup.tasto_XFB(),
-    #Dynamic('pp'),
     baca.dynamic('pp'),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 9),
     baca.markup.tasto_XFB(),
-    #Dynamic('pp'),
     baca.dynamic('pp'),
     )
 
