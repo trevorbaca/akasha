@@ -105,9 +105,9 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
-        baca.select().leaves()[:9].wrap(),
+        baca.select().leaves()[:9].group(),
         ),
-    baca.hairpins(['ppp < ff'], selector=baca.select().leaves()[:9].wrap()),
+    baca.hairpins(['ppp < ff'], selector=baca.select().leaves()[:9].group()),
     )
 
 ### stage 2 ###
@@ -159,7 +159,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.pos_ord_XFB(),
-        baca.select().leaves()[:2].wrap(),
+        baca.select().leaves()[:2].group(),
         ),
     )
 
@@ -175,7 +175,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.pont_XFB(),
-        baca.select().leaves()[:2].wrap(),
+        baca.select().leaves()[:2].group(),
         ),
     )
 
@@ -191,7 +191,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.XP_XFB(),
-        baca.select().leaves()[:3].wrap(),
+        baca.select().leaves()[:3].group(),
         ),
     )
 
@@ -207,7 +207,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.XP(),
-        baca.select().leaves()[:4].wrap(),
+        baca.select().leaves()[:4].group(),
         ),
     )
 
@@ -215,7 +215,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 7, 8),
     baca.hairpins(
         ['pp > niente'],
-        selector=baca.select().rleaves().wrap(),
+        selector=baca.select().rleaves().group(),
         ),
     )
 
@@ -231,7 +231,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 3),
-        baca.select().leaves()[:2].wrap(),
+        baca.select().leaves()[:2].group(),
         ),
     )
 
@@ -247,7 +247,7 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.fractional_OB(2, 3),
-        baca.select().leaves()[:2].wrap(),
+        baca.select().leaves()[:2].group(),
         ),
     )
 
@@ -263,6 +263,6 @@ segment_maker(
     baca.transition_spanner(
         baca.markup.trans(),
         baca.markup.OB_no_pitch(),
-        baca.select().leaves()[:2].wrap(),
+        baca.select().leaves()[:2].group(),
         ),
     )
