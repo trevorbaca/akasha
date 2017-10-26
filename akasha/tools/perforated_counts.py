@@ -41,7 +41,7 @@ def perforated_counts(degree=0, rotation=None):
     else:
         raise ValueError(f'degree must be between 0 and 1: {degree!r}.')
     vector = pattern.get_boolean_vector()
-    parts = baca.sequence(vector).group_by()
+    parts = baca.sequence(vector).group()
     for part in parts:
         if part[0] == 0:
             counts.append(-len(part))
