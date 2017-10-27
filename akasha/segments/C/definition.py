@@ -152,7 +152,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 22, 23),
     abjad.new(
         baca.messiaen_tied_notes(),
-        rhythm_maker__division_masks=abjad.silence_first(),
+        rhythm_maker__division_masks=abjad.silence_first(1),
         ),
     )
 
