@@ -161,7 +161,7 @@ segment_maker(
     baca.markup.tasto(),
     baca.fixed_pitches('D#3 C+3'),
     baca.glissando(),
-    baca.hairpins(['mp > pp']),
+    baca.hairpin('mp > pp'),
     )
 
 segment_maker(
@@ -169,5 +169,5 @@ segment_maker(
     baca.markup.tasto(),
     baca.fixed_pitches('C#2 Bb1'),
     baca.glissando(),
-    baca.hairpins(['mp > pp']),
+    baca.hairpin('mp > pp'),
     )

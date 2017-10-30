@@ -142,7 +142,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin One Music Voice', 1),
     akasha.getato_pitches(31, [2]),
-    baca.hairpins(['pp > niente']),
+    baca.hairpin('pp > niente'),
     )
 
 segment_maker(
@@ -208,7 +208,7 @@ segment_maker(
         baca.markup.tasto_plus_scratch_moltiss(),
         baca.markup.fractional_scratch(1, 4),
         ),
-    baca.hairpins(['ff > f']),
+    baca.hairpin('ff > f'),
     )
 
 segment_maker(
@@ -217,7 +217,7 @@ segment_maker(
         baca.markup.tasto_fractional_scratch(1, 4),
         baca.markup.tasto(),
         ),
-    baca.hairpins(['f > mf']),
+    baca.hairpin('f > mf'),
     )
 
 segment_maker(
@@ -229,7 +229,7 @@ segment_maker(
         baca.markup.trans(),
         baca.markup.tasto(),
         ),
-    baca.hairpins(['f > mf']),
+    baca.hairpin('f > mf'),
     )
 
 segment_maker(
@@ -244,7 +244,7 @@ segment_maker(
         baca.markup.trans(),
         baca.markup.FB(),
         ),
-    baca.hairpins(['mf > p']),
+    baca.hairpin('mf > p'),
     )
 
 segment_maker(
@@ -259,5 +259,5 @@ segment_maker(
         baca.markup.trans(),
         baca.markup.XFB(),
         ),
-    baca.hairpins(['p > pp']),
+    baca.hairpin('p > pp'),
     )

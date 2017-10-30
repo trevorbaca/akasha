@@ -106,7 +106,8 @@ segment_maker(
         baca.markup.vib_moltiss(),
         baca.select().leaves()[:9].group(),
         ),
-    baca.hairpins(['ppp < ff'], selector=baca.select().leaves()[:9].group()),
+    #baca.hairpins(['ppp < ff'], selector=baca.select().leaves()[:9].group()),
+    baca.hairpin('ppp < ff', baca.select().leaves()[:9]),
     )
 
 ### stage 2 ###
@@ -212,10 +213,11 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 7, 8),
-    baca.hairpins(
-        ['pp > niente'],
-        selector=baca.select().rleaves().group(),
-        ),
+#    baca.hairpins(
+#        ['pp > niente'],
+#        selector=baca.select().rleaves().group(),
+#        ),
+    baca.hairpin('pp > niente', baca.select().rleaves()),
     )
 
 ### stage 8 ###

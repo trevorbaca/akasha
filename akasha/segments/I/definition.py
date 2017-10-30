@@ -267,7 +267,7 @@ segment_maker(
         baca.markup.pos_ord_senza_vib(),
         baca.markup.vib_moltiss(),
         ),
-    baca.hairpins(['sfp < f']),
+    baca.hairpin('sfp < f'),
     )
 
 ### stages 3-4 ###
@@ -298,7 +298,7 @@ segment_maker(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
-    baca.hairpins(['sfp < f']),
+    baca.hairpin('sfp < f'),
     )
 
 segment_maker(
@@ -339,7 +339,7 @@ segment_maker(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
-    baca.hairpins(['sfp < f']),
+    baca.hairpin('sfp < f'),
     )
 
 segment_maker(
@@ -383,7 +383,7 @@ segment_maker(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
-    baca.hairpins(['sfp < f']),
+    baca.hairpin('sfp < f'),
     )
 
 segment_maker(
@@ -463,7 +463,7 @@ segment_maker(
         [10],
         ),
     baca.markup.XP_FB(),
-    baca.hairpins(['ppp < mp']),
+    baca.hairpin('ppp < mp'),
     )
 
 ### stage 11 ###
@@ -491,7 +491,7 @@ segment_maker(
         baca.markup.XP_FB(),
         baca.markup.tasto_FB(),
         ),
-    baca.hairpins(['ppp < mp']),
+    baca.hairpin('ppp < mp'),
     )
 
 ### stage 14 (and short fermata) ###
@@ -561,7 +561,7 @@ segment_maker(
         baca.markup.trans(),
         baca.markup.tasto_fractional_scratch(1, 2),
         ),
-    baca.hairpins(['ppp < mp']),
+    baca.hairpin('ppp < mp'),
     )
 
 segment_maker(
@@ -576,5 +576,5 @@ segment_maker(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         ),
-    baca.hairpins(['mp < mf']),
+    baca.hairpin('mp < mf'),
     )

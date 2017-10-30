@@ -676,7 +676,7 @@ segment_maker(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         ),
-    baca.hairpins(['mp < f']),
+    baca.hairpin('mp < f'),
     )
 
 segment_maker(
@@ -706,7 +706,7 @@ segment_maker(
     akasha.getato_pitches(29, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
-    baca.hairpins(['ff < fff']),
+    baca.hairpin('ff < fff'),
     )
 
 segment_maker(
@@ -714,7 +714,7 @@ segment_maker(
     akasha.getato_pitches(26, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
-    baca.hairpins(['ff < fff']),
+    baca.hairpin('ff < fff'),
     )
 
 segment_maker(
@@ -723,7 +723,7 @@ segment_maker(
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.clef('treble'),
-    baca.hairpins(['ff < fff']),
+    baca.hairpin('ff < fff'),
     )
 
 segment_maker(
@@ -732,7 +732,7 @@ segment_maker(
     baca.staccati(),
     baca.markup.pos_ord(),
     baca.clef('treble'),
-    baca.hairpins(['ff < fff']),
+    baca.hairpin('ff < fff'),
     )
 
 ### stages 15-16 ###
