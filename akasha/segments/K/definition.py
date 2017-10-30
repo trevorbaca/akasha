@@ -317,7 +317,6 @@ segment_maker(
         baca.markup.vib_moltiss(),
         baca.select().leaves()[:-1].group(),
         ),
-    #baca.hairpins(['ff < fff'], selector=baca.select().leaves()[:-1].group()),
     baca.hairpin('ff < fff', baca.select().leaves()[:-1]),
     )
 
@@ -368,7 +367,6 @@ segment_maker(
         baca.markup.XP(),
         baca.select().leaves()[:3].group(),
         ),
-    #baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:3].group()),
     baca.hairpin('sffp < fff', baca.select().leaves()[:3]),
     )
 
@@ -380,7 +378,6 @@ segment_maker(
         'Cello Music Voice'],
         [9],
         ),
-    #baca.hairpins(['fff > p'], selector=baca.select().leaves()[-2:].group()),
     baca.hairpin('fff > p', baca.select().leaves()[-2:]),
     baca.transition_spanner(
         baca.markup.XP(),
@@ -424,7 +421,6 @@ segment_maker(
         baca.markup.XP(),
         baca.select().leaves()[:2].group(),
         ),
-    #baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:2].group()),
     baca.hairpin('sffp < fff', baca.select().leaves()[:2]),
     )
 
@@ -441,7 +437,6 @@ segment_maker(
         baca.markup.pos_ord(),
         baca.select().leaves()[-2:].group(),
         ),
-    #baca.hairpins(['fff > p'], selector=baca.select().leaves()[-2:].group()),
     baca.hairpin('fff > p', baca.select().leaves()[-2:]),
     )
 
@@ -504,7 +499,6 @@ segment_maker(
         baca.markup.XT(),
         baca.select().leaves()[:-1].group(),
         ),
-    #baca.hairpins(['sffp > pp'], selector=baca.select().leaves()[:-1].group()),
     baca.hairpin('sffp > pp', baca.select().leaves()[:-1]),
     )
 
@@ -519,7 +513,6 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 14, 15),
-    #baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].group()),
     baca.hairpin('sffp < f', baca.select().leaves()[:4]),
     )
 
@@ -534,7 +527,6 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 15, 16),
-    #baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].group()),
     baca.hairpin('sffp < f', baca.select().leaves()[:4]),
     )
 
@@ -553,7 +545,6 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 16, 17),
-    #baca.hairpins(['sffp < f'], selector=baca.select().leaves()[:4].group()),
     baca.hairpin('sffp < f', baca.select().leaves()[:4]),
     )
 
@@ -617,7 +608,6 @@ segment_maker(
         baca.markup.XP(),
         baca.select().leaves()[:3].group(),
         ),
-    #baca.hairpins(['sf < fff'], selector=baca.select().leaves()[:3].group()),
     baca.hairpin('sf < fff', baca.select().leaves()[:3]),
     )
 
@@ -634,7 +624,6 @@ segment_maker(
         baca.markup.pos_ord(),
         baca.select().leaves()[-2:].group(),
         ),
-    #baca.hairpins(['fff > f'], selector=baca.select().leaves()[-2:].group()),
     baca.hairpin('fff > f', baca.select().leaves()[-2:]),
     )
 
@@ -664,6 +653,5 @@ segment_maker(
         baca.markup.XP(),
         baca.select().leaves()[:4].group(),
         ),
-    #baca.hairpins(['sffp < fff'], selector=baca.select().leaves()[:4].group()),
     baca.hairpin('sffp < fff', baca.select().leaves()[:4]),
     )
