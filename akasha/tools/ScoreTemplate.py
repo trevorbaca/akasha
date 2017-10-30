@@ -6,124 +6,118 @@ import baca
 class ScoreTemplate(baca.ScoreTemplate):
     r'''Score template.
 
-    ::
-
-        >>> import akasha
+    >>> import akasha
 
     ..  container:: example
 
         Calls score template:
 
-        ::
+        >>> template = akasha.ScoreTemplate()
+        >>> path = abjad.Path('akasha', 'stylesheets', 'contexts.ily')
+        >>> lilypond_file = template.__illustrate__(
+        ...     global_staff_size=15,
+        ...     includes=[path],
+        ...     )
+        >>> abjad.show(lilypond_file) # doctest: +SKIP
 
-            >>> template = akasha.ScoreTemplate()
-            >>> path = abjad.Path('akasha', 'stylesheets', 'contexts.ily')
-            >>> lilypond_file = template.__illustrate__(
-            ...     global_staff_size=15,
-            ...     includes=[path],
-            ...     )
-            >>> show(lilypond_file) # doctest: +SKIP
-
-        ::
-
-            >>> f(lilypond_file[abjad.Score])
-            \context Score = "Score" <<
-                \tag violin_one.violin_two.viola.cello
-                \context GlobalContext = "Global Context" <<
-                    \context GlobalRests = "Global Rests" {
-                    }
-                    \context GlobalSkips = "Global Skips" {
-                    }
-                >>
-                \context MusicContext = "Music Context" {
-                    \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
-                        \tag violin_one
-                        \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                            \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                                \set ViolinOneMusicStaff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        \line
-                                            {
-                                                Violin
-                                                1
-                                            }
-                                    }
-                                \set ViolinOneMusicStaff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        \line
-                                            {
-                                                Vn.
-                                                1
-                                            }
-                                    }
-                                \clef "treble"
-                                s1
-                            }
-                        }
-                        \tag violin_two
-                        \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                            \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                                \set ViolinTwoMusicStaff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        \line
-                                            {
-                                                Violin
-                                                2
-                                            }
-                                    }
-                                \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        \line
-                                            {
-                                                Vn.
-                                                2
-                                            }
-                                    }
-                                \clef "treble"
-                                s1
-                            }
-                        }
-                        \tag viola
-                        \context ViolaMusicStaff = "Viola Music Staff" {
-                            \context ViolaMusicVoice = "Viola Music Voice" {
-                                \set ViolaMusicStaff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Viola
-                                    }
-                                \set ViolaMusicStaff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Va.
-                                    }
-                                \clef "alto"
-                                s1
-                            }
-                        }
-                        \tag cello
-                        \context CelloMusicStaff = "Cello Music Staff" {
-                            \context CelloMusicVoice = "Cello Music Voice" {
-                                \set CelloMusicStaff.instrumentName = \markup {
-                                    \hcenter-in
-                                        #16
-                                        Cello
-                                    }
-                                \set CelloMusicStaff.shortInstrumentName = \markup {
-                                    \hcenter-in
-                                        #10
-                                        Vc.
-                                    }
-                                \clef "bass"
-                                s1
-                            }
-                        }
-                    >>
+        >>> abjad.f(lilypond_file[abjad.Score])
+        \context Score = "Score" <<
+            \tag violin_one.violin_two.viola.cello
+            \context GlobalContext = "Global Context" <<
+                \context GlobalRests = "Global Rests" {
+                }
+                \context GlobalSkips = "Global Skips" {
                 }
             >>
+            \context MusicContext = "Music Context" {
+                \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+                    \tag violin_one
+                    \context ViolinOneMusicStaff = "Violin One Music Staff" {
+                        \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                            \set ViolinOneMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    \line
+                                        {
+                                            Violin
+                                            1
+                                        }
+                                }
+                            \set ViolinOneMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    \line
+                                        {
+                                            Vn.
+                                            1
+                                        }
+                                }
+                            \clef "treble"
+                            s1
+                        }
+                    }
+                    \tag violin_two
+                    \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
+                        \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                            \set ViolinTwoMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    \line
+                                        {
+                                            Violin
+                                            2
+                                        }
+                                }
+                            \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    \line
+                                        {
+                                            Vn.
+                                            2
+                                        }
+                                }
+                            \clef "treble"
+                            s1
+                        }
+                    }
+                    \tag viola
+                    \context ViolaMusicStaff = "Viola Music Staff" {
+                        \context ViolaMusicVoice = "Viola Music Voice" {
+                            \set ViolaMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Viola
+                                }
+                            \set ViolaMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Va.
+                                }
+                            \clef "alto"
+                            s1
+                        }
+                    }
+                    \tag cello
+                    \context CelloMusicStaff = "Cello Music Staff" {
+                        \context CelloMusicVoice = "Cello Music Voice" {
+                            \set CelloMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Cello
+                                }
+                            \set CelloMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Vc.
+                                }
+                            \clef "bass"
+                            s1
+                        }
+                    }
+                >>
+            }
+        >>
 
     '''
 
