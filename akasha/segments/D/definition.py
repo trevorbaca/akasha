@@ -274,7 +274,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 5, 14),
     baca.markup.make_markup('XP + senza vib. + full bow strokes'),
     baca.natural_harmonics(),
-    baca.glissandi(),
+    baca.map(baca.glissando(), baca.select().runs()),
     baca.dynamic('ppp'),
     )
 
@@ -302,7 +302,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 3, 10),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
-    baca.glissandi(),
+    baca.map(baca.glissando(), baca.select().runs()),
     baca.dynamic('ppp'),
     )
 
@@ -324,7 +324,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 9, 10),
     baca.markup.tasto_senza_vib(),
     baca.fixed_pitches('Fb3 E3 D#3 C#3 B#2'),
-    baca.glissandi(),
+    baca.glissando(),
     baca.clef('alto'),
     baca.hairpins(['sf > ppp']),
     )
@@ -343,7 +343,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 12, 14),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
-    baca.glissandi(),
+    baca.map(baca.glissando(), baca.select().runs()),
     baca.dynamic('ppp'),
     )
 
@@ -362,7 +362,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 7),
     baca.markup.make_markup('XP + senza vib. + full bow strokes'),
     baca.natural_harmonics(),
-    baca.glissandi(),
+    baca.glissando(),
     baca.clef('bass'),
     baca.dynamic('ppp'),
     )
@@ -383,7 +383,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 12),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
-    baca.glissandi(),
+    baca.glissando(),
     baca.dynamic('ppp'),
     )
 
@@ -391,7 +391,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 14, 16),
     baca.markup.tasto(),
     baca.fixed_pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1'),
-    baca.glissandi(),
+    baca.glissando(),
     baca.hairpins(['sf > ppp']),
     )
 
