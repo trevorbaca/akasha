@@ -329,7 +329,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 15, 16),
     baca.markup.leggieriss(),
     baca.markup.senza_scratch(),
-    baca.hairpins(['mf > pp']),
+    baca.hairpin('mf > pp'),
     )
 
 ### violin 2 ###
@@ -367,7 +367,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 15, 16),
-    baca.hairpins(['mf > pp']),
+    baca.hairpin('mf > pp'),
     )
 
 ### viola ###
@@ -418,7 +418,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 15, 16),
     baca.staccati(),
-    baca.hairpins(['mf > pp']),
+    baca.hairpin('mf > pp'),
     )
 
 segment_maker(

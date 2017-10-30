@@ -326,7 +326,7 @@ segment_maker(
     baca.fixed_pitches('Fb3 E3 D#3 C#3 B#2'),
     baca.glissando(),
     baca.clef('alto'),
-    baca.hairpins(['sf > ppp']),
+    baca.hairpin('sf > ppp'),
     )
 
 segment_maker(
@@ -371,7 +371,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 9),
     baca.markup.tasto(),
     baca.pitches('C#2'),
-    baca.hairpins(['sf > ppp']),
+    baca.hairpin('sf > ppp'),
     )
 
 segment_maker(
@@ -392,7 +392,7 @@ segment_maker(
     baca.markup.tasto(),
     baca.fixed_pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1'),
     baca.glissando(),
-    baca.hairpins(['sf > ppp']),
+    baca.hairpin('sf > ppp'),
     )
 
 ### alternate bow strokes ###
