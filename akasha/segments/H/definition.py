@@ -160,7 +160,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 4),
     baca.markup.tasto(),
     baca.fixed_pitches('D#3 C+3'),
-    baca.glissandi(),
+    baca.glissando(),
     baca.hairpins(['mp > pp']),
     )
 
@@ -168,6 +168,6 @@ segment_maker(
     baca.scope('Cello Music Voice', 4),
     baca.markup.tasto(),
     baca.fixed_pitches('C#2 Bb1'),
-    baca.glissandi(),
+    baca.glissando(),
     baca.hairpins(['mp > pp']),
     )

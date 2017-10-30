@@ -40,8 +40,8 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
-    #label_clock_time=True,
-    #label_stages=True,
+    label_clock_time=False,
+    label_stages=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
@@ -146,21 +146,21 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scope('Violin One Music Voice', 2, 5),
+    baca.scope('Violin One Music Voice', 2, 4),
     baca.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
-    baca.glissandi(),
+    baca.glissando(),
     )
 
 segment_maker(
-    baca.scope('Violin Two Music Voice', 1, 5),
+    baca.scope('Violin Two Music Voice', 1, 4),
     baca.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
-    baca.glissandi(),
+    baca.glissando(),
     )
 
 segment_maker(
-    baca.scope('Viola Music Voice', 1, 5),
+    baca.scope('Viola Music Voice', 1, 4),
     baca.infinite_pitches([3, 5, 2, 4, 2, 0], [1]),
-    baca.glissandi(),
+    baca.glissando(),
     baca.clef('alto'),
     )
 
@@ -175,9 +175,9 @@ segment_maker(
 
 
 segment_maker(
-    baca.scope('Cello Music Voice', 1, 5),
+    baca.scope('Cello Music Voice', 1, 4),
     baca.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
-    baca.glissandi(),
+    baca.glissando(),
     baca.clef('bass'),
     )
 
