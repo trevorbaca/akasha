@@ -173,7 +173,7 @@ talea_rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         denominator=16,
         ),
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-        use_messiaen_style_ties=True,
+        repeat_ties=True,
         ),
     )
 
@@ -195,7 +195,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
         sustain_mask,
         ],
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-        use_messiaen_style_ties=True,
+        repeat_ties=True,
         ),
     tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
         use_note_duration_bracket=True,
@@ -298,7 +298,7 @@ talea_rhythm_maker = abjad.rhythmmakertools.TaleaRhythmMaker(
         denominator=16,
         ),
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-        use_messiaen_style_ties=True,
+        repeat_ties=True,
         ),
     )
 
@@ -320,7 +320,7 @@ accelerando_rhythm_maker = abjad.rhythmmakertools.AccelerandoRhythmMaker(
         sustain_mask,
         ],
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-        use_messiaen_style_ties=True,
+        repeat_ties=True,
         ),
     tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
         use_note_duration_bracket=True,
@@ -425,7 +425,7 @@ segment_maker(
                 denominator=16,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 )
             ),
         tie_last=False,
@@ -444,7 +444,7 @@ segment_maker(
                 denominator=16,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 )
             ),
         tie_last=False,
