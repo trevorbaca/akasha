@@ -308,7 +308,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 12, 14),
-    baca.map(baca.pitched_trill('M2'), baca.select().qruns()),
+    baca.map(baca.trill('M2'), baca.select().qruns()),
     baca.markup.tasto(),
     baca.pitches('G5'),
     baca.dynamic('p'),
