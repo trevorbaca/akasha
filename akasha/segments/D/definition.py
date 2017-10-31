@@ -161,7 +161,7 @@ segment_maker(
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         )
@@ -186,7 +186,7 @@ segment_maker(
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         )

@@ -13,7 +13,7 @@ def polyphony_rhythm(rotation=0):
                 denominator=16,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 simplify_redundant_tuplets=True,
