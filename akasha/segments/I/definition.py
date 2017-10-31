@@ -85,7 +85,7 @@ segment_maker(
         'Cello Music Voice'],
         [1],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 # TODO: remove in favor of segment metadata
@@ -107,17 +107,17 @@ segment_maker(
         'Cello Music Voice'],
         [3],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scopes(['Violin Two Music Voice', 'Cello Music Voice'], [5]),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 7),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -148,7 +148,7 @@ segment_maker(
         'Cello Music Voice'],
         [10],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -167,7 +167,7 @@ segment_maker(
         'Cello Music Voice'],
         [12],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -204,7 +204,7 @@ segment_maker(
         'Cello Music Voice'],
         [16],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -215,7 +215,7 @@ segment_maker(
         'Cello Music Voice'],
         [17],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -226,7 +226,7 @@ segment_maker(
         'Cello Music Voice'],
         [18],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 ###############################################################################

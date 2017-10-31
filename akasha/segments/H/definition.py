@@ -74,7 +74,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 1, 2),
     # TODO: remove after segment metaata work again
     baca.clef('alto'),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -94,7 +94,7 @@ segment_maker(
         'Cello Music Voice'],
         [2],
         ),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
