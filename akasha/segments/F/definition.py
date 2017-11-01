@@ -147,7 +147,7 @@ sustain_mask = abjad.sustain([0, -1])
 #        cyclic=True,
 #        overhang=True,
 #        )
-#    expression = expression.flatten()
+#    expression = expression.flatten(depth=-1)
 #    expression = expression.partition_by_ratio_of_lengths(ratio)
 #    expression = expression[index]
 #    return expression
@@ -156,7 +156,7 @@ sustain_mask = abjad.sustain([0, -1])
 def division_expression(index):
     ratio = abjad.Ratio((2, 1, 2, 2, 1, 2))
     expression = baca.split_by_durations(durations=[(1, 4)])
-    expression = expression.flatten()
+    expression = expression.flatten(depth=-1)
     expression = expression.partition_by_ratio_of_lengths(ratio)
     expression = expression[index]
     return expression
@@ -271,7 +271,7 @@ sustain_mask = abjad.sustain([0, -1])
 #        cyclic=True,
 #        overhang=True,
 #        )
-#    expression = expression.flatten()
+#    expression = expression.flatten(depth=-1)
 #    expression = expression.partition_by_ratio_of_lengths(ratio)
 #    expression = expression[index]
 #    return expression
@@ -280,7 +280,7 @@ sustain_mask = abjad.sustain([0, -1])
 def division_expression(index):
     ratio = abjad.Ratio((1, 1, 2, 2, 1, 2))
     expression = baca.split_by_durations(durations=[(1, 4)])
-    expression = expression.flatten()
+    expression = expression.flatten(depth=-1)
     expression = expression.partition_by_ratio_of_lengths(ratio)
     expression = expression[index]
     return expression
