@@ -7,7 +7,7 @@ def ritardando_rhythm():
         division_expression=baca.sequence()
             .partition_by_counts([1, 2], cyclic=True, overhang=True)
             .map(baca.sequence().sum())
-            .flatten(),
+            .flatten(depth=-1),
         rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
             beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
                 beam_rests=True,

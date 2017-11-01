@@ -6,7 +6,7 @@ numerators = [[3, 3, 4, 5], [4, 6, 6]]
 numerator_groups = baca.helianthate(numerators, -1, 1)
 assert len(numerator_groups) == 24
 lengths = [len(_) for _ in numerator_groups]
-numerators = baca.sequence(numerator_groups).flatten()
+numerators = baca.sequence(numerator_groups).flatten(depth=-1)
 time_signatures_a = [abjad.TimeSignature((_, 4)) for _ in numerators]
 time_signature_groups = baca.sequence(time_signatures_a).partition_by_counts(
     lengths,
