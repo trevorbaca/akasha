@@ -832,17 +832,17 @@
                         \revert TupletNumber.text
                         s1 * 1/4
                         \times 4/5 {
-                            ef''4
+                            ef''4 \< \pp
                             ef''16 \repeatTie
                         }
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            ef''4 \repeatTie
+                            ef''4 \repeatTie \p
                             r16
                         }
                         \times 4/5 {
                             r8.
-                            f''8
+                            f''8 \> \p
                         }
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -856,7 +856,7 @@
                             ef''4
                         }
                         \times 4/5 {
-                            ef''8. \repeatTie
+                            ef''8. \repeatTie \pp
                             r8
                         }
                         \times 4/5 {
@@ -870,7 +870,7 @@
                         \times 4/5 {
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            f''4
+                            f''4 \< \pp
                         }
                         \times 4/5 {
                             f''4 \repeatTie
@@ -914,13 +914,13 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            f''16 * 241/32 [
+                            f''16 * 241/32 \p [
                             r16 * 49/8
-                            ef''16 * 243/64
-                            f''16 * 165/64
+                            ef''16 * 243/64 \> \p
+                            f''16 * 165/64 \pp
                             r16 * 33/16
                             \revert Staff.Stem.stemlet-length
-                            ef''16 * 61/32 ]
+                            ef''16 * 61/32 ] \< \pp
                         }
                         \revert TupletNumber.text
                         \times 4/5 {
@@ -930,12 +930,12 @@
                         }
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            fs''4 \repeatTie
+                            fs''4 \repeatTie \p
                             r16
                         }
                         \times 4/5 {
                             r8.
-                            ef''8
+                            ef''8 \> \p
                         }
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -949,7 +949,7 @@
                             fs''4
                         }
                         \times 4/5 {
-                            fs''8. \repeatTie
+                            fs''8. \repeatTie \pp
                             r8
                         }
                         \times 4/5 {
@@ -963,7 +963,7 @@
                         \times 4/5 {
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            ef''4
+                            ef''4 \< \pp
                         }
                         \times 4/5 {
                             ef''4 \repeatTie
@@ -1008,18 +1008,18 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            e''16 * 31/4 [
+                            e''16 * 31/4 \p [
                             r16 * 233/32
-                            fs''16 * 393/64
-                            e''16 * 39/8
+                            fs''16 * 393/64 \> \p
+                            e''16 * 39/8 \pp
                             r16 * 123/32
                             r16 * 25/8
-                            fs''16 * 169/64
+                            fs''16 * 169/64 \< \pp
                             e''16 * 37/16
-                            fs''16 * 135/64
+                            fs''16 * 135/64 \p
                             r16 * 127/64
                             \revert Staff.Stem.stemlet-length
-                            e''16 * 31/16 ]
+                            e''16 * 31/16 ] \> \p
                         }
                         \revert TupletNumber.text
                         \times 4/5 {
@@ -1029,12 +1029,12 @@
                         }
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            fs''4 \repeatTie
+                            fs''4 \repeatTie \pp
                             r16
                         }
                         \times 4/5 {
                             r8.
-                            e''8
+                            e''8 \< \pp
                         }
                         \times 4/5 {
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1085,15 +1085,15 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            g''16 * 31/4 [
+                            g''16 * 31/4 \p [
                             r16 * 233/32
-                            e''16 * 393/64
-                            g''16 * 39/8
+                            e''16 * 393/64 \> \p
+                            g''16 * 39/8 \pp
                             r16 * 123/32
                             r16 * 25/8
-                            f''16 * 169/64
+                            f''16 * 169/64 \< \pp
                             g''16 * 37/16
-                            f''16 * 135/64
+                            f''16 * 135/64 \p
                             r16 * 127/64
                             \revert Staff.Stem.stemlet-length
                             g''16 * 31/16 ]
@@ -1533,7 +1533,7 @@
                         \revert TupletNumber.text
                         s1 * 1/4
                         {
-                            b'4
+                            b'4 \< \pp
                         }
                         {
                             b'4 \repeatTie
@@ -1544,7 +1544,7 @@
                             cs''8. ]
                         }
                         {
-                            cs''16 \repeatTie
+                            cs''16 \repeatTie \p
                             r8.
                         }
                         {
@@ -1553,7 +1553,7 @@
                         {
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            b'8.
+                            b'8. \> \p
                         }
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1589,12 +1589,12 @@
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             cs''16 * 241/32 [
-                            b'16 * 49/8
+                            b'16 * 49/8 \pp
                             r16 * 243/64
                             cs''16 * 165/64
                             r16 * 33/16
                             \revert Staff.Stem.stemlet-length
-                            b'16 * 61/32 ]
+                            b'16 * 61/32 ] \> \p
                         }
                         \revert TupletNumber.text
                         {
@@ -1610,7 +1610,7 @@
                             b'8. ]
                         }
                         {
-                            b'16 \repeatTie
+                            b'16 \repeatTie \pp
                             r8.
                         }
                         {
@@ -1619,10 +1619,10 @@
                         {
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d''8.
+                            d''8. \< \pp
                         }
                         {
-                            d''4 \repeatTie
+                            d''4 \repeatTie \p
                         }
                         {
                             r4
@@ -1633,10 +1633,10 @@
                         {
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            b'8.
+                            b'8. \> \p
                         }
                         {
-                            b'16 \repeatTie
+                            b'16 \repeatTie \pp
                             r8.
                         }
                         {
@@ -1645,7 +1645,7 @@
                         {
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d''8.
+                            d''8. \< \pp
                         }
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1681,18 +1681,18 @@
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             b'16 * 497/64 [
-                            d''16 * 59/8
+                            d''16 * 59/8 \p
                             r16 * 51/8
                             c''16 * 333/64
                             r16 * 67/16
                             d''16 * 219/64
                             r16 * 185/64
-                            c''16 * 5/2
-                            d''16 * 9/4
+                            c''16 * 5/2 \> \p
+                            d''16 * 9/4 \pp
                             r16 * 133/64
                             r16 * 127/64
                             \revert Staff.Stem.stemlet-length
-                            c''16 * 63/32 ]
+                            c''16 * 63/32 ] \< \pp
                         }
                         \revert TupletNumber.text
                         {
@@ -1708,7 +1708,7 @@
                             c''8. ]
                         }
                         {
-                            c''16 \repeatTie
+                            c''16 \repeatTie \p
                             r8.
                         }
                         {
@@ -1717,7 +1717,7 @@
                         {
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                            d''8.
+                            d''8. \> \p
                         }
                         {
                             d''4 \repeatTie
@@ -1756,14 +1756,14 @@
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             c''16 * 497/64 [
-                            ef''16 * 59/8
+                            ef''16 * 59/8 \pp
                             r16 * 51/8
                             c''16 * 333/64
                             r16 * 67/16
                             ef''16 * 219/64
                             r16 * 185/64
-                            c''16 * 5/2
-                            ef''16 * 9/4
+                            c''16 * 5/2 \< \pp
+                            ef''16 * 9/4 \p
                             r16 * 133/64
                             r16 * 127/64
                             \revert Staff.Stem.stemlet-length
