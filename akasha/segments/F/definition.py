@@ -133,7 +133,7 @@ segment_maker(
 
 ### stage 8 ###
 
-pattern = abjad.index_every([1], period=4) | abjad.index_every([4], period=5)
+pattern = abjad.index([1], 4) | abjad.index([4], 5)
 silence_mask = abjad.SilenceMask(pattern)
 sustain_mask = abjad.sustain([0, -1])
 
@@ -257,7 +257,7 @@ segment_maker(
 
 ### violin 2 ###
 
-pattern = abjad.index_every([2], period=4) | abjad.index_every([4], period=5)
+pattern = abjad.index([2], 4) | abjad.index([4], 5)
 silence_mask = abjad.SilenceMask(pattern)
 sustain_mask = abjad.sustain([0, -1])
 
