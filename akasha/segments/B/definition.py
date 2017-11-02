@@ -60,7 +60,7 @@ segment_maker(
     abjad.new(
         akasha.accelerando_rhythm(fuse_counts=[1]),
         rhythm_maker__logical_tie_masks=abjad.silence([1]),
-        rhythm_maker__division_masks=abjad.silence_last(2),
+        rhythm_maker__division_masks=abjad.silence([-2, -1]),
         ),
     )
 
@@ -73,7 +73,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 1),
     abjad.new(
         akasha.polyphony_rhythm(rotation=-2),
-        rhythm_maker__logical_tie_masks=abjad.silence_first(2),
+        rhythm_maker__logical_tie_masks=abjad.silence([0, 1]),
         ),
     )
 

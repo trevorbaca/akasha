@@ -66,7 +66,7 @@ segment_maker(
         ),
     abjad.new(
         baca.notes(repeat_ties=True),
-        rhythm_maker__division_masks=abjad.silence_every([1], period=2),
+        rhythm_maker__division_masks=abjad.silence([1], 2),
         ),
     )
 

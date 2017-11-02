@@ -197,7 +197,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 10, 14),
     akasha.scratch_rhythm(
         [8],
-        abjad.silence_every([0, 3], inverted=True, period=8),
+        ~abjad.silence([0, 3], 8),
         [1],
         ),
     )
@@ -211,7 +211,7 @@ segment_maker(
             ),
         rhythm_maker__division_masks=[
             abjad.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
-            abjad.silence_last(7),
+            abjad.silence([-7, -6, -5, -4, -3, -2, -1]),
             ],
         ),
     )
@@ -220,7 +220,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 10, 13),
     akasha.scratch_rhythm(
         [8],
-        abjad.silence_every([1, 4], inverted=True, period=9),
+        ~abjad.silence([1, 4], 9),
         [-1],
         ),
     )
@@ -244,7 +244,7 @@ segment_maker(
             [1, 2, 1, 2, 2],
             [6, 3, 5, 4],
             ),
-        rhythm_maker__division_masks=abjad.silence_last(5),
+        rhythm_maker__division_masks=abjad.silence([-5, -4, -3, -2, -1]),
         ),
     )
 
@@ -252,7 +252,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 10, 12),
     akasha.scratch_rhythm(
         [8],
-        abjad.silence_every([2, 5], inverted=True, period=9),
+        ~abjad.silence([2, 5], 9),
         [2],
         ),
     )
@@ -284,7 +284,7 @@ segment_maker(
             [2, 1, 2, 2, 1],
             [6, 3, 5, 4],
             ),
-        rhythm_maker__division_masks=abjad.silence_last(4),
+        rhythm_maker__division_masks=abjad.silence([-4, -3, -2, -1]),
         ),
     )
 
