@@ -677,6 +677,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \clef "treble"
                         b''1. \< \sfp \startTextSpan
                         b''1 \repeatTie \f \stopTextSpan ^ \markup {
                             \override
@@ -1144,6 +1145,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \clef "treble"
                         atqs1. \< \sfp \startTextSpan
                         atqs1 \repeatTie \f \stopTextSpan ^ \markup {
                             \override

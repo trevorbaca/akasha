@@ -34,8 +34,8 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
-    #label_clock_time=True,
-    #label_stages=True,
+    label_clock_time=False,
+    label_stages=False,
     final_markup=(
         ['Cambridge, MA', 'Dallas, TX', 'Madison, WI.'],
         ['October', 'December 2015.'],

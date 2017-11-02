@@ -46,8 +46,8 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
-    #label_clock_time=True,
-    #label_stages=True,
+    label_clock_time=False,
+    label_stages=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
@@ -69,8 +69,6 @@ segment_maker.validate_measures_per_stage()
 segment_maker(
     baca.scope('Viola Music Voice', 1),
     akasha.viola_ob_rhythm(rotation=0),
-    # TODO: remove after segment metadata are working again
-    baca.clef('alto'),
     )
 
 ### stages 3-4 ###
@@ -87,12 +85,6 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 3),
     akasha.viola_ob_rhythm(rotation=-2),
-    )
-
-# TODO: remove after segment metadata are working again
-segment_maker(
-    baca.scope('Cello Music Voice', 1),
-    baca.clef('bass'),
     )
 
 segment_maker(

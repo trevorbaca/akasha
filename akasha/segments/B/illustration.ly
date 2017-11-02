@@ -199,6 +199,7 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
+                            \clef "treble"
                             e''16 * 249/32 [
                             r16 * 43/8
                             d''16 * 179/64
@@ -216,6 +217,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        \clef "treble"
                         ds'4 \mp
                             ^ \markup {
                                 \whiteout
@@ -283,6 +285,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \clef "alto"
                         r4.
                         r4
                         df'2
