@@ -188,6 +188,7 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
+                            \clef "treble"
                             d'16 * 117/16 \p [
                                 ^ \markup {
                                     \whiteout
@@ -284,6 +285,7 @@
                         \times 1/1 {
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
+                            \clef "treble"
                             cs'16 * 109/64 \p [
                                 ^ \markup {
                                     \whiteout

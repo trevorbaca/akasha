@@ -369,6 +369,7 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        \clef "treble"
                         s1 * 3
                         e'4 \mp
                             ^ \markup {
@@ -549,6 +550,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        \clef "treble"
                         s1 * 7/4
                         \times 8/9 {
                             bf32 -\staccato \p [
@@ -773,6 +775,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \clef "alto"
                         s1 * 7/4
                         r2.
                         \times 8/9 {

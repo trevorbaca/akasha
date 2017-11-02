@@ -646,6 +646,7 @@
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         \ottava #1
+                        \clef "treble"
                         \override NoteHead.style = #'harmonic
                         cs''''4. \mp
                             ^ \markup {
@@ -724,6 +725,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        \clef "treble"
                         s1 * 11/2
                         \override NoteHead.style = #'harmonic
                         a'2. -\downbow \ppp \glissando

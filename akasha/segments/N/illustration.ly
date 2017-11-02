@@ -286,6 +286,7 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \clef "treble"
                         \override RepeatTie.direction = #up
                         b'4. -\downbow
                             ^ \markup {
@@ -333,6 +334,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        \clef "treble"
                         s1 * 6
                         r2
                         r4

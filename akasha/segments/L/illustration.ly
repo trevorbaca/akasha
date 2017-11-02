@@ -112,6 +112,7 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        \clef "treble"
                         R1 * 1
                         R1 * 1/4
                         R1 * 3/2
@@ -124,6 +125,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        \clef "treble"
                         R1 * 1
                         R1 * 1/4
                         R1 * 3/2
@@ -169,6 +171,7 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        \clef "treble"
                         s1 * 3
                         \clef "bass"
                         bf,,1. \pp

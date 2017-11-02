@@ -372,6 +372,7 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        \clef "treble"
                         s1 * 13/2
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
@@ -423,6 +424,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        \clef "treble"
                         s1 * 13/2
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1

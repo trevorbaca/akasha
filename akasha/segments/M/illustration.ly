@@ -387,6 +387,7 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        \clef "treble"
                         s1 * 6
                         \override RepeatTie.direction = #up
                         bf'2. \pp
@@ -622,6 +623,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        \clef "treble"
                         s1 * 6
                         bf2. \pp
                             ^ \markup {
@@ -855,6 +857,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        \clef "alto"
                         s1 * 6
                         \clef "alto"
                         bf,2. \pp

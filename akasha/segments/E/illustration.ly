@@ -530,6 +530,7 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        \clef "treble"
                         s1 * 3
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
@@ -1132,6 +1133,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        \clef "treble"
                         s1 * 5/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {

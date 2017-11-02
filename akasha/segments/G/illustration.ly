@@ -276,6 +276,7 @@
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         \times 8/14 {
+                            \clef "treble"
                             r16
                             \once \override Hairpin.circled-tip = ##t
                             g'''16 \> \pp [
@@ -493,6 +494,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \clef "treble"
                         fs'2.. \glissando \> \ff \startTextSpan
                         ef'2.. \glissando
                         f'4. \glissando
