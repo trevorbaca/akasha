@@ -23,15 +23,12 @@ def perforated_counts(degree=0, rotation=None):
     '''
     counts = []
     if degree == 0:
-        pattern_1 = abjad.index_every([0, 1, 2, 3], period=12)
-        pattern_2 = abjad.index_every([0, 1, 2, 3], period=20)
+        pattern_1 = abjad.index([0, 1, 2, 3], 12)
+        pattern_2 = abjad.index([0, 1, 2, 3], 20)
         pattern = pattern_1 | pattern_2
         pattern = ~pattern
     elif degree == 1:
-        pattern = abjad.index_every(
-            [0, 1, 2, 12, 13, 21, 31, 32, 33],
-            period=36,
-            )
+        pattern = abjad.index([0, 1, 2, 12, 13, 21, 31, 32, 33], 36)
     else:
         raise ValueError(f'degree must be between 0 and 1: {degree!r}.')
     vector = pattern.get_boolean_vector()
