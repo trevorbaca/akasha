@@ -608,27 +608,25 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 8),
-    # TODO: revive hairpins
-    #baca.make_repeated_hairpins(
-    #    ['pp < p', 'p > pp'],
-    #    span='nontrivial ties',
-    #    ),
     baca.infinite_pitches(
         [15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18],
         [1],
+        ),
+    baca.map(
+        [baca.hairpin('pp < p'), baca.hairpin('p > pp')],
+        baca.select().runs(),
         ),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 8),
-    # TODO: revive hairpins
-    #baca.make_repeated_hairpins(
-    #    ['pp < p', 'p > pp'],
-    #    span='nontrivial ties',
-    #    ),
     baca.infinite_pitches(
         [11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14],
         [1],
+        ),
+    baca.map(
+        [baca.hairpin('pp < p'), baca.hairpin('p > pp')],
+        baca.select().runs(),
         ),
     )
 
