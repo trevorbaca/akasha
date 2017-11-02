@@ -159,7 +159,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 9),
     abjad.new(
         akasha.accelerando_rhythm(),
-        rhythm_maker__division_masks=abjad.silence_first(1),
+        rhythm_maker__division_masks=abjad.silence([0]),
         rhythm_maker__logical_tie_masks=abjad.silence([3, 5, 7, 9]),
         ),
     )
@@ -168,7 +168,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 9),
     abjad.new(
         akasha.ritardando_rhythm(),
-        rhythm_maker__division_masks=abjad.silence_first(1),
+        rhythm_maker__division_masks=abjad.silence([0]),
         rhythm_maker__logical_tie_masks=abjad.silence([2, 5, 7]),
         ),
     )
@@ -182,7 +182,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 9),
     abjad.new(
         akasha.polyphony_rhythm(rotation=-6),
-        rhythm_maker__logical_tie_masks=abjad.silence_last(1),
+        rhythm_maker__logical_tie_masks=abjad.silence([-1]),
         ),
     )
 
@@ -215,7 +215,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 11),
     abjad.new(
         akasha.polyphony_rhythm(rotation=-10),
-        rhythm_maker__logical_tie_masks=abjad.silence_last(1),
+        rhythm_maker__logical_tie_masks=abjad.silence([-1]),
         ),
     )
 
