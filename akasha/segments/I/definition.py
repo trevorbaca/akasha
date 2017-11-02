@@ -88,18 +88,6 @@ segment_maker(
     baca.tied_notes(repeat_ties=True),
     )
 
-# TODO: remove in favor of segment metadata
-segment_maker(
-    baca.scope('Viola Music Voice', 1),
-    baca.clef('alto'),
-    )
-
-# TODO: remove in favor of segment metadata
-segment_maker(
-    baca.scope('Cello Music Voice', 1),
-    baca.clef('bass'),
-    )
-
 segment_maker(
     baca.scopes([
         'Violin One Music Voice',

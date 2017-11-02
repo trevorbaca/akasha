@@ -65,13 +65,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 1),
-    # TODO: remove in favor of segment metadata
-    baca.clef('bass'),
-    akasha.scratch_rhythm(
-        [4],
-        ~abjad.silence([1]),
-        [-1],
-        ),
+    akasha.scratch_rhythm([4], ~abjad.silence([1]), [-1]),
     )
 
 ### stage 2 ###

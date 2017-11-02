@@ -72,15 +72,11 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 1, 2),
-    # TODO: remove after segment metaata work again
-    baca.clef('alto'),
     baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 1),
-    # TODO: remove after segment metaata work again
-    baca.clef('bass'),
     abjad.new(
         akasha.ritardando_rhythm(),
         division_expression=baca.sequence().sum().sequence(),

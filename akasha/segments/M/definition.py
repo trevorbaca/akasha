@@ -94,8 +94,6 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 1, 8),
-    # TODO: remove in favor of segment metadata
-    baca.clef('bass'),
     baca.pitches('Bb1'),
     )
 
@@ -124,8 +122,6 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 2, 10),
-    # TODO: remove in favor of segment metadata
-    baca.clef('alto'),
     baca.pitches('Bb2'),
     )
 
