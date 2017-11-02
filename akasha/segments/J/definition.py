@@ -58,7 +58,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 1),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([-1]),
+        ~abjad.silence([-1]),
         [-2]
         ),
     )
@@ -69,7 +69,7 @@ segment_maker(
     baca.clef('bass'),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([1]),
+        ~abjad.silence([1]),
         [-1],
         ),
     )
@@ -80,7 +80,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 2),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([0]),
+        ~abjad.silence([0]),
         [-2],
         ),
     )
@@ -89,7 +89,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 2),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([2]),
+        ~abjad.silence([2]),
         [-1],
         ),
     )
@@ -100,7 +100,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 3),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([0]),
+        ~abjad.silence([0]),
         [-2],
         ),
     )
@@ -109,7 +109,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 3),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([-1]),
+        ~abjad.silence([-1]),
         [1],
         ),
     )
@@ -118,7 +118,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 3),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([1]),
+        ~abjad.silence([1]),
         [-1],
         ),
     )

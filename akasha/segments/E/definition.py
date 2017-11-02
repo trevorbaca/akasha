@@ -77,7 +77,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 3),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([-1]),
+        ~abjad.silence([-1]),
         [-2]
         ),
     )
@@ -91,7 +91,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 3),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([1]),
+        ~abjad.silence([1]),
         [-1],
         ),
     )
@@ -102,7 +102,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 5),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([0]),
+        ~abjad.silence([0]),
         [-2],
         ),
     )
@@ -111,7 +111,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 5),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([2]),
+        ~abjad.silence([2]),
         [-1],
         ),
     )
@@ -127,7 +127,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 7),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([0]),
+        ~abjad.silence([0]),
         [-2],
         ),
     )
@@ -136,7 +136,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 7),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([-1]),
+        ~abjad.silence([-1]),
         [1],
         ),
     )
@@ -150,7 +150,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 7),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([1]),
+        ~abjad.silence([1]),
         [-1],
         ),
     )
@@ -168,7 +168,7 @@ segment_maker(
     baca.scope('Violin One Music Voice', 9),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([1, -3]),
+        ~abjad.silence([1, -3]),
         [1],
         ),
     )
@@ -177,7 +177,7 @@ segment_maker(
     baca.scope('Violin Two Music Voice', 9),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([2, -1]),
+        ~abjad.silence([2, -1]),
         [0],
         ),
     )
@@ -186,7 +186,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 9),
     akasha.scratch_rhythm(
         [4],
-        abjad.silence_except([2, -2]),
+        ~abjad.silence([2, -2]),
         [2],
         ),
     )
