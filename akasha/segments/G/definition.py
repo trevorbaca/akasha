@@ -170,7 +170,7 @@ segment_maker(
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
     baca.one_line_staff(),
-    baca.pitches('C4'),
+    baca.staff_positions([0]),
     )
 
 

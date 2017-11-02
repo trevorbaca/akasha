@@ -741,7 +741,7 @@ segment_maker(
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),
     baca.one_line_staff(),
-    baca.pitches('B4'),
+    baca.staff_positions([0]),
     )
 
 ### stages 17-18 (x8) ###
@@ -799,5 +799,5 @@ segment_maker(
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),
     baca.one_line_staff(),
-    baca.pitches('B4'),
+    baca.staff_positions([0]),
     )

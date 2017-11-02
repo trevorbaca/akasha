@@ -378,7 +378,7 @@
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
                         \override RepeatTie.direction = #up
-                        b'1.
+                        c'1.
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -396,27 +396,27 @@
                                     \italic
                                         ”
                                 }
-                        b'1 \repeatTie
-                        b'2. \repeatTie
-                        b'1 \repeatTie
-                        b'2. \repeatTie
-                        b'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
                         s1 * 1
-                        b'2.
-                        b'2. \repeatTie
+                        c'2.
+                        c'2. \repeatTie
                         s1 * 1/4
-                        b'1
+                        c'1
                         s1 * 1/4
-                        b'2.
-                        b'2 \repeatTie
+                        c'2.
+                        c'2 \repeatTie
                         s1 * 1/4
-                        b'1
+                        c'1
                         s1 * 1/4
-                        b'1.
+                        c'1.
                         \revert RepeatTie.direction
                         \stopStaff
                         \startStaff
-                        b'1. \repeatTie
+                        c'1. \repeatTie
                         s1 * 1/4
                         \bar "|"
                     }
@@ -430,7 +430,7 @@
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
                         \override RepeatTie.direction = #up
-                        b'1.
+                        c'1.
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -448,21 +448,21 @@
                                     \italic
                                         ”
                                 }
-                        b'1 \repeatTie
-                        b'2. \repeatTie
-                        b'1 \repeatTie
-                        b'2. \repeatTie
-                        b'2 \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'1 \repeatTie
+                        c'2. \repeatTie
+                        c'2 \repeatTie
                         s1 * 1
-                        b'2.
-                        b'2. \repeatTie
+                        c'2.
+                        c'2. \repeatTie
                         s1 * 1/4
-                        b'1
+                        c'1
                         s1 * 1/4
-                        b'2.
-                        b'2 \repeatTie
+                        c'2.
+                        c'2 \repeatTie
                         s1 * 1/4
-                        b'1
+                        c'1
                         \revert RepeatTie.direction
                         s1 * 1/4
                         \stopStaff
