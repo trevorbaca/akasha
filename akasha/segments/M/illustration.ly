@@ -859,7 +859,6 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \clef "alto"
                         s1 * 6
-                        \clef "alto"
                         bf,2. \pp
                             ^ \markup {
                                 \whiteout
