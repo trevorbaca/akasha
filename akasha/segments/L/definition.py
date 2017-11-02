@@ -77,7 +77,7 @@ segment_maker(
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_each_note_abruptly(),
-    baca.pitches('C4'),
+    baca.staff_positions([0]),
     baca.one_line_staff(),
     baca.clef('alto'),
     )

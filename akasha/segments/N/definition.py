@@ -92,39 +92,26 @@ segment_maker(
 ###############################################################################
 
 segment_maker(
-    baca.scope('Violin One Music Voice', 1, 2),
-    baca.pitches('B4'),
-    )
-
-segment_maker(
-    baca.scope('Viola Music Voice', 1, 2),
-    baca.pitches('C4'),
-    )
-
-segment_maker(
-    baca.scope('Cello Music Voice', 1, 2),
-    baca.pitches('D3'),
-    )
-
-segment_maker(
     baca.scopes([
         'Violin One Music Voice',
         'Viola Music Voice',
         'Cello Music Voice'],
-        [(1, 2)],
+        [(1, 3)],
         ),
     baca.alternate_bow_strokes(),
+    baca.clef('percussion'),
     baca.effort_dynamic('mf'),
     baca.markup.full_bow_strokes(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.repeat_ties_up(),
     baca.one_line_staff(),
+    baca.repeat_ties_up(),
+    baca.staff_positions([0]),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 2, 3),
     akasha.getato_pitches(29, direction=Down),
-    baca.staccati(),
-    baca.markup.leggieriss(),
     baca.dynamic('pp'),
+    baca.markup.leggieriss(),
+    baca.staccati(),
     )

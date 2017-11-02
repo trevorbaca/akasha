@@ -286,9 +286,9 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \clef "treble"
+                        \clef "percussion"
                         \override RepeatTie.direction = #up
-                        b'4. -\downbow
+                        c'4. -\downbow
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -307,28 +307,28 @@
                                         ”
                                 }
                         r2
-                        b'2.. -\upbow
+                        c'2.. -\upbow
                         r2..
-                        b'4. -\downbow
+                        c'4. -\downbow
                         r2.
-                        b'2. -\upbow
-                        b'4. \repeatTie
+                        c'2. -\upbow
+                        c'4. \repeatTie
                         r2.
                         r4.
-                        b'2 -\downbow
+                        c'2 -\downbow
                         r1
-                        b'2. -\upbow
+                        c'2. -\upbow
                         r2..
-                        b'2.. -\downbow
+                        c'2.. -\downbow
                         r4.
-                        b'1 -\upbow
+                        c'1 -\upbow
                         \revert RepeatTie.direction
                         r2.
                         r4.
-                        \stopStaff
-                        \startStaff
                         s1 * 13/2
                         \bar "|."
+                        \stopStaff
+                        \startStaff
                     }
                 }
                 \tag violin_two
@@ -391,7 +391,7 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \clef "alto"
+                        \clef "percussion"
                         \override RepeatTie.direction = #up
                         c'4. -\downbow
                             ^ \markup {
@@ -430,10 +430,10 @@
                         \revert RepeatTie.direction
                         r2.
                         r4.
-                        \stopStaff
-                        \startStaff
                         s1 * 13/2
                         \bar "|."
+                        \stopStaff
+                        \startStaff
                     }
                 }
                 \tag cello
@@ -442,9 +442,9 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        \clef "bass"
+                        \clef "percussion"
                         \override RepeatTie.direction = #up
-                        d4. -\downbow
+                        c'4. -\downbow
                             ^ \markup {
                                 \whiteout
                                     \upright
@@ -463,26 +463,24 @@
                                         ”
                                 }
                         r2
-                        d2.. -\upbow
+                        c'2.. -\upbow
                         r2..
-                        d4. -\downbow
+                        c'4. -\downbow
                         r2.
-                        d2. -\upbow
-                        d4. \repeatTie
+                        c'2. -\upbow
+                        c'4. \repeatTie
                         r2.
                         r4.
-                        d2 -\downbow
+                        c'2 -\downbow
                         r1
-                        d2. -\upbow
+                        c'2. -\upbow
                         r2..
-                        d2.. -\downbow
+                        c'2.. -\downbow
                         r4.
-                        d1 -\upbow
+                        c'1 -\upbow
                         \revert RepeatTie.direction
                         r2.
                         r4.
-                        \stopStaff
-                        \startStaff
                         R1 * 9/8
                         R1 * 1/2
                         R1 * 1/2
@@ -491,6 +489,8 @@
                         R1 * 1
                         R1 * 9/8
                         R1 * 9/8
+                        \stopStaff
+                        \startStaff
                         \once \override TextScript.extra-offset = #'(-41 . -4)
                         s1 * 1/4
                             _ \markup {

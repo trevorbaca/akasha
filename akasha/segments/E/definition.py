@@ -371,7 +371,7 @@ segment_maker(
     baca.markup.OB(),
     baca.repeat_ties_up(),
     baca.one_line_staff(),
-    baca.pitches('C4'),
+    baca.staff_positions([0]),
     )
 
 ### cello ###

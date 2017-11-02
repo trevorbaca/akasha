@@ -203,21 +203,21 @@ segment_maker(
         ],
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
-    baca.pitches('B4'),
+    baca.staff_positions([0]),
     )
 
 segment_maker(
     baca.scope('Violin One Music Voice', 9, 22),
     baca.repeat_ties_up(),
     baca.one_line_staff(),
-    baca.pitches('B4'),
+    baca.staff_positions([0]),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 9, 21),
     baca.repeat_ties_up(),
     baca.one_line_staff(),
-    baca.pitches('B4'),
+    baca.staff_positions([0]),
     )
 
 segment_maker(

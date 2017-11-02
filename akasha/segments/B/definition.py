@@ -172,9 +172,9 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 9),
-    baca.pitches('D#3'),
-    baca.markup.tasto(),
     baca.dynamic('mp'),
+    baca.markup.tasto(),
+    baca.pitches('D#3'),
     )
 
 segment_maker(
