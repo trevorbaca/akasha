@@ -1097,7 +1097,7 @@
                             f''16 * 135/64 \p
                             r16 * 127/64
                             \revert Staff.Stem.stemlet-length
-                            g''16 * 31/16 ]
+                            g''16 * 31/16 ] \p
                         }
                         \revert TupletNumber.text
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1593,7 +1593,7 @@
                             cs''16 * 241/32 [
                             b'16 * 49/8 \pp
                             r16 * 243/64
-                            cs''16 * 165/64
+                            cs''16 * 165/64 \pp
                             r16 * 33/16
                             \revert Staff.Stem.stemlet-length
                             b'16 * 61/32 ] \> \p
@@ -1685,9 +1685,9 @@
                             b'16 * 497/64 [
                             d''16 * 59/8 \p
                             r16 * 51/8
-                            c''16 * 333/64
+                            c''16 * 333/64 \p
                             r16 * 67/16
-                            d''16 * 219/64
+                            d''16 * 219/64 \pp
                             r16 * 185/64
                             c''16 * 5/2 \> \p
                             d''16 * 9/4 \pp
@@ -1760,16 +1760,16 @@
                             c''16 * 497/64 [
                             ef''16 * 59/8 \pp
                             r16 * 51/8
-                            c''16 * 333/64
+                            c''16 * 333/64 \pp
                             r16 * 67/16
-                            ef''16 * 219/64
+                            ef''16 * 219/64 \p
                             r16 * 185/64
                             c''16 * 5/2 \< \pp
                             ef''16 * 9/4 \p
                             r16 * 133/64
                             r16 * 127/64
                             \revert Staff.Stem.stemlet-length
-                            cs''16 * 63/32 ]
+                            cs''16 * 63/32 ] \p
                         }
                         \revert TupletNumber.text
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2319,6 +2319,9 @@
                             c''''16 -\staccato \fff ]
                         }
                         s1 * 1/4
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         b'1. -\downbow
                             ^ \markup {
                                 \whiteout
@@ -2337,6 +2340,8 @@
                                     \italic
                                         ”
                                 }
+                        \stopStaff
+                        \startStaff
                         s1 * 1/4
                         \times 12/15 {
                             r16
@@ -2400,6 +2405,9 @@
                             c'''16 -\staccato ]
                         }
                         s1 * 1/4
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         b'1. -\downbow
                             ^ \markup {
                                 \whiteout
@@ -2418,6 +2426,8 @@
                                     \italic
                                         ”
                                 }
+                        \stopStaff
+                        \startStaff
                         s1 * 1/4
                         \bar "|"
                     }
