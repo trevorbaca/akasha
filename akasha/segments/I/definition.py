@@ -251,7 +251,7 @@ segment_maker(
         'Cello Music Voice'],
         [1],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.pos_ord_senza_vib(),
         baca.markup.vib_moltiss(),
         ),
@@ -282,7 +282,7 @@ segment_maker(
         'Cello Music Voice'],
         [3],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
@@ -303,7 +303,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 4),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(3, 4),
         ),
@@ -323,7 +323,7 @@ segment_maker(
 
 segment_maker(
     baca.scopes(['Violin Two Music Voice', 'Cello Music Voice'], [5]),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
@@ -344,7 +344,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 6),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(3, 4),
         ),
@@ -352,7 +352,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 6),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 2),
         ),
@@ -367,7 +367,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 7),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
@@ -388,7 +388,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 8),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 2),
         ),
@@ -396,7 +396,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 8),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(3, 4),
         ),
@@ -404,7 +404,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 8),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 4),
         ),
@@ -419,7 +419,7 @@ segment_maker(
         'Viola Music Voice'],
         [9],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.XP(),
         ),
@@ -433,7 +433,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 9),
     baca.alternate_bow_strokes(),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.OB(),
         baca.markup.XP(),
         ),
@@ -475,7 +475,7 @@ segment_maker(
         'Cello Music Voice'],
         [12],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.XP_FB(),
         baca.markup.tasto_FB(),
         ),
@@ -545,7 +545,7 @@ segment_maker(
         'Cello Music Voice'],
         [16],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.tasto_fractional_scratch(1, 2),
         ),
@@ -560,7 +560,7 @@ segment_maker(
         'Cello Music Voice'],
         [17],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         ),

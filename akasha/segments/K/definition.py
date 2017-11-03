@@ -222,7 +222,7 @@ segment_maker(
         'Cello Music Voice'],
         [2],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.one_click_every(1, 2),
         baca.select().leaves()[:-1].group(),
@@ -237,7 +237,7 @@ segment_maker(
         'Cello Music Voice'],
         [3],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.clicks_per_second(1, 2),
         baca.select().leaves()[:-1].group(),
@@ -252,7 +252,7 @@ segment_maker(
         'Cello Music Voice'],
         [4],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         baca.select().leaves()[:-1].group(),
@@ -278,7 +278,7 @@ segment_maker(
         'Cello Music Voice'],
         [5],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_scratch(1, 2),
         baca.select().leaves()[:-1].group(),
@@ -293,7 +293,7 @@ segment_maker(
         'Cello Music Voice'],
         [6],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.pos_ord(),
         baca.select().leaves()[:-1].group(),
@@ -308,7 +308,7 @@ segment_maker(
         'Cello Music Voice'],
         [7],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
         baca.select().leaves()[:-1].group(),
@@ -358,7 +358,7 @@ segment_maker(
         'Cello Music Voice'],
         [9],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.pos_ord_senza_vib(),
         baca.markup.XP(),
         baca.select().leaves()[:3].group(),
@@ -375,7 +375,7 @@ segment_maker(
         [9],
         ),
     baca.hairpin('fff > p', baca.select().leaves()[-2:]),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.XP(),
         baca.markup.pos_ord(),
         baca.select().leaves()[-2:].group(),
@@ -412,7 +412,7 @@ segment_maker(
         'Cello Music Voice'],
         [10],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
         baca.select().leaves()[:2].group(),
@@ -428,7 +428,7 @@ segment_maker(
         'Cello Music Voice'],
         [10],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.XP(),
         baca.markup.pos_ord(),
         baca.select().leaves()[-2:].group(),
@@ -490,7 +490,7 @@ segment_maker(
         'Cello Music Voice'],
         [12],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XT(),
         baca.select().leaves()[:-1].group(),
@@ -599,7 +599,7 @@ segment_maker(
         'Cello Music Voice'],
         [19],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
         baca.select().leaves()[:3].group(),
@@ -615,7 +615,7 @@ segment_maker(
         'Cello Music Voice'],
         [19],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.XP(),
         baca.markup.pos_ord(),
         baca.select().leaves()[-2:].group(),
@@ -644,7 +644,7 @@ segment_maker(
         'Cello Music Voice'],
         [(20, 21)],
         ),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
         baca.select().leaves()[:4].group(),
