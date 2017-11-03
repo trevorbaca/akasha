@@ -671,7 +671,7 @@ segment_maker(
         [(10, 11)],
         ),
     baca.hairpin('mp < f'),
-    baca.transition_spanner(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         ),
