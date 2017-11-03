@@ -370,11 +370,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "tasto + 1/4 scratch"
+                                    \whiteout
+                                        \upright
+                                            "tasto + 1/4 scratch"
                                     \hspace
                                         #0.5
                                 }
@@ -392,11 +390,9 @@
                         g''2.
                         g''4. \repeatTie \glissando
                         f''2 \mf \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        tasto
+                            \whiteout
+                                \upright
+                                    tasto
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -404,11 +400,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -423,11 +417,9 @@
                         ef''1 \glissando \> \mf \startTextSpan
                         fs''4. \glissando
                         e''2 \p \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        FB
+                            \whiteout
+                                \upright
+                                    FB
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -435,11 +427,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -456,11 +446,9 @@
                         af''4. \repeatTie \glissando
                         fs''2.
                         fs''4. \repeatTie \pp \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XFB
+                            \whiteout
+                                \upright
+                                    XFB
                             }
                         s1 * 1/4
                         fs''2 \ppp
@@ -478,11 +466,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "tasto + scratch moltiss."
+                                    \whiteout
+                                        \upright
+                                            "tasto + scratch moltiss."
                                     \hspace
                                         #0.5
                                 }
@@ -499,11 +485,9 @@
                         ef'2.. \glissando
                         f'4. \glissando
                         ef'2. \f \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1/4 scratch"
+                            \whiteout
+                                \upright
+                                    "1/4 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -511,11 +495,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -532,11 +514,9 @@
                         e'2.
                         e'4. \repeatTie \glissando
                         g'2 \mf \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        tasto
+                            \whiteout
+                                \upright
+                                    tasto
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -544,11 +524,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -563,11 +541,9 @@
                         e'1 \glissando \> \mf \startTextSpan
                         fs'4. \glissando
                         e'2 \p \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        FB
+                            \whiteout
+                                \upright
+                                    FB
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -575,11 +551,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -596,11 +570,9 @@
                         f'4. \repeatTie \glissando
                         af'2.
                         af'4. \repeatTie \pp \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XFB
+                            \whiteout
+                                \upright
+                                    XFB
                             }
                         s1 * 1/4
                         af'2 \ppp
@@ -618,11 +590,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "tasto + scratch moltiss."
+                                    \whiteout
+                                        \upright
+                                            "tasto + scratch moltiss."
                                     \hspace
                                         #0.5
                                 }
@@ -639,11 +609,9 @@
                         f'2.. \glissando
                         d'4. \glissando
                         e'2. \f \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1/4 scratch"
+                            \whiteout
+                                \upright
+                                    "1/4 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -651,11 +619,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -672,11 +638,9 @@
                         c'2.
                         c'4. \repeatTie \glissando
                         e'2 \mf \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        tasto
+                            \whiteout
+                                \upright
+                                    tasto
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -684,11 +648,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -703,11 +665,9 @@
                         fs'1 \glissando \> \mf \startTextSpan
                         ef'4. \glissando
                         f'2 \p \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        FB
+                            \whiteout
+                                \upright
+                                    FB
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -715,11 +675,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -736,11 +694,9 @@
                         cs'4. \repeatTie \glissando
                         f'2.
                         f'4. \repeatTie \pp \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XFB
+                            \whiteout
+                                \upright
+                                    XFB
                             }
                         s1 * 1/4
                         \stopStaff
@@ -780,11 +736,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "tasto + scratch moltiss."
+                                    \whiteout
+                                        \upright
+                                            "tasto + scratch moltiss."
                                     \hspace
                                         #0.5
                                 }
@@ -801,11 +755,9 @@
                         ef,2.. \glissando
                         f,4. \glissando
                         d,2. \f \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1/4 scratch"
+                            \whiteout
+                                \upright
+                                    "1/4 scratch"
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -813,11 +765,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -834,11 +784,9 @@
                         d,2.
                         d,4. \repeatTie \glissando
                         c,2 \mf \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        tasto
+                            \whiteout
+                                \upright
+                                    tasto
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -846,11 +794,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -865,11 +811,9 @@
                         d,1 \glissando \> \mf \startTextSpan
                         e,4. \glissando
                         cs,2 \p \stopTextSpan \glissando ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        FB
+                            \whiteout
+                                \upright
+                                    FB
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -877,11 +821,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -898,11 +840,9 @@
                         cs,4. \repeatTie \glissando
                         b,,2.
                         b,,4. \repeatTie \pp \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XFB
+                            \whiteout
+                                \upright
+                                    XFB
                             }
                         s1 * 1/4
                         cs,2 \ppp

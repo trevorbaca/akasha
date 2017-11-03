@@ -815,11 +815,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -834,11 +832,9 @@
                         a''4. \repeatTie \startTextSpan
                         a''2 \repeatTie
                         a''4. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1 click/1-2 sec."
+                            \whiteout
+                                \upright
+                                    "1 click/1-2 sec."
                             }
                         a''2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -847,11 +843,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -866,11 +860,9 @@
                         a''2.. \repeatTie \startTextSpan
                         a''2.. \repeatTie
                         a''2 \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1-2 clicks/sec."
+                            \whiteout
+                                \upright
+                                    "1-2 clicks/sec."
                             }
                         a''4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -879,11 +871,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -898,11 +888,9 @@
                         a''2.. \repeatTie \startTextSpan
                         a''4. \repeatTie
                         a''2. \ff \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "scratch moltiss."
+                            \whiteout
+                                \upright
+                                    "scratch moltiss."
                             }
                         a''2.. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -911,11 +899,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -932,11 +918,9 @@
                         a''2 \repeatTie
                         a''1 \repeatTie
                         a''2. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1/2 scratch"
+                            \whiteout
+                                \upright
+                                    "1/2 scratch"
                             }
                         a''4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -945,11 +929,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -964,11 +946,9 @@
                         a''2.. \repeatTie \startTextSpan
                         a''2.. \repeatTie
                         a''4. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         a''2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -977,11 +957,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -998,11 +976,9 @@
                         a''2. \repeatTie
                         a''4. \repeatTie
                         a''2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "vib. moltiss."
+                            \whiteout
+                                \upright
+                                    "vib. moltiss."
                             }
                         a''1 \repeatTie
                         s1 * 1/4
@@ -1012,11 +988,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord. + senza vib"
+                                    \whiteout
+                                        \upright
+                                            "pos. ord. + senza vib"
                                     \hspace
                                         #0.5
                                 }
@@ -1028,7 +1002,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''4. \< \sffp \startTextSpan
+                        a''4. \< \sffp \startTextSpan \startTextSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1041,12 +1015,16 @@
                                                         x6
                                 }
                         a''2 \repeatTie
-                        a''1 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        a''1 \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         a''2. \repeatTie
                         a''4. \repeatTie
@@ -1056,11 +1034,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -1072,13 +1048,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''2. \repeatTie \> \fff \startTextSpan
-                        a''4. \repeatTie \p \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        a''2. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        a''4. \repeatTie \p \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1086,11 +1066,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1102,13 +1080,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''2 \< \sffp \startTextSpan
-                        a''2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        a''2 \< \sffp \startTextSpan \startTextSpan
+                        a''2 \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         a''4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1117,11 +1099,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -1133,13 +1113,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''2. \repeatTie \> \fff \startTextSpan
-                        a''2.. \repeatTie \p \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        a''2. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        a''2.. \repeatTie \p \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         s1 * 1/4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1148,11 +1132,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1168,11 +1150,9 @@
                         a''4. \repeatTie
                         a''4. \repeatTie
                         a''2 \repeatTie \pp \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XT
+                            \whiteout
+                                \upright
+                                    XT
                             }
                         a''4. \repeatTie
                         s1 * 1/4
@@ -1202,11 +1182,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1218,7 +1196,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        b''''4. \< \sf \startTextSpan \startTrillSpan
+                        b''''4. \< \sf \startTextSpan \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1231,12 +1209,16 @@
                                                         x6
                                 }
                         b''''2. \repeatTie
-                        b''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        b''''2.. \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         b''''2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1245,11 +1227,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -1261,13 +1241,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        b''''4. \repeatTie \> \fff \startTextSpan
-                        b''''2 \repeatTie \f \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        b''''4. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        b''''2 \repeatTie \f \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1275,11 +1259,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1295,11 +1277,9 @@
                         b''''2. \repeatTie
                         b''''4. \repeatTie
                         b''''2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         b''''4. \repeatTie
                         b''''2. \repeatTie
@@ -1347,11 +1327,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1366,11 +1344,9 @@
                         gtqs'4. \repeatTie \startTextSpan
                         gtqs'2 \repeatTie
                         gtqs'4. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1 click/1-2 sec."
+                            \whiteout
+                                \upright
+                                    "1 click/1-2 sec."
                             }
                         gtqs'2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1379,11 +1355,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1398,11 +1372,9 @@
                         gtqs'2.. \repeatTie \startTextSpan
                         gtqs'2.. \repeatTie
                         gtqs'2 \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1-2 clicks/sec."
+                            \whiteout
+                                \upright
+                                    "1-2 clicks/sec."
                             }
                         gtqs'4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1411,11 +1383,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1430,11 +1400,9 @@
                         gtqs'2.. \repeatTie \startTextSpan
                         gtqs'4. \repeatTie
                         gtqs'2. \ff \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "scratch moltiss."
+                            \whiteout
+                                \upright
+                                    "scratch moltiss."
                             }
                         gtqs'2.. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1443,11 +1411,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1464,11 +1430,9 @@
                         gtqs'2 \repeatTie
                         gtqs'1 \repeatTie
                         gtqs'2. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1/2 scratch"
+                            \whiteout
+                                \upright
+                                    "1/2 scratch"
                             }
                         gtqs'4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1477,11 +1441,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1496,11 +1458,9 @@
                         gtqs'2.. \repeatTie \startTextSpan
                         gtqs'2.. \repeatTie
                         gtqs'4. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         gtqs'2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1509,11 +1469,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1530,11 +1488,9 @@
                         gtqs'2. \repeatTie
                         gtqs'4. \repeatTie
                         gtqs'2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "vib. moltiss."
+                            \whiteout
+                                \upright
+                                    "vib. moltiss."
                             }
                         gtqs'1 \repeatTie
                         s1 * 1/4
@@ -1544,11 +1500,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord. + senza vib"
+                                    \whiteout
+                                        \upright
+                                            "pos. ord. + senza vib"
                                     \hspace
                                         #0.5
                                 }
@@ -1560,7 +1514,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a'4. \< \sffp \startTextSpan
+                        a'4. \< \sffp \startTextSpan \startTextSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1573,12 +1527,16 @@
                                                         x6
                                 }
                         a'2 \repeatTie
-                        a'1 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        a'1 \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         a'2. \repeatTie
                         a'4. \repeatTie
@@ -1588,11 +1546,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -1604,13 +1560,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a'2. \repeatTie \> \fff \startTextSpan
-                        a'4. \repeatTie \p \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        a'2. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        a'4. \repeatTie \p \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1618,11 +1578,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1634,13 +1592,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        gtqs'2 \< \sffp \startTextSpan
-                        gtqs'2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        gtqs'2 \< \sffp \startTextSpan \startTextSpan
+                        gtqs'2 \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         gtqs'4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1649,11 +1611,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -1665,13 +1625,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        gtqs'2. \repeatTie \> \fff \startTextSpan
-                        gtqs'2.. \repeatTie \p \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        gtqs'2. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        gtqs'2.. \repeatTie \p \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         s1 * 1/4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1680,11 +1644,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1700,11 +1662,9 @@
                         a'4. \repeatTie
                         a'4. \repeatTie
                         a'2 \repeatTie \pp \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XT
+                            \whiteout
+                                \upright
+                                    XT
                             }
                         a'4. \repeatTie
                         s1 * 1/4
@@ -1734,11 +1694,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1750,7 +1708,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        cs''''4. \< \sf \startTextSpan \startTrillSpan
+                        cs''''4. \< \sf \startTextSpan \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1763,12 +1721,16 @@
                                                         x6
                                 }
                         cs''''2. \repeatTie
-                        cs''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        cs''''2.. \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         cs''''2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1777,11 +1739,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -1793,13 +1753,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        cs''''4. \repeatTie \> \fff \startTextSpan
-                        cs''''2 \repeatTie \f \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        cs''''4. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        cs''''2 \repeatTie \f \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1807,11 +1771,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -1827,11 +1789,9 @@
                         cs''''2. \repeatTie
                         cs''''4. \repeatTie
                         cs''''2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         cs''''4. \repeatTie
                         cs''''2. \repeatTie
@@ -1879,11 +1839,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1898,11 +1856,9 @@
                         aqs,4. \repeatTie \startTextSpan
                         aqs,2 \repeatTie
                         aqs,4. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1 click/1-2 sec."
+                            \whiteout
+                                \upright
+                                    "1 click/1-2 sec."
                             }
                         aqs,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1911,11 +1867,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1930,11 +1884,9 @@
                         aqs,2.. \repeatTie \startTextSpan
                         aqs,2.. \repeatTie
                         aqs,2 \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1-2 clicks/sec."
+                            \whiteout
+                                \upright
+                                    "1-2 clicks/sec."
                             }
                         aqs,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1943,11 +1895,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1962,11 +1912,9 @@
                         aqs,2.. \repeatTie \startTextSpan
                         aqs,4. \repeatTie
                         aqs,2. \ff \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "scratch moltiss."
+                            \whiteout
+                                \upright
+                                    "scratch moltiss."
                             }
                         aqs,2.. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1975,11 +1923,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1996,11 +1942,9 @@
                         aqs,2 \repeatTie
                         aqs,1 \repeatTie
                         aqs,2. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1/2 scratch"
+                            \whiteout
+                                \upright
+                                    "1/2 scratch"
                             }
                         aqs,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2009,11 +1953,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2028,11 +1970,9 @@
                         aqs,2.. \repeatTie \startTextSpan
                         aqs,2.. \repeatTie
                         aqs,4. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         aqs,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2041,11 +1981,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2062,11 +2000,9 @@
                         aqs,2. \repeatTie
                         aqs,4. \repeatTie
                         aqs,2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "vib. moltiss."
+                            \whiteout
+                                \upright
+                                    "vib. moltiss."
                             }
                         aqs,1 \repeatTie
                         s1 * 1/4
@@ -2076,11 +2012,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord. + senza vib"
+                                    \whiteout
+                                        \upright
+                                            "pos. ord. + senza vib"
                                     \hspace
                                         #0.5
                                 }
@@ -2092,7 +2026,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,4. \< \sffp \startTextSpan
+                        a,4. \< \sffp \startTextSpan \startTextSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -2105,12 +2039,16 @@
                                                         x6
                                 }
                         a,2 \repeatTie
-                        a,1 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        a,1 \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         a,2. \repeatTie
                         a,4. \repeatTie
@@ -2120,11 +2058,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -2136,13 +2072,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,2. \repeatTie \> \fff \startTextSpan
-                        a,4. \repeatTie \p \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        a,2. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        a,4. \repeatTie \p \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2150,11 +2090,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2166,13 +2104,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        aqs,2 \< \sffp \startTextSpan
-                        aqs,2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        aqs,2 \< \sffp \startTextSpan \startTextSpan
+                        aqs,2 \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         aqs,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2181,11 +2123,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -2197,13 +2137,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        aqs,2. \repeatTie \> \fff \startTextSpan
-                        aqs,2.. \repeatTie \p \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        aqs,2. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        aqs,2.. \repeatTie \p \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         s1 * 1/4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2212,11 +2156,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2232,11 +2174,9 @@
                         a,4. \repeatTie
                         a,4. \repeatTie
                         a,2 \repeatTie \pp \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XT
+                            \whiteout
+                                \upright
+                                    XT
                             }
                         a,4. \repeatTie
                         s1 * 1/4
@@ -2264,11 +2204,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2280,7 +2218,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        gqf''4. \< \sf \startTextSpan \startTrillSpan
+                        gqf''4. \< \sf \startTextSpan \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -2293,12 +2231,16 @@
                                                         x6
                                 }
                         gqf''2. \repeatTie
-                        gqf''2.. \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        gqf''2.. \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         gqf''2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2307,11 +2249,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -2323,13 +2263,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        gqf''4. \repeatTie \> \fff \startTextSpan
-                        gqf''2 \repeatTie \f \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        gqf''4. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        gqf''2 \repeatTie \f \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2337,11 +2281,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2357,11 +2299,9 @@
                         gqf''2. \repeatTie
                         gqf''4. \repeatTie
                         gqf''2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         gqf''4. \repeatTie
                         gqf''2. \repeatTie
@@ -2408,11 +2348,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2427,11 +2365,9 @@
                         a,,4. \repeatTie \startTextSpan
                         a,,2 \repeatTie
                         a,,4. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1 click/1-2 sec."
+                            \whiteout
+                                \upright
+                                    "1 click/1-2 sec."
                             }
                         a,,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2440,11 +2376,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2459,11 +2393,9 @@
                         a,,2.. \repeatTie \startTextSpan
                         a,,2.. \repeatTie
                         a,,2 \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1-2 clicks/sec."
+                            \whiteout
+                                \upright
+                                    "1-2 clicks/sec."
                             }
                         a,,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2472,11 +2404,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2491,11 +2421,9 @@
                         a,,2.. \repeatTie \startTextSpan
                         a,,4. \repeatTie
                         a,,2. \ff \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "scratch moltiss."
+                            \whiteout
+                                \upright
+                                    "scratch moltiss."
                             }
                         a,,2.. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2504,11 +2432,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2525,11 +2451,9 @@
                         a,,2 \repeatTie
                         a,,1 \repeatTie
                         a,,2. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "1/2 scratch"
+                            \whiteout
+                                \upright
+                                    "1/2 scratch"
                             }
                         a,,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2538,11 +2462,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2557,11 +2479,9 @@
                         a,,2.. \repeatTie \startTextSpan
                         a,,2.. \repeatTie
                         a,,4. \repeatTie \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         a,,2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2570,11 +2490,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2591,11 +2509,9 @@
                         a,,2. \repeatTie
                         a,,4. \repeatTie
                         a,,2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "vib. moltiss."
+                            \whiteout
+                                \upright
+                                    "vib. moltiss."
                             }
                         a,,1 \repeatTie
                         s1 * 1/4
@@ -2605,11 +2521,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord. + senza vib"
+                                    \whiteout
+                                        \upright
+                                            "pos. ord. + senza vib"
                                     \hspace
                                         #0.5
                                 }
@@ -2621,7 +2535,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,4. \< \sffp \startTextSpan
+                        a,,4. \< \sffp \startTextSpan \startTextSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -2634,12 +2548,16 @@
                                                         x6
                                 }
                         a,,2 \repeatTie
-                        a,,1 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        a,,1 \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         a,,2. \repeatTie
                         a,,4. \repeatTie
@@ -2649,11 +2567,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -2665,13 +2581,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,2. \repeatTie \> \fff \startTextSpan
-                        a,,4. \repeatTie \p \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        a,,2. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        a,,4. \repeatTie \p \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2679,11 +2599,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2695,13 +2613,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,2 \< \sffp \startTextSpan
-                        a,,2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        a,,2 \< \sffp \startTextSpan \startTextSpan
+                        a,,2 \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         a,,4. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2710,11 +2632,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -2726,13 +2646,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,2. \repeatTie \> \fff \startTextSpan
-                        a,,2.. \repeatTie \p \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        a,,2. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        a,,2.. \repeatTie \p \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         s1 * 1/4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2741,11 +2665,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2761,11 +2683,9 @@
                         a,,4. \repeatTie
                         a,,4. \repeatTie
                         a,,2 \repeatTie \pp \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XT
+                            \whiteout
+                                \upright
+                                    XT
                             }
                         a,,4. \repeatTie
                         s1 * 1/4
@@ -2793,11 +2713,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2809,7 +2727,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d''4. \< \sf \startTextSpan \startTrillSpan
+                        d''4. \< \sf \startTextSpan \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -2822,12 +2740,16 @@
                                                         x6
                                 }
                         d''2. \repeatTie
-                        d''2.. \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                        d''2.. \repeatTie \fff \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         d''2. \repeatTie
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2836,11 +2758,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                XP
+                                    \whiteout
+                                        \upright
+                                            XP
                                     \hspace
                                         #0.5
                                 }
@@ -2852,13 +2772,17 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d''4. \repeatTie \> \fff \startTextSpan
-                        d''2 \repeatTie \f \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
+                        d''4. \repeatTie \> \fff \startTextSpan \startTextSpan
+                        d''2 \repeatTie \f \stopTextSpan \stopTextSpan
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
+                            }
+                            ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord."
                             }
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2866,11 +2790,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                "pos. ord."
+                                    \whiteout
+                                        \upright
+                                            "pos. ord."
                                     \hspace
                                         #0.5
                                 }
@@ -2886,11 +2808,9 @@
                         d''2. \repeatTie
                         d''4. \repeatTie
                         d''2 \repeatTie \fff \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        XP
+                            \whiteout
+                                \upright
+                                    XP
                             }
                         d''4. \repeatTie
                         d''2. \repeatTie
