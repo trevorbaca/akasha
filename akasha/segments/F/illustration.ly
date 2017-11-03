@@ -1117,11 +1117,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1142,11 +1140,9 @@
                         f''1 \repeatTie
                         f''2. \repeatTie
                         f''2 \repeatTie \f \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "scratch moltiss."
+                            \whiteout
+                                \upright
+                                    "scratch moltiss."
                             }
                         s1 * 1/4
                         \times 8/14 {
@@ -1789,11 +1785,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -1814,11 +1808,9 @@
                         fs'1 \repeatTie
                         fs'2. \repeatTie
                         fs'2 \repeatTie \f \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "scratch moltiss."
+                            \whiteout
+                                \upright
+                                    "scratch moltiss."
                             }
                         s1 * 1/4
                         \times 8/12 {
@@ -2118,11 +2110,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2143,11 +2133,9 @@
                         ds'1 \repeatTie
                         ds'2. \repeatTie
                         ds'2 \repeatTie \f \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "scratch moltiss."
+                            \whiteout
+                                \upright
+                                    "scratch moltiss."
                             }
                         s1 * 1/4
                         \times 8/11 {
@@ -2564,11 +2552,9 @@
                         \once \override TextSpanner.bound-details.left.text = \markup {
                             \concat
                                 {
-                                    \override
-                                        #'(font-name . "Palatino")
-                                        \whiteout
-                                            \upright
-                                                trans.
+                                    \whiteout
+                                        \upright
+                                            trans.
                                     \hspace
                                         #0.5
                                 }
@@ -2589,11 +2575,9 @@
                         df,1 \repeatTie
                         df,2. \repeatTie
                         df,2 \repeatTie \f \stopTextSpan ^ \markup {
-                            \override
-                                #'(font-name . "Palatino")
-                                \whiteout
-                                    \upright
-                                        "scratch moltiss."
+                            \whiteout
+                                \upright
+                                    "scratch moltiss."
                             }
                         s1 * 1/4
                         \times 4/6 {
