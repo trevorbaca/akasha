@@ -1002,7 +1002,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''4. \< \sffp \startTextSpan \startTextSpan
+                        a''4. \< \sffp \startTextSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1015,13 +1015,7 @@
                                                         x6
                                 }
                         a''2 \repeatTie
-                        a''1 \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        a''1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -1048,14 +1042,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''2. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        a''4. \repeatTie \p \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        a''2. \repeatTie \> \fff \startTextSpan
+                        a''4. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -1080,14 +1068,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''2 \< \sffp \startTextSpan \startTextSpan
-                        a''2 \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        a''2 \< \sffp \startTextSpan
+                        a''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -1113,14 +1095,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a''2. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        a''2.. \repeatTie \p \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        a''2. \repeatTie \> \fff \startTextSpan
+                        a''2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -1196,7 +1172,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        b''''4. \< \sf \startTextSpan \startTextSpan \startTrillSpan
+                        b''''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1209,13 +1185,7 @@
                                                         x6
                                 }
                         b''''2. \repeatTie
-                        b''''2.. \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        b''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -1241,14 +1211,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        b''''4. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        b''''2 \repeatTie \f \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        b''''4. \repeatTie \> \fff \startTextSpan
+                        b''''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -1514,7 +1478,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a'4. \< \sffp \startTextSpan \startTextSpan
+                        a'4. \< \sffp \startTextSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1527,13 +1491,7 @@
                                                         x6
                                 }
                         a'2 \repeatTie
-                        a'1 \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        a'1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -1560,14 +1518,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a'2. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        a'4. \repeatTie \p \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        a'2. \repeatTie \> \fff \startTextSpan
+                        a'4. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -1592,14 +1544,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        gtqs'2 \< \sffp \startTextSpan \startTextSpan
-                        gtqs'2 \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        gtqs'2 \< \sffp \startTextSpan
+                        gtqs'2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -1625,14 +1571,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        gtqs'2. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        gtqs'2.. \repeatTie \p \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        gtqs'2. \repeatTie \> \fff \startTextSpan
+                        gtqs'2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -1708,7 +1648,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        cs''''4. \< \sf \startTextSpan \startTextSpan \startTrillSpan
+                        cs''''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -1721,13 +1661,7 @@
                                                         x6
                                 }
                         cs''''2. \repeatTie
-                        cs''''2.. \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        cs''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -1753,14 +1687,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        cs''''4. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        cs''''2 \repeatTie \f \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        cs''''4. \repeatTie \> \fff \startTextSpan
+                        cs''''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -2026,7 +1954,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,4. \< \sffp \startTextSpan \startTextSpan
+                        a,4. \< \sffp \startTextSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -2039,13 +1967,7 @@
                                                         x6
                                 }
                         a,2 \repeatTie
-                        a,1 \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        a,1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -2072,14 +1994,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,2. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        a,4. \repeatTie \p \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        a,2. \repeatTie \> \fff \startTextSpan
+                        a,4. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -2104,14 +2020,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        aqs,2 \< \sffp \startTextSpan \startTextSpan
-                        aqs,2 \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        aqs,2 \< \sffp \startTextSpan
+                        aqs,2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -2137,14 +2047,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        aqs,2. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        aqs,2.. \repeatTie \p \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        aqs,2. \repeatTie \> \fff \startTextSpan
+                        aqs,2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -2218,7 +2122,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        gqf''4. \< \sf \startTextSpan \startTextSpan \startTrillSpan
+                        gqf''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -2231,13 +2135,7 @@
                                                         x6
                                 }
                         gqf''2. \repeatTie
-                        gqf''2.. \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        gqf''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -2263,14 +2161,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        gqf''4. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        gqf''2 \repeatTie \f \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        gqf''4. \repeatTie \> \fff \startTextSpan
+                        gqf''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -2535,7 +2427,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,4. \< \sffp \startTextSpan \startTextSpan
+                        a,,4. \< \sffp \startTextSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -2548,13 +2440,7 @@
                                                         x6
                                 }
                         a,,2 \repeatTie
-                        a,,1 \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        a,,1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -2581,14 +2467,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,2. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        a,,4. \repeatTie \p \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        a,,2. \repeatTie \> \fff \startTextSpan
+                        a,,4. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -2613,14 +2493,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,2 \< \sffp \startTextSpan \startTextSpan
-                        a,,2 \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        a,,2 \< \sffp \startTextSpan
+                        a,,2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -2646,14 +2520,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        a,,2. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        a,,2.. \repeatTie \p \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        a,,2. \repeatTie \> \fff \startTextSpan
+                        a,,2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
@@ -2727,7 +2595,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d''4. \< \sf \startTextSpan \startTextSpan \startTrillSpan
+                        d''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.5)
@@ -2740,13 +2608,7 @@
                                                         x6
                                 }
                         d''2. \repeatTie
-                        d''2.. \repeatTie \fff \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    XP
-                            }
-                            ^ \markup {
+                        d''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
@@ -2772,14 +2634,8 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d''4. \repeatTie \> \fff \startTextSpan \startTextSpan
-                        d''2 \repeatTie \f \stopTextSpan \stopTextSpan
-                            ^ \markup {
-                            \whiteout
-                                \upright
-                                    "pos. ord."
-                            }
-                            ^ \markup {
+                        d''4. \repeatTie \> \fff \startTextSpan
+                        d''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
