@@ -102,9 +102,9 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
-        baca.select().leaves()[:9].group(),
+        baca.leaves()[:9].group(),
         ),
-    baca.hairpin('ppp < ff', baca.select().leaves()[:9]),
+    baca.hairpin('ppp < ff', baca.leaves()[:9]),
     )
 
 ### stage 2 ###
@@ -154,7 +154,7 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.pos_ord_XFB(),
-        baca.select().leaves()[:2].group(),
+        baca.leaves()[:2].group(),
         ),
     )
 
@@ -170,7 +170,7 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.pont_XFB(),
-        baca.select().leaves()[:2].group(),
+        baca.leaves()[:2].group(),
         ),
     )
 
@@ -186,7 +186,7 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.XP_XFB(),
-        baca.select().leaves()[:3].group(),
+        baca.leaves()[:3].group(),
         ),
     )
 
@@ -202,13 +202,13 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.XP(),
-        baca.select().leaves()[:4].group(),
+        baca.leaves()[:4].group(),
         ),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 7, 8),
-    baca.hairpin('pp > niente', baca.select().rleaves()),
+    baca.hairpin('pp > niente', baca.rleaves()),
     )
 
 ### stage 8 ###
@@ -223,7 +223,7 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 3),
-        baca.select().leaves()[:2].group(),
+        baca.leaves()[:2].group(),
         ),
     )
 
@@ -239,7 +239,7 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(2, 3),
-        baca.select().leaves()[:2].group(),
+        baca.leaves()[:2].group(),
         ),
     )
 
@@ -255,6 +255,6 @@ segment_maker(
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.OB_no_pitch(),
-        baca.select().leaves()[:2].group(),
+        baca.leaves()[:2].group(),
         ),
     )

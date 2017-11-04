@@ -614,7 +614,7 @@ segment_maker(
         ),
     baca.map(
         [baca.hairpin('pp < p'), baca.hairpin('p > pp')],
-        baca.select().runs(),
+        baca.runs(),
         ),
     )
 
@@ -626,7 +626,7 @@ segment_maker(
         ),
     baca.map(
         [baca.hairpin('pp < p'), baca.hairpin('p > pp')],
-        baca.select().runs(),
+        baca.runs(),
         ),
     )
 
