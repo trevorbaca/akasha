@@ -1,6 +1,7 @@
 import abjad
 import akasha
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
@@ -155,11 +156,11 @@ segment_maker(
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0],
-        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            duration_specifier=abjad.rhythmmakertools.DurationSpecifier(
+        rhythm_maker=rhythmos.NoteRhythmMaker(
+            duration_specifier=rhythmos.DurationSpecifier(
                 rewrite_meter=True,
                 ),
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
@@ -180,11 +181,11 @@ segment_maker(
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0],
-        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            duration_specifier=abjad.rhythmmakertools.DurationSpecifier(
+        rhythm_maker=rhythmos.NoteRhythmMaker(
+            duration_specifier=rhythmos.DurationSpecifier(
                 rewrite_meter=True,
                 ),
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),

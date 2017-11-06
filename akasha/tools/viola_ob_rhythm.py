@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def viola_ob_rhythm(rotation=None):
@@ -10,7 +11,7 @@ def viola_ob_rhythm(rotation=None):
     division_expression = baca.split_by_durations(durations)
     return baca.RhythmBuilder(
         division_expression=division_expression,
-        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+        rhythm_maker=rhythmos.NoteRhythmMaker(
             division_masks=abjad.silence([0, -1]),
             ),
         split_at_measure_boundaries=True,

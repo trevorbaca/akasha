@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def polyphony_rhythm(rotation=0):
@@ -7,15 +8,15 @@ def polyphony_rhythm(rotation=0):
     counts = counts.rotate(n=rotation)
     return baca.RhythmBuilder(
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TaleaRhythmMaker(
-            talea=abjad.rhythmmakertools.Talea(
+        rhythm_maker=rhythmos.TaleaRhythmMaker(
+            talea=rhythmos.Talea(
                 counts=counts,
                 denominator=16,
                 ),
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 repeat_ties=True,
                 ),
-            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
+            tuplet_specifier=rhythmos.TupletSpecifier(
                 simplify_redundant_tuplets=True,
                 ),
             ),
