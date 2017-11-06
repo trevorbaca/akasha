@@ -1,6 +1,7 @@
 import abjad
 import akasha
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
@@ -81,7 +82,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 3),
     baca.RhythmBuilder(
-        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+        rhythm_maker=rhythmos.NoteRhythmMaker(
             division_masks=abjad.silence([0], 1, use_multimeasure_rests=True),
             ),
         ),

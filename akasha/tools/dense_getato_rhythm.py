@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjad import rhythmmakertools as rhythmos
 
 
 def dense_getato_rhythm(
@@ -10,8 +11,8 @@ def dense_getato_rhythm(
         division_expression=baca.fuse_compound_quarter_divisions(
             fuse_counts,
             ),
-        rhythm_maker=abjad.rhythmmakertools.EvenDivisionRhythmMaker(
-            burnish_specifier=abjad.rhythmmakertools.BurnishSpecifier(
+        rhythm_maker=rhythmos.EvenDivisionRhythmMaker(
+            burnish_specifier=rhythmos.BurnishSpecifier(
                 left_classes=[abjad.Rest],
                 left_counts=[1],
                 ),
