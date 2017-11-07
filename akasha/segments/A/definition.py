@@ -343,7 +343,9 @@ segment_maker(
         baca.scope('Viola Music Voice', 3),
         baca.scope('Violin One Music Voice', 7),
         baca.scope('Cello Music Voice', 15),
-        ]),
+        ],
+        timeline=True,
+        ),
     akasha.getato_pitches(-2, [0]),
     baca.staccati(),
     )
