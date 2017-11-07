@@ -338,14 +338,12 @@ segment_maker(
     )
 
 segment_maker(
-    baca.compound([
-        baca.scope('Violin Two Music Voice', 3),
-        baca.scope('Viola Music Voice', 3),
-        baca.scope('Violin One Music Voice', 7),
-        baca.scope('Cello Music Voice', 15),
-        ],
-        timeline=True,
-        ),
+    baca.timeline([
+        ('Violin Two Music Voice', 3),
+        ('Viola Music Voice', 3),
+        ('Violin One Music Voice', 7),
+        ('Cello Music Voice', 15),
+        ]),
     akasha.getato_pitches(-2, [0]),
     baca.staccati(),
     )
