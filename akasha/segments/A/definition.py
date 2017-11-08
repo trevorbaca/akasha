@@ -271,38 +271,38 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 5),
-    baca.fixed_pitches('E4 F4 E+4'),
-    baca.markup.tasto_fractional_scratch(1, 2),
     baca.dynamic('mp'),
+    baca.markup.tasto_fractional_scratch(1, 2),
+    baca.pitches('E4 F4 E+4', exact=True),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 5),
-    baca.fixed_pitches('D4 D~4 C4'),
-    baca.markup.tasto_fractional_scratch(1, 2),
     baca.dynamic('mp'),
+    baca.markup.tasto_fractional_scratch(1, 2),
+    baca.pitches('D4 D~4 C4', exact=True),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 5),
-    baca.fixed_pitches('Eb4 D4 E4'),
-    baca.markup.tasto_fractional_scratch(1, 2),
     baca.dynamic('mp'),
+    baca.markup.tasto_fractional_scratch(1, 2),
+    baca.pitches('Eb4 D4 E4', exact=True),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 7),
-    baca.fixed_pitches('C#4 C#+4'),
+    baca.pitches('C#4 C#+4', exact=True),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 7),
-    baca.fixed_pitches('C4'),
+    baca.pitches('C4', exact=True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 7),
-    baca.fixed_pitches('C4 C~4 B3'),
+    baca.pitches('C4 C~4 B3', exact=True),
     )
 
 segment_maker(
@@ -319,22 +319,22 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 9),
-    baca.fixed_pitches('D4 D+4 D#4 E4 F#4 F4'),
+    baca.pitches('D4 D+4 D#4 E4 F#4 F4', exact=True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 9),
-    baca.fixed_pitches('Bb3 Bb~3 A3 Ab3 G3 A3'),
+    baca.pitches('Bb3 Bb~3 A3 Ab3 G3 A3', exact=True),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 11),
-    baca.fixed_pitches('Eb4 D4'),
+    baca.pitches('Eb4 D4', exact=True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 11),
-    baca.fixed_pitches('A3 A#3 B3'),
+    baca.pitches('A3 A#3 B3', exact=True),
     )
 
 segment_maker(

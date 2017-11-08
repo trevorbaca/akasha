@@ -143,12 +143,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 1),
-    baca.fixed_pitches('D#4 E4 F4 F~4 E4'),
+    baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 1),
-    baca.fixed_pitches('Db4 Db~4 C4'),
+    baca.pitches('Db4 Db~4 C4', exact=True),
     )
 
 segment_maker(
