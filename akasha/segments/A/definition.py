@@ -8,14 +8,14 @@ import baca
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    2, abjad.Fermata('longfermata'), # 1-2
-    1, abjad.Fermata('longfermata'), # 3-4
-    2, abjad.Fermata('shortfermata'), # 5-6
-    1, abjad.Fermata('shortfermata'), # 7-8
-    3, abjad.Fermata('longfermata'), # 9-10
-    1, abjad.Fermata('longfermata'), # 11-12
-    1, abjad.Fermata('longfermata'), # 13-14
-    1, abjad.Fermata('shortfermata'), # 15-16
+    2, abjad.Fermata('longfermata'),    # 1-2
+    1, abjad.Fermata('longfermata'),    # 3-4
+    2, abjad.Fermata('shortfermata'),   # 5-6
+    1, abjad.Fermata('shortfermata'),   # 7-8
+    3, abjad.Fermata('longfermata'),    # 9-10
+    1, abjad.Fermata('longfermata'),    # 11-12
+    1, abjad.Fermata('longfermata'),    # 13-14
+    1, abjad.Fermata('shortfermata'),   # 15-16
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
@@ -36,13 +36,12 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 spacing_specifier = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=abjad.Duration(1, 4),
-    minimum_width=abjad.Duration(1, 12),
+    fermata_measure_width=(1, 4),
+    minimum_width=(1, 12),
     )
 
 segment_maker = baca.SegmentMaker(
     instruments=akasha.instruments,
-    ignore_repeat_pitch_classes=True,
     label_clock_time=False,
     label_stages=False,
     measures_per_stage=measures_per_stage,

@@ -292,7 +292,7 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 3, 13),
     baca.markup.OB(),
-    baca.pitches('B2'),
+    baca.pitches('B2', repeats=True),
     baca.dynamic('ppp'),
     )
 
@@ -333,7 +333,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin One Music Voice', 5, 13),
     baca.markup.OB(),
-    baca.pitches('B4'),
+    baca.pitches('B4', repeats=True),
     baca.dynamic('ppp'),
     )
 
@@ -377,7 +377,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Two Music Voice', 7, 13),
     baca.markup.OB(),
-    baca.pitches('B3'),
+    baca.pitches('B3', repeats=True),
     baca.dynamic('ppp'),
     )
 
@@ -427,7 +427,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 9, 13),
-    baca.pitches('B1'),
+    baca.pitches('B1', repeats=True),
     )
 
 segment_maker(
