@@ -324,7 +324,7 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 9, 10),
     baca.markup.tasto_senza_vib(),
-    baca.fixed_pitches('Fb3 E3 D#3 C#3 B#2'),
+    baca.pitches('Fb3 E3 D#3 C#3 B#2', exact=True),
     baca.glissando(),
     baca.clef('alto'),
     baca.hairpin('sf > ppp'),
@@ -391,7 +391,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 14, 16),
     baca.markup.tasto(),
-    baca.fixed_pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1'),
+    baca.pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1', exact=True),
     baca.glissando(),
     baca.hairpin('sf > ppp'),
     )

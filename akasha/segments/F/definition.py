@@ -628,7 +628,7 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 8, 9),
     baca.dynamic('mp'),
-    baca.fixed_pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4'),
+    baca.pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4', exact=True),
     baca.markup.tasto_fractional_scratch(1, 2),
     )
 
@@ -636,7 +636,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 8, 9),
     baca.clef('bass'),
     baca.dynamic('mp'),
-    baca.fixed_pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2'),
+    baca.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2', exact=True),
     baca.markup.tasto_fractional_scratch(1, 2),
     )
 
