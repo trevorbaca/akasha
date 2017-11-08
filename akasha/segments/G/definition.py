@@ -147,21 +147,21 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 2, 4),
-    baca.infinite_pitches([17, 19, 17, 15, 18, 16], [1]),
     baca.glissando(),
+    baca.loop([17, 19, 17, 15, 18, 16], [1]),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 1, 4),
-    baca.infinite_pitches([6, 3, 5, 3, 1, 4], [1]),
     baca.glissando(),
+    baca.loop([6, 3, 5, 3, 1, 4], [1]),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 1, 4),
-    baca.infinite_pitches([3, 5, 2, 4, 2, 0], [1]),
-    baca.glissando(),
     baca.clef('alto'),
+    baca.glissando(),
+    baca.loop([3, 5, 2, 4, 2, 0], [1]),
     )
 
 segment_maker(
@@ -176,9 +176,9 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 1, 4),
-    baca.infinite_pitches([-23, -21, -19, -22, -20, -22], [-1]),
-    baca.glissando(),
     baca.clef('bass'),
+    baca.glissando(),
+    baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
     )
 
 segment_maker(
