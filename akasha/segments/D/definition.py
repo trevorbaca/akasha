@@ -68,7 +68,7 @@ segment_maker(
         ['Violin One Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [1],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 ### stages 3-4 ###
@@ -78,7 +78,7 @@ segment_maker(
         ['Violin One Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [3],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -90,7 +90,7 @@ segment_maker(
 
 segment_maker(
     baca.make_scopes(['Viola Music Voice', 'Cello Music Voice'], [5]),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -102,7 +102,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 7),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -137,7 +137,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 9, 10),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 ### stages 12-13 ###

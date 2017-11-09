@@ -51,7 +51,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker(
     baca.scope('Viola Music Voice', 1),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 ###############################################################################

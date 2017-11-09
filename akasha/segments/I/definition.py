@@ -85,7 +85,7 @@ segment_maker(
         'Cello Music Voice'],
         [1],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -95,37 +95,37 @@ segment_maker(
         'Cello Music Voice'],
         [3],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.make_scopes(['Violin Two Music Voice', 'Cello Music Voice'], [5]),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 7),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 3, 9),
-    baca.repeated_durations(abjad.Duration(1, 4)),
+    baca.make_repeated_durations(abjad.Duration(1, 4)),
     )
 
 segment_maker(
     baca.scope('Violin One Music Voice', 5, 9),
-    baca.repeated_durations(abjad.Duration(1, 4)),
+    baca.make_repeated_durations(abjad.Duration(1, 4)),
     )
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 7, 9),
-    baca.repeated_durations(abjad.Duration(1, 4)),
+    baca.make_repeated_durations(abjad.Duration(1, 4)),
     )
 
 segment_maker(
     baca.scope('Cello Music Voice', 9),
-    baca.repeated_durations(abjad.Duration(1, 4)),
+    baca.make_repeated_durations(abjad.Duration(1, 4)),
     )
 
 segment_maker(
@@ -136,7 +136,7 @@ segment_maker(
         'Cello Music Voice'],
         [10],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -155,7 +155,7 @@ segment_maker(
         'Cello Music Voice'],
         [12],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -192,7 +192,7 @@ segment_maker(
         'Cello Music Voice'],
         [16],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -203,7 +203,7 @@ segment_maker(
         'Cello Music Voice'],
         [17],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -214,7 +214,7 @@ segment_maker(
         'Cello Music Voice'],
         [18],
         ),
-    baca.tied_notes(repeat_ties=True),
+    baca.make_tied_notes(repeat_ties=True),
     )
 
 ###############################################################################
