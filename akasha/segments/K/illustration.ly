@@ -1004,15 +1004,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         a''4. \< \sffp \startTextSpan
                             ^ \markup {
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        \upright
-                                            \fontsize
-                                                #6
-                                                \bold
-                                                    \sans
-                                                        x6
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \fontsize
+                                                    #6
+                                                    \bold
+                                                        \sans
+                                                            x6
                                 }
                         a''2 \repeatTie
                         a''1 \repeatTie \fff \stopTextSpan ^ \markup {
@@ -1174,15 +1175,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         b''''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        \upright
-                                            \fontsize
-                                                #6
-                                                \bold
-                                                    \sans
-                                                        x6
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \fontsize
+                                                    #6
+                                                    \bold
+                                                        \sans
+                                                            x6
                                 }
                         b''''2. \repeatTie
                         b''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
@@ -1480,15 +1482,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         a'4. \< \sffp \startTextSpan
                             ^ \markup {
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        \upright
-                                            \fontsize
-                                                #6
-                                                \bold
-                                                    \sans
-                                                        x6
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \fontsize
+                                                    #6
+                                                    \bold
+                                                        \sans
+                                                            x6
                                 }
                         a'2 \repeatTie
                         a'1 \repeatTie \fff \stopTextSpan ^ \markup {
@@ -1650,15 +1653,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         cs''''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        \upright
-                                            \fontsize
-                                                #6
-                                                \bold
-                                                    \sans
-                                                        x6
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \fontsize
+                                                    #6
+                                                    \bold
+                                                        \sans
+                                                            x6
                                 }
                         cs''''2. \repeatTie
                         cs''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
@@ -1956,15 +1960,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         a,4. \< \sffp \startTextSpan
                             ^ \markup {
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        \upright
-                                            \fontsize
-                                                #6
-                                                \bold
-                                                    \sans
-                                                        x6
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \fontsize
+                                                    #6
+                                                    \bold
+                                                        \sans
+                                                            x6
                                 }
                         a,2 \repeatTie
                         a,1 \repeatTie \fff \stopTextSpan ^ \markup {
@@ -2124,15 +2129,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         gqf''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        \upright
-                                            \fontsize
-                                                #6
-                                                \bold
-                                                    \sans
-                                                        x6
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \fontsize
+                                                    #6
+                                                    \bold
+                                                        \sans
+                                                            x6
                                 }
                         gqf''2. \repeatTie
                         gqf''2.. \repeatTie \fff \stopTextSpan ^ \markup {
@@ -2429,15 +2435,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         a,,4. \< \sffp \startTextSpan
                             ^ \markup {
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        \upright
-                                            \fontsize
-                                                #6
-                                                \bold
-                                                    \sans
-                                                        x6
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \fontsize
+                                                    #6
+                                                    \bold
+                                                        \sans
+                                                            x6
                                 }
                         a,,2 \repeatTie
                         a,,1 \repeatTie \fff \stopTextSpan ^ \markup {
@@ -2597,15 +2604,16 @@
                         \once \override TextSpanner.dash-period = 1.5
                         d''4. \< \sf \startTextSpan \startTrillSpan
                             ^ \markup {
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        \upright
-                                            \fontsize
-                                                #6
-                                                \bold
-                                                    \sans
-                                                        x6
+                                \whiteout
+                                    \upright
+                                        \override
+                                            #'(box-padding . 0.5)
+                                            \box
+                                                \fontsize
+                                                    #6
+                                                    \bold
+                                                        \sans
+                                                            x6
                                 }
                         d''2. \repeatTie
                         d''2.. \repeatTie \fff \stopTextSpan ^ \markup {
