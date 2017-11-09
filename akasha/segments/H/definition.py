@@ -84,7 +84,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin One Music Voice',
         'Violin Two Music Voice',
         'Cello Music Voice'],
@@ -94,7 +94,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(['Viola Music Voice', 'Cello Music Voice'], [4]),
+    baca.make_scopes(['Viola Music Voice', 'Cello Music Voice'], [4]),
     akasha.glissando_rhythm(),
     )
 
@@ -103,7 +103,7 @@ segment_maker(
 ###############################################################################
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin One Music Voice',
         'Violin Two Music Voice',
         'Cello Music Voice'],

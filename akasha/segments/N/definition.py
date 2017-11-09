@@ -59,7 +59,7 @@ segment_maker.validate_measures_per_stage()
 ###############################################################################
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Viola Music Voice',
         'Cello Music Voice'],
@@ -93,7 +93,7 @@ segment_maker(
 ###############################################################################
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Viola Music Voice',
         'Cello Music Voice'],

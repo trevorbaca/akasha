@@ -385,12 +385,12 @@ segment_maker(
 ### stages 9-12 ###
 
 segment_maker(
-    baca.scopes(['Violin One Music Voice', 'Violin Two Music Voice'], [9]),
+    baca.make_scopes(['Violin One Music Voice', 'Violin Two Music Voice'], [9]),
     baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin One Music Voice', 'Violin Two Music Voice'], [(10, 11)]
         ),
     baca.tied_notes(repeat_ties=True),
@@ -657,7 +657,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
         'Viola Music Voice',
@@ -743,7 +743,7 @@ segment_maker(
 
 segment_maker(
     #baca.scope('Violin One Music Voice', 17),
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
         'Viola Music Voice',
