@@ -104,7 +104,7 @@ segment_maker(
     baca.effort_dynamic('mf'),
     baca.markup.full_bow_strokes(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     baca.repeat_ties_up(),
     baca.staff_positions([0]),
     )

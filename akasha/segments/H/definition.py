@@ -131,7 +131,7 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 1, 2),
     baca.staff_positions([0]),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     )
 
 segment_maker(
