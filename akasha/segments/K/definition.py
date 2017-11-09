@@ -211,7 +211,7 @@ segment_maker(
         [1],
         ),
     baca.effort_dynamic('ff'),
-    baca.make_markup('tasto + 1 click/3-4 sec.'),
+    baca.markup('tasto + 1 click/3-4 sec.'),
     )
 
 segment_maker(
@@ -482,7 +482,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 14, 17),
-    baca.make_markup('pos. ord. + 11°/A1(IV)'),
+    baca.markup('pos. ord. + 11°/A1(IV)'),
     baca.trill(),
     baca.clef('treble'),
     )
@@ -496,7 +496,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 15, 17),
-    baca.make_markup('pos. ord. + 7°/A2(IV)'),
+    baca.markup('pos. ord. + 7°/A2(IV)'),
     baca.trill(),
     baca.clef('treble'),
     )
@@ -515,7 +515,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Two Music Voice', 16, 17),
-    baca.make_markup('pos. ord. + 5°/A4(II)'),
+    baca.markup('pos. ord. + 5°/A4(II)'),
     baca.trill(),
     )
 
@@ -533,7 +533,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin One Music Voice', 17),
-    baca.make_markup('pos. ord. + 9°/A4(II)'),
+    baca.markup('pos. ord. + 9°/A4(II)'),
     baca.trill(),
     baca.hairpin('sffp < f'),
     )
