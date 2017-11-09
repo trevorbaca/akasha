@@ -69,7 +69,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Two Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [1],
         ),
@@ -79,7 +79,7 @@ segment_maker(
 ### stage 2 ###
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
         'Viola Music Voice',
@@ -93,7 +93,7 @@ segment_maker(
 
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
         'Viola Music Voice',
@@ -106,7 +106,7 @@ segment_maker(
 ### stage 4 + fermata ###
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
         'Viola Music Voice',
@@ -119,7 +119,7 @@ segment_maker(
 ### stages 6-7 ###
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin One Music Voice',
         'Violin Two Music Voice',
         'Cello Music Voice'],
@@ -200,7 +200,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Two Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [1],
         ),
@@ -221,7 +221,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Two Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [2],
         ),
@@ -233,7 +233,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
         'Viola Music Voice',
@@ -248,7 +248,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
         'Viola Music Voice',
