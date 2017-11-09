@@ -78,7 +78,7 @@ segment_maker(
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_each_note_abruptly(),
     baca.staff_positions([0]),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     baca.clef('alto'),
     )
 
