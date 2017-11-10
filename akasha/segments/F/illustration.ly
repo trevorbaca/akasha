@@ -2399,8 +2399,6 @@
                                     \italic
                                         ”
                                 }
-                        \stopStaff
-                        \startStaff
                         s1 * 1/4
                         \times 12/15 {
                             r16
@@ -2467,8 +2465,6 @@
                                     \italic
                                         ”
                                 }
-                        \stopStaff
-                        \startStaff
                         s1 * 1/4
                         \bar "|"
                     }
