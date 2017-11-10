@@ -161,11 +161,15 @@
                                     \italic
                                         ”
                                 }
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         c'2. \repeatTie
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         s1 * 1/4
                         \bar "|"
-                        \stopStaff
-                        \startStaff
                     }
                 }
                 \tag cello

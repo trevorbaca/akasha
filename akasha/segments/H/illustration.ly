@@ -354,11 +354,18 @@
                         \startStaff
                         \clef "alto"
                         c'1
-                        c'2. \repeatTie
-                        c'2 \repeatTie
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         c'2. \repeatTie
                         \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        c'2 \repeatTie
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
+                        c'2. \repeatTie
                         s1 * 1/4
                         \times 8/9 {
                             ds1.. \glissando \> \mp
