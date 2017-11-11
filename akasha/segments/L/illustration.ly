@@ -160,13 +160,7 @@
                                     \italic
                                         ”
                                 }
-                        \stopStaff
-                        \once \override Staff.StaffSymbol.line-count = 1
-                        \startStaff
                         s1 * 1/4
-                        \stopStaff
-                        \once \override Staff.StaffSymbol.line-count = 1
-                        \startStaff
                         c'1. -\upbow
                         s1 * 5/2
                         \bar "|"

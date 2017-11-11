@@ -720,9 +720,6 @@
                                     \italic
                                         ”
                                 }
-                        \stopStaff
-                        \once \override Staff.StaffSymbol.line-count = 1
-                        \startStaff
                         c'2 \repeatTie
                         c'4. \repeatTie
                         \bar "|"
