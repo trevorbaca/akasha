@@ -31,7 +31,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 12),
     )
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
     label_clock_time=False,
@@ -44,9 +44,9 @@ segment_maker = baca.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-segment_maker.validate_measure_count(4)
-segment_maker.validate_stage_count(4)
-segment_maker.validate_measures_per_stage()
+maker.validate_measure_count(4)
+maker.validate_stage_count(4)
+maker.validate_measures_per_stage()
 
 ###############################################################################
 ##################################### TIME ####################################
@@ -54,7 +54,7 @@ segment_maker.validate_measures_per_stage()
 
 ### stage 1 ###
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 1),
     akasha.scratch_rhythm(
         [4],
@@ -63,14 +63,14 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 1),
     akasha.scratch_rhythm([4], ~abjad.silence([1]), [-1]),
     )
 
 ### stage 2 ###
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 2),
     akasha.scratch_rhythm(
         [4],
@@ -79,7 +79,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 2),
     akasha.scratch_rhythm(
         [4],
@@ -90,7 +90,7 @@ segment_maker(
 
 ### stages 3 ###
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 3),
     akasha.scratch_rhythm(
         [4],
@@ -99,7 +99,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 3),
     akasha.scratch_rhythm(
         [4],
@@ -108,7 +108,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 3),
     akasha.scratch_rhythm(
         [4],
@@ -121,7 +121,7 @@ segment_maker(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 1, 3),
     akasha.getato_pitches(5, [2]),
     baca.markup.scratch_moltiss(),
@@ -129,7 +129,7 @@ segment_maker(
     baca.dynamic('ff'),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 1, 3),
     akasha.getato_pitches(-3, [2]),
     baca.markup.scratch_moltiss(),
@@ -137,7 +137,7 @@ segment_maker(
     baca.dynamic('ff'),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 1, 3),
     akasha.getato_pitches(-13, [2]),
     baca.markup.scratch_moltiss(),

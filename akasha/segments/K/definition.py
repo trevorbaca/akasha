@@ -55,7 +55,7 @@ volta_measure_map = baca.VoltaMeasureMap([
     baca.StageSliceSpecifier(19, 20),
     ])
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
     label_stages=False,
@@ -69,15 +69,15 @@ segment_maker = baca.SegmentMaker(
     volta_measure_map=volta_measure_map,
     )
 
-segment_maker.validate_measure_count(69)
-segment_maker.validate_stage_count(22)
-segment_maker.validate_measures_per_stage()
+maker.validate_measure_count(69)
+maker.validate_stage_count(22)
+maker.validate_measures_per_stage()
 
 ###############################################################################
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -88,7 +88,7 @@ segment_maker(
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -99,7 +99,7 @@ segment_maker(
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -110,7 +110,7 @@ segment_maker(
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -121,42 +121,42 @@ segment_maker(
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 14, 17),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 14),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 15, 17),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 14, 15),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 16, 17),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 14, 16),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 17),
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -167,7 +167,7 @@ segment_maker(
     baca.make_tied_notes(repeat_ties=True),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -182,27 +182,27 @@ segment_maker(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 1, 7),
     baca.pitches('A5'),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 1, 7),
     baca.pitches('G#+4'),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1, 7),
     baca.pitches('A+2'),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 1, 7),
     baca.pitches('A1'),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -214,7 +214,7 @@ segment_maker(
     baca.markup('tasto + 1 click/3-4 sec.'),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -229,7 +229,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -244,7 +244,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -259,7 +259,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -270,7 +270,7 @@ segment_maker(
     baca.dynamic('ff', baca.note(2)),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -285,7 +285,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -300,7 +300,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -318,27 +318,27 @@ segment_maker(
 
 ### stages 9, 9-10 ###
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 9, 10),
     baca.pitches('A5', repeats=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 9, 10),
     baca.pitches('A4 G#+4'),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 9, 10),
     baca.pitches('A2 A+2'),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 9, 10),
     baca.pitches('A1', repeats=True),
     )
 
-segment_maker(
+maker(
     #baca.scope('Violin One Music Voice', 9, 10),
     baca.make_scopes([
         'Violin One Music Voice',
@@ -350,7 +350,7 @@ segment_maker(
     baca.markup.boxed_repeat_count(6),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -366,7 +366,7 @@ segment_maker(
     baca.hairpin('sffp < fff', baca.leaves()[:3]),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -384,7 +384,7 @@ segment_maker(
 
 ### stage 10 ###
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -400,7 +400,7 @@ segment_maker(
     baca.hairpin('sffp < fff', baca.leaves()[:2]),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -418,51 +418,51 @@ segment_maker(
 
 ### stages 12-21 ###
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 12, 16),
     baca.pitches('A5'),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 17, 21),
     baca.natural_harmonics(),
     baca.pitches('B7', repeats=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 12, 15),
     baca.pitches('A4'),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 16, 21),
     baca.natural_harmonics(),
     baca.pitches('C#7', repeats=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 12, 14),
     baca.pitches('A2'),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 15, 21),
     baca.natural_harmonics(),
     baca.pitches('G~5', repeats=True),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 12),
     baca.pitches('A1'),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 14, 21),
     baca.natural_harmonics(),
     baca.pitches('D5', repeats=True),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -480,58 +480,58 @@ segment_maker(
 
 ### stage 14 ###
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 14, 17),
     baca.markup('pos. ord. + 11°/A1(IV)'),
     baca.trill(),
     baca.clef('treble'),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 14, 15),
     baca.hairpin('sffp < f', baca.leaves()[:4]),
     )
 
 ### stage 15 ###
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 15, 17),
     baca.markup('pos. ord. + 7°/A2(IV)'),
     baca.trill(),
     baca.clef('treble'),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 15, 16),
     baca.hairpin('sffp < f', baca.leaves()[:4]),
     )
 
 ### stage 16 ###
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 16, 17),
     baca.ottava(),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 16, 17),
     baca.markup('pos. ord. + 5°/A4(II)'),
     baca.trill(),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 16, 17),
     baca.hairpin('sffp < f', baca.leaves()[:4]),
     )
 
 ### stage 17 ###
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 17),
     baca.ottava(),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin One Music Voice', 17),
     baca.markup('pos. ord. + 9°/A4(II)'),
     baca.trill(),
@@ -540,7 +540,7 @@ segment_maker(
 
 ### stage 19 ###
 
-segment_maker(
+maker(
     baca.make_scopes(
         ['Violin One Music Voice', 'Violin Two Music Voice'], 
         [(19, 22)],
@@ -548,7 +548,7 @@ segment_maker(
     baca.ottava(),
     )
 
-segment_maker(
+maker(
     #baca.scope('Violin One Music Voice', 19)
     baca.make_scopes([
         'Violin One Music Voice',
@@ -560,7 +560,7 @@ segment_maker(
     baca.markup.boxed_repeat_count(6),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -571,7 +571,7 @@ segment_maker(
     baca.trill(),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -587,7 +587,7 @@ segment_maker(
     baca.hairpin('sf < fff', baca.leaves()[:3]),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -605,7 +605,7 @@ segment_maker(
 
 ### stages 20-21 ###
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',
@@ -616,7 +616,7 @@ segment_maker(
     baca.trill(),
     )
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Violin Two Music Voice',

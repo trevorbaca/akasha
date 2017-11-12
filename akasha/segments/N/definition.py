@@ -32,7 +32,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 12),
     )
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
     label_clock_time=False,
@@ -50,15 +50,15 @@ segment_maker = baca.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-segment_maker.validate_measure_count(25)
-segment_maker.validate_stage_count(4)
-segment_maker.validate_measures_per_stage()
+maker.validate_measure_count(25)
+maker.validate_stage_count(4)
+maker.validate_measures_per_stage()
 
 ###############################################################################
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Viola Music Voice',
@@ -71,7 +71,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 2, 3),
     abjad.new(
         akasha.sparse_getato_rhythm(),
@@ -79,7 +79,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 3),
     baca.RhythmBuilder(
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -92,7 +92,7 @@ segment_maker(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.make_scopes([
         'Violin One Music Voice',
         'Viola Music Voice',
@@ -109,7 +109,7 @@ segment_maker(
     baca.staff_positions([0]),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Two Music Voice', 2, 3),
     akasha.getato_pitches(29, direction=Down),
     baca.dynamic('pp'),
