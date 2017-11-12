@@ -13,44 +13,26 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
-                {
-                    \time 4/4
-                    R1 * 1
-                }
-                {
-                    \time 1/4
-                    \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest.transparent = ##t
-                    \once \override Score.TimeSignature.stencil = ##f
-                    R1 * 1/4
-                        - \markup {
-                            \musicglyph
-                                #"scripts.uverylongfermata"
-                            }
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 1/4
-                    \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
-                    \once \override Score.MultiMeasureRest.transparent = ##t
-                    \once \override Score.TimeSignature.stencil = ##f
-                    R1 * 1/4
-                        - \markup {
-                            \musicglyph
-                                #"scripts.uverylongfermata"
-                            }
-                }
-                {
-                    \time 6/4
-                    R1 * 3/2
-                }
-                {
-                    \time 3/4
-                    R1 * 3/4
-                }
+                R1 * 1
+                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
+                \once \override Score.MultiMeasureRest.transparent = ##t
+                \once \override Score.TimeSignature.stencil = ##f
+                R1 * 1/4
+                    - \markup {
+                        \musicglyph
+                            #"scripts.uverylongfermata"
+                        }
+                R1 * 3/2
+                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
+                \once \override Score.MultiMeasureRest.transparent = ##t
+                \once \override Score.TimeSignature.stencil = ##f
+                R1 * 1/4
+                    - \markup {
+                        \musicglyph
+                            #"scripts.uverylongfermata"
+                        }
+                R1 * 3/2
+                R1 * 3/4
             }
             \context GlobalSkips = "Global Skips" {
                 {
