@@ -29,7 +29,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 12),
     )
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     label_clock_time=False,
     label_stages=False,
@@ -41,15 +41,15 @@ segment_maker = baca.SegmentMaker(
     time_signatures=time_signatures,
     )
 
-segment_maker.validate_measure_count(3)
-segment_maker.validate_stage_count(2)
-segment_maker.validate_measures_per_stage()
+maker.validate_measure_count(3)
+maker.validate_stage_count(2)
+maker.validate_measures_per_stage()
 
 ###############################################################################
 ##################################### TIME ####################################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1),
     baca.make_tied_notes(repeat_ties=True),
     )
@@ -58,7 +58,7 @@ segment_maker(
 #################################### COLOR ####################################
 ###############################################################################
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1, 2),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
