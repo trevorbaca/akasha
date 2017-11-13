@@ -15,6 +15,6 @@ def cello_solo_rhythm(rotation=None):
             repeat_ties=True,
             )
         )
-    return baca.RhythmBuilder(
+    return baca.RhythmCommand(
         rhythm_maker=rhythm_maker,
         )
