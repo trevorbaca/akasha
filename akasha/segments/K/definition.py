@@ -51,9 +51,8 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     )
 
 volta_measure_map = baca.VoltaMeasureMap([
-    # TODO: replace with selectors
-    baca.StageSliceSpecifier(9, 11),
-    baca.StageSliceSpecifier(19, 20),
+    baca.skips().stages(stage_measure_map)[9-1:11-1],
+    baca.skips().stage(19-1, stage_measure_map),
     ])
 
 maker = baca.SegmentMaker(
