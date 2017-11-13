@@ -47,86 +47,66 @@
                 R1 * 7/8
             }
             \context GlobalSkips = "Global Skips" {
-                {
-                    \time 9/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \mark #2
-                    \newSpacingSection
-                    s1 * 9/8 ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #2
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                55
-                            }
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                \time 9/8
+                \mark #2
+                \newSpacingSection
+                s1 * 9/8 ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            55
                         }
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
-                    \newSpacingSection
-                    s1 * 9/8
-                }
-                {
-                    \time 4/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 8/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                    \newSpacingSection
-                    s1 * 1
-                }
-                {
-                    \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
-                    s1 * 1/4
-                }
-                {
-                    \time 3/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
-                    \newSpacingSection
-                    s1 * 3/8
-                }
-                {
-                    \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
-                    s1 * 1/4
-                }
-                {
-                    \time 4/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
-                    \newSpacingSection
-                    s1 * 1/2
-                }
-                {
-                    \time 1/4
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
-                    \newSpacingSection
-                    s1 * 1/4
-                }
-                {
-                    \time 7/8
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
-                    s1 * 7/8
-                }
-                {
-                    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
-                    \newSpacingSection
-                    s1 * 7/8
-                }
+                    }
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
+                \time 9/8
+                \newSpacingSection
+                s1 * 9/8
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                \time 4/8
+                \newSpacingSection
+                s1 * 1/2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                \time 8/8
+                \newSpacingSection
+                s1 * 1
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                \time 1/4
+                \newSpacingSection
+                s1 * 1/4
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
+                \time 3/8
+                \newSpacingSection
+                s1 * 3/8
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                \time 1/4
+                \newSpacingSection
+                s1 * 1/4
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
+                \time 4/8
+                \newSpacingSection
+                s1 * 1/2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
+                \time 1/4
+                \newSpacingSection
+                s1 * 1/4
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                \time 7/8
+                \newSpacingSection
+                s1 * 7/8
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
+                \time 7/8
+                \newSpacingSection
+                s1 * 7/8
             }
         >>
         \context MusicContext = "Music Context" {
