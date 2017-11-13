@@ -81,7 +81,7 @@ maker(
 
 maker(
     baca.scope('Cello Music Voice', 3),
-    baca.RhythmBuilder(
+    baca.RhythmCommand(
         rhythm_maker=rhythmos.NoteRhythmMaker(
             division_masks=abjad.silence([0], 1, use_multimeasure_rests=True),
             ),

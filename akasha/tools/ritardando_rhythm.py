@@ -4,7 +4,7 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def ritardando_rhythm():
-    return baca.RhythmBuilder(
+    return baca.RhythmCommand(
         division_expression=baca.sequence()
             .partition_by_counts([1, 2], cyclic=True, overhang=True)
             .map(baca.sequence().sum())
