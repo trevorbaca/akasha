@@ -49,7 +49,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     )
 
 volta_measure_map = baca.VoltaMeasureMap([
-    baca.MeasureSpecifier(-4, -2),
+    (-4, -2),
     ])
 
 maker = baca.SegmentMaker(
