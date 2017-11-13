@@ -13,10 +13,15 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
+                % measure 152
                 R1 * 3/4
+                % measure 153
                 R1 * 1
+                % measure 154
                 R1 * 5/4
+                % measure 155
                 R1 * 3/4
+                % measure 156
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -25,7 +30,9 @@
                         \musicglyph
                             #"scripts.ulongfermata"
                         }
+                % measure 157
                 R1 * 3/4
+                % measure 158
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -34,8 +41,11 @@
                         \musicglyph
                             #"scripts.ulongfermata"
                         }
+                % measure 159
                 R1 * 3/4
+                % measure 160
                 R1 * 1
+                % measure 161
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -44,30 +54,55 @@
                         \musicglyph
                             #"scripts.ulongfermata"
                         }
+                % measure 162
                 R1 * 5/4
+                % measure 163
                 R1 * 3/2
+                % measure 164
                 R1 * 3/2
+                % measure 165
                 R1 * 1
+                % measure 166
                 R1 * 1
+                % measure 167
                 R1 * 3/2
+                % measure 168
                 R1 * 3/2
+                % measure 169
                 R1 * 5/4
+                % measure 170
                 R1 * 3/4
+                % measure 171
                 R1 * 3/4
+                % measure 172
                 R1 * 1
+                % measure 173
                 R1 * 1
+                % measure 174
                 R1 * 5/4
+                % measure 175
                 R1 * 3/4
+                % measure 176
                 R1 * 3/4
+                % measure 177
                 R1 * 3/2
+                % measure 178
                 R1 * 1
+                % measure 179
                 R1 * 3/2
+                % measure 180
                 R1 * 3/2
+                % measure 181
                 R1 * 3/2
+                % measure 182
                 R1 * 1
+                % measure 183
                 R1 * 3/4
+                % measure 184
                 R1 * 1
+                % measure 185
                 R1 * 5/4
+                % measure 186
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -76,12 +111,19 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 187
                 R1 * 3/4
+                % measure 188
                 R1 * 3/4
+                % measure 189
                 R1 * 3/4
+                % measure 190
                 R1 * 1
+                % measure 191
                 R1 * 5/4
+                % measure 192
                 R1 * 1
+                % measure 193
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -90,7 +132,9 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 194
                 R1 * 3/2
+                % measure 195
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -99,7 +143,9 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 196
                 R1 * 3/2
+                % measure 197
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -108,7 +154,9 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
+                % measure 198
                 R1 * 3/2
+                % measure 199
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -119,6 +167,7 @@
                         }
             }
             \context GlobalSkips = "Global Skips" {
+                % measure 152
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \mark #6
@@ -139,10 +188,12 @@
                             44
                         }
                     }
+                % measure 153
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 154
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
@@ -162,14 +213,17 @@
                             126
                         }
                     }
+                % measure 155
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 156
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 157
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -189,10 +243,12 @@
                             55
                         }
                     }
+                % measure 158
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 159
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
@@ -212,94 +268,117 @@
                             89
                         }
                     }
+                % measure 160
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 161
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 162
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 163
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 164
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 165
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 166
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 167
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 168
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 169
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 170
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 171
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 172
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 173
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 174
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 175
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 176
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 177
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 178
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 179
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 180
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 181
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 182
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -325,18 +404,22 @@
                 \time 4/4
                 \newSpacingSection
                 s1 * 1 \startTextSpan
+                % measure 183
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 184
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 185
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 186
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -356,34 +439,42 @@
                             126
                         }
                     }
+                % measure 187
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 188
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 189
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 190
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 191
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 192
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 193
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 194
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
@@ -403,12 +494,14 @@
                             55
                         }
                     }
+                % measure 195
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
                 \repeat volta 2
                 {
+                    % measure 196
                     \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
                     \time 6/4
                     \newSpacingSection
@@ -428,11 +521,13 @@
                                 126
                             }
                         }
+                    % measure 197
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \time 1/4
                     \newSpacingSection
                     s1 * 1/4
                 }
+                % measure 198
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
@@ -452,6 +547,7 @@
                             55
                         }
                     }
+                % measure 199
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -463,9 +559,11 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        % measure 152
                         \clef "treble"
                         s1 * 7/4
                         \times 4/7 {
+                            % measure 154
                             r16
                             ef'''16 -\staccato [
                             e'''16 -\staccato
@@ -505,6 +603,7 @@
                             f'''16 -\staccato ]
                         }
                         {
+                            % measure 155
                             r16
                             e'''16 -\staccato [
                             ef'''16 -\staccato
@@ -525,6 +624,7 @@
                             g'''16 -\staccato
                             af'''16 -\staccato ]
                         }
+                        % measure 156
                         s1 * 5/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -557,6 +657,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 159
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             ef''16 * 227/32 \pp [
@@ -601,6 +702,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 160
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             ef''16 * 109/64 [
@@ -611,8 +713,10 @@
                             f''16 * 191/32 ]
                         }
                         \revert TupletNumber.text
+                        % measure 161
                         s1 * 1/4
                         \times 4/5 {
+                            % measure 162
                             ef''4 \< \pp
                             ef''16 \repeatTie
                         }
@@ -637,6 +741,7 @@
                             ef''4
                         }
                         \times 4/5 {
+                            % measure 163
                             ef''8. \repeatTie \pp
                             r8
                         }
@@ -693,6 +798,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 164
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             f''16 * 241/32 \p [
@@ -705,6 +811,7 @@
                         }
                         \revert TupletNumber.text
                         \times 4/5 {
+                            % measure 165
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             fs''4
                             fs''16 \repeatTie
@@ -724,6 +831,7 @@
                             ef''16 \repeatTie
                         }
                         \times 4/5 {
+                            % measure 166
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             ef''16 \repeatTie
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -742,6 +850,7 @@
                             r8.
                         }
                         \times 4/5 {
+                            % measure 167
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             ef''4 \< \pp
@@ -818,6 +927,7 @@
                             e''8 \< \pp
                         }
                         \times 4/5 {
+                            % measure 170
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             e''4 \repeatTie
                             e''16 \repeatTie
@@ -864,6 +974,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 171
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             g''16 * 31/4 \p [
@@ -880,6 +991,7 @@
                             g''16 * 31/16 ] \p
                         }
                         \revert TupletNumber.text
+                        % measure 174
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e''2. \mp
                             ^ \markup {
@@ -888,9 +1000,13 @@
                                         "tasto + 1/2 scratch"
                                 }
                         e''2 \repeatTie
+                        % measure 175
                         e''2. \repeatTie
+                        % measure 176
                         e''2. \repeatTie
+                        % measure 177
                         e''1. \repeatTie
+                        % measure 178
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -912,20 +1028,29 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         f''1 \< \mp \startTextSpan
+                        % measure 179
                         f''1. \repeatTie
+                        % measure 180
                         f''1. \repeatTie
+                        % measure 181
                         f''1. \repeatTie
+                        % measure 182
                         f''1 \repeatTie
+                        % measure 183
                         f''2. \repeatTie
+                        % measure 184
                         f''1 \repeatTie
+                        % measure 185
                         f''2. \repeatTie
                         f''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "scratch moltiss."
                             }
+                        % measure 186
                         s1 * 1/4
                         \times 8/14 {
+                            % measure 187
                             r16
                             f'''16 -\staccato \< \ff [
                                 ^ \markup {
@@ -953,6 +1078,7 @@
                             a'''16 -\staccato
                             af'''16 -\staccato
                             bf'''16 -\staccato
+                            % measure 188
                             b'''16 -\staccato
                             a'''16 -\staccato
                             bf'''16 -\staccato
@@ -996,6 +1122,7 @@
                             g'''16 -\staccato
                             a'''16 -\staccato
                             af'''16 -\staccato
+                            % measure 190
                             a'''16 -\staccato
                             bf'''16 -\staccato
                             c''''16 -\staccato
@@ -1029,6 +1156,7 @@
                             cs''''16 -\staccato ]
                         }
                         \times 8/14 {
+                            % measure 191
                             r16
                             c''''16 -\staccato [
                             b'''16 -\staccato
@@ -1067,6 +1195,7 @@
                             g''''16 -\staccato ]
                         }
                         \times 8/11 {
+                            % measure 192
                             r16
                             f''''16 -\staccato [
                             fs''''16 -\staccato
@@ -1093,8 +1222,10 @@
                             fs''''16 -\staccato
                             g''''16 -\staccato \fff ]
                         }
+                        % measure 193
                         s1 * 2
                         \times 12/18 {
+                            % measure 196
                             r16
                             f'''16 -\staccato \pp [
                                 ^ \markup {
@@ -1138,6 +1269,7 @@
                             bf'''16 -\staccato
                             a'''16 -\staccato ]
                         }
+                        % measure 197
                         s1 * 2
                         \bar "|"
                     }
@@ -1145,9 +1277,11 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        % measure 152
                         \clef "treble"
                         s1 * 7/4
                         \times 4/6 {
+                            % measure 154
                             r16
                             c'''16 -\staccato [
                             cs'''16 -\staccato
@@ -1182,6 +1316,7 @@
                             d'''16 -\staccato
                             ef'''16 -\staccato
                             d'''16 -\staccato
+                            % measure 155
                             cs'''16 -\staccato
                             c'''16 -\staccato
                             d'''16 -\staccato
@@ -1205,6 +1340,7 @@
                             g'''16 -\staccato
                             e'''16 -\staccato ]
                         }
+                        % measure 156
                         s1 * 5/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1237,6 +1373,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 159
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             b'16 * 13/8 \pp [
@@ -1282,6 +1419,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 160
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             cs''16 * 117/16 [
@@ -1291,8 +1429,10 @@
                             cs''16 * 59/32 ]
                         }
                         \revert TupletNumber.text
+                        % measure 161
                         s1 * 1/4
                         {
+                            % measure 162
                             b'4 \< \pp
                         }
                         {
@@ -1311,6 +1451,7 @@
                             r4
                         }
                         {
+                            % measure 163
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             b'8. \> \p
@@ -1377,6 +1518,7 @@
                             r4
                         }
                         {
+                            % measure 165
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             d''8. \< \pp
@@ -1391,6 +1533,7 @@
                             r4
                         }
                         {
+                            % measure 166
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             b'8. \> \p
@@ -1438,6 +1581,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 167
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             b'16 * 497/64 [
@@ -1456,6 +1600,7 @@
                         }
                         \revert TupletNumber.text
                         {
+                            % measure 169
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             d''4
                         }
@@ -1475,6 +1620,7 @@
                             r4
                         }
                         {
+                            % measure 170
                             r16
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             d''8. \> \p
@@ -1530,6 +1676,7 @@
                             cs''16 * 63/32 ] \p
                         }
                         \revert TupletNumber.text
+                        % measure 174
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1560,6 +1707,7 @@
                         fs'2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 175
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1568,6 +1716,7 @@
                         fs'2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 176
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1576,6 +1725,7 @@
                         fs'2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 177
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1584,6 +1734,7 @@
                         fs'1. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 178
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1612,6 +1763,7 @@
                         fs'1 \< \mp \startTextSpan
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 179
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1620,6 +1772,7 @@
                         fs'1. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 180
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1628,6 +1781,7 @@
                         fs'1. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 181
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1636,6 +1790,7 @@
                         fs'1. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 182
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1644,6 +1799,7 @@
                         fs'1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 183
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1652,6 +1808,7 @@
                         fs'2. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 184
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1660,6 +1817,7 @@
                         fs'1 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 185
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1681,8 +1839,10 @@
                                 \upright
                                     "scratch moltiss."
                             }
+                        % measure 186
                         s1 * 1/4
                         \times 8/12 {
+                            % measure 187
                             r16
                             d'''16 -\staccato \< \ff [
                                 ^ \markup {
@@ -1710,6 +1870,7 @@
                             fs'''16 -\staccato ]
                         }
                         \times 8/11 {
+                            % measure 188
                             r16
                             f'''16 -\staccato [
                             g'''16 -\staccato
@@ -1731,6 +1892,7 @@
                             g'''16 -\staccato ]
                         }
                         \times 8/12 {
+                            % measure 189
                             r16
                             fs'''16 -\staccato [
                             f'''16 -\staccato
@@ -1752,6 +1914,7 @@
                             f'''16 -\staccato
                             e'''16 -\staccato
                             fs'''16 -\staccato
+                            % measure 190
                             f'''16 -\staccato
                             fs'''16 -\staccato
                             g'''16 -\staccato
@@ -1786,6 +1949,7 @@
                             bf'''16 -\staccato ]
                         }
                         {
+                            % measure 191
                             r16
                             a'''16 -\staccato [
                             af'''16 -\staccato
@@ -1821,6 +1985,7 @@
                             d''''16 -\staccato ]
                         }
                         \times 4/6 {
+                            % measure 192
                             r16
                             cs''''16 -\staccato [
                             ef''''16 -\staccato
@@ -1850,9 +2015,11 @@
                             ef''''16 -\staccato
                             e''''16 -\staccato \fff ]
                         }
+                        % measure 193
                         s1 * 2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/16 {
+                            % measure 196
                             r16
                             d'''16 -\staccato \pp [
                                 ^ \markup {
@@ -1894,6 +2061,7 @@
                             e'''16 -\staccato
                             ef'''16 -\staccato ]
                         }
+                        % measure 197
                         s1 * 2
                         \bar "|"
                     }
@@ -1901,15 +2069,19 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        % measure 152
                         \clef "alto"
                         s1 * 4
+                        % measure 157
                         fs2. \ff
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "terminate abruptly"
                                 }
+                        % measure 158
                         s1 * 9/4
+                        % measure 162
                         gs2 \mp
                             ^ \markup {
                                 \whiteout
@@ -1920,41 +2092,57 @@
                         a16 ]
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         a2 \repeatTie
+                        % measure 163
                         a8 \repeatTie [
                         b8 ]
                         b2 \repeatTie
                         b2. \repeatTie
+                        % measure 164
                         bqf2
                         bf4
                         bf4.. \repeatTie
                         c'16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'4 \repeatTie
+                        % measure 165
                         c'1 \repeatTie
+                        % measure 166
                         c'2 \repeatTie
                         c'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         cs'4..
+                        % measure 167
                         cs'1. \repeatTie
+                        % measure 168
                         cs'4.. \repeatTie
                         cqs'16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         cqs'4 \repeatTie
                         cqs'2. \repeatTie
+                        % measure 169
                         cqs'2 \repeatTie
                         cqs'8. \repeatTie [
                         d'16 ]
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         d'2 \repeatTie
+                        % measure 170
                         d'2. \repeatTie
+                        % measure 171
                         d'2. \repeatTie
+                        % measure 172
                         d'1 \repeatTie
+                        % measure 173
                         d'1 \repeatTie
+                        % measure 174
                         d'2. \repeatTie
                         d'2 \repeatTie
+                        % measure 175
                         d'2. \repeatTie
+                        % measure 176
                         d'2. \repeatTie
+                        % measure 177
                         d'1. \repeatTie
+                        % measure 178
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1976,20 +2164,29 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         ds'1 \< \mp \startTextSpan
+                        % measure 179
                         ds'1. \repeatTie
+                        % measure 180
                         ds'1. \repeatTie
+                        % measure 181
                         ds'1. \repeatTie
+                        % measure 182
                         ds'1 \repeatTie
+                        % measure 183
                         ds'2. \repeatTie
+                        % measure 184
                         ds'1 \repeatTie
+                        % measure 185
                         ds'2. \repeatTie
                         ds'2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "scratch moltiss."
                             }
+                        % measure 186
                         s1 * 1/4
                         \times 8/11 {
+                            % measure 187
                             \clef "treble"
                             r16
                             b''16 -\staccato \< \ff [
@@ -2017,6 +2214,7 @@
                             d'''16 -\staccato ]
                         }
                         \times 8/12 {
+                            % measure 188
                             r16
                             ef'''16 -\staccato [
                             d'''16 -\staccato
@@ -2038,6 +2236,7 @@
                             d'''16 -\staccato
                             e'''16 -\staccato
                             ef'''16 -\staccato
+                            % measure 189
                             d'''16 -\staccato
                             cs'''16 -\staccato
                             ef'''16 -\staccato
@@ -2063,6 +2262,7 @@
                             d'''16 -\staccato
                             ef'''16 -\staccato
                             e'''16 -\staccato
+                            % measure 190
                             fs'''16 -\staccato
                             f'''16 -\staccato
                             e'''16 -\staccato
@@ -2094,6 +2294,7 @@
                             g'''16 -\staccato ]
                         }
                         \times 8/11 {
+                            % measure 191
                             r16
                             fs'''16 -\staccato [
                             f'''16 -\staccato
@@ -2129,6 +2330,7 @@
                             b'''16 -\staccato ]
                         }
                         \times 4/6 {
+                            % measure 192
                             r16
                             bf'''16 -\staccato [
                             c''''16 -\staccato
@@ -2157,7 +2359,9 @@
                             b'''16 -\staccato
                             c''''16 -\staccato \fff ]
                         }
+                        % measure 193
                         s1 * 1/4
+                        % measure 194
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -2179,8 +2383,10 @@
                                     \italic
                                         ”
                                 }
+                        % measure 195
                         s1 * 1/4
                         \times 12/15 {
+                            % measure 196
                             r16
                             b''16 -\staccato \pp [
                                 ^ \markup {
@@ -2223,7 +2429,9 @@
                             cs'''16 -\staccato
                             c'''16 -\staccato ]
                         }
+                        % measure 197
                         s1 * 1/4
+                        % measure 198
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -2245,6 +2453,7 @@
                                     \italic
                                         ”
                                 }
+                        % measure 199
                         s1 * 1/4
                         \bar "|"
                     }
@@ -2252,6 +2461,7 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        % measure 152
                         \clef "treble"
                         f4.. \mp
                             ^ \markup {
@@ -2262,11 +2472,13 @@
                         gf16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         gqf4
+                        % measure 153
                         gqf4. \repeatTie
                         g8
                         df4..
                         c16
                         \times 8/14 {
+                            % measure 154
                             r16
                             a''16 -\staccato \pp [
                                 ^ \markup {
@@ -2312,6 +2524,7 @@
                             d'''16 -\staccato ]
                         }
                         \times 8/12 {
+                            % measure 155
                             r16
                             cs'''16 -\staccato [
                             c'''16 -\staccato
@@ -2333,7 +2546,9 @@
                             c'''16 -\staccato
                             b''16 -\staccato ]
                         }
+                        % measure 156
                         s1 * 13/4
+                        % measure 162
                         \clef "bass"
                         af,4.. \mp
                             ^ \markup {
@@ -2345,36 +2560,52 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         g,4 \repeatTie
                         g,2 \repeatTie
+                        % measure 163
                         g,2 \repeatTie
                         g,8 \repeatTie
                         f,2..
+                        % measure 164
                         f,1. \repeatTie
+                        % measure 165
                         f,8. \repeatTie [
                         fqs,16 ]
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs,2. \repeatTie
+                        % measure 166
                         fqs,16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fs,2...
+                        % measure 167
                         fs,2... \repeatTie
                         e,16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e,2 \repeatTie
+                        % measure 168
                         e,1. \repeatTie
+                        % measure 169
                         e,2. \repeatTie
                         e,2 \repeatTie
+                        % measure 170
                         e,4.. \repeatTie
                         ef,16
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ef,4 \repeatTie
+                        % measure 171
                         ef,2. \repeatTie
+                        % measure 172
                         ef,1 \repeatTie
+                        % measure 173
                         ef,1 \repeatTie
+                        % measure 174
                         ef,2. \repeatTie
                         ef,2 \repeatTie
+                        % measure 175
                         ef,2. \repeatTie
+                        % measure 176
                         ef,2. \repeatTie
+                        % measure 177
                         ef,1. \repeatTie
+                        % measure 178
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2396,20 +2627,29 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         df,1 \< \mp \startTextSpan
+                        % measure 179
                         df,1. \repeatTie
+                        % measure 180
                         df,1. \repeatTie
+                        % measure 181
                         df,1. \repeatTie
+                        % measure 182
                         df,1 \repeatTie
+                        % measure 183
                         df,2. \repeatTie
+                        % measure 184
                         df,1 \repeatTie
+                        % measure 185
                         df,2. \repeatTie
                         df,2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "scratch moltiss."
                             }
+                        % measure 186
                         s1 * 1/4
                         \times 4/6 {
+                            % measure 187
                             \clef "treble"
                             r16
                             af''16 -\staccato \< \ff [
@@ -2437,6 +2677,7 @@
                             b''16 -\staccato ]
                         }
                         \times 4/6 {
+                            % measure 188
                             r16
                             c'''16 -\staccato [
                             b''16 -\staccato
@@ -2459,6 +2700,7 @@
                             cs'''16 -\staccato ]
                         }
                         \times 8/14 {
+                            % measure 189
                             r16
                             c'''16 -\staccato [
                             b''16 -\staccato
@@ -2484,6 +2726,7 @@
                             c'''16 -\staccato ]
                         }
                         \times 8/14 {
+                            % measure 190
                             r16
                             cs'''16 -\staccato [
                             ef'''16 -\staccato
@@ -2513,6 +2756,7 @@
                             cs'''16 -\staccato
                             d'''16 -\staccato
                             ef'''16 -\staccato
+                            % measure 191
                             f'''16 -\staccato
                             e'''16 -\staccato
                             ef'''16 -\staccato
@@ -2549,6 +2793,7 @@
                             e'''16 -\staccato
                             fs'''16 -\staccato
                             g'''16 -\staccato
+                            % measure 192
                             af'''16 -\staccato
                             g'''16 -\staccato
                             a'''16 -\staccato
@@ -2577,8 +2822,10 @@
                             af'''16 -\staccato
                             a'''16 -\staccato \fff ]
                         }
+                        % measure 193
                         s1 * 2
                         {
+                            % measure 196
                             r16
                             af''16 -\staccato \pp [
                                 ^ \markup {
@@ -2616,6 +2863,7 @@
                             b''16 -\staccato
                             bf''16 -\staccato ]
                         }
+                        % measure 197
                         s1 * 2
                         \bar "|"
                     }

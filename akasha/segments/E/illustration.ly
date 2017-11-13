@@ -13,7 +13,9 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
+                % measure 113
                 R1 * 1
+                % measure 114
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -22,7 +24,9 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 115
                 R1 * 3/2
+                % measure 116
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -31,7 +35,9 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 117
                 R1 * 3/2
+                % measure 118
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -40,7 +46,9 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 119
                 R1 * 5/4
+                % measure 120
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -49,36 +57,67 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 121
                 R1 * 3/4
+                % measure 122
                 R1 * 3/4
+                % measure 123
                 R1 * 1
+                % measure 124
                 R1 * 1
+                % measure 125
                 R1 * 5/4
+                % measure 126
                 R1 * 3/4
+                % measure 127
                 R1 * 3/4
+                % measure 128
                 R1 * 3/2
+                % measure 129
                 R1 * 1
+                % measure 130
                 R1 * 3/2
+                % measure 131
                 R1 * 3/2
+                % measure 132
                 R1 * 3/2
+                % measure 133
                 R1 * 1
+                % measure 134
                 R1 * 3/4
+                % measure 135
                 R1 * 1
+                % measure 136
                 R1 * 5/4
+                % measure 137
                 R1 * 3/4
+                % measure 138
                 R1 * 3/4
+                % measure 139
                 R1 * 3/4
+                % measure 140
                 R1 * 1
+                % measure 141
                 R1 * 5/4
+                % measure 142
                 R1 * 1
+                % measure 143
                 R1 * 3/2
+                % measure 144
                 R1 * 3/2
+                % measure 145
                 R1 * 3/2
+                % measure 146
                 R1 * 1
+                % measure 147
                 R1 * 3/2
+                % measure 148
                 R1 * 5/4
+                % measure 149
                 R1 * 3/4
+                % measure 150
                 R1 * 3/4
+                % measure 151
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -89,6 +128,7 @@
                         }
             }
             \context GlobalSkips = "Global Skips" {
+                % measure 113
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \mark #5
@@ -109,34 +149,42 @@
                             44
                         }
                     }
+                % measure 114
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 115
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 116
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 117
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 118
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 119
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 120
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 121
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -156,18 +204,22 @@
                             55
                         }
                     }
+                % measure 122
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 123
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 124
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 125
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -193,10 +245,12 @@
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4 \startTextSpan
+                % measure 126
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 127
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -216,18 +270,22 @@
                             89
                         }
                     }
+                % measure 128
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 129
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 130
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 131
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -253,34 +311,42 @@
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2 \startTextSpan
+                % measure 132
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 56)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 133
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 134
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 135
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 136
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 137
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 138
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 139
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
@@ -300,50 +366,62 @@
                             126
                         }
                     }
+                % measure 140
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 141
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 142
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 143
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 144
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 145
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 88)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 146
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 147
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 88)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 148
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 149
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 150
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 151
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -355,10 +433,12 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        % measure 113
                         \clef "treble"
                         s1 * 3
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
+                            % measure 117
                             f'4 \ff
                                 ^ \markup {
                                     \whiteout
@@ -369,16 +449,20 @@
                             r4
                             r4
                         }
+                        % measure 118
                         s1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/3 {
+                            % measure 119
                             fs'4
                             r4
                             r4
                         }
+                        % measure 120
                         s1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
+                            % measure 121
                             r4
                             f'4
                             r4
@@ -386,12 +470,14 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
+                            % measure 122
                             r4
                             e'4
                             r4
                             r4
                         }
                         \times 8/9 {
+                            % measure 123
                             ef'8
                             r8
                             r8
@@ -403,6 +489,7 @@
                             e'8
                         }
                         \times 8/9 {
+                            % measure 124
                             r8
                             r8
                             f'8
@@ -415,6 +502,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
+                            % measure 125
                             r8
                             af'8
                             r8
@@ -429,6 +517,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            % measure 126
                             r8
                             r8
                             r8
@@ -439,6 +528,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            % measure 127
                             r8
                             r8
                             r8
@@ -454,6 +544,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
+                            % measure 128
                             a'8
                             r8
                             r8
@@ -469,6 +560,7 @@
                             r8
                         }
                         \times 8/9 {
+                            % measure 129
                             b'8
                             r8
                             r8
@@ -481,6 +573,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
+                            % measure 130
                             r8
                             r8
                             g'8
@@ -497,6 +590,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
+                            % measure 131
                             r8
                             r8
                             fs'8
@@ -513,6 +607,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
+                            % measure 132
                             fs'8
                             r8
                             r8
@@ -528,6 +623,7 @@
                             r8
                         }
                         \times 8/9 {
+                            % measure 133
                             bf'8
                             r8
                             r8
@@ -540,6 +636,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            % measure 134
                             r8
                             r8
                             g'8
@@ -548,6 +645,7 @@
                             r8
                             r8
                         }
+                        % measure 135
                         r4
                         {
                             r16
@@ -562,6 +660,7 @@
                         }
                         r4
                         r4
+                        % measure 136
                         r4
                         r4
                         r4
@@ -582,6 +681,7 @@
                             g'16 -\staccato ]
                         }
                         {
+                            % measure 137
                             r16
                             a'16 -\staccato [
                             af'16 -\staccato
@@ -596,6 +696,7 @@
                             bf'16 -\staccato ]
                         }
                         \times 4/7 {
+                            % measure 138
                             r16
                             a'16 -\staccato [
                             b'16 -\staccato
@@ -612,6 +713,7 @@
                         }
                         r4
                         \times 4/5 {
+                            % measure 139
                             r16
                             b'16 -\staccato [
                             c''16 -\staccato
@@ -634,6 +736,7 @@
                             b'16 -\staccato ]
                         }
                         \times 4/6 {
+                            % measure 140
                             r16
                             cs''16 -\staccato [
                             d''16 -\staccato
@@ -663,6 +766,7 @@
                             d''16 -\staccato
                             e''16 -\staccato ]
                         }
+                        % measure 141
                         r4
                         \times 4/5 {
                             r16
@@ -695,6 +799,7 @@
                             d''16 -\staccato ]
                         }
                         \times 4/5 {
+                            % measure 142
                             r16
                             ef''16 -\staccato [
                             e''16 -\staccato
@@ -726,6 +831,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            % measure 143
                             r16
                             ef''16 -\staccato [
                             f''16 -\staccato
@@ -766,6 +872,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            % measure 144
                             r16
                             bf''16 -\staccato [
                             a''16 -\staccato
@@ -806,6 +913,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            % measure 145
                             r16
                             c'''16 -\staccato [
                             cs'''16 -\staccato
@@ -845,6 +953,7 @@
                             f'''16 -\staccato ]
                         }
                         \times 4/5 {
+                            % measure 146
                             r16
                             ef'''16 -\staccato [
                             e'''16 -\staccato
@@ -876,6 +985,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            % measure 147
                             r16
                             e'''16 -\staccato [
                             fs'''16 -\staccato
@@ -915,6 +1025,7 @@
                             af'''16 -\staccato ]
                         }
                         \times 4/5 {
+                            % measure 148
                             r16
                             f'''16 -\staccato [
                             fs'''16 -\staccato
@@ -945,12 +1056,15 @@
                             bf'''16 -\staccato ]
                         }
                         r4
+                        % measure 149
                         r4
                         r4
                         r4
+                        % measure 150
                         r4
                         r4
                         r4
+                        % measure 151
                         s1 * 1/4
                         \bar "|"
                     }
@@ -958,10 +1072,12 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        % measure 113
                         \clef "treble"
                         s1 * 5/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
+                            % measure 115
                             r4
                             r4
                             r4
@@ -972,18 +1088,22 @@
                                             "terminate each note abruptly"
                                     }
                         }
+                        % measure 116
                         s1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            % measure 117
                             r4
                             r4
                             bf4
                             r4
                             r4
                         }
+                        % measure 118
                         s1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
+                            % measure 119
                             r4
                             r4
                             r4
@@ -991,19 +1111,23 @@
                             r4
                             a4
                         }
+                        % measure 120
                         s1 * 1/4
                         {
+                            % measure 121
                             r4
                             r4
                             af4
                         }
                         {
+                            % measure 122
                             r4
                             r4
                             g4
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
+                            % measure 123
                             r8
                             a8 \f
                                 ^ \markup {
@@ -1019,6 +1143,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
+                            % measure 124
                             r8
                             r8
                             r8
@@ -1029,6 +1154,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/9 {
+                            % measure 125
                             r8
                             r8
                             r8
@@ -1041,6 +1167,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            % measure 126
                             r8
                             r8
                             r8
@@ -1049,6 +1176,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            % measure 127
                             bf8
                             r8
                             r8
@@ -1057,6 +1185,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/11 {
+                            % measure 128
                             r8
                             r8
                             r8
@@ -1071,6 +1200,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
+                            % measure 129
                             r8
                             r8
                             cs'8
@@ -1081,6 +1211,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/11 {
+                            % measure 130
                             r8
                             r8
                             r8
@@ -1095,6 +1226,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/11 {
+                            % measure 131
                             r8
                             r8
                             cs'8 -\staccato \mf
@@ -1114,6 +1246,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/11 {
+                            % measure 132
                             b8 -\staccato
                             r8
                             r8
@@ -1126,6 +1259,7 @@
                             b8 -\staccato
                             r8
                         }
+                        % measure 133
                         r4
                         \times 4/5 {
                             r16
@@ -1141,10 +1275,12 @@
                         }
                         r4
                         r4
+                        % measure 134
                         r4
                         r4
                         r4
                         {
+                            % measure 135
                             r16
                             b16 -\staccato \> \mf [
                             c'16 -\staccato
@@ -1167,6 +1303,7 @@
                         }
                         r4
                         {
+                            % measure 136
                             r16
                             ef'16 -\staccato [
                             e'16 -\staccato
@@ -1195,6 +1332,7 @@
                             cs'16 -\staccato ]
                         }
                         \times 4/6 {
+                            % measure 137
                             r16
                             ef'16 -\staccato [
                             e'16 -\staccato
@@ -1219,6 +1357,7 @@
                             d'16 -\staccato ]
                         }
                         {
+                            % measure 138
                             r16
                             ef'16 -\staccato [
                             e'16 -\staccato
@@ -1239,6 +1378,7 @@
                             af'16 -\staccato
                             a'16 -\staccato ]
                         }
+                        % measure 139
                         r4
                         {
                             r16
@@ -1255,6 +1395,7 @@
                             f'16 -\staccato ]
                         }
                         \times 4/5 {
+                            % measure 140
                             r16
                             e'16 -\staccato [
                             f'16 -\staccato
@@ -1285,6 +1426,7 @@
                             g'16 -\staccato ]
                         }
                         \times 4/5 {
+                            % measure 141
                             r16
                             fs'16 -\staccato [
                             f'16 -\staccato
@@ -1322,6 +1464,7 @@
                             af'16 -\staccato ]
                         }
                         \times 4/7 {
+                            % measure 142
                             r16
                             g'16 -\staccato [
                             a'16 -\staccato
@@ -1352,6 +1495,7 @@
                             b'16 -\staccato ]
                         }
                         \times 6/9 {
+                            % measure 143
                             r16
                             c''16 -\staccato [
                             b'16 -\staccato
@@ -1392,6 +1536,7 @@
                             cs''16 -\staccato ]
                         }
                         \times 6/9 {
+                            % measure 144
                             r16
                             c''16 -\staccato [
                             cs''16 -\staccato
@@ -1432,6 +1577,7 @@
                             f''16 -\staccato \pp ]
                         }
                         {
+                            % measure 145
                             r16
                             e''16 -\staccato [
                             ef''16 -\staccato
@@ -1471,6 +1617,7 @@
                             b''16 -\staccato ]
                         }
                         \times 8/12 {
+                            % measure 146
                             r16
                             a''16 -\staccato [
                             bf''16 -\staccato
@@ -1501,6 +1648,7 @@
                             a''16 -\staccato ]
                         }
                         \times 6/9 {
+                            % measure 147
                             r16
                             bf''16 -\staccato [
                             a''16 -\staccato
@@ -1545,6 +1693,7 @@
                             b''16 -\staccato ]
                         }
                         \times 8/14 {
+                            % measure 148
                             r16
                             cs'''16 -\staccato [
                             d'''16 -\staccato
@@ -1574,10 +1723,13 @@
                             e'''16 -\staccato ]
                         }
                         r4
+                        % measure 149
                         r2
                         r4
+                        % measure 150
                         r2
                         r4
+                        % measure 151
                         s1 * 1/4
                         \bar "|"
                     }
@@ -1585,6 +1737,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        % measure 113
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1611,151 +1764,189 @@
                                 }
                         c'4. -\upbow
                         r8
+                        % measure 114
                         s1 * 1/4
+                        % measure 115
                         r4.
                         c'4 -\downbow
                         c'4. -\upbow
                         c'4 -\downbow
                         r4
+                        % measure 116
                         s1 * 1/4
+                        % measure 117
                         r4.
                         c'4 -\upbow
                         c'4 -\downbow
                         c'4. -\upbow
                         r4
+                        % measure 118
                         s1 * 1/4
+                        % measure 119
                         r4
                         c'4. -\downbow
                         c'4 -\upbow
                         r4.
+                        % measure 120
                         s1 * 1/4
+                        % measure 121
                         r4
                         c'4. -\downbow
                         c'8 -\upbow ~ [
+                        % measure 122
                         c'8 ]
                         c'4 -\downbow
                         c'4. -\upbow
+                        % measure 123
                         c'4 -\downbow
                         c'4. -\upbow
                         c'4 -\downbow
                         c'8 -\upbow ~ [
+                        % measure 124
                         c'8 ]
                         c'4. -\downbow
                         c'4 -\upbow
                         c'4 -\downbow ~
+                        % measure 125
                         c'8
                         c'4 -\upbow
                         c'4 -\downbow
                         c'4. -\upbow
                         c'4 -\downbow
+                        % measure 126
                         c'4. -\upbow
                         c'4 -\downbow
                         c'8 -\upbow ~ [
+                        % measure 127
                         c'8 ]
                         c'4. -\downbow
                         c'4 -\upbow
+                        % measure 128
                         c'4. -\downbow
                         c'4 -\upbow
                         c'4 -\downbow
                         c'4. -\upbow
                         c'4 -\downbow
+                        % measure 129
                         c'4. -\upbow
                         c'4 -\downbow
                         c'4 -\upbow
                         c'8 -\downbow ~
+                        % measure 130
                         c'4
                         c'4 -\upbow
                         c'4. -\downbow
                         c'4 -\upbow
                         c'4 -\downbow
                         c'8 -\upbow ~
+                        % measure 131
                         c'4
                         c'4 -\downbow
                         c'4. -\upbow
                         c'4 -\downbow
                         c'4 -\upbow
                         c'8 -\downbow ~
+                        % measure 132
                         c'4
                         c'4 -\upbow
                         c'4. -\downbow
                         c'4 -\upbow
                         c'4 -\downbow
                         c'8 -\upbow ~
+                        % measure 133
                         c'4
                         c'4 -\downbow
                         c'4. -\upbow
                         c'8 -\downbow ~ [
+                        % measure 134
                         c'8 ]
                         c'4 -\upbow
                         c'4. -\downbow
+                        % measure 135
                         c'4 -\upbow
                         c'4. -\downbow
                         c'4 -\upbow
                         c'8 -\downbow ~ [
+                        % measure 136
                         c'8 ]
                         c'4. -\upbow
                         c'4 -\downbow
                         c'4. -\upbow
                         c'8 -\downbow ~ [
+                        % measure 137
                         c'8 ]
                         c'4 -\upbow
+                        c'4. -\downbow
+                        % measure 138
+                        c'4 -\upbow
+                        c'4. -\downbow
+                        c'8 -\upbow ~ [
+                        % measure 139
+                        c'8 ]
+                        c'4 -\downbow
+                        c'4. -\upbow
+                        % measure 140
+                        c'4 -\downbow
+                        c'4. -\upbow
+                        c'4 -\downbow
+                        c'8 -\upbow ~ [
+                        % measure 141
+                        c'8 ]
                         c'4. -\downbow
                         c'4 -\upbow
                         c'4. -\downbow
                         c'8 -\upbow ~ [
+                        % measure 142
                         c'8 ]
                         c'4 -\downbow
                         c'4. -\upbow
                         c'4 -\downbow
-                        c'4. -\upbow
-                        c'4 -\downbow
-                        c'8 -\upbow ~ [
-                        c'8 ]
-                        c'4. -\downbow
-                        c'4 -\upbow
-                        c'4. -\downbow
-                        c'8 -\upbow ~ [
-                        c'8 ]
-                        c'4 -\downbow
-                        c'4. -\upbow
-                        c'4 -\downbow
+                        % measure 143
                         c'4. -\upbow
                         c'4 -\downbow
                         c'4 -\upbow
                         c'4. -\downbow
                         c'4 -\upbow
+                        % measure 144
                         c'4. -\downbow
                         c'4 -\upbow
                         c'4 -\downbow
                         c'4. -\upbow
                         c'4 -\downbow
+                        % measure 145
                         c'4. -\upbow
                         c'4 -\downbow
                         c'4 -\upbow
                         c'4. -\downbow
                         c'4 -\upbow
+                        % measure 146
                         c'4. -\downbow
                         c'4 -\upbow
                         c'4 -\downbow
                         c'8 -\upbow ~
+                        % measure 147
                         c'4
                         c'4 -\downbow
                         c'4. -\upbow
                         c'4 -\downbow
                         c'4 -\upbow
                         c'8 -\downbow ~
+                        % measure 148
                         c'4
                         c'4 -\upbow
                         c'4. -\downbow
                         c'4 -\upbow
                         c'8 -\downbow ~ [
+                        % measure 149
                         c'8 ]
                         c'4. -\upbow
                         c'4 -\downbow
+                        % measure 150
                         c'4. -\upbow
                         c'4 -\downbow
                         \revert RepeatTie.direction
                         r8
+                        % measure 151
                         s1 * 1/4
                         \bar "|"
                     }
@@ -1763,10 +1954,12 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        % measure 113
                         \clef "bass"
                         s1 * 5/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            % measure 115
                             r4
                             b,4 \ff
                                 ^ \markup {
@@ -1778,17 +1971,21 @@
                             r4
                             r4
                         }
+                        % measure 116
                         s1 * 2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/4 {
+                            % measure 119
                             r4
                             c4
                             r4
                             r4
                         }
+                        % measure 120
                         s1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/5 {
+                            % measure 121
                             r4
                             r4
                             b,4 \f
@@ -1802,6 +1999,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/5 {
+                            % measure 122
                             r4
                             r4
                             r4
@@ -1809,6 +2007,7 @@
                             r4
                         }
                         \times 8/10 {
+                            % measure 123
                             r8
                             r8
                             a,8
@@ -1821,6 +2020,7 @@
                             r8
                         }
                         \times 8/10 {
+                            % measure 124
                             r8
                             bf,8
                             r8
@@ -1834,6 +2034,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/12 {
+                            % measure 125
                             c8
                             r8
                             r8
@@ -1849,6 +2050,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
+                            % measure 126
                             c8
                             r8
                             r8
@@ -1860,6 +2062,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
+                            % measure 127
                             r8
                             cs8 -\staccato \mf
                                 ^ \markup {
@@ -1876,6 +2079,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/14 {
+                            % measure 128
                             r8
                             r8
                             ef8 -\staccato
@@ -1892,6 +2096,7 @@
                             r8
                         }
                         \times 8/10 {
+                            % measure 129
                             r8
                             r8
                             r8
@@ -1905,6 +2110,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/14 {
+                            % measure 130
                             r8
                             r8
                             e8 -\staccato
@@ -1920,6 +2126,7 @@
                             r8
                             r8
                         }
+                        % measure 131
                         r4.
                         {
                             r16
@@ -1936,6 +2143,7 @@
                         }
                         r4.
                         r4.
+                        % measure 132
                         r4.
                         r4.
                         r4.
@@ -1950,6 +2158,7 @@
                             cs16 -\staccato ]
                         }
                         \times 4/7 {
+                            % measure 133
                             r16
                             ef16 -\staccato [
                             e16 -\staccato
@@ -1973,6 +2182,7 @@
                             cs16 -\staccato ]
                         }
                         \times 4/7 {
+                            % measure 134
                             r16
                             ef16 -\staccato [
                             d16 -\staccato
@@ -1989,6 +2199,7 @@
                         }
                         r4
                         \times 4/5 {
+                            % measure 135
                             r16
                             fs16 -\staccato \> \mf [
                             g16 -\staccato
@@ -2019,6 +2230,7 @@
                             g16 -\staccato ]
                         }
                         \times 4/5 {
+                            % measure 136
                             r16
                             fs16 -\staccato [
                             f16 -\staccato
@@ -2049,6 +2261,7 @@
                             fs16 -\staccato ]
                         }
                         \times 4/7 {
+                            % measure 137
                             r16
                             g16 -\staccato [
                             af16 -\staccato
@@ -2072,6 +2285,7 @@
                             c'16 -\staccato ]
                         }
                         \times 4/5 {
+                            % measure 138
                             r16
                             a16 -\staccato [
                             bf16 -\staccato
@@ -2094,6 +2308,7 @@
                             a16 -\staccato ]
                         }
                         {
+                            % measure 139
                             \clef "treble"
                             r16
                             b16 -\staccato [
@@ -2112,6 +2327,7 @@
                             b16 -\staccato ]
                         }
                         \times 4/7 {
+                            % measure 140
                             r16
                             bf16 -\staccato [
                             a16 -\staccato
@@ -2139,6 +2355,7 @@
                             e'16 -\staccato
                             cs'16 -\staccato
                             d'16 -\staccato
+                            % measure 141
                             cs'16 -\staccato
                             c'16 -\staccato
                             b16 -\staccato
@@ -2175,6 +2392,7 @@
                             ef'16 -\staccato ]
                         }
                         \times 8/12 {
+                            % measure 142
                             r16
                             d'16 -\staccato [
                             ef'16 -\staccato
@@ -2200,6 +2418,7 @@
                             e'16 -\staccato ]
                         }
                         \times 6/9 {
+                            % measure 143
                             r16
                             ef'16 -\staccato [
                             f'16 -\staccato
@@ -2242,6 +2461,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
+                            % measure 144
                             r16
                             a'16 -\staccato [
                             bf'16 -\staccato
@@ -2274,6 +2494,7 @@
                             d''16 -\staccato \pp ]
                         }
                         \times 12/18 {
+                            % measure 145
                             r16
                             ef''16 -\staccato [
                             cs''16 -\staccato
@@ -2314,6 +2535,7 @@
                             c''16 -\staccato
                             cs''16 -\staccato
                             d''16 -\staccato
+                            % measure 146
                             e''16 -\staccato
                             ef''16 -\staccato
                             d''16 -\staccato
@@ -2344,6 +2566,7 @@
                             fs''16 -\staccato ]
                         }
                         \times 12/15 {
+                            % measure 147
                             r16
                             f''16 -\staccato [
                             e''16 -\staccato
@@ -2420,6 +2643,7 @@
                         r4
                         r2
                         r2
+                        % measure 151
                         s1 * 1/4
                         \bar "|"
                     }

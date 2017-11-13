@@ -13,9 +13,13 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
+                % measure 217
                 R1 * 1
+                % measure 218
                 R1 * 5/4
+                % measure 219
                 R1 * 3/4
+                % measure 220
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -24,8 +28,11 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 221
                 R1 * 3/4
+                % measure 222
                 R1 * 1
+                % measure 223
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -38,6 +45,7 @@
             \context GlobalSkips = "Global Skips" {
                 \repeat volta 2
                 {
+                    % measure 217
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \time 4/4
                     \mark #8
@@ -58,10 +66,12 @@
                                 89
                             }
                         }
+                    % measure 218
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \time 5/4
                     \newSpacingSection
                     s1 * 5/4
+                    % measure 219
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/4
                     \newSpacingSection
@@ -81,10 +91,12 @@
                                 44
                             }
                         }
+                    % measure 220
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \time 1/4
                     \newSpacingSection
                     s1 * 1/4
+                    % measure 221
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/4
                     \newSpacingSection
@@ -104,10 +116,12 @@
                                 55
                             }
                         }
+                    % measure 222
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 4/4
                     \newSpacingSection
                     s1 * 1
+                    % measure 223
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \time 1/4
                     \newSpacingSection
@@ -151,6 +165,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 217
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             \clef "treble"
@@ -198,6 +213,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 218
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             d'16 * 113/64 [
@@ -209,7 +225,9 @@
                             e'16 * 409/64 ]
                         }
                         \revert TupletNumber.text
+                        % measure 219
                         fs''2. \ppp
+                        % measure 220
                         s1 * 9/4
                         \bar "|"
                     }
@@ -248,6 +266,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 217
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             \clef "treble"
@@ -296,6 +315,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 218
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             ds'16 * 477/64 [
@@ -306,7 +326,9 @@
                             ds'16 * 15/8 ]
                         }
                         \revert TupletNumber.text
+                        % measure 219
                         af'2. \ppp
+                        % measure 220
                         s1 * 9/4
                         \bar "|"
                     }
@@ -314,16 +336,21 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        % measure 217
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
                         \clef "alto"
                         c'1
+                        % measure 218
                         c'2. \repeatTie
                         c'2 \repeatTie
+                        % measure 219
                         c'2. \repeatTie
+                        % measure 220
                         s1 * 1/4
                         \times 8/9 {
+                            % measure 221
                             ds1.. \glissando \> \mp
                                 ^ \markup {
                                     \whiteout
@@ -332,6 +359,7 @@
                                     }
                             cqs8.. \pp
                         }
+                        % measure 223
                         s1 * 1/4
                         \bar "|"
                     }
@@ -371,6 +399,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 217
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             \clef "bass"
@@ -392,9 +421,12 @@
                             d'16 * 461/64 ]
                         }
                         \revert TupletNumber.text
+                        % measure 219
                         cs,2. \ppp
+                        % measure 220
                         s1 * 1/4
                         \times 8/9 {
+                            % measure 221
                             cs,1.. \glissando \> \mp
                                 ^ \markup {
                                     \whiteout
@@ -403,6 +435,7 @@
                                     }
                             bf,,8.. \pp
                         }
+                        % measure 223
                         s1 * 1/4
                         \bar "|"
                     }
