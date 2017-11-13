@@ -13,10 +13,15 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
+                % measure 24
                 R1 * 9/8
+                % measure 25
                 R1 * 9/8
+                % measure 26
                 R1 * 1/2
+                % measure 27
                 R1 * 1
+                % measure 28
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -25,7 +30,9 @@
                         \musicglyph
                             #"scripts.ulongfermata"
                         }
+                % measure 29
                 R1 * 3/8
+                % measure 30
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -34,7 +41,9 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
+                % measure 31
                 R1 * 1/2
+                % measure 32
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -43,10 +52,13 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
+                % measure 33
                 R1 * 7/8
+                % measure 34
                 R1 * 7/8
             }
             \context GlobalSkips = "Global Skips" {
+                % measure 24
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 9/8
                 \mark #2
@@ -67,42 +79,52 @@
                             55
                         }
                     }
+                % measure 25
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
+                % measure 26
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
+                % measure 27
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
+                % measure 28
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 29
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
+                % measure 30
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 31
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
+                % measure 32
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 33
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
+                % measure 34
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 7/8
                 \newSpacingSection
@@ -146,6 +168,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 24
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             \clef "treble"
@@ -156,9 +179,12 @@
                             e''16 * 131/64 ]
                         }
                         \revert TupletNumber.text
+                        % measure 25
                         r1
                         r8
+                        % measure 26
                         r2
+                        % measure 27
                         s1 * 35/8
                         \bar "|"
                     }
@@ -166,6 +192,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        % measure 24
                         \clef "treble"
                         ds'4 \mp
                             ^ \markup {
@@ -174,11 +201,14 @@
                                         "tasto + 1/2 scratch"
                                 }
                         e'2..
+                        % measure 25
                         f'4
                         fqf'8
                         fqf'4 \repeatTie
                         e'2
+                        % measure 26
                         e'2 \repeatTie
+                        % measure 27
                         s1 * 21/8
                         \override TupletNumber.text = \markup {
                             \scale
@@ -211,6 +241,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 33
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             c''16 * 487/64 \pp [
@@ -234,17 +265,22 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        % measure 24
                         \clef "alto"
                         r4.
                         r4
                         df'2
+                        % measure 25
                         df'4. \repeatTie
                         df'4 \repeatTie
                         dtqf'8 [
                         dtqf'8 \repeatTie ]
                         c'4
+                        % measure 26
                         c'2 \repeatTie
+                        % measure 27
                         s1 * 7/2
+                        % measure 34
                         ds2.. \mp
                             ^ \markup {
                                 \whiteout
@@ -257,10 +293,12 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        % measure 24
                         \clef "bass"
                         r2.
                         r4.
                         \times 8/9 {
+                            % measure 25
                             r16.
                             bf32 -\staccato [
                             a32 -\staccato
@@ -270,6 +308,7 @@
                         }
                         r2..
                         {
+                            % measure 26
                             r8.
                             c'32 -\staccato [
                             bf32 -\staccato ]
@@ -284,6 +323,7 @@
                             r8
                         }
                         \times 8/9 {
+                            % measure 27
                             r8
                             bf32 -\staccato [
                             af32 -\staccato
@@ -316,8 +356,10 @@
                             f32 -\staccato ]
                             r8
                         }
+                        % measure 28
                         s1 * 1/4
                         \times 8/9 {
+                            % measure 29
                             fs32 -\staccato [
                             g32 -\staccato
                             f32 -\staccato
@@ -332,8 +374,10 @@
                             ef32 -\staccato ]
                             r32
                         }
+                        % measure 30
                         s1 * 1/4
                         \times 8/9 {
+                            % measure 31
                             d32 -\staccato
                             r8
                             e32 -\staccato [
@@ -345,7 +389,9 @@
                             r4
                             fs32 -\staccato
                         }
+                        % measure 32
                         s1 * 9/8
+                        % measure 34
                         cs,2.. \mp
                             ^ \markup {
                                 \whiteout

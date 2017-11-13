@@ -13,7 +13,9 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
+                % measure 334
                 R1 * 1
+                % measure 335
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -22,7 +24,9 @@
                         \musicglyph
                             #"scripts.uverylongfermata"
                         }
+                % measure 336
                 R1 * 3/2
+                % measure 337
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -31,10 +35,13 @@
                         \musicglyph
                             #"scripts.uverylongfermata"
                         }
+                % measure 338
                 R1 * 3/2
+                % measure 339
                 R1 * 3/4
             }
             \context GlobalSkips = "Global Skips" {
+                % measure 334
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \mark #12
@@ -55,22 +62,27 @@
                             55
                         }
                     }
+                % measure 335
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 336
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 337
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 338
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 339
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -82,12 +94,18 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        % measure 334
                         \clef "treble"
                         R1 * 1
+                        % measure 335
                         R1 * 1/4
+                        % measure 336
                         R1 * 3/2
+                        % measure 337
                         R1 * 1/4
+                        % measure 338
                         R1 * 3/2
+                        % measure 339
                         R1 * 3/4
                         \bar "|"
                     }
@@ -95,12 +113,18 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        % measure 334
                         \clef "treble"
                         R1 * 1
+                        % measure 335
                         R1 * 1/4
+                        % measure 336
                         R1 * 3/2
+                        % measure 337
                         R1 * 1/4
+                        % measure 338
                         R1 * 3/2
+                        % measure 339
                         R1 * 3/4
                         \bar "|"
                     }
@@ -108,6 +132,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        % measure 334
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -130,8 +155,11 @@
                                     \italic
                                         ”
                                 }
+                        % measure 335
                         s1 * 1/4
+                        % measure 336
                         c'1. -\upbow
+                        % measure 337
                         s1 * 5/2
                         \bar "|"
                     }
@@ -139,8 +167,10 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        % measure 334
                         \clef "treble"
                         s1 * 3
+                        % measure 338
                         \clef "bass"
                         bf,,1. \pp
                             ^ \markup {
@@ -148,6 +178,7 @@
                                     \upright
                                         "pos. ord. + vib. poco"
                                 }
+                        % measure 339
                         bf,,2. \repeatTie
                         \bar "|"
                     }

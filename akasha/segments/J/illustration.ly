@@ -13,9 +13,13 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
+                % measure 261
                 R1 * 1
+                % measure 262
                 R1 * 3/2
+                % measure 263
                 R1 * 3/2
+                % measure 264
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -26,6 +30,7 @@
                         }
             }
             \context GlobalSkips = "Global Skips" {
+                % measure 261
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \mark #10
@@ -46,14 +51,17 @@
                             44
                         }
                     }
+                % measure 262
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 263
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 264
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -65,10 +73,12 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        % measure 261
                         \clef "treble"
                         s1 * 1
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
+                            % measure 262
                             f'4 \ff
                                 ^ \markup {
                                     \whiteout
@@ -81,11 +91,13 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
+                            % measure 263
                             fs'4
                             r4
                             r4
                             r4
                         }
+                        % measure 264
                         s1 * 1/4
                         \bar "|"
                     }
@@ -94,6 +106,7 @@
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         {
+                            % measure 261
                             \clef "treble"
                             r4
                             r4
@@ -107,6 +120,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            % measure 262
                             r4
                             r4
                             bf4
@@ -115,6 +129,7 @@
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            % measure 263
                             r4
                             r4
                             r4
@@ -123,6 +138,7 @@
                             r4
                             a4
                         }
+                        % measure 264
                         s1 * 1/4
                         \bar "|"
                     }
@@ -130,10 +146,14 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        % measure 261
                         \clef "alto"
                         R1 * 1
+                        % measure 262
                         R1 * 3/2
+                        % measure 263
                         R1 * 3/2
+                        % measure 264
                         R1 * 1/4
                         \bar "|"
                     }
@@ -143,6 +163,7 @@
                     \context CelloMusicVoice = "Cello Music Voice" {
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 4/3 {
+                            % measure 261
                             \clef "bass"
                             r4
                             b,4 \ff
@@ -153,15 +174,18 @@
                                     }
                             r4
                         }
+                        % measure 262
                         s1 * 3/2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
+                            % measure 263
                             r4
                             c4
                             r4
                             r4
                             r4
                         }
+                        % measure 264
                         s1 * 1/4
                         \bar "|"
                     }

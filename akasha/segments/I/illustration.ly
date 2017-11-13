@@ -13,8 +13,11 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
+                % measure 224
                 R1 * 3/2
+                % measure 225
                 R1 * 1
+                % measure 226
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -23,29 +26,53 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                % measure 227
                 R1 * 3/2
+                % measure 228
                 R1 * 3/2
+                % measure 229
                 R1 * 3/2
+                % measure 230
                 R1 * 1
+                % measure 231
                 R1 * 5/4
+                % measure 232
                 R1 * 3/4
+                % measure 233
                 R1 * 3/4
+                % measure 234
                 R1 * 1
+                % measure 235
                 R1 * 1
+                % measure 236
                 R1 * 5/4
+                % measure 237
                 R1 * 3/4
+                % measure 238
                 R1 * 3/4
+                % measure 239
                 R1 * 1
+                % measure 240
                 R1 * 3/2
+                % measure 241
                 R1 * 3/2
+                % measure 242
                 R1 * 3/2
+                % measure 243
                 R1 * 1
+                % measure 244
                 R1 * 3/2
+                % measure 245
                 R1 * 3/4
+                % measure 246
                 R1 * 1
+                % measure 247
                 R1 * 5/4
+                % measure 248
                 R1 * 3/4
+                % measure 249
                 R1 * 3/4
+                % measure 250
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -54,8 +81,11 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
+                % measure 251
                 R1 * 3/4
+                % measure 252
                 R1 * 1
+                % measure 253
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -64,12 +94,19 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
+                % measure 254
                 R1 * 5/4
+                % measure 255
                 R1 * 3/2
+                % measure 256
                 R1 * 3/2
+                % measure 257
                 R1 * 1
+                % measure 258
                 R1 * 1
+                % measure 259
                 R1 * 3/2
+                % measure 260
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -80,6 +117,7 @@
                         }
             }
             \context GlobalSkips = "Global Skips" {
+                % measure 224
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \mark #9
@@ -100,14 +138,17 @@
                             89
                         }
                     }
+                % measure 225
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 226
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 227
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -144,18 +185,22 @@
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2 \startTextSpan
+                % measure 228
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 229
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 230
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 231
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -192,22 +237,27 @@
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4 \stopTextSpan \startTextSpan
+                % measure 232
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 233
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 234
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 235
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 236
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -244,18 +294,22 @@
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4 \stopTextSpan \startTextSpan
+                % measure 237
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 238
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 239
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 240
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -292,18 +346,22 @@
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2 \stopTextSpan \startTextSpan
+                % measure 241
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 242
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 243
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 244
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
@@ -323,10 +381,12 @@
                             55
                         }
                     }
+                % measure 245
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 246
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
@@ -346,10 +406,12 @@
                             126
                         }
                     }
+                % measure 247
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
+                % measure 248
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -369,14 +431,17 @@
                             55
                         }
                     }
+                % measure 249
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
+                % measure 250
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 251
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 3/4
                 \newSpacingSection
@@ -396,14 +461,17 @@
                             89
                         }
                     }
+                % measure 252
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 253
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                % measure 254
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 5/4
                 \newSpacingSection
@@ -423,10 +491,12 @@
                             55
                         }
                     }
+                % measure 255
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 256
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -452,10 +522,12 @@
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2 \startTextSpan
+                % measure 257
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
+                % measure 258
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
@@ -475,10 +547,12 @@
                             44
                         }
                     }
+                % measure 259
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
+                % measure 260
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
@@ -490,6 +564,7 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                        % measure 224
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -512,12 +587,15 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \clef "treble"
                         b''1. \< \sfp \startTextSpan
+                        % measure 225
                         b''1 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 226
                         s1 * 1/4
+                        % measure 227
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -539,12 +617,15 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b''1. \< \sfp \startTextSpan
+                        % measure 228
                         b''1. \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 229
                         s1 * 5/2
+                        % measure 231
                         b'4 -\downbow \ppp
                             ^ \markup {
                                 \whiteout
@@ -555,12 +636,15 @@
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
+                        % measure 232
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
+                        % measure 233
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
+                        % measure 234
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -585,6 +669,7 @@
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
+                        % measure 235
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
@@ -593,14 +678,17 @@
                                 \upright
                                     3/4OB
                             }
+                        % measure 236
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
+                        % measure 237
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
+                        % measure 238
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -624,6 +712,7 @@
                         b'4 -\upbow \startTextSpan
                         b'4 -\downbow
                         b'4 -\upbow
+                        % measure 239
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
@@ -632,6 +721,7 @@
                                 \upright
                                     1/2OB
                             }
+                        % measure 240
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -658,18 +748,21 @@
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
+                        % measure 241
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
+                        % measure 242
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
                         b'4 -\upbow
+                        % measure 243
                         b'4 -\downbow
                         b'4 -\upbow
                         b'4 -\downbow
@@ -678,14 +771,17 @@
                                 \upright
                                     XP
                             }
+                        % measure 244
                         b'1. \< \ppp
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "XP + FB"
                                 }
+                        % measure 245
                         b'2. \repeatTie \mp
                         \times 8/14 {
+                            % measure 246
                             r16
                             g'''16 -\staccato \ppp [
                                 ^ \markup {
@@ -721,6 +817,7 @@
                             a'''16 -\staccato ]
                         }
                         \times 4/6 {
+                            % measure 247
                             r16
                             af'''16 -\staccato [
                             g'''16 -\staccato
@@ -755,6 +852,7 @@
                             bf'''16 -\staccato
                             a'''16 -\staccato ]
                         }
+                        % measure 248
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -777,11 +875,13 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         b'2. \< \ppp \startTextSpan
+                        % measure 249
                         b'2. \repeatTie \mp \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "tasto + FB"
                             }
+                        % measure 250
                         s1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -814,6 +914,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 251
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             ds'16 * 227/32 \p [
@@ -853,6 +954,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 252
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             es'16 * 109/64 [
@@ -863,7 +965,9 @@
                             es'16 * 191/32 ]
                         }
                         \revert TupletNumber.text
+                        % measure 253
                         s1 * 1/4
+                        % measure 254
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -900,6 +1004,7 @@
                         b'2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 255
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -913,6 +1018,7 @@
                                 \upright
                                     "tasto + 1/2 scratch"
                             }
+                        % measure 256
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -941,6 +1047,7 @@
                         b'1. \< \mp \startTextSpan
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 257
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -954,6 +1061,7 @@
                                 \upright
                                     "scratch moltiss."
                             }
+                        % measure 258
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -962,6 +1070,7 @@
                         b'1
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 259
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -970,6 +1079,7 @@
                         b'1. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 260
                         s1 * 1/4
                         \bar "|"
                     }
@@ -977,6 +1087,7 @@
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                        % measure 224
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -999,12 +1110,15 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \clef "treble"
                         atqs1. \< \sfp \startTextSpan
+                        % measure 225
                         atqs1 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 226
                         s1 * 1/4
+                        % measure 227
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1026,12 +1140,15 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b1. \< \sfp \startTextSpan
+                        % measure 228
                         b1. \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 229
                         s1 * 5/2
+                        % measure 231
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1054,13 +1171,17 @@
                         \once \override TextSpanner.dash-period = 1.5
                         atqs2. \< \sfp \startTextSpan
                         atqs2 \repeatTie
+                        % measure 232
                         atqs2. \repeatTie
+                        % measure 233
                         atqs2. \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 234
                         s1 * 2
+                        % measure 236
                         b4 -\upbow \ppp
                             ^ \markup {
                                 \whiteout
@@ -1071,9 +1192,11 @@
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
+                        % measure 237
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
+                        % measure 238
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1097,6 +1220,7 @@
                         b4 -\upbow \startTextSpan
                         b4 -\downbow
                         b4 -\upbow
+                        % measure 239
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
@@ -1105,6 +1229,7 @@
                                 \upright
                                     3/4OB
                             }
+                        % measure 240
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1131,18 +1256,21 @@
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
+                        % measure 241
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
+                        % measure 242
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
                         b4 -\upbow
+                        % measure 243
                         b4 -\downbow
                         b4 -\upbow
                         b4 -\downbow
@@ -1151,14 +1279,18 @@
                                 \upright
                                     XP
                             }
+                        % measure 244
                         b1. \< \ppp
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "XP + FB"
                                 }
+                        % measure 245
                         b2. \repeatTie \mp
+                        % measure 246
                         s1 * 9/4
+                        % measure 248
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1180,11 +1312,13 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b2. \< \ppp \startTextSpan
+                        % measure 249
                         b2. \repeatTie \mp \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "tasto + FB"
                             }
+                        % measure 250
                         s1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1217,6 +1351,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 251
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             d'16 * 13/8 \p [
@@ -1257,6 +1392,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 252
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             d'16 * 117/16 [
@@ -1266,7 +1402,9 @@
                             e'16 * 59/32 ]
                         }
                         \revert TupletNumber.text
+                        % measure 253
                         s1 * 1/4
+                        % measure 254
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1303,6 +1441,7 @@
                         b2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 255
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1316,6 +1455,7 @@
                                 \upright
                                     "tasto + 1/2 scratch"
                             }
+                        % measure 256
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1344,6 +1484,7 @@
                         b1. \< \mp \startTextSpan
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 257
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1357,6 +1498,7 @@
                                 \upright
                                     "scratch moltiss."
                             }
+                        % measure 258
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1365,6 +1507,7 @@
                         b1
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 259
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1373,6 +1516,7 @@
                         b1. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 260
                         s1 * 1/4
                         \bar "|"
                     }
@@ -1380,6 +1524,7 @@
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
+                        % measure 224
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1402,12 +1547,15 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \clef "alto"
                         bqs,1. \< \sfp \startTextSpan
+                        % measure 225
                         bqs,1 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 226
                         s1 * 1/4
+                        % measure 227
                         b,4 -\downbow \ppp
                             ^ \markup {
                                 \whiteout
@@ -1419,12 +1567,14 @@
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 228
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 229
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1451,6 +1601,7 @@
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 230
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
@@ -1459,17 +1610,21 @@
                                 \upright
                                     3/4OB
                             }
+                        % measure 231
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
+                        % measure 232
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 233
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
+                        % measure 234
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1494,6 +1649,7 @@
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
+                        % measure 235
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
@@ -1502,14 +1658,17 @@
                                 \upright
                                     1/2OB
                             }
+                        % measure 236
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 237
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
+                        % measure 238
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1533,6 +1692,7 @@
                         b,4 -\upbow \startTextSpan
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 239
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
@@ -1541,6 +1701,7 @@
                                 \upright
                                     1/4OB
                             }
+                        % measure 240
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1567,18 +1728,21 @@
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 241
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 242
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
                         b,4 -\upbow
+                        % measure 243
                         b,4 -\downbow
                         b,4 -\upbow
                         b,4 -\downbow
@@ -1587,14 +1751,18 @@
                                 \upright
                                     XP
                             }
+                        % measure 244
                         b,1. \< \ppp
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "XP + FB"
                                 }
+                        % measure 245
                         b,2. \repeatTie \mp
+                        % measure 246
                         s1 * 9/4
+                        % measure 248
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1616,11 +1784,13 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b,2. \< \ppp \startTextSpan
+                        % measure 249
                         b,2. \repeatTie \mp \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "tasto + FB"
                             }
+                        % measure 250
                         s1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1653,6 +1823,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 251
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             cs'16 * 487/64 \p [
@@ -1665,7 +1836,9 @@
                             cs'16 * 61/32 ]
                         }
                         \revert TupletNumber.text
+                        % measure 253
                         s1 * 1/4
+                        % measure 254
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1702,6 +1875,7 @@
                         b,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 255
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1715,6 +1889,7 @@
                                 \upright
                                     "tasto + 1/2 scratch"
                             }
+                        % measure 256
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1743,6 +1918,7 @@
                         b,1. \< \mp \startTextSpan
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 257
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1756,6 +1932,7 @@
                                 \upright
                                     "scratch moltiss."
                             }
+                        % measure 258
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1764,6 +1941,7 @@
                         b,1
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 259
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -1772,6 +1950,7 @@
                         b,1. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 260
                         s1 * 1/4
                         \bar "|"
                     }
@@ -1779,6 +1958,7 @@
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
+                        % measure 224
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1801,12 +1981,15 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \clef "bass"
                         b,,1. \< \sfp \startTextSpan
+                        % measure 225
                         b,,1 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 226
                         s1 * 1/4
+                        % measure 227
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1828,12 +2011,15 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b,,1. \< \sfp \startTextSpan
+                        % measure 228
                         b,,1. \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 229
                         s1 * 5/2
+                        % measure 231
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1856,13 +2042,17 @@
                         \once \override TextSpanner.dash-period = 1.5
                         b,,2. \< \sfp \startTextSpan
                         b,,2 \repeatTie
+                        % measure 232
                         b,,2. \repeatTie
+                        % measure 233
                         b,,2. \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 234
                         s1 * 2
+                        % measure 236
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1885,12 +2075,15 @@
                         \once \override TextSpanner.dash-period = 1.5
                         b,,2. \< \sfp \startTextSpan
                         b,,2 \repeatTie
+                        % measure 237
                         b,,2. \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
+                        % measure 238
                         s1 * 7/4
+                        % measure 240
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1917,18 +2110,21 @@
                         b,,4 -\upbow
                         b,,4 -\downbow
                         b,,4 -\upbow
+                        % measure 241
                         b,,4 -\downbow
                         b,,4 -\upbow
                         b,,4 -\downbow
                         b,,4 -\upbow
                         b,,4 -\downbow
                         b,,4 -\upbow
+                        % measure 242
                         b,,4 -\downbow
                         b,,4 -\upbow
                         b,,4 -\downbow
                         b,,4 -\upbow
                         b,,4 -\downbow
                         b,,4 -\upbow
+                        % measure 243
                         b,,4 -\downbow
                         b,,4 -\upbow
                         b,,4 -\downbow
@@ -1937,14 +2133,18 @@
                                 \upright
                                     XP
                             }
+                        % measure 244
                         b,,1. \< \ppp
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "XP + FB"
                                 }
+                        % measure 245
                         b,,2. \repeatTie \mp
+                        % measure 246
                         s1 * 9/4
+                        % measure 248
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1966,11 +2166,13 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b,,2. \< \ppp \startTextSpan
+                        % measure 249
                         b,,2. \repeatTie \mp \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "tasto + FB"
                             }
+                        % measure 250
                         s1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -2003,6 +2205,7 @@
                                     }
                             }
                         \times 1/1 {
+                            % measure 251
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             c'16 * 117/64 \p [
@@ -2016,7 +2219,9 @@
                             d'16 * 221/32 ]
                         }
                         \revert TupletNumber.text
+                        % measure 253
                         s1 * 1/4
+                        % measure 254
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2053,6 +2258,7 @@
                         b,,2 \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 255
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2066,6 +2272,7 @@
                                 \upright
                                     "tasto + 1/2 scratch"
                             }
+                        % measure 256
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2094,6 +2301,7 @@
                         b,,1. \< \mp \startTextSpan
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 257
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2107,6 +2315,7 @@
                                 \upright
                                     "scratch moltiss."
                             }
+                        % measure 258
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2115,6 +2324,7 @@
                         b,,1
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 259
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2123,6 +2333,7 @@
                         b,,1. \repeatTie
                             - \tweak color #red
                             ^ \markup { @ }
+                        % measure 260
                         s1 * 1/4
                         \bar "|"
                     }
