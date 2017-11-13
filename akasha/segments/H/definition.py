@@ -8,7 +8,7 @@ import baca
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    2, # 1
+    2,                  # 1
     1, abjad.Fermata(), # 2-3
     2, abjad.Fermata(), # 4-5
     ])
@@ -33,7 +33,7 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     )
 
 volta_measure_map = baca.VoltaMeasureMap([
-    baca.MeasureSpecifier(start=0, stop=None),
+    (0, None),
     ])
 
 maker = baca.SegmentMaker(
