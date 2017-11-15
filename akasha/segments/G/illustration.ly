@@ -421,13 +421,13 @@
                                     XFB
                             }
                         % measure 213
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 214
                         fs''2 \ppp
                         % measure 215
                         fs''2 \repeatTie
                         % measure 216
-                        s1 * 3/8
+                        R1 * 3/8
                         \bar "|"
                     }
                 }
@@ -562,13 +562,13 @@
                                     XFB
                             }
                         % measure 213
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 214
                         af'2 \ppp
                         % measure 215
                         af'2 \repeatTie
                         % measure 216
-                        s1 * 3/8
+                        R1 * 3/8
                         \bar "|"
                     }
                 }
@@ -703,7 +703,7 @@
                                     XFB
                             }
                         % measure 213
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 214
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
@@ -864,13 +864,13 @@
                                     XFB
                             }
                         % measure 213
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 214
                         cs,2 \ppp
                         % measure 215
                         cs,2 \repeatTie
                         % measure 216
-                        s1 * 3/8
+                        R1 * 3/8
                         \bar "|"
                     }
                 }

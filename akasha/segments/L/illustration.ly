@@ -156,11 +156,11 @@
                                         ”
                                 }
                         % measure 335
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 336
                         c'1. -\upbow
                         % measure 337
-                        s1 * 5/2
+                        R1 * 5/2
                         \bar "|"
                     }
                 }
@@ -169,7 +169,7 @@
                     \context CelloMusicVoice = "Cello Music Voice" {
                         % measure 334
                         \clef "treble"
-                        s1 * 3
+                        R1 * 3
                         % measure 338
                         \clef "bass"
                         bf,,1. \pp

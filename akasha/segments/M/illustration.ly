@@ -322,7 +322,7 @@
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         % measure 340
                         \clef "treble"
-                        s1 * 6
+                        R1 * 6
                         % measure 346
                         \override RepeatTie.direction = #up
                         bf'2. \pp
@@ -545,7 +545,7 @@
                             }
                         \revert RepeatTie.direction
                         % measure 368
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -554,7 +554,7 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         % measure 340
                         \clef "treble"
-                        s1 * 6
+                        R1 * 6
                         % measure 346
                         bf2. \pp
                             ^ \markup {
@@ -775,7 +775,7 @@
                                     "OB (no pitch)"
                             }
                         % measure 368
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -784,7 +784,7 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         % measure 340
                         \clef "alto"
-                        s1 * 6
+                        R1 * 6
                         % measure 346
                         bf,2. \pp
                             ^ \markup {
@@ -1005,7 +1005,7 @@
                                     "OB (no pitch)"
                             }
                         % measure 368
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1060,7 +1060,7 @@
                         % measure 349
                         bf,,1. \repeatTie
                         % measure 350
-                        s1 * 2
+                        R1 * 2
                         % measure 352
                         bf,,1. \pp
                             ^ \markup {
@@ -1094,7 +1094,7 @@
                         % measure 363
                         bf,,1 \repeatTie
                         % measure 364
-                        s1 * 23/4 \!
+                        R1 * 23/4 \!
                         \bar "|"
                     }
                 }

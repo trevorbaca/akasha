@@ -532,7 +532,7 @@
                         cs''''1 \repeatTie
                         \ottava #0
                         % measure 70
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 71
                         \ottava #1
                         cs''''2.
@@ -556,7 +556,7 @@
                         \revert NoteHead.style
                         \ottava #0
                         % measure 79
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 80
                         \override NoteHead.style = #'harmonic
                         a'1 -\downbow \ppp \glissando
@@ -573,7 +573,7 @@
                         % measure 83
                         ef'4. -\downbow
                         % measure 84
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 85
                         fs'2. -\downbow \glissando
                         a'4. -\upbow \glissando
@@ -593,7 +593,7 @@
                         % measure 92
                         a''2.. -\upbow
                         % measure 93
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 94
                         a'4. -\downbow \glissando
                         % measure 95
@@ -603,7 +603,7 @@
                         % measure 97
                         a''4. -\upbow
                         % measure 98
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 99
                         ef'''2. -\downbow \glissando
                         % measure 100
@@ -613,7 +613,7 @@
                         % measure 102
                         a'4. -\upbow
                         % measure 103
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 104
                         fs'1 -\downbow \glissando
                         % measure 105
@@ -626,7 +626,7 @@
                         c''2 -\upbow
                         \revert NoteHead.style
                         % measure 108
-                        s1 * 25/8
+                        R1 * 25/8
                         \bar "|"
                     }
                 }
@@ -635,7 +635,7 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         % measure 62
                         \clef "treble"
-                        s1 * 11/2
+                        R1 * 11/2
                         % measure 71
                         \override NoteHead.style = #'harmonic
                         a'2. -\downbow \ppp \glissando
@@ -662,7 +662,7 @@
                         % measure 78
                         ef''2 -\downbow
                         % measure 79
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 80
                         fs'1 -\downbow \glissando
                         % measure 81
@@ -673,7 +673,7 @@
                         % measure 83
                         ef''4. -\downbow
                         % measure 84
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 85
                         a'2. -\downbow \glissando
                         ef''4. -\upbow \glissando
@@ -693,7 +693,7 @@
                         % measure 92
                         a'2.. -\upbow
                         % measure 93
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 94
                         ef'''4. -\downbow \glissando
                         % measure 95
@@ -704,7 +704,7 @@
                         a'4. -\upbow
                         \revert NoteHead.style
                         % measure 98
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 99
                         \pitchedTrill
                         g''2. \p \startTrillSpan
@@ -716,7 +716,7 @@
                         % measure 100
                         g''2.. \repeatTie
                         % measure 101
-                        s1 * 3/2 \stopTrillSpan
+                        R1 * 3/2 \stopTrillSpan
                         % measure 104
                         \pitchedTrill
                         g''1 \startTrillSpan a''
@@ -724,7 +724,7 @@
                         g''2. \repeatTie
                         g''4. \repeatTie
                         % measure 106
-                        s1 * 19/4 \stopTrillSpan
+                        R1 * 19/4 \stopTrillSpan
                         \bar "|"
                     }
                 }
@@ -755,7 +755,7 @@
                         % measure 69
                         gqf''1 \repeatTie
                         % measure 70
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 71
                         gqf''2.
                         gqf''4. \repeatTie
@@ -776,7 +776,7 @@
                         % measure 78
                         gqf''2 \repeatTie
                         % measure 79
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 80
                         gqf''1
                         % measure 81
@@ -787,7 +787,7 @@
                         % measure 83
                         gqf''4. \repeatTie
                         % measure 84
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 85
                         gqf''2.
                         gqf''4. \repeatTie
@@ -808,7 +808,7 @@
                         gqf''2.. \repeatTie
                         \revert NoteHead.style
                         % measure 93
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 94
                         \clef "alto"
                         ff4. \glissando \> \sf
@@ -827,7 +827,7 @@
                             bs,16 \ppp
                         }
                         % measure 98
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 99
                         \override NoteHead.style = #'harmonic
                         af2. -\downbow \ppp \glissando
@@ -843,7 +843,7 @@
                         % measure 102
                         f4. -\upbow
                         % measure 103
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 104
                         f1 -\downbow \glissando
                         % measure 105
@@ -856,7 +856,7 @@
                         b2 -\upbow
                         \revert NoteHead.style
                         % measure 108
-                        s1 * 25/8
+                        R1 * 25/8
                         \bar "|"
                     }
                 }
@@ -887,7 +887,7 @@
                         % measure 69
                         d''1 \repeatTie
                         % measure 70
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 71
                         d''2.
                         d''4. \repeatTie
@@ -908,7 +908,7 @@
                         % measure 78
                         d''2 \repeatTie
                         % measure 79
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 80
                         d''1
                         % measure 81
@@ -920,7 +920,7 @@
                         d''4. \repeatTie
                         \revert NoteHead.style
                         % measure 84
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 85
                         \clef "bass"
                         \override NoteHead.style = #'harmonic
@@ -948,7 +948,7 @@
                         e2.. -\upbow
                         \revert NoteHead.style
                         % measure 93
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 94
                         cs,4. \> \sf
                             ^ \markup {
@@ -963,7 +963,7 @@
                         % measure 97
                         cs,4. \repeatTie
                         % measure 98
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 99
                         \override NoteHead.style = #'harmonic
                         e,2. -\downbow \ppp \glissando
@@ -980,7 +980,7 @@
                         e4. -\upbow
                         \revert NoteHead.style
                         % measure 103
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 104
                         df1 \glissando \> \sf
                             ^ \markup {
@@ -1008,7 +1008,7 @@
                             a,,16.. \ppp
                         }
                         % measure 112
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

@@ -561,7 +561,7 @@
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         % measure 152
                         \clef "treble"
-                        s1 * 7/4
+                        R1 * 7/4
                         \times 4/7 {
                             % measure 154
                             r16
@@ -625,7 +625,7 @@
                             af'''16 -\staccato ]
                         }
                         % measure 156
-                        s1 * 5/4
+                        R1 * 5/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -714,7 +714,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 161
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 4/5 {
                             % measure 162
                             ef''4 \< \pp
@@ -1048,7 +1048,7 @@
                                     "scratch moltiss."
                             }
                         % measure 186
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 8/14 {
                             % measure 187
                             r16
@@ -1223,7 +1223,7 @@
                             g''''16 -\staccato \fff ]
                         }
                         % measure 193
-                        s1 * 2
+                        R1 * 2
                         \times 12/18 {
                             % measure 196
                             r16
@@ -1270,7 +1270,7 @@
                             a'''16 -\staccato ]
                         }
                         % measure 197
-                        s1 * 2
+                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -1279,7 +1279,7 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         % measure 152
                         \clef "treble"
-                        s1 * 7/4
+                        R1 * 7/4
                         \times 4/6 {
                             % measure 154
                             r16
@@ -1341,7 +1341,7 @@
                             e'''16 -\staccato ]
                         }
                         % measure 156
-                        s1 * 5/4
+                        R1 * 5/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1430,7 +1430,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 161
-                        s1 * 1/4
+                        R1 * 1/4
                         {
                             % measure 162
                             b'4 \< \pp
@@ -1840,7 +1840,7 @@
                                     "scratch moltiss."
                             }
                         % measure 186
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 8/12 {
                             % measure 187
                             r16
@@ -2016,7 +2016,7 @@
                             e''''16 -\staccato \fff ]
                         }
                         % measure 193
-                        s1 * 2
+                        R1 * 2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/16 {
                             % measure 196
@@ -2062,7 +2062,7 @@
                             ef'''16 -\staccato ]
                         }
                         % measure 197
-                        s1 * 2
+                        R1 * 2
                         \bar "|"
                     }
                 }
@@ -2071,7 +2071,7 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         % measure 152
                         \clef "alto"
-                        s1 * 4
+                        R1 * 4
                         % measure 157
                         fs2. \ff
                             ^ \markup {
@@ -2080,7 +2080,7 @@
                                         "terminate abruptly"
                                 }
                         % measure 158
-                        s1 * 9/4
+                        R1 * 9/4
                         % measure 162
                         gs2 \mp
                             ^ \markup {
@@ -2184,7 +2184,7 @@
                                     "scratch moltiss."
                             }
                         % measure 186
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 8/11 {
                             % measure 187
                             \clef "treble"
@@ -2360,7 +2360,7 @@
                             c''''16 -\staccato \fff ]
                         }
                         % measure 193
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 194
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
@@ -2384,7 +2384,7 @@
                                         ”
                                 }
                         % measure 195
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 12/15 {
                             % measure 196
                             r16
@@ -2430,7 +2430,7 @@
                             c'''16 -\staccato ]
                         }
                         % measure 197
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 198
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
@@ -2454,7 +2454,7 @@
                                         ”
                                 }
                         % measure 199
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -2547,7 +2547,7 @@
                             b''16 -\staccato ]
                         }
                         % measure 156
-                        s1 * 13/4
+                        R1 * 13/4
                         % measure 162
                         \clef "bass"
                         af,4.. \mp
@@ -2647,7 +2647,7 @@
                                     "scratch moltiss."
                             }
                         % measure 186
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 4/6 {
                             % measure 187
                             \clef "treble"
@@ -2823,7 +2823,7 @@
                             a'''16 -\staccato \fff ]
                         }
                         % measure 193
-                        s1 * 2
+                        R1 * 2
                         {
                             % measure 196
                             r16
@@ -2864,7 +2864,7 @@
                             bf''16 -\staccato ]
                         }
                         % measure 197
-                        s1 * 2
+                        R1 * 2
                         \bar "|"
                     }
                 }

@@ -299,7 +299,7 @@
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         % measure 35
                         \clef "treble"
-                        s1 * 13/2
+                        R1 * 13/2
                         % measure 43
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
@@ -333,33 +333,33 @@
                         c'2. \repeatTie
                         c'2 \repeatTie
                         % measure 48
-                        s1 * 1
+                        R1 * 1
                         % measure 50
                         c'2.
                         % measure 51
                         c'2. \repeatTie
                         % measure 52
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 53
                         c'1
                         % measure 54
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 55
                         c'2.
                         c'2 \repeatTie
                         % measure 56
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 57
                         c'1
                         % measure 58
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 59
                         c'1.
                         \revert RepeatTie.direction
                         % measure 60
                         c'1. \repeatTie
                         % measure 61
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -368,7 +368,7 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         % measure 35
                         \clef "treble"
-                        s1 * 13/2
+                        R1 * 13/2
                         % measure 43
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
@@ -402,27 +402,27 @@
                         c'2. \repeatTie
                         c'2 \repeatTie
                         % measure 48
-                        s1 * 1
+                        R1 * 1
                         % measure 50
                         c'2.
                         % measure 51
                         c'2. \repeatTie
                         % measure 52
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 53
                         c'1
                         % measure 54
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 55
                         c'2.
                         c'2 \repeatTie
                         % measure 56
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 57
                         c'1
                         \revert RepeatTie.direction
                         % measure 58
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 59
                         r1.
                         % measure 60
@@ -434,7 +434,7 @@
                                         tasto
                                 } a''
                         % measure 61
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
                 }
@@ -448,28 +448,28 @@
                             cqs4
                         }
                         % measure 36
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 8/9 {
                             % measure 37
                             ds1 \glissando
                             cqs8
                         }
                         % measure 38
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 2/3 {
                             % measure 39
                             ds\breve \glissando
                             cqs4
                         }
                         % measure 40
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 2/3 {
                             % measure 41
                             ds\breve \glissando
                             cqs4
                         }
                         % measure 42
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 43
                         ef1. \glissando \> \mp
                         % measure 44
@@ -479,7 +479,7 @@
                         % measure 46
                         bs,1 \pp
                         % measure 47
-                        s1 * 9/4
+                        R1 * 9/4
                         % measure 50
                         \once \override Beam.color = #blue
                         \once \override Dots.color = #blue
@@ -493,7 +493,7 @@
                                         "tasto + scratch moltiss."
                                 }
                         % measure 51
-                        s1 * 15/4
+                        R1 * 15/4
                         % measure 57
                         ds'4 \mp
                             ^ \markup {
@@ -504,7 +504,7 @@
                         dtqs'4.
                         e'4.
                         % measure 58
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 59
                         e1. \glissando \> \mp
                             ^ \markup {
@@ -518,7 +518,7 @@
                             cqs4 \pp
                         }
                         % measure 61
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -529,19 +529,19 @@
                         \clef "bass"
                         cs,1.
                         % measure 36
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 37
                         cs,1
                         % measure 38
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 39
                         cs,1.
                         % measure 40
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 41
                         cs,1.
                         % measure 42
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 43
                         cs,1. \> \mp
                         % measure 44
@@ -551,7 +551,7 @@
                         % measure 46
                         cs,1 \repeatTie \pp
                         % measure 47
-                        s1 * 3/2
+                        R1 * 3/2
                         \times 8/9 {
                             % measure 49
                             cs32 -\staccato \p [
@@ -578,7 +578,7 @@
                             r4
                         }
                         % measure 50
-                        s1 * 9/2
+                        R1 * 9/2
                         % measure 57
                         c'1 \mp
                             ^ \markup {
@@ -587,7 +587,7 @@
                                         "tasto + 1/2 scratch"
                                 }
                         % measure 58
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 59
                         cs,1. \> \mp
                             ^ \markup {
@@ -598,7 +598,7 @@
                         % measure 60
                         cs,1. \repeatTie \pp
                         % measure 61
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

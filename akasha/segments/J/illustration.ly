@@ -75,7 +75,7 @@
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         % measure 261
                         \clef "treble"
-                        s1 * 1
+                        R1 * 1
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             % measure 262
@@ -98,7 +98,7 @@
                             r4
                         }
                         % measure 264
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -139,7 +139,7 @@
                             a4
                         }
                         % measure 264
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -175,7 +175,7 @@
                             r4
                         }
                         % measure 262
-                        s1 * 3/2
+                        R1 * 3/2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             % measure 263
@@ -186,7 +186,7 @@
                             r4
                         }
                         % measure 264
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
