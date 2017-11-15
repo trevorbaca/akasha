@@ -48,10 +48,6 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 12),
     )
 
-volta_measure_map = baca.VoltaMeasureMap([
-    (-4, -2),
-    ])
-
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
@@ -63,7 +59,6 @@ maker = baca.SegmentMaker(
     spacing_specifier=spacing_specifier,
     metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
-    volta_measure_map=volta_measure_map,
     )
 
 maker.validate_measure_count(48)
@@ -739,7 +734,12 @@ maker(
     baca.staff_positions([0]),
     )
 
-### stages 17-18 (x8) ###
+### stages 17-18 (x6) ###
+
+maker(
+    baca.scope('Global Skips', 17, 18),
+    baca.volta(),
+    )
 
 maker(
     #baca.scope('Violin One Music Voice', 17),
