@@ -32,10 +32,6 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
     minimum_width=(1, 12),
     )
 
-volta_measure_map = baca.VoltaMeasureMap([
-    (0, None),
-    ])
-
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
@@ -47,12 +43,16 @@ maker = baca.SegmentMaker(
     spacing_specifier=spacing_specifier,
     metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
-    volta_measure_map=volta_measure_map,
     )
 
 maker.validate_measure_count(7)
 maker.validate_stage_count(5)
 maker.validate_measures_per_stage()
+
+maker(
+    baca.scope('Global Skips', 1, 5),
+    baca.volta(),
+    )
 
 ###############################################################################
 ##################################### TIME ####################################
