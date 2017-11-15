@@ -315,7 +315,7 @@
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         % measure 4
                         \clef "treble"
-                        s1 * 3
+                        R1 * 3
                         % measure 9
                         e'4 \mp
                             ^ \markup {
@@ -330,7 +330,7 @@
                         eqs'8 \repeatTie
                         r2..
                         % measure 11
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 12
                         r1
                         \times 8/9 {
@@ -351,7 +351,7 @@
                             r8
                         }
                         % measure 13
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 14
                         r1.
                         \override TupletNumber.text = \markup {
@@ -409,7 +409,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 17
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -454,7 +454,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 19
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -500,7 +500,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 21
-                        s1 * 5/4
+                        R1 * 5/4
                         \bar "|"
                     }
                 }
@@ -509,7 +509,7 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         % measure 4
                         \clef "treble"
-                        s1 * 7/4
+                        R1 * 7/4
                         \times 8/9 {
                             % measure 7
                             bf32 -\staccato \p [
@@ -530,7 +530,7 @@
                         }
                         r2
                         % measure 8
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 9
                         r2.
                         r4.
@@ -545,13 +545,13 @@
                         dqf'4.
                         c'2
                         % measure 11
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 12
                         r4
                         cs'4.
                         ctqs'2..
                         % measure 13
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 14
                         r1.
                         \override TupletNumber.text = \markup {
@@ -608,7 +608,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 17
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -654,7 +654,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 19
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -699,7 +699,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 21
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -742,7 +742,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 23
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -751,7 +751,7 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         % measure 4
                         \clef "alto"
-                        s1 * 7/4
+                        R1 * 7/4
                         % measure 7
                         r2.
                         \times 8/9 {
@@ -767,7 +767,7 @@
                             r16
                         }
                         % measure 8
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 9
                         r4
                         ef'2 \mp
@@ -783,13 +783,13 @@
                         e'4.
                         r2
                         % measure 11
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 12
                         r2
                         r8
                         c'2..
                         % measure 13
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 14
                         d'2.
                         d'4. \repeatTie
@@ -804,13 +804,13 @@
                         % measure 16
                         f'1 \repeatTie
                         % measure 17
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 18
                         ef'4.
                         d'4.
                         d'2. \repeatTie
                         % measure 19
-                        s1 * 11/4
+                        R1 * 11/4
                         \bar "|"
                     }
                 }
@@ -833,13 +833,13 @@
                         fs8
                         c4
                         % measure 6
-                        s1 * 4
+                        R1 * 4
                         % measure 12
                         c'4
                         cqf'4.
                         b2..
                         % measure 13
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 14
                         bf2..
                         btqf8 [
@@ -855,7 +855,7 @@
                         a2. \repeatTie
                         r4
                         % measure 17
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 18
                         a4
                         as2
@@ -864,7 +864,7 @@
                         b8 \repeatTie ]
                         r8
                         % measure 19
-                        s1 * 7/4
+                        R1 * 7/4
                         % measure 22
                         r4
                         \times 8/9 {
@@ -880,7 +880,7 @@
                         }
                         r4
                         % measure 23
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

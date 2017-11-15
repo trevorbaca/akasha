@@ -594,7 +594,7 @@
                                     "vib. moltiss."
                             }
                         % measure 226
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 227
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -624,7 +624,7 @@
                                     "vib. moltiss."
                             }
                         % measure 229
-                        s1 * 5/2
+                        R1 * 5/2
                         % measure 231
                         b'4 -\downbow \ppp
                             ^ \markup {
@@ -882,7 +882,7 @@
                                     "tasto + FB"
                             }
                         % measure 250
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -966,7 +966,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 253
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 254
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1080,7 +1080,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 260
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1117,7 +1117,7 @@
                                     "vib. moltiss."
                             }
                         % measure 226
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 227
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1147,7 +1147,7 @@
                                     "vib. moltiss."
                             }
                         % measure 229
-                        s1 * 5/2
+                        R1 * 5/2
                         % measure 231
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1180,7 +1180,7 @@
                                     "vib. moltiss."
                             }
                         % measure 234
-                        s1 * 2
+                        R1 * 2
                         % measure 236
                         b4 -\upbow \ppp
                             ^ \markup {
@@ -1289,7 +1289,7 @@
                         % measure 245
                         b2. \repeatTie \mp
                         % measure 246
-                        s1 * 9/4
+                        R1 * 9/4
                         % measure 248
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1319,7 +1319,7 @@
                                     "tasto + FB"
                             }
                         % measure 250
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1403,7 +1403,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 253
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 254
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1517,7 +1517,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 260
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1554,7 +1554,7 @@
                                     "vib. moltiss."
                             }
                         % measure 226
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 227
                         b,4 -\downbow \ppp
                             ^ \markup {
@@ -1761,7 +1761,7 @@
                         % measure 245
                         b,2. \repeatTie \mp
                         % measure 246
-                        s1 * 9/4
+                        R1 * 9/4
                         % measure 248
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1791,7 +1791,7 @@
                                     "tasto + FB"
                             }
                         % measure 250
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -1837,7 +1837,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 253
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 254
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -1951,7 +1951,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 260
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1988,7 +1988,7 @@
                                     "vib. moltiss."
                             }
                         % measure 226
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 227
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2018,7 +2018,7 @@
                                     "vib. moltiss."
                             }
                         % measure 229
-                        s1 * 5/2
+                        R1 * 5/2
                         % measure 231
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2051,7 +2051,7 @@
                                     "vib. moltiss."
                             }
                         % measure 234
-                        s1 * 2
+                        R1 * 2
                         % measure 236
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2082,7 +2082,7 @@
                                     "vib. moltiss."
                             }
                         % measure 238
-                        s1 * 7/4
+                        R1 * 7/4
                         % measure 240
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2143,7 +2143,7 @@
                         % measure 245
                         b,,2. \repeatTie \mp
                         % measure 246
-                        s1 * 9/4
+                        R1 * 9/4
                         % measure 248
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2173,7 +2173,7 @@
                                     "tasto + FB"
                             }
                         % measure 250
-                        s1 * 1/4
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -2220,7 +2220,7 @@
                         }
                         \revert TupletNumber.text
                         % measure 253
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 254
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -2334,7 +2334,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         % measure 260
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

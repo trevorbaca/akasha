@@ -823,7 +823,7 @@
                         % measure 292
                         a''1 \repeatTie
                         % measure 293
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 294
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -955,7 +955,7 @@
                                     "pos. ord."
                             }
                         % measure 304
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 305
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -991,7 +991,7 @@
                         % measure 309
                         a''4. \repeatTie
                         % measure 310
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 311
                         a''2.
                         % measure 312
@@ -1019,7 +1019,7 @@
                         b''''2.. \repeatTie \f
                         \ottava #0
                         % measure 319
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         % measure 320
                         \ottava #1
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1138,7 +1138,7 @@
                         \revert NoteHead.style
                         \ottava #0
                         % measure 333
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
                 }
@@ -1370,7 +1370,7 @@
                         % measure 292
                         gtqs'1 \repeatTie
                         % measure 293
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 294
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1502,7 +1502,7 @@
                                     "pos. ord."
                             }
                         % measure 304
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 305
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1538,7 +1538,7 @@
                         % measure 309
                         a'4. \repeatTie
                         % measure 310
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 311
                         a'2.
                         % measure 312
@@ -1566,7 +1566,7 @@
                         cs''''2.. \repeatTie
                         \ottava #0
                         % measure 319
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         % measure 320
                         \ottava #1
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1685,7 +1685,7 @@
                         \revert NoteHead.style
                         \ottava #0
                         % measure 333
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
                 }
@@ -1917,7 +1917,7 @@
                         % measure 292
                         aqs,1 \repeatTie
                         % measure 293
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 294
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2049,7 +2049,7 @@
                                     "pos. ord."
                             }
                         % measure 304
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 305
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2085,7 +2085,7 @@
                         % measure 309
                         a,4. \repeatTie
                         % measure 310
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 311
                         a,2.
                         % measure 312
@@ -2112,7 +2112,7 @@
                         % measure 318
                         gqf''2.. \repeatTie
                         % measure 319
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         % measure 320
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2229,7 +2229,7 @@
                         gqf''1 \repeatTie
                         \revert NoteHead.style
                         % measure 333
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
                 }
@@ -2461,7 +2461,7 @@
                         % measure 292
                         a,,1 \repeatTie
                         % measure 293
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 294
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2593,7 +2593,7 @@
                                     "pos. ord."
                             }
                         % measure 304
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 305
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2629,7 +2629,7 @@
                         % measure 309
                         a,,4. \repeatTie
                         % measure 310
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 311
                         \clef "treble"
                         \override NoteHead.style = #'harmonic
@@ -2656,7 +2656,7 @@
                         % measure 318
                         d''2.. \repeatTie
                         % measure 319
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         % measure 320
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2773,7 +2773,7 @@
                         d''1 \repeatTie
                         \revert NoteHead.style
                         % measure 333
-                        s1 * 1/4 \stopTrillSpan
+                        R1 * 1/4 \stopTrillSpan
                         \bar "|"
                     }
                 }

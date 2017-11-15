@@ -435,7 +435,7 @@
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         % measure 113
                         \clef "treble"
-                        s1 * 3
+                        R1 * 3
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             % measure 117
@@ -450,7 +450,7 @@
                             r4
                         }
                         % measure 118
-                        s1 * 1/4
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/3 {
                             % measure 119
@@ -459,7 +459,7 @@
                             r4
                         }
                         % measure 120
-                        s1 * 1/4
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
                             % measure 121
@@ -1065,7 +1065,7 @@
                         r4
                         r4
                         % measure 151
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1074,7 +1074,7 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         % measure 113
                         \clef "treble"
-                        s1 * 5/4
+                        R1 * 5/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             % measure 115
@@ -1089,7 +1089,7 @@
                                     }
                         }
                         % measure 116
-                        s1 * 1/4
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             % measure 117
@@ -1100,7 +1100,7 @@
                             r4
                         }
                         % measure 118
-                        s1 * 1/4
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
                             % measure 119
@@ -1112,7 +1112,7 @@
                             a4
                         }
                         % measure 120
-                        s1 * 1/4
+                        R1 * 1/4
                         {
                             % measure 121
                             r4
@@ -1730,7 +1730,7 @@
                         r2
                         r4
                         % measure 151
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1765,7 +1765,7 @@
                         c'4. -\upbow
                         r8
                         % measure 114
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 115
                         r4.
                         c'4 -\downbow
@@ -1773,7 +1773,7 @@
                         c'4 -\downbow
                         r4
                         % measure 116
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 117
                         r4.
                         c'4 -\upbow
@@ -1781,14 +1781,14 @@
                         c'4. -\upbow
                         r4
                         % measure 118
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 119
                         r4
                         c'4. -\downbow
                         c'4 -\upbow
                         r4.
                         % measure 120
-                        s1 * 1/4
+                        R1 * 1/4
                         % measure 121
                         r4
                         c'4. -\downbow
@@ -1947,7 +1947,7 @@
                         \revert RepeatTie.direction
                         r8
                         % measure 151
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -1956,7 +1956,7 @@
                     \context CelloMusicVoice = "Cello Music Voice" {
                         % measure 113
                         \clef "bass"
-                        s1 * 5/4
+                        R1 * 5/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             % measure 115
@@ -1972,7 +1972,7 @@
                             r4
                         }
                         % measure 116
-                        s1 * 2
+                        R1 * 2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/4 {
                             % measure 119
@@ -1982,7 +1982,7 @@
                             r4
                         }
                         % measure 120
-                        s1 * 1/4
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/5 {
                             % measure 121
@@ -2644,7 +2644,7 @@
                         r2
                         r2
                         % measure 151
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

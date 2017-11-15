@@ -228,7 +228,7 @@
                         % measure 219
                         fs''2. \ppp
                         % measure 220
-                        s1 * 9/4
+                        R1 * 9/4
                         \bar "|"
                     }
                 }
@@ -329,7 +329,7 @@
                         % measure 219
                         af'2. \ppp
                         % measure 220
-                        s1 * 9/4
+                        R1 * 9/4
                         \bar "|"
                     }
                 }
@@ -348,7 +348,7 @@
                         % measure 219
                         c'2. \repeatTie
                         % measure 220
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 8/9 {
                             % measure 221
                             ds1.. \glissando \> \mp
@@ -360,7 +360,7 @@
                             cqs8.. \pp
                         }
                         % measure 223
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }
@@ -424,7 +424,7 @@
                         % measure 219
                         cs,2. \ppp
                         % measure 220
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 8/9 {
                             % measure 221
                             cs,1.. \glissando \> \mp
@@ -436,7 +436,7 @@
                             bf,,8.. \pp
                         }
                         % measure 223
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

@@ -185,7 +185,7 @@
                         % measure 26
                         r2
                         % measure 27
-                        s1 * 35/8
+                        R1 * 35/8
                         \bar "|"
                     }
                 }
@@ -209,7 +209,7 @@
                         % measure 26
                         e'2 \repeatTie
                         % measure 27
-                        s1 * 21/8
+                        R1 * 21/8
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -279,7 +279,7 @@
                         % measure 26
                         c'2 \repeatTie
                         % measure 27
-                        s1 * 7/2
+                        R1 * 7/2
                         % measure 34
                         ds2.. \mp
                             ^ \markup {
@@ -357,7 +357,7 @@
                             r8
                         }
                         % measure 28
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 8/9 {
                             % measure 29
                             fs32 -\staccato [
@@ -375,7 +375,7 @@
                             r32
                         }
                         % measure 30
-                        s1 * 1/4
+                        R1 * 1/4
                         \times 8/9 {
                             % measure 31
                             d32 -\staccato
@@ -390,7 +390,7 @@
                             fs32 -\staccato
                         }
                         % measure 32
-                        s1 * 9/8
+                        R1 * 9/8
                         % measure 34
                         cs,2.. \mp
                             ^ \markup {

@@ -162,7 +162,7 @@
                         % measure 2
                         c'2. \repeatTie
                         % measure 3
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|"
                     }
                 }

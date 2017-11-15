@@ -279,7 +279,7 @@
                         r2.
                         r4.
                         % measure 385
-                        s1 * 13/2
+                        R1 * 13/2
                         \bar "|."
                     }
                 }
@@ -288,7 +288,7 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         % measure 369
                         \clef "treble"
-                        s1 * 6
+                        R1 * 6
                         % measure 377
                         r2
                         % measure 378
@@ -351,7 +351,7 @@
                         r2.
                         r4.
                         % measure 393
-                        s1 * 1/4
+                        R1 * 1/4
                         \bar "|."
                     }
                 }
@@ -417,7 +417,7 @@
                         r2.
                         r4.
                         % measure 385
-                        s1 * 13/2
+                        R1 * 13/2
                         \bar "|."
                     }
                 }
@@ -499,8 +499,8 @@
                         % measure 392
                         R1 * 9/8
                         % measure 393
-                        \once \override TextScript.extra-offset = #'(-41 . -4)
-                        s1 * 1/4
+                        \once \override MultiMeasureRestText.extra-offset = #'(-41 . -4)
+                        R1 * 1/4
                             _ \markup {
                                 \whiteout
                                     \upright
