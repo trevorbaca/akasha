@@ -257,6 +257,7 @@
                                 }
                             \clef "treble"
                             \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             r16
                             \once \override Hairpin.circled-tip = ##t
                             g'''16 \> \pp [
@@ -500,6 +501,7 @@
                             }
                         \clef "treble"
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         fs'2.. \glissando \> \ff \startTextSpan
                         % measure 201
                         ef'2.. \glissando
