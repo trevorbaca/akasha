@@ -171,7 +171,26 @@
                             \startStaff
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
+                            \set ViolinOneMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    \line
+                                        {
+                                            Violin
+                                            1
+                                        }
+                                }
+                            \set ViolinOneMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    \line
+                                        {
+                                            Vn.
+                                            1
+                                        }
+                                }
                             \clef "treble"
+                            \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             d'16 * 117/16 \p [
                                 ^ \markup {
                                     \whiteout
@@ -275,7 +294,26 @@
                             \startStaff
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
+                            \set ViolinTwoMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    \line
+                                        {
+                                            Violin
+                                            2
+                                        }
+                                }
+                            \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    \line
+                                        {
+                                            Vn.
+                                            2
+                                        }
+                                }
                             \clef "treble"
+                            \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             cs'16 * 109/64 \p [
                                 ^ \markup {
                                     \whiteout
@@ -346,7 +384,18 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolaMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
                         \clef "alto"
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'1
                         % measure 218
                         c'2. \repeatTie
@@ -408,7 +457,18 @@
                             % measure 217
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
+                            \set CelloMusicStaff.instrumentName = \markup {
+                                \hcenter-in
+                                    #16
+                                    Cello
+                                }
+                            \set CelloMusicStaff.shortInstrumentName = \markup {
+                                \hcenter-in
+                                    #10
+                                    Vc.
+                                }
                             \clef "bass"
+                            \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             c'16 * 119/64 \p [
                                 ^ \markup {
                                     \whiteout

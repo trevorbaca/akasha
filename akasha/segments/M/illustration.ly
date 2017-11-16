@@ -324,7 +324,26 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolinOneMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \line
+                                    {
+                                        Violin
+                                        1
+                                    }
+                            }
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Vn.
+                                        1
+                                    }
+                            }
                         \clef "treble"
+                        \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 6
                         % measure 346
                         \override RepeatTie.direction = #up
@@ -559,7 +578,26 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolinTwoMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \line
+                                    {
+                                        Violin
+                                        2
+                                    }
+                            }
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Vn.
+                                        2
+                                    }
+                            }
                         \clef "treble"
+                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 6
                         % measure 346
                         bf2. \pp
@@ -792,7 +830,18 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolaMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
                         \clef "alto"
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 6
                         % measure 346
                         bf,2. \pp
@@ -1042,7 +1091,18 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \set CelloMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Cello
+                            }
+                        \set CelloMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vc.
+                            }
                         \clef "bass"
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         bf,,2. \< \ppp \startTextSpan
                         bf,,2 \repeatTie
                         % measure 341

@@ -224,8 +224,27 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolinOneMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \line
+                                    {
+                                        Violin
+                                        1
+                                    }
+                            }
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Vn.
+                                        1
+                                    }
+                            }
                         \clef "percussion"
                         \override RepeatTie.direction = #up
+                        \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow
                             ^ \markup {
                                 \whiteout
@@ -290,7 +309,26 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolinTwoMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \line
+                                    {
+                                        Violin
+                                        2
+                                    }
+                            }
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Vn.
+                                        2
+                                    }
+                            }
                         \clef "treble"
+                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 6
                         % measure 377
                         r2
@@ -365,8 +403,19 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolaMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
                         \clef "percussion"
                         \override RepeatTie.direction = #up
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow
                             ^ \markup {
                                 \whiteout
@@ -431,8 +480,19 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set CelloMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Cello
+                            }
+                        \set CelloMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vc.
+                            }
                         \clef "percussion"
                         \override RepeatTie.direction = #up
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow
                             ^ \markup {
                                 \whiteout
