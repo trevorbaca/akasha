@@ -627,7 +627,26 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolinOneMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \line
+                                    {
+                                        Violin
+                                        1
+                                    }
+                            }
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Vn.
+                                        1
+                                    }
+                            }
                         \clef "treble"
+                        \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         a''2
                             ^ \markup {
                                 \whiteout
@@ -1153,7 +1172,26 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolinTwoMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \line
+                                    {
+                                        Violin
+                                        2
+                                    }
+                            }
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Vn.
+                                        2
+                                    }
+                            }
                         \clef "treble"
+                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         gtqs'2
                             ^ \markup {
                                 \whiteout
@@ -1679,7 +1717,18 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolaMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
                         \clef "alto"
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         aqs,2
                             ^ \markup {
                                 \whiteout
@@ -2199,7 +2248,18 @@
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
                         % measure 265
+                        \set CelloMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Cello
+                            }
+                        \set CelloMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vc.
+                            }
                         \clef "bass"
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         a,,2
                             ^ \markup {
                                 \whiteout

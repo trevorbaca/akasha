@@ -511,8 +511,27 @@
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
                         \ottava #1
+                        \set ViolinOneMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \line
+                                    {
+                                        Violin
+                                        1
+                                    }
+                            }
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Vn.
+                                        1
+                                    }
+                            }
                         \clef "treble"
                         \override NoteHead.style = #'harmonic
+                        \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         cs''''4. \mp
                             ^ \markup {
                                 \whiteout
@@ -640,7 +659,26 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolinTwoMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \line
+                                    {
+                                        Violin
+                                        2
+                                    }
+                            }
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \line
+                                    {
+                                        Vn.
+                                        2
+                                    }
+                            }
                         \clef "treble"
+                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 11/2
                         % measure 71
                         \override NoteHead.style = #'harmonic
@@ -741,8 +779,19 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \set ViolaMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
                         \clef "treble"
                         \override NoteHead.style = #'harmonic
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         gqf''4. \mp
                             ^ \markup {
                                 \whiteout
@@ -873,8 +922,19 @@
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
                         % measure 62
+                        \set CelloMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Cello
+                            }
+                        \set CelloMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vc.
+                            }
                         \clef "treble"
                         \override NoteHead.style = #'harmonic
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         d''4. \mp
                             ^ \markup {
                                 \whiteout
