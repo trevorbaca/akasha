@@ -738,20 +738,8 @@ maker(
 
 maker(
     baca.scope('Global Skips', 17, 18),
+    baca.markup.boxed_repeat_count(6, baca.skip(0)),
     baca.volta(),
-    )
-
-maker(
-    #baca.scope('Violin One Music Voice', 17),
-    baca.make_scopes([
-        'Violin One Music Voice',
-        'Violin Two Music Voice',
-        'Viola Music Voice',
-        'Cello Music Voice',
-        ],
-        [17],
-        ),
-    baca.markup.boxed_repeat_count(6),
     )
 
 maker(

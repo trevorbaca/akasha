@@ -505,7 +505,20 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
                     \time 6/4
                     \newSpacingSection
-                    s1 * 3/2 ^ \markup {
+                    s1 * 3/2
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
