@@ -314,6 +314,7 @@ maker(
 
 maker(
     baca.scope('Global Skips', 9, 10),
+    baca.markup.boxed_repeat_count(6, baca.skip(0)),
     baca.volta(),
     )
 
@@ -335,18 +336,6 @@ maker(
 maker(
     baca.scope('Cello Music Voice', 9, 10),
     baca.pitches('A1', repeats=True),
-    )
-
-maker(
-    #baca.scope('Violin One Music Voice', 9, 10),
-    baca.make_scopes([
-        'Violin One Music Voice',
-        'Violin Two Music Voice',
-        'Viola Music Voice',
-        'Cello Music Voice',],
-        [(9, 10)],
-        ),
-    baca.markup.boxed_repeat_count(6),
     )
 
 maker(
@@ -541,6 +530,7 @@ maker(
 
 maker(
     baca.scope('Global Skips', 19),
+    baca.markup.boxed_repeat_count(6, baca.skip(0)),
     baca.volta(),
     )
 
@@ -550,18 +540,6 @@ maker(
         [(19, 22)],
         ),
     baca.ottava(),
-    )
-
-maker(
-    #baca.scope('Violin One Music Voice', 19)
-    baca.make_scopes([
-        'Violin One Music Voice',
-        'Violin Two Music Voice',
-        'Viola Music Voice',
-        'Cello Music Voice'],
-        [19],
-        ),
-    baca.markup.boxed_repeat_count(6),
     )
 
 maker(

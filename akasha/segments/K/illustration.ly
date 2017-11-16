@@ -356,6 +356,18 @@
                     \time 3/8
                     \newSpacingSection
                     s1 * 3/8
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                            }
                     % measure 295
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 4/8
@@ -509,7 +521,20 @@
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/8
                     \newSpacingSection
-                    s1 * 3/8 \stopTextSpan ^ \markup {
+                    s1 * 3/8 \stopTextSpan
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            \fontsize
+                                                #6
+                                                \bold
+                                                    \sans
+                                                        x6
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -846,18 +871,6 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''4. \< \sffp \startTextSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \fontsize
-                                                    #6
-                                                    \bold
-                                                        \sans
-                                                            x6
-                                }
                         % measure 295
                         a''2 \repeatTie
                         % measure 296
@@ -1043,18 +1056,6 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b''''4. \< \sf \startTextSpan \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \fontsize
-                                                    #6
-                                                    \bold
-                                                        \sans
-                                                            x6
-                                }
                         % measure 321
                         b''''2. \repeatTie
                         % measure 322
@@ -1393,18 +1394,6 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a'4. \< \sffp \startTextSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \fontsize
-                                                    #6
-                                                    \bold
-                                                        \sans
-                                                            x6
-                                }
                         % measure 295
                         a'2 \repeatTie
                         % measure 296
@@ -1590,18 +1579,6 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         cs''''4. \< \sf \startTextSpan \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \fontsize
-                                                    #6
-                                                    \bold
-                                                        \sans
-                                                            x6
-                                }
                         % measure 321
                         cs''''2. \repeatTie
                         % measure 322
@@ -1940,18 +1917,6 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,4. \< \sffp \startTextSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \fontsize
-                                                    #6
-                                                    \bold
-                                                        \sans
-                                                            x6
-                                }
                         % measure 295
                         a,2 \repeatTie
                         % measure 296
@@ -2135,18 +2100,6 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gqf''4. \< \sf \startTextSpan \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \fontsize
-                                                    #6
-                                                    \bold
-                                                        \sans
-                                                            x6
-                                }
                         % measure 321
                         gqf''2. \repeatTie
                         % measure 322
@@ -2484,18 +2437,6 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,4. \< \sffp \startTextSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \fontsize
-                                                    #6
-                                                    \bold
-                                                        \sans
-                                                            x6
-                                }
                         % measure 295
                         a,,2 \repeatTie
                         % measure 296
@@ -2679,18 +2620,6 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d''4. \< \sf \startTextSpan \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        \override
-                                            #'(box-padding . 0.5)
-                                            \box
-                                                \fontsize
-                                                    #6
-                                                    \bold
-                                                        \sans
-                                                            x6
-                                }
                         % measure 321
                         d''2. \repeatTie
                         % measure 322
