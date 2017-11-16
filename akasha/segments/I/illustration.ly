@@ -608,6 +608,7 @@
                             }
                         \clef "treble"
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         b''1. \< \sfp \startTextSpan
                         % measure 225
                         b''1 \repeatTie \f \stopTextSpan ^ \markup {
@@ -1153,6 +1154,7 @@
                             }
                         \clef "treble"
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         atqs1. \< \sfp \startTextSpan
                         % measure 225
                         atqs1 \repeatTie \f \stopTextSpan ^ \markup {
@@ -1604,6 +1606,7 @@
                             }
                         \clef "alto"
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         bqs,1. \< \sfp \startTextSpan
                         % measure 225
                         bqs,1 \repeatTie \f \stopTextSpan ^ \markup {
@@ -2049,6 +2052,7 @@
                             }
                         \clef "bass"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         b,,1. \< \sfp \startTextSpan
                         % measure 225
                         b,,1 \repeatTie \f \stopTextSpan ^ \markup {
