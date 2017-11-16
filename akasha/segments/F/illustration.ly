@@ -573,6 +573,9 @@
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         % measure 152
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "treble"
                         R1 * 7/4
                         \times 4/7 {
@@ -1291,6 +1294,9 @@
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         % measure 152
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "treble"
                         R1 * 7/4
                         \times 4/6 {
@@ -2083,6 +2089,9 @@
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         % measure 152
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "alto"
                         R1 * 4
                         % measure 157

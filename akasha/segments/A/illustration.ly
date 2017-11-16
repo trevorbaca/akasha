@@ -750,6 +750,9 @@
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         % measure 4
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "alto"
                         R1 * 7/4
                         % measure 7

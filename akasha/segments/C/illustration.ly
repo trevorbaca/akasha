@@ -443,6 +443,9 @@
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         \times 2/3 {
                             % measure 35
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \clef "alto"
                             ds\breve \glissando
                             cqs4

@@ -74,6 +74,9 @@
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
                         % measure 261
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "treble"
                         R1 * 1
                         \tweak text #tuplet-number::calc-fraction-text
@@ -107,6 +110,9 @@
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
                         {
                             % measure 261
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \clef "treble"
                             r4
                             r4
@@ -147,6 +153,9 @@
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
                         % measure 261
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \clef "alto"
                         R1 * 1
                         % measure 262
