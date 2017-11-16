@@ -166,6 +166,9 @@
                             }
                         \times 1/1 {
                             % measure 217
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             \clef "treble"
@@ -267,6 +270,9 @@
                             }
                         \times 1/1 {
                             % measure 217
+                            \stopStaff
+                            \once \override Staff.StaffSymbol.line-count = 1
+                            \startStaff
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             \clef "treble"

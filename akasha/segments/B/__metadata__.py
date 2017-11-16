@@ -29,7 +29,9 @@ metadata = abjad.TypedOrderedDict(
         (
             'end_staff_lines_by_staff',
             abjad.TypedOrderedDict(
-                []
+                [
+                    ('Viola Music Staff', 1),
+                    ]
                 ),
             ),
         ('end_time_signature', '7/8'),
