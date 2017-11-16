@@ -26,6 +26,14 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_metronome_mark', '44'),
+        (
+            'end_staff_lines_by_staff',
+            abjad.TypedOrderedDict(
+                [
+                    ('Viola Music Staff', 1),
+                    ]
+                ),
+            ),
         ('end_time_signature', '1/4'),
         ('first_bar_number', 1),
         ('measure_count', 3),

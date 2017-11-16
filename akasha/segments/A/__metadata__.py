@@ -26,6 +26,12 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_metronome_mark', '55'),
+        (
+            'end_staff_lines_by_staff',
+            abjad.TypedOrderedDict(
+                []
+                ),
+            ),
         ('end_time_signature', '1/4'),
         ('first_bar_number', 4),
         ('measure_count', 20),
