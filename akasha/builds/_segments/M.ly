@@ -2,7 +2,7 @@
     currentBarNumber = #340
 } <<
     \tag violin_one.violin_two.viola.cello
-    \context GlobalContext = "Global Context" <<
+    \context GlobalContext = "GlobalContext" <<
         \context GlobalRests = "GlobalRests" {
             {
                 \time 5/4
