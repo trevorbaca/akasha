@@ -296,7 +296,8 @@
                             \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            r16
+                            \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            r16 \pp
                             
                             \once \override Hairpin.circled-tip = ##t
                             g'''16 \> \pp [
@@ -630,7 +631,8 @@
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        fs'2.. \glissando \> \ff \startTextSpan
+                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        fs'2.. \pp \glissando \> \ff \startTextSpan
                         
                         %%% ViolinTwoMusicVoice [measure 201] %%%
                         ef'2.. \glissando
@@ -808,7 +810,8 @@
                         \clef "alto"
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        ef'2.. \glissando \> \ff \startTextSpan
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        ef'2.. \pp \glissando \> \ff \startTextSpan
                         
                         %%% ViolaMusicVoice [measure 201] %%%
                         f'2.. \glissando
@@ -1002,7 +1005,8 @@
                             }
                         \clef "bass"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        cs,2.. \glissando \> \ff \startTextSpan
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        cs,2.. \pp \glissando \> \ff \startTextSpan
                         
                         %%% CelloMusicVoice [measure 201] %%%
                         ef,2.. \glissando

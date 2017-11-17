@@ -687,7 +687,8 @@
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        b''1. \< \sfp \startTextSpan
+                        \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        b''1. \ppp \< \sfp \startTextSpan
                         
                         %%% ViolinOneMusicVoice [measure 225] %%%
                         b''1 \repeatTie \f \stopTextSpan ^ \markup {
@@ -1372,7 +1373,8 @@
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        atqs1. \< \sfp \startTextSpan
+                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        atqs1. \ppp \< \sfp \startTextSpan
                         
                         %%% ViolinTwoMusicVoice [measure 225] %%%
                         atqs1 \repeatTie \f \stopTextSpan ^ \markup {
@@ -1897,7 +1899,8 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        bqs,1. \< \sfp \startTextSpan
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        bqs,1. \pp \< \sfp \startTextSpan
                         
                         %%% ViolaMusicVoice [measure 225] %%%
                         bqs,1 \repeatTie \f \stopTextSpan ^ \markup {
@@ -2447,7 +2450,8 @@
                         \clef "bass"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        b,,1. \< \sfp \startTextSpan
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        b,,1. \ppp \< \sfp \startTextSpan
                         
                         %%% CelloMusicVoice [measure 225] %%%
                         b,,1 \repeatTie \f \stopTextSpan ^ \markup {
