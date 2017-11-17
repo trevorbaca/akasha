@@ -737,7 +737,7 @@ maker(
 ### stages 17-18 (x6) ###
 
 maker(
-    baca.scope('Global Skips', 17, 18),
+    baca.scope('GlobalSkips', 17, 18),
     baca.markup.boxed_repeat_count(6, baca.skip(0)),
     baca.volta(),
     )

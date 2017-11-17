@@ -50,7 +50,7 @@ maker.validate_stage_count(5)
 maker.validate_measures_per_stage()
 
 maker(
-    baca.scope('Global Skips', 1, 5),
+    baca.scope('GlobalSkips', 1, 5),
     baca.volta(),
     )
 

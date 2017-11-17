@@ -3,7 +3,7 @@
 } <<
     \tag violin_one.violin_two.viola.cello
     \context GlobalContext = "Global Context" <<
-        \context GlobalRests = "Global Rests" {
+        \context GlobalRests = "GlobalRests" {
             {
                 \time 4/4
                 R1 * 1
@@ -47,7 +47,7 @@
                         }
             }
         }
-        \context GlobalSkips = "Global Skips" {
+        \context GlobalSkips = "GlobalSkips" {
             \repeat volta 2
             {
                 {

@@ -3,7 +3,7 @@
 } <<
     \tag violin_one.violin_two.viola.cello
     \context GlobalContext = "Global Context" <<
-        \context GlobalRests = "Global Rests" {
+        \context GlobalRests = "GlobalRests" {
             {
                 \time 6/4
                 R1 * 3/2
@@ -171,7 +171,7 @@
                         }
             }
         }
-        \context GlobalSkips = "Global Skips" {
+        \context GlobalSkips = "GlobalSkips" {
             {
                 \time 6/4
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)

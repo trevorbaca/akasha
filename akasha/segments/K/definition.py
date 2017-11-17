@@ -313,7 +313,7 @@ maker(
 ### stages 9, 9-10 ###
 
 maker(
-    baca.scope('Global Skips', 9, 10),
+    baca.scope('GlobalSkips', 9, 10),
     baca.markup.boxed_repeat_count(6, baca.skip(0)),
     baca.volta(),
     )
@@ -529,7 +529,7 @@ maker(
 ### stage 19 ###
 
 maker(
-    baca.scope('Global Skips', 19),
+    baca.scope('GlobalSkips', 19),
     baca.markup.boxed_repeat_count(6, baca.skip(0)),
     baca.volta(),
     )
