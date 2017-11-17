@@ -13,13 +13,17 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
-                % measure 217
+                
+                %%% Global Rests [measure 217] %%%
                 R1 * 1
-                % measure 218
+                
+                %%% Global Rests [measure 218] %%%
                 R1 * 5/4
-                % measure 219
+                
+                %%% Global Rests [measure 219] %%%
                 R1 * 3/4
-                % measure 220
+                
+                %%% Global Rests [measure 220] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -28,11 +32,14 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 221
+                
+                %%% Global Rests [measure 221] %%%
                 R1 * 3/4
-                % measure 222
+                
+                %%% Global Rests [measure 222] %%%
                 R1 * 1
-                % measure 223
+                
+                %%% Global Rests [measure 223] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -41,11 +48,13 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
+                
             }
             \context GlobalSkips = "Global Skips" {
                 \repeat volta 2
                 {
-                    % measure 217
+                    
+                    %%% Global Skips [measure 217] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \time 4/4
                     \mark #8
@@ -66,12 +75,14 @@
                                 89
                             }
                         }
-                    % measure 218
+                    
+                    %%% Global Skips [measure 218] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                     \time 5/4
                     \newSpacingSection
                     s1 * 5/4
-                    % measure 219
+                    
+                    %%% Global Skips [measure 219] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/4
                     \newSpacingSection
@@ -91,12 +102,14 @@
                                 44
                             }
                         }
-                    % measure 220
+                    
+                    %%% Global Skips [measure 220] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \time 1/4
                     \newSpacingSection
                     s1 * 1/4
-                    % measure 221
+                    
+                    %%% Global Skips [measure 221] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/4
                     \newSpacingSection
@@ -116,16 +129,19 @@
                                 55
                             }
                         }
-                    % measure 222
+                    
+                    %%% Global Skips [measure 222] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 4/4
                     \newSpacingSection
                     s1 * 1
-                    % measure 223
+                    
+                    %%% Global Skips [measure 223] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                     \time 1/4
                     \newSpacingSection
                     s1 * 1/4
+                    
                 }
             }
         >>
@@ -165,7 +181,8 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 217
+                            
+                            %%% Violin One Music Voice [measure 217] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -198,8 +215,11 @@
                                         \upright
                                             XFB
                                     }
+                            
                             e'16 * 73/16
+                            
                             d'16 * 73/32
+                            
                             \revert Staff.Stem.stemlet-length
                             e'16 * 59/32 ]
                         }
@@ -236,23 +256,32 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 218
+                            
+                            %%% Violin One Music Voice [measure 218] %%%
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             d'16 * 113/64 [
+                            
                             e'16 * 121/64
+                            
                             d'16 * 147/64
+                            
                             e'16 * 25/8
+                            
                             d'16 * 145/32
+                            
                             \revert Staff.Stem.stemlet-length
                             e'16 * 409/64 ]
                         }
                         \revert TupletNumber.text
-                        % measure 219
+                        
+                        %%% Violin One Music Voice [measure 219] %%%
                         fs''2. \ppp
-                        % measure 220
+                        
+                        %%% Violin One Music Voice [measure 220] %%%
                         R1 * 9/4
                         \bar "|"
+                        
                     }
                 }
                 \tag violin_two
@@ -289,7 +318,8 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 217
+                            
+                            %%% Violin Two Music Voice [measure 217] %%%
                             \stopStaff
                             \once \override Staff.StaffSymbol.line-count = 1
                             \startStaff
@@ -322,9 +352,13 @@
                                         \upright
                                             XFB
                                     }
+                            
                             ds'16 * 61/32
+                            
                             cs'16 * 163/64
+                            
                             ds'16 * 31/8
+                            
                             \revert Staff.Stem.stemlet-length
                             cs'16 * 191/32 ]
                         }
@@ -361,28 +395,37 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 218
+                            
+                            %%% Violin Two Music Voice [measure 218] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             ds'16 * 477/64 [
+                            
                             cs'16 * 353/64
+                            
                             ds'16 * 97/32
+                            
                             cs'16 * 17/8
+                            
                             \revert Staff.Stem.stemlet-length
                             ds'16 * 15/8 ]
                         }
                         \revert TupletNumber.text
-                        % measure 219
+                        
+                        %%% Violin Two Music Voice [measure 219] %%%
                         af'2. \ppp
-                        % measure 220
+                        
+                        %%% Violin Two Music Voice [measure 220] %%%
                         R1 * 9/4
                         \bar "|"
+                        
                     }
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        % measure 217
+                        
+                        %%% Viola Music Voice [measure 217] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -400,26 +443,34 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'1
-                        % measure 218
+                        
+                        %%% Viola Music Voice [measure 218] %%%
                         c'2. \repeatTie
+                        
                         c'2 \repeatTie
-                        % measure 219
+                        
+                        %%% Viola Music Voice [measure 219] %%%
                         c'2. \repeatTie
-                        % measure 220
+                        
+                        %%% Viola Music Voice [measure 220] %%%
                         R1 * 1/4
                         \times 8/9 {
-                            % measure 221
+                            
+                            %%% Viola Music Voice [measure 221] %%%
                             ds1.. \glissando \> \mp
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             tasto
                                     }
+                            
                             cqs8.. \pp
                         }
-                        % measure 223
+                        
+                        %%% Viola Music Voice [measure 223] %%%
                         R1 * 1/4
                         \bar "|"
+                        
                     }
                 }
                 \tag cello
@@ -457,7 +508,8 @@
                                     }
                             }
                         \times 1/1 {
-                            % measure 217
+                            
+                            %%% Cello Music Voice [measure 217] %%%
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             \set CelloMusicStaff.instrumentName = \markup {
@@ -479,35 +531,50 @@
                                         \upright
                                             XFB
                                     }
+                            
                             d'16 * 61/32
+                            
                             c'16 * 65/32
+                            
                             d'16 * 145/64
+                            
                             c'16 * 21/8
+                            
                             d'16 * 101/32
+                            
                             c'16 * 125/32
+                            
                             d'16 * 315/64
+                            
                             c'16 * 49/8
+                            
                             \revert Staff.Stem.stemlet-length
                             d'16 * 461/64 ]
                         }
                         \revert TupletNumber.text
-                        % measure 219
+                        
+                        %%% Cello Music Voice [measure 219] %%%
                         cs,2. \ppp
-                        % measure 220
+                        
+                        %%% Cello Music Voice [measure 220] %%%
                         R1 * 1/4
                         \times 8/9 {
-                            % measure 221
+                            
+                            %%% Cello Music Voice [measure 221] %%%
                             cs,1.. \glissando \> \mp
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             tasto
                                     }
+                            
                             bf,,8.. \pp
                         }
-                        % measure 223
+                        
+                        %%% Cello Music Voice [measure 223] %%%
                         R1 * 1/4
                         \bar "|"
+                        
                     }
                 }
             >>

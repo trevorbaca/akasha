@@ -13,55 +13,80 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
-                % measure 369
+                
+                %%% Global Rests [measure 369] %%%
                 R1 * 3/8
-                % measure 370
+                
+                %%% Global Rests [measure 370] %%%
                 R1 * 1/2
-                % measure 371
+                
+                %%% Global Rests [measure 371] %%%
                 R1 * 7/8
-                % measure 372
+                
+                %%% Global Rests [measure 372] %%%
                 R1 * 7/8
-                % measure 373
+                
+                %%% Global Rests [measure 373] %%%
                 R1 * 3/8
-                % measure 374
+                
+                %%% Global Rests [measure 374] %%%
                 R1 * 3/4
-                % measure 375
+                
+                %%% Global Rests [measure 375] %%%
                 R1 * 9/8
-                % measure 376
+                
+                %%% Global Rests [measure 376] %%%
                 R1 * 9/8
-                % measure 377
+                
+                %%% Global Rests [measure 377] %%%
                 R1 * 1/2
-                % measure 378
+                
+                %%% Global Rests [measure 378] %%%
                 R1 * 1
-                % measure 379
+                
+                %%% Global Rests [measure 379] %%%
                 R1 * 3/4
-                % measure 380
+                
+                %%% Global Rests [measure 380] %%%
                 R1 * 7/8
-                % measure 381
+                
+                %%% Global Rests [measure 381] %%%
                 R1 * 7/8
-                % measure 382
+                
+                %%% Global Rests [measure 382] %%%
                 R1 * 3/8
-                % measure 383
+                
+                %%% Global Rests [measure 383] %%%
                 R1 * 1
-                % measure 384
+                
+                %%% Global Rests [measure 384] %%%
                 R1 * 9/8
-                % measure 385
+                
+                %%% Global Rests [measure 385] %%%
                 R1 * 9/8
-                % measure 386
+                
+                %%% Global Rests [measure 386] %%%
                 R1 * 1/2
-                % measure 387
+                
+                %%% Global Rests [measure 387] %%%
                 R1 * 1/2
-                % measure 388
+                
+                %%% Global Rests [measure 388] %%%
                 R1 * 3/8
-                % measure 389
+                
+                %%% Global Rests [measure 389] %%%
                 R1 * 1/2
-                % measure 390
+                
+                %%% Global Rests [measure 390] %%%
                 R1 * 1
-                % measure 391
+                
+                %%% Global Rests [measure 391] %%%
                 R1 * 9/8
-                % measure 392
+                
+                %%% Global Rests [measure 392] %%%
                 R1 * 9/8
-                % measure 393
+                
+                %%% Global Rests [measure 393] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -70,9 +95,11 @@
                         \musicglyph
                             #"scripts.uverylongfermata"
                         }
+                
             }
             \context GlobalSkips = "Global Skips" {
-                % measure 369
+                
+                %%% Global Skips [measure 369] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \mark #14
@@ -93,126 +120,151 @@
                             89
                         }
                     }
-                % measure 370
+                
+                %%% Global Skips [measure 370] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 371
+                
+                %%% Global Skips [measure 371] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 372
+                
+                %%% Global Skips [measure 372] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 373
+                
+                %%% Global Skips [measure 373] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 374
+                
+                %%% Global Skips [measure 374] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/8
                 \newSpacingSection
                 s1 * 3/4
-                % measure 375
+                
+                %%% Global Skips [measure 375] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 376
+                
+                %%% Global Skips [measure 376] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 377
+                
+                %%% Global Skips [measure 377] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 378
+                
+                %%% Global Skips [measure 378] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 379
+                
+                %%% Global Skips [measure 379] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/8
                 \newSpacingSection
                 s1 * 3/4
-                % measure 380
+                
+                %%% Global Skips [measure 380] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 381
+                
+                %%% Global Skips [measure 381] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 382
+                
+                %%% Global Skips [measure 382] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 383
+                
+                %%% Global Skips [measure 383] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 384
+                
+                %%% Global Skips [measure 384] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 385
+                
+                %%% Global Skips [measure 385] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 386
+                
+                %%% Global Skips [measure 386] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 387
+                
+                %%% Global Skips [measure 387] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 388
+                
+                %%% Global Skips [measure 388] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 389
+                
+                %%% Global Skips [measure 389] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 390
+                
+                %%% Global Skips [measure 390] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 391
+                
+                %%% Global Skips [measure 391] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 392
+                
+                %%% Global Skips [measure 392] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 393
+                
+                %%% Global Skips [measure 393] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                
             }
         >>
         \context MusicContext = "Music Context" {
@@ -220,10 +272,12 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        % measure 369
+                        
+                        %%% Violin One Music Voice [measure 369] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \override RepeatTie.direction = #up
                         \set ViolinOneMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -243,7 +297,6 @@
                                     }
                             }
                         \clef "percussion"
-                        \override RepeatTie.direction = #up
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow
                             ^ \markup {
@@ -263,49 +316,70 @@
                                     \italic
                                         ”
                                 }
-                        % measure 370
+                        
+                        %%% Violin One Music Voice [measure 370] %%%
                         r2
-                        % measure 371
+                        
+                        %%% Violin One Music Voice [measure 371] %%%
                         c'2.. -\upbow
-                        % measure 372
+                        
+                        %%% Violin One Music Voice [measure 372] %%%
                         r2..
-                        % measure 373
+                        
+                        %%% Violin One Music Voice [measure 373] %%%
                         c'4. -\downbow
-                        % measure 374
+                        
+                        %%% Violin One Music Voice [measure 374] %%%
                         r2.
-                        % measure 375
+                        
+                        %%% Violin One Music Voice [measure 375] %%%
                         c'2. -\upbow
+                        
                         c'4. \repeatTie
-                        % measure 376
+                        
+                        %%% Violin One Music Voice [measure 376] %%%
                         r2.
+                        
                         r4.
-                        % measure 377
+                        
+                        %%% Violin One Music Voice [measure 377] %%%
                         c'2 -\downbow
-                        % measure 378
+                        
+                        %%% Violin One Music Voice [measure 378] %%%
                         r1
-                        % measure 379
+                        
+                        %%% Violin One Music Voice [measure 379] %%%
                         c'2. -\upbow
-                        % measure 380
+                        
+                        %%% Violin One Music Voice [measure 380] %%%
                         r2..
-                        % measure 381
+                        
+                        %%% Violin One Music Voice [measure 381] %%%
                         c'2.. -\downbow
-                        % measure 382
+                        
+                        %%% Violin One Music Voice [measure 382] %%%
                         r4.
-                        % measure 383
+                        
+                        %%% Violin One Music Voice [measure 383] %%%
                         c'1 -\upbow
                         \revert RepeatTie.direction
-                        % measure 384
+                        
+                        %%% Violin One Music Voice [measure 384] %%%
                         r2.
+                        
                         r4.
-                        % measure 385
+                        
+                        %%% Violin One Music Voice [measure 385] %%%
                         R1 * 13/2
                         \bar "|."
+                        
                     }
                 }
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        % measure 369
+                        
+                        %%% Violin Two Music Voice [measure 369] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -331,79 +405,117 @@
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 6
-                        % measure 377
+                        
+                        %%% Violin Two Music Voice [measure 377] %%%
                         r2
-                        % measure 378
+                        
+                        %%% Violin Two Music Voice [measure 378] %%%
                         r4
                         \times 8/9 {
+                            
                             r8
+                            
                             f'''32 -\staccato \pp [
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             leggieriss.
                                     }
+                            
                             e'''32 -\staccato
+                            
                             f'''32 -\staccato ]
+                            
                             r16
                         }
+                        
                         r2
-                        % measure 379
+                        
+                        %%% Violin Two Music Voice [measure 379] %%%
                         r2.
-                        % measure 380
+                        
+                        %%% Violin Two Music Voice [measure 380] %%%
                         r2..
-                        % measure 381
+                        
+                        %%% Violin Two Music Voice [measure 381] %%%
                         r2..
-                        % measure 382
+                        
+                        %%% Violin Two Music Voice [measure 382] %%%
                         r4.
-                        % measure 383
+                        
+                        %%% Violin Two Music Voice [measure 383] %%%
                         r1
-                        % measure 384
+                        
+                        %%% Violin Two Music Voice [measure 384] %%%
                         r2.
+                        
                         r4.
-                        % measure 385
+                        
+                        %%% Violin Two Music Voice [measure 385] %%%
                         r2.
+                        
                         r4.
-                        % measure 386
+                        
+                        %%% Violin Two Music Voice [measure 386] %%%
                         r2
-                        % measure 387
+                        
+                        %%% Violin Two Music Voice [measure 387] %%%
                         r4
                         \times 8/9 {
+                            
                             r8
+                            
                             r32
+                            
                             fs'''32 -\staccato
+                            
                             r16.
                         }
                         \times 8/9 {
-                            % measure 388
+                            
+                            %%% Violin Two Music Voice [measure 388] %%%
                             r8.
+                            
                             g'''32 -\staccato [
+                            
                             f'''32 -\staccato
+                            
                             fs'''32 -\staccato ]
                         }
+                        
                         r8
-                        % measure 389
+                        
+                        %%% Violin Two Music Voice [measure 389] %%%
                         r2
-                        % measure 390
+                        
+                        %%% Violin Two Music Voice [measure 390] %%%
                         r1
-                        % measure 391
+                        
+                        %%% Violin Two Music Voice [measure 391] %%%
                         r2.
+                        
                         r4.
-                        % measure 392
+                        
+                        %%% Violin Two Music Voice [measure 392] %%%
                         r2.
+                        
                         r4.
-                        % measure 393
+                        
+                        %%% Violin Two Music Voice [measure 393] %%%
                         R1 * 1/4
                         \bar "|."
+                        
                     }
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        % measure 369
+                        
+                        %%% Viola Music Voice [measure 369] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \override RepeatTie.direction = #up
                         \set ViolaMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -415,7 +527,6 @@
                                 Va.
                             }
                         \clef "percussion"
-                        \override RepeatTie.direction = #up
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow
                             ^ \markup {
@@ -435,52 +546,74 @@
                                     \italic
                                         ”
                                 }
-                        % measure 370
+                        
+                        %%% Viola Music Voice [measure 370] %%%
                         r2
-                        % measure 371
+                        
+                        %%% Viola Music Voice [measure 371] %%%
                         c'2.. -\upbow
-                        % measure 372
+                        
+                        %%% Viola Music Voice [measure 372] %%%
                         r2..
-                        % measure 373
+                        
+                        %%% Viola Music Voice [measure 373] %%%
                         c'4. -\downbow
-                        % measure 374
+                        
+                        %%% Viola Music Voice [measure 374] %%%
                         r2.
-                        % measure 375
+                        
+                        %%% Viola Music Voice [measure 375] %%%
                         c'2. -\upbow
+                        
                         c'4. \repeatTie
-                        % measure 376
+                        
+                        %%% Viola Music Voice [measure 376] %%%
                         r2.
+                        
                         r4.
-                        % measure 377
+                        
+                        %%% Viola Music Voice [measure 377] %%%
                         c'2 -\downbow
-                        % measure 378
+                        
+                        %%% Viola Music Voice [measure 378] %%%
                         r1
-                        % measure 379
+                        
+                        %%% Viola Music Voice [measure 379] %%%
                         c'2. -\upbow
-                        % measure 380
+                        
+                        %%% Viola Music Voice [measure 380] %%%
                         r2..
-                        % measure 381
+                        
+                        %%% Viola Music Voice [measure 381] %%%
                         c'2.. -\downbow
-                        % measure 382
+                        
+                        %%% Viola Music Voice [measure 382] %%%
                         r4.
-                        % measure 383
+                        
+                        %%% Viola Music Voice [measure 383] %%%
                         c'1 -\upbow
                         \revert RepeatTie.direction
-                        % measure 384
+                        
+                        %%% Viola Music Voice [measure 384] %%%
                         r2.
+                        
                         r4.
-                        % measure 385
+                        
+                        %%% Viola Music Voice [measure 385] %%%
                         R1 * 13/2
                         \bar "|."
+                        
                     }
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        % measure 369
+                        
+                        %%% Cello Music Voice [measure 369] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
+                        \override RepeatTie.direction = #up
                         \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -492,7 +625,6 @@
                                 Vc.
                             }
                         \clef "percussion"
-                        \override RepeatTie.direction = #up
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow
                             ^ \markup {
@@ -512,57 +644,84 @@
                                     \italic
                                         ”
                                 }
-                        % measure 370
+                        
+                        %%% Cello Music Voice [measure 370] %%%
                         r2
-                        % measure 371
+                        
+                        %%% Cello Music Voice [measure 371] %%%
                         c'2.. -\upbow
-                        % measure 372
+                        
+                        %%% Cello Music Voice [measure 372] %%%
                         r2..
-                        % measure 373
+                        
+                        %%% Cello Music Voice [measure 373] %%%
                         c'4. -\downbow
-                        % measure 374
+                        
+                        %%% Cello Music Voice [measure 374] %%%
                         r2.
-                        % measure 375
+                        
+                        %%% Cello Music Voice [measure 375] %%%
                         c'2. -\upbow
+                        
                         c'4. \repeatTie
-                        % measure 376
+                        
+                        %%% Cello Music Voice [measure 376] %%%
                         r2.
+                        
                         r4.
-                        % measure 377
+                        
+                        %%% Cello Music Voice [measure 377] %%%
                         c'2 -\downbow
-                        % measure 378
+                        
+                        %%% Cello Music Voice [measure 378] %%%
                         r1
-                        % measure 379
+                        
+                        %%% Cello Music Voice [measure 379] %%%
                         c'2. -\upbow
-                        % measure 380
+                        
+                        %%% Cello Music Voice [measure 380] %%%
                         r2..
-                        % measure 381
+                        
+                        %%% Cello Music Voice [measure 381] %%%
                         c'2.. -\downbow
-                        % measure 382
+                        
+                        %%% Cello Music Voice [measure 382] %%%
                         r4.
-                        % measure 383
+                        
+                        %%% Cello Music Voice [measure 383] %%%
                         c'1 -\upbow
                         \revert RepeatTie.direction
-                        % measure 384
+                        
+                        %%% Cello Music Voice [measure 384] %%%
                         r2.
+                        
                         r4.
-                        % measure 385
+                        
+                        %%% Cello Music Voice [measure 385] %%%
                         R1 * 9/8
-                        % measure 386
+                        
+                        %%% Cello Music Voice [measure 386] %%%
                         R1 * 1/2
-                        % measure 387
+                        
+                        %%% Cello Music Voice [measure 387] %%%
                         R1 * 1/2
-                        % measure 388
+                        
+                        %%% Cello Music Voice [measure 388] %%%
                         R1 * 3/8
-                        % measure 389
+                        
+                        %%% Cello Music Voice [measure 389] %%%
                         R1 * 1/2
-                        % measure 390
+                        
+                        %%% Cello Music Voice [measure 390] %%%
                         R1 * 1
-                        % measure 391
+                        
+                        %%% Cello Music Voice [measure 391] %%%
                         R1 * 9/8
-                        % measure 392
+                        
+                        %%% Cello Music Voice [measure 392] %%%
                         R1 * 9/8
-                        % measure 393
+                        
+                        %%% Cello Music Voice [measure 393] %%%
                         \once \override MultiMeasureRestText.extra-offset = #'(-41 . -4)
                         R1 * 1/4
                             _ \markup {
@@ -605,6 +764,7 @@
                                                 }
                                 }
                         \bar "|."
+                        
                     }
                 }
             >>
