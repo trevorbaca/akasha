@@ -12,12 +12,12 @@
     } <<
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
-            \context GlobalRests = "Global Rests" {
+            \context GlobalRests = "GlobalRests" {
                 
-                %%% Global Rests [measure 113] %%%
+                %%% GlobalRests [measure 113] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 114] %%%
+                %%% GlobalRests [measure 114] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -27,10 +27,10 @@
                             #"scripts.ufermata"
                         }
                 
-                %%% Global Rests [measure 115] %%%
+                %%% GlobalRests [measure 115] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 116] %%%
+                %%% GlobalRests [measure 116] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -40,10 +40,10 @@
                             #"scripts.ufermata"
                         }
                 
-                %%% Global Rests [measure 117] %%%
+                %%% GlobalRests [measure 117] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 118] %%%
+                %%% GlobalRests [measure 118] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -53,10 +53,10 @@
                             #"scripts.ufermata"
                         }
                 
-                %%% Global Rests [measure 119] %%%
+                %%% GlobalRests [measure 119] %%%
                 R1 * 5/4
                 
-                %%% Global Rests [measure 120] %%%
+                %%% GlobalRests [measure 120] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -66,97 +66,97 @@
                             #"scripts.ufermata"
                         }
                 
-                %%% Global Rests [measure 121] %%%
+                %%% GlobalRests [measure 121] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 122] %%%
+                %%% GlobalRests [measure 122] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 123] %%%
+                %%% GlobalRests [measure 123] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 124] %%%
+                %%% GlobalRests [measure 124] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 125] %%%
+                %%% GlobalRests [measure 125] %%%
                 R1 * 5/4
                 
-                %%% Global Rests [measure 126] %%%
+                %%% GlobalRests [measure 126] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 127] %%%
+                %%% GlobalRests [measure 127] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 128] %%%
+                %%% GlobalRests [measure 128] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 129] %%%
+                %%% GlobalRests [measure 129] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 130] %%%
+                %%% GlobalRests [measure 130] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 131] %%%
+                %%% GlobalRests [measure 131] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 132] %%%
+                %%% GlobalRests [measure 132] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 133] %%%
+                %%% GlobalRests [measure 133] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 134] %%%
+                %%% GlobalRests [measure 134] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 135] %%%
+                %%% GlobalRests [measure 135] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 136] %%%
+                %%% GlobalRests [measure 136] %%%
                 R1 * 5/4
                 
-                %%% Global Rests [measure 137] %%%
+                %%% GlobalRests [measure 137] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 138] %%%
+                %%% GlobalRests [measure 138] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 139] %%%
+                %%% GlobalRests [measure 139] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 140] %%%
+                %%% GlobalRests [measure 140] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 141] %%%
+                %%% GlobalRests [measure 141] %%%
                 R1 * 5/4
                 
-                %%% Global Rests [measure 142] %%%
+                %%% GlobalRests [measure 142] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 143] %%%
+                %%% GlobalRests [measure 143] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 144] %%%
+                %%% GlobalRests [measure 144] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 145] %%%
+                %%% GlobalRests [measure 145] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 146] %%%
+                %%% GlobalRests [measure 146] %%%
                 R1 * 1
                 
-                %%% Global Rests [measure 147] %%%
+                %%% GlobalRests [measure 147] %%%
                 R1 * 3/2
                 
-                %%% Global Rests [measure 148] %%%
+                %%% GlobalRests [measure 148] %%%
                 R1 * 5/4
                 
-                %%% Global Rests [measure 149] %%%
+                %%% GlobalRests [measure 149] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 150] %%%
+                %%% GlobalRests [measure 150] %%%
                 R1 * 3/4
                 
-                %%% Global Rests [measure 151] %%%
+                %%% GlobalRests [measure 151] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -167,9 +167,9 @@
                         }
                 
             }
-            \context GlobalSkips = "Global Skips" {
+            \context GlobalSkips = "GlobalSkips" {
                 
-                %%% Global Skips [measure 113] %%%
+                %%% GlobalSkips [measure 113] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \mark #5
@@ -191,49 +191,49 @@
                         }
                     }
                 
-                %%% Global Skips [measure 114] %%%
+                %%% GlobalSkips [measure 114] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
                 
-                %%% Global Skips [measure 115] %%%
+                %%% GlobalSkips [measure 115] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 116] %%%
+                %%% GlobalSkips [measure 116] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
                 
-                %%% Global Skips [measure 117] %%%
+                %%% GlobalSkips [measure 117] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 118] %%%
+                %%% GlobalSkips [measure 118] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
                 
-                %%% Global Skips [measure 119] %%%
+                %%% GlobalSkips [measure 119] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
                 
-                %%% Global Skips [measure 120] %%%
+                %%% GlobalSkips [measure 120] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
                 
-                %%% Global Skips [measure 121] %%%
+                %%% GlobalSkips [measure 121] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -254,25 +254,25 @@
                         }
                     }
                 
-                %%% Global Skips [measure 122] %%%
+                %%% GlobalSkips [measure 122] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
                 
-                %%% Global Skips [measure 123] %%%
+                %%% GlobalSkips [measure 123] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
                 
-                %%% Global Skips [measure 124] %%%
+                %%% GlobalSkips [measure 124] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
                 
-                %%% Global Skips [measure 125] %%%
+                %%% GlobalSkips [measure 125] %%%
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -299,13 +299,13 @@
                 \newSpacingSection
                 s1 * 5/4 \startTextSpan
                 
-                %%% Global Skips [measure 126] %%%
+                %%% GlobalSkips [measure 126] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
                 
-                %%% Global Skips [measure 127] %%%
+                %%% GlobalSkips [measure 127] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -326,25 +326,25 @@
                         }
                     }
                 
-                %%% Global Skips [measure 128] %%%
+                %%% GlobalSkips [measure 128] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 129] %%%
+                %%% GlobalSkips [measure 129] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
                 
-                %%% Global Skips [measure 130] %%%
+                %%% GlobalSkips [measure 130] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 131] %%%
+                %%% GlobalSkips [measure 131] %%%
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -371,49 +371,49 @@
                 \newSpacingSection
                 s1 * 3/2 \startTextSpan
                 
-                %%% Global Skips [measure 132] %%%
+                %%% GlobalSkips [measure 132] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 56)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 133] %%%
+                %%% GlobalSkips [measure 133] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
                 
-                %%% Global Skips [measure 134] %%%
+                %%% GlobalSkips [measure 134] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
                 
-                %%% Global Skips [measure 135] %%%
+                %%% GlobalSkips [measure 135] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
                 
-                %%% Global Skips [measure 136] %%%
+                %%% GlobalSkips [measure 136] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
                 
-                %%% Global Skips [measure 137] %%%
+                %%% GlobalSkips [measure 137] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
                 
-                %%% Global Skips [measure 138] %%%
+                %%% GlobalSkips [measure 138] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
                 
-                %%% Global Skips [measure 139] %%%
+                %%% GlobalSkips [measure 139] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
@@ -434,73 +434,73 @@
                         }
                     }
                 
-                %%% Global Skips [measure 140] %%%
+                %%% GlobalSkips [measure 140] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
                 
-                %%% Global Skips [measure 141] %%%
+                %%% GlobalSkips [measure 141] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
                 
-                %%% Global Skips [measure 142] %%%
+                %%% GlobalSkips [measure 142] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
                 
-                %%% Global Skips [measure 143] %%%
+                %%% GlobalSkips [measure 143] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 144] %%%
+                %%% GlobalSkips [measure 144] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 145] %%%
+                %%% GlobalSkips [measure 145] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 88)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 146] %%%
+                %%% GlobalSkips [measure 146] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
                 
-                %%% Global Skips [measure 147] %%%
+                %%% GlobalSkips [measure 147] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 88)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
                 
-                %%% Global Skips [measure 148] %%%
+                %%% GlobalSkips [measure 148] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
                 
-                %%% Global Skips [measure 149] %%%
+                %%% GlobalSkips [measure 149] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
                 
-                %%% Global Skips [measure 150] %%%
+                %%% GlobalSkips [measure 150] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
                 
-                %%% Global Skips [measure 151] %%%
+                %%% GlobalSkips [measure 151] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
