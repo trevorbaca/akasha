@@ -641,11 +641,11 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" {
-        \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+    \context MusicContext = "MusicContext" {
+        \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
             \tag violin_one
-            \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                \context ViolinOneMusicVoice = "Violin One Music Voice" {
+            \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
+                \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                     \once \override TextSpanner.arrow-width = 0.25
                     \once \override TextSpanner.bound-details.left-broken.text = ##f
                     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1111,8 +1111,8 @@
                 }
             }
             \tag violin_two
-            \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+            \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
+                \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                     \once \override TextSpanner.arrow-width = 0.25
                     \once \override TextSpanner.bound-details.left-broken.text = ##f
                     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1494,8 +1494,8 @@
                 }
             }
             \tag viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     \once \override TextSpanner.arrow-width = 0.25
                     \once \override TextSpanner.bound-details.left-broken.text = ##f
                     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1874,8 +1874,8 @@
                 }
             }
             \tag cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     \once \override TextSpanner.arrow-width = 0.25
                     \once \override TextSpanner.bound-details.left-broken.text = ##f
                     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center

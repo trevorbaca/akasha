@@ -141,11 +141,11 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" {
-        \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+    \context MusicContext = "MusicContext" {
+        \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
             \tag violin_one
-            \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                \context ViolinOneMusicVoice = "Violin One Music Voice" {
+            \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
+                \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                     \override TupletNumber.text = \markup {
                         \scale
                             #'(0.75 . 0.75)
@@ -240,8 +240,8 @@
                 }
             }
             \tag violin_two
-            \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+            \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
+                \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                     \override TupletNumber.text = \markup {
                         \scale
                             #'(0.75 . 0.75)
@@ -336,8 +336,8 @@
                 }
             }
             \tag viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -363,8 +363,8 @@
                 }
             }
             \tag cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     \override TupletNumber.text = \markup {
                         \scale
                             #'(0.75 . 0.75)

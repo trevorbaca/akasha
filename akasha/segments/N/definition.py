@@ -60,9 +60,9 @@ maker.validate_measures_per_stage()
 
 maker(
     baca.make_scopes([
-        'Violin One Music Voice',
-        'Viola Music Voice',
-        'Cello Music Voice'],
+        'ViolinOneMusicVoice',
+        'ViolaMusicVoice',
+        'CelloMusicVoice'],
         [(1, 2)],
         ),
     abjad.new(
@@ -72,7 +72,7 @@ maker(
     )
 
 maker(
-    baca.scope('Violin Two Music Voice', 2, 3),
+    baca.scope('ViolinTwoMusicVoice', 2, 3),
     abjad.new(
         akasha.sparse_getato_rhythm(),
         rhythm_maker__division_masks=~abjad.silence([3, 36, 37]),
@@ -80,7 +80,7 @@ maker(
     )
 
 maker(
-    baca.scope('Cello Music Voice', 3),
+    baca.scope('CelloMusicVoice', 3),
     baca.RhythmCommand(
         rhythm_maker=rhythmos.NoteRhythmMaker(
             division_masks=abjad.silence([0], 1, use_multimeasure_rests=True),
@@ -94,9 +94,9 @@ maker(
 
 maker(
     baca.make_scopes([
-        'Violin One Music Voice',
-        'Viola Music Voice',
-        'Cello Music Voice'],
+        'ViolinOneMusicVoice',
+        'ViolaMusicVoice',
+        'CelloMusicVoice'],
         [(1, 3)],
         ),
     baca.alternate_bow_strokes(),
@@ -110,7 +110,7 @@ maker(
     )
 
 maker(
-    baca.scope('Violin Two Music Voice', 2, 3),
+    baca.scope('ViolinTwoMusicVoice', 2, 3),
     akasha.getato_pitches(29, direction=Down),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),

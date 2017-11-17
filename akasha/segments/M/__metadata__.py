@@ -7,10 +7,10 @@ metadata = abjad.TypedOrderedDict(
             'end_clefs_by_staff',
             abjad.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', 'bass'),
-                    ('Viola Music Staff', 'alto'),
-                    ('Violin One Music Staff', 'treble'),
-                    ('Violin Two Music Staff', 'treble'),
+                    ('CelloMusicStaff', 'bass'),
+                    ('ViolaMusicStaff', 'alto'),
+                    ('ViolinOneMusicStaff', 'treble'),
+                    ('ViolinTwoMusicStaff', 'treble'),
                     ]
                 ),
             ),
@@ -18,10 +18,10 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments_by_context',
             abjad.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', 'cello'),
-                    ('Viola Music Staff', 'viola'),
-                    ('Violin One Music Staff', 'violin 1'),
-                    ('Violin Two Music Staff', 'violin 2'),
+                    ('CelloMusicStaff', 'cello'),
+                    ('ViolaMusicStaff', 'viola'),
+                    ('ViolinOneMusicStaff', 'violin 1'),
+                    ('ViolinTwoMusicStaff', 'violin 2'),
                     ]
                 ),
             ),
@@ -30,9 +30,9 @@ metadata = abjad.TypedOrderedDict(
             'end_staff_lines_by_staff',
             abjad.TypedOrderedDict(
                 [
-                    ('Viola Music Staff', 1),
-                    ('Violin One Music Staff', 1),
-                    ('Violin Two Music Staff', 1),
+                    ('ViolaMusicStaff', 1),
+                    ('ViolinOneMusicStaff', 1),
+                    ('ViolinTwoMusicStaff', 1),
                     ]
                 ),
             ),

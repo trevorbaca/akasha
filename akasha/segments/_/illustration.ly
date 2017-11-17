@@ -67,13 +67,13 @@
                 
             }
         >>
-        \context MusicContext = "Music Context" {
-            \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+        \context MusicContext = "MusicContext" {
+            \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
                 \tag violin_one
-                \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                    \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
+                    \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                         
-                        %%% Violin One Music Voice [measure 1] %%%
+                        %%% ViolinOneMusicVoice [measure 1] %%%
                         \set ViolinOneMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -95,20 +95,20 @@
                         \clef "treble"
                         R1 * 3/8
                         
-                        %%% Violin One Music Voice [measure 2] %%%
+                        %%% ViolinOneMusicVoice [measure 2] %%%
                         R1 * 3/4
                         
-                        %%% Violin One Music Voice [measure 3] %%%
+                        %%% ViolinOneMusicVoice [measure 3] %%%
                         R1 * 1/4
                         \bar "|"
                         
                     }
                 }
                 \tag violin_two
-                \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                    \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
+                    \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
-                        %%% Violin Two Music Voice [measure 1] %%%
+                        %%% ViolinTwoMusicVoice [measure 1] %%%
                         \set ViolinTwoMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -130,20 +130,20 @@
                         \clef "treble"
                         R1 * 3/8
                         
-                        %%% Violin Two Music Voice [measure 2] %%%
+                        %%% ViolinTwoMusicVoice [measure 2] %%%
                         R1 * 3/4
                         
-                        %%% Violin Two Music Voice [measure 3] %%%
+                        %%% ViolinTwoMusicVoice [measure 3] %%%
                         R1 * 1/4
                         \bar "|"
                         
                     }
                 }
                 \tag viola
-                \context ViolaMusicStaff = "Viola Music Staff" {
-                    \context ViolaMusicVoice = "Viola Music Voice" {
+                \context ViolaMusicStaff = "ViolaMusicStaff" {
+                    \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
-                        %%% Viola Music Voice [measure 1] %%%
+                        %%% ViolaMusicVoice [measure 1] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -177,20 +177,20 @@
                                         ”
                                 }
                         
-                        %%% Viola Music Voice [measure 2] %%%
+                        %%% ViolaMusicVoice [measure 2] %%%
                         c'2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 3] %%%
+                        %%% ViolaMusicVoice [measure 3] %%%
                         R1 * 1/4
                         \bar "|"
                         
                     }
                 }
                 \tag cello
-                \context CelloMusicStaff = "Cello Music Staff" {
-                    \context CelloMusicVoice = "Cello Music Voice" {
+                \context CelloMusicStaff = "CelloMusicStaff" {
+                    \context CelloMusicVoice = "CelloMusicVoice" {
                         
-                        %%% Cello Music Voice [measure 1] %%%
+                        %%% CelloMusicVoice [measure 1] %%%
                         \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -204,10 +204,10 @@
                         \clef "bass"
                         R1 * 3/8
                         
-                        %%% Cello Music Voice [measure 2] %%%
+                        %%% CelloMusicVoice [measure 2] %%%
                         R1 * 3/4
                         
-                        %%% Cello Music Voice [measure 3] %%%
+                        %%% CelloMusicVoice [measure 3] %%%
                         R1 * 1/4
                         \bar "|"
                         
