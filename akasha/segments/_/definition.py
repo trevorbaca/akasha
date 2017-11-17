@@ -50,7 +50,7 @@ maker.validate_measures_per_stage()
 ###############################################################################
 
 maker(
-    baca.scope('Viola Music Voice', 1),
+    baca.scope('ViolaMusicVoice', 1),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -59,7 +59,7 @@ maker(
 ###############################################################################
 
 maker(
-    baca.scope('Viola Music Voice', 1, 2),
+    baca.scope('ViolaMusicVoice', 1, 2),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),

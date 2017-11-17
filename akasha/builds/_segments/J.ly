@@ -69,11 +69,11 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" {
-        \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+    \context MusicContext = "MusicContext" {
+        \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
             \tag violin_one
-            \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                \context ViolinOneMusicVoice = "Violin One Music Voice" {
+            \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
+                \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                     s1 * 1
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/4 {
@@ -99,8 +99,8 @@
                 }
             }
             \tag violin_two
-            \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+            \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
+                \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                     {
                         r4
                         r4
@@ -135,8 +135,8 @@
                 }
             }
             \tag viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     R1 * 1
                     R1 * 3/2
                     R1 * 3/2
@@ -145,8 +145,8 @@
                 }
             }
             \tag cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 4/3 {
                         \clef "bass"

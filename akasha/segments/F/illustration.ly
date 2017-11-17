@@ -665,13 +665,13 @@
                 
             }
         >>
-        \context MusicContext = "Music Context" {
-            \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+        \context MusicContext = "MusicContext" {
+            \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
                 \tag violin_one
-                \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                    \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
+                    \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                         
-                        %%% Violin One Music Voice [measure 152] %%%
+                        %%% ViolinOneMusicVoice [measure 152] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -700,7 +700,7 @@
                         R1 * 7/4
                         \times 4/7 {
                             
-                            %%% Violin One Music Voice [measure 154] %%%
+                            %%% ViolinOneMusicVoice [measure 154] %%%
                             r16
                             
                             ef'''16 -\staccato [
@@ -769,7 +769,7 @@
                         }
                         {
                             
-                            %%% Violin One Music Voice [measure 155] %%%
+                            %%% ViolinOneMusicVoice [measure 155] %%%
                             r16
                             
                             e'''16 -\staccato [
@@ -805,7 +805,7 @@
                             af'''16 -\staccato ]
                         }
                         
-                        %%% Violin One Music Voice [measure 156] %%%
+                        %%% ViolinOneMusicVoice [measure 156] %%%
                         R1 * 5/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -839,7 +839,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin One Music Voice [measure 159] %%%
+                            %%% ViolinOneMusicVoice [measure 159] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             ef''16 * 227/32 \pp [
@@ -887,7 +887,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin One Music Voice [measure 160] %%%
+                            %%% ViolinOneMusicVoice [measure 160] %%%
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             ef''16 * 109/64 [
@@ -903,11 +903,11 @@
                         }
                         \revert TupletNumber.text
                         
-                        %%% Violin One Music Voice [measure 161] %%%
+                        %%% ViolinOneMusicVoice [measure 161] %%%
                         R1 * 1/4
                         \times 4/5 {
                             
-                            %%% Violin One Music Voice [measure 162] %%%
+                            %%% ViolinOneMusicVoice [measure 162] %%%
                             ef''4 \< \pp
                             
                             ef''16 \repeatTie
@@ -942,7 +942,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% Violin One Music Voice [measure 163] %%%
+                            %%% ViolinOneMusicVoice [measure 163] %%%
                             ef''8. \repeatTie \pp
                             
                             r8
@@ -1011,7 +1011,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin One Music Voice [measure 164] %%%
+                            %%% ViolinOneMusicVoice [measure 164] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             f''16 * 241/32 \p [
@@ -1030,7 +1030,7 @@
                         \revert TupletNumber.text
                         \times 4/5 {
                             
-                            %%% Violin One Music Voice [measure 165] %%%
+                            %%% ViolinOneMusicVoice [measure 165] %%%
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             fs''4
                             
@@ -1058,7 +1058,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% Violin One Music Voice [measure 166] %%%
+                            %%% ViolinOneMusicVoice [measure 166] %%%
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             ef''16 \repeatTie
                             
@@ -1085,7 +1085,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% Violin One Music Voice [measure 167] %%%
+                            %%% ViolinOneMusicVoice [measure 167] %%%
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1185,7 +1185,7 @@
                         }
                         \times 4/5 {
                             
-                            %%% Violin One Music Voice [measure 170] %%%
+                            %%% ViolinOneMusicVoice [measure 170] %%%
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             e''4 \repeatTie
                             
@@ -1238,7 +1238,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin One Music Voice [measure 171] %%%
+                            %%% ViolinOneMusicVoice [measure 171] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             g''16 * 31/4 \p [
@@ -1266,7 +1266,7 @@
                         }
                         \revert TupletNumber.text
                         
-                        %%% Violin One Music Voice [measure 174] %%%
+                        %%% ViolinOneMusicVoice [measure 174] %%%
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e''2. \mp
                             ^ \markup {
@@ -1277,16 +1277,16 @@
                         
                         e''2 \repeatTie
                         
-                        %%% Violin One Music Voice [measure 175] %%%
+                        %%% ViolinOneMusicVoice [measure 175] %%%
                         e''2. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 176] %%%
+                        %%% ViolinOneMusicVoice [measure 176] %%%
                         e''2. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 177] %%%
+                        %%% ViolinOneMusicVoice [measure 177] %%%
                         e''1. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 178] %%%
+                        %%% ViolinOneMusicVoice [measure 178] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1309,25 +1309,25 @@
                         \once \override TextSpanner.dash-period = 1.5
                         f''1 \< \mp \startTextSpan
                         
-                        %%% Violin One Music Voice [measure 179] %%%
+                        %%% ViolinOneMusicVoice [measure 179] %%%
                         f''1. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 180] %%%
+                        %%% ViolinOneMusicVoice [measure 180] %%%
                         f''1. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 181] %%%
+                        %%% ViolinOneMusicVoice [measure 181] %%%
                         f''1. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 182] %%%
+                        %%% ViolinOneMusicVoice [measure 182] %%%
                         f''1 \repeatTie
                         
-                        %%% Violin One Music Voice [measure 183] %%%
+                        %%% ViolinOneMusicVoice [measure 183] %%%
                         f''2. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 184] %%%
+                        %%% ViolinOneMusicVoice [measure 184] %%%
                         f''1 \repeatTie
                         
-                        %%% Violin One Music Voice [measure 185] %%%
+                        %%% ViolinOneMusicVoice [measure 185] %%%
                         f''2. \repeatTie
                         
                         f''2 \repeatTie \f \stopTextSpan ^ \markup {
@@ -1336,11 +1336,11 @@
                                     "scratch moltiss."
                             }
                         
-                        %%% Violin One Music Voice [measure 186] %%%
+                        %%% ViolinOneMusicVoice [measure 186] %%%
                         R1 * 1/4
                         \times 8/14 {
                             
-                            %%% Violin One Music Voice [measure 187] %%%
+                            %%% ViolinOneMusicVoice [measure 187] %%%
                             r16
                             
                             f'''16 -\staccato \< \ff [
@@ -1388,7 +1388,7 @@
                             
                             bf'''16 -\staccato
                             
-                            %%% Violin One Music Voice [measure 188] %%%
+                            %%% ViolinOneMusicVoice [measure 188] %%%
                             b'''16 -\staccato
                             
                             a'''16 -\staccato
@@ -1467,7 +1467,7 @@
                             
                             af'''16 -\staccato
                             
-                            %%% Violin One Music Voice [measure 190] %%%
+                            %%% ViolinOneMusicVoice [measure 190] %%%
                             a'''16 -\staccato
                             
                             bf'''16 -\staccato
@@ -1528,7 +1528,7 @@
                         }
                         \times 8/14 {
                             
-                            %%% Violin One Music Voice [measure 191] %%%
+                            %%% ViolinOneMusicVoice [measure 191] %%%
                             r16
                             
                             c''''16 -\staccato [
@@ -1599,7 +1599,7 @@
                         }
                         \times 8/11 {
                             
-                            %%% Violin One Music Voice [measure 192] %%%
+                            %%% ViolinOneMusicVoice [measure 192] %%%
                             r16
                             
                             f''''16 -\staccato [
@@ -1647,11 +1647,11 @@
                             g''''16 -\staccato \fff ]
                         }
                         
-                        %%% Violin One Music Voice [measure 193] %%%
+                        %%% ViolinOneMusicVoice [measure 193] %%%
                         R1 * 2
                         \times 12/18 {
                             
-                            %%% Violin One Music Voice [measure 196] %%%
+                            %%% ViolinOneMusicVoice [measure 196] %%%
                             r16
                             
                             f'''16 -\staccato \pp [
@@ -1729,17 +1729,17 @@
                             a'''16 -\staccato ]
                         }
                         
-                        %%% Violin One Music Voice [measure 197] %%%
+                        %%% ViolinOneMusicVoice [measure 197] %%%
                         R1 * 2
                         \bar "|"
                         
                     }
                 }
                 \tag violin_two
-                \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                    \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
+                    \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
-                        %%% Violin Two Music Voice [measure 152] %%%
+                        %%% ViolinTwoMusicVoice [measure 152] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1768,7 +1768,7 @@
                         R1 * 7/4
                         \times 4/6 {
                             
-                            %%% Violin Two Music Voice [measure 154] %%%
+                            %%% ViolinTwoMusicVoice [measure 154] %%%
                             r16
                             
                             c'''16 -\staccato [
@@ -1831,7 +1831,7 @@
                             
                             d'''16 -\staccato
                             
-                            %%% Violin Two Music Voice [measure 155] %%%
+                            %%% ViolinTwoMusicVoice [measure 155] %%%
                             cs'''16 -\staccato
                             
                             c'''16 -\staccato
@@ -1875,7 +1875,7 @@
                             e'''16 -\staccato ]
                         }
                         
-                        %%% Violin Two Music Voice [measure 156] %%%
+                        %%% ViolinTwoMusicVoice [measure 156] %%%
                         R1 * 5/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1909,7 +1909,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin Two Music Voice [measure 159] %%%
+                            %%% ViolinTwoMusicVoice [measure 159] %%%
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             b'16 * 13/8 \pp [
@@ -1959,7 +1959,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin Two Music Voice [measure 160] %%%
+                            %%% ViolinTwoMusicVoice [measure 160] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             cs''16 * 117/16 [
@@ -1973,11 +1973,11 @@
                         }
                         \revert TupletNumber.text
                         
-                        %%% Violin Two Music Voice [measure 161] %%%
+                        %%% ViolinTwoMusicVoice [measure 161] %%%
                         R1 * 1/4
                         {
                             
-                            %%% Violin Two Music Voice [measure 162] %%%
+                            %%% ViolinTwoMusicVoice [measure 162] %%%
                             b'4 \< \pp
                         }
                         {
@@ -2003,7 +2003,7 @@
                         }
                         {
                             
-                            %%% Violin Two Music Voice [measure 163] %%%
+                            %%% ViolinTwoMusicVoice [measure 163] %%%
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2085,7 +2085,7 @@
                         }
                         {
                             
-                            %%% Violin Two Music Voice [measure 165] %%%
+                            %%% ViolinTwoMusicVoice [measure 165] %%%
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2105,7 +2105,7 @@
                         }
                         {
                             
-                            %%% Violin Two Music Voice [measure 166] %%%
+                            %%% ViolinTwoMusicVoice [measure 166] %%%
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2160,7 +2160,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin Two Music Voice [measure 167] %%%
+                            %%% ViolinTwoMusicVoice [measure 167] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             b'16 * 497/64 [
@@ -2191,7 +2191,7 @@
                         \revert TupletNumber.text
                         {
                             
-                            %%% Violin Two Music Voice [measure 169] %%%
+                            %%% ViolinTwoMusicVoice [measure 169] %%%
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                             d''4
                         }
@@ -2218,7 +2218,7 @@
                         }
                         {
                             
-                            %%% Violin Two Music Voice [measure 170] %%%
+                            %%% ViolinTwoMusicVoice [measure 170] %%%
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2289,7 +2289,7 @@
                         }
                         \revert TupletNumber.text
                         
-                        %%% Violin Two Music Voice [measure 174] %%%
+                        %%% ViolinTwoMusicVoice [measure 174] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2322,7 +2322,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 175] %%%
+                        %%% ViolinTwoMusicVoice [measure 175] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2332,7 +2332,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 176] %%%
+                        %%% ViolinTwoMusicVoice [measure 176] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2342,7 +2342,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 177] %%%
+                        %%% ViolinTwoMusicVoice [measure 177] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2352,7 +2352,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 178] %%%
+                        %%% ViolinTwoMusicVoice [measure 178] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2382,7 +2382,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 179] %%%
+                        %%% ViolinTwoMusicVoice [measure 179] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2392,7 +2392,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 180] %%%
+                        %%% ViolinTwoMusicVoice [measure 180] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2402,7 +2402,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 181] %%%
+                        %%% ViolinTwoMusicVoice [measure 181] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2412,7 +2412,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 182] %%%
+                        %%% ViolinTwoMusicVoice [measure 182] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2422,7 +2422,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 183] %%%
+                        %%% ViolinTwoMusicVoice [measure 183] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2432,7 +2432,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 184] %%%
+                        %%% ViolinTwoMusicVoice [measure 184] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2442,7 +2442,7 @@
                             - \tweak color #red
                             ^ \markup { @ }
                         
-                        %%% Violin Two Music Voice [measure 185] %%%
+                        %%% ViolinTwoMusicVoice [measure 185] %%%
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
                         \once \override Dots.color = #red
@@ -2466,11 +2466,11 @@
                                     "scratch moltiss."
                             }
                         
-                        %%% Violin Two Music Voice [measure 186] %%%
+                        %%% ViolinTwoMusicVoice [measure 186] %%%
                         R1 * 1/4
                         \times 8/12 {
                             
-                            %%% Violin Two Music Voice [measure 187] %%%
+                            %%% ViolinTwoMusicVoice [measure 187] %%%
                             r16
                             
                             d'''16 -\staccato \< \ff [
@@ -2516,7 +2516,7 @@
                         }
                         \times 8/11 {
                             
-                            %%% Violin Two Music Voice [measure 188] %%%
+                            %%% ViolinTwoMusicVoice [measure 188] %%%
                             r16
                             
                             f'''16 -\staccato [
@@ -2555,7 +2555,7 @@
                         }
                         \times 8/12 {
                             
-                            %%% Violin Two Music Voice [measure 189] %%%
+                            %%% ViolinTwoMusicVoice [measure 189] %%%
                             r16
                             
                             fs'''16 -\staccato [
@@ -2596,7 +2596,7 @@
                             
                             fs'''16 -\staccato
                             
-                            %%% Violin Two Music Voice [measure 190] %%%
+                            %%% ViolinTwoMusicVoice [measure 190] %%%
                             f'''16 -\staccato
                             
                             fs'''16 -\staccato
@@ -2659,7 +2659,7 @@
                         }
                         {
                             
-                            %%% Violin Two Music Voice [measure 191] %%%
+                            %%% ViolinTwoMusicVoice [measure 191] %%%
                             r16
                             
                             a'''16 -\staccato [
@@ -2724,7 +2724,7 @@
                         }
                         \times 4/6 {
                             
-                            %%% Violin Two Music Voice [measure 192] %%%
+                            %%% ViolinTwoMusicVoice [measure 192] %%%
                             r16
                             
                             cs''''16 -\staccato [
@@ -2778,12 +2778,12 @@
                             e''''16 -\staccato \fff ]
                         }
                         
-                        %%% Violin Two Music Voice [measure 193] %%%
+                        %%% ViolinTwoMusicVoice [measure 193] %%%
                         R1 * 2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/16 {
                             
-                            %%% Violin Two Music Voice [measure 196] %%%
+                            %%% ViolinTwoMusicVoice [measure 196] %%%
                             r16
                             
                             d'''16 -\staccato \pp [
@@ -2856,17 +2856,17 @@
                             ef'''16 -\staccato ]
                         }
                         
-                        %%% Violin Two Music Voice [measure 197] %%%
+                        %%% ViolinTwoMusicVoice [measure 197] %%%
                         R1 * 2
                         \bar "|"
                         
                     }
                 }
                 \tag viola
-                \context ViolaMusicStaff = "Viola Music Staff" {
-                    \context ViolaMusicVoice = "Viola Music Voice" {
+                \context ViolaMusicStaff = "ViolaMusicStaff" {
+                    \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
-                        %%% Viola Music Voice [measure 152] %%%
+                        %%% ViolaMusicVoice [measure 152] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -2886,7 +2886,7 @@
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 4
                         
-                        %%% Viola Music Voice [measure 157] %%%
+                        %%% ViolaMusicVoice [measure 157] %%%
                         fs2. \ff
                             ^ \markup {
                                 \whiteout
@@ -2894,10 +2894,10 @@
                                         "terminate abruptly"
                                 }
                         
-                        %%% Viola Music Voice [measure 158] %%%
+                        %%% ViolaMusicVoice [measure 158] %%%
                         R1 * 9/4
                         
-                        %%% Viola Music Voice [measure 162] %%%
+                        %%% ViolaMusicVoice [measure 162] %%%
                         gs2 \mp
                             ^ \markup {
                                 \whiteout
@@ -2912,7 +2912,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         a2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 163] %%%
+                        %%% ViolaMusicVoice [measure 163] %%%
                         a8 \repeatTie [
                         
                         b8 ]
@@ -2921,7 +2921,7 @@
                         
                         b2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 164] %%%
+                        %%% ViolaMusicVoice [measure 164] %%%
                         bqf2
                         
                         bf4
@@ -2933,10 +2933,10 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         c'4 \repeatTie
                         
-                        %%% Viola Music Voice [measure 165] %%%
+                        %%% ViolaMusicVoice [measure 165] %%%
                         c'1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 166] %%%
+                        %%% ViolaMusicVoice [measure 166] %%%
                         c'2 \repeatTie
                         
                         c'16 \repeatTie
@@ -2944,10 +2944,10 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         cs'4..
                         
-                        %%% Viola Music Voice [measure 167] %%%
+                        %%% ViolaMusicVoice [measure 167] %%%
                         cs'1. \repeatTie
                         
-                        %%% Viola Music Voice [measure 168] %%%
+                        %%% ViolaMusicVoice [measure 168] %%%
                         cs'4.. \repeatTie
                         
                         cqs'16
@@ -2957,7 +2957,7 @@
                         
                         cqs'2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 169] %%%
+                        %%% ViolaMusicVoice [measure 169] %%%
                         cqs'2 \repeatTie
                         
                         cqs'8. \repeatTie [
@@ -2967,33 +2967,33 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         d'2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 170] %%%
+                        %%% ViolaMusicVoice [measure 170] %%%
                         d'2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 171] %%%
+                        %%% ViolaMusicVoice [measure 171] %%%
                         d'2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 172] %%%
+                        %%% ViolaMusicVoice [measure 172] %%%
                         d'1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 173] %%%
+                        %%% ViolaMusicVoice [measure 173] %%%
                         d'1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 174] %%%
+                        %%% ViolaMusicVoice [measure 174] %%%
                         d'2. \repeatTie
                         
                         d'2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 175] %%%
+                        %%% ViolaMusicVoice [measure 175] %%%
                         d'2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 176] %%%
+                        %%% ViolaMusicVoice [measure 176] %%%
                         d'2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 177] %%%
+                        %%% ViolaMusicVoice [measure 177] %%%
                         d'1. \repeatTie
                         
-                        %%% Viola Music Voice [measure 178] %%%
+                        %%% ViolaMusicVoice [measure 178] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -3016,25 +3016,25 @@
                         \once \override TextSpanner.dash-period = 1.5
                         ds'1 \< \mp \startTextSpan
                         
-                        %%% Viola Music Voice [measure 179] %%%
+                        %%% ViolaMusicVoice [measure 179] %%%
                         ds'1. \repeatTie
                         
-                        %%% Viola Music Voice [measure 180] %%%
+                        %%% ViolaMusicVoice [measure 180] %%%
                         ds'1. \repeatTie
                         
-                        %%% Viola Music Voice [measure 181] %%%
+                        %%% ViolaMusicVoice [measure 181] %%%
                         ds'1. \repeatTie
                         
-                        %%% Viola Music Voice [measure 182] %%%
+                        %%% ViolaMusicVoice [measure 182] %%%
                         ds'1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 183] %%%
+                        %%% ViolaMusicVoice [measure 183] %%%
                         ds'2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 184] %%%
+                        %%% ViolaMusicVoice [measure 184] %%%
                         ds'1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 185] %%%
+                        %%% ViolaMusicVoice [measure 185] %%%
                         ds'2. \repeatTie
                         
                         ds'2 \repeatTie \f \stopTextSpan ^ \markup {
@@ -3043,11 +3043,11 @@
                                     "scratch moltiss."
                             }
                         
-                        %%% Viola Music Voice [measure 186] %%%
+                        %%% ViolaMusicVoice [measure 186] %%%
                         R1 * 1/4
                         \times 8/11 {
                             
-                            %%% Viola Music Voice [measure 187] %%%
+                            %%% ViolaMusicVoice [measure 187] %%%
                             \clef "treble"
                             r16
                             
@@ -3092,7 +3092,7 @@
                         }
                         \times 8/12 {
                             
-                            %%% Viola Music Voice [measure 188] %%%
+                            %%% ViolaMusicVoice [measure 188] %%%
                             r16
                             
                             ef'''16 -\staccato [
@@ -3133,7 +3133,7 @@
                             
                             ef'''16 -\staccato
                             
-                            %%% Viola Music Voice [measure 189] %%%
+                            %%% ViolaMusicVoice [measure 189] %%%
                             d'''16 -\staccato
                             
                             cs'''16 -\staccato
@@ -3180,7 +3180,7 @@
                             
                             e'''16 -\staccato
                             
-                            %%% Viola Music Voice [measure 190] %%%
+                            %%% ViolaMusicVoice [measure 190] %%%
                             fs'''16 -\staccato
                             
                             f'''16 -\staccato
@@ -3237,7 +3237,7 @@
                         }
                         \times 8/11 {
                             
-                            %%% Viola Music Voice [measure 191] %%%
+                            %%% ViolaMusicVoice [measure 191] %%%
                             r16
                             
                             fs'''16 -\staccato [
@@ -3302,7 +3302,7 @@
                         }
                         \times 4/6 {
                             
-                            %%% Viola Music Voice [measure 192] %%%
+                            %%% ViolaMusicVoice [measure 192] %%%
                             r16
                             
                             bf'''16 -\staccato [
@@ -3354,10 +3354,10 @@
                             c''''16 -\staccato \fff ]
                         }
                         
-                        %%% Viola Music Voice [measure 193] %%%
+                        %%% ViolaMusicVoice [measure 193] %%%
                         R1 * 1/4
                         
-                        %%% Viola Music Voice [measure 194] %%%
+                        %%% ViolaMusicVoice [measure 194] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -3380,11 +3380,11 @@
                                         ”
                                 }
                         
-                        %%% Viola Music Voice [measure 195] %%%
+                        %%% ViolaMusicVoice [measure 195] %%%
                         R1 * 1/4
                         \times 12/15 {
                             
-                            %%% Viola Music Voice [measure 196] %%%
+                            %%% ViolaMusicVoice [measure 196] %%%
                             r16
                             
                             b''16 -\staccato \pp [
@@ -3458,10 +3458,10 @@
                             c'''16 -\staccato ]
                         }
                         
-                        %%% Viola Music Voice [measure 197] %%%
+                        %%% ViolaMusicVoice [measure 197] %%%
                         R1 * 1/4
                         
-                        %%% Viola Music Voice [measure 198] %%%
+                        %%% ViolaMusicVoice [measure 198] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -3484,17 +3484,17 @@
                                         ”
                                 }
                         
-                        %%% Viola Music Voice [measure 199] %%%
+                        %%% ViolaMusicVoice [measure 199] %%%
                         R1 * 1/4
                         \bar "|"
                         
                     }
                 }
                 \tag cello
-                \context CelloMusicStaff = "Cello Music Staff" {
-                    \context CelloMusicVoice = "Cello Music Voice" {
+                \context CelloMusicStaff = "CelloMusicStaff" {
+                    \context CelloMusicVoice = "CelloMusicVoice" {
                         
-                        %%% Cello Music Voice [measure 152] %%%
+                        %%% CelloMusicVoice [measure 152] %%%
                         \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -3519,7 +3519,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         gqf4
                         
-                        %%% Cello Music Voice [measure 153] %%%
+                        %%% CelloMusicVoice [measure 153] %%%
                         gqf4. \repeatTie
                         
                         g8
@@ -3529,7 +3529,7 @@
                         c16
                         \times 8/14 {
                             
-                            %%% Cello Music Voice [measure 154] %%%
+                            %%% CelloMusicVoice [measure 154] %%%
                             r16
                             
                             a''16 -\staccato \pp [
@@ -3609,7 +3609,7 @@
                         }
                         \times 8/12 {
                             
-                            %%% Cello Music Voice [measure 155] %%%
+                            %%% CelloMusicVoice [measure 155] %%%
                             r16
                             
                             cs'''16 -\staccato [
@@ -3649,10 +3649,10 @@
                             b''16 -\staccato ]
                         }
                         
-                        %%% Cello Music Voice [measure 156] %%%
+                        %%% CelloMusicVoice [measure 156] %%%
                         R1 * 13/4
                         
-                        %%% Cello Music Voice [measure 162] %%%
+                        %%% CelloMusicVoice [measure 162] %%%
                         \clef "bass"
                         af,4.. \mp
                             ^ \markup {
@@ -3668,17 +3668,17 @@
                         
                         g,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 163] %%%
+                        %%% CelloMusicVoice [measure 163] %%%
                         g,2 \repeatTie
                         
                         g,8 \repeatTie
                         
                         f,2..
                         
-                        %%% Cello Music Voice [measure 164] %%%
+                        %%% CelloMusicVoice [measure 164] %%%
                         f,1. \repeatTie
                         
-                        %%% Cello Music Voice [measure 165] %%%
+                        %%% CelloMusicVoice [measure 165] %%%
                         f,8. \repeatTie [
                         
                         fqs,16 ]
@@ -3686,13 +3686,13 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fqs,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 166] %%%
+                        %%% CelloMusicVoice [measure 166] %%%
                         fqs,16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fs,2...
                         
-                        %%% Cello Music Voice [measure 167] %%%
+                        %%% CelloMusicVoice [measure 167] %%%
                         fs,2... \repeatTie
                         
                         e,16
@@ -3700,15 +3700,15 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 168] %%%
+                        %%% CelloMusicVoice [measure 168] %%%
                         e,1. \repeatTie
                         
-                        %%% Cello Music Voice [measure 169] %%%
+                        %%% CelloMusicVoice [measure 169] %%%
                         e,2. \repeatTie
                         
                         e,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 170] %%%
+                        %%% CelloMusicVoice [measure 170] %%%
                         e,4.. \repeatTie
                         
                         ef,16
@@ -3716,30 +3716,30 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         ef,4 \repeatTie
                         
-                        %%% Cello Music Voice [measure 171] %%%
+                        %%% CelloMusicVoice [measure 171] %%%
                         ef,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 172] %%%
+                        %%% CelloMusicVoice [measure 172] %%%
                         ef,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 173] %%%
+                        %%% CelloMusicVoice [measure 173] %%%
                         ef,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 174] %%%
+                        %%% CelloMusicVoice [measure 174] %%%
                         ef,2. \repeatTie
                         
                         ef,2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 175] %%%
+                        %%% CelloMusicVoice [measure 175] %%%
                         ef,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 176] %%%
+                        %%% CelloMusicVoice [measure 176] %%%
                         ef,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 177] %%%
+                        %%% CelloMusicVoice [measure 177] %%%
                         ef,1. \repeatTie
                         
-                        %%% Cello Music Voice [measure 178] %%%
+                        %%% CelloMusicVoice [measure 178] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -3762,25 +3762,25 @@
                         \once \override TextSpanner.dash-period = 1.5
                         df,1 \< \mp \startTextSpan
                         
-                        %%% Cello Music Voice [measure 179] %%%
+                        %%% CelloMusicVoice [measure 179] %%%
                         df,1. \repeatTie
                         
-                        %%% Cello Music Voice [measure 180] %%%
+                        %%% CelloMusicVoice [measure 180] %%%
                         df,1. \repeatTie
                         
-                        %%% Cello Music Voice [measure 181] %%%
+                        %%% CelloMusicVoice [measure 181] %%%
                         df,1. \repeatTie
                         
-                        %%% Cello Music Voice [measure 182] %%%
+                        %%% CelloMusicVoice [measure 182] %%%
                         df,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 183] %%%
+                        %%% CelloMusicVoice [measure 183] %%%
                         df,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 184] %%%
+                        %%% CelloMusicVoice [measure 184] %%%
                         df,1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 185] %%%
+                        %%% CelloMusicVoice [measure 185] %%%
                         df,2. \repeatTie
                         
                         df,2 \repeatTie \f \stopTextSpan ^ \markup {
@@ -3789,11 +3789,11 @@
                                     "scratch moltiss."
                             }
                         
-                        %%% Cello Music Voice [measure 186] %%%
+                        %%% CelloMusicVoice [measure 186] %%%
                         R1 * 1/4
                         \times 4/6 {
                             
-                            %%% Cello Music Voice [measure 187] %%%
+                            %%% CelloMusicVoice [measure 187] %%%
                             \clef "treble"
                             r16
                             
@@ -3838,7 +3838,7 @@
                         }
                         \times 4/6 {
                             
-                            %%% Cello Music Voice [measure 188] %%%
+                            %%% CelloMusicVoice [measure 188] %%%
                             r16
                             
                             c'''16 -\staccato [
@@ -3879,7 +3879,7 @@
                         }
                         \times 8/14 {
                             
-                            %%% Cello Music Voice [measure 189] %%%
+                            %%% CelloMusicVoice [measure 189] %%%
                             r16
                             
                             c'''16 -\staccato [
@@ -3926,7 +3926,7 @@
                         }
                         \times 8/14 {
                             
-                            %%% Cello Music Voice [measure 190] %%%
+                            %%% CelloMusicVoice [measure 190] %%%
                             r16
                             
                             cs'''16 -\staccato [
@@ -3981,7 +3981,7 @@
                             
                             ef'''16 -\staccato
                             
-                            %%% Cello Music Voice [measure 191] %%%
+                            %%% CelloMusicVoice [measure 191] %%%
                             f'''16 -\staccato
                             
                             e'''16 -\staccato
@@ -4048,7 +4048,7 @@
                             
                             g'''16 -\staccato
                             
-                            %%% Cello Music Voice [measure 192] %%%
+                            %%% CelloMusicVoice [measure 192] %%%
                             af'''16 -\staccato
                             
                             g'''16 -\staccato
@@ -4100,11 +4100,11 @@
                             a'''16 -\staccato \fff ]
                         }
                         
-                        %%% Cello Music Voice [measure 193] %%%
+                        %%% CelloMusicVoice [measure 193] %%%
                         R1 * 2
                         {
                             
-                            %%% Cello Music Voice [measure 196] %%%
+                            %%% CelloMusicVoice [measure 196] %%%
                             r16
                             
                             af''16 -\staccato \pp [
@@ -4169,7 +4169,7 @@
                             bf''16 -\staccato ]
                         }
                         
-                        %%% Cello Music Voice [measure 197] %%%
+                        %%% CelloMusicVoice [measure 197] %%%
                         R1 * 2
                         \bar "|"
                         

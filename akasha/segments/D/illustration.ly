@@ -605,13 +605,13 @@
                 
             }
         >>
-        \context MusicContext = "Music Context" {
-            \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+        \context MusicContext = "MusicContext" {
+            \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
                 \tag violin_one
-                \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                    \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
+                    \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                         
-                        %%% Violin One Music Voice [measure 62] %%%
+                        %%% ViolinOneMusicVoice [measure 62] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -646,68 +646,68 @@
                                         "5°/A4(II) + vib. mod."
                                 }
                         
-                        %%% Violin One Music Voice [measure 63] %%%
+                        %%% ViolinOneMusicVoice [measure 63] %%%
                         cs''''2 \repeatTie
                         
-                        %%% Violin One Music Voice [measure 64] %%%
+                        %%% ViolinOneMusicVoice [measure 64] %%%
                         cs''''4. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 65] %%%
+                        %%% ViolinOneMusicVoice [measure 65] %%%
                         cs''''2. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 66] %%%
+                        %%% ViolinOneMusicVoice [measure 66] %%%
                         cs''''2.. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 67] %%%
+                        %%% ViolinOneMusicVoice [measure 67] %%%
                         cs''''2.. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 68] %%%
+                        %%% ViolinOneMusicVoice [measure 68] %%%
                         cs''''2 \repeatTie
                         
-                        %%% Violin One Music Voice [measure 69] %%%
+                        %%% ViolinOneMusicVoice [measure 69] %%%
                         cs''''1 \repeatTie
                         \ottava #0
                         
-                        %%% Violin One Music Voice [measure 70] %%%
+                        %%% ViolinOneMusicVoice [measure 70] %%%
                         R1 * 1/4
                         
-                        %%% Violin One Music Voice [measure 71] %%%
+                        %%% ViolinOneMusicVoice [measure 71] %%%
                         \ottava #1
                         cs''''2.
                         
                         cs''''4. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 72] %%%
+                        %%% ViolinOneMusicVoice [measure 72] %%%
                         cs''''2. \repeatTie
                         
                         cs''''4. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 73] %%%
+                        %%% ViolinOneMusicVoice [measure 73] %%%
                         cs''''2.. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 74] %%%
+                        %%% ViolinOneMusicVoice [measure 74] %%%
                         cs''''4. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 75] %%%
+                        %%% ViolinOneMusicVoice [measure 75] %%%
                         cs''''2. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 76] %%%
+                        %%% ViolinOneMusicVoice [measure 76] %%%
                         cs''''2.. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 77] %%%
+                        %%% ViolinOneMusicVoice [measure 77] %%%
                         cs''''2. \repeatTie
                         
                         cs''''4. \repeatTie
                         
-                        %%% Violin One Music Voice [measure 78] %%%
+                        %%% ViolinOneMusicVoice [measure 78] %%%
                         cs''''2 \repeatTie
                         \revert NoteHead.style
                         \ottava #0
                         
-                        %%% Violin One Music Voice [measure 79] %%%
+                        %%% ViolinOneMusicVoice [measure 79] %%%
                         R1 * 1/4
                         
-                        %%% Violin One Music Voice [measure 80] %%%
+                        %%% ViolinOneMusicVoice [measure 80] %%%
                         \override NoteHead.style = #'harmonic
                         a'1 -\downbow \ppp \glissando
                             ^ \markup {
@@ -716,109 +716,109 @@
                                         "XP + senza vib. + full bow strokes"
                                 }
                         
-                        %%% Violin One Music Voice [measure 81] %%%
+                        %%% ViolinOneMusicVoice [measure 81] %%%
                         c''2. -\upbow \glissando
                         
                         a'4. -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 82] %%%
+                        %%% ViolinOneMusicVoice [measure 82] %%%
                         fs'2 -\upbow \glissando
                         
-                        %%% Violin One Music Voice [measure 83] %%%
+                        %%% ViolinOneMusicVoice [measure 83] %%%
                         ef'4. -\downbow
                         
-                        %%% Violin One Music Voice [measure 84] %%%
+                        %%% ViolinOneMusicVoice [measure 84] %%%
                         R1 * 1/4
                         
-                        %%% Violin One Music Voice [measure 85] %%%
+                        %%% ViolinOneMusicVoice [measure 85] %%%
                         fs'2. -\downbow \glissando
                         
                         a'4. -\upbow \glissando
                         
-                        %%% Violin One Music Voice [measure 86] %%%
+                        %%% ViolinOneMusicVoice [measure 86] %%%
                         c''2. -\downbow \glissando
                         
                         fs''4. -\upbow \glissando
                         
-                        %%% Violin One Music Voice [measure 87] %%%
+                        %%% ViolinOneMusicVoice [measure 87] %%%
                         ef''2 -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 88] %%%
+                        %%% ViolinOneMusicVoice [measure 88] %%%
                         c''1 -\upbow \glissando
                         
-                        %%% Violin One Music Voice [measure 89] %%%
+                        %%% ViolinOneMusicVoice [measure 89] %%%
                         a'4. -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 90] %%%
+                        %%% ViolinOneMusicVoice [measure 90] %%%
                         ef''2 -\upbow \glissando
                         
-                        %%% Violin One Music Voice [measure 91] %%%
+                        %%% ViolinOneMusicVoice [measure 91] %%%
                         fs''2.. -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 92] %%%
+                        %%% ViolinOneMusicVoice [measure 92] %%%
                         a''2.. -\upbow
                         
-                        %%% Violin One Music Voice [measure 93] %%%
+                        %%% ViolinOneMusicVoice [measure 93] %%%
                         R1 * 1/4
                         
-                        %%% Violin One Music Voice [measure 94] %%%
+                        %%% ViolinOneMusicVoice [measure 94] %%%
                         a'4. -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 95] %%%
+                        %%% ViolinOneMusicVoice [measure 95] %%%
                         ef''2. -\upbow \glissando
                         
-                        %%% Violin One Music Voice [measure 96] %%%
+                        %%% ViolinOneMusicVoice [measure 96] %%%
                         fs''2 -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 97] %%%
+                        %%% ViolinOneMusicVoice [measure 97] %%%
                         a''4. -\upbow
                         
-                        %%% Violin One Music Voice [measure 98] %%%
+                        %%% ViolinOneMusicVoice [measure 98] %%%
                         R1 * 1/4
                         
-                        %%% Violin One Music Voice [measure 99] %%%
+                        %%% ViolinOneMusicVoice [measure 99] %%%
                         ef'''2. -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 100] %%%
+                        %%% ViolinOneMusicVoice [measure 100] %%%
                         a''2.. -\upbow \glissando
                         
-                        %%% Violin One Music Voice [measure 101] %%%
+                        %%% ViolinOneMusicVoice [measure 101] %%%
                         c'''2.. -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 102] %%%
+                        %%% ViolinOneMusicVoice [measure 102] %%%
                         a'4. -\upbow
                         
-                        %%% Violin One Music Voice [measure 103] %%%
+                        %%% ViolinOneMusicVoice [measure 103] %%%
                         R1 * 1/4
                         
-                        %%% Violin One Music Voice [measure 104] %%%
+                        %%% ViolinOneMusicVoice [measure 104] %%%
                         fs'1 -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 105] %%%
+                        %%% ViolinOneMusicVoice [measure 105] %%%
                         ef'2. -\upbow \glissando
                         
                         a'4. -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 106] %%%
+                        %%% ViolinOneMusicVoice [measure 106] %%%
                         fs'2. -\upbow \glissando
                         
                         a'4. -\downbow \glissando
                         
-                        %%% Violin One Music Voice [measure 107] %%%
+                        %%% ViolinOneMusicVoice [measure 107] %%%
                         c''2 -\upbow
                         \revert NoteHead.style
                         
-                        %%% Violin One Music Voice [measure 108] %%%
+                        %%% ViolinOneMusicVoice [measure 108] %%%
                         R1 * 25/8
                         \bar "|"
                         
                     }
                 }
                 \tag violin_two
-                \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                    \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
+                    \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
-                        %%% Violin Two Music Voice [measure 62] %%%
+                        %%% ViolinTwoMusicVoice [measure 62] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -846,7 +846,7 @@
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         R1 * 11/2
                         
-                        %%% Violin Two Music Voice [measure 71] %%%
+                        %%% ViolinTwoMusicVoice [measure 71] %%%
                         \override NoteHead.style = #'harmonic
                         a'2. -\downbow \ppp \glissando
                             ^ \markup {
@@ -857,99 +857,99 @@
                         
                         c''4. -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 72] %%%
+                        %%% ViolinTwoMusicVoice [measure 72] %%%
                         a'2. -\downbow \glissando
                         
                         fs'4. -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 73] %%%
+                        %%% ViolinTwoMusicVoice [measure 73] %%%
                         ef'2.. -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 74] %%%
+                        %%% ViolinTwoMusicVoice [measure 74] %%%
                         a'4. -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 75] %%%
+                        %%% ViolinTwoMusicVoice [measure 75] %%%
                         fs'2. -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 76] %%%
+                        %%% ViolinTwoMusicVoice [measure 76] %%%
                         a'2.. -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 77] %%%
+                        %%% ViolinTwoMusicVoice [measure 77] %%%
                         c''2. -\downbow \glissando
                         
                         fs''4. -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 78] %%%
+                        %%% ViolinTwoMusicVoice [measure 78] %%%
                         ef''2 -\downbow
                         
-                        %%% Violin Two Music Voice [measure 79] %%%
+                        %%% ViolinTwoMusicVoice [measure 79] %%%
                         R1 * 1/4
                         
-                        %%% Violin Two Music Voice [measure 80] %%%
+                        %%% ViolinTwoMusicVoice [measure 80] %%%
                         fs'1 -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 81] %%%
+                        %%% ViolinTwoMusicVoice [measure 81] %%%
                         a'2. -\upbow \glissando
                         
                         c''4. -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 82] %%%
+                        %%% ViolinTwoMusicVoice [measure 82] %%%
                         fs''2 -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 83] %%%
+                        %%% ViolinTwoMusicVoice [measure 83] %%%
                         ef''4. -\downbow
                         
-                        %%% Violin Two Music Voice [measure 84] %%%
+                        %%% ViolinTwoMusicVoice [measure 84] %%%
                         R1 * 1/4
                         
-                        %%% Violin Two Music Voice [measure 85] %%%
+                        %%% ViolinTwoMusicVoice [measure 85] %%%
                         a'2. -\downbow \glissando
                         
                         ef''4. -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 86] %%%
+                        %%% ViolinTwoMusicVoice [measure 86] %%%
                         fs''2. -\downbow \glissando
                         
                         a''4. -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 87] %%%
+                        %%% ViolinTwoMusicVoice [measure 87] %%%
                         fs''2 -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 88] %%%
+                        %%% ViolinTwoMusicVoice [measure 88] %%%
                         c'''1 -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 89] %%%
+                        %%% ViolinTwoMusicVoice [measure 89] %%%
                         ef'''4. -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 90] %%%
+                        %%% ViolinTwoMusicVoice [measure 90] %%%
                         a''2 -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 91] %%%
+                        %%% ViolinTwoMusicVoice [measure 91] %%%
                         c'''2.. -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 92] %%%
+                        %%% ViolinTwoMusicVoice [measure 92] %%%
                         a'2.. -\upbow
                         
-                        %%% Violin Two Music Voice [measure 93] %%%
+                        %%% ViolinTwoMusicVoice [measure 93] %%%
                         R1 * 1/4
                         
-                        %%% Violin Two Music Voice [measure 94] %%%
+                        %%% ViolinTwoMusicVoice [measure 94] %%%
                         ef'''4. -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 95] %%%
+                        %%% ViolinTwoMusicVoice [measure 95] %%%
                         a''2. -\upbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 96] %%%
+                        %%% ViolinTwoMusicVoice [measure 96] %%%
                         c'''2 -\downbow \glissando
                         
-                        %%% Violin Two Music Voice [measure 97] %%%
+                        %%% ViolinTwoMusicVoice [measure 97] %%%
                         a'4. -\upbow
                         \revert NoteHead.style
                         
-                        %%% Violin Two Music Voice [measure 98] %%%
+                        %%% ViolinTwoMusicVoice [measure 98] %%%
                         R1 * 1/4
                         
-                        %%% Violin Two Music Voice [measure 99] %%%
+                        %%% ViolinTwoMusicVoice [measure 99] %%%
                         \pitchedTrill
                         g''2. \p \startTrillSpan
                             ^ \markup {
@@ -958,32 +958,32 @@
                                         tasto
                                 } a''
                         
-                        %%% Violin Two Music Voice [measure 100] %%%
+                        %%% ViolinTwoMusicVoice [measure 100] %%%
                         g''2.. \repeatTie
                         
-                        %%% Violin Two Music Voice [measure 101] %%%
+                        %%% ViolinTwoMusicVoice [measure 101] %%%
                         R1 * 3/2 \stopTrillSpan
                         
-                        %%% Violin Two Music Voice [measure 104] %%%
+                        %%% ViolinTwoMusicVoice [measure 104] %%%
                         \pitchedTrill
                         g''1 \startTrillSpan a''
                         
-                        %%% Violin Two Music Voice [measure 105] %%%
+                        %%% ViolinTwoMusicVoice [measure 105] %%%
                         g''2. \repeatTie
                         
                         g''4. \repeatTie
                         
-                        %%% Violin Two Music Voice [measure 106] %%%
+                        %%% ViolinTwoMusicVoice [measure 106] %%%
                         R1 * 19/4 \stopTrillSpan
                         \bar "|"
                         
                     }
                 }
                 \tag viola
-                \context ViolaMusicStaff = "Viola Music Staff" {
-                    \context ViolaMusicVoice = "Viola Music Voice" {
+                \context ViolaMusicStaff = "ViolaMusicStaff" {
+                    \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
-                        %%% Viola Music Voice [measure 62] %%%
+                        %%% ViolaMusicVoice [measure 62] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1008,113 +1008,113 @@
                                         "7°/A2(IV) + vib. mod."
                                 }
                         
-                        %%% Viola Music Voice [measure 63] %%%
+                        %%% ViolaMusicVoice [measure 63] %%%
                         gqf''2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 64] %%%
+                        %%% ViolaMusicVoice [measure 64] %%%
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 65] %%%
+                        %%% ViolaMusicVoice [measure 65] %%%
                         gqf''2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 66] %%%
+                        %%% ViolaMusicVoice [measure 66] %%%
                         gqf''2.. \repeatTie
                         
-                        %%% Viola Music Voice [measure 67] %%%
+                        %%% ViolaMusicVoice [measure 67] %%%
                         gqf''2.. \repeatTie
                         
-                        %%% Viola Music Voice [measure 68] %%%
+                        %%% ViolaMusicVoice [measure 68] %%%
                         gqf''2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 69] %%%
+                        %%% ViolaMusicVoice [measure 69] %%%
                         gqf''1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 70] %%%
+                        %%% ViolaMusicVoice [measure 70] %%%
                         R1 * 1/4
                         
-                        %%% Viola Music Voice [measure 71] %%%
+                        %%% ViolaMusicVoice [measure 71] %%%
                         gqf''2.
                         
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 72] %%%
+                        %%% ViolaMusicVoice [measure 72] %%%
                         gqf''2. \repeatTie
                         
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 73] %%%
+                        %%% ViolaMusicVoice [measure 73] %%%
                         gqf''2.. \repeatTie
                         
-                        %%% Viola Music Voice [measure 74] %%%
+                        %%% ViolaMusicVoice [measure 74] %%%
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 75] %%%
+                        %%% ViolaMusicVoice [measure 75] %%%
                         gqf''2. \repeatTie
                         
-                        %%% Viola Music Voice [measure 76] %%%
+                        %%% ViolaMusicVoice [measure 76] %%%
                         gqf''2.. \repeatTie
                         
-                        %%% Viola Music Voice [measure 77] %%%
+                        %%% ViolaMusicVoice [measure 77] %%%
                         gqf''2. \repeatTie
                         
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 78] %%%
+                        %%% ViolaMusicVoice [measure 78] %%%
                         gqf''2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 79] %%%
+                        %%% ViolaMusicVoice [measure 79] %%%
                         R1 * 1/4
                         
-                        %%% Viola Music Voice [measure 80] %%%
+                        %%% ViolaMusicVoice [measure 80] %%%
                         gqf''1
                         
-                        %%% Viola Music Voice [measure 81] %%%
+                        %%% ViolaMusicVoice [measure 81] %%%
                         gqf''2. \repeatTie
                         
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 82] %%%
+                        %%% ViolaMusicVoice [measure 82] %%%
                         gqf''2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 83] %%%
+                        %%% ViolaMusicVoice [measure 83] %%%
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 84] %%%
+                        %%% ViolaMusicVoice [measure 84] %%%
                         R1 * 1/4
                         
-                        %%% Viola Music Voice [measure 85] %%%
+                        %%% ViolaMusicVoice [measure 85] %%%
                         gqf''2.
                         
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 86] %%%
+                        %%% ViolaMusicVoice [measure 86] %%%
                         gqf''2. \repeatTie
                         
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 87] %%%
+                        %%% ViolaMusicVoice [measure 87] %%%
                         gqf''2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 88] %%%
+                        %%% ViolaMusicVoice [measure 88] %%%
                         gqf''1 \repeatTie
                         
-                        %%% Viola Music Voice [measure 89] %%%
+                        %%% ViolaMusicVoice [measure 89] %%%
                         gqf''4. \repeatTie
                         
-                        %%% Viola Music Voice [measure 90] %%%
+                        %%% ViolaMusicVoice [measure 90] %%%
                         gqf''2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 91] %%%
+                        %%% ViolaMusicVoice [measure 91] %%%
                         gqf''2.. \repeatTie
                         
-                        %%% Viola Music Voice [measure 92] %%%
+                        %%% ViolaMusicVoice [measure 92] %%%
                         gqf''2.. \repeatTie
                         \revert NoteHead.style
                         
-                        %%% Viola Music Voice [measure 93] %%%
+                        %%% ViolaMusicVoice [measure 93] %%%
                         R1 * 1/4
                         
-                        %%% Viola Music Voice [measure 94] %%%
+                        %%% ViolaMusicVoice [measure 94] %%%
                         \clef "alto"
                         ff4. \glissando \> \sf
                             ^ \markup {
@@ -1123,23 +1123,23 @@
                                         "tasto + senza vib."
                                 }
                         
-                        %%% Viola Music Voice [measure 95] %%%
+                        %%% ViolaMusicVoice [measure 95] %%%
                         e2. \glissando
                         
-                        %%% Viola Music Voice [measure 96] %%%
+                        %%% ViolaMusicVoice [measure 96] %%%
                         ds2 \glissando
                         \times 2/3 {
                             
-                            %%% Viola Music Voice [measure 97] %%%
+                            %%% ViolaMusicVoice [measure 97] %%%
                             cs2 \glissando
                             
                             bs,16 \ppp
                         }
                         
-                        %%% Viola Music Voice [measure 98] %%%
+                        %%% ViolaMusicVoice [measure 98] %%%
                         R1 * 1/4
                         
-                        %%% Viola Music Voice [measure 99] %%%
+                        %%% ViolaMusicVoice [measure 99] %%%
                         \override NoteHead.style = #'harmonic
                         af2. -\downbow \ppp \glissando
                             ^ \markup {
@@ -1148,46 +1148,46 @@
                                         "XP + full bow strokes"
                                 }
                         
-                        %%% Viola Music Voice [measure 100] %%%
+                        %%% ViolaMusicVoice [measure 100] %%%
                         b2.. -\upbow \glissando
                         
-                        %%% Viola Music Voice [measure 101] %%%
+                        %%% ViolaMusicVoice [measure 101] %%%
                         af2.. -\downbow \glissando
                         
-                        %%% Viola Music Voice [measure 102] %%%
+                        %%% ViolaMusicVoice [measure 102] %%%
                         f4. -\upbow
                         
-                        %%% Viola Music Voice [measure 103] %%%
+                        %%% ViolaMusicVoice [measure 103] %%%
                         R1 * 1/4
                         
-                        %%% Viola Music Voice [measure 104] %%%
+                        %%% ViolaMusicVoice [measure 104] %%%
                         f1 -\downbow \glissando
                         
-                        %%% Viola Music Voice [measure 105] %%%
+                        %%% ViolaMusicVoice [measure 105] %%%
                         af2. -\upbow \glissando
                         
                         b4. -\downbow \glissando
                         
-                        %%% Viola Music Voice [measure 106] %%%
+                        %%% ViolaMusicVoice [measure 106] %%%
                         f'2. -\upbow \glissando
                         
                         d'4. -\downbow \glissando
                         
-                        %%% Viola Music Voice [measure 107] %%%
+                        %%% ViolaMusicVoice [measure 107] %%%
                         b2 -\upbow
                         \revert NoteHead.style
                         
-                        %%% Viola Music Voice [measure 108] %%%
+                        %%% ViolaMusicVoice [measure 108] %%%
                         R1 * 25/8
                         \bar "|"
                         
                     }
                 }
                 \tag cello
-                \context CelloMusicStaff = "Cello Music Staff" {
-                    \context CelloMusicVoice = "Cello Music Voice" {
+                \context CelloMusicStaff = "CelloMusicStaff" {
+                    \context CelloMusicVoice = "CelloMusicVoice" {
                         
-                        %%% Cello Music Voice [measure 62] %%%
+                        %%% CelloMusicVoice [measure 62] %%%
                         \override NoteHead.style = #'harmonic
                         \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
@@ -1208,82 +1208,82 @@
                                         "11°/A1(IV) + vib. mod."
                                 }
                         
-                        %%% Cello Music Voice [measure 63] %%%
+                        %%% CelloMusicVoice [measure 63] %%%
                         d''2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 64] %%%
+                        %%% CelloMusicVoice [measure 64] %%%
                         d''4. \repeatTie
                         
-                        %%% Cello Music Voice [measure 65] %%%
+                        %%% CelloMusicVoice [measure 65] %%%
                         d''2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 66] %%%
+                        %%% CelloMusicVoice [measure 66] %%%
                         d''2.. \repeatTie
                         
-                        %%% Cello Music Voice [measure 67] %%%
+                        %%% CelloMusicVoice [measure 67] %%%
                         d''2.. \repeatTie
                         
-                        %%% Cello Music Voice [measure 68] %%%
+                        %%% CelloMusicVoice [measure 68] %%%
                         d''2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 69] %%%
+                        %%% CelloMusicVoice [measure 69] %%%
                         d''1 \repeatTie
                         
-                        %%% Cello Music Voice [measure 70] %%%
+                        %%% CelloMusicVoice [measure 70] %%%
                         R1 * 1/4
                         
-                        %%% Cello Music Voice [measure 71] %%%
+                        %%% CelloMusicVoice [measure 71] %%%
                         d''2.
                         
                         d''4. \repeatTie
                         
-                        %%% Cello Music Voice [measure 72] %%%
+                        %%% CelloMusicVoice [measure 72] %%%
                         d''2. \repeatTie
                         
                         d''4. \repeatTie
                         
-                        %%% Cello Music Voice [measure 73] %%%
+                        %%% CelloMusicVoice [measure 73] %%%
                         d''2.. \repeatTie
                         
-                        %%% Cello Music Voice [measure 74] %%%
+                        %%% CelloMusicVoice [measure 74] %%%
                         d''4. \repeatTie
                         
-                        %%% Cello Music Voice [measure 75] %%%
+                        %%% CelloMusicVoice [measure 75] %%%
                         d''2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 76] %%%
+                        %%% CelloMusicVoice [measure 76] %%%
                         d''2.. \repeatTie
                         
-                        %%% Cello Music Voice [measure 77] %%%
+                        %%% CelloMusicVoice [measure 77] %%%
                         d''2. \repeatTie
                         
                         d''4. \repeatTie
                         
-                        %%% Cello Music Voice [measure 78] %%%
+                        %%% CelloMusicVoice [measure 78] %%%
                         d''2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 79] %%%
+                        %%% CelloMusicVoice [measure 79] %%%
                         R1 * 1/4
                         
-                        %%% Cello Music Voice [measure 80] %%%
+                        %%% CelloMusicVoice [measure 80] %%%
                         d''1
                         
-                        %%% Cello Music Voice [measure 81] %%%
+                        %%% CelloMusicVoice [measure 81] %%%
                         d''2. \repeatTie
                         
                         d''4. \repeatTie
                         
-                        %%% Cello Music Voice [measure 82] %%%
+                        %%% CelloMusicVoice [measure 82] %%%
                         d''2 \repeatTie
                         
-                        %%% Cello Music Voice [measure 83] %%%
+                        %%% CelloMusicVoice [measure 83] %%%
                         d''4. \repeatTie
                         \revert NoteHead.style
                         
-                        %%% Cello Music Voice [measure 84] %%%
+                        %%% CelloMusicVoice [measure 84] %%%
                         R1 * 1/4
                         
-                        %%% Cello Music Voice [measure 85] %%%
+                        %%% CelloMusicVoice [measure 85] %%%
                         \override NoteHead.style = #'harmonic
                         \clef "bass"
                         g,2. -\downbow \ppp \glissando
@@ -1295,34 +1295,34 @@
                         
                         bf,4. -\upbow \glissando
                         
-                        %%% Cello Music Voice [measure 86] %%%
+                        %%% CelloMusicVoice [measure 86] %%%
                         g,2. -\downbow \glissando
                         
                         e,4. -\upbow \glissando
                         
-                        %%% Cello Music Voice [measure 87] %%%
+                        %%% CelloMusicVoice [measure 87] %%%
                         cs,2 -\downbow \glissando
                         
-                        %%% Cello Music Voice [measure 88] %%%
+                        %%% CelloMusicVoice [measure 88] %%%
                         g,1 -\upbow \glissando
                         
-                        %%% Cello Music Voice [measure 89] %%%
+                        %%% CelloMusicVoice [measure 89] %%%
                         e,4. -\downbow \glissando
                         
-                        %%% Cello Music Voice [measure 90] %%%
+                        %%% CelloMusicVoice [measure 90] %%%
                         g,2 -\upbow \glissando
                         
-                        %%% Cello Music Voice [measure 91] %%%
+                        %%% CelloMusicVoice [measure 91] %%%
                         bf,2.. -\downbow \glissando
                         
-                        %%% Cello Music Voice [measure 92] %%%
+                        %%% CelloMusicVoice [measure 92] %%%
                         e2.. -\upbow
                         \revert NoteHead.style
                         
-                        %%% Cello Music Voice [measure 93] %%%
+                        %%% CelloMusicVoice [measure 93] %%%
                         R1 * 1/4
                         
-                        %%% Cello Music Voice [measure 94] %%%
+                        %%% CelloMusicVoice [measure 94] %%%
                         cs,4. \> \sf
                             ^ \markup {
                                 \whiteout
@@ -1330,19 +1330,19 @@
                                         tasto
                                 }
                         
-                        %%% Cello Music Voice [measure 95] %%%
+                        %%% CelloMusicVoice [measure 95] %%%
                         cs,2. \repeatTie
                         
-                        %%% Cello Music Voice [measure 96] %%%
+                        %%% CelloMusicVoice [measure 96] %%%
                         cs,2 \repeatTie \ppp
                         
-                        %%% Cello Music Voice [measure 97] %%%
+                        %%% CelloMusicVoice [measure 97] %%%
                         cs,4. \repeatTie
                         
-                        %%% Cello Music Voice [measure 98] %%%
+                        %%% CelloMusicVoice [measure 98] %%%
                         R1 * 1/4
                         
-                        %%% Cello Music Voice [measure 99] %%%
+                        %%% CelloMusicVoice [measure 99] %%%
                         \override NoteHead.style = #'harmonic
                         e,2. -\downbow \ppp \glissando
                             ^ \markup {
@@ -1351,20 +1351,20 @@
                                         "XP + full bow strokes"
                                 }
                         
-                        %%% Cello Music Voice [measure 100] %%%
+                        %%% CelloMusicVoice [measure 100] %%%
                         g,2.. -\upbow \glissando
                         
-                        %%% Cello Music Voice [measure 101] %%%
+                        %%% CelloMusicVoice [measure 101] %%%
                         bf,2.. -\downbow \glissando
                         
-                        %%% Cello Music Voice [measure 102] %%%
+                        %%% CelloMusicVoice [measure 102] %%%
                         e4. -\upbow
                         \revert NoteHead.style
                         
-                        %%% Cello Music Voice [measure 103] %%%
+                        %%% CelloMusicVoice [measure 103] %%%
                         R1 * 1/4
                         
-                        %%% Cello Music Voice [measure 104] %%%
+                        %%% CelloMusicVoice [measure 104] %%%
                         df1 \glissando \> \sf
                             ^ \markup {
                                 \whiteout
@@ -1372,36 +1372,36 @@
                                         tasto
                                 }
                         
-                        %%% Cello Music Voice [measure 105] %%%
+                        %%% CelloMusicVoice [measure 105] %%%
                         c2. \glissando
                         
                         bf,4. \glissando
                         
-                        %%% Cello Music Voice [measure 106] %%%
+                        %%% CelloMusicVoice [measure 106] %%%
                         af,2. \glissando
                         
                         g,4. \glissando
                         
-                        %%% Cello Music Voice [measure 107] %%%
+                        %%% CelloMusicVoice [measure 107] %%%
                         f,2 \glissando
                         
-                        %%% Cello Music Voice [measure 108] %%%
+                        %%% CelloMusicVoice [measure 108] %%%
                         ef,4. \glissando
                         
-                        %%% Cello Music Voice [measure 109] %%%
+                        %%% CelloMusicVoice [measure 109] %%%
                         d,2. \glissando
                         
-                        %%% Cello Music Voice [measure 110] %%%
+                        %%% CelloMusicVoice [measure 110] %%%
                         c,2.. \glissando
                         \times 8/9 {
                             
-                            %%% Cello Music Voice [measure 111] %%%
+                            %%% CelloMusicVoice [measure 111] %%%
                             bf,,2.. \glissando
                             
                             a,,16.. \ppp
                         }
                         
-                        %%% Cello Music Voice [measure 112] %%%
+                        %%% CelloMusicVoice [measure 112] %%%
                         R1 * 1/4
                         \bar "|"
                         

@@ -669,11 +669,11 @@
             }
         }
     >>
-    \context MusicContext = "Music Context" {
-        \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+    \context MusicContext = "MusicContext" {
+        \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
             \tag violin_one
-            \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                \context ViolinOneMusicVoice = "Violin One Music Voice" {
+            \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
+                \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                     s1 * 7/4
                     \times 4/7 {
                         r16
@@ -1375,8 +1375,8 @@
                 }
             }
             \tag violin_two
-            \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+            \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
+                \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                     s1 * 7/4
                     \times 4/6 {
                         r16
@@ -2045,8 +2045,8 @@
                 }
             }
             \tag viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     s1 * 4
                     fs2. \ff
                         ^ \markup {
@@ -2411,8 +2411,8 @@
                 }
             }
             \tag cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     \clef "treble"
                     f4.. \mp
                         ^ \markup {

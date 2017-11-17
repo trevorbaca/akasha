@@ -155,11 +155,11 @@
                 
             }
         >>
-        \context MusicContext = "Music Context" {
-            \context StringQuartetStaffGroup = "String Quartet Staff Group" <<
+        \context MusicContext = "MusicContext" {
+            \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
                 \tag violin_one
-                \context ViolinOneMusicStaff = "Violin One Music Staff" {
-                    \context ViolinOneMusicVoice = "Violin One Music Voice" {
+                \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
+                    \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -193,7 +193,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin One Music Voice [measure 24] %%%
+                            %%% ViolinOneMusicVoice [measure 24] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             \set ViolinOneMusicStaff.instrumentName = \markup {
@@ -228,25 +228,25 @@
                         }
                         \revert TupletNumber.text
                         
-                        %%% Violin One Music Voice [measure 25] %%%
+                        %%% ViolinOneMusicVoice [measure 25] %%%
                         r1
                         
                         r8
                         
-                        %%% Violin One Music Voice [measure 26] %%%
+                        %%% ViolinOneMusicVoice [measure 26] %%%
                         r2
                         
-                        %%% Violin One Music Voice [measure 27] %%%
+                        %%% ViolinOneMusicVoice [measure 27] %%%
                         R1 * 35/8
                         \bar "|"
                         
                     }
                 }
                 \tag violin_two
-                \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
-                    \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
+                \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
+                    \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
-                        %%% Violin Two Music Voice [measure 24] %%%
+                        %%% ViolinTwoMusicVoice [measure 24] %%%
                         \set ViolinTwoMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -277,7 +277,7 @@
                         
                         e'2..
                         
-                        %%% Violin Two Music Voice [measure 25] %%%
+                        %%% ViolinTwoMusicVoice [measure 25] %%%
                         f'4
                         
                         fqf'8
@@ -286,10 +286,10 @@
                         
                         e'2
                         
-                        %%% Violin Two Music Voice [measure 26] %%%
+                        %%% ViolinTwoMusicVoice [measure 26] %%%
                         e'2 \repeatTie
                         
-                        %%% Violin Two Music Voice [measure 27] %%%
+                        %%% ViolinTwoMusicVoice [measure 27] %%%
                         R1 * 21/8
                         \override TupletNumber.text = \markup {
                             \scale
@@ -323,7 +323,7 @@
                             }
                         \times 1/1 {
                             
-                            %%% Violin Two Music Voice [measure 33] %%%
+                            %%% ViolinTwoMusicVoice [measure 33] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             c''16 * 487/64 \pp [
@@ -352,10 +352,10 @@
                     }
                 }
                 \tag viola
-                \context ViolaMusicStaff = "Viola Music Staff" {
-                    \context ViolaMusicVoice = "Viola Music Voice" {
+                \context ViolaMusicStaff = "ViolaMusicStaff" {
+                    \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
-                        %%% Viola Music Voice [measure 24] %%%
+                        %%% ViolaMusicVoice [measure 24] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -379,7 +379,7 @@
                         
                         df'2
                         
-                        %%% Viola Music Voice [measure 25] %%%
+                        %%% ViolaMusicVoice [measure 25] %%%
                         df'4. \repeatTie
                         
                         df'4 \repeatTie
@@ -390,13 +390,13 @@
                         
                         c'4
                         
-                        %%% Viola Music Voice [measure 26] %%%
+                        %%% ViolaMusicVoice [measure 26] %%%
                         c'2 \repeatTie
                         
-                        %%% Viola Music Voice [measure 27] %%%
+                        %%% ViolaMusicVoice [measure 27] %%%
                         R1 * 7/2
                         
-                        %%% Viola Music Voice [measure 34] %%%
+                        %%% ViolaMusicVoice [measure 34] %%%
                         ds2.. \mp
                             ^ \markup {
                                 \whiteout
@@ -408,10 +408,10 @@
                     }
                 }
                 \tag cello
-                \context CelloMusicStaff = "Cello Music Staff" {
-                    \context CelloMusicVoice = "Cello Music Voice" {
+                \context CelloMusicStaff = "CelloMusicStaff" {
+                    \context CelloMusicVoice = "CelloMusicVoice" {
                         
-                        %%% Cello Music Voice [measure 24] %%%
+                        %%% CelloMusicVoice [measure 24] %%%
                         \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -429,7 +429,7 @@
                         r4.
                         \times 8/9 {
                             
-                            %%% Cello Music Voice [measure 25] %%%
+                            %%% CelloMusicVoice [measure 25] %%%
                             r16.
                             
                             bf32 -\staccato [
@@ -446,7 +446,7 @@
                         r2..
                         {
                             
-                            %%% Cello Music Voice [measure 26] %%%
+                            %%% CelloMusicVoice [measure 26] %%%
                             r8.
                             
                             c'32 -\staccato [
@@ -471,7 +471,7 @@
                         }
                         \times 8/9 {
                             
-                            %%% Cello Music Voice [measure 27] %%%
+                            %%% CelloMusicVoice [measure 27] %%%
                             r8
                             
                             bf32 -\staccato [
@@ -529,11 +529,11 @@
                             r8
                         }
                         
-                        %%% Cello Music Voice [measure 28] %%%
+                        %%% CelloMusicVoice [measure 28] %%%
                         R1 * 1/4
                         \times 8/9 {
                             
-                            %%% Cello Music Voice [measure 29] %%%
+                            %%% CelloMusicVoice [measure 29] %%%
                             fs32 -\staccato [
                             
                             g32 -\staccato
@@ -559,11 +559,11 @@
                             r32
                         }
                         
-                        %%% Cello Music Voice [measure 30] %%%
+                        %%% CelloMusicVoice [measure 30] %%%
                         R1 * 1/4
                         \times 8/9 {
                             
-                            %%% Cello Music Voice [measure 31] %%%
+                            %%% CelloMusicVoice [measure 31] %%%
                             d32 -\staccato
                             
                             r8
@@ -583,10 +583,10 @@
                             fs32 -\staccato
                         }
                         
-                        %%% Cello Music Voice [measure 32] %%%
+                        %%% CelloMusicVoice [measure 32] %%%
                         R1 * 9/8
                         
-                        %%% Cello Music Voice [measure 34] %%%
+                        %%% CelloMusicVoice [measure 34] %%%
                         cs,2.. \mp
                             ^ \markup {
                                 \whiteout
