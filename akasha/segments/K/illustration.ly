@@ -13,63 +13,92 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
-                % measure 265
+                
+                %%% Global Rests [measure 265] %%%
                 R1 * 1/2
-                % measure 266
+                
+                %%% Global Rests [measure 266] %%%
                 R1 * 1
-                % measure 267
+                
+                %%% Global Rests [measure 267] %%%
                 R1 * 9/8
-                % measure 268
+                
+                %%% Global Rests [measure 268] %%%
                 R1 * 9/8
-                % measure 269
+                
+                %%% Global Rests [measure 269] %%%
                 R1 * 3/8
-                % measure 270
+                
+                %%% Global Rests [measure 270] %%%
                 R1 * 1/2
-                % measure 271
+                
+                %%% Global Rests [measure 271] %%%
                 R1 * 3/8
-                % measure 272
+                
+                %%% Global Rests [measure 272] %%%
                 R1 * 3/4
-                % measure 273
+                
+                %%% Global Rests [measure 273] %%%
                 R1 * 7/8
-                % measure 274
+                
+                %%% Global Rests [measure 274] %%%
                 R1 * 7/8
-                % measure 275
+                
+                %%% Global Rests [measure 275] %%%
                 R1 * 1/2
-                % measure 276
+                
+                %%% Global Rests [measure 276] %%%
                 R1 * 3/8
-                % measure 277
+                
+                %%% Global Rests [measure 277] %%%
                 R1 * 7/8
-                % measure 278
+                
+                %%% Global Rests [measure 278] %%%
                 R1 * 3/8
-                % measure 279
+                
+                %%% Global Rests [measure 279] %%%
                 R1 * 3/4
-                % measure 280
+                
+                %%% Global Rests [measure 280] %%%
                 R1 * 7/8
-                % measure 281
+                
+                %%% Global Rests [measure 281] %%%
                 R1 * 9/8
-                % measure 282
+                
+                %%% Global Rests [measure 282] %%%
                 R1 * 1/2
-                % measure 283
+                
+                %%% Global Rests [measure 283] %%%
                 R1 * 1
-                % measure 284
+                
+                %%% Global Rests [measure 284] %%%
                 R1 * 9/8
-                % measure 285
+                
+                %%% Global Rests [measure 285] %%%
                 R1 * 7/8
-                % measure 286
+                
+                %%% Global Rests [measure 286] %%%
                 R1 * 7/8
-                % measure 287
+                
+                %%% Global Rests [measure 287] %%%
                 R1 * 3/8
-                % measure 288
+                
+                %%% Global Rests [measure 288] %%%
                 R1 * 3/4
-                % measure 289
+                
+                %%% Global Rests [measure 289] %%%
                 R1 * 9/8
-                % measure 290
+                
+                %%% Global Rests [measure 290] %%%
                 R1 * 9/8
-                % measure 291
+                
+                %%% Global Rests [measure 291] %%%
                 R1 * 1/2
-                % measure 292
+                
+                %%% Global Rests [measure 292] %%%
                 R1 * 1
-                % measure 293
+                
+                %%% Global Rests [measure 293] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -78,27 +107,38 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 294
+                
+                %%% Global Rests [measure 294] %%%
                 R1 * 3/8
-                % measure 295
+                
+                %%% Global Rests [measure 295] %%%
                 R1 * 1/2
-                % measure 296
+                
+                %%% Global Rests [measure 296] %%%
                 R1 * 1
-                % measure 297
+                
+                %%% Global Rests [measure 297] %%%
                 R1 * 9/8
-                % measure 298
+                
+                %%% Global Rests [measure 298] %%%
                 R1 * 9/8
-                % measure 299
+                
+                %%% Global Rests [measure 299] %%%
                 R1 * 1/2
-                % measure 300
+                
+                %%% Global Rests [measure 300] %%%
                 R1 * 1/2
-                % measure 301
+                
+                %%% Global Rests [measure 301] %%%
                 R1 * 3/8
-                % measure 302
+                
+                %%% Global Rests [measure 302] %%%
                 R1 * 3/4
-                % measure 303
+                
+                %%% Global Rests [measure 303] %%%
                 R1 * 7/8
-                % measure 304
+                
+                %%% Global Rests [measure 304] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -107,17 +147,23 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 305
+                
+                %%% Global Rests [measure 305] %%%
                 R1 * 7/8
-                % measure 306
+                
+                %%% Global Rests [measure 306] %%%
                 R1 * 3/8
-                % measure 307
+                
+                %%% Global Rests [measure 307] %%%
                 R1 * 3/8
-                % measure 308
+                
+                %%% Global Rests [measure 308] %%%
                 R1 * 1/2
-                % measure 309
+                
+                %%% Global Rests [measure 309] %%%
                 R1 * 3/8
-                % measure 310
+                
+                %%% Global Rests [measure 310] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -126,23 +172,32 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 311
+                
+                %%% Global Rests [measure 311] %%%
                 R1 * 3/4
-                % measure 312
+                
+                %%% Global Rests [measure 312] %%%
                 R1 * 7/8
-                % measure 313
+                
+                %%% Global Rests [measure 313] %%%
                 R1 * 7/8
-                % measure 314
+                
+                %%% Global Rests [measure 314] %%%
                 R1 * 1/2
-                % measure 315
+                
+                %%% Global Rests [measure 315] %%%
                 R1 * 1
-                % measure 316
+                
+                %%% Global Rests [measure 316] %%%
                 R1 * 9/8
-                % measure 317
+                
+                %%% Global Rests [measure 317] %%%
                 R1 * 9/8
-                % measure 318
+                
+                %%% Global Rests [measure 318] %%%
                 R1 * 7/8
-                % measure 319
+                
+                %%% Global Rests [measure 319] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -151,33 +206,47 @@
                         \musicglyph
                             #"scripts.ushortfermata"
                         }
-                % measure 320
+                
+                %%% Global Rests [measure 320] %%%
                 R1 * 3/8
-                % measure 321
+                
+                %%% Global Rests [measure 321] %%%
                 R1 * 3/4
-                % measure 322
+                
+                %%% Global Rests [measure 322] %%%
                 R1 * 7/8
-                % measure 323
+                
+                %%% Global Rests [measure 323] %%%
                 R1 * 9/8
-                % measure 324
+                
+                %%% Global Rests [measure 324] %%%
                 R1 * 1/2
-                % measure 325
+                
+                %%% Global Rests [measure 325] %%%
                 R1 * 1
-                % measure 326
+                
+                %%% Global Rests [measure 326] %%%
                 R1 * 9/8
-                % measure 327
+                
+                %%% Global Rests [measure 327] %%%
                 R1 * 1/2
-                % measure 328
+                
+                %%% Global Rests [measure 328] %%%
                 R1 * 3/8
-                % measure 329
+                
+                %%% Global Rests [measure 329] %%%
                 R1 * 9/8
-                % measure 330
+                
+                %%% Global Rests [measure 330] %%%
                 R1 * 9/8
-                % measure 331
+                
+                %%% Global Rests [measure 331] %%%
                 R1 * 1/2
-                % measure 332
+                
+                %%% Global Rests [measure 332] %%%
                 R1 * 1
-                % measure 333
+                
+                %%% Global Rests [measure 333] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -186,9 +255,11 @@
                         \musicglyph
                             #"scripts.uverylongfermata"
                         }
+                
             }
             \context GlobalSkips = "Global Skips" {
-                % measure 265
+                
+                %%% Global Skips [measure 265] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \mark #11
@@ -209,149 +280,178 @@
                             44
                         }
                     }
-                % measure 266
+                
+                %%% Global Skips [measure 266] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 267
+                
+                %%% Global Skips [measure 267] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 268
+                
+                %%% Global Skips [measure 268] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 269
+                
+                %%% Global Skips [measure 269] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 270
+                
+                %%% Global Skips [measure 270] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 271
+                
+                %%% Global Skips [measure 271] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 272
+                
+                %%% Global Skips [measure 272] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/8
                 \newSpacingSection
                 s1 * 3/4
-                % measure 273
+                
+                %%% Global Skips [measure 273] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 274
+                
+                %%% Global Skips [measure 274] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 275
+                
+                %%% Global Skips [measure 275] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 276
+                
+                %%% Global Skips [measure 276] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 277
+                
+                %%% Global Skips [measure 277] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 278
+                
+                %%% Global Skips [measure 278] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 279
+                
+                %%% Global Skips [measure 279] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/8
                 \newSpacingSection
                 s1 * 3/4
-                % measure 280
+                
+                %%% Global Skips [measure 280] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 281
+                
+                %%% Global Skips [measure 281] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 282
+                
+                %%% Global Skips [measure 282] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 283
+                
+                %%% Global Skips [measure 283] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 284
+                
+                %%% Global Skips [measure 284] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 285
+                
+                %%% Global Skips [measure 285] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 286
+                
+                %%% Global Skips [measure 286] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 287
+                
+                %%% Global Skips [measure 287] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 288
+                
+                %%% Global Skips [measure 288] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/8
                 \newSpacingSection
                 s1 * 3/4
-                % measure 289
+                
+                %%% Global Skips [measure 289] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 290
+                
+                %%% Global Skips [measure 290] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 291
+                
+                %%% Global Skips [measure 291] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 292
+                
+                %%% Global Skips [measure 292] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 293
+                
+                %%% Global Skips [measure 293] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
                 \repeat volta 2
                 {
-                    % measure 294
+                    
+                    %%% Global Skips [measure 294] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/8
                     \newSpacingSection
@@ -368,118 +468,141 @@
                                                     \sans
                                                         x6
                             }
-                    % measure 295
+                    
+                    %%% Global Skips [measure 295] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 4/8
                     \newSpacingSection
                     s1 * 1/2
-                    % measure 296
+                    
+                    %%% Global Skips [measure 296] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 8/8
                     \newSpacingSection
                     s1 * 1
-                    % measure 297
+                    
+                    %%% Global Skips [measure 297] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 9/8
                     \newSpacingSection
                     s1 * 9/8
-                    % measure 298
+                    
+                    %%% Global Skips [measure 298] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 9/8
                     \newSpacingSection
                     s1 * 9/8
-                    % measure 299
+                    
+                    %%% Global Skips [measure 299] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 4/8
                     \newSpacingSection
                     s1 * 1/2
-                    % measure 300
+                    
+                    %%% Global Skips [measure 300] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 4/8
                     \newSpacingSection
                     s1 * 1/2
-                    % measure 301
+                    
+                    %%% Global Skips [measure 301] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/8
                     \newSpacingSection
                     s1 * 3/8
-                    % measure 302
+                    
+                    %%% Global Skips [measure 302] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 6/8
                     \newSpacingSection
                     s1 * 3/4
-                    % measure 303
+                    
+                    %%% Global Skips [measure 303] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 7/8
                     \newSpacingSection
                     s1 * 7/8
                 }
-                % measure 304
+                
+                %%% Global Skips [measure 304] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
-                % measure 305
+                
+                %%% Global Skips [measure 305] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 306
+                
+                %%% Global Skips [measure 306] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 307
+                
+                %%% Global Skips [measure 307] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 308
+                
+                %%% Global Skips [measure 308] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 309
+                
+                %%% Global Skips [measure 309] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 310
+                
+                %%% Global Skips [measure 310] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
-                % measure 311
+                
+                %%% Global Skips [measure 311] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/8
                 \newSpacingSection
                 s1 * 3/4
-                % measure 312
+                
+                %%% Global Skips [measure 312] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 313
+                
+                %%% Global Skips [measure 313] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 314
+                
+                %%% Global Skips [measure 314] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 315
+                
+                %%% Global Skips [measure 315] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 316
+                
+                %%% Global Skips [measure 316] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 317
+                
+                %%% Global Skips [measure 317] %%%
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -505,19 +628,22 @@
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8 \startTextSpan
-                % measure 318
+                
+                %%% Global Skips [measure 318] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 7/8
                 \newSpacingSection
                 s1 * 7/8
-                % measure 319
+                
+                %%% Global Skips [measure 319] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
                 \repeat volta 2
                 {
-                    % measure 320
+                    
+                    %%% Global Skips [measure 320] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/8
                     \newSpacingSection
@@ -550,72 +676,86 @@
                                 38
                             }
                         }
-                    % measure 321
+                    
+                    %%% Global Skips [measure 321] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 6/8
                     \newSpacingSection
                     s1 * 3/4
-                    % measure 322
+                    
+                    %%% Global Skips [measure 322] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 7/8
                     \newSpacingSection
                     s1 * 7/8
-                    % measure 323
+                    
+                    %%% Global Skips [measure 323] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 9/8
                     \newSpacingSection
                     s1 * 9/8
-                    % measure 324
+                    
+                    %%% Global Skips [measure 324] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 4/8
                     \newSpacingSection
                     s1 * 1/2
                 }
-                % measure 325
+                
+                %%% Global Skips [measure 325] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 326
+                
+                %%% Global Skips [measure 326] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 327
+                
+                %%% Global Skips [measure 327] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 328
+                
+                %%% Global Skips [measure 328] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
                 s1 * 3/8
-                % measure 329
+                
+                %%% Global Skips [measure 329] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 330
+                
+                %%% Global Skips [measure 330] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
                 s1 * 9/8
-                % measure 331
+                
+                %%% Global Skips [measure 331] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
                 s1 * 1/2
-                % measure 332
+                
+                %%% Global Skips [measure 332] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 8/8
                 \newSpacingSection
                 s1 * 1
-                % measure 333
+                
+                %%% Global Skips [measure 333] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                
             }
         >>
         \context MusicContext = "Music Context" {
@@ -623,7 +763,8 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        % measure 265
+                        
+                        %%% Violin One Music Voice [measure 265] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -666,15 +807,21 @@
                                     \italic
                                         ”
                                 }
-                        % measure 266
+                        
+                        %%% Violin One Music Voice [measure 266] %%%
                         a''1 \repeatTie
-                        % measure 267
+                        
+                        %%% Violin One Music Voice [measure 267] %%%
                         a''2. \repeatTie
+                        
                         a''4. \repeatTie
-                        % measure 268
+                        
+                        %%% Violin One Music Voice [measure 268] %%%
                         a''2. \repeatTie
+                        
                         a''4. \repeatTie
-                        % measure 269
+                        
+                        %%% Violin One Music Voice [measure 269] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -696,17 +843,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''4. \repeatTie \startTextSpan
-                        % measure 270
+                        
+                        %%% Violin One Music Voice [measure 270] %%%
                         a''2 \repeatTie
-                        % measure 271
+                        
+                        %%% Violin One Music Voice [measure 271] %%%
                         a''4. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1 click/1-2 sec."
                             }
-                        % measure 272
+                        
+                        %%% Violin One Music Voice [measure 272] %%%
                         a''2. \repeatTie
-                        % measure 273
+                        
+                        %%% Violin One Music Voice [measure 273] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -728,17 +879,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2.. \repeatTie \startTextSpan
-                        % measure 274
+                        
+                        %%% Violin One Music Voice [measure 274] %%%
                         a''2.. \repeatTie
-                        % measure 275
+                        
+                        %%% Violin One Music Voice [measure 275] %%%
                         a''2 \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1-2 clicks/sec."
                             }
-                        % measure 276
+                        
+                        %%% Violin One Music Voice [measure 276] %%%
                         a''4. \repeatTie
-                        % measure 277
+                        
+                        %%% Violin One Music Voice [measure 277] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -760,17 +915,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2.. \repeatTie \startTextSpan
-                        % measure 278
+                        
+                        %%% Violin One Music Voice [measure 278] %%%
                         a''4. \repeatTie
-                        % measure 279
+                        
+                        %%% Violin One Music Voice [measure 279] %%%
                         a''2. \ff \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "scratch moltiss."
                             }
-                        % measure 280
+                        
+                        %%% Violin One Music Voice [measure 280] %%%
                         a''2.. \repeatTie
-                        % measure 281
+                        
+                        %%% Violin One Music Voice [measure 281] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -792,19 +951,25 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2. \repeatTie \startTextSpan
+                        
                         a''4. \repeatTie
-                        % measure 282
+                        
+                        %%% Violin One Music Voice [measure 282] %%%
                         a''2 \repeatTie
-                        % measure 283
+                        
+                        %%% Violin One Music Voice [measure 283] %%%
                         a''1 \repeatTie
-                        % measure 284
+                        
+                        %%% Violin One Music Voice [measure 284] %%%
                         a''2. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1/2 scratch"
                             }
+                        
                         a''4. \repeatTie
-                        % measure 285
+                        
+                        %%% Violin One Music Voice [measure 285] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -826,17 +991,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2.. \repeatTie \startTextSpan
-                        % measure 286
+                        
+                        %%% Violin One Music Voice [measure 286] %%%
                         a''2.. \repeatTie
-                        % measure 287
+                        
+                        %%% Violin One Music Voice [measure 287] %%%
                         a''4. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 288
+                        
+                        %%% Violin One Music Voice [measure 288] %%%
                         a''2. \repeatTie
-                        % measure 289
+                        
+                        %%% Violin One Music Voice [measure 289] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -858,21 +1027,28 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2. \repeatTie \< \ff \startTextSpan
+                        
                         a''4. \repeatTie
-                        % measure 290
+                        
+                        %%% Violin One Music Voice [measure 290] %%%
                         a''2. \repeatTie
+                        
                         a''4. \repeatTie
-                        % measure 291
+                        
+                        %%% Violin One Music Voice [measure 291] %%%
                         a''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
-                        % measure 292
+                        
+                        %%% Violin One Music Voice [measure 292] %%%
                         a''1 \repeatTie
-                        % measure 293
+                        
+                        %%% Violin One Music Voice [measure 293] %%%
                         R1 * 1/4
-                        % measure 294
+                        
+                        %%% Violin One Music Voice [measure 294] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -894,18 +1070,23 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''4. \< \sffp \startTextSpan
-                        % measure 295
+                        
+                        %%% Violin One Music Voice [measure 295] %%%
                         a''2 \repeatTie
-                        % measure 296
+                        
+                        %%% Violin One Music Voice [measure 296] %%%
                         a''1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 297
+                        
+                        %%% Violin One Music Voice [measure 297] %%%
                         a''2. \repeatTie
+                        
                         a''4. \repeatTie
-                        % measure 298
+                        
+                        %%% Violin One Music Voice [measure 298] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -927,12 +1108,14 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2. \repeatTie \> \fff \startTextSpan
+                        
                         a''4. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 299
+                        
+                        %%% Violin One Music Voice [measure 299] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -954,15 +1137,18 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2 \< \sffp \startTextSpan
-                        % measure 300
+                        
+                        %%% Violin One Music Voice [measure 300] %%%
                         a''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 301
+                        
+                        %%% Violin One Music Voice [measure 301] %%%
                         a''4. \repeatTie
-                        % measure 302
+                        
+                        %%% Violin One Music Voice [measure 302] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -984,15 +1170,18 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2. \repeatTie \> \fff \startTextSpan
-                        % measure 303
+                        
+                        %%% Violin One Music Voice [measure 303] %%%
                         a''2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 304
+                        
+                        %%% Violin One Music Voice [measure 304] %%%
                         R1 * 1/4
-                        % measure 305
+                        
+                        %%% Violin One Music Voice [measure 305] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1014,49 +1203,66 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a''2.. \> \sffp \startTextSpan
-                        % measure 306
+                        
+                        %%% Violin One Music Voice [measure 306] %%%
                         a''4. \repeatTie
-                        % measure 307
+                        
+                        %%% Violin One Music Voice [measure 307] %%%
                         a''4. \repeatTie
-                        % measure 308
+                        
+                        %%% Violin One Music Voice [measure 308] %%%
                         a''2 \repeatTie \pp \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XT
                             }
-                        % measure 309
+                        
+                        %%% Violin One Music Voice [measure 309] %%%
                         a''4. \repeatTie
-                        % measure 310
+                        
+                        %%% Violin One Music Voice [measure 310] %%%
                         R1 * 1/4
-                        % measure 311
+                        
+                        %%% Violin One Music Voice [measure 311] %%%
                         a''2.
-                        % measure 312
+                        
+                        %%% Violin One Music Voice [measure 312] %%%
                         a''2.. \repeatTie
-                        % measure 313
+                        
+                        %%% Violin One Music Voice [measure 313] %%%
                         a''2.. \repeatTie
-                        % measure 314
+                        
+                        %%% Violin One Music Voice [measure 314] %%%
                         a''2 \repeatTie
-                        % measure 315
+                        
+                        %%% Violin One Music Voice [measure 315] %%%
                         a''1 \repeatTie
-                        % measure 316
+                        
+                        %%% Violin One Music Voice [measure 316] %%%
                         a''2. \repeatTie
+                        
                         a''4. \repeatTie
-                        % measure 317
-                        \ottava #1
+                        
+                        %%% Violin One Music Voice [measure 317] %%%
                         \override NoteHead.style = #'harmonic
+                        \ottava #1
                         b''''2. \< \sffp \startTrillSpan
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "pos. ord. + 9°/A4(II)"
                                 }
+                        
                         b''''4. \repeatTie
-                        % measure 318
+                        
+                        %%% Violin One Music Voice [measure 318] %%%
                         b''''2.. \repeatTie \f
                         \ottava #0
-                        % measure 319
+                        
+                        %%% Violin One Music Voice [measure 319] %%%
                         R1 * 1/4 \stopTrillSpan
-                        % measure 320
+                        
+                        %%% Violin One Music Voice [measure 320] %%%
                         \ottava #1
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1079,16 +1285,20 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b''''4. \< \sf \startTextSpan \startTrillSpan
-                        % measure 321
+                        
+                        %%% Violin One Music Voice [measure 321] %%%
                         b''''2. \repeatTie
-                        % measure 322
+                        
+                        %%% Violin One Music Voice [measure 322] %%%
                         b''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 323
+                        
+                        %%% Violin One Music Voice [measure 323] %%%
                         b''''2. \repeatTie
+                        
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1110,13 +1320,15 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b''''4. \repeatTie \> \fff \startTextSpan
-                        % measure 324
+                        
+                        %%% Violin One Music Voice [measure 324] %%%
                         b''''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 325
+                        
+                        %%% Violin One Music Voice [measure 325] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1138,38 +1350,51 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         b''''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan
-                        % measure 326
+                        
+                        %%% Violin One Music Voice [measure 326] %%%
                         b''''2. \repeatTie
+                        
                         b''''4. \repeatTie
-                        % measure 327
+                        
+                        %%% Violin One Music Voice [measure 327] %%%
                         b''''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 328
+                        
+                        %%% Violin One Music Voice [measure 328] %%%
                         b''''4. \repeatTie
-                        % measure 329
+                        
+                        %%% Violin One Music Voice [measure 329] %%%
                         b''''2. \repeatTie
+                        
                         b''''4. \repeatTie
-                        % measure 330
+                        
+                        %%% Violin One Music Voice [measure 330] %%%
                         b''''2. \repeatTie
+                        
                         b''''4. \repeatTie
-                        % measure 331
+                        
+                        %%% Violin One Music Voice [measure 331] %%%
                         b''''2 \repeatTie
-                        % measure 332
+                        
+                        %%% Violin One Music Voice [measure 332] %%%
                         b''''1 \repeatTie
                         \revert NoteHead.style
                         \ottava #0
-                        % measure 333
+                        
+                        %%% Violin One Music Voice [measure 333] %%%
                         R1 * 1/4 \stopTrillSpan
                         \bar "|"
+                        
                     }
                 }
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        % measure 265
+                        
+                        %%% Violin Two Music Voice [measure 265] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1212,15 +1437,21 @@
                                     \italic
                                         ”
                                 }
-                        % measure 266
+                        
+                        %%% Violin Two Music Voice [measure 266] %%%
                         gtqs'1 \repeatTie
-                        % measure 267
+                        
+                        %%% Violin Two Music Voice [measure 267] %%%
                         gtqs'2. \repeatTie
+                        
                         gtqs'4. \repeatTie
-                        % measure 268
+                        
+                        %%% Violin Two Music Voice [measure 268] %%%
                         gtqs'2. \repeatTie
+                        
                         gtqs'4. \repeatTie
-                        % measure 269
+                        
+                        %%% Violin Two Music Voice [measure 269] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1242,17 +1473,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gtqs'4. \repeatTie \startTextSpan
-                        % measure 270
+                        
+                        %%% Violin Two Music Voice [measure 270] %%%
                         gtqs'2 \repeatTie
-                        % measure 271
+                        
+                        %%% Violin Two Music Voice [measure 271] %%%
                         gtqs'4. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1 click/1-2 sec."
                             }
-                        % measure 272
+                        
+                        %%% Violin Two Music Voice [measure 272] %%%
                         gtqs'2. \repeatTie
-                        % measure 273
+                        
+                        %%% Violin Two Music Voice [measure 273] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1274,17 +1509,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gtqs'2.. \repeatTie \startTextSpan
-                        % measure 274
+                        
+                        %%% Violin Two Music Voice [measure 274] %%%
                         gtqs'2.. \repeatTie
-                        % measure 275
+                        
+                        %%% Violin Two Music Voice [measure 275] %%%
                         gtqs'2 \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1-2 clicks/sec."
                             }
-                        % measure 276
+                        
+                        %%% Violin Two Music Voice [measure 276] %%%
                         gtqs'4. \repeatTie
-                        % measure 277
+                        
+                        %%% Violin Two Music Voice [measure 277] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1306,17 +1545,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gtqs'2.. \repeatTie \startTextSpan
-                        % measure 278
+                        
+                        %%% Violin Two Music Voice [measure 278] %%%
                         gtqs'4. \repeatTie
-                        % measure 279
+                        
+                        %%% Violin Two Music Voice [measure 279] %%%
                         gtqs'2. \ff \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "scratch moltiss."
                             }
-                        % measure 280
+                        
+                        %%% Violin Two Music Voice [measure 280] %%%
                         gtqs'2.. \repeatTie
-                        % measure 281
+                        
+                        %%% Violin Two Music Voice [measure 281] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1338,19 +1581,25 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gtqs'2. \repeatTie \startTextSpan
+                        
                         gtqs'4. \repeatTie
-                        % measure 282
+                        
+                        %%% Violin Two Music Voice [measure 282] %%%
                         gtqs'2 \repeatTie
-                        % measure 283
+                        
+                        %%% Violin Two Music Voice [measure 283] %%%
                         gtqs'1 \repeatTie
-                        % measure 284
+                        
+                        %%% Violin Two Music Voice [measure 284] %%%
                         gtqs'2. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1/2 scratch"
                             }
+                        
                         gtqs'4. \repeatTie
-                        % measure 285
+                        
+                        %%% Violin Two Music Voice [measure 285] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1372,17 +1621,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gtqs'2.. \repeatTie \startTextSpan
-                        % measure 286
+                        
+                        %%% Violin Two Music Voice [measure 286] %%%
                         gtqs'2.. \repeatTie
-                        % measure 287
+                        
+                        %%% Violin Two Music Voice [measure 287] %%%
                         gtqs'4. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 288
+                        
+                        %%% Violin Two Music Voice [measure 288] %%%
                         gtqs'2. \repeatTie
-                        % measure 289
+                        
+                        %%% Violin Two Music Voice [measure 289] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1404,21 +1657,28 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gtqs'2. \repeatTie \< \ff \startTextSpan
+                        
                         gtqs'4. \repeatTie
-                        % measure 290
+                        
+                        %%% Violin Two Music Voice [measure 290] %%%
                         gtqs'2. \repeatTie
+                        
                         gtqs'4. \repeatTie
-                        % measure 291
+                        
+                        %%% Violin Two Music Voice [measure 291] %%%
                         gtqs'2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
-                        % measure 292
+                        
+                        %%% Violin Two Music Voice [measure 292] %%%
                         gtqs'1 \repeatTie
-                        % measure 293
+                        
+                        %%% Violin Two Music Voice [measure 293] %%%
                         R1 * 1/4
-                        % measure 294
+                        
+                        %%% Violin Two Music Voice [measure 294] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1440,18 +1700,23 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a'4. \< \sffp \startTextSpan
-                        % measure 295
+                        
+                        %%% Violin Two Music Voice [measure 295] %%%
                         a'2 \repeatTie
-                        % measure 296
+                        
+                        %%% Violin Two Music Voice [measure 296] %%%
                         a'1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 297
+                        
+                        %%% Violin Two Music Voice [measure 297] %%%
                         a'2. \repeatTie
+                        
                         a'4. \repeatTie
-                        % measure 298
+                        
+                        %%% Violin Two Music Voice [measure 298] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1473,12 +1738,14 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a'2. \repeatTie \> \fff \startTextSpan
+                        
                         a'4. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 299
+                        
+                        %%% Violin Two Music Voice [measure 299] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1500,15 +1767,18 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gtqs'2 \< \sffp \startTextSpan
-                        % measure 300
+                        
+                        %%% Violin Two Music Voice [measure 300] %%%
                         gtqs'2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 301
+                        
+                        %%% Violin Two Music Voice [measure 301] %%%
                         gtqs'4. \repeatTie
-                        % measure 302
+                        
+                        %%% Violin Two Music Voice [measure 302] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1530,15 +1800,18 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gtqs'2. \repeatTie \> \fff \startTextSpan
-                        % measure 303
+                        
+                        %%% Violin Two Music Voice [measure 303] %%%
                         gtqs'2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 304
+                        
+                        %%% Violin Two Music Voice [measure 304] %%%
                         R1 * 1/4
-                        % measure 305
+                        
+                        %%% Violin Two Music Voice [measure 305] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1560,49 +1833,66 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a'2.. \> \sffp \startTextSpan
-                        % measure 306
+                        
+                        %%% Violin Two Music Voice [measure 306] %%%
                         a'4. \repeatTie
-                        % measure 307
+                        
+                        %%% Violin Two Music Voice [measure 307] %%%
                         a'4. \repeatTie
-                        % measure 308
+                        
+                        %%% Violin Two Music Voice [measure 308] %%%
                         a'2 \repeatTie \pp \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XT
                             }
-                        % measure 309
+                        
+                        %%% Violin Two Music Voice [measure 309] %%%
                         a'4. \repeatTie
-                        % measure 310
+                        
+                        %%% Violin Two Music Voice [measure 310] %%%
                         R1 * 1/4
-                        % measure 311
+                        
+                        %%% Violin Two Music Voice [measure 311] %%%
                         a'2.
-                        % measure 312
+                        
+                        %%% Violin Two Music Voice [measure 312] %%%
                         a'2.. \repeatTie
-                        % measure 313
+                        
+                        %%% Violin Two Music Voice [measure 313] %%%
                         a'2.. \repeatTie
-                        % measure 314
+                        
+                        %%% Violin Two Music Voice [measure 314] %%%
                         a'2 \repeatTie
-                        % measure 315
-                        \ottava #1
+                        
+                        %%% Violin Two Music Voice [measure 315] %%%
                         \override NoteHead.style = #'harmonic
+                        \ottava #1
                         cs''''1 \< \sffp \startTrillSpan
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "pos. ord. + 5°/A4(II)"
                                 }
-                        % measure 316
+                        
+                        %%% Violin Two Music Voice [measure 316] %%%
                         cs''''2. \repeatTie
+                        
                         cs''''4. \repeatTie
-                        % measure 317
+                        
+                        %%% Violin Two Music Voice [measure 317] %%%
                         cs''''2. \repeatTie \f
+                        
                         cs''''4. \repeatTie
-                        % measure 318
+                        
+                        %%% Violin Two Music Voice [measure 318] %%%
                         cs''''2.. \repeatTie
                         \ottava #0
-                        % measure 319
+                        
+                        %%% Violin Two Music Voice [measure 319] %%%
                         R1 * 1/4 \stopTrillSpan
-                        % measure 320
+                        
+                        %%% Violin Two Music Voice [measure 320] %%%
                         \ottava #1
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1625,16 +1915,20 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         cs''''4. \< \sf \startTextSpan \startTrillSpan
-                        % measure 321
+                        
+                        %%% Violin Two Music Voice [measure 321] %%%
                         cs''''2. \repeatTie
-                        % measure 322
+                        
+                        %%% Violin Two Music Voice [measure 322] %%%
                         cs''''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 323
+                        
+                        %%% Violin Two Music Voice [measure 323] %%%
                         cs''''2. \repeatTie
+                        
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1656,13 +1950,15 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         cs''''4. \repeatTie \> \fff \startTextSpan
-                        % measure 324
+                        
+                        %%% Violin Two Music Voice [measure 324] %%%
                         cs''''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 325
+                        
+                        %%% Violin Two Music Voice [measure 325] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1684,38 +1980,51 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         cs''''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan
-                        % measure 326
+                        
+                        %%% Violin Two Music Voice [measure 326] %%%
                         cs''''2. \repeatTie
+                        
                         cs''''4. \repeatTie
-                        % measure 327
+                        
+                        %%% Violin Two Music Voice [measure 327] %%%
                         cs''''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 328
+                        
+                        %%% Violin Two Music Voice [measure 328] %%%
                         cs''''4. \repeatTie
-                        % measure 329
+                        
+                        %%% Violin Two Music Voice [measure 329] %%%
                         cs''''2. \repeatTie
+                        
                         cs''''4. \repeatTie
-                        % measure 330
+                        
+                        %%% Violin Two Music Voice [measure 330] %%%
                         cs''''2. \repeatTie
+                        
                         cs''''4. \repeatTie
-                        % measure 331
+                        
+                        %%% Violin Two Music Voice [measure 331] %%%
                         cs''''2 \repeatTie
-                        % measure 332
+                        
+                        %%% Violin Two Music Voice [measure 332] %%%
                         cs''''1 \repeatTie
                         \revert NoteHead.style
                         \ottava #0
-                        % measure 333
+                        
+                        %%% Violin Two Music Voice [measure 333] %%%
                         R1 * 1/4 \stopTrillSpan
                         \bar "|"
+                        
                     }
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        % measure 265
+                        
+                        %%% Viola Music Voice [measure 265] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1750,15 +2059,21 @@
                                     \italic
                                         ”
                                 }
-                        % measure 266
+                        
+                        %%% Viola Music Voice [measure 266] %%%
                         aqs,1 \repeatTie
-                        % measure 267
+                        
+                        %%% Viola Music Voice [measure 267] %%%
                         aqs,2. \repeatTie
+                        
                         aqs,4. \repeatTie
-                        % measure 268
+                        
+                        %%% Viola Music Voice [measure 268] %%%
                         aqs,2. \repeatTie
+                        
                         aqs,4. \repeatTie
-                        % measure 269
+                        
+                        %%% Viola Music Voice [measure 269] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1780,17 +2095,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         aqs,4. \repeatTie \startTextSpan
-                        % measure 270
+                        
+                        %%% Viola Music Voice [measure 270] %%%
                         aqs,2 \repeatTie
-                        % measure 271
+                        
+                        %%% Viola Music Voice [measure 271] %%%
                         aqs,4. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1 click/1-2 sec."
                             }
-                        % measure 272
+                        
+                        %%% Viola Music Voice [measure 272] %%%
                         aqs,2. \repeatTie
-                        % measure 273
+                        
+                        %%% Viola Music Voice [measure 273] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1812,17 +2131,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         aqs,2.. \repeatTie \startTextSpan
-                        % measure 274
+                        
+                        %%% Viola Music Voice [measure 274] %%%
                         aqs,2.. \repeatTie
-                        % measure 275
+                        
+                        %%% Viola Music Voice [measure 275] %%%
                         aqs,2 \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1-2 clicks/sec."
                             }
-                        % measure 276
+                        
+                        %%% Viola Music Voice [measure 276] %%%
                         aqs,4. \repeatTie
-                        % measure 277
+                        
+                        %%% Viola Music Voice [measure 277] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1844,17 +2167,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         aqs,2.. \repeatTie \startTextSpan
-                        % measure 278
+                        
+                        %%% Viola Music Voice [measure 278] %%%
                         aqs,4. \repeatTie
-                        % measure 279
+                        
+                        %%% Viola Music Voice [measure 279] %%%
                         aqs,2. \ff \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "scratch moltiss."
                             }
-                        % measure 280
+                        
+                        %%% Viola Music Voice [measure 280] %%%
                         aqs,2.. \repeatTie
-                        % measure 281
+                        
+                        %%% Viola Music Voice [measure 281] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1876,19 +2203,25 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         aqs,2. \repeatTie \startTextSpan
+                        
                         aqs,4. \repeatTie
-                        % measure 282
+                        
+                        %%% Viola Music Voice [measure 282] %%%
                         aqs,2 \repeatTie
-                        % measure 283
+                        
+                        %%% Viola Music Voice [measure 283] %%%
                         aqs,1 \repeatTie
-                        % measure 284
+                        
+                        %%% Viola Music Voice [measure 284] %%%
                         aqs,2. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1/2 scratch"
                             }
+                        
                         aqs,4. \repeatTie
-                        % measure 285
+                        
+                        %%% Viola Music Voice [measure 285] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1910,17 +2243,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         aqs,2.. \repeatTie \startTextSpan
-                        % measure 286
+                        
+                        %%% Viola Music Voice [measure 286] %%%
                         aqs,2.. \repeatTie
-                        % measure 287
+                        
+                        %%% Viola Music Voice [measure 287] %%%
                         aqs,4. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 288
+                        
+                        %%% Viola Music Voice [measure 288] %%%
                         aqs,2. \repeatTie
-                        % measure 289
+                        
+                        %%% Viola Music Voice [measure 289] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1942,21 +2279,28 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         aqs,2. \repeatTie \< \ff \startTextSpan
+                        
                         aqs,4. \repeatTie
-                        % measure 290
+                        
+                        %%% Viola Music Voice [measure 290] %%%
                         aqs,2. \repeatTie
+                        
                         aqs,4. \repeatTie
-                        % measure 291
+                        
+                        %%% Viola Music Voice [measure 291] %%%
                         aqs,2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
-                        % measure 292
+                        
+                        %%% Viola Music Voice [measure 292] %%%
                         aqs,1 \repeatTie
-                        % measure 293
+                        
+                        %%% Viola Music Voice [measure 293] %%%
                         R1 * 1/4
-                        % measure 294
+                        
+                        %%% Viola Music Voice [measure 294] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1978,18 +2322,23 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,4. \< \sffp \startTextSpan
-                        % measure 295
+                        
+                        %%% Viola Music Voice [measure 295] %%%
                         a,2 \repeatTie
-                        % measure 296
+                        
+                        %%% Viola Music Voice [measure 296] %%%
                         a,1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 297
+                        
+                        %%% Viola Music Voice [measure 297] %%%
                         a,2. \repeatTie
+                        
                         a,4. \repeatTie
-                        % measure 298
+                        
+                        %%% Viola Music Voice [measure 298] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2011,12 +2360,14 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,2. \repeatTie \> \fff \startTextSpan
+                        
                         a,4. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 299
+                        
+                        %%% Viola Music Voice [measure 299] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2038,15 +2389,18 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         aqs,2 \< \sffp \startTextSpan
-                        % measure 300
+                        
+                        %%% Viola Music Voice [measure 300] %%%
                         aqs,2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 301
+                        
+                        %%% Viola Music Voice [measure 301] %%%
                         aqs,4. \repeatTie
-                        % measure 302
+                        
+                        %%% Viola Music Voice [measure 302] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2068,15 +2422,18 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         aqs,2. \repeatTie \> \fff \startTextSpan
-                        % measure 303
+                        
+                        %%% Viola Music Voice [measure 303] %%%
                         aqs,2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 304
+                        
+                        %%% Viola Music Voice [measure 304] %%%
                         R1 * 1/4
-                        % measure 305
+                        
+                        %%% Viola Music Voice [measure 305] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2098,48 +2455,65 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,2.. \> \sffp \startTextSpan
-                        % measure 306
+                        
+                        %%% Viola Music Voice [measure 306] %%%
                         a,4. \repeatTie
-                        % measure 307
+                        
+                        %%% Viola Music Voice [measure 307] %%%
                         a,4. \repeatTie
-                        % measure 308
+                        
+                        %%% Viola Music Voice [measure 308] %%%
                         a,2 \repeatTie \pp \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XT
                             }
-                        % measure 309
+                        
+                        %%% Viola Music Voice [measure 309] %%%
                         a,4. \repeatTie
-                        % measure 310
+                        
+                        %%% Viola Music Voice [measure 310] %%%
                         R1 * 1/4
-                        % measure 311
+                        
+                        %%% Viola Music Voice [measure 311] %%%
                         a,2.
-                        % measure 312
+                        
+                        %%% Viola Music Voice [measure 312] %%%
                         a,2.. \repeatTie
-                        % measure 313
-                        \clef "treble"
+                        
+                        %%% Viola Music Voice [measure 313] %%%
                         \override NoteHead.style = #'harmonic
+                        \clef "treble"
                         gqf''2.. \< \sffp \startTrillSpan
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "pos. ord. + 7°/A2(IV)"
                                 }
-                        % measure 314
+                        
+                        %%% Viola Music Voice [measure 314] %%%
                         gqf''2 \repeatTie
-                        % measure 315
+                        
+                        %%% Viola Music Voice [measure 315] %%%
                         gqf''1 \repeatTie
-                        % measure 316
+                        
+                        %%% Viola Music Voice [measure 316] %%%
                         gqf''2. \repeatTie \f
+                        
                         gqf''4. \repeatTie
-                        % measure 317
+                        
+                        %%% Viola Music Voice [measure 317] %%%
                         gqf''2. \repeatTie
+                        
                         gqf''4. \repeatTie
-                        % measure 318
+                        
+                        %%% Viola Music Voice [measure 318] %%%
                         gqf''2.. \repeatTie
-                        % measure 319
+                        
+                        %%% Viola Music Voice [measure 319] %%%
                         R1 * 1/4 \stopTrillSpan
-                        % measure 320
+                        
+                        %%% Viola Music Voice [measure 320] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2161,16 +2535,20 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gqf''4. \< \sf \startTextSpan \startTrillSpan
-                        % measure 321
+                        
+                        %%% Viola Music Voice [measure 321] %%%
                         gqf''2. \repeatTie
-                        % measure 322
+                        
+                        %%% Viola Music Voice [measure 322] %%%
                         gqf''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 323
+                        
+                        %%% Viola Music Voice [measure 323] %%%
                         gqf''2. \repeatTie
+                        
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2192,13 +2570,15 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gqf''4. \repeatTie \> \fff \startTextSpan
-                        % measure 324
+                        
+                        %%% Viola Music Voice [measure 324] %%%
                         gqf''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 325
+                        
+                        %%% Viola Music Voice [measure 325] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2220,37 +2600,50 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         gqf''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan
-                        % measure 326
+                        
+                        %%% Viola Music Voice [measure 326] %%%
                         gqf''2. \repeatTie
+                        
                         gqf''4. \repeatTie
-                        % measure 327
+                        
+                        %%% Viola Music Voice [measure 327] %%%
                         gqf''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 328
+                        
+                        %%% Viola Music Voice [measure 328] %%%
                         gqf''4. \repeatTie
-                        % measure 329
+                        
+                        %%% Viola Music Voice [measure 329] %%%
                         gqf''2. \repeatTie
+                        
                         gqf''4. \repeatTie
-                        % measure 330
+                        
+                        %%% Viola Music Voice [measure 330] %%%
                         gqf''2. \repeatTie
+                        
                         gqf''4. \repeatTie
-                        % measure 331
+                        
+                        %%% Viola Music Voice [measure 331] %%%
                         gqf''2 \repeatTie
-                        % measure 332
+                        
+                        %%% Viola Music Voice [measure 332] %%%
                         gqf''1 \repeatTie
                         \revert NoteHead.style
-                        % measure 333
+                        
+                        %%% Viola Music Voice [measure 333] %%%
                         R1 * 1/4 \stopTrillSpan
                         \bar "|"
+                        
                     }
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        % measure 265
+                        
+                        %%% Cello Music Voice [measure 265] %%%
                         \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -2282,15 +2675,21 @@
                                     \italic
                                         ”
                                 }
-                        % measure 266
+                        
+                        %%% Cello Music Voice [measure 266] %%%
                         a,,1 \repeatTie
-                        % measure 267
+                        
+                        %%% Cello Music Voice [measure 267] %%%
                         a,,2. \repeatTie
+                        
                         a,,4. \repeatTie
-                        % measure 268
+                        
+                        %%% Cello Music Voice [measure 268] %%%
                         a,,2. \repeatTie
+                        
                         a,,4. \repeatTie
-                        % measure 269
+                        
+                        %%% Cello Music Voice [measure 269] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2312,17 +2711,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,4. \repeatTie \startTextSpan
-                        % measure 270
+                        
+                        %%% Cello Music Voice [measure 270] %%%
                         a,,2 \repeatTie
-                        % measure 271
+                        
+                        %%% Cello Music Voice [measure 271] %%%
                         a,,4. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1 click/1-2 sec."
                             }
-                        % measure 272
+                        
+                        %%% Cello Music Voice [measure 272] %%%
                         a,,2. \repeatTie
-                        % measure 273
+                        
+                        %%% Cello Music Voice [measure 273] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2344,17 +2747,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2.. \repeatTie \startTextSpan
-                        % measure 274
+                        
+                        %%% Cello Music Voice [measure 274] %%%
                         a,,2.. \repeatTie
-                        % measure 275
+                        
+                        %%% Cello Music Voice [measure 275] %%%
                         a,,2 \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1-2 clicks/sec."
                             }
-                        % measure 276
+                        
+                        %%% Cello Music Voice [measure 276] %%%
                         a,,4. \repeatTie
-                        % measure 277
+                        
+                        %%% Cello Music Voice [measure 277] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2376,17 +2783,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2.. \repeatTie \startTextSpan
-                        % measure 278
+                        
+                        %%% Cello Music Voice [measure 278] %%%
                         a,,4. \repeatTie
-                        % measure 279
+                        
+                        %%% Cello Music Voice [measure 279] %%%
                         a,,2. \ff \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "scratch moltiss."
                             }
-                        % measure 280
+                        
+                        %%% Cello Music Voice [measure 280] %%%
                         a,,2.. \repeatTie
-                        % measure 281
+                        
+                        %%% Cello Music Voice [measure 281] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2408,19 +2819,25 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2. \repeatTie \startTextSpan
+                        
                         a,,4. \repeatTie
-                        % measure 282
+                        
+                        %%% Cello Music Voice [measure 282] %%%
                         a,,2 \repeatTie
-                        % measure 283
+                        
+                        %%% Cello Music Voice [measure 283] %%%
                         a,,1 \repeatTie
-                        % measure 284
+                        
+                        %%% Cello Music Voice [measure 284] %%%
                         a,,2. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "1/2 scratch"
                             }
+                        
                         a,,4. \repeatTie
-                        % measure 285
+                        
+                        %%% Cello Music Voice [measure 285] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2442,17 +2859,21 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2.. \repeatTie \startTextSpan
-                        % measure 286
+                        
+                        %%% Cello Music Voice [measure 286] %%%
                         a,,2.. \repeatTie
-                        % measure 287
+                        
+                        %%% Cello Music Voice [measure 287] %%%
                         a,,4. \repeatTie \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 288
+                        
+                        %%% Cello Music Voice [measure 288] %%%
                         a,,2. \repeatTie
-                        % measure 289
+                        
+                        %%% Cello Music Voice [measure 289] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2474,21 +2895,28 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2. \repeatTie \< \ff \startTextSpan
+                        
                         a,,4. \repeatTie
-                        % measure 290
+                        
+                        %%% Cello Music Voice [measure 290] %%%
                         a,,2. \repeatTie
+                        
                         a,,4. \repeatTie
-                        % measure 291
+                        
+                        %%% Cello Music Voice [measure 291] %%%
                         a,,2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "vib. moltiss."
                             }
-                        % measure 292
+                        
+                        %%% Cello Music Voice [measure 292] %%%
                         a,,1 \repeatTie
-                        % measure 293
+                        
+                        %%% Cello Music Voice [measure 293] %%%
                         R1 * 1/4
-                        % measure 294
+                        
+                        %%% Cello Music Voice [measure 294] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2510,18 +2938,23 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,4. \< \sffp \startTextSpan
-                        % measure 295
+                        
+                        %%% Cello Music Voice [measure 295] %%%
                         a,,2 \repeatTie
-                        % measure 296
+                        
+                        %%% Cello Music Voice [measure 296] %%%
                         a,,1 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 297
+                        
+                        %%% Cello Music Voice [measure 297] %%%
                         a,,2. \repeatTie
+                        
                         a,,4. \repeatTie
-                        % measure 298
+                        
+                        %%% Cello Music Voice [measure 298] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2543,12 +2976,14 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2. \repeatTie \> \fff \startTextSpan
+                        
                         a,,4. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 299
+                        
+                        %%% Cello Music Voice [measure 299] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2570,15 +3005,18 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2 \< \sffp \startTextSpan
-                        % measure 300
+                        
+                        %%% Cello Music Voice [measure 300] %%%
                         a,,2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 301
+                        
+                        %%% Cello Music Voice [measure 301] %%%
                         a,,4. \repeatTie
-                        % measure 302
+                        
+                        %%% Cello Music Voice [measure 302] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2600,15 +3038,18 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2. \repeatTie \> \fff \startTextSpan
-                        % measure 303
+                        
+                        %%% Cello Music Voice [measure 303] %%%
                         a,,2.. \repeatTie \p \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 304
+                        
+                        %%% Cello Music Voice [measure 304] %%%
                         R1 * 1/4
-                        % measure 305
+                        
+                        %%% Cello Music Voice [measure 305] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2630,48 +3071,65 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         a,,2.. \> \sffp \startTextSpan
-                        % measure 306
+                        
+                        %%% Cello Music Voice [measure 306] %%%
                         a,,4. \repeatTie
-                        % measure 307
+                        
+                        %%% Cello Music Voice [measure 307] %%%
                         a,,4. \repeatTie
-                        % measure 308
+                        
+                        %%% Cello Music Voice [measure 308] %%%
                         a,,2 \repeatTie \pp \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XT
                             }
-                        % measure 309
+                        
+                        %%% Cello Music Voice [measure 309] %%%
                         a,,4. \repeatTie
-                        % measure 310
+                        
+                        %%% Cello Music Voice [measure 310] %%%
                         R1 * 1/4
-                        % measure 311
-                        \clef "treble"
+                        
+                        %%% Cello Music Voice [measure 311] %%%
                         \override NoteHead.style = #'harmonic
+                        \clef "treble"
                         d''2. \< \sffp \startTrillSpan
                             ^ \markup {
                                 \whiteout
                                     \upright
                                         "pos. ord. + 11°/A1(IV)"
                                 }
-                        % measure 312
+                        
+                        %%% Cello Music Voice [measure 312] %%%
                         d''2.. \repeatTie
-                        % measure 313
+                        
+                        %%% Cello Music Voice [measure 313] %%%
                         d''2.. \repeatTie
-                        % measure 314
+                        
+                        %%% Cello Music Voice [measure 314] %%%
                         d''2 \repeatTie \f
-                        % measure 315
+                        
+                        %%% Cello Music Voice [measure 315] %%%
                         d''1 \repeatTie
-                        % measure 316
+                        
+                        %%% Cello Music Voice [measure 316] %%%
                         d''2. \repeatTie
+                        
                         d''4. \repeatTie
-                        % measure 317
+                        
+                        %%% Cello Music Voice [measure 317] %%%
                         d''2. \repeatTie
+                        
                         d''4. \repeatTie
-                        % measure 318
+                        
+                        %%% Cello Music Voice [measure 318] %%%
                         d''2.. \repeatTie
-                        % measure 319
+                        
+                        %%% Cello Music Voice [measure 319] %%%
                         R1 * 1/4 \stopTrillSpan
-                        % measure 320
+                        
+                        %%% Cello Music Voice [measure 320] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2693,16 +3151,20 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d''4. \< \sf \startTextSpan \startTrillSpan
-                        % measure 321
+                        
+                        %%% Cello Music Voice [measure 321] %%%
                         d''2. \repeatTie
-                        % measure 322
+                        
+                        %%% Cello Music Voice [measure 322] %%%
                         d''2.. \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 323
+                        
+                        %%% Cello Music Voice [measure 323] %%%
                         d''2. \repeatTie
+                        
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2724,13 +3186,15 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d''4. \repeatTie \> \fff \startTextSpan
-                        % measure 324
+                        
+                        %%% Cello Music Voice [measure 324] %%%
                         d''2 \repeatTie \f \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     "pos. ord."
                             }
-                        % measure 325
+                        
+                        %%% Cello Music Voice [measure 325] %%%
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2752,31 +3216,43 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         d''1 \stopTrillSpan \< \sffp \startTextSpan \startTrillSpan
-                        % measure 326
+                        
+                        %%% Cello Music Voice [measure 326] %%%
                         d''2. \repeatTie
+                        
                         d''4. \repeatTie
-                        % measure 327
+                        
+                        %%% Cello Music Voice [measure 327] %%%
                         d''2 \repeatTie \fff \stopTextSpan ^ \markup {
                             \whiteout
                                 \upright
                                     XP
                             }
-                        % measure 328
+                        
+                        %%% Cello Music Voice [measure 328] %%%
                         d''4. \repeatTie
-                        % measure 329
+                        
+                        %%% Cello Music Voice [measure 329] %%%
                         d''2. \repeatTie
+                        
                         d''4. \repeatTie
-                        % measure 330
+                        
+                        %%% Cello Music Voice [measure 330] %%%
                         d''2. \repeatTie
+                        
                         d''4. \repeatTie
-                        % measure 331
+                        
+                        %%% Cello Music Voice [measure 331] %%%
                         d''2 \repeatTie
-                        % measure 332
+                        
+                        %%% Cello Music Voice [measure 332] %%%
                         d''1 \repeatTie
                         \revert NoteHead.style
-                        % measure 333
+                        
+                        %%% Cello Music Voice [measure 333] %%%
                         R1 * 1/4 \stopTrillSpan
                         \bar "|"
+                        
                     }
                 }
             >>

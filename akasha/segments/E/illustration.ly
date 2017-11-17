@@ -13,9 +13,11 @@
         \tag violin_one.violin_two.viola.cello
         \context GlobalContext = "Global Context" <<
             \context GlobalRests = "Global Rests" {
-                % measure 113
+                
+                %%% Global Rests [measure 113] %%%
                 R1 * 1
-                % measure 114
+                
+                %%% Global Rests [measure 114] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -24,9 +26,11 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 115
+                
+                %%% Global Rests [measure 115] %%%
                 R1 * 3/2
-                % measure 116
+                
+                %%% Global Rests [measure 116] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -35,9 +39,11 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 117
+                
+                %%% Global Rests [measure 117] %%%
                 R1 * 3/2
-                % measure 118
+                
+                %%% Global Rests [measure 118] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -46,9 +52,11 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 119
+                
+                %%% Global Rests [measure 119] %%%
                 R1 * 5/4
-                % measure 120
+                
+                %%% Global Rests [measure 120] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -57,67 +65,98 @@
                         \musicglyph
                             #"scripts.ufermata"
                         }
-                % measure 121
+                
+                %%% Global Rests [measure 121] %%%
                 R1 * 3/4
-                % measure 122
+                
+                %%% Global Rests [measure 122] %%%
                 R1 * 3/4
-                % measure 123
+                
+                %%% Global Rests [measure 123] %%%
                 R1 * 1
-                % measure 124
+                
+                %%% Global Rests [measure 124] %%%
                 R1 * 1
-                % measure 125
+                
+                %%% Global Rests [measure 125] %%%
                 R1 * 5/4
-                % measure 126
+                
+                %%% Global Rests [measure 126] %%%
                 R1 * 3/4
-                % measure 127
+                
+                %%% Global Rests [measure 127] %%%
                 R1 * 3/4
-                % measure 128
+                
+                %%% Global Rests [measure 128] %%%
                 R1 * 3/2
-                % measure 129
+                
+                %%% Global Rests [measure 129] %%%
                 R1 * 1
-                % measure 130
+                
+                %%% Global Rests [measure 130] %%%
                 R1 * 3/2
-                % measure 131
+                
+                %%% Global Rests [measure 131] %%%
                 R1 * 3/2
-                % measure 132
+                
+                %%% Global Rests [measure 132] %%%
                 R1 * 3/2
-                % measure 133
+                
+                %%% Global Rests [measure 133] %%%
                 R1 * 1
-                % measure 134
+                
+                %%% Global Rests [measure 134] %%%
                 R1 * 3/4
-                % measure 135
+                
+                %%% Global Rests [measure 135] %%%
                 R1 * 1
-                % measure 136
+                
+                %%% Global Rests [measure 136] %%%
                 R1 * 5/4
-                % measure 137
+                
+                %%% Global Rests [measure 137] %%%
                 R1 * 3/4
-                % measure 138
+                
+                %%% Global Rests [measure 138] %%%
                 R1 * 3/4
-                % measure 139
+                
+                %%% Global Rests [measure 139] %%%
                 R1 * 3/4
-                % measure 140
+                
+                %%% Global Rests [measure 140] %%%
                 R1 * 1
-                % measure 141
+                
+                %%% Global Rests [measure 141] %%%
                 R1 * 5/4
-                % measure 142
+                
+                %%% Global Rests [measure 142] %%%
                 R1 * 1
-                % measure 143
+                
+                %%% Global Rests [measure 143] %%%
                 R1 * 3/2
-                % measure 144
+                
+                %%% Global Rests [measure 144] %%%
                 R1 * 3/2
-                % measure 145
+                
+                %%% Global Rests [measure 145] %%%
                 R1 * 3/2
-                % measure 146
+                
+                %%% Global Rests [measure 146] %%%
                 R1 * 1
-                % measure 147
+                
+                %%% Global Rests [measure 147] %%%
                 R1 * 3/2
-                % measure 148
+                
+                %%% Global Rests [measure 148] %%%
                 R1 * 5/4
-                % measure 149
+                
+                %%% Global Rests [measure 149] %%%
                 R1 * 3/4
-                % measure 150
+                
+                %%% Global Rests [measure 150] %%%
                 R1 * 3/4
-                % measure 151
+                
+                %%% Global Rests [measure 151] %%%
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -126,9 +165,11 @@
                         \musicglyph
                             #"scripts.ulongfermata"
                         }
+                
             }
             \context GlobalSkips = "Global Skips" {
-                % measure 113
+                
+                %%% Global Skips [measure 113] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \mark #5
@@ -149,42 +190,50 @@
                             44
                         }
                     }
-                % measure 114
+                
+                %%% Global Skips [measure 114] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
-                % measure 115
+                
+                %%% Global Skips [measure 115] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 116
+                
+                %%% Global Skips [measure 116] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
-                % measure 117
+                
+                %%% Global Skips [measure 117] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 118
+                
+                %%% Global Skips [measure 118] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
-                % measure 119
+                
+                %%% Global Skips [measure 119] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
-                % measure 120
+                
+                %%% Global Skips [measure 120] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
-                % measure 121
+                
+                %%% Global Skips [measure 121] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -204,22 +253,26 @@
                             55
                         }
                     }
-                % measure 122
+                
+                %%% Global Skips [measure 122] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 123
+                
+                %%% Global Skips [measure 123] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 124
+                
+                %%% Global Skips [measure 124] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 125
+                
+                %%% Global Skips [measure 125] %%%
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -245,12 +298,14 @@
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4 \startTextSpan
-                % measure 126
+                
+                %%% Global Skips [measure 126] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 127
+                
+                %%% Global Skips [measure 127] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
@@ -270,22 +325,26 @@
                             89
                         }
                     }
-                % measure 128
+                
+                %%% Global Skips [measure 128] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 129
+                
+                %%% Global Skips [measure 129] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 130
+                
+                %%% Global Skips [measure 130] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 131
+                
+                %%% Global Skips [measure 131] %%%
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -311,42 +370,50 @@
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2 \startTextSpan
-                % measure 132
+                
+                %%% Global Skips [measure 132] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 56)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 133
+                
+                %%% Global Skips [measure 133] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 134
+                
+                %%% Global Skips [measure 134] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 135
+                
+                %%% Global Skips [measure 135] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 136
+                
+                %%% Global Skips [measure 136] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
-                % measure 137
+                
+                %%% Global Skips [measure 137] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 138
+                
+                %%% Global Skips [measure 138] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 139
+                
+                %%% Global Skips [measure 139] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
@@ -366,66 +433,79 @@
                             126
                         }
                     }
-                % measure 140
+                
+                %%% Global Skips [measure 140] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 141
+                
+                %%% Global Skips [measure 141] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
-                % measure 142
+                
+                %%% Global Skips [measure 142] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 143
+                
+                %%% Global Skips [measure 143] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 144
+                
+                %%% Global Skips [measure 144] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 145
+                
+                %%% Global Skips [measure 145] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 88)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 146
+                
+                %%% Global Skips [measure 146] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 4/4
                 \newSpacingSection
                 s1 * 1
-                % measure 147
+                
+                %%% Global Skips [measure 147] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 88)
                 \time 6/4
                 \newSpacingSection
                 s1 * 3/2
-                % measure 148
+                
+                %%% Global Skips [measure 148] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 5/4
                 \newSpacingSection
                 s1 * 5/4
-                % measure 149
+                
+                %%% Global Skips [measure 149] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 150
+                
+                %%% Global Skips [measure 150] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
                 s1 * 3/4
-                % measure 151
+                
+                %%% Global Skips [measure 151] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
                 s1 * 1/4
+                
             }
         >>
         \context MusicContext = "Music Context" {
@@ -433,7 +513,8 @@
                 \tag violin_one
                 \context ViolinOneMusicStaff = "Violin One Music Staff" {
                     \context ViolinOneMusicVoice = "Violin One Music Voice" {
-                        % measure 113
+                        
+                        %%% Violin One Music Voice [measure 113] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -461,641 +542,1079 @@
                         R1 * 3
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
-                            % measure 117
+                            
+                            %%% Violin One Music Voice [measure 117] %%%
                             f'4 \ff
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "terminate each note abruptly"
                                     }
+                            
                             r4
+                            
                             r4
+                            
                             r4
                         }
-                        % measure 118
+                        
+                        %%% Violin One Music Voice [measure 118] %%%
                         R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/3 {
-                            % measure 119
+                            
+                            %%% Violin One Music Voice [measure 119] %%%
                             fs'4
+                            
                             r4
+                            
                             r4
                         }
-                        % measure 120
+                        
+                        %%% Violin One Music Voice [measure 120] %%%
                         R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 121
+                            
+                            %%% Violin One Music Voice [measure 121] %%%
                             r4
+                            
                             f'4
+                            
                             r4
+                            
                             r4
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/4 {
-                            % measure 122
+                            
+                            %%% Violin One Music Voice [measure 122] %%%
                             r4
+                            
                             e'4
+                            
                             r4
+                            
                             r4
                         }
                         \times 8/9 {
-                            % measure 123
+                            
+                            %%% Violin One Music Voice [measure 123] %%%
                             ef'8
+                            
                             r8
+                            
                             r8
+                            
                             f'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             e'8
                         }
                         \times 8/9 {
-                            % measure 124
+                            
+                            %%% Violin One Music Voice [measure 124] %%%
                             r8
+                            
                             r8
+                            
                             f'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             fs'8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/11 {
-                            % measure 125
+                            
+                            %%% Violin One Music Voice [measure 125] %%%
                             r8
+                            
                             af'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             g'8
+                            
                             r8
+                            
                             r8
+                            
                             fs'8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            % measure 126
+                            
+                            %%% Violin One Music Voice [measure 126] %%%
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             f'8
+                            
                             r8
+                            
                             r8
+                            
                             g'8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            % measure 127
+                            
+                            %%% Violin One Music Voice [measure 127] %%%
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             af'8 \f
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "po' meno scratch"
                                     }
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            % measure 128
+                            
+                            %%% Violin One Music Voice [measure 128] %%%
                             a'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             af'8
+                            
                             r8
+                            
                             r8
+                            
                             bf'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \times 8/9 {
-                            % measure 129
+                            
+                            %%% Violin One Music Voice [measure 129] %%%
                             b'8
+                            
                             r8
+                            
                             r8
+                            
                             a'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             bf'8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            % measure 130
+                            
+                            %%% Violin One Music Voice [measure 130] %%%
                             r8
+                            
                             r8
+                            
                             g'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             af'8
+                            
                             r8
+                            
                             r8
+                            
                             g'8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            % measure 131
+                            
+                            %%% Violin One Music Voice [measure 131] %%%
                             r8
+                            
                             r8
+                            
                             fs'8
+                            
                             r8
+                            
                             r8
+                            
                             f'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             g'8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            % measure 132
+                            
+                            %%% Violin One Music Voice [measure 132] %%%
                             fs'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             g'8
+                            
                             r8
+                            
                             r8
+                            
                             af'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \times 8/9 {
-                            % measure 133
+                            
+                            %%% Violin One Music Voice [measure 133] %%%
                             bf'8
+                            
                             r8
+                            
                             r8
+                            
                             a'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             af'8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            % measure 134
+                            
+                            %%% Violin One Music Voice [measure 134] %%%
                             r8
+                            
                             r8
+                            
                             g'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
-                        % measure 135
+                        
+                        %%% Violin One Music Voice [measure 135] %%%
                         r4
                         {
+                            
                             r16
+                            
                             a'16 -\staccato \> \mf [
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "senza scratch"
                                     }
+                            
                             bf'16 -\staccato
+                            
                             b'16 -\staccato ]
                         }
+                        
                         r4
+                        
                         r4
-                        % measure 136
+                        
+                        %%% Violin One Music Voice [measure 136] %%%
                         r4
+                        
                         r4
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             bf'16 -\staccato [
+                            
                             c''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             b'16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             c''16 -\staccato [
+                            
                             a'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             g'16 -\staccato ]
                         }
                         {
-                            % measure 137
+                            
+                            %%% Violin One Music Voice [measure 137] %%%
                             r16
+                            
                             a'16 -\staccato [
+                            
                             af'16 -\staccato
+                            
                             a'16 -\staccato ]
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             bf'16 -\staccato [
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato ]
                         }
                         \times 4/7 {
-                            % measure 138
+                            
+                            %%% Violin One Music Voice [measure 138] %%%
                             r16
+                            
                             a'16 -\staccato [
+                            
                             b'16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             d''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             cs''16 -\staccato
+                            
                             d''16 -\staccato ]
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 139
+                            
+                            %%% Violin One Music Voice [measure 139] %%%
                             r16
+                            
                             b'16 -\staccato [
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             a'16 -\staccato [
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             d''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             cs''16 -\staccato [
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato ]
                         }
                         \times 4/6 {
-                            % measure 140
+                            
+                            %%% Violin One Music Voice [measure 140] %%%
                             r16
+                            
                             cs''16 -\staccato [
+                            
                             d''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             e''16 -\staccato ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             f''16 -\staccato [
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             cs''16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             d''16 -\staccato [
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             cs''16 -\staccato [
+                            
                             d''16 -\staccato
+                            
                             e''16 -\staccato ]
                         }
-                        % measure 141
+                        
+                        %%% Violin One Music Voice [measure 141] %%%
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             d''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             ef''16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             e''16 -\staccato [
+                            
                             f''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             f''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             fs''16 -\staccato [
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             d''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             d''16 -\staccato ]
                         }
                         \times 4/5 {
-                            % measure 142
+                            
+                            %%% Violin One Music Voice [measure 142] %%%
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             e''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             e''16 -\staccato [
+                            
                             ef''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             fs''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             af''16 -\staccato [
+                            
                             a''16 -\staccato
+                            
                             g''16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             af''16 -\staccato [
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             e''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            % measure 143
+                            
+                            %%% Violin One Music Voice [measure 143] %%%
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             f''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             af''16 -\staccato ]
                         }
                         \times 6/9 {
+                            
                             r16
+                            
                             g''16 -\staccato [
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             bf''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             b''16 -\staccato [
+                            
                             a''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
+                            
                             r16
+                            
                             g''16 -\staccato [
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            % measure 144
+                            
+                            %%% Violin One Music Voice [measure 144] %%%
                             r16
+                            
                             bf''16 -\staccato [
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             bf''16 -\staccato ]
                         }
                         \times 6/9 {
+                            
                             r16
+                            
                             b''16 -\staccato [
+                            
                             bf''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             bf''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             a''16 -\staccato [
+                            
                             af''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
+                            
                             r16
+                            
                             a''16 -\staccato [
+                            
                             bf''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             b''16 -\staccato \pp ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            % measure 145
+                            
+                            %%% Violin One Music Voice [measure 145] %%%
                             r16
+                            
                             c'''16 -\staccato [
+                            
                             cs'''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             cs'''16 -\staccato ]
                         }
                         \times 6/9 {
+                            
                             r16
+                            
                             d'''16 -\staccato [
+                            
                             b''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             bf''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             b''16 -\staccato [
+                            
                             c'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             c'''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
+                            
                             r16
+                            
                             b''16 -\staccato [
+                            
                             cs'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             e'''16 -\staccato
+                            
                             f'''16 -\staccato ]
                         }
                         \times 4/5 {
-                            % measure 146
+                            
+                            %%% Violin One Music Voice [measure 146] %%%
                             r16
+                            
                             ef'''16 -\staccato [
+                            
                             e'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             d'''16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             cs'''16 -\staccato [
+                            
                             c'''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             cs'''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             d'''16 -\staccato [
+                            
                             e'''16 -\staccato
+                            
                             ef'''16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             d'''16 -\staccato [
+                            
                             cs'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             e'''16 -\staccato
+                            
                             f'''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
-                            % measure 147
+                            
+                            %%% Violin One Music Voice [measure 147] %%%
                             r16
+                            
                             e'''16 -\staccato [
+                            
                             fs'''16 -\staccato
+                            
                             g'''16 -\staccato
+                            
                             f'''16 -\staccato
+                            
                             fs'''16 -\staccato
+                            
                             ef'''16 -\staccato ]
                         }
                         \times 6/9 {
+                            
                             r16
+                            
                             e'''16 -\staccato [
+                            
                             ef'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             e'''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             fs'''16 -\staccato [
+                            
                             f'''16 -\staccato
+                            
                             e'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             f'''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
+                            
                             r16
+                            
                             fs'''16 -\staccato [
+                            
                             g'''16 -\staccato
+                            
                             fs'''16 -\staccato
+                            
                             af'''16 -\staccato
+                            
                             a'''16 -\staccato
+                            
                             g'''16 -\staccato
+                            
                             af'''16 -\staccato ]
                         }
                         \times 4/5 {
-                            % measure 148
+                            
+                            %%% Violin One Music Voice [measure 148] %%%
                             r16
+                            
                             f'''16 -\staccato [
+                            
                             fs'''16 -\staccato
+                            
                             f'''16 -\staccato
+                            
                             e'''16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             ef'''16 -\staccato [
+                            
                             f'''16 -\staccato
+                            
                             e'''16 -\staccato
+                            
                             f'''16 -\staccato
+                            
                             fs'''16 -\staccato
+                            
                             af'''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             g'''16 -\staccato [
+                            
                             fs'''16 -\staccato
+                            
                             f'''16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             g'''16 -\staccato [
+                            
                             af'''16 -\staccato
+                            
                             a'''16 -\staccato
+                            
                             af'''16 -\staccato
+                            
                             bf'''16 -\staccato ]
                         }
+                        
                         r4
-                        % measure 149
+                        
+                        %%% Violin One Music Voice [measure 149] %%%
                         r4
+                        
                         r4
+                        
                         r4
-                        % measure 150
+                        
+                        %%% Violin One Music Voice [measure 150] %%%
                         r4
+                        
                         r4
+                        
                         r4
-                        % measure 151
+                        
+                        %%% Violin One Music Voice [measure 151] %%%
                         R1 * 1/4
                         \bar "|"
+                        
                     }
                 }
                 \tag violin_two
                 \context ViolinTwoMusicStaff = "Violin Two Music Staff" {
                     \context ViolinTwoMusicVoice = "Violin Two Music Voice" {
-                        % measure 113
+                        
+                        %%% Violin Two Music Voice [measure 113] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1123,10 +1642,14 @@
                         R1 * 5/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
-                            % measure 115
+                            
+                            %%% Violin Two Music Voice [measure 115] %%%
                             r4
+                            
                             r4
+                            
                             r4
+                            
                             a4 \ff
                                 ^ \markup {
                                     \whiteout
@@ -1134,656 +1657,1109 @@
                                             "terminate each note abruptly"
                                     }
                         }
-                        % measure 116
+                        
+                        %%% Violin Two Music Voice [measure 116] %%%
                         R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            % measure 117
+                            
+                            %%% Violin Two Music Voice [measure 117] %%%
                             r4
+                            
                             r4
+                            
                             bf4
+                            
                             r4
+                            
                             r4
                         }
-                        % measure 118
+                        
+                        %%% Violin Two Music Voice [measure 118] %%%
                         R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/6 {
-                            % measure 119
+                            
+                            %%% Violin Two Music Voice [measure 119] %%%
                             r4
+                            
                             r4
+                            
                             r4
+                            
                             r4
+                            
                             r4
+                            
                             a4
                         }
-                        % measure 120
+                        
+                        %%% Violin Two Music Voice [measure 120] %%%
                         R1 * 1/4
                         {
-                            % measure 121
+                            
+                            %%% Violin Two Music Voice [measure 121] %%%
                             r4
+                            
                             r4
+                            
                             af4
                         }
                         {
-                            % measure 122
+                            
+                            %%% Violin Two Music Voice [measure 122] %%%
                             r4
+                            
                             r4
+                            
                             g4
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            % measure 123
+                            
+                            %%% Violin Two Music Voice [measure 123] %%%
                             r8
+                            
                             a8 \f
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "po' meno scratch"
                                     }
+                            
                             r8
+                            
                             r8
+                            
                             af8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            % measure 124
+                            
+                            %%% Violin Two Music Voice [measure 124] %%%
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             a8
+                            
                             r8
+                            
                             r8
+                            
                             bf8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/9 {
-                            % measure 125
+                            
+                            %%% Violin Two Music Voice [measure 125] %%%
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             c'8
+                            
                             r8
+                            
                             r8
+                            
                             b8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            % measure 126
+                            
+                            %%% Violin Two Music Voice [measure 126] %%%
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            % measure 127
+                            
+                            %%% Violin Two Music Voice [measure 127] %%%
                             bf8
+                            
                             r8
+                            
                             r8
+                            
                             a8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/11 {
-                            % measure 128
+                            
+                            %%% Violin Two Music Voice [measure 128] %%%
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             b8
+                            
                             r8
+                            
                             r8
+                            
                             c'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 8/7 {
-                            % measure 129
+                            
+                            %%% Violin Two Music Voice [measure 129] %%%
                             r8
+                            
                             r8
+                            
                             cs'8
+                            
                             r8
+                            
                             r8
+                            
                             c'8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/11 {
-                            % measure 130
+                            
+                            %%% Violin Two Music Voice [measure 130] %%%
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             d'8
+                            
                             r8
+                            
                             r8
+                            
                             ef'8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/11 {
-                            % measure 131
+                            
+                            %%% Violin Two Music Voice [measure 131] %%%
                             r8
+                            
                             r8
+                            
                             cs'8 -\staccato \mf
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "senza scratch"
                                     }
+                            
                             r8
+                            
                             r8
+                            
                             d'8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/11 {
-                            % measure 132
+                            
+                            %%% Violin Two Music Voice [measure 132] %%%
                             b8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             c'8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             b8 -\staccato
+                            
                             r8
                         }
-                        % measure 133
+                        
+                        %%% Violin Two Music Voice [measure 133] %%%
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             bf16 -\staccato [
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             leggieriss.
                                     }
+                            
                             a16 -\staccato
+                            
                             b16 -\staccato
+                            
                             bf16 -\staccato ]
                         }
+                        
                         r4
+                        
                         r4
-                        % measure 134
+                        
+                        %%% Violin Two Music Voice [measure 134] %%%
                         r4
+                        
                         r4
+                        
                         r4
                         {
-                            % measure 135
+                            
+                            %%% Violin Two Music Voice [measure 135] %%%
                             r16
+                            
                             b16 -\staccato \> \mf [
+                            
                             c'16 -\staccato
+                            
                             d'16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             cs'16 -\staccato [
+                            
                             c'16 -\staccato
+                            
                             b16 -\staccato
+                            
                             cs'16 -\staccato
+                            
                             d'16 -\staccato ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             ef'16 -\staccato [
+                            
                             d'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             f'16 -\staccato ]
                         }
+                        
                         r4
                         {
-                            % measure 136
+                            
+                            %%% Violin Two Music Voice [measure 136] %%%
                             r16
+                            
                             ef'16 -\staccato [
+                            
                             e'16 -\staccato
+                            
                             cs'16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             d'16 -\staccato [
+                            
                             cs'16 -\staccato
+                            
                             c'16 -\staccato
+                            
                             b16 -\staccato
+                            
                             cs'16 -\staccato ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             c'16 -\staccato [
+                            
                             cs'16 -\staccato
+                            
                             d'16 -\staccato
+                            
                             e'16 -\staccato ]
                         }
+                        
                         r4
                         {
+                            
                             r16
+                            
                             ef'16 -\staccato [
+                            
                             d'16 -\staccato
+                            
                             cs'16 -\staccato ]
                         }
                         \times 4/6 {
-                            % measure 137
+                            
+                            %%% Violin Two Music Voice [measure 137] %%%
                             r16
+                            
                             ef'16 -\staccato [
+                            
                             e'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             fs'16 -\staccato ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             g'16 -\staccato [
+                            
                             f'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             ef'16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             e'16 -\staccato [
+                            
                             ef'16 -\staccato
+                            
                             d'16 -\staccato
+                            
                             cs'16 -\staccato
+                            
                             ef'16 -\staccato
+                            
                             d'16 -\staccato ]
                         }
                         {
-                            % measure 138
+                            
+                            %%% Violin Two Music Voice [measure 138] %%%
                             r16
+                            
                             ef'16 -\staccato [
+                            
                             e'16 -\staccato
+                            
                             fs'16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             f'16 -\staccato [
+                            
                             e'16 -\staccato
+                            
                             ef'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             fs'16 -\staccato ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             g'16 -\staccato [
+                            
                             fs'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             a'16 -\staccato ]
                         }
-                        % measure 139
+                        
+                        %%% Violin Two Music Voice [measure 139] %%%
                         r4
                         {
+                            
                             r16
+                            
                             g'16 -\staccato [
+                            
                             af'16 -\staccato
+                            
                             f'16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             fs'16 -\staccato [
+                            
                             f'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             ef'16 -\staccato
+                            
                             f'16 -\staccato ]
                         }
                         \times 4/5 {
-                            % measure 140
+                            
+                            %%% Violin Two Music Voice [measure 140] %%%
                             r16
+                            
                             e'16 -\staccato [
+                            
                             f'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             af'16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             g'16 -\staccato [
+                            
                             fs'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             a'16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             af'16 -\staccato [
+                            
                             bf'16 -\staccato
+                            
                             b'16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             a'16 -\staccato [
+                            
                             bf'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             g'16 -\staccato ]
                         }
                         \times 4/5 {
-                            % measure 141
+                            
+                            %%% Violin Two Music Voice [measure 141] %%%
                             r16
+                            
                             fs'16 -\staccato [
+                            
                             f'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             fs'16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             g'16 -\staccato [
+                            
                             af'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             g'16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             a'16 -\staccato [
+                            
                             bf'16 -\staccato
+                            
                             b'16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             bf'16 -\staccato [
+                            
                             c''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             c''16 -\staccato ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             a'16 -\staccato [
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             af'16 -\staccato ]
                         }
                         \times 4/7 {
-                            % measure 142
+                            
+                            %%% Violin Two Music Voice [measure 142] %%%
                             r16
+                            
                             g'16 -\staccato [
+                            
                             a'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             c''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             b'16 -\staccato [
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             b'16 -\staccato [
+                            
                             c''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             d''16 -\staccato ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             cs''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             b'16 -\staccato ]
                         }
                         \times 6/9 {
-                            % measure 143
+                            
+                            %%% Violin Two Music Voice [measure 143] %%%
                             r16
+                            
                             c''16 -\staccato [
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             c''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             d''16 -\staccato [
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             cs''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
+                            
                             r16
+                            
                             d''16 -\staccato [
+                            
                             ef''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            
                             r16
+                            
                             cs''16 -\staccato [
+                            
                             d''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             cs''16 -\staccato ]
                         }
                         \times 6/9 {
-                            % measure 144
+                            
+                            %%% Violin Two Music Voice [measure 144] %%%
                             r16
+                            
                             c''16 -\staccato [
+                            
                             cs''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             ef''16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             e''16 -\staccato [
+                            
                             f''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
+                            
                             r16
+                            
                             f''16 -\staccato [
+                            
                             fs''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             cs''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             d''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato \pp ]
                         }
                         {
-                            % measure 145
+                            
+                            %%% Violin Two Music Voice [measure 145] %%%
                             r16
+                            
                             e''16 -\staccato [
+                            
                             ef''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato ]
                         }
                         \times 12/15 {
+                            
                             r16
+                            
                             fs''16 -\staccato [
+                            
                             af''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/11 {
+                            
                             r16
+                            
                             af''16 -\staccato [
+                            
                             g''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             b''16 -\staccato ]
                         }
                         \times 8/12 {
-                            % measure 146
+                            
+                            %%% Violin Two Music Voice [measure 146] %%%
                             r16
+                            
                             a''16 -\staccato [
+                            
                             bf''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato ]
                         }
                         \times 8/14 {
+                            
                             r16
+                            
                             bf''16 -\staccato [
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             a''16 -\staccato ]
                         }
                         \times 6/9 {
-                            % measure 147
+                            
+                            %%% Violin Two Music Voice [measure 147] %%%
                             r16
+                            
                             bf''16 -\staccato [
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             bf''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/17 {
+                            
                             r16
+                            
                             c'''16 -\staccato [
+                            
                             b''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             bf''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/10 {
+                            
                             r16
+                            
                             a''16 -\staccato [
+                            
                             b''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             b''16 -\staccato ]
                         }
                         \times 8/14 {
-                            % measure 148
+                            
+                            %%% Violin Two Music Voice [measure 148] %%%
                             r16
+                            
                             cs'''16 -\staccato [
+                            
                             d'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             e'''16 -\staccato
+                            
                             f'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             e'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             b''16 -\staccato ]
                         }
                         \times 8/11 {
+                            
                             r16
+                            
                             cs'''16 -\staccato [
+                            
                             c'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             e'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             d'''16 -\staccato
+                            
                             cs'''16 -\staccato
+                            
                             ef'''16 -\staccato
+                            
                             e'''16 -\staccato ]
                         }
+                        
                         r4
-                        % measure 149
+                        
+                        %%% Violin Two Music Voice [measure 149] %%%
                         r2
+                        
                         r4
-                        % measure 150
+                        
+                        %%% Violin Two Music Voice [measure 150] %%%
                         r2
+                        
                         r4
-                        % measure 151
+                        
+                        %%% Violin Two Music Voice [measure 151] %%%
                         R1 * 1/4
                         \bar "|"
+                        
                     }
                 }
                 \tag viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \context ViolaMusicVoice = "Viola Music Voice" {
-                        % measure 113
+                        
+                        %%% Viola Music Voice [measure 113] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -1801,6 +2777,7 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         r4
+                        
                         \override RepeatTie.direction = #up
                         c'4 -\downbow
                             ^ \markup {
@@ -1820,199 +2797,348 @@
                                     \italic
                                         ”
                                 }
+                        
                         c'4. -\upbow
+                        
                         r8
-                        % measure 114
+                        
+                        %%% Viola Music Voice [measure 114] %%%
                         R1 * 1/4
-                        % measure 115
+                        
+                        %%% Viola Music Voice [measure 115] %%%
                         r4.
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         r4
-                        % measure 116
+                        
+                        %%% Viola Music Voice [measure 116] %%%
                         R1 * 1/4
-                        % measure 117
+                        
+                        %%% Viola Music Voice [measure 117] %%%
                         r4.
+                        
                         c'4 -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         r4
-                        % measure 118
+                        
+                        %%% Viola Music Voice [measure 118] %%%
                         R1 * 1/4
-                        % measure 119
+                        
+                        %%% Viola Music Voice [measure 119] %%%
                         r4
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         r4.
-                        % measure 120
+                        
+                        %%% Viola Music Voice [measure 120] %%%
                         R1 * 1/4
-                        % measure 121
+                        
+                        %%% Viola Music Voice [measure 121] %%%
                         r4
+                        
                         c'4. -\downbow
+                        
                         c'8 -\upbow ~ [
-                        % measure 122
+                        
+                        %%% Viola Music Voice [measure 122] %%%
                         c'8 ]
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
-                        % measure 123
+                        
+                        %%% Viola Music Voice [measure 123] %%%
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'8 -\upbow ~ [
-                        % measure 124
+                        
+                        %%% Viola Music Voice [measure 124] %%%
                         c'8 ]
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4 -\downbow ~
-                        % measure 125
+                        
+                        %%% Viola Music Voice [measure 125] %%%
                         c'8
+                        
                         c'4 -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
-                        % measure 126
+                        
+                        %%% Viola Music Voice [measure 126] %%%
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'8 -\upbow ~ [
-                        % measure 127
+                        
+                        %%% Viola Music Voice [measure 127] %%%
                         c'8 ]
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
-                        % measure 128
+                        
+                        %%% Viola Music Voice [measure 128] %%%
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
-                        % measure 129
+                        
+                        %%% Viola Music Voice [measure 129] %%%
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'8 -\downbow ~
-                        % measure 130
+                        
+                        %%% Viola Music Voice [measure 130] %%%
                         c'4
+                        
                         c'4 -\upbow
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'8 -\upbow ~
-                        % measure 131
+                        
+                        %%% Viola Music Voice [measure 131] %%%
                         c'4
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'8 -\downbow ~
-                        % measure 132
+                        
+                        %%% Viola Music Voice [measure 132] %%%
                         c'4
+                        
                         c'4 -\upbow
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'8 -\upbow ~
-                        % measure 133
+                        
+                        %%% Viola Music Voice [measure 133] %%%
                         c'4
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'8 -\downbow ~ [
-                        % measure 134
+                        
+                        %%% Viola Music Voice [measure 134] %%%
                         c'8 ]
+                        
                         c'4 -\upbow
+                        
                         c'4. -\downbow
-                        % measure 135
+                        
+                        %%% Viola Music Voice [measure 135] %%%
                         c'4 -\upbow
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'8 -\downbow ~ [
-                        % measure 136
+                        
+                        %%% Viola Music Voice [measure 136] %%%
                         c'8 ]
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'8 -\downbow ~ [
-                        % measure 137
+                        
+                        %%% Viola Music Voice [measure 137] %%%
                         c'8 ]
+                        
                         c'4 -\upbow
+                        
                         c'4. -\downbow
-                        % measure 138
+                        
+                        %%% Viola Music Voice [measure 138] %%%
                         c'4 -\upbow
+                        
                         c'4. -\downbow
+                        
                         c'8 -\upbow ~ [
-                        % measure 139
+                        
+                        %%% Viola Music Voice [measure 139] %%%
                         c'8 ]
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
-                        % measure 140
+                        
+                        %%% Viola Music Voice [measure 140] %%%
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'8 -\upbow ~ [
-                        % measure 141
+                        
+                        %%% Viola Music Voice [measure 141] %%%
                         c'8 ]
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4. -\downbow
+                        
                         c'8 -\upbow ~ [
-                        % measure 142
+                        
+                        %%% Viola Music Voice [measure 142] %%%
                         c'8 ]
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
-                        % measure 143
+                        
+                        %%% Viola Music Voice [measure 143] %%%
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
-                        % measure 144
+                        
+                        %%% Viola Music Voice [measure 144] %%%
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
-                        % measure 145
+                        
+                        %%% Viola Music Voice [measure 145] %%%
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
-                        % measure 146
+                        
+                        %%% Viola Music Voice [measure 146] %%%
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'8 -\upbow ~
-                        % measure 147
+                        
+                        %%% Viola Music Voice [measure 147] %%%
                         c'4
+                        
                         c'4 -\downbow
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'8 -\downbow ~
-                        % measure 148
+                        
+                        %%% Viola Music Voice [measure 148] %%%
                         c'4
+                        
                         c'4 -\upbow
+                        
                         c'4. -\downbow
+                        
                         c'4 -\upbow
+                        
                         c'8 -\downbow ~ [
-                        % measure 149
+                        
+                        %%% Viola Music Voice [measure 149] %%%
                         c'8 ]
+                        
                         c'4. -\upbow
+                        
                         c'4 -\downbow
-                        % measure 150
+                        
+                        %%% Viola Music Voice [measure 150] %%%
                         c'4. -\upbow
+                        
                         c'4 -\downbow
                         \revert RepeatTie.direction
+                        
                         r8
-                        % measure 151
+                        
+                        %%% Viola Music Voice [measure 151] %%%
                         R1 * 1/4
                         \bar "|"
+                        
                     }
                 }
                 \tag cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \context CelloMusicVoice = "Cello Music Voice" {
-                        % measure 113
+                        
+                        %%% Cello Music Voice [measure 113] %%%
                         \set CelloMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -2029,693 +3155,1198 @@
                         R1 * 5/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
-                            % measure 115
+                            
+                            %%% Cello Music Voice [measure 115] %%%
                             r4
+                            
                             b,4 \ff
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "terminate each note abruptly"
                                     }
+                            
                             r4
+                            
                             r4
+                            
                             r4
                         }
-                        % measure 116
+                        
+                        %%% Cello Music Voice [measure 116] %%%
                         R1 * 2
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/4 {
-                            % measure 119
+                            
+                            %%% Cello Music Voice [measure 119] %%%
                             r4
+                            
                             c4
+                            
                             r4
+                            
                             r4
                         }
-                        % measure 120
+                        
+                        %%% Cello Music Voice [measure 120] %%%
                         R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/5 {
-                            % measure 121
+                            
+                            %%% Cello Music Voice [measure 121] %%%
                             r4
+                            
                             r4
+                            
                             b,4 \f
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "po' meno scratch"
                                     }
+                            
                             r4
+                            
                             r4
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 3/5 {
-                            % measure 122
+                            
+                            %%% Cello Music Voice [measure 122] %%%
                             r4
+                            
                             r4
+                            
                             r4
+                            
                             bf,4
+                            
                             r4
                         }
                         \times 8/10 {
-                            % measure 123
+                            
+                            %%% Cello Music Voice [measure 123] %%%
                             r8
+                            
                             r8
+                            
                             a,8
+                            
                             r8
+                            
                             r8
+                            
                             b,8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \times 8/10 {
-                            % measure 124
+                            
+                            %%% Cello Music Voice [measure 124] %%%
                             r8
+                            
                             bf,8
+                            
                             r8
+                            
                             r8
+                            
                             b,8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/12 {
-                            % measure 125
+                            
+                            %%% Cello Music Voice [measure 125] %%%
                             c8
+                            
                             r8
+                            
                             r8
+                            
                             d8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             cs8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
-                            % measure 126
+                            
+                            %%% Cello Music Voice [measure 126] %%%
                             c8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             b,8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
-                            % measure 127
+                            
+                            %%% Cello Music Voice [measure 127] %%%
                             r8
+                            
                             cs8 -\staccato \mf
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             "senza scratch"
                                     }
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             d8 -\staccato
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/14 {
-                            % measure 128
+                            
+                            %%% Cello Music Voice [measure 128] %%%
                             r8
+                            
                             r8
+                            
                             ef8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             d8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             e8 -\staccato
+                            
                             r8
+                            
                             r8
                         }
                         \times 8/10 {
-                            % measure 129
+                            
+                            %%% Cello Music Voice [measure 129] %%%
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             f8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             ef8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             r8
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/14 {
-                            % measure 130
+                            
+                            %%% Cello Music Voice [measure 130] %%%
                             r8
+                            
                             r8
+                            
                             e8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             cs8 -\staccato
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             r8
+                            
                             d8 -\staccato
+                            
                             r8
+                            
                             r8
                         }
-                        % measure 131
+                        
+                        %%% Cello Music Voice [measure 131] %%%
                         r4.
                         {
+                            
                             r16
+                            
                             cs16 -\staccato [
                                 ^ \markup {
                                     \whiteout
                                         \upright
                                             leggieriss.
                                     }
+                            
                             c16 -\staccato
+                            
                             b,16 -\staccato
+                            
                             cs16 -\staccato
+                            
                             c16 -\staccato ]
                         }
+                        
                         r4.
+                        
                         r4.
-                        % measure 132
+                        
+                        %%% Cello Music Voice [measure 132] %%%
                         r4.
+                        
                         r4.
+                        
                         r4.
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
+                            
                             r16
+                            
                             cs16 -\staccato [
+                            
                             d16 -\staccato
+                            
                             e16 -\staccato
+                            
                             ef16 -\staccato
+                            
                             d16 -\staccato
+                            
                             cs16 -\staccato ]
                         }
                         \times 4/7 {
-                            % measure 133
+                            
+                            %%% Cello Music Voice [measure 133] %%%
                             r16
+                            
                             ef16 -\staccato [
+                            
                             e16 -\staccato
+                            
                             f16 -\staccato
+                            
                             e16 -\staccato
+                            
                             fs16 -\staccato
+                            
                             g16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             f16 -\staccato [
+                            
                             fs16 -\staccato
+                            
                             ef16 -\staccato ]
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             e16 -\staccato [
+                            
                             ef16 -\staccato
+                            
                             d16 -\staccato
+                            
                             cs16 -\staccato ]
                         }
                         \times 4/7 {
-                            % measure 134
+                            
+                            %%% Cello Music Voice [measure 134] %%%
                             r16
+                            
                             ef16 -\staccato [
+                            
                             d16 -\staccato
+                            
                             ef16 -\staccato
+                            
                             e16 -\staccato
+                            
                             fs16 -\staccato
+                            
                             f16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             e16 -\staccato [
+                            
                             ef16 -\staccato
+                            
                             f16 -\staccato ]
                         }
+                        
                         r4
                         \times 4/5 {
-                            % measure 135
+                            
+                            %%% Cello Music Voice [measure 135] %%%
                             r16
+                            
                             fs16 -\staccato \> \mf [
+                            
                             g16 -\staccato
+                            
                             fs16 -\staccato
+                            
                             af16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             a16 -\staccato [
+                            
                             g16 -\staccato
+                            
                             af16 -\staccato
+                            
                             f16 -\staccato
+                            
                             fs16 -\staccato
+                            
                             f16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             e16 -\staccato [
+                            
                             ef16 -\staccato
+                            
                             f16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             e16 -\staccato [
+                            
                             f16 -\staccato
+                            
                             fs16 -\staccato
+                            
                             af16 -\staccato
+                            
                             g16 -\staccato ]
                         }
                         \times 4/5 {
-                            % measure 136
+                            
+                            %%% Cello Music Voice [measure 136] %%%
                             r16
+                            
                             fs16 -\staccato [
+                            
                             f16 -\staccato
+                            
                             g16 -\staccato
+                            
                             af16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             a16 -\staccato [
+                            
                             af16 -\staccato
+                            
                             bf16 -\staccato
+                            
                             b16 -\staccato
+                            
                             a16 -\staccato
+                            
                             bf16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             g16 -\staccato [
+                            
                             af16 -\staccato
+                            
                             g16 -\staccato ]
                         }
+                        
                         r4
                         \times 4/5 {
+                            
                             r16
+                            
                             fs16 -\staccato [
+                            
                             f16 -\staccato
+                            
                             g16 -\staccato
+                            
                             fs16 -\staccato ]
                         }
                         \times 4/7 {
-                            % measure 137
+                            
+                            %%% Cello Music Voice [measure 137] %%%
                             r16
+                            
                             g16 -\staccato [
+                            
                             af16 -\staccato
+                            
                             bf16 -\staccato
+                            
                             a16 -\staccato
+                            
                             af16 -\staccato
+                            
                             g16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             a16 -\staccato [
+                            
                             bf16 -\staccato
+                            
                             b16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             bf16 -\staccato [
+                            
                             c'16 -\staccato
+                            
                             cs'16 -\staccato
+                            
                             b16 -\staccato
+                            
                             c'16 -\staccato ]
                         }
                         \times 4/5 {
-                            % measure 138
+                            
+                            %%% Cello Music Voice [measure 138] %%%
                             r16
+                            
                             a16 -\staccato [
+                            
                             bf16 -\staccato
+                            
                             a16 -\staccato
+                            
                             af16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             g16 -\staccato [
+                            
                             a16 -\staccato
+                            
                             af16 -\staccato
+                            
                             a16 -\staccato
+                            
                             bf16 -\staccato
+                            
                             c'16 -\staccato ]
                         }
                         {
+                            
                             r16
+                            
                             b16 -\staccato [
+                            
                             bf16 -\staccato
+                            
                             a16 -\staccato ]
                         }
                         {
-                            % measure 139
+                            
+                            %%% Cello Music Voice [measure 139] %%%
                             \clef "treble"
                             r16
+                            
                             b16 -\staccato [
+                            
                             c'16 -\staccato
+                            
                             cs'16 -\staccato ]
                         }
                         \times 8/9 {
+                            
                             r16
+                            
                             c'16 -\staccato [
+                            
                             d'16 -\staccato
+                            
                             ef'16 -\staccato
+                            
                             cs'16 -\staccato
+                            
                             d'16 -\staccato
+                            
                             b16 -\staccato
+                            
                             c'16 -\staccato
+                            
                             b16 -\staccato ]
                         }
                         \times 4/7 {
-                            % measure 140
+                            
+                            %%% Cello Music Voice [measure 140] %%%
                             r16
+                            
                             bf16 -\staccato [
+                            
                             a16 -\staccato
+                            
                             b16 -\staccato
+                            
                             bf16 -\staccato
+                            
                             b16 -\staccato
+                            
                             c'16 -\staccato ]
                         }
                         \times 8/10 {
+                            
                             r16
+                            
                             d'16 -\staccato [
+                            
                             cs'16 -\staccato
+                            
                             c'16 -\staccato
+                            
                             b16 -\staccato
+                            
                             cs'16 -\staccato
+                            
                             d'16 -\staccato
+                            
                             ef'16 -\staccato
+                            
                             d'16 -\staccato
+                            
                             e'16 -\staccato ]
                         }
                         \times 8/12 {
+                            
                             r16
+                            
                             f'16 -\staccato [
+                            
                             ef'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             cs'16 -\staccato
+                            
                             d'16 -\staccato
-                            % measure 141
+                            
+                            %%% Cello Music Voice [measure 141] %%%
                             cs'16 -\staccato
+                            
                             c'16 -\staccato
+                            
                             b16 -\staccato
+                            
                             cs'16 -\staccato
+                            
                             c'16 -\staccato
+                            
                             cs'16 -\staccato ]
                         }
                         \times 4/5 {
+                            
                             r16
+                            
                             d'16 -\staccato [
+                            
                             e'16 -\staccato
+                            
                             ef'16 -\staccato
+                            
                             d'16 -\staccato ]
                         }
                         \times 8/11 {
+                            
                             r16
+                            
                             cs'16 -\staccato [
+                            
                             ef'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             ef'16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             e'16 -\staccato [
+                            
                             ef'16 -\staccato
+                            
                             d'16 -\staccato
+                            
                             cs'16 -\staccato
+                            
                             ef'16 -\staccato ]
                         }
                         \times 8/12 {
-                            % measure 142
+                            
+                            %%% Cello Music Voice [measure 142] %%%
                             r16
+                            
                             d'16 -\staccato [
+                            
                             ef'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             ef'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             fs'16 -\staccato ]
                         }
                         \times 8/9 {
+                            
                             r16
+                            
                             af'16 -\staccato [
+                            
                             a'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             e'16 -\staccato ]
                         }
                         \times 6/9 {
-                            % measure 143
+                            
+                            %%% Cello Music Voice [measure 143] %%%
                             r16
+                            
                             ef'16 -\staccato [
+                            
                             f'16 -\staccato
+                            
                             e'16 -\staccato
+                            
                             f'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             fs'16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/14 {
+                            
                             r16
+                            
                             f'16 -\staccato [
+                            
                             g'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             fs'16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/10 {
+                            
                             r16
+                            
                             f'16 -\staccato [
+                            
                             g'16 -\staccato
+                            
                             fs'16 -\staccato
+                            
                             g'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             g'16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
-                            % measure 144
+                            
+                            %%% Cello Music Voice [measure 144] %%%
                             r16
+                            
                             a'16 -\staccato [
+                            
                             bf'16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             af'16 -\staccato ]
                         }
                         \times 12/15 {
+                            
                             r16
+                            
                             g'16 -\staccato [
+                            
                             a'16 -\staccato
+                            
                             af'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             d''16 -\staccato \pp ]
                         }
                         \times 12/18 {
-                            % measure 145
+                            
+                            %%% Cello Music Voice [measure 145] %%%
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             cs''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             a'16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             bf'16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             cs''16 -\staccato ]
                         }
                         \times 6/9 {
+                            
                             r16
+                            
                             d''16 -\staccato [
+                            
                             ef''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             cs''16 -\staccato ]
                         }
                         \times 10/15 {
+                            
                             r16
+                            
                             d''16 -\staccato [
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             b'16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             c''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             d''16 -\staccato
-                            % measure 146
+                            
+                            %%% Cello Music Voice [measure 146] %%%
                             e''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             cs''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato ]
                         }
                         \times 8/12 {
+                            
                             r16
+                            
                             f''16 -\staccato [
+                            
                             e''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             d''16 -\staccato
+                            
                             cs''16 -\staccato ]
                         }
                         \times 4/6 {
+                            
                             r16
+                            
                             ef''16 -\staccato [
+                            
                             d''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             fs''16 -\staccato ]
                         }
                         \times 12/15 {
-                            % measure 147
+                            
+                            %%% Cello Music Voice [measure 147] %%%
                             r16
+                            
                             f''16 -\staccato [
+                            
                             e''16 -\staccato
+                            
                             ef''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/11 {
+                            
                             r16
+                            
                             e''16 -\staccato [
+                            
                             ef''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             e''16 -\staccato
+                            
                             f''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/14 {
+                            
                             r16
+                            
                             g''16 -\staccato [
+                            
                             af''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             fs''16 -\staccato
+                            
                             f''16 -\staccato ]
                         }
                         \times 8/14 {
+                            
                             r16
+                            
                             g''16 -\staccato [
+                            
                             fs''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             af''16 -\staccato
+                            
                             g''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             b''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             c'''16 -\staccato ]
                         }
                         \times 4/7 {
+                            
                             r16
+                            
                             cs'''16 -\staccato [
+                            
                             b''16 -\staccato
+                            
                             c'''16 -\staccato
+                            
                             a''16 -\staccato
+                            
                             bf''16 -\staccato
+                            
                             a''16 -\staccato ]
                         }
+                        
                         r2
+                        
                         r4
+                        
                         r2
+                        
                         r2
-                        % measure 151
+                        
+                        %%% Cello Music Voice [measure 151] %%%
                         R1 * 1/4
                         \bar "|"
+                        
                     }
                 }
             >>
