@@ -301,9 +301,21 @@
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow \pp
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "terminate each note abruptly"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "full bow strokes"
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
+                                    }
                                 }
                             _ \markup {
                                 \larger
@@ -534,9 +546,21 @@
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow \pp
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "terminate each note abruptly"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "full bow strokes"
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
+                                    }
                                 }
                             _ \markup {
                                 \larger
@@ -633,9 +657,21 @@
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         c'4. -\downbow \pp
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "terminate each note abruptly"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "full bow strokes"
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
+                                    }
                                 }
                             _ \markup {
                                 \larger

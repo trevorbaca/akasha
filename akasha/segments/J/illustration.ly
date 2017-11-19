@@ -118,9 +118,21 @@
                             %%% ViolinOneMusicVoice [measure 262] %%%
                             f'4 \ff
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "scratch moltiss."
+                                                }
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "terminate each note abruptly"
+                                                }
+                                        }
                                     }
                             
                             r4
@@ -188,9 +200,21 @@
                             
                             a4 \ff
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "scratch moltiss."
+                                                }
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "terminate each note abruptly"
+                                                }
+                                        }
                                     }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -294,9 +318,21 @@
                             
                             b,4 \ff
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "scratch moltiss."
+                                                }
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "terminate each note abruptly"
+                                                }
+                                        }
                                     }
                             
                             r4

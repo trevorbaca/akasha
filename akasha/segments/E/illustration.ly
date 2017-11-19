@@ -548,9 +548,21 @@
                             %%% ViolinOneMusicVoice [measure 117] %%%
                             f'4 \ff
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "scratch moltiss."
+                                                }
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "terminate each note abruptly"
+                                                }
+                                        }
                                     }
                             
                             r4
@@ -897,9 +909,21 @@
                             
                             a'16 -\staccato \> \mf [
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "senza scratch"
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            leggieriss.
+                                                }
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "senza scratch"
+                                                }
+                                        }
                                     }
                             
                             bf'16 -\staccato
@@ -1656,9 +1680,21 @@
                             
                             a4 \ff
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "scratch moltiss."
+                                                }
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "terminate each note abruptly"
+                                                }
+                                        }
                                     }
                         }
                         
@@ -3167,9 +3203,21 @@
                             
                             b,4 \ff
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "terminate each note abruptly"
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "scratch moltiss."
+                                                }
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "terminate each note abruptly"
+                                                }
+                                        }
                                     }
                             
                             r4

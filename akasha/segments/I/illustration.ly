@@ -952,9 +952,21 @@
                             
                             g'''16 -\staccato \ppp [
                                 ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "pos. ord."
+                                    \column
+                                        {
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            leggieriss.
+                                                }
+                                            \line
+                                                {
+                                                    \whiteout
+                                                        \upright
+                                                            "pos. ord."
+                                                }
+                                        }
                                     }
                             
                             af'''16 -\staccato
