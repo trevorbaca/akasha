@@ -2892,9 +2892,21 @@
                         %%% ViolaMusicVoice [measure 157] %%%
                         fs2. \ff
                             ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "terminate abruptly"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "scratch moltiss."
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate abruptly"
+                                            }
+                                    }
                                 }
                         
                         %%% ViolaMusicVoice [measure 158] %%%
