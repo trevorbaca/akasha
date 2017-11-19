@@ -25,10 +25,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ulongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ulongfermata"
+                    }
                 
                 %%% GlobalRests [measure 7] %%%
                 R1 * 1
@@ -38,10 +38,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ulongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ulongfermata"
+                    }
                 
                 %%% GlobalRests [measure 9] %%%
                 R1 * 5/4
@@ -54,10 +54,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ushortfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ushortfermata"
+                    }
                 
                 %%% GlobalRests [measure 12] %%%
                 R1 * 3/2
@@ -67,10 +67,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ushortfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ushortfermata"
+                    }
                 
                 %%% GlobalRests [measure 14] %%%
                 R1 * 3/2
@@ -86,10 +86,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ulongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ulongfermata"
+                    }
                 
                 %%% GlobalRests [measure 18] %%%
                 R1 * 3/2
@@ -99,10 +99,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ulongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ulongfermata"
+                    }
                 
                 %%% GlobalRests [measure 20] %%%
                 R1 * 5/4
@@ -112,10 +112,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ulongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ulongfermata"
+                    }
                 
                 %%% GlobalRests [measure 22] %%%
                 R1 * 3/4
@@ -125,10 +125,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ushortfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ushortfermata"
+                    }
                 
             }
             \context GlobalSkips = "GlobalSkips" {
@@ -170,7 +170,8 @@
                 \time 3/4
                 \mark #1
                 \newSpacingSection
-                s1 * 3/4 \startTextSpan
+                s1 * 3/4
+                \startTextSpan
                 
                 %%% GlobalSkips [measure 5] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -182,7 +183,9 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
-                s1 * 1/4 \stopTextSpan ^ \markup {
+                s1 * 1/4
+                \stopTextSpan
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -247,7 +250,8 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 5/4
                 \newSpacingSection
-                s1 * 5/4 \startTextSpan
+                s1 * 5/4
+                \startTextSpan
                 
                 %%% GlobalSkips [measure 10] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -271,7 +275,9 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)
                 \time 1/4
                 \newSpacingSection
-                s1 * 1/4 \stopTextSpan ^ \markup {
+                s1 * 1/4
+                \stopTextSpan
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -381,21 +387,24 @@
                         R1 * 3
                         
                         %%% ViolinOneMusicVoice [measure 9] %%%
-                        e'4 \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + 1/2 scratch"
-                                }
+                        e'4
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + 1/2 scratch"
+                            }
                         
                         f'2
                         
-                        f'4. \repeatTie
+                        f'4.
+                        \repeatTie
                         
                         eqs'8
                         
                         %%% ViolinOneMusicVoice [measure 10] %%%
-                        eqs'8 \repeatTie
+                        eqs'8
+                        \repeatTie
                         
                         r2..
                         
@@ -406,16 +415,22 @@
                         r1
                         \times 8/9 {
                             
-                            b32 -\staccato \p [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "leggierissimo: off-string bowing on staccati"
-                                    }
+                            b32
+                            -\staccato
+                            \p
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "leggierissimo: off-string bowing on staccati"
+                                }
                             
-                            cs'32 -\staccato
+                            cs'32
+                            -\staccato
                             
-                            c'32 -\staccato ]
+                            c'32
+                            -\staccato
+                            ]
                             
                             r8.
                         }
@@ -423,9 +438,13 @@
                             
                             r16.
                             
-                            b32 -\staccato [
+                            b32
+                            -\staccato
+                            [
                             
-                            bf32 -\staccato ]
+                            bf32
+                            -\staccato
+                            ]
                             
                             r8
                         }
@@ -471,12 +490,14 @@
                             %%% ViolinOneMusicVoice [measure 15] %%%
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
-                            d''16 * 15/8 \pp [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "tasto + XFB"
-                                    }
+                            d''16 * 15/8
+                            \pp
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "tasto + XFB"
+                                }
                             
                             e''16 * 61/32
                             
@@ -497,7 +518,8 @@
                             e''16 * 407/64
                             
                             \revert Staff.Stem.stemlet-length
-                            d''16 * 117/16 ]
+                            d''16 * 117/16
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -538,7 +560,8 @@
                             %%% ViolinOneMusicVoice [measure 18] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            e''16 * 241/32 [
+                            e''16 * 241/32
+                            [
                             
                             r16 * 49/8
                             
@@ -549,7 +572,8 @@
                             r16 * 33/16
                             
                             \revert Staff.Stem.stemlet-length
-                            d''16 * 61/32 ]
+                            d''16 * 61/32
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -591,7 +615,8 @@
                             %%% ViolinOneMusicVoice [measure 20] %%%
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
-                            e''16 * 113/64 [
+                            e''16 * 113/64
+                            [
                             
                             r16 * 121/64
                             
@@ -602,7 +627,8 @@
                             r16 * 145/32
                             
                             \revert Staff.Stem.stemlet-length
-                            e''16 * 409/64 ]
+                            e''16 * 409/64
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -642,16 +668,22 @@
                         \times 8/9 {
                             
                             %%% ViolinTwoMusicVoice [measure 7] %%%
-                            bf32 -\staccato \p [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "leggierissimo: off-string bowing on staccati"
-                                    }
+                            bf32
+                            -\staccato
+                            \p
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "leggierissimo: off-string bowing on staccati"
+                                }
                             
-                            b32 -\staccato
+                            b32
+                            -\staccato
                             
-                            bf32 -\staccato ]
+                            bf32
+                            -\staccato
+                            ]
                             
                             r8.
                         }
@@ -659,9 +691,13 @@
                             
                             r16.
                             
-                            a32 -\staccato [
+                            a32
+                            -\staccato
+                            [
                             
-                            af32 -\staccato ]
+                            af32
+                            -\staccato
+                            ]
                             
                             r8
                         }
@@ -676,15 +712,17 @@
                         
                         r4.
                         
-                        d'8 \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + 1/2 scratch"
-                                }
+                        d'8
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + 1/2 scratch"
+                            }
                         
                         %%% ViolinTwoMusicVoice [measure 10] %%%
-                        d'8 \repeatTie
+                        d'8
+                        \repeatTie
                         
                         dqf'4.
                         
@@ -741,12 +779,14 @@
                             %%% ViolinTwoMusicVoice [measure 15] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            bf'16 * 247/32 \pp [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "tasto + XFB"
-                                    }
+                            bf'16 * 247/32
+                            \pp
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "tasto + XFB"
+                                }
                             
                             r16 * 459/64
                             
@@ -765,7 +805,8 @@
                             c''16 * 2
                             
                             \revert Staff.Stem.stemlet-length
-                            bf'16 * 31/16 ]
+                            bf'16 * 31/16
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -806,7 +847,8 @@
                             %%% ViolinTwoMusicVoice [measure 18] %%%
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
-                            c''16 * 115/64 [
+                            c''16 * 115/64
+                            [
                             
                             bf'16 * 121/64
                             
@@ -819,7 +861,8 @@
                             r16 * 81/16
                             
                             \revert Staff.Stem.stemlet-length
-                            bf'16 * 429/64 ]
+                            bf'16 * 429/64
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -861,7 +904,8 @@
                             %%% ViolinTwoMusicVoice [measure 20] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            c''16 * 477/64 [
+                            c''16 * 477/64
+                            [
                             
                             r16 * 353/64
                             
@@ -870,7 +914,8 @@
                             r16 * 17/8
                             
                             \revert Staff.Stem.stemlet-length
-                            c''16 * 15/8 ]
+                            c''16 * 15/8
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -911,14 +956,16 @@
                             %%% ViolinTwoMusicVoice [measure 22] %%%
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
-                            bf'16 * 13/8 [
+                            bf'16 * 13/8
+                            [
                             
                             c''16 * 125/64
                             
                             r16 * 49/16
                             
                             \revert Staff.Stem.stemlet-length
-                            bf'16 * 343/64 ]
+                            bf'16 * 343/64
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -958,16 +1005,22 @@
                             
                             r8
                             
-                            bf32 -\staccato \p [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "leggierissimo: off-string bowing on staccati"
-                                    }
+                            bf32
+                            -\staccato
+                            \p
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "leggierissimo: off-string bowing on staccati"
+                                }
                             
-                            a32 -\staccato
+                            a32
+                            -\staccato
                             
-                            bf32 -\staccato ]
+                            bf32
+                            -\staccato
+                            ]
                             
                             r16
                         }
@@ -978,19 +1031,22 @@
                         %%% ViolaMusicVoice [measure 9] %%%
                         r4
                         
-                        ef'2 \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + 1/2 scratch"
-                                }
+                        ef'2
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + 1/2 scratch"
+                            }
                         
-                        ef'4. \repeatTie
+                        ef'4.
+                        \repeatTie
                         
                         d'8
                         
                         %%% ViolaMusicVoice [measure 10] %%%
-                        d'8 \repeatTie
+                        d'8
+                        \repeatTie
                         
                         e'4.
                         
@@ -1012,16 +1068,21 @@
                         %%% ViolaMusicVoice [measure 14] %%%
                         d'2.
                         
-                        d'4. \repeatTie
+                        d'4.
+                        \repeatTie
                         
-                        dqs'8 [
+                        dqs'8
+                        [
                         
-                        dqs'8 \repeatTie
+                        dqs'8
+                        \repeatTie
                         
-                        ds'8 ]
+                        ds'8
+                        ]
                         
                         %%% ViolaMusicVoice [measure 15] %%%
-                        ds'2. \repeatTie
+                        ds'2.
+                        \repeatTie
                         
                         e'4
                         
@@ -1030,7 +1091,8 @@
                         f'8
                         
                         %%% ViolaMusicVoice [measure 16] %%%
-                        f'1 \repeatTie
+                        f'1
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 17] %%%
                         R1 * 1/4
@@ -1040,7 +1102,8 @@
                         
                         d'4.
                         
-                        d'2. \repeatTie
+                        d'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 19] %%%
                         R1 * 11/4
@@ -1065,12 +1128,13 @@
                             }
                         \clef "bass"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        e4.. \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + 1/2 scratch"
-                                }
+                        e4..
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + 1/2 scratch"
+                            }
                         
                         f16
                         
@@ -1078,7 +1142,8 @@
                         fqs4
                         
                         %%% CelloMusicVoice [measure 5] %%%
-                        fqs4. \repeatTie
+                        fqs4.
+                        \repeatTie
                         
                         fs8
                         
@@ -1100,25 +1165,33 @@
                         %%% CelloMusicVoice [measure 14] %%%
                         bf2..
                         
-                        btqf8 [
+                        btqf8
+                        [
                         
-                        btqf8 \repeatTie ]
+                        btqf8
+                        \repeatTie
+                        ]
                         
                         a4.
                         
                         %%% CelloMusicVoice [measure 15] %%%
                         af2.
                         
-                        af4. \repeatTie
+                        af4.
+                        \repeatTie
                         
-                        g8 [
+                        g8
+                        [
                         
-                        g8 \repeatTie
+                        g8
+                        \repeatTie
                         
-                        a8 ]
+                        a8
+                        ]
                         
                         %%% CelloMusicVoice [measure 16] %%%
-                        a2. \repeatTie
+                        a2.
+                        \repeatTie
                         
                         r4
                         
@@ -1130,11 +1203,15 @@
                         
                         as2
                         
-                        as4. \repeatTie
+                        as4.
+                        \repeatTie
                         
-                        b8 [
+                        b8
+                        [
                         
-                        b8 \repeatTie ]
+                        b8
+                        \repeatTie
+                        ]
                         
                         r8
                         
@@ -1147,14 +1224,19 @@
                             
                             r16.
                             
-                            c'32 -\staccato \p [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "leggierissimo: off-string bowing on staccati"
-                                    }
+                            c'32
+                            -\staccato
+                            \p
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "leggierissimo: off-string bowing on staccati"
+                                }
                             
-                            cs'32 -\staccato ]
+                            cs'32
+                            -\staccato
+                            ]
                             
                             r8
                         }

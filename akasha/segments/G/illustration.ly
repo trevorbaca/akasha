@@ -58,10 +58,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 214] %%%
                 R1 * 1/2
@@ -112,7 +112,8 @@
                 \time 7/8
                 \mark #7
                 \newSpacingSection
-                s1 * 7/8 \startTextSpan
+                s1 * 7/8
+                \startTextSpan
                 
                 %%% GlobalSkips [measure 201] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)
@@ -136,7 +137,9 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 9/8
                 \newSpacingSection
-                s1 * 9/8 \stopTextSpan ^ \markup {
+                s1 * 9/8
+                \stopTextSpan
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -232,7 +235,8 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/8
                 \newSpacingSection
-                s1 * 1/2 \startTextSpan
+                s1 * 1/2
+                \startTextSpan
                 
                 %%% GlobalSkips [measure 215] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -244,7 +248,9 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
-                s1 * 3/8 \stopTextSpan ^ \markup {
+                s1 * 3/8
+                \stopTextSpan
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -297,10 +303,14 @@
                             \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            r16 \pp
+                            r16
+                            \pp
                             
                             \once \override Hairpin.circled-tip = ##t
-                            g'''16 \> \pp [
+                            g'''16
+                            \>
+                            \pp
+                            [
                             
                             af'''16
                             
@@ -324,14 +334,16 @@
                             
                             af'''16
                             
-                            g'''16 ]
+                            g'''16
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/10 {
                             
                             r16
                             
-                            a'''16 [
+                            a'''16
+                            [
                             
                             bf'''16
                             
@@ -347,14 +359,16 @@
                             
                             c''''16
                             
-                            a'''16 ]
+                            a'''16
+                            ]
                         }
                         \times 4/6 {
                             
                             %%% ViolinOneMusicVoice [measure 201] %%%
                             r16
                             
-                            bf'''16 [
+                            bf'''16
+                            [
                             
                             a'''16
                             
@@ -362,13 +376,15 @@
                             
                             g'''16
                             
-                            a'''16 ]
+                            a'''16
+                            ]
                         }
                         \times 8/11 {
                             
                             r16
                             
-                            af'''16 [
+                            af'''16
+                            [
                             
                             a'''16
                             
@@ -386,7 +402,8 @@
                             
                             c''''16
                             
-                            cs''''16 ]
+                            cs''''16
+                            ]
                         }
                         {
                             
@@ -400,7 +417,8 @@
                             %%% ViolinOneMusicVoice [measure 202] %%%
                             r16
                             
-                            d''''16 [
+                            d''''16
+                            [
                             
                             ef''''16
                             
@@ -416,14 +434,16 @@
                             
                             bf'''16
                             
-                            a'''16 ]
+                            a'''16
+                            ]
                         }
                         \times 12/18 {
                             
                             %%% ViolinOneMusicVoice [measure 203] %%%
                             r16
                             
-                            b'''16 [
+                            b'''16
+                            [
                             
                             bf'''16
                             
@@ -455,7 +475,9 @@
                             
                             e''''16
                             
-                            cs''''16 \! ]
+                            cs''''16
+                            \!
+                            ]
                         }
                         
                         %%% ViolinOneMusicVoice [measure 204] %%%
@@ -480,17 +502,28 @@
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f''2. \> \f \startTextSpan
+                        f''2.
+                        \>
+                        \f
+                        \startTextSpan
                         
-                        f''4. \repeatTie \glissando
+                        f''4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolinOneMusicVoice [measure 205] %%%
                         g''2.
                         
-                        g''4. \repeatTie \glissando
+                        g''4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolinOneMusicVoice [measure 206] %%%
-                        f''2 \mf \stopTextSpan \glissando ^ \markup {
+                        f''2
+                        \mf
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     tasto
@@ -517,13 +550,22 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        ef''1 \glissando \> \mf \startTextSpan
+                        ef''1
+                        \glissando
+                        \>
+                        \mf
+                        \startTextSpan
                         
                         %%% ViolinOneMusicVoice [measure 208] %%%
-                        fs''4. \glissando
+                        fs''4.
+                        \glissando
                         
                         %%% ViolinOneMusicVoice [measure 209] %%%
-                        e''2 \p \stopTextSpan \glissando ^ \markup {
+                        e''2
+                        \p
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     FB
@@ -550,17 +592,27 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        fs''1 \glissando \> \p \startTextSpan
+                        fs''1
+                        \glissando
+                        \>
+                        \p
+                        \startTextSpan
                         
                         %%% ViolinOneMusicVoice [measure 211] %%%
                         af''2.
                         
-                        af''4. \repeatTie \glissando
+                        af''4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolinOneMusicVoice [measure 212] %%%
                         fs''2.
                         
-                        fs''4. \repeatTie \pp \stopTextSpan ^ \markup {
+                        fs''4.
+                        \repeatTie
+                        \pp
+                        \stopTextSpan
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     XFB
@@ -570,10 +622,12 @@
                         R1 * 1/4
                         
                         %%% ViolinOneMusicVoice [measure 214] %%%
-                        fs''2 \ppp
+                        fs''2
+                        \ppp
                         
                         %%% ViolinOneMusicVoice [measure 215] %%%
-                        fs''2 \repeatTie
+                        fs''2
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 216] %%%
                         R1 * 3/8
@@ -632,16 +686,27 @@
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        fs'2.. \pp \glissando \> \ff \startTextSpan
+                        fs'2..
+                        \pp
+                        \glissando
+                        \>
+                        \ff
+                        \startTextSpan
                         
                         %%% ViolinTwoMusicVoice [measure 201] %%%
-                        ef'2.. \glissando
+                        ef'2..
+                        \glissando
                         
                         %%% ViolinTwoMusicVoice [measure 202] %%%
-                        f'4. \glissando
+                        f'4.
+                        \glissando
                         
                         %%% ViolinTwoMusicVoice [measure 203] %%%
-                        ef'2. \f \stopTextSpan \glissando ^ \markup {
+                        ef'2.
+                        \f
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     "1/4 scratch"
@@ -668,17 +733,28 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        cs'2. \> \f \startTextSpan
+                        cs'2.
+                        \>
+                        \f
+                        \startTextSpan
                         
-                        cs'4. \repeatTie \glissando
+                        cs'4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolinTwoMusicVoice [measure 205] %%%
                         e'2.
                         
-                        e'4. \repeatTie \glissando
+                        e'4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolinTwoMusicVoice [measure 206] %%%
-                        g'2 \mf \stopTextSpan \glissando ^ \markup {
+                        g'2
+                        \mf
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     tasto
@@ -705,13 +781,22 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        e'1 \glissando \> \mf \startTextSpan
+                        e'1
+                        \glissando
+                        \>
+                        \mf
+                        \startTextSpan
                         
                         %%% ViolinTwoMusicVoice [measure 208] %%%
-                        fs'4. \glissando
+                        fs'4.
+                        \glissando
                         
                         %%% ViolinTwoMusicVoice [measure 209] %%%
-                        e'2 \p \stopTextSpan \glissando ^ \markup {
+                        e'2
+                        \p
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     FB
@@ -738,17 +823,27 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d'1 \glissando \> \p \startTextSpan
+                        d'1
+                        \glissando
+                        \>
+                        \p
+                        \startTextSpan
                         
                         %%% ViolinTwoMusicVoice [measure 211] %%%
                         f'2.
                         
-                        f'4. \repeatTie \glissando
+                        f'4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolinTwoMusicVoice [measure 212] %%%
                         af'2.
                         
-                        af'4. \repeatTie \pp \stopTextSpan ^ \markup {
+                        af'4.
+                        \repeatTie
+                        \pp
+                        \stopTextSpan
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     XFB
@@ -758,10 +853,12 @@
                         R1 * 1/4
                         
                         %%% ViolinTwoMusicVoice [measure 214] %%%
-                        af'2 \ppp
+                        af'2
+                        \ppp
                         
                         %%% ViolinTwoMusicVoice [measure 215] %%%
-                        af'2 \repeatTie
+                        af'2
+                        \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 216] %%%
                         R1 * 3/8
@@ -811,16 +908,27 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        ef'2.. \pp \glissando \> \ff \startTextSpan
+                        ef'2..
+                        \pp
+                        \glissando
+                        \>
+                        \ff
+                        \startTextSpan
                         
                         %%% ViolaMusicVoice [measure 201] %%%
-                        f'2.. \glissando
+                        f'2..
+                        \glissando
                         
                         %%% ViolaMusicVoice [measure 202] %%%
-                        d'4. \glissando
+                        d'4.
+                        \glissando
                         
                         %%% ViolaMusicVoice [measure 203] %%%
-                        e'2. \f \stopTextSpan \glissando ^ \markup {
+                        e'2.
+                        \f
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     "1/4 scratch"
@@ -847,17 +955,28 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d'2. \> \f \startTextSpan
+                        d'2.
+                        \>
+                        \f
+                        \startTextSpan
                         
-                        d'4. \repeatTie \glissando
+                        d'4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolaMusicVoice [measure 205] %%%
                         c'2.
                         
-                        c'4. \repeatTie \glissando
+                        c'4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolaMusicVoice [measure 206] %%%
-                        e'2 \mf \stopTextSpan \glissando ^ \markup {
+                        e'2
+                        \mf
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     tasto
@@ -884,13 +1003,22 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        fs'1 \glissando \> \mf \startTextSpan
+                        fs'1
+                        \glissando
+                        \>
+                        \mf
+                        \startTextSpan
                         
                         %%% ViolaMusicVoice [measure 208] %%%
-                        ef'4. \glissando
+                        ef'4.
+                        \glissando
                         
                         %%% ViolaMusicVoice [measure 209] %%%
-                        f'2 \p \stopTextSpan \glissando ^ \markup {
+                        f'2
+                        \p
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     FB
@@ -917,17 +1045,27 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        ef'1 \glissando \> \p \startTextSpan
+                        ef'1
+                        \glissando
+                        \>
+                        \p
+                        \startTextSpan
                         
                         %%% ViolaMusicVoice [measure 211] %%%
                         cs'2.
                         
-                        cs'4. \repeatTie \glissando
+                        cs'4.
+                        \repeatTie
+                        \glissando
                         
                         %%% ViolaMusicVoice [measure 212] %%%
                         f'2.
                         
-                        f'4. \repeatTie \pp \stopTextSpan ^ \markup {
+                        f'4.
+                        \repeatTie
+                        \pp
+                        \stopTextSpan
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     XFB
@@ -940,30 +1078,33 @@
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
-                        c'2 -\downbow
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        OB
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                        c'2
+                        -\downbow
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    OB
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% ViolaMusicVoice [measure 215] %%%
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 216] %%%
-                        c'4. \repeatTie
+                        c'4.
+                        \repeatTie
                         \bar "|"
                         
                     }
@@ -1006,16 +1147,27 @@
                         \clef "bass"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        cs,2.. \pp \glissando \> \ff \startTextSpan
+                        cs,2..
+                        \pp
+                        \glissando
+                        \>
+                        \ff
+                        \startTextSpan
                         
                         %%% CelloMusicVoice [measure 201] %%%
-                        ef,2.. \glissando
+                        ef,2..
+                        \glissando
                         
                         %%% CelloMusicVoice [measure 202] %%%
-                        f,4. \glissando
+                        f,4.
+                        \glissando
                         
                         %%% CelloMusicVoice [measure 203] %%%
-                        d,2. \f \stopTextSpan \glissando ^ \markup {
+                        d,2.
+                        \f
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     "1/4 scratch"
@@ -1042,17 +1194,28 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        e,2. \> \f \startTextSpan
+                        e,2.
+                        \>
+                        \f
+                        \startTextSpan
                         
-                        e,4. \repeatTie \glissando
+                        e,4.
+                        \repeatTie
+                        \glissando
                         
                         %%% CelloMusicVoice [measure 205] %%%
                         d,2.
                         
-                        d,4. \repeatTie \glissando
+                        d,4.
+                        \repeatTie
+                        \glissando
                         
                         %%% CelloMusicVoice [measure 206] %%%
-                        c,2 \mf \stopTextSpan \glissando ^ \markup {
+                        c,2
+                        \mf
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     tasto
@@ -1079,13 +1242,22 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        d,1 \glissando \> \mf \startTextSpan
+                        d,1
+                        \glissando
+                        \>
+                        \mf
+                        \startTextSpan
                         
                         %%% CelloMusicVoice [measure 208] %%%
-                        e,4. \glissando
+                        e,4.
+                        \glissando
                         
                         %%% CelloMusicVoice [measure 209] %%%
-                        cs,2 \p \stopTextSpan \glissando ^ \markup {
+                        cs,2
+                        \p
+                        \stopTextSpan
+                        \glissando
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     FB
@@ -1112,17 +1284,27 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        ef,1 \glissando \> \p \startTextSpan
+                        ef,1
+                        \glissando
+                        \>
+                        \p
+                        \startTextSpan
                         
                         %%% CelloMusicVoice [measure 211] %%%
                         cs,2.
                         
-                        cs,4. \repeatTie \glissando
+                        cs,4.
+                        \repeatTie
+                        \glissando
                         
                         %%% CelloMusicVoice [measure 212] %%%
                         b,,2.
                         
-                        b,,4. \repeatTie \pp \stopTextSpan ^ \markup {
+                        b,,4.
+                        \repeatTie
+                        \pp
+                        \stopTextSpan
+                        ^ \markup {
                             \whiteout
                                 \upright
                                     XFB
@@ -1132,10 +1314,12 @@
                         R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 214] %%%
-                        cs,2 \ppp
+                        cs,2
+                        \ppp
                         
                         %%% CelloMusicVoice [measure 215] %%%
-                        cs,2 \repeatTie
+                        cs,2
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 216] %%%
                         R1 * 3/8

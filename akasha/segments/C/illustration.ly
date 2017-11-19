@@ -22,10 +22,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 37] %%%
                 R1 * 1
@@ -35,10 +35,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 39] %%%
                 R1 * 3/2
@@ -48,10 +48,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 41] %%%
                 R1 * 3/2
@@ -61,10 +61,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 43] %%%
                 R1 * 3/2
@@ -86,10 +86,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 49] %%%
                 R1 * 3/4
@@ -105,10 +105,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 53] %%%
                 R1 * 1
@@ -118,10 +118,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 55] %%%
                 R1 * 5/4
@@ -131,10 +131,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 57] %%%
                 R1 * 1
@@ -144,10 +144,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 59] %%%
                 R1 * 3/2
@@ -160,10 +160,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ulongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ulongfermata"
+                    }
                 
             }
             \context GlobalSkips = "GlobalSkips" {
@@ -173,7 +173,8 @@
                 \time 6/4
                 \mark #3
                 \newSpacingSection
-                s1 * 3/2 ^ \markup {
+                s1 * 3/2
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -377,7 +378,8 @@
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 13/2 \pp
+                        R1 * 13/2
+                        \pp
                         
                         %%% ViolinOneMusicVoice [measure 43] %%%
                         \stopStaff
@@ -385,37 +387,42 @@
                         \startStaff
                         \override RepeatTie.direction = #up
                         c'1.
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        OB
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    OB
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% ViolinOneMusicVoice [measure 44] %%%
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 45] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 46] %%%
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 47] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 48] %%%
                         R1 * 1
@@ -424,7 +431,8 @@
                         c'2.
                         
                         %%% ViolinOneMusicVoice [measure 51] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 52] %%%
                         R1 * 1/4
@@ -438,7 +446,8 @@
                         %%% ViolinOneMusicVoice [measure 55] %%%
                         c'2.
                         
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 56] %%%
                         R1 * 1/4
@@ -454,7 +463,8 @@
                         \revert RepeatTie.direction
                         
                         %%% ViolinOneMusicVoice [measure 60] %%%
-                        c'1. \repeatTie
+                        c'1.
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 61] %%%
                         R1 * 1/4
@@ -489,7 +499,8 @@
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 13/2 \pp
+                        R1 * 13/2
+                        \pp
                         
                         %%% ViolinTwoMusicVoice [measure 43] %%%
                         \stopStaff
@@ -497,37 +508,42 @@
                         \startStaff
                         \override RepeatTie.direction = #up
                         c'1.
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        OB
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    OB
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% ViolinTwoMusicVoice [measure 44] %%%
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 45] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 46] %%%
-                        c'1 \repeatTie
+                        c'1
+                        \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 47] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 48] %%%
                         R1 * 1
@@ -536,7 +552,8 @@
                         c'2.
                         
                         %%% ViolinTwoMusicVoice [measure 51] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 52] %%%
                         R1 * 1/4
@@ -550,7 +567,8 @@
                         %%% ViolinTwoMusicVoice [measure 55] %%%
                         c'2.
                         
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 56] %%%
                         R1 * 1/4
@@ -567,15 +585,18 @@
                         
                         %%% ViolinTwoMusicVoice [measure 60] %%%
                         \pitchedTrill
-                        g''1. \pp \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        tasto
-                                } a''
+                        g''1.
+                        \pp
+                        \startTrillSpan
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    tasto
+                            } a''
                         
                         %%% ViolinTwoMusicVoice [measure 61] %%%
-                        R1 * 1/4 \stopTrillSpan
+                        R1 * 1/4
+                        \stopTrillSpan
                         \bar "|"
                         
                     }
@@ -603,7 +624,9 @@
                             \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            ds\breve \mp \glissando
+                            ds\breve
+                            \mp
+                            \glissando
                             
                             cqs4
                         }
@@ -613,7 +636,8 @@
                         \times 8/9 {
                             
                             %%% ViolaMusicVoice [measure 37] %%%
-                            ds1 \glissando
+                            ds1
+                            \glissando
                             
                             cqs8
                         }
@@ -623,7 +647,8 @@
                         \times 2/3 {
                             
                             %%% ViolaMusicVoice [measure 39] %%%
-                            ds\breve \glissando
+                            ds\breve
+                            \glissando
                             
                             cqs4
                         }
@@ -633,7 +658,8 @@
                         \times 2/3 {
                             
                             %%% ViolaMusicVoice [measure 41] %%%
-                            ds\breve \glissando
+                            ds\breve
+                            \glissando
                             
                             cqs4
                         }
@@ -642,16 +668,22 @@
                         R1 * 1/4
                         
                         %%% ViolaMusicVoice [measure 43] %%%
-                        ef1. \glissando \> \mp
+                        ef1.
+                        \glissando
+                        \>
+                        \mp
                         
                         %%% ViolaMusicVoice [measure 44] %%%
-                        d1 \glissando
+                        d1
+                        \glissando
                         
                         %%% ViolaMusicVoice [measure 45] %%%
-                        cs2. \glissando
+                        cs2.
+                        \glissando
                         
                         %%% ViolaMusicVoice [measure 46] %%%
-                        bs,1 \pp
+                        bs,1
+                        \pp
                         
                         %%% ViolaMusicVoice [measure 47] %%%
                         R1 * 9/4
@@ -662,23 +694,25 @@
                         \once \override Flag.color = #blue
                         \once \override NoteHead.color = #blue
                         \once \override Stem.color = #blue
-                        c'2. \ff
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + scratch moltiss."
-                                }
+                        c'2.
+                        \ff
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + scratch moltiss."
+                            }
                         
                         %%% ViolaMusicVoice [measure 51] %%%
                         R1 * 15/4
                         
                         %%% ViolaMusicVoice [measure 57] %%%
-                        ds'4 \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + 1/2 scratch"
-                                }
+                        ds'4
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + 1/2 scratch"
+                            }
                         
                         dtqs'4.
                         
@@ -688,18 +722,23 @@
                         R1 * 1/4
                         
                         %%% ViolaMusicVoice [measure 59] %%%
-                        e1. \glissando \> \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        tasto
-                                }
+                        e1.
+                        \glissando
+                        \>
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    tasto
+                            }
                         \times 2/3 {
                             
                             %%% ViolaMusicVoice [measure 60] %%%
-                            ds\breve \glissando
+                            ds\breve
+                            \glissando
                             
-                            cqs4 \pp
+                            cqs4
+                            \pp
                         }
                         
                         %%% ViolaMusicVoice [measure 61] %%%
@@ -726,7 +765,8 @@
                         \clef "bass"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        cs,1. \mp
+                        cs,1.
+                        \mp
                         
                         %%% CelloMusicVoice [measure 36] %%%
                         R1 * 1/4
@@ -750,30 +790,41 @@
                         R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 43] %%%
-                        cs,1. \> \mp
+                        cs,1.
+                        \>
+                        \mp
                         
                         %%% CelloMusicVoice [measure 44] %%%
-                        cs,1 \repeatTie
+                        cs,1
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 45] %%%
-                        cs,2. \repeatTie
+                        cs,2.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 46] %%%
-                        cs,1 \repeatTie \pp
+                        cs,1
+                        \repeatTie
+                        \pp
                         
                         %%% CelloMusicVoice [measure 47] %%%
                         R1 * 3/2
                         \times 8/9 {
                             
                             %%% CelloMusicVoice [measure 49] %%%
-                            cs32 -\staccato \p [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            leggieriss.
-                                    }
+                            cs32
+                            -\staccato
+                            \p
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        leggieriss.
+                                }
                             
-                            c32 -\staccato ]
+                            c32
+                            -\staccato
+                            ]
                             
                             r8..
                         }
@@ -781,21 +832,31 @@
                             
                             r32
                             
-                            cs32 -\staccato [
+                            cs32
+                            -\staccato
+                            [
                             
-                            d32 -\staccato
+                            d32
+                            -\staccato
                             
-                            ef32 -\staccato
+                            ef32
+                            -\staccato
                             
-                            cs32 -\staccato
+                            cs32
+                            -\staccato
                             
-                            d32 -\staccato
+                            d32
+                            -\staccato
                             
-                            cs32 -\staccato
+                            cs32
+                            -\staccato
                             
-                            c32 -\staccato
+                            c32
+                            -\staccato
                             
-                            bf,32 -\staccato ]
+                            bf,32
+                            -\staccato
+                            ]
                         }
                         {
                             
@@ -806,26 +867,31 @@
                         R1 * 9/2
                         
                         %%% CelloMusicVoice [measure 57] %%%
-                        c'1 \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + 1/2 scratch"
-                                }
+                        c'1
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + 1/2 scratch"
+                            }
                         
                         %%% CelloMusicVoice [measure 58] %%%
                         R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 59] %%%
-                        cs,1. \> \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        tasto
-                                }
+                        cs,1.
+                        \>
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    tasto
+                            }
                         
                         %%% CelloMusicVoice [measure 60] %%%
-                        cs,1. \repeatTie \pp
+                        cs,1.
+                        \repeatTie
+                        \pp
                         
                         %%% CelloMusicVoice [measure 61] %%%
                         R1 * 1/4

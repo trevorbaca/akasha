@@ -24,10 +24,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.uverylongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.uverylongfermata"
+                    }
                 
             }
             \context GlobalSkips = "GlobalSkips" {
@@ -36,7 +36,8 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/8
                 \newSpacingSection
-                s1 * 3/8 ^ \markup {
+                s1 * 3/8
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -158,27 +159,29 @@
                                 Va.
                             }
                         \clef "alto"
-                        c'4. -\downbow
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "OB + terminate abruptly"
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                        c'4.
+                        -\downbow
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "OB + terminate abruptly"
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% ViolaMusicVoice [measure 2] %%%
-                        c'2. \repeatTie
+                        c'2.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 3] %%%
                         R1 * 1/4

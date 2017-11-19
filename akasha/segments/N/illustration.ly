@@ -91,10 +91,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.uverylongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.uverylongfermata"
+                    }
                 
             }
             \context GlobalSkips = "GlobalSkips" {
@@ -104,7 +104,8 @@
                 \time 3/8
                 \mark #14
                 \newSpacingSection
-                s1 * 3/8 ^ \markup {
+                s1 * 3/8
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -299,56 +300,62 @@
                         \clef "percussion"
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        c'4. -\downbow \pp
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "full bow strokes"
-                                            }
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "terminate each note abruptly"
-                                            }
-                                    }
+                        c'4.
+                        -\downbow
+                        \pp
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    "full bow strokes"
+                                        }
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    "terminate each note abruptly"
+                                        }
                                 }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% ViolinOneMusicVoice [measure 370] %%%
                         r2
                         
                         %%% ViolinOneMusicVoice [measure 371] %%%
-                        c'2.. -\upbow
+                        c'2..
+                        -\upbow
                         
                         %%% ViolinOneMusicVoice [measure 372] %%%
                         r2..
                         
                         %%% ViolinOneMusicVoice [measure 373] %%%
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
                         %%% ViolinOneMusicVoice [measure 374] %%%
                         r2.
                         
                         %%% ViolinOneMusicVoice [measure 375] %%%
-                        c'2. -\upbow
+                        c'2.
+                        -\upbow
                         
-                        c'4. \repeatTie
+                        c'4.
+                        \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 376] %%%
                         r2.
@@ -356,25 +363,29 @@
                         r4.
                         
                         %%% ViolinOneMusicVoice [measure 377] %%%
-                        c'2 -\downbow
+                        c'2
+                        -\downbow
                         
                         %%% ViolinOneMusicVoice [measure 378] %%%
                         r1
                         
                         %%% ViolinOneMusicVoice [measure 379] %%%
-                        c'2. -\upbow
+                        c'2.
+                        -\upbow
                         
                         %%% ViolinOneMusicVoice [measure 380] %%%
                         r2..
                         
                         %%% ViolinOneMusicVoice [measure 381] %%%
-                        c'2.. -\downbow
+                        c'2..
+                        -\downbow
                         
                         %%% ViolinOneMusicVoice [measure 382] %%%
                         r4.
                         
                         %%% ViolinOneMusicVoice [measure 383] %%%
-                        c'1 -\upbow
+                        c'1
+                        -\upbow
                         \revert RepeatTie.direction
                         
                         %%% ViolinOneMusicVoice [measure 384] %%%
@@ -419,7 +430,8 @@
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 6 \pp
+                        R1 * 6
+                        \pp
                         
                         %%% ViolinTwoMusicVoice [measure 377] %%%
                         r2
@@ -430,16 +442,22 @@
                             
                             r8
                             
-                            f'''32 -\staccato \pp [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            leggieriss.
-                                    }
+                            f'''32
+                            -\staccato
+                            \pp
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        leggieriss.
+                                }
                             
-                            e'''32 -\staccato
+                            e'''32
+                            -\staccato
                             
-                            f'''32 -\staccato ]
+                            f'''32
+                            -\staccato
+                            ]
                             
                             r16
                         }
@@ -482,7 +500,8 @@
                             
                             r32
                             
-                            fs'''32 -\staccato
+                            fs'''32
+                            -\staccato
                             
                             r16.
                         }
@@ -491,11 +510,16 @@
                             %%% ViolinTwoMusicVoice [measure 388] %%%
                             r8.
                             
-                            g'''32 -\staccato [
+                            g'''32
+                            -\staccato
+                            [
                             
-                            f'''32 -\staccato
+                            f'''32
+                            -\staccato
                             
-                            fs'''32 -\staccato ]
+                            fs'''32
+                            -\staccato
+                            ]
                         }
                         
                         r8
@@ -544,56 +568,62 @@
                         \clef "percussion"
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        c'4. -\downbow \pp
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "full bow strokes"
-                                            }
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "terminate each note abruptly"
-                                            }
-                                    }
+                        c'4.
+                        -\downbow
+                        \pp
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    "full bow strokes"
+                                        }
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    "terminate each note abruptly"
+                                        }
                                 }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% ViolaMusicVoice [measure 370] %%%
                         r2
                         
                         %%% ViolaMusicVoice [measure 371] %%%
-                        c'2.. -\upbow
+                        c'2..
+                        -\upbow
                         
                         %%% ViolaMusicVoice [measure 372] %%%
                         r2..
                         
                         %%% ViolaMusicVoice [measure 373] %%%
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 374] %%%
                         r2.
                         
                         %%% ViolaMusicVoice [measure 375] %%%
-                        c'2. -\upbow
+                        c'2.
+                        -\upbow
                         
-                        c'4. \repeatTie
+                        c'4.
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 376] %%%
                         r2.
@@ -601,25 +631,29 @@
                         r4.
                         
                         %%% ViolaMusicVoice [measure 377] %%%
-                        c'2 -\downbow
+                        c'2
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 378] %%%
                         r1
                         
                         %%% ViolaMusicVoice [measure 379] %%%
-                        c'2. -\upbow
+                        c'2.
+                        -\upbow
                         
                         %%% ViolaMusicVoice [measure 380] %%%
                         r2..
                         
                         %%% ViolaMusicVoice [measure 381] %%%
-                        c'2.. -\downbow
+                        c'2..
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 382] %%%
                         r4.
                         
                         %%% ViolaMusicVoice [measure 383] %%%
-                        c'1 -\upbow
+                        c'1
+                        -\upbow
                         \revert RepeatTie.direction
                         
                         %%% ViolaMusicVoice [measure 384] %%%
@@ -655,56 +689,62 @@
                         \clef "percussion"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        c'4. -\downbow \pp
-                            ^ \markup {
-                                \column
-                                    {
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "full bow strokes"
-                                            }
-                                        \line
-                                            {
-                                                \whiteout
-                                                    \upright
-                                                        "terminate each note abruptly"
-                                            }
-                                    }
+                        c'4.
+                        -\downbow
+                        \pp
+                        ^ \markup {
+                            \column
+                                {
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    "full bow strokes"
+                                        }
+                                    \line
+                                        {
+                                            \whiteout
+                                                \upright
+                                                    "terminate each note abruptly"
+                                        }
                                 }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% CelloMusicVoice [measure 370] %%%
                         r2
                         
                         %%% CelloMusicVoice [measure 371] %%%
-                        c'2.. -\upbow
+                        c'2..
+                        -\upbow
                         
                         %%% CelloMusicVoice [measure 372] %%%
                         r2..
                         
                         %%% CelloMusicVoice [measure 373] %%%
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
                         %%% CelloMusicVoice [measure 374] %%%
                         r2.
                         
                         %%% CelloMusicVoice [measure 375] %%%
-                        c'2. -\upbow
+                        c'2.
+                        -\upbow
                         
-                        c'4. \repeatTie
+                        c'4.
+                        \repeatTie
                         
                         %%% CelloMusicVoice [measure 376] %%%
                         r2.
@@ -712,25 +752,29 @@
                         r4.
                         
                         %%% CelloMusicVoice [measure 377] %%%
-                        c'2 -\downbow
+                        c'2
+                        -\downbow
                         
                         %%% CelloMusicVoice [measure 378] %%%
                         r1
                         
                         %%% CelloMusicVoice [measure 379] %%%
-                        c'2. -\upbow
+                        c'2.
+                        -\upbow
                         
                         %%% CelloMusicVoice [measure 380] %%%
                         r2..
                         
                         %%% CelloMusicVoice [measure 381] %%%
-                        c'2.. -\downbow
+                        c'2..
+                        -\downbow
                         
                         %%% CelloMusicVoice [measure 382] %%%
                         r4.
                         
                         %%% CelloMusicVoice [measure 383] %%%
-                        c'1 -\upbow
+                        c'1
+                        -\upbow
                         \revert RepeatTie.direction
                         
                         %%% CelloMusicVoice [measure 384] %%%
@@ -765,45 +809,45 @@
                         %%% CelloMusicVoice [measure 393] %%%
                         \once \override MultiMeasureRestText.extra-offset = #'(-41 . -4)
                         R1 * 1/4
-                            _ \markup {
-                                \whiteout
-                                    \upright
-                                        \with-color
-                                            #black
-                                            \right-column
-                                                {
-                                                    \line
-                                                        {
-                                                            Cambridge,
-                                                            MA
-                                                            \hspace
-                                                                #0.75
-                                                            –
-                                                            \hspace
-                                                                #0.75
-                                                            Dallas,
-                                                            TX
-                                                            \hspace
-                                                                #0.75
-                                                            –
-                                                            \hspace
-                                                                #0.75
-                                                            Madison,
-                                                            WI.
-                                                        }
-                                                    \line
-                                                        {
-                                                            October
-                                                            \hspace
-                                                                #0.75
-                                                            –
-                                                            \hspace
-                                                                #0.75
-                                                            December
-                                                            2015.
-                                                        }
-                                                }
-                                }
+                        _ \markup {
+                            \whiteout
+                                \upright
+                                    \with-color
+                                        #black
+                                        \right-column
+                                            {
+                                                \line
+                                                    {
+                                                        Cambridge,
+                                                        MA
+                                                        \hspace
+                                                            #0.75
+                                                        –
+                                                        \hspace
+                                                            #0.75
+                                                        Dallas,
+                                                        TX
+                                                        \hspace
+                                                            #0.75
+                                                        –
+                                                        \hspace
+                                                            #0.75
+                                                        Madison,
+                                                        WI.
+                                                    }
+                                                \line
+                                                    {
+                                                        October
+                                                        \hspace
+                                                            #0.75
+                                                        –
+                                                        \hspace
+                                                            #0.75
+                                                        December
+                                                        2015.
+                                                    }
+                                            }
+                            }
                         \bar "|."
                         
                     }

@@ -22,10 +22,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 115] %%%
                 R1 * 3/2
@@ -35,10 +35,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 117] %%%
                 R1 * 3/2
@@ -48,10 +48,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 119] %%%
                 R1 * 5/4
@@ -61,10 +61,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ufermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ufermata"
+                    }
                 
                 %%% GlobalRests [measure 121] %%%
                 R1 * 3/4
@@ -161,10 +161,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ulongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ulongfermata"
+                    }
                 
             }
             \context GlobalSkips = "GlobalSkips" {
@@ -174,7 +174,8 @@
                 \time 4/4
                 \mark #5
                 \newSpacingSection
-                s1 * 1 ^ \markup {
+                s1 * 1
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -237,7 +238,8 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
-                s1 * 3/4 ^ \markup {
+                s1 * 3/4
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -297,7 +299,8 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 5/4
                 \newSpacingSection
-                s1 * 5/4 \startTextSpan
+                s1 * 5/4
+                \startTextSpan
                 
                 %%% GlobalSkips [measure 126] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
@@ -309,7 +312,9 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 3/4
                 \newSpacingSection
-                s1 * 3/4 \stopTextSpan ^ \markup {
+                s1 * 3/4
+                \stopTextSpan
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -369,7 +374,8 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)
                 \time 6/4
                 \newSpacingSection
-                s1 * 3/2 \startTextSpan
+                s1 * 3/2
+                \startTextSpan
                 
                 %%% GlobalSkips [measure 132] %%%
                 \set Score.proportionalNotationDuration = #(ly:make-moment 3 56)
@@ -417,7 +423,9 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)
                 \time 3/4
                 \newSpacingSection
-                s1 * 3/4 \stopTextSpan ^ \markup {
+                s1 * 3/4
+                \stopTextSpan
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -541,29 +549,31 @@
                         \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 3 \ppp
+                        R1 * 3
+                        \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             
                             %%% ViolinOneMusicVoice [measure 117] %%%
-                            f'4 \ff
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                            f'4
+                            \ff
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "scratch moltiss."
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
                                     }
+                                }
                             
                             r4
                             
@@ -709,12 +719,13 @@
                             
                             r8
                             
-                            af'8 \f
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "po' meno scratch"
-                                    }
+                            af'8
+                            \f
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "po' meno scratch"
+                                }
                             
                             r8
                             
@@ -907,28 +918,35 @@
                             
                             r16
                             
-                            a'16 -\staccato \> \mf [
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            leggieriss.
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "senza scratch"
-                                                }
-                                        }
+                            a'16
+                            -\staccato
+                            \>
+                            \mf
+                            [
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        leggieriss.
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "senza scratch"
+                                            }
                                     }
+                                }
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            b'16 -\staccato ]
+                            b'16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -945,40 +963,59 @@
                             
                             r16
                             
-                            bf'16 -\staccato [
+                            bf'16
+                            -\staccato
+                            [
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            b'16 -\staccato ]
+                            b'16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            c''16 -\staccato [
+                            c''16
+                            -\staccato
+                            [
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            g'16 -\staccato ]
+                            g'16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             %%% ViolinOneMusicVoice [measure 137] %%%
                             r16
                             
-                            a'16 -\staccato [
+                            a'16
+                            -\staccato
+                            [
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            a'16 -\staccato ]
+                            a'16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -986,40 +1023,59 @@
                             
                             r16
                             
-                            bf'16 -\staccato [
+                            bf'16
+                            -\staccato
+                            [
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato ]
+                            bf'16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             %%% ViolinOneMusicVoice [measure 138] %%%
                             r16
                             
-                            a'16 -\staccato [
+                            a'16
+                            -\staccato
+                            [
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            d''16 -\staccato ]
+                            d''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            d''16 -\staccato ]
+                            d''16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -1028,92 +1084,137 @@
                             %%% ViolinOneMusicVoice [measure 139] %%%
                             r16
                             
-                            b'16 -\staccato [
+                            b'16
+                            -\staccato
+                            [
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato ]
+                            bf'16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            a'16 -\staccato [
+                            a'16
+                            -\staccato
+                            [
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            d''16 -\staccato ]
+                            d''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            cs''16 -\staccato [
+                            cs''16
+                            -\staccato
+                            [
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato ]
+                            b'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             %%% ViolinOneMusicVoice [measure 140] %%%
                             r16
                             
-                            cs''16 -\staccato [
+                            cs''16
+                            -\staccato
+                            [
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            e''16 -\staccato ]
+                            e''16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            f''16 -\staccato [
+                            f''16
+                            -\staccato
+                            [
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            cs''16 -\staccato ]
+                            cs''16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            d''16 -\staccato [
+                            d''16
+                            -\staccato
+                            [
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato ]
+                            c''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            cs''16 -\staccato [
+                            cs''16
+                            -\staccato
+                            [
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            e''16 -\staccato ]
+                            e''16
+                            -\staccato
+                            ]
                         }
                         
                         %%% ViolinOneMusicVoice [measure 141] %%%
@@ -1122,106 +1223,158 @@
                             
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            ef''16 -\staccato ]
+                            ef''16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            e''16 -\staccato [
+                            e''16
+                            -\staccato
+                            [
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            f''16 -\staccato ]
+                            f''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            fs''16 -\staccato [
+                            fs''16
+                            -\staccato
+                            [
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato ]
+                            e''16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            d''16 -\staccato ]
+                            d''16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% ViolinOneMusicVoice [measure 142] %%%
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato ]
+                            f''16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            e''16 -\staccato [
+                            e''16
+                            -\staccato
+                            [
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            fs''16 -\staccato ]
+                            fs''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            af''16 -\staccato [
+                            af''16
+                            -\staccato
+                            [
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            g''16 -\staccato ]
+                            g''16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            af''16 -\staccato [
+                            af''16
+                            -\staccato
+                            [
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            e''16 -\staccato ]
+                            e''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
@@ -1229,70 +1382,104 @@
                             %%% ViolinOneMusicVoice [measure 143] %%%
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            af''16 -\staccato ]
+                            af''16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             r16
                             
-                            g''16 -\staccato [
+                            g''16
+                            -\staccato
+                            [
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            bf''16 -\staccato ]
+                            bf''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            b''16 -\staccato [
+                            b''16
+                            -\staccato
+                            [
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato ]
+                            af''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
                             
                             r16
                             
-                            g''16 -\staccato [
+                            g''16
+                            -\staccato
+                            [
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato ]
+                            af''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
@@ -1300,70 +1487,105 @@
                             %%% ViolinOneMusicVoice [measure 144] %%%
                             r16
                             
-                            bf''16 -\staccato [
+                            bf''16
+                            -\staccato
+                            [
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            bf''16 -\staccato ]
+                            bf''16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             r16
                             
-                            b''16 -\staccato [
+                            b''16
+                            -\staccato
+                            [
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            bf''16 -\staccato ]
+                            bf''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            a''16 -\staccato [
+                            a''16
+                            -\staccato
+                            [
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato ]
+                            af''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
                             
                             r16
                             
-                            a''16 -\staccato [
+                            a''16
+                            -\staccato
+                            [
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            b''16 -\staccato \pp ]
+                            b''16
+                            -\staccato
+                            \pp
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
@@ -1371,123 +1593,183 @@
                             %%% ViolinOneMusicVoice [measure 145] %%%
                             r16
                             
-                            c'''16 -\staccato [
+                            c'''16
+                            -\staccato
+                            [
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato ]
+                            cs'''16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             r16
                             
-                            d'''16 -\staccato [
+                            d'''16
+                            -\staccato
+                            [
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            bf''16 -\staccato ]
+                            bf''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            b''16 -\staccato [
+                            b''16
+                            -\staccato
+                            [
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            c'''16 -\staccato ]
+                            c'''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
                             
                             r16
                             
-                            b''16 -\staccato [
+                            b''16
+                            -\staccato
+                            [
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            f'''16 -\staccato ]
+                            f'''16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% ViolinOneMusicVoice [measure 146] %%%
                             r16
                             
-                            ef'''16 -\staccato [
+                            ef'''16
+                            -\staccato
+                            [
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            d'''16 -\staccato ]
+                            d'''16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            cs'''16 -\staccato [
+                            cs'''16
+                            -\staccato
+                            [
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato ]
+                            cs'''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            d'''16 -\staccato [
+                            d'''16
+                            -\staccato
+                            [
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato ]
+                            ef'''16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            d'''16 -\staccato [
+                            d'''16
+                            -\staccato
+                            [
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            f'''16 -\staccato ]
+                            f'''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
@@ -1495,123 +1777,183 @@
                             %%% ViolinOneMusicVoice [measure 147] %%%
                             r16
                             
-                            e'''16 -\staccato [
+                            e'''16
+                            -\staccato
+                            [
                             
-                            fs'''16 -\staccato
+                            fs'''16
+                            -\staccato
                             
-                            g'''16 -\staccato
+                            g'''16
+                            -\staccato
                             
-                            f'''16 -\staccato
+                            f'''16
+                            -\staccato
                             
-                            fs'''16 -\staccato
+                            fs'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato ]
+                            ef'''16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             r16
                             
-                            e'''16 -\staccato [
+                            e'''16
+                            -\staccato
+                            [
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            e'''16 -\staccato ]
+                            e'''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            fs'''16 -\staccato [
+                            fs'''16
+                            -\staccato
+                            [
                             
-                            f'''16 -\staccato
+                            f'''16
+                            -\staccato
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            f'''16 -\staccato ]
+                            f'''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
                             
                             r16
                             
-                            fs'''16 -\staccato [
+                            fs'''16
+                            -\staccato
+                            [
                             
-                            g'''16 -\staccato
+                            g'''16
+                            -\staccato
                             
-                            fs'''16 -\staccato
+                            fs'''16
+                            -\staccato
                             
-                            af'''16 -\staccato
+                            af'''16
+                            -\staccato
                             
-                            a'''16 -\staccato
+                            a'''16
+                            -\staccato
                             
-                            g'''16 -\staccato
+                            g'''16
+                            -\staccato
                             
-                            af'''16 -\staccato ]
+                            af'''16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% ViolinOneMusicVoice [measure 148] %%%
                             r16
                             
-                            f'''16 -\staccato [
+                            f'''16
+                            -\staccato
+                            [
                             
-                            fs'''16 -\staccato
+                            fs'''16
+                            -\staccato
                             
-                            f'''16 -\staccato
+                            f'''16
+                            -\staccato
                             
-                            e'''16 -\staccato ]
+                            e'''16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            ef'''16 -\staccato [
+                            ef'''16
+                            -\staccato
+                            [
                             
-                            f'''16 -\staccato
+                            f'''16
+                            -\staccato
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            f'''16 -\staccato
+                            f'''16
+                            -\staccato
                             
-                            fs'''16 -\staccato
+                            fs'''16
+                            -\staccato
                             
-                            af'''16 -\staccato ]
+                            af'''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            g'''16 -\staccato [
+                            g'''16
+                            -\staccato
+                            [
                             
-                            fs'''16 -\staccato
+                            fs'''16
+                            -\staccato
                             
-                            f'''16 -\staccato ]
+                            f'''16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            g'''16 -\staccato [
+                            g'''16
+                            -\staccato
+                            [
                             
-                            af'''16 -\staccato
+                            af'''16
+                            -\staccato
                             
-                            a'''16 -\staccato
+                            a'''16
+                            -\staccato
                             
-                            af'''16 -\staccato
+                            af'''16
+                            -\staccato
                             
-                            bf'''16 -\staccato ]
+                            bf'''16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -1667,7 +2009,8 @@
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 5/4 \p
+                        R1 * 5/4
+                        \p
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             
@@ -1678,24 +2021,25 @@
                             
                             r4
                             
-                            a4 \ff
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                            a4
+                            \ff
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "scratch moltiss."
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
                                     }
+                                }
                         }
                         
                         %%% ViolinTwoMusicVoice [measure 116] %%%
@@ -1760,12 +2104,13 @@
                             %%% ViolinTwoMusicVoice [measure 123] %%%
                             r8
                             
-                            a8 \f
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "po' meno scratch"
-                                    }
+                            a8
+                            \f
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "po' meno scratch"
+                                }
                             
                             r8
                             
@@ -1923,18 +2268,21 @@
                             
                             r8
                             
-                            cs'8 -\staccato \mf
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "senza scratch"
-                                    }
+                            cs'8
+                            -\staccato
+                            \mf
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "senza scratch"
+                                }
                             
                             r8
                             
                             r8
                             
-                            d'8 -\staccato
+                            d'8
+                            -\staccato
                             
                             r8
                             
@@ -1950,13 +2298,15 @@
                         \times 12/11 {
                             
                             %%% ViolinTwoMusicVoice [measure 132] %%%
-                            b8 -\staccato
+                            b8
+                            -\staccato
                             
                             r8
                             
                             r8
                             
-                            c'8 -\staccato
+                            c'8
+                            -\staccato
                             
                             r8
                             
@@ -1968,7 +2318,8 @@
                             
                             r8
                             
-                            b8 -\staccato
+                            b8
+                            -\staccato
                             
                             r8
                         }
@@ -1979,18 +2330,24 @@
                             
                             r16
                             
-                            bf16 -\staccato [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            leggieriss.
-                                    }
+                            bf16
+                            -\staccato
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        leggieriss.
+                                }
                             
-                            a16 -\staccato
+                            a16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            bf16 -\staccato ]
+                            bf16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -2008,37 +2365,57 @@
                             %%% ViolinTwoMusicVoice [measure 135] %%%
                             r16
                             
-                            b16 -\staccato \> \mf [
+                            b16
+                            -\staccato
+                            \>
+                            \mf
+                            [
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            d'16 -\staccato ]
+                            d'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            cs'16 -\staccato [
+                            cs'16
+                            -\staccato
+                            [
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            d'16 -\staccato ]
+                            d'16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            ef'16 -\staccato [
+                            ef'16
+                            -\staccato
+                            [
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            f'16 -\staccato ]
+                            f'16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -2047,37 +2424,55 @@
                             %%% ViolinTwoMusicVoice [measure 136] %%%
                             r16
                             
-                            ef'16 -\staccato [
+                            ef'16
+                            -\staccato
+                            [
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            cs'16 -\staccato ]
+                            cs'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            d'16 -\staccato [
+                            d'16
+                            -\staccato
+                            [
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            cs'16 -\staccato ]
+                            cs'16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            c'16 -\staccato [
+                            c'16
+                            -\staccato
+                            [
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            e'16 -\staccato ]
+                            e'16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -2085,91 +2480,135 @@
                             
                             r16
                             
-                            ef'16 -\staccato [
+                            ef'16
+                            -\staccato
+                            [
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            cs'16 -\staccato ]
+                            cs'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             %%% ViolinTwoMusicVoice [measure 137] %%%
                             r16
                             
-                            ef'16 -\staccato [
+                            ef'16
+                            -\staccato
+                            [
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            fs'16 -\staccato ]
+                            fs'16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            g'16 -\staccato [
+                            g'16
+                            -\staccato
+                            [
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            ef'16 -\staccato ]
+                            ef'16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            e'16 -\staccato [
+                            e'16
+                            -\staccato
+                            [
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            d'16 -\staccato ]
+                            d'16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             %%% ViolinTwoMusicVoice [measure 138] %%%
                             r16
                             
-                            ef'16 -\staccato [
+                            ef'16
+                            -\staccato
+                            [
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            fs'16 -\staccato ]
+                            fs'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            f'16 -\staccato [
+                            f'16
+                            -\staccato
+                            [
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            fs'16 -\staccato ]
+                            fs'16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            g'16 -\staccato [
+                            g'16
+                            -\staccato
+                            [
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            a'16 -\staccato ]
+                            a'16
+                            -\staccato
+                            ]
                         }
                         
                         %%% ViolinTwoMusicVoice [measure 139] %%%
@@ -2178,603 +2617,897 @@
                             
                             r16
                             
-                            g'16 -\staccato [
+                            g'16
+                            -\staccato
+                            [
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            f'16 -\staccato ]
+                            f'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            fs'16 -\staccato [
+                            fs'16
+                            -\staccato
+                            [
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            f'16 -\staccato ]
+                            f'16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% ViolinTwoMusicVoice [measure 140] %%%
                             r16
                             
-                            e'16 -\staccato [
+                            e'16
+                            -\staccato
+                            [
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            af'16 -\staccato ]
+                            af'16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            g'16 -\staccato [
+                            g'16
+                            -\staccato
+                            [
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            a'16 -\staccato ]
+                            a'16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            af'16 -\staccato [
+                            af'16
+                            -\staccato
+                            [
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            b'16 -\staccato ]
+                            b'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            a'16 -\staccato [
+                            a'16
+                            -\staccato
+                            [
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            g'16 -\staccato ]
+                            g'16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% ViolinTwoMusicVoice [measure 141] %%%
                             r16
                             
-                            fs'16 -\staccato [
+                            fs'16
+                            -\staccato
+                            [
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            fs'16 -\staccato ]
+                            fs'16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            g'16 -\staccato [
+                            g'16
+                            -\staccato
+                            [
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            g'16 -\staccato ]
+                            g'16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            a'16 -\staccato [
+                            a'16
+                            -\staccato
+                            [
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            b'16 -\staccato ]
+                            b'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            bf'16 -\staccato [
+                            bf'16
+                            -\staccato
+                            [
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            c''16 -\staccato ]
+                            c''16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            a'16 -\staccato [
+                            a'16
+                            -\staccato
+                            [
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            af'16 -\staccato ]
+                            af'16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             %%% ViolinTwoMusicVoice [measure 142] %%%
                             r16
                             
-                            g'16 -\staccato [
+                            g'16
+                            -\staccato
+                            [
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            c''16 -\staccato ]
+                            c''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            b'16 -\staccato [
+                            b'16
+                            -\staccato
+                            [
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato ]
+                            a'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            b'16 -\staccato [
+                            b'16
+                            -\staccato
+                            [
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            d''16 -\staccato ]
+                            d''16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            b'16 -\staccato ]
+                            b'16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             %%% ViolinTwoMusicVoice [measure 143] %%%
                             r16
                             
-                            c''16 -\staccato [
+                            c''16
+                            -\staccato
+                            [
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            c''16 -\staccato ]
+                            c''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            d''16 -\staccato [
+                            d''16
+                            -\staccato
+                            [
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            cs''16 -\staccato ]
+                            cs''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
                             
                             r16
                             
-                            d''16 -\staccato [
+                            d''16
+                            -\staccato
+                            [
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato ]
+                            e''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
                             
                             r16
                             
-                            cs''16 -\staccato [
+                            cs''16
+                            -\staccato
+                            [
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            cs''16 -\staccato ]
+                            cs''16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             %%% ViolinTwoMusicVoice [measure 144] %%%
                             r16
                             
-                            c''16 -\staccato [
+                            c''16
+                            -\staccato
+                            [
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            ef''16 -\staccato ]
+                            ef''16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            e''16 -\staccato [
+                            e''16
+                            -\staccato
+                            [
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato ]
+                            g''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/8 {
                             
                             r16
                             
-                            f''16 -\staccato [
+                            f''16
+                            -\staccato
+                            [
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            cs''16 -\staccato ]
+                            cs''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/7 {
                             
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato \pp ]
+                            f''16
+                            -\staccato
+                            \pp
+                            ]
                         }
                         {
                             
                             %%% ViolinTwoMusicVoice [measure 145] %%%
                             r16
                             
-                            e''16 -\staccato [
+                            e''16
+                            -\staccato
+                            [
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato ]
+                            g''16
+                            -\staccato
+                            ]
                         }
                         \times 12/15 {
                             
                             r16
                             
-                            fs''16 -\staccato [
+                            fs''16
+                            -\staccato
+                            [
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato ]
+                            fs''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/11 {
                             
                             r16
                             
-                            af''16 -\staccato [
+                            af''16
+                            -\staccato
+                            [
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            b''16 -\staccato ]
+                            b''16
+                            -\staccato
+                            ]
                         }
                         \times 8/12 {
                             
                             %%% ViolinTwoMusicVoice [measure 146] %%%
                             r16
                             
-                            a''16 -\staccato [
+                            a''16
+                            -\staccato
+                            [
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato ]
+                            af''16
+                            -\staccato
+                            ]
                         }
                         \times 8/14 {
                             
                             r16
                             
-                            bf''16 -\staccato [
+                            bf''16
+                            -\staccato
+                            [
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            a''16 -\staccato ]
+                            a''16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             %%% ViolinTwoMusicVoice [measure 147] %%%
                             r16
                             
-                            bf''16 -\staccato [
+                            bf''16
+                            -\staccato
+                            [
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            bf''16 -\staccato ]
+                            bf''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/17 {
                             
                             r16
                             
-                            c'''16 -\staccato [
+                            c'''16
+                            -\staccato
+                            [
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            bf''16 -\staccato ]
+                            bf''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/10 {
                             
                             r16
                             
-                            a''16 -\staccato [
+                            a''16
+                            -\staccato
+                            [
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            b''16 -\staccato ]
+                            b''16
+                            -\staccato
+                            ]
                         }
                         \times 8/14 {
                             
                             %%% ViolinTwoMusicVoice [measure 148] %%%
                             r16
                             
-                            cs'''16 -\staccato [
+                            cs'''16
+                            -\staccato
+                            [
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            f'''16 -\staccato
+                            f'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            b''16 -\staccato ]
+                            b''16
+                            -\staccato
+                            ]
                         }
                         \times 8/11 {
                             
                             r16
                             
-                            cs'''16 -\staccato [
+                            cs'''16
+                            -\staccato
+                            [
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            e'''16 -\staccato
+                            e'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            d'''16 -\staccato
+                            d'''16
+                            -\staccato
                             
-                            cs'''16 -\staccato
+                            cs'''16
+                            -\staccato
                             
-                            ef'''16 -\staccato
+                            ef'''16
+                            -\staccato
                             
-                            e'''16 -\staccato ]
+                            e'''16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -2817,29 +3550,32 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        r4 \ppp
+                        r4
+                        \ppp
                         
                         \override RepeatTie.direction = #up
-                        c'4 -\downbow
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        OB
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                        c'4
+                        -\downbow
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    OB
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
                         r8
                         
@@ -2849,11 +3585,14 @@
                         %%% ViolaMusicVoice [measure 115] %%%
                         r4.
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
                         r4
                         
@@ -2863,11 +3602,14 @@
                         %%% ViolaMusicVoice [measure 117] %%%
                         r4.
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
                         r4
                         
@@ -2877,9 +3619,11 @@
                         %%% ViolaMusicVoice [measure 119] %%%
                         r4
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
                         r4.
                         
@@ -2889,282 +3633,426 @@
                         %%% ViolaMusicVoice [measure 121] %%%
                         r4
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'8 -\upbow ~ [
+                        c'8
+                        -\upbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 122] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
                         %%% ViolaMusicVoice [measure 123] %%%
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'8 -\upbow ~ [
+                        c'8
+                        -\upbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 124] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4 -\downbow ~
+                        c'4
+                        -\downbow
+                        ~
                         
                         %%% ViolaMusicVoice [measure 125] %%%
                         c'8
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 126] %%%
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'8 -\upbow ~ [
+                        c'8
+                        -\upbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 127] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
                         %%% ViolaMusicVoice [measure 128] %%%
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 129] %%%
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'8 -\downbow ~
+                        c'8
+                        -\downbow
+                        ~
                         
                         %%% ViolaMusicVoice [measure 130] %%%
                         c'4
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'8 -\upbow ~
+                        c'8
+                        -\upbow
+                        ~
                         
                         %%% ViolaMusicVoice [measure 131] %%%
                         c'4
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'8 -\downbow ~
+                        c'8
+                        -\downbow
+                        ~
                         
                         %%% ViolaMusicVoice [measure 132] %%%
                         c'4
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'8 -\upbow ~
+                        c'8
+                        -\upbow
+                        ~
                         
                         %%% ViolaMusicVoice [measure 133] %%%
                         c'4
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'8 -\downbow ~ [
+                        c'8
+                        -\downbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 134] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 135] %%%
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'8 -\downbow ~ [
+                        c'8
+                        -\downbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 136] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'8 -\downbow ~ [
+                        c'8
+                        -\downbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 137] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 138] %%%
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'8 -\upbow ~ [
+                        c'8
+                        -\upbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 139] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
                         %%% ViolaMusicVoice [measure 140] %%%
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'8 -\upbow ~ [
+                        c'8
+                        -\upbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 141] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'8 -\upbow ~ [
+                        c'8
+                        -\upbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 142] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 143] %%%
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
                         %%% ViolaMusicVoice [measure 144] %%%
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 145] %%%
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
                         %%% ViolaMusicVoice [measure 146] %%%
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'8 -\upbow ~
+                        c'8
+                        -\upbow
+                        ~
                         
                         %%% ViolaMusicVoice [measure 147] %%%
                         c'4
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'8 -\downbow ~
+                        c'8
+                        -\downbow
+                        ~
                         
                         %%% ViolaMusicVoice [measure 148] %%%
                         c'4
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'4. -\downbow
+                        c'4.
+                        -\downbow
                         
-                        c'4 -\upbow
+                        c'4
+                        -\upbow
                         
-                        c'8 -\downbow ~ [
+                        c'8
+                        -\downbow
+                        ~
+                        [
                         
                         %%% ViolaMusicVoice [measure 149] %%%
-                        c'8 ]
+                        c'8
+                        ]
                         
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         
                         %%% ViolaMusicVoice [measure 150] %%%
-                        c'4. -\upbow
+                        c'4.
+                        -\upbow
                         
-                        c'4 -\downbow
+                        c'4
+                        -\downbow
                         \revert RepeatTie.direction
                         
                         r8
@@ -3194,31 +4082,33 @@
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 5/4 \ppp
+                        R1 * 5/4
+                        \ppp
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
                             %%% CelloMusicVoice [measure 115] %%%
                             r4
                             
-                            b,4 \ff
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                            b,4
+                            \ff
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "scratch moltiss."
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
                                     }
+                                }
                             
                             r4
                             
@@ -3252,12 +4142,13 @@
                             
                             r4
                             
-                            b,4 \f
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "po' meno scratch"
-                                    }
+                            b,4
+                            \f
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "po' meno scratch"
+                                }
                             
                             r4
                             
@@ -3377,12 +4268,14 @@
                             %%% CelloMusicVoice [measure 127] %%%
                             r8
                             
-                            cs8 -\staccato \mf
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "senza scratch"
-                                    }
+                            cs8
+                            -\staccato
+                            \mf
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "senza scratch"
+                                }
                             
                             r8
                             
@@ -3394,7 +4287,8 @@
                             
                             r8
                             
-                            d8 -\staccato
+                            d8
+                            -\staccato
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/14 {
@@ -3404,7 +4298,8 @@
                             
                             r8
                             
-                            ef8 -\staccato
+                            ef8
+                            -\staccato
                             
                             r8
                             
@@ -3416,13 +4311,15 @@
                             
                             r8
                             
-                            d8 -\staccato
+                            d8
+                            -\staccato
                             
                             r8
                             
                             r8
                             
-                            e8 -\staccato
+                            e8
+                            -\staccato
                             
                             r8
                             
@@ -3437,13 +4334,15 @@
                             
                             r8
                             
-                            f8 -\staccato
+                            f8
+                            -\staccato
                             
                             r8
                             
                             r8
                             
-                            ef8 -\staccato
+                            ef8
+                            -\staccato
                             
                             r8
                             
@@ -3459,13 +4358,15 @@
                             
                             r8
                             
-                            e8 -\staccato
+                            e8
+                            -\staccato
                             
                             r8
                             
                             r8
                             
-                            cs8 -\staccato
+                            cs8
+                            -\staccato
                             
                             r8
                             
@@ -3477,7 +4378,8 @@
                             
                             r8
                             
-                            d8 -\staccato
+                            d8
+                            -\staccato
                             
                             r8
                             
@@ -3490,20 +4392,27 @@
                             
                             r16
                             
-                            cs16 -\staccato [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            leggieriss.
-                                    }
+                            cs16
+                            -\staccato
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        leggieriss.
+                                }
                             
-                            c16 -\staccato
+                            c16
+                            -\staccato
                             
-                            b,16 -\staccato
+                            b,16
+                            -\staccato
                             
-                            cs16 -\staccato
+                            cs16
+                            -\staccato
                             
-                            c16 -\staccato ]
+                            c16
+                            -\staccato
+                            ]
                         }
                         
                         r4.
@@ -3521,44 +4430,65 @@
                             
                             r16
                             
-                            cs16 -\staccato [
+                            cs16
+                            -\staccato
+                            [
                             
-                            d16 -\staccato
+                            d16
+                            -\staccato
                             
-                            e16 -\staccato
+                            e16
+                            -\staccato
                             
-                            ef16 -\staccato
+                            ef16
+                            -\staccato
                             
-                            d16 -\staccato
+                            d16
+                            -\staccato
                             
-                            cs16 -\staccato ]
+                            cs16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             %%% CelloMusicVoice [measure 133] %%%
                             r16
                             
-                            ef16 -\staccato [
+                            ef16
+                            -\staccato
+                            [
                             
-                            e16 -\staccato
+                            e16
+                            -\staccato
                             
-                            f16 -\staccato
+                            f16
+                            -\staccato
                             
-                            e16 -\staccato
+                            e16
+                            -\staccato
                             
-                            fs16 -\staccato
+                            fs16
+                            -\staccato
                             
-                            g16 -\staccato ]
+                            g16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            f16 -\staccato [
+                            f16
+                            -\staccato
+                            [
                             
-                            fs16 -\staccato
+                            fs16
+                            -\staccato
                             
-                            ef16 -\staccato ]
+                            ef16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -3566,40 +4496,59 @@
                             
                             r16
                             
-                            e16 -\staccato [
+                            e16
+                            -\staccato
+                            [
                             
-                            ef16 -\staccato
+                            ef16
+                            -\staccato
                             
-                            d16 -\staccato
+                            d16
+                            -\staccato
                             
-                            cs16 -\staccato ]
+                            cs16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             %%% CelloMusicVoice [measure 134] %%%
                             r16
                             
-                            ef16 -\staccato [
+                            ef16
+                            -\staccato
+                            [
                             
-                            d16 -\staccato
+                            d16
+                            -\staccato
                             
-                            ef16 -\staccato
+                            ef16
+                            -\staccato
                             
-                            e16 -\staccato
+                            e16
+                            -\staccato
                             
-                            fs16 -\staccato
+                            fs16
+                            -\staccato
                             
-                            f16 -\staccato ]
+                            f16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            e16 -\staccato [
+                            e16
+                            -\staccato
+                            [
                             
-                            ef16 -\staccato
+                            ef16
+                            -\staccato
                             
-                            f16 -\staccato ]
+                            f16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -3608,92 +4557,139 @@
                             %%% CelloMusicVoice [measure 135] %%%
                             r16
                             
-                            fs16 -\staccato \> \mf [
+                            fs16
+                            -\staccato
+                            \>
+                            \mf
+                            [
                             
-                            g16 -\staccato
+                            g16
+                            -\staccato
                             
-                            fs16 -\staccato
+                            fs16
+                            -\staccato
                             
-                            af16 -\staccato ]
+                            af16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            a16 -\staccato [
+                            a16
+                            -\staccato
+                            [
                             
-                            g16 -\staccato
+                            g16
+                            -\staccato
                             
-                            af16 -\staccato
+                            af16
+                            -\staccato
                             
-                            f16 -\staccato
+                            f16
+                            -\staccato
                             
-                            fs16 -\staccato
+                            fs16
+                            -\staccato
                             
-                            f16 -\staccato ]
+                            f16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            e16 -\staccato [
+                            e16
+                            -\staccato
+                            [
                             
-                            ef16 -\staccato
+                            ef16
+                            -\staccato
                             
-                            f16 -\staccato ]
+                            f16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            e16 -\staccato [
+                            e16
+                            -\staccato
+                            [
                             
-                            f16 -\staccato
+                            f16
+                            -\staccato
                             
-                            fs16 -\staccato
+                            fs16
+                            -\staccato
                             
-                            af16 -\staccato
+                            af16
+                            -\staccato
                             
-                            g16 -\staccato ]
+                            g16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% CelloMusicVoice [measure 136] %%%
                             r16
                             
-                            fs16 -\staccato [
+                            fs16
+                            -\staccato
+                            [
                             
-                            f16 -\staccato
+                            f16
+                            -\staccato
                             
-                            g16 -\staccato
+                            g16
+                            -\staccato
                             
-                            af16 -\staccato ]
+                            af16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            a16 -\staccato [
+                            a16
+                            -\staccato
+                            [
                             
-                            af16 -\staccato
+                            af16
+                            -\staccato
                             
-                            bf16 -\staccato
+                            bf16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            a16 -\staccato
+                            a16
+                            -\staccato
                             
-                            bf16 -\staccato ]
+                            bf16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            g16 -\staccato [
+                            g16
+                            -\staccato
+                            [
                             
-                            af16 -\staccato
+                            af16
+                            -\staccato
                             
-                            g16 -\staccato ]
+                            g16
+                            -\staccato
+                            ]
                         }
                         
                         r4
@@ -3701,93 +4697,138 @@
                             
                             r16
                             
-                            fs16 -\staccato [
+                            fs16
+                            -\staccato
+                            [
                             
-                            f16 -\staccato
+                            f16
+                            -\staccato
                             
-                            g16 -\staccato
+                            g16
+                            -\staccato
                             
-                            fs16 -\staccato ]
+                            fs16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             %%% CelloMusicVoice [measure 137] %%%
                             r16
                             
-                            g16 -\staccato [
+                            g16
+                            -\staccato
+                            [
                             
-                            af16 -\staccato
+                            af16
+                            -\staccato
                             
-                            bf16 -\staccato
+                            bf16
+                            -\staccato
                             
-                            a16 -\staccato
+                            a16
+                            -\staccato
                             
-                            af16 -\staccato
+                            af16
+                            -\staccato
                             
-                            g16 -\staccato ]
+                            g16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            a16 -\staccato [
+                            a16
+                            -\staccato
+                            [
                             
-                            bf16 -\staccato
+                            bf16
+                            -\staccato
                             
-                            b16 -\staccato ]
+                            b16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            bf16 -\staccato [
+                            bf16
+                            -\staccato
+                            [
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            c'16 -\staccato ]
+                            c'16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             %%% CelloMusicVoice [measure 138] %%%
                             r16
                             
-                            a16 -\staccato [
+                            a16
+                            -\staccato
+                            [
                             
-                            bf16 -\staccato
+                            bf16
+                            -\staccato
                             
-                            a16 -\staccato
+                            a16
+                            -\staccato
                             
-                            af16 -\staccato ]
+                            af16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            g16 -\staccato [
+                            g16
+                            -\staccato
+                            [
                             
-                            a16 -\staccato
+                            a16
+                            -\staccato
                             
-                            af16 -\staccato
+                            af16
+                            -\staccato
                             
-                            a16 -\staccato
+                            a16
+                            -\staccato
                             
-                            bf16 -\staccato
+                            bf16
+                            -\staccato
                             
-                            c'16 -\staccato ]
+                            c'16
+                            -\staccato
+                            ]
                         }
                         {
                             
                             r16
                             
-                            b16 -\staccato [
+                            b16
+                            -\staccato
+                            [
                             
-                            bf16 -\staccato
+                            bf16
+                            -\staccato
                             
-                            a16 -\staccato ]
+                            a16
+                            -\staccato
+                            ]
                         }
                         {
                             
@@ -3795,269 +4836,400 @@
                             \clef "treble"
                             r16
                             
-                            b16 -\staccato [
+                            b16
+                            -\staccato
+                            [
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            cs'16 -\staccato ]
+                            cs'16
+                            -\staccato
+                            ]
                         }
                         \times 8/9 {
                             
                             r16
                             
-                            c'16 -\staccato [
+                            c'16
+                            -\staccato
+                            [
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            b16 -\staccato ]
+                            b16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             %%% CelloMusicVoice [measure 140] %%%
                             r16
                             
-                            bf16 -\staccato [
+                            bf16
+                            -\staccato
+                            [
                             
-                            a16 -\staccato
+                            a16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            bf16 -\staccato
+                            bf16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            c'16 -\staccato ]
+                            c'16
+                            -\staccato
+                            ]
                         }
                         \times 8/10 {
                             
                             r16
                             
-                            d'16 -\staccato [
+                            d'16
+                            -\staccato
+                            [
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            e'16 -\staccato ]
+                            e'16
+                            -\staccato
+                            ]
                         }
                         \times 8/12 {
                             
                             r16
                             
-                            f'16 -\staccato [
+                            f'16
+                            -\staccato
+                            [
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
                             %%% CelloMusicVoice [measure 141] %%%
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            b16 -\staccato
+                            b16
+                            -\staccato
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            c'16 -\staccato
+                            c'16
+                            -\staccato
                             
-                            cs'16 -\staccato ]
+                            cs'16
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
                             r16
                             
-                            d'16 -\staccato [
+                            d'16
+                            -\staccato
+                            [
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            d'16 -\staccato ]
+                            d'16
+                            -\staccato
+                            ]
                         }
                         \times 8/11 {
                             
                             r16
                             
-                            cs'16 -\staccato [
+                            cs'16
+                            -\staccato
+                            [
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            ef'16 -\staccato ]
+                            ef'16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            e'16 -\staccato [
+                            e'16
+                            -\staccato
+                            [
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            d'16 -\staccato
+                            d'16
+                            -\staccato
                             
-                            cs'16 -\staccato
+                            cs'16
+                            -\staccato
                             
-                            ef'16 -\staccato ]
+                            ef'16
+                            -\staccato
+                            ]
                         }
                         \times 8/12 {
                             
                             %%% CelloMusicVoice [measure 142] %%%
                             r16
                             
-                            d'16 -\staccato [
+                            d'16
+                            -\staccato
+                            [
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            ef'16 -\staccato
+                            ef'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            fs'16 -\staccato ]
+                            fs'16
+                            -\staccato
+                            ]
                         }
                         \times 8/9 {
                             
                             r16
                             
-                            af'16 -\staccato [
+                            af'16
+                            -\staccato
+                            [
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            e'16 -\staccato ]
+                            e'16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             %%% CelloMusicVoice [measure 143] %%%
                             r16
                             
-                            ef'16 -\staccato [
+                            ef'16
+                            -\staccato
+                            [
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            e'16 -\staccato
+                            e'16
+                            -\staccato
                             
-                            f'16 -\staccato
+                            f'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            fs'16 -\staccato ]
+                            fs'16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/14 {
                             
                             r16
                             
-                            f'16 -\staccato [
+                            f'16
+                            -\staccato
+                            [
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            fs'16 -\staccato ]
+                            fs'16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/10 {
                             
                             r16
                             
-                            f'16 -\staccato [
+                            f'16
+                            -\staccato
+                            [
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            fs'16 -\staccato
+                            fs'16
+                            -\staccato
                             
-                            g'16 -\staccato
+                            g'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            g'16 -\staccato ]
+                            g'16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/13 {
@@ -4065,328 +5237,490 @@
                             %%% CelloMusicVoice [measure 144] %%%
                             r16
                             
-                            a'16 -\staccato [
+                            a'16
+                            -\staccato
+                            [
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            af'16 -\staccato ]
+                            af'16
+                            -\staccato
+                            ]
                         }
                         \times 12/15 {
                             
                             r16
                             
-                            g'16 -\staccato [
+                            g'16
+                            -\staccato
+                            [
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            af'16 -\staccato
+                            af'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            d''16 -\staccato \pp ]
+                            d''16
+                            -\staccato
+                            \pp
+                            ]
                         }
                         \times 12/18 {
                             
                             %%% CelloMusicVoice [measure 145] %%%
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            a'16 -\staccato
+                            a'16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            bf'16 -\staccato
+                            bf'16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            cs''16 -\staccato ]
+                            cs''16
+                            -\staccato
+                            ]
                         }
                         \times 6/9 {
                             
                             r16
                             
-                            d''16 -\staccato [
+                            d''16
+                            -\staccato
+                            [
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            cs''16 -\staccato ]
+                            cs''16
+                            -\staccato
+                            ]
                         }
                         \times 10/15 {
                             
                             r16
                             
-                            d''16 -\staccato [
+                            d''16
+                            -\staccato
+                            [
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            b'16 -\staccato
+                            b'16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            c''16 -\staccato
+                            c''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
                             %%% CelloMusicVoice [measure 146] %%%
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            cs''16 -\staccato
+                            cs''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato ]
+                            e''16
+                            -\staccato
+                            ]
                         }
                         \times 8/12 {
                             
                             r16
                             
-                            f''16 -\staccato [
+                            f''16
+                            -\staccato
+                            [
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            cs''16 -\staccato ]
+                            cs''16
+                            -\staccato
+                            ]
                         }
                         \times 4/6 {
                             
                             r16
                             
-                            ef''16 -\staccato [
+                            ef''16
+                            -\staccato
+                            [
                             
-                            d''16 -\staccato
+                            d''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            fs''16 -\staccato ]
+                            fs''16
+                            -\staccato
+                            ]
                         }
                         \times 12/15 {
                             
                             %%% CelloMusicVoice [measure 147] %%%
                             r16
                             
-                            f''16 -\staccato [
+                            f''16
+                            -\staccato
+                            [
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato ]
+                            f''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/11 {
                             
                             r16
                             
-                            e''16 -\staccato [
+                            e''16
+                            -\staccato
+                            [
                             
-                            ef''16 -\staccato
+                            ef''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            e''16 -\staccato
+                            e''16
+                            -\staccato
                             
-                            f''16 -\staccato
+                            f''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato ]
+                            f''16
+                            -\staccato
+                            ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 10/14 {
                             
                             r16
                             
-                            g''16 -\staccato [
+                            g''16
+                            -\staccato
+                            [
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            f''16 -\staccato ]
+                            f''16
+                            -\staccato
+                            ]
                         }
                         \times 8/14 {
                             
                             r16
                             
-                            g''16 -\staccato [
+                            g''16
+                            -\staccato
+                            [
                             
-                            fs''16 -\staccato
+                            fs''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            af''16 -\staccato
+                            af''16
+                            -\staccato
                             
-                            g''16 -\staccato
+                            g''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            c'''16 -\staccato ]
+                            c'''16
+                            -\staccato
+                            ]
                         }
                         \times 4/7 {
                             
                             r16
                             
-                            cs'''16 -\staccato [
+                            cs'''16
+                            -\staccato
+                            [
                             
-                            b''16 -\staccato
+                            b''16
+                            -\staccato
                             
-                            c'''16 -\staccato
+                            c'''16
+                            -\staccato
                             
-                            a''16 -\staccato
+                            a''16
+                            -\staccato
                             
-                            bf''16 -\staccato
+                            bf''16
+                            -\staccato
                             
-                            a''16 -\staccato ]
+                            a''16
+                            -\staccato
+                            ]
                         }
                         
                         r2
