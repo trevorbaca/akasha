@@ -22,10 +22,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.uverylongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.uverylongfermata"
+                    }
                 
                 %%% GlobalRests [measure 336] %%%
                 R1 * 3/2
@@ -35,10 +35,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.uverylongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.uverylongfermata"
+                    }
                 
                 %%% GlobalRests [measure 338] %%%
                 R1 * 3/2
@@ -54,7 +54,8 @@
                 \time 4/4
                 \mark #12
                 \newSpacingSection
-                s1 * 1 ^ \markup {
+                s1 * 1
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -136,7 +137,8 @@
                         \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 1 \ff
+                        R1 * 1
+                        \ff
                         
                         %%% ViolinOneMusicVoice [measure 335] %%%
                         R1 * 1/4
@@ -187,7 +189,8 @@
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 1 \ff
+                        R1 * 1
+                        \ff
                         
                         %%% ViolinTwoMusicVoice [measure 335] %%%
                         R1 * 1/4
@@ -228,30 +231,33 @@
                         \clef "alto"
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        c'1 -\downbow \ff
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "OB + terminate each note abruptly"
-                                }
-                            _ \markup {
-                                \larger
-                                    \italic
-                                        “
-                                \dynamic
-                                    \override
-                                        #'(font-name . #f)
-                                        mf
-                                \larger
-                                    \italic
-                                        ”
-                                }
+                        c'1
+                        -\downbow
+                        \ff
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "OB + terminate each note abruptly"
+                            }
+                        _ \markup {
+                            \larger
+                                \italic
+                                    “
+                            \dynamic
+                                \override
+                                    #'(font-name . #f)
+                                    mf
+                            \larger
+                                \italic
+                                    ”
+                            }
                         
                         %%% ViolaMusicVoice [measure 335] %%%
                         R1 * 1/4
                         
                         %%% ViolaMusicVoice [measure 336] %%%
-                        c'1. -\upbow
+                        c'1.
+                        -\upbow
                         
                         %%% ViolaMusicVoice [measure 337] %%%
                         R1 * 5/2
@@ -278,19 +284,22 @@
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 3 \ff
+                        R1 * 3
+                        \ff
                         
                         %%% CelloMusicVoice [measure 338] %%%
                         \clef "bass"
-                        bf,,1. \pp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "pos. ord. + vib. poco"
-                                }
+                        bf,,1.
+                        \pp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "pos. ord. + vib. poco"
+                            }
                         
                         %%% CelloMusicVoice [measure 339] %%%
-                        bf,,2. \repeatTie
+                        bf,,2.
+                        \repeatTie
                         \bar "|"
                         
                     }

@@ -28,10 +28,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.uverylongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.uverylongfermata"
+                    }
                 
             }
             \context GlobalSkips = "GlobalSkips" {
@@ -41,7 +41,8 @@
                 \time 4/4
                 \mark #10
                 \newSpacingSection
-                s1 * 1 ^ \markup {
+                s1 * 1
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -111,29 +112,31 @@
                         \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 1 \p
+                        R1 * 1
+                        \p
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             
                             %%% ViolinOneMusicVoice [measure 262] %%%
-                            f'4 \ff
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                            f'4
+                            \ff
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "scratch moltiss."
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
                                     }
+                                }
                             
                             r4
                             
@@ -192,30 +195,32 @@
                             \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            r4 \p
+                            r4
+                            \p
                             
                             r4
                             
                             r4
                             
-                            a4 \ff
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                            a4
+                            \ff
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "scratch moltiss."
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
                                     }
+                                }
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
@@ -279,7 +284,8 @@
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        R1 * 1 \p
+                        R1 * 1
+                        \p
                         
                         %%% ViolaMusicVoice [measure 262] %%%
                         R1 * 3/2
@@ -314,26 +320,28 @@
                             \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            r4 \p
+                            r4
+                            \p
                             
-                            b,4 \ff
-                                ^ \markup {
-                                    \column
-                                        {
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "scratch moltiss."
-                                                }
-                                            \line
-                                                {
-                                                    \whiteout
-                                                        \upright
-                                                            "terminate each note abruptly"
-                                                }
-                                        }
+                            b,4
+                            \ff
+                            ^ \markup {
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "scratch moltiss."
+                                            }
+                                        \line
+                                            {
+                                                \whiteout
+                                                    \upright
+                                                        "terminate each note abruptly"
+                                            }
                                     }
+                                }
                             
                             r4
                         }

@@ -31,10 +31,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ulongfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ulongfermata"
+                    }
                 
                 %%% GlobalRests [measure 29] %%%
                 R1 * 3/8
@@ -44,10 +44,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ushortfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ushortfermata"
+                    }
                 
                 %%% GlobalRests [measure 31] %%%
                 R1 * 1/2
@@ -57,10 +57,10 @@
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
                 R1 * 1/4
-                    - \markup {
-                        \musicglyph
-                            #"scripts.ushortfermata"
-                        }
+                - \markup {
+                    \musicglyph
+                        #"scripts.ushortfermata"
+                    }
                 
                 %%% GlobalRests [measure 33] %%%
                 R1 * 7/8
@@ -76,7 +76,8 @@
                 \time 9/8
                 \mark #2
                 \newSpacingSection
-                s1 * 9/8 ^ \markup {
+                s1 * 9/8
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -218,14 +219,17 @@
                             \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                             \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            e''16 * 249/32 \pp [
+                            e''16 * 249/32
+                            \pp
+                            [
                             
                             r16 * 43/8
                             
                             d''16 * 179/64
                             
                             \revert Staff.Stem.stemlet-length
-                            e''16 * 131/64 ]
+                            e''16 * 131/64
+                            ]
                         }
                         \revert TupletNumber.text
                         
@@ -269,12 +273,13 @@
                         \clef "treble"
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        ds'4 \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + 1/2 scratch"
-                                }
+                        ds'4
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tasto + 1/2 scratch"
+                            }
                         
                         e'2..
                         
@@ -283,12 +288,14 @@
                         
                         fqf'8
                         
-                        fqf'4 \repeatTie
+                        fqf'4
+                        \repeatTie
                         
                         e'2
                         
                         %%% ViolinTwoMusicVoice [measure 26] %%%
-                        e'2 \repeatTie
+                        e'2
+                        \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 27] %%%
                         R1 * 21/8
@@ -327,12 +334,14 @@
                             %%% ViolinTwoMusicVoice [measure 33] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            c''16 * 487/64 \pp [
-                                ^ \markup {
-                                    \whiteout
-                                        \upright
-                                            "tasto + XFB"
-                                    }
+                            c''16 * 487/64
+                            \pp
+                            [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "tasto + XFB"
+                                }
                             
                             bf'16 * 209/32
                             
@@ -345,7 +354,8 @@
                             c''16 * 65/32
                             
                             \revert Staff.Stem.stemlet-length
-                            bf'16 * 61/32 ]
+                            bf'16 * 61/32
+                            ]
                             \bar "|"
                             
                         }
@@ -375,36 +385,44 @@
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        r4. \mp
+                        r4.
+                        \mp
                         
                         r4
                         
                         df'2
                         
                         %%% ViolaMusicVoice [measure 25] %%%
-                        df'4. \repeatTie
+                        df'4.
+                        \repeatTie
                         
-                        df'4 \repeatTie
+                        df'4
+                        \repeatTie
                         
-                        dtqf'8 [
+                        dtqf'8
+                        [
                         
-                        dtqf'8 \repeatTie ]
+                        dtqf'8
+                        \repeatTie
+                        ]
                         
                         c'4
                         
                         %%% ViolaMusicVoice [measure 26] %%%
-                        c'2 \repeatTie
+                        c'2
+                        \repeatTie
                         
                         %%% ViolaMusicVoice [measure 27] %%%
                         R1 * 7/2
                         
                         %%% ViolaMusicVoice [measure 34] %%%
-                        ds2.. \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        tasto
-                                }
+                        ds2..
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    tasto
+                            }
                         \bar "|"
                         
                     }
@@ -427,7 +445,8 @@
                         \clef "bass"
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        r2. \p
+                        r2.
+                        \p
                         
                         r4.
                         \times 8/9 {
@@ -435,13 +454,19 @@
                             %%% CelloMusicVoice [measure 25] %%%
                             r16.
                             
-                            bf32 -\staccato [
+                            bf32
+                            -\staccato
+                            [
                             
-                            a32 -\staccato
+                            a32
+                            -\staccato
                             
-                            bf32 -\staccato
+                            bf32
+                            -\staccato
                             
-                            b32 -\staccato ]
+                            b32
+                            -\staccato
+                            ]
                             
                             r16
                         }
@@ -452,23 +477,35 @@
                             %%% CelloMusicVoice [measure 26] %%%
                             r8.
                             
-                            c'32 -\staccato [
+                            c'32
+                            -\staccato
+                            [
                             
-                            bf32 -\staccato ]
+                            bf32
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
-                            b32 -\staccato [
+                            b32
+                            -\staccato
+                            [
                             
-                            bf32 -\staccato
+                            bf32
+                            -\staccato
                             
-                            a32 -\staccato
+                            a32
+                            -\staccato
                             
-                            g32 -\staccato
+                            g32
+                            -\staccato
                             
-                            af32 -\staccato
+                            af32
+                            -\staccato
                             
-                            a32 -\staccato ]
+                            a32
+                            -\staccato
+                            ]
                             
                             r8
                         }
@@ -477,13 +514,19 @@
                             %%% CelloMusicVoice [measure 27] %%%
                             r8
                             
-                            bf32 -\staccato [
+                            bf32
+                            -\staccato
+                            [
                             
-                            af32 -\staccato
+                            af32
+                            -\staccato
                             
-                            g32 -\staccato
+                            g32
+                            -\staccato
                             
-                            fs32 -\staccato ]
+                            fs32
+                            -\staccato
+                            ]
                             
                             r32
                         }
@@ -491,43 +534,67 @@
                             
                             r16.
                             
-                            g32 -\staccato [
+                            g32
+                            -\staccato
+                            [
                             
-                            f32 -\staccato
+                            f32
+                            -\staccato
                             
-                            e32 -\staccato
+                            e32
+                            -\staccato
                             
-                            fs32 -\staccato
+                            fs32
+                            -\staccato
                             
-                            f32 -\staccato
+                            f32
+                            -\staccato
                             
-                            g32 -\staccato ]
+                            g32
+                            -\staccato
+                            ]
                         }
                         {
                             
-                            fs32 -\staccato [
+                            fs32
+                            -\staccato
+                            [
                             
-                            g32 -\staccato ]
+                            g32
+                            -\staccato
+                            ]
                             
                             r8
                             
-                            af32 -\staccato [
+                            af32
+                            -\staccato
+                            [
                             
-                            a32 -\staccato ]
+                            a32
+                            -\staccato
+                            ]
                         }
                         \times 4/5 {
                             
-                            g32 -\staccato [
+                            g32
+                            -\staccato
+                            [
                             
-                            af32 -\staccato
+                            af32
+                            -\staccato
                             
-                            g32 -\staccato
+                            g32
+                            -\staccato
                             
-                            fs32 -\staccato
+                            fs32
+                            -\staccato
                             
-                            e32 -\staccato
+                            e32
+                            -\staccato
                             
-                            f32 -\staccato ]
+                            f32
+                            -\staccato
+                            ]
                             
                             r8
                         }
@@ -537,27 +604,40 @@
                         \times 8/9 {
                             
                             %%% CelloMusicVoice [measure 29] %%%
-                            fs32 -\staccato [
+                            fs32
+                            -\staccato
+                            [
                             
-                            g32 -\staccato
+                            g32
+                            -\staccato
                             
-                            f32 -\staccato
+                            f32
+                            -\staccato
                             
-                            e32 -\staccato
+                            e32
+                            -\staccato
                             
-                            ef32 -\staccato ]
+                            ef32
+                            -\staccato
+                            ]
                             
                             r8
                         }
                         \times 4/5 {
                             
-                            e32 -\staccato [
+                            e32
+                            -\staccato
+                            [
                             
-                            d32 -\staccato
+                            d32
+                            -\staccato
                             
-                            cs32 -\staccato
+                            cs32
+                            -\staccato
                             
-                            ef32 -\staccato ]
+                            ef32
+                            -\staccato
+                            ]
                             
                             r32
                         }
@@ -567,35 +647,44 @@
                         \times 8/9 {
                             
                             %%% CelloMusicVoice [measure 31] %%%
-                            d32 -\staccato
+                            d32
+                            -\staccato
                             
                             r8
                             
-                            e32 -\staccato [
+                            e32
+                            -\staccato
+                            [
                             
-                            ef32 -\staccato
+                            ef32
+                            -\staccato
                             
-                            e32 -\staccato
+                            e32
+                            -\staccato
                             
-                            f32 -\staccato ]
+                            f32
+                            -\staccato
+                            ]
                         }
                         \times 8/9 {
                             
                             r4
                             
-                            fs32 -\staccato
+                            fs32
+                            -\staccato
                         }
                         
                         %%% CelloMusicVoice [measure 32] %%%
                         R1 * 9/8
                         
                         %%% CelloMusicVoice [measure 34] %%%
-                        cs,2.. \mp
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        tasto
-                                }
+                        cs,2..
+                        \mp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    tasto
+                            }
                         \bar "|"
                         
                     }
