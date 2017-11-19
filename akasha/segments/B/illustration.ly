@@ -197,30 +197,30 @@
                             %%% ViolinOneMusicVoice [measure 24] %%%
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
-                            \set ViolinOneMusicStaff.instrumentName = \markup {
-                                \hcenter-in
-                                    #16
-                                    \line
-                                        {
-                                            Violin
-                                            1
-                                        }
-                                }
-                            \set ViolinOneMusicStaff.shortInstrumentName = \markup {
-                                \hcenter-in
-                                    #10
-                                    \line
-                                        {
-                                            Vn.
-                                            1
-                                        }
-                                }
-                            \clef "treble"
-                            \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                            \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                            \set ViolinOneMusicStaff.instrumentName = \markup { % SEGMENT-ONLY
+                                \hcenter-in % SEGMENT-ONLY
+                                    #16 % SEGMENT-ONLY
+                                    \line % SEGMENT-ONLY
+                                        { % SEGMENT-ONLY
+                                            Violin % SEGMENT-ONLY
+                                            1 % SEGMENT-ONLY
+                                        } % SEGMENT-ONLY
+                                } % SEGMENT-ONLY
+                            \set ViolinOneMusicStaff.shortInstrumentName = \markup { % SEGMENT-ONLY
+                                \hcenter-in % SEGMENT-ONLY
+                                    #10 % SEGMENT-ONLY
+                                    \line % SEGMENT-ONLY
+                                        { % SEGMENT-ONLY
+                                            Vn. % SEGMENT-ONLY
+                                            1 % SEGMENT-ONLY
+                                        } % SEGMENT-ONLY
+                                } % SEGMENT-ONLY
+                            \clef "treble" % SEGMENT-ONLY
+                            \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                            \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                            \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
                             e''16 * 249/32
-                            \pp
+                            \pp % SEGMENT-ONLY
                             [
                             
                             r16 * 43/8
@@ -252,27 +252,27 @@
                     \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
                         %%% ViolinTwoMusicVoice [measure 24] %%%
-                        \set ViolinTwoMusicStaff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \line
-                                    {
-                                        Violin
-                                        2
-                                    }
-                            }
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \line
-                                    {
-                                        Vn.
-                                        2
-                                    }
-                            }
-                        \clef "treble"
-                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \set ViolinTwoMusicStaff.instrumentName = \markup { % SEGMENT-ONLY
+                            \hcenter-in % SEGMENT-ONLY
+                                #16 % SEGMENT-ONLY
+                                \line % SEGMENT-ONLY
+                                    { % SEGMENT-ONLY
+                                        Violin % SEGMENT-ONLY
+                                        2 % SEGMENT-ONLY
+                                    } % SEGMENT-ONLY
+                            } % SEGMENT-ONLY
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { % SEGMENT-ONLY
+                            \hcenter-in % SEGMENT-ONLY
+                                #10 % SEGMENT-ONLY
+                                \line % SEGMENT-ONLY
+                                    { % SEGMENT-ONLY
+                                        Vn. % SEGMENT-ONLY
+                                        2 % SEGMENT-ONLY
+                                    } % SEGMENT-ONLY
+                            } % SEGMENT-ONLY
+                        \clef "treble" % SEGMENT-ONLY
+                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
                         ds'4
                         \mp
                         ^ \markup {
@@ -367,26 +367,26 @@
                     \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
                         %%% ViolaMusicVoice [measure 24] %%%
-                        \stopStaff
-                        \once \override Staff.StaffSymbol.line-count = 1
-                        \startStaff
-                        \set ViolaMusicStaff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Viola
-                            }
-                        \set ViolaMusicStaff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Va.
-                            }
-                        \clef "alto"
-                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \stopStaff % SEGMENT-ONLY
+                        \once \override Staff.StaffSymbol.line-count = 1 % SEGMENT-ONLY
+                        \startStaff % SEGMENT-ONLY
+                        \set ViolaMusicStaff.instrumentName = \markup { % SEGMENT-ONLY
+                            \hcenter-in % SEGMENT-ONLY
+                                #16 % SEGMENT-ONLY
+                                Viola % SEGMENT-ONLY
+                            } % SEGMENT-ONLY
+                        \set ViolaMusicStaff.shortInstrumentName = \markup { % SEGMENT-ONLY
+                            \hcenter-in % SEGMENT-ONLY
+                                #10 % SEGMENT-ONLY
+                                Va. % SEGMENT-ONLY
+                            } % SEGMENT-ONLY
+                        \clef "alto" % SEGMENT-ONLY
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
                         r4.
-                        \mp
+                        \mp % SEGMENT-ONLY
                         
                         r4
                         
@@ -432,21 +432,21 @@
                     \context CelloMusicVoice = "CelloMusicVoice" {
                         
                         %%% CelloMusicVoice [measure 24] %%%
-                        \set CelloMusicStaff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Cello
-                            }
-                        \set CelloMusicStaff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Vc.
-                            }
+                        \set CelloMusicStaff.instrumentName = \markup { % SEGMENT-ONLY
+                            \hcenter-in % SEGMENT-ONLY
+                                #16 % SEGMENT-ONLY
+                                Cello % SEGMENT-ONLY
+                            } % SEGMENT-ONLY
+                        \set CelloMusicStaff.shortInstrumentName = \markup { % SEGMENT-ONLY
+                            \hcenter-in % SEGMENT-ONLY
+                                #10 % SEGMENT-ONLY
+                                Vc. % SEGMENT-ONLY
+                            } % SEGMENT-ONLY
                         \clef "bass"
-                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT-ONLY
                         r2.
-                        \p
+                        \p % SEGMENT-ONLY
                         
                         r4.
                         \times 8/9 {
