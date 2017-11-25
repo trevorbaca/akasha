@@ -243,7 +243,28 @@
                         r2
                         
                         %%% ViolinOneMusicVoice [measure 27] %%%
-                        R1 * 35/8
+                        R1 * 1
+                        
+                        %%% ViolinOneMusicVoice [measure 28] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 29] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolinOneMusicVoice [measure 30] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 31] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinOneMusicVoice [measure 32] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 33] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinOneMusicVoice [measure 34] %%%
+                        R1 * 7/8
                         \bar "|"
                         
                     }
@@ -299,7 +320,22 @@
                         \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 27] %%%
-                        R1 * 21/8
+                        R1 * 1
+                        
+                        %%% ViolinTwoMusicVoice [measure 28] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 29] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 30] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 31] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinTwoMusicVoice [measure 32] %%%
+                        R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
                                 #'(0.75 . 0.75)
@@ -414,7 +450,25 @@
                         \repeatTie
                         
                         %%% ViolaMusicVoice [measure 27] %%%
-                        R1 * 7/2
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 28] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 29] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolaMusicVoice [measure 30] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 31] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 32] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 33] %%%
+                        R1 * 7/8
                         
                         %%% ViolaMusicVoice [measure 34] %%%
                         ds2..
@@ -676,7 +730,10 @@
                         }
                         
                         %%% CelloMusicVoice [measure 32] %%%
-                        R1 * 9/8
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 33] %%%
+                        R1 * 7/8
                         
                         %%% CelloMusicVoice [measure 34] %%%
                         cs,2..

@@ -261,7 +261,13 @@
                         -\upbow
                         
                         %%% ViolaMusicVoice [measure 337] %%%
-                        R1 * 5/2
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 338] %%%
+                        R1 * 3/2
+                        
+                        %%% ViolaMusicVoice [measure 339] %%%
+                        R1 * 3/4
                         \bar "|"
                         
                     }
@@ -285,8 +291,17 @@
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 3
+                        R1 * 1
                         \ff % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% CelloMusicVoice [measure 335] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 336] %%%
+                        R1 * 3/2
+                        
+                        %%% CelloMusicVoice [measure 337] %%%
+                        R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 338] %%%
                         \clef "bass"

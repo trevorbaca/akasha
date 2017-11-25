@@ -764,7 +764,10 @@
                             }
                         
                         %%% ViolinOneMusicVoice [measure 229] %%%
-                        R1 * 5/2
+                        R1 * 3/2
+                        
+                        %%% ViolinOneMusicVoice [measure 230] %%%
+                        R1 * 1
                         
                         %%% ViolinOneMusicVoice [measure 231] %%%
                         b'4
@@ -1633,7 +1636,10 @@
                             }
                         
                         %%% ViolinTwoMusicVoice [measure 229] %%%
-                        R1 * 5/2
+                        R1 * 3/2
+                        
+                        %%% ViolinTwoMusicVoice [measure 230] %%%
+                        R1 * 1
                         
                         %%% ViolinTwoMusicVoice [measure 231] %%%
                         \once \override TextSpanner.arrow-width = 0.25
@@ -1680,7 +1686,10 @@
                             }
                         
                         %%% ViolinTwoMusicVoice [measure 234] %%%
-                        R1 * 2
+                        R1 * 1
+                        
+                        %%% ViolinTwoMusicVoice [measure 235] %%%
+                        R1 * 1
                         
                         %%% ViolinTwoMusicVoice [measure 236] %%%
                         b4
@@ -1877,7 +1886,10 @@
                         \mp
                         
                         %%% ViolinTwoMusicVoice [measure 246] %%%
-                        R1 * 9/4
+                        R1 * 1
+                        
+                        %%% ViolinTwoMusicVoice [measure 247] %%%
+                        R1 * 5/4
                         
                         %%% ViolinTwoMusicVoice [measure 248] %%%
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2600,7 +2612,10 @@
                         \mp
                         
                         %%% ViolaMusicVoice [measure 246] %%%
-                        R1 * 9/4
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 247] %%%
+                        R1 * 5/4
                         
                         %%% ViolaMusicVoice [measure 248] %%%
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2935,7 +2950,10 @@
                             }
                         
                         %%% CelloMusicVoice [measure 229] %%%
-                        R1 * 5/2
+                        R1 * 3/2
+                        
+                        %%% CelloMusicVoice [measure 230] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 231] %%%
                         \once \override TextSpanner.arrow-width = 0.25
@@ -2982,7 +3000,10 @@
                             }
                         
                         %%% CelloMusicVoice [measure 234] %%%
-                        R1 * 2
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 235] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 236] %%%
                         \once \override TextSpanner.arrow-width = 0.25
@@ -3025,7 +3046,10 @@
                             }
                         
                         %%% CelloMusicVoice [measure 238] %%%
-                        R1 * 7/4
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 239] %%%
+                        R1 * 1
                         
                         %%% CelloMusicVoice [measure 240] %%%
                         \once \override TextSpanner.arrow-width = 0.25
@@ -3141,7 +3165,10 @@
                         \mp
                         
                         %%% CelloMusicVoice [measure 246] %%%
-                        R1 * 9/4
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 247] %%%
+                        R1 * 5/4
                         
                         %%% CelloMusicVoice [measure 248] %%%
                         \once \override TextSpanner.arrow-width = 0.25

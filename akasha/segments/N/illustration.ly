@@ -395,7 +395,31 @@
                         r4.
                         
                         %%% ViolinOneMusicVoice [measure 385] %%%
-                        R1 * 13/2
+                        R1 * 9/8
+                        
+                        %%% ViolinOneMusicVoice [measure 386] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinOneMusicVoice [measure 387] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinOneMusicVoice [measure 388] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolinOneMusicVoice [measure 389] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinOneMusicVoice [measure 390] %%%
+                        R1 * 1
+                        
+                        %%% ViolinOneMusicVoice [measure 391] %%%
+                        R1 * 9/8
+                        
+                        %%% ViolinOneMusicVoice [measure 392] %%%
+                        R1 * 9/8
+                        
+                        %%% ViolinOneMusicVoice [measure 393] %%%
+                        R1 * 1/4
                         \bar "|."
                         
                     }
@@ -431,8 +455,29 @@
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 6
+                        R1 * 3/8
                         \pp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% ViolinTwoMusicVoice [measure 370] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinTwoMusicVoice [measure 371] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 372] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 373] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 374] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 375] %%%
+                        R1 * 9/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 376] %%%
+                        R1 * 9/8
                         
                         %%% ViolinTwoMusicVoice [measure 377] %%%
                         r2
@@ -663,7 +708,31 @@
                         r4.
                         
                         %%% ViolaMusicVoice [measure 385] %%%
-                        R1 * 13/2
+                        R1 * 9/8
+                        
+                        %%% ViolaMusicVoice [measure 386] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 387] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 388] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolaMusicVoice [measure 389] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolaMusicVoice [measure 390] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 391] %%%
+                        R1 * 9/8
+                        
+                        %%% ViolaMusicVoice [measure 392] %%%
+                        R1 * 9/8
+                        
+                        %%% ViolaMusicVoice [measure 393] %%%
+                        R1 * 1/4
                         \bar "|."
                         
                     }

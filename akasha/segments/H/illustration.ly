@@ -290,7 +290,16 @@
                         \ppp
                         
                         %%% ViolinOneMusicVoice [measure 220] %%%
-                        R1 * 9/4
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 221] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinOneMusicVoice [measure 222] %%%
+                        R1 * 1
+                        
+                        %%% ViolinOneMusicVoice [measure 223] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -434,7 +443,16 @@
                         \ppp
                         
                         %%% ViolinTwoMusicVoice [measure 220] %%%
-                        R1 * 9/4
+                        R1 * 1/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 221] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 222] %%%
+                        R1 * 1
+                        
+                        %%% ViolinTwoMusicVoice [measure 223] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }

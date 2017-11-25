@@ -379,8 +379,29 @@
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 13/2
+                        R1 * 3/2
                         \pp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% ViolinOneMusicVoice [measure 36] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 37] %%%
+                        R1 * 1
+                        
+                        %%% ViolinOneMusicVoice [measure 38] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 39] %%%
+                        R1 * 3/2
+                        
+                        %%% ViolinOneMusicVoice [measure 40] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 41] %%%
+                        R1 * 3/2
+                        
+                        %%% ViolinOneMusicVoice [measure 42] %%%
+                        R1 * 1/4
                         
                         %%% ViolinOneMusicVoice [measure 43] %%%
                         \stopStaff
@@ -426,7 +447,10 @@
                         \repeatTie
                         
                         %%% ViolinOneMusicVoice [measure 48] %%%
-                        R1 * 1
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 49] %%%
+                        R1 * 3/4
                         
                         %%% ViolinOneMusicVoice [measure 50] %%%
                         c'2.
@@ -500,8 +524,29 @@
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 13/2
+                        R1 * 3/2
                         \pp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% ViolinTwoMusicVoice [measure 36] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 37] %%%
+                        R1 * 1
+                        
+                        %%% ViolinTwoMusicVoice [measure 38] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 39] %%%
+                        R1 * 3/2
+                        
+                        %%% ViolinTwoMusicVoice [measure 40] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 41] %%%
+                        R1 * 3/2
+                        
+                        %%% ViolinTwoMusicVoice [measure 42] %%%
+                        R1 * 1/4
                         
                         %%% ViolinTwoMusicVoice [measure 43] %%%
                         \stopStaff
@@ -547,7 +592,10 @@
                         \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 48] %%%
-                        R1 * 1
+                        R1 * 1/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 49] %%%
+                        R1 * 3/4
                         
                         %%% ViolinTwoMusicVoice [measure 50] %%%
                         c'2.
@@ -687,7 +735,13 @@
                         \pp
                         
                         %%% ViolaMusicVoice [measure 47] %%%
-                        R1 * 9/4
+                        R1 * 5/4
+                        
+                        %%% ViolaMusicVoice [measure 48] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 49] %%%
+                        R1 * 3/4
                         
                         %%% ViolaMusicVoice [measure 50] %%%
                         \once \override Beam.color = #blue
@@ -704,7 +758,22 @@
                             }
                         
                         %%% ViolaMusicVoice [measure 51] %%%
-                        R1 * 15/4
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 52] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 53] %%%
+                        R1 * 1
+                        
+                        %%% ViolaMusicVoice [measure 54] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolaMusicVoice [measure 55] %%%
+                        R1 * 5/4
+                        
+                        %%% ViolaMusicVoice [measure 56] %%%
+                        R1 * 1/4
                         
                         %%% ViolaMusicVoice [measure 57] %%%
                         ds'4
@@ -809,7 +878,10 @@
                         \pp
                         
                         %%% CelloMusicVoice [measure 47] %%%
-                        R1 * 3/2
+                        R1 * 5/4
+                        
+                        %%% CelloMusicVoice [measure 48] %%%
+                        R1 * 1/4
                         \times 8/9 {
                             
                             %%% CelloMusicVoice [measure 49] %%%
@@ -865,7 +937,25 @@
                         }
                         
                         %%% CelloMusicVoice [measure 50] %%%
-                        R1 * 9/2
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 51] %%%
+                        R1 * 3/4
+                        
+                        %%% CelloMusicVoice [measure 52] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 53] %%%
+                        R1 * 1
+                        
+                        %%% CelloMusicVoice [measure 54] %%%
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 55] %%%
+                        R1 * 5/4
+                        
+                        %%% CelloMusicVoice [measure 56] %%%
+                        R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 57] %%%
                         c'1

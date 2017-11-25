@@ -550,8 +550,17 @@
                         \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 3
+                        R1 * 1
                         \ppp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% ViolinOneMusicVoice [measure 114] %%%
+                        R1 * 1/4
+                        
+                        %%% ViolinOneMusicVoice [measure 115] %%%
+                        R1 * 3/2
+                        
+                        %%% ViolinOneMusicVoice [measure 116] %%%
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             
@@ -2010,8 +2019,11 @@
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 5/4
+                        R1 * 1
                         \p % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% ViolinTwoMusicVoice [measure 114] %%%
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/4 {
                             
@@ -4083,8 +4095,11 @@
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-INSTRUMENT
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 5/4
+                        R1 * 1
                         \ppp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% CelloMusicVoice [measure 114] %%%
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/5 {
                             
@@ -4119,7 +4134,13 @@
                         }
                         
                         %%% CelloMusicVoice [measure 116] %%%
-                        R1 * 2
+                        R1 * 1/4
+                        
+                        %%% CelloMusicVoice [measure 117] %%%
+                        R1 * 3/2
+                        
+                        %%% CelloMusicVoice [measure 118] %%%
+                        R1 * 1/4
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 5/4 {
                             
