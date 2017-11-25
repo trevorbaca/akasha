@@ -53,6 +53,7 @@
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                 \time 4/4
                 \mark #12
+                \bar "" % SEGMENT
                 \newSpacingSection
                 s1 * 1
                 ^ \markup {
