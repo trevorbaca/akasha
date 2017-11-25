@@ -887,7 +887,19 @@
                         \revert NoteHead.style
                         
                         %%% ViolinOneMusicVoice [measure 108] %%%
-                        R1 * 25/8
+                        R1 * 3/8
+                        
+                        %%% ViolinOneMusicVoice [measure 109] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinOneMusicVoice [measure 110] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinOneMusicVoice [measure 111] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinOneMusicVoice [measure 112] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -923,8 +935,32 @@
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-STAFF-LINES
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-CLEF
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % SEGMENT:REMINDER-DYNAMIC
-                        R1 * 11/2
+                        R1 * 3/8
                         \pp % SEGMENT:REMINDER-DYNAMIC
+                        
+                        %%% ViolinTwoMusicVoice [measure 63] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinTwoMusicVoice [measure 64] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 65] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 66] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 67] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 68] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinTwoMusicVoice [measure 69] %%%
+                        R1 * 1
+                        
+                        %%% ViolinTwoMusicVoice [measure 70] %%%
+                        R1 * 1/4
                         
                         %%% ViolinTwoMusicVoice [measure 71] %%%
                         \override NoteHead.style = #'harmonic
@@ -1102,8 +1138,14 @@
                         \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 101] %%%
-                        R1 * 3/2
+                        R1 * 7/8
                         \stopTrillSpan
+                        
+                        %%% ViolinTwoMusicVoice [measure 102] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 103] %%%
+                        R1 * 1/4
                         
                         %%% ViolinTwoMusicVoice [measure 104] %%%
                         \pitchedTrill
@@ -1118,8 +1160,26 @@
                         \repeatTie
                         
                         %%% ViolinTwoMusicVoice [measure 106] %%%
-                        R1 * 19/4
+                        R1 * 9/8
                         \stopTrillSpan
+                        
+                        %%% ViolinTwoMusicVoice [measure 107] %%%
+                        R1 * 1/2
+                        
+                        %%% ViolinTwoMusicVoice [measure 108] %%%
+                        R1 * 3/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 109] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolinTwoMusicVoice [measure 110] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 111] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolinTwoMusicVoice [measure 112] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
@@ -1380,7 +1440,19 @@
                         \revert NoteHead.style
                         
                         %%% ViolaMusicVoice [measure 108] %%%
-                        R1 * 25/8
+                        R1 * 3/8
+                        
+                        %%% ViolaMusicVoice [measure 109] %%%
+                        R1 * 3/4
+                        
+                        %%% ViolaMusicVoice [measure 110] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolaMusicVoice [measure 111] %%%
+                        R1 * 7/8
+                        
+                        %%% ViolaMusicVoice [measure 112] %%%
+                        R1 * 1/4
                         \bar "|"
                         
                     }
