@@ -94,7 +94,8 @@
                                         1
                                     }
                             }
-                        \clef "treble"
+                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                         R1 * 3/8
                         
                         %%% ViolinOneMusicVoice [measure 2] %%%
@@ -129,7 +130,8 @@
                                         2
                                     }
                             }
-                        \clef "treble"
+                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                         R1 * 3/8
                         
                         %%% ViolinTwoMusicVoice [measure 2] %%%
@@ -159,7 +161,8 @@
                                 #10
                                 Va.
                             }
-                        \clef "alto"
+                        \clef "alto" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                         c'4.
                         -\downbow
                         ^ \markup {
@@ -205,7 +208,8 @@
                                 #10
                                 Vc.
                             }
-                        \clef "bass"
+                        \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                         R1 * 3/8
                         
                         %%% CelloMusicVoice [measure 2] %%%
