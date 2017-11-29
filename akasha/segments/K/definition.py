@@ -53,7 +53,6 @@ spacing_specifier = baca.HorizontalSpacingSpecifier(
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
-    label_stages=False,
     label_clock_time=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.metronome_marks,

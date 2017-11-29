@@ -44,7 +44,6 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=akasha.instruments,
     label_clock_time=False,
-    label_stages=False,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
