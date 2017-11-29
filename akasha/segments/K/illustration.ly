@@ -2897,8 +2897,8 @@
                         
                         %%% ViolaMusicVoice [measure 313] %%%
                         \override NoteHead.style = #'harmonic
-                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         gqf''2..
                         \<
                         \sffp
@@ -3659,8 +3659,8 @@
                         
                         %%% CelloMusicVoice [measure 311] %%%
                         \override NoteHead.style = #'harmonic
-                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         d''2.
                         \<
                         \sffp

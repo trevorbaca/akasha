@@ -907,11 +907,11 @@
                                 #10 % SEGMENT:RESTATED-INSTRUMENT:2
                                 Va. % SEGMENT:RESTATED-INSTRUMENT:2
                             } % SEGMENT:RESTATED-INSTRUMENT:2
-                        \clef "alto" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:8
+                        \clef "alto" % SEGMENT:EXPLICIT-CLEF:8
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DarkBlue) % SEGMENT:REAPPLIED-STAFF-LINES:3
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER-DYNAMIC:5
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:7
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:7
                         ef'2..
                         \pp % SEGMENT:REMINDER-DYNAMIC:6
                         \glissando
@@ -1148,10 +1148,10 @@
                                 #10 % SEGMENT:RESTATED-INSTRUMENT:2
                                 Vc. % SEGMENT:RESTATED-INSTRUMENT:2
                             } % SEGMENT:RESTATED-INSTRUMENT:2
-                        \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:6
+                        \clef "bass" % SEGMENT:EXPLICIT-CLEF:6
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER-DYNAMIC:3
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:5
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:5
                         cs,2..
                         \pp % SEGMENT:REMINDER-DYNAMIC:4
                         \glissando

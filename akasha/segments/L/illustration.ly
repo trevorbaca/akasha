@@ -231,11 +231,11 @@
                                 #10 % SEGMENT:RESTATED-INSTRUMENT:2
                                 Va. % SEGMENT:RESTATED-INSTRUMENT:2
                             } % SEGMENT:RESTATED-INSTRUMENT:2
-                        \clef "alto" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:7
+                        \clef "alto" % SEGMENT:EXPLICIT-CLEF:7
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:DUPLICATE-STAFF-LINES:3
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER-DYNAMIC:4
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:6
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:6
                         c'1
                         -\downbow
                         \ff % SEGMENT:REMINDER-DYNAMIC:5
@@ -309,8 +309,8 @@
                         R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 338] %%%
-                        \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         bf,,1.
                         \pp
                         ^ \markup {

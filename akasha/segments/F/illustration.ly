@@ -3850,8 +3850,8 @@
                         \times 8/11 {
                             
                             %%% ViolaMusicVoice [measure 187] %%%
-                            \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                            \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                             r16
                             
                             b''16
@@ -4721,8 +4721,8 @@
                         R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 162] %%%
-                        \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         af,4..
                         \mp
                         ^ \markup {
@@ -4903,8 +4903,8 @@
                         \times 4/6 {
                             
                             %%% CelloMusicVoice [measure 187] %%%
-                            \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                            \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                            \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                             r16
                             
                             af''16

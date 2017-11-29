@@ -94,8 +94,8 @@
                                         1
                                     }
                             }
-                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         R1 * 3/8
                         
                         %%% ViolinOneMusicVoice [measure 2] %%%
@@ -130,8 +130,8 @@
                                         2
                                     }
                             }
-                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         R1 * 3/8
                         
                         %%% ViolinTwoMusicVoice [measure 2] %%%
@@ -161,8 +161,8 @@
                                 #10
                                 Va.
                             }
-                        \clef "alto" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "alto" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         c'4.
                         -\downbow
                         ^ \markup {
@@ -208,8 +208,8 @@
                                 #10
                                 Vc.
                             }
-                        \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         R1 * 3/8
                         
                         %%% CelloMusicVoice [measure 2] %%%

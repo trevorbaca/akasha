@@ -1205,10 +1205,10 @@
                                 #10 % SEGMENT:RESTATED-INSTRUMENT:2
                                 Va. % SEGMENT:RESTATED-INSTRUMENT:2
                             } % SEGMENT:RESTATED-INSTRUMENT:2
-                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:6
+                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:6
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DarkBlue) % SEGMENT:REAPPLIED-STAFF-LINES:3
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:5
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:5
                         gqf''4.
                         \mp
                         ^ \markup {
@@ -1354,8 +1354,8 @@
                         R1 * 1/4
                         
                         %%% ViolaMusicVoice [measure 94] %%%
-                        \clef "alto" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "alto" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         ff4.
                         \glissando
                         \>
@@ -1477,9 +1477,9 @@
                                 #10 % SEGMENT:RESTATED-INSTRUMENT:2
                                 Vc. % SEGMENT:RESTATED-INSTRUMENT:2
                             } % SEGMENT:RESTATED-INSTRUMENT:2
-                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:4
+                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:4
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:3
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:3
                         d''4.
                         \mp
                         ^ \markup {
@@ -1586,8 +1586,8 @@
                         
                         %%% CelloMusicVoice [measure 85] %%%
                         \override NoteHead.style = #'harmonic
-                        \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                        \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                         g,2.
                         -\downbow
                         \ppp
