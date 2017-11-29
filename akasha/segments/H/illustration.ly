@@ -61,6 +61,13 @@
                     \bar "" % SEGMENT:EMPTY-BAR:1
                     \newSpacingSection
                     s1 * 1
+                    %%% - \markup { % STAGE-NUMBER:2
+                        %%% \fontsize % STAGE-NUMBER:2
+                            %%% #-3 % STAGE-NUMBER:2
+                            %%% \with-color % STAGE-NUMBER:2
+                                %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:2
+                                %%% [H.1] % STAGE-NUMBER:2
+                        %%% } % STAGE-NUMBER:2
                     ^ \markup {
                         \fontsize
                             #-6
@@ -89,6 +96,13 @@
                     \time 3/4
                     \newSpacingSection
                     s1 * 3/4
+                    %%% - \markup { % STAGE-NUMBER:1
+                        %%% \fontsize % STAGE-NUMBER:1
+                            %%% #-3 % STAGE-NUMBER:1
+                            %%% \with-color % STAGE-NUMBER:1
+                                %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                                %%% [H.2] % STAGE-NUMBER:1
+                        %%% } % STAGE-NUMBER:1
                     ^ \markup {
                         \fontsize
                             #-6
@@ -111,12 +125,26 @@
                     \time 1/4
                     \newSpacingSection
                     s1 * 1/4
+                    %%% - \markup { % STAGE-NUMBER:1
+                        %%% \fontsize % STAGE-NUMBER:1
+                            %%% #-3 % STAGE-NUMBER:1
+                            %%% \with-color % STAGE-NUMBER:1
+                                %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                                %%% [H.3] % STAGE-NUMBER:1
+                        %%% } % STAGE-NUMBER:1
                     
                     %%% GlobalSkips [measure 221] %%%
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)
                     \time 3/4
                     \newSpacingSection
                     s1 * 3/4
+                    %%% - \markup { % STAGE-NUMBER:1
+                        %%% \fontsize % STAGE-NUMBER:1
+                            %%% #-3 % STAGE-NUMBER:1
+                            %%% \with-color % STAGE-NUMBER:1
+                                %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                                %%% [H.4] % STAGE-NUMBER:1
+                        %%% } % STAGE-NUMBER:1
                     ^ \markup {
                         \fontsize
                             #-6
@@ -145,6 +173,13 @@
                     \time 1/4
                     \newSpacingSection
                     s1 * 1/4
+                    %%% - \markup { % STAGE-NUMBER:1
+                        %%% \fontsize % STAGE-NUMBER:1
+                            %%% #-3 % STAGE-NUMBER:1
+                            %%% \with-color % STAGE-NUMBER:1
+                                %%% #(x11-color 'DarkCyan) % STAGE-NUMBER:1
+                                %%% [H.5] % STAGE-NUMBER:1
+                        %%% } % STAGE-NUMBER:1
                     
                 }
             }
