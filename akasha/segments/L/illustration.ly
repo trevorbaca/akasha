@@ -52,7 +52,7 @@
                 %%% GlobalSkips [measure 334] %%%
                 \time 4/4
                 \mark #12
-                \bar "" % SEGMENT:EMPTY_BAR:1
+                \bar "" % SEGMENT:EMPTY_START_BAR:1
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) % SEGMENT:SPACING:COMMAND:3
                 s1 * 1
