@@ -153,10 +153,11 @@
                                         1
                                     }
                             }
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         R1 * 3/8
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% ViolinOneMusicVoice [measure 2] %%%
                         R1 * 3/4
@@ -190,10 +191,11 @@
                                         2
                                     }
                             }
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         R1 * 3/8
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% ViolinTwoMusicVoice [measure 2] %%%
                         R1 * 3/4
@@ -222,8 +224,9 @@
                                 #10
                                 Va.
                             }
-                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         c'4.
                         -\downbow
                         ^ \markup {
@@ -243,7 +246,7 @@
                                 \italic
                                     ”
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% ViolaMusicVoice [measure 2] %%%
                         c'2.
@@ -270,10 +273,11 @@
                                 #10
                                 Vc.
                             }
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         R1 * 3/8
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% CelloMusicVoice [measure 2] %%%
                         R1 * 3/4

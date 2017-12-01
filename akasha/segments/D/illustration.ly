@@ -1456,11 +1456,12 @@
                                         1 %! SEGMENT:RESTATED_INSTRUMENT:2
                                     } %! SEGMENT:RESTATED_INSTRUMENT:2
                             } %! SEGMENT:RESTATED_INSTRUMENT:2
-                        \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:6
+                        \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:7
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
                         \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DarkBlue) %! SEGMENT:REAPPLIED_STAFF_LINES:3
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:5
-                        \set ViolinOneMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:7
+                        \override ViolinOneMusicStaff.Clef.color = ##f %! SEGMENT:RESTATED_CLEF_UNCOLOR:6
+                        \set ViolinOneMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:8
                         cs''''4.
                         \mp
                         ^ \markup {
@@ -1468,7 +1469,7 @@
                                 \upright
                                     "5°/A4(II) + vib. mod."
                             }
-                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:8
+                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:9
                         
                         %%% ViolinOneMusicVoice [measure 63] %%%
                         cs''''2
@@ -1747,15 +1748,16 @@
                                         2 %! SEGMENT:RESTATED_INSTRUMENT:2
                                     } %! SEGMENT:RESTATED_INSTRUMENT:2
                             } %! SEGMENT:RESTATED_INSTRUMENT:2
-                        \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:6
+                        \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:7
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'DarkBlue) %! SEGMENT:REAPPLIED_STAFF_LINES:3
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:5
-                        \set ViolinTwoMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:7
-                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:9
+                        \override ViolinTwoMusicStaff.Clef.color = ##f %! SEGMENT:RESTATED_CLEF_UNCOLOR:6
+                        \set ViolinTwoMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:8
+                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:10
                         R1 * 3/8
-                        \pp %! SEGMENT:REMINDER_DYNAMIC:10
-                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:8
+                        \pp %! SEGMENT:REMINDER_DYNAMIC:11
+                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:9
                         
                         %%% ViolinTwoMusicVoice [measure 63] %%%
                         R1 * 1/2
@@ -2022,10 +2024,11 @@
                                 #10 %! SEGMENT:RESTATED_INSTRUMENT:2
                                 Va. %! SEGMENT:RESTATED_INSTRUMENT:2
                             } %! SEGMENT:RESTATED_INSTRUMENT:2
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:6
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:7
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DarkBlue) %! SEGMENT:REAPPLIED_STAFF_LINES:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
                         gqf''4.
                         \mp
                         ^ \markup {
@@ -2033,7 +2036,7 @@
                                 \upright
                                     "7°/A2(IV) + vib. mod."
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:7
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:8
                         
                         %%% ViolaMusicVoice [measure 63] %%%
                         gqf''2
@@ -2172,8 +2175,9 @@
                         R1 * 1/4
                         
                         %%% ViolaMusicVoice [measure 94] %%%
-                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         ff4.
                         \glissando
                         \>
@@ -2183,7 +2187,7 @@
                                 \upright
                                     "tasto + senza vib."
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         %%% ViolaMusicVoice [measure 95] %%%
                         e2.
@@ -2296,9 +2300,10 @@
                                 #10 %! SEGMENT:RESTATED_INSTRUMENT:2
                                 Vc. %! SEGMENT:RESTATED_INSTRUMENT:2
                             } %! SEGMENT:RESTATED_INSTRUMENT:2
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
+                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:5
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:3
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:4
                         d''4.
                         \mp
                         ^ \markup {
@@ -2306,7 +2311,7 @@
                                 \upright
                                     "11°/A1(IV) + vib. mod."
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:6
                         
                         %%% CelloMusicVoice [measure 63] %%%
                         d''2
@@ -2406,8 +2411,9 @@
                         
                         %%% CelloMusicVoice [measure 85] %%%
                         \override NoteHead.style = #'harmonic
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:2
+                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
+                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         g,2.
                         -\downbow
                         \ppp
@@ -2417,7 +2423,7 @@
                                 \upright
                                     "XP + senza vib. + full bow strokes"
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
                         
                         bf,4.
                         -\upbow
