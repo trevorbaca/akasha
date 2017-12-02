@@ -749,15 +749,15 @@
                                 #10 %! SEGMENT:REAPPLIED_INSTRUMENT:2
                                 Vc. %! SEGMENT:REAPPLIED_INSTRUMENT:2
                             } %! SEGMENT:REAPPLIED_INSTRUMENT:2
-                        \clef "bass" %! DUPLICATE_CLEF_COMMAND:5
+                        \clef "bass" %! REDUNDANT_CLEF_COMMAND:5
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_INSTRUMENT:1
-                        \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! DUPLICATE_CLEF_COLOR:3
-                        %%% \override Staff.Clef.color = ##f %! DUPLICATE_CLEF_UNCOLOR:4
-                        \set Staff.forceClef = ##t %! DUPLICATE_CLEF_COMMAND:6
+                        \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:3
+                        %%% \override Staff.Clef.color = ##f %! REDUNDANT_CLEF_UNCOLOR:4
+                        \set Staff.forceClef = ##t %! REDUNDANT_CLEF_COMMAND:6
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:8
                         r2.
                         \p %! SEGMENT:REMINDER_DYNAMIC:9
-                        \override Staff.Clef.color = #(x11-color 'DeepPink4) %! DUPLICATE_CLEF_SHADOW:7
+                        \override Staff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_SHADOW:7
                         
                         r4.
                         \times 8/9 {
