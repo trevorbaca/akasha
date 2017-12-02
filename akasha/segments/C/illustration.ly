@@ -1285,17 +1285,17 @@
                                     #10 %! SEGMENT:REAPPLIED_INSTRUMENT:2
                                     Va. %! SEGMENT:REAPPLIED_INSTRUMENT:2
                                 } %! SEGMENT:REAPPLIED_INSTRUMENT:2
-                            \clef "alto" %! DUPLICATE_CLEF_COMMAND:7
+                            \clef "alto" %! REDUNDANT_CLEF_COMMAND:7
                             \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_INSTRUMENT:1
                             \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_STAFF_LINES:3
-                            \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! DUPLICATE_CLEF_COLOR:5
-                            %%% \override Staff.Clef.color = ##f %! DUPLICATE_CLEF_UNCOLOR:6
-                            \set Staff.forceClef = ##t %! DUPLICATE_CLEF_COMMAND:8
+                            \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:5
+                            %%% \override Staff.Clef.color = ##f %! REDUNDANT_CLEF_UNCOLOR:6
+                            \set Staff.forceClef = ##t %! REDUNDANT_CLEF_COMMAND:8
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:10
                             ds\breve
                             \mp %! SEGMENT:REMINDER_DYNAMIC:11
                             \glissando
-                            \override Staff.Clef.color = #(x11-color 'DeepPink4) %! DUPLICATE_CLEF_SHADOW:9
+                            \override Staff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_SHADOW:9
                             
                             cqs4
                         }
@@ -1452,15 +1452,15 @@
                                 #10 %! SEGMENT:REAPPLIED_INSTRUMENT:2
                                 Vc. %! SEGMENT:REAPPLIED_INSTRUMENT:2
                             } %! SEGMENT:REAPPLIED_INSTRUMENT:2
-                        \clef "bass" %! DUPLICATE_CLEF_COMMAND:5
+                        \clef "bass" %! REDUNDANT_CLEF_COMMAND:5
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_INSTRUMENT:1
-                        \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! DUPLICATE_CLEF_COLOR:3
-                        %%% \override Staff.Clef.color = ##f %! DUPLICATE_CLEF_UNCOLOR:4
-                        \set Staff.forceClef = ##t %! DUPLICATE_CLEF_COMMAND:6
+                        \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:3
+                        %%% \override Staff.Clef.color = ##f %! REDUNDANT_CLEF_UNCOLOR:4
+                        \set Staff.forceClef = ##t %! REDUNDANT_CLEF_COMMAND:6
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:8
                         cs,1.
                         \mp %! SEGMENT:REMINDER_DYNAMIC:9
-                        \override Staff.Clef.color = #(x11-color 'DeepPink4) %! DUPLICATE_CLEF_SHADOW:7
+                        \override Staff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_SHADOW:7
                         
                         %%% CelloMusicVoice [measure 36] %%%
                         R1 * 1/4
