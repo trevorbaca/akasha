@@ -1208,19 +1208,20 @@
                                 #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 Va. %! REAPPLIED_INSTRUMENT_COMMAND:2
                             } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:9
+                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:10
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:3
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:5
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
                         ef'2..
                         \pp %! REMINDER_DYNAMIC_COMMAND:6
                         \glissando
                         \>
                         \ff
                         \startTextSpan
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:10
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:11
                         
                         %%% ViolaMusicVoice [measure 201] %%%
                         f'2..
@@ -1451,18 +1452,19 @@
                                 #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 Vc. %! REAPPLIED_INSTRUMENT_COMMAND:2
                             } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:7
+                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:8
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:7
                         cs,2..
                         \pp %! REMINDER_DYNAMIC_COMMAND:4
                         \glissando
                         \>
                         \ff
                         \startTextSpan
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:8
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
                         
                         %%% CelloMusicVoice [measure 201] %%%
                         ef,2..

@@ -367,12 +367,13 @@
                                 #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 Va. %! REAPPLIED_INSTRUMENT_COMMAND:2
                             } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:8
+                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:9
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:3
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:6
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:7
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:8
                         c'1
                         -\downbow
                         \ff %! REMINDER_DYNAMIC_COMMAND:5
@@ -393,7 +394,7 @@
                                 \italic
                                     ”
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:10
                         
                         %%% ViolaMusicVoice [measure 335] %%%
                         R1 * 1/4
@@ -449,9 +450,10 @@
                         R1 * 1/4
                         
                         %%% CelloMusicVoice [measure 338] %%%
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:3
+                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                        \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                         bf,,1.
                         \pp
                         ^ \markup {
@@ -459,7 +461,7 @@
                                 \upright
                                     "pos. ord. + vib. poco"
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                         
                         %%% CelloMusicVoice [measure 339] %%%
                         bf,,2.
