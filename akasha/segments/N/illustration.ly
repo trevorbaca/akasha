@@ -651,13 +651,13 @@
                             } %! REAPPLIED_INSTRUMENT:2
                         \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT:1
-                        \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:REDUNDANT_STAFF_LINES:3
-                        \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:4
+                        \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES:3
+                        \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:6
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:7
                         c'4.
                         -\downbow
-                        \pp %! SEGMENT:REMINDER_DYNAMIC:5
+                        \pp %! REMINDER_DYNAMIC:5
                         ^ \markup {
                             \column
                                 {
@@ -811,9 +811,9 @@
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:5
                         %%% \override ViolinTwoMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:6
                         \set ViolinTwoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:8
-                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:10
+                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:10
                         R1 * 3/8
-                        \pp %! SEGMENT:REMINDER_DYNAMIC:11
+                        \pp %! REMINDER_DYNAMIC:11
                         \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:9
                         
                         %%% ViolinTwoMusicVoice [measure 370] %%%
@@ -971,13 +971,13 @@
                             } %! REAPPLIED_INSTRUMENT:2
                         \clef "percussion" %! EXPLICIT_CLEF_COMMAND:8
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT:1
-                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:REDUNDANT_STAFF_LINES:3
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:4
+                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES:3
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:4
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:6
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:7
                         c'4.
                         -\downbow
-                        \pp %! SEGMENT:REMINDER_DYNAMIC:5
+                        \pp %! REMINDER_DYNAMIC:5
                         ^ \markup {
                             \column
                                 {
@@ -1120,12 +1120,12 @@
                             } %! REAPPLIED_INSTRUMENT:2
                         \clef "percussion" %! EXPLICIT_CLEF_COMMAND:7
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT:1
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:3
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:5
                         %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:6
                         c'4.
                         -\downbow
-                        \pp %! SEGMENT:REMINDER_DYNAMIC:4
+                        \pp %! REMINDER_DYNAMIC:4
                         ^ \markup {
                             \column
                                 {
