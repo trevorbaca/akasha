@@ -1981,8 +1981,8 @@
                                         1 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:13
+                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:13
                         
                         %%% ViolinOneMusicVoice [measure 266] %%%
                         a''1
@@ -2807,8 +2807,8 @@
                                         2 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:13
+                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:13
                         
                         %%% ViolinTwoMusicVoice [measure 266] %%%
                         gtqs'1
@@ -3617,8 +3617,8 @@
                                 #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 Va. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:13
+                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:13
                         
                         %%% ViolaMusicVoice [measure 266] %%%
                         aqs,1
@@ -4156,7 +4156,7 @@
                                 \upright
                                     "pos. ord. + 7°/A2(IV)"
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                         
                         %%% ViolaMusicVoice [measure 314] %%%
                         gqf''2
@@ -4424,8 +4424,8 @@
                                 #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                                 Vc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                             } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
-                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW:3
-                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:11
+                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
+                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:11
                         
                         %%% CelloMusicVoice [measure 266] %%%
                         a,,1
@@ -4956,7 +4956,7 @@
                                 \upright
                                     "pos. ord. + 11°/A1(IV)"
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                         
                         %%% CelloMusicVoice [measure 312] %%%
                         d''2..
