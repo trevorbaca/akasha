@@ -5330,9 +5330,9 @@
                             } %! REAPPLIED_INSTRUMENT_COMMAND:2
                         \clef "treble" %! REDUNDANT_CLEF_COMMAND:6
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                        \once \override Staff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:3
-                        %%% \override Staff.Clef.color = ##f %! REDUNDANT_CLEF_UNCOLOR:4
-                        \set Staff.forceClef = ##t %! REDUNDANT_CLEF_COMMAND:5
+                        \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:3
+                        %%% \override CelloMusicStaff.Clef.color = ##f %! REDUNDANT_CLEF_UNCOLOR:4
+                        \set CelloMusicStaff.forceClef = ##t %! REDUNDANT_CLEF_COMMAND:5
                         f4..
                         \mp
                         ^ \markup {
@@ -5340,7 +5340,7 @@
                                 \upright
                                     "tasto + 1/2 scratch"
                             }
-                        \override Staff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_SHADOW:7
+                        \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_SHADOW:7
                         
                         gf16
                         
