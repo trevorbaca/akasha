@@ -10,8 +10,6 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ..  container:: example
 
-        Calls score template:
-
         >>> template = akasha.ScoreTemplate()
         >>> path = abjad.Path('akasha', 'stylesheets', 'contexts.ily')
         >>> lilypond_file = template.__illustrate__(
@@ -121,6 +119,10 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     '''
 
+    ### CLASS VARIABLES ###
+
+    __documentation_section__ = None
+
     ### SPECIAL METHODS ###
 
     def __call__(self):
@@ -128,6 +130,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         Returns score.
         '''
+
         global_context = self._make_global_context()
         instrument_tags = (
             'violin_one',
@@ -137,6 +140,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         tag_string = '.'.join(instrument_tags)
         self._attach_tag(tag_string, global_context)
+
         # VIOLIN 1
         violin_one_music_voice = abjad.Voice(
             context_name='ViolinOneMusicVoice',
@@ -153,6 +157,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             akasha.instruments['violin 1'],
             )
         self._attach_tag('violin_one', violin_one_music_staff)
+
         # VIOLIN 2
         violin_two_music_voice = abjad.Voice(
             context_name='ViolinTwoMusicVoice',
@@ -169,6 +174,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             akasha.instruments['violin 2'],
             )
         self._attach_tag('violin_two', violin_two_music_staff)
+
         # VIOLA
         viola_music_voice = abjad.Voice(
             context_name='ViolaMusicVoice',
@@ -185,6 +191,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             akasha.instruments['viola'],
             )
         self._attach_tag('viola', viola_music_staff)
+
         # CELLO
         cello_music_voice = abjad.Voice(
             context_name='CelloMusicVoice',
@@ -201,6 +208,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             akasha.instruments['cello'],
             )
         self._attach_tag('cello', cello_music_staff)
+
         # SCORE
         string_quartet_staff_group = abjad.StaffGroup(
             [
@@ -226,4 +234,5 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             name='Score',
             )
+
         return score
