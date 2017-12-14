@@ -1,7 +1,15 @@
-import abjad
-
-
-abjad.ImportManager.import_structured_package(
-    __path__[0],
-    globals(),
-    )
+from .ScoreTemplate import ScoreTemplate
+from .accelerando_rhythm import accelerando_rhythm
+from .cello_solo_pitches import cello_solo_pitches
+from .cello_solo_rhythm import cello_solo_rhythm
+from .dense_getato_rhythm import dense_getato_rhythm
+from .getato_pitches import getato_pitches
+from .glissando_rhythm import glissando_rhythm
+from .harmonic_glissando_pitches import harmonic_glissando_pitches
+from .perforated_counts import perforated_counts
+from .polyphony_rhythm import polyphony_rhythm
+from .ritardando_rhythm import ritardando_rhythm
+from .scratch_rhythm import scratch_rhythm
+from .sparse_getato_rhythm import sparse_getato_rhythm
+from .untied_notes import untied_notes
+from .viola_ob_rhythm import viola_ob_rhythm
