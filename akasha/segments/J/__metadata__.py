@@ -7,10 +7,22 @@ metadata = abjad.TypedOrderedDict(
             'end_clefs_by_context',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 'bass'),
-                    ('ViolaMusicStaff', 'alto'),
-                    ('ViolinOneMusicStaff', 'treble'),
-                    ('ViolinTwoMusicStaff', 'treble'),
+                    (
+                        'CelloMusicStaff',
+                        ('bass', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        ('alto', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinOneMusicStaff',
+                        ('treble', 'ViolinOneMusicVoice'),
+                        ),
+                    (
+                        'ViolinTwoMusicStaff',
+                        ('treble', 'ViolinTwoMusicVoice'),
+                        ),
                     ]
                 ),
             ),
