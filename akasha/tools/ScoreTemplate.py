@@ -20,7 +20,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         >>> abjad.f(lilypond_file[abjad.Score])
         \context Score = "Score" <<
-            \tag violin_one.violin_two.viola.cello
+            \tag ViolinI.ViolinII.viola.cello
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                 }
@@ -29,7 +29,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
             \context MusicContext = "MusicContext" {
                 \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
-                    \tag violin_one
+                    \tag ViolinI
                     \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
                         \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                             \set ViolinOneMusicStaff.instrumentName = \markup {
@@ -54,7 +54,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \tag violin_two
+                    \tag ViolinII
                     \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
                         \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                             \set ViolinTwoMusicStaff.instrumentName = \markup {
@@ -133,8 +133,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         global_context = self._make_global_context()
         instrument_tags = (
-            'violin_one',
-            'violin_two',
+            'ViolinI',
+            'ViolinII',
             'viola',
             'cello',
             )
@@ -156,7 +156,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['violin 1'],
             )
-        self._attach_tag('violin_one', violin_one_music_staff)
+        self._attach_tag('ViolinI', violin_one_music_staff)
 
         # VIOLIN 2
         violin_two_music_voice = abjad.Voice(
@@ -173,7 +173,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['violin 2'],
             )
-        self._attach_tag('violin_two', violin_two_music_staff)
+        self._attach_tag('ViolinII', violin_two_music_staff)
 
         # VIOLA
         viola_music_voice = abjad.Voice(
@@ -234,5 +234,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             name='Score',
             )
-
+        self._assert_lilypond_identifiers(score)
+        self._assert_unique_context_names(score)
+        self._assert_matching_custom_context_names(score)
         return score

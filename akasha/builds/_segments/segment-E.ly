@@ -1,7 +1,7 @@
 \context Score = "Score" \with {
     currentBarNumber = #113
 } <<
-    \tag violin_one.violin_two.viola.cello
+    \tag ViolinI.ViolinII.viola.cello
     \context GlobalContext = "GlobalContext" <<
         \context GlobalRests = "GlobalRests" {
             
@@ -509,7 +509,7 @@
     >>
     \context MusicContext = "MusicContext" {
         \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
-            \tag violin_one
+            \tag ViolinI
             \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
                 \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                     
@@ -1969,7 +1969,7 @@
                     
                 }
             }
-            \tag violin_two
+            \tag ViolinII
             \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
                 \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                     
