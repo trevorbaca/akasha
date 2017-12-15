@@ -7,7 +7,7 @@
 \include "../stylesheets/parts.ily"
 
 \score {
-    \keepWithTag violin_two {
+    \keepWithTag ViolinII {
         \include "segment-01.ly"
         \include "segment-02.ly"
         \include "segment-03.ly"
