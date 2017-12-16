@@ -42,23 +42,57 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 'cello'),
-                    ('ViolaMusicStaff', 'viola'),
-                    ('ViolinOneMusicStaff', 'violin 1'),
-                    ('ViolinTwoMusicStaff', 'violin 2'),
+                    (
+                        'CelloMusicStaff',
+                        ('cello', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        ('viola', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinOneMusicStaff',
+                        ('violin 1', 'ViolinOneMusicVoice'),
+                        ),
+                    (
+                        'ViolinTwoMusicStaff',
+                        ('violin 2', 'ViolinTwoMusicVoice'),
+                        ),
                     ]
                 ),
             ),
         ('end_margin_markup', None),
-        ('end_metronome_mark', '89'),
+        (
+            'end_metronome_marks',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('89', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         (
             'end_staff_lines',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 1),
-                    ('ViolaMusicStaff', 1),
-                    ('ViolinOneMusicStaff', 1),
-                    ('ViolinTwoMusicStaff', 1),
+                    (
+                        'CelloMusicStaff',
+                        (1, 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        (1, 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinOneMusicStaff',
+                        (1, 'ViolinOneMusicVoice'),
+                        ),
+                    (
+                        'ViolinTwoMusicStaff',
+                        (1, 'ViolinTwoMusicVoice'),
+                        ),
                     ]
                 ),
             ),
