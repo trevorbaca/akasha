@@ -42,6 +42,7 @@ maker = baca.SegmentMaker(
     final_markup_extra_offset=(-41, -4),
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.metronome_marks,
+    last_segment=True,
     score_template=akasha.ScoreTemplate(),
     spacing_specifier=spacing_specifier,
     metronome_mark_measure_map=metronome_mark_measure_map,
