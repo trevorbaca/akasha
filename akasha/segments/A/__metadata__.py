@@ -42,20 +42,45 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 'cello'),
-                    ('ViolaMusicStaff', 'viola'),
-                    ('ViolinOneMusicStaff', 'violin 1'),
-                    ('ViolinTwoMusicStaff', 'violin 2'),
+                    (
+                        'CelloMusicStaff',
+                        ('cello', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        ('viola', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinOneMusicStaff',
+                        ('violin 1', 'ViolinOneMusicVoice'),
+                        ),
+                    (
+                        'ViolinTwoMusicStaff',
+                        ('violin 2', 'ViolinTwoMusicVoice'),
+                        ),
                     ]
                 ),
             ),
         ('end_margin_markup', None),
-        ('end_metronome_mark', '55'),
+        (
+            'end_metronome_marks',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('55', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         (
             'end_staff_lines',
             abjad.TypedOrderedDict(
                 [
-                    ('ViolaMusicStaff', 1),
+                    (
+                        'ViolaMusicStaff',
+                        (1, 'ViolaMusicVoice'),
+                        ),
                     ]
                 ),
             ),
