@@ -59,7 +59,7 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('first_bar_number', 4),
+        ('first_measure_number', 4),
         ('segment_number', 2),
         (
             'time_signatures',
