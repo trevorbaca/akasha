@@ -4,7 +4,7 @@ import abjad
 metadata = abjad.TypedOrderedDict(
     [
         (
-            'end_clefs_by_context',
+            'end_clefs',
             abjad.TypedOrderedDict(
                 [
                     (
@@ -28,7 +28,7 @@ metadata = abjad.TypedOrderedDict(
             ),
         ('end_clock_time', "20'26''"),
         (
-            'end_dynamics_by_context',
+            'end_dynamics',
             abjad.TypedOrderedDict(
                 [
                     ('CelloMusicVoice', 'pp'),
@@ -39,7 +39,7 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         (
-            'end_instruments_by_context',
+            'end_instruments',
             abjad.TypedOrderedDict(
                 [
                     ('CelloMusicStaff', 'cello'),
@@ -51,7 +51,7 @@ metadata = abjad.TypedOrderedDict(
             ),
         ('end_metronome_mark', '89'),
         (
-            'end_staff_lines_by_staff',
+            'end_staff_lines',
             abjad.TypedOrderedDict(
                 [
                     ('CelloMusicStaff', 1),
