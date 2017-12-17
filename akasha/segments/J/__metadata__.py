@@ -31,10 +31,22 @@ metadata = abjad.TypedOrderedDict(
             'end_dynamics',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicVoice', 'ff'),
-                    ('ViolaMusicVoice', 'p'),
-                    ('ViolinOneMusicVoice', 'ff'),
-                    ('ViolinTwoMusicVoice', 'ff'),
+                    (
+                        'CelloMusicVoice',
+                        ('ff', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicVoice',
+                        ('p', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinOneMusicVoice',
+                        ('ff', 'ViolinOneMusicVoice'),
+                        ),
+                    (
+                        'ViolinTwoMusicVoice',
+                        ('ff', 'ViolinTwoMusicVoice'),
+                        ),
                     ]
                 ),
             ),
