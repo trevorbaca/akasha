@@ -243,7 +243,7 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', 12),
-    akasha.getato_pitches('C#3', direction=Down),
+    akasha.getato_pitches('C#3', direction=abjad.Down),
     baca.markup.leggieriss(),
     baca.staccati(),
     baca.dynamic('p'),

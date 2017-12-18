@@ -399,12 +399,12 @@ assert len(counts) == 20
 
 viola_counts = [2, 1, 2, 1, 1, 3, 2, 1, 7]
 assert sum(viola_counts) == len(counts)
-viola_counts = counts.partition_by_counts(viola_counts, overhang=Exact)
+viola_counts = counts.partition_by_counts(viola_counts, overhang=abjad.Exact)
 viola_counts = [sum(_) for _ in viola_counts]
 
 cello_counts = [1, 3, 4, 1, 2, 3, 6]
 assert sum(cello_counts) == len(counts)
-cello_counts = counts.partition_by_counts(cello_counts, overhang=Exact)
+cello_counts = counts.partition_by_counts(cello_counts, overhang=abjad.Exact)
 cello_counts = [sum(_) for _ in cello_counts]
 
 maker(
