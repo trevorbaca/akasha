@@ -157,7 +157,7 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', 1, 6),
-    akasha.getato_pitches(-2, [-3], direction=Down),
+    akasha.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.staccati(),
     )
 

@@ -110,7 +110,7 @@ maker(
 
 maker(
     baca.scope('ViolinTwoMusicVoice', 2, 3),
-    akasha.getato_pitches(29, direction=Down),
+    akasha.getato_pitches(29, direction=abjad.Down),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
     baca.staccati(),
