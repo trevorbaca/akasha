@@ -139,7 +139,7 @@
                                 \line %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         Violin %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                        1 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        I %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     } %! EXPLICIT_INSTRUMENT_COMMAND:2
                             } %! EXPLICIT_INSTRUMENT_COMMAND:2
                         \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -148,7 +148,7 @@
                                 \line %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         Vn. %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                        1 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        I %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     } %! EXPLICIT_INSTRUMENT_COMMAND:2
                             } %! EXPLICIT_INSTRUMENT_COMMAND:2
                         \clef "treble" %! EXPLICIT_CLEF_COMMAND:8
@@ -163,7 +163,7 @@
                                 \line %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                         Violin %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                        1 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                        I %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
@@ -172,7 +172,7 @@
                                 \line %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                         Vn. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                        1 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                        I %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
@@ -198,7 +198,7 @@
                                 \line %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         Violin %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                        2 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        II %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     } %! EXPLICIT_INSTRUMENT_COMMAND:2
                             } %! EXPLICIT_INSTRUMENT_COMMAND:2
                         \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
@@ -207,7 +207,7 @@
                                 \line %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     { %! EXPLICIT_INSTRUMENT_COMMAND:2
                                         Vn. %! EXPLICIT_INSTRUMENT_COMMAND:2
-                                        2 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        II %! EXPLICIT_INSTRUMENT_COMMAND:2
                                     } %! EXPLICIT_INSTRUMENT_COMMAND:2
                             } %! EXPLICIT_INSTRUMENT_COMMAND:2
                         \clef "treble" %! EXPLICIT_CLEF_COMMAND:8
@@ -222,7 +222,7 @@
                                 \line %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                         Violin %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                        2 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                        II %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
@@ -231,7 +231,7 @@
                                 \line %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     { %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                         Vn. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                                        2 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
+                                        II %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                     } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
