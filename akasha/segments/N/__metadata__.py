@@ -45,6 +45,11 @@ metadata = abjad.TypedOrderedDict(
                                 prototype='abjad.Instrument',
                                 value='Cello',
                                 ),
+                            abjad.Momento(
+                                context='CelloMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
                             ],
                         ),
                     (
@@ -85,6 +90,11 @@ metadata = abjad.TypedOrderedDict(
                                 prototype='abjad.Instrument',
                                 value='Viola',
                                 ),
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
                             ],
                         ),
                     (
@@ -110,6 +120,11 @@ metadata = abjad.TypedOrderedDict(
                                 prototype='abjad.Instrument',
                                 value='ViolinI',
                                 ),
+                            abjad.Momento(
+                                context='ViolinOneMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
                             ],
                         ),
                     (
@@ -134,6 +149,11 @@ metadata = abjad.TypedOrderedDict(
                                 context='ViolinTwoMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='ViolinII',
+                                ),
+                            abjad.Momento(
+                                context='ViolinTwoMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=1,
                                 ),
                             ],
                         ),
