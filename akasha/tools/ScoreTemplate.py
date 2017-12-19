@@ -38,7 +38,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     \line
                                         {
                                             Violin
-                                            1
+                                            I
                                         }
                                 }
                             \set ViolinOneMusicStaff.shortInstrumentName = \markup {
@@ -47,7 +47,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     \line
                                         {
                                             Vn.
-                                            1
+                                            I
                                         }
                                 }
                             \clef "treble"
@@ -63,7 +63,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     \line
                                         {
                                             Violin
-                                            2
+                                            II
                                         }
                                 }
                             \set ViolinTwoMusicStaff.shortInstrumentName = \markup {
@@ -72,7 +72,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     \line
                                         {
                                             Vn.
-                                            2
+                                            II
                                         }
                                 }
                             \clef "treble"
@@ -154,7 +154,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             violin_one_music_staff,
             'default_instrument',
-            akasha.instruments['violin 1'],
+            akasha.instruments['ViolinI'],
             )
         self._attach_tag('ViolinI', violin_one_music_staff)
 
@@ -171,7 +171,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             violin_two_music_staff,
             'default_instrument',
-            akasha.instruments['violin 2'],
+            akasha.instruments['ViolinII'],
             )
         self._attach_tag('ViolinII', violin_two_music_staff)
 
@@ -188,7 +188,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             viola_music_staff,
             'default_instrument',
-            akasha.instruments['viola'],
+            akasha.instruments['Viola'],
             )
         self._attach_tag('viola', viola_music_staff)
 
@@ -205,7 +205,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             cello_music_staff,
             'default_instrument',
-            akasha.instruments['cello'],
+            akasha.instruments['Cello'],
             )
         self._attach_tag('cello', cello_music_staff)
 

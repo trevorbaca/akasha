@@ -4,44 +4,44 @@ import baca
 
 instruments = abjad.InstrumentDictionary([
     (
-        'violin 1',
+        'ViolinI',
         abjad.Violin(
-            name='violin 1',
+            name='violin I',
             name_markup=baca.markup.instrument(
-                'Violin 1',
+                'Violin I',
                 column=False,
                 ),
-            short_name='vn. 1',
+            short_name='vn. I',
             short_name_markup=baca.markup.short_instrument(
-                'Vn. 1',
+                'Vn. I',
                 column=False,
                 ),
             ),
         ),
     (
-        'violin 2',
+        'ViolinII',
         abjad.Violin(
-            name='violin 2',
+            name='violin II',
             name_markup=baca.markup.instrument(
-                'Violin 2',
+                'Violin II',
                 column=False,
                 ),
-            short_name='vn. 2',
+            short_name='vn. II',
             short_name_markup=baca.markup.short_instrument(
-                'Vn. 2',
+                'Vn. II',
                 column=False,
                 ),
             ),
         ),
     (
-        'viola',
+        'Viola',
         abjad.Viola(
             name_markup=baca.markup.instrument('Viola'),
             short_name_markup=baca.markup.short_instrument('Va.'),
             ),
         ),
     (
-        'cello',
+        'Cello',
         abjad.Cello(
             name_markup=baca.markup.instrument('Cello'),
             short_name_markup=baca.markup.short_instrument('Vc.'),
