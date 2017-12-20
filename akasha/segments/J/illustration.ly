@@ -220,22 +220,22 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%                 "violin I" %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        "violin I" %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 "violin I" %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \override %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \box %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        "violin I" %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
                         \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
@@ -346,22 +346,22 @@
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%                 "violin II" %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                            "violin II" %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%                 "violin II" %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \override %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \box %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            "violin II" %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                     }
                                 }
                             \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
@@ -478,22 +478,22 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%                 viola %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        viola %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 viola %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \override %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \box %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        viola %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
                         \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
@@ -549,22 +549,22 @@
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%                 cello %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
-                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                            cello %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%                 cello %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                        \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \override %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \box %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            cello %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                     }
                                 }
                             \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
