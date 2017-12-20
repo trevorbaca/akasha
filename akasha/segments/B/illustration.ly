@@ -123,7 +123,6 @@
                     } % REDUNDANT_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 25] %%%
-                \time 9/8
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 36) %! SEGMENT:SPACING:2
                 s1 * 9/8
@@ -368,7 +367,6 @@
                     }
                 
                 %%% GlobalSkips [measure 34] %%%
-                \time 7/8
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! SEGMENT:SPACING:3
                 s1 * 7/8

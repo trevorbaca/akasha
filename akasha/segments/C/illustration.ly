@@ -601,7 +601,6 @@
                     }
                 
                 %%% GlobalSkips [measure 50] %%%
-                \time 3/4
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 3/4
@@ -633,7 +632,6 @@
                     }
                 
                 %%% GlobalSkips [measure 51] %%%
-                \time 3/4
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 3/4
@@ -901,7 +899,6 @@
                     }
                 
                 %%% GlobalSkips [measure 60] %%%
-                \time 6/4
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 3/2
