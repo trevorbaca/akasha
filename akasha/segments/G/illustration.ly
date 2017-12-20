@@ -575,77 +575,77 @@
                         \times 8/14 {
                             
                             %%% ViolinOneMusicVoice [measure 200] %%%
-                            \stopStaff %! PERSISTENT_STAFF_LINES_COMMAND:13
-                            \once \override Staff.StaffSymbol.line-count = 1 %! PERSISTENT_STAFF_LINES_COMMAND:13
-                            \startStaff %! PERSISTENT_STAFF_LINES_COMMAND:13
-                            \set ViolinOneMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                    #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                    \line %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                        { %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                            Violin %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                            I %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                } %! PERSISTENT_INSTRUMENT_COMMAND:9
-                            \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                    #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                    \line %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                        { %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                            Vn. %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                            I %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                } %! PERSISTENT_INSTRUMENT_COMMAND:9
-                            \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
-                            \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
-                            %%% \override ViolinOneMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
-                            \set ViolinOneMusicStaff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
-                            \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
-                            \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green) %! PERSISTENT_STAFF_LINES_COLOR:12
-                            \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'green) %! PERSISTENT_DYNAMIC_COLOR:14
+                            \stopStaff %! REAPPLIED_STAFF_LINES_COMMAND:13
+                            \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES_COMMAND:13
+                            \startStaff %! REAPPLIED_STAFF_LINES_COMMAND:13
+                            \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                    #16 %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                    \line %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                        { %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                            Violin %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                            I %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                        } %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                } %! REAPPLIED_INSTRUMENT_COMMAND:9
+                            \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                    #10 %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                    \line %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                        { %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                            Vn. %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                            I %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                        } %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                } %! REAPPLIED_INSTRUMENT_COMMAND:9
+                            \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                            \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            %%% \override ViolinOneMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                            \set ViolinOneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                            \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:12
+                            \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:14
                             r16
-                            \pp %! PERSISTENT_DYNAMIC_COMMAND:15
+                            \pp %! REAPPLIED_DYNAMIC_COMMAND:15
                             ^ \markup {
                                 \column
                                     {
-                                        %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%                 "violin I" %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                        \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                            "violin I" %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%                 "violin I" %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                        \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                            "violin I" %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                     }
                                 }
-                            \set ViolinOneMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                    #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                    \line %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                        { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                            Violin %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                            I %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                            \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                    #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                    \line %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                        { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                            Vn. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                            I %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                            \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                            \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
+                            \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                    #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                    \line %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                        { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                            Violin %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                            I %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                        } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                            \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                    #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                    \line %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                        { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                            Vn. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                            I %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                        } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                            \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                            \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:10
                             
                             \once \override Hairpin.circled-tip = ##t
                             g'''16
@@ -981,9 +981,9 @@
                     \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
                         %%% ViolinTwoMusicVoice [measure 200] %%%
-                        \stopStaff %! PERSISTENT_STAFF_LINES_COMMAND:13
-                        \once \override Staff.StaffSymbol.line-count = 1 %! PERSISTENT_STAFF_LINES_COMMAND:13
-                        \startStaff %! PERSISTENT_STAFF_LINES_COMMAND:13
+                        \stopStaff %! REAPPLIED_STAFF_LINES_COMMAND:13
+                        \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES_COMMAND:13
+                        \startStaff %! REAPPLIED_STAFF_LINES_COMMAND:13
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1004,33 +1004,33 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                \line %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                    { %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                        Violin %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                        II %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                    } %! PERSISTENT_INSTRUMENT_COMMAND:9
-                            } %! PERSISTENT_INSTRUMENT_COMMAND:9
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                \line %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                    { %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                        Vn. %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                        II %! PERSISTENT_INSTRUMENT_COMMAND:9
-                                    } %! PERSISTENT_INSTRUMENT_COMMAND:9
-                            } %! PERSISTENT_INSTRUMENT_COMMAND:9
-                        \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
-                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
-                        %%% \override ViolinTwoMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
-                        \set ViolinTwoMusicStaff.forceClef = ##t %! PERSISTENT_CLEF_COMMAND:3
-                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:6
-                        \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green) %! PERSISTENT_STAFF_LINES_COLOR:12
-                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green) %! PERSISTENT_DYNAMIC_COLOR:14
+                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:9
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                \line %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                    { %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                        Violin %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                        II %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                    } %! REAPPLIED_INSTRUMENT_COMMAND:9
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:9
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:9
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                \line %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                    { %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                        Vn. %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                        II %! REAPPLIED_INSTRUMENT_COMMAND:9
+                                    } %! REAPPLIED_INSTRUMENT_COMMAND:9
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:9
+                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                        %%% \override ViolinTwoMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
+                        \set ViolinTwoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
+                        \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:12
+                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:14
                         fs'2..
-                        \pp %! PERSISTENT_DYNAMIC_COMMAND:15
+                        \pp %! REAPPLIED_DYNAMIC_COMMAND:15
                         \glissando
                         \>
                         \ff
@@ -1038,44 +1038,44 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%                 "violin II" %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
-                                    \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                        "violin II" %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%                 "violin II" %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:7
+                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                        "violin II" %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                 }
                             }
-                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                \line %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                    { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                        Violin %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                        II %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                    } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                            } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                \line %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                    { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                        Vn. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                        II %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                                    } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                            } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
-                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
+                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                \line %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                    { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                        Violin %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                        II %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                    } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                \line %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                    { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                        Vn. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                        II %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                                    } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:11
+                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW_COLOR:5
+                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:10
                         
                         %%% ViolinTwoMusicVoice [measure 201] %%%
                         ef'2..
@@ -1255,9 +1255,9 @@
                     \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
                         %%% ViolaMusicVoice [measure 200] %%%
-                        \stopStaff %! PERSISTENT_STAFF_LINES_COMMAND:8
-                        \once \override Staff.StaffSymbol.line-count = 1 %! PERSISTENT_STAFF_LINES_COMMAND:8
-                        \startStaff %! PERSISTENT_STAFF_LINES_COMMAND:8
+                        \stopStaff %! REAPPLIED_STAFF_LINES_COMMAND:8
+                        \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES_COMMAND:8
+                        \startStaff %! REAPPLIED_STAFF_LINES_COMMAND:8
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1278,25 +1278,25 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \set ViolaMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
-                                #16 %! PERSISTENT_INSTRUMENT_COMMAND:4
-                                Viola %! PERSISTENT_INSTRUMENT_COMMAND:4
-                            } %! PERSISTENT_INSTRUMENT_COMMAND:4
-                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
-                                #10 %! PERSISTENT_INSTRUMENT_COMMAND:4
-                                Va. %! PERSISTENT_INSTRUMENT_COMMAND:4
-                            } %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:4
+                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:4
+                                Viola %! REAPPLIED_INSTRUMENT_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:4
+                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:4
+                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:4
+                                Va. %! REAPPLIED_INSTRUMENT_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:4
                         \clef "alto" %! EXPLICIT_CLEF_COMMAND:14
-                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:1
-                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green) %! PERSISTENT_STAFF_LINES_COLOR:7
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green) %! PERSISTENT_DYNAMIC_COLOR:9
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:7
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:9
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:11
                         %%% \override ViolaMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:12
                         \set ViolaMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:13
                         ef'2..
-                        \pp %! PERSISTENT_DYNAMIC_COMMAND:10
+                        \pp %! REAPPLIED_DYNAMIC_COMMAND:10
                         \glissando
                         \>
                         \ff
@@ -1304,35 +1304,35 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%                 viola %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                        { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                            \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                    #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                    \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                        viola %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                        } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%                 viola %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                        viola %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
                                 }
                             }
-                        \set ViolaMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                                #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                                Viola %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                            } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                                #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                                Va. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                            } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:5
+                        \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                                #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                                Viola %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                                #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                                Va. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:5
                         \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:15
                         
                         %%% ViolaMusicVoice [measure 201] %%%
@@ -1554,24 +1554,24 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \set CelloMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
-                                #16 %! PERSISTENT_INSTRUMENT_COMMAND:4
-                                Cello %! PERSISTENT_INSTRUMENT_COMMAND:4
-                            } %! PERSISTENT_INSTRUMENT_COMMAND:4
-                        \set CelloMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
-                                #10 %! PERSISTENT_INSTRUMENT_COMMAND:4
-                                Vc. %! PERSISTENT_INSTRUMENT_COMMAND:4
-                            } %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:4
+                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:4
+                                Cello %! REAPPLIED_INSTRUMENT_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:4
+                        \set CelloMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:4
+                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:4
+                                Vc. %! REAPPLIED_INSTRUMENT_COMMAND:4
+                            } %! REAPPLIED_INSTRUMENT_COMMAND:4
                         \clef "bass" %! EXPLICIT_CLEF_COMMAND:12
-                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:1
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green) %! PERSISTENT_DYNAMIC_COLOR:7
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:7
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:9
                         %%% \override CelloMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:10
                         \set CelloMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:11
                         cs,2..
-                        \pp %! PERSISTENT_DYNAMIC_COMMAND:8
+                        \pp %! REAPPLIED_DYNAMIC_COMMAND:8
                         \glissando
                         \>
                         \ff
@@ -1579,35 +1579,35 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%                 cello %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
-                                    \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                        { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                            \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                    #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                    \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                                        cello %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
-                                        } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    %%% \line %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%     { %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%         \override %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%             #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%             \box %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%                 cello %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    %%%     } %! REAPPLIED_INSTRUMENT_CHANGE_MARKUP:2
+                                    \line %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                        { %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            \with-color %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                \override %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                    #'(box-padding . 0.75) %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                    \box %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                        cello %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                        } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
                                 }
                             }
-                        \set CelloMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                                #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                                Cello %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                            } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                        \set CelloMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                            \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                                #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                                Vc. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                            } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
-                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:5
+                        \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                                #16 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                                Cello %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                        \set CelloMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                                #10 %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                                Vc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                            } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:6
+                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:5
                         \override CelloMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:13
                         
                         %%% CelloMusicVoice [measure 201] %%%
