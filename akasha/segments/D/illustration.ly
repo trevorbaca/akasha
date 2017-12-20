@@ -224,7 +224,7 @@
                 \mark #4
                 \bar "" %! EMPTY_START_BAR:1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:4
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:4
                 s1 * 3/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:3
                     %%% \fontsize %! CLOCK_TIME_MARKUP:3
@@ -272,7 +272,7 @@
                 %%% GlobalSkips [measure 63] %%%
                 \time 4/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -290,7 +290,7 @@
                 %%% GlobalSkips [measure 64] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -308,7 +308,7 @@
                 %%% GlobalSkips [measure 65] %%%
                 \time 6/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/4
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -326,7 +326,7 @@
                 %%% GlobalSkips [measure 66] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -344,7 +344,7 @@
                 %%% GlobalSkips [measure 67] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -362,7 +362,7 @@
                 %%% GlobalSkips [measure 68] %%%
                 \time 4/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -380,7 +380,7 @@
                 %%% GlobalSkips [measure 69] %%%
                 \time 8/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -398,7 +398,7 @@
                 %%% GlobalSkips [measure 70] %%%
                 \time 1/4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING:2
                 s1 * 1/4
                 - \markup {
                     \column
@@ -425,7 +425,7 @@
                 %%% GlobalSkips [measure 71] %%%
                 \time 9/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 9/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -457,7 +457,7 @@
                 %%% GlobalSkips [measure 72] %%%
                 \time 9/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 9/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -475,7 +475,7 @@
                 %%% GlobalSkips [measure 73] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -493,7 +493,7 @@
                 %%% GlobalSkips [measure 74] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -511,7 +511,7 @@
                 %%% GlobalSkips [measure 75] %%%
                 \time 6/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/4
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -529,7 +529,7 @@
                 %%% GlobalSkips [measure 76] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -547,7 +547,7 @@
                 %%% GlobalSkips [measure 77] %%%
                 \time 9/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 9/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -565,7 +565,7 @@
                 %%% GlobalSkips [measure 78] %%%
                 \time 4/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -583,7 +583,7 @@
                 %%% GlobalSkips [measure 79] %%%
                 \time 1/4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING:2
                 s1 * 1/4
                 - \markup {
                     \column
@@ -610,7 +610,7 @@
                 %%% GlobalSkips [measure 80] %%%
                 \time 8/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -642,7 +642,7 @@
                 %%% GlobalSkips [measure 81] %%%
                 \time 9/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 9/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -660,7 +660,7 @@
                 %%% GlobalSkips [measure 82] %%%
                 \time 4/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -678,7 +678,7 @@
                 %%% GlobalSkips [measure 83] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -696,7 +696,7 @@
                 %%% GlobalSkips [measure 84] %%%
                 \time 1/4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING:2
                 s1 * 1/4
                 - \markup {
                     \column
@@ -723,7 +723,7 @@
                 %%% GlobalSkips [measure 85] %%%
                 \time 9/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 9/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -755,7 +755,7 @@
                 %%% GlobalSkips [measure 86] %%%
                 \time 9/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 9/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -773,7 +773,7 @@
                 %%% GlobalSkips [measure 87] %%%
                 \time 4/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -791,7 +791,7 @@
                 %%% GlobalSkips [measure 88] %%%
                 \time 8/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -809,7 +809,7 @@
                 %%% GlobalSkips [measure 89] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -827,7 +827,7 @@
                 %%% GlobalSkips [measure 90] %%%
                 \time 4/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -845,7 +845,7 @@
                 %%% GlobalSkips [measure 91] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -863,7 +863,7 @@
                 %%% GlobalSkips [measure 92] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -881,7 +881,7 @@
                 %%% GlobalSkips [measure 93] %%%
                 \time 1/4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING:2
                 s1 * 1/4
                 - \markup {
                     \column
@@ -908,7 +908,7 @@
                 %%% GlobalSkips [measure 94] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 3/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -956,7 +956,7 @@
                 %%% GlobalSkips [measure 95] %%%
                 \time 6/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/4
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -974,7 +974,7 @@
                 %%% GlobalSkips [measure 96] %%%
                 \time 4/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -992,7 +992,7 @@
                 %%% GlobalSkips [measure 97] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 24) %! SEGMENT:SPACING:3
                 s1 * 3/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1024,7 +1024,7 @@
                 %%% GlobalSkips [measure 98] %%%
                 \time 1/4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING:2
                 s1 * 1/4
                 - \markup {
                     \column
@@ -1083,7 +1083,7 @@
                 \once \override TextSpanner.dash-period = 1.5
                 \time 6/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 3/4
                 \startTextSpan
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
@@ -1116,7 +1116,7 @@
                 %%% GlobalSkips [measure 100] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -1134,7 +1134,7 @@
                 %%% GlobalSkips [measure 101] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -1152,7 +1152,7 @@
                 %%% GlobalSkips [measure 102] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -1170,7 +1170,7 @@
                 %%% GlobalSkips [measure 103] %%%
                 \time 1/4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING:2
                 s1 * 1/4
                 - \markup {
                     \column
@@ -1197,7 +1197,7 @@
                 %%% GlobalSkips [measure 104] %%%
                 \time 8/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 1
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1229,7 +1229,7 @@
                 %%% GlobalSkips [measure 105] %%%
                 \time 9/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 9/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -1247,7 +1247,7 @@
                 %%% GlobalSkips [measure 106] %%%
                 \time 9/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 9/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -1265,7 +1265,7 @@
                 %%% GlobalSkips [measure 107] %%%
                 \time 4/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -1283,7 +1283,7 @@
                 %%% GlobalSkips [measure 108] %%%
                 \time 3/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 3/8
                 \stopTextSpan
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
@@ -1332,7 +1332,7 @@
                 %%% GlobalSkips [measure 109] %%%
                 \time 6/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 3/4
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -1350,7 +1350,7 @@
                 %%% GlobalSkips [measure 110] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:2
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
@@ -1368,7 +1368,7 @@
                 %%% GlobalSkips [measure 111] %%%
                 \time 7/8
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING_COMMAND:3
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:3
                 s1 * 7/8
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
                     %%% \fontsize %! CLOCK_TIME_MARKUP:2
@@ -1400,7 +1400,7 @@
                 %%% GlobalSkips [measure 112] %%%
                 \time 1/4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING_COMMAND:2
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING:2
                 s1 * 1/4
                 - \markup {
                     \column
@@ -1433,33 +1433,33 @@
                     \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                         
                         %%% ViolinOneMusicVoice [measure 62] %%%
-                        \stopStaff %! REAPPLIED_STAFF_LINES_COMMAND:13
-                        \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES_COMMAND:13
-                        \startStaff %! REAPPLIED_STAFF_LINES_COMMAND:13
+                        \stopStaff %! REAPPLIED_STAFF_LINES:13
+                        \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:13
+                        \startStaff %! REAPPLIED_STAFF_LINES:13
                         \override NoteHead.style = #'harmonic
                         \ottava #1
-                        \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:9
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                \line %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                    { %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                        Violin %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                        I %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                    } %! REAPPLIED_INSTRUMENT_COMMAND:9
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:9
-                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:9
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                \line %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                    { %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                        Vn. %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                        I %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                    } %! REAPPLIED_INSTRUMENT_COMMAND:9
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:9
-                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                        \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:9
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:9
+                                #16 %! REAPPLIED_INSTRUMENT:9
+                                \line %! REAPPLIED_INSTRUMENT:9
+                                    { %! REAPPLIED_INSTRUMENT:9
+                                        Violin %! REAPPLIED_INSTRUMENT:9
+                                        I %! REAPPLIED_INSTRUMENT:9
+                                    } %! REAPPLIED_INSTRUMENT:9
+                            } %! REAPPLIED_INSTRUMENT:9
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:9
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:9
+                                #10 %! REAPPLIED_INSTRUMENT:9
+                                \line %! REAPPLIED_INSTRUMENT:9
+                                    { %! REAPPLIED_INSTRUMENT:9
+                                        Vn. %! REAPPLIED_INSTRUMENT:9
+                                        I %! REAPPLIED_INSTRUMENT:9
+                                    } %! REAPPLIED_INSTRUMENT:9
+                            } %! REAPPLIED_INSTRUMENT:9
+                        \clef "treble" %! REAPPLIED_CLEF:4
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
                         %%% \override ViolinOneMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
-                        \set ViolinOneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                        \set ViolinOneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
                         \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:12
                         cs''''4.
@@ -1491,26 +1491,26 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                 }
                             }
-                        \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                \line %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                    { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                        Violin %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                        I %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                    } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                \line %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                    { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                        Vn. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                        I %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                    } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:5
-                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:10
+                        \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                \line %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                    { %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                        Violin %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                        I %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                    } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                \line %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                    { %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                        Vn. %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                        I %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                    } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:10
                         
                         %%% ViolinOneMusicVoice [measure 63] %%%
                         cs''''2
@@ -1768,36 +1768,36 @@
                     \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
                         %%% ViolinTwoMusicVoice [measure 62] %%%
-                        \stopStaff %! REAPPLIED_STAFF_LINES_COMMAND:13
-                        \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES_COMMAND:13
-                        \startStaff %! REAPPLIED_STAFF_LINES_COMMAND:13
-                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:9
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                \line %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                    { %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                        Violin %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                        II %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                    } %! REAPPLIED_INSTRUMENT_COMMAND:9
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:9
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:9
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                \line %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                    { %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                        Vn. %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                        II %! REAPPLIED_INSTRUMENT_COMMAND:9
-                                    } %! REAPPLIED_INSTRUMENT_COMMAND:9
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:9
-                        \clef "treble" %! REAPPLIED_CLEF_COMMAND:4
+                        \stopStaff %! REAPPLIED_STAFF_LINES:13
+                        \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:13
+                        \startStaff %! REAPPLIED_STAFF_LINES:13
+                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:9
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:9
+                                #16 %! REAPPLIED_INSTRUMENT:9
+                                \line %! REAPPLIED_INSTRUMENT:9
+                                    { %! REAPPLIED_INSTRUMENT:9
+                                        Violin %! REAPPLIED_INSTRUMENT:9
+                                        II %! REAPPLIED_INSTRUMENT:9
+                                    } %! REAPPLIED_INSTRUMENT:9
+                            } %! REAPPLIED_INSTRUMENT:9
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:9
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:9
+                                #10 %! REAPPLIED_INSTRUMENT:9
+                                \line %! REAPPLIED_INSTRUMENT:9
+                                    { %! REAPPLIED_INSTRUMENT:9
+                                        Vn. %! REAPPLIED_INSTRUMENT:9
+                                        II %! REAPPLIED_INSTRUMENT:9
+                                    } %! REAPPLIED_INSTRUMENT:9
+                            } %! REAPPLIED_INSTRUMENT:9
+                        \clef "treble" %! REAPPLIED_CLEF:4
                         \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
                         %%% \override ViolinTwoMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
-                        \set ViolinTwoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:3
+                        \set ViolinTwoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                         \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
                         \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:12
                         \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:14
                         R1 * 3/8
-                        \pp %! REAPPLIED_DYNAMIC_COMMAND:15
+                        \pp %! REAPPLIED_DYNAMIC:15
                         ^ \markup {
                             \column
                                 {
@@ -1819,26 +1819,26 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                                 }
                             }
-                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                \line %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                    { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                        Violin %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                        II %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                    } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                \line %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                    { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                        Vn. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                        II %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                                    } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:11
-                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_REDRAW_COLOR:5
-                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:10
+                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                \line %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                    { %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                        Violin %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                        II %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                    } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                \line %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                    { %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                        Vn. %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                        II %! REAPPLIED_INSTRUMENT_REDRAW:11
+                                    } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:10
                         
                         %%% ViolinTwoMusicVoice [measure 63] %%%
                         R1 * 1/2
@@ -2091,26 +2091,26 @@
                     \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
                         %%% ViolaMusicVoice [measure 62] %%%
-                        \stopStaff %! REAPPLIED_STAFF_LINES_COMMAND:8
-                        \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES_COMMAND:8
-                        \startStaff %! REAPPLIED_STAFF_LINES_COMMAND:8
+                        \stopStaff %! REAPPLIED_STAFF_LINES:8
+                        \once \override Staff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:8
+                        \startStaff %! REAPPLIED_STAFF_LINES:8
                         \override NoteHead.style = #'harmonic
-                        \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:4
-                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:4
-                                Viola %! REAPPLIED_INSTRUMENT_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:4
-                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:4
-                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:4
-                                Va. %! REAPPLIED_INSTRUMENT_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:4
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:12
+                        \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:4
+                                #16 %! REAPPLIED_INSTRUMENT:4
+                                Viola %! REAPPLIED_INSTRUMENT:4
+                            } %! REAPPLIED_INSTRUMENT:4
+                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:4
+                                #10 %! REAPPLIED_INSTRUMENT:4
+                                Va. %! REAPPLIED_INSTRUMENT:4
+                            } %! REAPPLIED_INSTRUMENT:4
+                        \clef "treble" %! EXPLICIT_CLEF:12
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:7
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:9
                         %%% \override ViolaMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:10
-                        \set ViolaMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:11
+                        \set ViolaMusicStaff.forceClef = ##t %! EXPLICIT_CLEF:11
                         gqf''4.
                         \mp
                         ^ \markup {
@@ -2140,18 +2140,18 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
                                 }
                             }
-                        \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                                Viola %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                                Va. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:5
-                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:13
+                        \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:6
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:6
+                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:6
+                                Viola %! REAPPLIED_INSTRUMENT_REDRAW:6
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:6
+                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:6
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:6
+                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:6
+                                Va. %! REAPPLIED_INSTRUMENT_REDRAW:6
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:6
+                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:5
+                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:13
                         
                         %%% ViolaMusicVoice [measure 63] %%%
                         gqf''2
@@ -2290,10 +2290,10 @@
                         R1 * 1/4
                         
                         %%% ViolaMusicVoice [measure 94] %%%
-                        \clef "alto" %! EXPLICIT_CLEF_COMMAND:4
+                        \clef "alto" %! EXPLICIT_CLEF:4
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override ViolaMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                        \set ViolaMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        \set ViolaMusicStaff.forceClef = ##t %! EXPLICIT_CLEF:3
                         ff4.
                         \glissando
                         \>
@@ -2303,7 +2303,7 @@
                                 \upright
                                     "tasto + senza vib."
                             }
-                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
+                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
                         
                         %%% ViolaMusicVoice [measure 95] %%%
                         e2.
@@ -2406,21 +2406,21 @@
                         
                         %%% CelloMusicVoice [measure 62] %%%
                         \override NoteHead.style = #'harmonic
-                        \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:4
-                                #16 %! REAPPLIED_INSTRUMENT_COMMAND:4
-                                Cello %! REAPPLIED_INSTRUMENT_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:4
-                        \set CelloMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:4
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:4
-                                #10 %! REAPPLIED_INSTRUMENT_COMMAND:4
-                                Vc. %! REAPPLIED_INSTRUMENT_COMMAND:4
-                            } %! REAPPLIED_INSTRUMENT_COMMAND:4
-                        \clef "treble" %! EXPLICIT_CLEF_COMMAND:10
+                        \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:4
+                                #16 %! REAPPLIED_INSTRUMENT:4
+                                Cello %! REAPPLIED_INSTRUMENT:4
+                            } %! REAPPLIED_INSTRUMENT:4
+                        \set CelloMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT:4
+                            \hcenter-in %! REAPPLIED_INSTRUMENT:4
+                                #10 %! REAPPLIED_INSTRUMENT:4
+                                Vc. %! REAPPLIED_INSTRUMENT:4
+                            } %! REAPPLIED_INSTRUMENT:4
+                        \clef "treble" %! EXPLICIT_CLEF:10
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
                         %%% \override CelloMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
-                        \set CelloMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
+                        \set CelloMusicStaff.forceClef = ##t %! EXPLICIT_CLEF:9
                         d''4.
                         \mp
                         ^ \markup {
@@ -2450,18 +2450,18 @@
                                         } %! REAPPLIED_INSTRUMENT_CHANGE_COLORED_MARKUP:3
                                 }
                             }
-                        \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                                Cello %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                        \set CelloMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                                Vc. %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                            } %! REAPPLIED_INSTRUMENT_REDRAW_COMMAND:6
-                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_REDRAW_COLOR:5
-                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:11
+                        \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:6
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:6
+                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:6
+                                Cello %! REAPPLIED_INSTRUMENT_REDRAW:6
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:6
+                        \set CelloMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:6
+                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:6
+                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:6
+                                Vc. %! REAPPLIED_INSTRUMENT_REDRAW:6
+                            } %! REAPPLIED_INSTRUMENT_REDRAW:6
+                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:5
+                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:11
                         
                         %%% CelloMusicVoice [measure 63] %%%
                         d''2
@@ -2561,10 +2561,10 @@
                         
                         %%% CelloMusicVoice [measure 85] %%%
                         \override NoteHead.style = #'harmonic
-                        \clef "bass" %! EXPLICIT_CLEF_COMMAND:4
+                        \clef "bass" %! EXPLICIT_CLEF:4
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                         %%% \override CelloMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
-                        \set CelloMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
+                        \set CelloMusicStaff.forceClef = ##t %! EXPLICIT_CLEF:3
                         g,2.
                         -\downbow
                         \ppp
@@ -2574,7 +2574,7 @@
                                 \upright
                                     "XP + senza vib. + full bow strokes"
                             }
-                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_REDRAW_COLOR:5
+                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:5
                         
                         bf,4.
                         -\upbow
