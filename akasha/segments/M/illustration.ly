@@ -939,26 +939,26 @@
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
-                        \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                \line %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                    { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                        Violin %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                        I %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                    } %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
-                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                \line %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                    { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                        Vn. %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                        I %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                    } %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                        \set ViolinOneMusicStaff.instrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                #16 %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                \line %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                    { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                        Violin %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                        I %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                    } %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            } %! REAPPLIED_REDRAW_INSTRUMENT:11
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                #10 %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                \line %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                    { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                        Vn. %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                        I %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                    } %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            } %! REAPPLIED_REDRAW_INSTRUMENT:11
                         \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:10
+                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
                         
                         %%% ViolinOneMusicVoice [measure 341] %%%
                         R1 * 3/4
@@ -1327,26 +1327,26 @@
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
-                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                \line %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                    { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                        Violin %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                        II %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                    } %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                \line %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                    { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                        Vn. %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                        II %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                    } %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                        \set ViolinTwoMusicStaff.instrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                #16 %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                \line %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                    { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                        Violin %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                        II %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                    } %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            } %! REAPPLIED_REDRAW_INSTRUMENT:11
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                #10 %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                \line %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                    { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                        Vn. %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                        II %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                    } %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            } %! REAPPLIED_REDRAW_INSTRUMENT:11
                         \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:10
+                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
                         
                         %%% ViolinTwoMusicVoice [measure 341] %%%
                         R1 * 3/4
@@ -1705,18 +1705,18 @@
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
-                        \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                Viola %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
-                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                Va. %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                        \set ViolaMusicStaff.instrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                #16 %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                Viola %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            } %! REAPPLIED_REDRAW_INSTRUMENT:11
+                        \set ViolaMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                #10 %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                Va. %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            } %! REAPPLIED_REDRAW_INSTRUMENT:11
                         \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:10
+                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
                         
                         %%% ViolaMusicVoice [measure 341] %%%
                         R1 * 3/4
@@ -2094,18 +2094,18 @@
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
-                        \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                #16 %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                Cello %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
-                        \set CelloMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            \hcenter-in %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                #10 %! REAPPLIED_INSTRUMENT_REDRAW:11
-                                Vc. %! REAPPLIED_INSTRUMENT_REDRAW:11
-                            } %! REAPPLIED_INSTRUMENT_REDRAW:11
+                        \set CelloMusicStaff.instrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                #16 %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                Cello %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            } %! REAPPLIED_REDRAW_INSTRUMENT:11
+                        \set CelloMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            \hcenter-in %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                #10 %! REAPPLIED_REDRAW_INSTRUMENT:11
+                                Vc. %! REAPPLIED_REDRAW_INSTRUMENT:11
+                            } %! REAPPLIED_REDRAW_INSTRUMENT:11
                         \override CelloMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_COLOR_REDRAW:10
+                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
                         
                         bf,,2
                         \repeatTie
