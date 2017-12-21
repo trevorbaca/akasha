@@ -593,12 +593,12 @@
                                         } %! REAPPLIED_INSTRUMENT:9
                                 } %! REAPPLIED_INSTRUMENT:9
                             \clef "treble" %! REAPPLIED_CLEF:4
-                            \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                            \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                             %%% \override ViolinOneMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                             \set ViolinOneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
-                            \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
-                            \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:12
-                            \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:14
+                            \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
+                            \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:12
+                            \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:14
                             r16
                             \pp %! REAPPLIED_DYNAMIC:15
                             ^ \markup {
@@ -633,7 +633,7 @@
                                         \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                     { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                         \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                             (“ViolinI” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
@@ -680,8 +680,8 @@
                                             I %! REAPPLIED_REDRAW_INSTRUMENT:11
                                         } %! REAPPLIED_REDRAW_INSTRUMENT:11
                                 } %! REAPPLIED_REDRAW_INSTRUMENT:11
-                            \override ViolinOneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                            \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
+                            \override ViolinOneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                            \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
                             
                             \once \override Hairpin.circled-tip = ##t
                             g'''16
@@ -1059,12 +1059,12 @@
                                     } %! REAPPLIED_INSTRUMENT:9
                             } %! REAPPLIED_INSTRUMENT:9
                         \clef "treble" %! REAPPLIED_CLEF:4
-                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:1
+                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                         %%% \override ViolinTwoMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
                         \set ViolinTwoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
-                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:6
-                        \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:12
-                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:14
+                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
+                        \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:12
+                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:14
                         fs'2..
                         \pp %! REAPPLIED_DYNAMIC:15
                         \glissando
@@ -1103,7 +1103,7 @@
                                     \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                     \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                         (“ViolinII” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
@@ -1150,8 +1150,8 @@
                                         II %! REAPPLIED_REDRAW_INSTRUMENT:11
                                     } %! REAPPLIED_REDRAW_INSTRUMENT:11
                             } %! REAPPLIED_REDRAW_INSTRUMENT:11
-                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_COLOR_REDRAW:5
-                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
+                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:5
+                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:10
                         
                         %%% ViolinTwoMusicVoice [measure 201] %%%
                         ef'2..
@@ -1365,9 +1365,9 @@
                                 Va. %! REAPPLIED_INSTRUMENT:4
                             } %! REAPPLIED_INSTRUMENT:4
                         \clef "alto" %! EXPLICIT_CLEF:14
-                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green) %! REAPPLIED_STAFF_LINES_COLOR:7
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:9
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:7
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:9
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:11
                         %%% \override ViolaMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:12
                         \set ViolaMusicStaff.forceClef = ##t %! EXPLICIT_CLEF:13
@@ -1401,7 +1401,7 @@
                                     \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                         { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                             \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
-                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                                 { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                                     \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                                         (“Viola” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
@@ -1432,8 +1432,8 @@
                                 #10 %! REAPPLIED_REDRAW_INSTRUMENT:6
                                 Va. %! REAPPLIED_REDRAW_INSTRUMENT:6
                             } %! REAPPLIED_REDRAW_INSTRUMENT:6
-                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:5
-                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:15
+                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:5
+                        \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:15
                         
                         %%% ViolaMusicVoice [measure 201] %%%
                         f'2..
@@ -1665,8 +1665,8 @@
                                 Vc. %! REAPPLIED_INSTRUMENT:4
                             } %! REAPPLIED_INSTRUMENT:4
                         \clef "bass" %! EXPLICIT_CLEF:12
-                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green) %! REAPPLIED_DYNAMIC_COLOR:7
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:1
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:7
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:9
                         %%% \override CelloMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:10
                         \set CelloMusicStaff.forceClef = ##t %! EXPLICIT_CLEF:11
@@ -1700,7 +1700,7 @@
                                     \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                         { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                             \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
-                                                #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                                 { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                                     \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
                                                         (“Cello” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:3
@@ -1731,8 +1731,8 @@
                                 #10 %! REAPPLIED_REDRAW_INSTRUMENT:6
                                 Vc. %! REAPPLIED_REDRAW_INSTRUMENT:6
                             } %! REAPPLIED_REDRAW_INSTRUMENT:6
-                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:5
-                        \override CelloMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_COLOR_REDRAW:13
+                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:5
+                        \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:13
                         
                         %%% CelloMusicVoice [measure 201] %%%
                         ef,2..
