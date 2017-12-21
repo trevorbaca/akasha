@@ -1530,13 +1530,59 @@
                                 {
                                     %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
                                     %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
-                                    %%%         [ViolinI] %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             (“ViolinI” %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 #16 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         Violin %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         I %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \concat %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         #10 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                             { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                                 Vn. %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                                 I %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                             } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     ) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             } %! REAPPLIED_INSTRUMENT_ALERT:7
                                     %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
                                     \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                [ViolinI] %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        (“ViolinI” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            #16 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    Violin %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    I %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \concat %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    #10 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                        { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                            Vn. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                            I %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                        } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                ) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
@@ -2995,13 +3041,59 @@
                                 {
                                     %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
                                     %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
-                                    %%%         [ViolinII] %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             (“ViolinII” %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 #16 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         Violin %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         II %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \concat %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         #10 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         \line %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                             { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                                 Vn. %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                                 II %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                             } %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     ) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             } %! REAPPLIED_INSTRUMENT_ALERT:7
                                     %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
                                     \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                [ViolinII] %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        (“ViolinII” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            #16 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    Violin %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    II %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \concat %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    #10 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                        { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                            Vn. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                            II %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                        } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                ) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
@@ -4497,13 +4589,43 @@
                                 {
                                     %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
                                     %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
-                                    %%%         [Viola] %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             (“Viola” %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 #16 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 Viola %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \concat %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         #10 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         Va. %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     ) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             } %! REAPPLIED_INSTRUMENT_ALERT:7
                                     %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
                                     \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                [Viola] %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        (“Viola” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            #16 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            Viola %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \concat %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    #10 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    Va. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                ) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
@@ -5430,13 +5552,43 @@
                                         }
                                     %%% \line %! REAPPLIED_INSTRUMENT_ALERT:7
                                     %%%     { %! REAPPLIED_INSTRUMENT_ALERT:7
-                                    %%%         [Cello] %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             (“Cello” %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 #16 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 Cello %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%         \concat %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             { %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         #10 %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                         Vc. %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                 \vcenter %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%                     ) %! REAPPLIED_INSTRUMENT_ALERT:7
+                                    %%%             } %! REAPPLIED_INSTRUMENT_ALERT:7
                                     %%%     } %! REAPPLIED_INSTRUMENT_ALERT:7
                                     \line %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                             \with-color %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                                 #(x11-color 'green) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                [Cello] %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        (“Cello” %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            #16 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            Cello %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    \concat %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        { %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                \hcenter-in %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    #10 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                    Vc. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                            \vcenter %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                                ) %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                        } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                         } %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:8
                                 }
                             }
