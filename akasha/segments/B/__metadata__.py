@@ -54,11 +54,6 @@ metadata = abjad.TypedOrderedDict(
                         [
                             abjad.Momento(
                                 context='ViolaMusicVoice',
-                                prototype='abjad.Clef',
-                                value='alto',
-                                ),
-                            abjad.Momento(
-                                context='ViolaMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='Viola',
                                 ),
@@ -84,11 +79,6 @@ metadata = abjad.TypedOrderedDict(
                         [
                             abjad.Momento(
                                 context='ViolinOneMusicVoice',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='ViolinOneMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='ViolinI',
                                 ),
@@ -107,11 +97,6 @@ metadata = abjad.TypedOrderedDict(
                     (
                         'ViolinTwoMusicStaff',
                         [
-                            abjad.Momento(
-                                context='ViolinTwoMusicVoice',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
                             abjad.Momento(
                                 context='ViolinTwoMusicVoice',
                                 prototype='abjad.Instrument',

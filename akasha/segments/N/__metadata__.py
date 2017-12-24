@@ -119,11 +119,6 @@ metadata = abjad.TypedOrderedDict(
                         [
                             abjad.Momento(
                                 context='ViolinTwoMusicVoice',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='ViolinTwoMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='ViolinII',
                                 ),
