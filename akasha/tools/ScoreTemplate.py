@@ -156,6 +156,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['ViolinI'],
             )
+        abjad.annotate(
+            violin_one_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
         self._attach_tag('ViolinI', violin_one_music_staff)
 
         # VIOLIN 2
@@ -172,6 +177,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             violin_two_music_staff,
             'default_instrument',
             akasha.instruments['ViolinII'],
+            )
+        abjad.annotate(
+            violin_two_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
         self._attach_tag('ViolinII', violin_two_music_staff)
 
@@ -190,6 +200,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['Viola'],
             )
+        abjad.annotate(
+            viola_music_staff,
+            'default_clef',
+            abjad.Clef('alto'),
+            )
         self._attach_tag('viola', viola_music_staff)
 
         # CELLO
@@ -207,9 +222,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             akasha.instruments['Cello'],
             )
+        abjad.annotate(
+            cello_music_staff,
+            'default_clef',
+            abjad.Clef('bass'),
+            )
         self._attach_tag('cello', cello_music_staff)
 
-        # SCORE
+        # STRING QUARTET STAFF GROUP
         string_quartet_staff_group = abjad.StaffGroup(
             [
                 violin_one_music_staff,
@@ -220,18 +240,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='StringQuartetStaffGroup',
             name='StringQuartetStaffGroup',
             )
+
+        # MUSIC CONTEXT
         music_context = abjad.Context(
-            [
-                string_quartet_staff_group,
-                ],
+            [string_quartet_staff_group],
             context_name='MusicContext',
             name='MusicContext',
             )
+
+        # SCORE
         score = abjad.Score(
-            [
-                global_context,
-                music_context,
-                ],
+            [global_context, music_context],
             name='Score',
             )
         self._assert_lilypond_identifiers(score)
