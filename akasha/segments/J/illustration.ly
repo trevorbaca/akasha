@@ -207,10 +207,10 @@
                                         I %! REAPPLIED_INSTRUMENT:9
                                     } %! REAPPLIED_INSTRUMENT:9
                             } %! REAPPLIED_INSTRUMENT:9
+                        \set ViolinOneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                         \clef "treble" %! REAPPLIED_CLEF:4
                         \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                         %%% \override ViolinOneMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
-                        \set ViolinOneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                         \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
                         \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:12
                         \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:14
@@ -373,10 +373,10 @@
                                             II %! REAPPLIED_INSTRUMENT:9
                                         } %! REAPPLIED_INSTRUMENT:9
                                 } %! REAPPLIED_INSTRUMENT:9
+                            \set ViolinTwoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                             \clef "treble" %! REAPPLIED_CLEF:4
                             \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                             %%% \override ViolinTwoMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
-                            \set ViolinTwoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                             \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
                             \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:12
                             \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:14
@@ -545,10 +545,10 @@
                                 #10 %! REAPPLIED_INSTRUMENT:9
                                 Va. %! REAPPLIED_INSTRUMENT:9
                             } %! REAPPLIED_INSTRUMENT:9
+                        \set ViolaMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                         \clef "alto" %! REAPPLIED_CLEF:4
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                         %%% \override ViolaMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
-                        \set ViolaMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:12
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:14
@@ -641,10 +641,10 @@
                                     #10 %! REAPPLIED_INSTRUMENT:9
                                     Vc. %! REAPPLIED_INSTRUMENT:9
                                 } %! REAPPLIED_INSTRUMENT:9
+                            \set CelloMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                             \clef "bass" %! REAPPLIED_CLEF:4
                             \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:1
                             %%% \override CelloMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:2
-                            \set CelloMusicStaff.forceClef = ##t %! REAPPLIED_CLEF:3
                             \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:6
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:12
                             r4
