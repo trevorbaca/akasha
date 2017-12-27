@@ -175,22 +175,9 @@
                 \newSpacingSection
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING:6
                 s1 * 3/2
-                %%% ^ \markup { %! CLOCK_TIME_MARKUP:5
-                    %%% \fontsize %! CLOCK_TIME_MARKUP:5
-                        %%% #-2 %! CLOCK_TIME_MARKUP:5
-                        %%% 1'50'' %! CLOCK_TIME_MARKUP:5
-                    %%% } %! CLOCK_TIME_MARKUP:5
-                - \markup {
+                ^ \markup {
                     \column
                         {
-                            %%% \line %! STAGE_NUMBER_MARKUP:2
-                                %%% { %! STAGE_NUMBER_MARKUP:2
-                                    %%% \fontsize %! STAGE_NUMBER_MARKUP:2
-                                        %%% #-3 %! STAGE_NUMBER_MARKUP:2
-                                        %%% \with-color %! STAGE_NUMBER_MARKUP:2
-                                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
-                                            %%% [C.1] %! STAGE_NUMBER_MARKUP:2
-                                %%% } %! STAGE_NUMBER_MARKUP:2
                             \line %! REDUNDANT_METRONOME_MARK_WITH_COLOR:3
                                 { %! REDUNDANT_METRONOME_MARK_WITH_COLOR:3
                                     \with-color %! REDUNDANT_METRONOME_MARK_WITH_COLOR:3
@@ -212,6 +199,25 @@
                                                 } %! REDUNDANT_METRONOME_MARK_WITH_COLOR:3
                                         } %! REDUNDANT_METRONOME_MARK_WITH_COLOR:3
                                 } %! REDUNDANT_METRONOME_MARK_WITH_COLOR:3
+                            %%% \line %! CLOCK_TIME_MARKUP:5
+                                %%% { %! CLOCK_TIME_MARKUP:5
+                                    %%% \fontsize %! CLOCK_TIME_MARKUP:5
+                                        %%% #-2 %! CLOCK_TIME_MARKUP:5
+                                        %%% 1'50'' %! CLOCK_TIME_MARKUP:5
+                                %%% } %! CLOCK_TIME_MARKUP:5
+                        }
+                    }
+                - \markup {
+                    \column
+                        {
+                            %%% \line %! STAGE_NUMBER_MARKUP:2
+                                %%% { %! STAGE_NUMBER_MARKUP:2
+                                    %%% \fontsize %! STAGE_NUMBER_MARKUP:2
+                                        %%% #-3 %! STAGE_NUMBER_MARKUP:2
+                                        %%% \with-color %! STAGE_NUMBER_MARKUP:2
+                                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
+                                            %%% [C.1] %! STAGE_NUMBER_MARKUP:2
+                                %%% } %! STAGE_NUMBER_MARKUP:2
                             %%% \line %! SEGMENT:SPACING_MARKUP:7
                                 %%% { %! SEGMENT:SPACING_MARKUP:7
                                     %%% \with-color %! SEGMENT:SPACING_MARKUP:7
