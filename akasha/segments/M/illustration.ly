@@ -14,91 +14,91 @@
         \context GlobalContext = "GlobalContext" <<
             \context GlobalRests = "GlobalRests" {
                 
-                %%% GlobalRests [measure 340] %%%
+                % GlobalRests [measure 340]                                    %! SM4
                 R1 * 5/4
                 
-                %%% GlobalRests [measure 341] %%%
+                % GlobalRests [measure 341]                                    %! SM4
                 R1 * 3/4
                 
-                %%% GlobalRests [measure 342] %%%
+                % GlobalRests [measure 342]                                    %! SM4
                 R1 * 3/4
                 
-                %%% GlobalRests [measure 343] %%%
+                % GlobalRests [measure 343]                                    %! SM4
                 R1 * 1
                 
-                %%% GlobalRests [measure 344] %%%
+                % GlobalRests [measure 344]                                    %! SM4
                 R1 * 1
                 
-                %%% GlobalRests [measure 345] %%%
+                % GlobalRests [measure 345]                                    %! SM4
                 R1 * 5/4
                 
-                %%% GlobalRests [measure 346] %%%
+                % GlobalRests [measure 346]                                    %! SM4
                 R1 * 3/4
                 
-                %%% GlobalRests [measure 347] %%%
+                % GlobalRests [measure 347]                                    %! SM4
                 R1 * 3/4
                 
-                %%% GlobalRests [measure 348] %%%
+                % GlobalRests [measure 348]                                    %! SM4
                 R1 * 3/2
                 
-                %%% GlobalRests [measure 349] %%%
+                % GlobalRests [measure 349]                                    %! SM4
                 R1 * 3/2
                 
-                %%% GlobalRests [measure 350] %%%
+                % GlobalRests [measure 350]                                    %! SM4
                 R1 * 1
                 
-                %%% GlobalRests [measure 351] %%%
+                % GlobalRests [measure 351]                                    %! SM4
                 R1 * 1
                 
-                %%% GlobalRests [measure 352] %%%
+                % GlobalRests [measure 352]                                    %! SM4
                 R1 * 3/2
                 
-                %%% GlobalRests [measure 353] %%%
+                % GlobalRests [measure 353]                                    %! SM4
                 R1 * 3/2
                 
-                %%% GlobalRests [measure 354] %%%
+                % GlobalRests [measure 354]                                    %! SM4
                 R1 * 3/4
                 
-                %%% GlobalRests [measure 355] %%%
+                % GlobalRests [measure 355]                                    %! SM4
                 R1 * 1
                 
-                %%% GlobalRests [measure 356] %%%
+                % GlobalRests [measure 356]                                    %! SM4
                 R1 * 5/4
                 
-                %%% GlobalRests [measure 357] %%%
+                % GlobalRests [measure 357]                                    %! SM4
                 R1 * 3/4
                 
-                %%% GlobalRests [measure 358] %%%
+                % GlobalRests [measure 358]                                    %! SM4
                 R1 * 3/4
                 
-                %%% GlobalRests [measure 359] %%%
+                % GlobalRests [measure 359]                                    %! SM4
                 R1 * 3/4
                 
-                %%% GlobalRests [measure 360] %%%
+                % GlobalRests [measure 360]                                    %! SM4
                 R1 * 1
                 
-                %%% GlobalRests [measure 361] %%%
+                % GlobalRests [measure 361]                                    %! SM4
                 R1 * 5/4
                 
-                %%% GlobalRests [measure 362] %%%
+                % GlobalRests [measure 362]                                    %! SM4
                 R1 * 3/2
                 
-                %%% GlobalRests [measure 363] %%%
+                % GlobalRests [measure 363]                                    %! SM4
                 R1 * 1
                 
-                %%% GlobalRests [measure 364] %%%
+                % GlobalRests [measure 364]                                    %! SM4
                 R1 * 3/2
                 
-                %%% GlobalRests [measure 365] %%%
+                % GlobalRests [measure 365]                                    %! SM4
                 R1 * 3/2
                 
-                %%% GlobalRests [measure 366] %%%
+                % GlobalRests [measure 366]                                    %! SM4
                 R1 * 3/2
                 
-                %%% GlobalRests [measure 367] %%%
+                % GlobalRests [measure 367]                                    %! SM4
                 R1 * 1
                 
-                %%% GlobalRests [measure 368] %%%
+                % GlobalRests [measure 368]                                    %! SM4
                 \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)
                 \once \override Score.MultiMeasureRest.transparent = ##t
                 \once \override Score.TimeSignature.stencil = ##f
@@ -111,202 +111,202 @@
             }
             \context GlobalSkips = "GlobalSkips" {
                 
-                %%% GlobalSkips [measure 340] %%%
-                \time 5/4
+                % GlobalSkips [measure 340]                                    %! SM4
+                \time 5/4                                                      %! SM1
                 \mark #13
-                \bar ""                                                        %%! EMPTY_START_BAR
+                \bar ""                                                        %! EMPTY_START_BAR:SM2
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 5/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.1]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            \line                                              %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                {                                              %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'DeepPink1)                %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                {                              %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                    55                         %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                                }                              %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                                }                                              %%! REDUNDANT_METRONOME_MARK_WITH_COLOR
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             17'49''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.1]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            \line                                              %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                {                                              %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                    \with-color                                %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                        #(x11-color 'DeepPink1)                %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                        {                                      %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                            \fontsize                          %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                #-6                            %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                \general-align                 %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                    #Y                         %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                    #DOWN                      %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                    \note-by-number            %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                        #2                     %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                        #0                     %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                        #1                     %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                            \upright                           %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                {                              %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                    =                          %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                    55                         %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                                }                              %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                        }                                      %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                                }                                              %! REDUNDANT_METRONOME_MARK_WITH_COLOR
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             17'49''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
-                %%% ^ \markup {                                                %%! REDUNDANT_METRONOME_MARK
-                %%%     \fontsize                                              %%! REDUNDANT_METRONOME_MARK
-                %%%         #-6                                                %%! REDUNDANT_METRONOME_MARK
-                %%%         \general-align                                     %%! REDUNDANT_METRONOME_MARK
-                %%%             #Y                                             %%! REDUNDANT_METRONOME_MARK
-                %%%             #DOWN                                          %%! REDUNDANT_METRONOME_MARK
-                %%%             \note-by-number                                %%! REDUNDANT_METRONOME_MARK
-                %%%                 #2                                         %%! REDUNDANT_METRONOME_MARK
-                %%%                 #0                                         %%! REDUNDANT_METRONOME_MARK
-                %%%                 #1                                         %%! REDUNDANT_METRONOME_MARK
-                %%%     \upright                                               %%! REDUNDANT_METRONOME_MARK
-                %%%         {                                                  %%! REDUNDANT_METRONOME_MARK
-                %%%             =                                              %%! REDUNDANT_METRONOME_MARK
-                %%%             55                                             %%! REDUNDANT_METRONOME_MARK
-                %%%         }                                                  %%! REDUNDANT_METRONOME_MARK
-                %%%     }                                                      %%! REDUNDANT_METRONOME_MARK
+                %%% ^ \markup {                                                %! REDUNDANT_METRONOME_MARK
+                %%%     \fontsize                                              %! REDUNDANT_METRONOME_MARK
+                %%%         #-6                                                %! REDUNDANT_METRONOME_MARK
+                %%%         \general-align                                     %! REDUNDANT_METRONOME_MARK
+                %%%             #Y                                             %! REDUNDANT_METRONOME_MARK
+                %%%             #DOWN                                          %! REDUNDANT_METRONOME_MARK
+                %%%             \note-by-number                                %! REDUNDANT_METRONOME_MARK
+                %%%                 #2                                         %! REDUNDANT_METRONOME_MARK
+                %%%                 #0                                         %! REDUNDANT_METRONOME_MARK
+                %%%                 #1                                         %! REDUNDANT_METRONOME_MARK
+                %%%     \upright                                               %! REDUNDANT_METRONOME_MARK
+                %%%         {                                                  %! REDUNDANT_METRONOME_MARK
+                %%%             =                                              %! REDUNDANT_METRONOME_MARK
+                %%%             55                                             %! REDUNDANT_METRONOME_MARK
+                %%%         }                                                  %! REDUNDANT_METRONOME_MARK
+                %%%     }                                                      %! REDUNDANT_METRONOME_MARK
                 
-                %%% GlobalSkips [measure 341] %%%
-                \time 3/4
+                % GlobalSkips [measure 341]                                    %! SM4
+                \time 3/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             17'54''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             17'54''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 342] %%%
+                % GlobalSkips [measure 342]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             17'57''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             17'57''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 343] %%%
-                \time 4/4
+                % GlobalSkips [measure 343]                                    %! SM4
+                \time 4/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 1
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'01''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'01''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 344] %%%
+                % GlobalSkips [measure 344]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 1
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'05''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'05''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 345] %%%
-                \time 5/4
+                % GlobalSkips [measure 345]                                    %! SM4
+                \time 5/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 5/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'09''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'09''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 346] %%%
+                % GlobalSkips [measure 346]                                    %! SM4
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -328,381 +328,381 @@
                 \once \override TextSpanner.bound-details.right.text = ##f
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
-                \time 3/4
+                \time 3/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/4
                 \startTextSpan
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.2]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'15''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.2]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'15''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 347] %%%
+                % GlobalSkips [measure 347]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'18''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'18''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 348] %%%
-                \time 6/4
+                % GlobalSkips [measure 348]                                    %! SM4
+                \time 6/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/2
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'21''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'21''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 349] %%%
+                % GlobalSkips [measure 349]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/2
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'28''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'28''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 350] %%%
-                \time 4/4
+                % GlobalSkips [measure 350]                                    %! SM4
+                \time 4/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 1
                 \stopTextSpan
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.3]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            \line                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    89                         %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'34''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.3]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    89                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'34''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
-                %%% ^ \markup {                                                %%! EXPLICIT_METRONOME_MARK
-                %%%     \fontsize                                              %%! EXPLICIT_METRONOME_MARK
-                %%%         #-6                                                %%! EXPLICIT_METRONOME_MARK
-                %%%         \general-align                                     %%! EXPLICIT_METRONOME_MARK
-                %%%             #Y                                             %%! EXPLICIT_METRONOME_MARK
-                %%%             #DOWN                                          %%! EXPLICIT_METRONOME_MARK
-                %%%             \note-by-number                                %%! EXPLICIT_METRONOME_MARK
-                %%%                 #2                                         %%! EXPLICIT_METRONOME_MARK
-                %%%                 #0                                         %%! EXPLICIT_METRONOME_MARK
-                %%%                 #1                                         %%! EXPLICIT_METRONOME_MARK
-                %%%     \upright                                               %%! EXPLICIT_METRONOME_MARK
-                %%%         {                                                  %%! EXPLICIT_METRONOME_MARK
-                %%%             =                                              %%! EXPLICIT_METRONOME_MARK
-                %%%             89                                             %%! EXPLICIT_METRONOME_MARK
-                %%%         }                                                  %%! EXPLICIT_METRONOME_MARK
-                %%%     }                                                      %%! EXPLICIT_METRONOME_MARK
+                %%% ^ \markup {                                                %! EXPLICIT_METRONOME_MARK
+                %%%     \fontsize                                              %! EXPLICIT_METRONOME_MARK
+                %%%         #-6                                                %! EXPLICIT_METRONOME_MARK
+                %%%         \general-align                                     %! EXPLICIT_METRONOME_MARK
+                %%%             #Y                                             %! EXPLICIT_METRONOME_MARK
+                %%%             #DOWN                                          %! EXPLICIT_METRONOME_MARK
+                %%%             \note-by-number                                %! EXPLICIT_METRONOME_MARK
+                %%%                 #2                                         %! EXPLICIT_METRONOME_MARK
+                %%%                 #0                                         %! EXPLICIT_METRONOME_MARK
+                %%%                 #1                                         %! EXPLICIT_METRONOME_MARK
+                %%%     \upright                                               %! EXPLICIT_METRONOME_MARK
+                %%%         {                                                  %! EXPLICIT_METRONOME_MARK
+                %%%             =                                              %! EXPLICIT_METRONOME_MARK
+                %%%             89                                             %! EXPLICIT_METRONOME_MARK
+                %%%         }                                                  %! EXPLICIT_METRONOME_MARK
+                %%%     }                                                      %! EXPLICIT_METRONOME_MARK
                 
-                %%% GlobalSkips [measure 351] %%%
+                % GlobalSkips [measure 351]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 1
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'37''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'37''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 352] %%%
-                \time 6/4
+                % GlobalSkips [measure 352]                                    %! SM4
+                \time 6/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/2
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.4]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'40''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.4]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'40''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 353] %%%
+                % GlobalSkips [measure 353]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/2
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'44''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'44''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 354] %%%
-                \time 3/4
+                % GlobalSkips [measure 354]                                    %! SM4
+                \time 3/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.5]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'48''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.5]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'48''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 355] %%%
-                \time 4/4
+                % GlobalSkips [measure 355]                                    %! SM4
+                \time 4/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 1
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'50''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'50''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 356] %%%
-                \time 5/4
+                % GlobalSkips [measure 356]                                    %! SM4
+                \time 5/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 5/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.6]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'53''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.6]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'53''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 357] %%%
-                \time 3/4
+                % GlobalSkips [measure 357]                                    %! SM4
+                \time 3/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'56''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'56''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 358] %%%
+                % GlobalSkips [measure 358]                                    %! SM4
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -725,345 +725,345 @@
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/4
                 \startTextSpan
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.7]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             18'58''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.7]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             18'58''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 359] %%%
+                % GlobalSkips [measure 359]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'00''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'00''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 360] %%%
-                \time 4/4
+                % GlobalSkips [measure 360]                                    %! SM4
+                \time 4/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 1
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'02''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'02''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 361] %%%
-                \time 5/4
+                % GlobalSkips [measure 361]                                    %! SM4
+                \time 5/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 5/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'05''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'05''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 362] %%%
-                \time 6/4
+                % GlobalSkips [measure 362]                                    %! SM4
+                \time 6/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/2
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.8]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'08''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.8]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'08''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 363] %%%
-                \time 4/4
+                % GlobalSkips [measure 363]                                    %! SM4
+                \time 4/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 1
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'12''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'12''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 364] %%%
-                \time 6/4
+                % GlobalSkips [measure 364]                                    %! SM4
+                \time 6/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/2
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.9]                          %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'15''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.9]                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'15''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 365] %%%
+                % GlobalSkips [measure 365]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/2
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'19''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'19''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 366] %%%
+                % GlobalSkips [measure 366]                                    %! SM4
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 3/2
                 \stopTextSpan
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.10]                         %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            \line                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    44                         %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %%! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'23''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.10]                         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                    44                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'23''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
-                %%% ^ \markup {                                                %%! EXPLICIT_METRONOME_MARK
-                %%%     \fontsize                                              %%! EXPLICIT_METRONOME_MARK
-                %%%         #-6                                                %%! EXPLICIT_METRONOME_MARK
-                %%%         \general-align                                     %%! EXPLICIT_METRONOME_MARK
-                %%%             #Y                                             %%! EXPLICIT_METRONOME_MARK
-                %%%             #DOWN                                          %%! EXPLICIT_METRONOME_MARK
-                %%%             \note-by-number                                %%! EXPLICIT_METRONOME_MARK
-                %%%                 #2                                         %%! EXPLICIT_METRONOME_MARK
-                %%%                 #0                                         %%! EXPLICIT_METRONOME_MARK
-                %%%                 #1                                         %%! EXPLICIT_METRONOME_MARK
-                %%%     \upright                                               %%! EXPLICIT_METRONOME_MARK
-                %%%         {                                                  %%! EXPLICIT_METRONOME_MARK
-                %%%             =                                              %%! EXPLICIT_METRONOME_MARK
-                %%%             44                                             %%! EXPLICIT_METRONOME_MARK
-                %%%         }                                                  %%! EXPLICIT_METRONOME_MARK
-                %%%     }                                                      %%! EXPLICIT_METRONOME_MARK
+                %%% ^ \markup {                                                %! EXPLICIT_METRONOME_MARK
+                %%%     \fontsize                                              %! EXPLICIT_METRONOME_MARK
+                %%%         #-6                                                %! EXPLICIT_METRONOME_MARK
+                %%%         \general-align                                     %! EXPLICIT_METRONOME_MARK
+                %%%             #Y                                             %! EXPLICIT_METRONOME_MARK
+                %%%             #DOWN                                          %! EXPLICIT_METRONOME_MARK
+                %%%             \note-by-number                                %! EXPLICIT_METRONOME_MARK
+                %%%                 #2                                         %! EXPLICIT_METRONOME_MARK
+                %%%                 #0                                         %! EXPLICIT_METRONOME_MARK
+                %%%                 #1                                         %! EXPLICIT_METRONOME_MARK
+                %%%     \upright                                               %! EXPLICIT_METRONOME_MARK
+                %%%         {                                                  %! EXPLICIT_METRONOME_MARK
+                %%%             =                                              %! EXPLICIT_METRONOME_MARK
+                %%%             44                                             %! EXPLICIT_METRONOME_MARK
+                %%%         }                                                  %! EXPLICIT_METRONOME_MARK
+                %%%     }                                                      %! EXPLICIT_METRONOME_MARK
                 
-                %%% GlobalSkips [measure 367] %%%
-                \time 4/4
+                % GlobalSkips [measure 367]                                    %! SM4
+                \time 4/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! SEGMENT:SPACING
                 s1 * 1
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! CLOCK_TIME_MARKUP
-                            %%%     {                                          %%! CLOCK_TIME_MARKUP
-                            %%%         \fontsize                              %%! CLOCK_TIME_MARKUP
-                            %%%             #-2                                %%! CLOCK_TIME_MARKUP
-                            %%%             19'31''                            %%! CLOCK_TIME_MARKUP
-                            %%%     }                                          %%! CLOCK_TIME_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/12)                         %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! CLOCK_TIME_MARKUP
+                            %%%     {                                          %! CLOCK_TIME_MARKUP
+                            %%%         \fontsize                              %! CLOCK_TIME_MARKUP
+                            %%%             #-2                                %! CLOCK_TIME_MARKUP
+                            %%%             19'31''                            %! CLOCK_TIME_MARKUP
+                            %%%     }                                          %! CLOCK_TIME_MARKUP
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/12)                         %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
-                %%% GlobalSkips [measure 368] %%%
-                \time 1/4
+                % GlobalSkips [measure 368]                                    %! SM4
+                \time 1/4                                                      %! SM1
                 \newSpacingSection
-                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %%! SEGMENT:SPACING
+                \set Score.proportionalNotationDuration = #(ly:make-moment 1 4) %! SEGMENT:SPACING
                 s1 * 1/4
                 ^ \markup {
                     \column
                         {
-                            %%% \line                                          %%! STAGE_NUMBER_MARKUP
-                            %%%     {                                          %%! STAGE_NUMBER_MARKUP
-                            %%%         \fontsize                              %%! STAGE_NUMBER_MARKUP
-                            %%%             #-3                                %%! STAGE_NUMBER_MARKUP
-                            %%%             \with-color                        %%! STAGE_NUMBER_MARKUP
-                            %%%                 #(x11-color 'DarkCyan)         %%! STAGE_NUMBER_MARKUP
-                            %%%                 [M.11]                         %%! STAGE_NUMBER_MARKUP
-                            %%%     }                                          %%! STAGE_NUMBER_MARKUP
-                            %%% \line                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     {                                          %%! SEGMENT:SPACING_MARKUP
-                            %%%         \with-color                            %%! SEGMENT:SPACING_MARKUP
-                            %%%             #(x11-color 'DarkCyan)             %%! SEGMENT:SPACING_MARKUP
-                            %%%             \fontsize                          %%! SEGMENT:SPACING_MARKUP
-                            %%%                 #-3                            %%! SEGMENT:SPACING_MARKUP
-                            %%%                 (1/4)                          %%! SEGMENT:SPACING_MARKUP
-                            %%%     }                                          %%! SEGMENT:SPACING_MARKUP
+                            %%% \line                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     {                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%%         \fontsize                              %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             #-3                                %! STAGE_NUMBER_MARKUP:SM3
+                            %%%             \with-color                        %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%                 [M.11]                         %! STAGE_NUMBER_MARKUP:SM3
+                            %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
+                            %%% \line                                          %! SEGMENT:SPACING_MARKUP
+                            %%%     {                                          %! SEGMENT:SPACING_MARKUP
+                            %%%         \with-color                            %! SEGMENT:SPACING_MARKUP
+                            %%%             #(x11-color 'DarkCyan)             %! SEGMENT:SPACING_MARKUP
+                            %%%             \fontsize                          %! SEGMENT:SPACING_MARKUP
+                            %%%                 #-3                            %! SEGMENT:SPACING_MARKUP
+                            %%%                 (1/4)                          %! SEGMENT:SPACING_MARKUP
+                            %%%     }                                          %! SEGMENT:SPACING_MARKUP
                         }
                     }
                 
@@ -1075,135 +1075,135 @@
                 \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
                     \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                         
-                        %%% ViolinOneMusicVoice [measure 340] %%%
-                        \stopStaff                                             %%! REAPPLIED_STAFF_LINES
-                        \once \override Staff.StaffSymbol.line-count = 1       %%! REAPPLIED_STAFF_LINES
-                        \startStaff                                            %%! REAPPLIED_STAFF_LINES
-                        \set ViolinOneMusicStaff.instrumentName = \markup {    %%! REAPPLIED_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_INSTRUMENT
-                                #16                                            %%! REAPPLIED_INSTRUMENT
-                                \line                                          %%! REAPPLIED_INSTRUMENT
-                                    {                                          %%! REAPPLIED_INSTRUMENT
-                                        Violin                                 %%! REAPPLIED_INSTRUMENT
-                                        I                                      %%! REAPPLIED_INSTRUMENT
-                                    }                                          %%! REAPPLIED_INSTRUMENT
-                            }                                                  %%! REAPPLIED_INSTRUMENT
-                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %%! REAPPLIED_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_INSTRUMENT
-                                #10                                            %%! REAPPLIED_INSTRUMENT
-                                \line                                          %%! REAPPLIED_INSTRUMENT
-                                    {                                          %%! REAPPLIED_INSTRUMENT
-                                        Vn.                                    %%! REAPPLIED_INSTRUMENT
-                                        I                                      %%! REAPPLIED_INSTRUMENT
-                                    }                                          %%! REAPPLIED_INSTRUMENT
-                            }                                                  %%! REAPPLIED_INSTRUMENT
-                        \set ViolinOneMusicStaff.forceClef = ##t               %%! REAPPLIED_CLEF
-                        \clef "treble"                                         %%! REAPPLIED_CLEF
-                        \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green4) %%! REAPPLIED_CLEF_COLOR
-                        %%% \override ViolinOneMusicStaff.Clef.color = ##f     %%! REAPPLIED_CLEF_UNCOLOR
-                        \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                        \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green4) %%! REAPPLIED_STAFF_LINES_COLOR
-                        \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'green4) %%! REAPPLIED_DYNAMIC_COLOR
+                        % ViolinOneMusicVoice [measure 340]                    %! SM4
+                        \stopStaff                                             %! REAPPLIED_STAFF_LINES
+                        \once \override Staff.StaffSymbol.line-count = 1       %! REAPPLIED_STAFF_LINES
+                        \startStaff                                            %! REAPPLIED_STAFF_LINES
+                        \set ViolinOneMusicStaff.instrumentName = \markup {    %! REAPPLIED_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_INSTRUMENT
+                                #16                                            %! REAPPLIED_INSTRUMENT
+                                \line                                          %! REAPPLIED_INSTRUMENT
+                                    {                                          %! REAPPLIED_INSTRUMENT
+                                        Violin                                 %! REAPPLIED_INSTRUMENT
+                                        I                                      %! REAPPLIED_INSTRUMENT
+                                    }                                          %! REAPPLIED_INSTRUMENT
+                            }                                                  %! REAPPLIED_INSTRUMENT
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_INSTRUMENT
+                                #10                                            %! REAPPLIED_INSTRUMENT
+                                \line                                          %! REAPPLIED_INSTRUMENT
+                                    {                                          %! REAPPLIED_INSTRUMENT
+                                        Vn.                                    %! REAPPLIED_INSTRUMENT
+                                        I                                      %! REAPPLIED_INSTRUMENT
+                                    }                                          %! REAPPLIED_INSTRUMENT
+                            }                                                  %! REAPPLIED_INSTRUMENT
+                        \set ViolinOneMusicStaff.forceClef = ##t               %! REAPPLIED_CLEF
+                        \clef "treble"                                         %! REAPPLIED_CLEF
+                        \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR
+                        %%% \override ViolinOneMusicStaff.Clef.color = ##f     %! REAPPLIED_CLEF_UNCOLOR
+                        \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                        \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR
+                        \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
                         R1 * 5/4
-                        \ff                                                    %%! REAPPLIED_DYNAMIC
+                        \ff                                                    %! REAPPLIED_DYNAMIC
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             (“ViolinI”                 %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             \hcenter-in                %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 #16                    %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \line                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     {                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         Violin         %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         I              %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     }                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \concat                        %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             {                          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     \hcenter-in        %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         #10            %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         \line          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                             {          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                                 Vn.    %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                                 I      %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                             }          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     )                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             }                          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                {                              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        (“ViolinI”             %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \hcenter-in            %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            #16                %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \line              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                {              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    Violin     %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    I          %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                }              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \concat                    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        {                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \hcenter-in    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    #10        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    \line      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                        {      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                            Vn. %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                            I  %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                        }      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                )              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        }                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                }                              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             (“ViolinI”                 %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \line                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     {                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         Violin         %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         I              %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     }                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         \line          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                             {          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                                 Vn.    %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                                 I      %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                             }          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        (“ViolinI”             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \line              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                {              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    Violin     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    I          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                }              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    \line      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                        {      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                            Vn. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                            I  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                        }      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                                 }
                             }
-                        \set ViolinOneMusicStaff.instrumentName = \markup {    %%! REAPPLIED_REDRAW_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_REDRAW_INSTRUMENT
-                                #16                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                                \line                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                                    {                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                                        Violin                                 %%! REAPPLIED_REDRAW_INSTRUMENT
-                                        I                                      %%! REAPPLIED_REDRAW_INSTRUMENT
-                                    }                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                            }                                                  %%! REAPPLIED_REDRAW_INSTRUMENT
-                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %%! REAPPLIED_REDRAW_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_REDRAW_INSTRUMENT
-                                #10                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                                \line                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                                    {                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                                        Vn.                                    %%! REAPPLIED_REDRAW_INSTRUMENT
-                                        I                                      %%! REAPPLIED_REDRAW_INSTRUMENT
-                                    }                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                            }                                                  %%! REAPPLIED_REDRAW_INSTRUMENT
-                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %%! REAPPLIED_CLEF_COLOR_REDRAW
-                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                        \set ViolinOneMusicStaff.instrumentName = \markup {    %! REAPPLIED_REDRAW_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_REDRAW_INSTRUMENT
+                                #16                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                                \line                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                                    {                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                                        Violin                                 %! REAPPLIED_REDRAW_INSTRUMENT
+                                        I                                      %! REAPPLIED_REDRAW_INSTRUMENT
+                                    }                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                            }                                                  %! REAPPLIED_REDRAW_INSTRUMENT
+                        \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_REDRAW_INSTRUMENT
+                                #10                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                                \line                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                                    {                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                                        Vn.                                    %! REAPPLIED_REDRAW_INSTRUMENT
+                                        I                                      %! REAPPLIED_REDRAW_INSTRUMENT
+                                    }                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                            }                                                  %! REAPPLIED_REDRAW_INSTRUMENT
+                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW
+                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                         
-                        %%% ViolinOneMusicVoice [measure 341] %%%
+                        % ViolinOneMusicVoice [measure 341]                    %! SM4
                         R1 * 3/4
                         
-                        %%% ViolinOneMusicVoice [measure 342] %%%
+                        % ViolinOneMusicVoice [measure 342]                    %! SM4
                         R1 * 3/4
                         
-                        %%% ViolinOneMusicVoice [measure 343] %%%
+                        % ViolinOneMusicVoice [measure 343]                    %! SM4
                         R1 * 1
                         
-                        %%% ViolinOneMusicVoice [measure 344] %%%
+                        % ViolinOneMusicVoice [measure 344]                    %! SM4
                         R1 * 1
                         
-                        %%% ViolinOneMusicVoice [measure 345] %%%
+                        % ViolinOneMusicVoice [measure 345]                    %! SM4
                         R1 * 5/4
                         
-                        %%% ViolinOneMusicVoice [measure 346] %%%
+                        % ViolinOneMusicVoice [measure 346]                    %! SM4
                         \override RepeatTie.direction = #up
                         bf'2.
                         \pp
@@ -1213,27 +1213,27 @@
                                     "tasto + XFB"
                             }
                         
-                        %%% ViolinOneMusicVoice [measure 347] %%%
+                        % ViolinOneMusicVoice [measure 347]                    %! SM4
                         bf'2.
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 348] %%%
+                        % ViolinOneMusicVoice [measure 348]                    %! SM4
                         bf'1.
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 349] %%%
+                        % ViolinOneMusicVoice [measure 349]                    %! SM4
                         bf'1.
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 350] %%%
+                        % ViolinOneMusicVoice [measure 350]                    %! SM4
                         bf'1
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 351] %%%
+                        % ViolinOneMusicVoice [measure 351]                    %! SM4
                         bf'1
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 352] %%%
+                        % ViolinOneMusicVoice [measure 352]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1258,7 +1258,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinOneMusicVoice [measure 353] %%%
+                        % ViolinOneMusicVoice [measure 353]                    %! SM4
                         bf'1.
                         \repeatTie
                         \stopTextSpan
@@ -1268,7 +1268,7 @@
                                     "pos. ord. + XFB"
                             }
                         
-                        %%% ViolinOneMusicVoice [measure 354] %%%
+                        % ViolinOneMusicVoice [measure 354]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1293,7 +1293,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinOneMusicVoice [measure 355] %%%
+                        % ViolinOneMusicVoice [measure 355]                    %! SM4
                         bf'1
                         \repeatTie
                         \stopTextSpan
@@ -1303,7 +1303,7 @@
                                     "pont. + XFB"
                             }
                         
-                        %%% ViolinOneMusicVoice [measure 356] %%%
+                        % ViolinOneMusicVoice [measure 356]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1331,7 +1331,7 @@
                         bf'2
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 357] %%%
+                        % ViolinOneMusicVoice [measure 357]                    %! SM4
                         bf'2.
                         \repeatTie
                         \stopTextSpan
@@ -1341,7 +1341,7 @@
                                     "XP + XFB"
                             }
                         
-                        %%% ViolinOneMusicVoice [measure 358] %%%
+                        % ViolinOneMusicVoice [measure 358]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1366,15 +1366,15 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinOneMusicVoice [measure 359] %%%
+                        % ViolinOneMusicVoice [measure 359]                    %! SM4
                         bf'2.
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 360] %%%
+                        % ViolinOneMusicVoice [measure 360]                    %! SM4
                         bf'1
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 361] %%%
+                        % ViolinOneMusicVoice [measure 361]                    %! SM4
                         bf'2.
                         \repeatTie
                         \stopTextSpan
@@ -1387,7 +1387,7 @@
                         bf'2
                         \repeatTie
                         
-                        %%% ViolinOneMusicVoice [measure 362] %%%
+                        % ViolinOneMusicVoice [measure 362]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1412,7 +1412,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinOneMusicVoice [measure 363] %%%
+                        % ViolinOneMusicVoice [measure 363]                    %! SM4
                         bf'1
                         \repeatTie
                         \stopTextSpan
@@ -1422,7 +1422,7 @@
                                     1/3OB
                             }
                         
-                        %%% ViolinOneMusicVoice [measure 364] %%%
+                        % ViolinOneMusicVoice [measure 364]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1447,7 +1447,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinOneMusicVoice [measure 365] %%%
+                        % ViolinOneMusicVoice [measure 365]                    %! SM4
                         bf'1.
                         \repeatTie
                         \stopTextSpan
@@ -1457,7 +1457,7 @@
                                     2/3OB
                             }
                         
-                        %%% ViolinOneMusicVoice [measure 366] %%%
+                        % ViolinOneMusicVoice [measure 366]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1482,7 +1482,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinOneMusicVoice [measure 367] %%%
+                        % ViolinOneMusicVoice [measure 367]                    %! SM4
                         bf'1
                         \repeatTie
                         \stopTextSpan
@@ -1493,7 +1493,7 @@
                             }
                         \revert RepeatTie.direction
                         
-                        %%% ViolinOneMusicVoice [measure 368] %%%
+                        % ViolinOneMusicVoice [measure 368]                    %! SM4
                         R1 * 1/4
                         \bar "|"
                         
@@ -1503,135 +1503,135 @@
                 \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
                     \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
-                        %%% ViolinTwoMusicVoice [measure 340] %%%
-                        \stopStaff                                             %%! REAPPLIED_STAFF_LINES
-                        \once \override Staff.StaffSymbol.line-count = 1       %%! REAPPLIED_STAFF_LINES
-                        \startStaff                                            %%! REAPPLIED_STAFF_LINES
-                        \set ViolinTwoMusicStaff.instrumentName = \markup {    %%! REAPPLIED_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_INSTRUMENT
-                                #16                                            %%! REAPPLIED_INSTRUMENT
-                                \line                                          %%! REAPPLIED_INSTRUMENT
-                                    {                                          %%! REAPPLIED_INSTRUMENT
-                                        Violin                                 %%! REAPPLIED_INSTRUMENT
-                                        II                                     %%! REAPPLIED_INSTRUMENT
-                                    }                                          %%! REAPPLIED_INSTRUMENT
-                            }                                                  %%! REAPPLIED_INSTRUMENT
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %%! REAPPLIED_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_INSTRUMENT
-                                #10                                            %%! REAPPLIED_INSTRUMENT
-                                \line                                          %%! REAPPLIED_INSTRUMENT
-                                    {                                          %%! REAPPLIED_INSTRUMENT
-                                        Vn.                                    %%! REAPPLIED_INSTRUMENT
-                                        II                                     %%! REAPPLIED_INSTRUMENT
-                                    }                                          %%! REAPPLIED_INSTRUMENT
-                            }                                                  %%! REAPPLIED_INSTRUMENT
-                        \set ViolinTwoMusicStaff.forceClef = ##t               %%! REAPPLIED_CLEF
-                        \clef "treble"                                         %%! REAPPLIED_CLEF
-                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green4) %%! REAPPLIED_CLEF_COLOR
-                        %%% \override ViolinTwoMusicStaff.Clef.color = ##f     %%! REAPPLIED_CLEF_UNCOLOR
-                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                        \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %%! REAPPLIED_STAFF_LINES_COLOR
-                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green4) %%! REAPPLIED_DYNAMIC_COLOR
+                        % ViolinTwoMusicVoice [measure 340]                    %! SM4
+                        \stopStaff                                             %! REAPPLIED_STAFF_LINES
+                        \once \override Staff.StaffSymbol.line-count = 1       %! REAPPLIED_STAFF_LINES
+                        \startStaff                                            %! REAPPLIED_STAFF_LINES
+                        \set ViolinTwoMusicStaff.instrumentName = \markup {    %! REAPPLIED_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_INSTRUMENT
+                                #16                                            %! REAPPLIED_INSTRUMENT
+                                \line                                          %! REAPPLIED_INSTRUMENT
+                                    {                                          %! REAPPLIED_INSTRUMENT
+                                        Violin                                 %! REAPPLIED_INSTRUMENT
+                                        II                                     %! REAPPLIED_INSTRUMENT
+                                    }                                          %! REAPPLIED_INSTRUMENT
+                            }                                                  %! REAPPLIED_INSTRUMENT
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_INSTRUMENT
+                                #10                                            %! REAPPLIED_INSTRUMENT
+                                \line                                          %! REAPPLIED_INSTRUMENT
+                                    {                                          %! REAPPLIED_INSTRUMENT
+                                        Vn.                                    %! REAPPLIED_INSTRUMENT
+                                        II                                     %! REAPPLIED_INSTRUMENT
+                                    }                                          %! REAPPLIED_INSTRUMENT
+                            }                                                  %! REAPPLIED_INSTRUMENT
+                        \set ViolinTwoMusicStaff.forceClef = ##t               %! REAPPLIED_CLEF
+                        \clef "treble"                                         %! REAPPLIED_CLEF
+                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR
+                        %%% \override ViolinTwoMusicStaff.Clef.color = ##f     %! REAPPLIED_CLEF_UNCOLOR
+                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                        \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR
+                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
                         R1 * 5/4
-                        \ff                                                    %%! REAPPLIED_DYNAMIC
+                        \ff                                                    %! REAPPLIED_DYNAMIC
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             (“ViolinII”                %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             \hcenter-in                %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 #16                    %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \line                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     {                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         Violin         %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         II             %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     }                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \concat                        %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             {                          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     \hcenter-in        %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         #10            %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         \line          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                             {          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                                 Vn.    %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                                 II     %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                             }          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     )                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             }                          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                {                              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        (“ViolinII”            %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \hcenter-in            %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            #16                %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \line              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                {              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    Violin     %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    II         %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                }              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \concat                    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        {                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \hcenter-in    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    #10        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    \line      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                        {      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                            Vn. %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                            II %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                        }      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                )              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        }                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                }                              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             (“ViolinII”                %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \line                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     {                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         Violin         %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         II             %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     }                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         \line          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                             {          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                                 Vn.    %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                                 II     %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                             }          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        (“ViolinII”            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \line              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                {              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    Violin     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    II         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                }              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    \line      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                        {      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                            Vn. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                            II %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                        }      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                                 }
                             }
-                        \set ViolinTwoMusicStaff.instrumentName = \markup {    %%! REAPPLIED_REDRAW_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_REDRAW_INSTRUMENT
-                                #16                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                                \line                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                                    {                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                                        Violin                                 %%! REAPPLIED_REDRAW_INSTRUMENT
-                                        II                                     %%! REAPPLIED_REDRAW_INSTRUMENT
-                                    }                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                            }                                                  %%! REAPPLIED_REDRAW_INSTRUMENT
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %%! REAPPLIED_REDRAW_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_REDRAW_INSTRUMENT
-                                #10                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                                \line                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                                    {                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                                        Vn.                                    %%! REAPPLIED_REDRAW_INSTRUMENT
-                                        II                                     %%! REAPPLIED_REDRAW_INSTRUMENT
-                                    }                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                            }                                                  %%! REAPPLIED_REDRAW_INSTRUMENT
-                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %%! REAPPLIED_CLEF_COLOR_REDRAW
-                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                        \set ViolinTwoMusicStaff.instrumentName = \markup {    %! REAPPLIED_REDRAW_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_REDRAW_INSTRUMENT
+                                #16                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                                \line                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                                    {                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                                        Violin                                 %! REAPPLIED_REDRAW_INSTRUMENT
+                                        II                                     %! REAPPLIED_REDRAW_INSTRUMENT
+                                    }                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                            }                                                  %! REAPPLIED_REDRAW_INSTRUMENT
+                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! REAPPLIED_REDRAW_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_REDRAW_INSTRUMENT
+                                #10                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                                \line                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                                    {                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                                        Vn.                                    %! REAPPLIED_REDRAW_INSTRUMENT
+                                        II                                     %! REAPPLIED_REDRAW_INSTRUMENT
+                                    }                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                            }                                                  %! REAPPLIED_REDRAW_INSTRUMENT
+                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW
+                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                         
-                        %%% ViolinTwoMusicVoice [measure 341] %%%
+                        % ViolinTwoMusicVoice [measure 341]                    %! SM4
                         R1 * 3/4
                         
-                        %%% ViolinTwoMusicVoice [measure 342] %%%
+                        % ViolinTwoMusicVoice [measure 342]                    %! SM4
                         R1 * 3/4
                         
-                        %%% ViolinTwoMusicVoice [measure 343] %%%
+                        % ViolinTwoMusicVoice [measure 343]                    %! SM4
                         R1 * 1
                         
-                        %%% ViolinTwoMusicVoice [measure 344] %%%
+                        % ViolinTwoMusicVoice [measure 344]                    %! SM4
                         R1 * 1
                         
-                        %%% ViolinTwoMusicVoice [measure 345] %%%
+                        % ViolinTwoMusicVoice [measure 345]                    %! SM4
                         R1 * 5/4
                         
-                        %%% ViolinTwoMusicVoice [measure 346] %%%
+                        % ViolinTwoMusicVoice [measure 346]                    %! SM4
                         bf2.
                         \pp
                         ^ \markup {
@@ -1640,27 +1640,27 @@
                                     "tasto + XFB"
                             }
                         
-                        %%% ViolinTwoMusicVoice [measure 347] %%%
+                        % ViolinTwoMusicVoice [measure 347]                    %! SM4
                         bf2.
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 348] %%%
+                        % ViolinTwoMusicVoice [measure 348]                    %! SM4
                         bf1.
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 349] %%%
+                        % ViolinTwoMusicVoice [measure 349]                    %! SM4
                         bf1.
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 350] %%%
+                        % ViolinTwoMusicVoice [measure 350]                    %! SM4
                         bf1
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 351] %%%
+                        % ViolinTwoMusicVoice [measure 351]                    %! SM4
                         bf1
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 352] %%%
+                        % ViolinTwoMusicVoice [measure 352]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1685,7 +1685,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinTwoMusicVoice [measure 353] %%%
+                        % ViolinTwoMusicVoice [measure 353]                    %! SM4
                         bf1.
                         \repeatTie
                         \stopTextSpan
@@ -1695,7 +1695,7 @@
                                     "pos. ord. + XFB"
                             }
                         
-                        %%% ViolinTwoMusicVoice [measure 354] %%%
+                        % ViolinTwoMusicVoice [measure 354]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1720,7 +1720,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinTwoMusicVoice [measure 355] %%%
+                        % ViolinTwoMusicVoice [measure 355]                    %! SM4
                         bf1
                         \repeatTie
                         \stopTextSpan
@@ -1730,7 +1730,7 @@
                                     "pont. + XFB"
                             }
                         
-                        %%% ViolinTwoMusicVoice [measure 356] %%%
+                        % ViolinTwoMusicVoice [measure 356]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1758,7 +1758,7 @@
                         bf2
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 357] %%%
+                        % ViolinTwoMusicVoice [measure 357]                    %! SM4
                         bf2.
                         \repeatTie
                         \stopTextSpan
@@ -1768,7 +1768,7 @@
                                     "XP + XFB"
                             }
                         
-                        %%% ViolinTwoMusicVoice [measure 358] %%%
+                        % ViolinTwoMusicVoice [measure 358]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1793,15 +1793,15 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinTwoMusicVoice [measure 359] %%%
+                        % ViolinTwoMusicVoice [measure 359]                    %! SM4
                         bf2.
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 360] %%%
+                        % ViolinTwoMusicVoice [measure 360]                    %! SM4
                         bf1
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 361] %%%
+                        % ViolinTwoMusicVoice [measure 361]                    %! SM4
                         bf2.
                         \repeatTie
                         \stopTextSpan
@@ -1814,7 +1814,7 @@
                         bf2
                         \repeatTie
                         
-                        %%% ViolinTwoMusicVoice [measure 362] %%%
+                        % ViolinTwoMusicVoice [measure 362]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1839,7 +1839,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinTwoMusicVoice [measure 363] %%%
+                        % ViolinTwoMusicVoice [measure 363]                    %! SM4
                         bf1
                         \repeatTie
                         \stopTextSpan
@@ -1849,7 +1849,7 @@
                                     1/3OB
                             }
                         
-                        %%% ViolinTwoMusicVoice [measure 364] %%%
+                        % ViolinTwoMusicVoice [measure 364]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1874,7 +1874,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinTwoMusicVoice [measure 365] %%%
+                        % ViolinTwoMusicVoice [measure 365]                    %! SM4
                         bf1.
                         \repeatTie
                         \stopTextSpan
@@ -1884,7 +1884,7 @@
                                     2/3OB
                             }
                         
-                        %%% ViolinTwoMusicVoice [measure 366] %%%
+                        % ViolinTwoMusicVoice [measure 366]                    %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1909,7 +1909,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolinTwoMusicVoice [measure 367] %%%
+                        % ViolinTwoMusicVoice [measure 367]                    %! SM4
                         bf1
                         \repeatTie
                         \stopTextSpan
@@ -1919,7 +1919,7 @@
                                     "OB (no pitch)"
                             }
                         
-                        %%% ViolinTwoMusicVoice [measure 368] %%%
+                        % ViolinTwoMusicVoice [measure 368]                    %! SM4
                         R1 * 1/4
                         \bar "|"
                         
@@ -1929,103 +1929,103 @@
                 \context ViolaMusicStaff = "ViolaMusicStaff" {
                     \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
-                        %%% ViolaMusicVoice [measure 340] %%%
-                        \stopStaff                                             %%! REAPPLIED_STAFF_LINES
-                        \once \override Staff.StaffSymbol.line-count = 1       %%! REAPPLIED_STAFF_LINES
-                        \startStaff                                            %%! REAPPLIED_STAFF_LINES
-                        \set ViolaMusicStaff.instrumentName = \markup {        %%! REAPPLIED_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_INSTRUMENT
-                                #16                                            %%! REAPPLIED_INSTRUMENT
-                                Viola                                          %%! REAPPLIED_INSTRUMENT
-                            }                                                  %%! REAPPLIED_INSTRUMENT
-                        \set ViolaMusicStaff.shortInstrumentName = \markup {   %%! REAPPLIED_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_INSTRUMENT
-                                #10                                            %%! REAPPLIED_INSTRUMENT
-                                Va.                                            %%! REAPPLIED_INSTRUMENT
-                            }                                                  %%! REAPPLIED_INSTRUMENT
-                        \set ViolaMusicStaff.forceClef = ##t                   %%! REAPPLIED_CLEF
-                        \clef "alto"                                           %%! REAPPLIED_CLEF
-                        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green4) %%! REAPPLIED_CLEF_COLOR
-                        %%% \override ViolaMusicStaff.Clef.color = ##f         %%! REAPPLIED_CLEF_UNCOLOR
-                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %%! REAPPLIED_STAFF_LINES_COLOR
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %%! REAPPLIED_DYNAMIC_COLOR
+                        % ViolaMusicVoice [measure 340]                        %! SM4
+                        \stopStaff                                             %! REAPPLIED_STAFF_LINES
+                        \once \override Staff.StaffSymbol.line-count = 1       %! REAPPLIED_STAFF_LINES
+                        \startStaff                                            %! REAPPLIED_STAFF_LINES
+                        \set ViolaMusicStaff.instrumentName = \markup {        %! REAPPLIED_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_INSTRUMENT
+                                #16                                            %! REAPPLIED_INSTRUMENT
+                                Viola                                          %! REAPPLIED_INSTRUMENT
+                            }                                                  %! REAPPLIED_INSTRUMENT
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {   %! REAPPLIED_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_INSTRUMENT
+                                #10                                            %! REAPPLIED_INSTRUMENT
+                                Va.                                            %! REAPPLIED_INSTRUMENT
+                            }                                                  %! REAPPLIED_INSTRUMENT
+                        \set ViolaMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF
+                        \clef "alto"                                           %! REAPPLIED_CLEF
+                        \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR
+                        %%% \override ViolaMusicStaff.Clef.color = ##f         %! REAPPLIED_CLEF_UNCOLOR
+                        \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
                         R1 * 5/4
-                        \ff                                                    %%! REAPPLIED_DYNAMIC
+                        \ff                                                    %! REAPPLIED_DYNAMIC
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             (“Viola”                   %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             \hcenter-in                %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 #16                    %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 Viola                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \concat                        %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             {                          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     \hcenter-in        %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         #10            %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         Va.            %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     )                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             }                          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                {                              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        (“Viola”               %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \hcenter-in            %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            #16                %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            Viola              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \concat                    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        {                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \hcenter-in    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    #10        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    Va.        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                )              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        }                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                }                              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             (“Viola”                   %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 Viola                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         Va.            %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        (“Viola”               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            Viola              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    Va.        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                                 }
                             }
-                        \set ViolaMusicStaff.instrumentName = \markup {        %%! REAPPLIED_REDRAW_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_REDRAW_INSTRUMENT
-                                #16                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                                Viola                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                            }                                                  %%! REAPPLIED_REDRAW_INSTRUMENT
-                        \set ViolaMusicStaff.shortInstrumentName = \markup {   %%! REAPPLIED_REDRAW_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_REDRAW_INSTRUMENT
-                                #10                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                                Va.                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                            }                                                  %%! REAPPLIED_REDRAW_INSTRUMENT
-                        \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab) %%! REAPPLIED_CLEF_COLOR_REDRAW
-                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                        \set ViolaMusicStaff.instrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_REDRAW_INSTRUMENT
+                                #16                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                                Viola                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                            }                                                  %! REAPPLIED_REDRAW_INSTRUMENT
+                        \set ViolaMusicStaff.shortInstrumentName = \markup {   %! REAPPLIED_REDRAW_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_REDRAW_INSTRUMENT
+                                #10                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                                Va.                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                            }                                                  %! REAPPLIED_REDRAW_INSTRUMENT
+                        \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW
+                        \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                         
-                        %%% ViolaMusicVoice [measure 341] %%%
+                        % ViolaMusicVoice [measure 341]                        %! SM4
                         R1 * 3/4
                         
-                        %%% ViolaMusicVoice [measure 342] %%%
+                        % ViolaMusicVoice [measure 342]                        %! SM4
                         R1 * 3/4
                         
-                        %%% ViolaMusicVoice [measure 343] %%%
+                        % ViolaMusicVoice [measure 343]                        %! SM4
                         R1 * 1
                         
-                        %%% ViolaMusicVoice [measure 344] %%%
+                        % ViolaMusicVoice [measure 344]                        %! SM4
                         R1 * 1
                         
-                        %%% ViolaMusicVoice [measure 345] %%%
+                        % ViolaMusicVoice [measure 345]                        %! SM4
                         R1 * 5/4
                         
-                        %%% ViolaMusicVoice [measure 346] %%%
+                        % ViolaMusicVoice [measure 346]                        %! SM4
                         bf,2.
                         \pp
                         ^ \markup {
@@ -2034,27 +2034,27 @@
                                     "tasto + XFB"
                             }
                         
-                        %%% ViolaMusicVoice [measure 347] %%%
+                        % ViolaMusicVoice [measure 347]                        %! SM4
                         bf,2.
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 348] %%%
+                        % ViolaMusicVoice [measure 348]                        %! SM4
                         bf,1.
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 349] %%%
+                        % ViolaMusicVoice [measure 349]                        %! SM4
                         bf,1.
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 350] %%%
+                        % ViolaMusicVoice [measure 350]                        %! SM4
                         bf,1
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 351] %%%
+                        % ViolaMusicVoice [measure 351]                        %! SM4
                         bf,1
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 352] %%%
+                        % ViolaMusicVoice [measure 352]                        %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2079,7 +2079,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolaMusicVoice [measure 353] %%%
+                        % ViolaMusicVoice [measure 353]                        %! SM4
                         bf,1.
                         \repeatTie
                         \stopTextSpan
@@ -2089,7 +2089,7 @@
                                     "pos. ord. + XFB"
                             }
                         
-                        %%% ViolaMusicVoice [measure 354] %%%
+                        % ViolaMusicVoice [measure 354]                        %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2114,7 +2114,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolaMusicVoice [measure 355] %%%
+                        % ViolaMusicVoice [measure 355]                        %! SM4
                         bf,1
                         \repeatTie
                         \stopTextSpan
@@ -2124,7 +2124,7 @@
                                     "pont. + XFB"
                             }
                         
-                        %%% ViolaMusicVoice [measure 356] %%%
+                        % ViolaMusicVoice [measure 356]                        %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2152,7 +2152,7 @@
                         bf,2
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 357] %%%
+                        % ViolaMusicVoice [measure 357]                        %! SM4
                         bf,2.
                         \repeatTie
                         \stopTextSpan
@@ -2162,7 +2162,7 @@
                                     "XP + XFB"
                             }
                         
-                        %%% ViolaMusicVoice [measure 358] %%%
+                        % ViolaMusicVoice [measure 358]                        %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2187,15 +2187,15 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolaMusicVoice [measure 359] %%%
+                        % ViolaMusicVoice [measure 359]                        %! SM4
                         bf,2.
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 360] %%%
+                        % ViolaMusicVoice [measure 360]                        %! SM4
                         bf,1
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 361] %%%
+                        % ViolaMusicVoice [measure 361]                        %! SM4
                         bf,2.
                         \repeatTie
                         \stopTextSpan
@@ -2208,7 +2208,7 @@
                         bf,2
                         \repeatTie
                         
-                        %%% ViolaMusicVoice [measure 362] %%%
+                        % ViolaMusicVoice [measure 362]                        %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2233,7 +2233,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolaMusicVoice [measure 363] %%%
+                        % ViolaMusicVoice [measure 363]                        %! SM4
                         bf,1
                         \repeatTie
                         \stopTextSpan
@@ -2243,7 +2243,7 @@
                                     1/3OB
                             }
                         
-                        %%% ViolaMusicVoice [measure 364] %%%
+                        % ViolaMusicVoice [measure 364]                        %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2268,7 +2268,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolaMusicVoice [measure 365] %%%
+                        % ViolaMusicVoice [measure 365]                        %! SM4
                         bf,1.
                         \repeatTie
                         \stopTextSpan
@@ -2278,7 +2278,7 @@
                                     2/3OB
                             }
                         
-                        %%% ViolaMusicVoice [measure 366] %%%
+                        % ViolaMusicVoice [measure 366]                        %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2303,7 +2303,7 @@
                         \repeatTie
                         \startTextSpan
                         
-                        %%% ViolaMusicVoice [measure 367] %%%
+                        % ViolaMusicVoice [measure 367]                        %! SM4
                         bf,1
                         \repeatTie
                         \stopTextSpan
@@ -2313,7 +2313,7 @@
                                     "OB (no pitch)"
                             }
                         
-                        %%% ViolaMusicVoice [measure 368] %%%
+                        % ViolaMusicVoice [measure 368]                        %! SM4
                         R1 * 1/4
                         \bar "|"
                         
@@ -2323,7 +2323,7 @@
                 \context CelloMusicStaff = "CelloMusicStaff" {
                     \context CelloMusicVoice = "CelloMusicVoice" {
                         
-                        %%% CelloMusicVoice [measure 340] %%%
+                        % CelloMusicVoice [measure 340]                        %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2344,112 +2344,112 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \set CelloMusicStaff.instrumentName = \markup {        %%! REAPPLIED_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_INSTRUMENT
-                                #16                                            %%! REAPPLIED_INSTRUMENT
-                                Cello                                          %%! REAPPLIED_INSTRUMENT
-                            }                                                  %%! REAPPLIED_INSTRUMENT
-                        \set CelloMusicStaff.shortInstrumentName = \markup {   %%! REAPPLIED_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_INSTRUMENT
-                                #10                                            %%! REAPPLIED_INSTRUMENT
-                                Vc.                                            %%! REAPPLIED_INSTRUMENT
-                            }                                                  %%! REAPPLIED_INSTRUMENT
-                        \set CelloMusicStaff.forceClef = ##t                   %%! REAPPLIED_CLEF
-                        \clef "bass"                                           %%! REAPPLIED_CLEF
-                        \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %%! REAPPLIED_CLEF_COLOR
-                        %%% \override CelloMusicStaff.Clef.color = ##f         %%! REAPPLIED_CLEF_UNCOLOR
-                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %%! REAPPLIED_INSTRUMENT_COLOR
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %%! REAPPLIED_DYNAMIC_COLOR
+                        \set CelloMusicStaff.instrumentName = \markup {        %! REAPPLIED_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_INSTRUMENT
+                                #16                                            %! REAPPLIED_INSTRUMENT
+                                Cello                                          %! REAPPLIED_INSTRUMENT
+                            }                                                  %! REAPPLIED_INSTRUMENT
+                        \set CelloMusicStaff.shortInstrumentName = \markup {   %! REAPPLIED_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_INSTRUMENT
+                                #10                                            %! REAPPLIED_INSTRUMENT
+                                Vc.                                            %! REAPPLIED_INSTRUMENT
+                            }                                                  %! REAPPLIED_INSTRUMENT
+                        \set CelloMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF
+                        \clef "bass"                                           %! REAPPLIED_CLEF
+                        \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR
+                        %%% \override CelloMusicStaff.Clef.color = ##f         %! REAPPLIED_CLEF_UNCOLOR
+                        \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
                         bf,,2.
-                        \pp                                                    %%! REAPPLIED_DYNAMIC
+                        \pp                                                    %! REAPPLIED_DYNAMIC
                         \<
                         \ppp
                         \startTextSpan
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             (“Cello”                   %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             \hcenter-in                %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 #16                    %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 Cello                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \concat                        %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             {                          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     \hcenter-in        %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         #10            %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         Vc.            %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     )                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             }                          %%! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %%! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                {                              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        (“Cello”               %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \hcenter-in            %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            #16                %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            Cello              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \concat                    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        {                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \hcenter-in    %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    #10        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    Vc.        %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                )              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        }                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                }                              %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %%! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             (“Cello”                   %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 Cello                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                         Vc.            %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        (“Cello”               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            Cello              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                    Vc.        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                                 }
                             }
-                        \set CelloMusicStaff.instrumentName = \markup {        %%! REAPPLIED_REDRAW_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_REDRAW_INSTRUMENT
-                                #16                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                                Cello                                          %%! REAPPLIED_REDRAW_INSTRUMENT
-                            }                                                  %%! REAPPLIED_REDRAW_INSTRUMENT
-                        \set CelloMusicStaff.shortInstrumentName = \markup {   %%! REAPPLIED_REDRAW_INSTRUMENT
-                            \hcenter-in                                        %%! REAPPLIED_REDRAW_INSTRUMENT
-                                #10                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                                Vc.                                            %%! REAPPLIED_REDRAW_INSTRUMENT
-                            }                                                  %%! REAPPLIED_REDRAW_INSTRUMENT
-                        \override CelloMusicStaff.Clef.color = #(x11-color 'OliveDrab) %%! REAPPLIED_CLEF_COLOR_REDRAW
-                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %%! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                        \set CelloMusicStaff.instrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_REDRAW_INSTRUMENT
+                                #16                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                                Cello                                          %! REAPPLIED_REDRAW_INSTRUMENT
+                            }                                                  %! REAPPLIED_REDRAW_INSTRUMENT
+                        \set CelloMusicStaff.shortInstrumentName = \markup {   %! REAPPLIED_REDRAW_INSTRUMENT
+                            \hcenter-in                                        %! REAPPLIED_REDRAW_INSTRUMENT
+                                #10                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                                Vc.                                            %! REAPPLIED_REDRAW_INSTRUMENT
+                            }                                                  %! REAPPLIED_REDRAW_INSTRUMENT
+                        \override CelloMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW
+                        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
                         
                         bf,,2
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 341] %%%
+                        % CelloMusicVoice [measure 341]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 342] %%%
+                        % CelloMusicVoice [measure 342]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 343] %%%
+                        % CelloMusicVoice [measure 343]                        %! SM4
                         bf,,1
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 344] %%%
+                        % CelloMusicVoice [measure 344]                        %! SM4
                         bf,,1
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 345] %%%
+                        % CelloMusicVoice [measure 345]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
                         bf,,2
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 346] %%%
+                        % CelloMusicVoice [measure 346]                        %! SM4
                         bf,,2.
                         \repeatTie
                         \ff
@@ -2460,25 +2460,25 @@
                                     "vib. moltiss."
                             }
                         
-                        %%% CelloMusicVoice [measure 347] %%%
+                        % CelloMusicVoice [measure 347]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 348] %%%
+                        % CelloMusicVoice [measure 348]                        %! SM4
                         bf,,1.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 349] %%%
+                        % CelloMusicVoice [measure 349]                        %! SM4
                         bf,,1.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 350] %%%
+                        % CelloMusicVoice [measure 350]                        %! SM4
                         R1 * 1
                         
-                        %%% CelloMusicVoice [measure 351] %%%
+                        % CelloMusicVoice [measure 351]                        %! SM4
                         R1 * 1
                         
-                        %%% CelloMusicVoice [measure 352] %%%
+                        % CelloMusicVoice [measure 352]                        %! SM4
                         bf,,1.
                         \pp
                         ^ \markup {
@@ -2487,73 +2487,73 @@
                                     "vib. poco."
                             }
                         
-                        %%% CelloMusicVoice [measure 353] %%%
+                        % CelloMusicVoice [measure 353]                        %! SM4
                         bf,,1.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 354] %%%
+                        % CelloMusicVoice [measure 354]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 355] %%%
+                        % CelloMusicVoice [measure 355]                        %! SM4
                         bf,,1
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 356] %%%
+                        % CelloMusicVoice [measure 356]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
                         bf,,2
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 357] %%%
+                        % CelloMusicVoice [measure 357]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 358] %%%
+                        % CelloMusicVoice [measure 358]                        %! SM4
                         \once \override Hairpin.circled-tip = ##t
                         bf,,2.
                         \repeatTie
                         \>
                         \pp
                         
-                        %%% CelloMusicVoice [measure 359] %%%
+                        % CelloMusicVoice [measure 359]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 360] %%%
+                        % CelloMusicVoice [measure 360]                        %! SM4
                         bf,,1
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 361] %%%
+                        % CelloMusicVoice [measure 361]                        %! SM4
                         bf,,2.
                         \repeatTie
                         
                         bf,,2
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 362] %%%
+                        % CelloMusicVoice [measure 362]                        %! SM4
                         bf,,1.
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 363] %%%
+                        % CelloMusicVoice [measure 363]                        %! SM4
                         bf,,1
                         \repeatTie
                         
-                        %%% CelloMusicVoice [measure 364] %%%
+                        % CelloMusicVoice [measure 364]                        %! SM4
                         R1 * 3/2
                         \!
                         
-                        %%% CelloMusicVoice [measure 365] %%%
+                        % CelloMusicVoice [measure 365]                        %! SM4
                         R1 * 3/2
                         
-                        %%% CelloMusicVoice [measure 366] %%%
+                        % CelloMusicVoice [measure 366]                        %! SM4
                         R1 * 3/2
                         
-                        %%% CelloMusicVoice [measure 367] %%%
+                        % CelloMusicVoice [measure 367]                        %! SM4
                         R1 * 1
                         
-                        %%% CelloMusicVoice [measure 368] %%%
+                        % CelloMusicVoice [measure 368]                        %! SM4
                         R1 * 1/4
                         \bar "|"
                         
