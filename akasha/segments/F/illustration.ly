@@ -10,7 +10,7 @@
     \context Score = "Score" \with {
         currentBarNumber = #152
     } <<
-        \tag ViolinI.ViolinII.viola.cello
+        \tag ViolinI.ViolinII.viola.cello                                      %! ST4
         \context GlobalContext = "GlobalContext" <<
             \context GlobalRests = "GlobalRests" {
                 
@@ -219,7 +219,7 @@
                 
                 % GlobalSkips [measure 152]                                    %! SM4
                 \time 3/4                                                      %! SM1
-                \mark #6
+                \mark #6                                                       %! SM9
                 \bar ""                                                        %! EMPTY_START_BAR:SM2
                 \newSpacingSection                                             %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! SEGMENT:SPACING:HSS1
@@ -235,27 +235,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [F.1]                          %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    44                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    44                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -330,27 +330,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [F.2]                          %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    126                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    126                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -452,27 +452,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [F.4]                          %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    55                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    55                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -549,27 +549,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [F.6]                          %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    89                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    89                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -1318,27 +1318,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [F.12]                         %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    126                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    126                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! SEGMENT:SPACING_MARKUP:HSS2
                             %%%     {                                          %! SEGMENT:SPACING_MARKUP:HSS2
                             %%%         \with-color                            %! SEGMENT:SPACING_MARKUP:HSS2
@@ -1565,27 +1565,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [F.15]                         %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    55                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    55                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -1664,40 +1664,40 @@
                                 %%%                 #(x11-color 'DarkCyan)     %! STAGE_NUMBER_MARKUP:SM3
                                 %%%                 [F.17]                     %! STAGE_NUMBER_MARKUP:SM3
                                 %%%     }                                      %! STAGE_NUMBER_MARKUP:SM3
-                                \line
-                                    {
-                                        \whiteout
-                                            \upright
-                                                \override
-                                                    #'(box-padding . 0.5)
-                                                    \box
-                                                        \fontsize
-                                                            #6
-                                                            \bold
-                                                                \sans
-                                                                    x6
-                                    }
-                                \line                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    {                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        \with-color                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            #(x11-color 'blue)                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            {                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \fontsize                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #-6                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \general-align             %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #Y                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #DOWN                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        \note-by-number        %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                            #2                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                            #0                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                            #1                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \upright                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    {                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        =                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        126                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    }                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            }                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    }                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                \line                                          %! IC1
+                                    {                                          %! IC1
+                                        \whiteout                              %! IC1
+                                            \upright                           %! IC1
+                                                \override                      %! IC1
+                                                    #'(box-padding . 0.5)      %! IC1
+                                                    \box                       %! IC1
+                                                        \fontsize              %! IC1
+                                                            #6                 %! IC1
+                                                            \bold              %! IC1
+                                                                \sans          %! IC1
+                                                                    x6         %! IC1
+                                    }                                          %! IC1
+                                \line                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    {                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        \with-color                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            #(x11-color 'blue)                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            {                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \fontsize                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #-6                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \general-align             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #Y                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #DOWN                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        \note-by-number        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                            #2                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                            #0                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                            #1                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \upright                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    {                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        =                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        126                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    }                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            }                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    }                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                 %%% \line                                      %! CLOCK_TIME_MARKUP
                                 %%%     {                                      %! CLOCK_TIME_MARKUP
                                 %%%         \fontsize                          %! CLOCK_TIME_MARKUP
@@ -1775,27 +1775,27 @@
                             %%%                 #(x11-color 'DarkCyan)         %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [F.19]                         %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                          %! STAGE_NUMBER_MARKUP:SM3
-                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                    55                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            \line                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        {                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \fontsize                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #-6                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \general-align                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #Y                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #DOWN                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    \note-by-number            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #2                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #0                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                        #1                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                {                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    =                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    55                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                }                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        }                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                          %! CLOCK_TIME_MARKUP
                             %%%     {                                          %! CLOCK_TIME_MARKUP
                             %%%         \fontsize                              %! CLOCK_TIME_MARKUP
@@ -1862,7 +1862,7 @@
         >>
         \context MusicContext = "MusicContext" {
             \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
-                \tag ViolinI
+                \tag ViolinI                                                   %! ST4
                 \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
                     \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                         
@@ -1900,62 +1900,62 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             (“ViolinI”                 %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \line                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     {                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         Violin         %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         I              %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     }                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         \line          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                             {          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                                 Vn.    %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                                 I      %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                             }          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        (“ViolinI”             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \line              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                {              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    Violin     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    I          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                }              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    \line      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                        {      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                            Vn. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                            I  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                        }      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             (“ViolinI”                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \line                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     {                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         Violin         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         I              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     }                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         \line          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                             {          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                                 Vn.    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                                 I      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                             }          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“ViolinI”             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \line              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                {              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    Violin     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    I          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                }              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    \line      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        {      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                            Vn. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                            I  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        }      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
                         \set ViolinOneMusicStaff.instrumentName = \markup {    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1987,23 +1987,23 @@
                             r16
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -2011,14 +2011,14 @@
                             r16
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -2026,20 +2026,20 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/5 {
@@ -2047,17 +2047,17 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/7 {
@@ -2065,23 +2065,23 @@
                             r16
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -2090,14 +2090,14 @@
                             r16
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -2105,20 +2105,20 @@
                             r16
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/5 {
@@ -2126,17 +2126,17 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         
@@ -2184,13 +2184,13 @@
                             \once \override Beam.grow-direction = #right
                             \override Staff.Stem.stemlet-length = #0.75
                             ef''16 * 227/32
-                            \pp
+                            \pp                                                %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + XFB"
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "tasto + XFB"                          %! IC1
+                                }                                              %! IC1
                             
                             r16 * 199/64
                             
@@ -2687,12 +2687,12 @@
                         % ViolinOneMusicVoice [measure 174]                    %! SM4
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         e''2.
-                        \mp
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "tasto + 1/2 scratch"
-                            }
+                        \mp                                                    %! IC1
+                        ^ \markup {                                            %! IC1
+                            \whiteout                                          %! IC1
+                                \upright                                       %! IC1
+                                    "tasto + 1/2 scratch"                      %! IC1
+                            }                                                  %! IC1
                         
                         e''2
                         \repeatTie
@@ -2781,51 +2781,51 @@
                             r16
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             \<
                             \ff
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "pos. ord."                            %! IC1
+                                }                                              %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -2833,39 +2833,39 @@
                             r16
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             % ViolinOneMusicVoice [measure 188]                %! SM4
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -2873,20 +2873,20 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -2894,35 +2894,35 @@
                             r16
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -2930,20 +2930,20 @@
                             r16
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -2951,39 +2951,39 @@
                             r16
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             % ViolinOneMusicVoice [measure 190]                %! SM4
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -2991,44 +2991,44 @@
                             r16
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/7 {
@@ -3036,23 +3036,23 @@
                             r16
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -3061,44 +3061,44 @@
                             r16
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -3106,14 +3106,14 @@
                             r16
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -3121,44 +3121,44 @@
                             r16
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -3167,35 +3167,35 @@
                             r16
                             
                             f''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             fs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -3203,20 +3203,20 @@
                             r16
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             fs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -3224,14 +3224,14 @@
                             r16
                             
                             f''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             fs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             \fff
                             ]
                         }
@@ -3250,62 +3250,62 @@
                             r16
                             
                             f'''16
-                            -\staccato
-                            \pp
+                            -\staccato                                         %! IC1
+                            \pp                                                %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        leggieriss.
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        leggieriss.                            %! IC1
+                                }                                              %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -3314,50 +3314,50 @@
                             r16
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         
@@ -3372,7 +3372,7 @@
                         
                     }
                 }
-                \tag ViolinII
+                \tag ViolinII                                                  %! ST4
                 \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
                     \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                         
@@ -3410,62 +3410,62 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             (“ViolinII”                %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \line                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     {                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         Violin         %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         II             %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     }                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         \line          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                             {          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                                 Vn.    %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                                 II     %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                             }          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        (“ViolinII”            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \line              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                {              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    Violin     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    II         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                }              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    \line      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                        {      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                            Vn. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                            II %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                        }      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             (“ViolinII”                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \line                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     {                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         Violin         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         II             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     }                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         \line          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                             {          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                                 Vn.    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                                 II     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                             }          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“ViolinII”            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \line              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                {              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    Violin     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    II         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                }              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    \line      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        {      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                            Vn. %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                            II %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        }      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
                         \set ViolinTwoMusicStaff.instrumentName = \markup {    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -3497,20 +3497,20 @@
                             r16
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -3518,35 +3518,35 @@
                             r16
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/5 {
@@ -3554,17 +3554,17 @@
                             r16
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -3572,39 +3572,39 @@
                             r16
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             % ViolinTwoMusicVoice [measure 155]                %! SM4
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -3612,44 +3612,44 @@
                             r16
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         
@@ -3697,13 +3697,13 @@
                             \once \override Beam.grow-direction = #left
                             \override Staff.Stem.stemlet-length = #0.75
                             b'16 * 13/8
-                            \pp
+                            \pp                                                %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "tasto + XFB"
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "tasto + XFB"                          %! IC1
+                                }                                              %! IC1
                             
                             cs''16 * 125/64
                             
@@ -4146,20 +4146,20 @@
                         \once \override Stem.color = #red
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         fs'2.
-                        \mp
+                        \mp                                                    %! IC1
                         ^ \markup {
                             \column
                                 {
-                                    \line
-                                        {
-                                            \whiteout
-                                                \upright
-                                                    "tasto + 1/2 scratch"
-                                        }
-                                    \line
-                                        {
-                                            @
-                                        }
+                                    \line                                      %! IC1
+                                        {                                      %! IC1
+                                            \whiteout                          %! IC1
+                                                \upright                       %! IC1
+                                                    "tasto + 1/2 scratch"      %! IC1
+                                        }                                      %! IC1
+                                    \line                                      %! SM14
+                                        {                                      %! SM14
+                                            @                                  %! SM14
+                                        }                                      %! SM14
                                 }
                             }
                         
@@ -4170,8 +4170,8 @@
                         \once \override Stem.color = #red
                         fs'2
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 175]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4181,8 +4181,8 @@
                         \once \override Stem.color = #red
                         fs'2.
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 176]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4192,8 +4192,8 @@
                         \once \override Stem.color = #red
                         fs'2.
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 177]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4203,8 +4203,8 @@
                         \once \override Stem.color = #red
                         fs'1.
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 178]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4236,8 +4236,8 @@
                         \<
                         \mp
                         \startTextSpan
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 179]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4247,8 +4247,8 @@
                         \once \override Stem.color = #red
                         fs'1.
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 180]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4258,8 +4258,8 @@
                         \once \override Stem.color = #red
                         fs'1.
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 181]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4269,8 +4269,8 @@
                         \once \override Stem.color = #red
                         fs'1.
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 182]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4280,8 +4280,8 @@
                         \once \override Stem.color = #red
                         fs'1
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 183]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4291,8 +4291,8 @@
                         \once \override Stem.color = #red
                         fs'2.
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 184]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4302,8 +4302,8 @@
                         \once \override Stem.color = #red
                         fs'1
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         % ViolinTwoMusicVoice [measure 185]                    %! SM4
                         \once \override Accidental.color = #red
@@ -4313,8 +4313,8 @@
                         \once \override Stem.color = #red
                         fs'2.
                         \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         
                         \once \override Accidental.color = #red
                         \once \override Beam.color = #red
@@ -4325,8 +4325,8 @@
                         \repeatTie
                         \f
                         \stopTextSpan
-                        - \tweak color #red
-                        ^ \markup { @ }
+                        - \tweak color #red                                    %! SM14
+                        ^ \markup { @ }                                        %! SM14
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -4341,45 +4341,45 @@
                             r16
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             \<
                             \ff
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "pos. ord."                            %! IC1
+                                }                                              %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -4387,20 +4387,20 @@
                             r16
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -4409,35 +4409,35 @@
                             r16
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -4445,20 +4445,20 @@
                             r16
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -4467,38 +4467,38 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -4506,45 +4506,45 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             % ViolinTwoMusicVoice [measure 190]                %! SM4
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/7 {
@@ -4552,23 +4552,23 @@
                             r16
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -4576,44 +4576,44 @@
                             r16
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -4622,14 +4622,14 @@
                             r16
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -4637,44 +4637,44 @@
                             r16
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -4682,35 +4682,35 @@
                             r16
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -4719,20 +4719,20 @@
                             r16
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -4740,38 +4740,38 @@
                             r16
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -4779,20 +4779,20 @@
                             r16
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             \fff
                             ]
                         }
@@ -4812,56 +4812,56 @@
                             r16
                             
                             d'''16
-                            -\staccato
-                            \pp
+                            -\staccato                                         %! IC1
+                            \pp                                                %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        leggieriss.
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        leggieriss.                            %! IC1
+                                }                                              %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -4869,20 +4869,20 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 6/9 {
@@ -4890,29 +4890,29 @@
                             r16
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         
@@ -4927,7 +4927,7 @@
                         
                     }
                 }
-                \tag viola
+                \tag viola                                                     %! ST4
                 \context ViolaMusicStaff = "ViolaMusicStaff" {
                     \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
@@ -4957,46 +4957,46 @@
                         ^ \markup {
                             \column
                                 {
-                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             (“Viola”                   %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 Viola                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         Va.            %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        (“Viola”               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            Viola              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    Va.        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             (“Viola”                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 Viola                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         Va.            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“Viola”               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            Viola              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    Va.        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
                         \set ViolaMusicStaff.instrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -5026,22 +5026,22 @@
                         
                         % ViolaMusicVoice [measure 157]                        %! SM4
                         fs2.
-                        \ff
+                        \ff                                                    %! IC1
                         ^ \markup {
                             \column
                                 {
-                                    \line
-                                        {
-                                            \whiteout
-                                                \upright
-                                                    "scratch moltiss."
-                                        }
-                                    \line
-                                        {
-                                            \whiteout
-                                                \upright
-                                                    "terminate abruptly"
-                                        }
+                                    \line                                      %! IC1
+                                        {                                      %! IC1
+                                            \whiteout                          %! IC1
+                                                \upright                       %! IC1
+                                                    "scratch moltiss."         %! IC1
+                                        }                                      %! IC1
+                                    \line                                      %! IC1
+                                        {                                      %! IC1
+                                            \whiteout                          %! IC1
+                                                \upright                       %! IC1
+                                                    "terminate abruptly"       %! IC1
+                                        }                                      %! IC1
                                 }
                             }
                         
@@ -5059,12 +5059,12 @@
                         
                         % ViolaMusicVoice [measure 162]                        %! SM4
                         gs2
-                        \mp
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "tasto + 1/2 scratch"
-                            }
+                        \mp                                                    %! IC1
+                        ^ \markup {                                            %! IC1
+                            \whiteout                                          %! IC1
+                                \upright                                       %! IC1
+                                    "tasto + 1/2 scratch"                      %! IC1
+                            }                                                  %! IC1
                         
                         gs8.
                         \repeatTie
@@ -5263,42 +5263,42 @@
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             \<
                             \ff
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "pos. ord."                            %! IC1
+                                }                                              %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -5306,20 +5306,20 @@
                             r16
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -5328,38 +5328,38 @@
                             r16
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -5367,45 +5367,45 @@
                             r16
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             % ViolaMusicVoice [measure 189]                    %! SM4
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/7 {
@@ -5413,23 +5413,23 @@
                             r16
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -5437,45 +5437,45 @@
                             r16
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             % ViolaMusicVoice [measure 190]                    %! SM4
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -5483,14 +5483,14 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -5498,44 +5498,44 @@
                             r16
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -5544,35 +5544,35 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -5580,20 +5580,20 @@
                             r16
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -5601,38 +5601,38 @@
                             r16
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -5641,20 +5641,20 @@
                             r16
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -5662,35 +5662,35 @@
                             r16
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -5698,20 +5698,20 @@
                             r16
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c''''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             \fff
                             ]
                         }
@@ -5720,28 +5720,28 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 194]                        %! SM4
-                        \stopStaff
-                        \once \override Staff.StaffSymbol.line-count = 1
-                        \startStaff
+                        \stopStaff                                             %! IC1
+                        \once \override Staff.StaffSymbol.line-count = 1       %! IC1
+                        \startStaff                                            %! IC1
                         b'1.
-                        -\downbow
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "OB + terminate abruptly"
-                            }
-                        _ \markup {
-                            \larger
-                                \italic
-                                    “
-                            \dynamic
-                                \override
-                                    #'(font-name . #f)
-                                    mf
-                            \larger
-                                \italic
-                                    ”
-                            }
+                        -\downbow                                              %! IC1
+                        ^ \markup {                                            %! IC1
+                            \whiteout                                          %! IC1
+                                \upright                                       %! IC1
+                                    "OB + terminate abruptly"                  %! IC1
+                            }                                                  %! IC1
+                        _ \markup {                                            %! IC1
+                            \larger                                            %! IC1
+                                \italic                                        %! IC1
+                                    “                                          %! IC1
+                            \dynamic                                           %! IC1
+                                \override                                      %! IC1
+                                    #'(font-name . #f)                         %! IC1
+                                    mf                                         %! IC1
+                            \larger                                            %! IC1
+                                \italic                                        %! IC1
+                                    ”                                          %! IC1
+                            }                                                  %! IC1
                         
                         % ViolaMusicVoice [measure 195]                        %! SM4
                         R1 * 1/4
@@ -5751,53 +5751,53 @@
                             r16
                             
                             b''16
-                            -\staccato
-                            \pp
+                            -\staccato                                         %! IC1
+                            \pp                                                %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        leggieriss.
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        leggieriss.                            %! IC1
+                                }                                              %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -5805,20 +5805,20 @@
                             r16
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -5827,32 +5827,32 @@
                             r16
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         
@@ -5860,35 +5860,35 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 198]                        %! SM4
-                        \stopStaff
-                        \once \override Staff.StaffSymbol.line-count = 1
-                        \startStaff
+                        \stopStaff                                             %! IC1
+                        \once \override Staff.StaffSymbol.line-count = 1       %! IC1
+                        \startStaff                                            %! IC1
                         b'1.
-                        -\downbow
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "OB + terminate abruptly"
-                            }
-                        _ \markup {
-                            \larger
-                                \italic
-                                    “
-                            \dynamic
-                                \override
-                                    #'(font-name . #f)
-                                    mf
-                            \larger
-                                \italic
-                                    ”
-                            }
+                        -\downbow                                              %! IC1
+                        ^ \markup {                                            %! IC1
+                            \whiteout                                          %! IC1
+                                \upright                                       %! IC1
+                                    "OB + terminate abruptly"                  %! IC1
+                            }                                                  %! IC1
+                        _ \markup {                                            %! IC1
+                            \larger                                            %! IC1
+                                \italic                                        %! IC1
+                                    “                                          %! IC1
+                            \dynamic                                           %! IC1
+                                \override                                      %! IC1
+                                    #'(font-name . #f)                         %! IC1
+                                    mf                                         %! IC1
+                            \larger                                            %! IC1
+                                \italic                                        %! IC1
+                                    ”                                          %! IC1
+                            }                                                  %! IC1
                         
                         % ViolaMusicVoice [measure 199]                        %! SM4
                         R1 * 1/4
                         
                     }
                 }
-                \tag cello
+                \tag cello                                                     %! ST4
                 \context CelloMusicStaff = "CelloMusicStaff" {
                     \context CelloMusicVoice = "CelloMusicVoice" {
                         
@@ -5909,56 +5909,56 @@
                         %%% \override CelloMusicStaff.Clef.color = ##f         %! REDUNDANT_CLEF_UNCOLOR:SM7
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         f4..
-                        \mp
+                        \mp                                                    %! IC1
                         ^ \markup {
                             \column
                                 {
-                                    \line
-                                        {
-                                            \whiteout
-                                                \upright
-                                                    "tasto + 1/2 scratch"
-                                        }
-                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             (“Cello”                   %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 Cello                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                         Vc.            %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT
-                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT
-                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        (“Cello”               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            Cello              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                    Vc.        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
-                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
+                                    \line                                      %! IC1
+                                        {                                      %! IC1
+                                            \whiteout                          %! IC1
+                                                \upright                       %! IC1
+                                                    "tasto + 1/2 scratch"      %! IC1
+                                        }                                      %! IC1
+                                    %%% \line                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%     {                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             (“Cello”                   %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \vcenter                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             \hcenter-in                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 #16                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 Cello                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%         \concat                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             {                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     \hcenter-in        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         #10            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                         Vc.            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                 \vcenter               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%                     )                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%             }                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    %%%     }                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                    \line                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        {                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            \with-color                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                #(x11-color 'green4)           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                {                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        (“Cello”               %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \vcenter                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \hcenter-in            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            #16                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            Cello              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \concat                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        {                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \hcenter-in    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    #10        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    Vc.        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \vcenter           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                )              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        }                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                }                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        }                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
                         \set CelloMusicStaff.instrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -5994,50 +5994,50 @@
                             r16
                             
                             a''16
-                            -\staccato
-                            \pp
+                            -\staccato                                         %! IC1
+                            \pp                                                %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        leggieriss.
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        leggieriss.                            %! IC1
+                                }                                              %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/7 {
@@ -6045,23 +6045,23 @@
                             r16
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/13 {
@@ -6069,41 +6069,41 @@
                             r16
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -6112,38 +6112,38 @@
                             r16
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -6151,20 +6151,20 @@
                             r16
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         
@@ -6192,12 +6192,12 @@
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f         %! EXPLICIT_CLEF_UNCOLOR:SM7
                         af,4..
-                        \mp
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "tasto + 1/2 scratch"
-                            }
+                        \mp                                                    %! IC1
+                        ^ \markup {                                            %! IC1
+                            \whiteout                                          %! IC1
+                                \upright                                       %! IC1
+                                    "tasto + 1/2 scratch"                      %! IC1
+                            }                                                  %! IC1
                         \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                         
                         g,16
@@ -6380,27 +6380,27 @@
                             \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             \<
                             \ff
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "pos. ord."
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        "pos. ord."                            %! IC1
+                                }                                              %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -6408,35 +6408,35 @@
                             r16
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -6445,20 +6445,20 @@
                             r16
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -6466,38 +6466,38 @@
                             r16
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -6506,44 +6506,44 @@
                             r16
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/7 {
@@ -6551,23 +6551,23 @@
                             r16
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -6576,44 +6576,44 @@
                             r16
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -6621,14 +6621,14 @@
                             r16
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/14 {
@@ -6636,45 +6636,45 @@
                             r16
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             % CelloMusicVoice [measure 191]                    %! SM4
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -6682,35 +6682,35 @@
                             r16
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -6718,20 +6718,20 @@
                             r16
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             ef'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/12 {
@@ -6739,39 +6739,39 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             % CelloMusicVoice [measure 192]                    %! SM4
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 4/6 {
@@ -6779,20 +6779,20 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             e'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 8/11 {
@@ -6800,35 +6800,35 @@
                             r16
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             f'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             \fff
                             ]
                         }
@@ -6847,26 +6847,26 @@
                             r16
                             
                             af''16
-                            -\staccato
-                            \pp
+                            -\staccato                                         %! IC1
+                            \pp                                                %! IC1
                             [
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        leggieriss.
-                                }
+                            ^ \markup {                                        %! IC1
+                                \whiteout                                      %! IC1
+                                    \upright                                   %! IC1
+                                        leggieriss.                            %! IC1
+                                }                                              %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             fs''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         \times 12/15 {
@@ -6874,47 +6874,47 @@
                             r16
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             g''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             a''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             af''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             d'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         {
@@ -6922,20 +6922,20 @@
                             r16
                             
                             c'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             [
                             
                             cs'''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             b''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             
                             bf''16
-                            -\staccato
+                            -\staccato                                         %! IC1
                             ]
                         }
                         
