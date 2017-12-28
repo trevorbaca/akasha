@@ -20,7 +20,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         >>> abjad.f(lilypond_file[abjad.Score])
         \context Score = "Score" <<
-            \tag ViolinI.ViolinII.viola.cello
+            \tag ViolinI.ViolinII.viola.cello %! ST4
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                 }
@@ -29,7 +29,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
             \context MusicContext = "MusicContext" {
                 \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
-                    \tag ViolinI
+                    \tag ViolinI %! ST4
                     \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
                         \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
                             \set ViolinOneMusicStaff.instrumentName = \markup {      %! ST1
@@ -54,7 +54,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \tag ViolinII
+                    \tag ViolinII %! ST4
                     \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
                         \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
                             \set ViolinTwoMusicStaff.instrumentName = \markup {      %! ST1
@@ -79,7 +79,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \tag viola
+                    \tag viola %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff" {
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
                             \set ViolaMusicStaff.instrumentName = \markup {      %! ST1
@@ -96,7 +96,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                             s1
                         }
                     }
-                    \tag cello
+                    \tag cello %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
                             \set CelloMusicStaff.instrumentName = \markup {      %! ST1
