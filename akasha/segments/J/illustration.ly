@@ -327,22 +327,22 @@
                             
                             % ViolinIMusicVoice [measure 262]                            %! SM4
                             f'4
-                            \ff                                                          %! IC1
+                            \ff                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "scratch moltiss."               %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "terminate each note abruptly"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "scratch moltiss."               %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "terminate each note abruptly"   %! IC
+                                            }                                            %! IC
                                     }
                                 }
                             
@@ -493,22 +493,22 @@
                             r4
                             
                             a4
-                            \ff                                                          %! IC1
+                            \ff                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "scratch moltiss."               %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "terminate each note abruptly"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "scratch moltiss."               %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "terminate each note abruptly"   %! IC
+                                            }                                            %! IC
                                     }
                                 }
                         }
@@ -730,22 +730,22 @@
                             \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                             
                             b,4
-                            \ff                                                          %! IC1
+                            \ff                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "scratch moltiss."               %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "terminate each note abruptly"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "scratch moltiss."               %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "terminate each note abruptly"   %! IC
+                                            }                                            %! IC
                                     }
                                 }
                             

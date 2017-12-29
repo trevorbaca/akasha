@@ -664,16 +664,16 @@
                         %%% \override ViolinIIMusicStaff.Clef.color = ##f                %! REAPPLIED_CLEF_UNCOLOR:SM7
                         \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         ds'4
-                        \mp                                                              %! IC1
+                        \mp                                                              %! IC
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "tasto + 1/2 scratch"                %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "tasto + 1/2 scratch"                %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -822,13 +822,13 @@
                             \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
                             c''16 * 487/64
-                            \pp                                                          %! IC1
+                            \pp                                                          %! IC
                             [
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "tasto + XFB"                                    %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "tasto + XFB"                                    %! IC
+                                }                                                        %! IC
                             
                             bf'16 * 209/32
                             
@@ -980,12 +980,12 @@
                         
                         % ViolaMusicVoice [measure 34]                                   %! SM4
                         ds2..
-                        \mp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    tasto                                                %! IC1
-                            }                                                            %! IC1
+                        \mp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    tasto                                                %! IC
+                            }                                                            %! IC
                         
                     }
                 }
@@ -1077,17 +1077,17 @@
                             r16.
                             
                             bf32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                             r16
@@ -1100,33 +1100,33 @@
                             r8.
                             
                             c'32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
                             
                             b32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                             r8
@@ -1137,17 +1137,17 @@
                             r8
                             
                             bf32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                             r32
@@ -1157,65 +1157,65 @@
                             r16.
                             
                             g32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
                             
                             fs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             g32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                             r8
                             
                             af32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
                             
                             g32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                             r8
@@ -1227,20 +1227,20 @@
                             
                             % CelloMusicVoice [measure 29]                               %! SM4
                             fs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             g32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                             r8
@@ -1248,17 +1248,17 @@
                         \times 4/5 {
                             
                             e32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                             r32
@@ -1270,22 +1270,22 @@
                             
                             % CelloMusicVoice [measure 31]                               %! SM4
                             d32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
                             e32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/9 {
@@ -1293,7 +1293,7 @@
                             r4
                             
                             fs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                         }
                         
                         % CelloMusicVoice [measure 32]                                   %! SM4
@@ -1304,12 +1304,12 @@
                         
                         % CelloMusicVoice [measure 34]                                   %! SM4
                         cs,2..
-                        \mp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    tasto                                                %! IC1
-                            }                                                            %! IC1
+                        \mp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    tasto                                                %! IC
+                            }                                                            %! IC
                         
                     }
                 }
