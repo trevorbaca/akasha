@@ -480,8 +480,8 @@
                         \times 1/1 {
                             
                             % ViolinOneMusicVoice [measure 24]                           %! SM4
+                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \set ViolinOneMusicStaff.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -595,7 +595,7 @@
                             
                             d''16 * 179/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinOneMusicStaff.Stem.stemlet-length
                             e''16 * 131/64
                             ]
                         }
@@ -819,8 +819,8 @@
                         \times 1/1 {
                             
                             % ViolinTwoMusicVoice [measure 33]                           %! SM4
+                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             c''16 * 487/64
                             \pp                                                          %! IC1
                             [
@@ -840,7 +840,7 @@
                             
                             c''16 * 65/32
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
                             bf'16 * 61/32
                             ]
                             

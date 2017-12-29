@@ -2434,12 +2434,12 @@
                         \pitchedTrill
                         g''2.
                         \p                                                               %! IC1
-                        \startTrillSpan
+                        \startTrillSpan a''
                         ^ \markup {                                                      %! IC1
                             \whiteout                                                    %! IC1
                                 \upright                                                 %! IC1
                                     tasto                                                %! IC1
-                            }                                                            %! IC1 a''
+                            }                                                            %! IC1
                         
                         % ViolinTwoMusicVoice [measure 100]                              %! SM4
                         g''2..

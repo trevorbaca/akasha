@@ -416,8 +416,8 @@
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolinOneMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
+                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             \set ViolinOneMusicStaff.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -537,7 +537,7 @@
                             
                             d'16 * 73/32
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinOneMusicStaff.Stem.stemlet-length
                             e'16 * 59/32
                             ]
                         }
@@ -576,8 +576,8 @@
                         \times 1/1 {
                             
                             % ViolinOneMusicVoice [measure 218]                          %! SM4
+                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
-                            \override Staff.Stem.stemlet-length = #0.75
                             d'16 * 113/64
                             [
                             
@@ -589,7 +589,7 @@
                             
                             d'16 * 145/32
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinOneMusicStaff.Stem.stemlet-length
                             e'16 * 409/64
                             ]
                         }
@@ -652,8 +652,8 @@
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolinTwoMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
+                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
-                            \override Staff.Stem.stemlet-length = #0.75
                             \set ViolinTwoMusicStaff.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -775,7 +775,7 @@
                             
                             ds'16 * 31/8
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
                             cs'16 * 191/32
                             ]
                         }
@@ -814,8 +814,8 @@
                         \times 1/1 {
                             
                             % ViolinTwoMusicVoice [measure 218]                          %! SM4
+                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             ds'16 * 477/64
                             [
                             
@@ -825,7 +825,7 @@
                             
                             cs'16 * 17/8
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
                             ds'16 * 15/8
                             ]
                         }
@@ -1006,8 +1006,8 @@
                         \times 1/1 {
                             
                             % CelloMusicVoice [measure 217]                              %! SM4
+                            \override CelloMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
-                            \override Staff.Stem.stemlet-length = #0.75
                             \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -1106,7 +1106,7 @@
                             
                             c'16 * 49/8
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert CelloMusicStaff.Stem.stemlet-length
                             d'16 * 461/64
                             ]
                         }
