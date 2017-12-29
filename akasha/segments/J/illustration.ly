@@ -330,8 +330,9 @@
                         \times 6/4 {
                             
                             % ViolinIMusicVoice [measure 262]                            %! SM4
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'4
-                            \ff                                                          %! IC
+                            \ff                                                          %! EXPLICIT_DYNAMIC:SM8
                             ^ \markup {
                                 \column
                                     {
@@ -496,8 +497,9 @@
                             
                             r4
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a4
-                            \ff                                                          %! IC
+                            \ff                                                          %! EXPLICIT_DYNAMIC:SM8
                             ^ \markup {
                                 \column
                                     {
@@ -733,8 +735,9 @@
                             \override CelloMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b,4
-                            \ff                                                          %! IC
+                            \ff                                                          %! EXPLICIT_DYNAMIC:SM8
                             ^ \markup {
                                 \column
                                     {

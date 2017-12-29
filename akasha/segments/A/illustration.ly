@@ -206,6 +206,14 @@
                                                 }                                        %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
                                         }                                                %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
                                 }                                                        %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
+                            \line                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        \large                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                accel.                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
                             %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
@@ -447,6 +455,14 @@
                                                 }                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                         }                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                 }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            \line                                                        %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                                        %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                          %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'DeepPink1)                          %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
+                                        \large                                           %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                                     %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
+                                                accel.                                   %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                                        %! REDUNDANT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
                             %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
@@ -1047,8 +1063,9 @@
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 9]                                  %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'4
-                        \mp                                                              %! IC
+                        \mp                                                              %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -1075,9 +1092,10 @@
                         r1
                         \times 8/9 {
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b32
                             -\staccato                                                   %! IC
-                            \p                                                           %! IC
+                            \p                                                           %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -1150,8 +1168,9 @@
                             % ViolinIMusicVoice [measure 15]                             %! SM4
                             \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d''16 * 15/8
-                            \pp                                                          %! IC
+                            \pp                                                          %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -1422,9 +1441,10 @@
                         \times 8/9 {
                             
                             % ViolinIIMusicVoice [measure 7]                             %! SM4
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf32
                             -\staccato                                                   %! IC
-                            \p                                                           %! IC
+                            \p                                                           %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -1466,8 +1486,9 @@
                         
                         r4.
                         
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d'8
-                        \mp                                                              %! IC
+                        \mp                                                              %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -1533,8 +1554,9 @@
                             % ViolinIIMusicVoice [measure 15]                            %! SM4
                             \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf'16 * 247/32
-                            \pp                                                          %! IC
+                            \pp                                                          %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -1823,9 +1845,10 @@
                             
                             r8
                             
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf32
                             -\staccato                                                   %! IC
-                            \p                                                           %! IC
+                            \p                                                           %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -1849,8 +1872,9 @@
                         % ViolaMusicVoice [measure 9]                                    %! SM4
                         r4
                         
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef'2
-                        \mp                                                              %! IC
+                        \mp                                                              %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -1960,8 +1984,9 @@
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e4..
-                        \mp                                                              %! IC
+                        \mp                                                              %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -2135,9 +2160,10 @@
                             
                             r16.
                             
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'32
                             -\staccato                                                   %! IC
-                            \p                                                           %! IC
+                            \p                                                           %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC

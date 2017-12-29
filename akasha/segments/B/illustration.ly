@@ -674,8 +674,9 @@
                         \once \override ViolinIIMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
                         %%% \override ViolinIIMusicStaff.Clef.color = ##f                %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                         \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ds'4
-                        \mp                                                              %! IC
+                        \mp                                                              %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -832,8 +833,9 @@
                             % ViolinIIMusicVoice [measure 33]                            %! SM4
                             \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c''16 * 487/64
-                            \pp                                                          %! IC
+                            \pp                                                          %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -990,8 +992,9 @@
                         R1 * 7/8
                         
                         % ViolaMusicVoice [measure 34]                                   %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         ds2..
-                        \mp                                                              %! IC
+                        \mp                                                              %! REDUNDANT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -1314,8 +1317,9 @@
                         R1 * 7/8
                         
                         % CelloMusicVoice [measure 34]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,2..
-                        \mp                                                              %! IC
+                        \mp                                                              %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
