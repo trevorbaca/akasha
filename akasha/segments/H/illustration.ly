@@ -443,17 +443,17 @@
                             \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                             d'16 * 117/16
-                            \p                                                           %! IC1
+                            \p                                                           %! IC
                             [
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        XFB                              %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        XFB                              %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -597,7 +597,7 @@
                         
                         % ViolinIMusicVoice [measure 219]                                %! SM4
                         fs''2.
-                        \ppp                                                             %! IC1
+                        \ppp                                                             %! IC
                         
                         % ViolinIMusicVoice [measure 220]                                %! SM4
                         R1 * 1/4
@@ -679,17 +679,17 @@
                             \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override ViolinIIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                             cs'16 * 109/64
-                            \p                                                           %! IC1
+                            \p                                                           %! IC
                             [
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        XFB                              %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        XFB                              %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -833,7 +833,7 @@
                         
                         % ViolinIIMusicVoice [measure 219]                               %! SM4
                         af'2.
-                        \ppp                                                             %! IC1
+                        \ppp                                                             %! IC
                         
                         % ViolinIIMusicVoice [measure 220]                               %! SM4
                         R1 * 1/4
@@ -954,11 +954,11 @@
                             \glissando
                             \>
                             \mp
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        tasto                                            %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        tasto                                            %! IC
+                                }                                                        %! IC
                             
                             cqs8..
                             \pp
@@ -1024,17 +1024,17 @@
                             %%% \override CelloMusicStaff.Clef.color = ##f               %! REAPPLIED_CLEF_UNCOLOR:SM7
                             \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             c'16 * 119/64
-                            \p                                                           %! IC1
+                            \p                                                           %! IC
                             [
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        XFB                              %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        XFB                              %! IC
+                                            }                                            %! IC
                                         %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -1114,7 +1114,7 @@
                         
                         % CelloMusicVoice [measure 219]                                  %! SM4
                         cs,2.
-                        \ppp                                                             %! IC1
+                        \ppp                                                             %! IC
                         
                         % CelloMusicVoice [measure 220]                                  %! SM4
                         R1 * 1/4
@@ -1125,11 +1125,11 @@
                             \glissando
                             \>
                             \mp
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        tasto                                            %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        tasto                                            %! IC
+                                }                                                        %! IC
                             
                             bf,,8..
                             \pp

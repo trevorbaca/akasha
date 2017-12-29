@@ -1152,28 +1152,28 @@
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 43]                                 %! SM4
-                        \stopStaff                                                       %! IC1
-                        \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1     %! IC1
-                        \startStaff                                                      %! IC1
-                        \override RepeatTie.direction = #up
+                        \stopStaff                                                       %! IC
+                        \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1     %! IC
+                        \startStaff                                                      %! IC
+                        \override RepeatTie.direction = #up                              %! OC
                         c'1.
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    OB                                                   %! IC1
-                            }                                                            %! IC1
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    mf                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    OB                                                   %! IC
+                            }                                                            %! IC
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    mf                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         
                         % ViolinIMusicVoice [measure 44]                                 %! SM4
                         c'1
@@ -1233,7 +1233,7 @@
                         
                         % ViolinIMusicVoice [measure 59]                                 %! SM4
                         c'1.
-                        \revert RepeatTie.direction
+                        \revert RepeatTie.direction                                      %! OC
                         
                         % ViolinIMusicVoice [measure 60]                                 %! SM4
                         c'1.
@@ -1379,28 +1379,28 @@
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 43]                                %! SM4
-                        \stopStaff                                                       %! IC1
-                        \once \override ViolinIIMusicStaff.StaffSymbol.line-count = 1    %! IC1
-                        \startStaff                                                      %! IC1
-                        \override RepeatTie.direction = #up
+                        \stopStaff                                                       %! IC
+                        \once \override ViolinIIMusicStaff.StaffSymbol.line-count = 1    %! IC
+                        \startStaff                                                      %! IC
+                        \override RepeatTie.direction = #up                              %! OC
                         c'1.
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    OB                                                   %! IC1
-                            }                                                            %! IC1
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    mf                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    OB                                                   %! IC
+                            }                                                            %! IC
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    mf                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         
                         % ViolinIIMusicVoice [measure 44]                                %! SM4
                         c'1
@@ -1454,7 +1454,7 @@
                         
                         % ViolinIIMusicVoice [measure 57]                                %! SM4
                         c'1
-                        \revert RepeatTie.direction
+                        \revert RepeatTie.direction                                      %! OC
                         
                         % ViolinIIMusicVoice [measure 58]                                %! SM4
                         R1 * 1/4
@@ -1465,13 +1465,13 @@
                         % ViolinIIMusicVoice [measure 60]                                %! SM4
                         \pitchedTrill
                         g''1.
-                        \pp                                                              %! IC1
+                        \pp                                                              %! IC
                         \startTrillSpan a''
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    tasto                                                %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    tasto                                                %! IC
+                            }                                                            %! IC
                         
                         % ViolinIIMusicVoice [measure 61]                                %! SM4
                         R1 * 1/4
@@ -1640,12 +1640,12 @@
                         \once \override NoteHead.color = #blue                           %! SM24
                         \once \override Stem.color = #blue                               %! SM24
                         c'2.
-                        \ff                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "tasto + scratch moltiss."                           %! IC1
-                            }                                                            %! IC1
+                        \ff                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "tasto + scratch moltiss."                           %! IC
+                            }                                                            %! IC
                         
                         % ViolaMusicVoice [measure 51]                                   %! SM4
                         R1 * 3/4
@@ -1667,12 +1667,12 @@
                         
                         % ViolaMusicVoice [measure 57]                                   %! SM4
                         ds'4
-                        \mp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "tasto + 1/2 scratch"                                %! IC1
-                            }                                                            %! IC1
+                        \mp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "tasto + 1/2 scratch"                                %! IC
+                            }                                                            %! IC
                         
                         dtqs'4.
                         
@@ -1686,11 +1686,11 @@
                         \glissando
                         \>
                         \mp
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    tasto                                                %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    tasto                                                %! IC
+                            }                                                            %! IC
                         \times 2/3 {
                             
                             % ViolaMusicVoice [measure 60]                               %! SM4
@@ -1835,17 +1835,17 @@
                             
                             % CelloMusicVoice [measure 49]                               %! SM4
                             cs32
-                            -\staccato                                                   %! IC1
-                            \p                                                           %! IC1
+                            -\staccato                                                   %! IC
+                            \p                                                           %! IC
                             [
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        leggieriss.                                      %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        leggieriss.                                      %! IC
+                                }                                                        %! IC
                             
                             c32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                             
                             r8..
@@ -1855,29 +1855,29 @@
                             r32
                             
                             cs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf,32
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -1908,12 +1908,12 @@
                         
                         % CelloMusicVoice [measure 57]                                   %! SM4
                         c'1
-                        \mp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "tasto + 1/2 scratch"                                %! IC1
-                            }                                                            %! IC1
+                        \mp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "tasto + 1/2 scratch"                                %! IC
+                            }                                                            %! IC
                         
                         % CelloMusicVoice [measure 58]                                   %! SM4
                         R1 * 1/4
@@ -1922,11 +1922,11 @@
                         cs,1.
                         \>
                         \mp
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    tasto                                                %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    tasto                                                %! IC
+                            }                                                            %! IC
                         
                         % CelloMusicVoice [measure 60]                                   %! SM4
                         cs,1.

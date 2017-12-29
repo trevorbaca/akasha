@@ -1206,14 +1206,14 @@
                         R1 * 5/4
                         
                         % ViolinIMusicVoice [measure 346]                                %! SM4
-                        \override RepeatTie.direction = #up
+                        \override RepeatTie.direction = #up                              %! OC
                         bf'2.
-                        \pp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "tasto + XFB"                                        %! IC1
-                            }                                                            %! IC1
+                        \pp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "tasto + XFB"                                        %! IC
+                            }                                                            %! IC
                         
                         % ViolinIMusicVoice [measure 347]                                %! SM4
                         bf'2.
@@ -1493,7 +1493,7 @@
                                 \upright
                                     "OB (no pitch)"
                             }
-                        \revert RepeatTie.direction
+                        \revert RepeatTie.direction                                      %! OC
                         
                         % ViolinIMusicVoice [measure 368]                                %! SM4
                         R1 * 1/4
@@ -1634,12 +1634,12 @@
                         
                         % ViolinIIMusicVoice [measure 346]                               %! SM4
                         bf2.
-                        \pp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "tasto + XFB"                                        %! IC1
-                            }                                                            %! IC1
+                        \pp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "tasto + XFB"                                        %! IC
+                            }                                                            %! IC
                         
                         % ViolinIIMusicVoice [measure 347]                               %! SM4
                         bf2.
@@ -2027,12 +2027,12 @@
                         
                         % ViolaMusicVoice [measure 346]                                  %! SM4
                         bf,2.
-                        \pp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "tasto + XFB"                                        %! IC1
-                            }                                                            %! IC1
+                        \pp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "tasto + XFB"                                        %! IC
+                            }                                                            %! IC
                         
                         % ViolaMusicVoice [measure 347]                                  %! SM4
                         bf,2.
@@ -2479,12 +2479,12 @@
                         
                         % CelloMusicVoice [measure 352]                                  %! SM4
                         bf,,1.
-                        \pp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "vib. poco."                                         %! IC1
-                            }                                                            %! IC1
+                        \pp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "vib. poco."                                         %! IC
+                            }                                                            %! IC
                         
                         % CelloMusicVoice [measure 353]                                  %! SM4
                         bf,,1.

@@ -1580,22 +1580,22 @@
                             
                             % ViolinIMusicVoice [measure 117]                            %! SM4
                             f'4
-                            \ff                                                          %! IC1
+                            \ff                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "scratch moltiss."               %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "terminate each note abruptly"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "scratch moltiss."               %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "terminate each note abruptly"   %! IC
+                                            }                                            %! IC
                                     }
                                 }
                             
@@ -1744,12 +1744,12 @@
                             r8
                             
                             af'8
-                            \f                                                           %! IC1
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "po' meno scratch"                               %! IC1
-                                }                                                        %! IC1
+                            \f                                                           %! IC
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "po' meno scratch"                               %! IC
+                                }                                                        %! IC
                             
                             r8
                             
@@ -1943,33 +1943,33 @@
                             r16
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             \>
                             \mf
                             [
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        leggieriss.                      %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "senza scratch"                  %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        leggieriss.                      %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "senza scratch"                  %! IC
+                                            }                                            %! IC
                                     }
                                 }
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -1988,17 +1988,17 @@
                             r16
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -2006,23 +2006,23 @@
                             r16
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2031,14 +2031,14 @@
                             r16
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -2048,17 +2048,17 @@
                             r16
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -2067,23 +2067,23 @@
                             r16
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2091,14 +2091,14 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -2109,17 +2109,17 @@
                             r16
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -2127,23 +2127,23 @@
                             r16
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2151,14 +2151,14 @@
                             r16
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -2167,20 +2167,20 @@
                             r16
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -2188,17 +2188,17 @@
                             r16
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -2206,23 +2206,23 @@
                             r16
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2230,14 +2230,14 @@
                             r16
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -2248,17 +2248,17 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -2266,23 +2266,23 @@
                             r16
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2290,14 +2290,14 @@
                             r16
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -2305,20 +2305,20 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -2327,17 +2327,17 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -2345,23 +2345,23 @@
                             r16
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2369,14 +2369,14 @@
                             r16
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -2384,20 +2384,20 @@
                             r16
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -2407,23 +2407,23 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -2431,29 +2431,29 @@
                             r16
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2461,20 +2461,20 @@
                             r16
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -2483,26 +2483,26 @@
                             r16
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -2512,23 +2512,23 @@
                             r16
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -2536,29 +2536,29 @@
                             r16
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2566,20 +2566,20 @@
                             r16
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -2588,26 +2588,26 @@
                             r16
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             \pp
                             ]
                         }
@@ -2618,23 +2618,23 @@
                             r16
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -2642,29 +2642,29 @@
                             r16
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2672,20 +2672,20 @@
                             r16
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -2694,26 +2694,26 @@
                             r16
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -2722,17 +2722,17 @@
                             r16
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -2740,23 +2740,23 @@
                             r16
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2764,14 +2764,14 @@
                             r16
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -2779,20 +2779,20 @@
                             r16
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -2802,23 +2802,23 @@
                             r16
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -2826,29 +2826,29 @@
                             r16
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2856,20 +2856,20 @@
                             r16
                             
                             fs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -2878,26 +2878,26 @@
                             r16
                             
                             fs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             g'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -2906,17 +2906,17 @@
                             r16
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -2924,23 +2924,23 @@
                             r16
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -2948,14 +2948,14 @@
                             r16
                             
                             g'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -2963,20 +2963,20 @@
                             r16
                             
                             g'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -3131,22 +3131,22 @@
                             r4
                             
                             a4
-                            \ff                                                          %! IC1
+                            \ff                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "scratch moltiss."               %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "terminate each note abruptly"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "scratch moltiss."               %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "terminate each note abruptly"   %! IC
+                                            }                                            %! IC
                                     }
                                 }
                         }
@@ -3214,12 +3214,12 @@
                             r8
                             
                             a8
-                            \f                                                           %! IC1
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "po' meno scratch"                               %! IC1
-                                }                                                        %! IC1
+                            \f                                                           %! IC
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "po' meno scratch"                               %! IC
+                                }                                                        %! IC
                             
                             r8
                             
@@ -3378,20 +3378,20 @@
                             r8
                             
                             cs'8
-                            -\staccato                                                   %! IC1
-                            \mf                                                          %! IC1
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "senza scratch"                                  %! IC1
-                                }                                                        %! IC1
+                            -\staccato                                                   %! IC
+                            \mf                                                          %! IC
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "senza scratch"                                  %! IC
+                                }                                                        %! IC
                             
                             r8
                             
                             r8
                             
                             d'8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
@@ -3408,14 +3408,14 @@
                             
                             % ViolinIIMusicVoice [measure 132]                           %! SM4
                             b8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
                             r8
                             
                             c'8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
@@ -3428,7 +3428,7 @@
                             r8
                             
                             b8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                         }
@@ -3440,22 +3440,22 @@
                             r16
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        leggieriss.                                      %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        leggieriss.                                      %! IC
+                                }                                                        %! IC
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -3475,16 +3475,16 @@
                             r16
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             \>
                             \mf
                             [
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -3492,20 +3492,20 @@
                             r16
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -3513,17 +3513,17 @@
                             r16
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -3534,14 +3534,14 @@
                             r16
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -3549,20 +3549,20 @@
                             r16
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -3570,17 +3570,17 @@
                             r16
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -3590,14 +3590,14 @@
                             r16
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -3606,20 +3606,20 @@
                             r16
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -3627,17 +3627,17 @@
                             r16
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -3645,23 +3645,23 @@
                             r16
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -3670,14 +3670,14 @@
                             r16
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -3685,20 +3685,20 @@
                             r16
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -3706,17 +3706,17 @@
                             r16
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -3727,14 +3727,14 @@
                             r16
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -3742,20 +3742,20 @@
                             r16
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -3764,17 +3764,17 @@
                             r16
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -3782,23 +3782,23 @@
                             r16
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -3806,14 +3806,14 @@
                             r16
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -3821,20 +3821,20 @@
                             r16
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -3843,17 +3843,17 @@
                             r16
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -3861,23 +3861,23 @@
                             r16
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -3885,14 +3885,14 @@
                             r16
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -3900,20 +3900,20 @@
                             r16
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -3921,17 +3921,17 @@
                             r16
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -3940,23 +3940,23 @@
                             r16
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -3964,14 +3964,14 @@
                             r16
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -3979,20 +3979,20 @@
                             r16
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -4000,17 +4000,17 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -4019,29 +4019,29 @@
                             r16
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -4049,20 +4049,20 @@
                             r16
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4071,26 +4071,26 @@
                             r16
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4099,23 +4099,23 @@
                             r16
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -4124,29 +4124,29 @@
                             r16
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -4154,20 +4154,20 @@
                             r16
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4176,26 +4176,26 @@
                             r16
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4204,23 +4204,23 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             \pp
                             ]
                         }
@@ -4230,20 +4230,20 @@
                             r16
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 12/15 {
@@ -4251,47 +4251,47 @@
                             r16
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4300,35 +4300,35 @@
                             r16
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/12 {
@@ -4337,38 +4337,38 @@
                             r16
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/14 {
@@ -4376,44 +4376,44 @@
                             r16
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -4422,29 +4422,29 @@
                             r16
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4453,53 +4453,53 @@
                             r16
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -4508,32 +4508,32 @@
                             r16
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/14 {
@@ -4542,44 +4542,44 @@
                             r16
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/11 {
@@ -4587,35 +4587,35 @@
                             r16
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -4721,29 +4721,29 @@
                         \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab)   %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
                         \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                         
-                        \override RepeatTie.direction = #up
+                        \override RepeatTie.direction = #up                              %! OC
                         c'4
-                        -\downbow                                                        %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    OB                                                   %! IC1
-                            }                                                            %! IC1
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    mf                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        -\downbow                                                        %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    OB                                                   %! IC
+                            }                                                            %! IC
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    mf                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         r8
                         
@@ -4754,13 +4754,13 @@
                         r4.
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         r4
                         
@@ -4771,13 +4771,13 @@
                         r4.
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         r4
                         
@@ -4788,10 +4788,10 @@
                         r4
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         r4.
                         
@@ -4802,10 +4802,10 @@
                         r4
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         [
                         
@@ -4814,23 +4814,23 @@
                         ]
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 123]                                  %! SM4
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         [
                         
@@ -4839,39 +4839,39 @@
                         ]
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 125]                                  %! SM4
                         c'8
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 126]                                  %! SM4
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         [
                         
@@ -4880,109 +4880,109 @@
                         ]
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 128]                                  %! SM4
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 129]                                  %! SM4
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'8
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 130]                                  %! SM4
                         c'4
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 131]                                  %! SM4
                         c'4
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'8
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 132]                                  %! SM4
                         c'4
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 133]                                  %! SM4
                         c'4
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'8
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ~
                         [
                         
@@ -4991,23 +4991,23 @@
                         ]
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 135]                                  %! SM4
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'8
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ~
                         [
                         
@@ -5016,16 +5016,16 @@
                         ]
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'8
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ~
                         [
                         
@@ -5034,20 +5034,20 @@
                         ]
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 138]                                  %! SM4
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         [
                         
@@ -5056,23 +5056,23 @@
                         ]
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 140]                                  %! SM4
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         [
                         
@@ -5081,16 +5081,16 @@
                         ]
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         [
                         
@@ -5099,109 +5099,109 @@
                         ]
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 143]                                  %! SM4
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 144]                                  %! SM4
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 145]                                  %! SM4
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 146]                                  %! SM4
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'8
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 147]                                  %! SM4
                         c'4
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'8
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 148]                                  %! SM4
                         c'4
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         c'4
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'8
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ~
                         [
                         
@@ -5210,18 +5210,18 @@
                         ]
                         
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 150]                                  %! SM4
                         c'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         c'4
-                        -\downbow                                                        %! IC1
-                        \revert RepeatTie.direction
+                        -\downbow                                                        %! IC
+                        \revert RepeatTie.direction                                      %! OC
                         
                         r8
                         
@@ -5320,22 +5320,22 @@
                             r4
                             
                             b,4
-                            \ff                                                          %! IC1
+                            \ff                                                          %! IC
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "scratch moltiss."               %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                \whiteout                                %! IC1
-                                                    \upright                             %! IC1
-                                                        "terminate each note abruptly"   %! IC1
-                                            }                                            %! IC1
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "scratch moltiss."               %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        "terminate each note abruptly"   %! IC
+                                            }                                            %! IC
                                     }
                                 }
                             
@@ -5378,12 +5378,12 @@
                             r4
                             
                             b,4
-                            \f                                                           %! IC1
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "po' meno scratch"                               %! IC1
-                                }                                                        %! IC1
+                            \f                                                           %! IC
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "po' meno scratch"                               %! IC
+                                }                                                        %! IC
                             
                             r4
                             
@@ -5504,13 +5504,13 @@
                             r8
                             
                             cs8
-                            -\staccato                                                   %! IC1
-                            \mf                                                          %! IC1
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        "senza scratch"                                  %! IC1
-                                }                                                        %! IC1
+                            -\staccato                                                   %! IC
+                            \mf                                                          %! IC
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        "senza scratch"                                  %! IC
+                                }                                                        %! IC
                             
                             r8
                             
@@ -5523,7 +5523,7 @@
                             r8
                             
                             d8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                         }
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 12/14 {
@@ -5534,7 +5534,7 @@
                             r8
                             
                             ef8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
@@ -5547,14 +5547,14 @@
                             r8
                             
                             d8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
                             r8
                             
                             e8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
@@ -5570,14 +5570,14 @@
                             r8
                             
                             f8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
                             r8
                             
                             ef8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
@@ -5594,14 +5594,14 @@
                             r8
                             
                             e8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
                             r8
                             
                             cs8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
@@ -5614,7 +5614,7 @@
                             r8
                             
                             d8
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             r8
                             
@@ -5628,25 +5628,25 @@
                             r16
                             
                             cs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
-                            ^ \markup {                                                  %! IC1
-                                \whiteout                                                %! IC1
-                                    \upright                                             %! IC1
-                                        leggieriss.                                      %! IC1
-                                }                                                        %! IC1
+                            ^ \markup {                                                  %! IC
+                                \whiteout                                                %! IC
+                                    \upright                                             %! IC
+                                        leggieriss.                                      %! IC
+                                }                                                        %! IC
                             
                             c16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b,16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -5666,23 +5666,23 @@
                             r16
                             
                             cs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -5691,23 +5691,23 @@
                             r16
                             
                             ef16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -5715,14 +5715,14 @@
                             r16
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -5732,17 +5732,17 @@
                             r16
                             
                             e16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -5751,23 +5751,23 @@
                             r16
                             
                             ef16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -5775,14 +5775,14 @@
                             r16
                             
                             e16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -5793,19 +5793,19 @@
                             r16
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             \>
                             \mf
                             [
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -5813,23 +5813,23 @@
                             r16
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -5837,14 +5837,14 @@
                             r16
                             
                             e16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -5852,20 +5852,20 @@
                             r16
                             
                             e16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -5874,17 +5874,17 @@
                             r16
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -5892,23 +5892,23 @@
                             r16
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -5916,14 +5916,14 @@
                             r16
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         
@@ -5933,17 +5933,17 @@
                             r16
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -5952,23 +5952,23 @@
                             r16
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -5976,14 +5976,14 @@
                             r16
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -5991,20 +5991,20 @@
                             r16
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -6013,17 +6013,17 @@
                             r16
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -6031,23 +6031,23 @@
                             r16
                             
                             g16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -6055,14 +6055,14 @@
                             r16
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         {
@@ -6076,14 +6076,14 @@
                             \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/9 {
@@ -6091,29 +6091,29 @@
                             r16
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -6122,23 +6122,23 @@
                             r16
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/10 {
@@ -6146,32 +6146,32 @@
                             r16
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/12 {
@@ -6179,39 +6179,39 @@
                             r16
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             % CelloMusicVoice [measure 141]                              %! SM4
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/5 {
@@ -6219,17 +6219,17 @@
                             r16
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/11 {
@@ -6237,35 +6237,35 @@
                             r16
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -6273,20 +6273,20 @@
                             r16
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/12 {
@@ -6295,38 +6295,38 @@
                             r16
                             
                             d'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/9 {
@@ -6334,29 +6334,29 @@
                             r16
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -6365,29 +6365,29 @@
                             r16
                             
                             ef'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -6396,44 +6396,44 @@
                             r16
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -6442,32 +6442,32 @@
                             r16
                             
                             f'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -6477,41 +6477,41 @@
                             r16
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 12/15 {
@@ -6519,47 +6519,47 @@
                             r16
                             
                             g'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             \pp
                             ]
                         }
@@ -6569,56 +6569,56 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 6/9 {
@@ -6626,29 +6626,29 @@
                             r16
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 10/15 {
@@ -6656,48 +6656,48 @@
                             r16
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b'16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             % CelloMusicVoice [measure 146]                              %! SM4
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/12 {
@@ -6705,38 +6705,38 @@
                             r16
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             cs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/6 {
@@ -6744,20 +6744,20 @@
                             r16
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             d''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 12/15 {
@@ -6766,47 +6766,47 @@
                             r16
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -6815,35 +6815,35 @@
                             r16
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             ef''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             e''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \tweak text #tuplet-number::calc-fraction-text
@@ -6852,44 +6852,44 @@
                             r16
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             f''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 8/14 {
@@ -6897,44 +6897,44 @@
                             r16
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             fs''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             af''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             g''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         \times 4/7 {
@@ -6942,23 +6942,23 @@
                             r16
                             
                             cs'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             [
                             
                             b''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             c'''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             bf''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             
                             a''16
-                            -\staccato                                                   %! IC1
+                            -\staccato                                                   %! IC
                             ]
                         }
                         

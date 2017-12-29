@@ -1763,7 +1763,7 @@
                         \stopStaff                                                       %! REAPPLIED_STAFF_LINES:SM8
                         \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1     %! REAPPLIED_STAFF_LINES:SM8
                         \startStaff                                                      %! REAPPLIED_STAFF_LINES:SM8
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         \ottava #1
                         \set ViolinIMusicStaff.instrumentName = \markup {                %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -1790,16 +1790,16 @@
                         \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         cs''''4.
-                        \mp                                                              %! IC1
+                        \mp                                                              %! IC
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "5°/A4(II) + vib. mod."              %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "5°/A4(II) + vib. mod."              %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -1951,166 +1951,166 @@
                         % ViolinIMusicVoice [measure 78]                                 %! SM4
                         cs''''2
                         \repeatTie
-                        \revert NoteHead.style
+                        \revert NoteHead.style                                           %! OC
                         \ottava #0
                         
                         % ViolinIMusicVoice [measure 79]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 80]                                 %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         a'1
-                        -\downbow                                                        %! IC1
-                        \ppp                                                             %! IC1
+                        -\downbow                                                        %! IC
+                        \ppp                                                             %! IC
                         \glissando
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "XP + senza vib. + full bow strokes"                 %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "XP + senza vib. + full bow strokes"                 %! IC
+                            }                                                            %! IC
                         
                         % ViolinIMusicVoice [measure 81]                                 %! SM4
                         c''2.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         a'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 82]                                 %! SM4
                         fs'2
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 83]                                 %! SM4
                         ef'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolinIMusicVoice [measure 84]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 85]                                 %! SM4
                         fs'2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         a'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 86]                                 %! SM4
                         c''2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         fs''4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 87]                                 %! SM4
                         ef''2
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 88]                                 %! SM4
                         c''1
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 89]                                 %! SM4
                         a'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 90]                                 %! SM4
                         ef''2
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 91]                                 %! SM4
                         fs''2..
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 92]                                 %! SM4
                         a''2..
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolinIMusicVoice [measure 93]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 94]                                 %! SM4
                         a'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 95]                                 %! SM4
                         ef''2.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 96]                                 %! SM4
                         fs''2
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 97]                                 %! SM4
                         a''4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolinIMusicVoice [measure 98]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 99]                                 %! SM4
                         ef'''2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 100]                                %! SM4
                         a''2..
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 101]                                %! SM4
                         c'''2..
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 102]                                %! SM4
                         a'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolinIMusicVoice [measure 103]                                %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 104]                                %! SM4
                         fs'1
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 105]                                %! SM4
                         ef'2.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         a'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 106]                                %! SM4
                         fs'2.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         a'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIMusicVoice [measure 107]                                %! SM4
                         c''2
-                        -\upbow                                                          %! IC1
-                        \revert NoteHead.style
+                        -\upbow                                                          %! IC
+                        \revert NoteHead.style                                           %! OC
                         
                         % ViolinIMusicVoice [measure 108]                                %! SM4
                         R1 * 3/8
@@ -2271,161 +2271,161 @@
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 71]                                %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         a'2.
-                        -\downbow                                                        %! IC1
-                        \ppp                                                             %! IC1
+                        -\downbow                                                        %! IC
+                        \ppp                                                             %! IC
                         \glissando
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "XP + full bow strokes"                              %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "XP + full bow strokes"                              %! IC
+                            }                                                            %! IC
                         
                         c''4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 72]                                %! SM4
                         a'2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         fs'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 73]                                %! SM4
                         ef'2..
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 74]                                %! SM4
                         a'4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 75]                                %! SM4
                         fs'2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 76]                                %! SM4
                         a'2..
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 77]                                %! SM4
                         c''2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         fs''4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 78]                                %! SM4
                         ef''2
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolinIIMusicVoice [measure 79]                                %! SM4
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 80]                                %! SM4
                         fs'1
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 81]                                %! SM4
                         a'2.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         c''4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 82]                                %! SM4
                         fs''2
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 83]                                %! SM4
                         ef''4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         
                         % ViolinIIMusicVoice [measure 84]                                %! SM4
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 85]                                %! SM4
                         a'2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         ef''4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 86]                                %! SM4
                         fs''2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         a''4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 87]                                %! SM4
                         fs''2
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 88]                                %! SM4
                         c'''1
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 89]                                %! SM4
                         ef'''4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 90]                                %! SM4
                         a''2
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 91]                                %! SM4
                         c'''2..
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 92]                                %! SM4
                         a'2..
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolinIIMusicVoice [measure 93]                                %! SM4
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 94]                                %! SM4
                         ef'''4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 95]                                %! SM4
                         a''2.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 96]                                %! SM4
                         c'''2
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolinIIMusicVoice [measure 97]                                %! SM4
                         a'4.
-                        -\upbow                                                          %! IC1
-                        \revert NoteHead.style
+                        -\upbow                                                          %! IC
+                        \revert NoteHead.style                                           %! OC
                         
                         % ViolinIIMusicVoice [measure 98]                                %! SM4
                         R1 * 1/4
@@ -2433,13 +2433,13 @@
                         % ViolinIIMusicVoice [measure 99]                                %! SM4
                         \pitchedTrill
                         g''2.
-                        \p                                                               %! IC1
+                        \p                                                               %! IC
                         \startTrillSpan a''
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    tasto                                                %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    tasto                                                %! IC
+                            }                                                            %! IC
                         
                         % ViolinIIMusicVoice [measure 100]                               %! SM4
                         g''2..
@@ -2499,7 +2499,7 @@
                         \stopStaff                                                       %! REAPPLIED_STAFF_LINES:SM8
                         \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! REAPPLIED_STAFF_LINES:SM8
                         \startStaff                                                      %! REAPPLIED_STAFF_LINES:SM8
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -2517,16 +2517,16 @@
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_UNCOLOR:SM7
                         gqf''4.
-                        \mp                                                              %! IC1
+                        \mp                                                              %! IC
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "7°/A2(IV) + vib. mod."              %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "7°/A2(IV) + vib. mod."              %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2713,7 +2713,7 @@
                         % ViolaMusicVoice [measure 92]                                   %! SM4
                         gqf''2..
                         \repeatTie
-                        \revert NoteHead.style
+                        \revert NoteHead.style                                           %! OC
                         
                         % ViolaMusicVoice [measure 93]                                   %! SM4
                         R1 * 1/4
@@ -2727,11 +2727,11 @@
                         \glissando
                         \>
                         \sf
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "tasto + senza vib."                                 %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "tasto + senza vib."                                 %! IC
+                            }                                                            %! IC
                         \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                         
                         % ViolaMusicVoice [measure 95]                                   %! SM4
@@ -2755,61 +2755,61 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 99]                                   %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         af2.
-                        -\downbow                                                        %! IC1
-                        \ppp                                                             %! IC1
+                        -\downbow                                                        %! IC
+                        \ppp                                                             %! IC
                         \glissando
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "XP + full bow strokes"                              %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "XP + full bow strokes"                              %! IC
+                            }                                                            %! IC
                         
                         % ViolaMusicVoice [measure 100]                                  %! SM4
                         b2..
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % ViolaMusicVoice [measure 101]                                  %! SM4
                         af2..
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolaMusicVoice [measure 102]                                  %! SM4
                         f4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 103]                                  %! SM4
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 104]                                  %! SM4
                         f1
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolaMusicVoice [measure 105]                                  %! SM4
                         af2.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         b4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolaMusicVoice [measure 106]                                  %! SM4
                         f'2.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         d'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % ViolaMusicVoice [measure 107]                                  %! SM4
                         b2
-                        -\upbow                                                          %! IC1
-                        \revert NoteHead.style
+                        -\upbow                                                          %! IC
+                        \revert NoteHead.style                                           %! OC
                         
                         % ViolaMusicVoice [measure 108]                                  %! SM4
                         R1 * 3/8
@@ -2833,7 +2833,7 @@
                     \context CelloMusicVoice = "CelloMusicVoice" {
                         
                         % CelloMusicVoice [measure 62]                                   %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         \set CelloMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -2850,16 +2850,16 @@
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_UNCOLOR:SM7
                         d''4.
-                        \mp                                                              %! IC1
+                        \mp                                                              %! IC
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "11°/A1(IV) + vib. mod."             %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "11°/A1(IV) + vib. mod."             %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -3006,70 +3006,70 @@
                         % CelloMusicVoice [measure 83]                                   %! SM4
                         d''4.
                         \repeatTie
-                        \revert NoteHead.style
+                        \revert NoteHead.style                                           %! OC
                         
                         % CelloMusicVoice [measure 84]                                   %! SM4
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 85]                                   %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         \set CelloMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "bass"                                                     %! EXPLICIT_CLEF:SM8
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_UNCOLOR:SM7
                         g,2.
-                        -\downbow                                                        %! IC1
-                        \ppp                                                             %! IC1
+                        -\downbow                                                        %! IC
+                        \ppp                                                             %! IC
                         \glissando
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "XP + senza vib. + full bow strokes"                 %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "XP + senza vib. + full bow strokes"                 %! IC
+                            }                                                            %! IC
                         \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                         
                         bf,4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 86]                                   %! SM4
                         g,2.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         e,4.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 87]                                   %! SM4
                         cs,2
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 88]                                   %! SM4
                         g,1
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 89]                                   %! SM4
                         e,4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 90]                                   %! SM4
                         g,2
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 91]                                   %! SM4
                         bf,2..
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 92]                                   %! SM4
                         e2..
-                        -\upbow                                                          %! IC1
-                        \revert NoteHead.style
+                        -\upbow                                                          %! IC
+                        \revert NoteHead.style                                           %! OC
                         
                         % CelloMusicVoice [measure 93]                                   %! SM4
                         R1 * 1/4
@@ -3078,11 +3078,11 @@
                         cs,4.
                         \>
                         \sf
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    tasto                                                %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    tasto                                                %! IC
+                            }                                                            %! IC
                         
                         % CelloMusicVoice [measure 95]                                   %! SM4
                         cs,2.
@@ -3101,31 +3101,31 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 99]                                   %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         e,2.
-                        -\downbow                                                        %! IC1
-                        \ppp                                                             %! IC1
+                        -\downbow                                                        %! IC
+                        \ppp                                                             %! IC
                         \glissando
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "XP + full bow strokes"                              %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "XP + full bow strokes"                              %! IC
+                            }                                                            %! IC
                         
                         % CelloMusicVoice [measure 100]                                  %! SM4
                         g,2..
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 101]                                  %! SM4
                         bf,2..
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \glissando
                         
                         % CelloMusicVoice [measure 102]                                  %! SM4
                         e4.
-                        -\upbow                                                          %! IC1
-                        \revert NoteHead.style
+                        -\upbow                                                          %! IC
+                        \revert NoteHead.style                                           %! OC
                         
                         % CelloMusicVoice [measure 103]                                  %! SM4
                         R1 * 1/4
@@ -3135,11 +3135,11 @@
                         \glissando
                         \>
                         \sf
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    tasto                                                %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    tasto                                                %! IC
+                            }                                                            %! IC
                         
                         % CelloMusicVoice [measure 105]                                  %! SM4
                         c2.

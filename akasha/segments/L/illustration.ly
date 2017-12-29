@@ -566,17 +566,17 @@
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_UNCOLOR:SM7
                         c'1
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         \ff                                                              %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "OB + terminate each note abruptly"  %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "OB + terminate each note abruptly"  %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -619,18 +619,18 @@
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    mf                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    mf                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -649,7 +649,7 @@
                         
                         % ViolaMusicVoice [measure 336]                                  %! SM4
                         c'1.
-                        -\upbow                                                          %! IC1
+                        -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 337]                                  %! SM4
                         R1 * 1/4
@@ -758,12 +758,12 @@
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_UNCOLOR:SM7
                         bf,,1.
-                        \pp                                                              %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "pos. ord. + vib. poco"                              %! IC1
-                            }                                                            %! IC1
+                        \pp                                                              %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "pos. ord. + vib. poco"                              %! IC
+                            }                                                            %! IC
                         \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                         
                         % CelloMusicVoice [measure 339]                                  %! SM4

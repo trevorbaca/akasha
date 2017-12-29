@@ -1141,7 +1141,7 @@
                         
                         % ViolinIMusicVoice [measure 214]                                %! SM4
                         fs''2
-                        \ppp                                                             %! IC1
+                        \ppp                                                             %! IC
                         
                         % ViolinIMusicVoice [measure 215]                                %! SM4
                         fs''2
@@ -1454,7 +1454,7 @@
                         
                         % ViolinIIMusicVoice [measure 214]                               %! SM4
                         af'2
-                        \ppp                                                             %! IC1
+                        \ppp                                                             %! IC
                         
                         % ViolinIIMusicVoice [measure 215]                               %! SM4
                         af'2
@@ -1734,28 +1734,28 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 214]                                  %! SM4
-                        \stopStaff                                                       %! IC1
-                        \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! IC1
-                        \startStaff                                                      %! IC1
+                        \stopStaff                                                       %! IC
+                        \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! IC
+                        \startStaff                                                      %! IC
                         c'2
-                        -\downbow                                                        %! IC1
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    OB                                                   %! IC1
-                            }                                                            %! IC1
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    mf                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        -\downbow                                                        %! IC
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    OB                                                   %! IC
+                            }                                                            %! IC
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    mf                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         
                         % ViolaMusicVoice [measure 215]                                  %! SM4
                         c'2
@@ -2033,7 +2033,7 @@
                         
                         % CelloMusicVoice [measure 214]                                  %! SM4
                         cs,2
-                        \ppp                                                             %! IC1
+                        \ppp                                                             %! IC
                         
                         % CelloMusicVoice [measure 215]                                  %! SM4
                         cs,2

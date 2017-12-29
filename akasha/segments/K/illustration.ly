@@ -1095,19 +1095,19 @@
                                 %%%                 #(x11-color 'DarkCyan)               %! STAGE_NUMBER_MARKUP:SM3
                                 %%%                 [K.9]                                %! STAGE_NUMBER_MARKUP:SM3
                                 %%%     }                                                %! STAGE_NUMBER_MARKUP:SM3
-                                \line                                                    %! IC1
-                                    {                                                    %! IC1
-                                        \whiteout                                        %! IC1
-                                            \upright                                     %! IC1
-                                                \override                                %! IC1
-                                                    #'(box-padding . 0.5)                %! IC1
-                                                    \box                                 %! IC1
-                                                        \fontsize                        %! IC1
-                                                            #6                           %! IC1
-                                                            \bold                        %! IC1
-                                                                \sans                    %! IC1
-                                                                    x6                   %! IC1
-                                    }                                                    %! IC1
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                \override                                %! IC
+                                                    #'(box-padding . 0.5)                %! IC
+                                                    \box                                 %! IC
+                                                        \fontsize                        %! IC
+                                                            #6                           %! IC
+                                                            \bold                        %! IC
+                                                                \sans                    %! IC
+                                                                    x6                   %! IC
+                                    }                                                    %! IC
                                 %%% \line                                                %! CLOCK_TIME_MARKUP:SM28
                                 %%%     {                                                %! CLOCK_TIME_MARKUP:SM28
                                 %%%         \fontsize                                    %! CLOCK_TIME_MARKUP:SM28
@@ -1841,19 +1841,19 @@
                                 %%%                 #(x11-color 'DarkCyan)               %! STAGE_NUMBER_MARKUP:SM3
                                 %%%                 [K.19]                               %! STAGE_NUMBER_MARKUP:SM3
                                 %%%     }                                                %! STAGE_NUMBER_MARKUP:SM3
-                                \line                                                    %! IC1
-                                    {                                                    %! IC1
-                                        \whiteout                                        %! IC1
-                                            \upright                                     %! IC1
-                                                \override                                %! IC1
-                                                    #'(box-padding . 0.5)                %! IC1
-                                                    \box                                 %! IC1
-                                                        \fontsize                        %! IC1
-                                                            #6                           %! IC1
-                                                            \bold                        %! IC1
-                                                                \sans                    %! IC1
-                                                                    x6                   %! IC1
-                                    }                                                    %! IC1
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                \override                                %! IC
+                                                    #'(box-padding . 0.5)                %! IC
+                                                    \box                                 %! IC
+                                                        \fontsize                        %! IC
+                                                            #6                           %! IC
+                                                            \bold                        %! IC
+                                                                \sans                    %! IC
+                                                                    x6                   %! IC
+                                    }                                                    %! IC
                                 \line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                     {                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                         \with-color                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
@@ -2295,12 +2295,12 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "tasto + 1 click/3-4 sec."           %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "tasto + 1 click/3-4 sec."           %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2359,18 +2359,18 @@
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    ff                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    ff                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         \set ViolinIMusicStaff.instrumentName = \markup {                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -2527,7 +2527,7 @@
                         
                         % ViolinIMusicVoice [measure 279]                                %! SM4
                         a''2.
-                        \ff                                                              %! IC1
+                        \ff                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -2933,17 +2933,17 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 317]                                %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         \ottava #1
                         b''''2.
                         \<
                         \sffp
                         \startTrillSpan
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "pos. ord. + 9°/A4(II)"                              %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "pos. ord. + 9°/A4(II)"                              %! IC
+                            }                                                            %! IC
                         
                         b''''4.
                         \repeatTie
@@ -3113,7 +3113,7 @@
                         % ViolinIMusicVoice [measure 332]                                %! SM4
                         b''''1
                         \repeatTie
-                        \revert NoteHead.style
+                        \revert NoteHead.style                                           %! OC
                         \ottava #0
                         
                         % ViolinIMusicVoice [measure 333]                                %! SM4
@@ -3160,12 +3160,12 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "tasto + 1 click/3-4 sec."           %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "tasto + 1 click/3-4 sec."           %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -3224,18 +3224,18 @@
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    ff                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    ff                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         \set ViolinIIMusicStaff.instrumentName = \markup {               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -3392,7 +3392,7 @@
                         
                         % ViolinIIMusicVoice [measure 279]                               %! SM4
                         gtqs'2.
-                        \ff                                                              %! IC1
+                        \ff                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -3787,17 +3787,17 @@
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 315]                               %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         \ottava #1
                         cs''''1
                         \<
                         \sffp
                         \startTrillSpan
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "pos. ord. + 5°/A4(II)"                              %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "pos. ord. + 5°/A4(II)"                              %! IC
+                            }                                                            %! IC
                         
                         % ViolinIIMusicVoice [measure 316]                               %! SM4
                         cs''''2.
@@ -3978,7 +3978,7 @@
                         % ViolinIIMusicVoice [measure 332]                               %! SM4
                         cs''''1
                         \repeatTie
-                        \revert NoteHead.style
+                        \revert NoteHead.style                                           %! OC
                         \ottava #0
                         
                         % ViolinIIMusicVoice [measure 333]                               %! SM4
@@ -4017,12 +4017,12 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "tasto + 1 click/3-4 sec."           %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "tasto + 1 click/3-4 sec."           %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -4065,18 +4065,18 @@
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    ff                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    ff                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -4225,7 +4225,7 @@
                         
                         % ViolaMusicVoice [measure 279]                                  %! SM4
                         aqs,2.
-                        \ff                                                              %! IC1
+                        \ff                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -4612,7 +4612,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 313]                                  %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         \set ViolaMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
@@ -4621,11 +4621,11 @@
                         \<
                         \sffp
                         \startTrillSpan
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "pos. ord. + 7°/A2(IV)"                              %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "pos. ord. + 7°/A2(IV)"                              %! IC
+                            }                                                            %! IC
                         \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                         
                         % ViolaMusicVoice [measure 314]                                  %! SM4
@@ -4813,7 +4813,7 @@
                         % ViolaMusicVoice [measure 332]                                  %! SM4
                         gqf''1
                         \repeatTie
-                        \revert NoteHead.style
+                        \revert NoteHead.style                                           %! OC
                         
                         % ViolaMusicVoice [measure 333]                                  %! SM4
                         R1 * 1/4
@@ -4847,12 +4847,12 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "tasto + 1 click/3-4 sec."           %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "tasto + 1 click/3-4 sec."           %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -4895,18 +4895,18 @@
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    ff                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    ff                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         \set CelloMusicStaff.instrumentName = \markup {                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -5055,7 +5055,7 @@
                         
                         % CelloMusicVoice [measure 279]                                  %! SM4
                         a,,2.
-                        \ff                                                              %! IC1
+                        \ff                                                              %! IC
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -5435,7 +5435,7 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 311]                                  %! SM4
-                        \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic                            %! OC
                         \set CelloMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
@@ -5444,11 +5444,11 @@
                         \<
                         \sffp
                         \startTrillSpan
-                        ^ \markup {                                                      %! IC1
-                            \whiteout                                                    %! IC1
-                                \upright                                                 %! IC1
-                                    "pos. ord. + 11°/A1(IV)"                             %! IC1
-                            }                                                            %! IC1
+                        ^ \markup {                                                      %! IC
+                            \whiteout                                                    %! IC
+                                \upright                                                 %! IC
+                                    "pos. ord. + 11°/A1(IV)"                             %! IC
+                            }                                                            %! IC
                         \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                         
                         % CelloMusicVoice [measure 312]                                  %! SM4
@@ -5644,7 +5644,7 @@
                         % CelloMusicVoice [measure 332]                                  %! SM4
                         d''1
                         \repeatTie
-                        \revert NoteHead.style
+                        \revert NoteHead.style                                           %! OC
                         
                         % CelloMusicVoice [measure 333]                                  %! SM4
                         R1 * 1/4

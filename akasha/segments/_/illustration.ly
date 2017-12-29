@@ -402,9 +402,9 @@
                     \context ViolaMusicVoice = "ViolaMusicVoice" {
                         
                         % ViolaMusicVoice [measure 1]                                    %! SM4
-                        \stopStaff                                                       %! IC1
-                        \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! IC1
-                        \startStaff                                                      %! IC1
+                        \stopStaff                                                       %! IC
+                        \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! IC
+                        \startStaff                                                      %! IC
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! DEFAULT_INSTRUMENT:SM8
                             \hcenter-in                                                  %! DEFAULT_INSTRUMENT:SM8
                                 #16                                                      %! DEFAULT_INSTRUMENT:SM8
@@ -421,16 +421,16 @@
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! DEFAULT_CLEF_UNCOLOR:SM7
                         c'4.
-                        -\downbow                                                        %! IC1
+                        -\downbow                                                        %! IC
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC1
-                                        {                                                %! IC1
-                                            \whiteout                                    %! IC1
-                                                \upright                                 %! IC1
-                                                    "OB + terminate abruptly"            %! IC1
-                                        }                                                %! IC1
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "OB + terminate abruptly"            %! IC
+                                        }                                                %! IC
                                     %%% \line                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -473,18 +473,18 @@
                                         }                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        _ \markup {                                                      %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    “                                                    %! IC1
-                            \dynamic                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(font-name . #f)                                   %! IC1
-                                    mf                                                   %! IC1
-                            \larger                                                      %! IC1
-                                \italic                                                  %! IC1
-                                    ”                                                    %! IC1
-                            }                                                            %! IC1
+                        _ \markup {                                                      %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    “                                                    %! IC
+                            \dynamic                                                     %! IC
+                                \override                                                %! IC
+                                    #'(font-name . #f)                                   %! IC
+                                    mf                                                   %! IC
+                            \larger                                                      %! IC
+                                \italic                                                  %! IC
+                                    ”                                                    %! IC
+                            }                                                            %! IC
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! DEFAULT_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! DEFAULT_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! DEFAULT_REDRAW_INSTRUMENT:SM8
