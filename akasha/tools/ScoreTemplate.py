@@ -30,9 +30,9 @@ class ScoreTemplate(baca.ScoreTemplate):
             \context MusicContext = "MusicContext" {
                 \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
                     \tag ViolinI %! ST4
-                    \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
-                        \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
-                            \set ViolinOneMusicStaff.instrumentName = \markup {      %! ST1
+                    \context ViolinIMusicStaff = "ViolinIMusicStaff" {
+                        \context ViolinIMusicVoice = "ViolinIMusicVoice" {
+                            \set ViolinIMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                          %! ST1
                                     #16                                              %! ST1
                                     \line                                            %! ST1
@@ -41,7 +41,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             I                                        %! ST1
                                         }                                            %! ST1
                                 }                                                    %! ST1
-                            \set ViolinOneMusicStaff.shortInstrumentName = \markup { %! ST1
+                            \set ViolinIMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                          %! ST1
                                     #10                                              %! ST1
                                     \line                                            %! ST1
@@ -55,9 +55,9 @@ class ScoreTemplate(baca.ScoreTemplate):
                         }
                     }
                     \tag ViolinII %! ST4
-                    \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
-                        \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
-                            \set ViolinTwoMusicStaff.instrumentName = \markup {      %! ST1
+                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
+                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
+                            \set ViolinIIMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                          %! ST1
                                     #16                                              %! ST1
                                     \line                                            %! ST1
@@ -66,7 +66,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             II                                       %! ST1
                                         }                                            %! ST1
                                 }                                                    %! ST1
-                            \set ViolinTwoMusicStaff.shortInstrumentName = \markup { %! ST1
+                            \set ViolinIIMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                          %! ST1
                                     #10                                              %! ST1
                                     \line                                            %! ST1
@@ -143,13 +143,13 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # VIOLIN 1
         violin_one_music_voice = abjad.Voice(
-            context_name='ViolinOneMusicVoice',
-            name='ViolinOneMusicVoice',
+            context_name='ViolinIMusicVoice',
+            name='ViolinIMusicVoice',
             )
         violin_one_music_staff = abjad.Staff(
             [violin_one_music_voice],
-            context_name='ViolinOneMusicStaff',
-            name='ViolinOneMusicStaff',
+            context_name='ViolinIMusicStaff',
+            name='ViolinIMusicStaff',
             )
         abjad.annotate(
             violin_one_music_staff,
@@ -165,13 +165,13 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # VIOLIN 2
         violin_two_music_voice = abjad.Voice(
-            context_name='ViolinTwoMusicVoice',
-            name='ViolinTwoMusicVoice',
+            context_name='ViolinIIMusicVoice',
+            name='ViolinIIMusicVoice',
             )
         violin_two_music_staff = abjad.Staff(
             [violin_two_music_voice],
-            context_name='ViolinTwoMusicStaff',
-            name='ViolinTwoMusicStaff',
+            context_name='ViolinIIMusicStaff',
+            name='ViolinIIMusicStaff',
             )
         abjad.annotate(
             violin_two_music_staff,

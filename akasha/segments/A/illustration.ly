@@ -904,11 +904,11 @@
         \context MusicContext = "MusicContext" {
             \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
                 \tag ViolinI                                                             %! ST4
-                \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
-                    \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
+                \context ViolinIMusicStaff = "ViolinIMusicStaff" {
+                    \context ViolinIMusicVoice = "ViolinIMusicVoice" {
                         
-                        % ViolinOneMusicVoice [measure 4]                                %! SM4
-                        \set ViolinOneMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
+                        % ViolinIMusicVoice [measure 4]                                  %! SM4
+                        \set ViolinIMusicStaff.instrumentName = \markup {                %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_INSTRUMENT:SM8
@@ -917,7 +917,7 @@
                                         I                                                %! REAPPLIED_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
-                        \set ViolinOneMusicStaff.shortInstrumentName = \markup {         %! REAPPLIED_INSTRUMENT:SM8
+                        \set ViolinIMusicStaff.shortInstrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #10                                                      %! REAPPLIED_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_INSTRUMENT:SM8
@@ -926,11 +926,11 @@
                                         I                                                %! REAPPLIED_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
-                        \set ViolinOneMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
+                        \set ViolinIMusicStaff.forceClef = ##t                           %! REAPPLIED_CLEF:SM8
                         \clef "treble"                                                   %! REAPPLIED_CLEF:SM8
-                        \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                        %%% \override ViolinOneMusicStaff.Clef.color = ##f               %! REAPPLIED_CLEF_UNCOLOR:SM7
-                        \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                        \once \override ViolinIMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                        %%% \override ViolinIMusicStaff.Clef.color = ##f                 %! REAPPLIED_CLEF_UNCOLOR:SM7
+                        \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         R1 * 3/4
                         ^ \markup {
                             \column
@@ -993,7 +993,7 @@
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        \set ViolinOneMusicStaff.instrumentName = \markup {              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \set ViolinIMusicStaff.instrumentName = \markup {                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1002,7 +1002,7 @@
                                         I                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                        \set ViolinOneMusicStaff.shortInstrumentName = \markup {         %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \set ViolinIMusicStaff.shortInstrumentName = \markup {           %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #10                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1011,22 +1011,22 @@
                                         I                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                        \override ViolinOneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
-                        \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                        \override ViolinIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
+                        \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                         
-                        % ViolinOneMusicVoice [measure 5]                                %! SM4
+                        % ViolinIMusicVoice [measure 5]                                  %! SM4
                         R1 * 3/4
                         
-                        % ViolinOneMusicVoice [measure 6]                                %! SM4
+                        % ViolinIMusicVoice [measure 6]                                  %! SM4
                         R1 * 1/4
                         
-                        % ViolinOneMusicVoice [measure 7]                                %! SM4
+                        % ViolinIMusicVoice [measure 7]                                  %! SM4
                         R1 * 1
                         
-                        % ViolinOneMusicVoice [measure 8]                                %! SM4
+                        % ViolinIMusicVoice [measure 8]                                  %! SM4
                         R1 * 1/4
                         
-                        % ViolinOneMusicVoice [measure 9]                                %! SM4
+                        % ViolinIMusicVoice [measure 9]                                  %! SM4
                         e'4
                         \mp                                                              %! IC1
                         ^ \markup {                                                      %! IC1
@@ -1042,16 +1042,16 @@
                         
                         eqs'8
                         
-                        % ViolinOneMusicVoice [measure 10]                               %! SM4
+                        % ViolinIMusicVoice [measure 10]                                 %! SM4
                         eqs'8
                         \repeatTie
                         
                         r2..
                         
-                        % ViolinOneMusicVoice [measure 11]                               %! SM4
+                        % ViolinIMusicVoice [measure 11]                                 %! SM4
                         R1 * 1/4
                         
-                        % ViolinOneMusicVoice [measure 12]                               %! SM4
+                        % ViolinIMusicVoice [measure 12]                                 %! SM4
                         r1
                         \times 8/9 {
                             
@@ -1089,10 +1089,10 @@
                             r8
                         }
                         
-                        % ViolinOneMusicVoice [measure 13]                               %! SM4
+                        % ViolinIMusicVoice [measure 13]                                 %! SM4
                         R1 * 1/4
                         
-                        % ViolinOneMusicVoice [measure 14]                               %! SM4
+                        % ViolinIMusicVoice [measure 14]                                 %! SM4
                         r1.
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1127,8 +1127,8 @@
                             }
                         \times 1/1 {
                             
-                            % ViolinOneMusicVoice [measure 15]                           %! SM4
-                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
+                            % ViolinIMusicVoice [measure 15]                             %! SM4
+                            \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
                             d''16 * 15/8
                             \pp                                                          %! IC1
@@ -1157,13 +1157,13 @@
                             
                             e''16 * 407/64
                             
-                            \revert ViolinOneMusicStaff.Stem.stemlet-length
+                            \revert ViolinIMusicStaff.Stem.stemlet-length
                             d''16 * 117/16
                             ]
                         }
                         \revert TupletNumber.text
                         
-                        % ViolinOneMusicVoice [measure 17]                               %! SM4
+                        % ViolinIMusicVoice [measure 17]                                 %! SM4
                         R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1197,8 +1197,8 @@
                             }
                         \times 1/1 {
                             
-                            % ViolinOneMusicVoice [measure 18]                           %! SM4
-                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
+                            % ViolinIMusicVoice [measure 18]                             %! SM4
+                            \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
                             e''16 * 241/32
                             [
@@ -1211,13 +1211,13 @@
                             
                             r16 * 33/16
                             
-                            \revert ViolinOneMusicStaff.Stem.stemlet-length
+                            \revert ViolinIMusicStaff.Stem.stemlet-length
                             d''16 * 61/32
                             ]
                         }
                         \revert TupletNumber.text
                         
-                        % ViolinOneMusicVoice [measure 19]                               %! SM4
+                        % ViolinIMusicVoice [measure 19]                                 %! SM4
                         R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1252,8 +1252,8 @@
                             }
                         \times 1/1 {
                             
-                            % ViolinOneMusicVoice [measure 20]                           %! SM4
-                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
+                            % ViolinIMusicVoice [measure 20]                             %! SM4
+                            \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
                             e''16 * 113/64
                             [
@@ -1266,29 +1266,29 @@
                             
                             r16 * 145/32
                             
-                            \revert ViolinOneMusicStaff.Stem.stemlet-length
+                            \revert ViolinIMusicStaff.Stem.stemlet-length
                             e''16 * 409/64
                             ]
                         }
                         \revert TupletNumber.text
                         
-                        % ViolinOneMusicVoice [measure 21]                               %! SM4
+                        % ViolinIMusicVoice [measure 21]                                 %! SM4
                         R1 * 1/4
                         
-                        % ViolinOneMusicVoice [measure 22]                               %! SM4
+                        % ViolinIMusicVoice [measure 22]                                 %! SM4
                         R1 * 3/4
                         
-                        % ViolinOneMusicVoice [measure 23]                               %! SM4
+                        % ViolinIMusicVoice [measure 23]                                 %! SM4
                         R1 * 1/4
                         
                     }
                 }
                 \tag ViolinII                                                            %! ST4
-                \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
-                    \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
+                \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
+                    \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
                         
-                        % ViolinTwoMusicVoice [measure 4]                                %! SM4
-                        \set ViolinTwoMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
+                        % ViolinIIMusicVoice [measure 4]                                 %! SM4
+                        \set ViolinIIMusicStaff.instrumentName = \markup {               %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_INSTRUMENT:SM8
@@ -1297,7 +1297,7 @@
                                         II                                               %! REAPPLIED_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {         %! REAPPLIED_INSTRUMENT:SM8
+                        \set ViolinIIMusicStaff.shortInstrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #10                                                      %! REAPPLIED_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_INSTRUMENT:SM8
@@ -1306,11 +1306,11 @@
                                         II                                               %! REAPPLIED_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
-                        \set ViolinTwoMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
+                        \set ViolinIIMusicStaff.forceClef = ##t                          %! REAPPLIED_CLEF:SM8
                         \clef "treble"                                                   %! REAPPLIED_CLEF:SM8
-                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                        %%% \override ViolinTwoMusicStaff.Clef.color = ##f               %! REAPPLIED_CLEF_UNCOLOR:SM7
-                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                        \once \override ViolinIIMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                        %%% \override ViolinIIMusicStaff.Clef.color = ##f                %! REAPPLIED_CLEF_UNCOLOR:SM7
+                        \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         R1 * 3/4
                         ^ \markup {
                             \column
@@ -1373,7 +1373,7 @@
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        \set ViolinTwoMusicStaff.instrumentName = \markup {              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \set ViolinIIMusicStaff.instrumentName = \markup {               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1382,7 +1382,7 @@
                                         II                                               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {         %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \set ViolinIIMusicStaff.shortInstrumentName = \markup {          %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #10                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1391,17 +1391,17 @@
                                         II                                               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
-                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                        \override ViolinIIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
+                        \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                         
-                        % ViolinTwoMusicVoice [measure 5]                                %! SM4
+                        % ViolinIIMusicVoice [measure 5]                                 %! SM4
                         R1 * 3/4
                         
-                        % ViolinTwoMusicVoice [measure 6]                                %! SM4
+                        % ViolinIIMusicVoice [measure 6]                                 %! SM4
                         R1 * 1/4
                         \times 8/9 {
                             
-                            % ViolinTwoMusicVoice [measure 7]                            %! SM4
+                            % ViolinIIMusicVoice [measure 7]                             %! SM4
                             bf32
                             -\staccato                                                   %! IC1
                             \p                                                           %! IC1
@@ -1438,10 +1438,10 @@
                         
                         r2
                         
-                        % ViolinTwoMusicVoice [measure 8]                                %! SM4
+                        % ViolinIIMusicVoice [measure 8]                                 %! SM4
                         R1 * 1/4
                         
-                        % ViolinTwoMusicVoice [measure 9]                                %! SM4
+                        % ViolinIIMusicVoice [measure 9]                                 %! SM4
                         r2.
                         
                         r4.
@@ -1454,7 +1454,7 @@
                                     "tasto + 1/2 scratch"                                %! IC1
                             }                                                            %! IC1
                         
-                        % ViolinTwoMusicVoice [measure 10]                               %! SM4
+                        % ViolinIIMusicVoice [measure 10]                                %! SM4
                         d'8
                         \repeatTie
                         
@@ -1462,20 +1462,20 @@
                         
                         c'2
                         
-                        % ViolinTwoMusicVoice [measure 11]                               %! SM4
+                        % ViolinIIMusicVoice [measure 11]                                %! SM4
                         R1 * 1/4
                         
-                        % ViolinTwoMusicVoice [measure 12]                               %! SM4
+                        % ViolinIIMusicVoice [measure 12]                                %! SM4
                         r4
                         
                         cs'4.
                         
                         ctqs'2..
                         
-                        % ViolinTwoMusicVoice [measure 13]                               %! SM4
+                        % ViolinIIMusicVoice [measure 13]                                %! SM4
                         R1 * 1/4
                         
-                        % ViolinTwoMusicVoice [measure 14]                               %! SM4
+                        % ViolinIIMusicVoice [measure 14]                                %! SM4
                         r1.
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1510,8 +1510,8 @@
                             }
                         \times 1/1 {
                             
-                            % ViolinTwoMusicVoice [measure 15]                           %! SM4
-                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
+                            % ViolinIIMusicVoice [measure 15]                            %! SM4
+                            \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
                             bf'16 * 247/32
                             \pp                                                          %! IC1
@@ -1538,13 +1538,13 @@
                             
                             c''16 * 2
                             
-                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
+                            \revert ViolinIIMusicStaff.Stem.stemlet-length
                             bf'16 * 31/16
                             ]
                         }
                         \revert TupletNumber.text
                         
-                        % ViolinTwoMusicVoice [measure 17]                               %! SM4
+                        % ViolinIIMusicVoice [measure 17]                                %! SM4
                         R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1578,8 +1578,8 @@
                             }
                         \times 1/1 {
                             
-                            % ViolinTwoMusicVoice [measure 18]                           %! SM4
-                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
+                            % ViolinIIMusicVoice [measure 18]                            %! SM4
+                            \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
                             c''16 * 115/64
                             [
@@ -1594,13 +1594,13 @@
                             
                             r16 * 81/16
                             
-                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
+                            \revert ViolinIIMusicStaff.Stem.stemlet-length
                             bf'16 * 429/64
                             ]
                         }
                         \revert TupletNumber.text
                         
-                        % ViolinTwoMusicVoice [measure 19]                               %! SM4
+                        % ViolinIIMusicVoice [measure 19]                                %! SM4
                         R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1635,8 +1635,8 @@
                             }
                         \times 1/1 {
                             
-                            % ViolinTwoMusicVoice [measure 20]                           %! SM4
-                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
+                            % ViolinIIMusicVoice [measure 20]                            %! SM4
+                            \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
                             c''16 * 477/64
                             [
@@ -1647,13 +1647,13 @@
                             
                             r16 * 17/8
                             
-                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
+                            \revert ViolinIIMusicStaff.Stem.stemlet-length
                             c''16 * 15/8
                             ]
                         }
                         \revert TupletNumber.text
                         
-                        % ViolinTwoMusicVoice [measure 21]                               %! SM4
+                        % ViolinIIMusicVoice [measure 21]                                %! SM4
                         R1 * 1/4
                         \override TupletNumber.text = \markup {
                             \scale
@@ -1687,8 +1687,8 @@
                             }
                         \times 1/1 {
                             
-                            % ViolinTwoMusicVoice [measure 22]                           %! SM4
-                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
+                            % ViolinIIMusicVoice [measure 22]                            %! SM4
+                            \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
                             bf'16 * 13/8
                             [
@@ -1697,13 +1697,13 @@
                             
                             r16 * 49/16
                             
-                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
+                            \revert ViolinIIMusicStaff.Stem.stemlet-length
                             bf'16 * 343/64
                             ]
                         }
                         \revert TupletNumber.text
                         
-                        % ViolinTwoMusicVoice [measure 23]                               %! SM4
+                        % ViolinIIMusicVoice [measure 23]                                %! SM4
                         R1 * 1/4
                         
                     }

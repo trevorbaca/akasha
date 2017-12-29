@@ -76,29 +76,29 @@
     }
     \context {
         \Voice
-        \name ViolinOneMusicVoice
+        \name ViolinIMusicVoice
         \type Engraver_group
         \alias Voice
     }
     \context {
         \Staff
-        \name ViolinOneMusicStaff
+        \name ViolinIMusicStaff
         \type Engraver_group
         \alias Staff
-        \accepts ViolinOneMusicVoice
+        \accepts ViolinIMusicVoice
     }
     \context {
         \Voice
-        \name ViolinTwoMusicVoice
+        \name ViolinIIMusicVoice
         \type Engraver_group
         \alias Voice
     }
     \context {
         \Staff
-        \name ViolinTwoMusicStaff
+        \name ViolinIIMusicStaff
         \type Engraver_group
         \alias Staff
-        \accepts ViolinTwoMusicVoice
+        \accepts ViolinIIMusicVoice
     }
     \context {
         \Voice
@@ -131,8 +131,8 @@
         \name StringQuartetStaffGroup
         \type Engraver_group
         \alias StaffGroup
-        \accepts ViolinOneMusicStaff
-        \accepts ViolinTwoMusicStaff
+        \accepts ViolinIMusicStaff
+        \accepts ViolinIIMusicStaff
         \accepts ViolaMusicStaff
         \accepts CelloMusicStaff
         \override StaffGrouper.staff-staff-spacing.minimum-distance = 12

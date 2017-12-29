@@ -60,32 +60,32 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
-                        'ViolinOneMusicStaff',
+                        'ViolinIIMusicStaff',
                         [
                             abjad.Momento(
-                                context='ViolinOneMusicVoice',
+                                context='ViolinIIMusicVoice',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             abjad.Momento(
-                                context='ViolinOneMusicVoice',
+                                context='ViolinIIMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='ViolinI',
+                                value='ViolinII',
                                 ),
                             ],
                         ),
                     (
-                        'ViolinTwoMusicStaff',
+                        'ViolinIMusicStaff',
                         [
                             abjad.Momento(
-                                context='ViolinTwoMusicVoice',
+                                context='ViolinIMusicVoice',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             abjad.Momento(
-                                context='ViolinTwoMusicVoice',
+                                context='ViolinIMusicVoice',
                                 prototype='abjad.Instrument',
-                                value='ViolinII',
+                                value='ViolinI',
                                 ),
                             ],
                         ),
