@@ -449,8 +449,9 @@
                             %%% \override ViolinIMusicStaff.Clef.color = ##f             %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                             \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d'16 * 117/16
-                            \p                                                           %! IC
+                            \p                                                           %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column
@@ -603,8 +604,9 @@
                         \revert TupletNumber.text
                         
                         % ViolinIMusicVoice [measure 219]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         fs''2.
-                        \ppp                                                             %! IC
+                        \ppp                                                             %! EXPLICIT_DYNAMIC:SM8
                         
                         % ViolinIMusicVoice [measure 220]                                %! SM4
                         R1 * 1/4
@@ -685,8 +687,9 @@
                             %%% \override ViolinIIMusicStaff.Clef.color = ##f            %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                             \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override ViolinIIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs'16 * 109/64
-                            \p                                                           %! IC
+                            \p                                                           %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column
@@ -839,8 +842,9 @@
                         \revert TupletNumber.text
                         
                         % ViolinIIMusicVoice [measure 219]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         af'2.
-                        \ppp                                                             %! IC
+                        \ppp                                                             %! EXPLICIT_DYNAMIC:SM8
                         
                         % ViolinIIMusicVoice [measure 220]                               %! SM4
                         R1 * 1/4
@@ -1030,8 +1034,9 @@
                             \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
                             %%% \override CelloMusicStaff.Clef.color = ##f               %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                             \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'16 * 119/64
-                            \p                                                           %! IC
+                            \p                                                           %! EXPLICIT_DYNAMIC:SM8
                             [
                             ^ \markup {
                                 \column
@@ -1120,8 +1125,9 @@
                         \revert TupletNumber.text
                         
                         % CelloMusicVoice [measure 219]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,2.
-                        \ppp                                                             %! IC
+                        \ppp                                                             %! EXPLICIT_DYNAMIC:SM8
                         
                         % CelloMusicVoice [measure 220]                                  %! SM4
                         R1 * 1/4

@@ -1806,6 +1806,14 @@
                             %%%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
                             %%%                 [K.17]                                   %! STAGE_NUMBER_MARKUP:SM3
                             %%%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
+                            \line                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        \large                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                rit.                                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
                             %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
@@ -2595,8 +2603,9 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 279]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a''2.
-                        \ff                                                              %! IC
+                        \ff                                                              %! REDUNDANT_DYNAMIC:SM8
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -3460,8 +3469,9 @@
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 279]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         gtqs'2.
-                        \ff                                                              %! IC
+                        \ff                                                              %! REDUNDANT_DYNAMIC:SM8
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -4293,8 +4303,9 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 279]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aqs,2.
-                        \ff                                                              %! IC
+                        \ff                                                              %! EXPLICIT_DYNAMIC:SM8
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {
@@ -5123,8 +5134,9 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 279]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a,,2.
-                        \ff                                                              %! IC
+                        \ff                                                              %! REDUNDANT_DYNAMIC:SM8
                         \repeatTie
                         \stopTextSpan
                         ^ \markup {

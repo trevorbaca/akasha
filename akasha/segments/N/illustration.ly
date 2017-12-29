@@ -1193,9 +1193,10 @@
                             
                             r8
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             f'''32
                             -\staccato                                                   %! IC
-                            \pp                                                          %! IC
+                            \pp                                                          %! REDUNDANT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -1501,9 +1502,9 @@
                     \context CelloMusicVoice = "CelloMusicVoice" {
                         
                         % CelloMusicVoice [measure 369]                                  %! SM4
-                        \stopStaff                                                       %! IC
-                        \once \override CelloMusicStaff.StaffSymbol.line-count = 1       %! IC
-                        \startStaff                                                      %! IC
+                        \stopStaff                                                       %! EXPLICIT_STAFF_LINES:SM8
+                        \once \override CelloMusicStaff.StaffSymbol.line-count = 1       %! EXPLICIT_STAFF_LINES:SM8
+                        \startStaff                                                      %! EXPLICIT_STAFF_LINES:SM8
                         \override RepeatTie.direction = #up                              %! OC
                         \set CelloMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -1521,6 +1522,7 @@
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                         c'4.
                         -\downbow                                                        %! IC
                         \pp                                                              %! REAPPLIED_DYNAMIC:SM8
