@@ -2181,8 +2181,8 @@
                         \times 1/1 {
                             
                             % ViolinOneMusicVoice [measure 159]                          %! SM4
+                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             ef''16 * 227/32
                             \pp                                                          %! IC1
                             [
@@ -2194,7 +2194,7 @@
                             
                             r16 * 199/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinOneMusicStaff.Stem.stemlet-length
                             f''16 * 115/64
                             ]
                         }
@@ -2232,8 +2232,8 @@
                         \times 1/1 {
                             
                             % ViolinOneMusicVoice [measure 160]                          %! SM4
+                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
-                            \override Staff.Stem.stemlet-length = #0.75
                             ef''16 * 109/64
                             [
                             
@@ -2243,7 +2243,7 @@
                             
                             r16 * 31/8
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinOneMusicStaff.Stem.stemlet-length
                             f''16 * 191/32
                             ]
                         }
@@ -2375,8 +2375,8 @@
                         \times 1/1 {
                             
                             % ViolinOneMusicVoice [measure 164]                          %! SM4
+                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             f''16 * 241/32
                             \p
                             [
@@ -2392,7 +2392,7 @@
                             
                             r16 * 33/16
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinOneMusicStaff.Stem.stemlet-length
                             ef''16 * 61/32
                             ]
                             \<
@@ -2523,8 +2523,8 @@
                             }
                         \times 1/1 {
                             
+                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             e''16 * 31/4
                             \p
                             [
@@ -2553,7 +2553,7 @@
                             
                             r16 * 127/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinOneMusicStaff.Stem.stemlet-length
                             e''16 * 31/16
                             ]
                             \>
@@ -2647,8 +2647,8 @@
                         \times 1/1 {
                             
                             % ViolinOneMusicVoice [measure 171]                          %! SM4
+                            \override ViolinOneMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             g''16 * 31/4
                             \p
                             [
@@ -2677,7 +2677,7 @@
                             
                             r16 * 127/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinOneMusicStaff.Stem.stemlet-length
                             g''16 * 31/16
                             ]
                             \p
@@ -3694,8 +3694,8 @@
                         \times 1/1 {
                             
                             % ViolinTwoMusicVoice [measure 159]                          %! SM4
+                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
-                            \override Staff.Stem.stemlet-length = #0.75
                             b'16 * 13/8
                             \pp                                                          %! IC1
                             [
@@ -3709,7 +3709,7 @@
                             
                             r16 * 49/16
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
                             b'16 * 343/64
                             ]
                         }
@@ -3747,8 +3747,8 @@
                         \times 1/1 {
                             
                             % ViolinTwoMusicVoice [measure 160]                          %! SM4
+                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             cs''16 * 117/16
                             [
                             
@@ -3756,7 +3756,7 @@
                             
                             b'16 * 73/32
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
                             cs''16 * 59/32
                             ]
                         }
@@ -3840,8 +3840,8 @@
                             }
                         \times 1/1 {
                             
+                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             cs''16 * 241/32
                             [
                             
@@ -3855,7 +3855,7 @@
                             
                             r16 * 33/16
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
                             b'16 * 61/32
                             ]
                             \>
@@ -3982,8 +3982,8 @@
                         \times 1/1 {
                             
                             % ViolinTwoMusicVoice [measure 167]                          %! SM4
+                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             b'16 * 497/64
                             [
                             
@@ -4013,7 +4013,7 @@
                             
                             r16 * 127/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
                             c''16 * 63/32
                             ]
                             \<
@@ -4100,8 +4100,8 @@
                             }
                         \times 1/1 {
                             
+                            \override ViolinTwoMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \override Staff.Stem.stemlet-length = #0.75
                             c''16 * 497/64
                             [
                             
@@ -4131,7 +4131,7 @@
                             
                             r16 * 127/64
                             
-                            \revert Staff.Stem.stemlet-length
+                            \revert ViolinTwoMusicStaff.Stem.stemlet-length
                             cs''16 * 63/32
                             ]
                             \p
