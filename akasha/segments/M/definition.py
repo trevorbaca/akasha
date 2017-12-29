@@ -71,8 +71,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [(2, 10)],
         ),
@@ -108,13 +108,13 @@ maker(
 ### stage 2 ###
 
 maker(
-    baca.scope('ViolinOneMusicVoice', 2, 10),
+    baca.scope('ViolinIMusicVoice', 2, 10),
     baca.repeat_ties_up(),
     baca.pitches('Bb4'),
     )
 
 maker(
-    baca.scope('ViolinTwoMusicVoice', 2, 10),
+    baca.scope('ViolinIIMusicVoice', 2, 10),
     baca.pitches('Bb3'),
     )
 
@@ -125,8 +125,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [2],
         ),
@@ -144,8 +144,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [4],
         ),
@@ -160,8 +160,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [5],
         ),
@@ -176,8 +176,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [6],
         ),
@@ -192,8 +192,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [7],
         ),
@@ -213,8 +213,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [8],
         ),
@@ -229,8 +229,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [9],
         ),
@@ -245,8 +245,8 @@ maker(
 
 maker(
     baca.make_scopes([
-        'ViolinOneMusicVoice',
-        'ViolinTwoMusicVoice',
+        'ViolinIMusicVoice',
+        'ViolinIIMusicVoice',
         'ViolaMusicVoice'],
         [10],
         ),

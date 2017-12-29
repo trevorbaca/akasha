@@ -54,7 +54,7 @@ maker.validate_measures_per_stage()
 ### stages 1-2 ###
 
 maker(
-    baca.scope('ViolinOneMusicVoice', 1),
+    baca.scope('ViolinIMusicVoice', 1),
     abjad.new(
         akasha.accelerando_rhythm(fuse_counts=[1]),
         rhythm_maker__logical_tie_masks=abjad.silence([1]),
@@ -63,7 +63,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinTwoMusicVoice', 1),
+    baca.scope('ViolinIIMusicVoice', 1),
     akasha.polyphony_rhythm(),
     )
 
@@ -113,7 +113,7 @@ maker(
 ### stages 8-9 ###
 
 maker(
-    baca.scope('ViolinTwoMusicVoice', 8, 9),
+    baca.scope('ViolinIIMusicVoice', 8, 9),
     abjad.new(
         akasha.accelerando_rhythm(fuse_counts=(2, 1)),
         rhythm_maker__logical_tie_masks=abjad.silence([3]),
@@ -135,12 +135,12 @@ maker(
 ###############################################################################
 
 maker(
-    baca.scope('ViolinOneMusicVoice', 1),
+    baca.scope('ViolinIMusicVoice', 1),
     baca.pitches('E5 D5'),
     )
 
 maker(
-    baca.scope('ViolinTwoMusicVoice', 1),
+    baca.scope('ViolinIIMusicVoice', 1),
     baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
     )
 
@@ -150,7 +150,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinTwoMusicVoice', 1),
+    baca.scope('ViolinIIMusicVoice', 1),
     baca.markup.tasto_fractional_scratch(1, 2),
     baca.dynamic('mp'),
     )
@@ -162,7 +162,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinTwoMusicVoice', 8, 9),
+    baca.scope('ViolinIIMusicVoice', 8, 9),
     baca.markup.tasto_XFB(),
     baca.pitches('C5 Bb4'),
     baca.dynamic('pp'),

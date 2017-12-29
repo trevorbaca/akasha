@@ -80,50 +80,50 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
-                        'ViolinOneMusicStaff',
+                        'ViolinIIMusicStaff',
                         [
                             abjad.Momento(
-                                context='ViolinOneMusicVoice',
+                                context='ViolinIIMusicVoice',
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
                             abjad.Momento(
-                                context='ViolinOneMusicVoice',
-                                prototype='abjad.Instrument',
-                                value='ViolinI',
-                                ),
-                            ],
-                        ),
-                    (
-                        'ViolinOneMusicVoice',
-                        [
-                            abjad.Momento(
-                                context='ViolinOneMusicVoice',
-                                prototype='abjad.Dynamic',
-                                value='pp',
-                                ),
-                            ],
-                        ),
-                    (
-                        'ViolinTwoMusicStaff',
-                        [
-                            abjad.Momento(
-                                context='ViolinTwoMusicVoice',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='ViolinTwoMusicVoice',
+                                context='ViolinIIMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='ViolinII',
                                 ),
                             ],
                         ),
                     (
-                        'ViolinTwoMusicVoice',
+                        'ViolinIIMusicVoice',
                         [
                             abjad.Momento(
-                                context='ViolinTwoMusicVoice',
+                                context='ViolinIIMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='pp',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolinIMusicStaff',
+                        [
+                            abjad.Momento(
+                                context='ViolinIMusicVoice',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='ViolinIMusicVoice',
+                                prototype='abjad.Instrument',
+                                value='ViolinI',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolinIMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='ViolinIMusicVoice',
                                 prototype='abjad.Dynamic',
                                 value='pp',
                                 ),

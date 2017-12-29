@@ -707,15 +707,15 @@
         \context MusicContext = "MusicContext" {
             \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
                 \tag ViolinI                                                             %! ST4
-                \context ViolinOneMusicStaff = "ViolinOneMusicStaff" {
-                    \context ViolinOneMusicVoice = "ViolinOneMusicVoice" {
+                \context ViolinIMusicStaff = "ViolinIMusicStaff" {
+                    \context ViolinIMusicVoice = "ViolinIMusicVoice" {
                         \times 8/14 {
                             
-                            % ViolinOneMusicVoice [measure 200]                          %! SM4
+                            % ViolinIMusicVoice [measure 200]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
-                            \once \override ViolinOneMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
+                            \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
-                            \set ViolinOneMusicStaff.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
+                            \set ViolinIMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
                                     \line                                                %! REAPPLIED_INSTRUMENT:SM8
@@ -724,7 +724,7 @@
                                             I                                            %! REAPPLIED_INSTRUMENT:SM8
                                         }                                                %! REAPPLIED_INSTRUMENT:SM8
                                 }                                                        %! REAPPLIED_INSTRUMENT:SM8
-                            \set ViolinOneMusicStaff.shortInstrumentName = \markup {     %! REAPPLIED_INSTRUMENT:SM8
+                            \set ViolinIMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #10                                                  %! REAPPLIED_INSTRUMENT:SM8
                                     \line                                                %! REAPPLIED_INSTRUMENT:SM8
@@ -733,13 +733,13 @@
                                             I                                            %! REAPPLIED_INSTRUMENT:SM8
                                         }                                                %! REAPPLIED_INSTRUMENT:SM8
                                 }                                                        %! REAPPLIED_INSTRUMENT:SM8
-                            \set ViolinOneMusicStaff.forceClef = ##t                     %! REAPPLIED_CLEF:SM8
+                            \set ViolinIMusicStaff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
                             \clef "treble"                                               %! REAPPLIED_CLEF:SM8
-                            \once \override ViolinOneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                            %%% \override ViolinOneMusicStaff.Clef.color = ##f           %! REAPPLIED_CLEF_UNCOLOR:SM7
-                            \once \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                            \once \override ViolinOneMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
-                            \once \override ViolinOneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+                            \once \override ViolinIMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                            %%% \override ViolinIMusicStaff.Clef.color = ##f             %! REAPPLIED_CLEF_UNCOLOR:SM7
+                            \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                            \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                             r16
                             \pp                                                          %! REAPPLIED_DYNAMIC:SM8
                             ^ \markup {
@@ -803,7 +803,7 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }
                                 }
-                            \set ViolinOneMusicStaff.instrumentName = \markup {          %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            \set ViolinIMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     \line                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -812,7 +812,7 @@
                                             I                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                         }                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 }                                                        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                            \set ViolinOneMusicStaff.shortInstrumentName = \markup {     %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            \set ViolinIMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     #10                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     \line                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -821,8 +821,8 @@
                                             I                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                         }                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 }                                                        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                            \override ViolinOneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
-                            \override ViolinOneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                            \override ViolinIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
+                            \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                             
                             \once \override Hairpin.circled-tip = ##t
                             g'''16
@@ -882,7 +882,7 @@
                         }
                         \times 4/6 {
                             
-                            % ViolinOneMusicVoice [measure 201]                          %! SM4
+                            % ViolinIMusicVoice [measure 201]                            %! SM4
                             r16
                             
                             bf'''16
@@ -932,7 +932,7 @@
                         \tweak text #tuplet-number::calc-fraction-text
                         \times 6/10 {
                             
-                            % ViolinOneMusicVoice [measure 202]                          %! SM4
+                            % ViolinIMusicVoice [measure 202]                            %! SM4
                             r16
                             
                             d''''16
@@ -957,7 +957,7 @@
                         }
                         \times 12/18 {
                             
-                            % ViolinOneMusicVoice [measure 203]                          %! SM4
+                            % ViolinIMusicVoice [measure 203]                            %! SM4
                             r16
                             
                             b'''16
@@ -998,7 +998,7 @@
                             ]
                         }
                         
-                        % ViolinOneMusicVoice [measure 204]                              %! SM4
+                        % ViolinIMusicVoice [measure 204]                                %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1029,14 +1029,14 @@
                         \repeatTie
                         \glissando
                         
-                        % ViolinOneMusicVoice [measure 205]                              %! SM4
+                        % ViolinIMusicVoice [measure 205]                                %! SM4
                         g''2.
                         
                         g''4.
                         \repeatTie
                         \glissando
                         
-                        % ViolinOneMusicVoice [measure 206]                              %! SM4
+                        % ViolinIMusicVoice [measure 206]                                %! SM4
                         f''2
                         \mf
                         \stopTextSpan
@@ -1047,7 +1047,7 @@
                                     tasto
                             }
                         
-                        % ViolinOneMusicVoice [measure 207]                              %! SM4
+                        % ViolinIMusicVoice [measure 207]                                %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1074,11 +1074,11 @@
                         \mf
                         \startTextSpan
                         
-                        % ViolinOneMusicVoice [measure 208]                              %! SM4
+                        % ViolinIMusicVoice [measure 208]                                %! SM4
                         fs''4.
                         \glissando
                         
-                        % ViolinOneMusicVoice [measure 209]                              %! SM4
+                        % ViolinIMusicVoice [measure 209]                                %! SM4
                         e''2
                         \p
                         \stopTextSpan
@@ -1089,7 +1089,7 @@
                                     FB
                             }
                         
-                        % ViolinOneMusicVoice [measure 210]                              %! SM4
+                        % ViolinIMusicVoice [measure 210]                                %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1116,14 +1116,14 @@
                         \p
                         \startTextSpan
                         
-                        % ViolinOneMusicVoice [measure 211]                              %! SM4
+                        % ViolinIMusicVoice [measure 211]                                %! SM4
                         af''2.
                         
                         af''4.
                         \repeatTie
                         \glissando
                         
-                        % ViolinOneMusicVoice [measure 212]                              %! SM4
+                        % ViolinIMusicVoice [measure 212]                                %! SM4
                         fs''2.
                         
                         fs''4.
@@ -1136,29 +1136,29 @@
                                     XFB
                             }
                         
-                        % ViolinOneMusicVoice [measure 213]                              %! SM4
+                        % ViolinIMusicVoice [measure 213]                                %! SM4
                         R1 * 1/4
                         
-                        % ViolinOneMusicVoice [measure 214]                              %! SM4
+                        % ViolinIMusicVoice [measure 214]                                %! SM4
                         fs''2
                         \ppp                                                             %! IC1
                         
-                        % ViolinOneMusicVoice [measure 215]                              %! SM4
+                        % ViolinIMusicVoice [measure 215]                                %! SM4
                         fs''2
                         \repeatTie
                         
-                        % ViolinOneMusicVoice [measure 216]                              %! SM4
+                        % ViolinIMusicVoice [measure 216]                                %! SM4
                         R1 * 3/8
                         
                     }
                 }
                 \tag ViolinII                                                            %! ST4
-                \context ViolinTwoMusicStaff = "ViolinTwoMusicStaff" {
-                    \context ViolinTwoMusicVoice = "ViolinTwoMusicVoice" {
+                \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
+                    \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
                         
-                        % ViolinTwoMusicVoice [measure 200]                              %! SM4
+                        % ViolinIIMusicVoice [measure 200]                               %! SM4
                         \stopStaff                                                       %! REAPPLIED_STAFF_LINES:SM8
-                        \once \override ViolinTwoMusicStaff.StaffSymbol.line-count = 1   %! REAPPLIED_STAFF_LINES:SM8
+                        \once \override ViolinIIMusicStaff.StaffSymbol.line-count = 1    %! REAPPLIED_STAFF_LINES:SM8
                         \startStaff                                                      %! REAPPLIED_STAFF_LINES:SM8
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1180,7 +1180,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
-                        \set ViolinTwoMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
+                        \set ViolinIIMusicStaff.instrumentName = \markup {               %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_INSTRUMENT:SM8
@@ -1189,7 +1189,7 @@
                                         II                                               %! REAPPLIED_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {         %! REAPPLIED_INSTRUMENT:SM8
+                        \set ViolinIIMusicStaff.shortInstrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #10                                                      %! REAPPLIED_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_INSTRUMENT:SM8
@@ -1198,13 +1198,13 @@
                                         II                                               %! REAPPLIED_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_INSTRUMENT:SM8
-                        \set ViolinTwoMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
+                        \set ViolinIIMusicStaff.forceClef = ##t                          %! REAPPLIED_CLEF:SM8
                         \clef "treble"                                                   %! REAPPLIED_CLEF:SM8
-                        \once \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
-                        %%% \override ViolinTwoMusicStaff.Clef.color = ##f               %! REAPPLIED_CLEF_UNCOLOR:SM7
-                        \once \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                        \once \override ViolinTwoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
-                        \once \override ViolinTwoMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+                        \once \override ViolinIIMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                        %%% \override ViolinIIMusicStaff.Clef.color = ##f                %! REAPPLIED_CLEF_UNCOLOR:SM7
+                        \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                        \once \override ViolinIIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         fs'2..
                         \pp                                                              %! REAPPLIED_DYNAMIC:SM8
                         \glissando
@@ -1272,7 +1272,7 @@
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        \set ViolinTwoMusicStaff.instrumentName = \markup {              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \set ViolinIIMusicStaff.instrumentName = \markup {               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1281,7 +1281,7 @@
                                         II                                               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                        \set ViolinTwoMusicStaff.shortInstrumentName = \markup {         %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \set ViolinIIMusicStaff.shortInstrumentName = \markup {          %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 #10                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                 \line                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -1290,18 +1290,18 @@
                                         II                                               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                                     }                                                    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             }                                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
-                        \override ViolinTwoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
-                        \override ViolinTwoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                        \override ViolinIIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
+                        \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                         
-                        % ViolinTwoMusicVoice [measure 201]                              %! SM4
+                        % ViolinIIMusicVoice [measure 201]                               %! SM4
                         ef'2..
                         \glissando
                         
-                        % ViolinTwoMusicVoice [measure 202]                              %! SM4
+                        % ViolinIIMusicVoice [measure 202]                               %! SM4
                         f'4.
                         \glissando
                         
-                        % ViolinTwoMusicVoice [measure 203]                              %! SM4
+                        % ViolinIIMusicVoice [measure 203]                               %! SM4
                         ef'2.
                         \f
                         \stopTextSpan
@@ -1312,7 +1312,7 @@
                                     "1/4 scratch"
                             }
                         
-                        % ViolinTwoMusicVoice [measure 204]                              %! SM4
+                        % ViolinIIMusicVoice [measure 204]                               %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1342,14 +1342,14 @@
                         \repeatTie
                         \glissando
                         
-                        % ViolinTwoMusicVoice [measure 205]                              %! SM4
+                        % ViolinIIMusicVoice [measure 205]                               %! SM4
                         e'2.
                         
                         e'4.
                         \repeatTie
                         \glissando
                         
-                        % ViolinTwoMusicVoice [measure 206]                              %! SM4
+                        % ViolinIIMusicVoice [measure 206]                               %! SM4
                         g'2
                         \mf
                         \stopTextSpan
@@ -1360,7 +1360,7 @@
                                     tasto
                             }
                         
-                        % ViolinTwoMusicVoice [measure 207]                              %! SM4
+                        % ViolinIIMusicVoice [measure 207]                               %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1387,11 +1387,11 @@
                         \mf
                         \startTextSpan
                         
-                        % ViolinTwoMusicVoice [measure 208]                              %! SM4
+                        % ViolinIIMusicVoice [measure 208]                               %! SM4
                         fs'4.
                         \glissando
                         
-                        % ViolinTwoMusicVoice [measure 209]                              %! SM4
+                        % ViolinIIMusicVoice [measure 209]                               %! SM4
                         e'2
                         \p
                         \stopTextSpan
@@ -1402,7 +1402,7 @@
                                     FB
                             }
                         
-                        % ViolinTwoMusicVoice [measure 210]                              %! SM4
+                        % ViolinIIMusicVoice [measure 210]                               %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1429,14 +1429,14 @@
                         \p
                         \startTextSpan
                         
-                        % ViolinTwoMusicVoice [measure 211]                              %! SM4
+                        % ViolinIIMusicVoice [measure 211]                               %! SM4
                         f'2.
                         
                         f'4.
                         \repeatTie
                         \glissando
                         
-                        % ViolinTwoMusicVoice [measure 212]                              %! SM4
+                        % ViolinIIMusicVoice [measure 212]                               %! SM4
                         af'2.
                         
                         af'4.
@@ -1449,18 +1449,18 @@
                                     XFB
                             }
                         
-                        % ViolinTwoMusicVoice [measure 213]                              %! SM4
+                        % ViolinIIMusicVoice [measure 213]                               %! SM4
                         R1 * 1/4
                         
-                        % ViolinTwoMusicVoice [measure 214]                              %! SM4
+                        % ViolinIIMusicVoice [measure 214]                               %! SM4
                         af'2
                         \ppp                                                             %! IC1
                         
-                        % ViolinTwoMusicVoice [measure 215]                              %! SM4
+                        % ViolinIIMusicVoice [measure 215]                               %! SM4
                         af'2
                         \repeatTie
                         
-                        % ViolinTwoMusicVoice [measure 216]                              %! SM4
+                        % ViolinIIMusicVoice [measure 216]                               %! SM4
                         R1 * 3/8
                         
                     }
