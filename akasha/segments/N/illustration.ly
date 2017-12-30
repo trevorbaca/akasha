@@ -852,6 +852,7 @@
                         -\downbow                                                        %! IC
                         _ #(make-dynamic-script
                             (markup
+                                #:whiteout
                                 #:line (
                                     #:general-align Y -2 #:normal-text #:larger "“"
                                     #:hspace -0.1
@@ -864,18 +865,6 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC
-                                        {                                                %! IC
-                                            \whiteout                                    %! IC
-                                                \upright                                 %! IC
-                                                    "full bow strokes"                   %! IC
-                                        }                                                %! IC
-                                    \line                                                %! IC
-                                        {                                                %! IC
-                                            \whiteout                                    %! IC
-                                                \upright                                 %! IC
-                                                    "terminate each note abruptly"       %! IC
-                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -932,6 +921,18 @@
                                                         }                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "full bow strokes"                   %! IC
+                                        }                                                %! IC
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "terminate each note abruptly"       %! IC
+                                        }                                                %! IC
                                 }
                             }
                         \set ViolinIMusicStaff.instrumentName = \markup {                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -1325,6 +1326,7 @@
                         -\downbow                                                        %! IC
                         _ #(make-dynamic-script
                             (markup
+                                #:whiteout
                                 #:line (
                                     #:general-align Y -2 #:normal-text #:larger "“"
                                     #:hspace -0.1
@@ -1337,18 +1339,6 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC
-                                        {                                                %! IC
-                                            \whiteout                                    %! IC
-                                                \upright                                 %! IC
-                                                    "full bow strokes"                   %! IC
-                                        }                                                %! IC
-                                    \line                                                %! IC
-                                        {                                                %! IC
-                                            \whiteout                                    %! IC
-                                                \upright                                 %! IC
-                                                    "terminate each note abruptly"       %! IC
-                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -1389,6 +1379,18 @@
                                                         }                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "full bow strokes"                   %! IC
+                                        }                                                %! IC
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "terminate each note abruptly"       %! IC
+                                        }                                                %! IC
                                 }
                             }
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -1523,6 +1525,7 @@
                         -\downbow                                                        %! IC
                         _ #(make-dynamic-script
                             (markup
+                                #:whiteout
                                 #:line (
                                     #:general-align Y -2 #:normal-text #:larger "“"
                                     #:hspace -0.1
@@ -1535,18 +1538,6 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC
-                                        {                                                %! IC
-                                            \whiteout                                    %! IC
-                                                \upright                                 %! IC
-                                                    "full bow strokes"                   %! IC
-                                        }                                                %! IC
-                                    \line                                                %! IC
-                                        {                                                %! IC
-                                            \whiteout                                    %! IC
-                                                \upright                                 %! IC
-                                                    "terminate each note abruptly"       %! IC
-                                        }                                                %! IC
                                     %%% \line                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -1587,6 +1578,18 @@
                                                         }                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         }                                                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "full bow strokes"                   %! IC
+                                        }                                                %! IC
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "terminate each note abruptly"       %! IC
+                                        }                                                %! IC
                                 }
                             }
                         \set CelloMusicStaff.instrumentName = \markup {                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
