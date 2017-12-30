@@ -35,7 +35,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='pp',
+                                value='"mf"',
                                 ),
                             ],
                         ),
@@ -80,7 +80,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='ViolaMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='pp',
+                                value='"mf"',
                                 ),
                             ],
                         ),
@@ -140,7 +140,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='ViolinIMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='pp',
+                                value='"mf"',
                                 ),
                             ],
                         ),
