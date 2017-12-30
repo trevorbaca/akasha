@@ -60,6 +60,16 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
+                        'ViolaMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='"mf"',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolinIIMusicStaff',
                         [
                             abjad.Momento(

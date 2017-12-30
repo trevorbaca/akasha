@@ -423,9 +423,32 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                         c'4.
                         -\downbow                                                        %! IC
+                        _ \markup {
+                            \concat
+                                {
+                                    \vcenter
+                                        \larger
+                                            \italic
+                                                “
+                                    \hspace
+                                        #0.35
+                                    \vcenter
+                                        \dynamic
+                                            \override
+                                                #'(font-name . #f)
+                                                mf
+                                    \hspace
+                                        #0.1
+                                    \vcenter
+                                        \larger
+                                            \italic
+                                                ”
+                                }
+                            }                                                            %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -477,18 +500,6 @@
                                         }                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 }
                             }
-                        _ \markup {                                                      %! IC
-                            \larger                                                      %! IC
-                                \italic                                                  %! IC
-                                    “                                                    %! IC
-                            \dynamic                                                     %! IC
-                                \override                                                %! IC
-                                    #'(font-name . #f)                                   %! IC
-                                    mf                                                   %! IC
-                            \larger                                                      %! IC
-                                \italic                                                  %! IC
-                                    ”                                                    %! IC
-                            }                                                            %! IC
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REDRAWN_DEFAULT_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REDRAWN_DEFAULT_INSTRUMENT:SM8
                                 #16                                                      %! REDRAWN_DEFAULT_INSTRUMENT:SM8

@@ -5015,7 +5015,28 @@
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         R1 * 3/4
-                        \ppp                                                             %! REAPPLIED_DYNAMIC:SM8
+                        _ \markup {
+                            \concat
+                                {
+                                    \vcenter
+                                        \larger
+                                            \italic
+                                                “
+                                    \hspace
+                                        #0.35
+                                    \vcenter
+                                        \dynamic
+                                            \override
+                                                #'(font-name . #f)
+                                                mf
+                                    \hspace
+                                        #0.1
+                                    \vcenter
+                                        \larger
+                                            \italic
+                                                ”
+                                }
+                            }                                                            %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -5787,25 +5808,36 @@
                         \stopStaff                                                       %! REDUNDANT_STAFF_LINES:SM8
                         \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! REDUNDANT_STAFF_LINES:SM8
                         \startStaff                                                      %! REDUNDANT_STAFF_LINES:SM8
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         b'1.
                         -\downbow                                                        %! IC
+                        _ \markup {
+                            \concat
+                                {
+                                    \vcenter
+                                        \larger
+                                            \italic
+                                                “
+                                    \hspace
+                                        #0.35
+                                    \vcenter
+                                        \dynamic
+                                            \override
+                                                #'(font-name . #f)
+                                                mf
+                                    \hspace
+                                        #0.1
+                                    \vcenter
+                                        \larger
+                                            \italic
+                                                ”
+                                }
+                            }                                                            %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
                                     "OB + terminate abruptly"                            %! IC
-                            }                                                            %! IC
-                        _ \markup {                                                      %! IC
-                            \larger                                                      %! IC
-                                \italic                                                  %! IC
-                                    “                                                    %! IC
-                            \dynamic                                                     %! IC
-                                \override                                                %! IC
-                                    #'(font-name . #f)                                   %! IC
-                                    mf                                                   %! IC
-                            \larger                                                      %! IC
-                                \italic                                                  %! IC
-                                    ”                                                    %! IC
                             }                                                            %! IC
                         
                         % ViolaMusicVoice [measure 195]                                  %! SM4
@@ -5929,25 +5961,36 @@
                         \stopStaff                                                       %! REDUNDANT_STAFF_LINES:SM8
                         \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! REDUNDANT_STAFF_LINES:SM8
                         \startStaff                                                      %! REDUNDANT_STAFF_LINES:SM8
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         b'1.
                         -\downbow                                                        %! IC
+                        _ \markup {
+                            \concat
+                                {
+                                    \vcenter
+                                        \larger
+                                            \italic
+                                                “
+                                    \hspace
+                                        #0.35
+                                    \vcenter
+                                        \dynamic
+                                            \override
+                                                #'(font-name . #f)
+                                                mf
+                                    \hspace
+                                        #0.1
+                                    \vcenter
+                                        \larger
+                                            \italic
+                                                ”
+                                }
+                            }                                                            %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
                                     "OB + terminate abruptly"                            %! IC
-                            }                                                            %! IC
-                        _ \markup {                                                      %! IC
-                            \larger                                                      %! IC
-                                \italic                                                  %! IC
-                                    “                                                    %! IC
-                            \dynamic                                                     %! IC
-                                \override                                                %! IC
-                                    #'(font-name . #f)                                   %! IC
-                                    mf                                                   %! IC
-                            \larger                                                      %! IC
-                                \italic                                                  %! IC
-                                    ”                                                    %! IC
                             }                                                            %! IC
                         
                         % ViolaMusicVoice [measure 199]                                  %! SM4
