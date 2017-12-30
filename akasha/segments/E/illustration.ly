@@ -4785,28 +4785,17 @@
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         c'4
                         -\downbow                                                        %! IC
-                        _ \markup {
-                            \concat
-                                {
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                “
-                                    \hspace
-                                        #0.35
-                                    \vcenter
-                                        \dynamic
-                                            \override
-                                                #'(font-name . #f)
-                                                mf
-                                    \hspace
-                                        #0.1
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                ”
-                                }
-                            }                                                            %! EXPLICIT_DYNAMIC:SM8
+                        _ #(make-dynamic-script
+                            (markup
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mf"
+                                    #:hspace -0.2
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )                                                            %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC

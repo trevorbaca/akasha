@@ -1546,28 +1546,17 @@
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                         ef'2..
-                        _ \markup {
-                            \concat
-                                {
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                “
-                                    \hspace
-                                        #0.35
-                                    \vcenter
-                                        \dynamic
-                                            \override
-                                                #'(font-name . #f)
-                                                mf
-                                    \hspace
-                                        #0.1
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                ”
-                                }
-                            }                                                            %! REAPPLIED_DYNAMIC:SM8
+                        _ #(make-dynamic-script
+                            (markup
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mf"
+                                    #:hspace -0.2
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )                                                            %! REAPPLIED_DYNAMIC:SM8
                         \glissando
                         \>
                         \ff
@@ -1797,28 +1786,17 @@
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         c'2
                         -\downbow                                                        %! IC
-                        _ \markup {
-                            \concat
-                                {
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                “
-                                    \hspace
-                                        #0.35
-                                    \vcenter
-                                        \dynamic
-                                            \override
-                                                #'(font-name . #f)
-                                                mf
-                                    \hspace
-                                        #0.1
-                                    \vcenter
-                                        \larger
-                                            \italic
-                                                ”
-                                }
-                            }                                                            %! REDUNDANT_DYNAMIC:SM8
+                        _ #(make-dynamic-script
+                            (markup
+                                #:line (
+                                    #:general-align Y -2 #:normal-text #:larger "“"
+                                    #:hspace -0.1
+                                    #:dynamic "mf"
+                                    #:hspace -0.2
+                                    #:general-align Y -2 #:normal-text #:larger "”"
+                                    )
+                                )
+                            )                                                            %! REDUNDANT_DYNAMIC:SM8
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
