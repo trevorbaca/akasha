@@ -456,12 +456,6 @@
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC
-                                            {                                            %! IC
-                                                \whiteout                                %! IC
-                                                    \upright                             %! IC
-                                                        XFB                              %! IC
-                                            }                                            %! IC
                                         %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -518,6 +512,12 @@
                                                             }                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                     }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        XFB                              %! IC
+                                            }                                            %! IC
                                     }
                                 }
                             \set ViolinIMusicStaff.instrumentName = \markup {            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -694,12 +694,6 @@
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC
-                                            {                                            %! IC
-                                                \whiteout                                %! IC
-                                                    \upright                             %! IC
-                                                        XFB                              %! IC
-                                            }                                            %! IC
                                         %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -756,6 +750,12 @@
                                                             }                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                     }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        XFB                              %! IC
+                                            }                                            %! IC
                                     }
                                 }
                             \set ViolinIIMusicStaff.instrumentName = \markup {           %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -883,11 +883,12 @@
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                        b'1
+                        \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
+                        c'1
                         _ #(make-dynamic-script
                             (markup
+                                #:whiteout
                                 #:line (
                                     #:general-align Y -2 #:normal-text #:larger "“"
                                     #:hspace -0.1
@@ -956,14 +957,14 @@
                         \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                         
                         % ViolaMusicVoice [measure 218]                                  %! SM4
-                        b'2.
+                        c'2.
                         \repeatTie
                         
-                        b'2
+                        c'2
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 219]                                  %! SM4
-                        b'2.
+                        c'2.
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 220]                                  %! SM4
@@ -1051,12 +1052,6 @@
                             ^ \markup {
                                 \column
                                     {
-                                        \line                                            %! IC
-                                            {                                            %! IC
-                                                \whiteout                                %! IC
-                                                    \upright                             %! IC
-                                                        XFB                              %! IC
-                                            }                                            %! IC
                                         %%% \line                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%     {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                         %%%         \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -1097,6 +1092,12 @@
                                                             }                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                     }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                \whiteout                                %! IC
+                                                    \upright                             %! IC
+                                                        XFB                              %! IC
+                                            }                                            %! IC
                                     }
                                 }
                             \set CelloMusicStaff.instrumentName = \markup {              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
