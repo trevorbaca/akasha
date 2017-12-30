@@ -1185,7 +1185,7 @@
                         \override RepeatTie.direction = #up                              %! OC
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
-                        c'1.
+                        b'1.
                         _ #(make-dynamic-script
                             (markup
                                 #:line (
@@ -1204,22 +1204,22 @@
                             }                                                            %! IC
                         
                         % ViolinIMusicVoice [measure 44]                                 %! SM4
-                        c'1
+                        b'1
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 45]                                 %! SM4
-                        c'2.
+                        b'2.
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 46]                                 %! SM4
-                        c'1
+                        b'1
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 47]                                 %! SM4
-                        c'2.
+                        b'2.
                         \repeatTie
                         
-                        c'2
+                        b'2
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 48]                                 %! SM4
@@ -1229,42 +1229,42 @@
                         R1 * 3/4
                         
                         % ViolinIMusicVoice [measure 50]                                 %! SM4
-                        c'2.
+                        b'2.
                         
                         % ViolinIMusicVoice [measure 51]                                 %! SM4
-                        c'2.
+                        b'2.
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 52]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 53]                                 %! SM4
-                        c'1
+                        b'1
                         
                         % ViolinIMusicVoice [measure 54]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 55]                                 %! SM4
-                        c'2.
+                        b'2.
                         
-                        c'2
+                        b'2
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 56]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 57]                                 %! SM4
-                        c'1
+                        b'1
                         
                         % ViolinIMusicVoice [measure 58]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 59]                                 %! SM4
-                        c'1.
+                        b'1.
                         \revert RepeatTie.direction                                      %! OC
                         
                         % ViolinIMusicVoice [measure 60]                                 %! SM4
-                        c'1.
+                        b'1.
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 61]                                 %! SM4
@@ -1413,7 +1413,7 @@
                         \override RepeatTie.direction = #up                              %! OC
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override ViolinIIMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
-                        c'1.
+                        b'1.
                         _ #(make-dynamic-script
                             (markup
                                 #:line (
@@ -1432,22 +1432,22 @@
                             }                                                            %! IC
                         
                         % ViolinIIMusicVoice [measure 44]                                %! SM4
-                        c'1
+                        b'1
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 45]                                %! SM4
-                        c'2.
+                        b'2.
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 46]                                %! SM4
-                        c'1
+                        b'1
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 47]                                %! SM4
-                        c'2.
+                        b'2.
                         \repeatTie
                         
-                        c'2
+                        b'2
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 48]                                %! SM4
@@ -1457,32 +1457,32 @@
                         R1 * 3/4
                         
                         % ViolinIIMusicVoice [measure 50]                                %! SM4
-                        c'2.
+                        b'2.
                         
                         % ViolinIIMusicVoice [measure 51]                                %! SM4
-                        c'2.
+                        b'2.
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 52]                                %! SM4
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 53]                                %! SM4
-                        c'1
+                        b'1
                         
                         % ViolinIIMusicVoice [measure 54]                                %! SM4
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 55]                                %! SM4
-                        c'2.
+                        b'2.
                         
-                        c'2
+                        b'2
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 56]                                %! SM4
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 57]                                %! SM4
-                        c'1
+                        b'1
                         \revert RepeatTie.direction                                      %! OC
                         
                         % ViolinIIMusicVoice [measure 58]                                %! SM4

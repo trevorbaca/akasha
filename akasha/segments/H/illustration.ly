@@ -885,7 +885,7 @@
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                        c'1
+                        b'1
                         _ #(make-dynamic-script
                             (markup
                                 #:line (
@@ -956,14 +956,14 @@
                         \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                         
                         % ViolaMusicVoice [measure 218]                                  %! SM4
-                        c'2.
+                        b'2.
                         \repeatTie
                         
-                        c'2
+                        b'2
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 219]                                  %! SM4
-                        c'2.
+                        b'2.
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 220]                                  %! SM4

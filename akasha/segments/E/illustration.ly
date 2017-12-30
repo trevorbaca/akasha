@@ -4783,7 +4783,7 @@
                         
                         \override RepeatTie.direction = #up                              %! OC
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         _ #(make-dynamic-script
                             (markup
@@ -4802,7 +4802,7 @@
                                     OB                                                   %! IC
                             }                                                            %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
                         r8
@@ -4813,13 +4813,13 @@
                         % ViolaMusicVoice [measure 115]                                  %! SM4
                         r4.
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
                         r4
@@ -4830,13 +4830,13 @@
                         % ViolaMusicVoice [measure 117]                                  %! SM4
                         r4.
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
                         r4
@@ -4847,10 +4847,10 @@
                         % ViolaMusicVoice [measure 119]                                  %! SM4
                         r4
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
                         r4.
@@ -4861,425 +4861,425 @@
                         % ViolaMusicVoice [measure 121]                                  %! SM4
                         r4
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 122]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 123]                                  %! SM4
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 124]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 125]                                  %! SM4
-                        c'8
+                        b'8
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 126]                                  %! SM4
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 127]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 128]                                  %! SM4
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 129]                                  %! SM4
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'8
+                        b'8
                         -\downbow                                                        %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 130]                                  %! SM4
-                        c'4
+                        b'4
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 131]                                  %! SM4
-                        c'4
+                        b'4
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'8
+                        b'8
                         -\downbow                                                        %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 132]                                  %! SM4
-                        c'4
+                        b'4
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 133]                                  %! SM4
-                        c'4
+                        b'4
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'8
+                        b'8
                         -\downbow                                                        %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 134]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 135]                                  %! SM4
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'8
+                        b'8
                         -\downbow                                                        %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 136]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'8
+                        b'8
                         -\downbow                                                        %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 137]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 138]                                  %! SM4
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 139]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 140]                                  %! SM4
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 141]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 142]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 143]                                  %! SM4
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 144]                                  %! SM4
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 145]                                  %! SM4
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 146]                                  %! SM4
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'8
+                        b'8
                         -\upbow                                                          %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 147]                                  %! SM4
-                        c'4
+                        b'4
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'8
+                        b'8
                         -\downbow                                                        %! IC
                         ~
                         
                         % ViolaMusicVoice [measure 148]                                  %! SM4
-                        c'4
+                        b'4
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'4.
+                        b'4.
                         -\downbow                                                        %! IC
                         
-                        c'4
+                        b'4
                         -\upbow                                                          %! IC
                         
-                        c'8
+                        b'8
                         -\downbow                                                        %! IC
                         ~
                         [
                         
                         % ViolaMusicVoice [measure 149]                                  %! SM4
-                        c'8
+                        b'8
                         ]
                         
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         
                         % ViolaMusicVoice [measure 150]                                  %! SM4
-                        c'4.
+                        b'4.
                         -\upbow                                                          %! IC
                         
-                        c'4
+                        b'4
                         -\downbow                                                        %! IC
                         \revert RepeatTie.direction                                      %! OC
                         

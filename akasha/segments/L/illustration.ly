@@ -571,7 +571,7 @@
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
-                        c'1
+                        b'1
                         -\downbow                                                        %! IC
                         _ #(make-dynamic-script
                             (markup
@@ -652,7 +652,7 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 336]                                  %! SM4
-                        c'1.
+                        b'1.
                         -\upbow                                                          %! IC
                         
                         % ViolaMusicVoice [measure 337]                                  %! SM4
