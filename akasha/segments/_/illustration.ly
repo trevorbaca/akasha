@@ -425,7 +425,7 @@
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
-                        b'4.
+                        c'4.
                         -\downbow                                                        %! IC
                         _ #(make-dynamic-script
                             (markup
@@ -442,12 +442,6 @@
                         ^ \markup {
                             \column
                                 {
-                                    \line                                                %! IC
-                                        {                                                %! IC
-                                            \whiteout                                    %! IC
-                                                \upright                                 %! IC
-                                                    "OB + terminate abruptly"            %! IC
-                                        }                                                %! IC
                                     %%% \line                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     %%%     {                                            %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     %%%         \vcenter                                 %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -488,6 +482,12 @@
                                                         }                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                                 }                                        %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         }                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    \line                                                %! IC
+                                        {                                                %! IC
+                                            \whiteout                                    %! IC
+                                                \upright                                 %! IC
+                                                    "OB + terminate abruptly"            %! IC
+                                        }                                                %! IC
                                 }
                             }
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REDRAWN_DEFAULT_INSTRUMENT:SM8
@@ -504,7 +504,7 @@
                         \override ViolaMusicStaff.Clef.color = #(x11-color 'violet)      %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                         
                         % ViolaMusicVoice [measure 2]                                    %! SM4
-                        b'2.
+                        c'2.
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 3]                                    %! SM4
