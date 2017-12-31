@@ -2577,11 +2577,11 @@
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''4.
-                        \mp                                                              %! REDUNDANT_DYNAMIC:SM8
+                        \mp                                                              %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -2787,6 +2787,7 @@
                         \clef "alto"                                                     %! EXPLICIT_CLEF:SM8
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ff4.
                         \glissando
                         \>
@@ -2811,6 +2812,7 @@
                             cs2
                             \glissando
                             
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bs,16
                             \ppp
                         }
@@ -2820,10 +2822,10 @@
                         
                         % ViolaMusicVoice [measure 99]                                   %! SM4
                         \override NoteHead.style = #'harmonic                            %! OC
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         af2.
                         -\downbow                                                        %! IC
-                        \ppp                                                             %! EXPLICIT_DYNAMIC:SM8
+                        \ppp                                                             %! REDUNDANT_DYNAMIC:SM8
                         \glissando
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
@@ -2912,11 +2914,11 @@
                         \set CelloMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''4.
-                        \mp                                                              %! REDUNDANT_DYNAMIC:SM8
+                        \mp                                                              %! EXPLICIT_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -3142,6 +3144,7 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 94]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,4.
                         \>
                         \sf
@@ -3156,6 +3159,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 96]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,2
                         \repeatTie
                         \ppp
@@ -3199,6 +3203,7 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 104]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         df1
                         \glissando
                         \>
@@ -3244,6 +3249,7 @@
                             bf,,2..
                             \glissando
                             
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a,,16..
                             \ppp
                         }

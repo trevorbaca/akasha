@@ -1638,6 +1638,7 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 43]                                   %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         ef1.
                         \glissando
                         \>
@@ -1652,6 +1653,7 @@
                         \glissando
                         
                         % ViolaMusicVoice [measure 46]                                   %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bs,1
                         \pp
                         
@@ -1716,6 +1718,7 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 59]                                   %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         e1.
                         \glissando
                         \>
@@ -1731,6 +1734,7 @@
                             ds\breve
                             \glissando
                             
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cqs4
                             \pp
                         }
@@ -1843,6 +1847,7 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 43]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         cs,1.
                         \>
                         \mp
@@ -1856,6 +1861,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 46]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,1
                         \repeatTie
                         \pp
@@ -1955,6 +1961,7 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 59]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         cs,1.
                         \>
                         \mp
@@ -1965,6 +1972,7 @@
                             }                                                            %! IC
                         
                         % CelloMusicVoice [measure 60]                                   %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,1.
                         \repeatTie
                         \pp

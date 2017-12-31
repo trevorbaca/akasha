@@ -312,7 +312,7 @@
                         \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         R1 * 1
-                        \ff                                                              %! REAPPLIED_DYNAMIC:SM8
+                        \fff                                                             %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -446,7 +446,7 @@
                         \once \override ViolinIIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         R1 * 1
-                        \ff                                                              %! REAPPLIED_DYNAMIC:SM8
+                        \fff                                                             %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -689,7 +689,7 @@
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         R1 * 1
-                        \ff                                                              %! REAPPLIED_DYNAMIC:SM8
+                        \fff                                                             %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
