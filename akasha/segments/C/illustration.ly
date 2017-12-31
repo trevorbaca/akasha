@@ -1638,7 +1638,7 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 43]                                   %! SM4
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef1.
                         \glissando
                         \>
@@ -1718,7 +1718,7 @@
                         R1 * 1/4
                         
                         % ViolaMusicVoice [measure 59]                                   %! SM4
-                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e1.
                         \glissando
                         \>
@@ -1847,7 +1847,7 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 43]                                   %! SM4
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,1.
                         \>
                         \mp
@@ -1961,7 +1961,7 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 59]                                   %! SM4
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,1.
                         \>
                         \mp

@@ -2571,7 +2571,7 @@
                         
                         % CelloMusicVoice [measure 358]                                  %! SM4
                         \once \override Hairpin.circled-tip = ##t
-                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bf,,2.
                         \repeatTie
                         \>
