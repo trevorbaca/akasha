@@ -3536,7 +3536,7 @@
                             % ViolinIIMusicVoice [measure 135]                           %! SM4
                             r16
                             
-                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b16
                             -\staccato                                                   %! IC
                             \>
@@ -5860,7 +5860,7 @@
                             % CelloMusicVoice [measure 135]                              %! SM4
                             r16
                             
-                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs16
                             -\staccato                                                   %! IC
                             \>
