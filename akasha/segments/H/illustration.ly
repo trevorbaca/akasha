@@ -972,6 +972,7 @@
                         \times 8/9 {
                             
                             % ViolaMusicVoice [measure 221]                              %! SM4
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ds1..
                             \glissando
                             \>
@@ -982,6 +983,7 @@
                                         tasto                                            %! IC
                                 }                                                        %! IC
                             
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cqs8..
                             \pp
                         }
@@ -1145,6 +1147,7 @@
                         \times 8/9 {
                             
                             % CelloMusicVoice [measure 221]                              %! SM4
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs,1..
                             \glissando
                             \>
@@ -1155,6 +1158,7 @@
                                         tasto                                            %! IC
                                 }                                                        %! IC
                             
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf,,8..
                             \pp
                         }

@@ -1952,7 +1952,7 @@
                         \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         R1 * 3/4
-                        \f                                                               %! REAPPLIED_DYNAMIC:SM8
+                        \pp                                                              %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -2239,9 +2239,9 @@
                             % ViolinIMusicVoice [measure 159]                            %! SM4
                             \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
-                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             ef''16 * 227/32
-                            \pp                                                          %! EXPLICIT_DYNAMIC:SM8
+                            \pp                                                          %! REDUNDANT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -2311,6 +2311,7 @@
                         \times 4/5 {
                             
                             % ViolinIMusicVoice [measure 162]                            %! SM4
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             ef''4
                             \<
                             \pp
@@ -2321,6 +2322,7 @@
                         \times 4/5 {
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ef''4
                             \repeatTie
                             \p
@@ -2331,6 +2333,7 @@
                             
                             r8.
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             f''8
                             \>
                             \p
@@ -2356,6 +2359,7 @@
                         \times 4/5 {
                             
                             % ViolinIMusicVoice [measure 163]                            %! SM4
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ef''8.
                             \repeatTie
                             \pp
@@ -2379,6 +2383,7 @@
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             f''4
                             \<
                             \pp
@@ -2434,22 +2439,26 @@
                             % ViolinIMusicVoice [measure 164]                            %! SM4
                             \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f''16 * 241/32
                             \p
                             [
                             
                             r16 * 49/8
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             ef''16 * 243/64
                             \>
                             \p
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f''16 * 165/64
                             \pp
                             
                             r16 * 33/16
                             
                             \revert ViolinIMusicStaff.Stem.stemlet-length
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             ef''16 * 61/32
                             ]
                             \<
@@ -2468,6 +2477,7 @@
                         \times 4/5 {
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs''4
                             \repeatTie
                             \p
@@ -2478,6 +2488,7 @@
                             
                             r8.
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             ef''8
                             \>
                             \p
@@ -2503,6 +2514,7 @@
                         }
                         \times 4/5 {
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs''8.
                             \repeatTie
                             \pp
@@ -2527,6 +2539,7 @@
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             ef''4
                             \<
                             \pp
@@ -2582,16 +2595,19 @@
                             
                             \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e''16 * 31/4
                             \p
                             [
                             
                             r16 * 233/32
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             fs''16 * 393/64
                             \>
                             \p
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e''16 * 39/8
                             \pp
                             
@@ -2599,18 +2615,21 @@
                             
                             r16 * 25/8
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             fs''16 * 169/64
                             \<
                             \pp
                             
                             e''16 * 37/16
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs''16 * 135/64
                             \p
                             
                             r16 * 127/64
                             
                             \revert ViolinIMusicStaff.Stem.stemlet-length
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             e''16 * 31/16
                             ]
                             \>
@@ -2628,6 +2647,7 @@
                         \times 4/5 {
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs''4
                             \repeatTie
                             \pp
@@ -2638,6 +2658,7 @@
                             
                             r8.
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             e''8
                             \<
                             \pp
@@ -2706,16 +2727,19 @@
                             % ViolinIMusicVoice [measure 171]                            %! SM4
                             \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #right
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g''16 * 31/4
                             \p
                             [
                             
                             r16 * 233/32
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             e''16 * 393/64
                             \>
                             \p
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g''16 * 39/8
                             \pp
                             
@@ -2723,18 +2747,21 @@
                             
                             r16 * 25/8
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             f''16 * 169/64
                             \<
                             \pp
                             
                             g''16 * 37/16
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f''16 * 135/64
                             \p
                             
                             r16 * 127/64
                             
                             \revert ViolinIMusicStaff.Stem.stemlet-length
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             g''16 * 31/16
                             ]
                             \p
@@ -2788,6 +2815,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         f''1
                         \<
                         \mp
@@ -2821,6 +2849,7 @@
                         f''2.
                         \repeatTie
                         
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         f''2
                         \repeatTie
                         \f
@@ -2838,6 +2867,7 @@
                             % ViolinIMusicVoice [measure 187]                            %! SM4
                             r16
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'''16
                             -\staccato                                                   %! IC
                             \<
@@ -3288,6 +3318,7 @@
                             fs''''16
                             -\staccato                                                   %! IC
                             
+                            \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g''''16
                             -\staccato                                                   %! IC
                             \fff
@@ -3465,7 +3496,7 @@
                         \once \override ViolinIIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                         R1 * 3/4
-                        \mf                                                              %! REAPPLIED_DYNAMIC:SM8
+                        \pp                                                              %! REAPPLIED_DYNAMIC:SM8
                         ^ \markup {
                             \column
                                 {
@@ -3755,9 +3786,9 @@
                             % ViolinIIMusicVoice [measure 159]                           %! SM4
                             \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                             \once \override Beam.grow-direction = #left
-                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             b'16 * 13/8
-                            \pp                                                          %! EXPLICIT_DYNAMIC:SM8
+                            \pp                                                          %! REDUNDANT_DYNAMIC:SM8
                             [
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
@@ -3827,6 +3858,7 @@
                         {
                             
                             % ViolinIIMusicVoice [measure 162]                           %! SM4
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             b'4
                             \<
                             \pp
@@ -3848,6 +3880,7 @@
                         }
                         {
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs''16
                             \repeatTie
                             \p
@@ -3864,6 +3897,7 @@
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             b'8.
                             \>
                             \p
@@ -3905,17 +3939,20 @@
                             cs''16 * 241/32
                             [
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b'16 * 49/8
                             \pp
                             
                             r16 * 243/64
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             cs''16 * 165/64
                             \pp
                             
                             r16 * 33/16
                             
                             \revert ViolinIIMusicStaff.Stem.stemlet-length
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b'16 * 61/32
                             ]
                             \>
@@ -3944,6 +3981,7 @@
                         }
                         {
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b'16
                             \repeatTie
                             \pp
@@ -3960,12 +3998,14 @@
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             d''8.
                             \<
                             \pp
                         }
                         {
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d''4
                             \repeatTie
                             \p
@@ -3984,12 +4024,14 @@
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             b'8.
                             \>
                             \p
                         }
                         {
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b'16
                             \repeatTie
                             \pp
@@ -4005,6 +4047,7 @@
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             d''8.
                             \<
                             \pp
@@ -4047,25 +4090,30 @@
                             b'16 * 497/64
                             [
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d''16 * 59/8
                             \p
                             
                             r16 * 51/8
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             c''16 * 333/64
                             \p
                             
                             r16 * 67/16
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d''16 * 219/64
                             \pp
                             
                             r16 * 185/64
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c''16 * 5/2
                             \>
                             \p
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d''16 * 9/4
                             \pp
                             
@@ -4074,6 +4122,7 @@
                             r16 * 127/64
                             
                             \revert ViolinIIMusicStaff.Stem.stemlet-length
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             c''16 * 63/32
                             ]
                             \<
@@ -4103,6 +4152,7 @@
                         }
                         {
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c''16
                             \repeatTie
                             \p
@@ -4119,6 +4169,7 @@
                             r16
                             
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             d''8.
                             \>
                             \p
@@ -4165,25 +4216,30 @@
                             c''16 * 497/64
                             [
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ef''16 * 59/8
                             \pp
                             
                             r16 * 51/8
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             c''16 * 333/64
                             \pp
                             
                             r16 * 67/16
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ef''16 * 219/64
                             \p
                             
                             r16 * 185/64
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c''16 * 5/2
                             \<
                             \pp
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ef''16 * 9/4
                             \p
                             
@@ -4192,6 +4248,7 @@
                             r16 * 127/64
                             
                             \revert ViolinIIMusicStaff.Stem.stemlet-length
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             cs''16 * 63/32
                             ]
                             \p
@@ -4293,6 +4350,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         fs'1
                         \<
                         \mp
@@ -4382,6 +4440,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         fs'2
                         \repeatTie
                         \f
@@ -4401,6 +4460,7 @@
                             % ViolinIIMusicVoice [measure 187]                           %! SM4
                             r16
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d'''16
                             -\staccato                                                   %! IC
                             \<
@@ -4852,6 +4912,7 @@
                             ef''''16
                             -\staccato                                                   %! IC
                             
+                            \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e''''16
                             -\staccato                                                   %! IC
                             \fff
@@ -5282,6 +5343,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         ds'1
                         \<
                         \mp
@@ -5315,6 +5377,7 @@
                         ds'2.
                         \repeatTie
                         
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ds'2
                         \repeatTie
                         \f
@@ -5337,6 +5400,7 @@
                             r16
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b''16
                             -\staccato                                                   %! IC
                             \<
@@ -5785,6 +5849,7 @@
                             b'''16
                             -\staccato                                                   %! IC
                             
+                            \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c''''16
                             -\staccato                                                   %! IC
                             \fff
@@ -6407,6 +6472,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         df,1
                         \<
                         \mp
@@ -6440,6 +6506,7 @@
                         df,2.
                         \repeatTie
                         
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         df,2
                         \repeatTie
                         \f
@@ -6462,6 +6529,7 @@
                             r16
                             \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             af''16
                             -\staccato                                                   %! IC
                             \<
@@ -6910,6 +6978,7 @@
                             af'''16
                             -\staccato                                                   %! IC
                             
+                            \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a'''16
                             -\staccato                                                   %! IC
                             \fff

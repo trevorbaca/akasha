@@ -2730,6 +2730,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a''2.
                         \repeatTie
                         \<
@@ -2747,6 +2748,7 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 291]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''2
                         \repeatTie
                         \fff
@@ -2785,6 +2787,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''4.
                         \<
                         \sffp
@@ -2795,6 +2798,7 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 296]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''1
                         \repeatTie
                         \fff
@@ -2833,12 +2837,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a''2.
                         \repeatTie
                         \>
                         \fff
                         \startTextSpan
                         
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''4.
                         \repeatTie
                         \p
@@ -2870,12 +2876,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''2
                         \<
                         \sffp
                         \startTextSpan
                         
                         % ViolinIMusicVoice [measure 300]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''2
                         \repeatTie
                         \fff
@@ -2911,6 +2919,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a''2.
                         \repeatTie
                         \>
@@ -2918,6 +2927,7 @@
                         \startTextSpan
                         
                         % ViolinIMusicVoice [measure 303]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''2..
                         \repeatTie
                         \p
@@ -2952,6 +2962,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''2..
                         \>
                         \sffp
@@ -2966,6 +2977,7 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 308]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a''2
                         \repeatTie
                         \pp
@@ -3012,6 +3024,7 @@
                         % ViolinIMusicVoice [measure 317]                                %! SM4
                         \override NoteHead.style = #'harmonic                            %! OC
                         \ottava #1
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''2.
                         \<
                         \sffp
@@ -3026,6 +3039,7 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 318]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''2..
                         \repeatTie
                         \f
@@ -3057,6 +3071,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''4.
                         \<
                         \sf
@@ -3068,6 +3083,7 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 322]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''2..
                         \repeatTie
                         \fff
@@ -3102,6 +3118,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         b''''4.
                         \repeatTie
                         \>
@@ -3109,6 +3126,7 @@
                         \startTextSpan
                         
                         % ViolinIMusicVoice [measure 324]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''2
                         \repeatTie
                         \f
@@ -3140,6 +3158,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''1
                         \stopTrillSpan
                         \<
@@ -3155,6 +3174,7 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 327]                                %! SM4
+                        \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''2
                         \repeatTie
                         \fff
@@ -3595,6 +3615,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         gtqs'2.
                         \repeatTie
                         \<
@@ -3612,6 +3633,7 @@
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 291]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gtqs'2
                         \repeatTie
                         \fff
@@ -3650,6 +3672,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'4.
                         \<
                         \sffp
@@ -3660,6 +3683,7 @@
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 296]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'1
                         \repeatTie
                         \fff
@@ -3698,12 +3722,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a'2.
                         \repeatTie
                         \>
                         \fff
                         \startTextSpan
                         
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'4.
                         \repeatTie
                         \p
@@ -3735,12 +3761,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gtqs'2
                         \<
                         \sffp
                         \startTextSpan
                         
                         % ViolinIIMusicVoice [measure 300]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gtqs'2
                         \repeatTie
                         \fff
@@ -3776,6 +3804,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         gtqs'2.
                         \repeatTie
                         \>
@@ -3783,6 +3812,7 @@
                         \startTextSpan
                         
                         % ViolinIIMusicVoice [measure 303]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gtqs'2..
                         \repeatTie
                         \p
@@ -3817,6 +3847,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'2..
                         \>
                         \sffp
@@ -3831,6 +3862,7 @@
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 308]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'2
                         \repeatTie
                         \pp
@@ -3866,6 +3898,7 @@
                         % ViolinIIMusicVoice [measure 315]                               %! SM4
                         \override NoteHead.style = #'harmonic                            %! OC
                         \ottava #1
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''1
                         \<
                         \sffp
@@ -3884,6 +3917,7 @@
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 317]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''2.
                         \repeatTie
                         \f
@@ -3922,6 +3956,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''4.
                         \<
                         \sf
@@ -3933,6 +3968,7 @@
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 322]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''2..
                         \repeatTie
                         \fff
@@ -3967,6 +4003,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         cs''''4.
                         \repeatTie
                         \>
@@ -3974,6 +4011,7 @@
                         \startTextSpan
                         
                         % ViolinIIMusicVoice [measure 324]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''2
                         \repeatTie
                         \f
@@ -4005,6 +4043,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''1
                         \stopTrillSpan
                         \<
@@ -4020,6 +4059,7 @@
                         \repeatTie
                         
                         % ViolinIIMusicVoice [measure 327]                               %! SM4
+                        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''2
                         \repeatTie
                         \fff
@@ -4428,6 +4468,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         aqs,2.
                         \repeatTie
                         \<
@@ -4445,6 +4486,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 291]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aqs,2
                         \repeatTie
                         \fff
@@ -4483,6 +4525,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,4.
                         \<
                         \sffp
@@ -4493,6 +4536,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 296]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,1
                         \repeatTie
                         \fff
@@ -4531,12 +4575,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a,2.
                         \repeatTie
                         \>
                         \fff
                         \startTextSpan
                         
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,4.
                         \repeatTie
                         \p
@@ -4568,12 +4614,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aqs,2
                         \<
                         \sffp
                         \startTextSpan
                         
                         % ViolaMusicVoice [measure 300]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aqs,2
                         \repeatTie
                         \fff
@@ -4609,6 +4657,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         aqs,2.
                         \repeatTie
                         \>
@@ -4616,6 +4665,7 @@
                         \startTextSpan
                         
                         % ViolaMusicVoice [measure 303]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aqs,2..
                         \repeatTie
                         \p
@@ -4650,6 +4700,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,2..
                         \>
                         \sffp
@@ -4664,6 +4715,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 308]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,2
                         \repeatTie
                         \pp
@@ -4694,6 +4746,7 @@
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''2..
                         \<
                         \sffp
@@ -4714,6 +4767,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 316]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''2.
                         \repeatTie
                         \f
@@ -4757,6 +4811,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''4.
                         \<
                         \sf
@@ -4768,6 +4823,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 322]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''2..
                         \repeatTie
                         \fff
@@ -4802,6 +4858,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         gqf''4.
                         \repeatTie
                         \>
@@ -4809,6 +4866,7 @@
                         \startTextSpan
                         
                         % ViolaMusicVoice [measure 324]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''2
                         \repeatTie
                         \f
@@ -4840,6 +4898,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''1
                         \stopTrillSpan
                         \<
@@ -4855,6 +4914,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 327]                                  %! SM4
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''2
                         \repeatTie
                         \fff
@@ -5258,6 +5318,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a,,2.
                         \repeatTie
                         \<
@@ -5275,6 +5336,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 291]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,2
                         \repeatTie
                         \fff
@@ -5313,6 +5375,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,4.
                         \<
                         \sffp
@@ -5323,6 +5386,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 296]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,1
                         \repeatTie
                         \fff
@@ -5361,12 +5425,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a,,2.
                         \repeatTie
                         \>
                         \fff
                         \startTextSpan
                         
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,4.
                         \repeatTie
                         \p
@@ -5398,12 +5464,14 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,2
                         \<
                         \sffp
                         \startTextSpan
                         
                         % CelloMusicVoice [measure 300]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,2
                         \repeatTie
                         \fff
@@ -5439,6 +5507,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a,,2.
                         \repeatTie
                         \>
@@ -5446,6 +5515,7 @@
                         \startTextSpan
                         
                         % CelloMusicVoice [measure 303]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,2..
                         \repeatTie
                         \p
@@ -5480,6 +5550,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,2..
                         \>
                         \sffp
@@ -5494,6 +5565,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 308]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a,,2
                         \repeatTie
                         \pp
@@ -5517,6 +5589,7 @@
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''2.
                         \<
                         \sffp
@@ -5537,6 +5610,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 314]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''2
                         \repeatTie
                         \f
@@ -5588,6 +5662,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''4.
                         \<
                         \sf
@@ -5599,6 +5674,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 322]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''2..
                         \repeatTie
                         \fff
@@ -5633,6 +5709,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         d''4.
                         \repeatTie
                         \>
@@ -5640,6 +5717,7 @@
                         \startTextSpan
                         
                         % CelloMusicVoice [measure 324]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''2
                         \repeatTie
                         \f
@@ -5671,6 +5749,7 @@
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''1
                         \stopTrillSpan
                         \<
@@ -5686,6 +5765,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 327]                                  %! SM4
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''2
                         \repeatTie
                         \fff
