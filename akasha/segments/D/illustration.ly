@@ -290,7 +290,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             126                                                      %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 63]                                               %! SM4
                 \time 4/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1195,7 +1195,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             55                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 95]                                               %! SM4
                 \time 6/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1312,12 +1312,12 @@
                     }
                 
                 % GlobalSkips [measure 99]                                               %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \fontsize
                         #-6
@@ -1335,21 +1335,21 @@
                         }
                     \hspace
                         #1.25
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 6/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/4
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -1629,7 +1629,7 @@
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/8
-                \stopTextSpan
+                \stopTextSpan                                                            %! SM29
                 ^ \markup {
                     \column
                         {
@@ -1693,7 +1693,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             44                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 109]                                              %! SM4
                 \time 6/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1823,7 +1823,7 @@
                         \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1     %! REAPPLIED_STAFF_LINES:SM8
                         \startStaff                                                      %! REAPPLIED_STAFF_LINES:SM8
                         \override NoteHead.style = #'harmonic                            %! OC
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         \set ViolinIMusicStaff.instrumentName = \markup {                %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -1966,13 +1966,13 @@
                         % ViolinIMusicVoice [measure 69]                                 %! SM4
                         cs''''1
                         \repeatTie
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 70]                                 %! SM4
                         R1 * 1/4
                         
                         % ViolinIMusicVoice [measure 71]                                 %! SM4
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         cs''''2.
                         
                         cs''''4.
@@ -2012,7 +2012,7 @@
                         cs''''2
                         \repeatTie
                         \revert NoteHead.style                                           %! OC
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 79]                                 %! SM4
                         R1 * 1/4
@@ -2023,7 +2023,7 @@
                         a'1
                         -\downbow                                                        %! IC
                         \ppp                                                             %! EXPLICIT_DYNAMIC:SM8
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -2033,16 +2033,16 @@
                         % ViolinIMusicVoice [measure 81]                                 %! SM4
                         c''2.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         a'4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 82]                                 %! SM4
                         fs'2
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 83]                                 %! SM4
                         ef'4.
@@ -2054,45 +2054,45 @@
                         % ViolinIMusicVoice [measure 85]                                 %! SM4
                         fs'2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         a'4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 86]                                 %! SM4
                         c''2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         fs''4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 87]                                 %! SM4
                         ef''2
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 88]                                 %! SM4
                         c''1
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 89]                                 %! SM4
                         a'4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 90]                                 %! SM4
                         ef''2
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 91]                                 %! SM4
                         fs''2..
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 92]                                 %! SM4
                         a''2..
@@ -2104,17 +2104,17 @@
                         % ViolinIMusicVoice [measure 94]                                 %! SM4
                         a'4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 95]                                 %! SM4
                         ef''2.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 96]                                 %! SM4
                         fs''2
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 97]                                 %! SM4
                         a''4.
@@ -2126,17 +2126,17 @@
                         % ViolinIMusicVoice [measure 99]                                 %! SM4
                         ef'''2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 100]                                %! SM4
                         a''2..
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 101]                                %! SM4
                         c'''2..
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 102]                                %! SM4
                         a'4.
@@ -2148,25 +2148,25 @@
                         % ViolinIMusicVoice [measure 104]                                %! SM4
                         fs'1
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 105]                                %! SM4
                         ef'2.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         a'4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 106]                                %! SM4
                         fs'2.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         a'4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 107]                                %! SM4
                         c''2
@@ -2337,7 +2337,7 @@
                         a'2.
                         -\downbow                                                        %! IC
                         \ppp                                                             %! EXPLICIT_DYNAMIC:SM8
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -2346,45 +2346,45 @@
                         
                         c''4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 72]                                %! SM4
                         a'2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         fs'4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 73]                                %! SM4
                         ef'2..
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 74]                                %! SM4
                         a'4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 75]                                %! SM4
                         fs'2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 76]                                %! SM4
                         a'2..
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 77]                                %! SM4
                         c''2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         fs''4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 78]                                %! SM4
                         ef''2
@@ -2396,21 +2396,21 @@
                         % ViolinIIMusicVoice [measure 80]                                %! SM4
                         fs'1
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 81]                                %! SM4
                         a'2.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         c''4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 82]                                %! SM4
                         fs''2
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 83]                                %! SM4
                         ef''4.
@@ -2422,45 +2422,45 @@
                         % ViolinIIMusicVoice [measure 85]                                %! SM4
                         a'2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ef''4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 86]                                %! SM4
                         fs''2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         a''4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 87]                                %! SM4
                         fs''2
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 88]                                %! SM4
                         c'''1
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 89]                                %! SM4
                         ef'''4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 90]                                %! SM4
                         a''2
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 91]                                %! SM4
                         c'''2..
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 92]                                %! SM4
                         a'2..
@@ -2472,17 +2472,17 @@
                         % ViolinIIMusicVoice [measure 94]                                %! SM4
                         ef'''4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 95]                                %! SM4
                         a''2.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 96]                                %! SM4
                         c'''2
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 97]                                %! SM4
                         a'4.
@@ -2494,10 +2494,10 @@
                         
                         % ViolinIIMusicVoice [measure 99]                                %! SM4
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g''2.
                         \p                                                               %! EXPLICIT_DYNAMIC:SM8
-                        \startTrillSpan a''
+                        \startTrillSpan a''                                              %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -2510,7 +2510,7 @@
                         
                         % ViolinIIMusicVoice [measure 101]                               %! SM4
                         R1 * 7/8
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % ViolinIIMusicVoice [measure 102]                               %! SM4
                         R1 * 3/8
@@ -2519,9 +2519,9 @@
                         R1 * 1/4
                         
                         % ViolinIIMusicVoice [measure 104]                               %! SM4
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g''1
-                        \startTrillSpan a''
+                        \startTrillSpan a''                                              %! SC
                         
                         % ViolinIIMusicVoice [measure 105]                               %! SM4
                         g''2.
@@ -2532,7 +2532,7 @@
                         
                         % ViolinIIMusicVoice [measure 106]                               %! SM4
                         R1 * 9/8
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % ViolinIIMusicVoice [measure 107]                               %! SM4
                         R1 * 1/2
@@ -2789,7 +2789,7 @@
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ff4.
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \sf
                         ^ \markup {                                                      %! IC
@@ -2801,16 +2801,16 @@
                         
                         % ViolaMusicVoice [measure 95]                                   %! SM4
                         e2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 96]                                   %! SM4
                         ds2
-                        \glissando
+                        \glissando                                                       %! SC
                         \times 2/3 {
                             
                             % ViolaMusicVoice [measure 97]                               %! SM4
                             cs2
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bs,16
@@ -2826,7 +2826,7 @@
                         af2.
                         -\downbow                                                        %! IC
                         \ppp                                                             %! REDUNDANT_DYNAMIC:SM8
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -2836,12 +2836,12 @@
                         % ViolaMusicVoice [measure 100]                                  %! SM4
                         b2..
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 101]                                  %! SM4
                         af2..
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 102]                                  %! SM4
                         f4.
@@ -2853,25 +2853,25 @@
                         % ViolaMusicVoice [measure 104]                                  %! SM4
                         f1
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 105]                                  %! SM4
                         af2.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         b4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 106]                                  %! SM4
                         f'2.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         d'4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 107]                                  %! SM4
                         b2
@@ -3089,7 +3089,7 @@
                         g,2.
                         -\downbow                                                        %! IC
                         \ppp                                                             %! EXPLICIT_DYNAMIC:SM8
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -3099,41 +3099,41 @@
                         
                         bf,4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 86]                                   %! SM4
                         g,2.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         e,4.
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 87]                                   %! SM4
                         cs,2
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 88]                                   %! SM4
                         g,1
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 89]                                   %! SM4
                         e,4.
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 90]                                   %! SM4
                         g,2
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 91]                                   %! SM4
                         bf,2..
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 92]                                   %! SM4
                         e2..
@@ -3177,7 +3177,7 @@
                         e,2.
                         -\downbow                                                        %! IC
                         \ppp                                                             %! REDUNDANT_DYNAMIC:SM8
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -3187,12 +3187,12 @@
                         % CelloMusicVoice [measure 100]                                  %! SM4
                         g,2..
                         -\upbow                                                          %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 101]                                  %! SM4
                         bf,2..
                         -\downbow                                                        %! IC
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 102]                                  %! SM4
                         e4.
@@ -3205,7 +3205,7 @@
                         % CelloMusicVoice [measure 104]                                  %! SM4
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         df1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \sf
                         ^ \markup {                                                      %! IC
@@ -3216,38 +3216,38 @@
                         
                         % CelloMusicVoice [measure 105]                                  %! SM4
                         c2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         bf,4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 106]                                  %! SM4
                         af,2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         g,4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 107]                                  %! SM4
                         f,2
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 108]                                  %! SM4
                         ef,4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 109]                                  %! SM4
                         d,2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 110]                                  %! SM4
                         c,2..
-                        \glissando
+                        \glissando                                                       %! SC
                         \times 8/9 {
                             
                             % CelloMusicVoice [measure 111]                              %! SM4
                             bf,,2..
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a,,16..

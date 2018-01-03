@@ -330,7 +330,7 @@
                 %%%             =                                                        %! REDUNDANT_METRONOME_MARK:SM27
                 %%%             44                                                       %! REDUNDANT_METRONOME_MARK:SM27
                 %%%         }                                                            %! REDUNDANT_METRONOME_MARK:SM27
-                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27
+                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 266]                                              %! SM4
                 \time 8/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1769,32 +1769,32 @@
                     }
                 
                 % GlobalSkips [measure 317]                                              %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \large
                         \upright
                             rit.
                     \hspace
                         #0.75
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT:SPACING:HSS1
                 s1 * 9/8
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -1893,7 +1893,7 @@
                     \newSpacingSection                                                   %! SEGMENT:SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SEGMENT:SPACING:HSS1
                     s1 * 3/8
-                    \stopTextSpan
+                    \stopTextSpan                                                        %! SM29
                     ^ \markup {
                         \column
                             {
@@ -1970,7 +1970,7 @@
                     %%%             =                                                    %! EXPLICIT_METRONOME_MARK:SM27
                     %%%             38                                                   %! EXPLICIT_METRONOME_MARK:SM27
                     %%%         }                                                        %! EXPLICIT_METRONOME_MARK:SM27
-                    %%%     }                                                            %! EXPLICIT_METRONOME_MARK:SM27
+                    %%%     }                                                            %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                     
                     % GlobalSkips [measure 321]                                          %! SM4
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -3023,12 +3023,12 @@
                         
                         % ViolinIMusicVoice [measure 317]                                %! SM4
                         \override NoteHead.style = #'harmonic                            %! OC
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''2.
                         \<
                         \sffp
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -3043,14 +3043,14 @@
                         b''''2..
                         \repeatTie
                         \f
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 319]                                %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % ViolinIMusicVoice [measure 320]                                %! SM4
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -3076,7 +3076,7 @@
                         \<
                         \sf
                         \startTextSpan
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % ViolinIMusicVoice [measure 321]                                %! SM4
                         b''''2.
@@ -3160,11 +3160,11 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b''''1
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         \<
                         \sffp
                         \startTextSpan
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % ViolinIMusicVoice [measure 326]                                %! SM4
                         b''''2.
@@ -3211,11 +3211,11 @@
                         b''''1
                         \repeatTie
                         \revert NoteHead.style                                           %! OC
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 333]                                %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                     }
                 }
@@ -3897,12 +3897,12 @@
                         
                         % ViolinIIMusicVoice [measure 315]                               %! SM4
                         \override NoteHead.style = #'harmonic                            %! OC
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''1
                         \<
                         \sffp
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -3928,14 +3928,14 @@
                         % ViolinIIMusicVoice [measure 318]                               %! SM4
                         cs''''2..
                         \repeatTie
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 319]                               %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % ViolinIIMusicVoice [measure 320]                               %! SM4
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -3961,7 +3961,7 @@
                         \<
                         \sf
                         \startTextSpan
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % ViolinIIMusicVoice [measure 321]                               %! SM4
                         cs''''2.
@@ -4045,11 +4045,11 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs''''1
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         \<
                         \sffp
                         \startTextSpan
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % ViolinIIMusicVoice [measure 326]                               %! SM4
                         cs''''2.
@@ -4096,11 +4096,11 @@
                         cs''''1
                         \repeatTie
                         \revert NoteHead.style                                           %! OC
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 333]                               %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                     }
                 }
@@ -4750,7 +4750,7 @@
                         gqf''2..
                         \<
                         \sffp
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -4788,7 +4788,7 @@
                         
                         % ViolaMusicVoice [measure 319]                                  %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % ViolaMusicVoice [measure 320]                                  %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -4816,7 +4816,7 @@
                         \<
                         \sf
                         \startTextSpan
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % ViolaMusicVoice [measure 321]                                  %! SM4
                         gqf''2.
@@ -4900,11 +4900,11 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqf''1
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         \<
                         \sffp
                         \startTextSpan
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % ViolaMusicVoice [measure 326]                                  %! SM4
                         gqf''2.
@@ -4954,7 +4954,7 @@
                         
                         % ViolaMusicVoice [measure 333]                                  %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                     }
                 }
@@ -5593,7 +5593,7 @@
                         d''2.
                         \<
                         \sffp
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -5639,7 +5639,7 @@
                         
                         % CelloMusicVoice [measure 319]                                  %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                         % CelloMusicVoice [measure 320]                                  %! SM4
                         \once \override TextSpanner.arrow-width = 0.25
@@ -5667,7 +5667,7 @@
                         \<
                         \sf
                         \startTextSpan
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % CelloMusicVoice [measure 321]                                  %! SM4
                         d''2.
@@ -5751,11 +5751,11 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d''1
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         \<
                         \sffp
                         \startTextSpan
-                        \startTrillSpan
+                        \startTrillSpan                                                  %! SC
                         
                         % CelloMusicVoice [measure 326]                                  %! SM4
                         d''2.
@@ -5805,7 +5805,7 @@
                         
                         % CelloMusicVoice [measure 333]                                  %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                     }
                 }

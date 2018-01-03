@@ -125,7 +125,7 @@
                     %%%             =                                                    %! REDUNDANT_METRONOME_MARK:SM27
                     %%%             89                                                   %! REDUNDANT_METRONOME_MARK:SM27
                     %%%         }                                                        %! REDUNDANT_METRONOME_MARK:SM27
-                    %%%     }                                                            %! REDUNDANT_METRONOME_MARK:SM27
+                    %%%     }                                                            %! REDUNDANT_METRONOME_MARK:SM27 %! SM29
                     
                     % GlobalSkips [measure 218]                                          %! SM4
                     \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -222,7 +222,7 @@
                     %%%             =                                                    %! EXPLICIT_METRONOME_MARK:SM27
                     %%%             44                                                   %! EXPLICIT_METRONOME_MARK:SM27
                     %%%         }                                                        %! EXPLICIT_METRONOME_MARK:SM27
-                    %%%     }                                                            %! EXPLICIT_METRONOME_MARK:SM27
+                    %%%     }                                                            %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                     
                     % GlobalSkips [measure 220]                                          %! SM4
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -321,7 +321,7 @@
                     %%%             =                                                    %! EXPLICIT_METRONOME_MARK:SM27
                     %%%             55                                                   %! EXPLICIT_METRONOME_MARK:SM27
                     %%%         }                                                        %! EXPLICIT_METRONOME_MARK:SM27
-                    %%%     }                                                            %! EXPLICIT_METRONOME_MARK:SM27
+                    %%%     }                                                            %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                     
                     % GlobalSkips [measure 222]                                          %! SM4
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -974,7 +974,7 @@
                             % ViolaMusicVoice [measure 221]                              %! SM4
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ds1..
-                            \glissando
+                            \glissando                                                   %! SC
                             \>
                             \mp
                             ^ \markup {                                                  %! IC
@@ -1149,7 +1149,7 @@
                             % CelloMusicVoice [measure 221]                              %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs,1..
-                            \glissando
+                            \glissando                                                   %! SC
                             \>
                             \mp
                             ^ \markup {                                                  %! IC

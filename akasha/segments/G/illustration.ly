@@ -76,12 +76,12 @@
             \context GlobalSkips = "GlobalSkips" {
                 
                 % GlobalSkips [measure 200]                                              %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \fontsize
                         #-6
@@ -99,15 +99,15 @@
                         }
                     \hspace
                         #1.25
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 7/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \mark #7                                                                 %! SM9
                 \bar ""                                                                  %! EMPTY_START_BAR:SM2
@@ -115,7 +115,7 @@
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)         %! SEGMENT:SPACING:HSS1
                 s1 * 7/8
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -256,7 +256,7 @@
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT:SPACING:HSS1
                 s1 * 9/8
-                \stopTextSpan
+                \stopTextSpan                                                            %! SM29
                 ^ \markup {
                     \column
                         {
@@ -320,7 +320,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             44                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 205]                                              %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -573,33 +573,33 @@
                     }
                 
                 % GlobalSkips [measure 214]                                              %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \large
                         \upright
                             accel.
                     \hspace
                         #0.75
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 4/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT:SPACING:HSS1
                 s1 * 1/2
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -667,7 +667,7 @@
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/8
-                \stopTextSpan
+                \stopTextSpan                                                            %! SM29
                 ^ \markup {
                     \column
                         {
@@ -731,7 +731,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             89                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 \override Score.BarLine.transparent = ##f                                %! SM5
                 \bar "|"                                                                 %! SM5
                 
@@ -1063,21 +1063,21 @@
                         
                         f''4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 205]                                %! SM4
                         g''2.
                         
                         g''4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 206]                                %! SM4
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         f''2
                         \mf
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1107,21 +1107,21 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef''1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \mf
                         \startTextSpan
                         
                         % ViolinIMusicVoice [measure 208]                                %! SM4
                         fs''4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 209]                                %! SM4
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e''2
                         \p
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1151,7 +1151,7 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         fs''1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \p
                         \startTextSpan
@@ -1161,7 +1161,7 @@
                         
                         af''4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIMusicVoice [measure 212]                                %! SM4
                         fs''2.
@@ -1248,7 +1248,7 @@
                         \once \override ViolinIIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         fs'2..
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \ff
                         \startTextSpan
@@ -1336,18 +1336,18 @@
                         
                         % ViolinIIMusicVoice [measure 201]                               %! SM4
                         ef'2..
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 202]                               %! SM4
                         f'4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 203]                               %! SM4
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef'2.
                         \f
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1383,21 +1383,21 @@
                         
                         cs'4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 205]                               %! SM4
                         e'2.
                         
                         e'4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 206]                               %! SM4
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2
                         \mf
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1427,21 +1427,21 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \mf
                         \startTextSpan
                         
                         % ViolinIIMusicVoice [measure 208]                               %! SM4
                         fs'4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 209]                               %! SM4
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'2
                         \p
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1471,7 +1471,7 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d'1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \p
                         \startTextSpan
@@ -1481,7 +1481,7 @@
                         
                         f'4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolinIIMusicVoice [measure 212]                               %! SM4
                         af'2.
@@ -1560,7 +1560,7 @@
                         %%% \override ViolaMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef'2..
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \ff
                         \startTextSpan
@@ -1624,18 +1624,18 @@
                         
                         % ViolaMusicVoice [measure 201]                                  %! SM4
                         f'2..
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 202]                                  %! SM4
                         d'4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 203]                                  %! SM4
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'2.
                         \f
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1671,21 +1671,21 @@
                         
                         d'4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 205]                                  %! SM4
                         c'2.
                         
                         c'4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 206]                                  %! SM4
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e'2
                         \mf
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1715,21 +1715,21 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         fs'1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \mf
                         \startTextSpan
                         
                         % ViolaMusicVoice [measure 208]                                  %! SM4
                         ef'4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 209]                                  %! SM4
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         f'2
                         \p
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1759,7 +1759,7 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef'1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \p
                         \startTextSpan
@@ -1769,7 +1769,7 @@
                         
                         cs'4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 212]                                  %! SM4
                         f'2.
@@ -1866,7 +1866,7 @@
                         %%% \override CelloMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,2..
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \ff
                         \startTextSpan
@@ -1930,18 +1930,18 @@
                         
                         % CelloMusicVoice [measure 201]                                  %! SM4
                         ef,2..
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 202]                                  %! SM4
                         f,4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 203]                                  %! SM4
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,2.
                         \f
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -1977,21 +1977,21 @@
                         
                         e,4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 205]                                  %! SM4
                         d,2.
                         
                         d,4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 206]                                  %! SM4
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         c,2
                         \mf
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -2021,21 +2021,21 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         d,1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \mf
                         \startTextSpan
                         
                         % CelloMusicVoice [measure 208]                                  %! SM4
                         e,4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 209]                                  %! SM4
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs,2
                         \p
                         \stopTextSpan
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {
                             \whiteout
                                 \upright
@@ -2065,7 +2065,7 @@
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef,1
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \p
                         \startTextSpan
@@ -2075,7 +2075,7 @@
                         
                         cs,4.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % CelloMusicVoice [measure 212]                                  %! SM4
                         b,,2.
