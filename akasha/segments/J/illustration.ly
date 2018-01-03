@@ -107,7 +107,7 @@
                 %%%             =                                                        %! REDUNDANT_METRONOME_MARK:SM27
                 %%%             44                                                       %! REDUNDANT_METRONOME_MARK:SM27
                 %%%         }                                                            %! REDUNDANT_METRONOME_MARK:SM27
-                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27
+                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 262]                                              %! SM4
                 \time 6/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8

@@ -240,7 +240,7 @@
                 %%%             =                                                        %! REDUNDANT_METRONOME_MARK:SM27
                 %%%             44                                                       %! REDUNDANT_METRONOME_MARK:SM27
                 %%%         }                                                            %! REDUNDANT_METRONOME_MARK:SM27
-                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27
+                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 114]                                              %! SM4
                 \time 1/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -525,7 +525,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             55                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 122]                                              %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -612,33 +612,33 @@
                     }
                 
                 % GlobalSkips [measure 125]                                              %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \large
                         \upright
                             accel.
                     \hspace
                         #0.75
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 5/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT:SPACING:HSS1
                 s1 * 5/4
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -706,7 +706,7 @@
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/4
-                \stopTextSpan
+                \stopTextSpan                                                            %! SM29
                 ^ \markup {
                     \column
                         {
@@ -770,7 +770,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             89                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 128]                                              %! SM4
                 \time 6/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -851,32 +851,32 @@
                     }
                 
                 % GlobalSkips [measure 131]                                              %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \large
                         \upright
                             accel.
                     \hspace
                         #0.75
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/2
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -1114,7 +1114,7 @@
                 \newSpacingSection                                                       %! SEGMENT:SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)         %! SEGMENT:SPACING:HSS1
                 s1 * 3/4
-                \stopTextSpan
+                \stopTextSpan                                                            %! SM29
                 ^ \markup {
                     \column
                         {
@@ -1178,7 +1178,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             126                                                      %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 140]                                              %! SM4
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8

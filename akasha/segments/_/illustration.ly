@@ -100,7 +100,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             44                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 2]                                                %! SM4
                 \time 6/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8

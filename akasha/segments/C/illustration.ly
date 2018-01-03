@@ -239,7 +239,7 @@
                 %%%             =                                                        %! REDUNDANT_METRONOME_MARK:SM27
                 %%%             55                                                       %! REDUNDANT_METRONOME_MARK:SM27
                 %%%         }                                                            %! REDUNDANT_METRONOME_MARK:SM27
-                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27
+                %%%     }                                                                %! REDUNDANT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 36]                                               %! SM4
                 \time 1/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1495,10 +1495,10 @@
                         
                         % ViolinIIMusicVoice [measure 60]                                %! SM4
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g''1.
                         \pp                                                              %! EXPLICIT_DYNAMIC:SM8
-                        \startTrillSpan a''
+                        \startTrillSpan a''                                              %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -1507,7 +1507,7 @@
                         
                         % ViolinIIMusicVoice [measure 61]                                %! SM4
                         R1 * 1/4
-                        \stopTrillSpan
+                        \stopTrillSpan                                                   %! SC
                         
                     }
                 }
@@ -1539,7 +1539,7 @@
                             %%% \override ViolaMusicStaff.Clef.color = ##f               %! REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
                             ds\breve
                             \mp                                                          %! REAPPLIED_DYNAMIC:SM8
-                            \glissando
+                            \glissando                                                   %! SC
                             ^ \markup {
                                 \column
                                     {
@@ -1607,7 +1607,7 @@
                             
                             % ViolaMusicVoice [measure 37]                               %! SM4
                             ds1
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             cqs8
                         }
@@ -1618,7 +1618,7 @@
                             
                             % ViolaMusicVoice [measure 39]                               %! SM4
                             ds\breve
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             cqs4
                         }
@@ -1629,7 +1629,7 @@
                             
                             % ViolaMusicVoice [measure 41]                               %! SM4
                             ds\breve
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             cqs4
                         }
@@ -1640,17 +1640,17 @@
                         % ViolaMusicVoice [measure 43]                                   %! SM4
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         ef1.
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \mp
                         
                         % ViolaMusicVoice [measure 44]                                   %! SM4
                         d1
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 45]                                   %! SM4
                         cs2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         % ViolaMusicVoice [measure 46]                                   %! SM4
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1720,7 +1720,7 @@
                         % ViolaMusicVoice [measure 59]                                   %! SM4
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         e1.
-                        \glissando
+                        \glissando                                                       %! SC
                         \>
                         \mp
                         ^ \markup {                                                      %! IC
@@ -1732,7 +1732,7 @@
                             
                             % ViolaMusicVoice [measure 60]                               %! SM4
                             ds\breve
-                            \glissando
+                            \glissando                                                   %! SC
                             
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cqs4
