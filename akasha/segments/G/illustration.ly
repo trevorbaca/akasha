@@ -1019,6 +1019,7 @@
                         }
                         
                         % ViolinIMusicVoice [measure 204]                                %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1034,9 +1035,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            tasto
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
@@ -1063,13 +1075,9 @@
                         \mf
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    tasto
-                            }
                         
                         % ViolinIMusicVoice [measure 207]                                %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1085,9 +1093,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            FB
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1107,13 +1126,9 @@
                         \p
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    FB
-                            }
                         
                         % ViolinIMusicVoice [measure 210]                                %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1129,9 +1144,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            XFB
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1156,11 +1182,6 @@
                         \repeatTie
                         \pp
                         \stopTextSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    XFB
-                            }
                         
                         % ViolinIMusicVoice [measure 213]                                %! SM4
                         R1 * 1/4
@@ -1187,6 +1208,7 @@
                         \stopStaff                                                       %! REAPPLIED_STAFF_LINES:SM8
                         \once \override ViolinIIMusicStaff.StaffSymbol.line-count = 1    %! REAPPLIED_STAFF_LINES:SM8
                         \startStaff                                                      %! REAPPLIED_STAFF_LINES:SM8
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1202,9 +1224,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            "1/4 scratch"
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \set ViolinIIMusicStaff.instrumentName = \markup {               %! REAPPLIED_INSTRUMENT:SM8
@@ -1333,13 +1366,9 @@
                         \f
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "1/4 scratch"
-                            }
                         
                         % ViolinIIMusicVoice [measure 204]                               %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1355,9 +1384,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            tasto
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1383,13 +1423,9 @@
                         \mf
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    tasto
-                            }
                         
                         % ViolinIIMusicVoice [measure 207]                               %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1405,9 +1441,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            FB
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1427,13 +1474,9 @@
                         \p
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    FB
-                            }
                         
                         % ViolinIIMusicVoice [measure 210]                               %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1449,9 +1492,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            XFB
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1476,11 +1530,6 @@
                         \repeatTie
                         \pp
                         \stopTextSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    XFB
-                            }
                         
                         % ViolinIIMusicVoice [measure 213]                               %! SM4
                         R1 * 1/4
@@ -1507,6 +1556,7 @@
                         \stopStaff                                                       %! REAPPLIED_STAFF_LINES:SM8
                         \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! REAPPLIED_STAFF_LINES:SM8
                         \startStaff                                                      %! REAPPLIED_STAFF_LINES:SM8
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1522,9 +1572,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            "1/4 scratch"
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
@@ -1621,13 +1682,9 @@
                         \f
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "1/4 scratch"
-                            }
                         
                         % ViolaMusicVoice [measure 204]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1643,9 +1700,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            tasto
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1671,13 +1739,9 @@
                         \mf
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    tasto
-                            }
                         
                         % ViolaMusicVoice [measure 207]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1693,9 +1757,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            FB
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1715,13 +1790,9 @@
                         \p
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    FB
-                            }
                         
                         % ViolaMusicVoice [measure 210]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1737,9 +1808,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            XFB
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1764,11 +1846,6 @@
                         \repeatTie
                         \pp
                         \stopTextSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    XFB
-                            }
                         
                         % ViolaMusicVoice [measure 213]                                  %! SM4
                         R1 * 1/4
@@ -1814,6 +1891,7 @@
                     \context CelloMusicVoice = "CelloMusicVoice" {
                         
                         % CelloMusicVoice [measure 200]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1829,9 +1907,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            "1/4 scratch"
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \set CelloMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
@@ -1927,13 +2016,9 @@
                         \f
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "1/4 scratch"
-                            }
                         
                         % CelloMusicVoice [measure 204]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1949,9 +2034,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            tasto
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1977,13 +2073,9 @@
                         \mf
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    tasto
-                            }
                         
                         % CelloMusicVoice [measure 207]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -1999,9 +2091,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            FB
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -2021,13 +2124,9 @@
                         \p
                         \stopTextSpan
                         \glissando                                                       %! SC
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    FB
-                            }
                         
                         % CelloMusicVoice [measure 210]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2043,9 +2142,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            XFB
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -2070,11 +2180,6 @@
                         \repeatTie
                         \pp
                         \stopTextSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    XFB
-                            }
                         
                         % CelloMusicVoice [measure 213]                                  %! SM4
                         R1 * 1/4
