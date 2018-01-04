@@ -2779,6 +2779,7 @@
                         \repeatTie
                         
                         % ViolinIMusicVoice [measure 178]                                %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -2794,9 +2795,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            "scratch moltiss."
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -2838,11 +2850,6 @@
                         \repeatTie
                         \f
                         \stopTextSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "scratch moltiss."
-                            }
                         
                         % ViolinIMusicVoice [measure 186]                                %! SM4
                         R1 * 1/4
@@ -4314,6 +4321,7 @@
                         \once \override Dots.color = #red
                         \once \override NoteHead.color = #red
                         \once \override Stem.color = #red
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -4329,9 +4337,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            "scratch moltiss."
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -4431,11 +4450,6 @@
                         \stopTextSpan
                         - \tweak color #red                                              %! SM14
                         ^ \markup { @ }                                                  %! SM14
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "scratch moltiss."
-                            }
                         
                         % ViolinIIMusicVoice [measure 186]                               %! SM4
                         R1 * 1/4
@@ -5307,6 +5321,7 @@
                         \repeatTie
                         
                         % ViolaMusicVoice [measure 178]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -5322,9 +5337,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            "scratch moltiss."
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -5366,11 +5392,6 @@
                         \repeatTie
                         \f
                         \stopTextSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "scratch moltiss."
-                            }
                         
                         % ViolaMusicVoice [measure 186]                                  %! SM4
                         R1 * 1/4
@@ -6436,6 +6457,7 @@
                         \repeatTie
                         
                         % CelloMusicVoice [measure 178]                                  %! SM4
+                        \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
                         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -6451,9 +6473,20 @@
                             }
                         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
                         \once \override TextSpanner.bound-details.right-broken.padding = 0
+                        \once \override TextSpanner.bound-details.right-broken.text = ##f
                         \once \override TextSpanner.bound-details.right.arrow = ##t
-                        \once \override TextSpanner.bound-details.right.padding = 1.75
+                        \once \override TextSpanner.bound-details.right.padding = 0.5
                         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+                        \once \override TextSpanner.bound-details.right.text = \markup {
+                            \concat
+                                {
+                                    \hspace
+                                        #0.0
+                                    \whiteout
+                                        \upright
+                                            "scratch moltiss."
+                                }
+                            }
                         \once \override TextSpanner.dash-fraction = 0.25
                         \once \override TextSpanner.dash-period = 1.5
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -6495,11 +6528,6 @@
                         \repeatTie
                         \f
                         \stopTextSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "scratch moltiss."
-                            }
                         
                         % CelloMusicVoice [measure 186]                                  %! SM4
                         R1 * 1/4
