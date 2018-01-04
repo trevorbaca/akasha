@@ -93,14 +93,15 @@
             %F%             126                                                          %! EXPLICIT_METRONOME_MARK:SM27
             %F%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27
             %F%     \hspace                                                              %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         #1.25                                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %F%         #1                                                               %! EXPLICIT_METRONOME_MARK:SM27
             %F%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
+                \once \override TextSpanner.Y-extent = ##f                               %! SM29
                 \once \override TextSpanner.arrow-width = 0.25                           %! SM29
-                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
+                \once \override TextSpanner.bound-details.left-broken.text = ##f         %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
                     }                                                                    %! SM29
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
                 \once \override TextSpanner.bound-details.left.text =                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                 \markup {                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                     \with-color                                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
@@ -121,15 +122,15 @@
                                     126                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                 }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             \hspace                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                                #1.25                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                #1                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                         }                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                     }                                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
                 \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
                 \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
                 \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
                 \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
-                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
-                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 1              %! SM29
+                \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
                 \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
                 \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 7/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -246,12 +247,66 @@
                     }
                 
                 % GlobalSkips [measure 204]                                              %! SM4
+            %F% \once \override TextSpanner.bound-details.left.text =                    %! EXPLICIT_METRONOME_MARK:SM27
+            %F% \markup {                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %F%     \fontsize                                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %F%         #-6                                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %F%         \general-align                                                   %! EXPLICIT_METRONOME_MARK:SM27
+            %F%             #Y                                                           %! EXPLICIT_METRONOME_MARK:SM27
+            %F%             #DOWN                                                        %! EXPLICIT_METRONOME_MARK:SM27
+            %F%             \note-by-number                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                 #2                                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                 #0                                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                 #1                                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %F%     \upright                                                             %! EXPLICIT_METRONOME_MARK:SM27
+            %F%         {                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %F%             =                                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %F%             44                                                           %! EXPLICIT_METRONOME_MARK:SM27
+            %F%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %F%     \hspace                                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %F%         #1                                                               %! EXPLICIT_METRONOME_MARK:SM27
+            %F%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
+                \once \override TextSpanner.Y-extent = ##f                               %! SM29
+                \once \override TextSpanner.bound-details.left-broken.text = ##f         %! SM29
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \null
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
+                \once \override TextSpanner.bound-details.left.text =                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \markup {                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    \with-color                                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #(x11-color 'blue)                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        {                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            \fontsize                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                #-6                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                \general-align                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    #Y                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    #DOWN                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \note-by-number                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #2                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #0                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #1                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            \upright                                                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    =                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    44                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            \hspace                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                #1                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        }                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    }                                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 1              %! SM29
+                \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
+                \once \override TextSpanner.dash-period = 0                              %! SM29
                 \time 9/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
                 s1 * 9/8
                 \stopTextSpan                                                            %! SM29
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -279,42 +334,6 @@
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         }
                     }
-            %F% ^ \markup {                                                              %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%     \fontsize                                                            %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%         #-6                                                              %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%         \general-align                                                   %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             #Y                                                           %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             #DOWN                                                        %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             \note-by-number                                              %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%                 #2                                                       %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%                 #0                                                       %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%                 #1                                                       %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%     \upright                                                             %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%         {                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             =                                                            %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             44                                                           %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-                ^ \markup {                                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                    \with-color                                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                        #(x11-color 'blue)                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                        {                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                            \fontsize                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                #-6                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                \general-align                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    #Y                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    #DOWN                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    \note-by-number                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                        #2                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                        #0                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                        #1                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                            \upright                                                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                {                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    =                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    44                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                        }                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                    }                                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
                 
                 % GlobalSkips [measure 205]                                              %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -567,25 +586,78 @@
                     }
                 
                 % GlobalSkips [measure 214]                                              %! SM4
+            %F% \once \override TextSpanner.bound-details.right.text =                   %! EXPLICIT_METRONOME_MARK:SM27
+            %F% \markup {                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %F%     \concat                                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %F%         {                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %F%             \hspace                                                      %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                 #0.5                                                     %! EXPLICIT_METRONOME_MARK:SM27
+            %F%             \line                                                        %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                 {                                                        %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                     \fontsize                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                         #-6                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                         \general-align                                   %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                             #Y                                           %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                             #DOWN                                        %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                             \note-by-number                              %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                                 #2                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                                 #0                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                                 #1                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                     \upright                                             %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                         {                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                             =                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                             89                                           %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                         }                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %F%                 }                                                        %! EXPLICIT_METRONOME_MARK:SM27
+            %F%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %F%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
+                \once \override TextSpanner.Y-extent = ##f                               %! SM29
                 \once \override TextSpanner.arrow-width = 0.25                           %! SM29
-                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
+                \once \override TextSpanner.bound-details.left-broken.text = ##f         %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
                     }                                                                    %! SM29
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \large
                         \upright
                             accel.
                     \hspace
-                        #0.75
+                        #1
                     }                                                                    %! SM29
                 \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
                 \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
                 \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
                 \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
-                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
-                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 1              %! SM29
+                \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29
+                \once \override TextSpanner.bound-details.right.text =                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \markup {                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    \with-color                                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #(x11-color 'blue)                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        \concat                                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                \hspace                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    #0.5                                                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                \line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    {                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        \fontsize                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            #-6                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \general-align                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #Y                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                #DOWN                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                \note-by-number                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #2                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #0                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                    #1                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        \upright                                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            {                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                =                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                89                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            }                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    }                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            }                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    }                                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
                 \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
                 \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 4/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -593,6 +665,7 @@
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SEGMENT_SPACING:HSS1
                 s1 * 1/2
+                \stopTextSpan                                                            %! SM29
                 \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
@@ -648,6 +721,9 @@
                     }
                 
                 % GlobalSkips [measure 216]                                              %! SM4
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \null
+                    }                                                                    %! SM29
                 \time 3/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 \newSpacingSection                                                       %! SEGMENT_SPACING:HSS1
@@ -681,42 +757,6 @@
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         }
                     }
-            %F% ^ \markup {                                                              %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%     \fontsize                                                            %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%         #-6                                                              %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%         \general-align                                                   %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             #Y                                                           %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             #DOWN                                                        %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             \note-by-number                                              %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%                 #2                                                       %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%                 #0                                                       %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%                 #1                                                       %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%     \upright                                                             %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%         {                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             =                                                            %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%             89                                                           %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-            %F%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
-                ^ \markup {                                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                    \with-color                                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                        #(x11-color 'blue)                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                        {                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                            \fontsize                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                #-6                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                \general-align                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    #Y                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    #DOWN                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    \note-by-number                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                        #2                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                        #0                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                        #1                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                            \upright                                                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                {                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    =                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                    89                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                                }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                        }                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
-                    }                                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! SM29
                 \override Score.BarLine.transparent = ##f                                %! SM5
                 \bar "|"                                                                 %! SM5
                 
