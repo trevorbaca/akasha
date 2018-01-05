@@ -2,6 +2,8 @@
 
 
 \layout {
+
+    % GLOBAL SKIPS
     \context {
         \name GlobalSkips
         \type Engraver_group
@@ -17,6 +19,8 @@
         \override TextSpanner.font-size = 6
         \override TextSpanner.staff-padding = 4
         }
+
+    % GLOBAL RESTS
     \context {
         \name GlobalRests
         \type Engraver_group
@@ -26,6 +30,8 @@
         \override MultiMeasureRestText.outside-staff-priority = 0
         \override MultiMeasureRestText.padding = 0
         }
+
+    % GLOBAL CONTEXT
     \context {
         \name GlobalContext
         \type Engraver_group
@@ -44,8 +50,7 @@
         \override MetronomeMark.extra-offset = #'(0 . 4)
         \override MetronomeMark.font-size = 3
         \override RehearsalMark.X-extent = #'(0 . 0)
-        \override RehearsalMark.Y-offset = -2.25
-        \override RehearsalMark.X-offset = 6
+        \override RehearsalMark.Y-extent = #'(0 . 0)
         \override RehearsalMark.break-align-symbols = #'(time-signature)
         \override RehearsalMark.break-visibility = #end-of-line-invisible
         \override RehearsalMark.font-name = "Didot"
@@ -66,14 +71,20 @@
         )
         \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
+
+    % STAFF
     \context {
         \Staff
         \remove Time_signature_engraver
     }
+
+    % VOICE
     \context {
         \Voice
         \remove Forbid_line_break_engraver
     }
+
+    % VIOLIN I
     \context {
         \Voice
         \name ViolinIMusicVoice
@@ -87,6 +98,8 @@
         \alias Staff
         \accepts ViolinIMusicVoice
     }
+
+    % VIOLIN II
     \context {
         \Voice
         \name ViolinIIMusicVoice
@@ -100,6 +113,8 @@
         \alias Staff
         \accepts ViolinIIMusicVoice
     }
+
+    % VIOLA
     \context {
         \Voice
         \name ViolaMusicVoice
@@ -113,6 +128,8 @@
         \alias Staff
         \accepts ViolaMusicVoice
     }
+
+    % CELLO
     \context {
         \Voice
         \name CelloMusicVoice
@@ -126,6 +143,8 @@
         \alias Staff
         \accepts CelloMusicVoice
     }
+
+    % STRING QUARTET STAFF GROUP
     \context {
         \StaffGroup
         \name StringQuartetStaffGroup
@@ -137,14 +156,18 @@
         \accepts CelloMusicStaff
         \override StaffGrouper.staff-staff-spacing.minimum-distance = 12
     }
+
+    % MUSIC CONTEXT
     \context {
-        \StaffGroup
+        \ChoirStaff
         \name MusicContext
         \type Engraver_group
-        \alias StaffGroup
+        \alias ChoirStaff
         \accepts StringQuartetStaffGroup
         systemStartDelimiter = #'SystemStartBar
     }
+
+    % SCORE
     \context {
         \Score
         \accepts GlobalContext
