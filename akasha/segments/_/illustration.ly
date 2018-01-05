@@ -7,7 +7,7 @@
 
 \score {
     \context Score = "Score" <<
-        \tag ViolinI.ViolinII.viola.cello                                                %! ST4
+        \tag ViolinI.ViolinII.Viola.Cello                                                %! ST4
         \context GlobalContext = "GlobalContext" <<
             \context GlobalRests = "GlobalRests" {
                 
