@@ -20,7 +20,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         >>> abjad.f(lilypond_file[abjad.Score])
         \context Score = "Score" <<
-            \tag ViolinI.ViolinII.viola.cello %! ST4
+            \tag ViolinI.ViolinII.Viola.Cello %! ST4
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                 }
@@ -33,23 +33,23 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \context ViolinIMusicStaff = "ViolinIMusicStaff" {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice" {
                             \set ViolinIMusicStaff.instrumentName = \markup {      %! ST1
-                                \hcenter-in                                          %! ST1
-                                    #16                                              %! ST1
-                                    \line                                            %! ST1
-                                        {                                            %! ST1
-                                            Violin                                   %! ST1
-                                            I                                        %! ST1
-                                        }                                            %! ST1
-                                }                                                    %! ST1
+                                \hcenter-in                                        %! ST1
+                                    #16                                            %! ST1
+                                    \line                                          %! ST1
+                                        {                                          %! ST1
+                                            Violin                                 %! ST1
+                                            I                                      %! ST1
+                                        }                                          %! ST1
+                                }                                                  %! ST1
                             \set ViolinIMusicStaff.shortInstrumentName = \markup { %! ST1
-                                \hcenter-in                                          %! ST1
-                                    #10                                              %! ST1
-                                    \line                                            %! ST1
-                                        {                                            %! ST1
-                                            Vn.                                      %! ST1
-                                            I                                        %! ST1
-                                        }                                            %! ST1
-                                }                                                    %! ST1
+                                \hcenter-in                                        %! ST1
+                                    #10                                            %! ST1
+                                    \line                                          %! ST1
+                                        {                                          %! ST1
+                                            Vn.                                    %! ST1
+                                            I                                      %! ST1
+                                        }                                          %! ST1
+                                }                                                  %! ST1
                             \clef "treble" %! ST3
                             s1
                         }
@@ -58,23 +58,23 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
                             \set ViolinIIMusicStaff.instrumentName = \markup {      %! ST1
-                                \hcenter-in                                          %! ST1
-                                    #16                                              %! ST1
-                                    \line                                            %! ST1
-                                        {                                            %! ST1
-                                            Violin                                   %! ST1
-                                            II                                       %! ST1
-                                        }                                            %! ST1
-                                }                                                    %! ST1
+                                \hcenter-in                                         %! ST1
+                                    #16                                             %! ST1
+                                    \line                                           %! ST1
+                                        {                                           %! ST1
+                                            Violin                                  %! ST1
+                                            II                                      %! ST1
+                                        }                                           %! ST1
+                                }                                                   %! ST1
                             \set ViolinIIMusicStaff.shortInstrumentName = \markup { %! ST1
-                                \hcenter-in                                          %! ST1
-                                    #10                                              %! ST1
-                                    \line                                            %! ST1
-                                        {                                            %! ST1
-                                            Vn.                                      %! ST1
-                                            II                                       %! ST1
-                                        }                                            %! ST1
-                                }                                                    %! ST1
+                                \hcenter-in                                         %! ST1
+                                    #10                                             %! ST1
+                                    \line                                           %! ST1
+                                        {                                           %! ST1
+                                            Vn.                                     %! ST1
+                                            II                                      %! ST1
+                                        }                                           %! ST1
+                                }                                                   %! ST1
                             \clef "treble" %! ST3
                             s1
                         }
@@ -135,8 +135,8 @@ class ScoreTemplate(baca.ScoreTemplate):
         instrument_tags = (
             'ViolinI',
             'ViolinII',
-            'viola',
-            'cello',
+            'Viola',
+            'Cello',
             )
         tag_string = '.'.join(instrument_tags)
         self._attach_tag(tag_string, global_context)
