@@ -237,17 +237,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.1]                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             4'45''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -257,6 +251,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             4'45''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -272,7 +272,7 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.2]                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -301,17 +301,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.3]                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             4'51''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -321,6 +315,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             4'51''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -336,7 +336,7 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.4]                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -365,17 +365,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.5]                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'01''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -385,6 +379,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'01''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -400,7 +400,7 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.6]                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -429,17 +429,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.7]                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'10''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -449,6 +443,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'10''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -464,7 +464,7 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.8]                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -548,17 +548,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.9]                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'19''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -568,6 +562,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'19''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -579,12 +579,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'22''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -594,6 +588,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'22''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -609,17 +609,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.10]                                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'25''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -629,6 +623,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'25''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -640,12 +640,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'30''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -655,6 +649,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'30''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -694,17 +694,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.11]                                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'34''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -714,6 +708,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'34''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -726,12 +726,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'39''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -741,6 +735,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'39''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -810,17 +810,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.12]                                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'43''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -830,6 +824,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'43''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -842,12 +842,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'45''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -857,6 +851,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'45''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -869,12 +869,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'49''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -884,6 +878,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'49''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -896,12 +896,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'51''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -911,6 +905,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'51''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -949,17 +949,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.13]                                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'55''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -969,6 +963,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/16)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'55''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -980,12 +980,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             5'59''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -995,6 +989,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (3/56)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             5'59''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1010,17 +1010,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.14]                                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'03''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1030,6 +1024,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'03''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1042,12 +1042,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'06''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1057,6 +1051,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'06''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1072,17 +1072,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.15]                                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'08''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1092,6 +1086,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'08''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1104,12 +1104,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'11''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1119,6 +1113,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'11''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1131,12 +1131,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'14''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1146,6 +1140,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'14''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1157,12 +1157,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'16''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1172,6 +1166,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'16''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1241,17 +1241,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.16]                                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'18''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1261,6 +1255,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'18''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1273,12 +1273,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'20''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1288,6 +1282,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'20''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1300,12 +1300,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'22''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1315,6 +1309,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'22''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1327,12 +1327,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'24''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1342,6 +1336,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'24''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1354,12 +1354,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'26''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1369,6 +1363,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (3/80)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'26''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1380,12 +1380,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'29''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1395,6 +1389,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/24)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'29''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1409,17 +1409,11 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.17]                                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'32''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1429,6 +1423,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (3/88)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'32''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1441,12 +1441,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'35''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1456,6 +1450,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'35''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1468,12 +1468,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'36''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1483,6 +1477,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (3/88)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'36''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1495,12 +1495,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'39''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1510,6 +1504,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/28)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'39''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1522,12 +1522,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'42''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1537,6 +1531,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'42''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1548,12 +1548,6 @@
                 ^ \markup {
                     \column
                         {
-                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
-                        %%%             6'43''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%% \line                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     {                                                        %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%         \with-color                                          %! SEGMENT_SPACING_MARKUP:HSS2
@@ -1563,6 +1557,12 @@
                         %%%                     #3                                       %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%                     (1/12)                                   %! SEGMENT_SPACING_MARKUP:HSS2
                         %%%     }                                                        %! SEGMENT_SPACING_MARKUP:HSS2
+                        %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             6'43''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -1579,7 +1579,7 @@
                         %%% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %%%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %%%             #-3                                              %! STAGE_NUMBER_MARKUP:SM3
+                        %%%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
                         %%%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
                         %%%                 [E.18]                                       %! STAGE_NUMBER_MARKUP:SM3
