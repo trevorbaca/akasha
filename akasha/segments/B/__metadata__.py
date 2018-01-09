@@ -47,6 +47,11 @@ metadata = abjad.TypedOrderedDict(
                                 prototype='abjad.TimeSignature',
                                 value='7/8',
                                 ),
+                            abjad.Momento(
+                                context='GlobalSkips',
+                                prototype='baca.SpacingSection',
+                                value='1/16',
+                                ),
                             ],
                         ),
                     (
