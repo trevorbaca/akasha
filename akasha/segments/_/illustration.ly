@@ -33,25 +33,25 @@
                 % GlobalSkips [measure 1]                                                %! SM4
                 \newSpacingSection                                                       %! SPACING:HSS1
                 \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)         %! SPACING:HSS1
-            %F% \once \override TextSpanner.bound-details.left.text =                    %! EXPLICIT_METRONOME_MARK:SM27
-            %F% \markup {                                                                %! EXPLICIT_METRONOME_MARK:SM27
-            %F%     \fontsize                                                            %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         #-6                                                              %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         \general-align                                                   %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             #Y                                                           %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             #DOWN                                                        %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             \note-by-number                                              %! EXPLICIT_METRONOME_MARK:SM27
-            %F%                 #2                                                       %! EXPLICIT_METRONOME_MARK:SM27
-            %F%                 #0                                                       %! EXPLICIT_METRONOME_MARK:SM27
-            %F%                 #1.5                                                     %! EXPLICIT_METRONOME_MARK:SM27
-            %F%     \upright                                                             %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         {                                                                %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             =                                                            %! EXPLICIT_METRONOME_MARK:SM27
-            %F%             44                                                           %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27
-            %F%     \hspace                                                              %! EXPLICIT_METRONOME_MARK:SM27
-            %F%         #1                                                               %! EXPLICIT_METRONOME_MARK:SM27
-            %F%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
+            %@% \once \override TextSpanner.bound-details.left.text =                    %! EXPLICIT_METRONOME_MARK:SM27
+            %@% \markup {                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %@%     \fontsize                                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         #-6                                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         \general-align                                                   %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             #Y                                                           %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             #DOWN                                                        %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             \note-by-number                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %@%                 #2                                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %@%                 #0                                                       %! EXPLICIT_METRONOME_MARK:SM27
+            %@%                 #1.5                                                     %! EXPLICIT_METRONOME_MARK:SM27
+            %@%     \upright                                                             %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         {                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             =                                                            %! EXPLICIT_METRONOME_MARK:SM27
+            %@%             44                                                           %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+            %@%     \hspace                                                              %! EXPLICIT_METRONOME_MARK:SM27
+            %@%         #1                                                               %! EXPLICIT_METRONOME_MARK:SM27
+            %@%     }                                                                    %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 \once \override TextSpanner.Y-extent = ##f                               %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = ##f         %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -93,37 +93,37 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m0                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [1]                                          %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             0'00''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m0                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [1]                                          %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             0'00''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -136,29 +136,29 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m1                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/12)                                   %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
-                        %F% \line                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %F%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %F%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %F%             0'02''                                           %! CLOCK_TIME_MARKUP:SM28
-                        %F%     }                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m1                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/12)                                   %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
+                        %@%             0'02''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
                 
@@ -172,31 +172,31 @@
                 ^ \markup {
                     \column
                         {
-                        %F% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
-                        %F%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %F%                 m2                                           %! MEASURE_INDEX_MARKUP:SM31
-                        %F%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
-                        %F% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
-                        %F%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
-                        %F%                 [2]                                          %! STAGE_NUMBER_MARKUP:SM3
-                        %F%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
-                        %F% \line                                                        %! SPACING_MARKUP:HSS2
-                        %F%     {                                                        %! SPACING_MARKUP:HSS2
-                        %F%         \with-color                                          %! SPACING_MARKUP:HSS2
-                        %F%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
-                        %F%             \bold                                            %! SPACING_MARKUP:HSS2
-                        %F%                 \fontsize                                    %! SPACING_MARKUP:HSS2
-                        %F%                     #3                                       %! SPACING_MARKUP:HSS2
-                        %F%                     (1/4)                                    %! SPACING_MARKUP:HSS2
-                        %F%     }                                                        %! SPACING_MARKUP:HSS2
+                        %@% \line                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     {                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@%         \fontsize                                            %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
+                        %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 m2                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
+                        %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@%         \fontsize                                            %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             #3                                               %! STAGE_NUMBER_MARKUP:SM3
+                        %@%             \with-color                                      %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 #(x11-color 'DarkCyan)                       %! STAGE_NUMBER_MARKUP:SM3
+                        %@%                 [2]                                          %! STAGE_NUMBER_MARKUP:SM3
+                        %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
+                        %@% \line                                                        %! SPACING_MARKUP:HSS2
+                        %@%     {                                                        %! SPACING_MARKUP:HSS2
+                        %@%         \with-color                                          %! SPACING_MARKUP:HSS2
+                        %@%             #(x11-color 'DarkCyan)                           %! SPACING_MARKUP:HSS2
+                        %@%             \bold                                            %! SPACING_MARKUP:HSS2
+                        %@%                 \fontsize                                    %! SPACING_MARKUP:HSS2
+                        %@%                     #3                                       %! SPACING_MARKUP:HSS2
+                        %@%                     (1/4)                                    %! SPACING_MARKUP:HSS2
+                        %@%     }                                                        %! SPACING_MARKUP:HSS2
                         }
                     }
                 \override Score.BarLine.transparent = ##f                                %! SM5
@@ -233,37 +233,37 @@
                         \clef "treble"                                                   %! DEFAULT_CLEF:SM8
                         \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                         \once \override ViolinIMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
-                    %F% \override ViolinIMusicStaff.Clef.color = ##f                     %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override ViolinIMusicStaff.Clef.color = ##f                     %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                         R1 * 3/8
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             (“ViolinI”                               %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \line                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     {                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         Violin                       %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         I                            %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     }                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         \line                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                             {                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                                 Vn.                  %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                                 I                    %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                             }                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             (“ViolinI”                               %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \line                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     {                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         Violin                       %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         I                            %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     }                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         \line                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                             {                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                                 Vn.                  %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                                 I                    %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                             }                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     \line                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -352,37 +352,37 @@
                         \clef "treble"                                                   %! DEFAULT_CLEF:SM8
                         \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                         \once \override ViolinIIMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
-                    %F% \override ViolinIIMusicStaff.Clef.color = ##f                    %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override ViolinIIMusicStaff.Clef.color = ##f                    %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                         R1 * 3/8
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             (“ViolinII”                              %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \line                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     {                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         Violin                       %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         II                           %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     }                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         \line                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                             {                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                                 Vn.                  %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                                 II                   %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                             }                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             (“ViolinII”                              %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \line                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     {                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         Violin                       %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         II                           %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     }                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         \line                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                             {                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                                 Vn.                  %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                                 II                   %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                             }                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     \line                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -466,7 +466,7 @@
                         \clef "alto"                                                     %! DEFAULT_CLEF:SM8
                         \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                         \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
-                    %F% \override ViolaMusicStaff.Clef.color = ##f                       %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override ViolaMusicStaff.Clef.color = ##f                       %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                         c'4.
@@ -486,24 +486,24 @@
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             (“Viola”                                 %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 Viola                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         Va.                          %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             (“Viola”                                 %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 Viola                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         Va.                          %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     \line                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
@@ -575,29 +575,29 @@
                         \clef "bass"                                                     %! DEFAULT_CLEF:SM8
                         \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
-                    %F% \override CelloMusicStaff.Clef.color = ##f                       %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                    %@% \override CelloMusicStaff.Clef.color = ##f                       %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                         R1 * 3/8
                         ^ \markup {
                             \column
                                 {
-                                %F% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             (“Cello”                                 %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 Cello                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                         Vc.                          %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %F%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             (“Cello”                                 %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 Cello                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                         Vc.                          %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
+                                %@%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                     \line                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                         {                                                %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             \with-color                                  %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
