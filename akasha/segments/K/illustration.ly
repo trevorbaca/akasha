@@ -6705,6 +6705,16 @@
                         
                         % CelloMusicVoice [measure 311]                                  %! SM4
                         \override NoteHead.style = #'harmonic                            %! OC
+                        \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +SEGMENT:OC %@%
+                        \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +SEGMENT:OC %@%
+                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +COMPILE_PARTS_SCR:OC
+                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +COMPILE_PARTS_SCR:OC
+                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LEDGER_PARTS:OC
+                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_PARTS:OC
+                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LEDGER_SCORE:OC
+                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_SCORE:OC
+                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LETTER_SCORE:OC
+                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LETTER_SCORE:OC
                         \set CelloMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
