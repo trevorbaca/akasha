@@ -27,7 +27,6 @@
                 R1 * 3/4
                 
                 % GlobalRests [measure 156]                                              %! SM4
-                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)           %! SM19
                 \once \override Score.MultiMeasureRest.transparent = ##t                 %! SM19
                 \once \override Score.TimeSignature.stencil = ##f                        %! SM19
                 R1 * 1/4
@@ -40,7 +39,6 @@
                 R1 * 3/4
                 
                 % GlobalRests [measure 158]                                              %! SM4
-                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)           %! SM19
                 \once \override Score.MultiMeasureRest.transparent = ##t                 %! SM19
                 \once \override Score.TimeSignature.stencil = ##f                        %! SM19
                 R1 * 1/4
@@ -56,7 +54,6 @@
                 R1 * 1
                 
                 % GlobalRests [measure 161]                                              %! SM4
-                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)           %! SM19
                 \once \override Score.MultiMeasureRest.transparent = ##t                 %! SM19
                 \once \override Score.TimeSignature.stencil = ##f                        %! SM19
                 R1 * 1/4
@@ -138,7 +135,6 @@
                 R1 * 5/4
                 
                 % GlobalRests [measure 186]                                              %! SM4
-                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)           %! SM19
                 \once \override Score.MultiMeasureRest.transparent = ##t                 %! SM19
                 \once \override Score.TimeSignature.stencil = ##f                        %! SM19
                 R1 * 1/4
@@ -166,7 +162,6 @@
                 R1 * 1
                 
                 % GlobalRests [measure 193]                                              %! SM4
-                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)           %! SM19
                 \once \override Score.MultiMeasureRest.transparent = ##t                 %! SM19
                 \once \override Score.TimeSignature.stencil = ##f                        %! SM19
                 R1 * 1/4
@@ -179,7 +174,6 @@
                 R1 * 3/2
                 
                 % GlobalRests [measure 195]                                              %! SM4
-                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)           %! SM19
                 \once \override Score.MultiMeasureRest.transparent = ##t                 %! SM19
                 \once \override Score.TimeSignature.stencil = ##f                        %! SM19
                 R1 * 1/4
@@ -192,7 +186,6 @@
                 R1 * 3/2
                 
                 % GlobalRests [measure 197]                                              %! SM4
-                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)           %! SM19
                 \once \override Score.MultiMeasureRest.transparent = ##t                 %! SM19
                 \once \override Score.TimeSignature.stencil = ##f                        %! SM19
                 R1 * 1/4
@@ -205,7 +198,6 @@
                 R1 * 3/2
                 
                 % GlobalRests [measure 199]                                              %! SM4
-                \once \override MultiMeasureRestText.extra-offset = #'(0 . -7)           %! SM19
                 \once \override Score.MultiMeasureRest.transparent = ##t                 %! SM19
                 \once \override Score.TimeSignature.stencil = ##f                        %! SM19
                 R1 * 1/4
