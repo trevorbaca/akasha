@@ -10,6 +10,7 @@ metadata = abjad.TypedOrderedDict(
             ),
         ('first_measure_number', 35),
         ('last_measure_is_fermata', True),
+        ('last_measure_number', 61),
         (
             'persistent_indicators',
             abjad.TypedOrderedDict(
