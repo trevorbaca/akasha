@@ -6062,16 +6062,8 @@
                         \times 8/11 {
                             
                             % ViolaMusicVoice [measure 187]                              %! SM4
-                            \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! +SEGMENT:OC %@%
-                            \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +SEGMENT:OC %@%
-                        %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! +COMPILE_PARTS_SCR:OC
-                        %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +COMPILE_PARTS_SCR:OC
-                        %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! +LEDGER_PARTS:OC
-                        %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_PARTS:OC
-                        %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! +LEDGER_SCORE:OC
-                        %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_SCORE:OC
-                        %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! +LETTER_SCORE:OC
-                        %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LETTER_SCORE:OC
+                        %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! -BOL_MEASURE_187:OC
+                        %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! -BOL_MEASURE_187:OC
                             \set ViolaMusicStaff.forceClef = ##t                         %! EXPLICIT_CLEF:SM8
                             \clef "treble"                                               %! EXPLICIT_CLEF:SM8
                             \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
@@ -6991,16 +6983,8 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 162]                                  %! SM4
-                        \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +SEGMENT:OC %@%
-                        \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! +SEGMENT:OC %@%
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +COMPILE_PARTS_SCR:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! +COMPILE_PARTS_SCR:OC
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LEDGER_PARTS:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! +LEDGER_PARTS:OC
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LEDGER_SCORE:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! +LEDGER_SCORE:OC
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LETTER_SCORE:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! +LETTER_SCORE:OC
+                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! -BOL_MEASURE_162:OC
+                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! -BOL_MEASURE_162:OC
                         \set CelloMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "bass"                                                     %! EXPLICIT_CLEF:SM8
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
@@ -7196,16 +7180,8 @@
                         \times 4/6 {
                             
                             % CelloMusicVoice [measure 187]                              %! SM4
-                            \once \override CelloMusicStaff.Clef.X-extent = ##f          %! +SEGMENT:OC %@%
-                            \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +SEGMENT:OC %@%
-                        %@% \once \override CelloMusicStaff.Clef.X-extent = ##f          %! +COMPILE_PARTS_SCR:OC
-                        %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +COMPILE_PARTS_SCR:OC
-                        %@% \once \override CelloMusicStaff.Clef.X-extent = ##f          %! +LEDGER_PARTS:OC
-                        %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_PARTS:OC
-                        %@% \once \override CelloMusicStaff.Clef.X-extent = ##f          %! +LEDGER_SCORE:OC
-                        %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_SCORE:OC
-                        %@% \once \override CelloMusicStaff.Clef.X-extent = ##f          %! +LETTER_SCORE:OC
-                        %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LETTER_SCORE:OC
+                        %@% \once \override CelloMusicStaff.Clef.X-extent = ##f          %! -BOL_MEASURE_187:OC
+                        %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! -BOL_MEASURE_187:OC
                             \set CelloMusicStaff.forceClef = ##t                         %! EXPLICIT_CLEF:SM8
                             \clef "treble"                                               %! EXPLICIT_CLEF:SM8
                             \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6

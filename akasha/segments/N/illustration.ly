@@ -1098,16 +1098,8 @@
                         \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1     %! REDUNDANT_STAFF_LINES:SM8
                         \startStaff                                                      %! REDUNDANT_STAFF_LINES:SM8
                         \override RepeatTie.direction = #up                              %! OC
-                        \once \override ViolinIMusicStaff.Clef.X-extent = ##f            %! +SEGMENT:OC %@%
-                        \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +SEGMENT:OC %@%
-                    %@% \once \override ViolinIMusicStaff.Clef.X-extent = ##f            %! +COMPILE_PARTS_SCR:OC
-                    %@% \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +COMPILE_PARTS_SCR:OC
-                    %@% \once \override ViolinIMusicStaff.Clef.X-extent = ##f            %! +LEDGER_PARTS:OC
-                    %@% \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_PARTS:OC
-                    %@% \once \override ViolinIMusicStaff.Clef.X-extent = ##f            %! +LEDGER_SCORE:OC
-                    %@% \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_SCORE:OC
-                    %@% \once \override ViolinIMusicStaff.Clef.X-extent = ##f            %! +LETTER_SCORE:OC
-                    %@% \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LETTER_SCORE:OC
+                    %@% \once \override ViolinIMusicStaff.Clef.X-extent = ##f            %! -BOL_MEASURE_369:OC
+                    %@% \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! -BOL_MEASURE_369:OC
                         \set ViolinIMusicStaff.instrumentName = \markup {                %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -1579,16 +1571,8 @@
                         \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! REDUNDANT_STAFF_LINES:SM8
                         \startStaff                                                      %! REDUNDANT_STAFF_LINES:SM8
                         \override RepeatTie.direction = #up                              %! OC
-                        \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! +SEGMENT:OC %@%
-                        \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +SEGMENT:OC %@%
-                    %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! +COMPILE_PARTS_SCR:OC
-                    %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +COMPILE_PARTS_SCR:OC
-                    %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! +LEDGER_PARTS:OC
-                    %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_PARTS:OC
-                    %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! +LEDGER_SCORE:OC
-                    %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_SCORE:OC
-                    %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! +LETTER_SCORE:OC
-                    %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LETTER_SCORE:OC
+                    %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! -BOL_MEASURE_369:OC
+                    %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! -BOL_MEASURE_369:OC
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -1777,16 +1761,8 @@
                         \once \override CelloMusicStaff.StaffSymbol.line-count = 1       %! EXPLICIT_STAFF_LINES:SM8
                         \startStaff                                                      %! EXPLICIT_STAFF_LINES:SM8
                         \override RepeatTie.direction = #up                              %! OC
-                        \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +SEGMENT:OC %@%
-                        \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +SEGMENT:OC %@%
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +COMPILE_PARTS_SCR:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +COMPILE_PARTS_SCR:OC
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LEDGER_PARTS:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_PARTS:OC
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LEDGER_SCORE:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LEDGER_SCORE:OC
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! +LETTER_SCORE:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! +LETTER_SCORE:OC
+                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! -BOL_MEASURE_369:OC
+                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! -BOL_MEASURE_369:OC
                         \set CelloMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
