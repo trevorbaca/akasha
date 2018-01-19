@@ -1773,8 +1773,8 @@
                         \stopStaff                                                       %! REAPPLIED_STAFF_LINES:SM8
                         \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! REAPPLIED_STAFF_LINES:SM8
                         \startStaff                                                      %! REAPPLIED_STAFF_LINES:SM8
-                    %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! -BOL_MEASURE_200:OC
-                    %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! -BOL_MEASURE_200:OC
+                        \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! MEASURE_200:SHIFTED_CLEF:OC
+                        \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_200:SHIFTED_CLEF:OC
                         \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2099,8 +2099,8 @@
                     \context CelloMusicVoice = "CelloMusicVoice" {
                         
                         % CelloMusicVoice [measure 200]                                  %! SM4
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! -BOL_MEASURE_200:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! -BOL_MEASURE_200:OC
+                        \once \override CelloMusicStaff.Clef.X-extent = ##f              %! MEASURE_200:SHIFTED_CLEF:OC
+                        \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_200:SHIFTED_CLEF:OC
                         \once \override TextSpanner.Y-extent = ##f
                         \once \override TextSpanner.arrow-width = 0.25
                         \once \override TextSpanner.bound-details.left-broken.text = ##f
