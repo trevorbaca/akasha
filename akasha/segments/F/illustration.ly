@@ -6062,8 +6062,8 @@
                         \times 8/11 {
                             
                             % ViolaMusicVoice [measure 187]                              %! SM4
-                        %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! -BOL_MEASURE_187:OC
-                        %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! -BOL_MEASURE_187:OC
+                            \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! MEASURE_187:SHIFTED_CLEF:OC
+                            \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! MEASURE_187:SHIFTED_CLEF:OC
                             \set ViolaMusicStaff.forceClef = ##t                         %! EXPLICIT_CLEF:SM8
                             \clef "treble"                                               %! EXPLICIT_CLEF:SM8
                             \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
@@ -6983,8 +6983,8 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 162]                                  %! SM4
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! -BOL_MEASURE_162:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! -BOL_MEASURE_162:OC
+                        \once \override CelloMusicStaff.Clef.X-extent = ##f              %! MEASURE_162:SHIFTED_CLEF:OC
+                        \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_162:SHIFTED_CLEF:OC
                         \set CelloMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "bass"                                                     %! EXPLICIT_CLEF:SM8
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
@@ -7180,8 +7180,8 @@
                         \times 4/6 {
                             
                             % CelloMusicVoice [measure 187]                              %! SM4
-                        %@% \once \override CelloMusicStaff.Clef.X-extent = ##f          %! -BOL_MEASURE_187:OC
-                        %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! -BOL_MEASURE_187:OC
+                            \once \override CelloMusicStaff.Clef.X-extent = ##f          %! MEASURE_187:SHIFTED_CLEF:OC
+                            \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! MEASURE_187:SHIFTED_CLEF:OC
                             \set CelloMusicStaff.forceClef = ##t                         %! EXPLICIT_CLEF:SM8
                             \clef "treble"                                               %! EXPLICIT_CLEF:SM8
                             \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6

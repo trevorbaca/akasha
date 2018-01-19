@@ -644,8 +644,8 @@
                         \stopStaff                                                       %! REDUNDANT_STAFF_LINES:SM8
                         \once \override ViolaMusicStaff.StaffSymbol.line-count = 1       %! REDUNDANT_STAFF_LINES:SM8
                         \startStaff                                                      %! REDUNDANT_STAFF_LINES:SM8
-                    %@% \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! -BOL_MEASURE_334:OC
-                    %@% \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! -BOL_MEASURE_334:OC
+                        \once \override ViolaMusicStaff.Clef.X-extent = ##f              %! MEASURE_334:SHIFTED_CLEF:OC
+                        \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_334:SHIFTED_CLEF:OC
                         \set ViolaMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -839,8 +839,8 @@
                         R1 * 1/4
                         
                         % CelloMusicVoice [measure 338]                                  %! SM4
-                    %@% \once \override CelloMusicStaff.Clef.X-extent = ##f              %! -BOL_MEASURE_338:OC
-                    %@% \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! -BOL_MEASURE_338:OC
+                        \once \override CelloMusicStaff.Clef.X-extent = ##f              %! MEASURE_338:SHIFTED_CLEF:OC
+                        \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_338:SHIFTED_CLEF:OC
                         \set CelloMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "bass"                                                     %! EXPLICIT_CLEF:SM8
                         \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
