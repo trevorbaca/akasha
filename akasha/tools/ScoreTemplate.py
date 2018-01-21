@@ -143,12 +143,12 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # VIOLIN 1
         violin_one_music_voice = abjad.Voice(
-            context_name='ViolinIMusicVoice',
+            lilypond_type='ViolinIMusicVoice',
             name='ViolinIMusicVoice',
             )
         violin_one_music_staff = abjad.Staff(
             [violin_one_music_voice],
-            context_name='ViolinIMusicStaff',
+            lilypond_type='ViolinIMusicStaff',
             name='ViolinIMusicStaff',
             )
         abjad.annotate(
@@ -165,12 +165,12 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # VIOLIN 2
         violin_two_music_voice = abjad.Voice(
-            context_name='ViolinIIMusicVoice',
+            lilypond_type='ViolinIIMusicVoice',
             name='ViolinIIMusicVoice',
             )
         violin_two_music_staff = abjad.Staff(
             [violin_two_music_voice],
-            context_name='ViolinIIMusicStaff',
+            lilypond_type='ViolinIIMusicStaff',
             name='ViolinIIMusicStaff',
             )
         abjad.annotate(
@@ -187,12 +187,12 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # VIOLA
         viola_music_voice = abjad.Voice(
-            context_name='ViolaMusicVoice',
+            lilypond_type='ViolaMusicVoice',
             name='ViolaMusicVoice',
             )
         viola_music_staff = abjad.Staff(
             [viola_music_voice],
-            context_name='ViolaMusicStaff',
+            lilypond_type='ViolaMusicStaff',
             name='ViolaMusicStaff',
             )
         abjad.annotate(
@@ -209,12 +209,12 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         # CELLO
         cello_music_voice = abjad.Voice(
-            context_name='CelloMusicVoice',
+            lilypond_type='CelloMusicVoice',
             name='CelloMusicVoice',
             )
         cello_music_staff = abjad.Staff(
             [cello_music_voice],
-            context_name='CelloMusicStaff',
+            lilypond_type='CelloMusicStaff',
             name='CelloMusicStaff',
             )
         abjad.annotate(
@@ -237,14 +237,14 @@ class ScoreTemplate(baca.ScoreTemplate):
                 viola_music_staff,
                 cello_music_staff,
                 ],
-            context_name='StringQuartetStaffGroup',
+            lilypond_type='StringQuartetStaffGroup',
             name='StringQuartetStaffGroup',
             )
 
         # MUSIC CONTEXT
         music_context = abjad.Context(
             [string_quartet_staff_group],
-            context_name='MusicContext',
+            lilypond_type='MusicContext',
             name='MusicContext',
             )
 
