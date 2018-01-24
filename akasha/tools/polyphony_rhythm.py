@@ -17,7 +17,7 @@ def polyphony_rhythm(rotation=0):
                 repeat_ties=True,
                 ),
             tuplet_specifier=rhythmos.TupletSpecifier(
-                simplify_redundant_tuplets=True,
+                trivialize=True,
                 ),
             ),
         )

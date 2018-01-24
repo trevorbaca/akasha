@@ -2985,7 +2985,8 @@
                                 -\staccato                                               %! IC
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 4/4 {
                                 
                                 r16
                                 

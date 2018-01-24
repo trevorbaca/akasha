@@ -2241,7 +2241,8 @@
                                 -\staccato                                               %! IC
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r4
                             }
