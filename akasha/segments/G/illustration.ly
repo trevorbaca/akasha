@@ -1161,7 +1161,8 @@
                                 cs''''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 2/2 {
                                 
                                 r16
                                 

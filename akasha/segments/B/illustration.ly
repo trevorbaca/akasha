@@ -1255,7 +1255,8 @@
                             }
                             
                             r2..
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % CelloMusicVoice [measure 26]                           %! SM4
                                 r8.
@@ -1337,7 +1338,8 @@
                                 -\staccato                                               %! IC
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 fs32
                                 -\staccato                                               %! IC

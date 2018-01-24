@@ -445,7 +445,8 @@
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 4/4 {
                                 
                                 % ViolinIIMusicVoice [measure 261]                       %! SM4
                                 \stopStaff                                               %! REAPPLIED_STAFF_LINES:SM8
