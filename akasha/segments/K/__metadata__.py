@@ -1,7 +1,7 @@
 import abjad
 
 
-metadata = abjad.TypedOrderedDict(
+metadata = abjad.OrderedDict(
     [
         ('duration', "4'41''"),
         (
@@ -13,7 +13,7 @@ metadata = abjad.TypedOrderedDict(
         ('last_measure_number', 333),
         (
             'persistent_indicators',
-            abjad.TypedOrderedDict(
+            abjad.OrderedDict(
                 [
                     (
                         'CelloMusicStaff',
