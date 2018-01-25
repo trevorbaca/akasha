@@ -127,8 +127,16 @@
                                 %@%             #3                                       %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%             \with-color                              %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)               %! MEASURE_NUMBER_MARKUP:SM31
-                                %@%                 "[00 (217)]"                         %! MEASURE_NUMBER_MARKUP:SM31
+                                %@%                 (217)                                %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%     }                                                %! MEASURE_NUMBER_MARKUP:SM31
+                                %@% \line                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     {                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%         \fontsize                                    %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             #3                                       %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             \with-color                              %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 #(x11-color 'DarkCyan)               %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 <0>                                  %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     }                                                %! MEASURE_INDEX_MARKUP:SM32
                                 %@% \line                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%     {                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%         \fontsize                                    %! STAGE_NUMBER_MARKUP:SM3
@@ -171,8 +179,16 @@
                                 %@%             #3                                       %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%             \with-color                              %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)               %! MEASURE_NUMBER_MARKUP:SM31
-                                %@%                 "[01 (218)]"                         %! MEASURE_NUMBER_MARKUP:SM31
+                                %@%                 (218)                                %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%     }                                                %! MEASURE_NUMBER_MARKUP:SM31
+                                %@% \line                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     {                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%         \fontsize                                    %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             #3                                       %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             \with-color                              %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 #(x11-color 'DarkCyan)               %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 <1>                                  %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     }                                                %! MEASURE_INDEX_MARKUP:SM32
                                 %@% \line                                                %! SPACING_MARKUP:HSS2
                                 %@%     {                                                %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                  %! SPACING_MARKUP:HSS2
@@ -262,8 +278,16 @@
                                 %@%             #3                                       %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%             \with-color                              %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)               %! MEASURE_NUMBER_MARKUP:SM31
-                                %@%                 "[02 (219)]"                         %! MEASURE_NUMBER_MARKUP:SM31
+                                %@%                 (219)                                %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%     }                                                %! MEASURE_NUMBER_MARKUP:SM31
+                                %@% \line                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     {                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%         \fontsize                                    %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             #3                                       %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             \with-color                              %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 #(x11-color 'DarkCyan)               %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 <2>                                  %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     }                                                %! MEASURE_INDEX_MARKUP:SM32
                                 %@% \line                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%     {                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%         \fontsize                                    %! STAGE_NUMBER_MARKUP:SM3
@@ -306,8 +330,16 @@
                                 %@%             #3                                       %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%             \with-color                              %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)               %! MEASURE_NUMBER_MARKUP:SM31
-                                %@%                 "[03 (220)]"                         %! MEASURE_NUMBER_MARKUP:SM31
+                                %@%                 (220)                                %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%     }                                                %! MEASURE_NUMBER_MARKUP:SM31
+                                %@% \line                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     {                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%         \fontsize                                    %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             #3                                       %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             \with-color                              %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 #(x11-color 'DarkCyan)               %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 <3>                                  %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     }                                                %! MEASURE_INDEX_MARKUP:SM32
                                 %@% \line                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%     {                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%         \fontsize                                    %! STAGE_NUMBER_MARKUP:SM3
@@ -405,8 +437,16 @@
                                 %@%             #3                                       %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%             \with-color                              %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)               %! MEASURE_NUMBER_MARKUP:SM31
-                                %@%                 "[04 (221)]"                         %! MEASURE_NUMBER_MARKUP:SM31
+                                %@%                 (221)                                %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%     }                                                %! MEASURE_NUMBER_MARKUP:SM31
+                                %@% \line                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     {                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%         \fontsize                                    %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             #3                                       %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             \with-color                              %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 #(x11-color 'DarkCyan)               %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 <4>                                  %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     }                                                %! MEASURE_INDEX_MARKUP:SM32
                                 %@% \line                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%     {                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%         \fontsize                                    %! STAGE_NUMBER_MARKUP:SM3
@@ -449,8 +489,16 @@
                                 %@%             #3                                       %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%             \with-color                              %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)               %! MEASURE_NUMBER_MARKUP:SM31
-                                %@%                 "[05 (222)]"                         %! MEASURE_NUMBER_MARKUP:SM31
+                                %@%                 (222)                                %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%     }                                                %! MEASURE_NUMBER_MARKUP:SM31
+                                %@% \line                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     {                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%         \fontsize                                    %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             #3                                       %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             \with-color                              %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 #(x11-color 'DarkCyan)               %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 <5>                                  %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     }                                                %! MEASURE_INDEX_MARKUP:SM32
                                 %@% \line                                                %! SPACING_MARKUP:HSS2
                                 %@%     {                                                %! SPACING_MARKUP:HSS2
                                 %@%         \with-color                                  %! SPACING_MARKUP:HSS2
@@ -486,8 +534,16 @@
                                 %@%             #3                                       %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%             \with-color                              %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%                 #(x11-color 'DarkCyan)               %! MEASURE_NUMBER_MARKUP:SM31
-                                %@%                 "[06 (223)]"                         %! MEASURE_NUMBER_MARKUP:SM31
+                                %@%                 (223)                                %! MEASURE_NUMBER_MARKUP:SM31
                                 %@%     }                                                %! MEASURE_NUMBER_MARKUP:SM31
+                                %@% \line                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     {                                                %! MEASURE_INDEX_MARKUP:SM32
+                                %@%         \fontsize                                    %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             #3                                       %! MEASURE_INDEX_MARKUP:SM32
+                                %@%             \with-color                              %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 #(x11-color 'DarkCyan)               %! MEASURE_INDEX_MARKUP:SM32
+                                %@%                 <6>                                  %! MEASURE_INDEX_MARKUP:SM32
+                                %@%     }                                                %! MEASURE_INDEX_MARKUP:SM32
                                 %@% \line                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%     {                                                %! STAGE_NUMBER_MARKUP:SM3
                                 %@%         \fontsize                                    %! STAGE_NUMBER_MARKUP:SM3
