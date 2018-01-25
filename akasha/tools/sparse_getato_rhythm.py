@@ -22,7 +22,7 @@ def sparse_getato_rhythm(
                 denominator=32,
                 ),
             tuplet_specifier=rhythmos.TupletSpecifier(
-                rewrite_rest_filled_tuplets=True,
+                rewrite_rest_filled=True,
                 )
             ),
         )
