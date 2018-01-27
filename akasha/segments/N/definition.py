@@ -27,7 +27,7 @@ maker = baca.TimeSignatureMaker(
     )
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
-spacing_specifier = baca.HorizontalSpacingSpecifier(
+spacing = baca.HorizontalSpacingSpecifier(
     fermata_measure_width=(1, 4),
     minimum_width=(1, 12),
     )
@@ -44,7 +44,7 @@ maker = baca.SegmentMaker(
     metronome_marks=akasha.metronome_marks,
     last_segment=True,
     score_template=akasha.ScoreTemplate(),
-    spacing_specifier=spacing_specifier,
+    spacing=spacing,
     metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
     )
