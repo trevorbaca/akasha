@@ -58,10 +58,8 @@ maker = baca.SegmentMaker(
     metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
     validate_measure_count=48,
+    validate_stage_count=20,
     )
-
-maker.validate_stage_count(20)
-maker.validate_measures_per_stage()
 
 ###############################################################################
 ##################################### TIME ####################################
