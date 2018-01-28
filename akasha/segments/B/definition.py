@@ -37,6 +37,7 @@ maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.metronome_marks,
+    rehearsal_mark='B',
     score_template=akasha.ScoreTemplate(),
     spacing=spacing,
     metronome_mark_measure_map=metronome_mark_measure_map,
