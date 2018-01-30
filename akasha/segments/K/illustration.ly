@@ -4367,12 +4367,12 @@
                             b''''2.
                             \<
                             \sffp
-                            \startTrillSpan                                              %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "pos. ord. + 9°/A4(II)"                          %! IC
                                 }                                                        %! IC
+                            \startTrillSpan                                              %! SC
                             
                             b''''4.
                             \repeatTie
@@ -5302,12 +5302,12 @@
                             cs''''1
                             \<
                             \sffp
-                            \startTrillSpan                                              %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "pos. ord. + 5°/A4(II)"                          %! IC
                                 }                                                        %! IC
+                            \startTrillSpan                                              %! SC
                             
                             % ViolinIIMusicVoice [measure 316]                           %! SM4
                             cs''''2.
@@ -6219,12 +6219,12 @@
                             gqf''2..
                             \<
                             \sffp
-                            \startTrillSpan                                              %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "pos. ord. + 7°/A2(IV)"                          %! IC
                                 }                                                        %! IC
+                            \startTrillSpan                                              %! SC
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
                             % ViolaMusicVoice [measure 314]                              %! SM4
@@ -7133,12 +7133,12 @@
                             d''2.
                             \<
                             \sffp
-                            \startTrillSpan                                              %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "pos. ord. + 11°/A1(IV)"                         %! IC
                                 }                                                        %! IC
+                            \startTrillSpan                                              %! SC
                             \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
                             % CelloMusicVoice [measure 312]                              %! SM4

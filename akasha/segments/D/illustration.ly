@@ -3445,12 +3445,12 @@
                             \pitchedTrill                                                %! SC
                             g''2.
                             \p                                                           %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan a''                                          %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         tasto                                            %! IC
                                 }                                                        %! IC
+                            \startTrillSpan a''                                          %! SC
                             
                             % ViolinIIMusicVoice [measure 100]                           %! SM4
                             g''2..
