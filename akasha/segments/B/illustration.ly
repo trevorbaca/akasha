@@ -17,19 +17,19 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                     
-                    % GlobalRests [measure 24]                                           %! SM4
+                    % [GlobalRests measure 24]                                           %! SM4
                     R1 * 9/8
                     
-                    % GlobalRests [measure 25]                                           %! SM4
+                    % [GlobalRests measure 25]                                           %! SM4
                     R1 * 9/8
                     
-                    % GlobalRests [measure 26]                                           %! SM4
+                    % [GlobalRests measure 26]                                           %! SM4
                     R1 * 1/2
                     
-                    % GlobalRests [measure 27]                                           %! SM4
+                    % [GlobalRests measure 27]                                           %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 28]                                           %! SM4
+                    % [GlobalRests measure 28]                                           %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -38,10 +38,10 @@
                             #"scripts.ulongfermata"                                      %! SM18
                         }                                                                %! SM18
                     
-                    % GlobalRests [measure 29]                                           %! SM4
+                    % [GlobalRests measure 29]                                           %! SM4
                     R1 * 3/8
                     
-                    % GlobalRests [measure 30]                                           %! SM4
+                    % [GlobalRests measure 30]                                           %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -50,10 +50,10 @@
                             #"scripts.ushortfermata"                                     %! SM18
                         }                                                                %! SM18
                     
-                    % GlobalRests [measure 31]                                           %! SM4
+                    % [GlobalRests measure 31]                                           %! SM4
                     R1 * 1/2
                     
-                    % GlobalRests [measure 32]                                           %! SM4
+                    % [GlobalRests measure 32]                                           %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -62,16 +62,16 @@
                             #"scripts.ushortfermata"                                     %! SM18
                         }                                                                %! SM18
                     
-                    % GlobalRests [measure 33]                                           %! SM4
+                    % [GlobalRests measure 33]                                           %! SM4
                     R1 * 7/8
                     
-                    % GlobalRests [measure 34]                                           %! SM4
+                    % [GlobalRests measure 34]                                           %! SM4
                     R1 * 7/8
                     
                 }
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % GlobalSkips [measure 24]                                           %! SM4
+                    % [GlobalSkips measure 24]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REDUNDANT_METRONOME_MARK:SM27
@@ -179,7 +179,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 25]                                           %! SM4
+                    % [GlobalSkips measure 25]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -222,7 +222,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 26]                                           %! SM4
+                    % [GlobalSkips measure 26]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -266,7 +266,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 27]                                           %! SM4
+                    % [GlobalSkips measure 27]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)     %! SPACING:HSS1
                     \time 8/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -318,7 +318,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 28]                                           %! SM4
+                    % [GlobalSkips measure 28]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -370,7 +370,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 29]                                           %! SM4
+                    % [GlobalSkips measure 29]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -422,7 +422,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 30]                                           %! SM4
+                    % [GlobalSkips measure 30]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -474,7 +474,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 31]                                           %! SM4
+                    % [GlobalSkips measure 31]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -526,7 +526,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 32]                                           %! SM4
+                    % [GlobalSkips measure 32]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -578,7 +578,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 33]                                           %! SM4
+                    % [GlobalSkips measure 33]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \time 7/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -630,7 +630,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 34]                                           %! SM4
+                    % [GlobalSkips measure 34]                                           %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -724,7 +724,7 @@
                                 }
                             \times 1/1 {
                                 
-                                % ViolinIMusicVoice [measure 24]                         %! SM4
+                                % [ViolinIMusicVoice measure 24]                         %! SM4
                                 \override ViolinIMusicStaff.Stem.stemlet-length = 0.75
                                 \once \override Beam.grow-direction = #right
                                 \set ViolinIMusicStaff.instrumentName = \markup {        %! REAPPLIED_INSTRUMENT:SM8
@@ -814,36 +814,36 @@
                             }
                             \revert TupletNumber.text
                             
-                            % ViolinIMusicVoice [measure 25]                             %! SM4
+                            % [ViolinIMusicVoice measure 25]                             %! SM4
                             r1
                             
                             r8
                             
-                            % ViolinIMusicVoice [measure 26]                             %! SM4
+                            % [ViolinIMusicVoice measure 26]                             %! SM4
                             r2
                             
-                            % ViolinIMusicVoice [measure 27]                             %! SM4
+                            % [ViolinIMusicVoice measure 27]                             %! SM4
                             R1 * 1
                             
-                            % ViolinIMusicVoice [measure 28]                             %! SM4
+                            % [ViolinIMusicVoice measure 28]                             %! SM4
                             R1 * 1/4
                             
-                            % ViolinIMusicVoice [measure 29]                             %! SM4
+                            % [ViolinIMusicVoice measure 29]                             %! SM4
                             R1 * 3/8
                             
-                            % ViolinIMusicVoice [measure 30]                             %! SM4
+                            % [ViolinIMusicVoice measure 30]                             %! SM4
                             R1 * 1/4
                             
-                            % ViolinIMusicVoice [measure 31]                             %! SM4
+                            % [ViolinIMusicVoice measure 31]                             %! SM4
                             R1 * 1/2
                             
-                            % ViolinIMusicVoice [measure 32]                             %! SM4
+                            % [ViolinIMusicVoice measure 32]                             %! SM4
                             R1 * 1/4
                             
-                            % ViolinIMusicVoice [measure 33]                             %! SM4
+                            % [ViolinIMusicVoice measure 33]                             %! SM4
                             R1 * 7/8
                             
-                            % ViolinIMusicVoice [measure 34]                             %! SM4
+                            % [ViolinIMusicVoice measure 34]                             %! SM4
                             R1 * 7/8
                             
                         }
@@ -852,7 +852,7 @@
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
                             
-                            % ViolinIIMusicVoice [measure 24]                            %! SM4
+                            % [ViolinIIMusicVoice measure 24]                            %! SM4
                             \set ViolinIIMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -943,7 +943,7 @@
                             
                             e'2..
                             
-                            % ViolinIIMusicVoice [measure 25]                            %! SM4
+                            % [ViolinIIMusicVoice measure 25]                            %! SM4
                             f'4
                             
                             fqf'8
@@ -953,26 +953,26 @@
                             
                             e'2
                             
-                            % ViolinIIMusicVoice [measure 26]                            %! SM4
+                            % [ViolinIIMusicVoice measure 26]                            %! SM4
                             e'2
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 27]                            %! SM4
+                            % [ViolinIIMusicVoice measure 27]                            %! SM4
                             R1 * 1
                             
-                            % ViolinIIMusicVoice [measure 28]                            %! SM4
+                            % [ViolinIIMusicVoice measure 28]                            %! SM4
                             R1 * 1/4
                             
-                            % ViolinIIMusicVoice [measure 29]                            %! SM4
+                            % [ViolinIIMusicVoice measure 29]                            %! SM4
                             R1 * 3/8
                             
-                            % ViolinIIMusicVoice [measure 30]                            %! SM4
+                            % [ViolinIIMusicVoice measure 30]                            %! SM4
                             R1 * 1/4
                             
-                            % ViolinIIMusicVoice [measure 31]                            %! SM4
+                            % [ViolinIIMusicVoice measure 31]                            %! SM4
                             R1 * 1/2
                             
-                            % ViolinIIMusicVoice [measure 32]                            %! SM4
+                            % [ViolinIIMusicVoice measure 32]                            %! SM4
                             R1 * 1/4
                             \override TupletNumber.text = \markup {
                                 \scale
@@ -1006,7 +1006,7 @@
                                 }
                             \times 1/1 {
                                 
-                                % ViolinIIMusicVoice [measure 33]                        %! SM4
+                                % [ViolinIIMusicVoice measure 33]                        %! SM4
                                 \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
                                 \once \override Beam.grow-direction = #right
                                 \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1041,7 +1041,7 @@
                     \context ViolaMusicStaff = "ViolaMusicStaff" {
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
                             
-                            % ViolaMusicVoice [measure 24]                               %! SM4
+                            % [ViolaMusicVoice measure 24]                               %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -1102,7 +1102,7 @@
                             
                             df'2
                             
-                            % ViolaMusicVoice [measure 25]                               %! SM4
+                            % [ViolaMusicVoice measure 25]                               %! SM4
                             df'4.
                             \repeatTie
                             
@@ -1118,32 +1118,32 @@
                             
                             c'4
                             
-                            % ViolaMusicVoice [measure 26]                               %! SM4
+                            % [ViolaMusicVoice measure 26]                               %! SM4
                             c'2
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 27]                               %! SM4
+                            % [ViolaMusicVoice measure 27]                               %! SM4
                             R1 * 1
                             
-                            % ViolaMusicVoice [measure 28]                               %! SM4
+                            % [ViolaMusicVoice measure 28]                               %! SM4
                             R1 * 1/4
                             
-                            % ViolaMusicVoice [measure 29]                               %! SM4
+                            % [ViolaMusicVoice measure 29]                               %! SM4
                             R1 * 3/8
                             
-                            % ViolaMusicVoice [measure 30]                               %! SM4
+                            % [ViolaMusicVoice measure 30]                               %! SM4
                             R1 * 1/4
                             
-                            % ViolaMusicVoice [measure 31]                               %! SM4
+                            % [ViolaMusicVoice measure 31]                               %! SM4
                             R1 * 1/2
                             
-                            % ViolaMusicVoice [measure 32]                               %! SM4
+                            % [ViolaMusicVoice measure 32]                               %! SM4
                             R1 * 1/4
                             
-                            % ViolaMusicVoice [measure 33]                               %! SM4
+                            % [ViolaMusicVoice measure 33]                               %! SM4
                             R1 * 7/8
                             
-                            % ViolaMusicVoice [measure 34]                               %! SM4
+                            % [ViolaMusicVoice measure 34]                               %! SM4
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             ds2..
                             \mp                                                          %! REDUNDANT_DYNAMIC:SM8
@@ -1159,7 +1159,7 @@
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
                             
-                            % CelloMusicVoice [measure 24]                               %! SM4
+                            % [CelloMusicVoice measure 24]                               %! SM4
                             \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -1215,7 +1215,7 @@
                             r4.
                             \times 8/9 {
                                 
-                                % CelloMusicVoice [measure 25]                           %! SM4
+                                % [CelloMusicVoice measure 25]                           %! SM4
                                 r16.
                                 
                                 bf32
@@ -1239,7 +1239,7 @@
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 1/1 {
                                 
-                                % CelloMusicVoice [measure 26]                           %! SM4
+                                % [CelloMusicVoice measure 26]                           %! SM4
                                 r8.
                                 
                                 c'32
@@ -1276,7 +1276,7 @@
                             }
                             \times 8/9 {
                                 
-                                % CelloMusicVoice [measure 27]                           %! SM4
+                                % [CelloMusicVoice measure 27]                           %! SM4
                                 r8
                                 
                                 bf32
@@ -1365,11 +1365,11 @@
                                 r8
                             }
                             
-                            % CelloMusicVoice [measure 28]                               %! SM4
+                            % [CelloMusicVoice measure 28]                               %! SM4
                             R1 * 1/4
                             \times 8/9 {
                                 
-                                % CelloMusicVoice [measure 29]                           %! SM4
+                                % [CelloMusicVoice measure 29]                           %! SM4
                                 fs32
                                 -\staccato                                               %! IC
                                 [
@@ -1408,11 +1408,11 @@
                                 r32
                             }
                             
-                            % CelloMusicVoice [measure 30]                               %! SM4
+                            % [CelloMusicVoice measure 30]                               %! SM4
                             R1 * 1/4
                             \times 8/9 {
                                 
-                                % CelloMusicVoice [measure 31]                           %! SM4
+                                % [CelloMusicVoice measure 31]                           %! SM4
                                 d32
                                 -\staccato                                               %! IC
                                 
@@ -1440,13 +1440,13 @@
                                 -\staccato                                               %! IC
                             }
                             
-                            % CelloMusicVoice [measure 32]                               %! SM4
+                            % [CelloMusicVoice measure 32]                               %! SM4
                             R1 * 1/4
                             
-                            % CelloMusicVoice [measure 33]                               %! SM4
+                            % [CelloMusicVoice measure 33]                               %! SM4
                             R1 * 7/8
                             
-                            % CelloMusicVoice [measure 34]                               %! SM4
+                            % [CelloMusicVoice measure 34]                               %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs,2..
                             \mp                                                          %! EXPLICIT_DYNAMIC:SM8
