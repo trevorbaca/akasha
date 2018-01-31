@@ -17,91 +17,91 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                     
-                    % GlobalRests [measure 340]                                          %! SM4
+                    % [GlobalRests measure 340]                                          %! SM4
                     R1 * 5/4
                     
-                    % GlobalRests [measure 341]                                          %! SM4
+                    % [GlobalRests measure 341]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 342]                                          %! SM4
+                    % [GlobalRests measure 342]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 343]                                          %! SM4
+                    % [GlobalRests measure 343]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 344]                                          %! SM4
+                    % [GlobalRests measure 344]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 345]                                          %! SM4
+                    % [GlobalRests measure 345]                                          %! SM4
                     R1 * 5/4
                     
-                    % GlobalRests [measure 346]                                          %! SM4
+                    % [GlobalRests measure 346]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 347]                                          %! SM4
+                    % [GlobalRests measure 347]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 348]                                          %! SM4
+                    % [GlobalRests measure 348]                                          %! SM4
                     R1 * 3/2
                     
-                    % GlobalRests [measure 349]                                          %! SM4
+                    % [GlobalRests measure 349]                                          %! SM4
                     R1 * 3/2
                     
-                    % GlobalRests [measure 350]                                          %! SM4
+                    % [GlobalRests measure 350]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 351]                                          %! SM4
+                    % [GlobalRests measure 351]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 352]                                          %! SM4
+                    % [GlobalRests measure 352]                                          %! SM4
                     R1 * 3/2
                     
-                    % GlobalRests [measure 353]                                          %! SM4
+                    % [GlobalRests measure 353]                                          %! SM4
                     R1 * 3/2
                     
-                    % GlobalRests [measure 354]                                          %! SM4
+                    % [GlobalRests measure 354]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 355]                                          %! SM4
+                    % [GlobalRests measure 355]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 356]                                          %! SM4
+                    % [GlobalRests measure 356]                                          %! SM4
                     R1 * 5/4
                     
-                    % GlobalRests [measure 357]                                          %! SM4
+                    % [GlobalRests measure 357]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 358]                                          %! SM4
+                    % [GlobalRests measure 358]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 359]                                          %! SM4
+                    % [GlobalRests measure 359]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 360]                                          %! SM4
+                    % [GlobalRests measure 360]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 361]                                          %! SM4
+                    % [GlobalRests measure 361]                                          %! SM4
                     R1 * 5/4
                     
-                    % GlobalRests [measure 362]                                          %! SM4
+                    % [GlobalRests measure 362]                                          %! SM4
                     R1 * 3/2
                     
-                    % GlobalRests [measure 363]                                          %! SM4
+                    % [GlobalRests measure 363]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 364]                                          %! SM4
+                    % [GlobalRests measure 364]                                          %! SM4
                     R1 * 3/2
                     
-                    % GlobalRests [measure 365]                                          %! SM4
+                    % [GlobalRests measure 365]                                          %! SM4
                     R1 * 3/2
                     
-                    % GlobalRests [measure 366]                                          %! SM4
+                    % [GlobalRests measure 366]                                          %! SM4
                     R1 * 3/2
                     
-                    % GlobalRests [measure 367]                                          %! SM4
+                    % [GlobalRests measure 367]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 368]                                          %! SM4
+                    % [GlobalRests measure 368]                                          %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -113,7 +113,7 @@
                 }
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % GlobalSkips [measure 340]                                          %! SM4
+                    % [GlobalSkips measure 340]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REDUNDANT_METRONOME_MARK:SM27
@@ -221,7 +221,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 341]                                          %! SM4
+                    % [GlobalSkips measure 341]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -265,7 +265,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 342]                                          %! SM4
+                    % [GlobalSkips measure 342]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -308,7 +308,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 343]                                          %! SM4
+                    % [GlobalSkips measure 343]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -352,7 +352,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 344]                                          %! SM4
+                    % [GlobalSkips measure 344]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -395,7 +395,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 345]                                          %! SM4
+                    % [GlobalSkips measure 345]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -439,7 +439,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 346]                                          %! SM4
+                    % [GlobalSkips measure 346]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override TextSpanner.Y-extent = ##f                           %! SM29
@@ -515,7 +515,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 347]                                          %! SM4
+                    % [GlobalSkips measure 347]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -558,7 +558,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 348]                                          %! SM4
+                    % [GlobalSkips measure 348]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -602,7 +602,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 349]                                          %! SM4
+                    % [GlobalSkips measure 349]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -645,7 +645,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 350]                                          %! SM4
+                    % [GlobalSkips measure 350]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -752,7 +752,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 351]                                          %! SM4
+                    % [GlobalSkips measure 351]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -795,7 +795,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 352]                                          %! SM4
+                    % [GlobalSkips measure 352]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -847,7 +847,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 353]                                          %! SM4
+                    % [GlobalSkips measure 353]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -890,7 +890,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 354]                                          %! SM4
+                    % [GlobalSkips measure 354]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -942,7 +942,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 355]                                          %! SM4
+                    % [GlobalSkips measure 355]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -986,7 +986,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 356]                                          %! SM4
+                    % [GlobalSkips measure 356]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1038,7 +1038,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 357]                                          %! SM4
+                    % [GlobalSkips measure 357]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1082,7 +1082,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 358]                                          %! SM4
+                    % [GlobalSkips measure 358]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override TextSpanner.Y-extent = ##f                           %! SM29
@@ -1157,7 +1157,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 359]                                          %! SM4
+                    % [GlobalSkips measure 359]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1200,7 +1200,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 360]                                          %! SM4
+                    % [GlobalSkips measure 360]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1244,7 +1244,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 361]                                          %! SM4
+                    % [GlobalSkips measure 361]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1288,7 +1288,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 362]                                          %! SM4
+                    % [GlobalSkips measure 362]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1340,7 +1340,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 363]                                          %! SM4
+                    % [GlobalSkips measure 363]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1384,7 +1384,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 364]                                          %! SM4
+                    % [GlobalSkips measure 364]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1436,7 +1436,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 365]                                          %! SM4
+                    % [GlobalSkips measure 365]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1479,7 +1479,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 366]                                          %! SM4
+                    % [GlobalSkips measure 366]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -1585,7 +1585,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 367]                                          %! SM4
+                    % [GlobalSkips measure 367]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1629,7 +1629,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 368]                                          %! SM4
+                    % [GlobalSkips measure 368]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1692,7 +1692,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff" {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice" {
                             
-                            % ViolinIMusicVoice [measure 340]                            %! SM4
+                            % [ViolinIMusicVoice measure 340]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -1773,22 +1773,22 @@
                             \override ViolinIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % ViolinIMusicVoice [measure 341]                            %! SM4
+                            % [ViolinIMusicVoice measure 341]                            %! SM4
                             R1 * 3/4
                             
-                            % ViolinIMusicVoice [measure 342]                            %! SM4
+                            % [ViolinIMusicVoice measure 342]                            %! SM4
                             R1 * 3/4
                             
-                            % ViolinIMusicVoice [measure 343]                            %! SM4
+                            % [ViolinIMusicVoice measure 343]                            %! SM4
                             R1 * 1
                             
-                            % ViolinIMusicVoice [measure 344]                            %! SM4
+                            % [ViolinIMusicVoice measure 344]                            %! SM4
                             R1 * 1
                             
-                            % ViolinIMusicVoice [measure 345]                            %! SM4
+                            % [ViolinIMusicVoice measure 345]                            %! SM4
                             R1 * 5/4
                             
-                            % ViolinIMusicVoice [measure 346]                            %! SM4
+                            % [ViolinIMusicVoice measure 346]                            %! SM4
                             \override RepeatTie.direction = #up                          %! OC
                             \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf'2.
@@ -1799,27 +1799,27 @@
                                         "tasto + XFB"                                    %! IC
                                 }                                                        %! IC
                             
-                            % ViolinIMusicVoice [measure 347]                            %! SM4
+                            % [ViolinIMusicVoice measure 347]                            %! SM4
                             bf'2.
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 348]                            %! SM4
+                            % [ViolinIMusicVoice measure 348]                            %! SM4
                             bf'1.
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 349]                            %! SM4
+                            % [ViolinIMusicVoice measure 349]                            %! SM4
                             bf'1.
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 350]                            %! SM4
+                            % [ViolinIMusicVoice measure 350]                            %! SM4
                             bf'1
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 351]                            %! SM4
+                            % [ViolinIMusicVoice measure 351]                            %! SM4
                             bf'1
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 352]                            %! SM4
+                            % [ViolinIMusicVoice measure 352]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1856,12 +1856,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIMusicVoice [measure 353]                            %! SM4
+                            % [ViolinIMusicVoice measure 353]                            %! SM4
                             bf'1.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIMusicVoice [measure 354]                            %! SM4
+                            % [ViolinIMusicVoice measure 354]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1898,12 +1898,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIMusicVoice [measure 355]                            %! SM4
+                            % [ViolinIMusicVoice measure 355]                            %! SM4
                             bf'1
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIMusicVoice [measure 356]                            %! SM4
+                            % [ViolinIMusicVoice measure 356]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1943,12 +1943,12 @@
                             bf'2
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 357]                            %! SM4
+                            % [ViolinIMusicVoice measure 357]                            %! SM4
                             bf'2.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIMusicVoice [measure 358]                            %! SM4
+                            % [ViolinIMusicVoice measure 358]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1985,15 +1985,15 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIMusicVoice [measure 359]                            %! SM4
+                            % [ViolinIMusicVoice measure 359]                            %! SM4
                             bf'2.
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 360]                            %! SM4
+                            % [ViolinIMusicVoice measure 360]                            %! SM4
                             bf'1
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 361]                            %! SM4
+                            % [ViolinIMusicVoice measure 361]                            %! SM4
                             bf'2.
                             \repeatTie
                             \stopTextSpan
@@ -2001,7 +2001,7 @@
                             bf'2
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 362]                            %! SM4
+                            % [ViolinIMusicVoice measure 362]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2038,12 +2038,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIMusicVoice [measure 363]                            %! SM4
+                            % [ViolinIMusicVoice measure 363]                            %! SM4
                             bf'1
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIMusicVoice [measure 364]                            %! SM4
+                            % [ViolinIMusicVoice measure 364]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2080,12 +2080,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIMusicVoice [measure 365]                            %! SM4
+                            % [ViolinIMusicVoice measure 365]                            %! SM4
                             bf'1.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIMusicVoice [measure 366]                            %! SM4
+                            % [ViolinIMusicVoice measure 366]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2122,13 +2122,13 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIMusicVoice [measure 367]                            %! SM4
+                            % [ViolinIMusicVoice measure 367]                            %! SM4
                             bf'1
                             \repeatTie
                             \stopTextSpan
                             \revert RepeatTie.direction                                  %! OC
                             
-                            % ViolinIMusicVoice [measure 368]                            %! SM4
+                            % [ViolinIMusicVoice measure 368]                            %! SM4
                             R1 * 1/4
                             
                         }
@@ -2137,7 +2137,7 @@
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
                             
-                            % ViolinIIMusicVoice [measure 340]                           %! SM4
+                            % [ViolinIIMusicVoice measure 340]                           %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolinIIMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -2218,22 +2218,22 @@
                             \override ViolinIIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % ViolinIIMusicVoice [measure 341]                           %! SM4
+                            % [ViolinIIMusicVoice measure 341]                           %! SM4
                             R1 * 3/4
                             
-                            % ViolinIIMusicVoice [measure 342]                           %! SM4
+                            % [ViolinIIMusicVoice measure 342]                           %! SM4
                             R1 * 3/4
                             
-                            % ViolinIIMusicVoice [measure 343]                           %! SM4
+                            % [ViolinIIMusicVoice measure 343]                           %! SM4
                             R1 * 1
                             
-                            % ViolinIIMusicVoice [measure 344]                           %! SM4
+                            % [ViolinIIMusicVoice measure 344]                           %! SM4
                             R1 * 1
                             
-                            % ViolinIIMusicVoice [measure 345]                           %! SM4
+                            % [ViolinIIMusicVoice measure 345]                           %! SM4
                             R1 * 5/4
                             
-                            % ViolinIIMusicVoice [measure 346]                           %! SM4
+                            % [ViolinIIMusicVoice measure 346]                           %! SM4
                             \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf2.
                             \pp                                                          %! EXPLICIT_DYNAMIC:SM8
@@ -2243,27 +2243,27 @@
                                         "tasto + XFB"                                    %! IC
                                 }                                                        %! IC
                             
-                            % ViolinIIMusicVoice [measure 347]                           %! SM4
+                            % [ViolinIIMusicVoice measure 347]                           %! SM4
                             bf2.
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 348]                           %! SM4
+                            % [ViolinIIMusicVoice measure 348]                           %! SM4
                             bf1.
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 349]                           %! SM4
+                            % [ViolinIIMusicVoice measure 349]                           %! SM4
                             bf1.
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 350]                           %! SM4
+                            % [ViolinIIMusicVoice measure 350]                           %! SM4
                             bf1
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 351]                           %! SM4
+                            % [ViolinIIMusicVoice measure 351]                           %! SM4
                             bf1
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 352]                           %! SM4
+                            % [ViolinIIMusicVoice measure 352]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2300,12 +2300,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIIMusicVoice [measure 353]                           %! SM4
+                            % [ViolinIIMusicVoice measure 353]                           %! SM4
                             bf1.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIIMusicVoice [measure 354]                           %! SM4
+                            % [ViolinIIMusicVoice measure 354]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2342,12 +2342,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIIMusicVoice [measure 355]                           %! SM4
+                            % [ViolinIIMusicVoice measure 355]                           %! SM4
                             bf1
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIIMusicVoice [measure 356]                           %! SM4
+                            % [ViolinIIMusicVoice measure 356]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2387,12 +2387,12 @@
                             bf2
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 357]                           %! SM4
+                            % [ViolinIIMusicVoice measure 357]                           %! SM4
                             bf2.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIIMusicVoice [measure 358]                           %! SM4
+                            % [ViolinIIMusicVoice measure 358]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2429,15 +2429,15 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIIMusicVoice [measure 359]                           %! SM4
+                            % [ViolinIIMusicVoice measure 359]                           %! SM4
                             bf2.
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 360]                           %! SM4
+                            % [ViolinIIMusicVoice measure 360]                           %! SM4
                             bf1
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 361]                           %! SM4
+                            % [ViolinIIMusicVoice measure 361]                           %! SM4
                             bf2.
                             \repeatTie
                             \stopTextSpan
@@ -2445,7 +2445,7 @@
                             bf2
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 362]                           %! SM4
+                            % [ViolinIIMusicVoice measure 362]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2482,12 +2482,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIIMusicVoice [measure 363]                           %! SM4
+                            % [ViolinIIMusicVoice measure 363]                           %! SM4
                             bf1
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIIMusicVoice [measure 364]                           %! SM4
+                            % [ViolinIIMusicVoice measure 364]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2524,12 +2524,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIIMusicVoice [measure 365]                           %! SM4
+                            % [ViolinIIMusicVoice measure 365]                           %! SM4
                             bf1.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIIMusicVoice [measure 366]                           %! SM4
+                            % [ViolinIIMusicVoice measure 366]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2566,12 +2566,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolinIIMusicVoice [measure 367]                           %! SM4
+                            % [ViolinIIMusicVoice measure 367]                           %! SM4
                             bf1
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolinIIMusicVoice [measure 368]                           %! SM4
+                            % [ViolinIIMusicVoice measure 368]                           %! SM4
                             R1 * 1/4
                             
                         }
@@ -2580,7 +2580,7 @@
                     \context ViolaMusicStaff = "ViolaMusicStaff" {
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
                             
-                            % ViolaMusicVoice [measure 340]                              %! SM4
+                            % [ViolaMusicVoice measure 340]                              %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -2637,22 +2637,22 @@
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % ViolaMusicVoice [measure 341]                              %! SM4
+                            % [ViolaMusicVoice measure 341]                              %! SM4
                             R1 * 3/4
                             
-                            % ViolaMusicVoice [measure 342]                              %! SM4
+                            % [ViolaMusicVoice measure 342]                              %! SM4
                             R1 * 3/4
                             
-                            % ViolaMusicVoice [measure 343]                              %! SM4
+                            % [ViolaMusicVoice measure 343]                              %! SM4
                             R1 * 1
                             
-                            % ViolaMusicVoice [measure 344]                              %! SM4
+                            % [ViolaMusicVoice measure 344]                              %! SM4
                             R1 * 1
                             
-                            % ViolaMusicVoice [measure 345]                              %! SM4
+                            % [ViolaMusicVoice measure 345]                              %! SM4
                             R1 * 5/4
                             
-                            % ViolaMusicVoice [measure 346]                              %! SM4
+                            % [ViolaMusicVoice measure 346]                              %! SM4
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf,2.
                             \pp                                                          %! EXPLICIT_DYNAMIC:SM8
@@ -2662,27 +2662,27 @@
                                         "tasto + XFB"                                    %! IC
                                 }                                                        %! IC
                             
-                            % ViolaMusicVoice [measure 347]                              %! SM4
+                            % [ViolaMusicVoice measure 347]                              %! SM4
                             bf,2.
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 348]                              %! SM4
+                            % [ViolaMusicVoice measure 348]                              %! SM4
                             bf,1.
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 349]                              %! SM4
+                            % [ViolaMusicVoice measure 349]                              %! SM4
                             bf,1.
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 350]                              %! SM4
+                            % [ViolaMusicVoice measure 350]                              %! SM4
                             bf,1
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 351]                              %! SM4
+                            % [ViolaMusicVoice measure 351]                              %! SM4
                             bf,1
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 352]                              %! SM4
+                            % [ViolaMusicVoice measure 352]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2719,12 +2719,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolaMusicVoice [measure 353]                              %! SM4
+                            % [ViolaMusicVoice measure 353]                              %! SM4
                             bf,1.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolaMusicVoice [measure 354]                              %! SM4
+                            % [ViolaMusicVoice measure 354]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2761,12 +2761,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolaMusicVoice [measure 355]                              %! SM4
+                            % [ViolaMusicVoice measure 355]                              %! SM4
                             bf,1
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolaMusicVoice [measure 356]                              %! SM4
+                            % [ViolaMusicVoice measure 356]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2806,12 +2806,12 @@
                             bf,2
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 357]                              %! SM4
+                            % [ViolaMusicVoice measure 357]                              %! SM4
                             bf,2.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolaMusicVoice [measure 358]                              %! SM4
+                            % [ViolaMusicVoice measure 358]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2848,15 +2848,15 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolaMusicVoice [measure 359]                              %! SM4
+                            % [ViolaMusicVoice measure 359]                              %! SM4
                             bf,2.
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 360]                              %! SM4
+                            % [ViolaMusicVoice measure 360]                              %! SM4
                             bf,1
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 361]                              %! SM4
+                            % [ViolaMusicVoice measure 361]                              %! SM4
                             bf,2.
                             \repeatTie
                             \stopTextSpan
@@ -2864,7 +2864,7 @@
                             bf,2
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 362]                              %! SM4
+                            % [ViolaMusicVoice measure 362]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2901,12 +2901,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolaMusicVoice [measure 363]                              %! SM4
+                            % [ViolaMusicVoice measure 363]                              %! SM4
                             bf,1
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolaMusicVoice [measure 364]                              %! SM4
+                            % [ViolaMusicVoice measure 364]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2943,12 +2943,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolaMusicVoice [measure 365]                              %! SM4
+                            % [ViolaMusicVoice measure 365]                              %! SM4
                             bf,1.
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolaMusicVoice [measure 366]                              %! SM4
+                            % [ViolaMusicVoice measure 366]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2985,12 +2985,12 @@
                             \repeatTie
                             \startTextSpan
                             
-                            % ViolaMusicVoice [measure 367]                              %! SM4
+                            % [ViolaMusicVoice measure 367]                              %! SM4
                             bf,1
                             \repeatTie
                             \stopTextSpan
                             
-                            % ViolaMusicVoice [measure 368]                              %! SM4
+                            % [ViolaMusicVoice measure 368]                              %! SM4
                             R1 * 1/4
                             
                         }
@@ -2999,7 +2999,7 @@
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
                             
-                            % CelloMusicVoice [measure 340]                              %! SM4
+                            % [CelloMusicVoice measure 340]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -3089,55 +3089,55 @@
                             bf,,2
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 341]                              %! SM4
+                            % [CelloMusicVoice measure 341]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 342]                              %! SM4
+                            % [CelloMusicVoice measure 342]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 343]                              %! SM4
+                            % [CelloMusicVoice measure 343]                              %! SM4
                             bf,,1
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 344]                              %! SM4
+                            % [CelloMusicVoice measure 344]                              %! SM4
                             bf,,1
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 345]                              %! SM4
+                            % [CelloMusicVoice measure 345]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
                             bf,,2
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 346]                              %! SM4
+                            % [CelloMusicVoice measure 346]                              %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf,,2.
                             \repeatTie
                             \ff
                             \stopTextSpan
                             
-                            % CelloMusicVoice [measure 347]                              %! SM4
+                            % [CelloMusicVoice measure 347]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 348]                              %! SM4
+                            % [CelloMusicVoice measure 348]                              %! SM4
                             bf,,1.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 349]                              %! SM4
+                            % [CelloMusicVoice measure 349]                              %! SM4
                             bf,,1.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 350]                              %! SM4
+                            % [CelloMusicVoice measure 350]                              %! SM4
                             R1 * 1
                             
-                            % CelloMusicVoice [measure 351]                              %! SM4
+                            % [CelloMusicVoice measure 351]                              %! SM4
                             R1 * 1
                             
-                            % CelloMusicVoice [measure 352]                              %! SM4
+                            % [CelloMusicVoice measure 352]                              %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf,,1.
                             \pp                                                          %! EXPLICIT_DYNAMIC:SM8
@@ -3147,30 +3147,30 @@
                                         "vib. poco."                                     %! IC
                                 }                                                        %! IC
                             
-                            % CelloMusicVoice [measure 353]                              %! SM4
+                            % [CelloMusicVoice measure 353]                              %! SM4
                             bf,,1.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 354]                              %! SM4
+                            % [CelloMusicVoice measure 354]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 355]                              %! SM4
+                            % [CelloMusicVoice measure 355]                              %! SM4
                             bf,,1
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 356]                              %! SM4
+                            % [CelloMusicVoice measure 356]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
                             bf,,2
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 357]                              %! SM4
+                            % [CelloMusicVoice measure 357]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 358]                              %! SM4
+                            % [CelloMusicVoice measure 358]                              %! SM4
                             \once \override Hairpin.circled-tip = ##t
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             bf,,2.
@@ -3178,44 +3178,44 @@
                             \>
                             \pp
                             
-                            % CelloMusicVoice [measure 359]                              %! SM4
+                            % [CelloMusicVoice measure 359]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 360]                              %! SM4
+                            % [CelloMusicVoice measure 360]                              %! SM4
                             bf,,1
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 361]                              %! SM4
+                            % [CelloMusicVoice measure 361]                              %! SM4
                             bf,,2.
                             \repeatTie
                             
                             bf,,2
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 362]                              %! SM4
+                            % [CelloMusicVoice measure 362]                              %! SM4
                             bf,,1.
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 363]                              %! SM4
+                            % [CelloMusicVoice measure 363]                              %! SM4
                             bf,,1
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 364]                              %! SM4
+                            % [CelloMusicVoice measure 364]                              %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             R1 * 3/2
                             \!
                             
-                            % CelloMusicVoice [measure 365]                              %! SM4
+                            % [CelloMusicVoice measure 365]                              %! SM4
                             R1 * 3/2
                             
-                            % CelloMusicVoice [measure 366]                              %! SM4
+                            % [CelloMusicVoice measure 366]                              %! SM4
                             R1 * 3/2
                             
-                            % CelloMusicVoice [measure 367]                              %! SM4
+                            % [CelloMusicVoice measure 367]                              %! SM4
                             R1 * 1
                             
-                            % CelloMusicVoice [measure 368]                              %! SM4
+                            % [CelloMusicVoice measure 368]                              %! SM4
                             R1 * 1/4
                             
                         }

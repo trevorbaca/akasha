@@ -17,46 +17,46 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                     
-                    % GlobalRests [measure 200]                                          %! SM4
+                    % [GlobalRests measure 200]                                          %! SM4
                     R1 * 7/8
                     
-                    % GlobalRests [measure 201]                                          %! SM4
+                    % [GlobalRests measure 201]                                          %! SM4
                     R1 * 7/8
                     
-                    % GlobalRests [measure 202]                                          %! SM4
+                    % [GlobalRests measure 202]                                          %! SM4
                     R1 * 3/8
                     
-                    % GlobalRests [measure 203]                                          %! SM4
+                    % [GlobalRests measure 203]                                          %! SM4
                     R1 * 3/4
                     
-                    % GlobalRests [measure 204]                                          %! SM4
+                    % [GlobalRests measure 204]                                          %! SM4
                     R1 * 9/8
                     
-                    % GlobalRests [measure 205]                                          %! SM4
+                    % [GlobalRests measure 205]                                          %! SM4
                     R1 * 9/8
                     
-                    % GlobalRests [measure 206]                                          %! SM4
+                    % [GlobalRests measure 206]                                          %! SM4
                     R1 * 1/2
                     
-                    % GlobalRests [measure 207]                                          %! SM4
+                    % [GlobalRests measure 207]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 208]                                          %! SM4
+                    % [GlobalRests measure 208]                                          %! SM4
                     R1 * 3/8
                     
-                    % GlobalRests [measure 209]                                          %! SM4
+                    % [GlobalRests measure 209]                                          %! SM4
                     R1 * 1/2
                     
-                    % GlobalRests [measure 210]                                          %! SM4
+                    % [GlobalRests measure 210]                                          %! SM4
                     R1 * 1
                     
-                    % GlobalRests [measure 211]                                          %! SM4
+                    % [GlobalRests measure 211]                                          %! SM4
                     R1 * 9/8
                     
-                    % GlobalRests [measure 212]                                          %! SM4
+                    % [GlobalRests measure 212]                                          %! SM4
                     R1 * 9/8
                     
-                    % GlobalRests [measure 213]                                          %! SM4
+                    % [GlobalRests measure 213]                                          %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -65,19 +65,19 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % GlobalRests [measure 214]                                          %! SM4
+                    % [GlobalRests measure 214]                                          %! SM4
                     R1 * 1/2
                     
-                    % GlobalRests [measure 215]                                          %! SM4
+                    % [GlobalRests measure 215]                                          %! SM4
                     R1 * 1/2
                     
-                    % GlobalRests [measure 216]                                          %! SM4
+                    % [GlobalRests measure 216]                                          %! SM4
                     R1 * 3/8
                     
                 }
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % GlobalSkips [measure 200]                                          %! SM4
+                    % [GlobalSkips measure 200]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -189,7 +189,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 201]                                          %! SM4
+                    % [GlobalSkips measure 201]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -232,7 +232,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 202]                                          %! SM4
+                    % [GlobalSkips measure 202]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -276,7 +276,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 203]                                          %! SM4
+                    % [GlobalSkips measure 203]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! SPACING:HSS1
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -320,7 +320,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 204]                                          %! SM4
+                    % [GlobalSkips measure 204]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -427,7 +427,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 205]                                          %! SM4
+                    % [GlobalSkips measure 205]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -470,7 +470,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 206]                                          %! SM4
+                    % [GlobalSkips measure 206]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -514,7 +514,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 207]                                          %! SM4
+                    % [GlobalSkips measure 207]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 8/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -566,7 +566,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 208]                                          %! SM4
+                    % [GlobalSkips measure 208]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -610,7 +610,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 209]                                          %! SM4
+                    % [GlobalSkips measure 209]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -654,7 +654,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 210]                                          %! SM4
+                    % [GlobalSkips measure 210]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 8/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -706,7 +706,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 211]                                          %! SM4
+                    % [GlobalSkips measure 211]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 9/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -750,7 +750,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 212]                                          %! SM4
+                    % [GlobalSkips measure 212]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -793,7 +793,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 213]                                          %! SM4
+                    % [GlobalSkips measure 213]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -845,7 +845,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 214]                                          %! SM4
+                    % [GlobalSkips measure 214]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.right.text =               %! EXPLICIT_METRONOME_MARK:SM27
@@ -973,7 +973,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 215]                                          %! SM4
+                    % [GlobalSkips measure 215]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1016,7 +1016,7 @@
                             }
                         }
                     
-                    % GlobalSkips [measure 216]                                          %! SM4
+                    % [GlobalSkips measure 216]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -1083,7 +1083,7 @@
                         \context ViolinIMusicVoice = "ViolinIMusicVoice" {
                             \times 8/14 {
                                 
-                                % ViolinIMusicVoice [measure 200]                        %! SM4
+                                % [ViolinIMusicVoice measure 200]                        %! SM4
                                 \stopStaff                                               %! REAPPLIED_STAFF_LINES:SM8
                                 \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                                 \startStaff                                              %! REAPPLIED_STAFF_LINES:SM8
@@ -1223,7 +1223,7 @@
                             }
                             \times 4/6 {
                                 
-                                % ViolinIMusicVoice [measure 201]                        %! SM4
+                                % [ViolinIMusicVoice measure 201]                        %! SM4
                                 r16
                                 
                                 bf'''16
@@ -1274,7 +1274,7 @@
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 6/10 {
                                 
-                                % ViolinIMusicVoice [measure 202]                        %! SM4
+                                % [ViolinIMusicVoice measure 202]                        %! SM4
                                 r16
                                 
                                 d''''16
@@ -1299,7 +1299,7 @@
                             }
                             \times 12/18 {
                                 
-                                % ViolinIMusicVoice [measure 203]                        %! SM4
+                                % [ViolinIMusicVoice measure 203]                        %! SM4
                                 r16
                                 
                                 b'''16
@@ -1341,7 +1341,7 @@
                                 ]
                             }
                             
-                            % ViolinIMusicVoice [measure 204]                            %! SM4
+                            % [ViolinIMusicVoice measure 204]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1385,21 +1385,21 @@
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolinIMusicVoice [measure 205]                            %! SM4
+                            % [ViolinIMusicVoice measure 205]                            %! SM4
                             g''2.
                             
                             g''4.
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolinIMusicVoice [measure 206]                            %! SM4
+                            % [ViolinIMusicVoice measure 206]                            %! SM4
                             \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f''2
                             \mf
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % ViolinIMusicVoice [measure 207]                            %! SM4
+                            % [ViolinIMusicVoice measure 207]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1439,18 +1439,18 @@
                             \mf
                             \startTextSpan
                             
-                            % ViolinIMusicVoice [measure 208]                            %! SM4
+                            % [ViolinIMusicVoice measure 208]                            %! SM4
                             fs''4.
                             \glissando                                                   %! SC
                             
-                            % ViolinIMusicVoice [measure 209]                            %! SM4
+                            % [ViolinIMusicVoice measure 209]                            %! SM4
                             \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e''2
                             \p
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % ViolinIMusicVoice [measure 210]                            %! SM4
+                            % [ViolinIMusicVoice measure 210]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1490,14 +1490,14 @@
                             \p
                             \startTextSpan
                             
-                            % ViolinIMusicVoice [measure 211]                            %! SM4
+                            % [ViolinIMusicVoice measure 211]                            %! SM4
                             af''2.
                             
                             af''4.
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolinIMusicVoice [measure 212]                            %! SM4
+                            % [ViolinIMusicVoice measure 212]                            %! SM4
                             fs''2.
                             
                             \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1506,19 +1506,19 @@
                             \pp
                             \stopTextSpan
                             
-                            % ViolinIMusicVoice [measure 213]                            %! SM4
+                            % [ViolinIMusicVoice measure 213]                            %! SM4
                             R1 * 1/4
                             
-                            % ViolinIMusicVoice [measure 214]                            %! SM4
+                            % [ViolinIMusicVoice measure 214]                            %! SM4
                             \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             fs''2
                             \ppp                                                         %! EXPLICIT_DYNAMIC:SM8
                             
-                            % ViolinIMusicVoice [measure 215]                            %! SM4
+                            % [ViolinIMusicVoice measure 215]                            %! SM4
                             fs''2
                             \repeatTie
                             
-                            % ViolinIMusicVoice [measure 216]                            %! SM4
+                            % [ViolinIMusicVoice measure 216]                            %! SM4
                             R1 * 3/8
                             
                         }
@@ -1527,7 +1527,7 @@
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
                             
-                            % ViolinIIMusicVoice [measure 200]                           %! SM4
+                            % [ViolinIIMusicVoice measure 200]                           %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolinIIMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -1643,22 +1643,22 @@
                             \override ViolinIIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % ViolinIIMusicVoice [measure 201]                           %! SM4
+                            % [ViolinIIMusicVoice measure 201]                           %! SM4
                             ef'2..
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 202]                           %! SM4
+                            % [ViolinIIMusicVoice measure 202]                           %! SM4
                             f'4.
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 203]                           %! SM4
+                            % [ViolinIIMusicVoice measure 203]                           %! SM4
                             \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             ef'2.
                             \f
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 204]                           %! SM4
+                            % [ViolinIIMusicVoice measure 204]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1701,21 +1701,21 @@
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 205]                           %! SM4
+                            % [ViolinIIMusicVoice measure 205]                           %! SM4
                             e'2.
                             
                             e'4.
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 206]                           %! SM4
+                            % [ViolinIIMusicVoice measure 206]                           %! SM4
                             \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'2
                             \mf
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 207]                           %! SM4
+                            % [ViolinIIMusicVoice measure 207]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1755,18 +1755,18 @@
                             \mf
                             \startTextSpan
                             
-                            % ViolinIIMusicVoice [measure 208]                           %! SM4
+                            % [ViolinIIMusicVoice measure 208]                           %! SM4
                             fs'4.
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 209]                           %! SM4
+                            % [ViolinIIMusicVoice measure 209]                           %! SM4
                             \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e'2
                             \p
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 210]                           %! SM4
+                            % [ViolinIIMusicVoice measure 210]                           %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1806,14 +1806,14 @@
                             \p
                             \startTextSpan
                             
-                            % ViolinIIMusicVoice [measure 211]                           %! SM4
+                            % [ViolinIIMusicVoice measure 211]                           %! SM4
                             f'2.
                             
                             f'4.
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolinIIMusicVoice [measure 212]                           %! SM4
+                            % [ViolinIIMusicVoice measure 212]                           %! SM4
                             af'2.
                             
                             \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1822,19 +1822,19 @@
                             \pp
                             \stopTextSpan
                             
-                            % ViolinIIMusicVoice [measure 213]                           %! SM4
+                            % [ViolinIIMusicVoice measure 213]                           %! SM4
                             R1 * 1/4
                             
-                            % ViolinIIMusicVoice [measure 214]                           %! SM4
+                            % [ViolinIIMusicVoice measure 214]                           %! SM4
                             \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             af'2
                             \ppp                                                         %! EXPLICIT_DYNAMIC:SM8
                             
-                            % ViolinIIMusicVoice [measure 215]                           %! SM4
+                            % [ViolinIIMusicVoice measure 215]                           %! SM4
                             af'2
                             \repeatTie
                             
-                            % ViolinIIMusicVoice [measure 216]                           %! SM4
+                            % [ViolinIIMusicVoice measure 216]                           %! SM4
                             R1 * 3/8
                             
                         }
@@ -1843,7 +1843,7 @@
                     \context ViolaMusicStaff = "ViolaMusicStaff" {
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
                             
-                            % ViolaMusicVoice [measure 200]                              %! SM4
+                            % [ViolaMusicVoice measure 200]                              %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -1937,22 +1937,22 @@
                             \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % ViolaMusicVoice [measure 201]                              %! SM4
+                            % [ViolaMusicVoice measure 201]                              %! SM4
                             f'2..
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 202]                              %! SM4
+                            % [ViolaMusicVoice measure 202]                              %! SM4
                             d'4.
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 203]                              %! SM4
+                            % [ViolaMusicVoice measure 203]                              %! SM4
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e'2.
                             \f
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 204]                              %! SM4
+                            % [ViolaMusicVoice measure 204]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -1995,21 +1995,21 @@
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 205]                              %! SM4
+                            % [ViolaMusicVoice measure 205]                              %! SM4
                             c'2.
                             
                             c'4.
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 206]                              %! SM4
+                            % [ViolaMusicVoice measure 206]                              %! SM4
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e'2
                             \mf
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 207]                              %! SM4
+                            % [ViolaMusicVoice measure 207]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2049,18 +2049,18 @@
                             \mf
                             \startTextSpan
                             
-                            % ViolaMusicVoice [measure 208]                              %! SM4
+                            % [ViolaMusicVoice measure 208]                              %! SM4
                             ef'4.
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 209]                              %! SM4
+                            % [ViolaMusicVoice measure 209]                              %! SM4
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             f'2
                             \p
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 210]                              %! SM4
+                            % [ViolaMusicVoice measure 210]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2100,14 +2100,14 @@
                             \p
                             \startTextSpan
                             
-                            % ViolaMusicVoice [measure 211]                              %! SM4
+                            % [ViolaMusicVoice measure 211]                              %! SM4
                             cs'2.
                             
                             cs'4.
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % ViolaMusicVoice [measure 212]                              %! SM4
+                            % [ViolaMusicVoice measure 212]                              %! SM4
                             f'2.
                             
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -2116,10 +2116,10 @@
                             \pp
                             \stopTextSpan
                             
-                            % ViolaMusicVoice [measure 213]                              %! SM4
+                            % [ViolaMusicVoice measure 213]                              %! SM4
                             R1 * 1/4
                             
-                            % ViolaMusicVoice [measure 214]                              %! SM4
+                            % [ViolaMusicVoice measure 214]                              %! SM4
                             \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
                             \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! REDUNDANT_STAFF_LINES:SM8
                             \startStaff                                                  %! REDUNDANT_STAFF_LINES:SM8
@@ -2134,11 +2134,11 @@
                                         OB                                               %! IC
                                 }                                                        %! IC
                             
-                            % ViolaMusicVoice [measure 215]                              %! SM4
+                            % [ViolaMusicVoice measure 215]                              %! SM4
                             c'2
                             \repeatTie
                             
-                            % ViolaMusicVoice [measure 216]                              %! SM4
+                            % [ViolaMusicVoice measure 216]                              %! SM4
                             c'4.
                             \repeatTie
                             
@@ -2148,7 +2148,7 @@
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
                             
-                            % CelloMusicVoice [measure 200]                              %! SM4
+                            % [CelloMusicVoice measure 200]                              %! SM4
                             \once \override CelloMusicStaff.Clef.X-extent = ##f          %! MEASURE_200:SHIFTED_CLEF:OC
                             \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_200:SHIFTED_CLEF:OC
                             \once \override TextSpanner.Y-extent = ##f
@@ -2238,22 +2238,22 @@
                             \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % CelloMusicVoice [measure 201]                              %! SM4
+                            % [CelloMusicVoice measure 201]                              %! SM4
                             ef,2..
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 202]                              %! SM4
+                            % [CelloMusicVoice measure 202]                              %! SM4
                             f,4.
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 203]                              %! SM4
+                            % [CelloMusicVoice measure 203]                              %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             d,2.
                             \f
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 204]                              %! SM4
+                            % [CelloMusicVoice measure 204]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2296,21 +2296,21 @@
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 205]                              %! SM4
+                            % [CelloMusicVoice measure 205]                              %! SM4
                             d,2.
                             
                             d,4.
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 206]                              %! SM4
+                            % [CelloMusicVoice measure 206]                              %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c,2
                             \mf
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 207]                              %! SM4
+                            % [CelloMusicVoice measure 207]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2350,18 +2350,18 @@
                             \mf
                             \startTextSpan
                             
-                            % CelloMusicVoice [measure 208]                              %! SM4
+                            % [CelloMusicVoice measure 208]                              %! SM4
                             e,4.
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 209]                              %! SM4
+                            % [CelloMusicVoice measure 209]                              %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs,2
                             \p
                             \stopTextSpan
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 210]                              %! SM4
+                            % [CelloMusicVoice measure 210]                              %! SM4
                             \once \override TextSpanner.Y-extent = ##f
                             \once \override TextSpanner.arrow-width = 0.25
                             \once \override TextSpanner.bound-details.left-broken.text = ##f
@@ -2401,14 +2401,14 @@
                             \p
                             \startTextSpan
                             
-                            % CelloMusicVoice [measure 211]                              %! SM4
+                            % [CelloMusicVoice measure 211]                              %! SM4
                             cs,2.
                             
                             cs,4.
                             \repeatTie
                             \glissando                                                   %! SC
                             
-                            % CelloMusicVoice [measure 212]                              %! SM4
+                            % [CelloMusicVoice measure 212]                              %! SM4
                             b,,2.
                             
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -2417,19 +2417,19 @@
                             \pp
                             \stopTextSpan
                             
-                            % CelloMusicVoice [measure 213]                              %! SM4
+                            % [CelloMusicVoice measure 213]                              %! SM4
                             R1 * 1/4
                             
-                            % CelloMusicVoice [measure 214]                              %! SM4
+                            % [CelloMusicVoice measure 214]                              %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs,2
                             \ppp                                                         %! EXPLICIT_DYNAMIC:SM8
                             
-                            % CelloMusicVoice [measure 215]                              %! SM4
+                            % [CelloMusicVoice measure 215]                              %! SM4
                             cs,2
                             \repeatTie
                             
-                            % CelloMusicVoice [measure 216]                              %! SM4
+                            % [CelloMusicVoice measure 216]                              %! SM4
                             R1 * 3/8
                             
                         }
