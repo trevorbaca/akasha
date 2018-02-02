@@ -11,11 +11,16 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" \with {
+        \context Score = "Score"
+        \with
+        {
             currentBarNumber = #261
-        } <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalRests = "GlobalRests" {
+        }
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalRests = "GlobalRests"
+                {
                     
                     % [J GlobalRests measure 261]                                        %! SM4
                     R1 * 1
@@ -36,7 +41,8 @@
                         }                                                                %! SM18
                     
                 }
-                \context GlobalSkips = "GlobalSkips" {
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [J GlobalSkips measure 261]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -306,11 +312,15 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
+            \context MusicContext = "MusicContext"
+            {
+                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
+                <<
                     \tag ViolinI                                                         %! ST4
-                    \context ViolinIMusicStaff = "ViolinIMusicStaff" {
-                        \context ViolinIMusicVoice = "ViolinIMusicVoice" {
+                    \context ViolinIMusicStaff = "ViolinIMusicStaff"
+                    {
+                        \context ViolinIMusicVoice = "ViolinIMusicVoice"
+                        {
                             
                             % [J ViolinIMusicVoice measure 261]                          %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -442,8 +452,10 @@
                         }
                     }
                     \tag ViolinII                                                        %! ST4
-                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
-                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
+                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
+                    {
+                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+                        {
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 4/4 {
                                 
@@ -592,8 +604,10 @@
                         }
                     }
                     \tag viola                                                           %! ST4
-                    \context ViolaMusicStaff = "ViolaMusicStaff" {
-                        \context ViolaMusicVoice = "ViolaMusicVoice" {
+                    \context ViolaMusicStaff = "ViolaMusicStaff"
+                    {
+                        \context ViolaMusicVoice = "ViolaMusicVoice"
+                        {
                             
                             % [J ViolaMusicVoice measure 261]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -664,8 +678,10 @@
                         }
                     }
                     \tag cello                                                           %! ST4
-                    \context CelloMusicStaff = "CelloMusicStaff" {
-                        \context CelloMusicVoice = "CelloMusicVoice" {
+                    \context CelloMusicStaff = "CelloMusicStaff"
+                    {
+                        \context CelloMusicVoice = "CelloMusicVoice"
+                        {
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 4/3 {
                                 

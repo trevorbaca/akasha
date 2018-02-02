@@ -10,9 +10,12 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalRests = "GlobalRests" {
+        \context Score = "Score"
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalRests = "GlobalRests"
+                {
                     
                     % [_ GlobalRests measure 1]                                          %! SM4
                     R1 * 3/8
@@ -30,7 +33,8 @@
                         }                                                                %! SM18
                     
                 }
-                \context GlobalSkips = "GlobalSkips" {
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [_ GlobalSkips measure 1]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -239,11 +243,15 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
+            \context MusicContext = "MusicContext"
+            {
+                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
+                <<
                     \tag ViolinI                                                         %! ST4
-                    \context ViolinIMusicStaff = "ViolinIMusicStaff" {
-                        \context ViolinIMusicVoice = "ViolinIMusicVoice" {
+                    \context ViolinIMusicStaff = "ViolinIMusicStaff"
+                    {
+                        \context ViolinIMusicVoice = "ViolinIMusicVoice"
+                        {
                             
                             % [_ ViolinIMusicVoice measure 1]                            %! SM4
                             \set ViolinIMusicStaff.instrumentName = \markup {            %! DEFAULT_INSTRUMENT:SM8
@@ -329,8 +337,10 @@
                         }
                     }
                     \tag ViolinII                                                        %! ST4
-                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
-                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
+                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
+                    {
+                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+                        {
                             
                             % [_ ViolinIIMusicVoice measure 1]                           %! SM4
                             \set ViolinIIMusicStaff.instrumentName = \markup {           %! DEFAULT_INSTRUMENT:SM8
@@ -416,8 +426,10 @@
                         }
                     }
                     \tag viola                                                           %! ST4
-                    \context ViolaMusicStaff = "ViolaMusicStaff" {
-                        \context ViolaMusicVoice = "ViolaMusicVoice" {
+                    \context ViolaMusicStaff = "ViolaMusicStaff"
+                    {
+                        \context ViolaMusicVoice = "ViolaMusicVoice"
+                        {
                             
                             % [_ ViolaMusicVoice measure 1]                              %! SM4
                             \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
@@ -499,8 +511,10 @@
                         }
                     }
                     \tag cello                                                           %! ST4
-                    \context CelloMusicStaff = "CelloMusicStaff" {
-                        \context CelloMusicVoice = "CelloMusicVoice" {
+                    \context CelloMusicStaff = "CelloMusicStaff"
+                    {
+                        \context CelloMusicVoice = "CelloMusicVoice"
+                        {
                             
                             % [_ CelloMusicVoice measure 1]                              %! SM4
                             \set CelloMusicStaff.instrumentName = \markup {              %! DEFAULT_INSTRUMENT:SM8

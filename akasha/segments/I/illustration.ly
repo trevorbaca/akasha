@@ -11,11 +11,16 @@
         {
             \include "layout.ly"
         }
-        \context Score = "Score" \with {
+        \context Score = "Score"
+        \with
+        {
             currentBarNumber = #224
-        } <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalRests = "GlobalRests" {
+        }
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalRests = "GlobalRests"
+                {
                     
                     % [I GlobalRests measure 224]                                        %! SM4
                     R1 * 3/2
@@ -153,7 +158,8 @@
                         }                                                                %! SM18
                     
                 }
-                \context GlobalSkips = "GlobalSkips" {
+                \context GlobalSkips = "GlobalSkips"
+                {
                     
                     % [I GlobalSkips measure 224]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2576,11 +2582,15 @@
                     
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
+            \context MusicContext = "MusicContext"
+            {
+                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
+                <<
                     \tag ViolinI                                                         %! ST4
-                    \context ViolinIMusicStaff = "ViolinIMusicStaff" {
-                        \context ViolinIMusicVoice = "ViolinIMusicVoice" {
+                    \context ViolinIMusicStaff = "ViolinIMusicStaff"
+                    {
+                        \context ViolinIMusicVoice = "ViolinIMusicVoice"
+                        {
                             
                             % [I ViolinIMusicVoice measure 224]                          %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3319,11 +3329,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -3334,7 +3349,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'2.
                                                 }
                                             >>
@@ -3366,11 +3382,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -3381,7 +3402,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'1
                                                 }
                                             >>
@@ -3571,8 +3593,10 @@
                         }
                     }
                     \tag ViolinII                                                        %! ST4
-                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
-                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
+                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
+                    {
+                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+                        {
                             
                             % [I ViolinIIMusicVoice measure 224]                         %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -4080,11 +4104,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -4095,7 +4124,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'2.
                                                 }
                                             >>
@@ -4129,11 +4159,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -4144,7 +4179,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'1
                                                 }
                                             >>
@@ -4332,8 +4368,10 @@
                         }
                     }
                     \tag viola                                                           %! ST4
-                    \context ViolaMusicStaff = "ViolaMusicStaff" {
-                        \context ViolaMusicVoice = "ViolaMusicVoice" {
+                    \context ViolaMusicStaff = "ViolaMusicStaff"
+                    {
+                        \context ViolaMusicVoice = "ViolaMusicVoice"
+                        {
                             
                             % [I ViolaMusicVoice measure 224]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -4906,11 +4944,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -4921,7 +4964,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'1..
                                                 }
                                             >>
@@ -5117,8 +5161,10 @@
                         }
                     }
                     \tag cello                                                           %! ST4
-                    \context CelloMusicStaff = "CelloMusicStaff" {
-                        \context CelloMusicVoice = "CelloMusicVoice" {
+                    \context CelloMusicStaff = "CelloMusicStaff"
+                    {
+                        \context CelloMusicVoice = "CelloMusicVoice"
+                        {
                             
                             % [I CelloMusicVoice measure 224]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
@@ -5565,11 +5611,16 @@
                                     #'(0.75 . 0.75)
                                     \score
                                         {
-                                            \new Score \with {
+                                            \new Score
+                                            \with
+                                            {
                                                 \override SpacingSpanner.spacing-increment = #0.5
                                                 proportionalNotationDuration = ##f
-                                            } <<
-                                                \new RhythmicStaff \with {
+                                            }
+                                            <<
+                                                \new RhythmicStaff
+                                                \with
+                                                {
                                                     \remove Time_signature_engraver
                                                     \remove Staff_symbol_engraver
                                                     \override Stem.direction = #up
@@ -5580,7 +5631,8 @@
                                                     \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                                                     \override TupletNumber.text = #tuplet-number::calc-fraction-text
                                                     tupletFullLength = ##t
-                                                } {
+                                                }
+                                                {
                                                     c'1..
                                                 }
                                             >>
