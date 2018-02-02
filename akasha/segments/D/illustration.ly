@@ -17,31 +17,31 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalRests = "GlobalRests" {
                     
-                    % [GlobalRests measure 62]                                           %! SM4
+                    % [D GlobalRests measure 62]                                         %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 63]                                           %! SM4
+                    % [D GlobalRests measure 63]                                         %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 64]                                           %! SM4
+                    % [D GlobalRests measure 64]                                         %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 65]                                           %! SM4
+                    % [D GlobalRests measure 65]                                         %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 66]                                           %! SM4
+                    % [D GlobalRests measure 66]                                         %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 67]                                           %! SM4
+                    % [D GlobalRests measure 67]                                         %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 68]                                           %! SM4
+                    % [D GlobalRests measure 68]                                         %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 69]                                           %! SM4
+                    % [D GlobalRests measure 69]                                         %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 70]                                           %! SM4
+                    % [D GlobalRests measure 70]                                         %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -50,31 +50,31 @@
                             #"scripts.ushortfermata"                                     %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 71]                                           %! SM4
+                    % [D GlobalRests measure 71]                                         %! SM4
                     R1 * 9/8
                     
-                    % [GlobalRests measure 72]                                           %! SM4
+                    % [D GlobalRests measure 72]                                         %! SM4
                     R1 * 9/8
                     
-                    % [GlobalRests measure 73]                                           %! SM4
+                    % [D GlobalRests measure 73]                                         %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 74]                                           %! SM4
+                    % [D GlobalRests measure 74]                                         %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 75]                                           %! SM4
+                    % [D GlobalRests measure 75]                                         %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 76]                                           %! SM4
+                    % [D GlobalRests measure 76]                                         %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 77]                                           %! SM4
+                    % [D GlobalRests measure 77]                                         %! SM4
                     R1 * 9/8
                     
-                    % [GlobalRests measure 78]                                           %! SM4
+                    % [D GlobalRests measure 78]                                         %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 79]                                           %! SM4
+                    % [D GlobalRests measure 79]                                         %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -83,19 +83,19 @@
                             #"scripts.ushortfermata"                                     %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 80]                                           %! SM4
+                    % [D GlobalRests measure 80]                                         %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 81]                                           %! SM4
+                    % [D GlobalRests measure 81]                                         %! SM4
                     R1 * 9/8
                     
-                    % [GlobalRests measure 82]                                           %! SM4
+                    % [D GlobalRests measure 82]                                         %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 83]                                           %! SM4
+                    % [D GlobalRests measure 83]                                         %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 84]                                           %! SM4
+                    % [D GlobalRests measure 84]                                         %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -104,31 +104,31 @@
                             #"scripts.ushortfermata"                                     %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 85]                                           %! SM4
+                    % [D GlobalRests measure 85]                                         %! SM4
                     R1 * 9/8
                     
-                    % [GlobalRests measure 86]                                           %! SM4
+                    % [D GlobalRests measure 86]                                         %! SM4
                     R1 * 9/8
                     
-                    % [GlobalRests measure 87]                                           %! SM4
+                    % [D GlobalRests measure 87]                                         %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 88]                                           %! SM4
+                    % [D GlobalRests measure 88]                                         %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 89]                                           %! SM4
+                    % [D GlobalRests measure 89]                                         %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 90]                                           %! SM4
+                    % [D GlobalRests measure 90]                                         %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 91]                                           %! SM4
+                    % [D GlobalRests measure 91]                                         %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 92]                                           %! SM4
+                    % [D GlobalRests measure 92]                                         %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 93]                                           %! SM4
+                    % [D GlobalRests measure 93]                                         %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -137,19 +137,19 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 94]                                           %! SM4
+                    % [D GlobalRests measure 94]                                         %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 95]                                           %! SM4
+                    % [D GlobalRests measure 95]                                         %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 96]                                           %! SM4
+                    % [D GlobalRests measure 96]                                         %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 97]                                           %! SM4
+                    % [D GlobalRests measure 97]                                         %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 98]                                           %! SM4
+                    % [D GlobalRests measure 98]                                         %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -158,19 +158,19 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 99]                                           %! SM4
+                    % [D GlobalRests measure 99]                                         %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 100]                                          %! SM4
+                    % [D GlobalRests measure 100]                                        %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 101]                                          %! SM4
+                    % [D GlobalRests measure 101]                                        %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 102]                                          %! SM4
+                    % [D GlobalRests measure 102]                                        %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 103]                                          %! SM4
+                    % [D GlobalRests measure 103]                                        %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -179,31 +179,31 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                    % [GlobalRests measure 104]                                          %! SM4
+                    % [D GlobalRests measure 104]                                        %! SM4
                     R1 * 1
                     
-                    % [GlobalRests measure 105]                                          %! SM4
+                    % [D GlobalRests measure 105]                                        %! SM4
                     R1 * 9/8
                     
-                    % [GlobalRests measure 106]                                          %! SM4
+                    % [D GlobalRests measure 106]                                        %! SM4
                     R1 * 9/8
                     
-                    % [GlobalRests measure 107]                                          %! SM4
+                    % [D GlobalRests measure 107]                                        %! SM4
                     R1 * 1/2
                     
-                    % [GlobalRests measure 108]                                          %! SM4
+                    % [D GlobalRests measure 108]                                        %! SM4
                     R1 * 3/8
                     
-                    % [GlobalRests measure 109]                                          %! SM4
+                    % [D GlobalRests measure 109]                                        %! SM4
                     R1 * 3/4
                     
-                    % [GlobalRests measure 110]                                          %! SM4
+                    % [D GlobalRests measure 110]                                        %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 111]                                          %! SM4
+                    % [D GlobalRests measure 111]                                        %! SM4
                     R1 * 7/8
                     
-                    % [GlobalRests measure 112]                                          %! SM4
+                    % [D GlobalRests measure 112]                                        %! SM4
                     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
                     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
                     R1 * 1/4
@@ -215,7 +215,7 @@
                 }
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % [GlobalSkips measure 62]                                           %! SM4
+                    % [D GlobalSkips measure 62]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -323,7 +323,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 63]                                           %! SM4
+                    % [D GlobalSkips measure 63]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -367,7 +367,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 64]                                           %! SM4
+                    % [D GlobalSkips measure 64]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -411,7 +411,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 65]                                           %! SM4
+                    % [D GlobalSkips measure 65]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -455,7 +455,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 66]                                           %! SM4
+                    % [D GlobalSkips measure 66]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 7/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -499,7 +499,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 67]                                           %! SM4
+                    % [D GlobalSkips measure 67]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -542,7 +542,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 68]                                           %! SM4
+                    % [D GlobalSkips measure 68]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -586,7 +586,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 69]                                           %! SM4
+                    % [D GlobalSkips measure 69]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 8/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -630,7 +630,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 70]                                           %! SM4
+                    % [D GlobalSkips measure 70]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -682,7 +682,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 71]                                           %! SM4
+                    % [D GlobalSkips measure 71]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 9/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -734,7 +734,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 72]                                           %! SM4
+                    % [D GlobalSkips measure 72]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -777,7 +777,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 73]                                           %! SM4
+                    % [D GlobalSkips measure 73]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 7/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -821,7 +821,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 74]                                           %! SM4
+                    % [D GlobalSkips measure 74]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -865,7 +865,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 75]                                           %! SM4
+                    % [D GlobalSkips measure 75]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -909,7 +909,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 76]                                           %! SM4
+                    % [D GlobalSkips measure 76]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 7/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -953,7 +953,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 77]                                           %! SM4
+                    % [D GlobalSkips measure 77]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 9/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -997,7 +997,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 78]                                           %! SM4
+                    % [D GlobalSkips measure 78]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1041,7 +1041,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 79]                                           %! SM4
+                    % [D GlobalSkips measure 79]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1093,7 +1093,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 80]                                           %! SM4
+                    % [D GlobalSkips measure 80]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 8/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1145,7 +1145,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 81]                                           %! SM4
+                    % [D GlobalSkips measure 81]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 9/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1189,7 +1189,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 82]                                           %! SM4
+                    % [D GlobalSkips measure 82]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1233,7 +1233,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 83]                                           %! SM4
+                    % [D GlobalSkips measure 83]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1277,7 +1277,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 84]                                           %! SM4
+                    % [D GlobalSkips measure 84]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1329,7 +1329,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 85]                                           %! SM4
+                    % [D GlobalSkips measure 85]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 9/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1381,7 +1381,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 86]                                           %! SM4
+                    % [D GlobalSkips measure 86]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1424,7 +1424,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 87]                                           %! SM4
+                    % [D GlobalSkips measure 87]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1468,7 +1468,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 88]                                           %! SM4
+                    % [D GlobalSkips measure 88]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 8/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1512,7 +1512,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 89]                                           %! SM4
+                    % [D GlobalSkips measure 89]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1556,7 +1556,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 90]                                           %! SM4
+                    % [D GlobalSkips measure 90]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1600,7 +1600,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 91]                                           %! SM4
+                    % [D GlobalSkips measure 91]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 7/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1644,7 +1644,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 92]                                           %! SM4
+                    % [D GlobalSkips measure 92]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -1687,7 +1687,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 93]                                           %! SM4
+                    % [D GlobalSkips measure 93]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1739,7 +1739,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 94]                                           %! SM4
+                    % [D GlobalSkips measure 94]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -1846,7 +1846,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 95]                                           %! SM4
+                    % [D GlobalSkips measure 95]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1890,7 +1890,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 96]                                           %! SM4
+                    % [D GlobalSkips measure 96]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1934,7 +1934,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 97]                                           %! SM4
+                    % [D GlobalSkips measure 97]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1986,7 +1986,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 98]                                           %! SM4
+                    % [D GlobalSkips measure 98]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2038,7 +2038,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 99]                                           %! SM4
+                    % [D GlobalSkips measure 99]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -2149,7 +2149,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 100]                                          %! SM4
+                    % [D GlobalSkips measure 100]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 7/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2193,7 +2193,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 101]                                          %! SM4
+                    % [D GlobalSkips measure 101]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -2236,7 +2236,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 102]                                          %! SM4
+                    % [D GlobalSkips measure 102]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2280,7 +2280,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 103]                                          %! SM4
+                    % [D GlobalSkips measure 103]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2332,7 +2332,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 104]                                          %! SM4
+                    % [D GlobalSkips measure 104]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 8/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2384,7 +2384,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 105]                                          %! SM4
+                    % [D GlobalSkips measure 105]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 9/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2428,7 +2428,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 106]                                          %! SM4
+                    % [D GlobalSkips measure 106]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -2471,7 +2471,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 107]                                          %! SM4
+                    % [D GlobalSkips measure 107]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2515,7 +2515,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 108]                                          %! SM4
+                    % [D GlobalSkips measure 108]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -2622,7 +2622,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 109]                                          %! SM4
+                    % [D GlobalSkips measure 109]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2666,7 +2666,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 110]                                          %! SM4
+                    % [D GlobalSkips measure 110]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \time 7/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2710,7 +2710,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 111]                                          %! SM4
+                    % [D GlobalSkips measure 111]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -2761,7 +2761,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 112]                                          %! SM4
+                    % [D GlobalSkips measure 112]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
                     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
                     \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -2824,7 +2824,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff" {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice" {
                             
-                            % [ViolinIMusicVoice measure 62]                             %! SM4
+                            % [D ViolinIMusicVoice measure 62]                           %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -2919,85 +2919,85 @@
                             \override ViolinIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [ViolinIMusicVoice measure 63]                             %! SM4
+                            % [D ViolinIMusicVoice measure 63]                           %! SM4
                             cs''''2
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 64]                             %! SM4
+                            % [D ViolinIMusicVoice measure 64]                           %! SM4
                             cs''''4.
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 65]                             %! SM4
+                            % [D ViolinIMusicVoice measure 65]                           %! SM4
                             cs''''2.
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 66]                             %! SM4
+                            % [D ViolinIMusicVoice measure 66]                           %! SM4
                             cs''''2..
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 67]                             %! SM4
+                            % [D ViolinIMusicVoice measure 67]                           %! SM4
                             cs''''2..
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 68]                             %! SM4
+                            % [D ViolinIMusicVoice measure 68]                           %! SM4
                             cs''''2
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 69]                             %! SM4
+                            % [D ViolinIMusicVoice measure 69]                           %! SM4
                             cs''''1
                             \repeatTie
                             \ottava #0                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 70]                             %! SM4
+                            % [D ViolinIMusicVoice measure 70]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIMusicVoice measure 71]                             %! SM4
+                            % [D ViolinIMusicVoice measure 71]                           %! SM4
                             \ottava #1                                                   %! SC
                             cs''''2.
                             
                             cs''''4.
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 72]                             %! SM4
+                            % [D ViolinIMusicVoice measure 72]                           %! SM4
                             cs''''2.
                             \repeatTie
                             
                             cs''''4.
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 73]                             %! SM4
+                            % [D ViolinIMusicVoice measure 73]                           %! SM4
                             cs''''2..
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 74]                             %! SM4
+                            % [D ViolinIMusicVoice measure 74]                           %! SM4
                             cs''''4.
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 75]                             %! SM4
+                            % [D ViolinIMusicVoice measure 75]                           %! SM4
                             cs''''2.
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 76]                             %! SM4
+                            % [D ViolinIMusicVoice measure 76]                           %! SM4
                             cs''''2..
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 77]                             %! SM4
+                            % [D ViolinIMusicVoice measure 77]                           %! SM4
                             cs''''2.
                             \repeatTie
                             
                             cs''''4.
                             \repeatTie
                             
-                            % [ViolinIMusicVoice measure 78]                             %! SM4
+                            % [D ViolinIMusicVoice measure 78]                           %! SM4
                             cs''''2
                             \repeatTie
                             \revert NoteHead.style                                       %! OC
                             \ottava #0                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 79]                             %! SM4
+                            % [D ViolinIMusicVoice measure 79]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIMusicVoice measure 80]                             %! SM4
+                            % [D ViolinIMusicVoice measure 80]                           %! SM4
                             \override NoteHead.style = #'harmonic                        %! OC
                             \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a'1
@@ -3010,7 +3010,7 @@
                                         "XP + senza vib. + full bow strokes"             %! IC
                                 }                                                        %! IC
                             
-                            % [ViolinIMusicVoice measure 81]                             %! SM4
+                            % [D ViolinIMusicVoice measure 81]                           %! SM4
                             c''2.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
@@ -3019,19 +3019,19 @@
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 82]                             %! SM4
+                            % [D ViolinIMusicVoice measure 82]                           %! SM4
                             fs'2
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 83]                             %! SM4
+                            % [D ViolinIMusicVoice measure 83]                           %! SM4
                             ef'4.
                             -\downbow                                                    %! IC
                             
-                            % [ViolinIMusicVoice measure 84]                             %! SM4
+                            % [D ViolinIMusicVoice measure 84]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIMusicVoice measure 85]                             %! SM4
+                            % [D ViolinIMusicVoice measure 85]                           %! SM4
                             fs'2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
@@ -3040,7 +3040,7 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 86]                             %! SM4
+                            % [D ViolinIMusicVoice measure 86]                           %! SM4
                             c''2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
@@ -3049,88 +3049,88 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 87]                             %! SM4
+                            % [D ViolinIMusicVoice measure 87]                           %! SM4
                             ef''2
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 88]                             %! SM4
+                            % [D ViolinIMusicVoice measure 88]                           %! SM4
                             c''1
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 89]                             %! SM4
+                            % [D ViolinIMusicVoice measure 89]                           %! SM4
                             a'4.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 90]                             %! SM4
+                            % [D ViolinIMusicVoice measure 90]                           %! SM4
                             ef''2
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 91]                             %! SM4
+                            % [D ViolinIMusicVoice measure 91]                           %! SM4
                             fs''2..
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 92]                             %! SM4
+                            % [D ViolinIMusicVoice measure 92]                           %! SM4
                             a''2..
                             -\upbow                                                      %! IC
                             
-                            % [ViolinIMusicVoice measure 93]                             %! SM4
+                            % [D ViolinIMusicVoice measure 93]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIMusicVoice measure 94]                             %! SM4
+                            % [D ViolinIMusicVoice measure 94]                           %! SM4
                             a'4.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 95]                             %! SM4
+                            % [D ViolinIMusicVoice measure 95]                           %! SM4
                             ef''2.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 96]                             %! SM4
+                            % [D ViolinIMusicVoice measure 96]                           %! SM4
                             fs''2
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 97]                             %! SM4
+                            % [D ViolinIMusicVoice measure 97]                           %! SM4
                             a''4.
                             -\upbow                                                      %! IC
                             
-                            % [ViolinIMusicVoice measure 98]                             %! SM4
+                            % [D ViolinIMusicVoice measure 98]                           %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIMusicVoice measure 99]                             %! SM4
+                            % [D ViolinIMusicVoice measure 99]                           %! SM4
                             ef'''2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 100]                            %! SM4
+                            % [D ViolinIMusicVoice measure 100]                          %! SM4
                             a''2..
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 101]                            %! SM4
+                            % [D ViolinIMusicVoice measure 101]                          %! SM4
                             c'''2..
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 102]                            %! SM4
+                            % [D ViolinIMusicVoice measure 102]                          %! SM4
                             a'4.
                             -\upbow                                                      %! IC
                             
-                            % [ViolinIMusicVoice measure 103]                            %! SM4
+                            % [D ViolinIMusicVoice measure 103]                          %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIMusicVoice measure 104]                            %! SM4
+                            % [D ViolinIMusicVoice measure 104]                          %! SM4
                             fs'1
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 105]                            %! SM4
+                            % [D ViolinIMusicVoice measure 105]                          %! SM4
                             ef'2.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
@@ -3139,7 +3139,7 @@
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 106]                            %! SM4
+                            % [D ViolinIMusicVoice measure 106]                          %! SM4
                             fs'2.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
@@ -3148,24 +3148,24 @@
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIMusicVoice measure 107]                            %! SM4
+                            % [D ViolinIMusicVoice measure 107]                          %! SM4
                             c''2
                             -\upbow                                                      %! IC
                             \revert NoteHead.style                                       %! OC
                             
-                            % [ViolinIMusicVoice measure 108]                            %! SM4
+                            % [D ViolinIMusicVoice measure 108]                          %! SM4
                             R1 * 3/8
                             
-                            % [ViolinIMusicVoice measure 109]                            %! SM4
+                            % [D ViolinIMusicVoice measure 109]                          %! SM4
                             R1 * 3/4
                             
-                            % [ViolinIMusicVoice measure 110]                            %! SM4
+                            % [D ViolinIMusicVoice measure 110]                          %! SM4
                             R1 * 7/8
                             
-                            % [ViolinIMusicVoice measure 111]                            %! SM4
+                            % [D ViolinIMusicVoice measure 111]                          %! SM4
                             R1 * 7/8
                             
-                            % [ViolinIMusicVoice measure 112]                            %! SM4
+                            % [D ViolinIMusicVoice measure 112]                          %! SM4
                             R1 * 1/4
                             
                         }
@@ -3174,7 +3174,7 @@
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
                             
-                            % [ViolinIIMusicVoice measure 62]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 62]                          %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolinIIMusicStaff.StaffSymbol.line-count = 1 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -3255,31 +3255,31 @@
                             \override ViolinIIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [ViolinIIMusicVoice measure 63]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 63]                          %! SM4
                             R1 * 1/2
                             
-                            % [ViolinIIMusicVoice measure 64]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 64]                          %! SM4
                             R1 * 3/8
                             
-                            % [ViolinIIMusicVoice measure 65]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 65]                          %! SM4
                             R1 * 3/4
                             
-                            % [ViolinIIMusicVoice measure 66]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 66]                          %! SM4
                             R1 * 7/8
                             
-                            % [ViolinIIMusicVoice measure 67]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 67]                          %! SM4
                             R1 * 7/8
                             
-                            % [ViolinIIMusicVoice measure 68]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 68]                          %! SM4
                             R1 * 1/2
                             
-                            % [ViolinIIMusicVoice measure 69]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 69]                          %! SM4
                             R1 * 1
                             
-                            % [ViolinIIMusicVoice measure 70]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 70]                          %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIIMusicVoice measure 71]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 71]                          %! SM4
                             \override NoteHead.style = #'harmonic                        %! OC
                             \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             a'2.
@@ -3296,7 +3296,7 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 72]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 72]                          %! SM4
                             a'2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
@@ -3305,27 +3305,27 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 73]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 73]                          %! SM4
                             ef'2..
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 74]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 74]                          %! SM4
                             a'4.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 75]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 75]                          %! SM4
                             fs'2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 76]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 76]                          %! SM4
                             a'2..
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 77]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 77]                          %! SM4
                             c''2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
@@ -3334,19 +3334,19 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 78]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 78]                          %! SM4
                             ef''2
                             -\downbow                                                    %! IC
                             
-                            % [ViolinIIMusicVoice measure 79]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 79]                          %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIIMusicVoice measure 80]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 80]                          %! SM4
                             fs'1
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 81]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 81]                          %! SM4
                             a'2.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
@@ -3355,19 +3355,19 @@
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 82]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 82]                          %! SM4
                             fs''2
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 83]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 83]                          %! SM4
                             ef''4.
                             -\downbow                                                    %! IC
                             
-                            % [ViolinIIMusicVoice measure 84]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 84]                          %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIIMusicVoice measure 85]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 85]                          %! SM4
                             a'2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
@@ -3376,7 +3376,7 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 86]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 86]                          %! SM4
                             fs''2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
@@ -3385,62 +3385,62 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 87]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 87]                          %! SM4
                             fs''2
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 88]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 88]                          %! SM4
                             c'''1
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 89]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 89]                          %! SM4
                             ef'''4.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 90]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 90]                          %! SM4
                             a''2
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 91]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 91]                          %! SM4
                             c'''2..
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 92]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 92]                          %! SM4
                             a'2..
                             -\upbow                                                      %! IC
                             
-                            % [ViolinIIMusicVoice measure 93]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 93]                          %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIIMusicVoice measure 94]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 94]                          %! SM4
                             ef'''4.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 95]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 95]                          %! SM4
                             a''2.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 96]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 96]                          %! SM4
                             c'''2
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolinIIMusicVoice measure 97]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 97]                          %! SM4
                             a'4.
                             -\upbow                                                      %! IC
                             \revert NoteHead.style                                       %! OC
                             
-                            % [ViolinIIMusicVoice measure 98]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 98]                          %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIIMusicVoice measure 99]                            %! SM4
+                            % [D ViolinIIMusicVoice measure 99]                          %! SM4
                             \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             \pitchedTrill                                                %! SC
                             g''2.
@@ -3452,52 +3452,52 @@
                                 }                                                        %! IC
                             \startTrillSpan a''                                          %! SC
                             
-                            % [ViolinIIMusicVoice measure 100]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 100]                         %! SM4
                             g''2..
                             \repeatTie
                             
-                            % [ViolinIIMusicVoice measure 101]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 101]                         %! SM4
                             R1 * 7/8
                             \stopTrillSpan                                               %! SC
                             
-                            % [ViolinIIMusicVoice measure 102]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 102]                         %! SM4
                             R1 * 3/8
                             
-                            % [ViolinIIMusicVoice measure 103]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 103]                         %! SM4
                             R1 * 1/4
                             
-                            % [ViolinIIMusicVoice measure 104]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 104]                         %! SM4
                             \pitchedTrill                                                %! SC
                             g''1
                             \startTrillSpan a''                                          %! SC
                             
-                            % [ViolinIIMusicVoice measure 105]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 105]                         %! SM4
                             g''2.
                             \repeatTie
                             
                             g''4.
                             \repeatTie
                             
-                            % [ViolinIIMusicVoice measure 106]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 106]                         %! SM4
                             R1 * 9/8
                             \stopTrillSpan                                               %! SC
                             
-                            % [ViolinIIMusicVoice measure 107]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 107]                         %! SM4
                             R1 * 1/2
                             
-                            % [ViolinIIMusicVoice measure 108]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 108]                         %! SM4
                             R1 * 3/8
                             
-                            % [ViolinIIMusicVoice measure 109]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 109]                         %! SM4
                             R1 * 3/4
                             
-                            % [ViolinIIMusicVoice measure 110]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 110]                         %! SM4
                             R1 * 7/8
                             
-                            % [ViolinIIMusicVoice measure 111]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 111]                         %! SM4
                             R1 * 7/8
                             
-                            % [ViolinIIMusicVoice measure 112]                           %! SM4
+                            % [D ViolinIIMusicVoice measure 112]                         %! SM4
                             R1 * 1/4
                             
                         }
@@ -3506,7 +3506,7 @@
                     \context ViolaMusicStaff = "ViolaMusicStaff" {
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
                             
-                            % [ViolaMusicVoice measure 62]                               %! SM4
+                            % [D ViolaMusicVoice measure 62]                             %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -3578,143 +3578,143 @@
                             \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % [ViolaMusicVoice measure 63]                               %! SM4
+                            % [D ViolaMusicVoice measure 63]                             %! SM4
                             gqf''2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 64]                               %! SM4
+                            % [D ViolaMusicVoice measure 64]                             %! SM4
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 65]                               %! SM4
+                            % [D ViolaMusicVoice measure 65]                             %! SM4
                             gqf''2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 66]                               %! SM4
+                            % [D ViolaMusicVoice measure 66]                             %! SM4
                             gqf''2..
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 67]                               %! SM4
+                            % [D ViolaMusicVoice measure 67]                             %! SM4
                             gqf''2..
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 68]                               %! SM4
+                            % [D ViolaMusicVoice measure 68]                             %! SM4
                             gqf''2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 69]                               %! SM4
+                            % [D ViolaMusicVoice measure 69]                             %! SM4
                             gqf''1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 70]                               %! SM4
+                            % [D ViolaMusicVoice measure 70]                             %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 71]                               %! SM4
+                            % [D ViolaMusicVoice measure 71]                             %! SM4
                             gqf''2.
                             
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 72]                               %! SM4
+                            % [D ViolaMusicVoice measure 72]                             %! SM4
                             gqf''2.
                             \repeatTie
                             
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 73]                               %! SM4
+                            % [D ViolaMusicVoice measure 73]                             %! SM4
                             gqf''2..
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 74]                               %! SM4
+                            % [D ViolaMusicVoice measure 74]                             %! SM4
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 75]                               %! SM4
+                            % [D ViolaMusicVoice measure 75]                             %! SM4
                             gqf''2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 76]                               %! SM4
+                            % [D ViolaMusicVoice measure 76]                             %! SM4
                             gqf''2..
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 77]                               %! SM4
+                            % [D ViolaMusicVoice measure 77]                             %! SM4
                             gqf''2.
                             \repeatTie
                             
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 78]                               %! SM4
+                            % [D ViolaMusicVoice measure 78]                             %! SM4
                             gqf''2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 79]                               %! SM4
+                            % [D ViolaMusicVoice measure 79]                             %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 80]                               %! SM4
+                            % [D ViolaMusicVoice measure 80]                             %! SM4
                             gqf''1
                             
-                            % [ViolaMusicVoice measure 81]                               %! SM4
+                            % [D ViolaMusicVoice measure 81]                             %! SM4
                             gqf''2.
                             \repeatTie
                             
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 82]                               %! SM4
+                            % [D ViolaMusicVoice measure 82]                             %! SM4
                             gqf''2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 83]                               %! SM4
+                            % [D ViolaMusicVoice measure 83]                             %! SM4
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 84]                               %! SM4
+                            % [D ViolaMusicVoice measure 84]                             %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 85]                               %! SM4
+                            % [D ViolaMusicVoice measure 85]                             %! SM4
                             gqf''2.
                             
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 86]                               %! SM4
+                            % [D ViolaMusicVoice measure 86]                             %! SM4
                             gqf''2.
                             \repeatTie
                             
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 87]                               %! SM4
+                            % [D ViolaMusicVoice measure 87]                             %! SM4
                             gqf''2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 88]                               %! SM4
+                            % [D ViolaMusicVoice measure 88]                             %! SM4
                             gqf''1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 89]                               %! SM4
+                            % [D ViolaMusicVoice measure 89]                             %! SM4
                             gqf''4.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 90]                               %! SM4
+                            % [D ViolaMusicVoice measure 90]                             %! SM4
                             gqf''2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 91]                               %! SM4
+                            % [D ViolaMusicVoice measure 91]                             %! SM4
                             gqf''2..
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 92]                               %! SM4
+                            % [D ViolaMusicVoice measure 92]                             %! SM4
                             gqf''2..
                             \repeatTie
                             \revert NoteHead.style                                       %! OC
                             
-                            % [ViolaMusicVoice measure 93]                               %! SM4
+                            % [D ViolaMusicVoice measure 93]                             %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 94]                               %! SM4
+                            % [D ViolaMusicVoice measure 94]                             %! SM4
                             \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! MEASURE_94:SHIFTED_CLEF:OC
                             \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_94:SHIFTED_CLEF:OC
                             \set ViolaMusicStaff.forceClef = ##t                         %! EXPLICIT_CLEF:SM8
@@ -3733,16 +3733,16 @@
                                 }                                                        %! IC
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % [ViolaMusicVoice measure 95]                               %! SM4
+                            % [D ViolaMusicVoice measure 95]                             %! SM4
                             e2.
                             \glissando                                                   %! SC
                             
-                            % [ViolaMusicVoice measure 96]                               %! SM4
+                            % [D ViolaMusicVoice measure 96]                             %! SM4
                             ds2
                             \glissando                                                   %! SC
                             \times 2/3 {
                                 
-                                % [ViolaMusicVoice measure 97]                           %! SM4
+                                % [D ViolaMusicVoice measure 97]                         %! SM4
                                 cs2
                                 \glissando                                               %! SC
                                 
@@ -3751,10 +3751,10 @@
                                 \ppp
                             }
                             
-                            % [ViolaMusicVoice measure 98]                               %! SM4
+                            % [D ViolaMusicVoice measure 98]                             %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 99]                               %! SM4
+                            % [D ViolaMusicVoice measure 99]                             %! SM4
                             \override NoteHead.style = #'harmonic                        %! OC
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             af2.
@@ -3767,29 +3767,29 @@
                                         "XP + full bow strokes"                          %! IC
                                 }                                                        %! IC
                             
-                            % [ViolaMusicVoice measure 100]                              %! SM4
+                            % [D ViolaMusicVoice measure 100]                            %! SM4
                             b2..
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolaMusicVoice measure 101]                              %! SM4
+                            % [D ViolaMusicVoice measure 101]                            %! SM4
                             af2..
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolaMusicVoice measure 102]                              %! SM4
+                            % [D ViolaMusicVoice measure 102]                            %! SM4
                             f4.
                             -\upbow                                                      %! IC
                             
-                            % [ViolaMusicVoice measure 103]                              %! SM4
+                            % [D ViolaMusicVoice measure 103]                            %! SM4
                             R1 * 1/4
                             
-                            % [ViolaMusicVoice measure 104]                              %! SM4
+                            % [D ViolaMusicVoice measure 104]                            %! SM4
                             f1
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolaMusicVoice measure 105]                              %! SM4
+                            % [D ViolaMusicVoice measure 105]                            %! SM4
                             af2.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
@@ -3798,7 +3798,7 @@
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolaMusicVoice measure 106]                              %! SM4
+                            % [D ViolaMusicVoice measure 106]                            %! SM4
                             f'2.
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
@@ -3807,24 +3807,24 @@
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [ViolaMusicVoice measure 107]                              %! SM4
+                            % [D ViolaMusicVoice measure 107]                            %! SM4
                             b2
                             -\upbow                                                      %! IC
                             \revert NoteHead.style                                       %! OC
                             
-                            % [ViolaMusicVoice measure 108]                              %! SM4
+                            % [D ViolaMusicVoice measure 108]                            %! SM4
                             R1 * 3/8
                             
-                            % [ViolaMusicVoice measure 109]                              %! SM4
+                            % [D ViolaMusicVoice measure 109]                            %! SM4
                             R1 * 3/4
                             
-                            % [ViolaMusicVoice measure 110]                              %! SM4
+                            % [D ViolaMusicVoice measure 110]                            %! SM4
                             R1 * 7/8
                             
-                            % [ViolaMusicVoice measure 111]                              %! SM4
+                            % [D ViolaMusicVoice measure 111]                            %! SM4
                             R1 * 7/8
                             
-                            % [ViolaMusicVoice measure 112]                              %! SM4
+                            % [D ViolaMusicVoice measure 112]                            %! SM4
                             R1 * 1/4
                             
                         }
@@ -3833,7 +3833,7 @@
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
                             
-                            % [CelloMusicVoice measure 62]                               %! SM4
+                            % [D CelloMusicVoice measure 62]                             %! SM4
                             \override NoteHead.style = #'harmonic                        %! OC
                             \once \override CelloMusicStaff.Clef.X-extent = ##f          %! MEASURE_62:SHIFTED_CLEF:OC
                             \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! MEASURE_62:SHIFTED_CLEF:OC
@@ -3901,103 +3901,103 @@
                             \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % [CelloMusicVoice measure 63]                               %! SM4
+                            % [D CelloMusicVoice measure 63]                             %! SM4
                             d''2
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 64]                               %! SM4
+                            % [D CelloMusicVoice measure 64]                             %! SM4
                             d''4.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 65]                               %! SM4
+                            % [D CelloMusicVoice measure 65]                             %! SM4
                             d''2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 66]                               %! SM4
+                            % [D CelloMusicVoice measure 66]                             %! SM4
                             d''2..
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 67]                               %! SM4
+                            % [D CelloMusicVoice measure 67]                             %! SM4
                             d''2..
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 68]                               %! SM4
+                            % [D CelloMusicVoice measure 68]                             %! SM4
                             d''2
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 69]                               %! SM4
+                            % [D CelloMusicVoice measure 69]                             %! SM4
                             d''1
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 70]                               %! SM4
+                            % [D CelloMusicVoice measure 70]                             %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 71]                               %! SM4
+                            % [D CelloMusicVoice measure 71]                             %! SM4
                             d''2.
                             
                             d''4.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 72]                               %! SM4
+                            % [D CelloMusicVoice measure 72]                             %! SM4
                             d''2.
                             \repeatTie
                             
                             d''4.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 73]                               %! SM4
+                            % [D CelloMusicVoice measure 73]                             %! SM4
                             d''2..
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 74]                               %! SM4
+                            % [D CelloMusicVoice measure 74]                             %! SM4
                             d''4.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 75]                               %! SM4
+                            % [D CelloMusicVoice measure 75]                             %! SM4
                             d''2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 76]                               %! SM4
+                            % [D CelloMusicVoice measure 76]                             %! SM4
                             d''2..
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 77]                               %! SM4
+                            % [D CelloMusicVoice measure 77]                             %! SM4
                             d''2.
                             \repeatTie
                             
                             d''4.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 78]                               %! SM4
+                            % [D CelloMusicVoice measure 78]                             %! SM4
                             d''2
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 79]                               %! SM4
+                            % [D CelloMusicVoice measure 79]                             %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 80]                               %! SM4
+                            % [D CelloMusicVoice measure 80]                             %! SM4
                             d''1
                             
-                            % [CelloMusicVoice measure 81]                               %! SM4
+                            % [D CelloMusicVoice measure 81]                             %! SM4
                             d''2.
                             \repeatTie
                             
                             d''4.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 82]                               %! SM4
+                            % [D CelloMusicVoice measure 82]                             %! SM4
                             d''2
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 83]                               %! SM4
+                            % [D CelloMusicVoice measure 83]                             %! SM4
                             d''4.
                             \repeatTie
                             \revert NoteHead.style                                       %! OC
                             
-                            % [CelloMusicVoice measure 84]                               %! SM4
+                            % [D CelloMusicVoice measure 84]                             %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 85]                               %! SM4
+                            % [D CelloMusicVoice measure 85]                             %! SM4
                             \override NoteHead.style = #'harmonic                        %! OC
                             \once \override CelloMusicStaff.Clef.X-extent = ##f          %! MEASURE_85:SHIFTED_CLEF:OC
                             \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_85:SHIFTED_CLEF:OC
@@ -4021,7 +4021,7 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 86]                               %! SM4
+                            % [D CelloMusicVoice measure 86]                             %! SM4
                             g,2.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
@@ -4030,40 +4030,40 @@
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 87]                               %! SM4
+                            % [D CelloMusicVoice measure 87]                             %! SM4
                             cs,2
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 88]                               %! SM4
+                            % [D CelloMusicVoice measure 88]                             %! SM4
                             g,1
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 89]                               %! SM4
+                            % [D CelloMusicVoice measure 89]                             %! SM4
                             e,4.
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 90]                               %! SM4
+                            % [D CelloMusicVoice measure 90]                             %! SM4
                             g,2
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 91]                               %! SM4
+                            % [D CelloMusicVoice measure 91]                             %! SM4
                             bf,2..
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 92]                               %! SM4
+                            % [D CelloMusicVoice measure 92]                             %! SM4
                             e2..
                             -\upbow                                                      %! IC
                             \revert NoteHead.style                                       %! OC
                             
-                            % [CelloMusicVoice measure 93]                               %! SM4
+                            % [D CelloMusicVoice measure 93]                             %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 94]                               %! SM4
+                            % [D CelloMusicVoice measure 94]                             %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs,4.
                             \>
@@ -4074,24 +4074,24 @@
                                         tasto                                            %! IC
                                 }                                                        %! IC
                             
-                            % [CelloMusicVoice measure 95]                               %! SM4
+                            % [D CelloMusicVoice measure 95]                             %! SM4
                             cs,2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 96]                               %! SM4
+                            % [D CelloMusicVoice measure 96]                             %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs,2
                             \repeatTie
                             \ppp
                             
-                            % [CelloMusicVoice measure 97]                               %! SM4
+                            % [D CelloMusicVoice measure 97]                             %! SM4
                             cs,4.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 98]                               %! SM4
+                            % [D CelloMusicVoice measure 98]                             %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 99]                               %! SM4
+                            % [D CelloMusicVoice measure 99]                             %! SM4
                             \override NoteHead.style = #'harmonic                        %! OC
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                             e,2.
@@ -4104,25 +4104,25 @@
                                         "XP + full bow strokes"                          %! IC
                                 }                                                        %! IC
                             
-                            % [CelloMusicVoice measure 100]                              %! SM4
+                            % [D CelloMusicVoice measure 100]                            %! SM4
                             g,2..
                             -\upbow                                                      %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 101]                              %! SM4
+                            % [D CelloMusicVoice measure 101]                            %! SM4
                             bf,2..
                             -\downbow                                                    %! IC
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 102]                              %! SM4
+                            % [D CelloMusicVoice measure 102]                            %! SM4
                             e4.
                             -\upbow                                                      %! IC
                             \revert NoteHead.style                                       %! OC
                             
-                            % [CelloMusicVoice measure 103]                              %! SM4
+                            % [D CelloMusicVoice measure 103]                            %! SM4
                             R1 * 1/4
                             
-                            % [CelloMusicVoice measure 104]                              %! SM4
+                            % [D CelloMusicVoice measure 104]                            %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             df1
                             \glissando                                                   %! SC
@@ -4134,38 +4134,38 @@
                                         tasto                                            %! IC
                                 }                                                        %! IC
                             
-                            % [CelloMusicVoice measure 105]                              %! SM4
+                            % [D CelloMusicVoice measure 105]                            %! SM4
                             c2.
                             \glissando                                                   %! SC
                             
                             bf,4.
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 106]                              %! SM4
+                            % [D CelloMusicVoice measure 106]                            %! SM4
                             af,2.
                             \glissando                                                   %! SC
                             
                             g,4.
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 107]                              %! SM4
+                            % [D CelloMusicVoice measure 107]                            %! SM4
                             f,2
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 108]                              %! SM4
+                            % [D CelloMusicVoice measure 108]                            %! SM4
                             ef,4.
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 109]                              %! SM4
+                            % [D CelloMusicVoice measure 109]                            %! SM4
                             d,2.
                             \glissando                                                   %! SC
                             
-                            % [CelloMusicVoice measure 110]                              %! SM4
+                            % [D CelloMusicVoice measure 110]                            %! SM4
                             c,2..
                             \glissando                                                   %! SC
                             \times 8/9 {
                                 
-                                % [CelloMusicVoice measure 111]                          %! SM4
+                                % [D CelloMusicVoice measure 111]                        %! SM4
                                 bf,,2..
                                 \glissando                                               %! SC
                                 
@@ -4174,7 +4174,7 @@
                                 \ppp
                             }
                             
-                            % [CelloMusicVoice measure 112]                              %! SM4
+                            % [D CelloMusicVoice measure 112]                            %! SM4
                             R1 * 1/4
                             
                         }
