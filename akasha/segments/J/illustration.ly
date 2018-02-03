@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                {
+                {   %*% JGlobalRests
                     
                     % [J GlobalRests measure 261]                                        %! SM4
                     R1 * 1
@@ -40,9 +40,9 @@
                             #"scripts.uverylongfermata"                                  %! SM18
                         }                                                                %! SM18
                     
-                }
+                }   %*% JGlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% JGlobalSkips
                     
                     % [J GlobalSkips measure 261]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -310,7 +310,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% JGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -320,7 +320,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        {
+                        {   %*% JViolinIMusicVoice
                             
                             % [J ViolinIMusicVoice measure 261]                          %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -449,13 +449,13 @@
                             % [J ViolinIMusicVoice measure 264]                          %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% JViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        {
+                        {   %*% JViolinIIMusicVoice
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 4/4 {
                                 
@@ -601,13 +601,13 @@
                             % [J ViolinIIMusicVoice measure 264]                         %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% JViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% JViolaMusicVoice
                             
                             % [J ViolaMusicVoice measure 261]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -675,13 +675,13 @@
                             % [J ViolaMusicVoice measure 264]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% JViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% JCelloMusicVoice
                             \tweak text #tuplet-number::calc-fraction-text
                             \times 4/3 {
                                 
@@ -782,7 +782,7 @@
                             % [J CelloMusicVoice measure 264]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% JCelloMusicVoice
                     }
                 >>
             }

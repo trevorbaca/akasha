@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                {
+                {   %*% EGlobalRests
                     
                     % [E GlobalRests measure 113]                                        %! SM4
                     R1 * 1
@@ -169,9 +169,9 @@
                             #"scripts.ulongfermata"                                      %! SM18
                         }                                                                %! SM18
                     
-                }
+                }   %*% EGlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% EGlobalSkips
                     
                     % [E GlobalSkips measure 113]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2295,7 +2295,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% EGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -2305,7 +2305,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        {
+                        {   %*% EViolinIMusicVoice
                             
                             % [E ViolinIMusicVoice measure 113]                          %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3837,13 +3837,13 @@
                             % [E ViolinIMusicVoice measure 151]                          %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% EViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        {
+                        {   %*% EViolinIIMusicVoice
                             
                             % [E ViolinIIMusicVoice measure 113]                         %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -5460,13 +5460,13 @@
                             % [E ViolinIIMusicVoice measure 151]                         %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% EViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% EViolaMusicVoice
                             
                             % [E ViolaMusicVoice measure 113]                            %! SM4
                             \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -6022,13 +6022,13 @@
                             % [E ViolaMusicVoice measure 151]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% EViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% ECelloMusicVoice
                             
                             % [E CelloMusicVoice measure 113]                            %! SM4
                             \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -7758,7 +7758,7 @@
                             % [E CelloMusicVoice measure 151]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% ECelloMusicVoice
                     }
                 >>
             }

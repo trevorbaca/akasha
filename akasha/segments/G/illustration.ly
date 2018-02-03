@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                {
+                {   %*% GGlobalRests
                     
                     % [G GlobalRests measure 200]                                        %! SM4
                     R1 * 7/8
@@ -79,9 +79,9 @@
                     % [G GlobalRests measure 216]                                        %! SM4
                     R1 * 3/8
                     
-                }
+                }   %*% GGlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% GGlobalSkips
                     
                     % [G GlobalSkips measure 200]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1080,7 +1080,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% GGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -1090,7 +1090,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        {
+                        {   %*% GViolinIMusicVoice
                             \times 8/14 {
                                 
                                 % [G ViolinIMusicVoice measure 200]                      %! SM4
@@ -1531,13 +1531,13 @@
                             % [G ViolinIMusicVoice measure 216]                          %! SM4
                             R1 * 3/8
                             
-                        }
+                        }   %*% GViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        {
+                        {   %*% GViolinIIMusicVoice
                             
                             % [G ViolinIIMusicVoice measure 200]                         %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1849,13 +1849,13 @@
                             % [G ViolinIIMusicVoice measure 216]                         %! SM4
                             R1 * 3/8
                             
-                        }
+                        }   %*% GViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% GViolaMusicVoice
                             
                             % [G ViolaMusicVoice measure 200]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2156,13 +2156,13 @@
                             c'4.
                             \repeatTie
                             
-                        }
+                        }   %*% GViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% GCelloMusicVoice
                             
                             % [G CelloMusicVoice measure 200]                            %! SM4
                             \once \override CelloMusicStaff.Clef.X-extent = ##f          %! MEASURE_200:SHIFTED_CLEF:OC
@@ -2448,7 +2448,7 @@
                             % [G CelloMusicVoice measure 216]                            %! SM4
                             R1 * 3/8
                             
-                        }
+                        }   %*% GCelloMusicVoice
                     }
                 >>
             }
