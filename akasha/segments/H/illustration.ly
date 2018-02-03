@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                {
+                {   %*% HGlobalRests
                     
                     % [H GlobalRests measure 217]                                        %! SM4
                     R1 * 1
@@ -55,9 +55,9 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                }
+                }   %*% HGlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% HGlobalSkips
                     \repeat volta 2
                     {
                         
@@ -579,7 +579,7 @@
                         \bar "|"                                                         %! SM5
                         
                     }
-                }
+                }   %*% HGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -589,7 +589,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        {
+                        {   %*% HViolinIMusicVoice
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -809,13 +809,13 @@
                             % [H ViolinIMusicVoice measure 223]                          %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% HViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        {
+                        {   %*% HViolinIIMusicVoice
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -1035,13 +1035,13 @@
                             % [H ViolinIIMusicVoice measure 223]                         %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% HViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% HViolaMusicVoice
                             
                             % [H ViolaMusicVoice measure 217]                            %! SM4
                             \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -1135,13 +1135,13 @@
                             % [H ViolaMusicVoice measure 223]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% HViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% HCelloMusicVoice
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -1300,7 +1300,7 @@
                             % [H CelloMusicVoice measure 223]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% HCelloMusicVoice
                     }
                 >>
             }

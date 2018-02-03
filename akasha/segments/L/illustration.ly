@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                {
+                {   %*% LGlobalRests
                     
                     % [L GlobalRests measure 334]                                        %! SM4
                     R1 * 1
@@ -52,9 +52,9 @@
                     % [L GlobalRests measure 339]                                        %! SM4
                     R1 * 3/4
                     
-                }
+                }   %*% LGlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% LGlobalSkips
                     
                     % [L GlobalSkips measure 334]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -419,7 +419,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% LGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -429,7 +429,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        {
+                        {   %*% LViolinIMusicVoice
                             
                             % [L ViolinIMusicVoice measure 334]                          %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -527,13 +527,13 @@
                             % [L ViolinIMusicVoice measure 339]                          %! SM4
                             R1 * 3/4
                             
-                        }
+                        }   %*% LViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        {
+                        {   %*% LViolinIIMusicVoice
                             
                             % [L ViolinIIMusicVoice measure 334]                         %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -631,13 +631,13 @@
                             % [L ViolinIIMusicVoice measure 339]                         %! SM4
                             R1 * 3/4
                             
-                        }
+                        }   %*% LViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% LViolaMusicVoice
                             
                             % [L ViolaMusicVoice measure 334]                            %! SM4
                             \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -727,13 +727,13 @@
                             % [L ViolaMusicVoice measure 339]                            %! SM4
                             R1 * 3/4
                             
-                        }
+                        }   %*% LViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% LCelloMusicVoice
                             
                             % [L CelloMusicVoice measure 334]                            %! SM4
                             \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -818,7 +818,7 @@
                             bf,,2.
                             \repeatTie
                             
-                        }
+                        }   %*% LCelloMusicVoice
                     }
                 >>
             }

@@ -15,7 +15,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                {
+                {   %*% iGlobalRests
                     
                     % [_ GlobalRests measure 1]                                          %! SM4
                     R1 * 3/8
@@ -32,9 +32,9 @@
                             #"scripts.uverylongfermata"                                  %! SM18
                         }                                                                %! SM18
                     
-                }
+                }   %*% iGlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% iGlobalSkips
                     
                     % [_ GlobalSkips measure 1]                                          %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -241,7 +241,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% iGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -251,7 +251,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        {
+                        {   %*% iViolinIMusicVoice
                             
                             % [_ ViolinIMusicVoice measure 1]                            %! SM4
                             \set ViolinIMusicStaff.instrumentName = \markup {            %! DEFAULT_INSTRUMENT:SM8
@@ -334,13 +334,13 @@
                             % [_ ViolinIMusicVoice measure 3]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% iViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        {
+                        {   %*% iViolinIIMusicVoice
                             
                             % [_ ViolinIIMusicVoice measure 1]                           %! SM4
                             \set ViolinIIMusicStaff.instrumentName = \markup {           %! DEFAULT_INSTRUMENT:SM8
@@ -423,13 +423,13 @@
                             % [_ ViolinIIMusicVoice measure 3]                           %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% iViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% iViolaMusicVoice
                             
                             % [_ ViolaMusicVoice measure 1]                              %! SM4
                             \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
@@ -508,13 +508,13 @@
                             % [_ ViolaMusicVoice measure 3]                              %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% iViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% iCelloMusicVoice
                             
                             % [_ CelloMusicVoice measure 1]                              %! SM4
                             \set CelloMusicStaff.instrumentName = \markup {              %! DEFAULT_INSTRUMENT:SM8
@@ -573,7 +573,7 @@
                             % [_ CelloMusicVoice measure 3]                              %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% iCelloMusicVoice
                     }
                 >>
             }

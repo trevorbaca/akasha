@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                {
+                {   %*% MGlobalRests
                     
                     % [M GlobalRests measure 340]                                        %! SM4
                     R1 * 5/4
@@ -115,9 +115,9 @@
                             #"scripts.ufermata"                                          %! SM18
                         }                                                                %! SM18
                     
-                }
+                }   %*% MGlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% MGlobalSkips
                     
                     % [M GlobalSkips measure 340]                                        %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1690,7 +1690,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% MGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -1700,7 +1700,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        {
+                        {   %*% MViolinIMusicVoice
                             
                             % [M ViolinIMusicVoice measure 340]                          %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2141,13 +2141,13 @@
                             % [M ViolinIMusicVoice measure 368]                          %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% MViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        {
+                        {   %*% MViolinIIMusicVoice
                             
                             % [M ViolinIIMusicVoice measure 340]                         %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2586,13 +2586,13 @@
                             % [M ViolinIIMusicVoice measure 368]                         %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% MViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% MViolaMusicVoice
                             
                             % [M ViolaMusicVoice measure 340]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3007,13 +3007,13 @@
                             % [M ViolaMusicVoice measure 368]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% MViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% MCelloMusicVoice
                             
                             % [M CelloMusicVoice measure 340]                            %! SM4
                             \once \override TextSpanner.Y-extent = ##f
@@ -3234,7 +3234,7 @@
                             % [M CelloMusicVoice measure 368]                            %! SM4
                             R1 * 1/4
                             
-                        }
+                        }   %*% MCelloMusicVoice
                     }
                 >>
             }

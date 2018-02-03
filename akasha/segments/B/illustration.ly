@@ -20,7 +20,7 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                {
+                {   %*% BGlobalRests
                     
                     % [B GlobalRests measure 24]                                         %! SM4
                     R1 * 9/8
@@ -73,9 +73,9 @@
                     % [B GlobalRests measure 34]                                         %! SM4
                     R1 * 7/8
                     
-                }
+                }   %*% BGlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                {
+                {   %*% BGlobalSkips
                     
                     % [B GlobalSkips measure 24]                                         %! SM4
                     \newSpacingSection                                                   %! SPACING:HSS1
@@ -690,7 +690,7 @@
                     \override Score.BarLine.transparent = ##f                            %! SM5
                     \bar "|"                                                             %! SM5
                     
-                }
+                }   %*% BGlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -700,7 +700,7 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        {
+                        {   %*% BViolinIMusicVoice
                             \override TupletNumber.text = \markup {
                                 \scale
                                     #'(0.75 . 0.75)
@@ -862,13 +862,13 @@
                             % [B ViolinIMusicVoice measure 34]                           %! SM4
                             R1 * 7/8
                             
-                        }
+                        }   %*% BViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        {
+                        {   %*% BViolinIIMusicVoice
                             
                             % [B ViolinIIMusicVoice measure 24]                          %! SM4
                             \set ViolinIIMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -1059,13 +1059,13 @@
                                 
                             }
                             \revert TupletNumber.text
-                        }
+                        }   %*% BViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        {
+                        {   %*% BViolaMusicVoice
                             
                             % [B ViolaMusicVoice measure 24]                             %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1179,13 +1179,13 @@
                                         tasto                                            %! IC
                                 }                                                        %! IC
                             
-                        }
+                        }   %*% BViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        {
+                        {   %*% BCelloMusicVoice
                             
                             % [B CelloMusicVoice measure 24]                             %! SM4
                             \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -1484,7 +1484,7 @@
                                         tasto                                            %! IC
                                 }                                                        %! IC
                             
-                        }
+                        }   %*% BCelloMusicVoice
                     }
                 >>
             }
