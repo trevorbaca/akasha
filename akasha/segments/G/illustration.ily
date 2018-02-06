@@ -1,4 +1,4 @@
-GGlobalRests = {
+G_GlobalRests = {
     
     % [G GlobalRests measure 200]                                        %! SM4
     R1 * 7/8
@@ -60,7 +60,7 @@ GGlobalRests = {
 }
 
 
-GGlobalSkips = {
+G_GlobalSkips = {
     
     % [G GlobalSkips measure 200]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1062,7 +1062,7 @@ GGlobalSkips = {
 }
 
 
-GViolinIMusicVoice = {
+G_ViolinIMusicVoice = {
     \times 8/14 {
         
         % [G ViolinIMusicVoice measure 200]                      %! SM4
@@ -1506,7 +1506,7 @@ GViolinIMusicVoice = {
 }
 
 
-GViolinIIMusicVoice = {
+G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 200]                         %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1821,7 +1821,7 @@ GViolinIIMusicVoice = {
 }
 
 
-GViolaMusicVoice = {
+G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 200]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2125,7 +2125,7 @@ GViolaMusicVoice = {
 }
 
 
-GCelloMusicVoice = {
+G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 200]                            %! SM4
     \once \override CelloMusicStaff.Clef.X-extent = ##f          %! MEASURE_200:SHIFTED_CLEF:OC

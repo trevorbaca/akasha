@@ -1,4 +1,4 @@
-JGlobalRests = {
+J_GlobalRests = {
     
     % [J GlobalRests measure 261]                                        %! SM4
     R1 * 1
@@ -21,7 +21,7 @@ JGlobalRests = {
 }
 
 
-JGlobalSkips = {
+J_GlobalSkips = {
     
     % [J GlobalSkips measure 261]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -292,7 +292,7 @@ JGlobalSkips = {
 }
 
 
-JViolinIMusicVoice = {
+J_ViolinIMusicVoice = {
     
     % [J ViolinIMusicVoice measure 261]                          %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -424,7 +424,7 @@ JViolinIMusicVoice = {
 }
 
 
-JViolinIIMusicVoice = {
+J_ViolinIIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
         
@@ -573,7 +573,7 @@ JViolinIIMusicVoice = {
 }
 
 
-JViolaMusicVoice = {
+J_ViolaMusicVoice = {
     
     % [J ViolaMusicVoice measure 261]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -644,7 +644,7 @@ JViolaMusicVoice = {
 }
 
 
-JCelloMusicVoice = {
+J_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         

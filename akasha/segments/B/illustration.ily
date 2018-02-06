@@ -1,4 +1,4 @@
-BGlobalRests = {
+B_GlobalRests = {
     
     % [B GlobalRests measure 24]                                         %! SM4
     R1 * 9/8
@@ -54,7 +54,7 @@ BGlobalRests = {
 }
 
 
-BGlobalSkips = {
+B_GlobalSkips = {
     
     % [B GlobalSkips measure 24]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -672,7 +672,7 @@ BGlobalSkips = {
 }
 
 
-BViolinIMusicVoice = {
+B_ViolinIMusicVoice = {
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -837,7 +837,7 @@ BViolinIMusicVoice = {
 }
 
 
-BViolinIIMusicVoice = {
+B_ViolinIIMusicVoice = {
     
     % [B ViolinIIMusicVoice measure 24]                          %! SM4
     \set ViolinIIMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -1031,7 +1031,7 @@ BViolinIIMusicVoice = {
 }
 
 
-BViolaMusicVoice = {
+B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 24]                             %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1148,7 +1148,7 @@ BViolaMusicVoice = {
 }
 
 
-BCelloMusicVoice = {
+B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 24]                             %! SM4
     \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8

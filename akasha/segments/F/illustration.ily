@@ -1,4 +1,4 @@
-FGlobalRests = {
+F_GlobalRests = {
     
     % [F GlobalRests measure 152]                                        %! SM4
     R1 * 3/4
@@ -195,7 +195,7 @@ FGlobalRests = {
 }
 
 
-FGlobalSkips = {
+F_GlobalSkips = {
     
     % [F GlobalSkips measure 152]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2946,7 +2946,7 @@ FGlobalSkips = {
 }
 
 
-FViolinIMusicVoice = {
+F_ViolinIMusicVoice = {
     
     % [F ViolinIMusicVoice measure 152]                          %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -4498,7 +4498,7 @@ FViolinIMusicVoice = {
 }
 
 
-FViolinIIMusicVoice = {
+F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 152]                         %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -6118,7 +6118,7 @@ FViolinIIMusicVoice = {
 }
 
 
-FViolaMusicVoice = {
+F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 152]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -7054,7 +7054,7 @@ FViolaMusicVoice = {
 }
 
 
-FCelloMusicVoice = {
+F_CelloMusicVoice = {
     
     % [F CelloMusicVoice measure 152]                            %! SM4
     \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8

@@ -17,9 +17,9 @@
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                \iGlobalRests
+                \i_GlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                \iGlobalSkips
+                \i_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -29,25 +29,25 @@
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
                     {
                         \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        \iViolinIMusicVoice
+                        \i_ViolinIMusicVoice
                     }
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
                     {
                         \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        \iViolinIIMusicVoice
+                        \i_ViolinIIMusicVoice
                     }
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
                     {
                         \context ViolaMusicVoice = "ViolaMusicVoice"
-                        \iViolaMusicVoice
+                        \i_ViolaMusicVoice
                     }
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
                     {
                         \context CelloMusicVoice = "CelloMusicVoice"
-                        \iCelloMusicVoice
+                        \i_CelloMusicVoice
                     }
                 >>
             }
