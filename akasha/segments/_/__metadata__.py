@@ -3,6 +3,25 @@ import abjad
 
 metadata = abjad.OrderedDict(
     [
+        (
+            'alive_during_segment',
+            [
+                'Score',
+                'GlobalContext',
+                'GlobalRests',
+                'GlobalSkips',
+                'MusicContext',
+                'StringQuartetStaffGroup',
+                'ViolinIMusicStaff',
+                'ViolinIMusicVoice',
+                'ViolinIIMusicStaff',
+                'ViolinIIMusicVoice',
+                'ViolaMusicStaff',
+                'ViolaMusicVoice',
+                'CelloMusicStaff',
+                'CelloMusicVoice',
+                ],
+            ),
         ('duration', "0'07''"),
         (
             'fermata_measure_numbers',
