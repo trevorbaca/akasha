@@ -1,4 +1,4 @@
-DGlobalRests = {
+D_GlobalRests = {
     
     % [D GlobalRests measure 62]                                         %! SM4
     R1 * 3/8
@@ -198,7 +198,7 @@ DGlobalRests = {
 }
 
 
-DGlobalSkips = {
+D_GlobalSkips = {
     
     % [D GlobalSkips measure 62]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2804,7 +2804,7 @@ DGlobalSkips = {
 }
 
 
-DViolinIMusicVoice = {
+D_ViolinIMusicVoice = {
     
     % [D ViolinIMusicVoice measure 62]                           %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3153,7 +3153,7 @@ DViolinIMusicVoice = {
 }
 
 
-DViolinIIMusicVoice = {
+D_ViolinIIMusicVoice = {
     
     % [D ViolinIIMusicVoice measure 62]                          %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3484,7 +3484,7 @@ DViolinIIMusicVoice = {
 }
 
 
-DViolaMusicVoice = {
+D_ViolaMusicVoice = {
     
     % [D ViolaMusicVoice measure 62]                             %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3810,7 +3810,7 @@ DViolaMusicVoice = {
 }
 
 
-DCelloMusicVoice = {
+D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 62]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC

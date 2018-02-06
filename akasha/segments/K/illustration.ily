@@ -1,4 +1,4 @@
-KGlobalRests = {
+K_GlobalRests = {
     
     % [K GlobalRests measure 265]                                        %! SM4
     R1 * 1/2
@@ -240,7 +240,7 @@ KGlobalRests = {
 }
 
 
-KGlobalSkips = {
+K_GlobalSkips = {
     
     % [K GlobalSkips measure 265]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -3617,7 +3617,7 @@ KGlobalSkips = {
 }
 
 
-KViolinIMusicVoice = {
+K_ViolinIMusicVoice = {
     
     % [K ViolinIMusicVoice measure 265]                          %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -4562,7 +4562,7 @@ KViolinIMusicVoice = {
 }
 
 
-KViolinIIMusicVoice = {
+K_ViolinIIMusicVoice = {
     
     % [K ViolinIIMusicVoice measure 265]                         %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -5507,7 +5507,7 @@ KViolinIIMusicVoice = {
 }
 
 
-KViolaMusicVoice = {
+K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 265]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -6429,7 +6429,7 @@ KViolaMusicVoice = {
 }
 
 
-KCelloMusicVoice = {
+K_CelloMusicVoice = {
     
     % [K CelloMusicVoice measure 265]                            %! SM4
     \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8

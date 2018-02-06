@@ -1,4 +1,4 @@
-HGlobalRests = {
+H_GlobalRests = {
     
     % [H GlobalRests measure 217]                                        %! SM4
     R1 * 1
@@ -36,7 +36,7 @@ HGlobalRests = {
 }
 
 
-HGlobalSkips = {
+H_GlobalSkips = {
     \repeat volta 2
     {
         
@@ -561,7 +561,7 @@ HGlobalSkips = {
 }
 
 
-HViolinIMusicVoice = {
+H_ViolinIMusicVoice = {
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -784,7 +784,7 @@ HViolinIMusicVoice = {
 }
 
 
-HViolinIIMusicVoice = {
+H_ViolinIIMusicVoice = {
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1007,7 +1007,7 @@ HViolinIIMusicVoice = {
 }
 
 
-HViolaMusicVoice = {
+H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 217]                            %! SM4
     \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -1104,7 +1104,7 @@ HViolaMusicVoice = {
 }
 
 
-HCelloMusicVoice = {
+H_CelloMusicVoice = {
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)

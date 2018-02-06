@@ -1,4 +1,4 @@
-NGlobalRests = {
+N_GlobalRests = {
     
     % [N GlobalRests measure 369]                                        %! SM4
     R1 * 3/8
@@ -84,7 +84,7 @@ NGlobalRests = {
 }
 
 
-NGlobalSkips = {
+N_GlobalSkips = {
     
     % [N GlobalSkips measure 369]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1274,7 +1274,7 @@ NGlobalSkips = {
 }
 
 
-NViolinIMusicVoice = {
+N_ViolinIMusicVoice = {
     
     % [N ViolinIMusicVoice measure 369]                          %! SM4
     \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -1469,7 +1469,7 @@ NViolinIMusicVoice = {
 }
 
 
-NViolinIIMusicVoice = {
+N_ViolinIIMusicVoice = {
     
     % [N ViolinIIMusicVoice measure 369]                         %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1687,7 +1687,7 @@ NViolinIIMusicVoice = {
 }
 
 
-NViolaMusicVoice = {
+N_ViolaMusicVoice = {
     
     % [N ViolaMusicVoice measure 369]                            %! SM4
     \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -1858,7 +1858,7 @@ NViolaMusicVoice = {
 }
 
 
-NCelloMusicVoice = {
+N_CelloMusicVoice = {
     
     % [N CelloMusicVoice measure 369]                            %! SM4
     \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8

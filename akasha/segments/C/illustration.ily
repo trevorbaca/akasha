@@ -1,4 +1,4 @@
-CGlobalRests = {
+C_GlobalRests = {
     
     % [C GlobalRests measure 35]                                         %! SM4
     R1 * 3/2
@@ -144,7 +144,7 @@ CGlobalRests = {
 }
 
 
-CGlobalSkips = {
+C_GlobalSkips = {
     
     % [C GlobalSkips measure 35]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1585,7 +1585,7 @@ CGlobalSkips = {
 }
 
 
-CViolinIMusicVoice = {
+C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 35]                           %! SM4
     \set ViolinIMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
@@ -1770,7 +1770,7 @@ CViolinIMusicVoice = {
 }
 
 
-CViolinIIMusicVoice = {
+C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 35]                          %! SM4
     \set ViolinIIMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -1964,7 +1964,7 @@ CViolinIIMusicVoice = {
 }
 
 
-CViolaMusicVoice = {
+C_ViolaMusicVoice = {
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 35]                         %! SM4
@@ -2167,7 +2167,7 @@ CViolaMusicVoice = {
 }
 
 
-CCelloMusicVoice = {
+C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 35]                             %! SM4
     \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8

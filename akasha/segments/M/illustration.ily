@@ -1,4 +1,4 @@
-MGlobalRests = {
+M_GlobalRests = {
     
     % [M GlobalRests measure 340]                                        %! SM4
     R1 * 5/4
@@ -96,7 +96,7 @@ MGlobalRests = {
 }
 
 
-MGlobalSkips = {
+M_GlobalSkips = {
     
     % [M GlobalSkips measure 340]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -1672,7 +1672,7 @@ MGlobalSkips = {
 }
 
 
-MViolinIMusicVoice = {
+M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 340]                          %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2116,7 +2116,7 @@ MViolinIMusicVoice = {
 }
 
 
-MViolinIIMusicVoice = {
+M_ViolinIIMusicVoice = {
     
     % [M ViolinIIMusicVoice measure 340]                         %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2558,7 +2558,7 @@ MViolinIIMusicVoice = {
 }
 
 
-MViolaMusicVoice = {
+M_ViolaMusicVoice = {
     
     % [M ViolaMusicVoice measure 340]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2976,7 +2976,7 @@ MViolaMusicVoice = {
 }
 
 
-MCelloMusicVoice = {
+M_CelloMusicVoice = {
     
     % [M CelloMusicVoice measure 340]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f

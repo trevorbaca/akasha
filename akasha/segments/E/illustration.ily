@@ -1,4 +1,4 @@
-EGlobalRests = {
+E_GlobalRests = {
     
     % [E GlobalRests measure 113]                                        %! SM4
     R1 * 1
@@ -150,7 +150,7 @@ EGlobalRests = {
 }
 
 
-EGlobalSkips = {
+E_GlobalSkips = {
     
     % [E GlobalSkips measure 113]                                        %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
@@ -2277,7 +2277,7 @@ EGlobalSkips = {
 }
 
 
-EViolinIMusicVoice = {
+E_ViolinIMusicVoice = {
     
     % [E ViolinIMusicVoice measure 113]                          %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3812,7 +3812,7 @@ EViolinIMusicVoice = {
 }
 
 
-EViolinIIMusicVoice = {
+E_ViolinIIMusicVoice = {
     
     % [E ViolinIIMusicVoice measure 113]                         %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -5432,7 +5432,7 @@ EViolinIIMusicVoice = {
 }
 
 
-EViolaMusicVoice = {
+E_ViolaMusicVoice = {
     
     % [E ViolaMusicVoice measure 113]                            %! SM4
     \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -5991,7 +5991,7 @@ EViolaMusicVoice = {
 }
 
 
-ECelloMusicVoice = {
+E_CelloMusicVoice = {
     
     % [E CelloMusicVoice measure 113]                            %! SM4
     \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
