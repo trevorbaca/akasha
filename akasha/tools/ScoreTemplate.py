@@ -19,18 +19,26 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.show(lilypond_file) # doctest: +SKIP
 
         >>> abjad.f(lilypond_file[abjad.Score])
-        \context Score = "Score" <<
-            \context GlobalContext = "GlobalContext" <<
-                \context GlobalRests = "GlobalRests" {
+        \context Score = "Score"
+        <<
+            \context GlobalContext = "GlobalContext"
+            <<
+                \context GlobalRests = "GlobalRests"
+                {
                 }
-                \context GlobalSkips = "GlobalSkips" {
+                \context GlobalSkips = "GlobalSkips"
+                {
                 }
             >>
-            \context MusicContext = "MusicContext" {
-                \context StringQuartetStaffGroup = "StringQuartetStaffGroup" <<
+            \context MusicContext = "MusicContext"
+            {
+                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
+                <<
                     \tag ViolinI %! ST4
-                    \context ViolinIMusicStaff = "ViolinIMusicStaff" {
-                        \context ViolinIMusicVoice = "ViolinIMusicVoice" {
+                    \context ViolinIMusicStaff = "ViolinIMusicStaff"
+                    {
+                        \context ViolinIMusicVoice = "ViolinIMusicVoice"
+                        {
                             \set ViolinIMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                        %! ST1
                                     #16                                            %! ST1
@@ -54,8 +62,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                         }
                     }
                     \tag ViolinII %! ST4
-                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff" {
-                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice" {
+                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
+                    {
+                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+                        {
                             \set ViolinIIMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                         %! ST1
                                     #16                                             %! ST1
@@ -79,8 +89,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                         }
                     }
                     \tag viola %! ST4
-                    \context ViolaMusicStaff = "ViolaMusicStaff" {
-                        \context ViolaMusicVoice = "ViolaMusicVoice" {
+                    \context ViolaMusicStaff = "ViolaMusicStaff"
+                    {
+                        \context ViolaMusicVoice = "ViolaMusicVoice"
+                        {
                             \set ViolaMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                      %! ST1
                                     #16                                          %! ST1
@@ -96,8 +108,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                         }
                     }
                     \tag cello %! ST4
-                    \context CelloMusicStaff = "CelloMusicStaff" {
-                        \context CelloMusicVoice = "CelloMusicVoice" {
+                    \context CelloMusicStaff = "CelloMusicStaff"
+                    {
+                        \context CelloMusicVoice = "CelloMusicVoice"
+                        {
                             \set CelloMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                      %! ST1
                                     #16                                          %! ST1
