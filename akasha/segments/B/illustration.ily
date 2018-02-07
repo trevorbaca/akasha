@@ -112,10 +112,10 @@ B_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.dash-period = 0                          %! METRONOME_MARK_SPANNER:SM29
-    \time 9/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
+    \time 9/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
     \mark #2                                                             %! SM9
     \bar ""                                                              %! +SEGMENT:EMPTY_START_BAR:SM2
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 9/8
     \startTextSpan                                                       %! METRONOME_MARK_SPANNER:SM29
     ^ \markup {
@@ -167,7 +167,7 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 25]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)     %! SPACING:HSS1
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 9/8
     ^ \markup {
         \column
@@ -210,8 +210,8 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 26]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)     %! SPACING:HSS1
-    \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     ^ \markup {
         \column
@@ -254,8 +254,8 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 27]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)     %! SPACING:HSS1
-    \time 8/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 8/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -306,8 +306,8 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 28]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
-    \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 1/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/4
     ^ \markup {
         \column
@@ -358,8 +358,8 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 29]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 40)     %! SPACING:HSS1
-    \time 3/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 3/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/8
     ^ \markup {
         \column
@@ -410,8 +410,8 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 30]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
-    \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 1/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/4
     ^ \markup {
         \column
@@ -462,8 +462,8 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 31]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 36)     %! SPACING:HSS1
-    \time 4/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     ^ \markup {
         \column
@@ -514,8 +514,8 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 32]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
-    \time 1/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 1/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/4
     ^ \markup {
         \column
@@ -566,8 +566,8 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 33]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
-    \time 7/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 7/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 7/8
     ^ \markup {
         \column
@@ -618,7 +618,7 @@ B_GlobalSkips = {
     % [B GlobalSkips measure 34]                                         %! SM4
     \newSpacingSection                                                   %! SPACING:HSS1
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! SPACING:HSS1
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 7/8
     \stopTextSpan                                                        %! METRONOME_MARK_SPANNER:SM29
     ^ \markup {
@@ -839,9 +839,9 @@ B_ViolinIIMusicVoice = {
     \once \override ViolinIIMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override ViolinIIMusicStaff.Clef.color = ##f                %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     ds'4
-    \mp                                                          %! EXPLICIT_DYNAMIC:SM8
+    \mp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
@@ -954,9 +954,9 @@ B_ViolinIIMusicVoice = {
         % [B ViolinIIMusicVoice measure 33]                      %! SM4
         \override ViolinIIMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         c''16 * 487/64
-        \pp                                                      %! EXPLICIT_DYNAMIC:SM8
+        \pp                                                      %! IC:EXPLICIT_DYNAMIC:SM8
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -1072,9 +1072,9 @@ B_ViolaMusicVoice = {
     R1 * 7/8
     
     % [B ViolaMusicVoice measure 34]                             %! SM4
-    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_DYNAMIC_COLOR:SM6
     ds2..
-    \mp                                                          %! REDUNDANT_DYNAMIC:SM8
+    \mp                                                          %! IC:REDUNDANT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -1358,9 +1358,9 @@ B_CelloMusicVoice = {
     R1 * 7/8
     
     % [B CelloMusicVoice measure 34]                             %! SM4
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     cs,2..
-    \mp                                                          %! EXPLICIT_DYNAMIC:SM8
+    \mp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
