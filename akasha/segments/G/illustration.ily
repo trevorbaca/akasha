@@ -1482,6 +1482,12 @@ G_ViolinIMusicVoice = {
 }
 
 
+G_ViolinIMusicStaff = {
+    \context ViolinIMusicVoice = "ViolinIMusicVoice"
+    \G_ViolinIMusicVoice
+}
+
+
 G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 200]                         %! SM4
@@ -1773,6 +1779,12 @@ G_ViolinIIMusicVoice = {
 }
 
 
+G_ViolinIIMusicStaff = {
+    \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+    \G_ViolinIIMusicVoice
+}
+
+
 G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 200]                            %! SM4
@@ -2061,6 +2073,12 @@ G_ViolaMusicVoice = {
 }
 
 
+G_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \G_ViolaMusicVoice
+}
+
+
 G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 200]                            %! SM4
@@ -2331,4 +2349,10 @@ G_CelloMusicVoice = {
     % [G CelloMusicVoice measure 216]                            %! SM4
     R1 * 3/8
     
+}
+
+
+G_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \G_CelloMusicVoice
 }

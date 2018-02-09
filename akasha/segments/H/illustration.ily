@@ -760,6 +760,12 @@ H_ViolinIMusicVoice = {
 }
 
 
+H_ViolinIMusicStaff = {
+    \context ViolinIMusicVoice = "ViolinIMusicVoice"
+    \H_ViolinIMusicVoice
+}
+
+
 H_ViolinIIMusicVoice = {
     \override TupletNumber.text = \markup {
         \scale
@@ -959,6 +965,12 @@ H_ViolinIIMusicVoice = {
 }
 
 
+H_ViolinIIMusicStaff = {
+    \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+    \H_ViolinIIMusicVoice
+}
+
+
 H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 217]                            %! SM4
@@ -1037,6 +1049,12 @@ H_ViolaMusicVoice = {
     % [H ViolaMusicVoice measure 223]                            %! SM4
     R1 * 1/4
     
+}
+
+
+H_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \H_ViolaMusicVoice
 }
 
 
@@ -1183,4 +1201,10 @@ H_CelloMusicVoice = {
     % [H CelloMusicVoice measure 223]                            %! SM4
     R1 * 1/4
     
+}
+
+
+H_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \H_CelloMusicVoice
 }

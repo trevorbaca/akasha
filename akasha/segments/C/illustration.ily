@@ -1746,6 +1746,12 @@ C_ViolinIMusicVoice = {
 }
 
 
+C_ViolinIMusicStaff = {
+    \context ViolinIMusicVoice = "ViolinIMusicVoice"
+    \C_ViolinIMusicVoice
+}
+
+
 C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 35]                          %! SM4
@@ -1913,6 +1919,12 @@ C_ViolinIIMusicVoice = {
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     
+}
+
+
+C_ViolinIIMusicStaff = {
+    \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+    \C_ViolinIIMusicVoice
 }
 
 
@@ -2100,6 +2112,12 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 61]                             %! SM4
     R1 * 1/4
     
+}
+
+
+C_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \C_ViolaMusicVoice
 }
 
 
@@ -2298,4 +2316,10 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 61]                             %! SM4
     R1 * 1/4
     
+}
+
+
+C_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \C_CelloMusicVoice
 }

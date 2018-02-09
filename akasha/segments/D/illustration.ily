@@ -3129,6 +3129,12 @@ D_ViolinIMusicVoice = {
 }
 
 
+D_ViolinIMusicStaff = {
+    \context ViolinIMusicVoice = "ViolinIMusicVoice"
+    \D_ViolinIMusicVoice
+}
+
+
 D_ViolinIIMusicVoice = {
     
     % [D ViolinIIMusicVoice measure 62]                          %! SM4
@@ -3433,6 +3439,12 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 112]                         %! SM4
     R1 * 1/4
     
+}
+
+
+D_ViolinIIMusicStaff = {
+    \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+    \D_ViolinIIMusicVoice
 }
 
 
@@ -3743,6 +3755,12 @@ D_ViolaMusicVoice = {
     % [D ViolaMusicVoice measure 112]                            %! SM4
     R1 * 1/4
     
+}
+
+
+D_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \D_ViolaMusicVoice
 }
 
 
@@ -4076,4 +4094,10 @@ D_CelloMusicVoice = {
     % [D CelloMusicVoice measure 112]                            %! SM4
     R1 * 1/4
     
+}
+
+
+D_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \D_CelloMusicVoice
 }

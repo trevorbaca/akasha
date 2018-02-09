@@ -4474,6 +4474,12 @@ F_ViolinIMusicVoice = {
 }
 
 
+F_ViolinIMusicStaff = {
+    \context ViolinIMusicVoice = "ViolinIMusicVoice"
+    \F_ViolinIMusicVoice
+}
+
+
 F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 152]                         %! SM4
@@ -6070,6 +6076,12 @@ F_ViolinIIMusicVoice = {
 }
 
 
+F_ViolinIIMusicStaff = {
+    \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+    \F_ViolinIIMusicVoice
+}
+
+
 F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 152]                            %! SM4
@@ -6987,6 +6999,12 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 199]                            %! SM4
     R1 * 1/4
     
+}
+
+
+F_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \F_ViolaMusicVoice
 }
 
 
@@ -8036,4 +8054,10 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 199]                            %! SM4
     R1 * 1/4
     
+}
+
+
+F_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \F_CelloMusicVoice
 }
