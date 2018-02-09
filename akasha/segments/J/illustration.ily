@@ -400,6 +400,12 @@ J_ViolinIMusicVoice = {
 }
 
 
+J_ViolinIMusicStaff = {
+    \context ViolinIMusicVoice = "ViolinIMusicVoice"
+    \J_ViolinIMusicVoice
+}
+
+
 J_ViolinIIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
@@ -525,6 +531,12 @@ J_ViolinIIMusicVoice = {
 }
 
 
+J_ViolinIIMusicStaff = {
+    \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+    \J_ViolinIIMusicVoice
+}
+
+
 J_ViolaMusicVoice = {
     
     % [J ViolaMusicVoice measure 261]                            %! SM4
@@ -577,6 +589,12 @@ J_ViolaMusicVoice = {
     % [J ViolaMusicVoice measure 264]                            %! SM4
     R1 * 1/4
     
+}
+
+
+J_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \J_ViolaMusicVoice
 }
 
 
@@ -665,4 +683,10 @@ J_CelloMusicVoice = {
     % [J CelloMusicVoice measure 264]                            %! SM4
     R1 * 1/4
     
+}
+
+
+J_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \J_CelloMusicVoice
 }

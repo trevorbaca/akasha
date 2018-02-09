@@ -27,28 +27,16 @@
                 <<
                     \tag ViolinI                                                         %! ST4
                     \context ViolinIMusicStaff = "ViolinIMusicStaff"
-                    {
-                        \context ViolinIMusicVoice = "ViolinIMusicVoice"
-                        \i_ViolinIMusicVoice
-                    }
+                    \i_ViolinIMusicStaff
                     \tag ViolinII                                                        %! ST4
                     \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
-                    {
-                        \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
-                        \i_ViolinIIMusicVoice
-                    }
+                    \i_ViolinIIMusicStaff
                     \tag viola                                                           %! ST4
                     \context ViolaMusicStaff = "ViolaMusicStaff"
-                    {
-                        \context ViolaMusicVoice = "ViolaMusicVoice"
-                        \i_ViolaMusicVoice
-                    }
+                    \i_ViolaMusicStaff
                     \tag cello                                                           %! ST4
                     \context CelloMusicStaff = "CelloMusicStaff"
-                    {
-                        \context CelloMusicVoice = "CelloMusicVoice"
-                        \i_CelloMusicVoice
-                    }
+                    \i_CelloMusicStaff
                 >>
             }
         >>

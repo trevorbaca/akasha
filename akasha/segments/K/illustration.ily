@@ -4538,6 +4538,12 @@ K_ViolinIMusicVoice = {
 }
 
 
+K_ViolinIMusicStaff = {
+    \context ViolinIMusicVoice = "ViolinIMusicVoice"
+    \K_ViolinIMusicVoice
+}
+
+
 K_ViolinIIMusicVoice = {
     
     % [K ViolinIIMusicVoice measure 265]                         %! SM4
@@ -5459,6 +5465,12 @@ K_ViolinIIMusicVoice = {
 }
 
 
+K_ViolinIIMusicStaff = {
+    \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+    \K_ViolinIIMusicVoice
+}
+
+
 K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 265]                            %! SM4
@@ -6365,6 +6377,12 @@ K_ViolaMusicVoice = {
 }
 
 
+K_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \K_ViolaMusicVoice
+}
+
+
 K_CelloMusicVoice = {
     
     % [K CelloMusicVoice measure 265]                            %! SM4
@@ -7267,4 +7285,10 @@ K_CelloMusicVoice = {
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     
+}
+
+
+K_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \K_CelloMusicVoice
 }

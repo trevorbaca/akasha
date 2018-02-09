@@ -813,6 +813,12 @@ B_ViolinIMusicVoice = {
 }
 
 
+B_ViolinIMusicStaff = {
+    \context ViolinIMusicVoice = "ViolinIMusicVoice"
+    \B_ViolinIMusicVoice
+}
+
+
 B_ViolinIIMusicVoice = {
     
     % [B ViolinIIMusicVoice measure 24]                          %! SM4
@@ -983,6 +989,12 @@ B_ViolinIIMusicVoice = {
 }
 
 
+B_ViolinIIMusicStaff = {
+    \context ViolinIIMusicVoice = "ViolinIIMusicVoice"
+    \B_ViolinIIMusicVoice
+}
+
+
 B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 24]                             %! SM4
@@ -1081,6 +1093,12 @@ B_ViolaMusicVoice = {
                 tasto                                            %! IC
         }                                                        %! IC
     
+}
+
+
+B_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \B_ViolaMusicVoice
 }
 
 
@@ -1367,4 +1385,10 @@ B_CelloMusicVoice = {
                 tasto                                            %! IC
         }                                                        %! IC
     
+}
+
+
+B_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \B_CelloMusicVoice
 }
