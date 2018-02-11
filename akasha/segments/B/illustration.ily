@@ -1115,12 +1115,12 @@ B_CelloMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Vc.                                                  %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set CelloMusicStaff.forceClef = ##t                         %! REDUNDANT_CLEF:SM8
-    \clef "bass"                                                 %! REDUNDANT_CLEF:SM8
+    \set CelloMusicStaff.forceClef = ##t                         %! IC:REDUNDANT_CLEF:SM8
+    \clef "bass"                                                 %! IC:REDUNDANT_CLEF:SM8
     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-    \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! REDUNDANT_CLEF_COLOR:SM6
-%@% \override CelloMusicStaff.Clef.color = ##f                   %! REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
+    \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_CLEF_COLOR:SM6
+%@% \override CelloMusicStaff.Clef.color = ##f                   %! IC:REDUNDANT_CLEF_COLOR_CANCELLATION:SM7
     r2.
     \p                                                           %! REAPPLIED_DYNAMIC:SM8
     ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -1139,7 +1139,7 @@ B_CelloMusicVoice = {
             Vc.                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
     \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
-    \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink4) %! REDUNDANT_CLEF_REDRAW_COLOR:SM6
+    \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink4) %! IC:REDUNDANT_CLEF_REDRAW_COLOR:SM6
     
     r4.
     \times 8/9 {

@@ -1277,9 +1277,9 @@ N_GlobalSkips = {
 N_ViolinIMusicVoice = {
     
     % [N ViolinIMusicVoice measure 369]                          %! SM4
-    \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
-    \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES:SM8
-    \startStaff                                                  %! REDUNDANT_STAFF_LINES:SM8
+    \stopStaff                                                   %! IC:REDUNDANT_STAFF_LINES:SM8
+    \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1 %! IC:REDUNDANT_STAFF_LINES:SM8
+    \startStaff                                                  %! IC:REDUNDANT_STAFF_LINES:SM8
     \override RepeatTie.direction = #up                          %! OC
     \once \override ViolinIMusicStaff.Clef.X-extent = ##f        %! MEASURE_369:SHIFTED_CLEF:OC
     \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! MEASURE_369:SHIFTED_CLEF:OC
@@ -1304,7 +1304,7 @@ N_ViolinIMusicVoice = {
     \set ViolinIMusicStaff.forceClef = ##t                       %! IC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! IC:EXPLICIT_CLEF:SM8
     \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-    \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
+    \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_STAFF_LINES_COLOR:SM6
     \once \override ViolinIMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override ViolinIMusicStaff.Clef.color = ##f                 %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
     \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1654,9 +1654,9 @@ N_ViolinIIMusicStaff = {
 N_ViolaMusicVoice = {
     
     % [N ViolaMusicVoice measure 369]                            %! SM4
-    \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
-    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! REDUNDANT_STAFF_LINES:SM8
-    \startStaff                                                  %! REDUNDANT_STAFF_LINES:SM8
+    \stopStaff                                                   %! IC:REDUNDANT_STAFF_LINES:SM8
+    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! IC:REDUNDANT_STAFF_LINES:SM8
+    \startStaff                                                  %! IC:REDUNDANT_STAFF_LINES:SM8
     \override RepeatTie.direction = #up                          %! OC
     \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! MEASURE_369:SHIFTED_CLEF:OC
     \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! MEASURE_369:SHIFTED_CLEF:OC
@@ -1673,7 +1673,7 @@ N_ViolaMusicVoice = {
     \set ViolaMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! IC:EXPLICIT_CLEF:SM8
     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-    \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
+    \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_STAFF_LINES_COLOR:SM6
     \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override ViolaMusicStaff.Clef.color = ##f                   %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
