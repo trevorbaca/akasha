@@ -5399,9 +5399,9 @@ E_ViolinIIMusicStaff = {
 E_ViolaMusicVoice = {
     
     % [E ViolaMusicVoice measure 113]                            %! SM4
-    \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
-    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! REDUNDANT_STAFF_LINES:SM8
-    \startStaff                                                  %! REDUNDANT_STAFF_LINES:SM8
+    \stopStaff                                                   %! IC:REDUNDANT_STAFF_LINES:SM8
+    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! IC:REDUNDANT_STAFF_LINES:SM8
+    \startStaff                                                  %! IC:REDUNDANT_STAFF_LINES:SM8
     \set ViolaMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
         \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
             #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -5418,7 +5418,7 @@ E_ViolaMusicVoice = {
 %@% \override ViolaMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-    \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
+    \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_STAFF_LINES_COLOR:SM6
     r4
     \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
     ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
