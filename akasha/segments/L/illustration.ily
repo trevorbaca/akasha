@@ -425,10 +425,10 @@ L_ViolinIMusicVoice = {
                     I                                            %! REAPPLIED_INSTRUMENT:SM8
                 }                                                %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set ViolinIMusicStaff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
     \clef "treble"                                               %! REAPPLIED_CLEF:SM8
     \once \override ViolinIMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override ViolinIMusicStaff.Clef.color = ##f                 %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set ViolinIMusicStaff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
     \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override ViolinIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
     \once \override ViolinIMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -508,10 +508,10 @@ L_ViolinIIMusicVoice = {
                     II                                           %! REAPPLIED_INSTRUMENT:SM8
                 }                                                %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set ViolinIIMusicStaff.forceClef = ##t                      %! REAPPLIED_CLEF:SM8
     \clef "treble"                                               %! REAPPLIED_CLEF:SM8
     \once \override ViolinIIMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override ViolinIIMusicStaff.Clef.color = ##f                %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set ViolinIIMusicStaff.forceClef = ##t                      %! REAPPLIED_CLEF:SM8
     \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override ViolinIIMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
     \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -585,13 +585,13 @@ L_ViolaMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Va.                                                  %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set ViolaMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     \clef "alto"                                                 %! IC:EXPLICIT_CLEF:SM8
     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_STAFF_LINES_COLOR:SM6
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override ViolaMusicStaff.Clef.color = ##f                   %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set ViolaMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     b'1
     -\downbow                                                    %! IC
     \effort_mf                                                   %! IC:EXPLICIT_DYNAMIC:SM8
@@ -663,10 +663,10 @@ L_CelloMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Vc.                                                  %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set CelloMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \clef "treble"                                               %! REAPPLIED_CLEF:SM8
     \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override CelloMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set CelloMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     R1 * 1
@@ -701,10 +701,10 @@ L_CelloMusicVoice = {
     % [L CelloMusicVoice measure 338]                            %! SM4
     \once \override CelloMusicStaff.Clef.X-extent = ##f          %! MEASURE_338:SHIFTED_CLEF:OC
     \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! MEASURE_338:SHIFTED_CLEF:OC
-    \set CelloMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     \clef "bass"                                                 %! IC:EXPLICIT_CLEF:SM8
     \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override CelloMusicStaff.Clef.color = ##f                   %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set CelloMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     bf,,1.
     \pp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
