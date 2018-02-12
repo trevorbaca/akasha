@@ -651,6 +651,8 @@ H_ViolinIMusicVoice = {
                         }                                        %! IC
                 }
             }
+        \override ViolinIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+        \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
         \set ViolinIMusicStaff.instrumentName = \markup {        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             \hcenter-in                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                 #16                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -669,8 +671,6 @@ H_ViolinIMusicVoice = {
                         I                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                     }                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             }                                                    %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        \override ViolinIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-        \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
         
         e'16 * 73/16
         
@@ -856,6 +856,8 @@ H_ViolinIIMusicVoice = {
                         }                                        %! IC
                 }
             }
+        \override ViolinIIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+        \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
         \set ViolinIIMusicStaff.instrumentName = \markup {       %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             \hcenter-in                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                 #16                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -874,8 +876,6 @@ H_ViolinIIMusicVoice = {
                         II                                       %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                     }                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             }                                                    %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        \override ViolinIIMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-        \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
         
         ds'16 * 61/32
         
@@ -1001,6 +1001,8 @@ H_ViolaMusicVoice = {
             #(x11-color 'green4)                                 %! REAPPLIED_INSTRUMENT_ALERT:SM11
             (“Viola”)                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
         }                                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+    \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+    \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
     \set ViolaMusicStaff.instrumentName = \markup {              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
         \hcenter-in                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             #16                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -1011,8 +1013,6 @@ H_ViolaMusicVoice = {
             #10                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             Va.                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-    \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-    \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
     
     % [H ViolaMusicVoice measure 218]                            %! SM4
     c'2.
@@ -1137,6 +1137,8 @@ H_CelloMusicVoice = {
                         }                                        %! IC
                 }
             }
+        \override CelloMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
         \set CelloMusicStaff.instrumentName = \markup {          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             \hcenter-in                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                 #16                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -1147,8 +1149,6 @@ H_CelloMusicVoice = {
                 #10                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                 Vc.                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
             }                                                    %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-        \override CelloMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
-        \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
         
         d'16 * 61/32
         
