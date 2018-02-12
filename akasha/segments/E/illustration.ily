@@ -6474,17 +6474,21 @@ E_CelloMusicVoice = {
         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
         fs16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         \>
         \mf
         [
         
         g16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6494,21 +6498,27 @@ E_CelloMusicVoice = {
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         g16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         f16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         fs16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         f16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6519,12 +6529,15 @@ E_CelloMusicVoice = {
         
         e16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         ef16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         f16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6534,18 +6547,23 @@ E_CelloMusicVoice = {
         
         e16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         f16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         af16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6556,15 +6574,19 @@ E_CelloMusicVoice = {
         
         fs16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         f16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6574,21 +6596,27 @@ E_CelloMusicVoice = {
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         af16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         bf16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         b16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         bf16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6599,12 +6627,15 @@ E_CelloMusicVoice = {
         
         g16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         af16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6616,15 +6647,19 @@ E_CelloMusicVoice = {
         
         fs16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         f16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6635,21 +6670,27 @@ E_CelloMusicVoice = {
         
         g16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         af16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         bf16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6660,12 +6701,15 @@ E_CelloMusicVoice = {
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         bf16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         b16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6675,18 +6719,23 @@ E_CelloMusicVoice = {
         
         bf16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         c'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         cs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         b16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         c'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6697,15 +6746,19 @@ E_CelloMusicVoice = {
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         bf16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6715,21 +6768,27 @@ E_CelloMusicVoice = {
         
         g16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         bf16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         c'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6740,12 +6799,15 @@ E_CelloMusicVoice = {
         
         b16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         bf16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         a16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6762,12 +6824,15 @@ E_CelloMusicVoice = {
         
         b16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         c'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         cs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6777,27 +6842,35 @@ E_CelloMusicVoice = {
         
         c'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         d'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         ef'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         cs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         d'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         b16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         c'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         b16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6808,21 +6881,27 @@ E_CelloMusicVoice = {
         
         bf16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         a16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         b16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         bf16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         b16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         c'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6832,30 +6911,39 @@ E_CelloMusicVoice = {
         
         d'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         cs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         c'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         b16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         cs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         d'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         ef'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         d'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         e'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6865,37 +6953,48 @@ E_CelloMusicVoice = {
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         ef'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         e'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         cs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         d'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         % [E CelloMusicVoice measure 141]                        %! SM4
         cs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         c'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         b16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         cs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         c'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         cs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6905,15 +7004,19 @@ E_CelloMusicVoice = {
         
         d'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         e'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         ef'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         d'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6923,33 +7026,43 @@ E_CelloMusicVoice = {
         
         cs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         ef'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         e'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         e'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         g'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         f'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         fs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         ef'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6959,18 +7072,23 @@ E_CelloMusicVoice = {
         
         e'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         ef'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         d'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         cs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         ef'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -6981,36 +7099,47 @@ E_CelloMusicVoice = {
         
         d'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         ef'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         e'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         fs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         e'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         ef'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         g'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -7020,27 +7149,35 @@ E_CelloMusicVoice = {
         
         af'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         a'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         af'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         f'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         fs'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         e'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -7051,27 +7188,35 @@ E_CelloMusicVoice = {
         
         ef'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         e'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         af'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -7082,42 +7227,55 @@ E_CelloMusicVoice = {
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         g'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         a'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         bf'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         b'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         a'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         bf'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         af'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -7128,30 +7286,39 @@ E_CelloMusicVoice = {
         
         f'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         g'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         fs'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         g'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         bf'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         a'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         af'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         g'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -7163,39 +7330,51 @@ E_CelloMusicVoice = {
         
         a'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         bf'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         b'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         bf'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         c''16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         cs''16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         b'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         c''16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         a'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         bf'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         a'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         ]
     }
@@ -7205,46 +7384,60 @@ E_CelloMusicVoice = {
         
         g'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         [
         
         a'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         af'16
         -\staccato                                               %! IC
-        
-        a'16
-        -\staccato                                               %! IC
-        
-        bf'16
-        -\staccato                                               %! IC
-        
-        c''16
-        -\staccato                                               %! IC
-        
-        b'16
-        -\staccato                                               %! IC
-        
-        bf'16
         -\staccato                                               %! IC
         
         a'16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
-        b'16
+        bf'16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         c''16
+        -\staccato                                               %! IC
+        -\staccato                                               %! IC
+        
+        b'16
+        -\staccato                                               %! IC
+        -\staccato                                               %! IC
+        
+        bf'16
+        -\staccato                                               %! IC
+        -\staccato                                               %! IC
+        
+        a'16
+        -\staccato                                               %! IC
+        -\staccato                                               %! IC
+        
+        b'16
+        -\staccato                                               %! IC
+        -\staccato                                               %! IC
+        
+        c''16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         cs''16
         -\staccato                                               %! IC
+        -\staccato                                               %! IC
         
         c''16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         
         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
         d''16
+        -\staccato                                               %! IC
         -\staccato                                               %! IC
         \pp
         ]
