@@ -21,8 +21,8 @@ i_GlobalRests = {
 i_GlobalSkips = {
     
     % [_ GlobalSkips measure 1]                                          %! SM4
-    \newSpacingSection                                                   %! SPACING:HSS1
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK:SM27
 %@% \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
 %@%     \fontsize                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
@@ -107,14 +107,14 @@ i_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
             %@%                 [_.1]                                    %! STAGE_NUMBER_MARKUP:SM3
             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@% \line                                                    %! SPACING_MARKUP:HSS2
-            %@%     {                                                    %! SPACING_MARKUP:HSS2
-            %@%         \with-color                                      %! SPACING_MARKUP:HSS2
-            %@%             #(x11-color 'DarkCyan)                       %! SPACING_MARKUP:HSS2
-            %@%             \fontsize                                    %! SPACING_MARKUP:HSS2
-            %@%                 #3                                       %! SPACING_MARKUP:HSS2
-            %@%                 [1/12]                                   %! SPACING_MARKUP:HSS2
-            %@%     }                                                    %! SPACING_MARKUP:HSS2
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
             %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
@@ -127,8 +127,8 @@ i_GlobalSkips = {
         }
     
     % [_ GlobalSkips measure 2]                                          %! SM4
-    \newSpacingSection                                                   %! SPACING:HSS1
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! SPACING:HSS1
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
@@ -151,14 +151,14 @@ i_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! MEASURE_INDEX_MARKUP:SM32
             %@%                 <1>                                      %! MEASURE_INDEX_MARKUP:SM32
             %@%     }                                                    %! MEASURE_INDEX_MARKUP:SM32
-            %@% \line                                                    %! SPACING_MARKUP:HSS2
-            %@%     {                                                    %! SPACING_MARKUP:HSS2
-            %@%         \with-color                                      %! SPACING_MARKUP:HSS2
-            %@%             #(x11-color 'DarkCyan)                       %! SPACING_MARKUP:HSS2
-            %@%             \fontsize                                    %! SPACING_MARKUP:HSS2
-            %@%                 #3                                       %! SPACING_MARKUP:HSS2
-            %@%                 [1/12]                                   %! SPACING_MARKUP:HSS2
-            %@%     }                                                    %! SPACING_MARKUP:HSS2
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
             %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
@@ -171,8 +171,8 @@ i_GlobalSkips = {
         }
     
     % [_ GlobalSkips measure 3]                                          %! SM4
-    \newSpacingSection                                                   %! SPACING:HSS1
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! SPACING:HSS1
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
     \time 1/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/4
@@ -204,14 +204,14 @@ i_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! STAGE_NUMBER_MARKUP:SM3
             %@%                 [_.2]                                    %! STAGE_NUMBER_MARKUP:SM3
             %@%     }                                                    %! STAGE_NUMBER_MARKUP:SM3
-            %@% \line                                                    %! SPACING_MARKUP:HSS2
-            %@%     {                                                    %! SPACING_MARKUP:HSS2
-            %@%         \with-color                                      %! SPACING_MARKUP:HSS2
-            %@%             #(x11-color 'DarkCyan)                       %! SPACING_MARKUP:HSS2
-            %@%             \fontsize                                    %! SPACING_MARKUP:HSS2
-            %@%                 #3                                       %! SPACING_MARKUP:HSS2
-            %@%                 [1/4]                                    %! SPACING_MARKUP:HSS2
-            %@%     }                                                    %! SPACING_MARKUP:HSS2
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! CLOCK_TIME_MARKUP:SM28
             %@%     {                                                    %! CLOCK_TIME_MARKUP:SM28
             %@%         \with-color                                      %! CLOCK_TIME_MARKUP:SM28
