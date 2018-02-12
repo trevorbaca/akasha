@@ -87,11 +87,24 @@ M_GlobalRests = {
     % [M GlobalRests measure 368]                                        %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
+    \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
+    \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
-    ^ \markup {                                                          %! SM18
-        \musicglyph                                                      %! SM18
-            #"scripts.ufermata"                                          %! SM18
-        }                                                                %! SM18
+    ^ \markup {
+        \column
+            {
+                \line                                                    %! SM18
+                    {                                                    %! SM18
+                        \musicglyph                                      %! SM18
+                            #"scripts.ufermata"                          %! SM18
+                    }                                                    %! SM18
+                \line                                                    %! SM18
+                    {                                                    %! SM18
+                        \musicglyph                                      %! SM18
+                            #"scripts.ufermata"                          %! SM18
+                    }                                                    %! SM18
+            }
+        }
     
 }
 
