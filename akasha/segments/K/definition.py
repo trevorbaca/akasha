@@ -468,7 +468,7 @@ maker(
 maker(
     baca.scope('CelloMusicVoice', 14, 17),
     baca.markup('pos. ord. + 11°/A1(IV)'),
-    baca.trill(),
+    baca.trill_spanner(),
     baca.clef('treble'),
     )
 
@@ -482,7 +482,7 @@ maker(
 maker(
     baca.scope('ViolaMusicVoice', 15, 17),
     baca.markup('pos. ord. + 7°/A2(IV)'),
-    baca.trill(),
+    baca.trill_spanner(),
     baca.clef('treble'),
     )
 
@@ -501,7 +501,7 @@ maker(
 maker(
     baca.scope('ViolinIIMusicVoice', 16, 17),
     baca.markup('pos. ord. + 5°/A4(II)'),
-    baca.trill(),
+    baca.trill_spanner(),
     )
 
 maker(
@@ -519,7 +519,7 @@ maker(
 maker(
     baca.scope('ViolinIMusicVoice', 17),
     baca.markup('pos. ord. + 9°/A4(II)'),
-    baca.trill(),
+    baca.trill_spanner(),
     baca.hairpin('sffp < f'),
     )
 
@@ -547,7 +547,7 @@ maker(
         'CelloMusicVoice'],
         [19],
         ),
-    baca.trill(),
+    baca.trill_spanner(),
     )
 
 maker(
@@ -592,7 +592,7 @@ maker(
         'CelloMusicVoice'],
         [(20, 21)],
         ),
-    baca.trill(),
+    baca.trill_spanner(),
     )
 
 maker(

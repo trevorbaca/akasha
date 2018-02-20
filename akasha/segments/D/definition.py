@@ -306,7 +306,7 @@ maker(
 
 maker(
     baca.scope('ViolinIIMusicVoice', 12, 14),
-    baca.map(baca.trill('M2'), baca.qruns()),
+    baca.map(baca.trill_spanner('M2'), baca.qruns()),
     baca.markup.tasto(),
     baca.pitches('G5'),
     baca.dynamic('p'),

@@ -108,22 +108,22 @@ maker(
 
 maker(
     baca.scope('ViolaMusicVoice', 3, 9),
-    baca.make_repeated_durations(abjad.Duration(1, 4)),
+    baca.make_repeated_duration_notes(abjad.Duration(1, 4)),
     )
 
 maker(
     baca.scope('ViolinIMusicVoice', 5, 9),
-    baca.make_repeated_durations(abjad.Duration(1, 4)),
+    baca.make_repeated_duration_notes(abjad.Duration(1, 4)),
     )
 
 maker(
     baca.scope('ViolinIIMusicVoice', 7, 9),
-    baca.make_repeated_durations(abjad.Duration(1, 4)),
+    baca.make_repeated_duration_notes(abjad.Duration(1, 4)),
     )
 
 maker(
     baca.scope('CelloMusicVoice', 9),
-    baca.make_repeated_durations(abjad.Duration(1, 4)),
+    baca.make_repeated_duration_notes(abjad.Duration(1, 4)),
     )
 
 maker(

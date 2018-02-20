@@ -273,7 +273,7 @@ maker(
     baca.dynamic('pp'),
     baca.markup.tasto(),
     baca.pitches('G5'),
-    baca.trill('M2'),
+    baca.trill_spanner('M2'),
     )
 
 maker(
