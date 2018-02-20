@@ -290,7 +290,7 @@ maker(
 maker(
     baca.scope('ViolaMusicVoice', 3, 13),
     baca.markup.OB(),
-    baca.pitches('B2', repeats=True),
+    baca.pitch('B2'),
     baca.dynamic('ppp'),
     )
 
@@ -331,7 +331,7 @@ maker(
 maker(
     baca.scope('ViolinIMusicVoice', 5, 13),
     baca.markup.OB(),
-    baca.pitches('B4', repeats=True),
+    baca.pitch('B4'),
     baca.dynamic('ppp'),
     )
 
@@ -375,7 +375,7 @@ maker(
 maker(
     baca.scope('ViolinIIMusicVoice', 7, 13),
     baca.markup.OB(),
-    baca.pitches('B3', repeats=True),
+    baca.pitch('B3'),
     baca.dynamic('ppp'),
     )
 
@@ -425,7 +425,7 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', 9, 13),
-    baca.pitches('B1', repeats=True),
+    baca.pitch('B1'),
     )
 
 maker(

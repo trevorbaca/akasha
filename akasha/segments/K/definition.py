@@ -317,7 +317,7 @@ maker(
 
 maker(
     baca.scope('ViolinIMusicVoice', 9, 10),
-    baca.pitches('A5', repeats=True),
+    baca.pitch('A5'),
     )
 
 maker(
@@ -332,7 +332,7 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', 9, 10),
-    baca.pitches('A1', repeats=True),
+    baca.pitch('A1'),
     )
 
 maker(
@@ -411,7 +411,7 @@ maker(
 maker(
     baca.scope('ViolinIMusicVoice', 17, 21),
     baca.natural_harmonics(),
-    baca.pitches('B7', repeats=True),
+    baca.pitch('B7'),
     )
 
 maker(
@@ -422,7 +422,7 @@ maker(
 maker(
     baca.scope('ViolinIIMusicVoice', 16, 21),
     baca.natural_harmonics(),
-    baca.pitches('C#7', repeats=True),
+    baca.pitch('C#7'),
     )
 
 maker(
@@ -433,7 +433,7 @@ maker(
 maker(
     baca.scope('ViolaMusicVoice', 15, 21),
     baca.natural_harmonics(),
-    baca.pitches('G~5', repeats=True),
+    baca.pitch('G~5'),
     )
 
 maker(
@@ -444,7 +444,7 @@ maker(
 maker(
     baca.scope('CelloMusicVoice', 14, 21),
     baca.natural_harmonics(),
-    baca.pitches('D5', repeats=True),
+    baca.pitch('D5'),
     )
 
 maker(
