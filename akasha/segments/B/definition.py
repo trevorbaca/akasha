@@ -75,7 +75,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 1, 2),
+    baca.scope('CelloMusicVoice', (1, 2)),
     abjad.new(
         akasha.sparse_getato_rhythm(
             degree=0,
@@ -112,7 +112,7 @@ maker(
 ### stages 8-9 ###
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8, 9),
+    baca.scope('ViolinIIMusicVoice', (8, 9)),
     abjad.new(
         akasha.accelerando_rhythm(fuse_counts=(2, 1)),
         rhythm_maker__logical_tie_masks=abjad.silence([3]),
@@ -155,13 +155,13 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 1, 6),
+    baca.scope('CelloMusicVoice', (1, 6)),
     akasha.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.staccati(),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8, 9),
+    baca.scope('ViolinIIMusicVoice', (8, 9)),
     baca.markup.tasto_XFB(),
     baca.pitches('C5 Bb4'),
     baca.dynamic('pp'),

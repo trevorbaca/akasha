@@ -356,11 +356,11 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 9, 15),
+    baca.scope('ViolinIMusicVoice', (9, 15)),
     baca.pitches('D5 E5'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 9, 15),
+    baca.scope('ViolinIIMusicVoice', (9, 15)),
     baca.pitches('Bb4 C5'),
     )

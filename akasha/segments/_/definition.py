@@ -55,7 +55,7 @@ maker(
 ###############################################################################
 
 maker(
-    baca.scope('ViolaMusicVoice', 1, 2),
+    baca.scope('ViolaMusicVoice', (1, 2)),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),

@@ -407,7 +407,7 @@ cello_counts = counts.partition_by_counts(cello_counts, overhang=abjad.Exact)
 cello_counts = [sum(_) for _ in cello_counts]
 
 maker(
-    baca.scope('ViolaMusicVoice', 8, 9),
+    baca.scope('ViolaMusicVoice', (8, 9)),
     baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
@@ -426,7 +426,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 8, 9),
+    baca.scope('CelloMusicVoice', (8, 9)),
     baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
@@ -445,12 +445,12 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 10, 11),
+    baca.scope('ViolaMusicVoice', (10, 11)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 10, 11),
+    baca.scope('CelloMusicVoice', (10, 11)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -618,14 +618,14 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 8, 9),
+    baca.scope('ViolaMusicVoice', (8, 9)),
     baca.dynamic('mp'),
     baca.pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4', exact=True),
     baca.markup.tasto_fractional_scratch(1, 2),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 8, 9),
+    baca.scope('CelloMusicVoice', (8, 9)),
     baca.clef('bass'),
     baca.dynamic('mp'),
     baca.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2', exact=True),
@@ -665,22 +665,22 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 10, 11),
+    baca.scope('ViolinIMusicVoice', (10, 11)),
     baca.pitches('F5'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 10, 11),
+    baca.scope('ViolinIIMusicVoice', (10, 11)),
     baca.pitches('F#4'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 10, 11),
+    baca.scope('ViolaMusicVoice', (10, 11)),
     baca.pitches('D#4'),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 10, 11),
+    baca.scope('CelloMusicVoice', (10, 11)),
     baca.pitches('Db2'),
     )
 
@@ -734,7 +734,7 @@ maker(
 ### stages 17-18 (x6) ###
 
 maker(
-    baca.scope('GlobalSkips', 17, 18),
+    baca.scope('GlobalSkips', (17, 18)),
     baca.markup.boxed_repeat_count(6, baca.skip(0)),
     baca.volta(),
     )
