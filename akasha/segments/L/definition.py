@@ -70,7 +70,7 @@ maker(
 ###############################################################################
 
 maker(
-    baca.scope('ViolaMusicVoice', 1, 3),
+    baca.scope('ViolaMusicVoice', (1, 3)),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_each_note_abruptly(),

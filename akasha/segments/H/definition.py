@@ -47,7 +47,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', 1, 5),
+    baca.scope('GlobalSkips', (1, 5)),
     baca.volta(),
     )
 
@@ -68,7 +68,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 1, 2),
+    baca.scope('ViolaMusicVoice', (1, 2)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -126,7 +126,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 1, 2),
+    baca.scope('ViolaMusicVoice', (1, 2)),
     baca.staff_positions([0]),
     baca.staff_lines(1),
     )

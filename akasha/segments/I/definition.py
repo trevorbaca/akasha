@@ -107,17 +107,17 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 3, 9),
+    baca.scope('ViolaMusicVoice', (3, 9)),
     baca.make_repeated_duration_notes(abjad.Duration(1, 4)),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 5, 9),
+    baca.scope('ViolinIMusicVoice', (5, 9)),
     baca.make_repeated_duration_notes(abjad.Duration(1, 4)),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 7, 9),
+    baca.scope('ViolinIIMusicVoice', (7, 9)),
     baca.make_repeated_duration_notes(abjad.Duration(1, 4)),
     )
 
@@ -288,14 +288,14 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 3, 13),
+    baca.scope('ViolaMusicVoice', (3, 13)),
     baca.markup.OB(),
     baca.pitch('B2'),
     baca.dynamic('ppp'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 3, 9),
+    baca.scope('ViolaMusicVoice', (3, 9)),
     baca.alternate_bow_strokes(),
     )
 
@@ -329,14 +329,14 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 5, 13),
+    baca.scope('ViolinIMusicVoice', (5, 13)),
     baca.markup.OB(),
     baca.pitch('B4'),
     baca.dynamic('ppp'),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 5, 9),
+    baca.scope('ViolinIMusicVoice', (5, 9)),
     baca.alternate_bow_strokes(),
     )
 
@@ -373,14 +373,14 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 7, 13),
+    baca.scope('ViolinIIMusicVoice', (7, 13)),
     baca.markup.OB(),
     baca.pitch('B3'),
     baca.dynamic('ppp'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 7, 9),
+    baca.scope('ViolinIIMusicVoice', (7, 9)),
     baca.alternate_bow_strokes(downbow_first=False),
     )
 
@@ -424,7 +424,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 9, 13),
+    baca.scope('CelloMusicVoice', (9, 13)),
     baca.pitch('B1'),
     )
 
@@ -516,22 +516,22 @@ maker(
 ### stages 16-19 (and very long fermata) ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 16, 19),
+    baca.scope('ViolinIMusicVoice', (16, 19)),
     baca.pitches('B4'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 16, 19),
+    baca.scope('ViolinIIMusicVoice', (16, 19)),
     baca.pitches('B3'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 16, 19),
+    baca.scope('ViolaMusicVoice', (16, 19)),
     baca.pitches('B2'),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 16, 19),
+    baca.scope('CelloMusicVoice', (16, 19)),
     baca.pitches('B1'),
     )
 

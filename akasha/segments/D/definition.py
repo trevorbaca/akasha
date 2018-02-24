@@ -133,7 +133,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 9, 10),
+    baca.scope('CelloMusicVoice', (9, 10)),
     baca.make_tied_notes(repeat_ties=True),
     )
 
@@ -222,7 +222,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 1, 3),
+    baca.scope('ViolinIMusicVoice', (1, 3)),
     baca.markup('5°/A4(II) + vib. mod.'),
     baca.natural_harmonics(),
     baca.pitches('C#7'),
@@ -254,7 +254,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 9, 10),
+    baca.scope('ViolinIMusicVoice', (9, 10)),
     akasha.harmonic_glissando_pitches('A4', rotation=-12),
     )
 
@@ -269,7 +269,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 5, 14),
+    baca.scope('ViolinIMusicVoice', (5, 14)),
     baca.markup('XP + senza vib. + full bow strokes'),
     baca.natural_harmonics(),
     baca.map(baca.glissando(), baca.runs()),
@@ -292,12 +292,12 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 9, 10),
+    baca.scope('ViolinIIMusicVoice', (9, 10)),
     akasha.harmonic_glissando_pitches('A4', rotation=-18),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 3, 10),
+    baca.scope('ViolinIIMusicVoice', (3, 10)),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
     baca.map(baca.glissando(), baca.runs()),
@@ -305,7 +305,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 12, 14),
+    baca.scope('ViolinIIMusicVoice', (12, 14)),
     baca.map(baca.trill_spanner('M2'), baca.qruns()),
     baca.markup.tasto(),
     baca.pitches('G5'),
@@ -313,13 +313,13 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 1, 7),
+    baca.scope('ViolaMusicVoice', (1, 7)),
     baca.natural_harmonics(),
     baca.pitches('G~5'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 9, 10),
+    baca.scope('ViolaMusicVoice', (9, 10)),
     baca.markup.tasto_senza_vib(),
     baca.pitches('Fb3 E3 D#3 C#3 B#2', exact=True),
     baca.glissando(),
@@ -338,7 +338,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 12, 14),
+    baca.scope('ViolaMusicVoice', (12, 14)),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
     baca.map(baca.glissando(), baca.runs()),
@@ -346,7 +346,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 1, 5),
+    baca.scope('CelloMusicVoice', (1, 5)),
     baca.natural_harmonics(),
     baca.pitches('D5'),
     )
@@ -386,7 +386,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 14, 16),
+    baca.scope('CelloMusicVoice', (14, 16)),
     baca.markup.tasto(),
     baca.pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1', exact=True),
     baca.glissando(),

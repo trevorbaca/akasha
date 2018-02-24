@@ -155,7 +155,7 @@ maker(
 ### viola stages 9-17 ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 9, 17),
+    baca.scope('ViolaMusicVoice', (9, 17)),
     akasha.viola_ob_rhythm(rotation=-8),
     )
 
@@ -191,7 +191,7 @@ maker(
 ### stages 10-18 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 10, 14),
+    baca.scope('ViolinIMusicVoice', (10, 14)),
     akasha.scratch_rhythm(
         [8],
         ~abjad.silence([0, 3], 8),
@@ -200,7 +200,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 15, 17),
+    baca.scope('ViolinIMusicVoice', (15, 17)),
     abjad.new(
         akasha.dense_getato_rhythm(
             [1],
@@ -214,7 +214,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 10, 13),
+    baca.scope('ViolinIIMusicVoice', (10, 13)),
     akasha.scratch_rhythm(
         [8],
         ~abjad.silence([1, 4], 9),
@@ -223,7 +223,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 14, 16),
+    baca.scope('ViolinIIMusicVoice', (14, 16)),
     abjad.new(
         akasha.dense_getato_rhythm(
             [1],
@@ -246,7 +246,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 10, 12),
+    baca.scope('CelloMusicVoice', (10, 12)),
     akasha.scratch_rhythm(
         [8],
         ~abjad.silence([2, 5], 9),
@@ -255,7 +255,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 13, 15),
+    baca.scope('CelloMusicVoice', (13, 15)),
     abjad.new(
         akasha.dense_getato_rhythm(
             [1],
@@ -292,30 +292,30 @@ maker(
 ### violin 1 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 1, 18),
+    baca.scope('ViolinIMusicVoice', (1, 18)),
     akasha.getato_pitches(5, [2]),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 1, 11),
+    baca.scope('ViolinIMusicVoice', (1, 11)),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     baca.dynamic('ff'),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 12, 14),
+    baca.scope('ViolinIMusicVoice', (12, 14)),
     baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 15, 18),
+    baca.scope('ViolinIMusicVoice', (15, 18)),
     baca.staccati(),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 15, 16),
+    baca.scope('ViolinIMusicVoice', (15, 16)),
     baca.markup.leggieriss(),
     baca.markup.senza_scratch(),
     baca.hairpin('mf > pp'),
@@ -324,19 +324,19 @@ maker(
 ### violin 2 ###
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 1, 18),
+    baca.scope('ViolinIIMusicVoice', (1, 18)),
     akasha.getato_pitches(-3, [2]),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 1, 9),
+    baca.scope('ViolinIIMusicVoice', (1, 9)),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     baca.dynamic('ff'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 10, 12),
+    baca.scope('ViolinIIMusicVoice', (10, 12)),
     baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
     )
@@ -349,20 +349,20 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 14, 18),
+    baca.scope('ViolinIIMusicVoice', (14, 18)),
     baca.staccati(),
     baca.markup.leggieriss(),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 15, 16),
+    baca.scope('ViolinIIMusicVoice', (15, 16)),
     baca.hairpin('mf > pp'),
     )
 
 ### viola ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 1, 18),
+    baca.scope('ViolaMusicVoice', (1, 18)),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
@@ -374,19 +374,19 @@ maker(
 ### cello ###
 
 maker(
-    baca.scope('CelloMusicVoice', 1, 18),
+    baca.scope('CelloMusicVoice', (1, 18)),
     akasha.getato_pitches(-13, [2]),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 1, 8),
+    baca.scope('CelloMusicVoice', (1, 8)),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     baca.dynamic('ff'),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 9, 11),
+    baca.scope('CelloMusicVoice', (9, 11)),
     baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
     )
@@ -399,13 +399,13 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 13, 18),
+    baca.scope('CelloMusicVoice', (13, 18)),
     baca.staccati(),
     baca.markup.leggieriss(),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 15, 16),
+    baca.scope('CelloMusicVoice', (15, 16)),
     baca.staccati(),
     baca.hairpin('mf > pp'),
     )

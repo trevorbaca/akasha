@@ -70,7 +70,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 2, 3),
+    baca.scope('ViolinIIMusicVoice', (2, 3)),
     abjad.new(
         akasha.sparse_getato_rhythm(),
         rhythm_maker__division_masks=~abjad.silence([3, 36, 37]),
@@ -108,7 +108,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 2, 3),
+    baca.scope('ViolinIIMusicVoice', (2, 3)),
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),

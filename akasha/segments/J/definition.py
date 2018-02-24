@@ -119,7 +119,7 @@ maker(
 ###############################################################################
 
 maker(
-    baca.scope('ViolinIMusicVoice', 1, 3),
+    baca.scope('ViolinIMusicVoice', (1, 3)),
     akasha.getato_pitches(5, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
@@ -127,7 +127,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 1, 3),
+    baca.scope('ViolinIIMusicVoice', (1, 3)),
     akasha.getato_pitches(-3, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
@@ -135,7 +135,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 1, 3),
+    baca.scope('CelloMusicVoice', (1, 3)),
     akasha.getato_pitches(-13, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
