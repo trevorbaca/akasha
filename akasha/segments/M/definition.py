@@ -65,7 +65,7 @@ maker = baca.SegmentMaker(
 
 maker(
     baca.scope('CelloMusicVoice', (1, 2)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -75,12 +75,12 @@ maker(
         'ViolaMusicVoice'],
         [(2, 10)],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('CelloMusicVoice', (4, 8)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ###############################################################################

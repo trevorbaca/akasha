@@ -122,12 +122,12 @@ maker(
         'CelloMusicVoice'],
         [6],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolaMusicVoice', (6, 7)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ###############################################################################
