@@ -83,7 +83,7 @@ maker(
         'CelloMusicVoice'],
         [1],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -93,17 +93,17 @@ maker(
         'CelloMusicVoice'],
         [3],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.make_scopes(['ViolinIIMusicVoice', 'CelloMusicVoice'], [5]),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('CelloMusicVoice', 7),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -134,7 +134,7 @@ maker(
         'CelloMusicVoice'],
         [10],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -153,7 +153,7 @@ maker(
         'CelloMusicVoice'],
         [12],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -190,7 +190,7 @@ maker(
         'CelloMusicVoice'],
         [16],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -201,7 +201,7 @@ maker(
         'CelloMusicVoice'],
         [17],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -212,7 +212,7 @@ maker(
         'CelloMusicVoice'],
         [18],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ###############################################################################

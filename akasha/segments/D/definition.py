@@ -65,7 +65,7 @@ maker(
         ['ViolinIMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
         [1],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ### stages 3-4 ###
@@ -75,7 +75,7 @@ maker(
         ['ViolinIMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
         [3],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -87,7 +87,7 @@ maker(
 
 maker(
     baca.make_scopes(['ViolaMusicVoice', 'CelloMusicVoice'], [5]),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -99,7 +99,7 @@ maker(
 
 maker(
     baca.scope('ViolaMusicVoice', 7),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -134,7 +134,7 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', (9, 10)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ### stages 12-13 ###

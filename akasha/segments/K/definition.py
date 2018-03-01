@@ -76,7 +76,7 @@ maker(
         'CelloMusicVoice'],
         [(1, 7)],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -87,7 +87,7 @@ maker(
         'CelloMusicVoice'],
         [9],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -98,7 +98,7 @@ maker(
         'CelloMusicVoice'],
         [10],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -109,42 +109,42 @@ maker(
         'CelloMusicVoice'],
         [12],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('CelloMusicVoice', (14, 17)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolaMusicVoice', 14),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolaMusicVoice', (15, 17)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolinIIMusicVoice', (14, 15)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolinIIMusicVoice', (16, 17)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolinIMusicVoice', (14, 16)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     baca.scope('ViolinIMusicVoice', 17),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -155,7 +155,7 @@ maker(
         'CelloMusicVoice'],
         [19],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -166,7 +166,7 @@ maker(
         'CelloMusicVoice'],
         [(20, 21)],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ###############################################################################

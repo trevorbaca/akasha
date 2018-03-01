@@ -69,7 +69,7 @@ maker(
 
 maker(
     baca.scope('ViolaMusicVoice', (1, 2)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -87,7 +87,7 @@ maker(
         'CelloMusicVoice'],
         [2],
         ),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
