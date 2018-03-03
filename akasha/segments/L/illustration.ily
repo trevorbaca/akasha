@@ -142,7 +142,7 @@ L_GlobalSkips = {
     
     % [L GlobalSkips measure 335]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -179,7 +179,7 @@ L_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -246,7 +246,7 @@ L_GlobalSkips = {
     
     % [L GlobalSkips measure 337]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)      %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -283,7 +283,7 @@ L_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/4]                                    %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -696,8 +696,6 @@ L_CelloMusicVoice = {
     R1 * 1/4
     
     % [L CelloMusicVoice measure 338]                            %! SM4
-    \once \override CelloMusicStaff.Clef.X-extent = ##f          %! OC1:SHIFTED_CLEF
-    \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! OC1:SHIFTED_CLEF
     \clef "bass"                                                 %! SM8:EXPLICIT_CLEF:IC
     \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override CelloMusicStaff.Clef.color = ##f                   %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
