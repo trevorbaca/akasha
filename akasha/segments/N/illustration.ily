@@ -1278,8 +1278,8 @@ N_ViolinIMusicVoice = {
     \once \override ViolinIMusicStaff.StaffSymbol.line-count = 1 %! SM8:REDUNDANT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:REDUNDANT_STAFF_LINES:IC
     \override RepeatTie.direction = #up                          %! OC1
-    \once \override ViolinIMusicStaff.Clef.X-extent = ##f        %! OC1:SHIFTED_CLEF
-    \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+    \once \override ViolinIMusicStaff.Clef.X-extent = ##f        %! OC1:MEASURE_369:SHIFTED_CLEF
+    \once \override ViolinIMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_369:SHIFTED_CLEF
     \set ViolinIMusicStaff.instrumentName = \markup {            %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -1655,8 +1655,8 @@ N_ViolaMusicVoice = {
     \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! SM8:REDUNDANT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:REDUNDANT_STAFF_LINES:IC
     \override RepeatTie.direction = #up                          %! OC1
-    \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! OC1:SHIFTED_CLEF
-    \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+    \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! OC1:MEASURE_369:SHIFTED_CLEF
+    \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_369:SHIFTED_CLEF
     \set ViolaMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -1816,8 +1816,8 @@ N_CelloMusicVoice = {
     \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
     \override RepeatTie.direction = #up                          %! OC1
-    \once \override CelloMusicStaff.Clef.X-extent = ##f          %! OC1:SHIFTED_CLEF
-    \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:SHIFTED_CLEF
+    \once \override CelloMusicStaff.Clef.X-extent = ##f          %! OC1:MEASURE_369:SHIFTED_CLEF
+    \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_369:SHIFTED_CLEF
     \set CelloMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
