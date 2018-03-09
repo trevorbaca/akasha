@@ -42,20 +42,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             \set ViolinIMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                        %! ST1
                                     #16                                            %! ST1
-                                    \line                                          %! ST1
-                                        {                                          %! ST1
-                                            Violin                                 %! ST1
-                                            I                                      %! ST1
-                                        }                                          %! ST1
+                                    "Violin I"                                     %! ST1
                                 }                                                  %! ST1
                             \set ViolinIMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                        %! ST1
                                     #10                                            %! ST1
-                                    \line                                          %! ST1
-                                        {                                          %! ST1
-                                            Vn.                                    %! ST1
-                                            I                                      %! ST1
-                                        }                                          %! ST1
+                                    "Vn. I"                                        %! ST1
                                 }                                                  %! ST1
                             \clef "treble" %! ST3
                             s1
@@ -69,20 +61,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             \set ViolinIIMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                         %! ST1
                                     #16                                             %! ST1
-                                    \line                                           %! ST1
-                                        {                                           %! ST1
-                                            Violin                                  %! ST1
-                                            II                                      %! ST1
-                                        }                                           %! ST1
+                                    "Violin II"                                     %! ST1
                                 }                                                   %! ST1
                             \set ViolinIIMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                         %! ST1
                                     #10                                             %! ST1
-                                    \line                                           %! ST1
-                                        {                                           %! ST1
-                                            Vn.                                     %! ST1
-                                            II                                      %! ST1
-                                        }                                           %! ST1
+                                    "Vn. II"                                        %! ST1
                                 }                                                   %! ST1
                             \clef "treble" %! ST3
                             s1
