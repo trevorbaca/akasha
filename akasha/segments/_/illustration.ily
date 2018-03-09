@@ -231,20 +231,12 @@ i_ViolinIMusicVoice = {
     \set ViolinIMusicStaff.instrumentName = \markup {            %! SM8:DEFAULT_INSTRUMENT:ST1
         \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
             #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
-            \line                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                {                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                    Violin                                       %! SM8:DEFAULT_INSTRUMENT:ST1
-                    I                                            %! SM8:DEFAULT_INSTRUMENT:ST1
-                }                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+            "Violin I"                                           %! SM8:DEFAULT_INSTRUMENT:ST1
         }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
     \set ViolinIMusicStaff.shortInstrumentName = \markup {       %! SM8:DEFAULT_INSTRUMENT:ST1
         \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
             #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
-            \line                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                {                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                    Vn.                                          %! SM8:DEFAULT_INSTRUMENT:ST1
-                    I                                            %! SM8:DEFAULT_INSTRUMENT:ST1
-                }                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+            "Vn. I"                                              %! SM8:DEFAULT_INSTRUMENT:ST1
         }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
     \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
     \once \override ViolinIMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
@@ -261,20 +253,12 @@ i_ViolinIMusicVoice = {
     \set ViolinIMusicStaff.instrumentName = \markup {            %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
             #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-            \line                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                {                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    Violin                                       %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    I                                            %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                }                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            "Violin I"                                           %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
     \set ViolinIMusicStaff.shortInstrumentName = \markup {       %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
             #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-            \line                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                {                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    Vn.                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    I                                            %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                }                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            "Vn. I"                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
     \override ViolinIMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
@@ -299,20 +283,12 @@ i_ViolinIIMusicVoice = {
     \set ViolinIIMusicStaff.instrumentName = \markup {           %! SM8:DEFAULT_INSTRUMENT:ST1
         \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
             #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
-            \line                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                {                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                    Violin                                       %! SM8:DEFAULT_INSTRUMENT:ST1
-                    II                                           %! SM8:DEFAULT_INSTRUMENT:ST1
-                }                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+            "Violin II"                                          %! SM8:DEFAULT_INSTRUMENT:ST1
         }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
     \set ViolinIIMusicStaff.shortInstrumentName = \markup {      %! SM8:DEFAULT_INSTRUMENT:ST1
         \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
             #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
-            \line                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                {                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                    Vn.                                          %! SM8:DEFAULT_INSTRUMENT:ST1
-                    II                                           %! SM8:DEFAULT_INSTRUMENT:ST1
-                }                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+            "Vn. II"                                             %! SM8:DEFAULT_INSTRUMENT:ST1
         }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
     \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
     \once \override ViolinIIMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
@@ -329,20 +305,12 @@ i_ViolinIIMusicVoice = {
     \set ViolinIIMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
             #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-            \line                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                {                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    Violin                                       %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    II                                           %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                }                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            "Violin II"                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
     \set ViolinIIMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
             #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-            \line                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                {                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    Vn.                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    II                                           %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                }                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            "Vn. II"                                             %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
     \override ViolinIIMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
