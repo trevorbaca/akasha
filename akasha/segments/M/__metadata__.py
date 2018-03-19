@@ -25,7 +25,7 @@ metadata = abjad.OrderedDict(
         ('duration', "1'49''"),
         (
             'fermata_measure_numbers',
-            [368, 368],
+            [368],
             ),
         ('first_measure_number', 340),
         ('last_measure_is_fermata', True),
