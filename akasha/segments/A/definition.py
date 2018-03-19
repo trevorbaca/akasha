@@ -19,12 +19,12 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks['44']),
-    (1, abjad.Accelerando()),
-    (2, akasha.metronome_marks['55']),
-    (5, akasha.metronome_marks['44']),
-    (5, abjad.Accelerando()),
-    (8, akasha.metronome_marks['55']),
+    #(1, akasha.metronome_marks['44']),
+    #(1, abjad.Accelerando()),
+    #(2, akasha.metronome_marks['55']),
+    #(5, akasha.metronome_marks['44']),
+    #(5, abjad.Accelerando()),
+    #(8, akasha.metronome_marks['55']),
     ])
 
 maker = baca.TimeSignatureMaker(
@@ -53,9 +53,15 @@ maker = baca.SegmentMaker(
     validate_stage_count=16,
     )
 
-###############################################################################
-##################################### TIME ####################################
-###############################################################################
+maker(
+    baca.scope('GlobalSkips', (1, -1)),
+    baca.metronome_mark('44', selector=baca.leaf(0)),
+    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(0)),
+    baca.metronome_mark('55', selector=baca.leaf(2)),
+    baca.metronome_mark('44', selector=baca.leaf(5)),
+    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(5)),
+    baca.metronome_mark('55', selector=baca.leaf(9)),
+    )
 
 ### stages 1-2 ###
 
