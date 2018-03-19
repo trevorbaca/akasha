@@ -4,6 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def polyphony_rhythm(rotation=0):
+    r'''Makes polyphony rhythm.
+    '''
     counts = abjad.sequence([4, 14, 4, 6, 18])
     counts = counts.rotate(n=rotation)
     return baca.RhythmCommand(

@@ -4,6 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def cello_solo_rhythm(rotation=None):
+    r'''Makes cello solo rhythm.
+    '''
     counts = abjad.sequence([7, 1, 10, 2])
     counts.rotate(n=rotation)
     rhythm_maker = rhythmos.TaleaRhythmMaker(

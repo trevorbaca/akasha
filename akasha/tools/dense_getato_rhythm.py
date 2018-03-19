@@ -7,6 +7,8 @@ def dense_getato_rhythm(
     fuse_counts,
     extra_counts_per_division,
     ):
+    r'''Makes dense getato rhythm.
+    '''
     return baca.RhythmCommand(
         division_expression=baca.fuse_compound_quarter_divisions(
             fuse_counts,

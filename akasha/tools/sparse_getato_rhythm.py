@@ -9,6 +9,8 @@ def sparse_getato_rhythm(
     extra_counts_per_division=[1],
     rotation=None,
     ):
+    r'''Makes sparse getato rhythm.
+    '''
     return baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,

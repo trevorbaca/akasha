@@ -4,6 +4,8 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def untied_notes():
+    r'''Makes untied notes.
+    '''
     return baca.RhythmCommand(
         rhythm_maker=rhythmos.NoteRhythmMaker(
             duration_specifier=rhythmos.DurationSpecifier(
