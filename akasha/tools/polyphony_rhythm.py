@@ -3,7 +3,10 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def polyphony_rhythm(rotation=0):
+def polyphony_rhythm(
+    logical_tie_masks=None,
+    rotation=0,
+    ):
     r'''Makes polyphony rhythm.
     '''
     counts = abjad.sequence([4, 14, 4, 6, 18])
@@ -11,6 +14,7 @@ def polyphony_rhythm(rotation=0):
     return baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.TaleaRhythmMaker(
+            logical_tie_masks=logical_tie_masks,
             talea=rhythmos.Talea(
                 counts=counts,
                 denominator=16,

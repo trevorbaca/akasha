@@ -53,13 +53,10 @@ maker(
     akasha.cello_solo_rhythm(rotation=0),
     )
 
-### stages 3-4 ###
-
 maker(
     baca.scope('ViolinIIMusicVoice', 4),
-    abjad.new(
-        akasha.sparse_getato_rhythm(),
-        rhythm_maker__division_masks=abjad.silence([0, 1], inverted=True),
+    akasha.sparse_getato_rhythm(
+        division_masks=[abjad.silence([0, 1], inverted=True)],
         ),
     )
 
@@ -70,79 +67,62 @@ maker(
 
 maker(
     baca.scope('ViolaMusicVoice', 4),
-    abjad.new(
-        akasha.sparse_getato_rhythm(),
-        rhythm_maker__division_masks=abjad.silence([-1], inverted=True),
+    akasha.sparse_getato_rhythm(
+        division_masks=[abjad.silence([-1], inverted=True)],
         ),
     )
 
-### stages 5-6 ###
-
 maker(
     baca.scope('ViolinIMusicVoice', (6, 7)),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=0),
-        rhythm_maker__logical_tie_masks=abjad.silence(
-            [0, 1, 2], inverted=True),
+    akasha.polyphony_rhythm(
+        logical_tie_masks=[abjad.silence([0, 1, 2], inverted=True)],
         ),
     )
 
 maker(
     baca.scope('ViolinIIMusicVoice', (6, 7)),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=0),
-        rhythm_maker__logical_tie_masks=abjad.silence(
-            [2, 3, 4], inverted=True),
+    akasha.polyphony_rhythm(
+        logical_tie_masks=[abjad.silence([2, 3, 4], inverted=True)],
         ),
     )
 
 maker(
     baca.scope('ViolaMusicVoice', (6, 7)),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=0),
-        rhythm_maker__logical_tie_masks=abjad.silence(
-            [1, 2, 3], inverted=True),
+    akasha.polyphony_rhythm(
+        logical_tie_masks=[abjad.silence([1, 2, 3], inverted=True)],
         ),
     )
 
-### stages 7-8 ###
-
 maker(
     baca.scope('ViolinIMusicVoice', 9),
-    abjad.new(
-        akasha.sparse_getato_rhythm(),
-        rhythm_maker__division_masks=abjad.silence([-2, -1], inverted=True),
+    akasha.sparse_getato_rhythm(
+        division_masks=[abjad.silence([-2, -1], inverted=True)],
         ),
     )
 
 maker(
     baca.scope('ViolinIIMusicVoice', 9),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=-2),
-        rhythm_maker__logical_tie_masks=abjad.silence(
-            [1, 2, 3], inverted=True),
+    akasha.polyphony_rhythm(
+        logical_tie_masks=[abjad.silence([1, 2, 3], inverted=True)],
+        rotation=-2,
         ),
     )
 
 maker(
     baca.scope('ViolaMusicVoice', 9),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=-2),
-        rhythm_maker__logical_tie_masks=abjad.silence(
-            [2, 3, 4], inverted=True),
+    akasha.polyphony_rhythm(
+        logical_tie_masks=[abjad.silence([2, 3, 4], inverted=True)],
+        rotation=-2,
         ),
     )
 
 maker(
     baca.scope('CelloMusicVoice', 9),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=-2),
-        rhythm_maker__logical_tie_masks=abjad.silence(
-            [0, 1, 2], inverted=True),
+    akasha.polyphony_rhythm(
+        logical_tie_masks=[abjad.silence([0, 1, 2], inverted=True)],
+        rotation=-2,
         ),
     )
-
-### stages 9-10 ###
 
 maker(
     baca.scope('ViolinIMusicVoice', (11, 13)),
@@ -169,13 +149,11 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', (11, 13)),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=-6),
-        rhythm_maker__logical_tie_masks=abjad.silence([-1]),
+    akasha.polyphony_rhythm(
+        logical_tie_masks=[abjad.silence([-1])],
+        rotation=-6,
         ),
     )
-
-### stages 11-12 ###
 
 maker(
     baca.scope('ViolinIMusicVoice', 15),
@@ -202,13 +180,11 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', 15),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=-10),
-        rhythm_maker__logical_tie_masks=abjad.silence([-1]),
+    akasha.polyphony_rhythm(
+        logical_tie_masks=[abjad.silence([-1])],
+        rotation=-10,
         ),
     )
-
-### stages 13-14 ###
 
 maker(
     baca.scope('ViolinIMusicVoice', 17),
@@ -228,8 +204,6 @@ maker(
         ),
     )
 
-### stages 15-16 ###
-
 maker(
     baca.scope('ViolinIIMusicVoice', 19),
     abjad.new(
@@ -241,9 +215,8 @@ maker(
 
 maker(
     baca.scope('CelloMusicVoice', 19),
-    abjad.new(
-        akasha.sparse_getato_rhythm(),
-        rhythm_maker__division_masks=abjad.silence([1], inverted=True),
+    akasha.sparse_getato_rhythm(
+        division_masks=[abjad.silence([1], inverted=True)],
         ),
     )
 
