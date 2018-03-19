@@ -24,35 +24,28 @@ maker = baca.TimeSignatureMaker(
     )
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
-spacing = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=(1, 4),
-    minimum_width=(1, 12),
-    )
+#spacing = baca.HorizontalSpacingSpecifier(
+#    fermata_measure_width=(1, 4),
+#    minimum_width=(1, 12),
+#    )
 
 maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     measures_per_stage=measures_per_stage,
+    metronome_mark_measure_map=metronome_mark_measure_map,
+    metronome_mark_stem_height=1.25,
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
-    spacing=spacing,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+#    spacing=spacing,
     time_signatures=time_signatures,
     validate_measure_count=3,
     validate_stage_count=2,
     )
 
-###############################################################################
-##################################### TIME ####################################
-###############################################################################
-
 maker(
     baca.scope('ViolaMusicVoice', 1),
     baca.make_repeat_tied_notes(),
     )
-
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
 
 maker(
     baca.scope('ViolaMusicVoice', (1, 2)),
