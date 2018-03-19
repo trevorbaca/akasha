@@ -6,6 +6,7 @@ from abjad import rhythmmakertools as rhythmos
 
 def sparse_getato_rhythm(
     degree=1,
+    division_masks=None,
     extra_counts_per_division=[1],
     rotation=None,
     ):
@@ -15,6 +16,7 @@ def sparse_getato_rhythm(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythmos.TaleaRhythmMaker(
+            division_masks=division_masks,
             extra_counts_per_division=extra_counts_per_division,
             talea=rhythmos.Talea(
                 counts=akasha.perforated_counts(
