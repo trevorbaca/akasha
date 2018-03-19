@@ -48,12 +48,9 @@ maker(
     baca.global_fermata('short', selector=baca.leaf(19)),
     )
 
-### stages 1-2 ###
-
 maker(
     baca.scope('CelloMusicVoice', 1),
     akasha.cello_solo_rhythm(rotation=0),
-    baca.clef('bass'),
     )
 
 ### stages 3-4 ###
@@ -64,6 +61,11 @@ maker(
         akasha.sparse_getato_rhythm(),
         rhythm_maker__division_masks=abjad.silence([0, 1], inverted=True),
         ),
+    )
+
+maker(
+    baca.scope('ViolaMusicVoice', 1),
+    baca.staff_lines(5),
     )
 
 maker(
