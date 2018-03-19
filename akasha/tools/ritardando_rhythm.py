@@ -3,9 +3,17 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def ritardando_rhythm():
+def ritardando_rhythm(division_mask=None, logical_tie_mask=None):
     r'''Makes ritardando rhythm.
     '''
+    if division_mask is not None:
+        division_masks = [division_mask]
+    else:
+        division_masks = None
+    if logical_tie_mask is not None:
+        logical_tie_masks = [logical_tie_mask]
+    else:
+        logical_tie_masks = None
     return baca.RhythmCommand(
         division_expression=baca.sequence()
             .partition_by_counts([1, 2], cyclic=True, overhang=True)
@@ -17,6 +25,7 @@ def ritardando_rhythm():
                 stemlet_length=0.75,
                 use_feather_beams=True,
                 ),
+            division_masks=division_masks,
             interpolation_specifiers=[
                 rhythmos.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 8),
@@ -29,6 +38,7 @@ def ritardando_rhythm():
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
+            logical_tie_masks=logical_tie_masks,
             tuplet_specifier=rhythmos.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
