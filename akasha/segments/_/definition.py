@@ -12,15 +12,10 @@ stage_measure_map = baca.StageMeasureMap([
     abjad.Fermata('verylongfermata'),
     ])
 
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks['44']),
-    ])
-
 maker = baca.TimeSignatureMaker(
     akasha.time_signatures_b,
     rotation=0,
     stage_measure_map=stage_measure_map,
-    metronome_mark_measure_map=metronome_mark_measure_map,
     )
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
@@ -34,6 +29,11 @@ maker = baca.SegmentMaker(
     time_signatures=time_signatures,
     validate_measure_count=3,
     validate_stage_count=2,
+    )
+
+maker(
+    baca.scope('GlobalSkips', (1, -1)),
+    baca.metronome_mark('44'),
     )
 
 maker(
