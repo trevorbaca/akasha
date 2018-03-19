@@ -7,22 +7,17 @@ import baca
 ##################################### [_] #####################################
 ###############################################################################
 
-stage_measure_map = baca.StageMeasureMap([
-    1, 1,
-    abjad.Fermata('verylongfermata'),
-    ])
-
 maker = baca.TimeSignatureMaker(
     akasha.time_signatures_b,
+    count=3,
+    fermata_measures=[-1],
     rotation=0,
-    stage_measure_map=stage_measure_map,
     )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
+time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
     instruments=akasha.instruments,
     measures_per_stage=True,
-    metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_mark_stem_height=1.25,
     metronome_marks=akasha.metronome_marks,
     score_template=akasha.ScoreTemplate(),
@@ -33,6 +28,11 @@ maker = baca.SegmentMaker(
 maker(
     baca.scope('GlobalSkips', (1, -1)),
     baca.metronome_mark('44'),
+    )
+
+maker(
+    baca.scope('GlobalRests', -1),
+    baca.global_fermata('very_long'),
     )
 
 maker(

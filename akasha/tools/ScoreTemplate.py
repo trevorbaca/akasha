@@ -120,6 +120,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
+    always_make_global_rests = True
+
     ### SPECIAL METHODS ###
 
     def __call__(self):

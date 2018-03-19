@@ -664,6 +664,8 @@ L_CelloMusicVoice = {
     R1 * 1/4
     
     % [L CelloMusicVoice measure 338]                            %! SM4
+    \once \override CelloMusicStaff.Clef.X-extent = ##f          %! OC1:MEASURE_338:SHIFTED_CLEF
+    \once \override CelloMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! OC1:MEASURE_338:SHIFTED_CLEF
     \clef "bass"                                                 %! SM8:EXPLICIT_CLEF:IC
     \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override CelloMusicStaff.Clef.color = ##f                   %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
