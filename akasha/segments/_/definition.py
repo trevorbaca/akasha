@@ -8,7 +8,7 @@ import baca
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    2,
+    1, 1,
     abjad.Fermata('verylongfermata'),
     ])
 
@@ -28,7 +28,7 @@ maker = baca.SegmentMaker(
     score_template=akasha.ScoreTemplate(),
     time_signatures=time_signatures,
     validate_measure_count=3,
-    validate_stage_count=2,
+    validate_stage_count=3,
     )
 
 maker(
@@ -37,14 +37,10 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 1),
-    baca.make_repeat_tied_notes(),
-    )
-
-maker(
     baca.scope('ViolaMusicVoice', (1, 2)),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
+    baca.make_repeat_tied_notes(),
     baca.markup.OB_terminate_abruptly(),
     baca.staff_lines(1),
     baca.staff_positions([0]),
