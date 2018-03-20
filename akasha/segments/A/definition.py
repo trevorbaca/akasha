@@ -20,7 +20,6 @@ maker = baca.SegmentMaker(
     measures_per_stage=True,
     metronome_mark_stem_height=1.25,
     metronome_marks=akasha.metronome_marks,
-    rehearsal_mark='A',
     score_template=akasha.ScoreTemplate(),
     time_signatures=time_signatures,
     validate_measure_count=20,
@@ -34,6 +33,7 @@ maker(
     baca.metronome_mark('44', selector=baca.leaf(5)),
     baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(5)),
     baca.metronome_mark('55', selector=baca.leaf(9)),
+    baca.rehearsal_mark('A'),
     )
 
 maker(

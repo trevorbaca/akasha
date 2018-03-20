@@ -43,7 +43,6 @@ maker = baca.SegmentMaker(
     measures_per_stage=measures_per_stage,
     metronome_marks=akasha.metronome_marks,
     last_segment=True,
-    rehearsal_mark='N',
     score_template=akasha.ScoreTemplate(),
     spacing=spacing,
     metronome_mark_measure_map=metronome_mark_measure_map,
@@ -52,9 +51,10 @@ maker = baca.SegmentMaker(
     validate_stage_count=4,
     )
 
-###############################################################################
-##################################### TIME ####################################
-###############################################################################
+maker(
+    baca.scope('GlobalSkips', (1, -1)),
+    baca.rehearsal_mark('N'),
+    )
 
 maker(
     baca.make_scopes([
