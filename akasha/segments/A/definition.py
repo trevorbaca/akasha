@@ -16,11 +16,8 @@ maker = baca.TimeSignatureMaker(
 time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
-    instruments=akasha.instruments,
     measures_per_stage=True,
     metronome_mark_stem_height=1.25,
-    metronome_marks=akasha.metronome_marks,
-    score_template=akasha.ScoreTemplate(),
     time_signatures=time_signatures,
     validate_measure_count=20,
     )
