@@ -34,18 +34,15 @@ spacing = baca.HorizontalSpacingSpecifier(
 
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    instruments=akasha.instruments,
     final_markup=(
         ['Cambridge, MA', 'Dallas, TX', 'Madison, WI.'],
         ['October', 'December 2015.'],
         ),
     final_markup_extra_offset=(-41, -4),
-    measures_per_stage=measures_per_stage,
-    metronome_marks=akasha.metronome_marks,
     last_segment=True,
-    score_template=akasha.ScoreTemplate(),
-    spacing=spacing,
+    measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
+    spacing=spacing,
     time_signatures=time_signatures,
     validate_measure_count=25,
     validate_stage_count=4,
