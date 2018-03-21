@@ -59,21 +59,21 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.rehearsal_mark('F'),
     )
 
 ### stage 1 ###
 
 maker(
-    baca.scope('CelloMusicVoice', 1),
+    ('CelloMusicVoice', 1),
     akasha.cello_solo_rhythm(),
     )
 
 ### stages 2-3 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 2),
+    ('ViolinIMusicVoice', 2),
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
@@ -81,7 +81,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 2),
+    ('ViolinIIMusicVoice', 2),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
@@ -89,7 +89,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 2),
+    ('CelloMusicVoice', 2),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
@@ -99,14 +99,14 @@ maker(
 ### stages 4-5 ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 4),
+    ('ViolaMusicVoice', 4),
     baca.make_repeat_tied_notes(),
     )
 
 ### stages 6-7 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 6),
+    ('ViolinIMusicVoice', 6),
     abjad.new(
         akasha.accelerando_rhythm(),
         rhythm_maker__logical_tie_masks=abjad.silence([1, 6]),
@@ -114,7 +114,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 6),
+    ('ViolinIIMusicVoice', 6),
     abjad.new(
         akasha.ritardando_rhythm(),
         rhythm_maker__logical_tie_masks=abjad.silence([2, 5]),
@@ -193,7 +193,7 @@ accelerando_rhythm_maker = rhythmos.AccelerandoRhythmMaker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 8),
+    ('ViolinIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(0),
         rhythm_maker=talea_rhythm_maker,
@@ -202,7 +202,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 8),
+    ('ViolinIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(1).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
@@ -211,7 +211,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 8),
+    ('ViolinIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(2),
         rhythm_maker=talea_rhythm_maker,
@@ -220,7 +220,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 8),
+    ('ViolinIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(3).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
@@ -229,7 +229,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 8),
+    ('ViolinIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(4),
         rhythm_maker=talea_rhythm_maker,
@@ -238,7 +238,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 8),
+    ('ViolinIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
@@ -318,7 +318,7 @@ accelerando_rhythm_maker = rhythmos.AccelerandoRhythmMaker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8),
+    ('ViolinIIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(0),
         rhythm_maker=talea_rhythm_maker,
@@ -327,7 +327,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8),
+    ('ViolinIIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(1).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
@@ -336,7 +336,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8),
+    ('ViolinIIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(2),
         rhythm_maker=talea_rhythm_maker,
@@ -345,7 +345,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8),
+    ('ViolinIIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(3).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
@@ -354,7 +354,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8),
+    ('ViolinIIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(4),
         rhythm_maker=talea_rhythm_maker,
@@ -363,7 +363,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8),
+    ('ViolinIIMusicVoice', 8),
     baca.RhythmCommand(
         division_expression=division_expression(5).sum().sequence(),
         rhythm_maker=accelerando_rhythm_maker,
@@ -404,7 +404,7 @@ cello_counts = counts.partition_by_counts(cello_counts, overhang=abjad.Exact)
 cello_counts = [sum(_) for _ in cello_counts]
 
 maker(
-    baca.scope('ViolaMusicVoice', (8, 9)),
+    ('ViolaMusicVoice', (8, 9)),
     baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
@@ -423,7 +423,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', (8, 9)),
+    ('CelloMusicVoice', (8, 9)),
     baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
@@ -442,19 +442,19 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', (10, 11)),
+    ('ViolaMusicVoice', (10, 11)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', (10, 11)),
+    ('CelloMusicVoice', (10, 11)),
     baca.make_repeat_tied_notes(),
     )
 
 ### stages 13-14 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 13),
+    ('ViolinIMusicVoice', 13),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -462,7 +462,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 13),
+    ('ViolinIIMusicVoice', 13),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
@@ -470,7 +470,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 13),
+    ('ViolaMusicVoice', 13),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
@@ -478,7 +478,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 13),
+    ('CelloMusicVoice', 13),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
@@ -488,14 +488,14 @@ maker(
 ### stages 15-16 ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 15),
+    ('ViolaMusicVoice', 15),
     baca.make_repeat_tied_notes(),
     )
 
 ### stages 17-18 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 17),
+    ('ViolinIMusicVoice', 17),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -503,7 +503,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 17),
+    ('ViolinIIMusicVoice', 17),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
@@ -511,7 +511,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 17),
+    ('ViolaMusicVoice', 17),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [3, 6, 4, 6],
@@ -519,7 +519,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 17),
+    ('CelloMusicVoice', 17),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 6, 4],
@@ -528,7 +528,7 @@ maker(
 ### stages 19-20 ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 19),
+    ('ViolaMusicVoice', 19),
     baca.make_repeat_tied_notes(),
     )
 
@@ -539,7 +539,7 @@ maker(
 ### stage 1 ###
 
 maker(
-    baca.scope('CelloMusicVoice', 1),
+    ('CelloMusicVoice', 1),
     akasha.cello_solo_pitches(transposition=1),
     baca.clef('treble'),
     baca.dynamic('mp'),
@@ -549,19 +549,19 @@ maker(
 ### stages 2-3 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 2),
+    ('ViolinIMusicVoice', 2),
     akasha.getato_pitches(27, [2]),
     baca.staccati(),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 2),
+    ('ViolinIIMusicVoice', 2),
     akasha.getato_pitches(24, [2]),
     baca.staccati(),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 2),
+    ('CelloMusicVoice', 2),
     akasha.getato_pitches(21, [2]),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
@@ -571,7 +571,7 @@ maker(
 ### stages 4-5 ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 4),
+    ('ViolaMusicVoice', 4),
     baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_abruptly(),
@@ -581,14 +581,14 @@ maker(
 ### stages 6-7 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 6),
+    ('ViolinIMusicVoice', 6),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
     baca.pitches('Eb5 F5'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 6),
+    ('ViolinIIMusicVoice', 6),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
     baca.pitches('B4 C#5'),
@@ -597,7 +597,7 @@ maker(
 ### stage 8 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 8),
+    ('ViolinIMusicVoice', 8),
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.map(
         [baca.hairpin('pp < p'), baca.hairpin('p > pp')],
@@ -606,7 +606,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 8),
+    ('ViolinIIMusicVoice', 8),
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.map(
         [baca.hairpin('pp < p'), baca.hairpin('p > pp')],
@@ -615,14 +615,14 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', (8, 9)),
+    ('ViolaMusicVoice', (8, 9)),
     baca.dynamic('mp'),
     baca.pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4', exact=True),
     baca.markup.tasto_fractional_scratch(1, 2),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', (8, 9)),
+    ('CelloMusicVoice', (8, 9)),
     baca.clef('bass'),
     baca.dynamic('mp'),
     baca.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2', exact=True),
@@ -632,14 +632,14 @@ maker(
 #### stages 9-11 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 9),
+    ('ViolinIMusicVoice', 9),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
     baca.pitches('E5'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 9),
+    ('ViolinIIMusicVoice', 9),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
     baca.pitches('F#4'),
@@ -662,29 +662,29 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', (10, 11)),
+    ('ViolinIMusicVoice', (10, 11)),
     baca.pitches('F5'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', (10, 11)),
+    ('ViolinIIMusicVoice', (10, 11)),
     baca.pitches('F#4'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', (10, 11)),
+    ('ViolaMusicVoice', (10, 11)),
     baca.pitches('D#4'),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', (10, 11)),
+    ('CelloMusicVoice', (10, 11)),
     baca.pitches('Db2'),
     )
 
 ### stages 13-14 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 13),
+    ('ViolinIMusicVoice', 13),
     akasha.getato_pitches(29, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
@@ -692,7 +692,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 13),
+    ('ViolinIIMusicVoice', 13),
     akasha.getato_pitches(26, [2]),
     baca.staccati(),
     baca.markup.pos_ord(),
@@ -700,7 +700,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 13),
+    ('ViolaMusicVoice', 13),
     akasha.getato_pitches(23, [2]),
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
@@ -709,7 +709,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 13),
+    ('CelloMusicVoice', 13),
     akasha.getato_pitches(20, [2]),
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
@@ -720,7 +720,7 @@ maker(
 ### stages 15-16 ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 15),
+    ('ViolaMusicVoice', 15),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),
@@ -731,13 +731,13 @@ maker(
 ### stages 17-18 (x6) ###
 
 maker(
-    baca.scope('GlobalSkips', (17, 18)),
+    ('GlobalSkips', (17, 18)),
     baca.markup.boxed_repeat_count(6, baca.skip(0)),
     baca.volta(),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 17),
+    ('ViolinIMusicVoice', 17),
     akasha.getato_pitches(29, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
@@ -745,7 +745,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 17),
+    ('ViolinIIMusicVoice', 17),
     akasha.getato_pitches(26, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
@@ -753,7 +753,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 17),
+    ('ViolaMusicVoice', 17),
     akasha.getato_pitches(23, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
@@ -761,7 +761,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 17),
+    ('CelloMusicVoice', 17),
     akasha.getato_pitches(20, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
@@ -771,7 +771,7 @@ maker(
 ### stages 19-20 ###
 
 maker(
-    baca.scope('ViolaMusicVoice', 19),
+    ('ViolaMusicVoice', 19),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),

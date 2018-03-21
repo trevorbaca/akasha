@@ -48,14 +48,14 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.rehearsal_mark('G'),
     )
 
 ### stage 1 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 1),
+    ('ViolinIMusicVoice', 1),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -123,7 +123,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', (6, 7)),
+    ('ViolaMusicVoice', (6, 7)),
     baca.make_repeat_tied_notes(),
     )
 
@@ -134,32 +134,32 @@ maker(
 ### stage 1 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 1),
+    ('ViolinIMusicVoice', 1),
     akasha.getato_pitches(31, [2]),
     baca.hairpin('pp > niente'),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', (2, 4)),
+    ('ViolinIMusicVoice', (2, 4)),
     baca.glissando(),
     baca.loop([17, 19, 17, 15, 18, 16], [1]),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', (1, 4)),
+    ('ViolinIIMusicVoice', (1, 4)),
     baca.glissando(),
     baca.loop([6, 3, 5, 3, 1, 4], [1]),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', (1, 4)),
+    ('ViolaMusicVoice', (1, 4)),
     baca.clef('alto'),
     baca.glissando(),
     baca.loop([3, 5, 2, 4, 2, 0], [1]),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 6),
+    ('ViolaMusicVoice', 6),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
@@ -169,26 +169,26 @@ maker(
 
 
 maker(
-    baca.scope('CelloMusicVoice', (1, 4)),
+    ('CelloMusicVoice', (1, 4)),
     baca.clef('bass'),
     baca.glissando(),
     baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 6),
+    ('ViolinIMusicVoice', 6),
     baca.pitches('F#5'),
     baca.dynamic('ppp'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 6),
+    ('ViolinIIMusicVoice', 6),
     baca.pitches('Ab4'),
     baca.dynamic('ppp'),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 6),
+    ('CelloMusicVoice', 6),
     baca.pitches('C#2'),
     baca.dynamic('ppp'),
     )
@@ -206,7 +206,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 2),
+    ('ViolinIMusicVoice', 2),
     baca.single_segment_transition(
         baca.markup.tasto_fractional_scratch(1, 4),
         baca.markup.tasto(),

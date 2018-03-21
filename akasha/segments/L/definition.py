@@ -43,22 +43,22 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.rehearsal_mark('L'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 1),
+    ('ViolaMusicVoice', 1),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 3),
+    ('ViolaMusicVoice', 3),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 5),
+    ('CelloMusicVoice', 5),
     baca.make_repeat_tied_notes(),
     )
 
@@ -67,7 +67,7 @@ maker(
 ###############################################################################
 
 maker(
-    baca.scope('ViolaMusicVoice', (1, 3)),
+    ('ViolaMusicVoice', (1, 3)),
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_each_note_abruptly(),
@@ -77,7 +77,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 5),
+    ('CelloMusicVoice', 5),
     baca.markup.pos_ord_vib_poco(),
     baca.pitches('Bb1'),
     baca.clef('bass'),
