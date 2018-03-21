@@ -49,7 +49,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.rehearsal_mark('N'),
     )
 
@@ -67,7 +67,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', (2, 3)),
+    ('ViolinIIMusicVoice', (2, 3)),
     abjad.new(
         akasha.sparse_getato_rhythm(),
         rhythm_maker__division_masks=~abjad.silence([3, 36, 37]),
@@ -75,7 +75,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 3),
+    ('CelloMusicVoice', 3),
     baca.RhythmCommand(
         rhythm_maker=rhythmos.NoteRhythmMaker(
             division_masks=abjad.silence([0], 1, use_multimeasure_rests=True),
@@ -105,7 +105,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', (2, 3)),
+    ('ViolinIIMusicVoice', (2, 3)),
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),

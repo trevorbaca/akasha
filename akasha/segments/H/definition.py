@@ -43,7 +43,7 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, 5)),
+    'GlobalSkips',
     baca.rehearsal_mark('H'),
     baca.volta(),
     )
@@ -51,22 +51,22 @@ maker(
 ### stage 1 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 1),
+    ('ViolinIMusicVoice', 1),
     akasha.accelerando_rhythm(),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 1),
+    ('ViolinIIMusicVoice', 1),
     akasha.ritardando_rhythm(),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', (1, 2)),
+    ('ViolaMusicVoice', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 1),
+    ('CelloMusicVoice', 1),
     abjad.new(
         akasha.ritardando_rhythm(),
         division_expression=baca.sequence().sum().sequence(),
@@ -104,46 +104,46 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 1),
+    ('ViolinIMusicVoice', 1),
     baca.pitches('D4 E4'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 1),
+    ('ViolinIIMusicVoice', 1),
     baca.pitches('C#4 D#4'),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 1),
+    ('CelloMusicVoice', 1),
     baca.pitches('C4 D4'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', (1, 2)),
+    ('ViolaMusicVoice', (1, 2)),
     baca.staff_positions([0]),
     baca.staff_lines(1),
     )
 
 maker(
-    baca.scope('ViolinIMusicVoice', 2),
+    ('ViolinIMusicVoice', 2),
     baca.pitches('F#5'),
     baca.dynamic('ppp'),
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 2),
+    ('ViolinIIMusicVoice', 2),
     baca.pitches('Ab4'),
     baca.dynamic('ppp'),
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 2),
+    ('CelloMusicVoice', 2),
     baca.pitches('C#2'),
     baca.dynamic('ppp'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', 4),
+    ('ViolaMusicVoice', 4),
     baca.markup.tasto(),
     baca.pitches('D#3 C+3', exact=True),
     baca.glissando(),
@@ -151,7 +151,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 4),
+    ('CelloMusicVoice', 4),
     baca.markup.tasto(),
     baca.pitches('C#2 Bb1', exact=True),
     baca.glissando(),

@@ -42,14 +42,14 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.rehearsal_mark('J'),
     )
 
 ### stage 1 ###
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 1),
+    ('ViolinIIMusicVoice', 1),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([-1]),
@@ -58,14 +58,14 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 1),
+    ('CelloMusicVoice', 1),
     akasha.scratch_rhythm([4], ~abjad.silence([1]), [-1]),
     )
 
 ### stage 2 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 2),
+    ('ViolinIMusicVoice', 2),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([0]),
@@ -74,7 +74,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 2),
+    ('ViolinIIMusicVoice', 2),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([2]),
@@ -85,7 +85,7 @@ maker(
 ### stages 3 ###
 
 maker(
-    baca.scope('ViolinIMusicVoice', 3),
+    ('ViolinIMusicVoice', 3),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([0]),
@@ -94,7 +94,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', 3),
+    ('ViolinIIMusicVoice', 3),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([-1]),
@@ -103,7 +103,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', 3),
+    ('CelloMusicVoice', 3),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([1]),
@@ -116,7 +116,7 @@ maker(
 ###############################################################################
 
 maker(
-    baca.scope('ViolinIMusicVoice', (1, 3)),
+    ('ViolinIMusicVoice', (1, 3)),
     akasha.getato_pitches(5, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
@@ -124,7 +124,7 @@ maker(
     )
 
 maker(
-    baca.scope('ViolinIIMusicVoice', (1, 3)),
+    ('ViolinIIMusicVoice', (1, 3)),
     akasha.getato_pitches(-3, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
@@ -132,7 +132,7 @@ maker(
     )
 
 maker(
-    baca.scope('CelloMusicVoice', (1, 3)),
+    ('CelloMusicVoice', (1, 3)),
     akasha.getato_pitches(-13, [2]),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),

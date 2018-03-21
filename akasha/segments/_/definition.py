@@ -22,17 +22,17 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    baca.scope('GlobalSkips', (1, -1)),
+    'GlobalSkips',
     baca.metronome_mark('44'),
     )
 
 maker(
-    baca.scope('GlobalRests', -1),
+    ('GlobalRests', -1),
     baca.global_fermata('very_long'),
     )
 
 maker(
-    baca.scope('ViolaMusicVoice', (1, 2)),
+    ('ViolaMusicVoice', (1, 2)),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.make_repeat_tied_notes(),
