@@ -7,17 +7,9 @@ import baca
 ##################################### [_] #####################################
 ###############################################################################
 
-maker = baca.TimeSignatureMaker(
-    akasha.time_signatures_b,
-    count=3,
-    fermata_measures=[-1],
-    rotation=0,
-    )
-time_signatures = maker.run()
-
 maker = baca.SegmentMaker(
     metronome_mark_stem_height=1.25,
-    time_signatures=time_signatures,
+    time_signatures=akasha.time_signatures('B', 3, 0, [-1]),
     validate_measure_count=3,
     )
 
