@@ -11,5 +11,6 @@ from .polyphony_rhythm import polyphony_rhythm
 from .ritardando_rhythm import ritardando_rhythm
 from .scratch_rhythm import scratch_rhythm
 from .sparse_getato_rhythm import sparse_getato_rhythm
+from .time_signatures import time_signatures
 from .untied_notes import untied_notes
 from .viola_ob_rhythm import viola_ob_rhythm
