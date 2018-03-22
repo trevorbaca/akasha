@@ -4193,59 +4193,41 @@ F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 161]                         %! SM4
     R1 * 1/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F ViolinIIMusicVoice measure 162]                     %! SM4
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        b'4
-        \<                                                       %! HC1
-        \pp                                                      %! HC1
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        b'4
-        \repeatTie
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        b'16
-        \repeatTie
-        [
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        cs''8.
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        cs''16
-        \repeatTie
-        \p                                                       %! HC1
-        
-        r8.
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F ViolinIIMusicVoice measure 163]                     %! SM4
-        r16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        b'8.
-        \>                                                       %! HC1
-        \p                                                       %! HC1
-    }
+    
+    % [F ViolinIIMusicVoice measure 162]                         %! SM4
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b'4
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    b'4
+    \repeatTie
+    
+    b'16
+    \repeatTie
+    [
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    cs''8.
+    ]
+    
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    cs''16
+    \repeatTie
+    \p                                                           %! HC1
+    
+    r8.
+    
+    r4
+    
+    % [F ViolinIIMusicVoice measure 163]                         %! SM4
+    r16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b'8.
+    \>                                                           %! HC1
+    \p                                                           %! HC1
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -4309,112 +4291,73 @@ F_ViolinIIMusicVoice = {
         \p                                                       %! HC1
     }
     \revert TupletNumber.text
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        cs''4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        cs''4
-        \repeatTie
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        cs''16
-        \repeatTie
-        [
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        b'8.
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        b'16
-        \repeatTie
-        \pp                                                      %! HC1
-        
-        r8.
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F ViolinIIMusicVoice measure 165]                     %! SM4
-        r16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        d''8.
-        \<                                                       %! HC1
-        \pp                                                      %! HC1
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        d''4
-        \repeatTie
-        \p                                                       %! HC1
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F ViolinIIMusicVoice measure 166]                     %! SM4
-        r16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        b'8.
-        \>                                                       %! HC1
-        \p                                                       %! HC1
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        b'16
-        \repeatTie
-        \pp                                                      %! HC1
-        
-        r8.
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        d''8.
-        \<                                                       %! HC1
-        \pp                                                      %! HC1
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    cs''4
+    
+    cs''4
+    \repeatTie
+    
+    cs''16
+    \repeatTie
+    [
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    b'8.
+    ]
+    
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    b'16
+    \repeatTie
+    \pp                                                          %! HC1
+    
+    r8.
+    
+    r4
+    
+    % [F ViolinIIMusicVoice measure 165]                         %! SM4
+    r16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    d''8.
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    d''4
+    \repeatTie
+    \p                                                           %! HC1
+    
+    r4
+    
+    r4
+    
+    % [F ViolinIIMusicVoice measure 166]                         %! SM4
+    r16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b'8.
+    \>                                                           %! HC1
+    \p                                                           %! HC1
+    
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    b'16
+    \repeatTie
+    \pp                                                          %! HC1
+    
+    r8.
+    
+    r4
+    
+    r16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    d''8.
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -4498,63 +4441,42 @@ F_ViolinIIMusicVoice = {
         \pp                                                      %! HC1
     }
     \revert TupletNumber.text
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F ViolinIIMusicVoice measure 169]                     %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        d''4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        d''4
-        \repeatTie
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        d''16
-        \repeatTie
-        [
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        c''8.
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        c''16
-        \repeatTie
-        \p                                                       %! HC1
-        
-        r8.
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F ViolinIIMusicVoice measure 170]                     %! SM4
-        r16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        d''8.
-        \>                                                       %! HC1
-        \p                                                       %! HC1
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        d''4
-        \repeatTie
-    }
+    
+    % [F ViolinIIMusicVoice measure 169]                         %! SM4
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    d''4
+    
+    d''4
+    \repeatTie
+    
+    d''16
+    \repeatTie
+    [
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    c''8.
+    ]
+    
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    c''16
+    \repeatTie
+    \p                                                           %! HC1
+    
+    r8.
+    
+    r4
+    
+    % [F ViolinIIMusicVoice measure 170]                         %! SM4
+    r16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    d''8.
+    \>                                                           %! HC1
+    \p                                                           %! HC1
+    
+    d''4
+    \repeatTie
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
