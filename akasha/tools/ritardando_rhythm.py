@@ -3,22 +3,35 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def ritardando_rhythm(division_mask=None, logical_tie_mask=None):
+def ritardando_rhythm(
+    division_expression=None,
+    division_mask=None,
+    logical_tie_mask=None,
+    ):
     r'''Makes ritardando rhythm.
     '''
+
+    if division_expression is None:
+        expression = baca.sequence().partition_by_counts(
+            [1, 2],
+            cyclic=True,
+            overhang=True,
+            )
+        expression = expression.map(baca.sequence().sum()).flatten(depth=-1)
+        division_expression = expression
+
     if division_mask is not None:
         division_masks = [division_mask]
     else:
         division_masks = None
+
     if logical_tie_mask is not None:
         logical_tie_masks = [logical_tie_mask]
     else:
         logical_tie_masks = None
+
     return baca.RhythmCommand(
-        division_expression=baca.sequence()
-            .partition_by_counts([1, 2], cyclic=True, overhang=True)
-            .map(baca.sequence().sum())
-            .flatten(depth=-1),
+        division_expression=division_expression,
         rhythm_maker=rhythmos.AccelerandoRhythmMaker(
             beam_specifier=rhythmos.BeamSpecifier(
                 beam_rests=True,

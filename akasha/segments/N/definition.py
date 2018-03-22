@@ -60,9 +60,9 @@ maker(
         'CelloMusicVoice'],
         [(1, 2)],
         ),
-    abjad.new(
-        baca.make_notes(repeat_ties=True),
-        rhythm_maker__division_masks=abjad.silence([1], 2),
+    baca.make_notes(
+        division_mask=abjad.silence([1], 2),
+        repeat_ties=True,
         ),
     )
 

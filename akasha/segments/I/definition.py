@@ -165,16 +165,14 @@ maker(
 
 maker(
     ('ViolaMusicVoice', 14),
-    abjad.new(
-        akasha.accelerando_rhythm(),
+    akasha.accelerando_rhythm(
         division_expression=baca.sequence().sum().sequence(),
         ),
     )
 
 maker(
     ('CelloMusicVoice', 14),
-    abjad.new(
-        akasha.ritardando_rhythm(),
+    akasha.ritardando_rhythm(
         division_expression=baca.sequence().sum().sequence(),
         ),
     )
