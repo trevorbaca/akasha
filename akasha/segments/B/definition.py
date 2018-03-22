@@ -47,14 +47,14 @@ maker(
     baca.rehearsal_mark('B'),
     )
 
-### stages 1-2 ###
-
 maker(
     ('ViolinIMusicVoice', 1),
     abjad.new(
-        akasha.accelerando_rhythm(fuse_counts=[1]),
-        rhythm_maker__logical_tie_masks=abjad.silence([1]),
-        rhythm_maker__division_masks=abjad.silence([-2, -1]),
+        akasha.accelerando_rhythm(
+            division_mask=abjad.silence([-2, -1]),
+            fuse_counts=[1],
+            logical_tie_mask=abjad.silence([1]),
+            ),
         ),
     )
 
