@@ -123,7 +123,6 @@ def division_expression(index):
     expression = expression[index]
     return expression
 
-
 talea_rhythm_maker = rhythmos.TaleaRhythmMaker(
     extra_counts_per_division=[1],
     logical_tie_masks=[
@@ -217,27 +216,9 @@ maker(
         ),
     )
 
-### violin 2 ###
-
 pattern = abjad.index([2], 4) | abjad.index([4], 5)
 silence_mask = abjad.SilenceMask(pattern)
 sustain_mask = abjad.sustain([0, -1])
-
-#def division_expression(index):
-#    ratio = abjad.Ratio((1, 1, 2, 2, 1, 2))
-#    expression = sequence()
-#    expression = expression.map()
-#    expression = expression.sequence()
-#    expression = expression.split(
-#        [abjad.Duration(1, 4)],
-#        cyclic=True,
-#        overhang=True,
-#        )
-#    expression = expression.flatten(depth=-1)
-#    expression = expression.partition_by_ratio_of_lengths(ratio)
-#    expression = expression[index]
-#    return expression
-
 
 def division_expression(index):
     ratio = abjad.Ratio((1, 1, 2, 2, 1, 2))
@@ -249,7 +230,6 @@ def division_expression(index):
 
 
 talea_rhythm_maker = rhythmos.TaleaRhythmMaker(
-    #extra_counts_per_division=[2],
     extra_counts_per_division=[0],
     logical_tie_masks=[
         silence_mask,
@@ -343,8 +323,6 @@ maker(
         ),
     )
 
-### stages 9-12 ###
-
 maker(
     baca.make_scopes(['ViolinIMusicVoice', 'ViolinIIMusicVoice'], [9]),
     baca.make_repeat_tied_notes(),
@@ -423,8 +401,6 @@ maker(
     baca.make_repeat_tied_notes(),
     )
 
-### stages 13-14 ###
-
 maker(
     ('ViolinIMusicVoice', 13),
     akasha.dense_getato_rhythm(
@@ -457,14 +433,10 @@ maker(
         ),
     )
 
-### stages 15-16 ###
-
 maker(
     ('ViolaMusicVoice', 15),
     baca.make_repeat_tied_notes(),
     )
-
-### stages 17-18 ###
 
 maker(
     ('ViolinIMusicVoice', 17),
@@ -497,18 +469,10 @@ maker(
         [6, 3, 6, 4],
         ),
     )
-### stages 19-20 ###
-
 maker(
     ('ViolaMusicVoice', 19),
     baca.make_repeat_tied_notes(),
     )
-
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
-
-### stage 1 ###
 
 maker(
     ('CelloMusicVoice', 1),
@@ -517,8 +481,6 @@ maker(
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
     )
-
-### stages 2-3 ###
 
 maker(
     ('ViolinIMusicVoice', 2),
@@ -540,8 +502,6 @@ maker(
     baca.staccati(),
     )
 
-### stages 4-5 ###
-
 maker(
     ('ViolaMusicVoice', 4),
     baca.dynamic('ff'),
@@ -549,8 +509,6 @@ maker(
     baca.markup.terminate_abruptly(),
     baca.pitches('F#3'),
     )
-
-### stages 6-7 ###
 
 maker(
     ('ViolinIMusicVoice', 6),
@@ -565,8 +523,6 @@ maker(
     baca.markup.tasto_XFB(),
     baca.pitches('B4 C#5'),
     )
-
-### stage 8 ###
 
 maker(
     ('ViolinIMusicVoice', 8),
@@ -600,8 +556,6 @@ maker(
     baca.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2', exact=True),
     baca.markup.tasto_fractional_scratch(1, 2),
     )
-
-#### stages 9-11 ###
 
 maker(
     ('ViolinIMusicVoice', 9),
@@ -653,8 +607,6 @@ maker(
     baca.pitches('Db2'),
     )
 
-### stages 13-14 ###
-
 maker(
     ('ViolinIMusicVoice', 13),
     akasha.getato_pitches(29, [2]),
@@ -689,8 +641,6 @@ maker(
     baca.staccati(),
     )
 
-### stages 15-16 ###
-
 maker(
     ('ViolaMusicVoice', 15),
     baca.down_bows(),
@@ -699,8 +649,6 @@ maker(
     baca.staff_lines(1),
     baca.staff_positions([0]),
     )
-
-### stages 17-18 (x6) ###
 
 maker(
     ('GlobalSkips', (17, 18)),
@@ -739,8 +687,6 @@ maker(
     baca.markup.leggieriss(),
     baca.staccati(),
     )
-
-### stages 19-20 ###
 
 maker(
     ('ViolaMusicVoice', 19),
