@@ -63,14 +63,10 @@ maker(
     baca.rehearsal_mark('F'),
     )
 
-### stage 1 ###
-
 maker(
     ('CelloMusicVoice', 1),
     akasha.cello_solo_rhythm(),
     )
-
-### stages 2-3 ###
 
 maker(
     ('ViolinIMusicVoice', 2),
@@ -96,14 +92,10 @@ maker(
         ),
     )
 
-### stages 4-5 ###
-
 maker(
     ('ViolaMusicVoice', 4),
     baca.make_repeat_tied_notes(),
     )
-
-### stages 6-7 ###
 
 maker(
     ('ViolinIMusicVoice', 6),
@@ -119,27 +111,9 @@ maker(
         ),
     )
 
-### stage 8 ###
-
 pattern = abjad.index([1], 4) | abjad.index([4], 5)
 silence_mask = abjad.SilenceMask(pattern)
 sustain_mask = abjad.sustain([0, -1])
-
-#def division_expression(index):
-#    ratio = abjad.Ratio((2, 1, 2, 2, 1, 2))
-#    expression = sequence()
-#    expression = expression.map()
-#    expression = expression.sequence()
-#    expression = expression.split(
-#        [abjad.Duration(1, 4)],
-#        cyclic=True,
-#        overhang=True,
-#        )
-#    expression = expression.flatten(depth=-1)
-#    expression = expression.partition_by_ratio_of_lengths(ratio)
-#    expression = expression[index]
-#    return expression
-
 
 def division_expression(index):
     ratio = abjad.Ratio((2, 1, 2, 2, 1, 2))
