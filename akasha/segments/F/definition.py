@@ -187,60 +187,14 @@ maker(
     baca.make_repeat_tied_notes(),
     )
 
-counts = [7, 4, 11, 8]
-counts += [14, 8, 11, 8]
-counts += [14, 8, 22, 16]
-counts += [28, 16, 22, 16]
-counts += [46, 32, 22, 16]
-counts = baca.sequence(counts)
-assert len(counts) == 20
-
-viola_counts = [2, 1, 2, 1, 1, 3, 2, 1, 7]
-assert sum(viola_counts) == len(counts)
-viola_counts = counts.partition_by_counts(viola_counts, overhang=abjad.Exact)
-viola_counts = [sum(_) for _ in viola_counts]
-
-cello_counts = [1, 3, 4, 1, 2, 3, 6]
-assert sum(cello_counts) == len(counts)
-cello_counts = counts.partition_by_counts(cello_counts, overhang=abjad.Exact)
-cello_counts = [sum(_) for _ in cello_counts]
-
 maker(
     ('ViolaMusicVoice', (8, 9)),
-    baca.RhythmCommand(
-        division_expression=baca.strict_quarter_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TaleaRhythmMaker(
-            read_talea_once_only=True,
-            talea=rhythmos.Talea(
-                counts=viola_counts,
-                denominator=16,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),
-        tie_last=False,
-        ),
+    akasha.manifest([2, 1, 2, 1, 1, 3, 2, 1, 7]),
     )
 
 maker(
     ('CelloMusicVoice', (8, 9)),
-    baca.RhythmCommand(
-        division_expression=baca.strict_quarter_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TaleaRhythmMaker(
-            read_talea_once_only=True,
-            talea=rhythmos.Talea(
-                counts=cello_counts,
-                denominator=16,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),
-        tie_last=False,
-        ),
+    akasha.manifest([1, 3, 4, 1, 2, 3, 6]),
     )
 
 maker(
