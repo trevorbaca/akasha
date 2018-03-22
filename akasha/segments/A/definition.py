@@ -50,7 +50,7 @@ maker(
 maker(
     ('ViolinIIMusicVoice', 4),
     akasha.sparse_getato_rhythm(
-        division_masks=[abjad.silence([0, 1], inverted=True)],
+        division_mask=abjad.silence([0, 1], inverted=True),
         ),
     )
 
@@ -62,7 +62,7 @@ maker(
 maker(
     ('ViolaMusicVoice', 4),
     akasha.sparse_getato_rhythm(
-        division_masks=[abjad.silence([-1], inverted=True)],
+        division_mask=abjad.silence([-1], inverted=True),
         ),
     )
 
@@ -99,7 +99,7 @@ maker(
 maker(
     ('ViolinIMusicVoice', 9),
     akasha.sparse_getato_rhythm(
-        division_masks=[abjad.silence([-2, -1], inverted=True)],
+        division_mask=abjad.silence([-2, -1], inverted=True),
         ),
     )
 
@@ -228,7 +228,7 @@ maker(
 maker(
     ('CelloMusicVoice', 19),
     akasha.sparse_getato_rhythm(
-        division_masks=[abjad.silence([1], inverted=True)],
+        division_mask=abjad.silence([1], inverted=True),
         ),
     )
 
