@@ -66,7 +66,12 @@ maker(
         ('ViolaMusicVoice', 1),
         ('CelloMusicVoice', 1),
         ),
+    baca.hairpin('ff > f'),
     baca.make_notes(repeat_ties=True),
+    baca.single_segment_transition(
+        baca.markup.tasto_plus_scratch_moltiss(),
+        baca.markup.fractional_scratch(1, 4),
+        ),
     )
 
 maker(
@@ -76,7 +81,28 @@ maker(
         ('ViolaMusicVoice', 2),
         ('CelloMusicVoice', 2),
         ),
+    baca.hairpin('f > mf'),
     baca.make_notes(repeat_ties=True),
+    )
+
+maker(
+    ('ViolinIMusicVoice', 2),
+    baca.single_segment_transition(
+        baca.markup.tasto_fractional_scratch(1, 4),
+        baca.markup.tasto(),
+        ),
+    )
+
+maker(
+    baca.scopes(
+        ('ViolinIIMusicVoice', 2),
+        ('ViolaMusicVoice', 2),
+        ('CelloMusicVoice', 2),
+        ),
+    baca.single_segment_transition(
+        baca.markup.trans(),
+        baca.markup.tasto(),
+        ),
     )
 
 maker(
@@ -86,7 +112,12 @@ maker(
         ('ViolaMusicVoice', 3),
         ('CelloMusicVoice', 3),
         ),
+    baca.hairpin('mf > p'),
     baca.make_notes(repeat_ties=True),
+    baca.single_segment_transition(
+        baca.markup.trans(),
+        baca.markup.FB(),
+        ),
     )
 
 maker(
@@ -96,7 +127,12 @@ maker(
         ('ViolaMusicVoice', 4),
         ('CelloMusicVoice', 4),
         ),
+    baca.hairpin('p > pp'),
     baca.make_notes(repeat_ties=True),
+    baca.single_segment_transition(
+        baca.markup.trans(),
+        baca.markup.XFB(),
+        ),
     )
 
 maker(
@@ -171,67 +207,4 @@ maker(
     ('CelloMusicVoice', 6),
     baca.dynamic('ppp'),
     baca.pitches('C#2'),
-    )
-
-maker(
-    baca.scopes(
-        ('ViolinIIMusicVoice', 1),
-        ('ViolaMusicVoice', 1),
-        ('CelloMusicVoice', 1),
-        ),
-    baca.hairpin('ff > f'),
-    baca.single_segment_transition(
-        baca.markup.tasto_plus_scratch_moltiss(),
-        baca.markup.fractional_scratch(1, 4),
-        ),
-    )
-
-maker(
-    ('ViolinIMusicVoice', 2),
-    baca.single_segment_transition(
-        baca.markup.tasto_fractional_scratch(1, 4),
-        baca.markup.tasto(),
-        ),
-    baca.hairpin('f > mf'),
-    )
-
-maker(
-    baca.scopes(
-        ('ViolinIIMusicVoice', 2),
-        ('ViolaMusicVoice', 2),
-        ('CelloMusicVoice', 2),
-        ),
-    baca.single_segment_transition(
-        baca.markup.trans(),
-        baca.markup.tasto(),
-        ),
-    baca.hairpin('f > mf'),
-    )
-
-maker(
-    baca.scopes(
-        ('ViolinIMusicVoice', 3),
-        ('ViolinIIMusicVoice', 3),
-        ('ViolaMusicVoice', 3),
-        ('CelloMusicVoice', 3),
-        ),
-    baca.single_segment_transition(
-        baca.markup.trans(),
-        baca.markup.FB(),
-        ),
-    baca.hairpin('mf > p'),
-    )
-
-maker(
-    baca.scopes(
-        ('ViolinIMusicVoice', 4),
-        ('ViolinIIMusicVoice', 4),
-        ('ViolaMusicVoice', 4),
-        ('CelloMusicVoice', 4),
-        ),
-    baca.single_segment_transition(
-        baca.markup.trans(),
-        baca.markup.XFB(),
-        ),
-    baca.hairpin('p > pp'),
     )
