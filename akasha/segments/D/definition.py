@@ -137,62 +137,36 @@ maker(
 ### stages 12-13 ###
 
 maker(
-    baca.make_scopes(
-        ['ViolinIMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
-        [12],
+    baca.scopes(
+        ('ViolinIMusicVoice', 12),
+        ('ViolaMusicVoice', 12),
+        ('CelloMusicVoice', 12),
         ),
     akasha.untied_notes(),
     )
 
 maker(
     ('ViolinIIMusicVoice', 12),
-    baca.RhythmCommand(
-        division_expression=baca.sequence()
-            .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
-            [0],
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            duration_specifier=rhythmos.DurationSpecifier(
-                rewrite_meter=True,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            ),
-        )
+    akasha.fill_first_half(),
     )
 
-### stage 14 ###
-
 maker(
-    baca.make_scopes(['ViolinIMusicVoice', 'ViolaMusicVoice'], [14]),
+    baca.scopes(
+        ('ViolinIMusicVoice', 14),
+        ('ViolaMusicVoice', 14),
+        ),
     akasha.untied_notes(),
     )
 
 maker(
     ('ViolinIIMusicVoice', 14),
-    baca.RhythmCommand(
-        division_expression=baca.sequence()
-            .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
-            [0],
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            duration_specifier=rhythmos.DurationSpecifier(
-                rewrite_meter=True,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            ),
-        )
+    akasha.fill_first_half(),
     )
 
 maker(
     ('CelloMusicVoice', 14),
     akasha.untied_notes(),
     )
-
-### stages 15-17 ###
 
 maker(
     ('CelloMusicVoice', 15),
@@ -203,10 +177,6 @@ maker(
     ('CelloMusicVoice', 16),
     akasha.glissando_rhythm(),
     )
-
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
 
 maker(
     ('ViolinIMusicVoice', 1),
