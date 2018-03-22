@@ -88,7 +88,7 @@ maker(
 
 maker(
     ('CelloMusicVoice', (1, 8)),
-    baca.pitches('Bb1'),
+    baca.pitch('Bb1'),
     )
 
 maker(
@@ -106,17 +106,17 @@ maker(
 maker(
     ('ViolinIMusicVoice', (2, 10)),
     baca.repeat_ties_up(),
-    baca.pitches('Bb4'),
+    baca.pitch('Bb4'),
     )
 
 maker(
     ('ViolinIIMusicVoice', (2, 10)),
-    baca.pitches('Bb3'),
+    baca.pitch('Bb3'),
     )
 
 maker(
     ('ViolaMusicVoice', (2, 10)),
-    baca.pitches('Bb2'),
+    baca.pitch('Bb2'),
     )
 
 maker(

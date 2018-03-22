@@ -125,19 +125,19 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', 2),
-    baca.pitches('F#5'),
+    baca.pitch('F#5'),
     baca.dynamic('ppp'),
     )
 
 maker(
     ('ViolinIIMusicVoice', 2),
-    baca.pitches('Ab4'),
+    baca.pitch('Ab4'),
     baca.dynamic('ppp'),
     )
 
 maker(
     ('CelloMusicVoice', 2),
-    baca.pitches('C#2'),
+    baca.pitch('C#2'),
     baca.dynamic('ppp'),
     )
 

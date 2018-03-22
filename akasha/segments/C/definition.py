@@ -186,7 +186,7 @@ maker(
         baca.scope('CelloMusicVoice', 5),
         baca.scope('CelloMusicVoice', 7),
         ],
-    baca.pitches('C#2'),
+    baca.pitch('C#2'),
     )
 
 maker(
@@ -232,7 +232,7 @@ maker(
 
 maker(
     ('CelloMusicVoice', 9),
-    baca.pitches('C#2'),
+    baca.pitch('C#2'),
     baca.hairpin('mp > pp'),
     )
 
@@ -260,7 +260,7 @@ maker(
 maker(
     ('CelloMusicVoice', 20),
     baca.markup.tasto_fractional_scratch(1, 2),
-    baca.pitches('C4'),
+    baca.pitch('C4'),
     baca.dynamic('mp'),
     )
 
@@ -268,7 +268,7 @@ maker(
     ('ViolinIIMusicVoice', (22, 23)),
     baca.dynamic('pp'),
     baca.markup.tasto(),
-    baca.pitches('G5'),
+    baca.pitch('G5'),
     baca.trill_spanner('M2'),
     )
 
@@ -283,6 +283,6 @@ maker(
 maker(
     ('CelloMusicVoice', (22, 23)),
     baca.markup.tasto(),
-    baca.pitches('C#2'),
+    baca.pitch('C#2'),
     baca.hairpin('mp > pp'),
     )

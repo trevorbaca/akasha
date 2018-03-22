@@ -218,22 +218,22 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', 1),
-    baca.pitches('B5'),
+    baca.pitch('B5'),
     )
 
 maker(
     ('ViolinIIMusicVoice', 1),
-    baca.pitches('A#+3'),
+    baca.pitch('A#+3'),
     )
 
 maker(
     ('ViolaMusicVoice', 1),
-    baca.pitches('B+2'),
+    baca.pitch('B+2'),
     )
 
 maker(
     ('CelloMusicVoice', 1),
-    baca.pitches('B1'),
+    baca.pitch('B1'),
     )
 
 maker(
@@ -255,17 +255,17 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', 3),
-    baca.pitches('B5'),
+    baca.pitch('B5'),
     )
 
 maker(
     ('ViolinIIMusicVoice', 3),
-    baca.pitches('B3'),
+    baca.pitch('B3'),
     )
 
 maker(
     ('CelloMusicVoice', 3),
-    baca.pitches('B1'),
+    baca.pitch('B1'),
     )
 
 maker(
@@ -306,12 +306,12 @@ maker(
 
 maker(
     ('ViolinIIMusicVoice', 5),
-    baca.pitches('A#+3'),
+    baca.pitch('A#+3'),
     )
 
 maker(
     ('CelloMusicVoice', 5),
-    baca.pitches('B1'),
+    baca.pitch('B1'),
     )
 
 maker(
@@ -355,7 +355,7 @@ maker(
 
 maker(
     ('CelloMusicVoice', 7),
-    baca.pitches('B1'),
+    baca.pitch('B1'),
     )
 
 maker(
@@ -512,22 +512,22 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', (16, 19)),
-    baca.pitches('B4'),
+    baca.pitch('B4'),
     )
 
 maker(
     ('ViolinIIMusicVoice', (16, 19)),
-    baca.pitches('B3'),
+    baca.pitch('B3'),
     )
 
 maker(
     ('ViolaMusicVoice', (16, 19)),
-    baca.pitches('B2'),
+    baca.pitch('B2'),
     )
 
 maker(
     ('CelloMusicVoice', (16, 19)),
-    baca.pitches('B1'),
+    baca.pitch('B1'),
     )
 
 maker(

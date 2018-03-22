@@ -192,7 +192,7 @@ maker(
     ('ViolinIMusicVoice', (1, 3)),
     baca.markup('5°/A4(II) + vib. mod.'),
     baca.natural_harmonics(),
-    baca.pitches('C#7'),
+    baca.pitch('C#7'),
     baca.dynamic('mp'),
     )
 
@@ -275,14 +275,14 @@ maker(
     ('ViolinIIMusicVoice', (12, 14)),
     baca.map(baca.trill_spanner('M2'), baca.qruns()),
     baca.markup.tasto(),
-    baca.pitches('G5'),
+    baca.pitch('G5'),
     baca.dynamic('p'),
     )
 
 maker(
     ('ViolaMusicVoice', (1, 7)),
     baca.natural_harmonics(),
-    baca.pitches('G~5'),
+    baca.pitch('G~5'),
     )
 
 maker(
@@ -315,7 +315,7 @@ maker(
 maker(
     ('CelloMusicVoice', (1, 5)),
     baca.natural_harmonics(),
-    baca.pitches('D5'),
+    baca.pitch('D5'),
     )
 
 maker(
@@ -335,7 +335,7 @@ maker(
 maker(
     ('CelloMusicVoice', 9),
     baca.markup.tasto(),
-    baca.pitches('C#2'),
+    baca.pitch('C#2'),
     baca.hairpin('sf > ppp'),
     )
 
