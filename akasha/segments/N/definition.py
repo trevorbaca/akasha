@@ -74,32 +74,18 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 3),
-    baca.RhythmCommand(
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=abjad.silence([0], 1, use_multimeasure_rests=True),
-            ),
-        ),
-    )
-
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
-
-maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolaMusicVoice',
-        'CelloMusicVoice'],
-        [(1, 3)],
+    baca.scopes(
+        ('ViolinIMusicVoice', (1, 3)),
+        ('ViolaMusicVoice', (1, 3)),
+        ('CelloMusicVoice', (1, 3)),
         ),
     baca.alternate_bow_strokes(),
     baca.clef('percussion'),
     baca.effort_dynamic('mf'),
     baca.markup.full_bow_strokes(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.staff_lines(1),
     baca.repeat_ties_up(),
+    baca.staff_lines(1),
     baca.staff_positions([0]),
     )
 
