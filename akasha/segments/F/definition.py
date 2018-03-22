@@ -351,16 +351,16 @@ maker(
 maker(
     ('ViolaMusicVoice', (8, 9)),
     baca.dynamic('mp'),
-    baca.pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4', exact=True),
     baca.markup.tasto_fractional_scratch(1, 2),
+    baca.pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4', exact=True),
     )
 
 maker(
     ('CelloMusicVoice', (8, 9)),
     baca.clef('bass'),
     baca.dynamic('mp'),
-    baca.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2', exact=True),
     baca.markup.tasto_fractional_scratch(1, 2),
+    baca.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2', exact=True),
     )
 
 maker(
@@ -378,13 +378,11 @@ maker(
     )
 
 maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolinIIMusicVoice',
-        'ViolaMusicVoice',
-        'CelloMusicVoice',
-        ],
-        [(10, 11)],
+    baca.scopes(
+        ('ViolinIMusicVoice', (10, 11)),
+        ('ViolinIIMusicVoice', (10, 11)),
+        ('ViolaMusicVoice', (10, 11)),
+        ('CelloMusicVoice', (10, 11)),
         ),
     baca.hairpin('mp < f'),
     baca.single_segment_transition(
@@ -424,9 +422,9 @@ maker(
 maker(
     ('ViolinIIMusicVoice', 13),
     akasha.getato_pitches(26, [2]),
-    baca.staccati(),
-    baca.markup.pos_ord(),
     baca.hairpin('ff < fff'),
+    baca.markup.pos_ord(),
+    baca.staccati(),
     )
 
 maker(
