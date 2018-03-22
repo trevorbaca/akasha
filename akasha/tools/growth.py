@@ -5,18 +5,20 @@ from abjad import rhythmmakertools as rhythmos
 
 def growth(
     index,
+    first_silence,
+    division_ratio,
     accelerando=False,
     tie_last=True,
     ):
     r'''Makes growth talea rhythm.
     '''
 
-    pattern = abjad.index([1], 4) | abjad.index([4], 5)
+    pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     silence_mask = abjad.SilenceMask(pattern)
     sustain_mask = abjad.sustain([0, -1])
 
     def division_expression(index, accelerando):
-        ratio = abjad.Ratio((2, 1, 2, 2, 1, 2))
+        ratio = abjad.Ratio(division_ratio)
         expression = baca.split_by_durations(durations=[(1, 4)])
         expression = expression.flatten(depth=-1)
         expression = expression.partition_by_ratio_of_lengths(ratio)
