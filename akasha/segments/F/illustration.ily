@@ -4560,80 +4560,32 @@ F_ViolinIIMusicVoice = {
     \revert TupletNumber.text
     
     % [F ViolinIIMusicVoice measure 174]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fs'2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1/2 scratch"            %! IC
-                    }                                            %! IC
-                \line                                            %! SM14
-                    {                                            %! SM14
-                        @                                        %! SM14
-                    }                                            %! SM14
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto + 1/2 scratch"                            %! IC
+        }                                                        %! IC
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 175]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 176]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 177]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'1.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 178]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -4671,98 +4623,40 @@ F_ViolinIIMusicVoice = {
     \<                                                           %! HC1
     \mp                                                          %! HC1
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 179]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'1.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 180]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'1.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 181]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'1.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 182]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'1
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 183]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 184]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'1
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 185]                         %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     fs'2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     \once \override ViolinIIMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     fs'2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [F ViolinIIMusicVoice measure 186]                         %! SM4
     R1 * 1/4

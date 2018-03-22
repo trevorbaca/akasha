@@ -79,7 +79,7 @@ maker(
 maker(
     ('CelloMusicVoice', 5),
     baca.markup.pos_ord_vib_poco(),
-    baca.pitches('Bb1'),
+    baca.pitch('Bb1'),
     baca.clef('bass'),
     baca.dynamic('pp'),
     )

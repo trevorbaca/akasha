@@ -166,12 +166,12 @@ maker(
     ('ViolaMusicVoice', 9),
     baca.dynamic('mp'),
     baca.markup.tasto(),
-    baca.pitches('D#3'),
+    baca.pitch('D#3'),
     )
 
 maker(
     ('CelloMusicVoice', 9),
-    baca.pitches('C#2'),
+    baca.pitch('C#2'),
     baca.markup.tasto(),
     baca.dynamic('mp'),
     )

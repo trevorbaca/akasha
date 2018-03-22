@@ -313,7 +313,7 @@ maker(
     baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_abruptly(),
-    baca.pitches('F#3'),
+    baca.pitch('F#3'),
     )
 
 maker(
@@ -367,14 +367,14 @@ maker(
     ('ViolinIMusicVoice', 9),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    baca.pitches('E5'),
+    baca.pitch('E5'),
     )
 
 maker(
     ('ViolinIIMusicVoice', 9),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    baca.pitches('F#4'),
+    baca.pitch('F#4'),
     )
 
 maker(
@@ -395,22 +395,22 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', (10, 11)),
-    baca.pitches('F5'),
+    baca.pitch('F5'),
     )
 
 maker(
     ('ViolinIIMusicVoice', (10, 11)),
-    baca.pitches('F#4'),
+    baca.pitch('F#4'),
     )
 
 maker(
     ('ViolaMusicVoice', (10, 11)),
-    baca.pitches('D#4'),
+    baca.pitch('D#4'),
     )
 
 maker(
     ('CelloMusicVoice', (10, 11)),
-    baca.pitches('Db2'),
+    baca.pitch('Db2'),
     )
 
 maker(
