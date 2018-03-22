@@ -107,17 +107,15 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', 6),
-    abjad.new(
-        akasha.accelerando_rhythm(),
-        rhythm_maker__logical_tie_masks=abjad.silence([1, 6]),
+    akasha.accelerando_rhythm(
+        logical_tie_mask=abjad.silence([1, 6]),
         ),
     )
 
 maker(
     ('ViolinIIMusicVoice', 6),
-    abjad.new(
-        akasha.ritardando_rhythm(),
-        rhythm_maker__logical_tie_masks=abjad.silence([2, 5]),
+    akasha.ritardando_rhythm(
+        logical_tie_mask=abjad.silence([2, 5]),
         ),
     )
 
