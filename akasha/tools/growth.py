@@ -8,6 +8,7 @@ def growth(
     first_silence,
     division_ratio,
     accelerando=False,
+    extra_counts=None,
     tie_last=True,
     ):
     r'''Makes growth talea rhythm.
@@ -28,7 +29,8 @@ def growth(
         return expression
 
     talea_rhythm_maker = rhythmos.TaleaRhythmMaker(
-        extra_counts_per_division=[1],
+        #extra_counts_per_division=[1],
+        extra_counts_per_division=extra_counts,
         logical_tie_masks=[
             silence_mask,
             sustain_mask,
