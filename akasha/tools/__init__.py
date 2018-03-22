@@ -6,6 +6,7 @@ from .dense_getato_rhythm import dense_getato_rhythm
 from .fill_first_half import fill_first_half
 from .getato_pitches import getato_pitches
 from .glissando_rhythm import glissando_rhythm
+from .growth import growth
 from .harmonic_glissando_pitches import harmonic_glissando_pitches
 from .perforated_counts import perforated_counts
 from .polyphony_rhythm import polyphony_rhythm
