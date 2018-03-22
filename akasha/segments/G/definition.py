@@ -183,7 +183,6 @@ maker(
     baca.staff_positions([0]),
     )
 
-
 maker(
     ('CelloMusicVoice', (1, 4)),
     baca.clef('bass'),

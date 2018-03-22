@@ -55,22 +55,20 @@ maker(
     baca.rehearsal_mark('D'),
     )
 
-### stages 1-2 ###
-
 maker(
-    baca.make_scopes(
-        ['ViolinIMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
-        [1],
+    baca.scopes(
+        ('ViolinIMusicVoice', 1),
+        ('ViolaMusicVoice', 1),
+        ('CelloMusicVoice', 1),
         ),
     baca.make_repeat_tied_notes(),
     )
 
-### stages 3-4 ###
-
 maker(
-    baca.make_scopes(
-        ['ViolinIMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
-        [3],
+    baca.scopes(
+        ('ViolinIMusicVoice', 3),
+        ('ViolaMusicVoice', 3),
+        ('CelloMusicVoice', 3),
         ),
     baca.make_repeat_tied_notes(),
     )

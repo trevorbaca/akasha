@@ -58,14 +58,10 @@ maker(
     baca.rehearsal_mark('E'),
     )
 
-### stages 1-2 ###
-
 maker(
     ('ViolaMusicVoice', 1),
     akasha.viola_ob_rhythm(rotation=0),
     )
-
-### stages 3-4 ###
 
 maker(
     ('ViolinIIMusicVoice', 3),
@@ -90,8 +86,6 @@ maker(
         ),
     )
 
-### stages 5-6 ###
-
 maker(
     ('ViolinIMusicVoice', 5),
     akasha.scratch_rhythm(
@@ -114,8 +108,6 @@ maker(
     ('ViolaMusicVoice', 5),
     akasha.viola_ob_rhythm(rotation=-4),
     )
-
-### stages 7-8 ###
 
 maker(
     ('ViolinIMusicVoice', 7),
@@ -149,14 +141,10 @@ maker(
         ),
     )
 
-### viola stages 9-17 ###
-
 maker(
     ('ViolaMusicVoice', (9, 17)),
     akasha.viola_ob_rhythm(rotation=-8),
     )
-
-### stage 9 ###
 
 maker(
     ('ViolinIMusicVoice', 9),
@@ -184,8 +172,6 @@ maker(
         [2],
         ),
     )
-
-### stages 10-18 ###
 
 maker(
     ('ViolinIMusicVoice', (10, 14)),
@@ -269,8 +255,6 @@ maker(
         ),
     )
 
-### violin 1 ###
-
 maker(
     ('ViolinIMusicVoice', (1, 18)),
     akasha.getato_pitches(5, [2]),
@@ -278,15 +262,15 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', (1, 11)),
+    baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.dynamic('ff'),
     )
 
 maker(
     ('ViolinIMusicVoice', (12, 14)),
-    baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
+    baca.markup.po_meno_scratch(),
     )
 
 maker(
@@ -296,12 +280,10 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', (15, 16)),
+    baca.hairpin('mf > pp'),
     baca.markup.leggieriss(),
     baca.markup.senza_scratch(),
-    baca.hairpin('mf > pp'),
     )
-
-### violin 2 ###
 
 maker(
     ('ViolinIIMusicVoice', (1, 18)),
@@ -310,36 +292,34 @@ maker(
 
 maker(
     ('ViolinIIMusicVoice', (1, 9)),
+    baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.dynamic('ff'),
     )
 
 maker(
     ('ViolinIIMusicVoice', (10, 12)),
-    baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
+    baca.markup.po_meno_scratch(),
     )
 
 maker(
     ('ViolinIIMusicVoice', 13),
+    baca.dynamic('mf'),
     baca.staccati(),
     baca.markup.senza_scratch(),
-    baca.dynamic('mf'),
     )
 
 maker(
     ('ViolinIIMusicVoice', (14, 18)),
-    baca.staccati(),
     baca.markup.leggieriss(),
+    baca.staccati(),
     )
 
 maker(
     ('ViolinIIMusicVoice', (15, 16)),
     baca.hairpin('mf > pp'),
     )
-
-### viola ###
 
 maker(
     ('ViolaMusicVoice', (1, 18)),
@@ -351,8 +331,6 @@ maker(
     baca.staff_positions([0]),
     )
 
-### cello ###
-
 maker(
     ('CelloMusicVoice', (1, 18)),
     akasha.getato_pitches(-13, [2]),
@@ -360,22 +338,22 @@ maker(
 
 maker(
     ('CelloMusicVoice', (1, 8)),
+    baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.dynamic('ff'),
     )
 
 maker(
     ('CelloMusicVoice', (9, 11)),
-    baca.markup.po_meno_scratch(),
     baca.dynamic('f'),
+    baca.markup.po_meno_scratch(),
     )
 
 maker(
     ('CelloMusicVoice', 12),
-    baca.staccati(),
-    baca.markup.senza_scratch(),
     baca.dynamic('mf'),
+    baca.markup.senza_scratch(),
+    baca.staccati(),
     )
 
 maker(
@@ -386,8 +364,8 @@ maker(
 
 maker(
     ('CelloMusicVoice', (15, 16)),
-    baca.staccati(),
     baca.hairpin('mf > pp'),
+    baca.staccati(),
     )
 
 maker(
