@@ -244,12 +244,12 @@ maker(
     )
 
 maker(
-    [
-        baca.scope('ViolinIIMusicVoice', 4),
-        baca.scope('ViolaMusicVoice', 4),
-        baca.scope('ViolinIMusicVoice', 9),
-        baca.scope('CelloMusicVoice', 19),
-        ],
+    baca.scopes(
+        ('ViolinIIMusicVoice', 4),
+        ('ViolaMusicVoice', 4),
+        ('ViolinIMusicVoice', 9),
+        ('CelloMusicVoice', 19),
+        ),
     baca.dynamic('p'),
     baca.markup.leggierissimo_off_string_bowing_on_staccati(),
     )

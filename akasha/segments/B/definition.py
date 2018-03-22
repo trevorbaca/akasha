@@ -82,8 +82,6 @@ maker(
     baca.clef('bass'),
     )
 
-### stages 4-5 ###
-
 maker(
     ('CelloMusicVoice', 4),
     akasha.sparse_getato_rhythm(
@@ -93,8 +91,6 @@ maker(
         ),
     )
 
-### stages 6-7 ###
-
 maker(
     ('CelloMusicVoice', 6),
     akasha.sparse_getato_rhythm(
@@ -103,8 +99,6 @@ maker(
         rotation=-8,
         ),
     )
-
-### stages 8-9 ###
 
 maker(
     ('ViolinIIMusicVoice', (8, 9)),
@@ -124,10 +118,6 @@ maker(
     baca.make_repeat_tied_notes(),
     )
 
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
-
 maker(
     ('ViolinIMusicVoice', 1),
     baca.pitches('E5 D5'),
@@ -145,8 +135,8 @@ maker(
 
 maker(
     ('ViolinIIMusicVoice', 1),
-    baca.markup.tasto_fractional_scratch(1, 2),
     baca.dynamic('mp'),
+    baca.markup.tasto_fractional_scratch(1, 2),
     )
 
 maker(
@@ -157,9 +147,9 @@ maker(
 
 maker(
     ('ViolinIIMusicVoice', (8, 9)),
+    baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
     baca.pitches('C5 Bb4'),
-    baca.dynamic('pp'),
     )
 
 maker(
@@ -171,7 +161,7 @@ maker(
 
 maker(
     ('CelloMusicVoice', 9),
+    baca.dynamic('mp'),
     baca.pitch('C#2'),
     baca.markup.tasto(),
-    baca.dynamic('mp'),
     )
