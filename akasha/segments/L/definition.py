@@ -48,38 +48,27 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 1),
+    baca.scopes(
+        ('ViolaMusicVoice', 1),
+        ('ViolaMusicVoice', 3),
+        ('CelloMusicVoice', 5),
+        ),
     baca.make_repeat_tied_notes(),
     )
-
-maker(
-    ('ViolaMusicVoice', 3),
-    baca.make_repeat_tied_notes(),
-    )
-
-maker(
-    ('CelloMusicVoice', 5),
-    baca.make_repeat_tied_notes(),
-    )
-
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
 
 maker(
     ('ViolaMusicVoice', (1, 3)),
     baca.alternate_bow_strokes(),
+    baca.clef('alto'),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_each_note_abruptly(),
-    baca.staff_positions([0]),
-    baca.staff_lines(1),
-    baca.clef('alto'),
+    baca.staff_position(0),
     )
 
 maker(
     ('CelloMusicVoice', 5),
-    baca.markup.pos_ord_vib_poco(),
-    baca.pitch('Bb1'),
     baca.clef('bass'),
     baca.dynamic('pp'),
+    baca.markup.pos_ord_vib_poco(),
+    baca.pitch('Bb1'),
     )

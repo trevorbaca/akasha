@@ -454,9 +454,9 @@ L_ViolinIIMusicStaff = {
 L_ViolaMusicVoice = {
     
     % [L ViolaMusicVoice measure 334]                            %! SM4
-    \stopStaff                                                   %! SM8:REDUNDANT_STAFF_LINES:IC
-    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! SM8:REDUNDANT_STAFF_LINES:IC
-    \startStaff                                                  %! SM8:REDUNDANT_STAFF_LINES:IC
+    \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolaMusicStaff.Clef.X-extent = ##f          %! OC1:MEASURE_334:SHIFTED_CLEF
     \once \override ViolaMusicStaff.Clef.extra-offset = #'(-2.75 . 0) %! OC1:MEASURE_334:SHIFTED_CLEF
     \set ViolaMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -471,12 +471,12 @@ L_ViolaMusicVoice = {
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "alto"                                                 %! SM8:EXPLICIT_CLEF:IC
     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_STAFF_LINES_COLOR:IC
-    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override ViolaMusicStaff.Clef.color = ##f                   %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set ViolaMusicStaff.forceClef = ##t                         %! SM8:EXPLICIT_CLEF:SM33:IC
-    b'1
+    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    c'1
     -\downbow                                                    %! IC
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -513,7 +513,7 @@ L_ViolaMusicVoice = {
     R1 * 1/4
     
     % [L ViolaMusicVoice measure 336]                            %! SM4
-    b'1.
+    c'1.
     -\upbow                                                      %! IC
     
     % [L ViolaMusicVoice measure 337]                            %! SM4
