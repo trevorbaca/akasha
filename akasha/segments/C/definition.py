@@ -144,9 +144,8 @@ maker(
 
 maker(
     ('ViolinIIMusicVoice', (22, 23)),
-    abjad.new(
-        baca.make_repeat_tied_notes(),
-        rhythm_maker__division_masks=abjad.silence([0]),
+    baca.make_repeat_tied_notes(
+        division_mask=abjad.silence([0]),
         ),
     )
 

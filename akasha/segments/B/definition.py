@@ -49,12 +49,10 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', 1),
-    abjad.new(
-        akasha.accelerando_rhythm(
-            division_mask=abjad.silence([-2, -1]),
-            fuse_counts=[1],
-            logical_tie_mask=abjad.silence([1]),
-            ),
+    akasha.accelerando_rhythm(
+        division_mask=abjad.silence([-2, -1]),
+        fuse_counts=[1],
+        logical_tie_mask=abjad.silence([1]),
         ),
     )
 
@@ -110,9 +108,9 @@ maker(
 
 maker(
     ('ViolinIIMusicVoice', (8, 9)),
-    abjad.new(
-        akasha.accelerando_rhythm(fuse_counts=(2, 1)),
-        rhythm_maker__logical_tie_masks=abjad.silence([3]),
+    akasha.accelerando_rhythm(
+        fuse_counts=(2, 1),
+        logical_tie_mask=abjad.silence([3]),
         ),
     )
 
