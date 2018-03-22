@@ -46,8 +46,6 @@ maker(
     baca.rehearsal_mark('J'),
     )
 
-### stage 1 ###
-
 maker(
     ('ViolinIIMusicVoice', 1),
     akasha.scratch_rhythm(
@@ -61,8 +59,6 @@ maker(
     ('CelloMusicVoice', 1),
     akasha.scratch_rhythm([4], ~abjad.silence([1]), [-1]),
     )
-
-### stage 2 ###
 
 maker(
     ('ViolinIMusicVoice', 2),
@@ -81,8 +77,6 @@ maker(
         [-1],
         ),
     )
-
-### stages 3 ###
 
 maker(
     ('ViolinIMusicVoice', 3),
@@ -111,30 +105,26 @@ maker(
         ),
     )
 
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
-
 maker(
     ('ViolinIMusicVoice', (1, 3)),
     akasha.getato_pitches(5, [2]),
+    baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.dynamic('ff'),
     )
 
 maker(
     ('ViolinIIMusicVoice', (1, 3)),
     akasha.getato_pitches(-3, [2]),
+    baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.dynamic('ff'),
     )
 
 maker(
     ('CelloMusicVoice', (1, 3)),
     akasha.getato_pitches(-13, [2]),
+    baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.dynamic('ff'),
     )
