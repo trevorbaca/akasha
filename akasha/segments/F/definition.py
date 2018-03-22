@@ -111,34 +111,36 @@ maker(
         ),
     )
 
+division_ratio = (2, 1, 2, 2, 1, 2)
+
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(0),
+    akasha.growth(0, 1, division_ratio),
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(1, accelerando=True),
+    akasha.growth(1, 1, division_ratio, accelerando=True),
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(2),
+    akasha.growth(2, 1, division_ratio)
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(3, accelerando=True),
+    akasha.growth(3, 1, division_ratio, accelerando=True),
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(4),
+    akasha.growth(4, 1, division_ratio),
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(5, accelerando=True),
+    akasha.growth(5, 1, division_ratio, accelerando=True),
     )
 
 pattern = abjad.index([2], 4) | abjad.index([4], 5)
