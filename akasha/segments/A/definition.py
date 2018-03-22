@@ -69,7 +69,7 @@ maker(
 maker(
     ('ViolinIMusicVoice', (6, 7)),
     akasha.polyphony_rhythm(
-        logical_tie_masks=[abjad.silence([0, 1, 2], inverted=True)],
+        logical_tie_mask=abjad.silence([0, 1, 2], inverted=True),
         ),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
@@ -79,7 +79,7 @@ maker(
 maker(
     ('ViolinIIMusicVoice', (6, 7)),
     akasha.polyphony_rhythm(
-        logical_tie_masks=[abjad.silence([2, 3, 4], inverted=True)],
+        logical_tie_mask=abjad.silence([2, 3, 4], inverted=True),
         ),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
@@ -89,7 +89,7 @@ maker(
 maker(
     ('ViolaMusicVoice', (6, 7)),
     akasha.polyphony_rhythm(
-        logical_tie_masks=[abjad.silence([1, 2, 3], inverted=True)],
+        logical_tie_mask=abjad.silence([1, 2, 3], inverted=True),
         ),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
@@ -106,7 +106,7 @@ maker(
 maker(
     ('ViolinIIMusicVoice', 9),
     akasha.polyphony_rhythm(
-        logical_tie_masks=[abjad.silence([1, 2, 3], inverted=True)],
+        logical_tie_mask=abjad.silence([1, 2, 3], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C#4 C#+4', exact=True),
@@ -115,7 +115,7 @@ maker(
 maker(
     ('ViolaMusicVoice', 9),
     akasha.polyphony_rhythm(
-        logical_tie_masks=[abjad.silence([2, 3, 4], inverted=True)],
+        logical_tie_mask=abjad.silence([2, 3, 4], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C4', exact=True),
@@ -124,7 +124,7 @@ maker(
 maker(
     ('CelloMusicVoice', 9),
     akasha.polyphony_rhythm(
-        logical_tie_masks=[abjad.silence([0, 1, 2], inverted=True)],
+        logical_tie_mask=abjad.silence([0, 1, 2], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C4 C~4 B3', exact=True),
@@ -159,7 +159,7 @@ maker(
 maker(
     ('CelloMusicVoice', (11, 13)),
     akasha.polyphony_rhythm(
-        logical_tie_masks=[abjad.silence([-1])],
+        logical_tie_mask=abjad.silence([-1]),
         rotation=-6,
         ),
     baca.pitches('Bb3 Bb~3 A3 Ab3 G3 A3', exact=True),
@@ -188,7 +188,7 @@ maker(
 maker(
     ('CelloMusicVoice', 15),
     akasha.polyphony_rhythm(
-        logical_tie_masks=[abjad.silence([-1])],
+        logical_tie_mask=abjad.silence([-1]),
         rotation=-10,
         ),
     baca.pitches('A3 A#3 B3', exact=True),
