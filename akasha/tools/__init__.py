@@ -8,6 +8,7 @@ from .getato_pitches import getato_pitches
 from .glissando_rhythm import glissando_rhythm
 from .growth import growth
 from .harmonic_glissando_pitches import harmonic_glissando_pitches
+from .manifest import manifest
 from .perforated_counts import perforated_counts
 from .polyphony_rhythm import polyphony_rhythm
 from .ritardando_rhythm import ritardando_rhythm
