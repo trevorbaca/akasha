@@ -115,32 +115,32 @@ division_ratio = (2, 1, 2, 2, 1, 2)
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(0, 1, division_ratio),
+    akasha.growth(0, 1, division_ratio, extra_counts=[1]),
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(1, 1, division_ratio, accelerando=True),
+    akasha.growth(1, 1, division_ratio, accelerando=True, extra_counts=[1]),
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(2, 1, division_ratio)
+    akasha.growth(2, 1, division_ratio, extra_counts=[1])
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(3, 1, division_ratio, accelerando=True),
+    akasha.growth(3, 1, division_ratio, accelerando=True, extra_counts=[1]),
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(4, 1, division_ratio),
+    akasha.growth(4, 1, division_ratio, extra_counts=[1]),
     )
 
 maker(
     ('ViolinIMusicVoice', 8),
-    akasha.growth(5, 1, division_ratio, accelerando=True),
+    akasha.growth(5, 1, division_ratio, accelerando=True, extra_counts=[1]),
     )
 
 pattern = abjad.index([2], 4) | abjad.index([4], 5)
@@ -196,6 +196,8 @@ accelerando_rhythm_maker = rhythmos.AccelerandoRhythmMaker(
         ),
     )
 
+division_ratio = (1, 1, 2, 2, 1, 2)
+
 maker(
     ('ViolinIIMusicVoice', 8),
     baca.RhythmCommand(
@@ -203,6 +205,7 @@ maker(
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
         ),
+#    akasha.growth(0, 2, division_ratio),
     )
 
 maker(
@@ -212,6 +215,7 @@ maker(
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
         ),
+#    akasha.growth(1, 2, division_ratio, accelerando=True),
     )
 
 maker(
@@ -221,6 +225,7 @@ maker(
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
         ),
+#    akasha.growth(2, 2, division_ratio),
     )
 
 maker(
@@ -230,6 +235,7 @@ maker(
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=True,
         ),
+#    akasha.growth(3, 2, division_ratio, accelerando=True),
     )
 
 maker(
@@ -239,6 +245,7 @@ maker(
         rhythm_maker=talea_rhythm_maker,
         tie_last=True,
         ),
+#    akasha.growth(4, 2, division_ratio),
     )
 
 maker(
@@ -248,6 +255,7 @@ maker(
         rhythm_maker=accelerando_rhythm_maker,
         tie_last=False,
         ),
+#    akasha.growth(5, 2, division_ratio, accelerando=True),
     )
 
 maker(
