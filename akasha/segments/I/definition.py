@@ -286,15 +286,6 @@ maker(
     baca.pitch('B1'),
     )
 
-#maker(
-#    baca.make_scopes(['ViolinIIMusicVoice', 'CelloMusicVoice'], [5]),
-#    baca.single_segment_transition(
-#        baca.markup.senza_vib(),
-#        baca.markup.vib_moltiss(),
-#        ),
-#    baca.hairpin('sfp < f'),
-#    )
-
 maker(
     ('ViolinIMusicVoice', (5, 13)),
     baca.dynamic('ppp'),
@@ -339,9 +330,9 @@ maker(
 
 maker(
     ('ViolinIIMusicVoice', (7, 13)),
+    baca.dynamic('ppp'),
     baca.markup.OB(),
     baca.pitch('B3'),
-    baca.dynamic('ppp'),
     )
 
 maker(
@@ -373,14 +364,11 @@ maker(
         ),
     )
 
-### stage 9 ###
-
 maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolinIIMusicVoice',
-        'ViolaMusicVoice'],
-        [9],
+    baca.scopes(
+        ('ViolinIMusicVoice', 9),
+        ('ViolinIIMusicVoice', 9),
+        ('ViolaMusicVoice', 9),
         ),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -396,64 +384,52 @@ maker(
 maker(
     ('CelloMusicVoice', 9),
     baca.alternate_bow_strokes(),
+    baca.dynamic('ppp'),
     baca.single_segment_transition(
         baca.markup.OB(),
         baca.markup.XP(),
         ),
-    baca.dynamic('ppp'),
     )
-
-### stage 10 ###
 
 maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolinIIMusicVoice',
-        'ViolaMusicVoice',
-        'CelloMusicVoice'],
-        [10],
+    baca.scopes(
+        ('ViolinIMusicVoice', 10),
+        ('ViolinIIMusicVoice', 10),
+        ('ViolaMusicVoice', 10),
+        ('CelloMusicVoice', 10),
         ),
-    baca.markup.XP_FB(),
-    baca.hairpin('ppp < mp'),
+    baca.hairpin('ppp < mp'), baca.markup.XP_FB(),
     )
-
-### stage 11 ###
 
 maker(
     ('ViolinIMusicVoice', 11),
     akasha.getato_pitches(31, [2]),
-    baca.staccati(),
+    baca.dynamic('ppp'),
     baca.markup.leggieriss(),
     baca.markup.pos_ord(),
-    baca.dynamic('ppp'),
+    baca.staccati(),
     )
 
-### stage 12 (and short fermata) ###
-
 maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolinIIMusicVoice',
-        'ViolaMusicVoice',
-        'CelloMusicVoice'],
-        [12],
+    baca.scopes(
+        ('ViolinIMusicVoice', 12),
+        ('ViolinIIMusicVoice', 12),
+        ('ViolaMusicVoice', 12),
+        ('CelloMusicVoice', 12),
         ),
+    baca.hairpin('ppp < mp'),
     baca.single_segment_transition(
         baca.markup.XP_FB(),
         baca.markup.tasto_FB(),
         ),
-    baca.hairpin('ppp < mp'),
     )
 
-### stage 14 (and short fermata) ###
-
 maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolinIIMusicVoice',
-        'ViolaMusicVoice',
-        'CelloMusicVoice'],
-        [14],
+    baca.scopes(
+        ('ViolinIMusicVoice', 14),
+        ('ViolinIIMusicVoice', 14),
+        ('ViolaMusicVoice', 14),
+        ('CelloMusicVoice', 14),
         ),
     baca.dynamic('p'),
     )
@@ -478,8 +454,6 @@ maker(
     baca.pitches('C4 D4'),
     )
 
-### stages 16-19 (and very long fermata) ###
-
 maker(
     ('ViolinIMusicVoice', (16, 19)),
     baca.pitch('B4'),
@@ -501,31 +475,29 @@ maker(
     )
 
 maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolinIIMusicVoice',
-        'ViolaMusicVoice',
-        'CelloMusicVoice'],
-        [16],
+    baca.scopes(
+        ('ViolinIMusicVoice', 16),
+        ('ViolinIIMusicVoice', 16),
+        ('ViolaMusicVoice', 16),
+        ('CelloMusicVoice', 16),
         ),
+    baca.hairpin('ppp < mp'),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.tasto_fractional_scratch(1, 2),
         ),
-    baca.hairpin('ppp < mp'),
     )
 
 maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolinIIMusicVoice',
-        'ViolaMusicVoice',
-        'CelloMusicVoice'],
-        [17],
+    baca.scopes(
+        ('ViolinIMusicVoice', 17),
+        ('ViolinIIMusicVoice', 17),
+        ('ViolaMusicVoice', 17),
+        ('CelloMusicVoice', 17),
         ),
+    baca.hairpin('mp < mf'),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         ),
-    baca.hairpin('mp < mf'),
     )
