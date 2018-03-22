@@ -68,9 +68,8 @@ maker(
 
 maker(
     ('ViolinIIMusicVoice', (2, 3)),
-    abjad.new(
-        akasha.sparse_getato_rhythm(),
-        rhythm_maker__division_masks=~abjad.silence([3, 36, 37]),
+    akasha.sparse_getato_rhythm(
+        division_mask=~abjad.silence([3, 36, 37]),
         ),
     )
 

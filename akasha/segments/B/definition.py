@@ -65,21 +65,21 @@ maker(
 
 maker(
     ('ViolaMusicVoice', 1),
-    abjad.new(
-        akasha.polyphony_rhythm(rotation=-2),
-        rhythm_maker__logical_tie_masks=abjad.silence([0, 1]),
+    akasha.polyphony_rhythm(
+        rotation=-2,
+        logical_tie_mask=abjad.silence([0, 1]),
         ),
     )
 
 maker(
     ('CelloMusicVoice', (1, 2)),
-    abjad.new(
-        akasha.sparse_getato_rhythm(
-            degree=0,
-            extra_counts_per_division=[1, 1, 0, 2],
+    akasha.sparse_getato_rhythm(
+        degree=0,
+        division_mask=abjad.silence(
+            [5, -6, -5, -4, -3, -2, -1],
+            inverted=True,
             ),
-        rhythm_maker__division_masks=abjad.silence(
-            [5, -6, -5, -4, -3, -2, -1], inverted=True),
+        extra_counts_per_division=[1, 1, 0, 2],
         ),
     baca.clef('bass'),
     )

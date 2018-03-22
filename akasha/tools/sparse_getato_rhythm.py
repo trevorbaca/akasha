@@ -6,12 +6,16 @@ from abjad import rhythmmakertools as rhythmos
 
 def sparse_getato_rhythm(
     degree=1,
-    division_masks=None,
+    division_mask=None,
     extra_counts_per_division=[1],
     rotation=None,
     ):
     r'''Makes sparse getato rhythm.
     '''
+    if division_mask is None:
+        division_masks = None
+    else:
+        division_masks = [division_mask]
     return baca.RhythmCommand(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
