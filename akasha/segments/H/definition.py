@@ -67,8 +67,7 @@ maker(
 
 maker(
     ('CelloMusicVoice', 1),
-    abjad.new(
-        akasha.ritardando_rhythm(),
+    akasha.ritardando_rhythm(
         division_expression=baca.sequence().sum().sequence(),
         ),
     )
