@@ -28,7 +28,7 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     ])
 
 maker = baca.TimeSignatureMaker(
-    akasha.time_signatures_b,
+    akasha.time_signature_series['B'],
     rotation=12,
     stage_measure_map=stage_measure_map,
     metronome_mark_measure_map=metronome_mark_measure_map,
