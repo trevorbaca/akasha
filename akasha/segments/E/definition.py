@@ -328,7 +328,7 @@ maker(
     baca.markup.OB(),
     baca.repeat_ties_up(),
     baca.staff_lines(1),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
 maker(

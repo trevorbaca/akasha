@@ -182,21 +182,21 @@ maker(
         ),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
 maker(
     ('ViolinIMusicVoice', (9, 22)),
     baca.repeat_ties_up(),
     baca.staff_lines(1),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
 maker(
     ('ViolinIIMusicVoice', (9, 21)),
     baca.repeat_ties_up(),
     baca.staff_lines(1),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
 maker(

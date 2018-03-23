@@ -180,7 +180,7 @@ maker(
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
     baca.staff_lines(1),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
 maker(
