@@ -56,30 +56,30 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolaMusicVoice', 1),
         ('ViolaMusicVoice', 3),
         ('ViolaMusicVoice', 5),
         ('ViolaMusicVoice', 7),
-        ),
+        ],
     akasha.glissando_rhythm(),
     )
 
 maker(
-    baca.scopes(
+    [
         ('CelloMusicVoice', 1),
         ('CelloMusicVoice', 3),
         ('CelloMusicVoice', 5),
         ('CelloMusicVoice', 7),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', (9, 10)),
         ('ViolinIIMusicVoice', (9, 10)),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
 
@@ -103,7 +103,7 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', (13, 14)),
         ('ViolinIMusicVoice', 16),
         ('ViolinIMusicVoice', 18),
@@ -113,7 +113,7 @@ maker(
         ('ViolinIIMusicVoice', 16),
         ('ViolinIIMusicVoice', 18),
         ('ViolinIIMusicVoice', 20),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
 
@@ -155,31 +155,31 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolaMusicVoice', 1),
         ('ViolaMusicVoice', 3),
         ('ViolaMusicVoice', 5),
         ('ViolaMusicVoice', 7),
-        ),
+        ],
     baca.glissando(),
     baca.pitches('D#3 C+3', exact=True),
     )
 
 maker(
-    baca.scopes(
+    [
         ('CelloMusicVoice', 1),
         ('CelloMusicVoice', 3),
         ('CelloMusicVoice', 5),
         ('CelloMusicVoice', 7),
-        ),
+        ],
     baca.pitch('C#2'),
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', (9, 10)),
         ('ViolinIIMusicVoice', (9, 10)),
-        ),
+        ],
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
     baca.staff_position(0),

@@ -378,12 +378,12 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', (10, 11)),
         ('ViolinIIMusicVoice', (10, 11)),
         ('ViolaMusicVoice', (10, 11)),
         ('CelloMusicVoice', (10, 11)),
-        ),
+        ],
     baca.hairpin('mp < f'),
     baca.single_segment_transition(
         baca.markup.trans(),
