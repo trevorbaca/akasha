@@ -162,7 +162,7 @@ maker(
 
 maker(
     ('ViolinIMusicVoice', (1, 7)),
-    baca.pitches('A5'),
+    baca.pitch('A5'),
     )
 
 maker(
