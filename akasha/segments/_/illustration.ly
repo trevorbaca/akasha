@@ -26,16 +26,16 @@
                 \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
                 <<
                     \tag ViolinI                                                         %! ST4
-                    \context ViolinIMusicStaff = "ViolinIMusicStaff"
+                    \context Staff = "ViolinIMusicStaff"
                     \i_ViolinIMusicStaff
                     \tag ViolinII                                                        %! ST4
-                    \context ViolinIIMusicStaff = "ViolinIIMusicStaff"
+                    \context Staff = "ViolinIIMusicStaff"
                     \i_ViolinIIMusicStaff
                     \tag viola                                                           %! ST4
-                    \context ViolaMusicStaff = "ViolaMusicStaff"
+                    \context Staff = "ViolaMusicStaff"
                     \i_ViolaMusicStaff
                     \tag cello                                                           %! ST4
-                    \context CelloMusicStaff = "CelloMusicStaff"
+                    \context Staff = "CelloMusicStaff"
                     \i_CelloMusicStaff
                 >>
             }
