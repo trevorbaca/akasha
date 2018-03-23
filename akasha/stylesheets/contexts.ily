@@ -104,76 +104,12 @@
         \remove Forbid_line_break_engraver
     }
 
-%    % VIOLIN I
-%    \context {
-%        \Voice
-%        \name ViolinIMusicVoice
-%        \type Engraver_group
-%        \alias Voice
-%    }
-%    \context {
-%        \Staff
-%        \name ViolinIMusicStaff
-%        \type Engraver_group
-%        \alias Staff
-%        \accepts ViolinIMusicVoice
-%    }
-%
-%    % VIOLIN II
-%    \context {
-%        \Voice
-%        \name ViolinIIMusicVoice
-%        \type Engraver_group
-%        \alias Voice
-%    }
-%    \context {
-%        \Staff
-%        \name ViolinIIMusicStaff
-%        \type Engraver_group
-%        \alias Staff
-%        \accepts ViolinIIMusicVoice
-%    }
-%
-%    % VIOLA
-%    \context {
-%        \Voice
-%        \name ViolaMusicVoice
-%        \type Engraver_group
-%        \alias Voice
-%    }
-%    \context {
-%        \Staff
-%        \name ViolaMusicStaff
-%        \type Engraver_group
-%        \alias Staff
-%        \accepts ViolaMusicVoice
-%    }
-%
-%    % CELLO
-%    \context {
-%        \Voice
-%        \name CelloMusicVoice
-%        \type Engraver_group
-%        \alias Voice
-%    }
-%    \context {
-%        \Staff
-%        \name CelloMusicStaff
-%        \type Engraver_group
-%        \alias Staff
-%        \accepts CelloMusicVoice
-%    }
-
     % STRING QUARTET STAFF GROUP
     \context {
         \StaffGroup
         \name StringQuartetStaffGroup
         \type Engraver_group
         \alias StaffGroup
-%        \accepts ViolinIMusicStaff
-%        \accepts ViolinIIMusicStaff
-%        \accepts ViolaMusicStaff
-%        \accepts CelloMusicStaff
 
         \override StaffGrouper.staff-staff-spacing.minimum-distance = 12
     }
