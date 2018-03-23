@@ -48,11 +48,11 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolaMusicVoice', 1),
         ('ViolaMusicVoice', 3),
         ('CelloMusicVoice', 5),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
 

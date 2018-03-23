@@ -71,28 +71,28 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', 2),
         ('ViolinIIMusicVoice', 2),
         ('CelloMusicVoice', 2),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolaMusicVoice', 4),
         ('CelloMusicVoice', 4),
-        ),
+        ],
     akasha.glissando_rhythm(),
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', 1),
         ('ViolinIIMusicVoice', 1),
         ('CelloMusicVoice', 1),
-        ),
+        ],
     baca.dynamic('p'),
     baca.markup.XFB(),
     )

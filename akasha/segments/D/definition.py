@@ -56,20 +56,20 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', 1),
         ('ViolaMusicVoice', 1),
         ('CelloMusicVoice', 1),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', 3),
         ('ViolaMusicVoice', 3),
         ('CelloMusicVoice', 3),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
 
@@ -79,18 +79,18 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolaMusicVoice', 5),
         ('CelloMusicVoice', 5),
-        ),
+        ],
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', 5),
         ('ViolinIIMusicVoice', 5),
-        ),
+        ],
     akasha.untied_notes(),
     )
 
@@ -100,19 +100,19 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', 7),
         ('ViolinIIMusicVoice', 7),
         ('CelloMusicVoice', 7),
-        ),
+        ],
     akasha.untied_notes(),
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', (9, 10)),
         ('ViolinIIMusicVoice', (9, 10)),
-        ),
+        ],
     akasha.untied_notes(),
     )
 
@@ -132,11 +132,11 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', 12),
         ('ViolaMusicVoice', 12),
         ('CelloMusicVoice', 12),
-        ),
+        ],
     akasha.untied_notes(),
     )
 
@@ -146,10 +146,10 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', 14),
         ('ViolaMusicVoice', 14),
-        ),
+        ],
     akasha.untied_notes(),
     )
 
@@ -354,9 +354,8 @@ maker(
     baca.markup.tasto(),
     baca.pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1', exact=True),
     )
-
-maker(
-    baca.sequence([
+    
+scopes = baca.sequence([
         baca.scope('ViolinIIMusicVoice', 3),
         baca.make_scopes([
             'ViolinIMusicVoice', 'ViolinIIMusicVoice'],
@@ -382,6 +381,10 @@ maker(
             ['ViolinIMusicVoice', 'ViolaMusicVoice'],
             [14],
             ),
-        ]).flatten(),
+        ]).flatten()
+scopes = list(scopes)
+
+maker(
+    scopes,
     baca.alternate_bow_strokes(),
     )

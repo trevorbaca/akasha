@@ -74,11 +74,11 @@ maker(
     )
 
 maker(
-    baca.scopes(
+    [
         ('ViolinIMusicVoice', (1, 3)),
         ('ViolaMusicVoice', (1, 3)),
         ('CelloMusicVoice', (1, 3)),
-        ),
+        ],
     baca.alternate_bow_strokes(),
     baca.clef('percussion'),
     baca.effort_dynamic('mf'),
