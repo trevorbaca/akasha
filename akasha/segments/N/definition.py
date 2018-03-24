@@ -54,12 +54,11 @@ maker(
     )
 
 maker(
-    baca.make_scopes([
-        'ViolinIMusicVoice',
-        'ViolaMusicVoice',
-        'CelloMusicVoice'],
-        [(1, 2)],
-        ),
+    [
+        ('ViolinIMusicVoice', (1, 2)),
+        ('ViolaMusicVoice', (1, 2)),
+        ('CelloMusicVoice', (1, 2)),
+        ],
     baca.make_notes(
         division_mask=abjad.silence([1], 2),
         repeat_ties=True,
