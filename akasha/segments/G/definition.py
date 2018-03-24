@@ -11,8 +11,8 @@ import os
 stage_measure_map = baca.StageMeasureMap([
     4,
     3,
-    3, # 3
-    3, abjad.Fermata(), # 4-5
+    3,
+    3, abjad.Fermata(),
     2,
     1,
     ])
@@ -63,11 +63,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn2', 1),
-        ('va', 1),
-        ('vc', 1),
-        ],
+    (['vn2', 'va', 'vc'], 1),
     baca.hairpin('ff > f'),
     baca.make_notes(repeat_ties=True),
     baca.single_segment_transition(
@@ -77,12 +73,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 2),
-        ('vn2', 2),
-        ('va', 2),
-        ('vc', 2),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 2),
     baca.hairpin('f > mf'),
     baca.make_notes(repeat_ties=True),
     )
@@ -96,11 +87,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn2', 2),
-        ('va', 2),
-        ('vc', 2),
-        ],
+    (['vn2', 'va', 'vc'], 2),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.tasto(),
@@ -108,12 +95,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 3),
-        ('vn2', 3),
-        ('va', 3),
-        ('vc', 3),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 3),
     baca.hairpin('mf > p'),
     baca.make_notes(repeat_ties=True),
     baca.single_segment_transition(
@@ -123,12 +105,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 4),
-        ('vn2', 4),
-        ('va', 4),
-        ('vc', 4),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 4),
     baca.hairpin('p > pp'),
     baca.make_notes(repeat_ties=True),
     baca.single_segment_transition(
@@ -138,11 +115,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 6),
-        ('vn2', 6),
-        ('vc', 6),
-        ],
+    (['vn1', 'vn2', 'vc'], 6),
     baca.make_repeat_tied_notes(),
     )
 

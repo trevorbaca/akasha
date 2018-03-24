@@ -178,10 +178,8 @@ maker(
 
 maker(
     [
-        ('vn1', 9),
-        ('vn1', (10, 11)),
-        ('vn2', 9),
-        ('vn2', (10, 11)),
+        ('vn1', [9, (10, 11)]),
+        ('vn2', [9, (10, 11)]),
         ],
     baca.make_repeat_tied_notes(),
     )
@@ -377,12 +375,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', (10, 11)),
-        ('vn2', (10, 11)),
-        ('va', (10, 11)),
-        ('vc', (10, 11)),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], (10, 11)),
     baca.hairpin('mp < f'),
     baca.single_segment_transition(
         baca.markup.trans(),

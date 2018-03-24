@@ -55,11 +55,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', (1, 2)),
-        ('va', (1, 2)),
-        ('vc', (1, 2)),
-        ],
+    (['vn1', 'va', 'vc'], (1, 2)),
     baca.make_notes(
         division_mask=abjad.silence([1], 2),
         repeat_ties=True,
@@ -74,11 +70,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', (1, 3)),
-        ('va', (1, 3)),
-        ('vc', (1, 3)),
-        ],
+    (['vn1', 'va', 'vc'], (1, 3)),
     baca.alternate_bow_strokes(),
     baca.clef('percussion'),
     baca.effort_dynamic('mf'),

@@ -9,7 +9,7 @@ import os
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    2, abjad.Fermata(), # 1-2
+    2, abjad.Fermata(),
     2,
     2,
     3,
@@ -19,11 +19,11 @@ stage_measure_map = baca.StageMeasureMap([
     4,
     2,
     2,
-    2, abjad.Fermata('shortfermata'), # 12-13
-    2, abjad.Fermata('shortfermata'), # 14-15
+    2, abjad.Fermata('shortfermata'),
+    2, abjad.Fermata('shortfermata'),
     2,
     2,
-    2, abjad.Fermata('verylongfermata'), # 18-19
+    2, abjad.Fermata('verylongfermata'),
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
@@ -75,12 +75,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 1),
-        ('vn2', 1),
-        ('va', 1),
-        ('vc', 1),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 1),
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.single_segment_transition(
@@ -90,11 +85,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 3),
-        ('vn2', 3),
-        ('vc', 3),
-        ],
+    (['vn1', 'vn2', 'vc'], 3),
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.single_segment_transition(
@@ -104,10 +95,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn2', 5),
-        ('vc', 5),
-        ],
+    (['vn2', 'vc'], 5),
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.single_segment_transition(
@@ -142,12 +130,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 10),
-        ('vn2', 10),
-        ('va', 10),
-        ('vc', 10),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 10),
     baca.make_repeat_tied_notes(),
     )
 
@@ -160,12 +143,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 12),
-        ('vn2', 12),
-        ('va', 12),
-        ('vc', 12),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 12),
     baca.make_repeat_tied_notes(),
     )
 
@@ -194,32 +172,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 16),
-        ('vn2', 16),
-        ('va', 16),
-        ('vc', 16),
-        ],
-    baca.make_repeat_tied_notes(),
-    )
-
-maker(
-    [
-        ('vn1', 17),
-        ('vn2', 17),
-        ('va', 17),
-        ('vc', 17),
-        ],
-    baca.make_repeat_tied_notes(),
-    )
-
-maker(
-    [
-        ('vn1', 18),
-        ('vn2', 18),
-        ('va', 18),
-        ('vc', 18),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], [16, 17, 18]),
     baca.make_repeat_tied_notes(),
     )
 
@@ -394,12 +347,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 10),
-        ('vn2', 10),
-        ('va', 10),
-        ('vc', 10),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 10),
     baca.hairpin('ppp < mp'), baca.markup.XP_FB(),
     )
 
@@ -413,12 +361,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 12),
-        ('vn2', 12),
-        ('va', 12),
-        ('vc', 12),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 12),
     baca.hairpin('ppp < mp'),
     baca.single_segment_transition(
         baca.markup.XP_FB(),
@@ -427,12 +370,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 14),
-        ('vn2', 14),
-        ('va', 14),
-        ('vc', 14),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 14),
     baca.dynamic('p'),
     )
 
@@ -477,12 +415,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 16),
-        ('vn2', 16),
-        ('va', 16),
-        ('vc', 16),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 16),
     baca.hairpin('ppp < mp'),
     baca.single_segment_transition(
         baca.markup.trans(),
@@ -491,12 +424,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 17),
-        ('vn2', 17),
-        ('va', 17),
-        ('vc', 17),
-        ],
+    (['vn1', 'vn2', 'va', 'vc'], 17),
     baca.hairpin('mp < mf'),
     baca.single_segment_transition(
         baca.markup.trans(),

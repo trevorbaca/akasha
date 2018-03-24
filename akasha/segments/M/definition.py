@@ -66,11 +66,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', (2, 10)),
-        ('vn2', (2, 10)),
-        ('va', (2, 10)),
-        ],
+    (['vn1', 'vn2', 'va'], (2, 10)),
     baca.make_repeat_tied_notes(),
     )
 
@@ -111,11 +107,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 2),
-        ('vn2', 2),
-        ('va', 2),
-        ],
+    (['vn1', 'vn2', 'va'], 2),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
     )
@@ -127,11 +119,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 4),
-        ('vn2', 4),
-        ('va', 4),
-        ],
+    (['vn1', 'vn2', 'va'], 4),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.pos_ord_XFB(),
@@ -140,11 +128,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 5),
-        ('vn2', 5),
-        ('va', 5),
-        ],
+    (['vn1', 'vn2', 'va'], 5),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.pont_XFB(),
@@ -153,11 +137,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 6),
-        ('vn2', 6),
-        ('va', 6),
-        ],
+    (['vn1', 'vn2', 'va'], 6),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.XP_XFB(),
@@ -166,11 +146,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 7),
-        ('vn2', 7),
-        ('va', 7),
-        ],
+    (['vn1', 'vn2', 'va'], 7),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.XP(),
@@ -184,11 +160,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 8),
-        ('vn2', 8),
-        ('va', 8),
-        ],
+    (['vn1', 'vn2', 'va'], 8),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 3),
@@ -197,11 +169,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 9),
-        ('vn2', 9),
-        ('va', 9),
-        ],
+    (['vn1', 'vn2', 'va'], 9),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(2, 3),
@@ -210,11 +178,7 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 10),
-        ('vn2', 10),
-        ('va', 10),
-        ],
+    (['vn1', 'vn2', 'va'], 10),
     baca.single_segment_transition(
         baca.markup.trans(),
         baca.markup.OB_no_pitch(),

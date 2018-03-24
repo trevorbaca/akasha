@@ -9,9 +9,9 @@ import os
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    2,                  # 1
-    1, abjad.Fermata(), # 2-3
-    2, abjad.Fermata(), # 4-5
+    2,
+    1, abjad.Fermata(),
+    2, abjad.Fermata(),
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
@@ -73,28 +73,17 @@ maker(
     )
 
 maker(
-    [
-        ('vn1', 2),
-        ('vn2', 2),
-        ('vc', 2),
-        ],
+    (['vn1', 'vn2', 'vc'], 2),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    [
-        ('va', 4),
-        ('vc', 4),
-        ],
+    (['va', 'vc'], 4),
     akasha.glissando_rhythm(),
     )
 
 maker(
-    [
-        ('vn1', 1),
-        ('vn2', 1),
-        ('vc', 1),
-        ],
+    (['vn1', 'vn2', 'vc'], 1),
     baca.dynamic('p'),
     baca.markup.XFB(),
     )
