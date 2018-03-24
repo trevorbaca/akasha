@@ -51,22 +51,22 @@ maker(
     )
 
 maker(
-    ('ViolinIMusicVoice', 1),
+    ('vn1', 1),
     akasha.accelerando_rhythm(),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 1),
+    ('vn2', 1),
     akasha.ritardando_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', (1, 2)),
+    ('va', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('CelloMusicVoice', 1),
+    ('vc', 1),
     akasha.ritardando_rhythm(
         division_expression=baca.sequence().sum().sequence(),
         ),
@@ -74,72 +74,72 @@ maker(
 
 maker(
     [
-        ('ViolinIMusicVoice', 2),
-        ('ViolinIIMusicVoice', 2),
-        ('CelloMusicVoice', 2),
+        ('vn1', 2),
+        ('vn2', 2),
+        ('vc', 2),
         ],
     baca.make_repeat_tied_notes(),
     )
 
 maker(
     [
-        ('ViolaMusicVoice', 4),
-        ('CelloMusicVoice', 4),
+        ('va', 4),
+        ('vc', 4),
         ],
     akasha.glissando_rhythm(),
     )
 
 maker(
     [
-        ('ViolinIMusicVoice', 1),
-        ('ViolinIIMusicVoice', 1),
-        ('CelloMusicVoice', 1),
+        ('vn1', 1),
+        ('vn2', 1),
+        ('vc', 1),
         ],
     baca.dynamic('p'),
     baca.markup.XFB(),
     )
 
 maker(
-    ('ViolinIMusicVoice', 1),
+    ('vn1', 1),
     baca.pitches('D4 E4'),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 1),
+    ('vn2', 1),
     baca.pitches('C#4 D#4'),
     )
 
 maker(
-    ('CelloMusicVoice', 1),
+    ('vc', 1),
     baca.pitches('C4 D4'),
     )
 
 maker(
-    ('ViolaMusicVoice', (1, 2)),
+    ('va', (1, 2)),
     baca.staff_position(0),
     baca.staff_lines(1),
     )
 
 maker(
-    ('ViolinIMusicVoice', 2),
+    ('vn1', 2),
     baca.dynamic('ppp'),
     baca.pitch('F#5'),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 2),
+    ('vn2', 2),
     baca.dynamic('ppp'),
     baca.pitch('Ab4'),
     )
 
 maker(
-    ('CelloMusicVoice', 2),
+    ('vc', 2),
     baca.dynamic('ppp'),
     baca.pitch('C#2'),
     )
 
 maker(
-    ('ViolaMusicVoice', 4),
+    ('va', 4),
     baca.glissando(),
     baca.hairpin('mp > pp'),
     baca.markup.tasto(),
@@ -147,7 +147,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 4),
+    ('vc', 4),
     baca.glissando(),
     baca.hairpin('mp > pp'),
     baca.markup.tasto(),

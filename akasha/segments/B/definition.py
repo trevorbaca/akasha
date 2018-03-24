@@ -50,7 +50,7 @@ maker(
     )
 
 maker(
-    ('ViolinIMusicVoice', 1),
+    ('vn1', 1),
     akasha.accelerando_rhythm(
         division_mask=abjad.silence([-2, -1]),
         fuse_counts=[1],
@@ -59,12 +59,12 @@ maker(
     )
 
 maker(
-    ('ViolinIIMusicVoice', 1),
+    ('vn2', 1),
     akasha.polyphony_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 1),
+    ('va', 1),
     akasha.polyphony_rhythm(
         rotation=-2,
         logical_tie_mask=abjad.silence([0, 1]),
@@ -72,7 +72,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', (1, 2)),
+    ('vc', (1, 2)),
     akasha.sparse_getato_rhythm(
         degree=0,
         division_mask=abjad.silence(
@@ -85,7 +85,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 4),
+    ('vc', 4),
     akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
@@ -94,7 +94,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 6),
+    ('vc', 6),
     akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
@@ -103,7 +103,7 @@ maker(
     )
 
 maker(
-    ('ViolinIIMusicVoice', (8, 9)),
+    ('vn2', (8, 9)),
     akasha.accelerando_rhythm(
         fuse_counts=(2, 1),
         logical_tie_mask=abjad.silence([3]),
@@ -111,58 +111,58 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 9),
+    ('va', 9),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('CelloMusicVoice', 9),
+    ('vc', 9),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('ViolinIMusicVoice', 1),
+    ('vn1', 1),
     baca.pitches('E5 D5'),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 1),
+    ('vn2', 1),
     baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
     )
 
 maker(
-    ('ViolaMusicVoice', 1),
+    ('va', 1),
     baca.pitches('Db4 Db~4 C4', exact=True),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 1),
+    ('vn2', 1),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
     )
 
 maker(
-    ('CelloMusicVoice', (1, 6)),
+    ('vc', (1, 6)),
     akasha.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.staccati(),
     )
 
 maker(
-    ('ViolinIIMusicVoice', (8, 9)),
+    ('vn2', (8, 9)),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
     baca.pitches('C5 Bb4'),
     )
 
 maker(
-    ('ViolaMusicVoice', 9),
+    ('va', 9),
     baca.dynamic('mp'),
     baca.markup.tasto(),
     baca.pitch('D#3'),
     )
 
 maker(
-    ('CelloMusicVoice', 9),
+    ('vc', 9),
     baca.dynamic('mp'),
     baca.pitch('C#2'),
     baca.markup.tasto(),

@@ -42,7 +42,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 1),
+    ('vc', 1),
     akasha.cello_solo_pitches(),
     akasha.cello_solo_rhythm(rotation=0),
     baca.dynamic('mp'),
@@ -50,26 +50,26 @@ maker(
     )
 
 maker(
-    ('ViolinIIMusicVoice', 4),
+    ('vn2', 4),
     akasha.sparse_getato_rhythm(
         division_mask=abjad.silence([0, 1], inverted=True),
         ),
     )
 
 maker(
-    ('ViolaMusicVoice', 1),
+    ('va', 1),
     baca.staff_lines(5),
     )
 
 maker(
-    ('ViolaMusicVoice', 4),
+    ('va', 4),
     akasha.sparse_getato_rhythm(
         division_mask=abjad.silence([-1], inverted=True),
         ),
     )
 
 maker(
-    ('ViolinIMusicVoice', (6, 7)),
+    ('vn1', (6, 7)),
     akasha.polyphony_rhythm(
         logical_tie_mask=abjad.silence([0, 1, 2], inverted=True),
         ),
@@ -79,7 +79,7 @@ maker(
     )
 
 maker(
-    ('ViolinIIMusicVoice', (6, 7)),
+    ('vn2', (6, 7)),
     akasha.polyphony_rhythm(
         logical_tie_mask=abjad.silence([2, 3, 4], inverted=True),
         ),
@@ -89,7 +89,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', (6, 7)),
+    ('va', (6, 7)),
     akasha.polyphony_rhythm(
         logical_tie_mask=abjad.silence([1, 2, 3], inverted=True),
         ),
@@ -99,14 +99,14 @@ maker(
     )
 
 maker(
-    ('ViolinIMusicVoice', 9),
+    ('vn1', 9),
     akasha.sparse_getato_rhythm(
         division_mask=abjad.silence([-2, -1], inverted=True),
         ),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 9),
+    ('vn2', 9),
     akasha.polyphony_rhythm(
         logical_tie_mask=abjad.silence([1, 2, 3], inverted=True),
         rotation=-2,
@@ -115,7 +115,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 9),
+    ('va', 9),
     akasha.polyphony_rhythm(
         logical_tie_mask=abjad.silence([2, 3, 4], inverted=True),
         rotation=-2,
@@ -124,7 +124,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 9),
+    ('vc', 9),
     akasha.polyphony_rhythm(
         logical_tie_mask=abjad.silence([0, 1, 2], inverted=True),
         rotation=-2,
@@ -133,7 +133,7 @@ maker(
     )
 
 maker(
-    ('ViolinIMusicVoice', (11, 13)),
+    ('vn1', (11, 13)),
     akasha.accelerando_rhythm(
         division_mask=abjad.silence([0]),
         logical_tie_mask=abjad.silence([3, 5, 7, 9]),
@@ -143,7 +143,7 @@ maker(
     )
 
 maker(
-    ('ViolinIIMusicVoice', (11, 13)),
+    ('vn2', (11, 13)),
     akasha.ritardando_rhythm(
         division_mask=abjad.silence([0]),
         logical_tie_mask=abjad.silence([2, 5, 7]),
@@ -153,13 +153,13 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', (11, 13)),
+    ('va', (11, 13)),
     akasha.polyphony_rhythm(rotation=-4),
     baca.pitches('D4 D+4 D#4 E4 F#4 F4', exact=True),
     )
 
 maker(
-    ('CelloMusicVoice', (11, 13)),
+    ('vc', (11, 13)),
     akasha.polyphony_rhythm(
         logical_tie_mask=abjad.silence([-1]),
         rotation=-6,
@@ -168,27 +168,27 @@ maker(
     )
 
 maker(
-    ('ViolinIMusicVoice', 15),
+    ('vn1', 15),
     akasha.accelerando_rhythm(
         logical_tie_mask=abjad.silence([0, 2, 3, -1], inverted=True),
         ),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 15),
+    ('vn2', 15),
     akasha.ritardando_rhythm(
         logical_tie_mask=abjad.silence([0, 1, 4, -1], inverted=True),
         ),
     )
 
 maker(
-    ('ViolaMusicVoice', 15),
+    ('va', 15),
     akasha.polyphony_rhythm(rotation=-8),
     baca.pitches('Eb4 D4', exact=True),
     )
 
 maker(
-    ('CelloMusicVoice', 15),
+    ('vc', 15),
     akasha.polyphony_rhythm(
         logical_tie_mask=abjad.silence([-1]),
         rotation=-10,
@@ -197,61 +197,51 @@ maker(
     )
 
 maker(
-    ('ViolinIMusicVoice', 17),
+    ('vn1', 17),
     akasha.ritardando_rhythm(
         logical_tie_mask=abjad.silence([0, 2, -1], inverted=True),
         ),
     )
 
 maker(
-    ('ViolinIMusicVoice', (11, 19)),
+    ('vn1', (11, 19)),
     baca.pitches('D5 E5'),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 17),
+    ('vn2', 17),
     akasha.accelerando_rhythm(
         logical_tie_mask=abjad.silence([0, 2, -1], inverted=True),
         ),
     )
 
 maker(
-    ('ViolinIIMusicVoice', 19),
+    ('vn2', 19),
     akasha.ritardando_rhythm(
         logical_tie_mask=abjad.silence([0, 1, -1], inverted=True),
         ),
     )
 
 maker(
-    ('ViolinIIMusicVoice', (11, 19)),
+    ('vn2', (11, 19)),
     baca.pitches('Bb4 C5'),
     )
 
 maker(
-    ('CelloMusicVoice', 19),
+    ('vc', 19),
     akasha.sparse_getato_rhythm(
         division_mask=abjad.silence([1], inverted=True),
         ),
     )
 
 maker(
-    baca.timeline([
-        ('ViolinIIMusicVoice', 4),
-        ('ViolaMusicVoice', 4),
-        ('ViolinIMusicVoice', 9),
-        ('CelloMusicVoice', 19),
-        ]),
+    baca.timeline([('vn2', 4), ('va', 4), ('vn1', 9), ('vc', 19)]),
     akasha.getato_pitches(-2, [0]),
     baca.staccati(),
     )
 
 maker(
-    [
-        ('ViolinIIMusicVoice', 4),
-        ('ViolaMusicVoice', 4),
-        ('ViolinIMusicVoice', 9),
-        ('CelloMusicVoice', 19),
-        ],
+    [('vn2', 4), ('va', 4), ('vn1', 9), ('vc', 19)],
     baca.dynamic('p'),
     baca.markup.leggierissimo_off_string_bowing_on_staccati(),
     )
