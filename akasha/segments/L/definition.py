@@ -51,15 +51,15 @@ maker(
 
 maker(
     [
-        ('ViolaMusicVoice', 1),
-        ('ViolaMusicVoice', 3),
-        ('CelloMusicVoice', 5),
+        ('va', 1),
+        ('va', 3),
+        ('vc', 5),
         ],
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('ViolaMusicVoice', (1, 3)),
+    ('va', (1, 3)),
     baca.alternate_bow_strokes(),
     baca.clef('alto'),
     baca.effort_dynamic('mf'),
@@ -68,7 +68,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 5),
+    ('vc', 5),
     baca.clef('bass'),
     baca.dynamic('pp'),
     baca.markup.pos_ord_vib_poco(),

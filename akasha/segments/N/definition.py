@@ -56,9 +56,9 @@ maker(
 
 maker(
     [
-        ('ViolinIMusicVoice', (1, 2)),
-        ('ViolaMusicVoice', (1, 2)),
-        ('CelloMusicVoice', (1, 2)),
+        ('vn1', (1, 2)),
+        ('va', (1, 2)),
+        ('vc', (1, 2)),
         ],
     baca.make_notes(
         division_mask=abjad.silence([1], 2),
@@ -67,7 +67,7 @@ maker(
     )
 
 maker(
-    ('ViolinIIMusicVoice', (2, 3)),
+    ('vn2', (2, 3)),
     akasha.sparse_getato_rhythm(
         division_mask=~abjad.silence([3, 36, 37]),
         ),
@@ -75,9 +75,9 @@ maker(
 
 maker(
     [
-        ('ViolinIMusicVoice', (1, 3)),
-        ('ViolaMusicVoice', (1, 3)),
-        ('CelloMusicVoice', (1, 3)),
+        ('vn1', (1, 3)),
+        ('va', (1, 3)),
+        ('vc', (1, 3)),
         ],
     baca.alternate_bow_strokes(),
     baca.clef('percussion'),
@@ -90,7 +90,7 @@ maker(
     )
 
 maker(
-    ('ViolinIIMusicVoice', (2, 3)),
+    ('vn2', (2, 3)),
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
