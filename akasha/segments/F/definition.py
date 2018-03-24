@@ -176,14 +176,12 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['ViolinIMusicVoice', 'ViolinIIMusicVoice'], [9]),
-    baca.make_repeat_tied_notes(),
-    )
-
-maker(
-    baca.make_scopes(
-        ['ViolinIMusicVoice', 'ViolinIIMusicVoice'], [(10, 11)]
-        ),
+    [
+        ('ViolinIMusicVoice', 9),
+        ('ViolinIMusicVoice', (10, 11)),
+        ('ViolinIIMusicVoice', 9),
+        ('ViolinIIMusicVoice', (10, 11)),
+        ],
     baca.make_repeat_tied_notes(),
     )
 

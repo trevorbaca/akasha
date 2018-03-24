@@ -355,36 +355,21 @@ maker(
     baca.pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1', exact=True),
     )
     
-scopes = baca.sequence([
-        baca.scope('ViolinIIMusicVoice', 3),
-        baca.make_scopes([
-            'ViolinIMusicVoice', 'ViolinIIMusicVoice'],
-            [5],
-            ),
-        baca.make_scopes([
-            'ViolinIMusicVoice',
-            'ViolinIIMusicVoice',
-            'CelloMusicVoice'],
-            [7],
-            ),
-        baca.make_scopes(
-            ['ViolinIMusicVoice', 'ViolinIIMusicVoice'],
-            [(9, 10)],
-            ),
-        baca.make_scopes([
-            'ViolinIMusicVoice',
-            'ViolaMusicVoice',
-            'CelloMusicVoice'],
-            [12],
-            ),
-        baca.make_scopes(
-            ['ViolinIMusicVoice', 'ViolaMusicVoice'],
-            [14],
-            ),
-        ]).flatten()
-scopes = list(scopes)
-
 maker(
-    scopes,
+    [
+        ('ViolinIIMusicVoice', 3),
+        ('ViolinIMusicVoice', 5),
+        ('ViolinIIMusicVoice', 5),
+        ('ViolinIMusicVoice', 7),
+        ('ViolinIIMusicVoice', 7),
+        ('CelloMusicVoice', 7),
+        ('ViolinIMusicVoice', (9, 10)),
+        ('ViolinIIMusicVoice', (9, 10)),
+        ('ViolinIMusicVoice', 12),
+        ('ViolaMusicVoice', 12),
+        ('CelloMusicVoice', 12),
+        ('ViolinIMusicVoice', 14),
+        ('ViolaMusicVoice', 14),
+        ],
     baca.alternate_bow_strokes(),
     )
