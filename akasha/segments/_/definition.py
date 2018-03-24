@@ -1,6 +1,7 @@
 import abjad
 import akasha
 import baca
+import os
 
 
 ###############################################################################
@@ -9,6 +10,7 @@ import baca
 
 maker = baca.SegmentMaker(
     metronome_mark_stem_height=1.25,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('B', 3, 0, [-1]),
     validate_measure_count=3,
     )
@@ -24,7 +26,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', (1, 2)),
+    ('va', (1, 2)),
     baca.down_bows(),
     baca.effort_dynamic('mf'),
     baca.make_repeat_tied_notes(),
