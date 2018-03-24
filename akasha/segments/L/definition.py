@@ -1,6 +1,7 @@
 import abjad
 import akasha
 import baca
+import os
 
 
 ###############################################################################
@@ -36,6 +37,7 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     spacing=spacing,
     time_signatures=time_signatures,
     validate_measure_count=6,

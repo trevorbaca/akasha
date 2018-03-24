@@ -122,6 +122,17 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     always_make_global_rests = True
 
+    ### INITIALIZER ###
+
+    def __init__(self):
+        super(ScoreTemplate, self).__init__()
+        self.voice_abbreviations.update({
+            'vn1': 'ViolinIMusicVoice',
+            'vn2': 'ViolinIIMusicVoice',
+            'va': 'ViolaMusicVoice',
+            'vc': 'CelloMusicVoice',
+            })
+
     ### SPECIAL METHODS ###
 
     def __call__(self) -> abjad.Score:
@@ -226,3 +237,25 @@ class ScoreTemplate(baca.ScoreTemplate):
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)
         return score
+
+    ### PUBLIC PROPERTIES ###
+
+    @property
+    def voice_abbreviations(self):
+        r'''Gets voice abbreviations.
+
+        ..  container:: example
+
+            >>> score_template = akasha.ScoreTemplate()
+            >>> abjad.f(score_template.voice_abbreviations)
+            abjad.OrderedDict(
+                [
+                    ('vn1', 'ViolinIMusicVoice'),
+                    ('vn2', 'ViolinIIMusicVoice'),
+                    ('va', 'ViolaMusicVoice'),
+                    ('vc', 'CelloMusicVoice'),
+                    ]
+                )
+
+        '''
+        return super(ScoreTemplate, self).voice_abbreviations

@@ -1,6 +1,7 @@
 import abjad
 import akasha
 import baca
+import os
 
 
 ###############################################################################
@@ -9,6 +10,7 @@ import baca
 
 maker = baca.SegmentMaker(
     metronome_mark_stem_height=1.25,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures(
         'A', 20, 0, 
         [3, 5, 8, 10, 14, 16, 18, 20],

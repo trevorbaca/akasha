@@ -1,6 +1,7 @@
 import abjad
 import akasha
 import baca
+import os
 
 
 ###############################################################################
@@ -43,6 +44,7 @@ spacing = baca.HorizontalSpacingSpecifier(
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     spacing=spacing,
     metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
