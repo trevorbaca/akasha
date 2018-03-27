@@ -69,33 +69,15 @@ maker(
     )
 
 maker(
-    ('vn1', (6, 7)),
-    akasha.polyphony_rhythm(
-        logical_tie_mask=abjad.silence([0, 1, 2], inverted=True),
-        ),
+    (['vn1', 'vn2', 'va'], (6, 7)),
+    (akasha.polyphony_rhythm(lt_mask=~abjad.silence([0, 1, 2])), 0),
+    (akasha.polyphony_rhythm(lt_mask=~abjad.silence([2, 3, 4])), 1),
+    (akasha.polyphony_rhythm(lt_mask=~abjad.silence([1, 2, 3])), 2),
+    (baca.pitches('E4 F4 E+4', exact=True), 0),
+    (baca.pitches('D4 D~4 C4', exact=True), 1),
+    (baca.pitches('Eb4 D4 E4', exact=True), 2),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
-    baca.pitches('E4 F4 E+4', exact=True),
-    )
-
-maker(
-    ('vn2', (6, 7)),
-    akasha.polyphony_rhythm(
-        logical_tie_mask=abjad.silence([2, 3, 4], inverted=True),
-        ),
-    baca.dynamic('mp'),
-    baca.markup.tasto_fractional_scratch(1, 2),
-    baca.pitches('D4 D~4 C4', exact=True),
-    )
-
-maker(
-    ('va', (6, 7)),
-    akasha.polyphony_rhythm(
-        logical_tie_mask=abjad.silence([1, 2, 3], inverted=True),
-        ),
-    baca.dynamic('mp'),
-    baca.markup.tasto_fractional_scratch(1, 2),
-    baca.pitches('Eb4 D4 E4', exact=True),
     )
 
 maker(
@@ -108,7 +90,7 @@ maker(
 maker(
     ('vn2', 9),
     akasha.polyphony_rhythm(
-        logical_tie_mask=abjad.silence([1, 2, 3], inverted=True),
+        lt_mask=abjad.silence([1, 2, 3], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C#4 C#+4', exact=True),
@@ -117,7 +99,7 @@ maker(
 maker(
     ('va', 9),
     akasha.polyphony_rhythm(
-        logical_tie_mask=abjad.silence([2, 3, 4], inverted=True),
+        lt_mask=abjad.silence([2, 3, 4], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C4', exact=True),
@@ -126,7 +108,7 @@ maker(
 maker(
     ('vc', 9),
     akasha.polyphony_rhythm(
-        logical_tie_mask=abjad.silence([0, 1, 2], inverted=True),
+        lt_mask=abjad.silence([0, 1, 2], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C4 C~4 B3', exact=True),
@@ -136,7 +118,7 @@ maker(
     ('vn1', (11, 13)),
     akasha.accelerando_rhythm(
         division_mask=abjad.silence([0]),
-        logical_tie_mask=abjad.silence([3, 5, 7, 9]),
+        lt_mask=abjad.silence([3, 5, 7, 9]),
         ),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
@@ -146,7 +128,7 @@ maker(
     ('vn2', (11, 13)),
     akasha.ritardando_rhythm(
         division_mask=abjad.silence([0]),
-        logical_tie_mask=abjad.silence([2, 5, 7]),
+        lt_mask=abjad.silence([2, 5, 7]),
         ),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
@@ -161,7 +143,7 @@ maker(
 maker(
     ('vc', (11, 13)),
     akasha.polyphony_rhythm(
-        logical_tie_mask=abjad.silence([-1]),
+        lt_mask=abjad.silence([-1]),
         rotation=-6,
         ),
     baca.pitches('Bb3 Bb~3 A3 Ab3 G3 A3', exact=True),
@@ -170,14 +152,14 @@ maker(
 maker(
     ('vn1', 15),
     akasha.accelerando_rhythm(
-        logical_tie_mask=abjad.silence([0, 2, 3, -1], inverted=True),
+        lt_mask=abjad.silence([0, 2, 3, -1], inverted=True),
         ),
     )
 
 maker(
     ('vn2', 15),
     akasha.ritardando_rhythm(
-        logical_tie_mask=abjad.silence([0, 1, 4, -1], inverted=True),
+        lt_mask=abjad.silence([0, 1, 4, -1], inverted=True),
         ),
     )
 
@@ -190,7 +172,7 @@ maker(
 maker(
     ('vc', 15),
     akasha.polyphony_rhythm(
-        logical_tie_mask=abjad.silence([-1]),
+        lt_mask=abjad.silence([-1]),
         rotation=-10,
         ),
     baca.pitches('A3 A#3 B3', exact=True),
@@ -199,7 +181,7 @@ maker(
 maker(
     ('vn1', 17),
     akasha.ritardando_rhythm(
-        logical_tie_mask=abjad.silence([0, 2, -1], inverted=True),
+        lt_mask=abjad.silence([0, 2, -1], inverted=True),
         ),
     )
 
@@ -211,14 +193,14 @@ maker(
 maker(
     ('vn2', 17),
     akasha.accelerando_rhythm(
-        logical_tie_mask=abjad.silence([0, 2, -1], inverted=True),
+        lt_mask=abjad.silence([0, 2, -1], inverted=True),
         ),
     )
 
 maker(
     ('vn2', 19),
     akasha.ritardando_rhythm(
-        logical_tie_mask=abjad.silence([0, 1, -1], inverted=True),
+        lt_mask=abjad.silence([0, 1, -1], inverted=True),
         ),
     )
 

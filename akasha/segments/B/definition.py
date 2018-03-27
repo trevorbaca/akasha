@@ -54,7 +54,7 @@ maker(
     akasha.accelerando_rhythm(
         division_mask=abjad.silence([-2, -1]),
         fuse_counts=[1],
-        logical_tie_mask=abjad.silence([1]),
+        lt_mask=abjad.silence([1]),
         ),
     )
 
@@ -67,7 +67,7 @@ maker(
     ('va', 1),
     akasha.polyphony_rhythm(
         rotation=-2,
-        logical_tie_mask=abjad.silence([0, 1]),
+        lt_mask=abjad.silence([0, 1]),
         ),
     )
 
@@ -106,7 +106,7 @@ maker(
     ('vn2', (8, 9)),
     akasha.accelerando_rhythm(
         fuse_counts=(2, 1),
-        logical_tie_mask=abjad.silence([3]),
+        lt_mask=abjad.silence([3]),
         ),
     )
 
