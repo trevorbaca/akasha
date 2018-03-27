@@ -101,14 +101,14 @@ maker(
 maker(
     ('vn1', 6),
     akasha.accelerando_rhythm(
-        logical_tie_mask=abjad.silence([1, 6]),
+        lt_mask=abjad.silence([1, 6]),
         ),
     )
 
 maker(
     ('vn2', 6),
     akasha.ritardando_rhythm(
-        logical_tie_mask=abjad.silence([2, 5]),
+        lt_mask=abjad.silence([2, 5]),
         ),
     )
 

@@ -7,7 +7,7 @@ def accelerando_rhythm(
     division_expression=None,
     division_mask=None,
     fuse_counts=(1, 2),
-    logical_tie_mask=None,
+    lt_mask=None,
     ):
     r'''Makes accelerando rhythm.
     '''
@@ -26,8 +26,8 @@ def accelerando_rhythm(
     else:
         division_masks = None
 
-    if logical_tie_mask is not None:
-        logical_tie_masks = [logical_tie_mask]
+    if lt_mask is not None:
+        logical_tie_masks = [lt_mask]
     else:
         logical_tie_masks = None
 

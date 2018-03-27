@@ -79,27 +79,11 @@ maker(
     )
 
 maker(
-    ('vn1', (1, 7)),
-    baca.pitch('A5'),
-    )
-
-maker(
-    ('vn2', (1, 7)),
-    baca.pitch('G#+4'),
-    )
-
-maker(
-    ('va', (1, 7)),
-    baca.pitch('A+2'),
-    )
-
-maker(
-    ('vc', (1, 7)),
-    baca.pitch('A1'),
-    )
-
-maker(
-    (['vn1', 'vn2', 'va', 'vc'], 1),
+    (['vn1', 'vn2', 'va', 'vc'], (1, 7)),
+    (baca.pitch('A5'), 0),
+    (baca.pitch('G#+4'), 1),
+    (baca.pitch('A+2'), 2),
+    (baca.pitch('A1'), 3),
     baca.effort_dynamic('ff'),
     baca.markup('tasto + 1 click/3-4 sec.'),
     )
@@ -167,23 +151,11 @@ maker(
     )
 
 maker(
-    ('vn1', (9, 10)),
-    baca.pitch('A5'),
-    )
-
-maker(
-    ('vn2', (9, 10)),
-    baca.pitches('A4 G#+4'),
-    )
-
-maker(
-    ('va', (9, 10)),
-    baca.pitches('A2 A+2'),
-    )
-
-maker(
-    ('vc', (9, 10)),
-    baca.pitch('A1'),
+    (['vn1', 'vn2', 'va', 'vc'], (9, 10)),
+    (baca.pitch('A5'), 0),
+    (baca.pitches('A4 G#+4'), 1),
+    (baca.pitches('A2 A+2'), 2),
+    (baca.pitch('A1'), 3),
     )
 
 maker(
