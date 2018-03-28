@@ -26,6 +26,42 @@ maker(
     )
 
 maker(
+    'vn1',
+    baca.suite([
+        akasha.margin_markup('Vn. I'),
+        baca.start_markup('Violin I', hcenter_in=14),
+        ]),
+
+    )
+
+maker(
+    'vn2',
+    baca.suite([
+        akasha.margin_markup('Vn. II'),
+        baca.start_markup('Violin II', hcenter_in=14),
+        ]),
+
+    )
+
+maker(
+    'va',
+    baca.suite([
+        akasha.margin_markup('Va.'),
+        baca.start_markup('Viola', hcenter_in=14),
+        ]),
+
+    )
+
+maker(
+    'vc',
+    baca.suite([
+        akasha.margin_markup('Vc.'),
+        baca.start_markup('Cello', hcenter_in=14),
+        ]),
+
+    )
+
+maker(
     ('va', (1, 2)),
     baca.down_bows(),
     baca.effort_dynamic('mf'),

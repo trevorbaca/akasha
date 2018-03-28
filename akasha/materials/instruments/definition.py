@@ -6,6 +6,7 @@ instruments = abjad.OrderedDict([
     (
         'ViolinI',
         abjad.Violin(
+            hide=True,
             name='violin I',
             markup=baca.markup.instrument('Violin I'),
             short_name='vn. I',
@@ -15,6 +16,7 @@ instruments = abjad.OrderedDict([
     (
         'ViolinII',
         abjad.Violin(
+            hide=True,
             name='violin II',
             markup=baca.markup.instrument('Violin II'),
             short_name='vn. II',
@@ -24,6 +26,7 @@ instruments = abjad.OrderedDict([
     (
         'Viola',
         abjad.Viola(
+            hide=True,
             markup=baca.markup.instrument('Viola'),
             short_markup=baca.markup.short_instrument('Va.'),
             ),
@@ -31,6 +34,7 @@ instruments = abjad.OrderedDict([
     (
         'Cello',
         abjad.Cello(
+            hide=True,
             markup=baca.markup.instrument('Cello'),
             short_markup=baca.markup.short_instrument('Vc.'),
             ),
