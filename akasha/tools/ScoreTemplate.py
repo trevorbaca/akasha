@@ -39,16 +39,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "ViolinIMusicVoice"
                         {
-                            \set Staff.instrumentName = \markup {      %! ST1
-                                \hcenter-in                            %! ST1
-                                    #16                                %! ST1
-                                    "Violin I"                         %! ST1
-                                }                                      %! ST1
-                            \set Staff.shortInstrumentName = \markup { %! ST1
-                                \hcenter-in                            %! ST1
-                                    #10                                %! ST1
-                                    "Vn. I"                            %! ST1
-                                }                                      %! ST1
                             \clef "treble" %! ST3
                             s1
                         }
@@ -58,16 +48,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "ViolinIIMusicVoice"
                         {
-                            \set Staff.instrumentName = \markup {      %! ST1
-                                \hcenter-in                            %! ST1
-                                    #16                                %! ST1
-                                    "Violin II"                        %! ST1
-                                }                                      %! ST1
-                            \set Staff.shortInstrumentName = \markup { %! ST1
-                                \hcenter-in                            %! ST1
-                                    #10                                %! ST1
-                                    "Vn. II"                           %! ST1
-                                }                                      %! ST1
                             \clef "treble" %! ST3
                             s1
                         }
@@ -77,16 +57,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "ViolaMusicVoice"
                         {
-                            \set Staff.instrumentName = \markup {      %! ST1
-                                \hcenter-in                            %! ST1
-                                    #16                                %! ST1
-                                    Viola                              %! ST1
-                                }                                      %! ST1
-                            \set Staff.shortInstrumentName = \markup { %! ST1
-                                \hcenter-in                            %! ST1
-                                    #10                                %! ST1
-                                    Va.                                %! ST1
-                                }                                      %! ST1
                             \clef "alto" %! ST3
                             s1
                         }
@@ -96,16 +66,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                     {
                         \context Voice = "CelloMusicVoice"
                         {
-                            \set Staff.instrumentName = \markup {      %! ST1
-                                \hcenter-in                            %! ST1
-                                    #16                                %! ST1
-                                    Cello                              %! ST1
-                                }                                      %! ST1
-                            \set Staff.shortInstrumentName = \markup { %! ST1
-                                \hcenter-in                            %! ST1
-                                    #10                                %! ST1
-                                    Vc.                                %! ST1
-                                }                                      %! ST1
                             \clef "bass" %! ST3
                             s1
                         }
