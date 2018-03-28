@@ -80,7 +80,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
-    always_make_global_rests = True
+    _always_make_global_rests = True
 
     ### INITIALIZER ###
 
