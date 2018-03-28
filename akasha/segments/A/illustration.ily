@@ -124,7 +124,7 @@ A_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:REDUNDANT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:REDUNDANT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:REDUNDANT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:REDUNDANT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:REDUNDANT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:REDUNDANT_METRONOME_MARK
 %@%         {                                                            %! SM27:REDUNDANT_METRONOME_MARK
 %@%             =                                                        %! SM27:REDUNDANT_METRONOME_MARK
@@ -150,7 +150,7 @@ A_GlobalSkips = {
                         \note-by-number                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR
@@ -250,7 +250,7 @@ A_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -275,7 +275,7 @@ A_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -407,7 +407,7 @@ A_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -433,7 +433,7 @@ A_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -603,7 +603,7 @@ A_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -628,7 +628,7 @@ A_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1098,11 +1098,25 @@ A_ViolinIMusicVoice = {
     f'4.
     \repeatTie
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     eqs'8
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolinIMusicVoice measure 10]                           %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     eqs'8
     \repeatTie
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     r2..
     
@@ -1113,23 +1127,45 @@ A_ViolinIMusicVoice = {
     r1
     \times 8/9 {
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b32
         -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "leggierissimo: off-string bowing on staccati" %! IC
-            }                                                    %! IC
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    "leggierissimo: off-string bowing on staccati" %! IC
+                        }                                        %! IC
+                    \line                                        %! SM12
+                        {                                        %! SM12
+                            OCTAVE                               %! SM12
+                        }                                        %! SM12
+                }
+            }
         
         cs'32
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'32
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8.
     }
@@ -1137,9 +1173,16 @@ A_ViolinIMusicVoice = {
         
         r16.
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b32
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf32
         -\staccato                                               %! IC
@@ -1213,7 +1256,14 @@ A_ViolinIMusicVoice = {
         
         r16 * 159/64
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16 * 185/64
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r16 * 111/32
         
@@ -1277,15 +1327,29 @@ A_ViolinIMusicVoice = {
         
         r16 * 49/8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16 * 243/64
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16 * 165/64
         
         r16 * 33/16
         
         \revert Staff.Stem.stemlet-length
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16 * 61/32
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \revert TupletNumber.text
     
@@ -1458,18 +1522,40 @@ A_ViolinIIMusicVoice = {
     
     r4.
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d'8
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + 1/2 scratch"                            %! IC
-        }                                                        %! IC
+    ^ \markup {
+        \column
+            {
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "tasto + 1/2 scratch"            %! IC
+                    }                                            %! IC
+                \line                                            %! SM12
+                    {                                            %! SM12
+                        OCTAVE                                   %! SM12
+                    }                                            %! SM12
+            }
+        }
     
     % [A ViolinIIMusicVoice measure 10]                          %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'8
     \repeatTie
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     dqf'4.
     
@@ -1483,7 +1569,14 @@ A_ViolinIIMusicVoice = {
     
     cs'4.
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     ctqs'2..
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolinIIMusicVoice measure 13]                          %! SM4
     R1 * 1/4
@@ -1621,8 +1714,15 @@ A_ViolinIIMusicVoice = {
         r16 * 81/16
         
         \revert Staff.Stem.stemlet-length
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16 * 429/64
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \revert TupletNumber.text
     
@@ -1847,11 +1947,25 @@ A_ViolaMusicVoice = {
     ef'4.
     \repeatTie
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'8
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolaMusicVoice measure 10]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'8
     \repeatTie
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     e'4.
     
@@ -1865,7 +1979,14 @@ A_ViolaMusicVoice = {
     
     r8
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'2..
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolaMusicVoice measure 13]                             %! SM4
     R1 * 1/4
@@ -1889,7 +2010,14 @@ A_ViolaMusicVoice = {
     ds'2.
     \repeatTie
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'4
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     fs'4.
     
@@ -1907,8 +2035,15 @@ A_ViolaMusicVoice = {
     
     d'4.
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     d'2.
     \repeatTie
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolaMusicVoice measure 19]                             %! SM4
     R1 * 1/4
@@ -2016,7 +2151,14 @@ A_CelloMusicVoice = {
     
     cqf'4.
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     b2..
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A CelloMusicVoice measure 13]                             %! SM4
     R1 * 1/4
@@ -2036,8 +2178,15 @@ A_CelloMusicVoice = {
     % [A CelloMusicVoice measure 15]                             %! SM4
     af2.
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     af4.
     \repeatTie
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     g8
     [
@@ -2062,8 +2211,15 @@ A_CelloMusicVoice = {
     
     as2
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     as4.
     \repeatTie
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     b8
     [

@@ -69,7 +69,7 @@ B_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%                 #1.5                                                 %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
@@ -94,7 +94,7 @@ B_GlobalSkips = {
                         \note-by-number                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.5                                         %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
@@ -563,7 +563,12 @@ B_ViolinIMusicVoice = {
         
         % [B ViolinIMusicVoice measure 24]                       %! SM4
         \override Staff.Stem.stemlet-length = 0.75
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
         \once \override Beam.grow-direction = #right
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         \set Staff.instrumentName = \markup {                    %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -583,11 +588,21 @@ B_ViolinIMusicVoice = {
         e''16 * 249/32
         \pp                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
         [
-        ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                (“ViolinI”)                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            }                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                (“ViolinI”)                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    \line                                        %! SM12
+                        {                                        %! SM12
+                            OCTAVE                               %! SM12
+                        }                                        %! SM12
+                }
+            }
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
         \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -606,8 +621,15 @@ B_ViolinIMusicVoice = {
         d''16 * 179/64
         
         \revert Staff.Stem.stemlet-length
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16 * 131/64
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \revert TupletNumber.text
     
@@ -703,7 +725,14 @@ B_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2..
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ViolinIIMusicVoice measure 25]                          %! SM4
     f'4
@@ -716,8 +745,15 @@ B_ViolinIIMusicVoice = {
     e'2
     
     % [B ViolinIIMusicVoice measure 26]                          %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     e'2
     \repeatTie
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ViolinIIMusicVoice measure 27]                          %! SM4
     R1 * 1
@@ -857,7 +893,14 @@ B_ViolaMusicVoice = {
     
     r4
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     df'2
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ViolaMusicVoice measure 25]                             %! SM4
     df'4.
@@ -876,8 +919,15 @@ B_ViolaMusicVoice = {
     c'4
     
     % [B ViolaMusicVoice measure 26]                             %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'2
     \repeatTie
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ViolaMusicVoice measure 27]                             %! SM4
     R1 * 1
@@ -988,9 +1038,16 @@ B_CelloMusicVoice = {
         % [B CelloMusicVoice measure 26]                         %! SM4
         r8.
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'32
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf32
         -\staccato                                               %! IC

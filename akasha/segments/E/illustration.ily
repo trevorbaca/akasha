@@ -165,7 +165,7 @@ E_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%                 #1.5                                                 %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
@@ -190,7 +190,7 @@ E_GlobalSkips = {
                         \note-by-number                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.5                                         %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
@@ -522,7 +522,7 @@ E_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -547,7 +547,7 @@ E_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
@@ -819,7 +819,7 @@ E_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -844,7 +844,7 @@ E_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
@@ -1317,7 +1317,7 @@ E_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -1342,7 +1342,7 @@ E_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
@@ -1891,7 +1891,14 @@ E_ViolinIMusicVoice = {
     \times 5/3 {
         
         % [E ViolinIMusicVoice measure 119]                      %! SM4
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'4
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
         
@@ -1982,7 +1989,14 @@ E_ViolinIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -2055,7 +2069,14 @@ E_ViolinIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -2130,7 +2151,14 @@ E_ViolinIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -2185,7 +2213,14 @@ E_ViolinIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -2223,6 +2258,11 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a'16
         -\staccato                                               %! IC
@@ -2244,6 +2284,10 @@ E_ViolinIMusicVoice = {
                                 \upright                         %! IC
                                     "senza scratch"              %! IC
                         }                                        %! IC
+                    \line                                        %! SM12
+                        {                                        %! SM12
+                            OCTAVE                               %! SM12
+                        }                                        %! SM12
                 }
             }
         
@@ -2273,8 +2317,15 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -2287,9 +2338,16 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a'16
         -\staccato                                               %! IC
@@ -2317,8 +2375,15 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a'16
         -\staccato                                               %! IC
@@ -2330,40 +2395,89 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
         % [E ViolinIMusicVoice measure 138]                      %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
@@ -2381,9 +2495,16 @@ E_ViolinIMusicVoice = {
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     r4
@@ -2392,15 +2513,36 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 139]                      %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf'16
         -\staccato                                               %! IC
@@ -2410,21 +2552,49 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
@@ -2439,12 +2609,26 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -2464,9 +2648,16 @@ E_ViolinIMusicVoice = {
         d''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -2479,8 +2670,15 @@ E_ViolinIMusicVoice = {
         ef''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -2490,15 +2688,29 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -2506,9 +2718,16 @@ E_ViolinIMusicVoice = {
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
@@ -2558,8 +2777,15 @@ E_ViolinIMusicVoice = {
         f''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
@@ -2567,25 +2793,46 @@ E_ViolinIMusicVoice = {
         g''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -2613,59 +2860,150 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 142]                      %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -2678,15 +3016,36 @@ E_ViolinIMusicVoice = {
         f''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -2694,15 +3053,36 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 143]                      %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         f''16
         -\staccato                                               %! IC
@@ -2710,9 +3090,16 @@ E_ViolinIMusicVoice = {
         fs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 6/9 {
         
@@ -2728,21 +3115,56 @@ E_ViolinIMusicVoice = {
         f''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/6 {
@@ -2759,8 +3181,15 @@ E_ViolinIMusicVoice = {
         bf''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af''16
         -\staccato                                               %! IC
@@ -2771,28 +3200,63 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         f''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -2800,12 +3264,26 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 144]                      %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af''16
         -\staccato                                               %! IC
@@ -2813,26 +3291,61 @@ E_ViolinIMusicVoice = {
         g''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 6/9 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'''16
         -\staccato                                               %! IC
@@ -2840,11 +3353,25 @@ E_ViolinIMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
@@ -2855,46 +3382,109 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         b''16
@@ -2908,18 +3498,46 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 145]                      %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef'''16
         -\staccato                                               %! IC
@@ -2936,11 +3554,25 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
@@ -2948,11 +3580,25 @@ E_ViolinIMusicVoice = {
         bf''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
@@ -2967,18 +3613,39 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
@@ -2989,20 +3656,48 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         f'''16
         -\staccato                                               %! IC
@@ -3013,15 +3708,29 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 146]                      %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         e'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d'''16
         -\staccato                                               %! IC
@@ -3031,21 +3740,56 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'''16
         -\staccato                                               %! IC
@@ -3071,22 +3815,57 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -3094,21 +3873,49 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 147]                      %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef'''16
         -\staccato                                               %! IC
@@ -3118,12 +3925,26 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d'''16
         -\staccato                                               %! IC
@@ -3134,37 +3955,93 @@ E_ViolinIMusicVoice = {
         ef'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/6 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
@@ -3181,18 +4058,39 @@ E_ViolinIMusicVoice = {
         fs'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -3209,9 +4107,16 @@ E_ViolinIMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
@@ -3230,8 +4135,15 @@ E_ViolinIMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af'''16
         -\staccato                                               %! IC
@@ -3242,16 +4154,37 @@ E_ViolinIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -3261,18 +4194,39 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     r4
@@ -3444,14 +4398,29 @@ E_ViolinIIMusicVoice = {
         % [E ViolinIIMusicVoice measure 123]                     %! SM4
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         a8
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "po' meno scratch"                           %! IC
-            }                                                    %! IC
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    "po' meno scratch"           %! IC
+                        }                                        %! IC
+                    \line                                        %! SM12
+                        {                                        %! SM12
+                            OCTAVE                               %! SM12
+                        }                                        %! SM12
+                }
+            }
         
         r8
         
@@ -3495,7 +4464,14 @@ E_ViolinIIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -3549,7 +4525,14 @@ E_ViolinIIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -3571,7 +4554,14 @@ E_ViolinIIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
     }
@@ -3623,8 +4613,15 @@ E_ViolinIIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'8
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -3647,8 +4644,15 @@ E_ViolinIIMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'8
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -3681,8 +4685,15 @@ E_ViolinIIMusicVoice = {
                     leggieriss.                                  %! IC
             }                                                    %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b16
         -\staccato                                               %! IC
@@ -3715,8 +4726,15 @@ E_ViolinIIMusicVoice = {
         \mf                                                      %! HC1
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d'16
         -\staccato                                               %! IC
@@ -3726,12 +4744,26 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b16
         -\staccato                                               %! IC
@@ -3757,9 +4789,16 @@ E_ViolinIIMusicVoice = {
         e'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     r4
@@ -3791,11 +4830,25 @@ E_ViolinIIMusicVoice = {
         cs'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'16
         -\staccato                                               %! IC
@@ -3805,9 +4858,16 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'16
         -\staccato                                               %! IC
@@ -3826,9 +4886,16 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d'16
         -\staccato                                               %! IC
@@ -3852,8 +4919,15 @@ E_ViolinIIMusicVoice = {
         f'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs'16
         -\staccato                                               %! IC
@@ -3881,25 +4955,67 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
@@ -3907,16 +5023,37 @@ E_ViolinIIMusicVoice = {
         % [E ViolinIIMusicVoice measure 138]                     %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -3935,9 +5072,16 @@ E_ViolinIIMusicVoice = {
         f'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -3953,9 +5097,16 @@ E_ViolinIIMusicVoice = {
         af'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [E ViolinIIMusicVoice measure 139]                         %! SM4
@@ -3965,16 +5116,37 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -3987,15 +5159,36 @@ E_ViolinIIMusicVoice = {
         f'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -4012,9 +5205,16 @@ E_ViolinIIMusicVoice = {
         fs'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
@@ -4030,11 +5230,25 @@ E_ViolinIIMusicVoice = {
         f'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a'16
         -\staccato                                               %! IC
@@ -4045,16 +5259,37 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -4082,19 +5317,40 @@ E_ViolinIIMusicVoice = {
         % [E ViolinIIMusicVoice measure 141]                     %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         f'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
@@ -4129,23 +5385,51 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -4153,9 +5437,16 @@ E_ViolinIIMusicVoice = {
         b'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -4184,58 +5475,149 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -4245,30 +5627,72 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 6/9 {
         
         % [E ViolinIIMusicVoice measure 143]                     %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a'16
         -\staccato                                               %! IC
@@ -4282,9 +5706,16 @@ E_ViolinIIMusicVoice = {
         b'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/6 {
@@ -4298,15 +5729,36 @@ E_ViolinIIMusicVoice = {
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
@@ -4326,11 +5778,25 @@ E_ViolinIIMusicVoice = {
         e''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
@@ -4341,37 +5807,79 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 6/9 {
         
         % [E ViolinIIMusicVoice measure 144]                     %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
@@ -4382,37 +5890,86 @@ E_ViolinIIMusicVoice = {
         ef''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/6 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
@@ -4423,11 +5980,25 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
@@ -4435,39 +6006,95 @@ E_ViolinIIMusicVoice = {
         ef''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         f''16
         -\staccato                                               %! IC
         \pp                                                      %! HC1
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/6 {
@@ -4475,15 +6102,36 @@ E_ViolinIIMusicVoice = {
         % [E ViolinIIMusicVoice measure 145]                     %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
@@ -4496,24 +6144,59 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
@@ -4524,21 +6207,49 @@ E_ViolinIIMusicVoice = {
         e''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/11 {
@@ -4549,14 +6260,35 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
@@ -4564,11 +6296,25 @@ E_ViolinIIMusicVoice = {
         af''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
@@ -4582,15 +6328,29 @@ E_ViolinIIMusicVoice = {
         % [E ViolinIIMusicVoice measure 146]                     %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af''16
         -\staccato                                               %! IC
@@ -4601,21 +6361,56 @@ E_ViolinIIMusicVoice = {
         fs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 8/14 {
         
@@ -4646,17 +6441,45 @@ E_ViolinIIMusicVoice = {
         bf''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a''16
         -\staccato                                               %! IC
@@ -4671,23 +6494,58 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
@@ -4698,9 +6556,16 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
@@ -4714,39 +6579,88 @@ E_ViolinIIMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/10 {
@@ -4766,8 +6680,15 @@ E_ViolinIIMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d'''16
         -\staccato                                               %! IC
@@ -4775,8 +6696,15 @@ E_ViolinIIMusicVoice = {
         cs'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
@@ -4800,11 +6728,25 @@ E_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef'''16
         -\staccato                                               %! IC
@@ -4821,8 +6763,15 @@ E_ViolinIIMusicVoice = {
         cs'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
@@ -4832,37 +6781,93 @@ E_ViolinIIMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef'''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     r4
@@ -4988,8 +6993,15 @@ E_ViolaMusicVoice = {
     % [E ViolaMusicVoice measure 119]                            %! SM4
     r4
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4
     -\upbow                                                      %! IC
@@ -5021,11 +7033,25 @@ E_ViolaMusicVoice = {
     -\upbow                                                      %! IC
     
     % [E ViolaMusicVoice measure 123]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4
     -\downbow                                                    %! IC
@@ -5050,7 +7076,14 @@ E_ViolaMusicVoice = {
     ~
     
     % [E ViolaMusicVoice measure 125]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'8
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4
     -\upbow                                                      %! IC
@@ -5058,15 +7091,29 @@ E_ViolaMusicVoice = {
     c'4
     -\downbow                                                    %! IC
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4
     -\downbow                                                    %! IC
     
     % [E ViolaMusicVoice measure 126]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4
     -\downbow                                                    %! IC
@@ -5096,8 +7143,15 @@ E_ViolaMusicVoice = {
     c'4
     -\downbow                                                    %! IC
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4
     -\downbow                                                    %! IC
@@ -5109,8 +7163,15 @@ E_ViolaMusicVoice = {
     c'4
     -\downbow                                                    %! IC
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'8
     -\downbow                                                    %! IC
@@ -5141,8 +7202,15 @@ E_ViolaMusicVoice = {
     c'4
     -\downbow                                                    %! IC
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4
     -\downbow                                                    %! IC
@@ -5157,11 +7225,25 @@ E_ViolaMusicVoice = {
     % [E ViolaMusicVoice measure 132]                            %! SM4
     c'4
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4
     -\upbow                                                      %! IC
@@ -5176,8 +7258,15 @@ E_ViolaMusicVoice = {
     % [E ViolaMusicVoice measure 133]                            %! SM4
     c'4
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'4.
     -\upbow                                                      %! IC
@@ -5198,14 +7287,35 @@ E_ViolaMusicVoice = {
     -\downbow                                                    %! IC
     
     % [E ViolaMusicVoice measure 135]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'8
     -\downbow                                                    %! IC
@@ -5216,14 +7326,35 @@ E_ViolaMusicVoice = {
     c'8
     ]
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'8
     -\downbow                                                    %! IC
@@ -5234,43 +7365,120 @@ E_ViolaMusicVoice = {
     c'8
     ]
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 138]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'8
     -\upbow                                                      %! IC
     ~
     [
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 139]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'8
     ]
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 140]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'8
     -\upbow                                                      %! IC
@@ -5278,17 +7486,45 @@ E_ViolaMusicVoice = {
     [
     
     % [E ViolaMusicVoice measure 141]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'8
     ]
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'8
     -\upbow                                                      %! IC
@@ -5296,110 +7532,341 @@ E_ViolaMusicVoice = {
     [
     
     % [E ViolaMusicVoice measure 142]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'8
     ]
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 143]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 144]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 145]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 146]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'8
     -\upbow                                                      %! IC
     ~
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 147]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'8
     -\downbow                                                    %! IC
     ~
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     % [E ViolaMusicVoice measure 148]                            %! SM4
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4.
     -\downbow                                                    %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
+    \once \override Accidental.color = #red
+    \once \override Beam.color = #red
+    \once \override Dots.color = #red
+    \once \override NoteHead.color = #red
+    \once \override Stem.color = #red
     c'4
     -\upbow                                                      %! IC
+    - \tweak color #red                                          %! SM12
+    ^ \markup { OCTAVE }                                         %! SM12
     
     c'8
     -\downbow                                                    %! IC
@@ -5527,7 +7994,14 @@ E_CelloMusicVoice = {
         % [E CelloMusicVoice measure 119]                        %! SM4
         r4
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c4
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
         
@@ -5578,7 +8052,14 @@ E_CelloMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a,8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -5621,7 +8102,14 @@ E_CelloMusicVoice = {
     \times 10/12 {
         
         % [E CelloMusicVoice measure 125]                        %! SM4
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -5649,7 +8137,14 @@ E_CelloMusicVoice = {
     \times 6/8 {
         
         % [E CelloMusicVoice measure 126]                        %! SM4
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c8
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -5715,8 +8210,15 @@ E_CelloMusicVoice = {
         
         r8
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d8
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -5806,8 +8308,15 @@ E_CelloMusicVoice = {
                     leggieriss.                                  %! IC
             }                                                    %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b,16
         -\staccato                                               %! IC
@@ -5815,9 +8324,16 @@ E_CelloMusicVoice = {
         cs16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     r4.
@@ -5885,12 +8401,26 @@ E_CelloMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef16
         -\staccato                                               %! IC
@@ -5971,11 +8501,25 @@ E_CelloMusicVoice = {
         \mf                                                      %! HC1
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af16
         -\staccato                                               %! IC
@@ -5985,15 +8529,36 @@ E_CelloMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         f16
         -\staccato                                               %! IC
@@ -6017,9 +8582,16 @@ E_CelloMusicVoice = {
         ef16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -6072,11 +8644,25 @@ E_CelloMusicVoice = {
         af16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a16
         -\staccato                                               %! IC
@@ -6090,9 +8676,16 @@ E_CelloMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af16
         -\staccato                                               %! IC
@@ -6107,9 +8700,16 @@ E_CelloMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         f16
         -\staccato                                               %! IC
@@ -6139,8 +8739,15 @@ E_CelloMusicVoice = {
         a16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g16
         -\staccato                                               %! IC
@@ -6166,41 +8773,104 @@ E_CelloMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [E CelloMusicVoice measure 138]                        %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
@@ -6222,9 +8892,16 @@ E_CelloMusicVoice = {
         bf16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
@@ -6238,9 +8915,16 @@ E_CelloMusicVoice = {
         bf16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
@@ -6253,12 +8937,26 @@ E_CelloMusicVoice = {
         r16
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'16
         -\staccato                                               %! IC
@@ -6268,15 +8966,29 @@ E_CelloMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'16
         -\staccato                                               %! IC
@@ -6284,15 +8996,36 @@ E_CelloMusicVoice = {
         d'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
@@ -6315,9 +9048,16 @@ E_CelloMusicVoice = {
         b16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 8/10 {
         
@@ -6330,8 +9070,15 @@ E_CelloMusicVoice = {
         cs'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b16
         -\staccato                                               %! IC
@@ -6339,18 +9086,39 @@ E_CelloMusicVoice = {
         cs'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 8/12 {
         
@@ -6376,8 +9144,15 @@ E_CelloMusicVoice = {
         cs'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b16
         -\staccato                                               %! IC
@@ -6385,8 +9160,15 @@ E_CelloMusicVoice = {
         cs'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'16
         -\staccato                                               %! IC
@@ -6421,30 +9203,72 @@ E_CelloMusicVoice = {
         ef'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         e'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/6 {
         
@@ -6476,50 +9300,141 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 8/9 {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af'16
         -\staccato                                               %! IC
@@ -6527,30 +9442,72 @@ E_CelloMusicVoice = {
         f'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 6/9 {
         
         % [E CelloMusicVoice measure 143]                        %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         f'16
         -\staccato                                               %! IC
@@ -6564,9 +9521,16 @@ E_CelloMusicVoice = {
         g'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 12/14 {
@@ -6580,17 +9544,45 @@ E_CelloMusicVoice = {
         g'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -6607,8 +9599,15 @@ E_CelloMusicVoice = {
         af'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs'16
         -\staccato                                               %! IC
@@ -6623,26 +9622,68 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g'16
         -\staccato                                               %! IC
@@ -6654,9 +9695,16 @@ E_CelloMusicVoice = {
         % [E CelloMusicVoice measure 144]                        %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf'16
         -\staccato                                               %! IC
@@ -6667,26 +9715,68 @@ E_CelloMusicVoice = {
         bf'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         af'16
         -\staccato                                               %! IC
@@ -6700,11 +9790,25 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a'16
         -\staccato                                               %! IC
@@ -6712,8 +9816,15 @@ E_CelloMusicVoice = {
         bf'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -6721,20 +9832,48 @@ E_CelloMusicVoice = {
         bf'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         d''16
@@ -6747,21 +9886,56 @@ E_CelloMusicVoice = {
         % [E CelloMusicVoice measure 145]                        %! SM4
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -6778,11 +9952,25 @@ E_CelloMusicVoice = {
         bf'16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
@@ -6790,11 +9978,25 @@ E_CelloMusicVoice = {
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b'16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -6811,24 +10013,59 @@ E_CelloMusicVoice = {
         ef''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 10/15 {
         
@@ -6838,11 +10075,25 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -6850,8 +10101,15 @@ E_CelloMusicVoice = {
         cs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -6863,14 +10121,28 @@ E_CelloMusicVoice = {
         e''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         cs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         ef''16
         -\staccato                                               %! IC
@@ -6883,21 +10155,56 @@ E_CelloMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
@@ -6922,22 +10229,57 @@ E_CelloMusicVoice = {
         
         r16
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
         [
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         d''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 12/15 {
         
@@ -6948,17 +10290,45 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         e''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
@@ -6966,11 +10336,25 @@ E_CelloMusicVoice = {
         fs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
@@ -6978,15 +10362,36 @@ E_CelloMusicVoice = {
         af''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/11 {
@@ -6997,33 +10402,75 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         ef''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 10/14 {
@@ -7040,17 +10487,45 @@ E_CelloMusicVoice = {
         a''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         af''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         b''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
@@ -7064,12 +10539,26 @@ E_CelloMusicVoice = {
         g''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         fs''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         f''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 8/14 {
         
@@ -7088,8 +10577,15 @@ E_CelloMusicVoice = {
         af''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a''16
         -\staccato                                               %! IC
@@ -7097,14 +10593,35 @@ E_CelloMusicVoice = {
         af''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         g''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
@@ -7112,9 +10629,16 @@ E_CelloMusicVoice = {
         bf''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
         ]
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
@@ -7127,14 +10651,35 @@ E_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         c'''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         a''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
+        \once \override Accidental.color = #red
+        \once \override Beam.color = #red
+        \once \override Dots.color = #red
+        \once \override NoteHead.color = #red
+        \once \override Stem.color = #red
         bf''16
         -\staccato                                               %! IC
+        - \tweak color #red                                      %! SM12
+        ^ \markup { OCTAVE }                                     %! SM12
         
         a''16
         -\staccato                                               %! IC
