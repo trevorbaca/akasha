@@ -3329,7 +3329,7 @@ I_ViolinIIMusicVoice = {
                     {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                         \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“ViolinII”)                         %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            (“ViolinI”)                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                     }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37

@@ -290,7 +290,7 @@ i_ViolinIIMusicVoice = {
                     {                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                         \with-color                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                             #(x11-color 'DarkViolet)             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
-                            (“ViolinII”)                         %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+                            (“ViolinI”)                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
