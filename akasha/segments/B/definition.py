@@ -51,11 +51,15 @@ maker(
         fuse_counts=[1],
         lt_mask=abjad.silence([1]),
         ),
+    baca.pitches('E5 D5'),
     )
 
 maker(
     ('vn2', 1),
     akasha.polyphony_rhythm(),
+    baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
+    baca.dynamic('mp'),
+    baca.markup.tasto_fractional_scratch(1, 2),
     )
 
 maker(
@@ -64,6 +68,7 @@ maker(
         rotation=-2,
         lt_mask=abjad.silence([0, 1]),
         ),
+    baca.pitches('Db4 Db~4 C4', exact=True),
     )
 
 maker(
@@ -97,72 +102,29 @@ maker(
     )
 
 maker(
+    ('vc', (1, 6)),
+    akasha.getato_pitches(-2, [-3], direction=abjad.Down),
+    baca.beam_positions(-4),
+    baca.staccati(),
+    baca.tuplet_bracket_staff_padding(2),
+    )
+
+maker(
     ('vn2', (8, 9)),
     akasha.accelerando_rhythm(
         fuse_counts=(2, 1),
         lt_mask=abjad.silence([3]),
         ),
-    )
-
-maker(
-    ('va', 9),
-    baca.make_repeat_tied_notes(),
-    )
-
-maker(
-    ('vc', 9),
-    baca.make_repeat_tied_notes(),
-    )
-
-maker(
-    ('vn1', 1),
-    baca.pitches('E5 D5'),
-    )
-
-maker(
-    ('vn2', 1),
-    baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
-    )
-
-maker(
-    ('va', 1),
-    baca.pitches('Db4 Db~4 C4', exact=True),
-    )
-
-maker(
-    ('vn2', 1),
-    baca.dynamic('mp'),
-    baca.markup.tasto_fractional_scratch(1, 2),
-    )
-
-maker(
-    ('vc', (1, 6)),
-    akasha.getato_pitches(-2, [-3], direction=abjad.Down),
-    baca.staccati(),
-    )
-
-maker(
-    ('vn2', (8, 9)),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
     baca.pitches('C5 Bb4'),
     )
 
 maker(
-    ('va', 9),
+    (['va', 'vc'], 9),
+    baca.make_repeat_tied_notes(),
     baca.markup.tasto(),
-    baca.pitch('D#3'),
-    )
-
-maker(
-    ('vc', 9),
-    baca.dynamic('mp'),
-    baca.pitch('C#2'),
-    baca.markup.tasto(),
-    )
-
-maker(
-    'vc',
-    baca.beam_positions(-4),
-    baca.tuplet_bracket_staff_padding(2),
+    (baca.pitch('D#3'), 0),
+    (baca.pitch('C#2'), 1),
+    (baca.dynamic('mp'), 1),
     )
