@@ -30,6 +30,7 @@ def sparse_getato_rhythm(
                 denominator=32,
                 ),
             tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
                 rewrite_rest_filled=True,
                 )
             ),
