@@ -22,6 +22,10 @@ metadata = abjad.OrderedDict(
                 'CelloMusicVoice',
                 ],
             ),
+        (
+            'bol_measure_numbers',
+            [152, 162, 170, 187, 192],
+            ),
         ('duration', "2'08''"),
         (
             'fermata_measure_numbers',
@@ -174,7 +178,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolinIMusicVoice',
                                 prototype='baca.StaffLines',
-                                value=1,
+                                value=5,
                                 ),
                             ],
                         ),

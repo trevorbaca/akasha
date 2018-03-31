@@ -43,17 +43,12 @@ maker = baca.TimeSignatureMaker(
     )
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
-spacing = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=(1, 4),
-    minimum_width=(1, 12),
-    )
-
 maker = baca.SegmentMaker(
+    color_octaves=False,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    spacing=spacing,
     metronome_mark_measure_map=metronome_mark_measure_map,
     time_signatures=time_signatures,
     validate_measure_count=48,
@@ -63,6 +58,11 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('F'),
+    )
+
+maker(
+    'va',
+    baca.staff_lines(5),
     )
 
 maker(
@@ -281,7 +281,6 @@ maker(
 maker(
     ('vc', 1),
     akasha.cello_solo_pitches(transposition=1),
-    baca.clef('treble'),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
     )
@@ -315,17 +314,11 @@ maker(
     )
 
 maker(
-    ('vn1', 6),
-    baca.dynamic('pp'),
+    (['vn1', 'vn2'], 6),
+    baca.ancora_dynamic('pp'),
     baca.markup.tasto_XFB(),
-    baca.pitches('Eb5 F5'),
-    )
-
-maker(
-    ('vn2', 6),
-    baca.dynamic('pp'),
-    baca.markup.tasto_XFB(),
-    baca.pitches('B4 C#5'),
+    (baca.pitches('Eb5 F5'), 0),
+    (baca.pitches('B4 C#5'), 1),
     )
 
 maker(
@@ -450,6 +443,7 @@ maker(
 maker(
     ('GlobalSkips', (17, 18)),
     baca.markup.boxed_repeat_count(6, baca.skip(0)),
+    baca.text_script_extra_offset((1.5, 6)),
     baca.volta(),
     )
 
@@ -474,6 +468,7 @@ maker(
     akasha.getato_pitches(23, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
+    baca.staff_lines(5),
     baca.staccati(),
     )
 

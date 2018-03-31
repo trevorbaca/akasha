@@ -153,53 +153,51 @@ E_GlobalRests = {
 E_GlobalSkips = {
     
     % [E GlobalSkips measure 113]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@% \markup {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%     \fontsize                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         #-6                                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         \general-align                                               %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             #Y                                                       %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             #DOWN                                                    %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             \note-by-number                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%                 #2                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%                 #0                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%                 #1.5                                                 %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%     \upright                                                         %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             =                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             44                                                       %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         }                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%     \hspace                                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         #1                                                           %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%     }                                                                %! SM27:REDUNDANT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@% \markup {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         #-6                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         \general-align                                               %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             #Y                                                       %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             #DOWN                                                    %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             \note-by-number                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #2                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #0                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #1.5                                                 %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \upright                                                         %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             =                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             44                                                       %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         }                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \hspace                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         #1                                                           %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     }                                                                %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-    \markup {                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-        \with-color                                                      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-            #(x11-color 'DeepPink1)                                      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-            {                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                \fontsize                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    #-6                                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    \general-align                                       %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        #Y                                               %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        #DOWN                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        \note-by-number                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                            #2                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                            #0                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1.5                                         %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                \upright                                                 %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    {                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        =                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        44                                               %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    }                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                \hspace                                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    #1                                                   %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-            }                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-        }                                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+    \markup {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+        \with-color                                                      %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            #(x11-color 'green4)                                         %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \fontsize                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    #-6                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    \general-align                                       %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        #Y                                               %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        #DOWN                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        \note-by-number                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #2                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #0                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #1.5                                         %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \upright                                                 %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    {                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        =                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        44                                               %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    }                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \hspace                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    #1                                                   %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            }                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+        }                                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
@@ -241,11 +239,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 114]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -279,11 +274,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 115]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -317,11 +309,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 116]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -355,11 +344,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 117]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -393,11 +379,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 118]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -431,11 +414,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 119]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -469,11 +449,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 120]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -507,11 +484,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 121]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -597,11 +571,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 122]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -629,11 +600,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 123]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -667,11 +635,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 124]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -699,11 +664,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 125]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \large                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -771,11 +733,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 126]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -804,11 +763,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 127]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -893,11 +849,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 128]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -926,11 +879,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 129]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -959,11 +909,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 130]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -992,11 +939,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 131]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \large                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -1063,11 +1007,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 132]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 3 56)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
     ^ \markup {
@@ -1095,11 +1036,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[3/56]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 133]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1133,11 +1071,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 134]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1166,11 +1101,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 135]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1204,11 +1136,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 136]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -1237,11 +1166,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 137]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1270,11 +1196,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 138]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -1302,11 +1225,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 139]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -1391,11 +1311,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 140]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1424,11 +1341,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 141]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -1457,11 +1371,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 142]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1490,11 +1401,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 143]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 3 80)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -1523,11 +1431,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[3/80]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 144]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 24)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
     ^ \markup {
@@ -1555,11 +1460,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/24]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 145]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 3 88)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
     ^ \markup {
@@ -1592,11 +1494,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[3/88]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 146]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1625,11 +1524,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 147]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 3 88)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -1658,11 +1554,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[3/88]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 148]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 28)     %! HSS1:SPACING
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -1691,11 +1584,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/28]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 149]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1724,11 +1614,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 150]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -1756,11 +1643,8 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [E GlobalSkips measure 151]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1795,7 +1679,6 @@ E_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -1818,7 +1701,7 @@ E_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -2201,10 +2084,7 @@ E_ViolinIMusicVoice = {
         
         r8
         
-        \makeRed                                                 %! SM12
         a'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -2237,47 +2117,39 @@ E_ViolinIMusicVoice = {
     
     % [E ViolinIMusicVoice measure 135]                          %! SM4
     r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeRed                                                 %! SM12
-        a'16
-        -\staccato                                               %! IC
-        \>                                                       %! HC1
-        \mf                                                      %! HC1
-        [
-        ^ \markup {
-            \column
-                {
-                    \line                                        %! IC
-                        {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    leggieriss.                  %! IC
-                        }                                        %! IC
-                    \line                                        %! IC
-                        {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "senza scratch"              %! IC
-                        }                                        %! IC
-                    \line                                        %! SM12
-                        {                                        %! SM12
-                            OCTAVE                               %! SM12
-                        }                                        %! SM12
-                }
+    
+    r16
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    a'16
+    -\staccato                                                   %! IC
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    [
+    ^ \markup {
+        \column
+            {
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                leggieriss.                      %! IC
+                    }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "senza scratch"                  %! IC
+                    }                                            %! IC
             }
-        
-        bf'16
-        -\staccato                                               %! IC
-        
-        b'16
-        -\staccato                                               %! IC
-        ]
-    }
+        }
+    
+    bf'16
+    -\staccato                                                   %! IC
+    
+    b'16
+    -\staccato                                                   %! IC
+    ]
     
     r4
     
@@ -2331,50 +2203,35 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        % [E ViolinIMusicVoice measure 137]                      %! SM4
-        r16
-        
-        a'16
-        -\staccato                                               %! IC
-        [
-        
-        \makeRed                                                 %! SM12
-        af'16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        a'16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    % [E ViolinIMusicVoice measure 137]                          %! SM4
+    r16
+    
+    a'16
+    -\staccato                                                   %! IC
+    [
+    
+    af'16
+    -\staccato                                                   %! IC
+    
+    a'16
+    -\staccato                                                   %! IC
+    ]
     
     r4
     \times 4/5 {
         
         r16
         
-        \makeRed                                                 %! SM12
         bf'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         b'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf'16
         -\staccato                                               %! IC
@@ -2385,12 +2242,9 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 138]                      %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -2402,22 +2256,6 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         
         c''16
-        -\staccato                                               %! IC
-        
-        d''16
-        -\staccato                                               %! IC
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        ef''16
-        -\staccato                                               %! IC
-        [
-        
-        cs''16
         -\staccato                                               %! IC
         
         d''16
@@ -2425,24 +2263,31 @@ E_ViolinIMusicVoice = {
         ]
     }
     
+    r16
+    
+    ef''16
+    -\staccato                                                   %! IC
+    [
+    
+    cs''16
+    -\staccato                                                   %! IC
+    
+    d''16
+    -\staccato                                                   %! IC
+    ]
+    
     r4
     \times 4/5 {
         
         % [E ViolinIMusicVoice measure 139]                      %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         b'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -2475,28 +2320,19 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        cs''16
-        -\staccato                                               %! IC
-        [
-        
-        \makeRed                                                 %! SM12
-        c''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        b'16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
+    
+    r16
+    
+    cs''16
+    -\staccato                                                   %! IC
+    [
+    
+    c''16
+    -\staccato                                                   %! IC
+    
+    b'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         % [E ViolinIMusicVoice measure 140]                      %! SM4
@@ -2541,12 +2377,9 @@ E_ViolinIMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         d''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -2564,22 +2397,19 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        cs''16
-        -\staccato                                               %! IC
-        [
-        
-        d''16
-        -\staccato                                               %! IC
-        
-        e''16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    cs''16
+    -\staccato                                                   %! IC
+    [
+    
+    d''16
+    -\staccato                                                   %! IC
+    
+    e''16
+    -\staccato                                                   %! IC
+    ]
     
     % [E ViolinIMusicVoice measure 141]                          %! SM4
     r4
@@ -2612,11 +2442,8 @@ E_ViolinIMusicVoice = {
         f''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         e''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
@@ -2624,32 +2451,23 @@ E_ViolinIMusicVoice = {
         g''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        fs''16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        ef''16
-        -\staccato                                               %! IC
-        
-        e''16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    fs''16
+    -\staccato                                                   %! IC
+    [
+    
+    ef''16
+    -\staccato                                                   %! IC
+    
+    e''16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -2676,99 +2494,57 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 142]                      %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
         r16
         
-        \makeRed                                                 %! SM12
         e''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         g''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        af''16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        a''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        g''16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
+    
+    r16
+    
+    af''16
+    -\staccato                                                   %! IC
+    [
+    
+    a''16
+    -\staccato                                                   %! IC
+    
+    g''16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -2780,24 +2556,15 @@ E_ViolinIMusicVoice = {
         f''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -2805,24 +2572,15 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 143]                      %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         f''16
         -\staccato                                               %! IC
@@ -2851,73 +2609,49 @@ E_ViolinIMusicVoice = {
         g''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         af''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        a''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        af''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        bf''16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/6 {
-        
-        r16
-        
-        b''16
-        -\staccato                                               %! IC
-        [
         
         a''16
         -\staccato                                               %! IC
         
-        bf''16
-        -\staccato                                               %! IC
-        
-        \makeRed                                                 %! SM12
-        g''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
         af''16
+        -\staccato                                               %! IC
+        
+        bf''16
         -\staccato                                               %! IC
         ]
     }
+    
+    r16
+    
+    b''16
+    -\staccato                                                   %! IC
+    [
+    
+    a''16
+    -\staccato                                                   %! IC
+    
+    bf''16
+    -\staccato                                                   %! IC
+    
+    g''16
+    -\staccato                                                   %! IC
+    
+    af''16
+    -\staccato                                                   %! IC
+    ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
         r16
         
-        \makeRed                                                 %! SM12
         g''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         f''16
         -\staccato                                               %! IC
@@ -2931,12 +2665,9 @@ E_ViolinIMusicVoice = {
         g''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         af''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -2948,11 +2679,8 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         af''16
         -\staccato                                               %! IC
@@ -2971,21 +2699,15 @@ E_ViolinIMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         b''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         c'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'''16
         -\staccato                                               %! IC
@@ -2996,64 +2718,46 @@ E_ViolinIMusicVoice = {
         c'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/6 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        a''16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        af''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        g''16
-        -\staccato                                               %! IC
-        
-        a''16
-        -\staccato                                               %! IC
-        
-        af''16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    a''16
+    -\staccato                                                   %! IC
+    [
+    
+    af''16
+    -\staccato                                                   %! IC
+    
+    g''16
+    -\staccato                                                   %! IC
+    
+    a''16
+    -\staccato                                                   %! IC
+    
+    af''16
+    -\staccato                                                   %! IC
+    ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
         r16
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         c'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
@@ -3080,17 +2784,11 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d'''16
         -\staccato                                               %! IC
@@ -3110,17 +2808,11 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         b''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
@@ -3131,41 +2823,32 @@ E_ViolinIMusicVoice = {
         a''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         b''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/6 {
-        
-        r16
-        
-        b''16
-        -\staccato                                               %! IC
-        [
-        
-        c'''16
-        -\staccato                                               %! IC
-        
-        \makeRed                                                 %! SM12
-        d'''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        cs'''16
-        -\staccato                                               %! IC
-        
-        c'''16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    b''16
+    -\staccato                                                   %! IC
+    [
+    
+    c'''16
+    -\staccato                                                   %! IC
+    
+    d'''16
+    -\staccato                                                   %! IC
+    
+    cs'''16
+    -\staccato                                                   %! IC
+    
+    c'''16
+    -\staccato                                                   %! IC
+    ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
@@ -3175,11 +2858,8 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d'''16
         -\staccato                                               %! IC
@@ -3202,21 +2882,15 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 146]                      %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         ef'''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d'''16
         -\staccato                                               %! IC
@@ -3226,57 +2900,39 @@ E_ViolinIMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         b''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'''16
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        d'''16
-        -\staccato                                               %! IC
-        [
-        
-        e'''16
-        -\staccato                                               %! IC
-        
-        ef'''16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    d'''16
+    -\staccato                                                   %! IC
+    [
+    
+    e'''16
+    -\staccato                                                   %! IC
+    
+    ef'''16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -3285,23 +2941,14 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         f'''16
         -\staccato                                               %! IC
@@ -3313,33 +2960,21 @@ E_ViolinIMusicVoice = {
         % [E ViolinIMusicVoice measure 147]                      %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         e'''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         fs'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         g'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         ef'''16
         -\staccato                                               %! IC
@@ -3375,37 +3010,25 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/6 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        fs'''16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        f'''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        e'''16
-        -\staccato                                               %! IC
-        
-        ef'''16
-        -\staccato                                               %! IC
-        
-        \makeRed                                                 %! SM12
-        f'''16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
+    
+    r16
+    
+    fs'''16
+    -\staccato                                                   %! IC
+    [
+    
+    f'''16
+    -\staccato                                                   %! IC
+    
+    e'''16
+    -\staccato                                                   %! IC
+    
+    ef'''16
+    -\staccato                                                   %! IC
+    
+    f'''16
+    -\staccato                                                   %! IC
+    ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
@@ -3421,11 +3044,8 @@ E_ViolinIMusicVoice = {
         fs'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         af'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         a'''16
         -\staccato                                               %! IC
@@ -3452,12 +3072,9 @@ E_ViolinIMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         e'''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
@@ -3483,25 +3100,19 @@ E_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        g'''16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        fs'''16
-        -\staccato                                               %! IC
-        
-        f'''16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    g'''16
+    -\staccato                                                   %! IC
+    [
+    
+    fs'''16
+    -\staccato                                                   %! IC
+    
+    f'''16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -3513,21 +3124,15 @@ E_ViolinIMusicVoice = {
         af'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         a'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         af'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         bf'''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     r4
@@ -3716,24 +3321,13 @@ E_ViolinIIMusicVoice = {
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \makeRed                                                 %! SM12
         a8
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {
-            \column
-                {
-                    \line                                        %! IC
-                        {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "po' meno scratch"           %! IC
-                        }                                        %! IC
-                    \line                                        %! SM12
-                        {                                        %! SM12
-                            OCTAVE                               %! SM12
-                        }                                        %! SM12
-                }
-            }
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "po' meno scratch"                           %! IC
+            }                                                    %! IC
         
         r8
         
@@ -3963,11 +3557,8 @@ E_ViolinIIMusicVoice = {
                     leggieriss.                                  %! IC
             }                                                    %! IC
         
-        \makeRed                                                 %! SM12
         a16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b16
         -\staccato                                               %! IC
@@ -3987,36 +3578,30 @@ E_ViolinIIMusicVoice = {
     r4
     
     r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        % [E ViolinIIMusicVoice measure 135]                     %! SM4
-        r16
-        
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        b16
-        -\staccato                                               %! IC
-        \>                                                       %! HC1
-        \mf                                                      %! HC1
-        [
-        
-        c'16
-        -\staccato                                               %! IC
-        
-        d'16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    % [E ViolinIIMusicVoice measure 135]                         %! SM4
+    r16
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b16
+    -\staccato                                                   %! IC
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    [
+    
+    c'16
+    -\staccato                                                   %! IC
+    
+    d'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
         
-        \makeRed                                                 %! SM12
         cs'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         c'16
         -\staccato                                               %! IC
@@ -4045,32 +3630,26 @@ E_ViolinIIMusicVoice = {
         e'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         f'16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        % [E ViolinIIMusicVoice measure 136]                     %! SM4
-        r16
-        
-        ef'16
-        -\staccato                                               %! IC
-        [
-        
-        e'16
-        -\staccato                                               %! IC
-        
-        cs'16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    % [E ViolinIIMusicVoice measure 136]                         %! SM4
+    r16
+    
+    ef'16
+    -\staccato                                                   %! IC
+    [
+    
+    e'16
+    -\staccato                                                   %! IC
+    
+    cs'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -4085,11 +3664,8 @@ E_ViolinIIMusicVoice = {
         c'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         b16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         cs'16
         -\staccato                                               %! IC
@@ -4115,22 +3691,19 @@ E_ViolinIIMusicVoice = {
     }
     
     r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        ef'16
-        -\staccato                                               %! IC
-        [
-        
-        d'16
-        -\staccato                                               %! IC
-        
-        cs'16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    ef'16
+    -\staccato                                                   %! IC
+    [
+    
+    d'16
+    -\staccato                                                   %! IC
+    
+    cs'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         % [E ViolinIIMusicVoice measure 137]                     %! SM4
@@ -4146,11 +3719,8 @@ E_ViolinIIMusicVoice = {
         f'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         e'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         fs'16
         -\staccato                                               %! IC
@@ -4178,61 +3748,40 @@ E_ViolinIIMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         e'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         d'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         cs'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d'16
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        % [E ViolinIIMusicVoice measure 138]                     %! SM4
-        r16
-        
-        \makeRed                                                 %! SM12
-        ef'16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        e'16
-        -\staccato                                               %! IC
-        
-        fs'16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    % [E ViolinIIMusicVoice measure 138]                         %! SM4
+    r16
+    
+    ef'16
+    -\staccato                                                   %! IC
+    [
+    
+    e'16
+    -\staccato                                                   %! IC
+    
+    fs'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -4268,32 +3817,26 @@ E_ViolinIIMusicVoice = {
         af'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [E ViolinIIMusicVoice measure 139]                         %! SM4
     r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        g'16
-        -\staccato                                               %! IC
-        [
-        
-        af'16
-        -\staccato                                               %! IC
-        
-        f'16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    g'16
+    -\staccato                                                   %! IC
+    [
+    
+    af'16
+    -\staccato                                                   %! IC
+    
+    f'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -4305,24 +3848,15 @@ E_ViolinIIMusicVoice = {
         f'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         e'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f'16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -4367,25 +3901,19 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        af'16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        bf'16
-        -\staccato                                               %! IC
-        
-        b'16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    af'16
+    -\staccato                                                   %! IC
+    [
+    
+    bf'16
+    -\staccato                                                   %! IC
+    
+    b'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -4450,38 +3978,26 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        a'16
-        -\staccato                                               %! IC
-        [
-        
-        \makeRed                                                 %! SM12
-        bf'16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        b'16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
+    
+    r16
+    
+    a'16
+    -\staccato                                                   %! IC
+    [
+    
+    bf'16
+    -\staccato                                                   %! IC
+    
+    b'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
         
-        \makeRed                                                 %! SM12
         bf'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         c''16
         -\staccato                                               %! IC
@@ -4523,97 +4039,55 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         af'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         bf'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        b'16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        bf'16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        a'16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
+    
+    r16
+    
+    b'16
+    -\staccato                                                   %! IC
+    [
+    
+    bf'16
+    -\staccato                                                   %! IC
+    
+    a'16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
         
-        \makeRed                                                 %! SM12
         b'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         cs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         d''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -4623,48 +4097,30 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         cs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         d''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         b'16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 6/9 {
         
         % [E ViolinIIMusicVoice measure 143]                     %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         b'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         bf'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         a'16
         -\staccato                                               %! IC
@@ -4682,37 +4138,25 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/6 {
-        
-        r16
-        
-        d''16
-        -\staccato                                               %! IC
-        [
-        
-        cs''16
-        -\staccato                                               %! IC
-        
-        \makeRed                                                 %! SM12
-        c''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        b'16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        cs''16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
+    
+    r16
+    
+    d''16
+    -\staccato                                                   %! IC
+    [
+    
+    cs''16
+    -\staccato                                                   %! IC
+    
+    c''16
+    -\staccato                                                   %! IC
+    
+    b'16
+    -\staccato                                                   %! IC
+    
+    cs''16
+    -\staccato                                                   %! IC
+    ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
@@ -4731,17 +4175,11 @@ E_ViolinIIMusicVoice = {
         e''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
@@ -4752,18 +4190,12 @@ E_ViolinIIMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         cs''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         d''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -4774,12 +4206,9 @@ E_ViolinIIMusicVoice = {
         b'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         cs''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 6/9 {
         
@@ -4790,11 +4219,8 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         cs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
@@ -4815,40 +4241,25 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/6 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        e''16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        f''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        e''16
-        -\staccato                                               %! IC
-        
-        \makeRed                                                 %! SM12
-        fs''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        g''16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
+    
+    r16
+    
+    e''16
+    -\staccato                                                   %! IC
+    [
+    
+    f''16
+    -\staccato                                                   %! IC
+    
+    e''16
+    -\staccato                                                   %! IC
+    
+    fs''16
+    -\staccato                                                   %! IC
+    
+    g''16
+    -\staccato                                                   %! IC
+    ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
@@ -4858,17 +4269,11 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
@@ -4888,21 +4293,15 @@ E_ViolinIIMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
@@ -4916,72 +4315,48 @@ E_ViolinIIMusicVoice = {
         \pp                                                      %! HC1
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/6 {
-        
-        % [E ViolinIIMusicVoice measure 145]                     %! SM4
-        r16
-        
-        \makeRed                                                 %! SM12
-        e''16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        ef''16
-        -\staccato                                               %! IC
-        
-        \makeRed                                                 %! SM12
-        f''16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        fs''16
-        -\staccato                                               %! IC
-        
-        g''16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    % [E ViolinIIMusicVoice measure 145]                         %! SM4
+    r16
+    
+    e''16
+    -\staccato                                                   %! IC
+    [
+    
+    ef''16
+    -\staccato                                                   %! IC
+    
+    f''16
+    -\staccato                                                   %! IC
+    
+    fs''16
+    -\staccato                                                   %! IC
+    
+    g''16
+    -\staccato                                                   %! IC
+    ]
     \times 12/15 {
         
         r16
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         af''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         af''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
@@ -4995,11 +4370,8 @@ E_ViolinIIMusicVoice = {
         ef''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
@@ -5020,17 +4392,11 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         g''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         f''16
         -\staccato                                               %! IC
@@ -5059,21 +4425,15 @@ E_ViolinIIMusicVoice = {
         % [E ViolinIIMusicVoice measure 146]                     %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         g''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         af''16
         -\staccato                                               %! IC
@@ -5084,26 +4444,17 @@ E_ViolinIIMusicVoice = {
         fs''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         g''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         af''16
         -\staccato                                               %! IC
@@ -5141,23 +4492,14 @@ E_ViolinIIMusicVoice = {
         c'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         b''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         a''16
         -\staccato                                               %! IC
@@ -5172,38 +4514,23 @@ E_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         af''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         g''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         af''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
@@ -5242,23 +4569,14 @@ E_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         ef'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         d'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b''16
         -\staccato                                               %! IC
@@ -5269,12 +4587,9 @@ E_ViolinIIMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         bf''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/10 {
@@ -5294,11 +4609,8 @@ E_ViolinIIMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         c'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d'''16
         -\staccato                                               %! IC
@@ -5331,17 +4643,11 @@ E_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         e'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         ef'''16
         -\staccato                                               %! IC
@@ -5369,12 +4675,9 @@ E_ViolinIIMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         c'''16
         -\staccato                                               %! IC
@@ -5394,24 +4697,15 @@ E_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         cs'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef'''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e'''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     r4
@@ -5464,7 +4758,7 @@ E_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     r4
-    \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ppp_ancora                                                  %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
@@ -6159,10 +5453,7 @@ E_CelloMusicVoice = {
         
         r8
         
-        \makeRed                                                 %! SM12
         a,8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
@@ -6376,33 +5667,30 @@ E_CelloMusicVoice = {
     
     % [E CelloMusicVoice measure 131]                            %! SM4
     r4.
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/6 {
-        
-        r16
-        
-        cs16
-        -\staccato                                               %! IC
-        [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    leggieriss.                                  %! IC
-            }                                                    %! IC
-        
-        c16
-        -\staccato                                               %! IC
-        
-        b,16
-        -\staccato                                               %! IC
-        
-        cs16
-        -\staccato                                               %! IC
-        
-        c16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    cs16
+    -\staccato                                                   %! IC
+    [
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                leggieriss.                                      %! IC
+        }                                                        %! IC
+    
+    c16
+    -\staccato                                                   %! IC
+    
+    b,16
+    -\staccato                                                   %! IC
+    
+    cs16
+    -\staccato                                                   %! IC
+    
+    c16
+    -\staccato                                                   %! IC
+    ]
     
     r4.
     
@@ -6464,28 +5752,19 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        \makeRed                                                 %! SM12
-        f16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        fs16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        ef16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    f16
+    -\staccato                                                   %! IC
+    [
+    
+    fs16
+    -\staccato                                                   %! IC
+    
+    ef16
+    -\staccato                                                   %! IC
+    ]
     
     r4
     \times 4/5 {
@@ -6531,22 +5810,19 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        e16
-        -\staccato                                               %! IC
-        [
-        
-        ef16
-        -\staccato                                               %! IC
-        
-        f16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    e16
+    -\staccato                                                   %! IC
+    [
+    
+    ef16
+    -\staccato                                                   %! IC
+    
+    f16
+    -\staccato                                                   %! IC
+    ]
     
     r4
     \times 4/5 {
@@ -6575,12 +5851,9 @@ E_CelloMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         a16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         g16
         -\staccato                                               %! IC
@@ -6598,25 +5871,19 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        e16
-        -\staccato                                               %! IC
-        [
-        
-        ef16
-        -\staccato                                               %! IC
-        
-        \makeRed                                                 %! SM12
-        f16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
+    
+    r16
+    
+    e16
+    -\staccato                                                   %! IC
+    [
+    
+    ef16
+    -\staccato                                                   %! IC
+    
+    f16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
@@ -6671,11 +5938,8 @@ E_CelloMusicVoice = {
         bf16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         b16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         a16
         -\staccato                                               %! IC
@@ -6684,22 +5948,19 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        g16
-        -\staccato                                               %! IC
-        [
-        
-        af16
-        -\staccato                                               %! IC
-        
-        g16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    g16
+    -\staccato                                                   %! IC
+    [
+    
+    af16
+    -\staccato                                                   %! IC
+    
+    g16
+    -\staccato                                                   %! IC
+    ]
     
     r4
     \times 4/5 {
@@ -6738,60 +5999,42 @@ E_CelloMusicVoice = {
         a16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         af16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         g16
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        a16
-        -\staccato                                               %! IC
-        [
-        
-        bf16
-        -\staccato                                               %! IC
-        
-        b16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    a16
+    -\staccato                                                   %! IC
+    [
+    
+    bf16
+    -\staccato                                                   %! IC
+    
+    b16
+    -\staccato                                                   %! IC
+    ]
     \times 4/6 {
         
         r16
         
-        \makeRed                                                 %! SM12
         bf16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         cs'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         b16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         c'16
         -\staccato                                               %! IC
@@ -6802,12 +6045,9 @@ E_CelloMusicVoice = {
         % [E CelloMusicVoice measure 138]                        %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         a16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf16
         -\staccato                                               %! IC
@@ -6843,53 +6083,38 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        r16
-        
-        b16
-        -\staccato                                               %! IC
-        [
-        
-        bf16
-        -\staccato                                               %! IC
-        
-        \makeRed                                                 %! SM12
-        a16
-        -\staccato                                               %! IC
-        ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
-        
-        % [E CelloMusicVoice measure 139]                        %! SM4
-        \clef "treble"                                           %! SM8:EXPLICIT_CLEF:IC
-        \once \override Staff.Clef.color = #(x11-color 'blue)    %! SM6:EXPLICIT_CLEF_COLOR:IC
-    %@% \override Staff.Clef.color = ##f                         %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
-        \set Staff.forceClef = ##t                               %! SM8:EXPLICIT_CLEF:SM33:IC
-        r16
-        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
-        
-        \makeRed                                                 %! SM12
-        b16
-        -\staccato                                               %! IC
-        [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        \makeRed                                                 %! SM12
-        c'16
-        -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
-        
-        cs'16
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    r16
+    
+    b16
+    -\staccato                                                   %! IC
+    [
+    
+    bf16
+    -\staccato                                                   %! IC
+    
+    a16
+    -\staccato                                                   %! IC
+    ]
+    
+    % [E CelloMusicVoice measure 139]                            %! SM4
+    \clef "treble"                                               %! SM8:EXPLICIT_CLEF:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
+    r16
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
+    
+    b16
+    -\staccato                                                   %! IC
+    [
+    
+    c'16
+    -\staccato                                                   %! IC
+    
+    cs'16
+    -\staccato                                                   %! IC
+    ]
     \times 8/9 {
         
         r16
@@ -6913,18 +6138,12 @@ E_CelloMusicVoice = {
         b16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         c'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         b16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
@@ -6971,11 +6190,8 @@ E_CelloMusicVoice = {
         cs'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         d'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         ef'16
         -\staccato                                               %! IC
@@ -7056,26 +6272,17 @@ E_CelloMusicVoice = {
         ef'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         e'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         fs'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         g'16
         -\staccato                                               %! IC
@@ -7120,89 +6327,50 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         ef'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         g'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs'16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 8/9 {
         
         r16
         
-        \makeRed                                                 %! SM12
         af'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         g'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         af'16
         -\staccato                                               %! IC
@@ -7210,48 +6378,30 @@ E_CelloMusicVoice = {
         f'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         fs'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e'16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 6/9 {
         
         % [E CelloMusicVoice measure 143]                        %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         ef'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         f'16
         -\staccato                                               %! IC
@@ -7281,29 +6431,17 @@ E_CelloMusicVoice = {
         g'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         af'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         af'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         bf'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -7320,11 +6458,8 @@ E_CelloMusicVoice = {
         af'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         g'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         fs'16
         -\staccato                                               %! IC
@@ -7339,17 +6474,11 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         g'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         g'16
         -\staccato                                               %! IC
@@ -7363,11 +6492,8 @@ E_CelloMusicVoice = {
         a'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         af'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         g'16
         -\staccato                                               %! IC
@@ -7379,12 +6505,9 @@ E_CelloMusicVoice = {
         % [E CelloMusicVoice measure 144]                        %! SM4
         r16
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf'16
         -\staccato                                               %! IC
@@ -7401,17 +6524,11 @@ E_CelloMusicVoice = {
         cs''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         b'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         a'16
         -\staccato                                               %! IC
@@ -7419,11 +6536,8 @@ E_CelloMusicVoice = {
         bf'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         af'16
         -\staccato                                               %! IC
@@ -7437,17 +6551,11 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         af'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         a'16
         -\staccato                                               %! IC
@@ -7464,20 +6572,14 @@ E_CelloMusicVoice = {
         bf'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         a'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -7500,11 +6602,8 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         cs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
@@ -7512,11 +6611,8 @@ E_CelloMusicVoice = {
         b'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         b'16
         -\staccato                                               %! IC
@@ -7533,17 +6629,11 @@ E_CelloMusicVoice = {
         bf'16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         b'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         c''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
@@ -7554,11 +6644,8 @@ E_CelloMusicVoice = {
         c''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         b'16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         cs''16
         -\staccato                                               %! IC
@@ -7581,11 +6668,8 @@ E_CelloMusicVoice = {
         e''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         ef''16
         -\staccato                                               %! IC
@@ -7605,11 +6689,8 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         cs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         c''16
         -\staccato                                               %! IC
@@ -7633,20 +6714,14 @@ E_CelloMusicVoice = {
         e''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         d''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         cs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         ef''16
         -\staccato                                               %! IC
@@ -7659,27 +6734,18 @@ E_CelloMusicVoice = {
         
         r16
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         g''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         f''16
         -\staccato                                               %! IC
@@ -7711,23 +6777,14 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         d''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         e''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
@@ -7742,29 +6799,17 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         e''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         g''16
         -\staccato                                               %! IC
@@ -7803,26 +6848,17 @@ E_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        \makeRed                                                 %! SM12
         ef''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         fs''16
         -\staccato                                               %! IC
@@ -7836,12 +6872,9 @@ E_CelloMusicVoice = {
         fs''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 10/14 {
@@ -7858,11 +6891,8 @@ E_CelloMusicVoice = {
         a''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         af''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf''16
         -\staccato                                               %! IC
@@ -7885,18 +6915,12 @@ E_CelloMusicVoice = {
         g''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         fs''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         f''16
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 8/14 {
         
@@ -7924,11 +6948,8 @@ E_CelloMusicVoice = {
         af''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         g''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         a''16
         -\staccato                                               %! IC
@@ -7960,17 +6981,11 @@ E_CelloMusicVoice = {
         c'''16
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         a''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         bf''16
         -\staccato                                               %! IC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         a''16
         -\staccato                                               %! IC
