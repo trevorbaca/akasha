@@ -1243,7 +1243,6 @@ C_ViolinIMusicVoice = {
     
     b'2
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC2
     
     % [C ViolinIMusicVoice measure 48]                           %! SM4
     R1 * 1/4
@@ -1413,7 +1412,6 @@ C_ViolinIIMusicVoice = {
     
     b'2
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC2
     
     % [C ViolinIIMusicVoice measure 48]                          %! SM4
     R1 * 1/4
