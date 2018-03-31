@@ -8,47 +8,45 @@ import os
 ##################################### [C] #####################################
 ###############################################################################
 
-stage_measure_map = baca.StageMeasureMap([
-    1, abjad.Fermata(),
-    1, abjad.Fermata(),
-    1, abjad.Fermata(),
-    1, abjad.Fermata(), # 1-8
-    4, # 9
-    1, abjad.Fermata(), # 10-11
-    1,
-    1,
-    1, abjad.Fermata(),
-    1, abjad.Fermata(),
-    1, abjad.Fermata(), # 12-19
-    1, abjad.Fermata(), # 20-21
-    1, 1, abjad.Fermata('longfermata'), # 22-24
-    ])
-
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks['55']),
-    ])
-
-maker = baca.TimeSignatureMaker(
-    akasha.time_signature_series['A'],
-    rotation=3,
-    stage_measure_map=stage_measure_map,
-    metronome_mark_measure_map=metronome_mark_measure_map,
-    )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
-
-spacing = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=(1, 4),
-    minimum_width=(1, 12),
-    )
+def stage(n):
+    return {
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
+        6: 6,
+        7: 7,
+        8: 8,
+        9: (9, 12),
+        10: 13,
+        11: 14,
+        12: 15,
+        13: 16,
+        14: 17,
+        15: 18,
+        16: 19,
+        17: 20,
+        18: 21,
+        19: 22,
+        20: 23,
+        21: 24,
+        22: 25,
+        23: 26,
+        24: 27,
+        }[n]
 
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=measures_per_stage,
+    measures_per_stage=[
+        1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1],
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    spacing=spacing,
-    metronome_mark_measure_map=metronome_mark_measure_map,
-    time_signatures=time_signatures,
+    time_signatures=akasha.time_signatures(
+        'A', 27, 3,
+        [2, 4, 6, 8, 14, 18, 20, 22, 24, -1],
+        ),
     validate_measure_count=27,
     validate_stage_count=24,
     )
@@ -56,6 +54,20 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('C'),
+    )
+
+maker(
+    'GlobalRests',
+    baca.global_fermata('fermata', baca.leaf(1)),
+    baca.global_fermata('fermata', baca.leaf(3)),
+    baca.global_fermata('fermata', baca.leaf(5)),
+    baca.global_fermata('fermata', baca.leaf(7)),
+    baca.global_fermata('fermata', baca.leaf(13)),
+    baca.global_fermata('fermata', baca.leaf(17)),
+    baca.global_fermata('fermata', baca.leaf(19)),
+    baca.global_fermata('fermata', baca.leaf(21)),
+    baca.global_fermata('fermata', baca.leaf(23)),
+    baca.global_fermata('long', baca.leaf(-1)),
     )
 
 maker(
@@ -170,20 +182,10 @@ maker(
     )
 
 maker(
-    ('va', 1),
-    baca.clef('alto'),
-    )
-
-maker(
     ('va', 9),
     baca.glissando(),
     baca.hairpin('mp > pp'),
     baca.pitches('Eb3 D3 C#3 B#2', exact=True),
-    )
-
-maker(
-    ('vc', 1),
-    baca.clef('bass'),
     )
 
 maker(
