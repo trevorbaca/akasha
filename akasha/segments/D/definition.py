@@ -41,6 +41,7 @@ spacing = baca.HorizontalSpacingSpecifier(
     )
 
 maker = baca.SegmentMaker(
+    color_octaves=False,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_stem_height=1.5,
@@ -99,6 +100,7 @@ maker(
 maker(
     ('vn1', [1, 3]),
     baca.ottava(),
+    (baca.staff_lines(5), 0),
     )
 
 maker(
@@ -219,7 +221,7 @@ maker(
 
 maker(
     ('va', (12, 14)),
-    baca.dynamic('ppp'),
+    baca.ancora_dynamic('ppp'),
     baca.map(baca.glissando(), baca.runs()),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
@@ -259,7 +261,7 @@ maker(
 
 maker(
     ('vc', 12),
-    baca.dynamic('ppp'),
+    baca.ancora_dynamic('ppp'),
     baca.glissando(),
     baca.markup.XP_full_bow_strokes(),
     baca.natural_harmonics(),
