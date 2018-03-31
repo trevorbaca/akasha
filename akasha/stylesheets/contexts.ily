@@ -58,7 +58,6 @@
         \accepts GlobalRests
         \accepts PageLayout
 
-        \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 
         \override MetronomeMark.X-extent = #'(0 . 0)
@@ -76,20 +75,13 @@
         \override RehearsalMark.outside-staff-priority = 200
         \override RehearsalMark.self-alignment-X = #center
 
-        \override TimeSignature.X-extent = #'(0 . 0)
+        % prevents StaffSymbol from starting too early after cut-away measures:
+        \override TimeSignature.X-extent = ##f
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.font-size = 3
         \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
         \override TimeSignature.style = #'numbered
-
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'(
-            (basic-distance . 0)
-            (minimum-distance . 12) % distance below time signature context
-            (padding . 0)
-            (stretchability . 0)
-        )
-        \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
 
     % STAFF
@@ -110,8 +102,7 @@
         \name StringQuartetStaffGroup
         \type Engraver_group
         \alias StaffGroup
-
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 12
+        %\override StaffGrouper.staff-staff-spacing.minimum-distance = 12
     }
 
     % MUSIC CONTEXT
@@ -145,12 +136,10 @@
             (next-note semi-fixed-space . 0.0) 
             (right-edge extra-space . 0.0)
             )
-        \override BarLine.X-extent = #'(0 . 0)
 
         \override Beam.breakable = ##t
         \override Beam.damping = 99
 
-        \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
         \override DynamicLineSpanner.padding = #1.5
 
         \override Glissando.breakable = ##t
@@ -190,6 +179,8 @@
 
         autoBeaming = ##f
         barNumberFormatter = #format-oval-barnumbers
+        explicitClefVisibility = #end-of-line-invisible
+        forceClef = ##t
         markFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
