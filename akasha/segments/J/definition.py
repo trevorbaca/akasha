@@ -8,17 +8,8 @@ import os
 ##################################### [J] #####################################
 ###############################################################################
 
-def stage(n):
-    return {
-        1: 1,
-        2: 2,
-        3: 3,
-        4: 4,
-        }[n]
-
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=[1, 1, 1, 1],
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('A', 4, 6, [4]),
@@ -96,24 +87,10 @@ maker(
     )
 
 maker(
-    ('vn1', (1, 3)),
-    akasha.getato_pitches(5, [2]),
-    baca.dynamic('ff'),
-    baca.markup.scratch_moltiss(),
-    baca.markup.terminate_each_note_abruptly(),
-    )
-
-maker(
-    ('vn2', (1, 3)),
-    akasha.getato_pitches(-3, [2]),
-    baca.dynamic('ff'),
-    baca.markup.scratch_moltiss(),
-    baca.markup.terminate_each_note_abruptly(),
-    )
-
-maker(
-    ('vc', (1, 3)),
-    akasha.getato_pitches(-13, [2]),
+    (['vn1', 'vn2', 'vc'], (1, 3)),
+    (akasha.getato_pitches(5, [2]), 0),
+    (akasha.getato_pitches(-3, [2]), 1),
+    (akasha.getato_pitches(-13, [2]), 2),
     baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
