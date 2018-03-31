@@ -41,8 +41,6 @@ H_GlobalSkips = {
     {
         
         % [H GlobalSkips measure 217]                                    %! SM4
-        \newSpacingSection                                               %! HSS1:SPACING
-        \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! HSS1:SPACING
     %@% \once \override TextSpanner.bound-details.left.text =            %! SM27:REDUNDANT_METRONOME_MARK:SM30
     %@% \markup {                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
     %@%     \fontsize                                                    %! SM27:REDUNDANT_METRONOME_MARK:SM30
@@ -129,11 +127,8 @@ H_GlobalSkips = {
                 %@%     }                                                %! SM28:CLOCK_TIME_MARKUP
                 }
             }
-    %@% ^ \markup { \make-dark-cyan "[1/16]" }                           %! HSS2:SPACING_MARKUP
         
         % [H GlobalSkips measure 218]                                    %! SM4
-        \newSpacingSection                                               %! HSS1:SPACING
-        \set Score.proportionalNotationDuration = #(ly:make-moment 1 16) %! HSS1:SPACING
         \time 5/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 5/4
@@ -162,11 +157,8 @@ H_GlobalSkips = {
                 %@%     }                                                %! SM28:CLOCK_TIME_MARKUP
                 }
             }
-    %@% ^ \markup { \make-dark-cyan "[1/16]" }                           %! HSS2:SPACING_MARKUP
         
         % [H GlobalSkips measure 219]                                    %! SM4
-        \newSpacingSection                                               %! HSS1:SPACING
-        \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! HSS1:SPACING
     %@% \once \override TextSpanner.bound-details.left.text =            %! SM27:EXPLICIT_METRONOME_MARK:SM30
     %@% \markup {                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
     %@%     \fontsize                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -252,11 +244,8 @@ H_GlobalSkips = {
                 %@%     }                                                %! SM28:CLOCK_TIME_MARKUP
                 }
             }
-    %@% ^ \markup { \make-dark-cyan "[1/12]" }                           %! HSS2:SPACING_MARKUP
         
         % [H GlobalSkips measure 220]                                    %! SM4
-        \newSpacingSection                                               %! HSS1:SPACING
-        \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! HSS1:SPACING
         \time 1/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/4
@@ -290,11 +279,8 @@ H_GlobalSkips = {
                 %@%     }                                                %! SM28:CLOCK_TIME_MARKUP
                 }
             }
-    %@% ^ \markup { \make-dark-cyan "[1/12]" }                           %! HSS2:SPACING_MARKUP
         
         % [H GlobalSkips measure 221]                                    %! SM4
-        \newSpacingSection                                               %! HSS1:SPACING
-        \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! HSS1:SPACING
     %@% \once \override TextSpanner.bound-details.left.text =            %! SM27:EXPLICIT_METRONOME_MARK:SM30
     %@% \markup {                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
     %@%     \fontsize                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -380,11 +366,8 @@ H_GlobalSkips = {
                 %@%     }                                                %! SM28:CLOCK_TIME_MARKUP
                 }
             }
-    %@% ^ \markup { \make-dark-cyan "[1/12]" }                           %! HSS2:SPACING_MARKUP
         
         % [H GlobalSkips measure 222]                                    %! SM4
-        \newSpacingSection                                               %! HSS1:SPACING
-        \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! HSS1:SPACING
         \time 4/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1
@@ -413,11 +396,8 @@ H_GlobalSkips = {
                 %@%     }                                                %! SM28:CLOCK_TIME_MARKUP
                 }
             }
-    %@% ^ \markup { \make-dark-cyan "[1/12]" }                           %! HSS2:SPACING_MARKUP
         
         % [H GlobalSkips measure 223]                                    %! SM4
-        \newSpacingSection                                               %! HSS1:SPACING
-        \set Score.proportionalNotationDuration = #(ly:make-moment 1 12) %! HSS1:SPACING
         \time 1/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/4
@@ -452,7 +432,6 @@ H_GlobalSkips = {
                 %@%     }                                                %! SM28:CLOCK_TIME_MARKUP
                 }
             }
-    %@% ^ \markup { \make-dark-cyan "[1/12]" }                           %! HSS2:SPACING_MARKUP
         \override Score.BarLine.transparent = ##f                        %! SM5
         \bar "|"                                                         %! SM5
         
@@ -513,7 +492,7 @@ H_ViolinIMusicVoice = {
                 "Vn. I"                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
-        \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
+        \once \override Staff.StaffSymbol.line-count = 5         %! SM8:REAPPLIED_STAFF_LINES:SM37
         \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right

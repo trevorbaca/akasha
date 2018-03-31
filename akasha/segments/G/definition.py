@@ -33,18 +33,13 @@ maker = baca.TimeSignatureMaker(
     )
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
-spacing = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=(1, 4),
-    minimum_width=(1, 12),
-    )
-
 maker = baca.SegmentMaker(
+    color_octaves=False,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    spacing=spacing,
     time_signatures=time_signatures,
     validate_measure_count=17,
     validate_stage_count=7,
@@ -53,6 +48,11 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('G'),
+    )
+
+maker(
+    'va',
+    baca.staff_lines(5),
     )
 
 maker(

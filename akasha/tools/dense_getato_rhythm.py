@@ -26,5 +26,8 @@ def dense_getato_rhythm(
             denominators=[16],
             division_masks=division_masks,
             extra_counts_per_division=extra_counts_per_division,
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                ),
         ),
     )
