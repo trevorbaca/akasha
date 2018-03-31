@@ -98,7 +98,6 @@ maker(
             ),
         extra_counts_per_division=[1, 1, 0, 2],
         ),
-    baca.clef('bass'),
     )
 
 maker(
@@ -173,7 +172,6 @@ maker(
 
 maker(
     ('va', 9),
-    baca.dynamic('mp'),
     baca.markup.tasto(),
     baca.pitch('D#3'),
     )
