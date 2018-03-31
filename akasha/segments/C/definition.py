@@ -157,33 +157,19 @@ maker(
     )
 
 maker(
-    ('vc', [1, 3, 5, 7]),
+    ('vc', (1, 9)),
     baca.pitch('C#2'),
     )
 
 maker(
-    ('vn1', (9, -1)),
-    baca.bar_extent((-2, 2)),
-    baca.bar_extent_zero(selector=baca.leaves()),
-    )
-
-maker(
-    (['vn1', 'vn2'], (9, 10)),
+    [
+        ('vn1', (9, 24)),
+        ('vn2', (9, 21)),
+        ],
+    (baca.bar_extent((-2, 2)), 0),
+    (baca.bar_extent_zero(selector=baca.leaves()), 0),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
-    baca.repeat_ties_up(),
-    baca.staff_position(0),
-    )
-
-maker(
-    ('vn1', (9, 23)),
-    baca.repeat_ties_up(),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    )
-
-maker(
-    ('vn2', (9, 21)),
     baca.repeat_ties_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -199,7 +185,6 @@ maker(
 maker(
     ('vc', 9),
     baca.hairpin('mp > pp'),
-    baca.pitch('C#2'),
     )
 
 maker(
