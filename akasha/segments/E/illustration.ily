@@ -222,11 +222,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <0>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((1))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((1))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -257,11 +257,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <1>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((2))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((2))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -292,11 +292,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <2>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((3))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((3))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -327,11 +327,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <3>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((4))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((4))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -362,11 +362,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <4>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((5))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((5))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -397,11 +397,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <5>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((6))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((6))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -432,11 +432,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <6>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((7))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((7))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -467,11 +467,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <7>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((8))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((8))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -554,11 +554,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <8>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -588,11 +588,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <9>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((10))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((10))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -618,11 +618,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <10>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((11))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((11))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -652,11 +652,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <11>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((12))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((12))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -716,11 +716,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <12>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((13))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((13))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -751,11 +751,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <13>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((14))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((14))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -832,11 +832,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <14>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((15))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((15))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -867,11 +867,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <15>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((16))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((16))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -897,11 +897,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <16>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((17))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((17))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -927,11 +927,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <17>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((18))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((18))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -990,11 +990,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <18>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((19))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((19))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -1024,11 +1024,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <19>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((20))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((20))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1054,11 +1054,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <20>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((21))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((21))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -1089,11 +1089,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <21>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((22))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((22))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1119,11 +1119,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <22>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((23))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((23))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -1154,11 +1154,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <23>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((24))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((24))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1184,11 +1184,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <24>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((25))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((25))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1213,11 +1213,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <25>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((26))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((26))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1294,11 +1294,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <26>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((27))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((27))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -1329,11 +1329,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <27>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((28))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((28))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1359,11 +1359,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <28>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((29))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((29))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1389,11 +1389,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <29>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((30))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((30))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1419,11 +1419,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <30>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((31))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((31))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1448,11 +1448,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <31>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((32))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((32))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1477,11 +1477,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <32>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((33))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((33))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
@@ -1512,11 +1512,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <33>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((34))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((34))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1542,11 +1542,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <34>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((35))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((35))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1572,11 +1572,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <35>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((36))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((36))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1602,11 +1602,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <36>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((37))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((37))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1631,11 +1631,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <37>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((38))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((38))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1662,11 +1662,11 @@ E_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <38>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-                \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                            ((39))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
-                    }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((39))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
