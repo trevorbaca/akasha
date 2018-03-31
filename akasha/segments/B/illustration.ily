@@ -1205,6 +1205,8 @@ B_CelloMusicVoice = {
         
         fs32
         -\staccato                                               %! IC
+        \revert Beam.positions                                   %! OC2
+        \revert TupletBracket.staff-padding                      %! OC2
     }
     
     % [B CelloMusicVoice measure 32]                             %! SM4
@@ -1222,8 +1224,6 @@ B_CelloMusicVoice = {
             \upright                                             %! IC
                 tasto                                            %! IC
         }                                                        %! IC
-    \revert Beam.positions                                       %! OC2
-    \revert TupletBracket.staff-padding                          %! OC2
     
 }
 
