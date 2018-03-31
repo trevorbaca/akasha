@@ -8,26 +8,20 @@ import os
 ##################################### [J] #####################################
 ###############################################################################
 
-stage_measure_map = baca.StageMeasureMap([
-    1,
-    1,
-    1,
-    abjad.Fermata('verylongfermata'),
-    ])
-
-maker = baca.TimeSignatureMaker(
-    akasha.time_signature_series['A'],
-    rotation=6,
-    stage_measure_map=stage_measure_map,
-    )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
+def stage(n):
+    return {
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        }[n]
 
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=measures_per_stage,
+    measures_per_stage=[1, 1, 1, 1],
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    time_signatures=time_signatures,
+    time_signatures=akasha.time_signatures('A', 4, 6, [4]),
     validate_measure_count=4,
     validate_stage_count=4,
     )
@@ -35,6 +29,11 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('J'),
+    )
+
+maker(
+    'GlobalRests',
+    baca.global_fermata('very_long', baca.leaf(-1)),
     )
 
 maker(

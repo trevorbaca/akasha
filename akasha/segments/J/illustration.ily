@@ -10,7 +10,13 @@ J_GlobalRests = {
     R1 * 3/2
     
     % [J GlobalRests measure 264]                                        %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
+    ^ \markup {                                                          %! GFC1
+        \musicglyph                                                      %! GFC1
+            #"scripts.uverylongfermata"                                  %! GFC1
+        }                                                                %! GFC1
     
 }
 
