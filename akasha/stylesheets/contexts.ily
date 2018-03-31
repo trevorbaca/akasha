@@ -58,6 +58,8 @@
         \accepts GlobalRests
         \accepts PageLayout
 
+        \override BarNumber.X-offset = -7
+        \override BarNumber.Y-offset = -0.75
         \override BarNumber.font-size = 1
 
         \override MetronomeMark.X-extent = #'(0 . 0)

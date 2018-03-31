@@ -33,7 +33,6 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks['44']),
     (17, abjad.Ritardando()),
     (19, akasha.metronome_marks['38']),
     ])
@@ -47,6 +46,7 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
+    color_octaves=False,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
@@ -240,6 +240,11 @@ maker(
     )
 
 maker(
+    (['vn1', 'vn2', 'va', 'vc'], (1, 13)),
+    baca.text_spanner_staff_padding(4),
+    )
+
+maker(
     ('vc', (14, 17)),
     baca.markup('pos. ord. + 11°/A1(IV)'),
     baca.trill_spanner(),
@@ -294,11 +299,14 @@ maker(
 maker(
     ('GlobalSkips', 19),
     baca.markup.boxed_repeat_count(6, baca.skip(0)),
+    baca.text_script_extra_offset((1.5, 6)),
     baca.volta(),
     )
 
 maker(
     (['vn1', 'vn2'], (19, 22)),
+    (baca.ottava_bracket_staff_padding(12), 0),
+    (baca.ottava_bracket_staff_padding(10), 1),
     baca.ottava(),
     )
 
@@ -328,4 +336,12 @@ maker(
         baca.leaves()[:4].group(),
         ),
     baca.trill_spanner(),
+    )
+
+maker(
+    (['vn1', 'vn2', 'va', 'vc'], (19, -1)),
+    (baca.text_spanner_staff_padding(9.5), 0),
+    (baca.text_spanner_staff_padding(7.5), 1),
+    (baca.text_spanner_staff_padding(7), 2),
+    (baca.text_spanner_staff_padding(5), 3),
     )

@@ -54,6 +54,7 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
+    color_octaves=False,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
@@ -390,23 +391,11 @@ maker(
     )
 
 maker(
-    ('vn1', (16, 19)),
-    baca.pitch('B4'),
-    )
-
-maker(
-    ('vn2', (16, 19)),
-    baca.pitch('B3'),
-    )
-
-maker(
-    ('va', (16, 19)),
-    baca.pitch('B2'),
-    )
-
-maker(
-    ('vc', (16, 19)),
-    baca.pitch('B1'),
+    (['vn1', 'vn2', 'va', 'vc'],  (16, 19)),
+    (baca.pitch('B4'), 0),
+    (baca.pitch('B3'), 1),
+    (baca.pitch('B2'), 2),
+    (baca.pitch('B1'), 3),
     )
 
 maker(
@@ -425,4 +414,9 @@ maker(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         ),
+    )
+
+maker(
+    ['vn1', 'vn2', 'va', 'vc'],
+    baca.text_spanner_staff_padding(4),
     )
