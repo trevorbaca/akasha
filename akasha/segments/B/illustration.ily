@@ -974,6 +974,8 @@ B_CelloMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override Beam.positions = #'(-4 . -4)                       %! OC1
+    \override TupletBracket.staff-padding = #2                   %! OC1
     \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1038,20 +1040,17 @@ B_CelloMusicVoice = {
     }
     
     r2..
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [B CelloMusicVoice measure 26]                         %! SM4
-        r8.
-        
-        c'32
-        -\staccato                                               %! IC
-        [
-        
-        bf32
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    % [B CelloMusicVoice measure 26]                             %! SM4
+    r8.
+    
+    c'32
+    -\staccato                                                   %! IC
+    [
+    
+    bf32
+    -\staccato                                                   %! IC
+    ]
     \times 4/5 {
         
         b32
@@ -1121,27 +1120,26 @@ B_CelloMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        fs32
-        -\staccato                                               %! IC
-        [
-        
-        g32
-        -\staccato                                               %! IC
-        ]
-        
-        r8
-        
-        af32
-        -\staccato                                               %! IC
-        [
-        
-        a32
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    fs32
+    -\staccato                                                   %! IC
+    [
+    
+    g32
+    -\staccato                                                   %! IC
+    ]
+    
+    r16
+    
+    r16
+    
+    af32
+    -\staccato                                                   %! IC
+    [
+    
+    a32
+    -\staccato                                                   %! IC
+    ]
     \times 4/5 {
         
         g32
@@ -1257,6 +1255,8 @@ B_CelloMusicVoice = {
             \upright                                             %! IC
                 tasto                                            %! IC
         }                                                        %! IC
+    \revert Beam.positions                                       %! OC2
+    \revert TupletBracket.staff-padding                          %! OC2
     
 }
 

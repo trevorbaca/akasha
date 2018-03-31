@@ -2056,11 +2056,8 @@ C_CelloMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r4
-    }
+    
+    r4
     
     % [C CelloMusicVoice measure 50]                             %! SM4
     R1 * 3/4

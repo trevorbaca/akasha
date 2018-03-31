@@ -182,3 +182,9 @@ maker(
     baca.pitch('C#2'),
     baca.markup.tasto(),
     )
+
+maker(
+    'vc',
+    baca.beam_positions(-4),
+    baca.tuplet_bracket_staff_padding(2),
+    )
