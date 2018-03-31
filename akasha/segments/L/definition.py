@@ -45,11 +45,7 @@ maker(
     )
 
 maker(
-    [
-        ('va', 1),
-        ('va', 3),
-        ('vc', 5),
-        ],
+    ('va', [1,  3]),
     baca.make_repeat_tied_notes(),
     )
 
@@ -59,6 +55,7 @@ maker(
     baca.clef('alto'),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_each_note_abruptly(),
+    baca.staff_lines(1),
     baca.staff_position(0),
     )
 
@@ -66,6 +63,7 @@ maker(
     ('vc', 5),
     baca.clef('bass'),
     baca.dynamic('pp'),
+    baca.make_repeat_tied_notes(),
     baca.markup.pos_ord_vib_poco(),
     baca.pitch('Bb1'),
     )

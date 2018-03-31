@@ -23,7 +23,6 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks['55']),
     (2, abjad.Accelerando()),
     (3, akasha.metronome_marks['89']),
     (7, abjad.Ritardando()),
@@ -40,6 +39,7 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
+    color_octaves=False,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
@@ -53,6 +53,11 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('M'),
+    )
+
+maker(
+    'va',
+    baca.staff_lines(5),
     )
 
 maker(

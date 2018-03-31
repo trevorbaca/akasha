@@ -33,7 +33,7 @@ maker = baca.SegmentMaker(
         ['Cambridge, MA', 'Dallas, TX', 'Madison, WI.'],
         ['October', 'December 2015.'],
         ),
-    final_markup_extra_offset=(-41, -4),
+    final_markup_extra_offset=(-19, -4),
     last_segment=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
@@ -47,6 +47,13 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('N'),
+    baca.rehearsal_mark_y_offset(5),
+    )
+
+maker(
+    ['vn1', 'vc'],
+    (baca.bar_extent_persistent((-2, 0)), 0),
+    (baca.bar_extent_persistent((0, -2)), 1),
     )
 
 maker(
@@ -79,7 +86,7 @@ maker(
 maker(
     ('vn2', (2, 3)),
     akasha.getato_pitches(29, direction=abjad.Down),
-    baca.dynamic('pp'),
+    baca.ancora_dynamic('pp'),
     baca.markup.leggieriss(),
     baca.staccati(),
     )

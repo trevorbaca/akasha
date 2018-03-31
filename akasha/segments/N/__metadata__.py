@@ -22,6 +22,10 @@ metadata = abjad.OrderedDict(
                 'CelloMusicVoice',
                 ],
             ),
+        (
+            'bol_measure_numbers',
+            [369, 382],
+            ),
         ('duration', "0'51''"),
         (
             'fermata_measure_numbers',
@@ -52,6 +56,17 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vc.',
+                                ),
+                            abjad.Momento(
+                                context='CelloMusicVoice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, -2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='CelloMusicVoice',
@@ -153,7 +168,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolinIIMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='pp',
+                                value='\\pp_ancora',
                                 ),
                             ],
                         ),
@@ -175,6 +190,17 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vn. I',
+                                ),
+                            abjad.Momento(
+                                context='ViolinIMusicVoice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 0),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='ViolinIMusicVoice',

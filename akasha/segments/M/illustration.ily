@@ -99,51 +99,51 @@ M_GlobalRests = {
 M_GlobalSkips = {
     
     % [M GlobalSkips measure 340]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@% \markup {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%     \fontsize                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         #-6                                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         \general-align                                               %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             #Y                                                       %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             #DOWN                                                    %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             \note-by-number                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%                 #2                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%                 #0                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%                 #1.5                                                 %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%     \upright                                                         %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             =                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%             55                                                       %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         }                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%     \hspace                                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%         #1                                                           %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@%     }                                                                %! SM27:REDUNDANT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@% \markup {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         #-6                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         \general-align                                               %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             #Y                                                       %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             #DOWN                                                    %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             \note-by-number                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #2                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #0                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #1.5                                                 %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \upright                                                         %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             =                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%             55                                                       %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         }                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     \hspace                                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%         #1                                                           %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%     }                                                                %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-    \markup {                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-        \with-color                                                      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-            #(x11-color 'DeepPink1)                                      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-            {                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                \fontsize                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    #-6                                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    \general-align                                       %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        #Y                                               %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        #DOWN                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        \note-by-number                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                            #2                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                            #0                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1.5                                         %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                \upright                                                 %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    {                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        =                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                        55                                               %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    }                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                \hspace                                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-                    #1                                                   %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-            }                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-        }                                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+    \markup {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+        \with-color                                                      %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            #(x11-color 'green4)                                         %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            {                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \fontsize                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    #-6                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    \general-align                                       %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        #Y                                               %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        #DOWN                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        \note-by-number                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #2                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #0                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #1.5                                         %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \upright                                                 %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    {                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        =                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                        55                                               %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    }                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                \hspace                                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                    #1                                                   %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+            }                                                            %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+        }                                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36 %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
@@ -1321,59 +1321,33 @@ M_ViolinIMusicVoice = {
     % [M ViolinIMusicVoice measure 346]                          %! SM4
     \override RepeatTie.direction = #up                          %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                     %! SM12
     bf'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + XFB"                    %! IC
-                    }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto + XFB"                                    %! IC
+        }                                                        %! IC
     
     % [M ViolinIMusicVoice measure 347]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 348]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 349]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 350]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 351]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 352]                          %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1408,20 +1382,14 @@ M_ViolinIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf'1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 353]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 354]                          %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1456,20 +1424,14 @@ M_ViolinIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf'2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 355]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 356]                          %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1504,26 +1466,17 @@ M_ViolinIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf'2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 357]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'2.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 358]                          %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1558,40 +1511,25 @@ M_ViolinIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf'2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 359]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 360]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 361]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'2.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 362]                          %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1626,20 +1564,14 @@ M_ViolinIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf'1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 363]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 364]                          %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1674,20 +1606,14 @@ M_ViolinIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf'1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 365]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 366]                          %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1722,20 +1648,14 @@ M_ViolinIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf'1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIMusicVoice measure 367]                          %! SM4
-    \makeRed                                                     %! SM12
     bf'1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \revert RepeatTie.direction                                  %! OC2
     
     % [M ViolinIMusicVoice measure 368]                          %! SM4
@@ -1826,59 +1746,33 @@ M_ViolinIIMusicVoice = {
     
     % [M ViolinIIMusicVoice measure 346]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                     %! SM12
     bf2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + XFB"                    %! IC
-                    }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto + XFB"                                    %! IC
+        }                                                        %! IC
     
     % [M ViolinIIMusicVoice measure 347]                         %! SM4
-    \makeRed                                                     %! SM12
     bf2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 348]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 349]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 350]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 351]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 352]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1913,20 +1807,14 @@ M_ViolinIIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 353]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 354]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1961,20 +1849,14 @@ M_ViolinIIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 355]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 356]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2009,26 +1891,17 @@ M_ViolinIIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 357]                         %! SM4
-    \makeRed                                                     %! SM12
     bf2.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 358]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2063,40 +1936,25 @@ M_ViolinIIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 359]                         %! SM4
-    \makeRed                                                     %! SM12
     bf2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 360]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 361]                         %! SM4
-    \makeRed                                                     %! SM12
     bf2.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 362]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2131,20 +1989,14 @@ M_ViolinIIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 363]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 364]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2179,20 +2031,14 @@ M_ViolinIIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 365]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 366]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2227,20 +2073,14 @@ M_ViolinIIMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 367]                         %! SM4
-    \makeRed                                                     %! SM12
     bf1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolinIIMusicVoice measure 368]                         %! SM4
     R1 * 1/4
@@ -2269,16 +2109,16 @@ M_ViolaMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Va.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
     \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 5/4
     \effort_mf                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -2330,59 +2170,33 @@ M_ViolaMusicVoice = {
     
     % [M ViolaMusicVoice measure 346]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                     %! SM12
     bf,2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + XFB"                    %! IC
-                    }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto + XFB"                                    %! IC
+        }                                                        %! IC
     
     % [M ViolaMusicVoice measure 347]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 348]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 349]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 350]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 351]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 352]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2417,20 +2231,14 @@ M_ViolaMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf,1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 353]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 354]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2465,20 +2273,14 @@ M_ViolaMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf,2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 355]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 356]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2513,26 +2315,17 @@ M_ViolaMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf,2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf,2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 357]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,2.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 358]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2567,40 +2360,25 @@ M_ViolaMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf,2.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 359]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 360]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 361]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,2.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf,2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 362]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2635,20 +2413,14 @@ M_ViolaMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf,1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 363]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 364]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2683,20 +2455,14 @@ M_ViolaMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf,1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 365]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1.
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 366]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2731,20 +2497,14 @@ M_ViolaMusicVoice = {
         }                                                        %! PCW1
     \once \override TextSpanner.dash-fraction = 0.25             %! PCW1
     \once \override TextSpanner.dash-period = 1.5                %! PCW1
-    \makeRed                                                     %! SM12
     bf,1.
     \repeatTie
     \startTextSpan                                               %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 367]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,1
     \repeatTie
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M ViolaMusicVoice measure 368]                            %! SM4
     R1 * 1/4
@@ -2875,34 +2635,22 @@ M_CelloMusicVoice = {
     
     % [M CelloMusicVoice measure 346]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeRed                                                     %! SM12
     bf,,2.
     \repeatTie
     \ff                                                          %! HC1
     \stopTextSpan                                                %! PCW1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 347]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 348]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 349]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 350]                            %! SM4
     R1 * 1
@@ -2912,117 +2660,67 @@ M_CelloMusicVoice = {
     
     % [M CelloMusicVoice measure 352]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                     %! SM12
     bf,,1.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "vib. poco."                     %! IC
-                    }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "vib. poco."                                     %! IC
+        }                                                        %! IC
     
     % [M CelloMusicVoice measure 353]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 354]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 355]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 356]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf,,2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 357]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 358]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \makeRed                                                     %! SM12
     bf,,2.
     \repeatTie
     \>                                                           %! HC1
     \pp                                                          %! HC1
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 359]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 360]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 361]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf,,2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 362]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 363]                            %! SM4
-    \makeRed                                                     %! SM12
     bf,,1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [M CelloMusicVoice measure 364]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
