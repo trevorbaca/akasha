@@ -37,6 +37,7 @@ def stage(n):
         }[n]
 
 maker = baca.SegmentMaker(
+    color_octaves=False,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=[
         1, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1,
@@ -161,14 +162,21 @@ maker(
     )
 
 maker(
+    ('vn1', (9, -1)),
+    baca.bar_extent((-2, 2)),
+    baca.bar_extent_zero(selector=baca.leaves()),
+    )
+
+maker(
     (['vn1', 'vn2'], (9, 10)),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
+    baca.repeat_ties_up(),
     baca.staff_position(0),
     )
 
 maker(
-    ('vn1', (9, 22)),
+    ('vn1', (9, 23)),
     baca.repeat_ties_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -227,6 +235,7 @@ maker(
     baca.dynamic('pp'),
     baca.markup.tasto(),
     baca.pitch('G5'),
+    baca.staff_lines(5),
     baca.trill_spanner('M2'),
     )
 
