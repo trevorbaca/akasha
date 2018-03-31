@@ -8,49 +8,41 @@ import os
 ##################################### [F] #####################################
 ###############################################################################
 
-stage_measure_map = baca.StageMeasureMap([
-    2,
-    2, abjad.Fermata('longfermata'), #2-3
-    1, abjad.Fermata('longfermata'), # 4-5
-    2, abjad.Fermata('longfermata'), # 6-7
-    12, # 8
-    4,
-    4,
-    4, abjad.Fermata(), # 11-12
-    6, abjad.Fermata(), # 13-14
-    1, abjad.Fermata(), # 15-16
-    1, abjad.Fermata('shortfermata'), # 17-18
-    1, abjad.Fermata(), # 19-20
-    ])
-
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks['44']),
-    (2, akasha.metronome_marks['126']),
-    (4, akasha.metronome_marks['55']),
-    (6, akasha.metronome_marks['89']),
-    (11, abjad.Accelerando()),
-    (12, akasha.metronome_marks['126']),
-    (15, akasha.metronome_marks['55']),
-    (17, akasha.metronome_marks['126']),
-    (19, akasha.metronome_marks['55']),
-    ])
-
-maker = baca.TimeSignatureMaker(
-    akasha.time_signature_series['A'],
-    rotation=9,
-    stage_measure_map=stage_measure_map,
-    metronome_mark_measure_map=metronome_mark_measure_map,
-    )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
+def stages(n):
+    return {
+        1: (1, 2),
+        2: (3, 4),
+        3: 5,
+        4: 6,
+        5: 7,
+        6: (8, 9),
+        7: 10,
+        8: (11, 22),
+        9: (23, 26),
+        10: (27, 30),
+        11: (31, 34),
+        12: 35,
+        13: (36, 41),
+        14: 42,
+        15: 43,
+        16: 44,
+        17: 45,
+        18: 46,
+        19: 47,
+        20: 48,
+        }[n]
 
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=measures_per_stage,
+    measures_per_stage=[
+        2, 2, 1, 1, 1, 2, 1, 12, 4, 4, 4, 1, 6, 1, 1, 1, 1, 1, 1, 1],
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    metronome_mark_measure_map=metronome_mark_measure_map,
-    time_signatures=time_signatures,
+    time_signatures=akasha.time_signatures(
+        'A', 48, 9,
+        [5, 7, 10, 35, 42, 44, 46, 48]
+        ),
     validate_measure_count=48,
     validate_stage_count=20,
     )
@@ -58,6 +50,28 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('F'),
+    baca.rehearsal_mark_y_offset(5),
+    baca.metronome_mark('44', baca.leaf(0)),
+    baca.metronome_mark('126', baca.leaf(2)),
+    baca.metronome_mark('55', baca.leaf(5)),
+    baca.metronome_mark('89', baca.leaf(7)),
+    baca.metronome_mark(abjad.Accelerando(), baca.leaf(30)),
+    baca.metronome_mark('126', baca.leaf(34)),
+    baca.metronome_mark('55', baca.leaf(42)),
+    baca.metronome_mark('126', baca.leaf(44)),
+    baca.metronome_mark('55', baca.leaf(46)),
+    )
+
+maker(
+    'GlobalRests',
+    baca.global_fermata('long', baca.leaf(4)),
+    baca.global_fermata('long', baca.leaf(6)),
+    baca.global_fermata('long', baca.leaf(9)),
+    baca.global_fermata('fermata', baca.leaf(34)),
+    baca.global_fermata('fermata', baca.leaf(41)),
+    baca.global_fermata('fermata', baca.leaf(43)),
+    baca.global_fermata('short', baca.leaf(45)),
+    baca.global_fermata('fermata', baca.leaf(47)),
     )
 
 maker(
