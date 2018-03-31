@@ -8,51 +8,44 @@ import os
 ##################################### [M] #####################################
 ###############################################################################
 
-stage_measure_map = baca.StageMeasureMap([
-    6,
-    4,
-    2,
-    2,
-    2,
-    2,
-    4,
-    2,
-    2,
-    2,
-    abjad.Fermata(), # 11
-    ])
-
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (2, abjad.Accelerando()),
-    (3, akasha.metronome_marks['89']),
-    (7, abjad.Ritardando()),
-    (10, akasha.metronome_marks['44']),
-    (11, abjad.Fermata()),
-    ])
-
-maker = baca.TimeSignatureMaker(
-    akasha.time_signature_series['A'],
-    rotation=21,
-    stage_measure_map=stage_measure_map,
-    metronome_mark_measure_map=metronome_mark_measure_map,
-    )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
+def stage(n):
+    return {
+        1: (1, 6),
+        2: (7, 10),
+        3: (11, 12),
+        4: (13, 14),
+        5: (15, 16),
+        6: (17, 18),
+        7: (19, 22),
+        8: (23, 24),
+        9: (25, 26),
+        10: (27, 28),
+        11: 29,
+        }[n]
 
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=measures_per_stage,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    measures_per_stage=[6, 4, 2, 2, 2, 2, 4, 2, 2, 2, 1],
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    time_signatures=time_signatures,
+    time_signatures=akasha.time_signatures('A', 29, 21, [-1]),
     validate_measure_count=29,
     validate_stage_count=11,
     )
 
 maker(
     'GlobalSkips',
+    baca.metronome_mark(abjad.Accelerando(), baca.leaf(6)),
+    baca.metronome_mark('89', baca.leaf(10)),
+    baca.metronome_mark(abjad.Ritardando(), baca.leaf(18)),
+    baca.metronome_mark('44', baca.leaf(26)),
     baca.rehearsal_mark('M'),
+    )
+
+maker(
+    ('GlobalRests', -1),
+    baca.global_fermata('fermata'),
     )
 
 maker(
