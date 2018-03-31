@@ -21,35 +21,13 @@ def stage(n):
         9: 11,
         }
 
-stage_measure_map = baca.StageMeasureMap([
-    3,                                  # 1
-    1, abjad.Fermata('longfermata'),    # 2-3
-    1, abjad.Fermata('shortfermata'),   # 4-5
-    1, abjad.Fermata('shortfermata'),   # 6-7
-    1, 1,                               # 8-9
-    ])
-
-maker = baca.TimeSignatureMaker(
-    akasha.time_signature_series['B'],
-    rotation=6,
-    stage_measure_map=stage_measure_map,
-    metronome_mark_measure_map=None,
-    )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
-
-spacing = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=(1, 4),
-    minimum_width=(1, 12),
-    )
-
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=measures_per_stage,
+    measures_per_stage=[3, 1, 1, 1, 1, 1, 1, 1, 1],
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    spacing=spacing,
-    time_signatures=time_signatures,
+    time_signatures=akasha.time_signatures('B', 11, 6, [5, 7, 9]),
     validate_measure_count=11,
     validate_stage_count=9,
     )
