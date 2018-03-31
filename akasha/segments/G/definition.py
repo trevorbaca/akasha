@@ -8,39 +8,24 @@ import os
 ##################################### [G] #####################################
 ###############################################################################
 
-stage_measure_map = baca.StageMeasureMap([
-    4,
-    3,
-    3,
-    3, abjad.Fermata(),
-    2,
-    1,
-    ])
-
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, akasha.metronome_marks['126']),
-    (1, abjad.Ritardando()),
-    (2, akasha.metronome_marks['44']),
-    (6, abjad.Accelerando()),
-    (7, akasha.metronome_marks['89']),
-    ])
-
-maker = baca.TimeSignatureMaker(
-    akasha.time_signature_series['B'],
-    rotation=18,
-    stage_measure_map=stage_measure_map,
-    metronome_mark_measure_map=metronome_mark_measure_map,
-    )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
+def stage(n):
+    return {
+        1: (1, 4),
+        2: (5, 7),
+        3: (8, 10),
+        4: (11, 13),
+        5: 14,
+        6: (15, 16),
+        7: 17,
+        }[n]
 
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=measures_per_stage,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    measures_per_stage=[4, 3, 3, 3, 1, 2, 1],
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    time_signatures=time_signatures,
+    time_signatures=akasha.time_signatures('B', 17, 18, [14]),
     validate_measure_count=17,
     validate_stage_count=7,
     )
@@ -48,6 +33,17 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('G'),
+    baca.rehearsal_mark_y_offset(5),
+    baca.metronome_mark('126', baca.leaf(0)),
+    baca.metronome_mark(abjad.Ritardando(), baca.leaf(0)),
+    baca.metronome_mark('44', baca.leaf(4)),
+    baca.metronome_mark(abjad.Accelerando(), baca.leaf(14)),
+    baca.metronome_mark('89', baca.leaf(16)),
+    )
+
+maker(
+    'GlobalRests',
+    baca.global_fermata('fermata', baca.leaf(13)),
     )
 
 maker(
