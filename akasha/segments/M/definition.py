@@ -76,7 +76,7 @@ maker(
 maker(
     ('vc', (1, 2)),
     baca.hairpin('ppp < ff', baca.leaves()[:9]),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
         baca.leaves()[:9].group(),
@@ -113,7 +113,7 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], 4),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.pos_ord_XFB(),
         baca.leaves()[:2].group(),
@@ -122,7 +122,7 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], 5),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.pont_XFB(),
         baca.leaves()[:2].group(),
@@ -131,7 +131,7 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], 6),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.XP_XFB(),
         baca.leaves()[:3].group(),
@@ -140,7 +140,7 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], 7),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.XP(),
         baca.leaves()[:4].group(),
@@ -154,7 +154,7 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], 8),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 3),
         baca.leaves()[:2].group(),
@@ -163,7 +163,7 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], 9),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(2, 3),
         baca.leaves()[:2].group(),
@@ -172,7 +172,7 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], 10),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.OB_no_pitch(),
         baca.leaves()[:2].group(),

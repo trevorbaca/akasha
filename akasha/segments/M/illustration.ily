@@ -1526,10 +1526,10 @@ M_ViolinIMusicVoice = {
     % [M ViolinIMusicVoice measure 361]                          %! SM4
     bf'2.
     \repeatTie
-    \stopTextSpan                                                %! PCW1
     
     bf'2
     \repeatTie
+    \stopTextSpan                                                %! PCW1
     
     % [M ViolinIMusicVoice measure 362]                          %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -1951,10 +1951,10 @@ M_ViolinIIMusicVoice = {
     % [M ViolinIIMusicVoice measure 361]                         %! SM4
     bf2.
     \repeatTie
-    \stopTextSpan                                                %! PCW1
     
     bf2
     \repeatTie
+    \stopTextSpan                                                %! PCW1
     
     % [M ViolinIIMusicVoice measure 362]                         %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2375,10 +2375,10 @@ M_ViolaMusicVoice = {
     % [M ViolaMusicVoice measure 361]                            %! SM4
     bf,2.
     \repeatTie
-    \stopTextSpan                                                %! PCW1
     
     bf,2
     \repeatTie
+    \stopTextSpan                                                %! PCW1
     
     % [M ViolaMusicVoice measure 362]                            %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
@@ -2638,7 +2638,6 @@ M_CelloMusicVoice = {
     bf,,2.
     \repeatTie
     \ff                                                          %! HC1
-    \stopTextSpan                                                %! PCW1
     
     % [M CelloMusicVoice measure 347]                            %! SM4
     bf,,2.
@@ -2651,6 +2650,7 @@ M_CelloMusicVoice = {
     % [M CelloMusicVoice measure 349]                            %! SM4
     bf,,1.
     \repeatTie
+    \stopTextSpan                                                %! PCW1
     
     % [M CelloMusicVoice measure 350]                            %! SM4
     R1 * 1
