@@ -63,7 +63,7 @@ maker(
     (['vn2', 'va', 'vc'], 1),
     baca.hairpin('ff > f'),
     baca.make_notes(repeat_ties=True),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.tasto_plus_scratch_moltiss(),
         baca.markup.fractional_scratch(1, 4),
         ),
@@ -77,7 +77,7 @@ maker(
 
 maker(
     ('vn1', 2),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.tasto_fractional_scratch(1, 4),
         baca.markup.tasto(),
         ),
@@ -85,7 +85,7 @@ maker(
 
 maker(
     (['vn2', 'va', 'vc'], 2),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.tasto(),
         ),
@@ -95,7 +95,7 @@ maker(
     (['vn1', 'vn2', 'va', 'vc'], 3),
     baca.hairpin('mf > p'),
     baca.make_notes(repeat_ties=True),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.FB(),
         ),
@@ -105,7 +105,7 @@ maker(
     (['vn1', 'vn2', 'va', 'vc'], 4),
     baca.hairpin('p > pp'),
     baca.make_notes(repeat_ties=True),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.XFB(),
         ),

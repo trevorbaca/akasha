@@ -385,7 +385,7 @@ maker(
 maker(
     (['vn1', 'vn2', 'va', 'vc'], (10, 11)),
     baca.hairpin('mp < f'),
-    baca.single_segment_transition(
+    baca.enchained_transition(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         ),
