@@ -31,7 +31,6 @@ maker(
         akasha.margin_markup('Vn. I'),
         baca.start_markup('Violin I', hcenter_in=14),
         ]),
-
     )
 
 maker(
@@ -40,7 +39,6 @@ maker(
         akasha.margin_markup('Vn. II'),
         baca.start_markup('Violin II', hcenter_in=14),
         ]),
-
     )
 
 maker(
@@ -49,7 +47,6 @@ maker(
         akasha.margin_markup('Va.'),
         baca.start_markup('Viola', hcenter_in=14),
         ]),
-
     )
 
 maker(
@@ -58,7 +55,6 @@ maker(
         akasha.margin_markup('Vc.'),
         baca.start_markup('Cello', hcenter_in=14),
         ]),
-
     )
 
 maker(
