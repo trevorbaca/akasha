@@ -77,7 +77,7 @@ maker(
     (['vn1', 'vn2', 'va', 'vc'], 1),
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.pos_ord_senza_vib(),
         baca.markup.vib_moltiss(),
         ),
@@ -87,7 +87,7 @@ maker(
     (['vn1', 'vn2', 'vc'], 3),
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
@@ -97,7 +97,7 @@ maker(
     (['vn2', 'vc'], 5),
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
@@ -224,7 +224,7 @@ maker(
 
 maker(
     ('va', 4),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(3, 4),
         ),
@@ -254,7 +254,7 @@ maker(
 
 maker(
     ('vn1', 6),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(3, 4),
         ),
@@ -262,7 +262,7 @@ maker(
 
 maker(
     ('va', 6),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 2),
         ),
@@ -276,7 +276,7 @@ maker(
 maker(
     ('vc', 7),
     baca.hairpin('sfp < f'),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.senza_vib(),
         baca.markup.vib_moltiss(),
         ),
@@ -296,7 +296,7 @@ maker(
 
 maker(
     ('vn1', 8),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 2),
         ),
@@ -304,7 +304,7 @@ maker(
 
 maker(
     ('vn2', 8),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(3, 4),
         ),
@@ -312,7 +312,7 @@ maker(
 
 maker(
     ('va', 8),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 4),
         ),
@@ -324,7 +324,7 @@ maker(
         ('vn2', 9),
         ('va', 9),
         ],
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.XP(),
         ),
@@ -339,7 +339,7 @@ maker(
     ('vc', 9),
     baca.alternate_bow_strokes(),
     baca.dynamic('ppp'),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.OB(),
         baca.markup.XP(),
         ),
@@ -362,7 +362,7 @@ maker(
 maker(
     (['vn1', 'vn2', 'va', 'vc'], 12),
     baca.hairpin('ppp < mp'),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.XP_FB(),
         baca.markup.tasto_FB(),
         ),
@@ -404,7 +404,7 @@ maker(
 maker(
     (['vn1', 'vn2', 'va', 'vc'], 16),
     baca.hairpin('ppp < mp'),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.tasto_fractional_scratch(1, 2),
         ),
@@ -413,7 +413,7 @@ maker(
 maker(
     (['vn1', 'vn2', 'va', 'vc'], 17),
     baca.hairpin('mp < mf'),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
         ),
