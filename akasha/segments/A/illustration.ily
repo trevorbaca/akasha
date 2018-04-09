@@ -1114,17 +1114,11 @@ A_ViolinIMusicVoice = {
     f'4.
     \repeatTie
     
-    \makeRed                                                     %! SM12
     eqs'8
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolinIMusicVoice measure 10]                           %! SM4
-    \makeRed                                                     %! SM12
     eqs'8
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r2..
     
@@ -1136,36 +1130,22 @@ A_ViolinIMusicVoice = {
     \times 8/9 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \makeRed                                                 %! SM12
         b32
         -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        ^ \markup {
-            \column
-                {
-                    \line                                        %! IC
-                        {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "leggierissimo: off-string bowing on staccati" %! IC
-                        }                                        %! IC
-                    \line                                        %! SM12
-                        {                                        %! SM12
-                            OCTAVE                               %! SM12
-                        }                                        %! SM12
-                }
-            }
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "leggierissimo: off-string bowing on staccati" %! IC
+            }                                                    %! IC
         
         cs'32
         -\staccato                                               %! IC
         
-        \makeRed                                                 %! SM12
         c'32
         -\staccato                                               %! IC
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r8.
     }
@@ -1173,12 +1153,9 @@ A_ViolinIMusicVoice = {
         
         r16.
         
-        \makeRed                                                 %! SM12
         b32
         -\staccato                                               %! IC
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         bf32
         -\staccato                                               %! IC
@@ -1252,10 +1229,7 @@ A_ViolinIMusicVoice = {
         
         r16 * 159/64
         
-        \makeRed                                                 %! SM12
         e''16 * 185/64
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r16 * 111/32
         
@@ -1319,21 +1293,15 @@ A_ViolinIMusicVoice = {
         
         r16 * 49/8
         
-        \makeRed                                                 %! SM12
         d''16 * 243/64
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         e''16 * 165/64
         
         r16 * 33/16
         
         \revert Staff.Stem.stemlet-length
-        \makeRed                                                 %! SM12
         d''16 * 61/32
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \revert TupletNumber.text
     
@@ -1523,31 +1491,17 @@ A_ViolinIIMusicVoice = {
     r4.
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                     %! SM12
     d'8
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1/2 scratch"            %! IC
-                    }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto + 1/2 scratch"                            %! IC
+        }                                                        %! IC
     
     % [A ViolinIIMusicVoice measure 10]                          %! SM4
-    \makeRed                                                     %! SM12
     d'8
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     dqf'4.
     
@@ -1561,10 +1515,7 @@ A_ViolinIIMusicVoice = {
     
     cs'4.
     
-    \makeRed                                                     %! SM12
     ctqs'2..
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolinIIMusicVoice measure 13]                          %! SM4
     R1 * 1/4
@@ -1702,11 +1653,8 @@ A_ViolinIIMusicVoice = {
         r16 * 81/16
         
         \revert Staff.Stem.stemlet-length
-        \makeRed                                                 %! SM12
         bf'16 * 429/64
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \revert TupletNumber.text
     
@@ -1947,17 +1895,11 @@ A_ViolaMusicVoice = {
     ef'4.
     \repeatTie
     
-    \makeRed                                                     %! SM12
     d'8
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolaMusicVoice measure 10]                             %! SM4
-    \makeRed                                                     %! SM12
     d'8
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     e'4.
     
@@ -1971,10 +1913,7 @@ A_ViolaMusicVoice = {
     
     r8
     
-    \makeRed                                                     %! SM12
     c'2..
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolaMusicVoice measure 13]                             %! SM4
     R1 * 1/4
@@ -1998,10 +1937,7 @@ A_ViolaMusicVoice = {
     ds'2.
     \repeatTie
     
-    \makeRed                                                     %! SM12
     e'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     fs'4.
     
@@ -2019,11 +1955,8 @@ A_ViolaMusicVoice = {
     
     d'4.
     
-    \makeRed                                                     %! SM12
     d'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolaMusicVoice measure 19]                             %! SM4
     R1 * 1/4
@@ -2141,10 +2074,7 @@ A_CelloMusicVoice = {
     
     cqf'4.
     
-    \makeRed                                                     %! SM12
     b2..
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A CelloMusicVoice measure 13]                             %! SM4
     R1 * 1/4
@@ -2164,11 +2094,8 @@ A_CelloMusicVoice = {
     % [A CelloMusicVoice measure 15]                             %! SM4
     af2.
     
-    \makeRed                                                     %! SM12
     af4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     g8
     [
@@ -2193,11 +2120,8 @@ A_CelloMusicVoice = {
     
     as2
     
-    \makeRed                                                     %! SM12
     as4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     b8
     [
