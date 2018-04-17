@@ -2454,13 +2454,13 @@ I_ViolinIMusicVoice = {
                 }
             }
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -2469,22 +2469,22 @@ I_ViolinIMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -2499,19 +2499,19 @@ I_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         c''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         b'''16
@@ -2523,7 +2523,7 @@ I_ViolinIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -2535,7 +2535,7 @@ I_ViolinIMusicVoice = {
         % [I ViolinIMusicVoice measure 247]                      %! SM4
         r16
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         [
         
@@ -2545,7 +2545,7 @@ I_ViolinIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -2556,7 +2556,7 @@ I_ViolinIMusicVoice = {
         
         r16
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         [
         
@@ -2566,7 +2566,7 @@ I_ViolinIMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -2578,7 +2578,7 @@ I_ViolinIMusicVoice = {
         c''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         c''''16
@@ -2592,11 +2592,11 @@ I_ViolinIMusicVoice = {
         
         r16
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         [
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         d''''16
@@ -2616,7 +2616,7 @@ I_ViolinIMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    bf'''16
+    bf'''!16
     -\staccato                                                   %! IC
     
     a'''16
@@ -2714,14 +2714,14 @@ I_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        ds'16 * 227/32
+        ds'!16 * 227/32
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
-        es'16 * 199/64
+        es'!16 * 199/64
         
         \revert Staff.Stem.stemlet-length
-        ds'16 * 115/64
+        ds'!16 * 115/64
         ]
     }
     \revert TupletNumber.text
@@ -2766,17 +2766,17 @@ I_ViolinIMusicVoice = {
         % [I ViolinIMusicVoice measure 252]                      %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        es'16 * 109/64
+        es'!16 * 109/64
         [
         
-        ds'16 * 61/32
+        ds'!16 * 61/32
         
-        es'16 * 163/64
+        es'!16 * 163/64
         
-        ds'16 * 31/8
+        ds'!16 * 31/8
         
         \revert Staff.Stem.stemlet-length
-        es'16 * 191/32
+        es'!16 * 191/32
         ]
     }
     \revert TupletNumber.text
@@ -2957,7 +2957,7 @@ I_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    atqs1.
+    atqs!1.
     \<                                                           %! HC1
     \sfp                                                         %! HC1
     \startTextSpan                                               %! PWC1
@@ -2995,7 +2995,7 @@ I_ViolinIIMusicVoice = {
     
     % [I ViolinIIMusicVoice measure 225]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    atqs1
+    atqs!1
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -3089,21 +3089,21 @@ I_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    atqs2.
+    atqs!2.
     \<                                                           %! HC1
     \sfp                                                         %! HC1
     \startTextSpan                                               %! PWC1
     
-    atqs2
+    atqs!2
     \repeatTie
     
     % [I ViolinIIMusicVoice measure 232]                         %! SM4
-    atqs2.
+    atqs!2.
     \repeatTie
     
     % [I ViolinIIMusicVoice measure 233]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    atqs2.
+    atqs!2.
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -3664,7 +3664,7 @@ I_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bqs,1.
+    bqs,!1.
     \<                                                           %! HC1
     \sfp                                                         %! HC1
     \startTextSpan                                               %! PWC1
@@ -3702,7 +3702,7 @@ I_ViolaMusicVoice = {
     
     % [I ViolaMusicVoice measure 225]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bqs,1
+    bqs,!1
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -4217,22 +4217,22 @@ I_ViolaMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        cs'16 * 487/64
+        cs'!16 * 487/64
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
-        ds'16 * 209/32
+        ds'!16 * 209/32
         
-        cs'16 * 143/32
+        cs'!16 * 143/32
         
-        ds'16 * 197/64
+        ds'!16 * 197/64
         
-        cs'16 * 19/8
+        cs'!16 * 19/8
         
-        ds'16 * 65/32
+        ds'!16 * 65/32
         
         \revert Staff.Stem.stemlet-length
-        cs'16 * 61/32
+        cs'!16 * 61/32
         ]
     }
     \revert TupletNumber.text

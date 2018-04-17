@@ -314,7 +314,7 @@ J_ViolinIMusicVoice = {
     \times 6/4 {
         
         % [J ViolinIMusicVoice measure 263]                      %! SM4
-        fs'4
+        fs'!4
         
         r4
         
@@ -429,7 +429,7 @@ J_ViolinIIMusicVoice = {
         
         r4
         
-        bf4
+        bf!4
         
         r4
         

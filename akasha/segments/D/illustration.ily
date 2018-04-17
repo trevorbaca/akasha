@@ -2055,7 +2055,7 @@ D_ViolinIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    cs''''4.
+    cs''''!4.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -2096,31 +2096,31 @@ D_ViolinIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [D ViolinIMusicVoice measure 63]                           %! SM4
-    cs''''2
+    cs''''!2
     \repeatTie
     
     % [D ViolinIMusicVoice measure 64]                           %! SM4
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [D ViolinIMusicVoice measure 65]                           %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
     % [D ViolinIMusicVoice measure 66]                           %! SM4
-    cs''''2..
+    cs''''!2..
     \repeatTie
     
     % [D ViolinIMusicVoice measure 67]                           %! SM4
-    cs''''2..
+    cs''''!2..
     \repeatTie
     
     % [D ViolinIMusicVoice measure 68]                           %! SM4
-    cs''''2
+    cs''''!2
     \repeatTie
     
     % [D ViolinIMusicVoice measure 69]                           %! SM4
-    cs''''1
+    cs''''!1
     \repeatTie
     \ottava #0                                                   %! SC
     
@@ -2129,43 +2129,43 @@ D_ViolinIMusicVoice = {
     
     % [D ViolinIMusicVoice measure 71]                           %! SM4
     \ottava #1                                                   %! SC
-    cs''''2.
+    cs''''!2.
     
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [D ViolinIMusicVoice measure 72]                           %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [D ViolinIMusicVoice measure 73]                           %! SM4
-    cs''''2..
+    cs''''!2..
     \repeatTie
     
     % [D ViolinIMusicVoice measure 74]                           %! SM4
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [D ViolinIMusicVoice measure 75]                           %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
     % [D ViolinIMusicVoice measure 76]                           %! SM4
-    cs''''2..
+    cs''''!2..
     \repeatTie
     
     % [D ViolinIMusicVoice measure 77]                           %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [D ViolinIMusicVoice measure 78]                           %! SM4
-    cs''''2
+    cs''''!2
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     \ottava #0                                                   %! SC
@@ -2196,19 +2196,19 @@ D_ViolinIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 82]                           %! SM4
-    fs'2
+    fs'!2
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 83]                           %! SM4
-    ef'4.
+    ef'!4.
     -\downbow                                                    %! IC
     
     % [D ViolinIMusicVoice measure 84]                           %! SM4
     R1 * 1/4
     
     % [D ViolinIMusicVoice measure 85]                           %! SM4
-    fs'2.
+    fs'!2.
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2221,12 +2221,12 @@ D_ViolinIMusicVoice = {
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
-    fs''4.
+    fs''!4.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 87]                           %! SM4
-    ef''2
+    ef''!2
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2241,12 +2241,12 @@ D_ViolinIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 90]                           %! SM4
-    ef''2
+    ef''!2
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 91]                           %! SM4
-    fs''2..
+    fs''!2..
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2263,12 +2263,12 @@ D_ViolinIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 95]                           %! SM4
-    ef''2.
+    ef''!2.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 96]                           %! SM4
-    fs''2
+    fs''!2
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2280,7 +2280,7 @@ D_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [D ViolinIMusicVoice measure 99]                           %! SM4
-    ef'''2.
+    ef'''!2.
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2302,12 +2302,12 @@ D_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [D ViolinIMusicVoice measure 104]                          %! SM4
-    fs'1
+    fs'!1
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 105]                          %! SM4
-    ef'2.
+    ef'!2.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
@@ -2316,7 +2316,7 @@ D_ViolinIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIMusicVoice measure 106]                          %! SM4
-    fs'2.
+    fs'!2.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
@@ -2458,12 +2458,12 @@ D_ViolinIIMusicVoice = {
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
-    fs'4.
+    fs'!4.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 73]                          %! SM4
-    ef'2..
+    ef'!2..
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2473,7 +2473,7 @@ D_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 75]                          %! SM4
-    fs'2.
+    fs'!2.
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2487,19 +2487,19 @@ D_ViolinIIMusicVoice = {
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
-    fs''4.
+    fs''!4.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 78]                          %! SM4
-    ef''2
+    ef''!2
     -\downbow                                                    %! IC
     
     % [D ViolinIIMusicVoice measure 79]                          %! SM4
     R1 * 1/4
     
     % [D ViolinIIMusicVoice measure 80]                          %! SM4
-    fs'1
+    fs'!1
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2513,12 +2513,12 @@ D_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 82]                          %! SM4
-    fs''2
+    fs''!2
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 83]                          %! SM4
-    ef''4.
+    ef''!4.
     -\downbow                                                    %! IC
     
     % [D ViolinIIMusicVoice measure 84]                          %! SM4
@@ -2529,12 +2529,12 @@ D_ViolinIIMusicVoice = {
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
-    ef''4.
+    ef''!4.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 86]                          %! SM4
-    fs''2.
+    fs''!2.
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2543,7 +2543,7 @@ D_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 87]                          %! SM4
-    fs''2
+    fs''!2
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2553,7 +2553,7 @@ D_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 89]                          %! SM4
-    ef'''4.
+    ef'''!4.
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2575,7 +2575,7 @@ D_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [D ViolinIIMusicVoice measure 94]                          %! SM4
-    ef'''4.
+    ef'''!4.
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2694,7 +2694,7 @@ D_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    gqf''4.
+    gqf''!4.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -2735,135 +2735,135 @@ D_ViolaMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [D ViolaMusicVoice measure 63]                             %! SM4
-    gqf''2
+    gqf''!2
     \repeatTie
     
     % [D ViolaMusicVoice measure 64]                             %! SM4
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 65]                             %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
     % [D ViolaMusicVoice measure 66]                             %! SM4
-    gqf''2..
+    gqf''!2..
     \repeatTie
     
     % [D ViolaMusicVoice measure 67]                             %! SM4
-    gqf''2..
+    gqf''!2..
     \repeatTie
     
     % [D ViolaMusicVoice measure 68]                             %! SM4
-    gqf''2
+    gqf''!2
     \repeatTie
     
     % [D ViolaMusicVoice measure 69]                             %! SM4
-    gqf''1
+    gqf''!1
     \repeatTie
     
     % [D ViolaMusicVoice measure 70]                             %! SM4
     R1 * 1/4
     
     % [D ViolaMusicVoice measure 71]                             %! SM4
-    gqf''2.
+    gqf''!2.
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 72]                             %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 73]                             %! SM4
-    gqf''2..
+    gqf''!2..
     \repeatTie
     
     % [D ViolaMusicVoice measure 74]                             %! SM4
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 75]                             %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
     % [D ViolaMusicVoice measure 76]                             %! SM4
-    gqf''2..
+    gqf''!2..
     \repeatTie
     
     % [D ViolaMusicVoice measure 77]                             %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 78]                             %! SM4
-    gqf''2
+    gqf''!2
     \repeatTie
     
     % [D ViolaMusicVoice measure 79]                             %! SM4
     R1 * 1/4
     
     % [D ViolaMusicVoice measure 80]                             %! SM4
-    gqf''1
+    gqf''!1
     
     % [D ViolaMusicVoice measure 81]                             %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 82]                             %! SM4
-    gqf''2
+    gqf''!2
     \repeatTie
     
     % [D ViolaMusicVoice measure 83]                             %! SM4
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 84]                             %! SM4
     R1 * 1/4
     
     % [D ViolaMusicVoice measure 85]                             %! SM4
-    gqf''2.
+    gqf''!2.
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 86]                             %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 87]                             %! SM4
-    gqf''2
+    gqf''!2
     \repeatTie
     
     % [D ViolaMusicVoice measure 88]                             %! SM4
-    gqf''1
+    gqf''!1
     \repeatTie
     
     % [D ViolaMusicVoice measure 89]                             %! SM4
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [D ViolaMusicVoice measure 90]                             %! SM4
-    gqf''2
+    gqf''!2
     \repeatTie
     
     % [D ViolaMusicVoice measure 91]                             %! SM4
-    gqf''2..
+    gqf''!2..
     \repeatTie
     
     % [D ViolaMusicVoice measure 92]                             %! SM4
-    gqf''2..
+    gqf''!2..
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     
@@ -2878,7 +2878,7 @@ D_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ff4.
+    ff!4.
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \sf                                                          %! HC1
@@ -2894,16 +2894,16 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 96]                             %! SM4
-    ds2
+    ds!2
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [D ViolaMusicVoice measure 97]                         %! SM4
-        cs2
+        cs!2
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bs,16
+        bs,!16
         \ppp                                                     %! HC1
     }
     
@@ -2913,7 +2913,7 @@ D_ViolaMusicVoice = {
     % [D ViolaMusicVoice measure 99]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af2.
+    af!2.
     -\downbow                                                    %! IC
     \ppp_ancora                                                  %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
@@ -2929,7 +2929,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 101]                            %! SM4
-    af2..
+    af!2..
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -2946,7 +2946,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 105]                            %! SM4
-    af2.
+    af!2.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
@@ -3172,7 +3172,7 @@ D_CelloMusicVoice = {
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    bf,4.
+    bf,!4.
     -\upbow                                                      %! IC
     \glissando                                                   %! SC
     
@@ -3186,7 +3186,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 87]                             %! SM4
-    cs,2
+    cs,!2
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -3206,7 +3206,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 91]                             %! SM4
-    bf,2..
+    bf,!2..
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -3220,7 +3220,7 @@ D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 94]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    cs,4.
+    cs,!4.
     \>                                                           %! HC1
     \sf                                                          %! HC1
     ^ \markup {                                                  %! IC
@@ -3230,17 +3230,17 @@ D_CelloMusicVoice = {
         }                                                        %! IC
     
     % [D CelloMusicVoice measure 95]                             %! SM4
-    cs,2.
+    cs,!2.
     \repeatTie
     
     % [D CelloMusicVoice measure 96]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    cs,2
+    cs,!2
     \repeatTie
     \ppp                                                         %! HC1
     
     % [D CelloMusicVoice measure 97]                             %! SM4
-    cs,4.
+    cs,!4.
     \repeatTie
     
     % [D CelloMusicVoice measure 98]                             %! SM4
@@ -3265,7 +3265,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 101]                            %! SM4
-    bf,2..
+    bf,!2..
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
     
@@ -3279,7 +3279,7 @@ D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 104]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    df1
+    df!1
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \sf                                                          %! HC1
@@ -3293,11 +3293,11 @@ D_CelloMusicVoice = {
     c2.
     \glissando                                                   %! SC
     
-    bf,4.
+    bf,!4.
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 106]                            %! SM4
-    af,2.
+    af,!2.
     \glissando                                                   %! SC
     
     g,4.
@@ -3308,7 +3308,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 108]                            %! SM4
-    ef,4.
+    ef,!4.
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 109]                            %! SM4
@@ -3321,7 +3321,7 @@ D_CelloMusicVoice = {
     \times 8/9 {
         
         % [D CelloMusicVoice measure 111]                        %! SM4
-        bf,,2..
+        bf,,!2..
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3

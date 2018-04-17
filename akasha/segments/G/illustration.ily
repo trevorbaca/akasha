@@ -873,27 +873,27 @@ G_ViolinIMusicVoice = {
         \pp                                                      %! HC1
         [
         
-        af'''16
+        af'''!16
         
         g'''16
         
-        fs'''16
+        fs'''!16
         
         f'''16
         
         g'''16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         
-        af'''16
+        af'''!16
         
-        bf'''16
+        bf'''!16
         
         a'''16
         
-        af'''16
+        af'''!16
         
         g'''16
         ]
@@ -906,15 +906,15 @@ G_ViolinIMusicVoice = {
         a'''16
         [
         
-        bf'''16
+        bf'''!16
         
         b'''16
         
-        bf'''16
+        bf'''!16
         
         c''''16
         
-        cs''''16
+        cs''''!16
         
         b'''16
         
@@ -928,12 +928,12 @@ G_ViolinIMusicVoice = {
         % [G ViolinIMusicVoice measure 201]                      %! SM4
         r16
         
-        bf'''16
+        bf'''!16
         [
         
         a'''16
         
-        af'''16
+        af'''!16
         
         g'''16
         
@@ -944,18 +944,18 @@ G_ViolinIMusicVoice = {
         
         r16
         
-        af'''16
+        af'''!16
         [
         
         a'''16
         
-        bf'''16
+        bf'''!16
         
         c''''16
         
         b'''16
         
-        bf'''16
+        bf'''!16
         
         a'''16
         
@@ -963,7 +963,7 @@ G_ViolinIMusicVoice = {
         
         c''''16
         
-        cs''''16
+        cs''''!16
         ]
     }
     
@@ -979,9 +979,9 @@ G_ViolinIMusicVoice = {
         d''''16
         [
         
-        ef''''16
+        ef''''!16
         
-        cs''''16
+        cs''''!16
         
         d''''16
         
@@ -991,7 +991,7 @@ G_ViolinIMusicVoice = {
         
         b'''16
         
-        bf'''16
+        bf'''!16
         
         a'''16
         ]
@@ -1004,7 +1004,7 @@ G_ViolinIMusicVoice = {
         b'''16
         [
         
-        bf'''16
+        bf'''!16
         
         b'''16
         
@@ -1012,17 +1012,17 @@ G_ViolinIMusicVoice = {
         
         d''''16
         
-        cs''''16
+        cs''''!16
         
         c''''16
         
         b'''16
         
-        cs''''16
+        cs''''!16
         
         d''''16
         
-        ef''''16
+        ef''''!16
         
         d''''16
         
@@ -1030,12 +1030,12 @@ G_ViolinIMusicVoice = {
         
         f''''16
         
-        ef''''16
+        ef''''!16
         
         e''''16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        cs''''16
+        cs''''!16
         \!                                                       %! HC1
         ]
     }
@@ -1132,14 +1132,14 @@ G_ViolinIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef''1
+    ef''!1
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \mf                                                          %! HC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolinIMusicVoice measure 208]                          %! SM4
-    fs''4.
+    fs''!4.
     \glissando                                                   %! SC
     
     % [G ViolinIMusicVoice measure 209]                          %! SM4
@@ -1183,24 +1183,24 @@ G_ViolinIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    fs''1
+    fs''!1
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \p                                                           %! HC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolinIMusicVoice measure 211]                          %! SM4
-    af''2.
+    af''!2.
     
-    af''4.
+    af''!4.
     \repeatTie
     \glissando                                                   %! SC
     
     % [G ViolinIMusicVoice measure 212]                          %! SM4
-    fs''2.
+    fs''!2.
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs''4.
+    fs''!4.
     \repeatTie
     \pp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -1210,11 +1210,11 @@ G_ViolinIMusicVoice = {
     
     % [G ViolinIMusicVoice measure 214]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    fs''2
+    fs''!2
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [G ViolinIMusicVoice measure 215]                          %! SM4
-    fs''2
+    fs''!2
     \repeatTie
     
     % [G ViolinIMusicVoice measure 216]                          %! SM4
@@ -1286,7 +1286,7 @@ G_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    fs'2..
+    fs'!2..
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \ff                                                          %! HC1
@@ -1324,7 +1324,7 @@ G_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [G ViolinIIMusicVoice measure 201]                         %! SM4
-    ef'2..
+    ef'!2..
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 202]                         %! SM4
@@ -1333,7 +1333,7 @@ G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 203]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    ef'2.
+    ef'!2.
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     \glissando                                                   %! SC
@@ -1372,12 +1372,12 @@ G_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    cs'2.
+    cs'!2.
     \>                                                           %! HC1
     \f                                                           %! HC1
     \startTextSpan                                               %! PWC1
     
-    cs'4.
+    cs'!4.
     \repeatTie
     \glissando                                                   %! SC
     
@@ -1436,7 +1436,7 @@ G_ViolinIIMusicVoice = {
     \startTextSpan                                               %! PWC1
     
     % [G ViolinIIMusicVoice measure 208]                         %! SM4
-    fs'4.
+    fs'!4.
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 209]                         %! SM4
@@ -1494,10 +1494,10 @@ G_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 212]                         %! SM4
-    af'2.
+    af'!2.
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af'4.
+    af'!4.
     \repeatTie
     \pp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -1507,11 +1507,11 @@ G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 214]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af'2
+    af'!2
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [G ViolinIIMusicVoice measure 215]                         %! SM4
-    af'2
+    af'!2
     \repeatTie
     
     % [G ViolinIIMusicVoice measure 216]                         %! SM4
@@ -1585,7 +1585,7 @@ G_ViolaMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
-    ef'2..
+    ef'!2..
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \ff                                                          %! HC1
@@ -1728,14 +1728,14 @@ G_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    fs'1
+    fs'!1
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \mf                                                          %! HC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolaMusicVoice measure 208]                            %! SM4
-    ef'4.
+    ef'!4.
     \glissando                                                   %! SC
     
     % [G ViolaMusicVoice measure 209]                            %! SM4
@@ -1779,16 +1779,16 @@ G_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef'1
+    ef'!1
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \p                                                           %! HC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolaMusicVoice measure 211]                            %! SM4
-    cs'2.
+    cs'!2.
     
-    cs'4.
+    cs'!4.
     \repeatTie
     \glissando                                                   %! SC
     
@@ -1891,7 +1891,7 @@ G_CelloMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
-    cs,2..
+    cs,!2..
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \ff                                                          %! HC1
@@ -1929,7 +1929,7 @@ G_CelloMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [G CelloMusicVoice measure 201]                            %! SM4
-    ef,2..
+    ef,!2..
     \glissando                                                   %! SC
     
     % [G CelloMusicVoice measure 202]                            %! SM4
@@ -2046,7 +2046,7 @@ G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 209]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    cs,2
+    cs,!2
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     \glissando                                                   %! SC
@@ -2085,16 +2085,16 @@ G_CelloMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef,1
+    ef,!1
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \p                                                           %! HC1
     \startTextSpan                                               %! PWC1
     
     % [G CelloMusicVoice measure 211]                            %! SM4
-    cs,2.
+    cs,!2.
     
-    cs,4.
+    cs,!4.
     \repeatTie
     \glissando                                                   %! SC
     
@@ -2112,11 +2112,11 @@ G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 214]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    cs,2
+    cs,!2
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [G CelloMusicVoice measure 215]                            %! SM4
-    cs,2
+    cs,!2
     \repeatTie
     
     % [G CelloMusicVoice measure 216]                            %! SM4

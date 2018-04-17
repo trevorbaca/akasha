@@ -656,7 +656,7 @@ B_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    ds'4
+    ds'!4
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -701,9 +701,9 @@ B_ViolinIIMusicVoice = {
     % [B ViolinIIMusicVoice measure 25]                          %! SM4
     f'4
     
-    fqf'8
+    fqf'!8
     
-    fqf'4
+    fqf'!4
     \repeatTie
     
     e'2
@@ -780,18 +780,18 @@ B_ViolinIIMusicVoice = {
                     "tasto + XFB"                                %! IC
             }                                                    %! IC
         
-        bf'16 * 209/32
+        bf'!16 * 209/32
         
         c''16 * 143/32
         
         r16 * 197/64
         
-        bf'16 * 19/8
+        bf'!16 * 19/8
         
         c''16 * 65/32
         
         \revert Staff.Stem.stemlet-length
-        bf'16 * 61/32
+        bf'!16 * 61/32
         ]
         
     }
@@ -866,19 +866,19 @@ B_ViolaMusicVoice = {
     
     r4
     
-    df'2
+    df'!2
     
     % [B ViolaMusicVoice measure 25]                             %! SM4
-    df'4.
+    df'!4.
     \repeatTie
     
-    df'4
+    df'!4
     \repeatTie
     
-    dtqf'8
+    dtqf'!8
     [
     
-    dtqf'8
+    dtqf'!8
     \repeatTie
     ]
     
@@ -910,7 +910,7 @@ B_ViolaMusicVoice = {
     R1 * 7/8
     
     % [B ViolaMusicVoice measure 34]                             %! SM4
-    ds2..
+    ds!2..
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -989,14 +989,14 @@ B_CelloMusicVoice = {
         % [B CelloMusicVoice measure 25]                         %! SM4
         r16.
         
-        bf32
+        bf!32
         -\staccato                                               %! IC
         [
         
         a32
         -\staccato                                               %! IC
         
-        bf32
+        bf!32
         -\staccato                                               %! IC
         
         b32
@@ -1015,7 +1015,7 @@ B_CelloMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    bf32
+    bf!32
     -\staccato                                                   %! IC
     ]
     \times 4/5 {
@@ -1024,7 +1024,7 @@ B_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        bf32
+        bf!32
         -\staccato                                               %! IC
         
         a32
@@ -1033,7 +1033,7 @@ B_CelloMusicVoice = {
         g32
         -\staccato                                               %! IC
         
-        af32
+        af!32
         -\staccato                                               %! IC
         
         a32
@@ -1047,17 +1047,17 @@ B_CelloMusicVoice = {
         % [B CelloMusicVoice measure 27]                         %! SM4
         r8
         
-        bf32
+        bf!32
         -\staccato                                               %! IC
         [
         
-        af32
+        af!32
         -\staccato                                               %! IC
         
         g32
         -\staccato                                               %! IC
         
-        fs32
+        fs!32
         -\staccato                                               %! IC
         ]
         
@@ -1077,7 +1077,7 @@ B_CelloMusicVoice = {
         e32
         -\staccato                                               %! IC
         
-        fs32
+        fs!32
         -\staccato                                               %! IC
         
         f32
@@ -1088,7 +1088,7 @@ B_CelloMusicVoice = {
         ]
     }
     
-    fs32
+    fs!32
     -\staccato                                                   %! IC
     [
     
@@ -1100,7 +1100,7 @@ B_CelloMusicVoice = {
     
     r16
     
-    af32
+    af!32
     -\staccato                                                   %! IC
     [
     
@@ -1113,13 +1113,13 @@ B_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        af32
+        af!32
         -\staccato                                               %! IC
         
         g32
         -\staccato                                               %! IC
         
-        fs32
+        fs!32
         -\staccato                                               %! IC
         
         e32
@@ -1137,7 +1137,7 @@ B_CelloMusicVoice = {
     \times 8/9 {
         
         % [B CelloMusicVoice measure 29]                         %! SM4
-        fs32
+        fs!32
         -\staccato                                               %! IC
         [
         
@@ -1150,7 +1150,7 @@ B_CelloMusicVoice = {
         e32
         -\staccato                                               %! IC
         
-        ef32
+        ef!32
         -\staccato                                               %! IC
         ]
         
@@ -1165,10 +1165,10 @@ B_CelloMusicVoice = {
         d32
         -\staccato                                               %! IC
         
-        cs32
+        cs!32
         -\staccato                                               %! IC
         
-        ef32
+        ef!32
         -\staccato                                               %! IC
         ]
         
@@ -1189,7 +1189,7 @@ B_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        ef32
+        ef!32
         -\staccato                                               %! IC
         
         e32
@@ -1203,7 +1203,7 @@ B_CelloMusicVoice = {
         
         r4
         
-        fs32
+        fs!32
         -\staccato                                               %! IC
         \revert Beam.positions                                   %! OC2
         \revert TupletBracket.staff-padding                      %! OC2
@@ -1217,7 +1217,7 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 34]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    cs,2..
+    cs,!2..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC

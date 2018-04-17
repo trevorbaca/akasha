@@ -1114,10 +1114,10 @@ A_ViolinIMusicVoice = {
     f'4.
     \repeatTie
     
-    eqs'8
+    eqs'!8
     
     % [A ViolinIMusicVoice measure 10]                           %! SM4
-    eqs'8
+    eqs'!8
     \repeatTie
     
     r2..
@@ -1140,7 +1140,7 @@ A_ViolinIMusicVoice = {
                     "leggierissimo: off-string bowing on staccati" %! IC
             }                                                    %! IC
         
-        cs'32
+        cs'!32
         -\staccato                                               %! IC
         
         c'32
@@ -1157,7 +1157,7 @@ A_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        bf32
+        bf!32
         -\staccato                                               %! IC
         ]
         
@@ -1446,7 +1446,7 @@ A_ViolinIIMusicVoice = {
         
         % [A ViolinIIMusicVoice measure 7]                       %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        bf32
+        bf!32
         -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -1459,7 +1459,7 @@ A_ViolinIIMusicVoice = {
         b32
         -\staccato                                               %! IC
         
-        bf32
+        bf!32
         -\staccato                                               %! IC
         ]
         
@@ -1473,7 +1473,7 @@ A_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        af32
+        af!32
         -\staccato                                               %! IC
         ]
         
@@ -1503,7 +1503,7 @@ A_ViolinIIMusicVoice = {
     d'8
     \repeatTie
     
-    dqf'4.
+    dqf'!4.
     
     c'2
     
@@ -1513,9 +1513,9 @@ A_ViolinIIMusicVoice = {
     % [A ViolinIIMusicVoice measure 12]                          %! SM4
     r4
     
-    cs'4.
+    cs'!4.
     
-    ctqs'2..
+    ctqs'!2..
     
     % [A ViolinIIMusicVoice measure 13]                          %! SM4
     R1 * 1/4
@@ -1565,7 +1565,7 @@ A_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        bf'16 * 247/32
+        bf'!16 * 247/32
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
         ^ \markup {                                              %! IC
@@ -1578,7 +1578,7 @@ A_ViolinIIMusicVoice = {
         
         c''16 * 187/32
         
-        bf'16 * 287/64
+        bf'!16 * 287/64
         
         r16 * 223/64
         
@@ -1586,12 +1586,12 @@ A_ViolinIIMusicVoice = {
         
         r16 * 153/64
         
-        bf'16 * 137/64
+        bf'!16 * 137/64
         
         c''16 * 2
         
         \revert Staff.Stem.stemlet-length
-        bf'16 * 31/16
+        bf'!16 * 31/16
         ]
     }
     \revert TupletNumber.text
@@ -1642,7 +1642,7 @@ A_ViolinIIMusicVoice = {
         c''16 * 115/64
         [
         
-        bf'16 * 121/64
+        bf'!16 * 121/64
         
         r16 * 139/64
         
@@ -1653,7 +1653,7 @@ A_ViolinIIMusicVoice = {
         r16 * 81/16
         
         \revert Staff.Stem.stemlet-length
-        bf'16 * 429/64
+        bf'!16 * 429/64
         ]
     }
     \revert TupletNumber.text
@@ -1707,7 +1707,7 @@ A_ViolinIIMusicVoice = {
         
         r16 * 353/64
         
-        bf'16 * 97/32
+        bf'!16 * 97/32
         
         r16 * 17/8
         
@@ -1760,7 +1760,7 @@ A_ViolinIIMusicVoice = {
         % [A ViolinIIMusicVoice measure 22]                      %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        bf'16 * 13/8
+        bf'!16 * 13/8
         [
         
         c''16 * 125/64
@@ -1768,7 +1768,7 @@ A_ViolinIIMusicVoice = {
         r16 * 49/16
         
         \revert Staff.Stem.stemlet-length
-        bf'16 * 343/64
+        bf'!16 * 343/64
         ]
     }
     \revert TupletNumber.text
@@ -1857,7 +1857,7 @@ A_ViolaMusicVoice = {
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        bf32
+        bf!32
         -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -1870,7 +1870,7 @@ A_ViolaMusicVoice = {
         a32
         -\staccato                                               %! IC
         
-        bf32
+        bf!32
         -\staccato                                               %! IC
         ]
         
@@ -1884,7 +1884,7 @@ A_ViolaMusicVoice = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    ef'2
+    ef'!2
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -1892,7 +1892,7 @@ A_ViolaMusicVoice = {
                 "tasto + 1/2 scratch"                            %! IC
         }                                                        %! IC
     
-    ef'4.
+    ef'!4.
     \repeatTie
     
     d'8
@@ -1924,22 +1924,22 @@ A_ViolaMusicVoice = {
     d'4.
     \repeatTie
     
-    dqs'8
+    dqs'!8
     [
     
-    dqs'8
+    dqs'!8
     \repeatTie
     
-    ds'8
+    ds'!8
     ]
     
     % [A ViolaMusicVoice measure 15]                             %! SM4
-    ds'2.
+    ds'!2.
     \repeatTie
     
     e'4
     
-    fs'4.
+    fs'!4.
     
     f'8
     
@@ -1951,7 +1951,7 @@ A_ViolaMusicVoice = {
     R1 * 1/4
     
     % [A ViolaMusicVoice measure 18]                             %! SM4
-    ef'4.
+    ef'!4.
     
     d'4.
     
@@ -2046,7 +2046,7 @@ A_CelloMusicVoice = {
     f16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs4
+    fqs!4
     
     % [A CelloMusicVoice measure 5]                              %! SM4
     R1 * 3/4
@@ -2072,7 +2072,7 @@ A_CelloMusicVoice = {
     % [A CelloMusicVoice measure 12]                             %! SM4
     c'4
     
-    cqf'4.
+    cqf'!4.
     
     b2..
     
@@ -2080,21 +2080,21 @@ A_CelloMusicVoice = {
     R1 * 1/4
     
     % [A CelloMusicVoice measure 14]                             %! SM4
-    bf2..
+    bf!2..
     
-    btqf8
+    btqf!8
     [
     
-    btqf8
+    btqf!8
     \repeatTie
     ]
     
     a4.
     
     % [A CelloMusicVoice measure 15]                             %! SM4
-    af2.
+    af!2.
     
-    af4.
+    af!4.
     \repeatTie
     
     g8
@@ -2118,9 +2118,9 @@ A_CelloMusicVoice = {
     % [A CelloMusicVoice measure 18]                             %! SM4
     a4
     
-    as2
+    as!2
     
-    as4.
+    as!4.
     \repeatTie
     
     b8
@@ -2158,7 +2158,7 @@ A_CelloMusicVoice = {
                     "leggierissimo: off-string bowing on staccati" %! IC
             }                                                    %! IC
         
-        cs'32
+        cs'!32
         -\staccato                                               %! IC
         ]
         
