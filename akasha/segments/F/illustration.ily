@@ -2269,23 +2269,23 @@ F_ViolinIMusicVoice = {
         % [F ViolinIMusicVoice measure 154]                      %! SM4
         r16
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         [
         
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -2296,7 +2296,7 @@ F_ViolinIMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    ef'''16
+    ef'''!16
     -\staccato                                                   %! IC
     
     e'''16
@@ -2306,7 +2306,7 @@ F_ViolinIMusicVoice = {
         
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
@@ -2316,7 +2316,7 @@ F_ViolinIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -2327,17 +2327,17 @@ F_ViolinIMusicVoice = {
         
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -2352,13 +2352,13 @@ F_ViolinIMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -2373,7 +2373,7 @@ F_ViolinIMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    ef'''16
+    ef'''!16
     -\staccato                                                   %! IC
     
     f'''16
@@ -2390,10 +2390,10 @@ F_ViolinIMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -2404,7 +2404,7 @@ F_ViolinIMusicVoice = {
         
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
@@ -2414,7 +2414,7 @@ F_ViolinIMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -2469,7 +2469,7 @@ F_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        ef''16 * 227/32
+        ef''!16 * 227/32
         \pp_ancora                                               %! SM8:EXPLICIT_DYNAMIC:IC
         [
         ^ \markup {                                              %! IC
@@ -2526,12 +2526,12 @@ F_ViolinIMusicVoice = {
         % [F ViolinIMusicVoice measure 160]                      %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        ef''16 * 109/64
+        ef''!16 * 109/64
         [
         
         f''16 * 61/32
         
-        ef''16 * 163/64
+        ef''!16 * 163/64
         
         r16 * 31/8
         
@@ -2547,18 +2547,18 @@ F_ViolinIMusicVoice = {
         
         % [F ViolinIMusicVoice measure 162]                      %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        ef''4
+        ef''!4
         \<                                                       %! HC1
         \pp                                                      %! HC1
         
-        ef''16
+        ef''!16
         \repeatTie
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        ef''4
+        ef''!4
         \repeatTie
         \p                                                       %! HC1
         
@@ -2589,13 +2589,13 @@ F_ViolinIMusicVoice = {
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        ef''4
+        ef''!4
     }
     \times 4/5 {
         
         % [F ViolinIMusicVoice measure 163]                      %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        ef''8.
+        ef''!8.
         \repeatTie
         \pp                                                      %! HC1
         
@@ -2628,15 +2628,15 @@ F_ViolinIMusicVoice = {
         f''4
         \repeatTie
         
-        ef''16
+        ef''!16
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        ef''4
+        ef''!4
         \repeatTie
         
-        ef''16
+        ef''!16
         \repeatTie
     }
     \override TupletNumber.text = \markup {
@@ -2688,7 +2688,7 @@ F_ViolinIMusicVoice = {
         r16 * 49/8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        ef''16 * 243/64
+        ef''!16 * 243/64
         \>                                                       %! HC1
         \p                                                       %! HC1
         
@@ -2700,7 +2700,7 @@ F_ViolinIMusicVoice = {
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        ef''16 * 61/32
+        ef''!16 * 61/32
         ]
         \<                                                       %! HC1
         \pp                                                      %! HC1
@@ -2710,16 +2710,16 @@ F_ViolinIMusicVoice = {
         
         % [F ViolinIMusicVoice measure 165]                      %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        fs''4
+        fs''!4
         
-        fs''16
+        fs''!16
         \repeatTie
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        fs''4
+        fs''!4
         \repeatTie
         \p                                                       %! HC1
         
@@ -2730,33 +2730,33 @@ F_ViolinIMusicVoice = {
         r8.
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        ef''8
+        ef''!8
         \>                                                       %! HC1
         \p                                                       %! HC1
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        ef''4
+        ef''!4
         \repeatTie
         
-        ef''16
+        ef''!16
         \repeatTie
     }
     \times 4/5 {
         
         % [F ViolinIMusicVoice measure 166]                      %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        ef''16
+        ef''!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        fs''4
+        fs''!4
     }
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        fs''8.
+        fs''!8.
         \repeatTie
         \pp                                                      %! HC1
         
@@ -2781,24 +2781,24 @@ F_ViolinIMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        ef''4
+        ef''!4
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
     \times 4/5 {
         
-        ef''4
+        ef''!4
         \repeatTie
         
-        fs''16
+        fs''!16
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        fs''4
+        fs''!4
         \repeatTie
         
-        fs''16
+        fs''!16
         \repeatTie
     }
     \override TupletNumber.text = \markup {
@@ -2850,7 +2850,7 @@ F_ViolinIMusicVoice = {
         r16 * 233/32
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        fs''16 * 393/64
+        fs''!16 * 393/64
         \>                                                       %! HC1
         \p                                                       %! HC1
         
@@ -2863,14 +2863,14 @@ F_ViolinIMusicVoice = {
         r16 * 25/8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        fs''16 * 169/64
+        fs''!16 * 169/64
         \<                                                       %! HC1
         \pp                                                      %! HC1
         
         e''16 * 37/16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        fs''16 * 135/64
+        fs''!16 * 135/64
         \p                                                       %! HC1
         
         r16 * 127/64
@@ -2886,16 +2886,16 @@ F_ViolinIMusicVoice = {
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        fs''4
+        fs''!4
         
-        fs''16
+        fs''!16
         \repeatTie
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        fs''4
+        fs''!4
         \repeatTie
         \pp                                                      %! HC1
         
@@ -3139,7 +3139,7 @@ F_ViolinIMusicVoice = {
                     "pos. ord."                                  %! IC
             }                                                    %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -3148,7 +3148,7 @@ F_ViolinIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -3160,16 +3160,16 @@ F_ViolinIMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -3184,16 +3184,16 @@ F_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         % [F ViolinIMusicVoice measure 188]                      %! SM4
@@ -3203,13 +3203,13 @@ F_ViolinIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -3220,7 +3220,7 @@ F_ViolinIMusicVoice = {
         
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
@@ -3230,7 +3230,7 @@ F_ViolinIMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -3241,17 +3241,17 @@ F_ViolinIMusicVoice = {
         
         r16
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         [
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -3260,13 +3260,13 @@ F_ViolinIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         c''''16
@@ -3277,7 +3277,7 @@ F_ViolinIMusicVoice = {
         
         r16
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         [
         
@@ -3290,7 +3290,7 @@ F_ViolinIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3302,7 +3302,7 @@ F_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -3311,14 +3311,14 @@ F_ViolinIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         % [F ViolinIMusicVoice measure 190]                      %! SM4
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         c''''16
@@ -3327,7 +3327,7 @@ F_ViolinIMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -3345,7 +3345,7 @@ F_ViolinIMusicVoice = {
         c''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         c''''16
@@ -3354,10 +3354,10 @@ F_ViolinIMusicVoice = {
         d''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         d''''16
@@ -3372,7 +3372,7 @@ F_ViolinIMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -3387,7 +3387,7 @@ F_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         b'''16
@@ -3399,7 +3399,7 @@ F_ViolinIMusicVoice = {
         d''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3415,13 +3415,13 @@ F_ViolinIMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         d''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         d''''16
@@ -3433,19 +3433,19 @@ F_ViolinIMusicVoice = {
         f''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         e''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         d''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3459,7 +3459,7 @@ F_ViolinIMusicVoice = {
     b'''16
     -\staccato                                                   %! IC
     
-    cs''''16
+    cs''''!16
     -\staccato                                                   %! IC
     ]
     \times 8/14 {
@@ -3470,7 +3470,7 @@ F_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         d''''16
@@ -3479,16 +3479,16 @@ F_ViolinIMusicVoice = {
         e''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         d''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         e''''16
@@ -3500,7 +3500,7 @@ F_ViolinIMusicVoice = {
         e''''16
         -\staccato                                               %! IC
         
-        fs''''16
+        fs''''!16
         -\staccato                                               %! IC
         
         g''''16
@@ -3516,31 +3516,31 @@ F_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        fs''''16
+        fs''''!16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         e''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         d''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         d''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3552,7 +3552,7 @@ F_ViolinIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        fs''''16
+        fs''''!16
         -\staccato                                               %! IC
         
         f''''16
@@ -3561,7 +3561,7 @@ F_ViolinIMusicVoice = {
         e''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3572,7 +3572,7 @@ F_ViolinIMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    fs''''16
+    fs''''!16
     -\staccato                                                   %! IC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -3605,7 +3605,7 @@ F_ViolinIMusicVoice = {
                     leggieriss.                                  %! IC
             }                                                    %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -3614,7 +3614,7 @@ F_ViolinIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -3626,16 +3626,16 @@ F_ViolinIMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -3644,13 +3644,13 @@ F_ViolinIMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3659,7 +3659,7 @@ F_ViolinIMusicVoice = {
         
         r16
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         [
         
@@ -3669,19 +3669,19 @@ F_ViolinIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -3690,16 +3690,16 @@ F_ViolinIMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -3795,7 +3795,7 @@ F_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -3804,7 +3804,7 @@ F_ViolinIIMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3822,16 +3822,16 @@ F_ViolinIIMusicVoice = {
         c'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -3840,7 +3840,7 @@ F_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3852,13 +3852,13 @@ F_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3876,14 +3876,14 @@ F_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
         % [F ViolinIIMusicVoice measure 155]                     %! SM4
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -3892,13 +3892,13 @@ F_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -3913,7 +3913,7 @@ F_ViolinIIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -3925,7 +3925,7 @@ F_ViolinIIMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -3934,10 +3934,10 @@ F_ViolinIIMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -4007,7 +4007,7 @@ F_ViolinIIMusicVoice = {
                     "tasto + XFB"                                %! IC
             }                                                    %! IC
         
-        cs''16 * 125/64
+        cs''!16 * 125/64
         
         r16 * 49/16
         
@@ -4057,7 +4057,7 @@ F_ViolinIIMusicVoice = {
         % [F ViolinIIMusicVoice measure 160]                     %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        cs''16 * 117/16
+        cs''!16 * 117/16
         [
         
         r16 * 73/16
@@ -4065,7 +4065,7 @@ F_ViolinIIMusicVoice = {
         b'16 * 73/32
         
         \revert Staff.Stem.stemlet-length
-        cs''16 * 59/32
+        cs''!16 * 59/32
         ]
     }
     \revert TupletNumber.text
@@ -4087,11 +4087,11 @@ F_ViolinIIMusicVoice = {
     [
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    cs''8.
+    cs''!8.
     ]
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    cs''16
+    cs''!16
     \repeatTie
     \p                                                           %! HC1
     
@@ -4147,7 +4147,7 @@ F_ViolinIIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        cs''16 * 241/32
+        cs''!16 * 241/32
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -4157,7 +4157,7 @@ F_ViolinIIMusicVoice = {
         r16 * 243/64
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        cs''16 * 165/64
+        cs''!16 * 165/64
         \pp                                                      %! HC1
         
         r16 * 33/16
@@ -4172,12 +4172,12 @@ F_ViolinIIMusicVoice = {
     \revert TupletNumber.text
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    cs''4
+    cs''!4
     
-    cs''4
+    cs''!4
     \repeatTie
     
-    cs''16
+    cs''!16
     \repeatTie
     [
     
@@ -4400,7 +4400,7 @@ F_ViolinIIMusicVoice = {
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        ef''16 * 59/8
+        ef''!16 * 59/8
         \pp                                                      %! HC1
         
         r16 * 51/8
@@ -4412,7 +4412,7 @@ F_ViolinIIMusicVoice = {
         r16 * 67/16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        ef''16 * 219/64
+        ef''!16 * 219/64
         \p                                                       %! HC1
         
         r16 * 185/64
@@ -4423,7 +4423,7 @@ F_ViolinIIMusicVoice = {
         \pp                                                      %! HC1
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        ef''16 * 9/4
+        ef''!16 * 9/4
         \p                                                       %! HC1
         
         r16 * 133/64
@@ -4432,7 +4432,7 @@ F_ViolinIIMusicVoice = {
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        cs''16 * 63/32
+        cs''!16 * 63/32
         ]
         \p                                                       %! HC1
     }
@@ -4441,7 +4441,7 @@ F_ViolinIIMusicVoice = {
     % [F ViolinIIMusicVoice measure 174]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    fs'2.
+    fs'!2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -4449,19 +4449,19 @@ F_ViolinIIMusicVoice = {
                 "tasto + 1/2 scratch"                            %! IC
         }                                                        %! IC
     
-    fs'2
+    fs'!2
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 175]                         %! SM4
-    fs'2.
+    fs'!2.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 176]                         %! SM4
-    fs'2.
+    fs'!2.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 177]                         %! SM4
-    fs'1.
+    fs'!1.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 178]                         %! SM4
@@ -4498,41 +4498,41 @@ F_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    fs'1
+    fs'!1
     \<                                                           %! HC1
     \mp                                                          %! HC1
     \startTextSpan                                               %! PWC1
     
     % [F ViolinIIMusicVoice measure 179]                         %! SM4
-    fs'1.
+    fs'!1.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 180]                         %! SM4
-    fs'1.
+    fs'!1.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 181]                         %! SM4
-    fs'1.
+    fs'!1.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 182]                         %! SM4
-    fs'1
+    fs'!1
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 183]                         %! SM4
-    fs'2.
+    fs'!2.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 184]                         %! SM4
-    fs'1
+    fs'!1
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 185]                         %! SM4
-    fs'2.
+    fs'!2.
     \repeatTie
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    fs'2
+    fs'!2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -4556,13 +4556,13 @@ F_ViolinIIMusicVoice = {
                     "pos. ord."                                  %! IC
             }                                                    %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -4571,13 +4571,13 @@ F_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -4591,7 +4591,7 @@ F_ViolinIIMusicVoice = {
         
         r16
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         [
         
@@ -4604,7 +4604,7 @@ F_ViolinIIMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -4620,10 +4620,10 @@ F_ViolinIIMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -4638,7 +4638,7 @@ F_ViolinIIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -4653,7 +4653,7 @@ F_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
@@ -4671,7 +4671,7 @@ F_ViolinIIMusicVoice = {
         % [F ViolinIIMusicVoice measure 189]                     %! SM4
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
@@ -4681,13 +4681,13 @@ F_ViolinIIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -4696,10 +4696,10 @@ F_ViolinIIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -4710,14 +4710,14 @@ F_ViolinIIMusicVoice = {
         
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -4726,14 +4726,14 @@ F_ViolinIIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         % [F ViolinIIMusicVoice measure 190]                     %! SM4
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -4742,13 +4742,13 @@ F_ViolinIIMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -4756,14 +4756,14 @@ F_ViolinIIMusicVoice = {
         
         r16
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         [
         
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -4780,35 +4780,35 @@ F_ViolinIIMusicVoice = {
         
         r16
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         [
         
         b'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -4817,7 +4817,7 @@ F_ViolinIIMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -4829,10 +4829,10 @@ F_ViolinIIMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    af'''16
+    af'''!16
     -\staccato                                                   %! IC
     
-    bf'''16
+    bf'''!16
     -\staccato                                                   %! IC
     ]
     \times 8/14 {
@@ -4849,7 +4849,7 @@ F_ViolinIIMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         d''''16
@@ -4858,25 +4858,25 @@ F_ViolinIIMusicVoice = {
         c''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -4888,13 +4888,13 @@ F_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         b'''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         c''''16
@@ -4903,13 +4903,13 @@ F_ViolinIIMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         c''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         d''''16
@@ -4921,11 +4921,11 @@ F_ViolinIIMusicVoice = {
         % [F ViolinIIMusicVoice measure 192]                     %! SM4
         r16
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         [
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         e''''16
@@ -4934,7 +4934,7 @@ F_ViolinIIMusicVoice = {
         d''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         ]
     }
@@ -4946,7 +4946,7 @@ F_ViolinIIMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         c''''16
@@ -4955,7 +4955,7 @@ F_ViolinIIMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         c''''16
@@ -4967,10 +4967,10 @@ F_ViolinIIMusicVoice = {
         c''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         d''''16
@@ -4981,7 +4981,7 @@ F_ViolinIIMusicVoice = {
         
         r16
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         [
         
@@ -4991,7 +4991,7 @@ F_ViolinIIMusicVoice = {
         d''''16
         -\staccato                                               %! IC
         
-        ef''''16
+        ef''''!16
         -\staccato                                               %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -5026,13 +5026,13 @@ F_ViolinIIMusicVoice = {
                     leggieriss.                                  %! IC
             }                                                    %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -5041,13 +5041,13 @@ F_ViolinIIMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -5056,7 +5056,7 @@ F_ViolinIIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -5072,7 +5072,7 @@ F_ViolinIIMusicVoice = {
     
     r16
     
-    fs'''16
+    fs'''!16
     -\staccato                                                   %! IC
     [
     
@@ -5082,10 +5082,10 @@ F_ViolinIIMusicVoice = {
     g'''16
     -\staccato                                                   %! IC
     
-    af'''16
+    af'''!16
     -\staccato                                                   %! IC
     
-    fs'''16
+    fs'''!16
     -\staccato                                                   %! IC
     ]
     \times 6/9 {
@@ -5105,7 +5105,7 @@ F_ViolinIIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -5114,7 +5114,7 @@ F_ViolinIIMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -5210,7 +5210,7 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 157]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    fs2.
+    fs!2.
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -5244,7 +5244,7 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 162]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    gs2
+    gs!2
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -5252,7 +5252,7 @@ F_ViolaMusicVoice = {
                 "tasto + 1/2 scratch"                            %! IC
         }                                                        %! IC
     
-    gs8.
+    gs!8.
     \repeatTie
     [
     
@@ -5278,11 +5278,11 @@ F_ViolaMusicVoice = {
     \repeatTie
     
     % [F ViolaMusicVoice measure 164]                            %! SM4
-    bqf2
+    bqf!2
     
-    bf4
+    bf!4
     
-    bf4..
+    bf!4..
     \repeatTie
     
     c'16
@@ -5303,30 +5303,30 @@ F_ViolaMusicVoice = {
     \repeatTie
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    cs'4..
+    cs'!4..
     
     % [F ViolaMusicVoice measure 167]                            %! SM4
-    cs'1.
+    cs'!1.
     \repeatTie
     
     % [F ViolaMusicVoice measure 168]                            %! SM4
-    cs'4..
+    cs'!4..
     \repeatTie
     
-    cqs'16
+    cqs'!16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    cqs'4
+    cqs'!4
     \repeatTie
     
-    cqs'2.
+    cqs'!2.
     \repeatTie
     
     % [F ViolaMusicVoice measure 169]                            %! SM4
-    cqs'2
+    cqs'!2
     \repeatTie
     
-    cqs'8.
+    cqs'!8.
     \repeatTie
     [
     
@@ -5406,41 +5406,41 @@ F_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ds'1
+    ds'!1
     \<                                                           %! HC1
     \mp                                                          %! HC1
     \startTextSpan                                               %! PWC1
     
     % [F ViolaMusicVoice measure 179]                            %! SM4
-    ds'1.
+    ds'!1.
     \repeatTie
     
     % [F ViolaMusicVoice measure 180]                            %! SM4
-    ds'1.
+    ds'!1.
     \repeatTie
     
     % [F ViolaMusicVoice measure 181]                            %! SM4
-    ds'1.
+    ds'!1.
     \repeatTie
     
     % [F ViolaMusicVoice measure 182]                            %! SM4
-    ds'1
+    ds'!1
     \repeatTie
     
     % [F ViolaMusicVoice measure 183]                            %! SM4
-    ds'2.
+    ds'!2.
     \repeatTie
     
     % [F ViolaMusicVoice measure 184]                            %! SM4
-    ds'1
+    ds'!1
     \repeatTie
     
     % [F ViolaMusicVoice measure 185]                            %! SM4
-    ds'2.
+    ds'!2.
     \repeatTie
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    ds'2
+    ds'!2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -5477,7 +5477,7 @@ F_ViolaMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
@@ -5486,7 +5486,7 @@ F_ViolaMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         b''16
@@ -5503,7 +5503,7 @@ F_ViolaMusicVoice = {
         
         r16
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         [
         
@@ -5513,7 +5513,7 @@ F_ViolaMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -5525,7 +5525,7 @@ F_ViolaMusicVoice = {
         % [F ViolaMusicVoice measure 188]                        %! SM4
         r16
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         [
         
@@ -5538,19 +5538,19 @@ F_ViolaMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -5564,14 +5564,14 @@ F_ViolaMusicVoice = {
         
         r16
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         [
         
         c'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -5580,17 +5580,17 @@ F_ViolaMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         % [F ViolaMusicVoice measure 189]                        %! SM4
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
@@ -5602,7 +5602,7 @@ F_ViolaMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -5617,16 +5617,16 @@ F_ViolaMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -5638,23 +5638,23 @@ F_ViolaMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
         -\staccato                                               %! IC
         
         % [F ViolaMusicVoice measure 190]                        %! SM4
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -5663,13 +5663,13 @@ F_ViolaMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -5679,11 +5679,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    fs'''16
+    fs'''!16
     -\staccato                                                   %! IC
     [
     
-    af'''16
+    af'''!16
     -\staccato                                                   %! IC
     
     a'''16
@@ -5697,22 +5697,13 @@ F_ViolaMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
-        -\staccato                                               %! IC
-        
-        f'''16
-        -\staccato                                               %! IC
-        
-        e'''16
-        -\staccato                                               %! IC
-        
-        ef'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -5721,13 +5712,22 @@ F_ViolaMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
+        ef'''!16
+        -\staccato                                               %! IC
+        
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        e'''16
         -\staccato                                               %! IC
         
-        af'''16
+        f'''16
+        -\staccato                                               %! IC
+        
+        fs'''!16
+        -\staccato                                               %! IC
+        
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -5739,7 +5739,7 @@ F_ViolaMusicVoice = {
         % [F ViolaMusicVoice measure 191]                        %! SM4
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
@@ -5749,16 +5749,16 @@ F_ViolaMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         b'''16
@@ -5767,7 +5767,7 @@ F_ViolaMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -5779,13 +5779,13 @@ F_ViolaMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -5800,22 +5800,22 @@ F_ViolaMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -5824,7 +5824,7 @@ F_ViolaMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         b'''16
@@ -5836,14 +5836,14 @@ F_ViolaMusicVoice = {
         % [F ViolaMusicVoice measure 192]                        %! SM4
         r16
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         [
         
         c''''16
         -\staccato                                               %! IC
         
-        cs''''16
+        cs''''!16
         -\staccato                                               %! IC
         
         b'''16
@@ -5861,13 +5861,13 @@ F_ViolaMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -5876,13 +5876,13 @@ F_ViolaMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         c''''16
@@ -5897,7 +5897,7 @@ F_ViolaMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -5959,7 +5959,7 @@ F_ViolaMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
@@ -5968,7 +5968,7 @@ F_ViolaMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         b''16
@@ -5980,7 +5980,7 @@ F_ViolaMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -5989,7 +5989,7 @@ F_ViolaMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -6000,7 +6000,7 @@ F_ViolaMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    ef'''16
+    ef'''!16
     -\staccato                                                   %! IC
     
     d'''16
@@ -6017,20 +6017,20 @@ F_ViolaMusicVoice = {
         
         r16
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         [
         
         e'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -6039,7 +6039,7 @@ F_ViolaMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -6138,18 +6138,18 @@ F_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    gf16
+    gf!16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    gqf4
+    gqf!4
     
     % [F CelloMusicVoice measure 153]                            %! SM4
-    gqf4.
+    gqf!4.
     \repeatTie
     
     g8
     
-    df4..
+    df!4..
     
     c16
     \times 8/14 {
@@ -6168,13 +6168,13 @@ F_CelloMusicVoice = {
                     leggieriss.                                  %! IC
             }                                                    %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
         -\staccato                                               %! IC
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         
         g''16
@@ -6183,13 +6183,13 @@ F_CelloMusicVoice = {
         a''16
         -\staccato                                               %! IC
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         
         a''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -6198,7 +6198,7 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
@@ -6216,7 +6216,7 @@ F_CelloMusicVoice = {
         c'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -6225,7 +6225,7 @@ F_CelloMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -6233,7 +6233,7 @@ F_CelloMusicVoice = {
         
         r16
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         [
         
@@ -6249,7 +6249,7 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
@@ -6258,7 +6258,7 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         b''16
@@ -6276,7 +6276,7 @@ F_CelloMusicVoice = {
         % [F CelloMusicVoice measure 155]                        %! SM4
         r16
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         [
         
@@ -6286,13 +6286,13 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -6304,7 +6304,7 @@ F_CelloMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
@@ -6315,14 +6315,14 @@ F_CelloMusicVoice = {
         
         r16
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         [
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -6359,7 +6359,7 @@ F_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af,4..
+    af,!4..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -6395,22 +6395,22 @@ F_CelloMusicVoice = {
     \repeatTie
     [
     
-    fqs,16
+    fqs,!16
     ]
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs,2.
+    fqs,!2.
     \repeatTie
     
     % [F CelloMusicVoice measure 166]                            %! SM4
-    fqs,16
+    fqs,!16
     \repeatTie
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fs,2...
+    fs,!2...
     
     % [F CelloMusicVoice measure 167]                            %! SM4
-    fs,2...
+    fs,!2...
     \repeatTie
     
     e,16
@@ -6434,41 +6434,41 @@ F_CelloMusicVoice = {
     e,4..
     \repeatTie
     
-    ef,16
+    ef,!16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    ef,4
+    ef,!4
     \repeatTie
     
     % [F CelloMusicVoice measure 171]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [F CelloMusicVoice measure 172]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [F CelloMusicVoice measure 173]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [F CelloMusicVoice measure 174]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
-    ef,2
+    ef,!2
     \repeatTie
     
     % [F CelloMusicVoice measure 175]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [F CelloMusicVoice measure 176]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [F CelloMusicVoice measure 177]                            %! SM4
-    ef,1.
+    ef,!1.
     \repeatTie
     
     % [F CelloMusicVoice measure 178]                            %! SM4
@@ -6505,41 +6505,41 @@ F_CelloMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    df,1
+    df,!1
     \<                                                           %! HC1
     \mp                                                          %! HC1
     \startTextSpan                                               %! PWC1
     
     % [F CelloMusicVoice measure 179]                            %! SM4
-    df,1.
+    df,!1.
     \repeatTie
     
     % [F CelloMusicVoice measure 180]                            %! SM4
-    df,1.
+    df,!1.
     \repeatTie
     
     % [F CelloMusicVoice measure 181]                            %! SM4
-    df,1.
+    df,!1.
     \repeatTie
     
     % [F CelloMusicVoice measure 182]                            %! SM4
-    df,1
+    df,!1
     \repeatTie
     
     % [F CelloMusicVoice measure 183]                            %! SM4
-    df,2.
+    df,!2.
     \repeatTie
     
     % [F CelloMusicVoice measure 184]                            %! SM4
-    df,1
+    df,!1
     \repeatTie
     
     % [F CelloMusicVoice measure 185]                            %! SM4
-    df,2.
+    df,!2.
     \repeatTie
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    df,2
+    df,!2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -6559,7 +6559,7 @@ F_CelloMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        af''16
+        af''!16
         -\staccato                                               %! IC
         \<                                                       %! HC1
         \ff                                                      %! HC1
@@ -6573,13 +6573,13 @@ F_CelloMusicVoice = {
         a''16
         -\staccato                                               %! IC
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         
         g''16
         -\staccato                                               %! IC
         
-        fs''16
+        fs''!16
         -\staccato                                               %! IC
         ]
     }
@@ -6587,14 +6587,14 @@ F_CelloMusicVoice = {
         
         r16
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         [
         
         g''16
         -\staccato                                               %! IC
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         
         a''16
@@ -6603,16 +6603,16 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
         -\staccato                                               %! IC
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         b''16
@@ -6631,7 +6631,7 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -6645,38 +6645,38 @@ F_CelloMusicVoice = {
         
         r16
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         [
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
         -\staccato                                               %! IC
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         b''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -6692,22 +6692,22 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         c'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
@@ -6716,13 +6716,13 @@ F_CelloMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         c'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -6737,7 +6737,7 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -6755,17 +6755,17 @@ F_CelloMusicVoice = {
         % [F CelloMusicVoice measure 190]                        %! SM4
         r16
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         [
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         c'''16
@@ -6774,19 +6774,19 @@ F_CelloMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         e'''16
@@ -6803,7 +6803,7 @@ F_CelloMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    ef'''16
+    ef'''!16
     -\staccato                                                   %! IC
     
     d'''16
@@ -6813,7 +6813,7 @@ F_CelloMusicVoice = {
         
         r16
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         [
         
@@ -6823,13 +6823,13 @@ F_CelloMusicVoice = {
         d'''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         % [F CelloMusicVoice measure 191]                        %! SM4
@@ -6839,7 +6839,7 @@ F_CelloMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -6851,7 +6851,7 @@ F_CelloMusicVoice = {
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         ]
     }
@@ -6866,10 +6866,10 @@ F_CelloMusicVoice = {
         g'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -6884,7 +6884,7 @@ F_CelloMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -6899,7 +6899,7 @@ F_CelloMusicVoice = {
         -\staccato                                               %! IC
         [
         
-        ef'''16
+        ef'''!16
         -\staccato                                               %! IC
         
         e'''16
@@ -6916,7 +6916,7 @@ F_CelloMusicVoice = {
         
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
@@ -6926,14 +6926,14 @@ F_CelloMusicVoice = {
         e'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
         % [F CelloMusicVoice measure 192]                        %! SM4
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -6942,10 +6942,10 @@ F_CelloMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        bf'''16
+        bf'''!16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         a'''16
@@ -6956,14 +6956,14 @@ F_CelloMusicVoice = {
         
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         f'''16
@@ -6977,14 +6977,14 @@ F_CelloMusicVoice = {
         
         r16
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         [
         
         f'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
         g'''16
@@ -6993,16 +6993,16 @@ F_CelloMusicVoice = {
         a'''16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         g'''16
         -\staccato                                               %! IC
         
-        fs'''16
+        fs'''!16
         -\staccato                                               %! IC
         
-        af'''16
+        af'''!16
         -\staccato                                               %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -7025,7 +7025,7 @@ F_CelloMusicVoice = {
     r16
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af''16
+    af''!16
     -\staccato                                                   %! IC
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     [
@@ -7038,27 +7038,27 @@ F_CelloMusicVoice = {
     a''16
     -\staccato                                                   %! IC
     
-    af''16
+    af''!16
     -\staccato                                                   %! IC
     
     g''16
     -\staccato                                                   %! IC
     
-    fs''16
+    fs''!16
     -\staccato                                                   %! IC
     ]
     \times 12/15 {
         
         r16
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         [
         
         g''16
         -\staccato                                               %! IC
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         
         a''16
@@ -7067,16 +7067,16 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         a''16
         -\staccato                                               %! IC
         
-        af''16
+        af''!16
         -\staccato                                               %! IC
         
-        bf''16
+        bf''!16
         -\staccato                                               %! IC
         
         b''16
@@ -7088,7 +7088,7 @@ F_CelloMusicVoice = {
         b''16
         -\staccato                                               %! IC
         
-        cs'''16
+        cs'''!16
         -\staccato                                               %! IC
         
         d'''16
@@ -7102,16 +7102,16 @@ F_CelloMusicVoice = {
     -\staccato                                                   %! IC
     [
     
-    cs'''16
+    cs'''!16
     -\staccato                                                   %! IC
     
-    bf''16
+    bf''!16
     -\staccato                                                   %! IC
     
     b''16
     -\staccato                                                   %! IC
     
-    bf''16
+    bf''!16
     -\staccato                                                   %! IC
     ]
     

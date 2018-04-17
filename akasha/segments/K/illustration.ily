@@ -3544,7 +3544,7 @@ K_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    gtqs'2
+    gtqs'!2
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -3585,21 +3585,21 @@ K_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [K ViolinIIMusicVoice measure 266]                         %! SM4
-    gtqs'1
+    gtqs'!1
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 267]                         %! SM4
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 268]                         %! SM4
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 269]                         %! SM4
@@ -3635,21 +3635,21 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 270]                         %! SM4
-    gtqs'2
+    gtqs'!2
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 271]                         %! SM4
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 272]                         %! SM4
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 273]                         %! SM4
@@ -3685,21 +3685,21 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    gtqs'2..
+    gtqs'!2..
     \repeatTie
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 274]                         %! SM4
-    gtqs'2..
+    gtqs'!2..
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 275]                         %! SM4
-    gtqs'2
+    gtqs'!2
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 276]                         %! SM4
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 277]                         %! SM4
@@ -3735,23 +3735,23 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    gtqs'2..
+    gtqs'!2..
     \repeatTie
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 278]                         %! SM4
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 279]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    gtqs'2.
+    gtqs'!2.
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 280]                         %! SM4
-    gtqs'2..
+    gtqs'!2..
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 281]                         %! SM4
@@ -3787,27 +3787,27 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     \startTextSpan                                               %! PWC1
     
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 282]                         %! SM4
-    gtqs'2
+    gtqs'!2
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 283]                         %! SM4
-    gtqs'1
+    gtqs'!1
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 284]                         %! SM4
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 285]                         %! SM4
@@ -3843,21 +3843,21 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    gtqs'2..
+    gtqs'!2..
     \repeatTie
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 286]                         %! SM4
-    gtqs'2..
+    gtqs'!2..
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 287]                         %! SM4
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 288]                         %! SM4
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 289]                         %! SM4
@@ -3894,31 +3894,31 @@ K_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     \<                                                           %! HC1
     \ff                                                          %! HC1
     \startTextSpan                                               %! PWC1
     
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 290]                         %! SM4
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 291]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gtqs'2
+    gtqs'!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 292]                         %! SM4
-    gtqs'1
+    gtqs'!1
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 293]                         %! SM4
@@ -4061,20 +4061,20 @@ K_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gtqs'2
+    gtqs'!2
     \<                                                           %! HC1
     \sffp                                                        %! HC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 300]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gtqs'2
+    gtqs'!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 301]                         %! SM4
-    gtqs'4.
+    gtqs'!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 302]                         %! SM4
@@ -4111,7 +4111,7 @@ K_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gtqs'2.
+    gtqs'!2.
     \repeatTie
     \>                                                           %! HC1
     \fff                                                         %! HC1
@@ -4119,7 +4119,7 @@ K_ViolinIIMusicVoice = {
     
     % [K ViolinIIMusicVoice measure 303]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gtqs'2..
+    gtqs'!2..
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -4208,7 +4208,7 @@ K_ViolinIIMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    cs''''1
+    cs''''!1
     \<                                                           %! HC1
     \sffp                                                        %! HC1
     ^ \markup {                                                  %! IC
@@ -4219,23 +4219,23 @@ K_ViolinIIMusicVoice = {
     \startTrillSpan                                              %! SC
     
     % [K ViolinIIMusicVoice measure 316]                         %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 317]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    cs''''2.
+    cs''''!2.
     \repeatTie
     \f                                                           %! HC1
     
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 318]                         %! SM4
-    cs''''2..
+    cs''''!2..
     \repeatTie
     \ottava #0                                                   %! SC
     
@@ -4280,25 +4280,25 @@ K_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    cs''''4.
+    cs''''!4.
     \<                                                           %! HC1
     \sf                                                          %! HC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
     % [K ViolinIIMusicVoice measure 321]                         %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 322]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    cs''''2..
+    cs''''!2..
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 323]                         %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
     \once \override TextSpanner.Y-extent = ##f                   %! PWC1
@@ -4334,7 +4334,7 @@ K_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    cs''''4.
+    cs''''!4.
     \repeatTie
     \>                                                           %! HC1
     \fff                                                         %! HC1
@@ -4342,7 +4342,7 @@ K_ViolinIIMusicVoice = {
     
     % [K ViolinIIMusicVoice measure 324]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    cs''''2
+    cs''''!2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -4381,7 +4381,7 @@ K_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    cs''''1
+    cs''''!1
     \stopTrillSpan                                               %! SC
     \<                                                           %! HC1
     \sffp                                                        %! HC1
@@ -4389,43 +4389,43 @@ K_ViolinIIMusicVoice = {
     \startTrillSpan                                              %! SC
     
     % [K ViolinIIMusicVoice measure 326]                         %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 327]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    cs''''2
+    cs''''!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 328]                         %! SM4
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 329]                         %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 330]                         %! SM4
-    cs''''2.
+    cs''''!2.
     \repeatTie
     
-    cs''''4.
+    cs''''!4.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 331]                         %! SM4
-    cs''''2
+    cs''''!2
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 332]                         %! SM4
-    cs''''1
+    cs''''!1
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     \ottava #0                                                   %! SC
@@ -4471,7 +4471,7 @@ K_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    aqs,2
+    aqs,!2
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -4512,21 +4512,21 @@ K_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [K ViolaMusicVoice measure 266]                            %! SM4
-    aqs,1
+    aqs,!1
     \repeatTie
     
     % [K ViolaMusicVoice measure 267]                            %! SM4
-    aqs,2.
+    aqs,!2.
     \repeatTie
     
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 268]                            %! SM4
-    aqs,2.
+    aqs,!2.
     \repeatTie
     
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 269]                            %! SM4
@@ -4562,21 +4562,21 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    aqs,4.
+    aqs,!4.
     \repeatTie
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 270]                            %! SM4
-    aqs,2
+    aqs,!2
     \repeatTie
     
     % [K ViolaMusicVoice measure 271]                            %! SM4
-    aqs,4.
+    aqs,!4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 272]                            %! SM4
-    aqs,2.
+    aqs,!2.
     \repeatTie
     
     % [K ViolaMusicVoice measure 273]                            %! SM4
@@ -4612,21 +4612,21 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    aqs,2..
+    aqs,!2..
     \repeatTie
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 274]                            %! SM4
-    aqs,2..
+    aqs,!2..
     \repeatTie
     
     % [K ViolaMusicVoice measure 275]                            %! SM4
-    aqs,2
+    aqs,!2
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 276]                            %! SM4
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 277]                            %! SM4
@@ -4662,23 +4662,23 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    aqs,2..
+    aqs,!2..
     \repeatTie
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 278]                            %! SM4
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 279]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    aqs,2.
+    aqs,!2.
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 280]                            %! SM4
-    aqs,2..
+    aqs,!2..
     \repeatTie
     
     % [K ViolaMusicVoice measure 281]                            %! SM4
@@ -4714,27 +4714,27 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    aqs,2.
+    aqs,!2.
     \repeatTie
     \startTextSpan                                               %! PWC1
     
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 282]                            %! SM4
-    aqs,2
+    aqs,!2
     \repeatTie
     
     % [K ViolaMusicVoice measure 283]                            %! SM4
-    aqs,1
+    aqs,!1
     \repeatTie
     
     % [K ViolaMusicVoice measure 284]                            %! SM4
-    aqs,2.
+    aqs,!2.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 285]                            %! SM4
@@ -4770,21 +4770,21 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
-    aqs,2..
+    aqs,!2..
     \repeatTie
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 286]                            %! SM4
-    aqs,2..
+    aqs,!2..
     \repeatTie
     
     % [K ViolaMusicVoice measure 287]                            %! SM4
-    aqs,4.
+    aqs,!4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 288]                            %! SM4
-    aqs,2.
+    aqs,!2.
     \repeatTie
     
     % [K ViolaMusicVoice measure 289]                            %! SM4
@@ -4821,31 +4821,31 @@ K_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    aqs,2.
+    aqs,!2.
     \repeatTie
     \<                                                           %! HC1
     \ff                                                          %! HC1
     \startTextSpan                                               %! PWC1
     
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 290]                            %! SM4
-    aqs,2.
+    aqs,!2.
     \repeatTie
     
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 291]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    aqs,2
+    aqs,!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 292]                            %! SM4
-    aqs,1
+    aqs,!1
     \repeatTie
     
     % [K ViolaMusicVoice measure 293]                            %! SM4
@@ -4988,20 +4988,20 @@ K_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    aqs,2
+    aqs,!2
     \<                                                           %! HC1
     \sffp                                                        %! HC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 300]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    aqs,2
+    aqs,!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 301]                            %! SM4
-    aqs,4.
+    aqs,!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 302]                            %! SM4
@@ -5038,7 +5038,7 @@ K_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    aqs,2.
+    aqs,!2.
     \repeatTie
     \>                                                           %! HC1
     \fff                                                         %! HC1
@@ -5046,7 +5046,7 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 303]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    aqs,2..
+    aqs,!2..
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -5130,7 +5130,7 @@ K_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gqf''2..
+    gqf''!2..
     \<                                                           %! HC1
     \sffp                                                        %! HC1
     ^ \markup {                                                  %! IC
@@ -5142,31 +5142,31 @@ K_ViolaMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [K ViolaMusicVoice measure 314]                            %! SM4
-    gqf''2
+    gqf''!2
     \repeatTie
     
     % [K ViolaMusicVoice measure 315]                            %! SM4
-    gqf''1
+    gqf''!1
     \repeatTie
     
     % [K ViolaMusicVoice measure 316]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gqf''2.
+    gqf''!2.
     \repeatTie
     \f                                                           %! HC1
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 317]                            %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 318]                            %! SM4
-    gqf''2..
+    gqf''!2..
     \repeatTie
     
     % [K ViolaMusicVoice measure 319]                            %! SM4
@@ -5208,25 +5208,25 @@ K_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gqf''4.
+    gqf''!4.
     \<                                                           %! HC1
     \sf                                                          %! HC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
     % [K ViolaMusicVoice measure 321]                            %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
     % [K ViolaMusicVoice measure 322]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gqf''2..
+    gqf''!2..
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 323]                            %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
     \once \override TextSpanner.Y-extent = ##f                   %! PWC1
@@ -5262,7 +5262,7 @@ K_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gqf''4.
+    gqf''!4.
     \repeatTie
     \>                                                           %! HC1
     \fff                                                         %! HC1
@@ -5270,7 +5270,7 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 324]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gqf''2
+    gqf''!2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
@@ -5309,7 +5309,7 @@ K_ViolaMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gqf''1
+    gqf''!1
     \stopTrillSpan                                               %! SC
     \<                                                           %! HC1
     \sffp                                                        %! HC1
@@ -5317,43 +5317,43 @@ K_ViolaMusicVoice = {
     \startTrillSpan                                              %! SC
     
     % [K ViolaMusicVoice measure 326]                            %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 327]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gqf''2
+    gqf''!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 328]                            %! SM4
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 329]                            %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 330]                            %! SM4
-    gqf''2.
+    gqf''!2.
     \repeatTie
     
-    gqf''4.
+    gqf''!4.
     \repeatTie
     
     % [K ViolaMusicVoice measure 331]                            %! SM4
-    gqf''2
+    gqf''!2
     \repeatTie
     
     % [K ViolaMusicVoice measure 332]                            %! SM4
-    gqf''1
+    gqf''!1
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     

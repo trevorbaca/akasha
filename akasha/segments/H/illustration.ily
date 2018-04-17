@@ -615,7 +615,7 @@ H_ViolinIMusicVoice = {
     
     % [H ViolinIMusicVoice measure 219]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    fs''2.
+    fs''!2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [H ViolinIMusicVoice measure 220]                          %! SM4
@@ -703,7 +703,7 @@ H_ViolinIIMusicVoice = {
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        cs'16 * 109/64
+        cs'!16 * 109/64
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
         ^ \markup {
@@ -744,14 +744,14 @@ H_ViolinIIMusicVoice = {
                 "Vn. II"                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
-        ds'16 * 61/32
+        ds'!16 * 61/32
         
-        cs'16 * 163/64
+        cs'!16 * 163/64
         
-        ds'16 * 31/8
+        ds'!16 * 31/8
         
         \revert Staff.Stem.stemlet-length
-        cs'16 * 191/32
+        cs'!16 * 191/32
         ]
     }
     \revert TupletNumber.text
@@ -797,24 +797,24 @@ H_ViolinIIMusicVoice = {
         % [H ViolinIIMusicVoice measure 218]                     %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        ds'16 * 477/64
+        ds'!16 * 477/64
         [
         
-        cs'16 * 353/64
+        cs'!16 * 353/64
         
-        ds'16 * 97/32
+        ds'!16 * 97/32
         
-        cs'16 * 17/8
+        cs'!16 * 17/8
         
         \revert Staff.Stem.stemlet-length
-        ds'16 * 15/8
+        ds'!16 * 15/8
         ]
     }
     \revert TupletNumber.text
     
     % [H ViolinIIMusicVoice measure 219]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af'2.
+    af'!2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [H ViolinIIMusicVoice measure 220]                         %! SM4
@@ -918,7 +918,7 @@ H_ViolaMusicVoice = {
         \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-        ds1..
+        ds!1..
         \glissando                                               %! SC
         \>                                                       %! HC1
         \mp                                                      %! HC1
@@ -929,7 +929,7 @@ H_ViolaMusicVoice = {
             }                                                    %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        cqs8..
+        cqs!8..
         \pp                                                      %! HC1
     }
     
@@ -1071,7 +1071,7 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 219]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    cs,2.
+    cs,!2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [H CelloMusicVoice measure 220]                            %! SM4
@@ -1080,7 +1080,7 @@ H_CelloMusicVoice = {
         
         % [H CelloMusicVoice measure 221]                        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        cs,1..
+        cs,!1..
         \glissando                                               %! SC
         \>                                                       %! HC1
         \mp                                                      %! HC1
@@ -1091,7 +1091,7 @@ H_CelloMusicVoice = {
             }                                                    %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bf,,8..
+        bf,,!8..
         \pp                                                      %! HC1
     }
     

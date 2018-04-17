@@ -1230,7 +1230,7 @@ N_ViolinIIMusicVoice = {
         
         r32
         
-        fs'''32
+        fs'''!32
         -\staccato                                               %! IC
         
         r16.
@@ -1247,7 +1247,7 @@ N_ViolinIIMusicVoice = {
         f'''32
         -\staccato                                               %! IC
         
-        fs'''32
+        fs'''!32
         -\staccato                                               %! IC
         ]
     }
