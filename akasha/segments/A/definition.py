@@ -50,7 +50,7 @@ maker(
     )
 
 maker(
-    ('vn2', 4),
+    ('v2', 4),
     akasha.sparse_getato_rhythm(
         division_mask=abjad.silence([0, 1], inverted=True),
         ),
@@ -69,7 +69,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], (6, 7)),
+    (['v1', 'v2', 'va'], (6, 7)),
     (akasha.polyphony_rhythm(lt_mask=~abjad.silence([0, 1, 2])), 0),
     (akasha.polyphony_rhythm(lt_mask=~abjad.silence([2, 3, 4])), 1),
     (akasha.polyphony_rhythm(lt_mask=~abjad.silence([1, 2, 3])), 2),
@@ -81,14 +81,14 @@ maker(
     )
 
 maker(
-    ('vn1', 9),
+    ('v1', 9),
     akasha.sparse_getato_rhythm(
         division_mask=abjad.silence([-2, -1], inverted=True),
         ),
     )
 
 maker(
-    ('vn2', 9),
+    ('v2', 9),
     akasha.polyphony_rhythm(
         lt_mask=abjad.silence([1, 2, 3], inverted=True),
         rotation=-2,
@@ -115,7 +115,7 @@ maker(
     )
 
 maker(
-    ('vn1', (11, 13)),
+    ('v1', (11, 13)),
     akasha.accelerando_rhythm(
         division_mask=abjad.silence([0]),
         lt_mask=abjad.silence([3, 5, 7, 9]),
@@ -125,7 +125,7 @@ maker(
     )
 
 maker(
-    ('vn2', (11, 13)),
+    ('v2', (11, 13)),
     akasha.ritardando_rhythm(
         division_mask=abjad.silence([0]),
         lt_mask=abjad.silence([2, 5, 7]),
@@ -150,14 +150,14 @@ maker(
     )
 
 maker(
-    ('vn1', 15),
+    ('v1', 15),
     akasha.accelerando_rhythm(
         lt_mask=abjad.silence([0, 2, 3, -1], inverted=True),
         ),
     )
 
 maker(
-    ('vn2', 15),
+    ('v2', 15),
     akasha.ritardando_rhythm(
         lt_mask=abjad.silence([0, 1, 4, -1], inverted=True),
         ),
@@ -179,33 +179,33 @@ maker(
     )
 
 maker(
-    ('vn1', 17),
+    ('v1', 17),
     akasha.ritardando_rhythm(
         lt_mask=abjad.silence([0, 2, -1], inverted=True),
         ),
     )
 
 maker(
-    ('vn1', (11, 19)),
+    ('v1', (11, 19)),
     baca.pitches('D5 E5'),
     )
 
 maker(
-    ('vn2', 17),
+    ('v2', 17),
     akasha.accelerando_rhythm(
         lt_mask=abjad.silence([0, 2, -1], inverted=True),
         ),
     )
 
 maker(
-    ('vn2', 19),
+    ('v2', 19),
     akasha.ritardando_rhythm(
         lt_mask=abjad.silence([0, 1, -1], inverted=True),
         ),
     )
 
 maker(
-    ('vn2', (11, 19)),
+    ('v2', (11, 19)),
     baca.pitches('Bb4 C5'),
     )
 
@@ -217,13 +217,13 @@ maker(
     )
 
 maker(
-    baca.timeline([('vn2', 4), ('va', 4), ('vn1', 9), ('vc', 19)]),
+    baca.timeline([('v2', 4), ('va', 4), ('v1', 9), ('vc', 19)]),
     akasha.getato_pitches(-2, [0]),
     baca.staccati(),
     )
 
 maker(
-    [('vn2', 4), ('va', 4), ('vn1', 9), ('vc', 19)],
+    [('v2', 4), ('va', 4), ('v1', 9), ('vc', 19)],
     baca.dynamic('p'),
     baca.markup.leggierissimo_off_string_bowing_on_staccati(),
     )

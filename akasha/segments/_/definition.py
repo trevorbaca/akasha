@@ -26,7 +26,7 @@ maker(
     )
 
 maker(
-    'vn1',
+    'v1',
     baca.suite([
         akasha.margin_markup('Vn. I'),
         baca.start_markup('Violin I', hcenter_in=14),
@@ -34,7 +34,7 @@ maker(
     )
 
 maker(
-    'vn2',
+    'v2',
     baca.suite([
         akasha.margin_markup('Vn. II'),
         baca.start_markup('Violin II', hcenter_in=14),

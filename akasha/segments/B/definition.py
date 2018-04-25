@@ -45,7 +45,7 @@ maker(
     )
 
 maker(
-    ('vn1', 1),
+    ('v1', 1),
     akasha.accelerando_rhythm(
         division_mask=abjad.silence([-2, -1]),
         fuse_counts=[1],
@@ -55,7 +55,7 @@ maker(
     )
 
 maker(
-    ('vn2', 1),
+    ('v2', 1),
     akasha.polyphony_rhythm(),
     baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
     baca.dynamic('mp'),
@@ -110,7 +110,7 @@ maker(
     )
 
 maker(
-    ('vn2', (8, 9)),
+    ('v2', (8, 9)),
     akasha.accelerando_rhythm(
         fuse_counts=(2, 1),
         lt_mask=abjad.silence([3]),

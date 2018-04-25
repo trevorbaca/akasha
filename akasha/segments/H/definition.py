@@ -44,12 +44,12 @@ maker(
     )
 
 maker(
-    ('vn1', 1),
+    ('v1', 1),
     akasha.accelerando_rhythm(),
     )
 
 maker(
-    ('vn2', 1),
+    ('v2', 1),
     akasha.ritardando_rhythm(),
     )
 
@@ -66,7 +66,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'vc'], 2),
+    (['v1', 'v2', 'vc'], 2),
     baca.make_repeat_tied_notes(),
     )
 
@@ -76,18 +76,18 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'vc'], 1),
+    (['v1', 'v2', 'vc'], 1),
     baca.dynamic('p'),
     baca.markup.XFB(),
     )
 
 maker(
-    ('vn1', 1),
+    ('v1', 1),
     baca.pitches('D4 E4'),
     )
 
 maker(
-    ('vn2', 1),
+    ('v2', 1),
     baca.pitches('C#4 D#4'),
     )
 
@@ -102,13 +102,13 @@ maker(
     )
 
 maker(
-    ('vn1', 2),
+    ('v1', 2),
     baca.dynamic('ppp'),
     baca.pitch('F#5'),
     )
 
 maker(
-    ('vn2', 2),
+    ('v2', 2),
     baca.dynamic('ppp'),
     baca.pitch('Ab4'),
     )

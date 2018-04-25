@@ -45,13 +45,13 @@ maker(
     )
 
 maker(
-    ['vn1', 'vc'],
+    ['v1', 'vc'],
     (baca.bar_extent_persistent((-2, 0)), 0),
     (baca.bar_extent_persistent((0, -2)), 1),
     )
 
 maker(
-    (['vn1', 'va', 'vc'], (1, 2)),
+    (['v1', 'va', 'vc'], (1, 2)),
     baca.make_notes(
         division_mask=abjad.silence([1], 2),
         repeat_ties=True,
@@ -59,14 +59,14 @@ maker(
     )
 
 maker(
-    ('vn2', (2, 3)),
+    ('v2', (2, 3)),
     akasha.sparse_getato_rhythm(
         division_mask=~abjad.silence([3, 36, 37]),
         ),
     )
 
 maker(
-    (['vn1', 'va', 'vc'], (1, 3)),
+    (['v1', 'va', 'vc'], (1, 3)),
     baca.alternate_bow_strokes(),
     baca.clef('percussion'),
     baca.effort_dynamic('mf'),
@@ -78,7 +78,7 @@ maker(
     )
 
 maker(
-    ('vn2', (2, 3)),
+    ('v2', (2, 3)),
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.ancora_dynamic('pp'),
     baca.markup.leggieriss(),

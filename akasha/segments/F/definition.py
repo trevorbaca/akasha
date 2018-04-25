@@ -85,7 +85,7 @@ maker(
     )
 
 maker(
-    ('vn1', 2),
+    ('v1', 2),
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
@@ -93,7 +93,7 @@ maker(
     )
 
 maker(
-    ('vn2', 2),
+    ('v2', 2),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
@@ -114,14 +114,14 @@ maker(
     )
 
 maker(
-    ('vn1', 6),
+    ('v1', 6),
     akasha.accelerando_rhythm(
         lt_mask=abjad.silence([1, 6]),
         ),
     )
 
 maker(
-    ('vn2', 6),
+    ('v2', 6),
     akasha.ritardando_rhythm(
         lt_mask=abjad.silence([2, 5]),
         ),
@@ -130,71 +130,71 @@ maker(
 division_ratio = (2, 1, 2, 2, 1, 2)
 
 maker(
-    ('vn1', 8),
+    ('v1', 8),
     akasha.growth(0, 1, division_ratio, extra_counts=[1]),
     )
 
 maker(
-    ('vn1', 8),
+    ('v1', 8),
     akasha.growth(1, 1, division_ratio, accelerando=True, extra_counts=[1]),
     )
 
 maker(
-    ('vn1', 8),
+    ('v1', 8),
     akasha.growth(2, 1, division_ratio, extra_counts=[1])
     )
 
 maker(
-    ('vn1', 8),
+    ('v1', 8),
     akasha.growth(3, 1, division_ratio, accelerando=True, extra_counts=[1]),
     )
 
 maker(
-    ('vn1', 8),
+    ('v1', 8),
     akasha.growth(4, 1, division_ratio, extra_counts=[1]),
     )
 
 maker(
-    ('vn1', 8),
+    ('v1', 8),
     akasha.growth(5, 1, division_ratio, accelerando=True, extra_counts=[1]),
     )
 
 division_ratio = (1, 1, 2, 2, 1, 2)
 
 maker(
-    ('vn2', 8),
+    ('v2', 8),
     akasha.growth(0, 2, division_ratio),
     )
 
 maker(
-    ('vn2', 8),
+    ('v2', 8),
     akasha.growth(1, 2, division_ratio, accelerando=True),
     )
 
 maker(
-    ('vn2', 8),
+    ('v2', 8),
     akasha.growth(2, 2, division_ratio),
     )
 
 maker(
-    ('vn2', 8),
+    ('v2', 8),
     akasha.growth(3, 2, division_ratio, accelerando=True),
     )
 
 maker(
-    ('vn2', 8),
+    ('v2', 8),
     akasha.growth(4, 2, division_ratio),
     )
 
 maker(
-    ('vn2', 8),
+    ('v2', 8),
     akasha.growth(5, 2, division_ratio, accelerando=True),
     )
 
 maker(
     [
-        ('vn1', [9, (10, 11)]),
-        ('vn2', [9, (10, 11)]),
+        ('v1', [9, (10, 11)]),
+        ('v2', [9, (10, 11)]),
         ],
     baca.make_repeat_tied_notes(),
     )
@@ -220,7 +220,7 @@ maker(
     )
 
 maker(
-    ('vn1', 13),
+    ('v1', 13),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -228,7 +228,7 @@ maker(
     )
 
 maker(
-    ('vn2', 13),
+    ('v2', 13),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
@@ -257,7 +257,7 @@ maker(
     )
 
 maker(
-    ('vn1', 17),
+    ('v1', 17),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -265,7 +265,7 @@ maker(
     )
 
 maker(
-    ('vn2', 17),
+    ('v2', 17),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 1, 2],
         [4, 6, 3, 6],
@@ -300,13 +300,13 @@ maker(
     )
 
 maker(
-    ('vn1', 2),
+    ('v1', 2),
     akasha.getato_pitches(27, [2]),
     baca.staccati(),
     )
 
 maker(
-    ('vn2', 2),
+    ('v2', 2),
     akasha.getato_pitches(24, [2]),
     baca.staccati(),
     )
@@ -328,7 +328,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2'], 6),
+    (['v1', 'v2'], 6),
     baca.ancora_dynamic('pp'),
     baca.markup.tasto_XFB(),
     (baca.pitches('Eb5 F5'), 0),
@@ -336,7 +336,7 @@ maker(
     )
 
 maker(
-    ('vn1', 8),
+    ('v1', 8),
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.map(
         [baca.hairpin('pp < p'), baca.hairpin('p > pp')],
@@ -345,7 +345,7 @@ maker(
     )
 
 maker(
-    ('vn2', 8),
+    ('v2', 8),
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.map(
         [baca.hairpin('pp < p'), baca.hairpin('p > pp')],
@@ -369,21 +369,21 @@ maker(
     )
 
 maker(
-    ('vn1', 9),
+    ('v1', 9),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
     baca.pitch('E5'),
     )
 
 maker(
-    ('vn2', 9),
+    ('v2', 9),
     baca.dynamic('mp'),
     baca.markup.tasto_fractional_scratch(1, 2),
     baca.pitch('F#4'),
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], (10, 11)),
+    (['v1', 'v2', 'va', 'vc'], (10, 11)),
     baca.hairpin('mp < f'),
     baca.transition(
         baca.markup.trans(),
@@ -392,12 +392,12 @@ maker(
     )
 
 maker(
-    ('vn1', (10, 11)),
+    ('v1', (10, 11)),
     baca.pitch('F5'),
     )
 
 maker(
-    ('vn2', (10, 11)),
+    ('v2', (10, 11)),
     baca.pitch('F#4'),
     )
 
@@ -412,7 +412,7 @@ maker(
     )
 
 maker(
-    ('vn1', 13),
+    ('v1', 13),
     akasha.getato_pitches(29, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
@@ -420,7 +420,7 @@ maker(
     )
 
 maker(
-    ('vn2', 13),
+    ('v2', 13),
     akasha.getato_pitches(26, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
@@ -462,7 +462,7 @@ maker(
     )
 
 maker(
-    ('vn1', 17),
+    ('v1', 17),
     akasha.getato_pitches(29, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
@@ -470,7 +470,7 @@ maker(
     )
 
 maker(
-    ('vn2', 17),
+    ('v2', 17),
     akasha.getato_pitches(26, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),

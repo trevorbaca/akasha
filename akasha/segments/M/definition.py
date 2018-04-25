@@ -59,7 +59,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], (2, 10)),
+    (['v1', 'v2', 'va'], (2, 10)),
     baca.make_repeat_tied_notes(),
     )
 
@@ -84,13 +84,13 @@ maker(
     )
 
 maker(
-    ('vn1', (2, 10)),
+    ('v1', (2, 10)),
     baca.pitch('Bb4'),
     baca.repeat_ties_up(),
     )
 
 maker(
-    ('vn2', (2, 10)),
+    ('v2', (2, 10)),
     baca.pitch('Bb3'),
     )
 
@@ -100,7 +100,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], 2),
+    (['v1', 'v2', 'va'], 2),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
     )
@@ -112,7 +112,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], 4),
+    (['v1', 'v2', 'va'], 4),
     baca.transition(
         baca.markup.trans(),
         baca.markup.pos_ord_XFB(),
@@ -121,7 +121,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], 5),
+    (['v1', 'v2', 'va'], 5),
     baca.transition(
         baca.markup.trans(),
         baca.markup.pont_XFB(),
@@ -130,7 +130,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], 6),
+    (['v1', 'v2', 'va'], 6),
     baca.transition(
         baca.markup.trans(),
         baca.markup.XP_XFB(),
@@ -139,7 +139,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], 7),
+    (['v1', 'v2', 'va'], 7),
     baca.transition(
         baca.markup.trans(),
         baca.markup.XP(),
@@ -153,7 +153,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], 8),
+    (['v1', 'v2', 'va'], 8),
     baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 3),
@@ -162,7 +162,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], 9),
+    (['v1', 'v2', 'va'], 9),
     baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(2, 3),
@@ -171,7 +171,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], 10),
+    (['v1', 'v2', 'va'], 10),
     baca.transition(
         baca.markup.trans(),
         baca.markup.OB_no_pitch(),
