@@ -65,9 +65,9 @@ maker(
 
 maker(
     [
-        (['vn1', 'vn2', 'va', 'vc'], [(1, 7), 9, 10, 12, 19, (20, 21)]),
-        ('vn1', [(14, 16), 17]),
-        ('vn2', [(14, 15), (16, 17)]),
+        (['v1', 'v2', 'va', 'vc'], [(1, 7), 9, 10, 12, 19, (20, 21)]),
+        ('v1', [(14, 16), 17]),
+        ('v2', [(14, 15), (16, 17)]),
         ('va', [14, (15, 17)]),
         ('vc', (14, 17)),
         ],
@@ -75,7 +75,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], (1, 7)),
+    (['v1', 'v2', 'va', 'vc'], (1, 7)),
     (baca.pitch('A5'), 0),
     (baca.pitch('G#+4'), 1),
     (baca.pitch('A+2'), 2),
@@ -85,7 +85,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 2),
+    (['v1', 'v2', 'va', 'vc'], 2),
     baca.transition(
         baca.markup.trans(),
         baca.markup.one_click_every(1, 2),
@@ -94,7 +94,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 3),
+    (['v1', 'v2', 'va', 'vc'], 3),
     baca.transition(
         baca.markup.trans(),
         baca.markup.clicks_per_second(1, 2),
@@ -103,7 +103,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 4),
+    (['v1', 'v2', 'va', 'vc'], 4),
     baca.dynamic('ff', baca.note(2)),
     baca.transition(
         baca.markup.trans(),
@@ -113,7 +113,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 5),
+    (['v1', 'v2', 'va', 'vc'], 5),
     baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_scratch(1, 2),
@@ -122,7 +122,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 6),
+    (['v1', 'v2', 'va', 'vc'], 6),
     baca.transition(
         baca.markup.trans(),
         baca.markup.pos_ord(),
@@ -131,7 +131,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 7),
+    (['v1', 'v2', 'va', 'vc'], 7),
     baca.transition(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
@@ -147,7 +147,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], (9, 10)),
+    (['v1', 'v2', 'va', 'vc'], (9, 10)),
     (baca.pitch('A5'), 0),
     (baca.pitches('A4 G#+4'), 1),
     (baca.pitches('A2 A+2'), 2),
@@ -155,7 +155,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 9),
+    (['v1', 'v2', 'va', 'vc'], 9),
     baca.hairpin('sffp < fff', baca.leaves()[:3]),
     baca.hairpin('fff > p', baca.leaves()[-2:]),
     baca.transition(
@@ -171,7 +171,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 10),
+    (['v1', 'v2', 'va', 'vc'], 10),
     baca.hairpin('sffp < fff', baca.leaves()[:2]),
     baca.hairpin('fff > p', baca.leaves()[-2:]),
     baca.transition(
@@ -187,23 +187,23 @@ maker(
     )
 
 maker(
-    ('vn1', (12, 16)),
+    ('v1', (12, 16)),
     baca.pitch('A5'),
     )
 
 maker(
-    ('vn1', (17, 21)),
+    ('v1', (17, 21)),
     baca.natural_harmonics(),
     baca.pitch('B7'),
     )
 
 maker(
-    ('vn2', (12, 15)),
+    ('v2', (12, 15)),
     baca.pitch('A4'),
     )
 
 maker(
-    ('vn2', (16, 21)),
+    ('v2', (16, 21)),
     baca.natural_harmonics(),
     baca.pitch('C#7'),
     )
@@ -231,7 +231,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 12),
+    (['v1', 'v2', 'va', 'vc'], 12),
     baca.hairpin('sffp > pp', baca.leaves()[:-1]),
     baca.transition(
         baca.markup.pos_ord(),
@@ -241,7 +241,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], (1, 13)),
+    (['v1', 'v2', 'va', 'vc'], (1, 13)),
     baca.text_spanner_staff_padding(4),
     )
 
@@ -270,28 +270,28 @@ maker(
     )
 
 maker(
-    ('vn2', (16, 17)),
+    ('v2', (16, 17)),
     baca.ottava(),
     )
 
 maker(
-    ('vn2', (16, 17)),
+    ('v2', (16, 17)),
     baca.markup('pos. ord. + 5°/A4(II)'),
     baca.trill_spanner(),
     )
 
 maker(
-    ('vn2', (16, 17)),
+    ('v2', (16, 17)),
     baca.hairpin('sffp < f', baca.leaves()[:4]),
     )
 
 maker(
-    ('vn1', 17),
+    ('v1', 17),
     baca.ottava(),
     )
 
 maker(
-    ('vn1', 17),
+    ('v1', 17),
     baca.markup('pos. ord. + 9°/A4(II)'),
     baca.trill_spanner(),
     baca.hairpin('sffp < f'),
@@ -305,14 +305,14 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2'], (19, 22)),
+    (['v1', 'v2'], (19, 22)),
     (baca.ottava_bracket_staff_padding(12), 0),
     (baca.ottava_bracket_staff_padding(10), 1),
     baca.ottava(),
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], 19),
+    (['v1', 'v2', 'va', 'vc'], 19),
     baca.hairpin('sf < fff', baca.leaves()[:3]),
     baca.hairpin('fff > f', baca.leaves()[-2:]),
     baca.transition(
@@ -329,7 +329,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], (20, 21)),
+    (['v1', 'v2', 'va', 'vc'], (20, 21)),
     baca.hairpin('sffp < fff', baca.leaves()[:4]),
     baca.transition(
         baca.markup.pos_ord(),
@@ -340,7 +340,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va', 'vc'], (19, -1)),
+    (['v1', 'v2', 'va', 'vc'], (19, -1)),
     (baca.text_spanner_staff_padding(9.5), 0),
     (baca.text_spanner_staff_padding(7.5), 1),
     (baca.text_spanner_staff_padding(7), 2),

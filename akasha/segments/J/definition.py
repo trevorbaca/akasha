@@ -28,7 +28,7 @@ maker(
     )
 
 maker(
-    ('vn2', 1),
+    ('v2', 1),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([-1]),
@@ -42,7 +42,7 @@ maker(
     )
 
 maker(
-    ('vn1', 2),
+    ('v1', 2),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([0]),
@@ -51,7 +51,7 @@ maker(
     )
 
 maker(
-    ('vn2', 2),
+    ('v2', 2),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([2]),
@@ -60,7 +60,7 @@ maker(
     )
 
 maker(
-    ('vn1', 3),
+    ('v1', 3),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([0]),
@@ -69,7 +69,7 @@ maker(
     )
 
 maker(
-    ('vn2', 3),
+    ('v2', 3),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([-1]),
@@ -87,7 +87,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'vc'], (1, 3)),
+    (['v1', 'v2', 'vc'], (1, 3)),
     (akasha.getato_pitches(5, [2]), 0),
     (akasha.getato_pitches(-3, [2]), 1),
     (akasha.getato_pitches(-13, [2]), 2),

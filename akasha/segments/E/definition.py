@@ -67,7 +67,7 @@ maker(
     )
 
 maker(
-    ('vn2', 3),
+    ('v2', 3),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([-1]),
@@ -90,7 +90,7 @@ maker(
     )
 
 maker(
-    ('vn1', 5),
+    ('v1', 5),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([0]),
@@ -99,7 +99,7 @@ maker(
     )
 
 maker(
-    ('vn2', 5),
+    ('v2', 5),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([2]),
@@ -113,7 +113,7 @@ maker(
     )
 
 maker(
-    ('vn1', 7),
+    ('v1', 7),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([0]),
@@ -122,7 +122,7 @@ maker(
     )
 
 maker(
-    ('vn2', 7),
+    ('v2', 7),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([-1]),
@@ -150,7 +150,7 @@ maker(
     )
 
 maker(
-    ('vn1', 9),
+    ('v1', 9),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([1, -3]),
@@ -159,7 +159,7 @@ maker(
     )
 
 maker(
-    ('vn2', 9),
+    ('v2', 9),
     akasha.scratch_rhythm(
         [4],
         ~abjad.silence([2, -1]),
@@ -177,7 +177,7 @@ maker(
     )
 
 maker(
-    ('vn1', (10, 14)),
+    ('v1', (10, 14)),
     akasha.scratch_rhythm(
         [8],
         ~abjad.silence([0, 3], 8),
@@ -186,7 +186,7 @@ maker(
     )
 
 maker(
-    ('vn1', (15, 17)),
+    ('v1', (15, 17)),
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
@@ -197,7 +197,7 @@ maker(
     )
 
 maker(
-    ('vn2', (10, 13)),
+    ('v2', (10, 13)),
     akasha.scratch_rhythm(
         [8],
         ~abjad.silence([1, 4], 9),
@@ -206,7 +206,7 @@ maker(
     )
 
 maker(
-    ('vn2', (14, 16)),
+    ('v2', (14, 16)),
     akasha.dense_getato_rhythm(
         [1],
         [2, 1, 3, 0],
@@ -215,7 +215,7 @@ maker(
     )
 
 maker(
-    ('vn2', 17),
+    ('v2', 17),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
@@ -259,68 +259,68 @@ maker(
     )
 
 maker(
-    ('vn1', (1, 18)),
+    ('v1', (1, 18)),
     akasha.getato_pitches(5, [2]),
     )
 
 maker(
-    ('vn1', (1, 11)),
+    ('v1', (1, 11)),
     baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     )
 
 maker(
-    ('vn1', (12, 14)),
+    ('v1', (12, 14)),
     baca.dynamic('f'),
     baca.markup.po_meno_scratch(),
     )
 
 maker(
-    ('vn1', (15, 18)),
+    ('v1', (15, 18)),
     baca.staccati(),
     )
 
 maker(
-    ('vn1', (15, 16)),
+    ('v1', (15, 16)),
     baca.hairpin('mf > pp'),
     baca.markup.leggieriss(),
     baca.markup.senza_scratch(),
     )
 
 maker(
-    ('vn2', (1, 18)),
+    ('v2', (1, 18)),
     akasha.getato_pitches(-3, [2]),
     )
 
 maker(
-    ('vn2', (1, 9)),
+    ('v2', (1, 9)),
     baca.dynamic('ff'),
     baca.markup.scratch_moltiss(),
     baca.markup.terminate_each_note_abruptly(),
     )
 
 maker(
-    ('vn2', (10, 12)),
+    ('v2', (10, 12)),
     baca.dynamic('f'),
     baca.markup.po_meno_scratch(),
     )
 
 maker(
-    ('vn2', 13),
+    ('v2', 13),
     baca.dynamic('mf'),
     baca.staccati(),
     baca.markup.senza_scratch(),
     )
 
 maker(
-    ('vn2', (14, 18)),
+    ('v2', (14, 18)),
     baca.markup.leggieriss(),
     baca.staccati(),
     )
 
 maker(
-    ('vn2', (15, 16)),
+    ('v2', (15, 16)),
     baca.hairpin('mf > pp'),
     )
 

@@ -82,7 +82,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2'], (9, 10)),
+    (['v1', 'v2'], (9, 10)),
     baca.make_repeat_tied_notes(),
     )
 
@@ -107,8 +107,8 @@ maker(
 
 maker(
     [
-        ('vn1', [(13, 14), 16, 18, 20, (22, 23)]),
-        ('vn2', [(13, 14), 16, 18, 20]),
+        ('v1', [(13, 14), 16, 18, 20, (22, 23)]),
+        ('v2', [(13, 14), 16, 18, 20]),
         ],
     baca.make_repeat_tied_notes(),
     )
@@ -129,7 +129,7 @@ maker(
     )
 
 maker(
-    ('vn2', (22, 23)),
+    ('v2', (22, 23)),
     baca.make_repeat_tied_notes(
         division_mask=abjad.silence([0]),
         ),
@@ -163,8 +163,8 @@ maker(
 
 maker(
     [
-        ('vn1', (9, 24)),
-        ('vn2', (9, 21)),
+        ('v1', (9, 24)),
+        ('v2', (9, 21)),
         ],
     (baca.bar_extent((-2, 2)), 0),
     (baca.bar_extent_zero(selector=baca.leaves()), 0),
@@ -216,7 +216,7 @@ maker(
     )
 
 maker(
-    ('vn2', (22, 23)),
+    ('v2', (22, 23)),
     baca.dynamic('pp'),
     baca.markup.tasto(),
     baca.pitch('G5'),

@@ -67,7 +67,7 @@ maker(
 
 maker(
     [
-        (['vn1', 'va', 'vc'], [1, 3]),
+        (['v1', 'va', 'vc'], [1, 3]),
         (['va', 'vc'], 5),
         ('va', 7),
         ('vc', (9, 10)),
@@ -77,13 +77,13 @@ maker(
 
 maker(
     [
-        ('vn1', 5),
-        ('vn2', [3, 5]),
-        (['vn1', 'vn2', 'vc'], 7),
-        (['vn1', 'vn2'], (9, 10)),
+        ('v1', 5),
+        ('v2', [3, 5]),
+        (['v1', 'v2', 'vc'], 7),
+        (['v1', 'v2'], (9, 10)),
         ('va', 9),
-        (['vn1', 'va', 'vc'], 12),
-        (['vn1', 'va', 'vc'], 14),
+        (['v1', 'va', 'vc'], 12),
+        (['v1', 'va', 'vc'], 14),
         ('vc', 15),
         ],
     akasha.untied_notes(),
@@ -95,7 +95,7 @@ maker(
     )
 
 maker(
-    ('vn2', [12, 14]),
+    ('v2', [12, 14]),
     akasha.fill_first_half(),
     )
 
@@ -105,13 +105,13 @@ maker(
     )
 
 maker(
-    ('vn1', [1, 3]),
+    ('v1', [1, 3]),
     baca.ottava(),
     (baca.staff_lines(5), 0),
     )
 
 maker(
-    ('vn1', (1, 3)),
+    ('v1', (1, 3)),
     baca.dynamic('mp'),
     baca.markup('5°/A4(II) + vib. mod.'),
     baca.natural_harmonics(),
@@ -133,32 +133,32 @@ maker(
     )
 
 maker(
-    ('vn1', 5),
+    ('v1', 5),
     akasha.harmonic_glissando_pitches('A4'),
     )
 
 maker(
-    ('vn1', 7),
+    ('v1', 7),
     akasha.harmonic_glissando_pitches('A4', rotation=-6),
     )
 
 maker(
-    ('vn1', (9, 10)),
+    ('v1', (9, 10)),
     akasha.harmonic_glissando_pitches('A4', rotation=-12),
     )
 
 maker(
-    ('vn1', 12),
+    ('v1', 12),
     akasha.harmonic_glissando_pitches('A4', rotation=-18),
     )
 
 maker(
-    ('vn1', 14),
+    ('v1', 14),
     akasha.harmonic_glissando_pitches('A4', rotation=-24),
     )
 
 maker(
-    ('vn1', (5, 14)),
+    ('v1', (5, 14)),
     baca.dynamic('ppp'),
     baca.map(baca.glissando(), baca.runs()),
     baca.markup('XP + senza vib. + full bow strokes'),
@@ -166,27 +166,27 @@ maker(
     )
 
 maker(
-    ('vn2', 3),
+    ('v2', 3),
     akasha.harmonic_glissando_pitches('A4'),
     )
 
 maker(
-    ('vn2', 5),
+    ('v2', 5),
     akasha.harmonic_glissando_pitches('A4', rotation=-6),
     )
 
 maker(
-    ('vn2', 7),
+    ('v2', 7),
     akasha.harmonic_glissando_pitches('A4', rotation=-12),
     )
 
 maker(
-    ('vn2', (9, 10)),
+    ('v2', (9, 10)),
     akasha.harmonic_glissando_pitches('A4', rotation=-18),
     )
 
 maker(
-    ('vn2', (3, 10)),
+    ('v2', (3, 10)),
     baca.dynamic('ppp'),
     baca.map(baca.glissando(), baca.runs()),
     baca.markup.XP_full_bow_strokes(),
@@ -194,7 +194,7 @@ maker(
     )
 
 maker(
-    ('vn2', (12, 14)),
+    ('v2', (12, 14)),
     baca.dynamic('p'),
     baca.map(baca.trill_spanner('M2'), baca.qruns()),
     baca.markup.tasto(),
@@ -284,12 +284,12 @@ maker(
     
 maker(
     [
-        ('vn2', 3),
-        (['vn1', 'vn2'], 5),
-        (['vn1', 'vn2', 'vc'], 7),
-        (['vn1', 'vn2'], (9, 10)),
-        (['vn1', 'va', 'vc'], 12),
-        (['vn1', 'va'], 14),
+        ('v2', 3),
+        (['v1', 'v2'], 5),
+        (['v1', 'v2', 'vc'], 7),
+        (['v1', 'v2'], (9, 10)),
+        (['v1', 'va', 'vc'], 12),
+        (['v1', 'va'], 14),
         ],
     baca.alternate_bow_strokes(),
     )
