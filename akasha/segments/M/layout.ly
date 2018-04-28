@@ -3,6 +3,10 @@
 
 
 \context Score = "Score"
+\with
+{
+    currentBarNumber = #340
+}
 <<
     \context GlobalContext = "GlobalContext"
     <<
