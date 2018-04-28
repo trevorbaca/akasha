@@ -2468,9 +2468,9 @@ F_ViolinIMusicVoice = {
         % [F ViolinIMusicVoice measure 159]                      %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         ef''!16 * 227/32
-        \pp_ancora                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp_ancora                                               %! SM8:REDUNDANT_DYNAMIC:IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -3997,9 +3997,9 @@ F_ViolinIIMusicVoice = {
         % [F ViolinIIMusicVoice measure 159]                     %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         b'16 * 13/8
-        \pp_ancora                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp_ancora                                               %! SM8:REDUNDANT_DYNAMIC:IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC

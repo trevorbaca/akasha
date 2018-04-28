@@ -2912,10 +2912,10 @@ D_ViolaMusicVoice = {
     
     % [D ViolaMusicVoice measure 99]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     af!2.
     -\downbow                                                    %! IC
-    \ppp_ancora                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+    \ppp_ancora                                                  %! SM8:REDUNDANT_DYNAMIC:IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -3248,10 +3248,10 @@ D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 99]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e,2.
     -\downbow                                                    %! IC
-    \ppp_ancora                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+    \ppp_ancora                                                  %! SM8:REDUNDANT_DYNAMIC:IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
