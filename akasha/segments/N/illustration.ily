@@ -1171,10 +1171,10 @@ N_ViolinIIMusicVoice = {
         
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         f'''32
         -\staccato                                               %! IC
-        \pp_ancora                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp_ancora                                               %! SM8:REDUNDANT_DYNAMIC:IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
