@@ -356,7 +356,7 @@ maker(
     baca.dynamic('ppp'),
     baca.markup.leggieriss(),
     baca.markup.pos_ord(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(

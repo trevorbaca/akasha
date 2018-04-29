@@ -170,7 +170,7 @@ maker(
     (baca.bar_extent_zero(selector=baca.leaves()), 0),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -192,7 +192,7 @@ maker(
     akasha.getato_pitches('C#3', direction=abjad.Down),
     baca.dynamic('p'),
     baca.markup.leggieriss(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(

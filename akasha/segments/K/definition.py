@@ -193,7 +193,7 @@ maker(
 
 maker(
     ('v1', (17, 21)),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('B7'),
     )
 
@@ -204,7 +204,7 @@ maker(
 
 maker(
     ('v2', (16, 21)),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('C#7'),
     )
 
@@ -215,7 +215,7 @@ maker(
 
 maker(
     ('va', (15, 21)),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('G~5'),
     )
 
@@ -226,7 +226,7 @@ maker(
 
 maker(
     ('vc', (14, 21)),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('D5'),
     )
 

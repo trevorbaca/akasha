@@ -72,7 +72,7 @@ maker(
     baca.effort_dynamic('mf'),
     baca.markup.full_bow_strokes(),
     baca.markup.terminate_each_note_abruptly(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -82,5 +82,5 @@ maker(
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.ancora_dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccati(),
+    baca.staccato(),
     )
