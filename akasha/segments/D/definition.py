@@ -114,7 +114,7 @@ maker(
     ('v1', (1, 3)),
     baca.dynamic('mp'),
     baca.markup('5°/A4(II) + vib. mod.'),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('C#7'),
     )
 
@@ -162,7 +162,7 @@ maker(
     baca.dynamic('ppp'),
     baca.map(baca.glissando(), baca.runs()),
     baca.markup('XP + senza vib. + full bow strokes'),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(
@@ -190,7 +190,7 @@ maker(
     baca.dynamic('ppp'),
     baca.map(baca.glissando(), baca.runs()),
     baca.markup.XP_full_bow_strokes(),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(
@@ -203,7 +203,7 @@ maker(
 
 maker(
     ('va', (1, 7)),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('G~5'),
     )
 
@@ -231,12 +231,12 @@ maker(
     baca.ancora_dynamic('ppp'),
     baca.map(baca.glissando(), baca.runs()),
     baca.markup.XP_full_bow_strokes(),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(
     ('vc', (1, 5)),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitch('D5'),
     )
 
@@ -251,7 +251,7 @@ maker(
     baca.dynamic('ppp'),
     baca.glissando(),
     baca.markup('XP + senza vib. + full bow strokes'),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(
@@ -271,7 +271,7 @@ maker(
     baca.ancora_dynamic('ppp'),
     baca.glissando(),
     baca.markup.XP_full_bow_strokes(),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(

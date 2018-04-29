@@ -219,7 +219,7 @@ maker(
 maker(
     baca.timeline([('v2', 4), ('va', 4), ('v1', 9), ('vc', 19)]),
     akasha.getato_pitches(-2, [0]),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(

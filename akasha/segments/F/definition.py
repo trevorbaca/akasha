@@ -302,13 +302,13 @@ maker(
 maker(
     ('v1', 2),
     akasha.getato_pitches(27, [2]),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
     ('v2', 2),
     akasha.getato_pitches(24, [2]),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -316,7 +316,7 @@ maker(
     akasha.getato_pitches(21, [2]),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -416,7 +416,7 @@ maker(
     akasha.getato_pitches(29, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -424,7 +424,7 @@ maker(
     akasha.getato_pitches(26, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -433,7 +433,7 @@ maker(
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -442,12 +442,12 @@ maker(
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
     ('va', 15),
-    baca.down_bows(),
+    baca.down_bow(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),
     baca.staff_lines(1),
@@ -466,7 +466,7 @@ maker(
     akasha.getato_pitches(29, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -474,7 +474,7 @@ maker(
     akasha.getato_pitches(26, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -483,7 +483,7 @@ maker(
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
     baca.staff_lines(5),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -491,12 +491,12 @@ maker(
     akasha.getato_pitches(20, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
     ('va', 19),
-    baca.down_bows(),
+    baca.down_bow(),
     baca.effort_dynamic('mf'),
     baca.markup.OB_terminate_abruptly(),
     baca.staff_lines(1),

@@ -278,7 +278,7 @@ maker(
 
 maker(
     ('v1', (15, 18)),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -309,14 +309,14 @@ maker(
 maker(
     ('v2', 13),
     baca.dynamic('mf'),
-    baca.staccati(),
+    baca.staccato(),
     baca.markup.senza_scratch(),
     )
 
 maker(
     ('v2', (14, 18)),
     baca.markup.leggieriss(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -329,7 +329,7 @@ maker(
     baca.alternate_bow_strokes(),
     baca.effort_dynamic('mf'),
     baca.markup.OB(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -356,19 +356,19 @@ maker(
     ('vc', 12),
     baca.dynamic('mf'),
     baca.markup.senza_scratch(),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
     ('vc', (13, 18)),
-    baca.staccati(),
+    baca.staccato(),
     baca.markup.leggieriss(),
     )
 
 maker(
     ('vc', (15, 16)),
     baca.hairpin('mf > pp'),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(

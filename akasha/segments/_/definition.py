@@ -59,7 +59,7 @@ maker(
 
 maker(
     ('va', (1, 2)),
-    baca.down_bows(),
+    baca.down_bow(),
     baca.effort_dynamic('mf'),
     baca.make_repeat_tied_notes(),
     baca.markup.OB_terminate_abruptly(),
