@@ -278,7 +278,7 @@ maker(
 
 maker(
     ('v1', (15, 18)),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -309,14 +309,14 @@ maker(
 maker(
     ('v2', 13),
     baca.dynamic('mf'),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     baca.markup.senza_scratch(),
     )
 
 maker(
     ('v2', (14, 18)),
     baca.markup.leggieriss(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -356,19 +356,19 @@ maker(
     ('vc', 12),
     baca.dynamic('mf'),
     baca.markup.senza_scratch(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
     ('vc', (13, 18)),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     baca.markup.leggieriss(),
     )
 
 maker(
     ('vc', (15, 16)),
     baca.hairpin('mf > pp'),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(

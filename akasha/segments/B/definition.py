@@ -105,7 +105,7 @@ maker(
     ('vc', (1, 6)),
     akasha.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.beam_positions(-4),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     baca.tuplet_bracket_staff_padding(2),
     )
 

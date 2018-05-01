@@ -192,7 +192,7 @@ maker(
     akasha.getato_pitches('C#3', direction=abjad.Down),
     baca.dynamic('p'),
     baca.markup.leggieriss(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
