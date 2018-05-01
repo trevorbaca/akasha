@@ -448,7 +448,7 @@ maker(
 maker(
     ('va', 15),
     baca.down_bow(),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.OB_terminate_abruptly(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -497,7 +497,7 @@ maker(
 maker(
     ('va', 19),
     baca.down_bow(),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.OB_terminate_abruptly(),
     baca.staff_lines(1),
     baca.staff_position(0),

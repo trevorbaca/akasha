@@ -69,7 +69,7 @@ maker(
     (['v1', 'va', 'vc'], (1, 3)),
     baca.alternate_bow_strokes(),
     baca.clef('percussion'),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.full_bow_strokes(),
     baca.markup.terminate_each_note_abruptly(),
     baca.repeat_tie_up(),
