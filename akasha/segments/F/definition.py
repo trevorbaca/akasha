@@ -302,13 +302,13 @@ maker(
 maker(
     ('v1', 2),
     akasha.getato_pitches(27, [2]),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
     ('v2', 2),
     akasha.getato_pitches(24, [2]),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -316,7 +316,7 @@ maker(
     akasha.getato_pitches(21, [2]),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -416,7 +416,7 @@ maker(
     akasha.getato_pitches(29, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -424,7 +424,7 @@ maker(
     akasha.getato_pitches(26, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -433,7 +433,7 @@ maker(
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -442,7 +442,7 @@ maker(
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -466,7 +466,7 @@ maker(
     akasha.getato_pitches(29, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -474,7 +474,7 @@ maker(
     akasha.getato_pitches(26, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -483,7 +483,7 @@ maker(
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
     baca.staff_lines(5),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
@@ -491,7 +491,7 @@ maker(
     akasha.getato_pitches(20, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccato(),
+    baca.staccato(baca.pheads()),
     )
 
 maker(
