@@ -80,7 +80,7 @@ maker(
     (baca.pitch('G#+4'), 1),
     (baca.pitch('A+2'), 2),
     (baca.pitch('A1'), 3),
-    baca.effort_dynamic('ff'),
+    baca.dynamic('"ff"'),
     baca.markup('tasto + 1 click/3-4 sec.'),
     )
 

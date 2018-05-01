@@ -48,7 +48,7 @@ maker(
     ('va', (1, 3)),
     baca.alternate_bow_strokes(),
     baca.clef('alto'),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.OB_terminate_each_note_abruptly(),
     baca.staff_lines(1),
     baca.staff_position(0),

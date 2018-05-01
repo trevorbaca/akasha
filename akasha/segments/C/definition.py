@@ -168,7 +168,7 @@ maker(
         ],
     (baca.bar_extent((-2, 2)), 0),
     (baca.bar_extent_zero(selector=baca.leaves()), 0),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.OB(),
     baca.repeat_tie_up(),
     baca.staff_lines(1),

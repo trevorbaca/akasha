@@ -327,7 +327,7 @@ maker(
 maker(
     ('va', (1, 18)),
     baca.alternate_bow_strokes(),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.OB(),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
