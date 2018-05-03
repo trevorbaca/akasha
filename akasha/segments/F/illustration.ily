@@ -2828,7 +2828,8 @@ F_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'\breve ~
+                            c'\breve
+                            ~
                             c'2.
                         }
                     >>
@@ -2965,7 +2966,8 @@ F_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'\breve ~
+                            c'\breve
+                            ~
                             c'2.
                         }
                     >>

@@ -581,7 +581,8 @@ H_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
@@ -782,7 +783,8 @@ H_ViolinIIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
@@ -973,7 +975,8 @@ H_CelloMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'\breve ~
+                            c'\breve
+                            ~
                             c'4
                         }
                     >>
