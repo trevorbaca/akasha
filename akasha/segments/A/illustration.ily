@@ -1196,7 +1196,8 @@ A_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'\breve ~
+                            c'\breve
+                            ~
                             c'2
                         }
                     >>
@@ -1334,7 +1335,8 @@ A_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
@@ -1549,7 +1551,8 @@ A_ViolinIIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'\breve ~
+                            c'\breve
+                            ~
                             c'2
                         }
                     >>
@@ -1687,7 +1690,8 @@ A_ViolinIIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
