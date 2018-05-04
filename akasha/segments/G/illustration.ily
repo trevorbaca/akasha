@@ -1041,16 +1041,6 @@ G_ViolinIMusicVoice = {
     }
     
     % [G ViolinIMusicVoice measure 204]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''2.
@@ -1078,6 +1068,16 @@ G_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     f''4.
@@ -1099,16 +1099,6 @@ G_ViolinIMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolinIMusicVoice measure 207]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        FB
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef''!1
     \glissando                                                   %! SC
@@ -1136,6 +1126,16 @@ G_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        FB
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolinIMusicVoice measure 208]                          %! SM4
@@ -1150,16 +1150,6 @@ G_ViolinIMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolinIMusicVoice measure 210]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XFB
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs''!1
     \glissando                                                   %! SC
@@ -1187,6 +1177,16 @@ G_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XFB
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolinIMusicVoice measure 211]                          %! SM4
@@ -1247,16 +1247,6 @@ G_ViolinIIMusicVoice = {
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1/4 scratch"
-            }
-        }                                                        %! PWC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1290,6 +1280,16 @@ G_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1/4 scratch"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -1339,16 +1339,6 @@ G_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 204]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs'!2.
     \>                                                           %! HC1
@@ -1375,6 +1365,16 @@ G_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     cs'!4.
@@ -1396,16 +1396,6 @@ G_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 207]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        FB
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e'1
     \glissando                                                   %! SC
@@ -1433,6 +1423,16 @@ G_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        FB
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolinIIMusicVoice measure 208]                         %! SM4
@@ -1447,16 +1447,6 @@ G_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 210]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XFB
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'1
     \glissando                                                   %! SC
@@ -1484,6 +1474,16 @@ G_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XFB
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolinIIMusicVoice measure 211]                         %! SM4
@@ -1546,16 +1546,6 @@ G_ViolaMusicVoice = {
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
 %%% \once \override Staff.Clef.X-extent = ##f                    %! OC1:MEASURE_200:SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)      %! OC1:MEASURE_200:SHIFTED_CLEF
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1/4 scratch"
-            }
-        }                                                        %! PWC1
     \clef "alto"                                                 %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
@@ -1589,6 +1579,16 @@ G_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1/4 scratch"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -1638,16 +1638,6 @@ G_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolaMusicVoice measure 204]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'2.
     \>                                                           %! HC1
@@ -1674,6 +1664,16 @@ G_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     d'4.
@@ -1695,16 +1695,6 @@ G_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolaMusicVoice measure 207]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        FB
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'!1
     \glissando                                                   %! SC
@@ -1732,6 +1722,16 @@ G_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        FB
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolaMusicVoice measure 208]                            %! SM4
@@ -1746,16 +1746,6 @@ G_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [G ViolaMusicVoice measure 210]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XFB
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'!1
     \glissando                                                   %! SC
@@ -1783,6 +1773,16 @@ G_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XFB
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [G ViolaMusicVoice measure 211]                            %! SM4
@@ -1853,16 +1853,6 @@ G_CelloMusicVoice = {
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
 %%% \once \override Staff.Clef.X-extent = ##f                    %! OC1:MEASURE_200:SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)      %! OC1:MEASURE_200:SHIFTED_CLEF
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1/4 scratch"
-            }
-        }                                                        %! PWC1
     \clef "bass"                                                 %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -1895,6 +1885,16 @@ G_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1/4 scratch"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -1944,16 +1944,6 @@ G_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [G CelloMusicVoice measure 204]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e,2.
     \>                                                           %! HC1
@@ -1980,6 +1970,16 @@ G_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     e,4.
@@ -2001,16 +2001,6 @@ G_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [G CelloMusicVoice measure 207]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        FB
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,1
     \glissando                                                   %! SC
@@ -2038,6 +2028,16 @@ G_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        FB
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [G CelloMusicVoice measure 208]                            %! SM4
@@ -2052,16 +2052,6 @@ G_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [G CelloMusicVoice measure 210]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XFB
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef,!1
     \glissando                                                   %! SC
@@ -2089,6 +2079,16 @@ G_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XFB
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [G CelloMusicVoice measure 211]                            %! SM4
