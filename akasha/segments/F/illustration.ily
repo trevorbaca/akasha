@@ -3050,16 +3050,6 @@ F_ViolinIMusicVoice = {
     \repeatTie
     
     % [F ViolinIMusicVoice measure 178]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "scratch moltiss."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''1
     \<                                                           %! HC1
@@ -3086,6 +3076,16 @@ F_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "scratch moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [F ViolinIMusicVoice measure 179]                          %! SM4
@@ -4467,16 +4467,6 @@ F_ViolinIIMusicVoice = {
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 178]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "scratch moltiss."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'!1
     \<                                                           %! HC1
@@ -4503,6 +4493,16 @@ F_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "scratch moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [F ViolinIIMusicVoice measure 179]                         %! SM4
@@ -5375,16 +5375,6 @@ F_ViolaMusicVoice = {
     \repeatTie
     
     % [F ViolaMusicVoice measure 178]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "scratch moltiss."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ds'!1
     \<                                                           %! HC1
@@ -5411,6 +5401,16 @@ F_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "scratch moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [F ViolaMusicVoice measure 179]                            %! SM4
@@ -6474,16 +6474,6 @@ F_CelloMusicVoice = {
     \repeatTie
     
     % [F CelloMusicVoice measure 178]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "scratch moltiss."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df,!1
     \<                                                           %! HC1
@@ -6510,6 +6500,16 @@ F_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "scratch moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [F CelloMusicVoice measure 179]                            %! SM4

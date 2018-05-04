@@ -2676,16 +2676,6 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 269]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1 click/1-2 sec."
-            }
-        }                                                        %! PWC1
     a''4.
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -2710,6 +2700,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1 click/1-2 sec."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 270]                          %! SM4
@@ -2726,16 +2726,6 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 273]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1-2 clicks/sec."
-            }
-        }                                                        %! PWC1
     a''2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -2760,6 +2750,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1-2 clicks/sec."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 274]                          %! SM4
@@ -2776,16 +2776,6 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 277]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "scratch moltiss."
-            }
-        }                                                        %! PWC1
     a''2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -2810,6 +2800,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "scratch moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 278]                          %! SM4
@@ -2828,16 +2828,6 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 281]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1/2 scratch"
-            }
-        }                                                        %! PWC1
     a''2.
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -2862,6 +2852,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1/2 scratch"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     a''4.
@@ -2884,16 +2884,6 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 285]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     a''2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -2918,6 +2908,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 286]                          %! SM4
@@ -2934,16 +2934,6 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 289]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "vib. moltiss."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
@@ -2971,6 +2961,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "vib. moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     a''4.
@@ -2998,16 +2998,6 @@ K_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [K ViolinIMusicVoice measure 294]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''4.
     \<                                                           %! HC1
@@ -3034,6 +3024,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 295]                          %! SM4
@@ -3055,16 +3055,6 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 298]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
@@ -3092,6 +3082,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -3101,16 +3101,6 @@ K_ViolinIMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIMusicVoice measure 299]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2
     \<                                                           %! HC1
@@ -3137,6 +3127,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 300]                          %! SM4
@@ -3151,16 +3151,6 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 302]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
@@ -3188,6 +3178,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 303]                          %! SM4
@@ -3201,16 +3201,6 @@ K_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [K ViolinIMusicVoice measure 305]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XT
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2..
     \>                                                           %! HC1
@@ -3237,6 +3227,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XT
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 306]                          %! SM4
@@ -3320,16 +3320,6 @@ K_ViolinIMusicVoice = {
     \override Staff.OttavaBracket.staff-padding = #12            %! OC1
     \override TextSpanner.staff-padding = #9.5                   %! OC1
     \ottava #1                                                   %! SC
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''''4.
     \<                                                           %! HC1
@@ -3356,6 +3346,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
@@ -3374,16 +3374,6 @@ K_ViolinIMusicVoice = {
     b''''2.
     \repeatTie
     
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''''4.
     \repeatTie
@@ -3411,6 +3401,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIMusicVoice measure 324]                          %! SM4
@@ -3421,16 +3421,6 @@ K_ViolinIMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIMusicVoice measure 325]                          %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''''1
     \stopTrillSpan                                               %! SC
@@ -3458,6 +3448,16 @@ K_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
@@ -3603,16 +3603,6 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 269]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1 click/1-2 sec."
-            }
-        }                                                        %! PWC1
     gtqs'!4.
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -3637,6 +3627,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1 click/1-2 sec."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 270]                         %! SM4
@@ -3653,16 +3653,6 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 273]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1-2 clicks/sec."
-            }
-        }                                                        %! PWC1
     gtqs'!2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -3687,6 +3677,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1-2 clicks/sec."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 274]                         %! SM4
@@ -3703,16 +3703,6 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 277]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "scratch moltiss."
-            }
-        }                                                        %! PWC1
     gtqs'!2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -3737,6 +3727,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "scratch moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 278]                         %! SM4
@@ -3755,16 +3755,6 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 281]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1/2 scratch"
-            }
-        }                                                        %! PWC1
     gtqs'!2.
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -3789,6 +3779,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1/2 scratch"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     gtqs'!4.
@@ -3811,16 +3811,6 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 285]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     gtqs'!2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -3845,6 +3835,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 286]                         %! SM4
@@ -3861,16 +3861,6 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 289]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "vib. moltiss."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2.
     \repeatTie
@@ -3898,6 +3888,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "vib. moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     gtqs'!4.
@@ -3925,16 +3925,6 @@ K_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [K ViolinIIMusicVoice measure 294]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4.
     \<                                                           %! HC1
@@ -3961,6 +3951,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 295]                         %! SM4
@@ -3982,16 +3982,6 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 298]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'2.
     \repeatTie
@@ -4019,6 +4009,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -4028,16 +4028,6 @@ K_ViolinIIMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 299]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2
     \<                                                           %! HC1
@@ -4064,6 +4054,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 300]                         %! SM4
@@ -4078,16 +4078,6 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 302]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2.
     \repeatTie
@@ -4115,6 +4105,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 303]                         %! SM4
@@ -4128,16 +4128,6 @@ K_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [K ViolinIIMusicVoice measure 305]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XT
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'2..
     \>                                                           %! HC1
@@ -4164,6 +4154,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XT
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 306]                         %! SM4
@@ -4247,16 +4247,6 @@ K_ViolinIIMusicVoice = {
     \override Staff.OttavaBracket.staff-padding = #10            %! OC1
     \override TextSpanner.staff-padding = #7.5                   %! OC1
     \ottava #1                                                   %! SC
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs''''!4.
     \<                                                           %! HC1
@@ -4283,6 +4273,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
@@ -4301,16 +4301,6 @@ K_ViolinIIMusicVoice = {
     cs''''!2.
     \repeatTie
     
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs''''!4.
     \repeatTie
@@ -4338,6 +4328,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolinIIMusicVoice measure 324]                         %! SM4
@@ -4348,16 +4348,6 @@ K_ViolinIIMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 325]                         %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs''''!1
     \stopTrillSpan                                               %! SC
@@ -4385,6 +4375,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
@@ -4530,16 +4530,6 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 269]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1 click/1-2 sec."
-            }
-        }                                                        %! PWC1
     aqs,!4.
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -4564,6 +4554,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1 click/1-2 sec."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 270]                            %! SM4
@@ -4580,16 +4580,6 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 273]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1-2 clicks/sec."
-            }
-        }                                                        %! PWC1
     aqs,!2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -4614,6 +4604,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1-2 clicks/sec."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 274]                            %! SM4
@@ -4630,16 +4630,6 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 277]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "scratch moltiss."
-            }
-        }                                                        %! PWC1
     aqs,!2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -4664,6 +4654,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "scratch moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 278]                            %! SM4
@@ -4682,16 +4682,6 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 281]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1/2 scratch"
-            }
-        }                                                        %! PWC1
     aqs,!2.
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -4716,6 +4706,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1/2 scratch"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     aqs,!4.
@@ -4738,16 +4738,6 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 285]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     aqs,!2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -4772,6 +4762,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 286]                            %! SM4
@@ -4788,16 +4788,6 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 289]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "vib. moltiss."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2.
     \repeatTie
@@ -4825,6 +4815,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "vib. moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     aqs,!4.
@@ -4852,16 +4852,6 @@ K_ViolaMusicVoice = {
     R1 * 1/4
     
     % [K ViolaMusicVoice measure 294]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,4.
     \<                                                           %! HC1
@@ -4888,6 +4878,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 295]                            %! SM4
@@ -4909,16 +4909,6 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 298]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,2.
     \repeatTie
@@ -4946,6 +4936,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -4955,16 +4955,6 @@ K_ViolaMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 299]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2
     \<                                                           %! HC1
@@ -4991,6 +4981,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 300]                            %! SM4
@@ -5005,16 +5005,6 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 302]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2.
     \repeatTie
@@ -5042,6 +5032,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 303]                            %! SM4
@@ -5055,16 +5055,6 @@ K_ViolaMusicVoice = {
     R1 * 1/4
     
     % [K ViolaMusicVoice measure 305]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XT
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,2..
     \>                                                           %! HC1
@@ -5091,6 +5081,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XT
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 306]                            %! SM4
@@ -5175,16 +5175,6 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 320]                            %! SM4
     \override TextSpanner.staff-padding = #7                     %! OC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!4.
     \<                                                           %! HC1
@@ -5211,6 +5201,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
@@ -5229,16 +5229,6 @@ K_ViolaMusicVoice = {
     gqf''!2.
     \repeatTie
     
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!4.
     \repeatTie
@@ -5266,6 +5256,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K ViolaMusicVoice measure 324]                            %! SM4
@@ -5276,16 +5276,6 @@ K_ViolaMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 325]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!1
     \stopTrillSpan                                               %! SC
@@ -5313,6 +5303,16 @@ K_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
@@ -5452,16 +5452,6 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 269]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1 click/1-2 sec."
-            }
-        }                                                        %! PWC1
     a,,4.
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -5486,6 +5476,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1 click/1-2 sec."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 270]                            %! SM4
@@ -5502,16 +5502,6 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 273]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1-2 clicks/sec."
-            }
-        }                                                        %! PWC1
     a,,2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -5536,6 +5526,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1-2 clicks/sec."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 274]                            %! SM4
@@ -5552,16 +5552,6 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 277]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "scratch moltiss."
-            }
-        }                                                        %! PWC1
     a,,2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -5586,6 +5576,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "scratch moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 278]                            %! SM4
@@ -5604,16 +5604,6 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 281]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "1/2 scratch"
-            }
-        }                                                        %! PWC1
     a,,2.
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -5638,6 +5628,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "1/2 scratch"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     a,,4.
@@ -5660,16 +5660,6 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 285]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     a,,2..
     \repeatTie
     -\tweak Y-extent ##f                                         %! PWC1
@@ -5694,6 +5684,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 286]                            %! SM4
@@ -5710,16 +5710,6 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 289]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "vib. moltiss."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
@@ -5747,6 +5737,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "vib. moltiss."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     a,,4.
@@ -5774,16 +5774,6 @@ K_CelloMusicVoice = {
     R1 * 1/4
     
     % [K CelloMusicVoice measure 294]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,4.
     \<                                                           %! HC1
@@ -5810,6 +5800,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 295]                            %! SM4
@@ -5831,16 +5831,6 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 298]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
@@ -5868,6 +5858,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -5877,16 +5877,6 @@ K_CelloMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [K CelloMusicVoice measure 299]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2
     \<                                                           %! HC1
@@ -5913,6 +5903,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 300]                            %! SM4
@@ -5927,16 +5927,6 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 302]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
@@ -5964,6 +5954,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 303]                            %! SM4
@@ -5977,16 +5977,6 @@ K_CelloMusicVoice = {
     R1 * 1/4
     
     % [K CelloMusicVoice measure 305]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XT
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2..
     \>                                                           %! HC1
@@ -6013,6 +6003,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XT
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 306]                            %! SM4
@@ -6100,16 +6100,6 @@ K_CelloMusicVoice = {
     
     % [K CelloMusicVoice measure 320]                            %! SM4
     \override TextSpanner.staff-padding = #5                     %! OC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''4.
     \<                                                           %! HC1
@@ -6136,6 +6126,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
@@ -6154,16 +6154,6 @@ K_CelloMusicVoice = {
     d''2.
     \repeatTie
     
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pos. ord."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''4.
     \repeatTie
@@ -6191,6 +6181,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pos. ord."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [K CelloMusicVoice measure 324]                            %! SM4
@@ -6201,16 +6201,6 @@ K_CelloMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [K CelloMusicVoice measure 325]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        XP
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''1
     \stopTrillSpan                                               %! SC
@@ -6238,6 +6228,16 @@ K_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        XP
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
