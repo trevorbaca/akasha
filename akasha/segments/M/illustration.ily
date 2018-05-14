@@ -2682,10 +2682,10 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 358]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf,,!2.
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \pp                                                          %! HC1
     
