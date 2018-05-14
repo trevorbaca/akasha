@@ -857,9 +857,9 @@ G_ViolinIMusicVoice = {
                 "Vn. I"                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''16
+        - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
         \pp                                                      %! HC1
         [
