@@ -1796,8 +1796,8 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 49]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         cs!32
-        -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC

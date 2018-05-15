@@ -2099,8 +2099,8 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 231]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     b'4
-    -\downbow                                                    %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -2409,8 +2409,8 @@ I_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g'''16
-        -\staccato                                               %! IC
         \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {
             \column
@@ -3093,8 +3093,8 @@ I_ViolinIIMusicVoice = {
     % [I ViolinIIMusicVoice measure 236]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     b4
-    -\upbow                                                      %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\upbow                                                      %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -3689,8 +3689,8 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 227]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     b,4
-    -\downbow                                                    %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -4600,8 +4600,8 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 240]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     b,,4
-    -\downbow                                                    %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
         \concat

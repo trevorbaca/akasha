@@ -1123,8 +1123,8 @@ A_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b32
-        -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -1441,8 +1441,8 @@ A_ViolinIIMusicVoice = {
         % [A ViolinIIMusicVoice measure 7]                       %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         bf!32
-        -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -1854,8 +1854,8 @@ A_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         bf!32
-        -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -2145,8 +2145,8 @@ A_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         c'32
-        -\staccato                                               %! IC
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
