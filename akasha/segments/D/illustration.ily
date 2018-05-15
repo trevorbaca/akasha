@@ -2169,8 +2169,8 @@ D_ViolinIMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a'1
-    -\downbow                                                    %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -2432,8 +2432,8 @@ D_ViolinIIMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a'2.
-    -\downbow                                                    %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -2906,8 +2906,8 @@ D_ViolaMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     af!2.
-    -\downbow                                                    %! IC
     \ppp_ancora                                                  %! SM8:REDUNDANT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -3154,8 +3154,8 @@ D_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g,2.
-    -\downbow                                                    %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -3242,8 +3242,8 @@ D_CelloMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e,2.
-    -\downbow                                                    %! IC
     \ppp_ancora                                                  %! SM8:REDUNDANT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC

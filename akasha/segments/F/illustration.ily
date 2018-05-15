@@ -3580,8 +3580,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f'''16
-        -\staccato                                               %! IC
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -5001,8 +5001,8 @@ F_ViolinIIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d'''16
-        -\staccato                                               %! IC
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -5907,8 +5907,8 @@ F_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b'1.
-    -\downbow                                                    %! IC
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -5928,8 +5928,8 @@ F_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b''16
-        -\staccato                                               %! IC
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -6041,8 +6041,8 @@ F_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b'1.
-    -\downbow                                                    %! IC
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -6143,8 +6143,8 @@ F_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         a''16
-        -\staccato                                               %! IC
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -7010,8 +7010,8 @@ F_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af''!16
-    -\staccato                                                   %! IC
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\staccato                                                   %! IC
     [
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC

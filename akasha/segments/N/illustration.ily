@@ -938,8 +938,8 @@ N_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'4.
-    -\downbow                                                    %! IC
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {
         \column
             {
@@ -1171,8 +1171,8 @@ N_ViolinIIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         f'''32
-        -\staccato                                               %! IC
         \pp_ancora                                               %! SM8:REDUNDANT_DYNAMIC:IC
+        -\staccato                                               %! IC
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -1309,8 +1309,8 @@ N_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'4.
-    -\downbow                                                    %! IC
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {
         \column
             {
@@ -1481,8 +1481,8 @@ N_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'4.
-    -\downbow                                                    %! IC
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {
         \column
             {
