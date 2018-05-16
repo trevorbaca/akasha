@@ -3,7 +3,8 @@ import baca
 
 
 def perforated_counts(degree=0, rotation=None):
-    r'''Makes perforated counts.
+    r"""
+    Makes perforated counts.
 
     >>> import akasha
 
@@ -20,7 +21,7 @@ def perforated_counts(degree=0, rotation=None):
         Sequence([1, 1, 1, -9, 1, 1, -7, 1, -9, 1, 1, 1, -2])
 
     Returns sequence.
-    '''
+    """
     counts = []
     if degree == 0:
         pattern_1 = abjad.index([0, 1, 2, 3], 12)

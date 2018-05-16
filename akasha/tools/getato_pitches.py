@@ -8,8 +8,9 @@ def getato_pitches(
     intervals=[0],
     direction=abjad.Up,
     ):
-    r'''Makes getato pitches.
-    '''
+    """
+    Makes getato pitches.
+    """
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     pitch_numbers = akasha.materials.getato_intervals

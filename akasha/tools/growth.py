@@ -11,8 +11,9 @@ def growth(
     extra_counts=None,
     tie_last=True,
     ):
-    r'''Makes growth talea rhythm.
-    '''
+    """
+    Makes growth talea rhythm.
+    """
 
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
     silence_mask = abjad.SilenceMask(pattern)

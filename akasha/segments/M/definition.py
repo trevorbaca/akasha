@@ -36,10 +36,10 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark(abjad.Accelerando(), baca.leaf(6)),
-    baca.metronome_mark('89', baca.leaf(10)),
-    baca.metronome_mark(abjad.Ritardando(), baca.leaf(18)),
-    baca.metronome_mark('44', baca.leaf(26)),
+    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(6)),
+    baca.metronome_mark('89', selector=baca.leaf(10)),
+    baca.metronome_mark(abjad.Ritardando(), selector=baca.leaf(18)),
+    baca.metronome_mark('44', selector=baca.leaf(26)),
     baca.rehearsal_mark('M'),
     )
 
@@ -75,7 +75,7 @@ maker(
 
 maker(
     ('vc', (1, 2)),
-    baca.hairpin('ppp < ff', baca.leaves()[:9]),
+    baca.hairpin('ppp < ff', selector=baca.leaves()[:9]),
     baca.transition(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
@@ -149,7 +149,7 @@ maker(
 
 maker(
     ('vc', (7, 8)),
-    baca.hairpin('pp > niente', baca.rleaves()),
+    baca.hairpin('pp > niente', selector=baca.rleaves()),
     )
 
 maker(

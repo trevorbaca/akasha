@@ -7,8 +7,9 @@ def polyphony_rhythm(
     lt_mask=None,
     rotation=0,
     ):
-    r'''Makes polyphony rhythm.
-    '''
+    """
+    Makes polyphony rhythm.
+    """
     if lt_mask is None:
         logical_tie_masks = None
     else:

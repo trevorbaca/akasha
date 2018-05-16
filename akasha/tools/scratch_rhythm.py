@@ -8,8 +8,9 @@ def scratch_rhythm(
     logical_tie_masks,
     extra_counts_per_division,
     ):
-    r'''Makes scratch rhythm.
-    '''
+    """
+    Makes scratch rhythm.
+    """
     return baca.RhythmCommand(
         rhythm_maker=rhythmos.EvenDivisionRhythmMaker(
             denominators=denominators,

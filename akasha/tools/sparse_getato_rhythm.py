@@ -10,8 +10,9 @@ def sparse_getato_rhythm(
     extra_counts_per_division=[1],
     rotation=None,
     ):
-    r'''Makes sparse getato rhythm.
-    '''
+    """
+    Makes sparse getato rhythm.
+    """
     if division_mask is None:
         division_masks = None
     else:

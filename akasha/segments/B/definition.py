@@ -39,9 +39,9 @@ maker(
 
 maker(
     'GlobalRests',
-    baca.global_fermata('long', baca.leaf(4)),
-    baca.global_fermata('short', baca.leaf(6)),
-    baca.global_fermata('short', baca.leaf(8)),
+    baca.global_fermata('long', selector=baca.leaf(4)),
+    baca.global_fermata('short', selector=baca.leaf(6)),
+    baca.global_fermata('short', selector=baca.leaf(8)),
     )
 
 maker(
@@ -105,7 +105,7 @@ maker(
     ('vc', (1, 6)),
     akasha.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.beam_positions(-4),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     baca.tuplet_bracket_staff_padding(2),
     )
 

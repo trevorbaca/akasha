@@ -9,8 +9,9 @@ def accelerando_rhythm(
     fuse_counts=(1, 2),
     lt_mask=None,
     ):
-    r'''Makes accelerando rhythm.
-    '''
+    """
+    Makes accelerando rhythm.
+    """
 
     if division_expression is None:
         expression = baca.sequence().partition_by_counts(

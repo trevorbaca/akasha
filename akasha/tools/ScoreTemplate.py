@@ -4,7 +4,8 @@ import baca
 
 
 class ScoreTemplate(baca.ScoreTemplate):
-    r'''Score template.
+    r"""
+    Score template.
 
     >>> import akasha
 
@@ -74,7 +75,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             }
         >>
 
-    '''
+    """
 
     ### CLASS VARIABLES ###
 

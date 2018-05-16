@@ -51,27 +51,27 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('F'),
     baca.rehearsal_mark_y_offset(5),
-    baca.metronome_mark('44', baca.leaf(0)),
-    baca.metronome_mark('126', baca.leaf(2)),
-    baca.metronome_mark('55', baca.leaf(5)),
-    baca.metronome_mark('89', baca.leaf(7)),
-    baca.metronome_mark(abjad.Accelerando(), baca.leaf(30)),
-    baca.metronome_mark('126', baca.leaf(34)),
-    baca.metronome_mark('55', baca.leaf(42)),
-    baca.metronome_mark('126', baca.leaf(44)),
-    baca.metronome_mark('55', baca.leaf(46)),
+    baca.metronome_mark('44', selector=baca.leaf(0)),
+    baca.metronome_mark('126', selector=baca.leaf(2)),
+    baca.metronome_mark('55', selector=baca.leaf(5)),
+    baca.metronome_mark('89', selector=baca.leaf(7)),
+    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(30)),
+    baca.metronome_mark('126', selector=baca.leaf(34)),
+    baca.metronome_mark('55', selector=baca.leaf(42)),
+    baca.metronome_mark('126', selector=baca.leaf(44)),
+    baca.metronome_mark('55', selector=baca.leaf(46)),
     )
 
 maker(
     'GlobalRests',
-    baca.global_fermata('long', baca.leaf(4)),
-    baca.global_fermata('long', baca.leaf(6)),
-    baca.global_fermata('long', baca.leaf(9)),
-    baca.global_fermata('fermata', baca.leaf(34)),
-    baca.global_fermata('fermata', baca.leaf(41)),
-    baca.global_fermata('fermata', baca.leaf(43)),
-    baca.global_fermata('short', baca.leaf(45)),
-    baca.global_fermata('fermata', baca.leaf(47)),
+    baca.global_fermata('long', selector=baca.leaf(4)),
+    baca.global_fermata('long', selector=baca.leaf(6)),
+    baca.global_fermata('long', selector=baca.leaf(9)),
+    baca.global_fermata('fermata', selector=baca.leaf(34)),
+    baca.global_fermata('fermata', selector=baca.leaf(41)),
+    baca.global_fermata('fermata', selector=baca.leaf(43)),
+    baca.global_fermata('short', selector=baca.leaf(45)),
+    baca.global_fermata('fermata', selector=baca.leaf(47)),
     )
 
 maker(
@@ -302,13 +302,13 @@ maker(
 maker(
     ('v1', 2),
     akasha.getato_pitches(27, [2]),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
     ('v2', 2),
     akasha.getato_pitches(24, [2]),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -316,7 +316,7 @@ maker(
     akasha.getato_pitches(21, [2]),
     baca.markup.leggieriss(),
     baca.dynamic('pp'),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -416,7 +416,7 @@ maker(
     akasha.getato_pitches(29, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -424,7 +424,7 @@ maker(
     akasha.getato_pitches(26, [2]),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -433,7 +433,7 @@ maker(
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -442,7 +442,7 @@ maker(
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
     baca.markup.pos_ord(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -466,7 +466,7 @@ maker(
     akasha.getato_pitches(29, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -474,7 +474,7 @@ maker(
     akasha.getato_pitches(26, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -483,7 +483,7 @@ maker(
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
     baca.staff_lines(5),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -491,7 +491,7 @@ maker(
     akasha.getato_pitches(20, [2]),
     baca.dynamic('pp'),
     baca.markup.leggieriss(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(

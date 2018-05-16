@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def fill_first_half():
-    r'''Fills first half of scope with repeat-tied notes.
-    '''
+    """
+    Fills first half of scope with repeat-tied notes.
+    """
     return baca.RhythmCommand(
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))

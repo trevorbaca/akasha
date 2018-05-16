@@ -49,18 +49,18 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark(abjad.Ritardando(), baca.leaf(52)),
-    baca.metronome_mark('38', baca.leaf(55)),
+    baca.metronome_mark(abjad.Ritardando(), selector=baca.leaf(52)),
+    baca.metronome_mark('38', selector=baca.leaf(55)),
     baca.rehearsal_mark('K'),
     )
 
 maker(
     'GlobalRests',
-    baca.global_fermata('short', baca.leaf(28)),
-    baca.global_fermata('short', baca.leaf(39)),
-    baca.global_fermata('fermata', baca.leaf(45)),
-    baca.global_fermata('short', baca.leaf(54)),
-    baca.global_fermata('very_long', baca.leaf(68)),
+    baca.global_fermata('short', selector=baca.leaf(28)),
+    baca.global_fermata('short', selector=baca.leaf(39)),
+    baca.global_fermata('fermata', selector=baca.leaf(45)),
+    baca.global_fermata('short', selector=baca.leaf(54)),
+    baca.global_fermata('very_long', selector=baca.leaf(68)),
     )
 
 maker(
@@ -106,7 +106,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 4),
-    baca.dynamic('ff', baca.note(2)),
+    baca.dynamic('ff', selector=baca.note(2)),
     baca.transition(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
@@ -143,7 +143,7 @@ maker(
         #selector=baca.leaves()[:-1].group(),
         spanner_selector=baca.leaves()[:-1],
         ),
-    baca.hairpin('ff < fff', baca.leaves()[:-1]),
+    baca.hairpin('ff < fff', selector=baca.leaves()[:-1]),
     )
 
 maker(
@@ -162,8 +162,8 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 9),
-    baca.hairpin('sffp < fff', baca.leaves()[:3]),
-    baca.hairpin('fff > p', baca.leaves()[-2:]),
+    baca.hairpin('sffp < fff', selector=baca.leaves()[:3]),
+    baca.hairpin('fff > p', selector=baca.leaves()[-2:]),
     baca.transition(
         baca.markup.pos_ord_senza_vib(),
         baca.markup.XP(),
@@ -180,8 +180,8 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 10),
-    baca.hairpin('sffp < fff', baca.leaves()[:2]),
-    baca.hairpin('fff > p', baca.leaves()[-2:]),
+    baca.hairpin('sffp < fff', selector=baca.leaves()[:2]),
+    baca.hairpin('fff > p', selector=baca.leaves()[-2:]),
     baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
@@ -242,7 +242,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 12),
-    baca.hairpin('sffp > pp', baca.leaves()[:-1]),
+    baca.hairpin('sffp > pp', selector=baca.leaves()[:-1]),
     baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XT(),
@@ -265,7 +265,7 @@ maker(
 
 maker(
     ('vc', (14, 15)),
-    baca.hairpin('sffp < f', baca.leaves()[:4]),
+    baca.hairpin('sffp < f', selector=baca.leaves()[:4]),
     )
 
 maker(
@@ -277,7 +277,7 @@ maker(
 
 maker(
     ('va', (15, 16)),
-    baca.hairpin('sffp < f', baca.leaves()[:4]),
+    baca.hairpin('sffp < f', selector=baca.leaves()[:4]),
     )
 
 maker(
@@ -293,7 +293,7 @@ maker(
 
 maker(
     ('v2', (16, 17)),
-    baca.hairpin('sffp < f', baca.leaves()[:4]),
+    baca.hairpin('sffp < f', selector=baca.leaves()[:4]),
     )
 
 maker(
@@ -324,8 +324,8 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 19),
-    baca.hairpin('sf < fff', baca.leaves()[:3]),
-    baca.hairpin('fff > f', baca.leaves()[-2:]),
+    baca.hairpin('sf < fff', selector=baca.leaves()[:3]),
+    baca.hairpin('fff > f', selector=baca.leaves()[-2:]),
     baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
@@ -343,7 +343,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], (20, 21)),
-    baca.hairpin('sffp < fff', baca.leaves()[:4]),
+    baca.hairpin('sffp < fff', selector=baca.leaves()[:4]),
     baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
