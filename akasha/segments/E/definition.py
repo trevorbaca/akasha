@@ -45,20 +45,20 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('E'),
-    baca.metronome_mark('55', baca.leaf(8)),
-    baca.metronome_mark(abjad.Accelerando(), baca.leaf(12)),
-    baca.metronome_mark('89', baca.leaf(14)),
-    baca.metronome_mark(abjad.Accelerando(), baca.leaf(18)),
-    baca.metronome_mark('126', baca.leaf(26)),
+    baca.metronome_mark('55', selector=baca.leaf(8)),
+    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(12)),
+    baca.metronome_mark('89', selector=baca.leaf(14)),
+    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(18)),
+    baca.metronome_mark('126', selector=baca.leaf(26)),
     )
 
 maker(
     'GlobalRests',
-    baca.global_fermata('fermata', baca.leaf(1)),
-    baca.global_fermata('fermata', baca.leaf(3)),
-    baca.global_fermata('fermata', baca.leaf(5)),
-    baca.global_fermata('fermata', baca.leaf(7)),
-    baca.global_fermata('long', baca.leaf(-1)),
+    baca.global_fermata('fermata', selector=baca.leaf(1)),
+    baca.global_fermata('fermata', selector=baca.leaf(3)),
+    baca.global_fermata('fermata', selector=baca.leaf(5)),
+    baca.global_fermata('fermata', selector=baca.leaf(7)),
+    baca.global_fermata('long', selector=baca.leaf(-1)),
     )
 
 maker(
@@ -278,7 +278,7 @@ maker(
 
 maker(
     ('v1', (15, 18)),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -309,14 +309,14 @@ maker(
 maker(
     ('v2', 13),
     baca.dynamic('mf'),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     baca.markup.senza_scratch(),
     )
 
 maker(
     ('v2', (14, 18)),
     baca.markup.leggieriss(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -356,19 +356,19 @@ maker(
     ('vc', 12),
     baca.dynamic('mf'),
     baca.markup.senza_scratch(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
     ('vc', (13, 18)),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     baca.markup.leggieriss(),
     )
 
 maker(
     ('vc', (15, 16)),
     baca.hairpin('mf > pp'),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(

@@ -8,8 +8,9 @@ def dense_getato_rhythm(
     extra_counts_per_division,
     division_mask=None,
     ):
-    r'''Makes dense getato rhythm.
-    '''
+    """
+    Makes dense getato rhythm.
+    """
     if division_mask is not None:
         division_masks = [division_mask]
     else:

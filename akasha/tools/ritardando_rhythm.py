@@ -8,8 +8,9 @@ def ritardando_rhythm(
     division_mask=None,
     lt_mask=None,
     ):
-    r'''Makes ritardando rhythm.
-    '''
+    """
+    Makes ritardando rhythm.
+    """
 
     if division_expression is None:
         expression = baca.sequence().partition_by_counts(

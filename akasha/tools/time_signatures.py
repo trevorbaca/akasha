@@ -4,8 +4,9 @@ import baca
 
 
 def time_signatures(series, count, rotation, fermata_measures=None):
-    r'''Makes time sigantures.
-    '''
+    """
+    Makes time sigantures.
+    """
     series = akasha.time_signature_series[series]
     maker = baca.TimeSignatureMaker(
         series,

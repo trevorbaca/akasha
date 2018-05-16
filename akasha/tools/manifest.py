@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def manifest(these_counts):
-    r'''Makes manifest rhythm.
-    '''
+    """
+    Makes manifest rhythm.
+    """
 
     counts = [7, 4, 11, 8]
     counts += [14, 8, 11, 8]

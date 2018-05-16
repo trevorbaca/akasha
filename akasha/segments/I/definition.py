@@ -47,30 +47,30 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('I'),
-    baca.metronome_mark('89', baca.leaf(0)),
-    baca.metronome_mark('55', baca.leaf(3)),
-    baca.metronome_mark(abjad.Accelerando(), baca.leaf(3)),
-    baca.metronome_mark('89', baca.leaf(7)),
-    baca.metronome_mark(abjad.Ritardando(), baca.leaf(7)),
-    baca.metronome_mark('55', baca.leaf(12)),
-    baca.metronome_mark(abjad.Accelerando(), baca.leaf(12)),
-    baca.metronome_mark('89', baca.leaf(16)),
-    baca.metronome_mark(abjad.Ritardando(), baca.leaf(16)),
-    baca.metronome_mark('55', baca.leaf(20)),
-    baca.metronome_mark('126', baca.leaf(22)),
-    baca.metronome_mark('55', baca.leaf(24)),
-    baca.metronome_mark('89', baca.leaf(27)),
-    baca.metronome_mark('55', baca.leaf(30)),
-    baca.metronome_mark(abjad.Ritardando(), baca.leaf(32)),
-    baca.metronome_mark('44', baca.leaf(34)),
+    baca.metronome_mark('89', selector=baca.leaf(0)),
+    baca.metronome_mark('55', selector=baca.leaf(3)),
+    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(3)),
+    baca.metronome_mark('89', selector=baca.leaf(7)),
+    baca.metronome_mark(abjad.Ritardando(), selector=baca.leaf(7)),
+    baca.metronome_mark('55', selector=baca.leaf(12)),
+    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(12)),
+    baca.metronome_mark('89', selector=baca.leaf(16)),
+    baca.metronome_mark(abjad.Ritardando(), selector=baca.leaf(16)),
+    baca.metronome_mark('55', selector=baca.leaf(20)),
+    baca.metronome_mark('126', selector=baca.leaf(22)),
+    baca.metronome_mark('55', selector=baca.leaf(24)),
+    baca.metronome_mark('89', selector=baca.leaf(27)),
+    baca.metronome_mark('55', selector=baca.leaf(30)),
+    baca.metronome_mark(abjad.Ritardando(), selector=baca.leaf(32)),
+    baca.metronome_mark('44', selector=baca.leaf(34)),
     )
 
 maker(
     'GlobalRests',
-    baca.global_fermata('fermata', baca.leaf(2)),
-    baca.global_fermata('short', baca.leaf(26)),
-    baca.global_fermata('short', baca.leaf(29)),
-    baca.global_fermata('very_long', baca.leaf(-1)),
+    baca.global_fermata('fermata', selector=baca.leaf(2)),
+    baca.global_fermata('short', selector=baca.leaf(26)),
+    baca.global_fermata('short', selector=baca.leaf(29)),
+    baca.global_fermata('very_long', selector=baca.leaf(-1)),
     )
 
 maker(
@@ -356,7 +356,7 @@ maker(
     baca.dynamic('ppp'),
     baca.markup.leggieriss(),
     baca.markup.pos_ord(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(

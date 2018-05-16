@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def viola_ob_rhythm(rotation=None):
-    r'''Makes viola OB rhythm.
-    '''
+    """
+    Makes viola OB rhythm.
+    """
     durations = [(1, 4), (1, 4), (3, 8), (1, 4), (3, 8)]
     durations = [abjad.Duration(_) for _ in durations]
     durations = abjad.sequence(durations)

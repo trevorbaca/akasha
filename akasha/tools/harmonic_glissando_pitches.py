@@ -8,8 +8,9 @@ def harmonic_glissando_pitches(
     direction=abjad.Up,
     rotation=None,
     ):
-    r'''Makes harmonic glissando pitches.
-    '''
+    """
+    Makes harmonic glissando pitches.
+    """
     start_pitch = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch.number
     pitch_numbers = akasha.materials.getato_intervals

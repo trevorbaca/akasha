@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def glissando_rhythm():
-    r'''Makes glissando rhythm.
-    '''
+    """
+    Makes glissando rhythm.
+    """
     return baca.RhythmCommand(
         division_expression=baca.sequence().sum().sequence(),
         rhythm_maker=rhythmos.TupletRhythmMaker(

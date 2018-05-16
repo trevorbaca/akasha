@@ -59,16 +59,16 @@ maker(
 
 maker(
     'GlobalRests',
-    baca.global_fermata('fermata', baca.leaf(1)),
-    baca.global_fermata('fermata', baca.leaf(3)),
-    baca.global_fermata('fermata', baca.leaf(5)),
-    baca.global_fermata('fermata', baca.leaf(7)),
-    baca.global_fermata('fermata', baca.leaf(13)),
-    baca.global_fermata('fermata', baca.leaf(17)),
-    baca.global_fermata('fermata', baca.leaf(19)),
-    baca.global_fermata('fermata', baca.leaf(21)),
-    baca.global_fermata('fermata', baca.leaf(23)),
-    baca.global_fermata('long', baca.leaf(-1)),
+    baca.global_fermata('fermata', selector=baca.leaf(1)),
+    baca.global_fermata('fermata', selector=baca.leaf(3)),
+    baca.global_fermata('fermata', selector=baca.leaf(5)),
+    baca.global_fermata('fermata', selector=baca.leaf(7)),
+    baca.global_fermata('fermata', selector=baca.leaf(13)),
+    baca.global_fermata('fermata', selector=baca.leaf(17)),
+    baca.global_fermata('fermata', selector=baca.leaf(19)),
+    baca.global_fermata('fermata', selector=baca.leaf(21)),
+    baca.global_fermata('fermata', selector=baca.leaf(23)),
+    baca.global_fermata('long', selector=baca.leaf(-1)),
     )
 
 maker(
@@ -192,7 +192,7 @@ maker(
     akasha.getato_pitches('C#3', direction=abjad.Down),
     baca.dynamic('p'),
     baca.markup.leggieriss(),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     )
 
 maker(
@@ -221,7 +221,7 @@ maker(
     baca.markup.tasto(),
     baca.pitch('G5'),
     baca.staff_lines(5),
-    baca.trill_spanner('M2'),
+    baca.trill_spanner(string='M2'),
     )
 
 maker(

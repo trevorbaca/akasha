@@ -47,22 +47,22 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('D'),
     baca.rehearsal_mark_y_offset(7),
-    baca.metronome_mark('126', baca.leaf(0)),
-    baca.metronome_mark('55', baca.leaf(32)),
-    baca.metronome_mark('126', baca.leaf(37)),
-    baca.metronome_mark(abjad.Ritardando(), baca.leaf(37)),
-    baca.metronome_mark('44', baca.leaf(46)),
+    baca.metronome_mark('126', selector=baca.leaf(0)),
+    baca.metronome_mark('55', selector=baca.leaf(32)),
+    baca.metronome_mark('126', selector=baca.leaf(37)),
+    baca.metronome_mark(abjad.Ritardando(), selector=baca.leaf(37)),
+    baca.metronome_mark('44', selector=baca.leaf(46)),
     )
 
 maker(
     'GlobalRests',
-    baca.global_fermata('short', baca.leaf(8)),
-    baca.global_fermata('short', baca.leaf(17)),
-    baca.global_fermata('short', baca.leaf(22)),
-    baca.global_fermata('fermata', baca.leaf(31)),
-    baca.global_fermata('fermata', baca.leaf(36)),
-    baca.global_fermata('fermata', baca.leaf(41)),
-    baca.global_fermata('long', baca.leaf(50)),
+    baca.global_fermata('short', selector=baca.leaf(8)),
+    baca.global_fermata('short', selector=baca.leaf(17)),
+    baca.global_fermata('short', selector=baca.leaf(22)),
+    baca.global_fermata('fermata', selector=baca.leaf(31)),
+    baca.global_fermata('fermata', selector=baca.leaf(36)),
+    baca.global_fermata('fermata', selector=baca.leaf(41)),
+    baca.global_fermata('long', selector=baca.leaf(50)),
     )
 
 maker(
@@ -196,7 +196,7 @@ maker(
 maker(
     ('v2', (12, 14)),
     baca.dynamic('p'),
-    baca.map(baca.trill_spanner('M2'), baca.qruns()),
+    baca.map(baca.trill_spanner(string='M2'), baca.qruns()),
     baca.markup.tasto(),
     baca.pitch('G5'),
     )
