@@ -1,9 +1,9 @@
 L_GlobalRests = {
     
-    % [L GlobalRests measure 334]                                        %! SM4
+    % [L GlobalRests measure 334 / measure 1]                            %! SM4
     R1 * 1
     
-    % [L GlobalRests measure 335]                                        %! SM4
+    % [L GlobalRests measure 335 / measure 2]                            %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -12,10 +12,10 @@ L_GlobalRests = {
             #"scripts.uverylongfermata"                                  %! GFC1
         }                                                                %! GFC1
     
-    % [L GlobalRests measure 336]                                        %! SM4
+    % [L GlobalRests measure 336 / measure 3]                            %! SM4
     R1 * 3/2
     
-    % [L GlobalRests measure 337]                                        %! SM4
+    % [L GlobalRests measure 337 / measure 4]                            %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -24,10 +24,10 @@ L_GlobalRests = {
             #"scripts.uverylongfermata"                                  %! GFC1
         }                                                                %! GFC1
     
-    % [L GlobalRests measure 338]                                        %! SM4
+    % [L GlobalRests measure 338 / measure 5]                            %! SM4
     R1 * 3/2
     
-    % [L GlobalRests measure 339]                                        %! SM4
+    % [L GlobalRests measure 339 / measure 6]                            %! SM4
     R1 * 3/4
     
 }
@@ -35,7 +35,7 @@ L_GlobalRests = {
 
 L_GlobalSkips = {
     
-    % [L GlobalSkips measure 334]                                        %! SM4
+    % [L GlobalSkips measure 334 / measure 1]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #12                                                            %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
@@ -121,7 +121,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 335]                                        %! SM4
+    % [L GlobalSkips measure 335 / measure 2]                            %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -156,7 +156,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 336]                                        %! SM4
+    % [L GlobalSkips measure 336 / measure 3]                            %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -191,7 +191,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 337]                                        %! SM4
+    % [L GlobalSkips measure 337 / measure 4]                            %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -226,7 +226,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 338]                                        %! SM4
+    % [L GlobalSkips measure 338 / measure 5]                            %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -261,7 +261,7 @@ L_GlobalSkips = {
             }
         }
     
-    % [L GlobalSkips measure 339]                                        %! SM4
+    % [L GlobalSkips measure 339 / measure 6]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -304,7 +304,7 @@ L_GlobalSkips = {
 
 L_ViolinIMusicVoice = {
     
-    % [L ViolinIMusicVoice measure 334]                          %! SM4
+    % [L ViolinIMusicVoice measure 334 / measure 1]              %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -361,19 +361,19 @@ L_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [L ViolinIMusicVoice measure 335]                          %! SM4
+    % [L ViolinIMusicVoice measure 335 / measure 2]              %! SM4
     R1 * 1/4
     
-    % [L ViolinIMusicVoice measure 336]                          %! SM4
+    % [L ViolinIMusicVoice measure 336 / measure 3]              %! SM4
     R1 * 3/2
     
-    % [L ViolinIMusicVoice measure 337]                          %! SM4
+    % [L ViolinIMusicVoice measure 337 / measure 4]              %! SM4
     R1 * 1/4
     
-    % [L ViolinIMusicVoice measure 338]                          %! SM4
+    % [L ViolinIMusicVoice measure 338 / measure 5]              %! SM4
     R1 * 3/2
     
-    % [L ViolinIMusicVoice measure 339]                          %! SM4
+    % [L ViolinIMusicVoice measure 339 / measure 6]              %! SM4
     R1 * 3/4
     
 }
@@ -387,7 +387,7 @@ L_ViolinIMusicStaff = {
 
 L_ViolinIIMusicVoice = {
     
-    % [L ViolinIIMusicVoice measure 334]                         %! SM4
+    % [L ViolinIIMusicVoice measure 334 / measure 1]             %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -444,19 +444,19 @@ L_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [L ViolinIIMusicVoice measure 335]                         %! SM4
+    % [L ViolinIIMusicVoice measure 335 / measure 2]             %! SM4
     R1 * 1/4
     
-    % [L ViolinIIMusicVoice measure 336]                         %! SM4
+    % [L ViolinIIMusicVoice measure 336 / measure 3]             %! SM4
     R1 * 3/2
     
-    % [L ViolinIIMusicVoice measure 337]                         %! SM4
+    % [L ViolinIIMusicVoice measure 337 / measure 4]             %! SM4
     R1 * 1/4
     
-    % [L ViolinIIMusicVoice measure 338]                         %! SM4
+    % [L ViolinIIMusicVoice measure 338 / measure 5]             %! SM4
     R1 * 3/2
     
-    % [L ViolinIIMusicVoice measure 339]                         %! SM4
+    % [L ViolinIIMusicVoice measure 339 / measure 6]             %! SM4
     R1 * 3/4
     
 }
@@ -470,7 +470,7 @@ L_ViolinIIMusicStaff = {
 
 L_ViolaMusicVoice = {
     
-    % [L ViolaMusicVoice measure 334]                            %! SM4
+    % [L ViolaMusicVoice measure 334 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -536,20 +536,20 @@ L_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [L ViolaMusicVoice measure 335]                            %! SM4
+    % [L ViolaMusicVoice measure 335 / measure 2]                %! SM4
     R1 * 1/4
     
-    % [L ViolaMusicVoice measure 336]                            %! SM4
+    % [L ViolaMusicVoice measure 336 / measure 3]                %! SM4
     c'1.
     -\upbow                                                      %! IC
     
-    % [L ViolaMusicVoice measure 337]                            %! SM4
+    % [L ViolaMusicVoice measure 337 / measure 4]                %! SM4
     R1 * 1/4
     
-    % [L ViolaMusicVoice measure 338]                            %! SM4
+    % [L ViolaMusicVoice measure 338 / measure 5]                %! SM4
     R1 * 3/2
     
-    % [L ViolaMusicVoice measure 339]                            %! SM4
+    % [L ViolaMusicVoice measure 339 / measure 6]                %! SM4
     R1 * 3/4
     
 }
@@ -563,7 +563,7 @@ L_ViolaMusicStaff = {
 
 L_CelloMusicVoice = {
     
-    % [L CelloMusicVoice measure 334]                            %! SM4
+    % [L CelloMusicVoice measure 334 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -616,16 +616,16 @@ L_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [L CelloMusicVoice measure 335]                            %! SM4
+    % [L CelloMusicVoice measure 335 / measure 2]                %! SM4
     R1 * 1/4
     
-    % [L CelloMusicVoice measure 336]                            %! SM4
+    % [L CelloMusicVoice measure 336 / measure 3]                %! SM4
     R1 * 3/2
     
-    % [L CelloMusicVoice measure 337]                            %! SM4
+    % [L CelloMusicVoice measure 337 / measure 4]                %! SM4
     R1 * 1/4
     
-    % [L CelloMusicVoice measure 338]                            %! SM4
+    % [L CelloMusicVoice measure 338 / measure 5]                %! SM4
     \once \override Staff.Clef.X-extent = ##f                    %! OC1:MEASURE_338:SHIFTED_CLEF
     \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)      %! OC1:MEASURE_338:SHIFTED_CLEF
     \clef "bass"                                                 %! SM8:EXPLICIT_CLEF:IC
@@ -642,7 +642,7 @@ L_CelloMusicVoice = {
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [L CelloMusicVoice measure 339]                            %! SM4
+    % [L CelloMusicVoice measure 339 / measure 6]                %! SM4
     bf,,!2.
     \repeatTie
     
