@@ -1,90 +1,90 @@
 K_GlobalRests = {
     
-    % [K GlobalRests measure 265]                                        %! SM4
+    % [K GlobalRests measure 265 / measure 1]                            %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 266]                                        %! SM4
+    % [K GlobalRests measure 266 / measure 2]                            %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 267]                                        %! SM4
+    % [K GlobalRests measure 267 / measure 3]                            %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 268]                                        %! SM4
+    % [K GlobalRests measure 268 / measure 4]                            %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 269]                                        %! SM4
+    % [K GlobalRests measure 269 / measure 5]                            %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 270]                                        %! SM4
+    % [K GlobalRests measure 270 / measure 6]                            %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 271]                                        %! SM4
+    % [K GlobalRests measure 271 / measure 7]                            %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 272]                                        %! SM4
+    % [K GlobalRests measure 272 / measure 8]                            %! SM4
     R1 * 3/4
     
-    % [K GlobalRests measure 273]                                        %! SM4
+    % [K GlobalRests measure 273 / measure 9]                            %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 274]                                        %! SM4
+    % [K GlobalRests measure 274 / measure 10]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 275]                                        %! SM4
+    % [K GlobalRests measure 275 / measure 11]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 276]                                        %! SM4
+    % [K GlobalRests measure 276 / measure 12]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 277]                                        %! SM4
+    % [K GlobalRests measure 277 / measure 13]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 278]                                        %! SM4
+    % [K GlobalRests measure 278 / measure 14]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 279]                                        %! SM4
+    % [K GlobalRests measure 279 / measure 15]                           %! SM4
     R1 * 3/4
     
-    % [K GlobalRests measure 280]                                        %! SM4
+    % [K GlobalRests measure 280 / measure 16]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 281]                                        %! SM4
+    % [K GlobalRests measure 281 / measure 17]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 282]                                        %! SM4
+    % [K GlobalRests measure 282 / measure 18]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 283]                                        %! SM4
+    % [K GlobalRests measure 283 / measure 19]                           %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 284]                                        %! SM4
+    % [K GlobalRests measure 284 / measure 20]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 285]                                        %! SM4
+    % [K GlobalRests measure 285 / measure 21]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 286]                                        %! SM4
+    % [K GlobalRests measure 286 / measure 22]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 287]                                        %! SM4
+    % [K GlobalRests measure 287 / measure 23]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 288]                                        %! SM4
+    % [K GlobalRests measure 288 / measure 24]                           %! SM4
     R1 * 3/4
     
-    % [K GlobalRests measure 289]                                        %! SM4
+    % [K GlobalRests measure 289 / measure 25]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 290]                                        %! SM4
+    % [K GlobalRests measure 290 / measure 26]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 291]                                        %! SM4
+    % [K GlobalRests measure 291 / measure 27]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 292]                                        %! SM4
+    % [K GlobalRests measure 292 / measure 28]                           %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 293]                                        %! SM4
+    % [K GlobalRests measure 293 / measure 29]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -93,37 +93,37 @@ K_GlobalRests = {
             #"scripts.ushortfermata"                                     %! GFC1
         }                                                                %! GFC1
     
-    % [K GlobalRests measure 294]                                        %! SM4
+    % [K GlobalRests measure 294 / measure 30]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 295]                                        %! SM4
+    % [K GlobalRests measure 295 / measure 31]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 296]                                        %! SM4
+    % [K GlobalRests measure 296 / measure 32]                           %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 297]                                        %! SM4
+    % [K GlobalRests measure 297 / measure 33]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 298]                                        %! SM4
+    % [K GlobalRests measure 298 / measure 34]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 299]                                        %! SM4
+    % [K GlobalRests measure 299 / measure 35]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 300]                                        %! SM4
+    % [K GlobalRests measure 300 / measure 36]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 301]                                        %! SM4
+    % [K GlobalRests measure 301 / measure 37]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 302]                                        %! SM4
+    % [K GlobalRests measure 302 / measure 38]                           %! SM4
     R1 * 3/4
     
-    % [K GlobalRests measure 303]                                        %! SM4
+    % [K GlobalRests measure 303 / measure 39]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 304]                                        %! SM4
+    % [K GlobalRests measure 304 / measure 40]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -132,22 +132,22 @@ K_GlobalRests = {
             #"scripts.ushortfermata"                                     %! GFC1
         }                                                                %! GFC1
     
-    % [K GlobalRests measure 305]                                        %! SM4
+    % [K GlobalRests measure 305 / measure 41]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 306]                                        %! SM4
+    % [K GlobalRests measure 306 / measure 42]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 307]                                        %! SM4
+    % [K GlobalRests measure 307 / measure 43]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 308]                                        %! SM4
+    % [K GlobalRests measure 308 / measure 44]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 309]                                        %! SM4
+    % [K GlobalRests measure 309 / measure 45]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 310]                                        %! SM4
+    % [K GlobalRests measure 310 / measure 46]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -156,31 +156,31 @@ K_GlobalRests = {
             #"scripts.ufermata"                                          %! GFC1
         }                                                                %! GFC1
     
-    % [K GlobalRests measure 311]                                        %! SM4
+    % [K GlobalRests measure 311 / measure 47]                           %! SM4
     R1 * 3/4
     
-    % [K GlobalRests measure 312]                                        %! SM4
+    % [K GlobalRests measure 312 / measure 48]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 313]                                        %! SM4
+    % [K GlobalRests measure 313 / measure 49]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 314]                                        %! SM4
+    % [K GlobalRests measure 314 / measure 50]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 315]                                        %! SM4
+    % [K GlobalRests measure 315 / measure 51]                           %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 316]                                        %! SM4
+    % [K GlobalRests measure 316 / measure 52]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 317]                                        %! SM4
+    % [K GlobalRests measure 317 / measure 53]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 318]                                        %! SM4
+    % [K GlobalRests measure 318 / measure 54]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 319]                                        %! SM4
+    % [K GlobalRests measure 319 / measure 55]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -189,46 +189,46 @@ K_GlobalRests = {
             #"scripts.ushortfermata"                                     %! GFC1
         }                                                                %! GFC1
     
-    % [K GlobalRests measure 320]                                        %! SM4
+    % [K GlobalRests measure 320 / measure 56]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 321]                                        %! SM4
+    % [K GlobalRests measure 321 / measure 57]                           %! SM4
     R1 * 3/4
     
-    % [K GlobalRests measure 322]                                        %! SM4
+    % [K GlobalRests measure 322 / measure 58]                           %! SM4
     R1 * 7/8
     
-    % [K GlobalRests measure 323]                                        %! SM4
+    % [K GlobalRests measure 323 / measure 59]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 324]                                        %! SM4
+    % [K GlobalRests measure 324 / measure 60]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 325]                                        %! SM4
+    % [K GlobalRests measure 325 / measure 61]                           %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 326]                                        %! SM4
+    % [K GlobalRests measure 326 / measure 62]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 327]                                        %! SM4
+    % [K GlobalRests measure 327 / measure 63]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 328]                                        %! SM4
+    % [K GlobalRests measure 328 / measure 64]                           %! SM4
     R1 * 3/8
     
-    % [K GlobalRests measure 329]                                        %! SM4
+    % [K GlobalRests measure 329 / measure 65]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 330]                                        %! SM4
+    % [K GlobalRests measure 330 / measure 66]                           %! SM4
     R1 * 9/8
     
-    % [K GlobalRests measure 331]                                        %! SM4
+    % [K GlobalRests measure 331 / measure 67]                           %! SM4
     R1 * 1/2
     
-    % [K GlobalRests measure 332]                                        %! SM4
+    % [K GlobalRests measure 332 / measure 68]                           %! SM4
     R1 * 1
     
-    % [K GlobalRests measure 333]                                        %! SM4
+    % [K GlobalRests measure 333 / measure 69]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -242,7 +242,7 @@ K_GlobalRests = {
 
 K_GlobalSkips = {
     
-    % [K GlobalSkips measure 265]                                        %! SM4
+    % [K GlobalSkips measure 265 / measure 1]                            %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #11                                                            %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
@@ -328,7 +328,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 266]                                        %! SM4
+    % [K GlobalSkips measure 266 / measure 2]                            %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -358,7 +358,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 267]                                        %! SM4
+    % [K GlobalSkips measure 267 / measure 3]                            %! SM4
     \time 9/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
@@ -388,7 +388,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 268]                                        %! SM4
+    % [K GlobalSkips measure 268 / measure 4]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
     ^ \markup {
@@ -417,7 +417,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 269]                                        %! SM4
+    % [K GlobalSkips measure 269 / measure 5]                            %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -452,7 +452,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 270]                                        %! SM4
+    % [K GlobalSkips measure 270 / measure 6]                            %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -482,7 +482,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 271]                                        %! SM4
+    % [K GlobalSkips measure 271 / measure 7]                            %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -512,7 +512,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 272]                                        %! SM4
+    % [K GlobalSkips measure 272 / measure 8]                            %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -542,7 +542,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 273]                                        %! SM4
+    % [K GlobalSkips measure 273 / measure 9]                            %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -577,7 +577,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 274]                                        %! SM4
+    % [K GlobalSkips measure 274 / measure 10]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
@@ -606,7 +606,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 275]                                        %! SM4
+    % [K GlobalSkips measure 275 / measure 11]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -636,7 +636,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 276]                                        %! SM4
+    % [K GlobalSkips measure 276 / measure 12]                           %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -666,7 +666,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 277]                                        %! SM4
+    % [K GlobalSkips measure 277 / measure 13]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -701,7 +701,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 278]                                        %! SM4
+    % [K GlobalSkips measure 278 / measure 14]                           %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -731,7 +731,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 279]                                        %! SM4
+    % [K GlobalSkips measure 279 / measure 15]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -761,7 +761,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 280]                                        %! SM4
+    % [K GlobalSkips measure 280 / measure 16]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -791,7 +791,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 281]                                        %! SM4
+    % [K GlobalSkips measure 281 / measure 17]                           %! SM4
     \time 9/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
@@ -826,7 +826,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 282]                                        %! SM4
+    % [K GlobalSkips measure 282 / measure 18]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -856,7 +856,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 283]                                        %! SM4
+    % [K GlobalSkips measure 283 / measure 19]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -886,7 +886,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 284]                                        %! SM4
+    % [K GlobalSkips measure 284 / measure 20]                           %! SM4
     \time 9/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
@@ -916,7 +916,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 285]                                        %! SM4
+    % [K GlobalSkips measure 285 / measure 21]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -951,7 +951,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 286]                                        %! SM4
+    % [K GlobalSkips measure 286 / measure 22]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
@@ -980,7 +980,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 287]                                        %! SM4
+    % [K GlobalSkips measure 287 / measure 23]                           %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -1010,7 +1010,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 288]                                        %! SM4
+    % [K GlobalSkips measure 288 / measure 24]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1040,7 +1040,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 289]                                        %! SM4
+    % [K GlobalSkips measure 289 / measure 25]                           %! SM4
     \time 9/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
@@ -1075,7 +1075,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 290]                                        %! SM4
+    % [K GlobalSkips measure 290 / measure 26]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
     ^ \markup {
@@ -1104,7 +1104,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 291]                                        %! SM4
+    % [K GlobalSkips measure 291 / measure 27]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -1134,7 +1134,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 292]                                        %! SM4
+    % [K GlobalSkips measure 292 / measure 28]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1164,7 +1164,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 293]                                        %! SM4
+    % [K GlobalSkips measure 293 / measure 29]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1201,7 +1201,7 @@ K_GlobalSkips = {
     \repeat volta 2
     {
         
-        % [K GlobalSkips measure 294]                                    %! SM4
+        % [K GlobalSkips measure 294 / measure 30]                       %! SM4
         \time 3/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 3/8
@@ -1249,7 +1249,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 295]                                    %! SM4
+        % [K GlobalSkips measure 295 / measure 31]                       %! SM4
         \time 4/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/2
@@ -1279,7 +1279,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 296]                                    %! SM4
+        % [K GlobalSkips measure 296 / measure 32]                       %! SM4
         \time 8/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1
@@ -1309,7 +1309,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 297]                                    %! SM4
+        % [K GlobalSkips measure 297 / measure 33]                       %! SM4
         \time 9/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 9/8
@@ -1339,7 +1339,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 298]                                    %! SM4
+        % [K GlobalSkips measure 298 / measure 34]                       %! SM4
         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
         s1 * 9/8
         ^ \markup {
@@ -1368,7 +1368,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 299]                                    %! SM4
+        % [K GlobalSkips measure 299 / measure 35]                       %! SM4
         \time 4/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/2
@@ -1403,7 +1403,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 300]                                    %! SM4
+        % [K GlobalSkips measure 300 / measure 36]                       %! SM4
         \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/2
         ^ \markup {
@@ -1432,7 +1432,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 301]                                    %! SM4
+        % [K GlobalSkips measure 301 / measure 37]                       %! SM4
         \time 3/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 3/8
@@ -1462,7 +1462,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 302]                                    %! SM4
+        % [K GlobalSkips measure 302 / measure 38]                       %! SM4
         \time 6/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 3/4
@@ -1492,7 +1492,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 303]                                    %! SM4
+        % [K GlobalSkips measure 303 / measure 39]                       %! SM4
         \time 7/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 7/8
@@ -1523,7 +1523,7 @@ K_GlobalSkips = {
             }
     }
     
-    % [K GlobalSkips measure 304]                                        %! SM4
+    % [K GlobalSkips measure 304 / measure 40]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1558,7 +1558,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 305]                                        %! SM4
+    % [K GlobalSkips measure 305 / measure 41]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -1593,7 +1593,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 306]                                        %! SM4
+    % [K GlobalSkips measure 306 / measure 42]                           %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -1623,7 +1623,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 307]                                        %! SM4
+    % [K GlobalSkips measure 307 / measure 43]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
     ^ \markup {
@@ -1652,7 +1652,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 308]                                        %! SM4
+    % [K GlobalSkips measure 308 / measure 44]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -1682,7 +1682,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 309]                                        %! SM4
+    % [K GlobalSkips measure 309 / measure 45]                           %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -1712,7 +1712,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 310]                                        %! SM4
+    % [K GlobalSkips measure 310 / measure 46]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1747,7 +1747,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 311]                                        %! SM4
+    % [K GlobalSkips measure 311 / measure 47]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1782,7 +1782,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 312]                                        %! SM4
+    % [K GlobalSkips measure 312 / measure 48]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -1812,7 +1812,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 313]                                        %! SM4
+    % [K GlobalSkips measure 313 / measure 49]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
@@ -1846,7 +1846,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 314]                                        %! SM4
+    % [K GlobalSkips measure 314 / measure 50]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -1876,7 +1876,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 315]                                        %! SM4
+    % [K GlobalSkips measure 315 / measure 51]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1911,7 +1911,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 316]                                        %! SM4
+    % [K GlobalSkips measure 316 / measure 52]                           %! SM4
     \time 9/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
@@ -1941,7 +1941,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 317]                                        %! SM4
+    % [K GlobalSkips measure 317 / measure 53]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
@@ -2007,7 +2007,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 318]                                        %! SM4
+    % [K GlobalSkips measure 318 / measure 54]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -2037,7 +2037,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 319]                                        %! SM4
+    % [K GlobalSkips measure 319 / measure 55]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -2074,7 +2074,7 @@ K_GlobalSkips = {
     \repeat volta 2
     {
         
-        % [K GlobalSkips measure 320]                                    %! SM4
+        % [K GlobalSkips measure 320 / measure 56]                       %! SM4
         \override TextScript.extra-offset = #'(1.5 . 6)                  %! OC1
         \time 3/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
@@ -2173,7 +2173,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 321]                                    %! SM4
+        % [K GlobalSkips measure 321 / measure 57]                       %! SM4
         \time 6/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 3/4
@@ -2203,7 +2203,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 322]                                    %! SM4
+        % [K GlobalSkips measure 322 / measure 58]                       %! SM4
         \time 7/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 7/8
@@ -2233,7 +2233,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 323]                                    %! SM4
+        % [K GlobalSkips measure 323 / measure 59]                       %! SM4
         \time 9/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 9/8
@@ -2263,7 +2263,7 @@ K_GlobalSkips = {
                 }
             }
         
-        % [K GlobalSkips measure 324]                                    %! SM4
+        % [K GlobalSkips measure 324 / measure 60]                       %! SM4
         \time 4/8                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/2
@@ -2295,7 +2295,7 @@ K_GlobalSkips = {
         \revert TextScript.extra-offset                                  %! OC2
     }
     
-    % [K GlobalSkips measure 325]                                        %! SM4
+    % [K GlobalSkips measure 325 / measure 61]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -2330,7 +2330,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 326]                                        %! SM4
+    % [K GlobalSkips measure 326 / measure 62]                           %! SM4
     \time 9/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
@@ -2360,7 +2360,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 327]                                        %! SM4
+    % [K GlobalSkips measure 327 / measure 63]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -2395,7 +2395,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 328]                                        %! SM4
+    % [K GlobalSkips measure 328 / measure 64]                           %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -2425,7 +2425,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 329]                                        %! SM4
+    % [K GlobalSkips measure 329 / measure 65]                           %! SM4
     \time 9/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
@@ -2455,7 +2455,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 330]                                        %! SM4
+    % [K GlobalSkips measure 330 / measure 66]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
     ^ \markup {
@@ -2484,7 +2484,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 331]                                        %! SM4
+    % [K GlobalSkips measure 331 / measure 67]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -2514,7 +2514,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 332]                                        %! SM4
+    % [K GlobalSkips measure 332 / measure 68]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -2544,7 +2544,7 @@ K_GlobalSkips = {
             }
         }
     
-    % [K GlobalSkips measure 333]                                        %! SM4
+    % [K GlobalSkips measure 333 / measure 69]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -2587,7 +2587,7 @@ K_GlobalSkips = {
 
 K_ViolinIMusicVoice = {
     
-    % [K ViolinIMusicVoice measure 265]                          %! SM4
+    % [K ViolinIMusicVoice measure 265 / measure 1]              %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2651,25 +2651,25 @@ K_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K ViolinIMusicVoice measure 266]                          %! SM4
+    % [K ViolinIMusicVoice measure 266 / measure 2]              %! SM4
     a''1
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 267]                          %! SM4
+    % [K ViolinIMusicVoice measure 267 / measure 3]              %! SM4
     a''2.
     \repeatTie
     
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 268]                          %! SM4
+    % [K ViolinIMusicVoice measure 268 / measure 4]              %! SM4
     a''2.
     \repeatTie
     
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 269]                          %! SM4
+    % [K ViolinIMusicVoice measure 269 / measure 5]              %! SM4
     a''4.
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -2706,20 +2706,20 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 270]                          %! SM4
+    % [K ViolinIMusicVoice measure 270 / measure 6]              %! SM4
     a''2
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 271]                          %! SM4
+    % [K ViolinIMusicVoice measure 271 / measure 7]              %! SM4
     a''4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 272]                          %! SM4
+    % [K ViolinIMusicVoice measure 272 / measure 8]              %! SM4
     a''2.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 273]                          %! SM4
+    % [K ViolinIMusicVoice measure 273 / measure 9]              %! SM4
     a''2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -2756,20 +2756,20 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 274]                          %! SM4
+    % [K ViolinIMusicVoice measure 274 / measure 10]             %! SM4
     a''2..
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 275]                          %! SM4
+    % [K ViolinIMusicVoice measure 275 / measure 11]             %! SM4
     a''2
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 276]                          %! SM4
+    % [K ViolinIMusicVoice measure 276 / measure 12]             %! SM4
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 277]                          %! SM4
+    % [K ViolinIMusicVoice measure 277 / measure 13]             %! SM4
     a''2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -2806,22 +2806,22 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 278]                          %! SM4
+    % [K ViolinIMusicVoice measure 278 / measure 14]             %! SM4
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 279]                          %! SM4
+    % [K ViolinIMusicVoice measure 279 / measure 15]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     a''2.
     \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 280]                          %! SM4
+    % [K ViolinIMusicVoice measure 280 / measure 16]             %! SM4
     a''2..
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 281]                          %! SM4
+    % [K ViolinIMusicVoice measure 281 / measure 17]             %! SM4
     a''2.
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -2861,15 +2861,15 @@ K_ViolinIMusicVoice = {
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 282]                          %! SM4
+    % [K ViolinIMusicVoice measure 282 / measure 18]             %! SM4
     a''2
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 283]                          %! SM4
+    % [K ViolinIMusicVoice measure 283 / measure 19]             %! SM4
     a''1
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 284]                          %! SM4
+    % [K ViolinIMusicVoice measure 284 / measure 20]             %! SM4
     a''2.
     \repeatTie
     \stopTextSpan                                                %! PWC1
@@ -2877,7 +2877,7 @@ K_ViolinIMusicVoice = {
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 285]                          %! SM4
+    % [K ViolinIMusicVoice measure 285 / measure 21]             %! SM4
     a''2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -2914,20 +2914,20 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 286]                          %! SM4
+    % [K ViolinIMusicVoice measure 286 / measure 22]             %! SM4
     a''2..
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 287]                          %! SM4
+    % [K ViolinIMusicVoice measure 287 / measure 23]             %! SM4
     a''4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 288]                          %! SM4
+    % [K ViolinIMusicVoice measure 288 / measure 24]             %! SM4
     a''2.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 289]                          %! SM4
+    % [K ViolinIMusicVoice measure 289 / measure 25]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
@@ -2970,28 +2970,28 @@ K_ViolinIMusicVoice = {
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 290]                          %! SM4
+    % [K ViolinIMusicVoice measure 290 / measure 26]             %! SM4
     a''2.
     \repeatTie
     
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 291]                          %! SM4
+    % [K ViolinIMusicVoice measure 291 / measure 27]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a''2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 292]                          %! SM4
+    % [K ViolinIMusicVoice measure 292 / measure 28]             %! SM4
     a''1
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 293]                          %! SM4
+    % [K ViolinIMusicVoice measure 293 / measure 29]             %! SM4
     R1 * 1/4
     
-    % [K ViolinIMusicVoice measure 294]                          %! SM4
+    % [K ViolinIMusicVoice measure 294 / measure 30]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''4.
     \<                                                           %! HC1
@@ -3030,25 +3030,25 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 295]                          %! SM4
+    % [K ViolinIMusicVoice measure 295 / measure 31]             %! SM4
     a''2
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 296]                          %! SM4
+    % [K ViolinIMusicVoice measure 296 / measure 32]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a''1
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 297]                          %! SM4
+    % [K ViolinIMusicVoice measure 297 / measure 33]             %! SM4
     a''2.
     \repeatTie
     
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 298]                          %! SM4
+    % [K ViolinIMusicVoice measure 298 / measure 34]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
@@ -3094,7 +3094,7 @@ K_ViolinIMusicVoice = {
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 299]                          %! SM4
+    % [K ViolinIMusicVoice measure 299 / measure 35]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2
     \<                                                           %! HC1
@@ -3133,18 +3133,18 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 300]                          %! SM4
+    % [K ViolinIMusicVoice measure 300 / measure 36]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a''2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 301]                          %! SM4
+    % [K ViolinIMusicVoice measure 301 / measure 37]             %! SM4
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 302]                          %! SM4
+    % [K ViolinIMusicVoice measure 302 / measure 38]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
@@ -3184,17 +3184,17 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 303]                          %! SM4
+    % [K ViolinIMusicVoice measure 303 / measure 39]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a''2..
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 304]                          %! SM4
+    % [K ViolinIMusicVoice measure 304 / measure 40]             %! SM4
     R1 * 1/4
     
-    % [K ViolinIMusicVoice measure 305]                          %! SM4
+    % [K ViolinIMusicVoice measure 305 / measure 41]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2..
     \>                                                           %! HC1
@@ -3233,56 +3233,56 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 306]                          %! SM4
+    % [K ViolinIMusicVoice measure 306 / measure 42]             %! SM4
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 307]                          %! SM4
+    % [K ViolinIMusicVoice measure 307 / measure 43]             %! SM4
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 308]                          %! SM4
+    % [K ViolinIMusicVoice measure 308 / measure 44]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a''2
     \repeatTie
     \pp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 309]                          %! SM4
+    % [K ViolinIMusicVoice measure 309 / measure 45]             %! SM4
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 310]                          %! SM4
+    % [K ViolinIMusicVoice measure 310 / measure 46]             %! SM4
     R1 * 1/4
     \revert TextSpanner.staff-padding                            %! OC2
     
-    % [K ViolinIMusicVoice measure 311]                          %! SM4
+    % [K ViolinIMusicVoice measure 311 / measure 47]             %! SM4
     a''2.
     
-    % [K ViolinIMusicVoice measure 312]                          %! SM4
+    % [K ViolinIMusicVoice measure 312 / measure 48]             %! SM4
     a''2..
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 313]                          %! SM4
+    % [K ViolinIMusicVoice measure 313 / measure 49]             %! SM4
     a''2..
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 314]                          %! SM4
+    % [K ViolinIMusicVoice measure 314 / measure 50]             %! SM4
     a''2
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 315]                          %! SM4
+    % [K ViolinIMusicVoice measure 315 / measure 51]             %! SM4
     a''1
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 316]                          %! SM4
+    % [K ViolinIMusicVoice measure 316 / measure 52]             %! SM4
     a''2.
     \repeatTie
     
     a''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 317]                          %! SM4
+    % [K ViolinIMusicVoice measure 317 / measure 53]             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -3299,18 +3299,18 @@ K_ViolinIMusicVoice = {
     b''''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 318]                          %! SM4
+    % [K ViolinIMusicVoice measure 318 / measure 54]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b''''2..
     \repeatTie
     \f                                                           %! HC1
     \ottava #0                                                   %! SC
     
-    % [K ViolinIMusicVoice measure 319]                          %! SM4
+    % [K ViolinIMusicVoice measure 319 / measure 55]             %! SM4
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     
-    % [K ViolinIMusicVoice measure 320]                          %! SM4
+    % [K ViolinIMusicVoice measure 320 / measure 56]             %! SM4
     \override Staff.OttavaBracket.staff-padding = #12            %! OC1
     \override TextSpanner.staff-padding = #9.5                   %! OC1
     \ottava #1                                                   %! SC
@@ -3353,18 +3353,18 @@ K_ViolinIMusicVoice = {
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
-    % [K ViolinIMusicVoice measure 321]                          %! SM4
+    % [K ViolinIMusicVoice measure 321 / measure 57]             %! SM4
     b''''2.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 322]                          %! SM4
+    % [K ViolinIMusicVoice measure 322 / measure 58]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b''''2..
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 323]                          %! SM4
+    % [K ViolinIMusicVoice measure 323 / measure 59]             %! SM4
     b''''2.
     \repeatTie
     
@@ -3407,14 +3407,14 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIMusicVoice measure 324]                          %! SM4
+    % [K ViolinIMusicVoice measure 324 / measure 60]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b''''2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 325]                          %! SM4
+    % [K ViolinIMusicVoice measure 325 / measure 61]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''''1
     \stopTrillSpan                                               %! SC
@@ -3455,49 +3455,49 @@ K_ViolinIMusicVoice = {
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
-    % [K ViolinIMusicVoice measure 326]                          %! SM4
+    % [K ViolinIMusicVoice measure 326 / measure 62]             %! SM4
     b''''2.
     \repeatTie
     
     b''''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 327]                          %! SM4
+    % [K ViolinIMusicVoice measure 327 / measure 63]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b''''2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIMusicVoice measure 328]                          %! SM4
+    % [K ViolinIMusicVoice measure 328 / measure 64]             %! SM4
     b''''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 329]                          %! SM4
+    % [K ViolinIMusicVoice measure 329 / measure 65]             %! SM4
     b''''2.
     \repeatTie
     
     b''''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 330]                          %! SM4
+    % [K ViolinIMusicVoice measure 330 / measure 66]             %! SM4
     b''''2.
     \repeatTie
     
     b''''4.
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 331]                          %! SM4
+    % [K ViolinIMusicVoice measure 331 / measure 67]             %! SM4
     b''''2
     \repeatTie
     
-    % [K ViolinIMusicVoice measure 332]                          %! SM4
+    % [K ViolinIMusicVoice measure 332 / measure 68]             %! SM4
     b''''1
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     \ottava #0                                                   %! SC
     
-    % [K ViolinIMusicVoice measure 333]                          %! SM4
+    % [K ViolinIMusicVoice measure 333 / measure 69]             %! SM4
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     \revert Staff.OttavaBracket.staff-padding                    %! OC2
@@ -3514,7 +3514,7 @@ K_ViolinIMusicStaff = {
 
 K_ViolinIIMusicVoice = {
     
-    % [K ViolinIIMusicVoice measure 265]                         %! SM4
+    % [K ViolinIIMusicVoice measure 265 / measure 1]             %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3578,25 +3578,25 @@ K_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K ViolinIIMusicVoice measure 266]                         %! SM4
+    % [K ViolinIIMusicVoice measure 266 / measure 2]             %! SM4
     gtqs'!1
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 267]                         %! SM4
+    % [K ViolinIIMusicVoice measure 267 / measure 3]             %! SM4
     gtqs'!2.
     \repeatTie
     
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 268]                         %! SM4
+    % [K ViolinIIMusicVoice measure 268 / measure 4]             %! SM4
     gtqs'!2.
     \repeatTie
     
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 269]                         %! SM4
+    % [K ViolinIIMusicVoice measure 269 / measure 5]             %! SM4
     gtqs'!4.
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3633,20 +3633,20 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 270]                         %! SM4
+    % [K ViolinIIMusicVoice measure 270 / measure 6]             %! SM4
     gtqs'!2
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 271]                         %! SM4
+    % [K ViolinIIMusicVoice measure 271 / measure 7]             %! SM4
     gtqs'!4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 272]                         %! SM4
+    % [K ViolinIIMusicVoice measure 272 / measure 8]             %! SM4
     gtqs'!2.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 273]                         %! SM4
+    % [K ViolinIIMusicVoice measure 273 / measure 9]             %! SM4
     gtqs'!2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3683,20 +3683,20 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 274]                         %! SM4
+    % [K ViolinIIMusicVoice measure 274 / measure 10]            %! SM4
     gtqs'!2..
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 275]                         %! SM4
+    % [K ViolinIIMusicVoice measure 275 / measure 11]            %! SM4
     gtqs'!2
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 276]                         %! SM4
+    % [K ViolinIIMusicVoice measure 276 / measure 12]            %! SM4
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 277]                         %! SM4
+    % [K ViolinIIMusicVoice measure 277 / measure 13]            %! SM4
     gtqs'!2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3733,22 +3733,22 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 278]                         %! SM4
+    % [K ViolinIIMusicVoice measure 278 / measure 14]            %! SM4
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 279]                         %! SM4
+    % [K ViolinIIMusicVoice measure 279 / measure 15]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gtqs'!2.
     \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 280]                         %! SM4
+    % [K ViolinIIMusicVoice measure 280 / measure 16]            %! SM4
     gtqs'!2..
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 281]                         %! SM4
+    % [K ViolinIIMusicVoice measure 281 / measure 17]            %! SM4
     gtqs'!2.
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3788,15 +3788,15 @@ K_ViolinIIMusicVoice = {
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 282]                         %! SM4
+    % [K ViolinIIMusicVoice measure 282 / measure 18]            %! SM4
     gtqs'!2
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 283]                         %! SM4
+    % [K ViolinIIMusicVoice measure 283 / measure 19]            %! SM4
     gtqs'!1
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 284]                         %! SM4
+    % [K ViolinIIMusicVoice measure 284 / measure 20]            %! SM4
     gtqs'!2.
     \repeatTie
     \stopTextSpan                                                %! PWC1
@@ -3804,7 +3804,7 @@ K_ViolinIIMusicVoice = {
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 285]                         %! SM4
+    % [K ViolinIIMusicVoice measure 285 / measure 21]            %! SM4
     gtqs'!2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3841,20 +3841,20 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 286]                         %! SM4
+    % [K ViolinIIMusicVoice measure 286 / measure 22]            %! SM4
     gtqs'!2..
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 287]                         %! SM4
+    % [K ViolinIIMusicVoice measure 287 / measure 23]            %! SM4
     gtqs'!4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 288]                         %! SM4
+    % [K ViolinIIMusicVoice measure 288 / measure 24]            %! SM4
     gtqs'!2.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 289]                         %! SM4
+    % [K ViolinIIMusicVoice measure 289 / measure 25]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2.
     \repeatTie
@@ -3897,28 +3897,28 @@ K_ViolinIIMusicVoice = {
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 290]                         %! SM4
+    % [K ViolinIIMusicVoice measure 290 / measure 26]            %! SM4
     gtqs'!2.
     \repeatTie
     
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 291]                         %! SM4
+    % [K ViolinIIMusicVoice measure 291 / measure 27]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gtqs'!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 292]                         %! SM4
+    % [K ViolinIIMusicVoice measure 292 / measure 28]            %! SM4
     gtqs'!1
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 293]                         %! SM4
+    % [K ViolinIIMusicVoice measure 293 / measure 29]            %! SM4
     R1 * 1/4
     
-    % [K ViolinIIMusicVoice measure 294]                         %! SM4
+    % [K ViolinIIMusicVoice measure 294 / measure 30]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4.
     \<                                                           %! HC1
@@ -3957,25 +3957,25 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 295]                         %! SM4
+    % [K ViolinIIMusicVoice measure 295 / measure 31]            %! SM4
     a'2
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 296]                         %! SM4
+    % [K ViolinIIMusicVoice measure 296 / measure 32]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a'1
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 297]                         %! SM4
+    % [K ViolinIIMusicVoice measure 297 / measure 33]            %! SM4
     a'2.
     \repeatTie
     
     a'4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 298]                         %! SM4
+    % [K ViolinIIMusicVoice measure 298 / measure 34]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'2.
     \repeatTie
@@ -4021,7 +4021,7 @@ K_ViolinIIMusicVoice = {
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 299]                         %! SM4
+    % [K ViolinIIMusicVoice measure 299 / measure 35]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2
     \<                                                           %! HC1
@@ -4060,18 +4060,18 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 300]                         %! SM4
+    % [K ViolinIIMusicVoice measure 300 / measure 36]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gtqs'!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 301]                         %! SM4
+    % [K ViolinIIMusicVoice measure 301 / measure 37]            %! SM4
     gtqs'!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 302]                         %! SM4
+    % [K ViolinIIMusicVoice measure 302 / measure 38]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2.
     \repeatTie
@@ -4111,17 +4111,17 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 303]                         %! SM4
+    % [K ViolinIIMusicVoice measure 303 / measure 39]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gtqs'!2..
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 304]                         %! SM4
+    % [K ViolinIIMusicVoice measure 304 / measure 40]            %! SM4
     R1 * 1/4
     
-    % [K ViolinIIMusicVoice measure 305]                         %! SM4
+    % [K ViolinIIMusicVoice measure 305 / measure 41]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'2..
     \>                                                           %! HC1
@@ -4160,45 +4160,45 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 306]                         %! SM4
+    % [K ViolinIIMusicVoice measure 306 / measure 42]            %! SM4
     a'4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 307]                         %! SM4
+    % [K ViolinIIMusicVoice measure 307 / measure 43]            %! SM4
     a'4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 308]                         %! SM4
+    % [K ViolinIIMusicVoice measure 308 / measure 44]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a'2
     \repeatTie
     \pp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 309]                         %! SM4
+    % [K ViolinIIMusicVoice measure 309 / measure 45]            %! SM4
     a'4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 310]                         %! SM4
+    % [K ViolinIIMusicVoice measure 310 / measure 46]            %! SM4
     R1 * 1/4
     \revert TextSpanner.staff-padding                            %! OC2
     
-    % [K ViolinIIMusicVoice measure 311]                         %! SM4
+    % [K ViolinIIMusicVoice measure 311 / measure 47]            %! SM4
     a'2.
     
-    % [K ViolinIIMusicVoice measure 312]                         %! SM4
+    % [K ViolinIIMusicVoice measure 312 / measure 48]            %! SM4
     a'2..
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 313]                         %! SM4
+    % [K ViolinIIMusicVoice measure 313 / measure 49]            %! SM4
     a'2..
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 314]                         %! SM4
+    % [K ViolinIIMusicVoice measure 314 / measure 50]            %! SM4
     a'2
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 315]                         %! SM4
+    % [K ViolinIIMusicVoice measure 315 / measure 51]            %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -4212,14 +4212,14 @@ K_ViolinIIMusicVoice = {
         }                                                        %! IC
     \startTrillSpan                                              %! SC
     
-    % [K ViolinIIMusicVoice measure 316]                         %! SM4
+    % [K ViolinIIMusicVoice measure 316 / measure 52]            %! SM4
     cs''''!2.
     \repeatTie
     
     cs''''!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 317]                         %! SM4
+    % [K ViolinIIMusicVoice measure 317 / measure 53]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     cs''''!2.
     \repeatTie
@@ -4228,16 +4228,16 @@ K_ViolinIIMusicVoice = {
     cs''''!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 318]                         %! SM4
+    % [K ViolinIIMusicVoice measure 318 / measure 54]            %! SM4
     cs''''!2..
     \repeatTie
     \ottava #0                                                   %! SC
     
-    % [K ViolinIIMusicVoice measure 319]                         %! SM4
+    % [K ViolinIIMusicVoice measure 319 / measure 55]            %! SM4
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     
-    % [K ViolinIIMusicVoice measure 320]                         %! SM4
+    % [K ViolinIIMusicVoice measure 320 / measure 56]            %! SM4
     \override Staff.OttavaBracket.staff-padding = #10            %! OC1
     \override TextSpanner.staff-padding = #7.5                   %! OC1
     \ottava #1                                                   %! SC
@@ -4280,18 +4280,18 @@ K_ViolinIIMusicVoice = {
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
-    % [K ViolinIIMusicVoice measure 321]                         %! SM4
+    % [K ViolinIIMusicVoice measure 321 / measure 57]            %! SM4
     cs''''!2.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 322]                         %! SM4
+    % [K ViolinIIMusicVoice measure 322 / measure 58]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     cs''''!2..
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 323]                         %! SM4
+    % [K ViolinIIMusicVoice measure 323 / measure 59]            %! SM4
     cs''''!2.
     \repeatTie
     
@@ -4334,14 +4334,14 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolinIIMusicVoice measure 324]                         %! SM4
+    % [K ViolinIIMusicVoice measure 324 / measure 60]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     cs''''!2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 325]                         %! SM4
+    % [K ViolinIIMusicVoice measure 325 / measure 61]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs''''!1
     \stopTrillSpan                                               %! SC
@@ -4382,49 +4382,49 @@ K_ViolinIIMusicVoice = {
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
-    % [K ViolinIIMusicVoice measure 326]                         %! SM4
+    % [K ViolinIIMusicVoice measure 326 / measure 62]            %! SM4
     cs''''!2.
     \repeatTie
     
     cs''''!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 327]                         %! SM4
+    % [K ViolinIIMusicVoice measure 327 / measure 63]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     cs''''!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolinIIMusicVoice measure 328]                         %! SM4
+    % [K ViolinIIMusicVoice measure 328 / measure 64]            %! SM4
     cs''''!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 329]                         %! SM4
+    % [K ViolinIIMusicVoice measure 329 / measure 65]            %! SM4
     cs''''!2.
     \repeatTie
     
     cs''''!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 330]                         %! SM4
+    % [K ViolinIIMusicVoice measure 330 / measure 66]            %! SM4
     cs''''!2.
     \repeatTie
     
     cs''''!4.
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 331]                         %! SM4
+    % [K ViolinIIMusicVoice measure 331 / measure 67]            %! SM4
     cs''''!2
     \repeatTie
     
-    % [K ViolinIIMusicVoice measure 332]                         %! SM4
+    % [K ViolinIIMusicVoice measure 332 / measure 68]            %! SM4
     cs''''!1
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     \ottava #0                                                   %! SC
     
-    % [K ViolinIIMusicVoice measure 333]                         %! SM4
+    % [K ViolinIIMusicVoice measure 333 / measure 69]            %! SM4
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     \revert Staff.OttavaBracket.staff-padding                    %! OC2
@@ -4441,7 +4441,7 @@ K_ViolinIIMusicStaff = {
 
 K_ViolaMusicVoice = {
     
-    % [K ViolaMusicVoice measure 265]                            %! SM4
+    % [K ViolaMusicVoice measure 265 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4505,25 +4505,25 @@ K_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K ViolaMusicVoice measure 266]                            %! SM4
+    % [K ViolaMusicVoice measure 266 / measure 2]                %! SM4
     aqs,!1
     \repeatTie
     
-    % [K ViolaMusicVoice measure 267]                            %! SM4
+    % [K ViolaMusicVoice measure 267 / measure 3]                %! SM4
     aqs,!2.
     \repeatTie
     
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 268]                            %! SM4
+    % [K ViolaMusicVoice measure 268 / measure 4]                %! SM4
     aqs,!2.
     \repeatTie
     
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 269]                            %! SM4
+    % [K ViolaMusicVoice measure 269 / measure 5]                %! SM4
     aqs,!4.
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4560,20 +4560,20 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 270]                            %! SM4
+    % [K ViolaMusicVoice measure 270 / measure 6]                %! SM4
     aqs,!2
     \repeatTie
     
-    % [K ViolaMusicVoice measure 271]                            %! SM4
+    % [K ViolaMusicVoice measure 271 / measure 7]                %! SM4
     aqs,!4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 272]                            %! SM4
+    % [K ViolaMusicVoice measure 272 / measure 8]                %! SM4
     aqs,!2.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 273]                            %! SM4
+    % [K ViolaMusicVoice measure 273 / measure 9]                %! SM4
     aqs,!2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4610,20 +4610,20 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 274]                            %! SM4
+    % [K ViolaMusicVoice measure 274 / measure 10]               %! SM4
     aqs,!2..
     \repeatTie
     
-    % [K ViolaMusicVoice measure 275]                            %! SM4
+    % [K ViolaMusicVoice measure 275 / measure 11]               %! SM4
     aqs,!2
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 276]                            %! SM4
+    % [K ViolaMusicVoice measure 276 / measure 12]               %! SM4
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 277]                            %! SM4
+    % [K ViolaMusicVoice measure 277 / measure 13]               %! SM4
     aqs,!2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4660,22 +4660,22 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 278]                            %! SM4
+    % [K ViolaMusicVoice measure 278 / measure 14]               %! SM4
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 279]                            %! SM4
+    % [K ViolaMusicVoice measure 279 / measure 15]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     aqs,!2.
     \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 280]                            %! SM4
+    % [K ViolaMusicVoice measure 280 / measure 16]               %! SM4
     aqs,!2..
     \repeatTie
     
-    % [K ViolaMusicVoice measure 281]                            %! SM4
+    % [K ViolaMusicVoice measure 281 / measure 17]               %! SM4
     aqs,!2.
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4715,15 +4715,15 @@ K_ViolaMusicVoice = {
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 282]                            %! SM4
+    % [K ViolaMusicVoice measure 282 / measure 18]               %! SM4
     aqs,!2
     \repeatTie
     
-    % [K ViolaMusicVoice measure 283]                            %! SM4
+    % [K ViolaMusicVoice measure 283 / measure 19]               %! SM4
     aqs,!1
     \repeatTie
     
-    % [K ViolaMusicVoice measure 284]                            %! SM4
+    % [K ViolaMusicVoice measure 284 / measure 20]               %! SM4
     aqs,!2.
     \repeatTie
     \stopTextSpan                                                %! PWC1
@@ -4731,7 +4731,7 @@ K_ViolaMusicVoice = {
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 285]                            %! SM4
+    % [K ViolaMusicVoice measure 285 / measure 21]               %! SM4
     aqs,!2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4768,20 +4768,20 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 286]                            %! SM4
+    % [K ViolaMusicVoice measure 286 / measure 22]               %! SM4
     aqs,!2..
     \repeatTie
     
-    % [K ViolaMusicVoice measure 287]                            %! SM4
+    % [K ViolaMusicVoice measure 287 / measure 23]               %! SM4
     aqs,!4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 288]                            %! SM4
+    % [K ViolaMusicVoice measure 288 / measure 24]               %! SM4
     aqs,!2.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 289]                            %! SM4
+    % [K ViolaMusicVoice measure 289 / measure 25]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2.
     \repeatTie
@@ -4824,28 +4824,28 @@ K_ViolaMusicVoice = {
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 290]                            %! SM4
+    % [K ViolaMusicVoice measure 290 / measure 26]               %! SM4
     aqs,!2.
     \repeatTie
     
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 291]                            %! SM4
+    % [K ViolaMusicVoice measure 291 / measure 27]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     aqs,!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 292]                            %! SM4
+    % [K ViolaMusicVoice measure 292 / measure 28]               %! SM4
     aqs,!1
     \repeatTie
     
-    % [K ViolaMusicVoice measure 293]                            %! SM4
+    % [K ViolaMusicVoice measure 293 / measure 29]               %! SM4
     R1 * 1/4
     
-    % [K ViolaMusicVoice measure 294]                            %! SM4
+    % [K ViolaMusicVoice measure 294 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,4.
     \<                                                           %! HC1
@@ -4884,25 +4884,25 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 295]                            %! SM4
+    % [K ViolaMusicVoice measure 295 / measure 31]               %! SM4
     a,2
     \repeatTie
     
-    % [K ViolaMusicVoice measure 296]                            %! SM4
+    % [K ViolaMusicVoice measure 296 / measure 32]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a,1
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 297]                            %! SM4
+    % [K ViolaMusicVoice measure 297 / measure 33]               %! SM4
     a,2.
     \repeatTie
     
     a,4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 298]                            %! SM4
+    % [K ViolaMusicVoice measure 298 / measure 34]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,2.
     \repeatTie
@@ -4948,7 +4948,7 @@ K_ViolaMusicVoice = {
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 299]                            %! SM4
+    % [K ViolaMusicVoice measure 299 / measure 35]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2
     \<                                                           %! HC1
@@ -4987,18 +4987,18 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 300]                            %! SM4
+    % [K ViolaMusicVoice measure 300 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     aqs,!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 301]                            %! SM4
+    % [K ViolaMusicVoice measure 301 / measure 37]               %! SM4
     aqs,!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 302]                            %! SM4
+    % [K ViolaMusicVoice measure 302 / measure 38]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2.
     \repeatTie
@@ -5038,17 +5038,17 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 303]                            %! SM4
+    % [K ViolaMusicVoice measure 303 / measure 39]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     aqs,!2..
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 304]                            %! SM4
+    % [K ViolaMusicVoice measure 304 / measure 40]               %! SM4
     R1 * 1/4
     
-    % [K ViolaMusicVoice measure 305]                            %! SM4
+    % [K ViolaMusicVoice measure 305 / measure 41]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,2..
     \>                                                           %! HC1
@@ -5087,37 +5087,37 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 306]                            %! SM4
+    % [K ViolaMusicVoice measure 306 / measure 42]               %! SM4
     a,4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 307]                            %! SM4
+    % [K ViolaMusicVoice measure 307 / measure 43]               %! SM4
     a,4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 308]                            %! SM4
+    % [K ViolaMusicVoice measure 308 / measure 44]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a,2
     \repeatTie
     \pp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 309]                            %! SM4
+    % [K ViolaMusicVoice measure 309 / measure 45]               %! SM4
     a,4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 310]                            %! SM4
+    % [K ViolaMusicVoice measure 310 / measure 46]               %! SM4
     R1 * 1/4
     \revert TextSpanner.staff-padding                            %! OC2
     
-    % [K ViolaMusicVoice measure 311]                            %! SM4
+    % [K ViolaMusicVoice measure 311 / measure 47]               %! SM4
     a,2.
     
-    % [K ViolaMusicVoice measure 312]                            %! SM4
+    % [K ViolaMusicVoice measure 312 / measure 48]               %! SM4
     a,2..
     \repeatTie
     
-    % [K ViolaMusicVoice measure 313]                            %! SM4
+    % [K ViolaMusicVoice measure 313 / measure 49]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \clef "treble"                                               %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
@@ -5135,15 +5135,15 @@ K_ViolaMusicVoice = {
     \startTrillSpan                                              %! SC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [K ViolaMusicVoice measure 314]                            %! SM4
+    % [K ViolaMusicVoice measure 314 / measure 50]               %! SM4
     gqf''!2
     \repeatTie
     
-    % [K ViolaMusicVoice measure 315]                            %! SM4
+    % [K ViolaMusicVoice measure 315 / measure 51]               %! SM4
     gqf''!1
     \repeatTie
     
-    % [K ViolaMusicVoice measure 316]                            %! SM4
+    % [K ViolaMusicVoice measure 316 / measure 52]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gqf''!2.
     \repeatTie
@@ -5152,22 +5152,22 @@ K_ViolaMusicVoice = {
     gqf''!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 317]                            %! SM4
+    % [K ViolaMusicVoice measure 317 / measure 53]               %! SM4
     gqf''!2.
     \repeatTie
     
     gqf''!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 318]                            %! SM4
+    % [K ViolaMusicVoice measure 318 / measure 54]               %! SM4
     gqf''!2..
     \repeatTie
     
-    % [K ViolaMusicVoice measure 319]                            %! SM4
+    % [K ViolaMusicVoice measure 319 / measure 55]               %! SM4
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     
-    % [K ViolaMusicVoice measure 320]                            %! SM4
+    % [K ViolaMusicVoice measure 320 / measure 56]               %! SM4
     \override TextSpanner.staff-padding = #7                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!4.
@@ -5208,18 +5208,18 @@ K_ViolaMusicVoice = {
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
-    % [K ViolaMusicVoice measure 321]                            %! SM4
+    % [K ViolaMusicVoice measure 321 / measure 57]               %! SM4
     gqf''!2.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 322]                            %! SM4
+    % [K ViolaMusicVoice measure 322 / measure 58]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gqf''!2..
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 323]                            %! SM4
+    % [K ViolaMusicVoice measure 323 / measure 59]               %! SM4
     gqf''!2.
     \repeatTie
     
@@ -5262,14 +5262,14 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K ViolaMusicVoice measure 324]                            %! SM4
+    % [K ViolaMusicVoice measure 324 / measure 60]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gqf''!2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 325]                            %! SM4
+    % [K ViolaMusicVoice measure 325 / measure 61]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!1
     \stopTrillSpan                                               %! SC
@@ -5310,48 +5310,48 @@ K_ViolaMusicVoice = {
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
-    % [K ViolaMusicVoice measure 326]                            %! SM4
+    % [K ViolaMusicVoice measure 326 / measure 62]               %! SM4
     gqf''!2.
     \repeatTie
     
     gqf''!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 327]                            %! SM4
+    % [K ViolaMusicVoice measure 327 / measure 63]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gqf''!2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K ViolaMusicVoice measure 328]                            %! SM4
+    % [K ViolaMusicVoice measure 328 / measure 64]               %! SM4
     gqf''!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 329]                            %! SM4
+    % [K ViolaMusicVoice measure 329 / measure 65]               %! SM4
     gqf''!2.
     \repeatTie
     
     gqf''!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 330]                            %! SM4
+    % [K ViolaMusicVoice measure 330 / measure 66]               %! SM4
     gqf''!2.
     \repeatTie
     
     gqf''!4.
     \repeatTie
     
-    % [K ViolaMusicVoice measure 331]                            %! SM4
+    % [K ViolaMusicVoice measure 331 / measure 67]               %! SM4
     gqf''!2
     \repeatTie
     
-    % [K ViolaMusicVoice measure 332]                            %! SM4
+    % [K ViolaMusicVoice measure 332 / measure 68]               %! SM4
     gqf''!1
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     
-    % [K ViolaMusicVoice measure 333]                            %! SM4
+    % [K ViolaMusicVoice measure 333 / measure 69]               %! SM4
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     \revert TextSpanner.staff-padding                            %! OC2
@@ -5367,7 +5367,7 @@ K_ViolaMusicStaff = {
 
 K_CelloMusicVoice = {
     
-    % [K CelloMusicVoice measure 265]                            %! SM4
+    % [K CelloMusicVoice measure 265 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5427,25 +5427,25 @@ K_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K CelloMusicVoice measure 266]                            %! SM4
+    % [K CelloMusicVoice measure 266 / measure 2]                %! SM4
     a,,1
     \repeatTie
     
-    % [K CelloMusicVoice measure 267]                            %! SM4
+    % [K CelloMusicVoice measure 267 / measure 3]                %! SM4
     a,,2.
     \repeatTie
     
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 268]                            %! SM4
+    % [K CelloMusicVoice measure 268 / measure 4]                %! SM4
     a,,2.
     \repeatTie
     
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 269]                            %! SM4
+    % [K CelloMusicVoice measure 269 / measure 5]                %! SM4
     a,,4.
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5482,20 +5482,20 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 270]                            %! SM4
+    % [K CelloMusicVoice measure 270 / measure 6]                %! SM4
     a,,2
     \repeatTie
     
-    % [K CelloMusicVoice measure 271]                            %! SM4
+    % [K CelloMusicVoice measure 271 / measure 7]                %! SM4
     a,,4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 272]                            %! SM4
+    % [K CelloMusicVoice measure 272 / measure 8]                %! SM4
     a,,2.
     \repeatTie
     
-    % [K CelloMusicVoice measure 273]                            %! SM4
+    % [K CelloMusicVoice measure 273 / measure 9]                %! SM4
     a,,2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5532,20 +5532,20 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 274]                            %! SM4
+    % [K CelloMusicVoice measure 274 / measure 10]               %! SM4
     a,,2..
     \repeatTie
     
-    % [K CelloMusicVoice measure 275]                            %! SM4
+    % [K CelloMusicVoice measure 275 / measure 11]               %! SM4
     a,,2
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 276]                            %! SM4
+    % [K CelloMusicVoice measure 276 / measure 12]               %! SM4
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 277]                            %! SM4
+    % [K CelloMusicVoice measure 277 / measure 13]               %! SM4
     a,,2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5582,22 +5582,22 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 278]                            %! SM4
+    % [K CelloMusicVoice measure 278 / measure 14]               %! SM4
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 279]                            %! SM4
+    % [K CelloMusicVoice measure 279 / measure 15]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     a,,2.
     \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 280]                            %! SM4
+    % [K CelloMusicVoice measure 280 / measure 16]               %! SM4
     a,,2..
     \repeatTie
     
-    % [K CelloMusicVoice measure 281]                            %! SM4
+    % [K CelloMusicVoice measure 281 / measure 17]               %! SM4
     a,,2.
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5637,15 +5637,15 @@ K_CelloMusicVoice = {
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 282]                            %! SM4
+    % [K CelloMusicVoice measure 282 / measure 18]               %! SM4
     a,,2
     \repeatTie
     
-    % [K CelloMusicVoice measure 283]                            %! SM4
+    % [K CelloMusicVoice measure 283 / measure 19]               %! SM4
     a,,1
     \repeatTie
     
-    % [K CelloMusicVoice measure 284]                            %! SM4
+    % [K CelloMusicVoice measure 284 / measure 20]               %! SM4
     a,,2.
     \repeatTie
     \stopTextSpan                                                %! PWC1
@@ -5653,7 +5653,7 @@ K_CelloMusicVoice = {
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 285]                            %! SM4
+    % [K CelloMusicVoice measure 285 / measure 21]               %! SM4
     a,,2..
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5690,20 +5690,20 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 286]                            %! SM4
+    % [K CelloMusicVoice measure 286 / measure 22]               %! SM4
     a,,2..
     \repeatTie
     
-    % [K CelloMusicVoice measure 287]                            %! SM4
+    % [K CelloMusicVoice measure 287 / measure 23]               %! SM4
     a,,4.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 288]                            %! SM4
+    % [K CelloMusicVoice measure 288 / measure 24]               %! SM4
     a,,2.
     \repeatTie
     
-    % [K CelloMusicVoice measure 289]                            %! SM4
+    % [K CelloMusicVoice measure 289 / measure 25]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
@@ -5746,28 +5746,28 @@ K_CelloMusicVoice = {
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 290]                            %! SM4
+    % [K CelloMusicVoice measure 290 / measure 26]               %! SM4
     a,,2.
     \repeatTie
     
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 291]                            %! SM4
+    % [K CelloMusicVoice measure 291 / measure 27]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a,,2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 292]                            %! SM4
+    % [K CelloMusicVoice measure 292 / measure 28]               %! SM4
     a,,1
     \repeatTie
     
-    % [K CelloMusicVoice measure 293]                            %! SM4
+    % [K CelloMusicVoice measure 293 / measure 29]               %! SM4
     R1 * 1/4
     
-    % [K CelloMusicVoice measure 294]                            %! SM4
+    % [K CelloMusicVoice measure 294 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,4.
     \<                                                           %! HC1
@@ -5806,25 +5806,25 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 295]                            %! SM4
+    % [K CelloMusicVoice measure 295 / measure 31]               %! SM4
     a,,2
     \repeatTie
     
-    % [K CelloMusicVoice measure 296]                            %! SM4
+    % [K CelloMusicVoice measure 296 / measure 32]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a,,1
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 297]                            %! SM4
+    % [K CelloMusicVoice measure 297 / measure 33]               %! SM4
     a,,2.
     \repeatTie
     
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 298]                            %! SM4
+    % [K CelloMusicVoice measure 298 / measure 34]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
@@ -5870,7 +5870,7 @@ K_CelloMusicVoice = {
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 299]                            %! SM4
+    % [K CelloMusicVoice measure 299 / measure 35]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2
     \<                                                           %! HC1
@@ -5909,18 +5909,18 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 300]                            %! SM4
+    % [K CelloMusicVoice measure 300 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a,,2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 301]                            %! SM4
+    % [K CelloMusicVoice measure 301 / measure 37]               %! SM4
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 302]                            %! SM4
+    % [K CelloMusicVoice measure 302 / measure 38]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
@@ -5960,17 +5960,17 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 303]                            %! SM4
+    % [K CelloMusicVoice measure 303 / measure 39]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a,,2..
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 304]                            %! SM4
+    % [K CelloMusicVoice measure 304 / measure 40]               %! SM4
     R1 * 1/4
     
-    % [K CelloMusicVoice measure 305]                            %! SM4
+    % [K CelloMusicVoice measure 305 / measure 41]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2..
     \>                                                           %! HC1
@@ -6009,30 +6009,30 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 306]                            %! SM4
+    % [K CelloMusicVoice measure 306 / measure 42]               %! SM4
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 307]                            %! SM4
+    % [K CelloMusicVoice measure 307 / measure 43]               %! SM4
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 308]                            %! SM4
+    % [K CelloMusicVoice measure 308 / measure 44]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     a,,2
     \repeatTie
     \pp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 309]                            %! SM4
+    % [K CelloMusicVoice measure 309 / measure 45]               %! SM4
     a,,4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 310]                            %! SM4
+    % [K CelloMusicVoice measure 310 / measure 46]               %! SM4
     R1 * 1/4
     \revert TextSpanner.staff-padding                            %! OC2
     
-    % [K CelloMusicVoice measure 311]                            %! SM4
+    % [K CelloMusicVoice measure 311 / measure 47]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
 %%% \once \override Staff.Clef.X-extent = ##f                    %! OC1:MEASURE_311:SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)       %! OC1:MEASURE_311:SHIFTED_CLEF
@@ -6052,47 +6052,47 @@ K_CelloMusicVoice = {
     \startTrillSpan                                              %! SC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [K CelloMusicVoice measure 312]                            %! SM4
+    % [K CelloMusicVoice measure 312 / measure 48]               %! SM4
     d''2..
     \repeatTie
     
-    % [K CelloMusicVoice measure 313]                            %! SM4
+    % [K CelloMusicVoice measure 313 / measure 49]               %! SM4
     d''2..
     \repeatTie
     
-    % [K CelloMusicVoice measure 314]                            %! SM4
+    % [K CelloMusicVoice measure 314 / measure 50]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''2
     \repeatTie
     \f                                                           %! HC1
     
-    % [K CelloMusicVoice measure 315]                            %! SM4
+    % [K CelloMusicVoice measure 315 / measure 51]               %! SM4
     d''1
     \repeatTie
     
-    % [K CelloMusicVoice measure 316]                            %! SM4
+    % [K CelloMusicVoice measure 316 / measure 52]               %! SM4
     d''2.
     \repeatTie
     
     d''4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 317]                            %! SM4
+    % [K CelloMusicVoice measure 317 / measure 53]               %! SM4
     d''2.
     \repeatTie
     
     d''4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 318]                            %! SM4
+    % [K CelloMusicVoice measure 318 / measure 54]               %! SM4
     d''2..
     \repeatTie
     
-    % [K CelloMusicVoice measure 319]                            %! SM4
+    % [K CelloMusicVoice measure 319 / measure 55]               %! SM4
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     
-    % [K CelloMusicVoice measure 320]                            %! SM4
+    % [K CelloMusicVoice measure 320 / measure 56]               %! SM4
     \override TextSpanner.staff-padding = #5                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''4.
@@ -6133,18 +6133,18 @@ K_CelloMusicVoice = {
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
-    % [K CelloMusicVoice measure 321]                            %! SM4
+    % [K CelloMusicVoice measure 321 / measure 57]               %! SM4
     d''2.
     \repeatTie
     
-    % [K CelloMusicVoice measure 322]                            %! SM4
+    % [K CelloMusicVoice measure 322 / measure 58]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''2..
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 323]                            %! SM4
+    % [K CelloMusicVoice measure 323 / measure 59]               %! SM4
     d''2.
     \repeatTie
     
@@ -6187,14 +6187,14 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    % [K CelloMusicVoice measure 324]                            %! SM4
+    % [K CelloMusicVoice measure 324 / measure 60]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''2
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 325]                            %! SM4
+    % [K CelloMusicVoice measure 325 / measure 61]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''1
     \stopTrillSpan                                               %! SC
@@ -6235,48 +6235,48 @@ K_CelloMusicVoice = {
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
     
-    % [K CelloMusicVoice measure 326]                            %! SM4
+    % [K CelloMusicVoice measure 326 / measure 62]               %! SM4
     d''2.
     \repeatTie
     
     d''4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 327]                            %! SM4
+    % [K CelloMusicVoice measure 327 / measure 63]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''2
     \repeatTie
     \fff                                                         %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [K CelloMusicVoice measure 328]                            %! SM4
+    % [K CelloMusicVoice measure 328 / measure 64]               %! SM4
     d''4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 329]                            %! SM4
+    % [K CelloMusicVoice measure 329 / measure 65]               %! SM4
     d''2.
     \repeatTie
     
     d''4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 330]                            %! SM4
+    % [K CelloMusicVoice measure 330 / measure 66]               %! SM4
     d''2.
     \repeatTie
     
     d''4.
     \repeatTie
     
-    % [K CelloMusicVoice measure 331]                            %! SM4
+    % [K CelloMusicVoice measure 331 / measure 67]               %! SM4
     d''2
     \repeatTie
     
-    % [K CelloMusicVoice measure 332]                            %! SM4
+    % [K CelloMusicVoice measure 332 / measure 68]               %! SM4
     d''1
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     
-    % [K CelloMusicVoice measure 333]                            %! SM4
+    % [K CelloMusicVoice measure 333 / measure 69]               %! SM4
     R1 * 1/4
     \stopTrillSpan                                               %! SC
     \revert TextSpanner.staff-padding                            %! OC2

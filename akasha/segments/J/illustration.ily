@@ -1,15 +1,15 @@
 J_GlobalRests = {
     
-    % [J GlobalRests measure 261]                                        %! SM4
+    % [J GlobalRests measure 261 / measure 1]                            %! SM4
     R1 * 1
     
-    % [J GlobalRests measure 262]                                        %! SM4
+    % [J GlobalRests measure 262 / measure 2]                            %! SM4
     R1 * 3/2
     
-    % [J GlobalRests measure 263]                                        %! SM4
+    % [J GlobalRests measure 263 / measure 3]                            %! SM4
     R1 * 3/2
     
-    % [J GlobalRests measure 264]                                        %! SM4
+    % [J GlobalRests measure 264 / measure 4]                            %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -23,7 +23,7 @@ J_GlobalRests = {
 
 J_GlobalSkips = {
     
-    % [J GlobalSkips measure 261]                                        %! SM4
+    % [J GlobalSkips measure 261 / measure 1]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #10                                                            %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
@@ -109,7 +109,7 @@ J_GlobalSkips = {
             }
         }
     
-    % [J GlobalSkips measure 262]                                        %! SM4
+    % [J GlobalSkips measure 262 / measure 2]                            %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -144,7 +144,7 @@ J_GlobalSkips = {
             }
         }
     
-    % [J GlobalSkips measure 263]                                        %! SM4
+    % [J GlobalSkips measure 263 / measure 3]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
     ^ \markup {
@@ -178,7 +178,7 @@ J_GlobalSkips = {
             }
         }
     
-    % [J GlobalSkips measure 264]                                        %! SM4
+    % [J GlobalSkips measure 264 / measure 4]                            %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -221,7 +221,7 @@ J_GlobalSkips = {
 
 J_ViolinIMusicVoice = {
     
-    % [J ViolinIMusicVoice measure 261]                          %! SM4
+    % [J ViolinIMusicVoice measure 261 / measure 1]              %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -280,7 +280,7 @@ J_ViolinIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/4 {
         
-        % [J ViolinIMusicVoice measure 262]                      %! SM4
+        % [J ViolinIMusicVoice measure 262 / measure 2]          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f'4
         \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
@@ -311,7 +311,7 @@ J_ViolinIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/4 {
         
-        % [J ViolinIMusicVoice measure 263]                      %! SM4
+        % [J ViolinIMusicVoice measure 263 / measure 3]          %! SM4
         fs'!4
         
         r4
@@ -321,7 +321,7 @@ J_ViolinIMusicVoice = {
         r4
     }
     
-    % [J ViolinIMusicVoice measure 264]                          %! SM4
+    % [J ViolinIMusicVoice measure 264 / measure 4]              %! SM4
     R1 * 1/4
     
 }
@@ -337,7 +337,7 @@ J_ViolinIIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/4 {
         
-        % [J ViolinIIMusicVoice measure 261]                     %! SM4
+        % [J ViolinIIMusicVoice measure 261 / measure 1]         %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -422,7 +422,7 @@ J_ViolinIIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
-        % [J ViolinIIMusicVoice measure 262]                     %! SM4
+        % [J ViolinIIMusicVoice measure 262 / measure 2]         %! SM4
         r4
         
         r4
@@ -436,7 +436,7 @@ J_ViolinIIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [J ViolinIIMusicVoice measure 263]                     %! SM4
+        % [J ViolinIIMusicVoice measure 263 / measure 3]         %! SM4
         r4
         
         r4
@@ -452,7 +452,7 @@ J_ViolinIIMusicVoice = {
         a4
     }
     
-    % [J ViolinIIMusicVoice measure 264]                         %! SM4
+    % [J ViolinIIMusicVoice measure 264 / measure 4]             %! SM4
     R1 * 1/4
     
 }
@@ -466,7 +466,7 @@ J_ViolinIIMusicStaff = {
 
 J_ViolaMusicVoice = {
     
-    % [J ViolaMusicVoice measure 261]                            %! SM4
+    % [J ViolaMusicVoice measure 261 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -523,13 +523,13 @@ J_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [J ViolaMusicVoice measure 262]                            %! SM4
+    % [J ViolaMusicVoice measure 262 / measure 2]                %! SM4
     R1 * 3/2
     
-    % [J ViolaMusicVoice measure 263]                            %! SM4
+    % [J ViolaMusicVoice measure 263 / measure 3]                %! SM4
     R1 * 3/2
     
-    % [J ViolaMusicVoice measure 264]                            %! SM4
+    % [J ViolaMusicVoice measure 264 / measure 4]                %! SM4
     R1 * 1/4
     
 }
@@ -545,7 +545,7 @@ J_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
-        % [J CelloMusicVoice measure 261]                        %! SM4
+        % [J CelloMusicVoice measure 261 / measure 1]            %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -622,12 +622,12 @@ J_CelloMusicVoice = {
         r4
     }
     
-    % [J CelloMusicVoice measure 262]                            %! SM4
+    % [J CelloMusicVoice measure 262 / measure 2]                %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
-        % [J CelloMusicVoice measure 263]                        %! SM4
+        % [J CelloMusicVoice measure 263 / measure 3]            %! SM4
         r4
         
         c4
@@ -639,7 +639,7 @@ J_CelloMusicVoice = {
         r4
     }
     
-    % [J CelloMusicVoice measure 264]                            %! SM4
+    % [J CelloMusicVoice measure 264 / measure 4]                %! SM4
     R1 * 1/4
     
 }

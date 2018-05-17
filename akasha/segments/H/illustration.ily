@@ -1,15 +1,15 @@
 H_GlobalRests = {
     
-    % [H GlobalRests measure 217]                                        %! SM4
+    % [H GlobalRests measure 217 / measure 1]                            %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 218]                                        %! SM4
+    % [H GlobalRests measure 218 / measure 2]                            %! SM4
     R1 * 5/4
     
-    % [H GlobalRests measure 219]                                        %! SM4
+    % [H GlobalRests measure 219 / measure 3]                            %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 220]                                        %! SM4
+    % [H GlobalRests measure 220 / measure 4]                            %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -18,13 +18,13 @@ H_GlobalRests = {
             #"scripts.ufermata"                                          %! GFC1
         }                                                                %! GFC1
     
-    % [H GlobalRests measure 221]                                        %! SM4
+    % [H GlobalRests measure 221 / measure 5]                            %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 222]                                        %! SM4
+    % [H GlobalRests measure 222 / measure 6]                            %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 223]                                        %! SM4
+    % [H GlobalRests measure 223 / measure 7]                            %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -40,7 +40,7 @@ H_GlobalSkips = {
     \repeat volta 2
     {
         
-        % [H GlobalSkips measure 217]                                    %! SM4
+        % [H GlobalSkips measure 217 / measure 1]                        %! SM4
         \once \override GlobalContext.RehearsalMark.Y-offset = #5        %! OC1
         \time 4/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \mark #8                                                         %! IC
@@ -127,7 +127,7 @@ H_GlobalSkips = {
                 }
             }
         
-        % [H GlobalSkips measure 218]                                    %! SM4
+        % [H GlobalSkips measure 218 / measure 2]                        %! SM4
         \time 5/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 5/4
@@ -157,7 +157,7 @@ H_GlobalSkips = {
                 }
             }
         
-        % [H GlobalSkips measure 219]                                    %! SM4
+        % [H GlobalSkips measure 219 / measure 3]                        %! SM4
         \time 3/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 3/4
@@ -242,7 +242,7 @@ H_GlobalSkips = {
                 }
             }
         
-        % [H GlobalSkips measure 220]                                    %! SM4
+        % [H GlobalSkips measure 220 / measure 4]                        %! SM4
         \time 1/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/4
@@ -277,7 +277,7 @@ H_GlobalSkips = {
                 }
             }
         
-        % [H GlobalSkips measure 221]                                    %! SM4
+        % [H GlobalSkips measure 221 / measure 5]                        %! SM4
         \time 3/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 3/4
@@ -362,7 +362,7 @@ H_GlobalSkips = {
                 }
             }
         
-        % [H GlobalSkips measure 222]                                    %! SM4
+        % [H GlobalSkips measure 222 / measure 6]                        %! SM4
         \time 4/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1
@@ -392,7 +392,7 @@ H_GlobalSkips = {
                 }
             }
         
-        % [H GlobalSkips measure 223]                                    %! SM4
+        % [H GlobalSkips measure 223 / measure 7]                        %! SM4
         \time 1/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
         \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/4
@@ -473,7 +473,7 @@ H_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIMusicVoice measure 217]                      %! SM4
+        % [H ViolinIMusicVoice measure 217 / measure 1]          %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -588,7 +588,7 @@ H_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIMusicVoice measure 218]                      %! SM4
+        % [H ViolinIMusicVoice measure 218 / measure 2]          %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         d'16 * 113/64
@@ -608,21 +608,21 @@ H_ViolinIMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolinIMusicVoice measure 219]                          %! SM4
+    % [H ViolinIMusicVoice measure 219 / measure 3]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fs''!2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
-    % [H ViolinIMusicVoice measure 220]                          %! SM4
+    % [H ViolinIMusicVoice measure 220 / measure 4]              %! SM4
     R1 * 1/4
     
-    % [H ViolinIMusicVoice measure 221]                          %! SM4
+    % [H ViolinIMusicVoice measure 221 / measure 5]              %! SM4
     R1 * 3/4
     
-    % [H ViolinIMusicVoice measure 222]                          %! SM4
+    % [H ViolinIMusicVoice measure 222 / measure 6]              %! SM4
     R1 * 1
     
-    % [H ViolinIMusicVoice measure 223]                          %! SM4
+    % [H ViolinIMusicVoice measure 223 / measure 7]              %! SM4
     R1 * 1/4
     
 }
@@ -673,7 +673,7 @@ H_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIIMusicVoice measure 217]                     %! SM4
+        % [H ViolinIIMusicVoice measure 217 / measure 1]         %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -790,7 +790,7 @@ H_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIIMusicVoice measure 218]                     %! SM4
+        % [H ViolinIIMusicVoice measure 218 / measure 2]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         ds'!16 * 477/64
@@ -808,21 +808,21 @@ H_ViolinIIMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolinIIMusicVoice measure 219]                         %! SM4
+    % [H ViolinIIMusicVoice measure 219 / measure 3]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af'!2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
-    % [H ViolinIIMusicVoice measure 220]                         %! SM4
+    % [H ViolinIIMusicVoice measure 220 / measure 4]             %! SM4
     R1 * 1/4
     
-    % [H ViolinIIMusicVoice measure 221]                         %! SM4
+    % [H ViolinIIMusicVoice measure 221 / measure 5]             %! SM4
     R1 * 3/4
     
-    % [H ViolinIIMusicVoice measure 222]                         %! SM4
+    % [H ViolinIIMusicVoice measure 222 / measure 6]             %! SM4
     R1 * 1
     
-    % [H ViolinIIMusicVoice measure 223]                         %! SM4
+    % [H ViolinIIMusicVoice measure 223 / measure 7]             %! SM4
     R1 * 1/4
     
 }
@@ -836,7 +836,7 @@ H_ViolinIIMusicStaff = {
 
 H_ViolaMusicVoice = {
     
-    % [H ViolaMusicVoice measure 217]                            %! SM4
+    % [H ViolaMusicVoice measure 217 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -893,22 +893,22 @@ H_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [H ViolaMusicVoice measure 218]                            %! SM4
+    % [H ViolaMusicVoice measure 218 / measure 2]                %! SM4
     c'2.
     \repeatTie
     
     c'2
     \repeatTie
     
-    % [H ViolaMusicVoice measure 219]                            %! SM4
+    % [H ViolaMusicVoice measure 219 / measure 3]                %! SM4
     c'2.
     \repeatTie
     
-    % [H ViolaMusicVoice measure 220]                            %! SM4
+    % [H ViolaMusicVoice measure 220 / measure 4]                %! SM4
     R1 * 1/4
     \times 8/9 {
         
-        % [H ViolaMusicVoice measure 221]                        %! SM4
+        % [H ViolaMusicVoice measure 221 / measure 5]            %! SM4
         \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
         \once \override Staff.StaffSymbol.line-count = 5         %! SM8:EXPLICIT_STAFF_LINES:IC
         \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -929,7 +929,7 @@ H_ViolaMusicVoice = {
         \pp                                                      %! HC1
     }
     
-    % [H ViolaMusicVoice measure 223]                            %! SM4
+    % [H ViolaMusicVoice measure 223 / measure 7]                %! SM4
     R1 * 1/4
     
 }
@@ -982,7 +982,7 @@ H_CelloMusicVoice = {
         }
     \times 1/1 {
         
-        % [H CelloMusicVoice measure 217]                        %! SM4
+        % [H CelloMusicVoice measure 217 / measure 1]            %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1066,16 +1066,16 @@ H_CelloMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H CelloMusicVoice measure 219]                            %! SM4
+    % [H CelloMusicVoice measure 219 / measure 3]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     cs,!2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
-    % [H CelloMusicVoice measure 220]                            %! SM4
+    % [H CelloMusicVoice measure 220 / measure 4]                %! SM4
     R1 * 1/4
     \times 8/9 {
         
-        % [H CelloMusicVoice measure 221]                        %! SM4
+        % [H CelloMusicVoice measure 221 / measure 5]            %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         cs,!1..
         \glissando                                               %! SC
@@ -1092,7 +1092,7 @@ H_CelloMusicVoice = {
         \pp                                                      %! HC1
     }
     
-    % [H CelloMusicVoice measure 223]                            %! SM4
+    % [H CelloMusicVoice measure 223 / measure 7]                %! SM4
     R1 * 1/4
     
 }
