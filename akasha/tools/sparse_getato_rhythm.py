@@ -1,7 +1,7 @@
 import abjad
 import akasha
 import baca
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 def sparse_getato_rhythm(
