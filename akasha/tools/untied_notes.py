@@ -7,7 +7,7 @@ def untied_notes():
     """
     Makes untied notes.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.NoteRhythmMaker(
             duration_specifier=rhythmos.DurationSpecifier(
                 rewrite_meter=True,

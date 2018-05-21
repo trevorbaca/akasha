@@ -16,7 +16,7 @@ def polyphony_rhythm(
         logical_tie_masks = [lt_mask]
     counts = abjad.sequence([4, 14, 4, 6, 18])
     counts = counts.rotate(n=rotation)
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rhythmos.TaleaRhythmMaker(
             logical_tie_masks=logical_tie_masks,

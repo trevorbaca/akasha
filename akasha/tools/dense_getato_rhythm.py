@@ -15,7 +15,7 @@ def dense_getato_rhythm(
         division_masks = [division_mask]
     else:
         division_masks = None
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=baca.fuse_compound_quarter_divisions(
             fuse_counts,
             ),

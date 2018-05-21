@@ -7,7 +7,7 @@ def glissando_rhythm():
     """
     Makes glissando rhythm.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=baca.sequence().sum().sequence(),
         rhythm_maker=rhythmos.TupletRhythmMaker(
             tuplet_ratios=[(8, 1)],
