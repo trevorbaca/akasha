@@ -7,7 +7,7 @@ def fill_first_half():
     """
     Fills first half of scope with repeat-tied notes.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0],

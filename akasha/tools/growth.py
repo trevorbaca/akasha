@@ -75,7 +75,7 @@ def growth(
     else:
         rhythm_maker = talea_rhythm_maker
 
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=division_expression(index, accelerando),
         rhythm_maker=rhythm_maker,
         tie_last=tie_last,

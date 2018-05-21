@@ -17,7 +17,7 @@ def sparse_getato_rhythm(
         division_masks = None
     else:
         division_masks = [division_mask]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythmos.TaleaRhythmMaker(

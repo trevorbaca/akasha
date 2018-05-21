@@ -32,7 +32,7 @@ def accelerando_rhythm(
     else:
         logical_tie_masks = None
 
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=division_expression,
         rhythm_maker=rhythmos.AccelerandoRhythmMaker(
             beam_specifier=rhythmos.BeamSpecifier(

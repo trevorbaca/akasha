@@ -11,7 +11,7 @@ def scratch_rhythm(
     """
     Makes scratch rhythm.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.EvenDivisionRhythmMaker(
             denominators=denominators,
             logical_tie_masks=logical_tie_masks,
