@@ -160,7 +160,10 @@ maker(
 maker(
     ('v1', (5, 14)),
     baca.dynamic('ppp'),
-    baca.map(baca.glissando(), baca.runs()),
+    baca.map(
+        baca.runs(),
+        baca.glissando(),
+        ),
     baca.markup('XP + senza vib. + full bow strokes'),
     baca.note_head_style_harmonic(),
     )
@@ -188,7 +191,10 @@ maker(
 maker(
     ('v2', (3, 10)),
     baca.dynamic('ppp'),
-    baca.map(baca.glissando(), baca.runs()),
+    baca.map(
+        baca.runs(),
+        baca.glissando(),
+        ),
     baca.markup.XP_full_bow_strokes(),
     baca.note_head_style_harmonic(),
     )
@@ -196,7 +202,10 @@ maker(
 maker(
     ('v2', (12, 14)),
     baca.dynamic('p'),
-    baca.map(baca.trill_spanner(string='M2'), baca.qruns()),
+    baca.map(
+        baca.qruns(),
+        baca.trill_spanner(string='M2'),
+        ),
     baca.markup.tasto(),
     baca.pitch('G5'),
     )
@@ -229,7 +238,10 @@ maker(
 maker(
     ('va', (12, 14)),
     baca.ancora_dynamic('ppp'),
-    baca.map(baca.glissando(), baca.runs()),
+    baca.map(
+        baca.runs(),
+        baca.glissando(),
+        ),
     baca.markup.XP_full_bow_strokes(),
     baca.note_head_style_harmonic(),
     )

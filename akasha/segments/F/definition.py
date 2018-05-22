@@ -339,12 +339,12 @@ maker(
     ('v1', 8),
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.map(
-        baca.hairpin('pp < p'),
         baca.runs()[abjad.index([0], 2)],
+        baca.hairpin('pp < p'),
         ),
     baca.map(
-        baca.hairpin('p > pp'),
         baca.runs()[abjad.index([1], 2)],
+        baca.hairpin('p > pp'),
         ),
     )
 
@@ -352,12 +352,12 @@ maker(
     ('v2', 8),
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.map(
-        baca.hairpin('pp < p'),
         baca.runs()[abjad.index([0], 2)],
+        baca.hairpin('pp < p'),
         ),
     baca.map(
-        baca.hairpin('p > pp'),
         baca.runs()[abjad.index([1], 2)],
+        baca.hairpin('p > pp'),
         ),
     )
 
