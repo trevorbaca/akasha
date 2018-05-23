@@ -9,7 +9,6 @@ def growth(
     division_ratio,
     accelerando=False,
     extra_counts=None,
-    tie_last=True,
     ):
     """
     Makes growth talea rhythm.
@@ -78,5 +77,4 @@ def growth(
     return baca.rhythm(
         division_expression=division_expression(index, accelerando),
         rhythm_maker=rhythm_maker,
-        tie_last=tie_last,
         )

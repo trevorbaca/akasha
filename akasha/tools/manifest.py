@@ -36,5 +36,4 @@ def manifest(these_counts):
                 repeat_ties=True,
                 )
             ),
-        tie_last=False,
         )
