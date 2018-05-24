@@ -180,7 +180,7 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 
         autoBeaming = ##f
-        barNumberFormatter = #format-oval-barnumbers
+        barNumberFormatter = #baca-oval-bar-numbers
         explicitClefVisibility = #end-of-line-invisible
         forceClef = ##t
         markFormatter = #format-mark-box-alphabet
