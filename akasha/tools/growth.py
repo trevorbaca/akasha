@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def growth(
@@ -28,30 +28,30 @@ def growth(
             expression = expression.sum().sequence()
         return expression
 
-    talea_rhythm_maker = rhythmos.TaleaRhythmMaker(
+    talea_rhythm_maker = rmakers.TaleaRhythmMaker(
         #extra_counts_per_division=[1],
         extra_counts_per_division=extra_counts,
         logical_tie_masks=[
             silence_mask,
             sustain_mask,
             ],
-        talea=rhythmos.Talea(
+        talea=rmakers.Talea(
             counts=[9, 4, 8, 7],
             denominator=16,
             ),
-        tie_specifier=rhythmos.TieSpecifier(
+        tie_specifier=rmakers.TieSpecifier(
             repeat_ties=True,
             ),
         )
 
-    accelerando_rhythm_maker = rhythmos.AccelerandoRhythmMaker(
-        beam_specifier=rhythmos.BeamSpecifier(
+    accelerando_rhythm_maker = rmakers.AccelerandoRhythmMaker(
+        beam_specifier=rmakers.BeamSpecifier(
             beam_rests=True,
             stemlet_length=0.75,
             use_feather_beams=True,
             ),
         interpolation_specifiers=[
-            rhythmos.InterpolationSpecifier(
+            rmakers.InterpolationSpecifier(
                 start_duration=abjad.Duration(1, 2),
                 stop_duration=abjad.Duration(1, 8),
                 written_duration=abjad.Duration(1, 16),
@@ -61,10 +61,10 @@ def growth(
             silence_mask,
             sustain_mask,
             ],
-        tie_specifier=rhythmos.TieSpecifier(
+        tie_specifier=rmakers.TieSpecifier(
             repeat_ties=True,
             ),
-        tuplet_specifier=rhythmos.TupletSpecifier(
+        tuplet_specifier=rmakers.TupletSpecifier(
             use_note_duration_bracket=True,
             ),
         )

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def manifest(these_counts):
@@ -26,13 +26,13 @@ def manifest(these_counts):
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
-        rhythm_maker=rhythmos.TaleaRhythmMaker(
+        rhythm_maker=rmakers.TaleaRhythmMaker(
             read_talea_once_only=True,
-            talea=rhythmos.Talea(
+            talea=rmakers.Talea(
                 counts=these_counts,
                 denominator=16,
                 ),
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 )
             ),
