@@ -1612,7 +1612,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 50 / measure 16]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC

@@ -1,12 +1,12 @@
 i_GlobalRests = {
     
-    % [_ GlobalRests measure 1 / measure 1]                              %! SM4
+    % [_ GlobalRests measure 1]                                          %! SM4
     R1 * 3/8
     
-    % [_ GlobalRests measure 2 / measure 2]                              %! SM4
+    % [_ GlobalRests measure 2]                                          %! SM4
     R1 * 3/4
     
-    % [_ GlobalRests measure 3 / measure 3]                              %! SM4
+    % [_ GlobalRests measure 3]                                          %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -20,7 +20,7 @@ i_GlobalRests = {
 
 i_GlobalSkips = {
     
-    % [_ GlobalSkips measure 1 / measure 1]                              %! SM4
+    % [_ GlobalSkips measure 1]                                          %! SM4
     \time 3/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/8
@@ -104,7 +104,7 @@ i_GlobalSkips = {
             }
         }
     
-    % [_ GlobalSkips measure 2 / measure 2]                              %! SM4
+    % [_ GlobalSkips measure 2]                                          %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -139,7 +139,7 @@ i_GlobalSkips = {
             }
         }
     
-    % [_ GlobalSkips measure 3 / measure 3]                              %! SM4
+    % [_ GlobalSkips measure 3]                                          %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -182,7 +182,7 @@ i_GlobalSkips = {
 
 i_ViolinIMusicVoice = {
     
-    % [_ ViolinIMusicVoice measure 1 / measure 1]                %! SM4
+    % [_ ViolinIMusicVoice measure 1]                            %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -239,10 +239,10 @@ i_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ ViolinIMusicVoice measure 2 / measure 2]                %! SM4
+    % [_ ViolinIMusicVoice measure 2]                            %! SM4
     R1 * 3/4
     
-    % [_ ViolinIMusicVoice measure 3 / measure 3]                %! SM4
+    % [_ ViolinIMusicVoice measure 3]                            %! SM4
     R1 * 1/4
     
 }
@@ -256,7 +256,7 @@ i_ViolinIMusicStaff = {
 
 i_ViolinIIMusicVoice = {
     
-    % [_ ViolinIIMusicVoice measure 1 / measure 1]               %! SM4
+    % [_ ViolinIIMusicVoice measure 1]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -313,10 +313,10 @@ i_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ ViolinIIMusicVoice measure 2 / measure 2]               %! SM4
+    % [_ ViolinIIMusicVoice measure 2]                           %! SM4
     R1 * 3/4
     
-    % [_ ViolinIIMusicVoice measure 3 / measure 3]               %! SM4
+    % [_ ViolinIIMusicVoice measure 3]                           %! SM4
     R1 * 1/4
     
 }
@@ -330,7 +330,7 @@ i_ViolinIIMusicStaff = {
 
 i_ViolaMusicVoice = {
     
-    % [_ ViolaMusicVoice measure 1 / measure 1]                  %! SM4
+    % [_ ViolaMusicVoice measure 1]                              %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -400,11 +400,11 @@ i_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ ViolaMusicVoice measure 2 / measure 2]                  %! SM4
+    % [_ ViolaMusicVoice measure 2]                              %! SM4
     c'2.
     \repeatTie
     
-    % [_ ViolaMusicVoice measure 3 / measure 3]                  %! SM4
+    % [_ ViolaMusicVoice measure 3]                              %! SM4
     R1 * 1/4
     
 }
@@ -418,7 +418,7 @@ i_ViolaMusicStaff = {
 
 i_CelloMusicVoice = {
     
-    % [_ CelloMusicVoice measure 1 / measure 1]                  %! SM4
+    % [_ CelloMusicVoice measure 1]                              %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -475,10 +475,10 @@ i_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ CelloMusicVoice measure 2 / measure 2]                  %! SM4
+    % [_ CelloMusicVoice measure 2]                              %! SM4
     R1 * 3/4
     
-    % [_ CelloMusicVoice measure 3 / measure 3]                  %! SM4
+    % [_ CelloMusicVoice measure 3]                              %! SM4
     R1 * 1/4
     
 }
