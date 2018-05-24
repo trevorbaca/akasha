@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def fill_first_half():
@@ -11,11 +11,11 @@ def fill_first_half():
         division_expression=baca.sequence()
             .partition_by_ratio_of_lengths(abjad.Ratio((1, 1)))
             [0],
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            duration_specifier=rhythmos.DurationSpecifier(
+        rhythm_maker=rmakers.NoteRhythmMaker(
+            duration_specifier=rmakers.DurationSpecifier(
                 rewrite_meter=True,
                 ),
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),

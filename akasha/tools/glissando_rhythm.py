@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def glissando_rhythm():
@@ -9,7 +9,7 @@ def glissando_rhythm():
     """
     return baca.rhythm(
         division_expression=baca.sequence().sum().sequence(),
-        rhythm_maker=rhythmos.TupletRhythmMaker(
+        rhythm_maker=rmakers.TupletRhythmMaker(
             tuplet_ratios=[(8, 1)],
             ),
         )

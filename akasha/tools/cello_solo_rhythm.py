@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def cello_solo_rhythm(rotation=None):
@@ -9,12 +9,12 @@ def cello_solo_rhythm(rotation=None):
     """
     counts = abjad.sequence([7, 1, 10, 2])
     counts.rotate(n=rotation)
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
-        talea=rhythmos.Talea(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
+        talea=rmakers.Talea(
             counts=counts,
             denominator=16,
             ),
-        tie_specifier=rhythmos.TieSpecifier(
+        tie_specifier=rmakers.TieSpecifier(
             repeat_ties=True,
             )
         )

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def polyphony_rhythm(
@@ -18,16 +18,16 @@ def polyphony_rhythm(
     counts = counts.rotate(n=rotation)
     return baca.rhythm(
         rewrite_meter=True,
-        rhythm_maker=rhythmos.TaleaRhythmMaker(
+        rhythm_maker=rmakers.TaleaRhythmMaker(
             logical_tie_masks=logical_tie_masks,
-            talea=rhythmos.Talea(
+            talea=rmakers.Talea(
                 counts=counts,
                 denominator=16,
                 ),
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 ),
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 trivialize=True,
                 ),
             ),
