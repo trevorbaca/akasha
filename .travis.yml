@@ -22,7 +22,7 @@ before_install:
     - git clone https://github.com/Abjad/abjad-ext-rmakers.git
     - echo $PYTHONPATH
     # allows python to use abjad-ext-rmakers/abjadext for abjadext:
-    - PYTHONPATH=`pwd`/abjad-ext-rmakers
+    - export PYTHONPATH=$PYTHONPATH:`pwd`/abjad-ext-rmakers
     - echo $PYTHONPATH
 
 install:
@@ -31,7 +31,7 @@ install:
     - echo $PATH
     - export PATH=$PATH:`pwd`/baca/baca/scr
     - echo $PATH
-    - which doctest
+    - ech `which doctest`
     - pip install -r requirements.txt
     - pip install -e .
     - PACKAGE=akasha
