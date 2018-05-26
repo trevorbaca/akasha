@@ -2,6 +2,7 @@ import abjad
 import akasha
 import baca
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -131,7 +132,7 @@ maker(
 maker(
     ('v2', (22, 23)),
     baca.make_repeat_tied_notes(
-        division_mask=abjad.silence([0]),
+        division_mask=rmakers.silence([0]),
         ),
     )
 

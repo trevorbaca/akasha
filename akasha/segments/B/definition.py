@@ -2,6 +2,7 @@ import abjad
 import akasha
 import baca
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -47,9 +48,9 @@ maker(
 maker(
     ('v1', 1),
     akasha.accelerando_rhythm(
-        division_mask=abjad.silence([-2, -1]),
+        division_mask=rmakers.silence([-2, -1]),
         fuse_counts=[1],
-        lt_mask=abjad.silence([1]),
+        lt_mask=rmakers.silence([1]),
         ),
     baca.pitches('E5 D5'),
     )
@@ -66,7 +67,7 @@ maker(
     ('va', 1),
     akasha.polyphony_rhythm(
         rotation=-2,
-        lt_mask=abjad.silence([0, 1]),
+        lt_mask=rmakers.silence([0, 1]),
         ),
     baca.pitches('Db4 Db~4 C4', exact=True),
     )
@@ -75,7 +76,7 @@ maker(
     ('vc', (1, 2)),
     akasha.sparse_getato_rhythm(
         degree=0,
-        division_mask=abjad.silence(
+        division_mask=rmakers.silence(
             [5, -6, -5, -4, -3, -2, -1],
             inverted=True,
             ),
@@ -113,7 +114,7 @@ maker(
     ('v2', (8, 9)),
     akasha.accelerando_rhythm(
         fuse_counts=(2, 1),
-        lt_mask=abjad.silence([3]),
+        lt_mask=rmakers.silence([3]),
         ),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),

@@ -2,6 +2,7 @@ import abjad
 import akasha
 import baca
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -31,21 +32,21 @@ maker(
     ('v2', 1),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([-1]),
+        ~rmakers.silence([-1]),
         [-2]
         ),
     )
 
 maker(
     ('vc', 1),
-    akasha.scratch_rhythm([4], ~abjad.silence([1]), [-1]),
+    akasha.scratch_rhythm([4], ~rmakers.silence([1]), [-1]),
     )
 
 maker(
     ('v1', 2),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([0]),
+        ~rmakers.silence([0]),
         [-2],
         ),
     )
@@ -54,7 +55,7 @@ maker(
     ('v2', 2),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([2]),
+        ~rmakers.silence([2]),
         [-1],
         ),
     )
@@ -63,7 +64,7 @@ maker(
     ('v1', 3),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([0]),
+        ~rmakers.silence([0]),
         [-2],
         ),
     )
@@ -72,7 +73,7 @@ maker(
     ('v2', 3),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([-1]),
+        ~rmakers.silence([-1]),
         [1],
         ),
     )
@@ -81,7 +82,7 @@ maker(
     ('vc', 3),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([1]),
+        ~rmakers.silence([1]),
         [-1],
         ),
     )

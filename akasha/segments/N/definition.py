@@ -2,6 +2,7 @@ import abjad
 import akasha
 import baca
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -53,7 +54,7 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (1, 2)),
     baca.make_notes(
-        division_mask=abjad.silence([1], 2),
+        division_mask=rmakers.silence([1], 2),
         repeat_ties=True,
         ),
     )
@@ -61,7 +62,7 @@ maker(
 maker(
     ('v2', (2, 3)),
     akasha.sparse_getato_rhythm(
-        division_mask=~abjad.silence([3, 36, 37]),
+        division_mask=~rmakers.silence([3, 36, 37]),
         ),
     )
 

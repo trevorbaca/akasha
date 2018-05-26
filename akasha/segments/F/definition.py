@@ -2,6 +2,7 @@ import abjad
 import akasha
 import baca
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -116,14 +117,14 @@ maker(
 maker(
     ('v1', 6),
     akasha.accelerando_rhythm(
-        lt_mask=abjad.silence([1, 6]),
+        lt_mask=rmakers.silence([1, 6]),
         ),
     )
 
 maker(
     ('v2', 6),
     akasha.ritardando_rhythm(
-        lt_mask=abjad.silence([2, 5]),
+        lt_mask=rmakers.silence([2, 5]),
         ),
     )
 
