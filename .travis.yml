@@ -31,7 +31,7 @@ install:
     - echo $PATH
     - export PATH=$PATH:`pwd`/baca/baca/scr
     - echo $PATH
-    - ech `which doctest`
+    - echo `which doctest`
     - pip install -r requirements.txt
     - pip install -e .
     - PACKAGE=akasha
