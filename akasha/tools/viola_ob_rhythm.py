@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def viola_ob_rhythm(rotation=None):
@@ -15,7 +15,7 @@ def viola_ob_rhythm(rotation=None):
     return baca.rhythm(
         division_expression=division_expression,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            division_masks=abjad.silence([0, -1]),
+            division_masks=rmakers.silence([0, -1]),
             ),
         split_at_measure_boundaries=True,
         )

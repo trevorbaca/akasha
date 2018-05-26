@@ -2,6 +2,7 @@ import abjad
 import akasha
 import baca
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -70,7 +71,7 @@ maker(
     ('v2', 3),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([-1]),
+        ~rmakers.silence([-1]),
         [-2]
         ),
     )
@@ -84,7 +85,7 @@ maker(
     ('vc', 3),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([1]),
+        ~rmakers.silence([1]),
         [-1],
         ),
     )
@@ -93,7 +94,7 @@ maker(
     ('v1', 5),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([0]),
+        ~rmakers.silence([0]),
         [-2],
         ),
     )
@@ -102,7 +103,7 @@ maker(
     ('v2', 5),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([2]),
+        ~rmakers.silence([2]),
         [-1],
         ),
     )
@@ -116,7 +117,7 @@ maker(
     ('v1', 7),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([0]),
+        ~rmakers.silence([0]),
         [-2],
         ),
     )
@@ -125,7 +126,7 @@ maker(
     ('v2', 7),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([-1]),
+        ~rmakers.silence([-1]),
         [1],
         ),
     )
@@ -139,7 +140,7 @@ maker(
     ('vc', 7),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([1]),
+        ~rmakers.silence([1]),
         [-1],
         ),
     )
@@ -153,7 +154,7 @@ maker(
     ('v1', 9),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([1, -3]),
+        ~rmakers.silence([1, -3]),
         [1],
         ),
     )
@@ -162,7 +163,7 @@ maker(
     ('v2', 9),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([2, -1]),
+        ~rmakers.silence([2, -1]),
         [0],
         ),
     )
@@ -171,7 +172,7 @@ maker(
     ('vc', 9),
     akasha.scratch_rhythm(
         [4],
-        ~abjad.silence([2, -2]),
+        ~rmakers.silence([2, -2]),
         [2],
         ),
     )
@@ -180,7 +181,7 @@ maker(
     ('v1', (10, 14)),
     akasha.scratch_rhythm(
         [8],
-        ~abjad.silence([0, 3], 8),
+        ~rmakers.silence([0, 3], 8),
         [1],
         ),
     )
@@ -190,7 +191,7 @@ maker(
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
-        division_mask=abjad.silence(
+        division_mask=rmakers.silence(
             [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1]
             ),
         ),
@@ -200,7 +201,7 @@ maker(
     ('v2', (10, 13)),
     akasha.scratch_rhythm(
         [8],
-        ~abjad.silence([1, 4], 9),
+        ~rmakers.silence([1, 4], 9),
         [-1],
         ),
     )
@@ -210,7 +211,7 @@ maker(
     akasha.dense_getato_rhythm(
         [1],
         [2, 1, 3, 0],
-        division_mask=abjad.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+        division_mask=rmakers.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
         ),
     )
 
@@ -219,7 +220,7 @@ maker(
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
-        division_mask=abjad.silence([-5, -4, -3, -2, -1]),
+        division_mask=rmakers.silence([-5, -4, -3, -2, -1]),
         ),
     )
 
@@ -227,7 +228,7 @@ maker(
     ('vc', (10, 12)),
     akasha.scratch_rhythm(
         [8],
-        ~abjad.silence([2, 5], 9),
+        ~rmakers.silence([2, 5], 9),
         [2],
         ),
     )
@@ -237,7 +238,7 @@ maker(
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
-        division_mask=abjad.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+        division_mask=rmakers.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
         ),
     )
 
@@ -254,7 +255,7 @@ maker(
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
-        division_mask=abjad.silence([-4, -3, -2, -1]),
+        division_mask=rmakers.silence([-4, -3, -2, -1]),
         ),
     )
 

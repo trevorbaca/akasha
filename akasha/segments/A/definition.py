@@ -2,6 +2,7 @@ import abjad
 import akasha
 import baca
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -52,7 +53,7 @@ maker(
 maker(
     ('v2', 4),
     akasha.sparse_getato_rhythm(
-        division_mask=abjad.silence([0, 1], inverted=True),
+        division_mask=rmakers.silence([0, 1], inverted=True),
         ),
     )
 
@@ -64,15 +65,15 @@ maker(
 maker(
     ('va', 4),
     akasha.sparse_getato_rhythm(
-        division_mask=abjad.silence([-1], inverted=True),
+        division_mask=rmakers.silence([-1], inverted=True),
         ),
     )
 
 maker(
     (['v1', 'v2', 'va'], (6, 7)),
-    (akasha.polyphony_rhythm(lt_mask=~abjad.silence([0, 1, 2])), 0),
-    (akasha.polyphony_rhythm(lt_mask=~abjad.silence([2, 3, 4])), 1),
-    (akasha.polyphony_rhythm(lt_mask=~abjad.silence([1, 2, 3])), 2),
+    (akasha.polyphony_rhythm(lt_mask=~rmakers.silence([0, 1, 2])), 0),
+    (akasha.polyphony_rhythm(lt_mask=~rmakers.silence([2, 3, 4])), 1),
+    (akasha.polyphony_rhythm(lt_mask=~rmakers.silence([1, 2, 3])), 2),
     (baca.pitches('E4 F4 E+4', exact=True), 0),
     (baca.pitches('D4 D~4 C4', exact=True), 1),
     (baca.pitches('Eb4 D4 E4', exact=True), 2),
@@ -83,14 +84,14 @@ maker(
 maker(
     ('v1', 9),
     akasha.sparse_getato_rhythm(
-        division_mask=abjad.silence([-2, -1], inverted=True),
+        division_mask=rmakers.silence([-2, -1], inverted=True),
         ),
     )
 
 maker(
     ('v2', 9),
     akasha.polyphony_rhythm(
-        lt_mask=abjad.silence([1, 2, 3], inverted=True),
+        lt_mask=rmakers.silence([1, 2, 3], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C#4 C#+4', exact=True),
@@ -99,7 +100,7 @@ maker(
 maker(
     ('va', 9),
     akasha.polyphony_rhythm(
-        lt_mask=abjad.silence([2, 3, 4], inverted=True),
+        lt_mask=rmakers.silence([2, 3, 4], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C4', exact=True),
@@ -108,7 +109,7 @@ maker(
 maker(
     ('vc', 9),
     akasha.polyphony_rhythm(
-        lt_mask=abjad.silence([0, 1, 2], inverted=True),
+        lt_mask=rmakers.silence([0, 1, 2], inverted=True),
         rotation=-2,
         ),
     baca.pitches('C4 C~4 B3', exact=True),
@@ -117,8 +118,8 @@ maker(
 maker(
     ('v1', (11, 13)),
     akasha.accelerando_rhythm(
-        division_mask=abjad.silence([0]),
-        lt_mask=abjad.silence([3, 5, 7, 9]),
+        division_mask=rmakers.silence([0]),
+        lt_mask=rmakers.silence([3, 5, 7, 9]),
         ),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
@@ -127,8 +128,8 @@ maker(
 maker(
     ('v2', (11, 13)),
     akasha.ritardando_rhythm(
-        division_mask=abjad.silence([0]),
-        lt_mask=abjad.silence([2, 5, 7]),
+        division_mask=rmakers.silence([0]),
+        lt_mask=rmakers.silence([2, 5, 7]),
         ),
     baca.dynamic('pp'),
     baca.markup.tasto_XFB(),
@@ -143,7 +144,7 @@ maker(
 maker(
     ('vc', (11, 13)),
     akasha.polyphony_rhythm(
-        lt_mask=abjad.silence([-1]),
+        lt_mask=rmakers.silence([-1]),
         rotation=-6,
         ),
     baca.pitches('Bb3 Bb~3 A3 Ab3 G3 A3', exact=True),
@@ -152,14 +153,14 @@ maker(
 maker(
     ('v1', 15),
     akasha.accelerando_rhythm(
-        lt_mask=abjad.silence([0, 2, 3, -1], inverted=True),
+        lt_mask=rmakers.silence([0, 2, 3, -1], inverted=True),
         ),
     )
 
 maker(
     ('v2', 15),
     akasha.ritardando_rhythm(
-        lt_mask=abjad.silence([0, 1, 4, -1], inverted=True),
+        lt_mask=rmakers.silence([0, 1, 4, -1], inverted=True),
         ),
     )
 
@@ -172,7 +173,7 @@ maker(
 maker(
     ('vc', 15),
     akasha.polyphony_rhythm(
-        lt_mask=abjad.silence([-1]),
+        lt_mask=rmakers.silence([-1]),
         rotation=-10,
         ),
     baca.pitches('A3 A#3 B3', exact=True),
@@ -181,7 +182,7 @@ maker(
 maker(
     ('v1', 17),
     akasha.ritardando_rhythm(
-        lt_mask=abjad.silence([0, 2, -1], inverted=True),
+        lt_mask=rmakers.silence([0, 2, -1], inverted=True),
         ),
     )
 
@@ -193,14 +194,14 @@ maker(
 maker(
     ('v2', 17),
     akasha.accelerando_rhythm(
-        lt_mask=abjad.silence([0, 2, -1], inverted=True),
+        lt_mask=rmakers.silence([0, 2, -1], inverted=True),
         ),
     )
 
 maker(
     ('v2', 19),
     akasha.ritardando_rhythm(
-        lt_mask=abjad.silence([0, 1, -1], inverted=True),
+        lt_mask=rmakers.silence([0, 1, -1], inverted=True),
         ),
     )
 
@@ -212,7 +213,7 @@ maker(
 maker(
     ('vc', 19),
     akasha.sparse_getato_rhythm(
-        division_mask=abjad.silence([1], inverted=True),
+        division_mask=rmakers.silence([1], inverted=True),
         ),
     )
 

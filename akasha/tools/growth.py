@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def growth(
@@ -15,8 +15,8 @@ def growth(
     """
 
     pattern = abjad.index([first_silence], 4) | abjad.index([4], 5)
-    silence_mask = abjad.SilenceMask(pattern)
-    sustain_mask = abjad.sustain([0, -1])
+    silence_mask = rmakers.SilenceMask(pattern)
+    sustain_mask = rmakers.sustain([0, -1])
 
     def division_expression(index, accelerando):
         ratio = abjad.Ratio(division_ratio)
