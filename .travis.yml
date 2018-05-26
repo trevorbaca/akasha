@@ -28,6 +28,9 @@ before_install:
 install:
     - pip install -e git://github.com/Abjad/ide.git#egg=ide
     - pip install -e git://github.com/trevorbaca/baca.git#egg=baca
+    - ls `pwd`/baca
+    - ls `pwd`/baca/baca
+    - ls `pwd`/baca/baca/scr
     - echo $PATH
     - export PATH=$PATH:`pwd`/baca/baca/scr
     - echo $PATH
@@ -37,7 +40,8 @@ install:
     - PACKAGE=akasha
 
 script:
-    - doctest ./$PACKAGE
+    # finds baca/scr/doctest:
+    #- doctest ./$PACKAGE
     - py.test -rf ./$PACKAGE
 
 notifications:
