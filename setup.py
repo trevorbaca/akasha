@@ -25,6 +25,6 @@ if __name__ == '__main__':
         keywords=keywords,
         name='Akasha',
         packages=['akasha'],
-        paltforms='Any',
+        platforms='Any',
         url='https://github.com/trevorbaca/akasha',
         )
