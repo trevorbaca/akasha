@@ -75,5 +75,9 @@ script:
     - coverage run -a `which doctest` $PACKAGE
     - coverage run -a `which py.test` -rf $PACKAGE
 
+after_success:
+    - pip install --quiet coveralls
+    - coveralls
+
 notifications:
     email: false
