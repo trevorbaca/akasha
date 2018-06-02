@@ -89,8 +89,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.one_click_every(1, 2),
-        #selector=baca.leaves()[:-1].group(),
-        spanner_selector=baca.leaves()[:-1],
+        selector=baca.leaves()[:-1],
         ),
     )
 
@@ -99,8 +98,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.clicks_per_second(1, 2),
-        #selector=baca.leaves()[:-1].group(),
-        spanner_selector=baca.leaves()[:-1],
+        selector=baca.leaves()[:-1],
         ),
     )
 
@@ -110,8 +108,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.scratch_moltiss(),
-        #selector=baca.leaves()[:-1].group(),
-        spanner_selector=baca.leaves()[:-1],
+        selector=baca.leaves()[:-1],
         ),
     )
 
@@ -120,8 +117,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_scratch(1, 2),
-        #selector=baca.leaves()[:-1].group(),
-        spanner_selector=baca.leaves()[:-1],
+        selector=baca.leaves()[:-1],
         ),
     )
 
@@ -130,8 +126,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.pos_ord(),
-        #selector=baca.leaves()[:-1].group(),
-        spanner_selector=baca.leaves()[:-1],
+        selector=baca.leaves()[:-1],
         ),
     )
 
@@ -140,8 +135,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
-        #selector=baca.leaves()[:-1].group(),
-        spanner_selector=baca.leaves()[:-1],
+        selector=baca.leaves()[:-1],
         ),
     baca.hairpin('ff < fff', selector=baca.leaves()[:-1]),
     )
@@ -167,14 +161,12 @@ maker(
     baca.transition(
         baca.markup.pos_ord_senza_vib(),
         baca.markup.XP(),
-        #selector=baca.leaves()[:3].group(),
-        spanner_selector=baca.leaves()[:3],
+        selector=baca.leaves()[:3],
         ),
     baca.transition(
         baca.markup.XP(),
         baca.markup.pos_ord(),
-        #selector=baca.leaves()[-2:].group(),
-        spanner_selector=baca.leaves()[-2:],
+        selector=baca.leaves()[-2:],
         ),
     )
 
@@ -185,14 +177,12 @@ maker(
     baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
-        #selector=baca.leaves()[:2].group(),
-        spanner_selector=baca.leaves()[:2],
+        selector=baca.leaves()[:2],
         ),
     baca.transition(
         baca.markup.XP(),
         baca.markup.pos_ord(),
-        #selector=baca.leaves()[-2:].group(),
-        spanner_selector=baca.leaves()[-2:],
+        selector=baca.leaves()[-2:],
         ),
     )
 
@@ -246,8 +236,7 @@ maker(
     baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XT(),
-        #selector=baca.leaves()[:-1].group(),
-        spanner_selector=baca.leaves()[:-1],
+        selector=baca.leaves()[:-1],
         ),
     )
 
@@ -329,14 +318,12 @@ maker(
     baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
-        #selector=baca.leaves()[:3].group(),
-        spanner_selector=baca.leaves()[:3],
+        selector=baca.leaves()[:3],
         ),
     baca.transition(
         baca.markup.XP(),
         baca.markup.pos_ord(),
-        #selector=baca.leaves()[-2:].group(),
-        spanner_selector=baca.leaves()[-2:],
+        selector=baca.leaves()[-2:],
         ),
     baca.trill_spanner(),
     )
@@ -347,8 +334,7 @@ maker(
     baca.transition(
         baca.markup.pos_ord(),
         baca.markup.XP(),
-        #selector=baca.leaves()[:4].group(),
-        spanner_selector=baca.leaves()[:4],
+        selector=baca.leaves()[:4],
         ),
     baca.trill_spanner(),
     )

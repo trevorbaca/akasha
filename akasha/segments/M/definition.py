@@ -79,7 +79,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.vib_moltiss(),
-        baca.leaves()[:9].group(),
+        #baca.leaves()[:9].group(),
+        selector=baca.leaves()[:9],
         ),
     )
 
@@ -116,7 +117,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.pos_ord_XFB(),
-        baca.leaves()[:2].group(),
+        #baca.leaves()[:2].group(),
+        selector=baca.leaves()[:2],
         ),
     )
 
@@ -125,7 +127,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.pont_XFB(),
-        baca.leaves()[:2].group(),
+        #baca.leaves()[:2].group(),
+        selector=baca.leaves()[:2],
         ),
     )
 
@@ -134,7 +137,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.XP_XFB(),
-        baca.leaves()[:3].group(),
+        #baca.leaves()[:3].group(),
+        selector=baca.leaves()[:3],
         ),
     )
 
@@ -143,7 +147,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.XP(),
-        baca.leaves()[:4].group(),
+        #baca.leaves()[:4].group(),
+        selector=baca.leaves()[:4],
         ),
     )
 
@@ -157,7 +162,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(1, 3),
-        baca.leaves()[:2].group(),
+        #baca.leaves()[:2].group(),
+        selector=baca.leaves()[:2],
         ),
     )
 
@@ -166,7 +172,8 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.fractional_OB(2, 3),
-        baca.leaves()[:2].group(),
+        #baca.leaves()[:2].group(),
+        selector=baca.leaves()[:2],
         ),
     )
 
@@ -175,6 +182,7 @@ maker(
     baca.transition(
         baca.markup.trans(),
         baca.markup.OB_no_pitch(),
-        baca.leaves()[:2].group(),
+        #baca.leaves()[:2].group(),
+        selector=baca.leaves()[:2],
         ),
     )
