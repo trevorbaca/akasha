@@ -1516,10 +1516,10 @@ M_ViolinIMusicVoice = {
     % [M ViolinIMusicVoice measure 361 / measure 22]             %! SM4
     bf'!2.
     \repeatTie
+    \stopTextSpan                                                %! PWC1
     
     bf'!2
     \repeatTie
-    \stopTextSpan                                                %! PWC1
     
     % [M ViolinIMusicVoice measure 362 / measure 23]             %! SM4
     bf'!1.
@@ -1941,10 +1941,10 @@ M_ViolinIIMusicVoice = {
     % [M ViolinIIMusicVoice measure 361 / measure 22]            %! SM4
     bf!2.
     \repeatTie
+    \stopTextSpan                                                %! PWC1
     
     bf!2
     \repeatTie
-    \stopTextSpan                                                %! PWC1
     
     % [M ViolinIIMusicVoice measure 362 / measure 23]            %! SM4
     bf!1.
@@ -2365,10 +2365,10 @@ M_ViolaMusicVoice = {
     % [M ViolaMusicVoice measure 361 / measure 22]               %! SM4
     bf,!2.
     \repeatTie
+    \stopTextSpan                                                %! PWC1
     
     bf,!2
     \repeatTie
-    \stopTextSpan                                                %! PWC1
     
     % [M ViolaMusicVoice measure 362 / measure 23]               %! SM4
     bf,!1.
@@ -2628,6 +2628,7 @@ M_CelloMusicVoice = {
     bf,,!2.
     \repeatTie
     \ff                                                          %! HC1
+    \stopTextSpan                                                %! PWC1
     
     % [M CelloMusicVoice measure 347 / measure 8]                %! SM4
     bf,,!2.
@@ -2640,7 +2641,6 @@ M_CelloMusicVoice = {
     % [M CelloMusicVoice measure 349 / measure 10]               %! SM4
     bf,,!1.
     \repeatTie
-    \stopTextSpan                                                %! PWC1
     
     % [M CelloMusicVoice measure 350 / measure 11]               %! SM4
     R1 * 1
