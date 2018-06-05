@@ -142,7 +142,10 @@ maker(
 
 maker(
     ('GlobalSkips', (9, 10)),
-    baca.markups.boxed_repeat_count(6, baca.skip(0)),
+    baca.markup(
+        baca.markups.boxed_repeat_count(6),
+        selector=baca.skip(0),
+        ),
     baca.volta(),
     )
 
@@ -299,7 +302,10 @@ maker(
 
 maker(
     ('GlobalSkips', 19),
-    baca.markups.boxed_repeat_count(6, baca.skip(0)),
+    baca.markup(
+        baca.markups.boxed_repeat_count(6),
+        selector=baca.skip(0),
+        ),
     baca.text_script_extra_offset((1.5, 6)),
     baca.volta(),
     )
