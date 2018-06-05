@@ -1313,11 +1313,7 @@ M_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf'!2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + XFB"                                    %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + XFB" }                                  %! IC
     
     % [M ViolinIMusicVoice measure 347 / measure 8]              %! SM4
     bf'!2.
@@ -1710,11 +1706,7 @@ M_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf!2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + XFB"                                    %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + XFB" }                                  %! IC
     
     % [M ViolinIIMusicVoice measure 347 / measure 8]             %! SM4
     bf!2.
@@ -2106,11 +2098,7 @@ M_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf,!2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + XFB"                                    %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + XFB" }                                  %! IC
     
     % [M ViolaMusicVoice measure 347 / measure 8]                %! SM4
     bf,!2.
@@ -2564,11 +2552,7 @@ M_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf,,!1.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "vib. poco."                                     %! IC
-        }                                                        %! IC
+    ^ \markup { "vib. poco." }                                   %! IC
     
     % [M CelloMusicVoice measure 353 / measure 14]               %! SM4
     bf,,!1.

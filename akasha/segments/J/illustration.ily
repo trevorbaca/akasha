@@ -289,15 +289,11 @@ J_ViolinIMusicVoice = {
                 {
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "scratch moltiss."           %! IC
+                            "scratch moltiss."                   %! IC
                         }                                        %! IC
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "terminate each note abruptly" %! IC
+                            "terminate each note abruptly"       %! IC
                         }                                        %! IC
                 }
             }
@@ -406,15 +402,11 @@ J_ViolinIIMusicVoice = {
                 {
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "scratch moltiss."           %! IC
+                            "scratch moltiss."                   %! IC
                         }                                        %! IC
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "terminate each note abruptly" %! IC
+                            "terminate each note abruptly"       %! IC
                         }                                        %! IC
                 }
             }
@@ -606,15 +598,11 @@ J_CelloMusicVoice = {
                 {
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "scratch moltiss."           %! IC
+                            "scratch moltiss."                   %! IC
                         }                                        %! IC
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "terminate each note abruptly" %! IC
+                            "terminate each note abruptly"       %! IC
                         }                                        %! IC
                 }
             }

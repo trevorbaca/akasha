@@ -1752,15 +1752,11 @@ E_ViolinIMusicVoice = {
                 {
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "scratch moltiss."           %! IC
+                            "scratch moltiss."                   %! IC
                         }                                        %! IC
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "terminate each note abruptly" %! IC
+                            "terminate each note abruptly"       %! IC
                         }                                        %! IC
                 }
             }
@@ -1912,11 +1908,7 @@ E_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         af'!8
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "po' meno scratch"                           %! IC
-            }                                                    %! IC
+        ^ \markup { "po' meno scratch" }                         %! IC
         
         r8
         
@@ -2119,15 +2111,11 @@ E_ViolinIMusicVoice = {
             {
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                leggieriss.                      %! IC
+                        leggieriss.                              %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "senza scratch"                  %! IC
+                        "senza scratch"                          %! IC
                     }                                            %! IC
             }
         }
@@ -3230,15 +3218,11 @@ E_ViolinIIMusicVoice = {
                 {
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "scratch moltiss."           %! IC
+                            "scratch moltiss."                   %! IC
                         }                                        %! IC
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "terminate each note abruptly" %! IC
+                            "terminate each note abruptly"       %! IC
                         }                                        %! IC
                 }
             }
@@ -3311,11 +3295,7 @@ E_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         a8
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "po' meno scratch"                           %! IC
-            }                                                    %! IC
+        ^ \markup { "po' meno scratch" }                         %! IC
         
         r8
         
@@ -3477,11 +3457,7 @@ E_ViolinIIMusicVoice = {
         cs'!8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "senza scratch"                              %! IC
-            }                                                    %! IC
+        ^ \markup { "senza scratch" }                            %! IC
         
         r8
         
@@ -3539,11 +3515,7 @@ E_ViolinIIMusicVoice = {
         bf!16
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    leggieriss.                                  %! IC
-            }                                                    %! IC
+        ^ \markup { leggieriss. }                                %! IC
         
         a16
         -\staccato                                               %! IC
@@ -4784,11 +4756,7 @@ E_ViolaMusicVoice = {
     c'4
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                OB                                               %! IC
-        }                                                        %! IC
+    ^ \markup { OB }                                             %! IC
     
     c'4.
     -\upbow                                                      %! IC
@@ -5356,15 +5324,11 @@ E_CelloMusicVoice = {
                 {
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "scratch moltiss."           %! IC
+                            "scratch moltiss."                   %! IC
                         }                                        %! IC
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "terminate each note abruptly" %! IC
+                            "terminate each note abruptly"       %! IC
                         }                                        %! IC
                 }
             }
@@ -5410,11 +5374,7 @@ E_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b,4
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "po' meno scratch"                           %! IC
-            }                                                    %! IC
+        ^ \markup { "po' meno scratch" }                         %! IC
         
         r4
         
@@ -5538,11 +5498,7 @@ E_CelloMusicVoice = {
         cs!8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "senza scratch"                              %! IC
-            }                                                    %! IC
+        ^ \markup { "senza scratch" }                            %! IC
         
         r8
         
@@ -5661,11 +5617,7 @@ E_CelloMusicVoice = {
     cs!16
     -\staccato                                                   %! IC
     [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                leggieriss.                                      %! IC
-        }                                                        %! IC
+    ^ \markup { leggieriss. }                                    %! IC
     
     c16
     -\staccato                                                   %! IC

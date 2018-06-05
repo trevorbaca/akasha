@@ -2003,16 +2003,14 @@ F_GlobalSkips = {
                 %@%     }                                                %! SM3:STAGE_NUMBER_MARKUP
                     \line                                                %! IC
                         {                                                %! IC
-                            \whiteout                                    %! IC
-                                \upright                                 %! IC
-                                    \override                            %! IC
-                                        #'(box-padding . 0.5)            %! IC
-                                        \box                             %! IC
-                                            \fontsize                    %! IC
-                                                #6                       %! IC
-                                                \bold                    %! IC
-                                                    \sans                %! IC
-                                                        x6               %! IC
+                            \override                                    %! IC
+                                #'(box-padding . 0.5)                    %! IC
+                                \box                                     %! IC
+                                    \fontsize                            %! IC
+                                        #6                               %! IC
+                                        \bold                            %! IC
+                                            \sans                        %! IC
+                                                x6                       %! IC
                         }                                                %! IC
                 %@% \line                                                %! SM28:CLOCK_TIME_MARKUP
                 %@%     {                                                %! SM28:CLOCK_TIME_MARKUP
@@ -2454,11 +2452,7 @@ F_ViolinIMusicVoice = {
         ef''!16 * 227/32
         \pp_ancora                                               %! SM8:REDUNDANT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "tasto + XFB"                                %! IC
-            }                                                    %! IC
+        ^ \markup { "tasto + XFB" }                              %! IC
         
         r16 * 199/64
         
@@ -3010,11 +3004,7 @@ F_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e''2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + 1/2 scratch"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + 1/2 scratch" }                          %! IC
     
     e''2
     \repeatTie
@@ -3113,11 +3103,7 @@ F_ViolinIMusicVoice = {
         \<                                                       %! HC1
         \ff                                                      %! HC1
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "pos. ord."                                  %! IC
-            }                                                    %! IC
+        ^ \markup { "pos. ord." }                                %! IC
         
         fs'''!16
         -\staccato                                               %! IC
@@ -3579,11 +3565,7 @@ F_ViolinIMusicVoice = {
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    leggieriss.                                  %! IC
-            }                                                    %! IC
+        ^ \markup { leggieriss. }                                %! IC
         
         fs'''!16
         -\staccato                                               %! IC
@@ -3981,11 +3963,7 @@ F_ViolinIIMusicVoice = {
         b'16 * 13/8
         \pp_ancora                                               %! SM8:REDUNDANT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "tasto + XFB"                                %! IC
-            }                                                    %! IC
+        ^ \markup { "tasto + XFB" }                              %! IC
         
         cs''!16 * 125/64
         
@@ -4423,11 +4401,7 @@ F_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fs'!2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + 1/2 scratch"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + 1/2 scratch" }                          %! IC
     
     fs'!2
     \repeatTie
@@ -4526,11 +4500,7 @@ F_ViolinIIMusicVoice = {
         \<                                                       %! HC1
         \ff                                                      %! HC1
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "pos. ord."                                  %! IC
-            }                                                    %! IC
+        ^ \markup { "pos. ord." }                                %! IC
         
         ef'''!16
         -\staccato                                               %! IC
@@ -4996,11 +4966,7 @@ F_ViolinIIMusicVoice = {
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    leggieriss.                                  %! IC
-            }                                                    %! IC
+        ^ \markup { leggieriss. }                                %! IC
         
         ef'''!16
         -\staccato                                               %! IC
@@ -5193,15 +5159,11 @@ F_ViolaMusicVoice = {
             {
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "scratch moltiss."               %! IC
+                        "scratch moltiss."                       %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "terminate abruptly"             %! IC
+                        "terminate abruptly"                     %! IC
                     }                                            %! IC
             }
         }
@@ -5222,11 +5184,7 @@ F_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gs!2
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + 1/2 scratch"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + 1/2 scratch" }                          %! IC
     
     gs!8.
     \repeatTie
@@ -5437,11 +5395,7 @@ F_ViolaMusicVoice = {
         \<                                                       %! HC1
         \ff                                                      %! HC1
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "pos. ord."                                  %! IC
-            }                                                    %! IC
+        ^ \markup { "pos. ord." }                                %! IC
         
         c'''16
         -\staccato                                               %! IC
@@ -5897,11 +5851,7 @@ F_ViolaMusicVoice = {
     b'1.
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "OB + terminate abruptly"                        %! IC
-        }                                                        %! IC
+    ^ \markup { "OB + terminate abruptly" }                      %! IC
     
     % [F ViolaMusicVoice measure 195 / measure 44]               %! SM4
     R1 * 1/4
@@ -5919,11 +5869,7 @@ F_ViolaMusicVoice = {
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    leggieriss.                                  %! IC
-            }                                                    %! IC
+        ^ \markup { leggieriss. }                                %! IC
         
         c'''16
         -\staccato                                               %! IC
@@ -6031,11 +5977,7 @@ F_ViolaMusicVoice = {
     b'1.
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "OB + terminate abruptly"                        %! IC
-        }                                                        %! IC
+    ^ \markup { "OB + terminate abruptly" }                      %! IC
     
     % [F ViolaMusicVoice measure 199 / measure 48]               %! SM4
     R1 * 1/4
@@ -6089,9 +6031,7 @@ F_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1/2 scratch"            %! IC
+                        "tasto + 1/2 scratch"                    %! IC
                     }                                            %! IC
             }
         }
@@ -6134,11 +6074,7 @@ F_CelloMusicVoice = {
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    leggieriss.                                  %! IC
-            }                                                    %! IC
+        ^ \markup { leggieriss. }                                %! IC
         
         bf''!16
         -\staccato                                               %! IC
@@ -6333,11 +6269,7 @@ F_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af,!4..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + 1/2 scratch"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + 1/2 scratch" }                          %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     g,16
@@ -6532,11 +6464,7 @@ F_CelloMusicVoice = {
         \<                                                       %! HC1
         \ff                                                      %! HC1
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "pos. ord."                                  %! IC
-            }                                                    %! IC
+        ^ \markup { "pos. ord." }                                %! IC
         
         a''16
         -\staccato                                               %! IC
@@ -6997,11 +6925,7 @@ F_CelloMusicVoice = {
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\staccato                                                   %! IC
     [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                leggieriss.                                      %! IC
-        }                                                        %! IC
+    ^ \markup { leggieriss. }                                    %! IC
     
     a''16
     -\staccato                                                   %! IC

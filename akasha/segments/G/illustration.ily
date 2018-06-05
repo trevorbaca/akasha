@@ -1760,11 +1760,7 @@ G_ViolaMusicVoice = {
     c'2
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                OB                                               %! IC
-        }                                                        %! IC
+    ^ \markup { OB }                                             %! IC
     
     % [G ViolaMusicVoice measure 215 / measure 16]               %! SM4
     c'2

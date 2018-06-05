@@ -957,15 +957,11 @@ N_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "full bow strokes"               %! IC
+                        "full bow strokes"                       %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "terminate each note abruptly"   %! IC
+                        "terminate each note abruptly"           %! IC
                     }                                            %! IC
             }
         }
@@ -1174,11 +1170,7 @@ N_ViolinIIMusicVoice = {
         \pp_ancora                                               %! SM8:REDUNDANT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    leggieriss.                                  %! IC
-            }                                                    %! IC
+        ^ \markup { leggieriss. }                                %! IC
         
         e'''32
         -\staccato                                               %! IC
@@ -1328,15 +1320,11 @@ N_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "full bow strokes"               %! IC
+                        "full bow strokes"                       %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "terminate each note abruptly"   %! IC
+                        "terminate each note abruptly"           %! IC
                     }                                            %! IC
             }
         }
@@ -1500,15 +1488,11 @@ N_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "full bow strokes"               %! IC
+                        "full bow strokes"                       %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "terminate each note abruptly"   %! IC
+                        "terminate each note abruptly"           %! IC
                     }                                            %! IC
             }
         }
@@ -1615,45 +1599,43 @@ N_CelloMusicVoice = {
     \once \override MultiMeasureRestText.extra-offset = #'(-19 . -4)
     R1 * 1/4
     _ \markup {                                                  %! SCORE2
-        \whiteout                                                %! SCORE2
-            \upright                                             %! SCORE2
-                \override                                        %! SCORE2
-                    #'(font-name . "Palatino")                   %! SCORE2
-                    \with-color                                  %! SCORE2
-                        #black                                   %! SCORE2
-                        \right-column                            %! SCORE2
+        \override                                                %! SCORE2
+            #'(font-name . "Palatino")                           %! SCORE2
+            \with-color                                          %! SCORE2
+                #black                                           %! SCORE2
+                \right-column                                    %! SCORE2
+                    {                                            %! SCORE2
+                        \line                                    %! SCORE2
                             {                                    %! SCORE2
-                                \line                            %! SCORE2
-                                    {                            %! SCORE2
-                                        Cambridge,               %! SCORE2
-                                        MA                       %! SCORE2
-                                        \hspace                  %! SCORE2
-                                            #0.75                %! SCORE2
-                                        –                        %! SCORE2
-                                        \hspace                  %! SCORE2
-                                            #0.75                %! SCORE2
-                                        Dallas,                  %! SCORE2
-                                        TX                       %! SCORE2
-                                        \hspace                  %! SCORE2
-                                            #0.75                %! SCORE2
-                                        –                        %! SCORE2
-                                        \hspace                  %! SCORE2
-                                            #0.75                %! SCORE2
-                                        Madison,                 %! SCORE2
-                                        WI.                      %! SCORE2
-                                    }                            %! SCORE2
-                                \line                            %! SCORE2
-                                    {                            %! SCORE2
-                                        October                  %! SCORE2
-                                        \hspace                  %! SCORE2
-                                            #0.75                %! SCORE2
-                                        –                        %! SCORE2
-                                        \hspace                  %! SCORE2
-                                            #0.75                %! SCORE2
-                                        December                 %! SCORE2
-                                        2015.                    %! SCORE2
-                                    }                            %! SCORE2
+                                Cambridge,                       %! SCORE2
+                                MA                               %! SCORE2
+                                \hspace                          %! SCORE2
+                                    #0.75                        %! SCORE2
+                                –                                %! SCORE2
+                                \hspace                          %! SCORE2
+                                    #0.75                        %! SCORE2
+                                Dallas,                          %! SCORE2
+                                TX                               %! SCORE2
+                                \hspace                          %! SCORE2
+                                    #0.75                        %! SCORE2
+                                –                                %! SCORE2
+                                \hspace                          %! SCORE2
+                                    #0.75                        %! SCORE2
+                                Madison,                         %! SCORE2
+                                WI.                              %! SCORE2
                             }                                    %! SCORE2
+                        \line                                    %! SCORE2
+                            {                                    %! SCORE2
+                                October                          %! SCORE2
+                                \hspace                          %! SCORE2
+                                    #0.75                        %! SCORE2
+                                –                                %! SCORE2
+                                \hspace                          %! SCORE2
+                                    #0.75                        %! SCORE2
+                                December                         %! SCORE2
+                                2015.                            %! SCORE2
+                            }                                    %! SCORE2
+                    }                                            %! SCORE2
         }                                                        %! SCORE2
     
 }

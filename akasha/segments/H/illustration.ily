@@ -518,9 +518,7 @@ H_ViolinIMusicVoice = {
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    XFB                          %! IC
+                            XFB                                  %! IC
                         }                                        %! IC
                 }
             }
@@ -718,9 +716,7 @@ H_ViolinIIMusicVoice = {
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    XFB                          %! IC
+                            XFB                                  %! IC
                         }                                        %! IC
                 }
             }
@@ -918,11 +914,7 @@ H_ViolaMusicVoice = {
         \glissando                                               %! SC
         \>                                                       %! HC1
         \mp                                                      %! HC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    tasto                                        %! IC
-            }                                                    %! IC
+        ^ \markup { tasto }                                      %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         cqs!8..
@@ -1023,9 +1015,7 @@ H_CelloMusicVoice = {
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    XFB                          %! IC
+                            XFB                                  %! IC
                         }                                        %! IC
                 }
             }
@@ -1081,11 +1071,7 @@ H_CelloMusicVoice = {
         \glissando                                               %! SC
         \>                                                       %! HC1
         \mp                                                      %! HC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    tasto                                        %! IC
-            }                                                    %! IC
+        ^ \markup { tasto }                                      %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         bf,,!8..

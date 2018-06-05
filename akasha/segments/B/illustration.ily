@@ -674,9 +674,7 @@ B_ViolinIIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1/2 scratch"            %! IC
+                        "tasto + 1/2 scratch"                    %! IC
                     }                                            %! IC
             }
         }
@@ -773,11 +771,7 @@ B_ViolinIIMusicVoice = {
         c''16 * 487/64
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "tasto + XFB"                                %! IC
-            }                                                    %! IC
+        ^ \markup { "tasto + XFB" }                              %! IC
         
         bf'!16 * 209/32
         
@@ -910,11 +904,7 @@ B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 34 / measure 11]                %! SM4
     ds!2..
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                tasto                                            %! IC
-        }                                                        %! IC
+    ^ \markup { tasto }                                          %! IC
     
 }
 
@@ -1218,11 +1208,7 @@ B_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     cs,!2..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                tasto                                            %! IC
-        }                                                        %! IC
+    ^ \markup { tasto }                                          %! IC
     
 }
 

@@ -1095,11 +1095,7 @@ A_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e'4
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + 1/2 scratch"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + 1/2 scratch" }                          %! IC
     
     f'2
     
@@ -1126,11 +1122,7 @@ A_ViolinIMusicVoice = {
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "leggierissimo: off-string bowing on staccati" %! IC
-            }                                                    %! IC
+        ^ \markup { "leggierissimo: off-string bowing on staccati" } %! IC
         
         cs'!32
         -\staccato                                               %! IC
@@ -1208,11 +1200,7 @@ A_ViolinIMusicVoice = {
         d''16 * 15/8
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "tasto + XFB"                                %! IC
-            }                                                    %! IC
+        ^ \markup { "tasto + XFB" }                              %! IC
         
         e''16 * 61/32
         
@@ -1444,11 +1432,7 @@ A_ViolinIIMusicVoice = {
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "leggierissimo: off-string bowing on staccati" %! IC
-            }                                                    %! IC
+        ^ \markup { "leggierissimo: off-string bowing on staccati" } %! IC
         
         b32
         -\staccato                                               %! IC
@@ -1487,11 +1471,7 @@ A_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d'8
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + 1/2 scratch"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + 1/2 scratch" }                          %! IC
     
     % [A ViolinIIMusicVoice measure 10 / measure 7]              %! SM4
     d'8
@@ -1563,11 +1543,7 @@ A_ViolinIIMusicVoice = {
         bf'!16 * 247/32
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "tasto + XFB"                                %! IC
-            }                                                    %! IC
+        ^ \markup { "tasto + XFB" }                              %! IC
         
         r16 * 459/64
         
@@ -1857,11 +1833,7 @@ A_ViolaMusicVoice = {
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "leggierissimo: off-string bowing on staccati" %! IC
-            }                                                    %! IC
+        ^ \markup { "leggierissimo: off-string bowing on staccati" } %! IC
         
         a32
         -\staccato                                               %! IC
@@ -1882,11 +1854,7 @@ A_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ef'!2
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + 1/2 scratch"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + 1/2 scratch" }                          %! IC
     
     ef'!4.
     \repeatTie
@@ -2018,9 +1986,7 @@ A_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1/2 scratch"            %! IC
+                        "tasto + 1/2 scratch"                    %! IC
                     }                                            %! IC
             }
         }
@@ -2148,11 +2114,7 @@ A_CelloMusicVoice = {
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "leggierissimo: off-string bowing on staccati" %! IC
-            }                                                    %! IC
+        ^ \markup { "leggierissimo: off-string bowing on staccati" } %! IC
         
         cs'!32
         -\staccato                                               %! IC

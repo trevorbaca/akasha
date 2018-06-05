@@ -2093,11 +2093,7 @@ I_ViolinIMusicVoice = {
     b'4
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                OB                                               %! IC
-        }                                                        %! IC
+    ^ \markup { OB }                                             %! IC
     
     b'4
     -\upbow                                                      %! IC
@@ -2371,11 +2367,7 @@ I_ViolinIMusicVoice = {
     b'1.
     \<                                                           %! HC1
     \ppp                                                         %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + FB"                                        %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + FB" }                                      %! IC
     
     % [I ViolinIMusicVoice measure 245 / measure 22]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2397,15 +2389,11 @@ I_ViolinIMusicVoice = {
                 {
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    leggieriss.                  %! IC
+                            leggieriss.                          %! IC
                         }                                        %! IC
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "pos. ord."                  %! IC
+                            "pos. ord."                          %! IC
                         }                                        %! IC
                 }
             }
@@ -3051,11 +3039,7 @@ I_ViolinIIMusicVoice = {
     b4
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\upbow                                                      %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                OB                                               %! IC
-        }                                                        %! IC
+    ^ \markup { OB }                                             %! IC
     
     b4
     -\downbow                                                    %! IC
@@ -3237,11 +3221,7 @@ I_ViolinIIMusicVoice = {
     b1.
     \<                                                           %! HC1
     \ppp                                                         %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + FB"                                        %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + FB" }                                      %! IC
     
     % [I ViolinIIMusicVoice measure 245 / measure 22]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -3623,11 +3603,7 @@ I_ViolaMusicVoice = {
     b,4
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                OB                                               %! IC
-        }                                                        %! IC
+    ^ \markup { OB }                                             %! IC
     
     b,4
     -\upbow                                                      %! IC
@@ -4001,11 +3977,7 @@ I_ViolaMusicVoice = {
     b,1.
     \<                                                           %! HC1
     \ppp                                                         %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + FB"                                        %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + FB" }                                      %! IC
     
     % [I ViolaMusicVoice measure 245 / measure 22]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -4592,11 +4564,7 @@ I_CelloMusicVoice = {
     b,,1.
     \<                                                           %! HC1
     \ppp                                                         %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + FB"                                        %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + FB" }                                      %! IC
     
     % [I CelloMusicVoice measure 245 / measure 22]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3

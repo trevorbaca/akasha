@@ -1230,16 +1230,14 @@ K_GlobalSkips = {
                 %@%     }                                                %! SM3:STAGE_NUMBER_MARKUP
                     \line                                                %! IC
                         {                                                %! IC
-                            \whiteout                                    %! IC
-                                \upright                                 %! IC
-                                    \override                            %! IC
-                                        #'(box-padding . 0.5)            %! IC
-                                        \box                             %! IC
-                                            \fontsize                    %! IC
-                                                #6                       %! IC
-                                                \bold                    %! IC
-                                                    \sans                %! IC
-                                                        x6               %! IC
+                            \override                                    %! IC
+                                #'(box-padding . 0.5)                    %! IC
+                                \box                                     %! IC
+                                    \fontsize                            %! IC
+                                        #6                               %! IC
+                                        \bold                            %! IC
+                                            \sans                        %! IC
+                                                x6                       %! IC
                         }                                                %! IC
                 %@% \line                                                %! SM28:CLOCK_TIME_MARKUP
                 %@%     {                                                %! SM28:CLOCK_TIME_MARKUP
@@ -2154,16 +2152,14 @@ K_GlobalSkips = {
                 %@%     }                                                %! SM3:STAGE_NUMBER_MARKUP
                     \line                                                %! IC
                         {                                                %! IC
-                            \whiteout                                    %! IC
-                                \upright                                 %! IC
-                                    \override                            %! IC
-                                        #'(box-padding . 0.5)            %! IC
-                                        \box                             %! IC
-                                            \fontsize                    %! IC
-                                                #6                       %! IC
-                                                \bold                    %! IC
-                                                    \sans                %! IC
-                                                        x6               %! IC
+                            \override                                    %! IC
+                                #'(box-padding . 0.5)                    %! IC
+                                \box                                     %! IC
+                                    \fontsize                            %! IC
+                                        #6                               %! IC
+                                        \bold                            %! IC
+                                            \sans                        %! IC
+                                                x6                       %! IC
                         }                                                %! IC
                 %@% \line                                                %! SM28:CLOCK_TIME_MARKUP
                 %@%     {                                                %! SM28:CLOCK_TIME_MARKUP
@@ -2630,9 +2626,7 @@ K_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1 click/3-4 sec."       %! IC
+                        "tasto + 1 click/3-4 sec."               %! IC
                     }                                            %! IC
             }
         }
@@ -3245,11 +3239,7 @@ K_ViolinIMusicVoice = {
     b''''2.
     \<                                                           %! HC1
     \sffp                                                        %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "pos. ord. + 9°/A4(II)"                          %! IC
-        }                                                        %! IC
+    ^ \markup { "pos. ord. + 9°/A4(II)" }                        %! IC
     \startTrillSpan                                              %! SC
     
     b''''4.
@@ -3501,9 +3491,7 @@ K_ViolinIIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1 click/3-4 sec."       %! IC
+                        "tasto + 1 click/3-4 sec."               %! IC
                     }                                            %! IC
             }
         }
@@ -4105,11 +4093,7 @@ K_ViolinIIMusicVoice = {
     cs''''!1
     \<                                                           %! HC1
     \sffp                                                        %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "pos. ord. + 5°/A4(II)"                          %! IC
-        }                                                        %! IC
+    ^ \markup { "pos. ord. + 5°/A4(II)" }                        %! IC
     \startTrillSpan                                              %! SC
     
     % [K ViolinIIMusicVoice measure 316 / measure 52]            %! SM4
@@ -4372,9 +4356,7 @@ K_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1 click/3-4 sec."       %! IC
+                        "tasto + 1 click/3-4 sec."               %! IC
                     }                                            %! IC
             }
         }
@@ -4971,11 +4953,7 @@ K_ViolaMusicVoice = {
     gqf''!2..
     \<                                                           %! HC1
     \sffp                                                        %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "pos. ord. + 7°/A2(IV)"                          %! IC
-        }                                                        %! IC
+    ^ \markup { "pos. ord. + 7°/A2(IV)" }                        %! IC
     \startTrillSpan                                              %! SC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -5238,9 +5216,7 @@ K_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto + 1 click/3-4 sec."       %! IC
+                        "tasto + 1 click/3-4 sec."               %! IC
                     }                                            %! IC
             }
         }
@@ -5832,11 +5808,7 @@ K_CelloMusicVoice = {
     d''2.
     \<                                                           %! HC1
     \sffp                                                        %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "pos. ord. + 11°/A1(IV)"                         %! IC
-        }                                                        %! IC
+    ^ \markup { "pos. ord. + 11°/A1(IV)" }                       %! IC
     \startTrillSpan                                              %! SC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
