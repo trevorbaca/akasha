@@ -81,7 +81,7 @@ maker(
     (baca.pitch('A+2'), 2),
     (baca.pitch('A1'), 3),
     baca.dynamic('"ff"'),
-    baca.markups.markup('tasto + 1 click/3-4 sec.'),
+    baca.markup('tasto + 1 click/3-4 sec.'),
     )
 
 maker(
@@ -247,7 +247,7 @@ maker(
 
 maker(
     ('vc', (14, 17)),
-    baca.markups.markup('pos. ord. + 11°/A1(IV)'),
+    baca.markup('pos. ord. + 11°/A1(IV)'),
     baca.trill_spanner(),
     baca.clef('treble'),
     )
@@ -259,7 +259,7 @@ maker(
 
 maker(
     ('va', (15, 17)),
-    baca.markups.markup('pos. ord. + 7°/A2(IV)'),
+    baca.markup('pos. ord. + 7°/A2(IV)'),
     baca.trill_spanner(),
     baca.clef('treble'),
     )
@@ -276,7 +276,7 @@ maker(
 
 maker(
     ('v2', (16, 17)),
-    baca.markups.markup('pos. ord. + 5°/A4(II)'),
+    baca.markup('pos. ord. + 5°/A4(II)'),
     baca.trill_spanner(),
     )
 
@@ -292,7 +292,7 @@ maker(
 
 maker(
     ('v1', 17),
-    baca.markups.markup('pos. ord. + 9°/A4(II)'),
+    baca.markup('pos. ord. + 9°/A4(II)'),
     baca.trill_spanner(),
     baca.hairpin('sffp < f'),
     )

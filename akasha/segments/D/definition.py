@@ -113,7 +113,7 @@ maker(
 maker(
     ('v1', (1, 3)),
     baca.dynamic('mp'),
-    baca.markups.markup('5°/A4(II) + vib. mod.'),
+    baca.markup('5°/A4(II) + vib. mod.'),
     baca.note_head_style_harmonic(),
     baca.pitch('C#7'),
     )
@@ -122,14 +122,14 @@ maker(
     ('va', 1),
     baca.clef('treble'),
     baca.dynamic('mp'),
-    baca.markups.markup('7°/A2(IV) + vib. mod.'),
+    baca.markup('7°/A2(IV) + vib. mod.'),
     )
 
 maker(
     ('vc', 1),
     baca.clef('treble'),
     baca.dynamic('mp'),
-    baca.markups.markup('11°/A1(IV) + vib. mod.'),
+    baca.markup('11°/A1(IV) + vib. mod.'),
     )
 
 maker(
@@ -164,7 +164,7 @@ maker(
         baca.runs(),
         baca.glissando(),
         ),
-    baca.markups.markup('XP + senza vib. + full bow strokes'),
+    baca.markup('XP + senza vib. + full bow strokes'),
     baca.note_head_style_harmonic(),
     )
 
@@ -262,7 +262,7 @@ maker(
     baca.clef('bass'),
     baca.dynamic('ppp'),
     baca.glissando(),
-    baca.markups.markup('XP + senza vib. + full bow strokes'),
+    baca.markup('XP + senza vib. + full bow strokes'),
     baca.note_head_style_harmonic(),
     )
 
