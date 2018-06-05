@@ -49,7 +49,7 @@ maker(
     baca.alternate_bow_strokes(),
     baca.clef('alto'),
     baca.dynamic('"mf"'),
-    baca.markup.OB_terminate_each_note_abruptly(),
+    baca.markups.OB_terminate_each_note_abruptly(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -59,6 +59,6 @@ maker(
     baca.clef('bass'),
     baca.dynamic('pp'),
     baca.make_repeat_tied_notes(),
-    baca.markup.pos_ord_vib_poco(),
+    baca.markups.pos_ord_vib_poco(),
     baca.pitch('Bb1'),
     )

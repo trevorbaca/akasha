@@ -64,8 +64,8 @@ maker(
     baca.hairpin('ff > f'),
     baca.make_notes(repeat_ties=True),
     baca.transition(
-        baca.markup.tasto_plus_scratch_moltiss(),
-        baca.markup.fractional_scratch(1, 4),
+        baca.markups.tasto_plus_scratch_moltiss(),
+        baca.markups.fractional_scratch(1, 4),
         ),
     )
 
@@ -78,16 +78,16 @@ maker(
 maker(
     ('v1', 2),
     baca.transition(
-        baca.markup.tasto_fractional_scratch(1, 4),
-        baca.markup.tasto(),
+        baca.markups.tasto_fractional_scratch(1, 4),
+        baca.markups.tasto(),
         ),
     )
 
 maker(
     (['v2', 'va', 'vc'], 2),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.tasto(),
+        baca.markups.trans(),
+        baca.markups.tasto(),
         ),
     )
 
@@ -96,8 +96,8 @@ maker(
     baca.hairpin('mf > p'),
     baca.make_notes(repeat_ties=True),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.FB(),
+        baca.markups.trans(),
+        baca.markups.FB(),
         ),
     )
 
@@ -106,8 +106,8 @@ maker(
     baca.hairpin('p > pp'),
     baca.make_notes(repeat_ties=True),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.XFB(),
+        baca.markups.trans(),
+        baca.markups.XFB(),
         ),
     )
 
@@ -150,7 +150,7 @@ maker(
     ('va', 6),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markup.OB(),
+    baca.markups.OB(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )

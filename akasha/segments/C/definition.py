@@ -170,7 +170,7 @@ maker(
     (baca.bar_extent((-2, 2)), 0),
     (baca.bar_extent_zero(selector=baca.leaves()), 0),
     baca.dynamic('"mf"'),
-    baca.markup.OB(),
+    baca.markups.OB(),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -192,34 +192,34 @@ maker(
     ('vc', 12),
     akasha.getato_pitches('C#3', direction=abjad.Down),
     baca.dynamic('p'),
-    baca.markup.leggieriss(),
+    baca.markups.leggieriss(),
     baca.staccato(selector=baca.pheads()),
     )
 
 maker(
     ('va', 13),
     baca.dynamic('ff'),
-    baca.markup.tasto_plus_scratch_moltiss(),
+    baca.markups.tasto_plus_scratch_moltiss(),
     )
 
 maker(
     ('va', 20),
     baca.dynamic('mp'),
-    baca.markup.tasto_fractional_scratch(1, 2),
+    baca.markups.tasto_fractional_scratch(1, 2),
     baca.pitches('D#4 D#+4 E4', exact=True),
     )
 
 maker(
     ('vc', 20),
     baca.dynamic('mp'),
-    baca.markup.tasto_fractional_scratch(1, 2),
+    baca.markups.tasto_fractional_scratch(1, 2),
     baca.pitch('C4'),
     )
 
 maker(
     ('v2', (22, 23)),
     baca.dynamic('pp'),
-    baca.markup.tasto(),
+    baca.markups.tasto(),
     baca.pitch('G5'),
     baca.staff_lines(5),
     baca.trill_spanner(string='M2'),
@@ -229,13 +229,13 @@ maker(
     ('va', (22, 23)),
     baca.glissando(),
     baca.hairpin('mp > pp'),
-    baca.markup.tasto(),
+    baca.markups.tasto(),
     baca.pitches('E3 D#3 C+3', exact=True),
     )
 
 maker(
     ('vc', (22, 23)),
     baca.hairpin('mp > pp'),
-    baca.markup.tasto(),
+    baca.markups.tasto(),
     baca.pitch('C#2'),
     )
