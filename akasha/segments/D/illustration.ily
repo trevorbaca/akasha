@@ -2066,9 +2066,7 @@ D_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "5°/A4(II) + vib. mod."          %! IC
+                        "5°/A4(II) + vib. mod."                  %! IC
                     }                                            %! IC
             }
         }
@@ -2172,11 +2170,7 @@ D_ViolinIMusicVoice = {
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + senza vib. + full bow strokes"             %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + senza vib. + full bow strokes" }           %! IC
     
     % [D ViolinIMusicVoice measure 81 / measure 20]              %! SM4
     c''2.
@@ -2435,11 +2429,7 @@ D_ViolinIIMusicVoice = {
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + full bow strokes"                          %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + full bow strokes" }                        %! IC
     
     c''4.
     -\upbow                                                      %! IC
@@ -2594,11 +2584,7 @@ D_ViolinIIMusicVoice = {
     \pitchedTrill                                                %! SC
     g''2.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                tasto                                            %! IC
-        }                                                        %! IC
+    ^ \markup { tasto }                                          %! IC
     \startTrillSpan a''                                          %! SC
     
     % [D ViolinIIMusicVoice measure 100 / measure 39]            %! SM4
@@ -2705,9 +2691,7 @@ D_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "7°/A2(IV) + vib. mod."          %! IC
+                        "7°/A2(IV) + vib. mod."                  %! IC
                     }                                            %! IC
             }
         }
@@ -2874,11 +2858,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \sf                                                          %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + senza vib."                             %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + senza vib." }                           %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [D ViolaMusicVoice measure 95 / measure 34]                %! SM4
@@ -2909,11 +2889,7 @@ D_ViolaMusicVoice = {
     \ppp_ancora                                                  %! SM8:REDUNDANT_DYNAMIC:IC
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + full bow strokes"                          %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + full bow strokes" }                        %! IC
     
     % [D ViolaMusicVoice measure 100 / measure 39]               %! SM4
     b2..
@@ -3027,9 +3003,7 @@ D_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "11°/A1(IV) + vib. mod."         %! IC
+                        "11°/A1(IV) + vib. mod."                 %! IC
                     }                                            %! IC
             }
         }
@@ -3157,11 +3131,7 @@ D_CelloMusicVoice = {
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + senza vib. + full bow strokes"             %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + senza vib. + full bow strokes" }           %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     bf,!4.
@@ -3215,11 +3185,7 @@ D_CelloMusicVoice = {
     cs,!4.
     \>                                                           %! HC1
     \sf                                                          %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                tasto                                            %! IC
-        }                                                        %! IC
+    ^ \markup { tasto }                                          %! IC
     
     % [D CelloMusicVoice measure 95 / measure 34]                %! SM4
     cs,!2.
@@ -3245,11 +3211,7 @@ D_CelloMusicVoice = {
     \ppp_ancora                                                  %! SM8:REDUNDANT_DYNAMIC:IC
     -\downbow                                                    %! IC
     \glissando                                                   %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "XP + full bow strokes"                          %! IC
-        }                                                        %! IC
+    ^ \markup { "XP + full bow strokes" }                        %! IC
     
     % [D CelloMusicVoice measure 100 / measure 39]               %! SM4
     g,2..
@@ -3275,11 +3237,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     \>                                                           %! HC1
     \sf                                                          %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                tasto                                            %! IC
-        }                                                        %! IC
+    ^ \markup { tasto }                                          %! IC
     
     % [D CelloMusicVoice measure 105 / measure 44]               %! SM4
     c2.

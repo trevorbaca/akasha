@@ -515,9 +515,7 @@ L_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "OB + terminate each note abruptly" %! IC
+                        "OB + terminate each note abruptly"      %! IC
                     }                                            %! IC
             }
         }
@@ -635,11 +633,7 @@ L_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf,,!1.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "pos. ord. + vib. poco"                          %! IC
-        }                                                        %! IC
+    ^ \markup { "pos. ord. + vib. poco" }                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [L CelloMusicVoice measure 339 / measure 6]                %! SM4

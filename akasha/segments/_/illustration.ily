@@ -373,9 +373,7 @@ i_ViolaMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "OB + terminate abruptly"        %! IC
+                        "OB + terminate abruptly"                %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
