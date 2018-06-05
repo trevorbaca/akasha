@@ -1041,9 +1041,7 @@ G_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "tasto + 1/4 scratch"                    %! PWC1
+                "tasto + 1/4 scratch"                            %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1064,9 +1062,7 @@ G_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        tasto                                    %! PWC1
+                tasto                                            %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1099,9 +1095,7 @@ G_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1122,9 +1116,7 @@ G_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        FB                                       %! PWC1
+                FB                                               %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1150,9 +1142,7 @@ G_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1173,9 +1163,7 @@ G_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        XFB                                      %! PWC1
+                XFB                                              %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1253,9 +1241,7 @@ G_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "tasto + scratch moltiss."               %! PWC1
+                "tasto + scratch moltiss."                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1276,9 +1262,7 @@ G_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "1/4 scratch"                            %! PWC1
+                "1/4 scratch"                                    %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1338,9 +1322,7 @@ G_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1361,9 +1343,7 @@ G_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        tasto                                    %! PWC1
+                tasto                                            %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1396,9 +1376,7 @@ G_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1419,9 +1397,7 @@ G_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        FB                                       %! PWC1
+                FB                                               %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1447,9 +1423,7 @@ G_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1470,9 +1444,7 @@ G_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        XFB                                      %! PWC1
+                XFB                                              %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1552,9 +1524,7 @@ G_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "tasto + scratch moltiss."               %! PWC1
+                "tasto + scratch moltiss."                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1575,9 +1545,7 @@ G_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "1/4 scratch"                            %! PWC1
+                "1/4 scratch"                                    %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1637,9 +1605,7 @@ G_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1660,9 +1626,7 @@ G_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        tasto                                    %! PWC1
+                tasto                                            %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1695,9 +1659,7 @@ G_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1718,9 +1680,7 @@ G_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        FB                                       %! PWC1
+                FB                                               %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1746,9 +1706,7 @@ G_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1769,9 +1727,7 @@ G_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        XFB                                      %! PWC1
+                XFB                                              %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1858,9 +1814,7 @@ G_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "tasto + scratch moltiss."               %! PWC1
+                "tasto + scratch moltiss."                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1881,9 +1835,7 @@ G_CelloMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "1/4 scratch"                            %! PWC1
+                "1/4 scratch"                                    %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1943,9 +1895,7 @@ G_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1966,9 +1916,7 @@ G_CelloMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        tasto                                    %! PWC1
+                tasto                                            %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2001,9 +1949,7 @@ G_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2024,9 +1970,7 @@ G_CelloMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        FB                                       %! PWC1
+                FB                                               %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2052,9 +1996,7 @@ G_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        trans.                                   %! PWC1
+                trans.                                           %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2075,9 +2017,7 @@ G_CelloMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        XFB                                      %! PWC1
+                XFB                                              %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
