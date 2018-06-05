@@ -78,7 +78,7 @@ maker(
 maker(
     (['v1', 'v2', 'vc'], 1),
     baca.dynamic('p'),
-    baca.markup.XFB(),
+    baca.markups.XFB(),
     )
 
 maker(
@@ -123,7 +123,7 @@ maker(
     ('va', 4),
     baca.glissando(),
     baca.hairpin('mp > pp'),
-    baca.markup.tasto(),
+    baca.markups.tasto(),
     baca.pitches('D#3 C+3', exact=True),
     baca.staff_lines(5),
     )
@@ -132,6 +132,6 @@ maker(
     ('vc', 4),
     baca.glissando(),
     baca.hairpin('mp > pp'),
-    baca.markup.tasto(),
+    baca.markups.tasto(),
     baca.pitches('C#2 Bb1', exact=True),
     )

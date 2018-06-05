@@ -77,8 +77,8 @@ maker(
     ('vc', (1, 2)),
     baca.hairpin('ppp < ff', selector=baca.leaves()[:9]),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.vib_moltiss(),
+        baca.markups.trans(),
+        baca.markups.vib_moltiss(),
         #baca.leaves()[:9].group(),
         selector=baca.leaves()[:9],
         ),
@@ -103,20 +103,20 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 2),
     baca.dynamic('pp'),
-    baca.markup.tasto_XFB(),
+    baca.markups.tasto_XFB(),
     )
 
 maker(
     ('vc', (4, 6)),
     baca.dynamic('pp'),
-    baca.markup.vib_poco(),
+    baca.markups.vib_poco(),
     )
 
 maker(
     (['v1', 'v2', 'va'], 4),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.pos_ord_XFB(),
+        baca.markups.trans(),
+        baca.markups.pos_ord_XFB(),
         #baca.leaves()[:2].group(),
         selector=baca.leaves()[:2],
         ),
@@ -125,8 +125,8 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 5),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.pont_XFB(),
+        baca.markups.trans(),
+        baca.markups.pont_XFB(),
         #baca.leaves()[:2].group(),
         selector=baca.leaves()[:2],
         ),
@@ -135,8 +135,8 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 6),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.XP_XFB(),
+        baca.markups.trans(),
+        baca.markups.XP_XFB(),
         #baca.leaves()[:3].group(),
         selector=baca.leaves()[:3],
         ),
@@ -145,8 +145,8 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 7),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.XP(),
+        baca.markups.trans(),
+        baca.markups.XP(),
         #baca.leaves()[:4].group(),
         selector=baca.leaves()[:4],
         ),
@@ -160,8 +160,8 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 8),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.fractional_OB(1, 3),
+        baca.markups.trans(),
+        baca.markups.fractional_OB(1, 3),
         #baca.leaves()[:2].group(),
         selector=baca.leaves()[:2],
         ),
@@ -170,8 +170,8 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 9),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.fractional_OB(2, 3),
+        baca.markups.trans(),
+        baca.markups.fractional_OB(2, 3),
         #baca.leaves()[:2].group(),
         selector=baca.leaves()[:2],
         ),
@@ -180,8 +180,8 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 10),
     baca.transition(
-        baca.markup.trans(),
-        baca.markup.OB_no_pitch(),
+        baca.markups.trans(),
+        baca.markups.OB_no_pitch(),
         #baca.leaves()[:2].group(),
         selector=baca.leaves()[:2],
         ),
