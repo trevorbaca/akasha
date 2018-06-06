@@ -1342,7 +1342,8 @@ M_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1363,7 +1364,8 @@ M_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "pos. ord. + XFB"                                %! PWC1
+                \upright                                         %! PWC1
+                    "pos. ord. + XFB"                            %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1380,7 +1382,8 @@ M_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1401,7 +1404,8 @@ M_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "pont. + XFB"                                    %! PWC1
+                \upright                                         %! PWC1
+                    "pont. + XFB"                                %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1418,7 +1422,8 @@ M_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1439,7 +1444,8 @@ M_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "XP + XFB"                                       %! PWC1
+                \upright                                         %! PWC1
+                    "XP + XFB"                                   %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1459,7 +1465,8 @@ M_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1480,7 +1487,8 @@ M_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                XP                                               %! PWC1
+                \upright                                         %! PWC1
+                    XP                                           %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1508,7 +1516,8 @@ M_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1529,7 +1538,8 @@ M_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                1/3OB                                            %! PWC1
+                \upright                                         %! PWC1
+                    1/3OB                                        %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1546,7 +1556,8 @@ M_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1567,7 +1578,8 @@ M_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                2/3OB                                            %! PWC1
+                \upright                                         %! PWC1
+                    2/3OB                                        %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1584,7 +1596,8 @@ M_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1605,7 +1618,8 @@ M_ViolinIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "OB (no pitch)"                                  %! PWC1
+                \upright                                         %! PWC1
+                    "OB (no pitch)"                              %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1735,7 +1749,8 @@ M_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1756,7 +1771,8 @@ M_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "pos. ord. + XFB"                                %! PWC1
+                \upright                                         %! PWC1
+                    "pos. ord. + XFB"                            %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1773,7 +1789,8 @@ M_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1794,7 +1811,8 @@ M_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "pont. + XFB"                                    %! PWC1
+                \upright                                         %! PWC1
+                    "pont. + XFB"                                %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1811,7 +1829,8 @@ M_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1832,7 +1851,8 @@ M_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "XP + XFB"                                       %! PWC1
+                \upright                                         %! PWC1
+                    "XP + XFB"                                   %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1852,7 +1872,8 @@ M_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1873,7 +1894,8 @@ M_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                XP                                               %! PWC1
+                \upright                                         %! PWC1
+                    XP                                           %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1901,7 +1923,8 @@ M_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1922,7 +1945,8 @@ M_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                1/3OB                                            %! PWC1
+                \upright                                         %! PWC1
+                    1/3OB                                        %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1939,7 +1963,8 @@ M_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1960,7 +1985,8 @@ M_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                2/3OB                                            %! PWC1
+                \upright                                         %! PWC1
+                    2/3OB                                        %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -1977,7 +2003,8 @@ M_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -1998,7 +2025,8 @@ M_ViolinIIMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "OB (no pitch)"                                  %! PWC1
+                \upright                                         %! PWC1
+                    "OB (no pitch)"                              %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2127,7 +2155,8 @@ M_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2148,7 +2177,8 @@ M_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "pos. ord. + XFB"                                %! PWC1
+                \upright                                         %! PWC1
+                    "pos. ord. + XFB"                            %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2165,7 +2195,8 @@ M_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2186,7 +2217,8 @@ M_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "pont. + XFB"                                    %! PWC1
+                \upright                                         %! PWC1
+                    "pont. + XFB"                                %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2203,7 +2235,8 @@ M_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2224,7 +2257,8 @@ M_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "XP + XFB"                                       %! PWC1
+                \upright                                         %! PWC1
+                    "XP + XFB"                                   %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2244,7 +2278,8 @@ M_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2265,7 +2300,8 @@ M_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                XP                                               %! PWC1
+                \upright                                         %! PWC1
+                    XP                                           %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2293,7 +2329,8 @@ M_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2314,7 +2351,8 @@ M_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                1/3OB                                            %! PWC1
+                \upright                                         %! PWC1
+                    1/3OB                                        %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2331,7 +2369,8 @@ M_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2352,7 +2391,8 @@ M_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                2/3OB                                            %! PWC1
+                \upright                                         %! PWC1
+                    2/3OB                                        %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2369,7 +2409,8 @@ M_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2390,7 +2431,8 @@ M_ViolaMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "OB (no pitch)"                                  %! PWC1
+                \upright                                         %! PWC1
+                    "OB (no pitch)"                              %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -2440,7 +2482,8 @@ M_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                trans.                                           %! PWC1
+                \upright                                         %! PWC1
+                    trans.                                       %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2461,7 +2504,8 @@ M_CelloMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                "vib. moltiss."                                  %! PWC1
+                \upright                                         %! PWC1
+                    "vib. moltiss."                              %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
