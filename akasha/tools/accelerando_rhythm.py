@@ -55,7 +55,7 @@ def accelerando_rhythm(
                 ],
             logical_tie_masks=logical_tie_masks,
             tuplet_specifier=rmakers.TupletSpecifier(
-                use_note_duration_bracket=True,
+                duration_bracket=True,
                 ),
             ),
         )
