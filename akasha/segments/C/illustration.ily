@@ -1573,8 +1573,8 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef!1.
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \mp                                                          %! HC1
+    \>                                                           %! HC1
     
     % [C ViolaMusicVoice measure 44 / measure 10]                %! SM4
     d1
@@ -1640,8 +1640,8 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e1.
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \mp                                                          %! HC1
+    \>                                                           %! HC1
     ^ \markup { tasto }                                          %! IC
     \times 2/3 {
         
@@ -1745,8 +1745,8 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 43 / measure 9]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs,!1.
-    \>                                                           %! HC1
     \mp                                                          %! HC1
+    \>                                                           %! HC1
     
     % [C CelloMusicVoice measure 44 / measure 10]                %! SM4
     cs,!1
@@ -1849,8 +1849,8 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 59 / measure 25]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs,!1.
-    \>                                                           %! HC1
     \mp                                                          %! HC1
+    \>                                                           %! HC1
     ^ \markup { tasto }                                          %! IC
     
     % [C CelloMusicVoice measure 60 / measure 26]                %! SM4

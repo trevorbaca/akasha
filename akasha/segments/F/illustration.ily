@@ -2524,8 +2524,8 @@ F_ViolinIMusicVoice = {
         % [F ViolinIMusicVoice measure 162 / measure 11]         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         ef''!4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
         
         ef''!16
         \repeatTie
@@ -2546,8 +2546,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f''8
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     \times 4/5 {
         
@@ -2596,8 +2596,8 @@ F_ViolinIMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f''4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     \times 4/5 {
         
@@ -2665,8 +2665,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         ef''!16 * 243/64
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         f''16 * 165/64
@@ -2678,8 +2678,8 @@ F_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         ef''!16 * 61/32
         ]
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     \revert TupletNumber.text
     \times 4/5 {
@@ -2707,8 +2707,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         ef''!8
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     \times 4/5 {
         
@@ -2758,8 +2758,8 @@ F_ViolinIMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         ef''!4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     \times 4/5 {
         
@@ -2828,8 +2828,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs''!16 * 393/64
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         e''16 * 39/8
@@ -2841,8 +2841,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs''!16 * 169/64
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
         
         e''16 * 37/16
         
@@ -2856,8 +2856,8 @@ F_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e''16 * 31/16
         ]
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     \revert TupletNumber.text
     \times 4/5 {
@@ -2884,8 +2884,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e''8
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     \times 4/5 {
         
@@ -2967,8 +2967,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e''16 * 393/64
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         g''16 * 39/8
@@ -2980,8 +2980,8 @@ F_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f''16 * 169/64
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
         
         g''16 * 37/16
         
@@ -3024,8 +3024,8 @@ F_ViolinIMusicVoice = {
     % [F ViolinIMusicVoice measure 178 / measure 27]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''1
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3102,8 +3102,8 @@ F_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''16
         -\staccato                                               %! IC
-        \<                                                       %! HC1
         \ff                                                      %! HC1
+        \<                                                       %! HC1
         [
         ^ \markup { "pos. ord." }                                %! IC
         
@@ -4036,8 +4036,8 @@ F_ViolinIIMusicVoice = {
     % [F ViolinIIMusicVoice measure 162 / measure 11]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b'4
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     
     b'4
     \repeatTie
@@ -4065,8 +4065,8 @@ F_ViolinIIMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b'8.
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -4126,8 +4126,8 @@ F_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b'16 * 61/32
         ]
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     \revert TupletNumber.text
     
@@ -4160,8 +4160,8 @@ F_ViolinIIMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''8.
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d''4
@@ -4178,8 +4178,8 @@ F_ViolinIIMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b'8.
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     b'16
@@ -4195,8 +4195,8 @@ F_ViolinIIMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''8.
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -4261,8 +4261,8 @@ F_ViolinIIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c''16 * 5/2
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         d''16 * 9/4
@@ -4276,8 +4276,8 @@ F_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c''16 * 63/32
         ]
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     \revert TupletNumber.text
     
@@ -4311,8 +4311,8 @@ F_ViolinIIMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''8.
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     d''4
     \repeatTie
@@ -4379,8 +4379,8 @@ F_ViolinIIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c''16 * 5/2
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         ef''!16 * 9/4
@@ -4423,8 +4423,8 @@ F_ViolinIIMusicVoice = {
     % [F ViolinIIMusicVoice measure 178 / measure 27]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'!1
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4501,8 +4501,8 @@ F_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'''16
         -\staccato                                               %! IC
-        \<                                                       %! HC1
         \ff                                                      %! HC1
+        \<                                                       %! HC1
         [
         ^ \markup { "pos. ord." }                                %! IC
         
@@ -5313,8 +5313,8 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 178 / measure 27]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ds'!1
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5398,8 +5398,8 @@ F_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b''16
         -\staccato                                               %! IC
-        \<                                                       %! HC1
         \ff                                                      %! HC1
+        \<                                                       %! HC1
         [
         ^ \markup { "pos. ord." }                                %! IC
         
@@ -6384,8 +6384,8 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 178 / measure 27]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     df,!1
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -6469,8 +6469,8 @@ F_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af''!16
         -\staccato                                               %! IC
-        \<                                                       %! HC1
         \ff                                                      %! HC1
+        \<                                                       %! HC1
         [
         ^ \markup { "pos. ord." }                                %! IC
         

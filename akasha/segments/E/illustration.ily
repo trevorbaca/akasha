@@ -2103,8 +2103,8 @@ E_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'16
     -\staccato                                                   %! IC
-    \>                                                           %! HC1
     \mf                                                          %! HC1
+    \>                                                           %! HC1
     [
     ^ \markup {
         \column
@@ -3545,8 +3545,8 @@ E_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b16
     -\staccato                                                   %! IC
-    \>                                                           %! HC1
     \mf                                                          %! HC1
+    \>                                                           %! HC1
     [
     
     c'16
@@ -5773,8 +5773,8 @@ E_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs!16
         -\staccato                                               %! IC
-        \>                                                       %! HC1
         \mf                                                      %! HC1
+        \>                                                       %! HC1
         [
         
         g16

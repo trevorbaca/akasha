@@ -2476,8 +2476,8 @@ M_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf,,!2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2625,9 +2625,9 @@ M_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf,,!2.
     \repeatTie
+    \pp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \pp                                                          %! HC1
     
     % [M CelloMusicVoice measure 359 / measure 20]               %! SM4
     bf,,!2.

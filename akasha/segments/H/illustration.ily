@@ -912,8 +912,8 @@ H_ViolaMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         ds!1..
         \glissando                                               %! SC
-        \>                                                       %! HC1
         \mp                                                      %! HC1
+        \>                                                       %! HC1
         ^ \markup { tasto }                                      %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -1069,8 +1069,8 @@ H_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         cs,!1..
         \glissando                                               %! SC
-        \>                                                       %! HC1
         \mp                                                      %! HC1
+        \>                                                       %! HC1
         ^ \markup { tasto }                                      %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3

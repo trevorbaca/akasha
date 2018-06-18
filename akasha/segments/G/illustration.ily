@@ -859,9 +859,9 @@ G_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''16
+        \pp                                                      %! HC1
         - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
-        \pp                                                      %! HC1
         [
         
         af'''!16
@@ -1035,8 +1035,8 @@ G_ViolinIMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f''2.
-    \>                                                           %! HC1
     \f                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1091,8 +1091,8 @@ G_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef''!1
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \mf                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1140,8 +1140,8 @@ G_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs''!1
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1241,8 +1241,8 @@ G_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'!2..
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \ff                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1324,8 +1324,8 @@ G_ViolinIIMusicVoice = {
     % [G ViolinIIMusicVoice measure 204 / measure 5]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs'!2.
-    \>                                                           %! HC1
     \f                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1380,8 +1380,8 @@ G_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e'1
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \mf                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1429,8 +1429,8 @@ G_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'1
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1532,8 +1532,8 @@ G_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     ef'!2..
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \ff                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1615,8 +1615,8 @@ G_ViolaMusicVoice = {
     % [G ViolaMusicVoice measure 204 / measure 5]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d'2.
-    \>                                                           %! HC1
     \f                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1671,8 +1671,8 @@ G_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'!1
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \mf                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1720,8 +1720,8 @@ G_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef'!1
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1826,8 +1826,8 @@ G_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     cs,!2..
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \ff                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1909,8 +1909,8 @@ G_CelloMusicVoice = {
     % [G CelloMusicVoice measure 204 / measure 5]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e,2.
-    \>                                                           %! HC1
     \f                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -1965,8 +1965,8 @@ G_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,1
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \mf                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2014,8 +2014,8 @@ G_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef,!1
     \glissando                                                   %! SC
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
