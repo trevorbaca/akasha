@@ -1967,8 +1967,8 @@ I_ViolinIMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''1.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2045,8 +2045,8 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 227 / measure 4]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''1.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2375,8 +2375,8 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 244 / measure 21]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b'1.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     ^ \markup { "XP + FB" }                                      %! IC
     
     % [I ViolinIMusicVoice measure 245 / measure 22]             %! SM4
@@ -2581,8 +2581,8 @@ I_ViolinIMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b'2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2739,8 +2739,8 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 254 / measure 31]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b'2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2786,8 +2786,8 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 256 / measure 33]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b'1.
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2874,8 +2874,8 @@ I_ViolinIIMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     atqs!1.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2952,8 +2952,8 @@ I_ViolinIIMusicVoice = {
     % [I ViolinIIMusicVoice measure 227 / measure 4]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b1.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3002,8 +3002,8 @@ I_ViolinIIMusicVoice = {
     % [I ViolinIIMusicVoice measure 231 / measure 8]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     atqs!2.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3245,8 +3245,8 @@ I_ViolinIIMusicVoice = {
     % [I ViolinIIMusicVoice measure 244 / measure 21]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b1.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     ^ \markup { "XP + FB" }                                      %! IC
     
     % [I ViolinIIMusicVoice measure 245 / measure 22]            %! SM4
@@ -3264,8 +3264,8 @@ I_ViolinIIMusicVoice = {
     % [I ViolinIIMusicVoice measure 248 / measure 25]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3422,8 +3422,8 @@ I_ViolinIIMusicVoice = {
     % [I ViolinIIMusicVoice measure 254 / measure 31]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3469,8 +3469,8 @@ I_ViolinIIMusicVoice = {
     % [I ViolinIIMusicVoice measure 256 / measure 33]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b1.
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3557,8 +3557,8 @@ I_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bqs,!1.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4017,8 +4017,8 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 244 / measure 21]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,1.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     ^ \markup { "XP + FB" }                                      %! IC
     
     % [I ViolaMusicVoice measure 245 / measure 22]               %! SM4
@@ -4036,8 +4036,8 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 248 / measure 25]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4147,8 +4147,8 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 254 / measure 31]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4194,8 +4194,8 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 256 / measure 33]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,1.
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4278,8 +4278,8 @@ I_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,1.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4356,8 +4356,8 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 227 / measure 4]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,1.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4406,8 +4406,8 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 231 / measure 8]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,2.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4463,8 +4463,8 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 236 / measure 13]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,2.
-    \<                                                           %! HC1
     \sfp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4620,8 +4620,8 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 244 / measure 21]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,1.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     ^ \markup { "XP + FB" }                                      %! IC
     
     % [I CelloMusicVoice measure 245 / measure 22]               %! SM4
@@ -4639,8 +4639,8 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 248 / measure 25]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4752,8 +4752,8 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 254 / measure 31]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,2.
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4799,8 +4799,8 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 256 / measure 33]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,1.
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1

@@ -2915,8 +2915,8 @@ K_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
-    \<                                                           %! HC1
     \ff                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2976,8 +2976,8 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 294 / measure 30]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''4.
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3032,8 +3032,8 @@ K_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3075,8 +3075,8 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 299 / measure 35]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3124,8 +3124,8 @@ K_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3171,8 +3171,8 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 305 / measure 41]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2..
-    \>                                                           %! HC1
     \sffp                                                        %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3259,8 +3259,8 @@ K_ViolinIMusicVoice = {
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''''2.
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     ^ \markup { "pos. ord. + 9°/A4(II)" }                        %! IC
     \startTrillSpan                                              %! SC
     
@@ -3284,8 +3284,8 @@ K_ViolinIMusicVoice = {
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''''4.
-    \<                                                           %! HC1
     \sf                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3337,8 +3337,8 @@ K_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''''4.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3382,8 +3382,8 @@ K_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b''''1
     \stopTrillSpan                                               %! SC
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3808,8 +3808,8 @@ K_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2.
     \repeatTie
-    \<                                                           %! HC1
     \ff                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3869,8 +3869,8 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 294 / measure 30]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4.
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3925,8 +3925,8 @@ K_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'2.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3968,8 +3968,8 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 299 / measure 35]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4017,8 +4017,8 @@ K_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gtqs'!2.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4064,8 +4064,8 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 305 / measure 41]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'2..
-    \>                                                           %! HC1
     \sffp                                                        %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4141,8 +4141,8 @@ K_ViolinIIMusicVoice = {
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs''''!1
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     ^ \markup { "pos. ord. + 5°/A4(II)" }                        %! IC
     \startTrillSpan                                              %! SC
     
@@ -4177,8 +4177,8 @@ K_ViolinIIMusicVoice = {
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs''''!4.
-    \<                                                           %! HC1
     \sf                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4230,8 +4230,8 @@ K_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs''''!4.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4275,8 +4275,8 @@ K_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cs''''!1
     \stopTrillSpan                                               %! SC
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4701,8 +4701,8 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2.
     \repeatTie
-    \<                                                           %! HC1
     \ff                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4762,8 +4762,8 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 294 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,4.
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4818,8 +4818,8 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,2.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4861,8 +4861,8 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 299 / measure 35]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4910,8 +4910,8 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs,!2.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4957,8 +4957,8 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 305 / measure 41]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,2..
-    \>                                                           %! HC1
     \sffp                                                        %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5029,8 +5029,8 @@ K_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!2..
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     ^ \markup { "pos. ord. + 7°/A2(IV)" }                        %! IC
     \startTrillSpan                                              %! SC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
@@ -5071,8 +5071,8 @@ K_ViolaMusicVoice = {
     \override TextSpanner.staff-padding = #7                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!4.
-    \<                                                           %! HC1
     \sf                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5124,8 +5124,8 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!4.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5169,8 +5169,8 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqf''!1
     \stopTrillSpan                                               %! SC
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5589,8 +5589,8 @@ K_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
-    \<                                                           %! HC1
     \ff                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5650,8 +5650,8 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 294 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,4.
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5706,8 +5706,8 @@ K_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5749,8 +5749,8 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 299 / measure 35]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5798,8 +5798,8 @@ K_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5845,8 +5845,8 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 305 / measure 41]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a,,2..
-    \>                                                           %! HC1
     \sffp                                                        %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5912,8 +5912,8 @@ K_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''2.
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     ^ \markup { "pos. ord. + 11°/A1(IV)" }                       %! IC
     \startTrillSpan                                              %! SC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
@@ -5962,8 +5962,8 @@ K_CelloMusicVoice = {
     \override TextSpanner.staff-padding = #5                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''4.
-    \<                                                           %! HC1
     \sf                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -6015,8 +6015,8 @@ K_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''4.
     \repeatTie
-    \>                                                           %! HC1
     \fff                                                         %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -6060,8 +6060,8 @@ K_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d''1
     \stopTrillSpan                                               %! SC
-    \<                                                           %! HC1
     \sffp                                                        %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
