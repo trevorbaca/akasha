@@ -408,7 +408,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 67 / measure 6]                             %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -567,7 +566,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 72 / measure 11]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
     ^ \markup {
         \column
@@ -1006,7 +1004,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 86 / measure 25]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
     ^ \markup {
         \column
@@ -1185,7 +1182,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 92 / measure 31]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -1583,7 +1579,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 101 / measure 40]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -1742,7 +1737,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 106 / measure 45]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 9/8
     ^ \markup {
         \column
@@ -1946,7 +1940,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 111 / measure 50]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
