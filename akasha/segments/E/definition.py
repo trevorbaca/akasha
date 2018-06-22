@@ -47,9 +47,9 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('E'),
     baca.metronome_mark('55', selector=baca.leaf(8)),
-    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(12)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(12)),
     baca.metronome_mark('89', selector=baca.leaf(14)),
-    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(18)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(18)),
     baca.metronome_mark('126', selector=baca.leaf(26)),
     )
 

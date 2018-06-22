@@ -56,7 +56,7 @@ maker(
     baca.metronome_mark('126', selector=baca.leaf(2)),
     baca.metronome_mark('55', selector=baca.leaf(5)),
     baca.metronome_mark('89', selector=baca.leaf(7)),
-    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(30)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(30)),
     baca.metronome_mark('126', selector=baca.leaf(34)),
     baca.metronome_mark('55', selector=baca.leaf(42)),
     baca.metronome_mark('126', selector=baca.leaf(44)),

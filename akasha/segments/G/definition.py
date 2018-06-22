@@ -35,9 +35,9 @@ maker(
     baca.rehearsal_mark('G'),
     baca.rehearsal_mark_y_offset(5),
     baca.metronome_mark('126', selector=baca.leaf(0)),
-    baca.metronome_mark(abjad.Ritardando(), selector=baca.leaf(0)),
+    baca.metronome_mark(baca.Ritardando(), selector=baca.leaf(0)),
     baca.metronome_mark('44', selector=baca.leaf(4)),
-    baca.metronome_mark(abjad.Accelerando(), selector=baca.leaf(14)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(14)),
     baca.metronome_mark('89', selector=baca.leaf(16)),
     )
 
