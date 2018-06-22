@@ -2632,9 +2632,9 @@ F_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''16
         -\staccato                                               %! IC
+        [
         \ff                                                      %! HC1
         \<                                                       %! HC1
-        [
         ^ \markup { "pos. ord." }                                %! IC
         
         fs'''!16
@@ -3076,8 +3076,8 @@ F_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     g''''16
     -\staccato                                                   %! IC
-    \fff                                                         %! HC1
     ]
+    \fff                                                         %! HC1
     
     % [F ViolinIMusicVoice measure 193 / measure 42]             %! SM4
     R1 * 1/4
@@ -4024,9 +4024,9 @@ F_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'''16
         -\staccato                                               %! IC
+        [
         \ff                                                      %! HC1
         \<                                                       %! HC1
-        [
         ^ \markup { "pos. ord." }                                %! IC
         
         ef'''!16
@@ -4470,8 +4470,8 @@ F_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         e''''16
         -\staccato                                               %! IC
-        \fff                                                     %! HC1
         ]
+        \fff                                                     %! HC1
     }
     
     % [F ViolinIIMusicVoice measure 193 / measure 42]            %! SM4
@@ -4903,9 +4903,9 @@ F_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b''16
         -\staccato                                               %! IC
+        [
         \ff                                                      %! HC1
         \<                                                       %! HC1
-        [
         ^ \markup { "pos. ord." }                                %! IC
         
         c'''16
@@ -5346,8 +5346,8 @@ F_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         c''''16
         -\staccato                                               %! IC
-        \fff                                                     %! HC1
         ]
+        \fff                                                     %! HC1
     }
     
     % [F ViolaMusicVoice measure 193 / measure 42]               %! SM4
@@ -5964,9 +5964,9 @@ F_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af''!16
         -\staccato                                               %! IC
+        [
         \ff                                                      %! HC1
         \<                                                       %! HC1
-        [
         ^ \markup { "pos. ord." }                                %! IC
         
         a''16
@@ -6407,8 +6407,8 @@ F_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         a'''16
         -\staccato                                               %! IC
-        \fff                                                     %! HC1
         ]
+        \fff                                                     %! HC1
     }
     
     % [F CelloMusicVoice measure 193 / measure 42]               %! SM4

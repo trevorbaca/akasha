@@ -688,10 +688,10 @@ G_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''16
+        [
         \pp                                                      %! HC1
         - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
-        [
         
         af'''!16
         
@@ -856,8 +856,8 @@ G_ViolinIMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         cs''''!16
-        \!                                                       %! HC1
         ]
+        \!                                                       %! HC1
     }
     
     % [G ViolinIMusicVoice measure 204 / measure 5]              %! SM4
