@@ -163,7 +163,6 @@ maker(
     baca.new_hairpin(
         'fff > p',
         start_selector=baca.pleaf(-2),
-        trend_selector=baca.pleaf(-2),
         ),
     baca.transition(
         baca.markups.pos_ord_senza_vib(),
@@ -183,7 +182,6 @@ maker(
     baca.new_hairpin(
         'fff > p',
         start_selector=baca.pleaf(-2),
-        trend_selector=baca.pleaf(-2),
         ),
     baca.transition(
         baca.markups.pos_ord(),
@@ -331,7 +329,6 @@ maker(
     baca.new_hairpin(
         'fff > f',
         start_selector=baca.pleaf(-2),
-        trend_selector=baca.pleaf(-2),
         ),
     baca.transition(
         baca.markups.pos_ord(),
