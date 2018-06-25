@@ -2052,10 +2052,10 @@ F_ViolinIMusicVoice = {
     \times 4/5 {
         
         % [F ViolinIMusicVoice measure 162 / measure 11]         %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         ef''!4
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+        \<                                                       %! IC
         
         ef''!16
         \repeatTie
@@ -2063,10 +2063,10 @@ F_ViolinIMusicVoice = {
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         ef''!4
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \p                                                       %! HC1
         
         r16
     }
@@ -2074,10 +2074,10 @@ F_ViolinIMusicVoice = {
         
         r8.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         f''8
-        \p                                                       %! HC1
-        \>                                                       %! HC1
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
+        \>                                                       %! IC
     }
     \times 4/5 {
         
@@ -2100,10 +2100,10 @@ F_ViolinIMusicVoice = {
     \times 4/5 {
         
         % [F ViolinIMusicVoice measure 163 / measure 12]         %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         ef''!8.
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \pp                                                      %! HC1
         
         r8
     }
@@ -2124,10 +2124,10 @@ F_ViolinIMusicVoice = {
         r16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         f''4
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+        \<                                                       %! IC
     }
     \times 4/5 {
         
@@ -2186,30 +2186,30 @@ F_ViolinIMusicVoice = {
         % [F ViolinIMusicVoice measure 164 / measure 13]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f''16 * 241/32
-        \p                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
         r16 * 49/8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         ef''!16 * 243/64
-        \p                                                       %! HC1
-        \>                                                       %! HC1
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
+        \>                                                       %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f''16 * 165/64
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 33/16
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         ef''!16 * 61/32
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
         ]
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \<                                                       %! IC
     }
     \revert TupletNumber.text
     \times 4/5 {
@@ -2224,10 +2224,10 @@ F_ViolinIMusicVoice = {
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         fs''!4
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \p                                                       %! HC1
         
         r16
     }
@@ -2235,10 +2235,10 @@ F_ViolinIMusicVoice = {
         
         r8.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         ef''!8
-        \p                                                       %! HC1
-        \>                                                       %! HC1
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
+        \>                                                       %! IC
     }
     \times 4/5 {
         
@@ -2261,10 +2261,10 @@ F_ViolinIMusicVoice = {
     }
     \times 4/5 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         fs''!8.
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \pp                                                      %! HC1
         
         r8
     }
@@ -2286,10 +2286,10 @@ F_ViolinIMusicVoice = {
         r16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         ef''!4
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+        \<                                                       %! IC
     }
     \times 4/5 {
         
@@ -2349,45 +2349,45 @@ F_ViolinIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e''16 * 31/4
-        \p                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
         r16 * 233/32
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         fs''!16 * 393/64
-        \p                                                       %! HC1
-        \>                                                       %! HC1
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
+        \>                                                       %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e''16 * 39/8
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 123/32
         
         r16 * 25/8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         fs''!16 * 169/64
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+        \<                                                       %! IC
         
         e''16 * 37/16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         fs''!16 * 135/64
-        \p                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 127/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         e''16 * 31/16
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
         ]
-        \p                                                       %! HC1
-        \>                                                       %! HC1
+        \>                                                       %! IC
     }
     \revert TupletNumber.text
     \times 4/5 {
@@ -2401,10 +2401,10 @@ F_ViolinIMusicVoice = {
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         fs''!4
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \pp                                                      %! HC1
         
         r16
     }
@@ -2412,10 +2412,10 @@ F_ViolinIMusicVoice = {
         
         r8.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         e''8
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+        \<                                                       %! IC
     }
     \times 4/5 {
         
@@ -2488,44 +2488,44 @@ F_ViolinIMusicVoice = {
         % [F ViolinIMusicVoice measure 171 / measure 20]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g''16 * 31/4
-        \p                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
         r16 * 233/32
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         e''16 * 393/64
-        \p                                                       %! HC1
-        \>                                                       %! HC1
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
+        \>                                                       %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g''16 * 39/8
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 123/32
         
         r16 * 25/8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         f''16 * 169/64
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+        \<                                                       %! IC
         
         g''16 * 37/16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f''16 * 135/64
-        \p                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 127/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         g''16 * 31/16
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
         ]
-        \p                                                       %! HC1
     }
     \revert TupletNumber.text
     
@@ -2552,10 +2552,9 @@ F_ViolinIMusicVoice = {
     \repeatTie
     
     % [F ViolinIMusicVoice measure 178 / measure 27]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f''1
-    \mp                                                          %! HC1
-    \<                                                           %! HC1
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2587,6 +2586,7 @@ F_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
+    \<                                                           %! IC
     
     % [F ViolinIMusicVoice measure 179 / measure 28]             %! SM4
     f''1.
@@ -2616,10 +2616,10 @@ F_ViolinIMusicVoice = {
     f''2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f''2
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [F ViolinIMusicVoice measure 186 / measure 35]             %! SM4
@@ -2629,13 +2629,13 @@ F_ViolinIMusicVoice = {
         % [F ViolinIMusicVoice measure 187 / measure 36]         %! SM4
         r16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f'''16
+        \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ^ \markup { "pos. ord." }                                %! IC
         [
-        \ff                                                      %! HC1
-        \<                                                       %! HC1
+        \<                                                       %! IC
         
         fs'''!16
         -\staccato                                               %! IC
@@ -3073,11 +3073,11 @@ F_ViolinIMusicVoice = {
     fs''''!16
     -\staccato                                                   %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''''16
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\staccato                                                   %! IC
     ]
-    \fff                                                         %! HC1
     
     % [F ViolinIMusicVoice measure 193 / measure 42]             %! SM4
     R1 * 1/4
@@ -3557,10 +3557,10 @@ F_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [F ViolinIIMusicVoice measure 162 / measure 11]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     b'4
-    \pp                                                          %! HC1
-    \<                                                           %! HC1
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \<                                                           %! IC
     
     b'4
     \repeatTie
@@ -3573,10 +3573,10 @@ F_ViolinIIMusicVoice = {
     cs''!8.
     ]
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     cs''!16
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \p                                                           %! HC1
     
     r8.
     
@@ -3586,10 +3586,10 @@ F_ViolinIIMusicVoice = {
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     b'8.
-    \p                                                           %! HC1
-    \>                                                           %! HC1
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    \>                                                           %! IC
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3633,24 +3633,24 @@ F_ViolinIIMusicVoice = {
         cs''!16 * 241/32
         [
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b'16 * 49/8
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 243/64
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         cs''!16 * 165/64
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
         
         r16 * 33/16
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b'16 * 61/32
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         ]
-        \p                                                       %! HC1
-        \>                                                       %! HC1
+        \>                                                       %! IC
     }
     \revert TupletNumber.text
     
@@ -3668,10 +3668,10 @@ F_ViolinIIMusicVoice = {
     b'8.
     ]
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     b'16
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \pp                                                          %! HC1
     
     r8.
     
@@ -3681,15 +3681,15 @@ F_ViolinIIMusicVoice = {
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     d''8.
-    \pp                                                          %! HC1
-    \<                                                           %! HC1
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \<                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d''4
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \p                                                           %! HC1
     
     r4
     
@@ -3699,15 +3699,15 @@ F_ViolinIIMusicVoice = {
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     b'8.
-    \p                                                           %! HC1
-    \>                                                           %! HC1
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     b'16
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \pp                                                          %! HC1
     
     r8.
     
@@ -3716,10 +3716,10 @@ F_ViolinIIMusicVoice = {
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     d''8.
-    \pp                                                          %! HC1
-    \<                                                           %! HC1
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \<                                                           %! IC
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3764,43 +3764,43 @@ F_ViolinIIMusicVoice = {
         b'16 * 497/64
         [
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''16 * 59/8
-        \p                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 51/8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         c''16 * 333/64
-        \p                                                       %! HC1
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
         
         r16 * 67/16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''16 * 219/64
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 185/64
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         c''16 * 5/2
-        \p                                                       %! HC1
-        \>                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \>                                                       %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''16 * 9/4
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 133/64
         
         r16 * 127/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         c''16 * 63/32
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
         ]
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \<                                                       %! IC
     }
     \revert TupletNumber.text
     
@@ -3819,10 +3819,10 @@ F_ViolinIIMusicVoice = {
     c''8.
     ]
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c''16
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \p                                                           %! HC1
     
     r8.
     
@@ -3832,10 +3832,10 @@ F_ViolinIIMusicVoice = {
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     d''8.
-    \p                                                           %! HC1
-    \>                                                           %! HC1
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    \>                                                           %! IC
     
     d''4
     \repeatTie
@@ -3882,42 +3882,42 @@ F_ViolinIIMusicVoice = {
         c''16 * 497/64
         [
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         ef''!16 * 59/8
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 51/8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         c''16 * 333/64
-        \pp                                                      %! HC1
+        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
         
         r16 * 67/16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         ef''!16 * 219/64
-        \p                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 185/64
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         c''16 * 5/2
-        \pp                                                      %! HC1
-        \<                                                       %! HC1
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \<                                                       %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         ef''!16 * 9/4
-        \p                                                       %! HC1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         r16 * 133/64
         
         r16 * 127/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         cs''!16 * 63/32
+        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC
         ]
-        \p                                                       %! HC1
     }
     \revert TupletNumber.text
     
@@ -3944,10 +3944,9 @@ F_ViolinIIMusicVoice = {
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 178 / measure 27]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fs'!1
-    \mp                                                          %! HC1
-    \<                                                           %! HC1
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3979,6 +3978,7 @@ F_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
+    \<                                                           %! IC
     
     % [F ViolinIIMusicVoice measure 179 / measure 28]            %! SM4
     fs'!1.
@@ -4008,10 +4008,10 @@ F_ViolinIIMusicVoice = {
     fs'!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fs'!2
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [F ViolinIIMusicVoice measure 186 / measure 35]            %! SM4
@@ -4021,13 +4021,13 @@ F_ViolinIIMusicVoice = {
         % [F ViolinIIMusicVoice measure 187 / measure 36]        %! SM4
         r16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d'''16
+        \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ^ \markup { "pos. ord." }                                %! IC
         [
-        \ff                                                      %! HC1
-        \<                                                       %! HC1
+        \<                                                       %! IC
         
         ef'''!16
         -\staccato                                               %! IC
@@ -4467,11 +4467,11 @@ F_ViolinIIMusicVoice = {
         ef''''!16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e''''16
+        \fff                                                     %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ]
-        \fff                                                     %! HC1
     }
     
     % [F ViolinIIMusicVoice measure 193 / measure 42]            %! SM4
@@ -4816,10 +4816,9 @@ F_ViolaMusicVoice = {
     \repeatTie
     
     % [F ViolaMusicVoice measure 178 / measure 27]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     ds'!1
-    \mp                                                          %! HC1
-    \<                                                           %! HC1
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4851,6 +4850,7 @@ F_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
+    \<                                                           %! IC
     
     % [F ViolaMusicVoice measure 179 / measure 28]               %! SM4
     ds'!1.
@@ -4880,10 +4880,10 @@ F_ViolaMusicVoice = {
     ds'!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ds'!2
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [F ViolaMusicVoice measure 186 / measure 35]               %! SM4
@@ -4900,13 +4900,13 @@ F_ViolaMusicVoice = {
         r16
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b''16
+        \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ^ \markup { "pos. ord." }                                %! IC
         [
-        \ff                                                      %! HC1
-        \<                                                       %! HC1
+        \<                                                       %! IC
         
         c'''16
         -\staccato                                               %! IC
@@ -5343,11 +5343,11 @@ F_ViolaMusicVoice = {
         b'''16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         c''''16
+        \fff                                                     %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ]
-        \fff                                                     %! HC1
     }
     
     % [F ViolaMusicVoice measure 193 / measure 42]               %! SM4
@@ -5877,10 +5877,9 @@ F_CelloMusicVoice = {
     \repeatTie
     
     % [F CelloMusicVoice measure 178 / measure 27]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     df,!1
-    \mp                                                          %! HC1
-    \<                                                           %! HC1
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5912,6 +5911,7 @@ F_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
+    \<                                                           %! IC
     
     % [F CelloMusicVoice measure 179 / measure 28]               %! SM4
     df,!1.
@@ -5941,10 +5941,10 @@ F_CelloMusicVoice = {
     df,!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df,!2
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \f                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [F CelloMusicVoice measure 186 / measure 35]               %! SM4
@@ -5961,13 +5961,13 @@ F_CelloMusicVoice = {
         r16
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         af''!16
+        \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ^ \markup { "pos. ord." }                                %! IC
         [
-        \ff                                                      %! HC1
-        \<                                                       %! HC1
+        \<                                                       %! IC
         
         a''16
         -\staccato                                               %! IC
@@ -6404,11 +6404,11 @@ F_CelloMusicVoice = {
         af'''!16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         a'''16
+        \fff                                                     %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ]
-        \fff                                                     %! HC1
     }
     
     % [F CelloMusicVoice measure 193 / measure 42]               %! SM4

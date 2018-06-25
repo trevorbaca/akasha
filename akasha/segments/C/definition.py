@@ -182,13 +182,13 @@ maker(
 maker(
     ('va', 9),
     baca.glissando(),
-    baca.hairpin('mp > pp'),
+    baca.new_hairpin('mp > pp'),
     baca.pitches('Eb3 D3 C#3 B#2', exact=True),
     )
 
 maker(
     ('vc', 9),
-    baca.hairpin('mp > pp'),
+    baca.new_hairpin('mp > pp'),
     )
 
 maker(
@@ -203,6 +203,7 @@ maker(
     ('va', 13),
     baca.dynamic('ff'),
     baca.markups.tasto_plus_scratch_moltiss(),
+    baca.pitch('C4'),
     )
 
 maker(
@@ -231,14 +232,14 @@ maker(
 maker(
     ('va', (22, 23)),
     baca.glissando(),
-    baca.hairpin('mp > pp'),
+    baca.new_hairpin('mp > pp'),
     baca.markups.tasto(),
     baca.pitches('E3 D#3 C+3', exact=True),
     )
 
 maker(
     ('vc', (22, 23)),
-    baca.hairpin('mp > pp'),
+    baca.new_hairpin('mp > pp'),
     baca.markups.tasto(),
     baca.pitch('C#2'),
     )

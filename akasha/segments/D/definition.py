@@ -220,7 +220,7 @@ maker(
     ('va', (9, 10)),
     baca.clef('alto'),
     baca.glissando(),
-    baca.hairpin('sf > ppp'),
+    baca.new_hairpin('sf > ppp'),
     baca.markups.tasto_senza_vib(),
     baca.pitches('Fb3 E3 D#3 C#3 B#2', exact=True),
     )
@@ -268,7 +268,7 @@ maker(
 
 maker(
     ('vc', 9),
-    baca.hairpin('sf > ppp'),
+    baca.new_hairpin('sf > ppp'),
     baca.markups.tasto(),
     baca.pitch('C#2'),
     )
@@ -289,7 +289,7 @@ maker(
 maker(
     ('vc', (14, 16)),
     baca.glissando(),
-    baca.hairpin('sf > ppp'),
+    baca.new_hairpin('sf > ppp'),
     baca.markups.tasto(),
     baca.pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1', exact=True),
     )

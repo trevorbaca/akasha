@@ -1703,14 +1703,14 @@ E_ViolinIMusicVoice = {
     
     r16
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a'16
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\staccato                                                   %! IC
     ^ \markup { leggieriss. }                                    %! IC
     ^ \markup { "senza scratch" }                                %! IC
     [
-    \mf                                                          %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC
     
     bf'!16
     -\staccato                                                   %! IC
@@ -2336,11 +2336,11 @@ E_ViolinIMusicVoice = {
         a''16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b''16
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ]
-        \pp                                                      %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -3116,12 +3116,12 @@ E_ViolinIIMusicVoice = {
     % [E ViolinIIMusicVoice measure 135 / measure 23]            %! SM4
     r16
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     b16
+    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     -\staccato                                                   %! IC
     [
-    \mf                                                          %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC
     
     c'16
     -\staccato                                                   %! IC
@@ -3843,11 +3843,11 @@ E_ViolinIIMusicVoice = {
         fs''!16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f''16
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ]
-        \pp                                                      %! HC1
     }
     
     % [E ViolinIIMusicVoice measure 145 / measure 33]            %! SM4
@@ -5319,12 +5319,12 @@ E_CelloMusicVoice = {
         % [E CelloMusicVoice measure 135 / measure 23]           %! SM4
         r16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         fs!16
+        \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC
         -\staccato                                               %! IC
         [
-        \mf                                                      %! HC1
-        \>                                                       %! HC1
+        \>                                                       %! IC
         
         g16
         -\staccato                                               %! IC
@@ -6076,11 +6076,11 @@ E_CelloMusicVoice = {
         c''16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         d''16
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ]
-        \pp                                                      %! HC1
     }
     \times 12/18 {
         
