@@ -2247,9 +2247,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 289 / measure 25]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2.
-    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -2282,7 +2282,7 @@ K_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     a''4.
     \repeatTie
@@ -2295,9 +2295,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 291 / measure 27]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -2309,9 +2309,9 @@ K_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [K ViolinIMusicVoice measure 294 / measure 30]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''4.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2343,16 +2343,16 @@ K_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIMusicVoice measure 295 / measure 31]             %! SM4
     a''2
     \repeatTie
     
     % [K ViolinIMusicVoice measure 296 / measure 32]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''1
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -2364,9 +2364,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 298 / measure 34]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -2399,18 +2399,18 @@ K_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''4.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIMusicVoice measure 299 / measure 35]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2442,12 +2442,12 @@ K_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIMusicVoice measure 300 / measure 36]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -2456,9 +2456,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 302 / measure 38]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -2491,12 +2491,12 @@ K_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIMusicVoice measure 303 / measure 39]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2..
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -2504,9 +2504,9 @@ K_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [K ViolinIMusicVoice measure 305 / measure 41]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2538,7 +2538,7 @@ K_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIMusicVoice measure 306 / measure 42]             %! SM4
     a''4.
@@ -2549,9 +2549,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 308 / measure 44]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -2592,20 +2592,20 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 317 / measure 53]             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \ottava #1                                                   %! SC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''2.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "pos. ord. + 9°/A4(II)" }                        %! IC
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     b''''4.
     \repeatTie
     
     % [K ViolinIMusicVoice measure 318 / measure 54]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''2..
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \ottava #0                                                   %! SC
     
@@ -2617,9 +2617,9 @@ K_ViolinIMusicVoice = {
     \override Staff.OttavaBracket.staff-padding = #12            %! OC1
     \override TextSpanner.staff-padding = #9.5                   %! OC1
     \ottava #1                                                   %! SC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''4.
-    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2652,16 +2652,16 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIMusicVoice measure 321 / measure 57]             %! SM4
     b''''2.
     \repeatTie
     
     % [K ViolinIMusicVoice measure 322 / measure 58]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''2..
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -2669,9 +2669,9 @@ K_ViolinIMusicVoice = {
     b''''2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''4.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -2704,19 +2704,19 @@ K_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIMusicVoice measure 324 / measure 60]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIMusicVoice measure 325 / measure 61]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \stopTrillSpan                                               %! SC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -2750,7 +2750,7 @@ K_ViolinIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIMusicVoice measure 326 / measure 62]             %! SM4
     b''''2.
@@ -2760,9 +2760,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 327 / measure 63]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -3130,9 +3130,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 289 / measure 25]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gtqs'!2.
-    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -3165,7 +3165,7 @@ K_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     gtqs'!4.
     \repeatTie
@@ -3178,9 +3178,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 291 / measure 27]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gtqs'!2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -3192,9 +3192,9 @@ K_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [K ViolinIIMusicVoice measure 294 / measure 30]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'4.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3226,16 +3226,16 @@ K_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIIMusicVoice measure 295 / measure 31]            %! SM4
     a'2
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 296 / measure 32]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'1
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -3247,9 +3247,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 298 / measure 34]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -3282,18 +3282,18 @@ K_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'4.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 299 / measure 35]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gtqs'!2
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3325,12 +3325,12 @@ K_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIIMusicVoice measure 300 / measure 36]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gtqs'!2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -3339,9 +3339,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 302 / measure 38]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gtqs'!2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -3374,12 +3374,12 @@ K_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIIMusicVoice measure 303 / measure 39]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gtqs'!2..
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -3387,9 +3387,9 @@ K_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [K ViolinIIMusicVoice measure 305 / measure 41]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3421,7 +3421,7 @@ K_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIIMusicVoice measure 306 / measure 42]            %! SM4
     a'4.
@@ -3432,9 +3432,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 308 / measure 44]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -3464,12 +3464,12 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 315 / measure 51]            %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \ottava #1                                                   %! SC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "pos. ord. + 5°/A4(II)" }                        %! IC
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIIMusicVoice measure 316 / measure 52]            %! SM4
     cs''''!2.
@@ -3479,9 +3479,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 317 / measure 53]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!2.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     
     cs''''!4.
@@ -3500,9 +3500,9 @@ K_ViolinIIMusicVoice = {
     \override Staff.OttavaBracket.staff-padding = #10            %! OC1
     \override TextSpanner.staff-padding = #7.5                   %! OC1
     \ottava #1                                                   %! SC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!4.
-    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -3535,16 +3535,16 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIIMusicVoice measure 321 / measure 57]            %! SM4
     cs''''!2.
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 322 / measure 58]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!2..
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -3552,9 +3552,9 @@ K_ViolinIIMusicVoice = {
     cs''''!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!4.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -3587,19 +3587,19 @@ K_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIIMusicVoice measure 324 / measure 60]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolinIIMusicVoice measure 325 / measure 61]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \stopTrillSpan                                               %! SC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -3633,7 +3633,7 @@ K_ViolinIIMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolinIIMusicVoice measure 326 / measure 62]            %! SM4
     cs''''!2.
@@ -3643,9 +3643,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 327 / measure 63]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4013,9 +4013,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 289 / measure 25]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs,!2.
-    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -4048,7 +4048,7 @@ K_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     aqs,!4.
     \repeatTie
@@ -4061,9 +4061,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 291 / measure 27]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs,!2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4075,9 +4075,9 @@ K_ViolaMusicVoice = {
     R1 * 1/4
     
     % [K ViolaMusicVoice measure 294 / measure 30]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,4.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4109,16 +4109,16 @@ K_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolaMusicVoice measure 295 / measure 31]               %! SM4
     a,2
     \repeatTie
     
     % [K ViolaMusicVoice measure 296 / measure 32]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,1
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4130,9 +4130,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 298 / measure 34]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -4165,18 +4165,18 @@ K_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,4.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 299 / measure 35]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs,!2
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4208,12 +4208,12 @@ K_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolaMusicVoice measure 300 / measure 36]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs,!2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4222,9 +4222,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 302 / measure 38]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs,!2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -4257,12 +4257,12 @@ K_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolaMusicVoice measure 303 / measure 39]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs,!2..
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4270,9 +4270,9 @@ K_ViolaMusicVoice = {
     R1 * 1/4
     
     % [K ViolaMusicVoice measure 305 / measure 41]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4304,7 +4304,7 @@ K_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolaMusicVoice measure 306 / measure 42]               %! SM4
     a,4.
@@ -4315,9 +4315,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 308 / measure 44]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4342,12 +4342,12 @@ K_ViolaMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "pos. ord. + 7°/A2(IV)" }                        %! IC
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [K ViolaMusicVoice measure 314 / measure 50]               %! SM4
@@ -4359,9 +4359,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 316 / measure 52]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!2.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     
     gqf''!4.
@@ -4384,9 +4384,9 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 320 / measure 56]               %! SM4
     \override TextSpanner.staff-padding = #7                     %! OC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!4.
-    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4419,16 +4419,16 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolaMusicVoice measure 321 / measure 57]               %! SM4
     gqf''!2.
     \repeatTie
     
     % [K ViolaMusicVoice measure 322 / measure 58]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!2..
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4436,9 +4436,9 @@ K_ViolaMusicVoice = {
     gqf''!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!4.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -4471,19 +4471,19 @@ K_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolaMusicVoice measure 324 / measure 60]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K ViolaMusicVoice measure 325 / measure 61]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \stopTrillSpan                                               %! SC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -4517,7 +4517,7 @@ K_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K ViolaMusicVoice measure 326 / measure 62]               %! SM4
     gqf''!2.
@@ -4527,9 +4527,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 327 / measure 63]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4891,9 +4891,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 289 / measure 25]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2.
-    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -4926,7 +4926,7 @@ K_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     a,,4.
     \repeatTie
@@ -4939,9 +4939,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 291 / measure 27]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -4953,9 +4953,9 @@ K_CelloMusicVoice = {
     R1 * 1/4
     
     % [K CelloMusicVoice measure 294 / measure 30]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,4.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4987,16 +4987,16 @@ K_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K CelloMusicVoice measure 295 / measure 31]               %! SM4
     a,,2
     \repeatTie
     
     % [K CelloMusicVoice measure 296 / measure 32]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,1
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -5008,9 +5008,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 298 / measure 34]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -5043,18 +5043,18 @@ K_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,4.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K CelloMusicVoice measure 299 / measure 35]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5086,12 +5086,12 @@ K_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K CelloMusicVoice measure 300 / measure 36]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -5100,9 +5100,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 302 / measure 38]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -5135,12 +5135,12 @@ K_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K CelloMusicVoice measure 303 / measure 39]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2..
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -5148,9 +5148,9 @@ K_CelloMusicVoice = {
     R1 * 1/4
     
     % [K CelloMusicVoice measure 305 / measure 41]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5182,7 +5182,7 @@ K_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K CelloMusicVoice measure 306 / measure 42]               %! SM4
     a,,4.
@@ -5193,9 +5193,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 308 / measure 44]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -5215,12 +5215,12 @@ K_CelloMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''2.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "pos. ord. + 11°/A1(IV)" }                       %! IC
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [K CelloMusicVoice measure 312 / measure 48]               %! SM4
@@ -5232,9 +5232,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 314 / measure 50]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     
     % [K CelloMusicVoice measure 315 / measure 51]               %! SM4
@@ -5265,9 +5265,9 @@ K_CelloMusicVoice = {
     
     % [K CelloMusicVoice measure 320 / measure 56]               %! SM4
     \override TextSpanner.staff-padding = #5                     %! OC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''4.
-    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -5300,16 +5300,16 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K CelloMusicVoice measure 321 / measure 57]               %! SM4
     d''2.
     \repeatTie
     
     % [K CelloMusicVoice measure 322 / measure 58]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''2..
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -5317,9 +5317,9 @@ K_CelloMusicVoice = {
     d''2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''4.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -5352,19 +5352,19 @@ K_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [K CelloMusicVoice measure 324 / measure 60]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [K CelloMusicVoice measure 325 / measure 61]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC
+    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \stopTrillSpan                                               %! SC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -5398,7 +5398,7 @@ K_CelloMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     \startTrillSpan                                              %! SC
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [K CelloMusicVoice measure 326 / measure 62]               %! SM4
     d''2.
@@ -5408,9 +5408,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 327 / measure 63]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''2
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     

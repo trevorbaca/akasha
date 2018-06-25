@@ -2171,9 +2171,9 @@ M_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     bf,,!2.
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2215,7 +2215,7 @@ M_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2258,9 +2258,9 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 346 / measure 7]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     bf,,!2.
-    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -2312,12 +2312,12 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 358 / measure 19]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     bf,,!2.
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [M CelloMusicVoice measure 359 / measure 20]               %! SM4
     bf,,!2.
@@ -2343,9 +2343,9 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 364 / measure 25]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     R1 * 3/2
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [M CelloMusicVoice measure 365 / measure 26]               %! SM4
     R1 * 3/2
