@@ -2171,8 +2171,9 @@ M_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf,,!2.
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2183,8 +2184,6 @@ M_CelloMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \ppp                                                         %! HC1
-    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -2216,6 +2215,7 @@ M_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
+    \<                                                           %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2258,10 +2258,10 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 346 / measure 7]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf,,!2.
+    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \ff                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [M CelloMusicVoice measure 347 / measure 8]                %! SM4
@@ -2312,12 +2312,12 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 358 / measure 19]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     bf,,!2.
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \pp                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
     % [M CelloMusicVoice measure 359 / measure 20]               %! SM4
     bf,,!2.
@@ -2343,9 +2343,9 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 364 / measure 25]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     R1 * 3/2
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [M CelloMusicVoice measure 365 / measure 26]               %! SM4
     R1 * 3/2

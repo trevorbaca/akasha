@@ -2343,12 +2343,12 @@ D_ViolaMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ff!4.
+    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { "tasto + senza vib." }                           %! IC
     \glissando                                                   %! SC
-    \sf                                                          %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [D ViolaMusicVoice measure 95 / measure 34]                %! SM4
@@ -2364,9 +2364,9 @@ D_ViolaMusicVoice = {
         cs!2
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         bs,!16
-        \ppp                                                     %! HC1
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC
     }
     
     % [D ViolaMusicVoice measure 98 / measure 37]                %! SM4
@@ -2661,21 +2661,21 @@ D_CelloMusicVoice = {
     R1 * 1/4
     
     % [D CelloMusicVoice measure 94 / measure 33]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     cs,!4.
+    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { tasto }                                          %! IC
-    \sf                                                          %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC
     
     % [D CelloMusicVoice measure 95 / measure 34]                %! SM4
     cs,!2.
     \repeatTie
     
     % [D CelloMusicVoice measure 96 / measure 35]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     cs,!2
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \ppp                                                         %! HC1
     
     % [D CelloMusicVoice measure 97 / measure 36]                %! SM4
     cs,!4.
@@ -2712,12 +2712,12 @@ D_CelloMusicVoice = {
     R1 * 1/4
     
     % [D CelloMusicVoice measure 104 / measure 43]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     df!1
+    \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { tasto }                                          %! IC
     \glissando                                                   %! SC
-    \sf                                                          %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC
     
     % [D CelloMusicVoice measure 105 / measure 44]               %! SM4
     c2.
@@ -2754,9 +2754,9 @@ D_CelloMusicVoice = {
         bf,,!2..
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         a,,16..
-        \ppp                                                     %! HC1
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC
     }
     
     % [D CelloMusicVoice measure 112 / measure 51]               %! SM4

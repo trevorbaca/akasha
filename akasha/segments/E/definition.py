@@ -284,7 +284,7 @@ maker(
 
 maker(
     ('v1', (15, 16)),
-    baca.hairpin('mf > pp'),
+    baca.new_hairpin('mf > pp'),
     baca.markups.leggieriss(),
     baca.markups.senza_scratch(),
     )
@@ -322,7 +322,7 @@ maker(
 
 maker(
     ('v2', (15, 16)),
-    baca.hairpin('mf > pp'),
+    baca.new_hairpin('mf > pp'),
     )
 
 maker(
@@ -368,7 +368,7 @@ maker(
 
 maker(
     ('vc', (15, 16)),
-    baca.hairpin('mf > pp'),
+    baca.new_hairpin('mf > pp'),
     baca.staccato(selector=baca.pheads()),
     )
 
