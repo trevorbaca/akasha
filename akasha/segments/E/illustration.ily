@@ -1709,8 +1709,8 @@ E_ViolinIMusicVoice = {
     -\staccato                                                   %! IC
     ^ \markup { leggieriss. }                                    %! IC
     ^ \markup { "senza scratch" }                                %! IC
-    [
     \>                                                           %! IC:BACA_HAIRPIN
+    [
     
     bf'!16
     -\staccato                                                   %! IC
@@ -3120,8 +3120,8 @@ E_ViolinIIMusicVoice = {
     b16
     \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\staccato                                                   %! IC
-    [
     \>                                                           %! IC:BACA_HAIRPIN
+    [
     
     c'16
     -\staccato                                                   %! IC
@@ -5323,8 +5323,8 @@ E_CelloMusicVoice = {
         fs!16
         \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
         -\staccato                                               %! IC
-        [
         \>                                                       %! IC:BACA_HAIRPIN
+        [
         
         g16
         -\staccato                                               %! IC

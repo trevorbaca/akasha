@@ -818,8 +818,8 @@ H_ViolaMusicVoice = {
         ds!1..
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ^ \markup { tasto }                                      %! IC
-        \glissando                                               %! SC
         \>                                                       %! IC:BACA_HAIRPIN
+        \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         cqs!8..
@@ -965,8 +965,8 @@ H_CelloMusicVoice = {
         cs,!1..
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ^ \markup { tasto }                                      %! IC
-        \glissando                                               %! SC
         \>                                                       %! IC:BACA_HAIRPIN
+        \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bf,,!8..

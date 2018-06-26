@@ -1170,7 +1170,7 @@ C_ViolinIIMusicVoice = {
     g''1.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { tasto }                                          %! IC
-    \startTrillSpan a''                                          %! SC
+    \startTrillSpan a''
     
     % [C ViolinIIMusicVoice measure 61 / measure 27]             %! SM4
     R1 * 1/4
@@ -1282,8 +1282,8 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     ef!1.
     \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
-    \glissando                                                   %! SC
     \>                                                           %! IC:BACA_HAIRPIN
+    \glissando                                                   %! SC
     
     % [C ViolaMusicVoice measure 44 / measure 10]                %! SM4
     d1
@@ -1349,8 +1349,8 @@ C_ViolaMusicVoice = {
     e1.
     \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { tasto }                                          %! IC
-    \glissando                                                   %! SC
     \>                                                           %! IC:BACA_HAIRPIN
+    \glissando                                                   %! SC
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 60 / measure 26]            %! SM4
