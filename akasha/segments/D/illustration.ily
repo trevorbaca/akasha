@@ -2085,7 +2085,7 @@ D_ViolinIIMusicVoice = {
     g''2.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { tasto }                                          %! IC
-    \startTrillSpan a''                                          %! SC
+    \startTrillSpan a''
     
     % [D ViolinIIMusicVoice measure 100 / measure 39]            %! SM4
     g''2..
@@ -2104,7 +2104,7 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 104 / measure 43]            %! SM4
     \pitchedTrill                                                %! SC
     g''1
-    \startTrillSpan a''                                          %! SC
+    \startTrillSpan a''
     
     % [D ViolinIIMusicVoice measure 105 / measure 44]            %! SM4
     g''2.
@@ -2347,8 +2347,8 @@ D_ViolaMusicVoice = {
     ff!4.
     \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "tasto + senza vib." }                           %! IC
-    \glissando                                                   %! SC
     \>                                                           %! IC:BACA_HAIRPIN
+    \glissando                                                   %! SC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [D ViolaMusicVoice measure 95 / measure 34]                %! SM4
@@ -2716,8 +2716,8 @@ D_CelloMusicVoice = {
     df!1
     \sf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { tasto }                                          %! IC
-    \glissando                                                   %! SC
     \>                                                           %! IC:BACA_HAIRPIN
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 105 / measure 44]               %! SM4
     c2.
