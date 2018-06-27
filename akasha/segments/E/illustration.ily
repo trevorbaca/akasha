@@ -1703,13 +1703,13 @@ E_ViolinIMusicVoice = {
     
     r16
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'16
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     -\staccato                                                   %! IC
     ^ \markup { leggieriss. }                                    %! IC
     ^ \markup { "senza scratch" }                                %! IC
-    \>                                                           %! IC:BACA_HAIRPIN
+    \>                                                           %! PIC
     [
     
     bf'!16
@@ -2336,9 +2336,9 @@ E_ViolinIMusicVoice = {
         a''16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b''16
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         ]
     }
@@ -3116,11 +3116,11 @@ E_ViolinIIMusicVoice = {
     % [E ViolinIIMusicVoice measure 135 / measure 23]            %! SM4
     r16
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b16
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     -\staccato                                                   %! IC
-    \>                                                           %! IC:BACA_HAIRPIN
+    \>                                                           %! PIC
     [
     
     c'16
@@ -3843,9 +3843,9 @@ E_ViolinIIMusicVoice = {
         fs''!16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         f''16
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         ]
     }
@@ -5319,11 +5319,11 @@ E_CelloMusicVoice = {
         % [E CelloMusicVoice measure 135 / measure 23]           %! SM4
         r16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         fs!16
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
-        \>                                                       %! IC:BACA_HAIRPIN
+        \>                                                       %! PIC
         [
         
         g16
@@ -6076,9 +6076,9 @@ E_CelloMusicVoice = {
         c''16
         -\staccato                                               %! IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         d''16
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         ]
     }
