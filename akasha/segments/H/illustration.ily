@@ -813,17 +813,17 @@ H_ViolaMusicVoice = {
         \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
         \once \override Staff.StaffSymbol.line-count = 5         %! SM8:EXPLICIT_STAFF_LINES:IC
         \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         ds!1..
-        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { tasto }                                      %! IC
-        \>                                                       %! IC:BACA_HAIRPIN
+        \>                                                       %! PIC
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         cqs!8..
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [H ViolaMusicVoice measure 223 / measure 7]                %! SM4
@@ -961,16 +961,16 @@ H_CelloMusicVoice = {
     \times 8/9 {
         
         % [H CelloMusicVoice measure 221 / measure 5]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         cs,!1..
-        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { tasto }                                      %! IC
-        \>                                                       %! IC:BACA_HAIRPIN
+        \>                                                       %! PIC
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bf,,!8..
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [H CelloMusicVoice measure 223 / measure 7]                %! SM4
