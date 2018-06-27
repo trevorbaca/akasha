@@ -341,11 +341,11 @@ maker(
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
     baca.map(
         baca.runs()[abjad.index([0], 2)],
-        baca.new_hairpin('pp < p'),
+        baca.hairpin('pp < p'),
         ),
     baca.map(
         baca.runs()[abjad.index([1], 2)],
-        baca.new_hairpin('p > pp'),
+        baca.hairpin('p > pp'),
         ),
     )
 
@@ -354,11 +354,11 @@ maker(
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
     baca.map(
         baca.runs()[abjad.index([0], 2)],
-        baca.new_hairpin('pp < p'),
+        baca.hairpin('pp < p'),
         ),
     baca.map(
         baca.runs()[abjad.index([1], 2)],
-        baca.new_hairpin('p > pp'),
+        baca.hairpin('p > pp'),
         ),
     )
 
@@ -393,7 +393,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], (10, 11)),
-    baca.new_hairpin('mp < f'),
+    baca.hairpin('mp < f'),
     baca.transition(
         baca.markups.trans(),
         baca.markups.scratch_moltiss(),
@@ -423,7 +423,7 @@ maker(
 maker(
     ('v1', 13),
     akasha.getato_pitches(29, [2]),
-    baca.new_hairpin('ff < fff'),
+    baca.hairpin('ff < fff'),
     baca.markups.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
@@ -431,7 +431,7 @@ maker(
 maker(
     ('v2', 13),
     akasha.getato_pitches(26, [2]),
-    baca.new_hairpin('ff < fff'),
+    baca.hairpin('ff < fff'),
     baca.markups.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
@@ -440,7 +440,7 @@ maker(
     ('va', 13),
     akasha.getato_pitches(23, [2]),
     baca.clef('treble'),
-    baca.new_hairpin('ff < fff'),
+    baca.hairpin('ff < fff'),
     baca.markups.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
@@ -449,7 +449,7 @@ maker(
     ('vc', 13),
     akasha.getato_pitches(20, [2]),
     baca.clef('treble'),
-    baca.new_hairpin('ff < fff'),
+    baca.hairpin('ff < fff'),
     baca.markups.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
