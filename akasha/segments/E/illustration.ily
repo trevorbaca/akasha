@@ -3116,9 +3116,9 @@ E_ViolinIIMusicVoice = {
     % [E ViolinIIMusicVoice measure 135 / measure 23]            %! SM4
     r16
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b16
-    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\staccato                                                   %! IC
     \>                                                           %! IC:BACA_HAIRPIN
     [
@@ -5319,9 +5319,9 @@ E_CelloMusicVoice = {
         % [E CelloMusicVoice measure 135 / measure 23]           %! SM4
         r16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs!16
-        \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\staccato                                               %! IC
         \>                                                       %! IC:BACA_HAIRPIN
         [
