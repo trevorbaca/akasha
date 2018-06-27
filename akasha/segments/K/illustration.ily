@@ -2247,9 +2247,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 289 / measure 25]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2.
-    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -2364,9 +2364,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 298 / measure 34]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -2456,9 +2456,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 302 / measure 38]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -2669,9 +2669,9 @@ K_ViolinIMusicVoice = {
     b''''2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b''''4.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3130,9 +3130,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 289 / measure 25]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gtqs'!2.
-    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3247,9 +3247,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 298 / measure 34]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3339,9 +3339,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 302 / measure 38]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gtqs'!2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3552,9 +3552,9 @@ K_ViolinIIMusicVoice = {
     cs''''!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     cs''''!4.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4013,9 +4013,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 289 / measure 25]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs,!2.
-    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4130,9 +4130,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 298 / measure 34]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4222,9 +4222,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 302 / measure 38]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs,!2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4436,9 +4436,9 @@ K_ViolaMusicVoice = {
     gqf''!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqf''!4.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -4891,9 +4891,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 289 / measure 25]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2.
-    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5008,9 +5008,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 298 / measure 34]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5100,9 +5100,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 302 / measure 38]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a,,2.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5317,9 +5317,9 @@ K_CelloMusicVoice = {
     d''2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d''4.
-    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
