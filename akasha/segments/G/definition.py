@@ -61,7 +61,7 @@ maker(
 
 maker(
     (['v2', 'va', 'vc'], 1),
-    baca.new_hairpin('ff > f'),
+    baca.hairpin('ff > f'),
     baca.make_notes(repeat_ties=True),
     baca.transition(
         baca.markups.tasto_plus_scratch_moltiss(),
@@ -71,7 +71,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 2),
-    baca.new_hairpin('f > mf'),
+    baca.hairpin('f > mf'),
     baca.make_notes(repeat_ties=True),
     )
 
@@ -93,7 +93,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 3),
-    baca.new_hairpin('mf > p'),
+    baca.hairpin('mf > p'),
     baca.make_notes(repeat_ties=True),
     baca.transition(
         baca.markups.trans(),
@@ -103,7 +103,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 4),
-    baca.new_hairpin('p > pp'),
+    baca.hairpin('p > pp'),
     baca.make_notes(repeat_ties=True),
     baca.transition(
         baca.markups.trans(),
@@ -124,7 +124,7 @@ maker(
 maker(
     ('v1', 1),
     akasha.getato_pitches(31, [2]),
-    baca.new_hairpin('pp > niente'),
+    baca.hairpin('pp > niente'),
     )
 
 maker(

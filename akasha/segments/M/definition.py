@@ -75,7 +75,7 @@ maker(
 
 maker(
     ('vc', (1, 2)),
-    baca.new_hairpin('ppp < ff', selector=baca.leaves()[:9]),
+    baca.hairpin('ppp < ff', selector=baca.leaves()[:9]),
     baca.transition(
         baca.markups.trans(),
         baca.markups.vib_moltiss(),
@@ -149,7 +149,7 @@ maker(
 
 maker(
     ('vc', (7, 8)),
-    baca.new_hairpin('pp >o niente', selector=baca.rleaves()),
+    baca.hairpin('pp >o niente', selector=baca.rleaves()),
     )
 
 maker(
