@@ -75,7 +75,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 1),
-    baca.generalized_hairpin('sfp < f'),
+    baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.transition(
         baca.markups.pos_ord_senza_vib(),
@@ -85,7 +85,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], 3),
-    baca.generalized_hairpin('sfp < f'),
+    baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.transition(
         baca.markups.senza_vib(),
@@ -95,7 +95,7 @@ maker(
 
 maker(
     (['v2', 'vc'], 5),
-    baca.generalized_hairpin('sfp < f'),
+    baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.transition(
         baca.markups.senza_vib(),
@@ -275,7 +275,7 @@ maker(
 
 maker(
     ('vc', 7),
-    baca.generalized_hairpin('sfp < f'),
+    baca.hairpin('sfp < f'),
     baca.transition(
         baca.markups.senza_vib(),
         baca.markups.vib_moltiss(),
@@ -347,7 +347,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 10),
-    baca.generalized_hairpin('ppp < mp'),
+    baca.hairpin('ppp < mp'),
     baca.markups.XP_FB(),
     )
 
@@ -362,7 +362,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 12),
-    baca.generalized_hairpin('ppp < mp'),
+    baca.hairpin('ppp < mp'),
     baca.transition(
         baca.markups.XP_FB(),
         baca.markups.tasto_FB(),
@@ -404,7 +404,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 16),
-    baca.generalized_hairpin('ppp < mp'),
+    baca.hairpin('ppp < mp'),
     baca.transition(
         baca.markups.trans(),
         baca.markups.tasto_fractional_scratch(1, 2),
@@ -413,7 +413,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 17),
-    baca.generalized_hairpin('mp < mf'),
+    baca.hairpin('mp < mf'),
     baca.transition(
         baca.markups.trans(),
         baca.markups.scratch_moltiss(),

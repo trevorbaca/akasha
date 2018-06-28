@@ -122,7 +122,7 @@ maker(
 maker(
     ('va', 4),
     baca.glissando(),
-    baca.generalized_hairpin('mp > pp'),
+    baca.hairpin('mp > pp'),
     baca.markups.tasto(),
     baca.pitches('D#3 C+3', exact=True),
     baca.staff_lines(5),
@@ -131,7 +131,7 @@ maker(
 maker(
     ('vc', 4),
     baca.glissando(),
-    baca.generalized_hairpin('mp > pp'),
+    baca.hairpin('mp > pp'),
     baca.markups.tasto(),
     baca.pitches('C#2 Bb1', exact=True),
     )
