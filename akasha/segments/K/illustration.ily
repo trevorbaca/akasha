@@ -1953,7 +1953,7 @@ K_ViolinIMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     a''2
-    \effort_ff                                                   %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_ff                                              %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2311,7 +2311,7 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 294 / measure 30]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a''4.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -2410,7 +2410,7 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 299 / measure 35]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a''2
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -2506,7 +2506,7 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 305 / measure 41]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a''2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -2594,7 +2594,7 @@ K_ViolinIMusicVoice = {
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b''''2.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "pos. ord. + 9°/A4(II)" }                        %! IC
     \<                                                           %! PIC
     \startTrillSpan
@@ -2716,7 +2716,7 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 325 / measure 61]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b''''1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     \stopTrillSpan                                               %! SC
     - \tweak Y-extent ##f                                        %! PSC1
@@ -2836,7 +2836,7 @@ K_ViolinIIMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gtqs'!2
-    \effort_ff                                                   %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_ff                                              %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3194,7 +3194,7 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 294 / measure 30]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'4.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -3293,7 +3293,7 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 299 / measure 35]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gtqs'!2
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -3389,7 +3389,7 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 305 / measure 41]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -3466,7 +3466,7 @@ K_ViolinIIMusicVoice = {
     \ottava #1                                                   %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     cs''''!1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "pos. ord. + 5°/A4(II)" }                        %! IC
     \<                                                           %! PIC
     \startTrillSpan
@@ -3599,7 +3599,7 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 325 / measure 61]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     cs''''!1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     \stopTrillSpan                                               %! SC
     - \tweak Y-extent ##f                                        %! PSC1
@@ -3719,7 +3719,7 @@ K_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     aqs,!2
-    \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_ff                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4077,7 +4077,7 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 294 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,4.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -4176,7 +4176,7 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 299 / measure 35]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     aqs,!2
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -4272,7 +4272,7 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 305 / measure 41]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -4344,7 +4344,7 @@ K_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gqf''!2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "pos. ord. + 7°/A2(IV)" }                        %! IC
     \<                                                           %! PIC
     \startTrillSpan
@@ -4483,7 +4483,7 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 325 / measure 61]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gqf''!1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     \stopTrillSpan                                               %! SC
     - \tweak Y-extent ##f                                        %! PSC1
@@ -4597,7 +4597,7 @@ K_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     a,,2
-    \effort_ff                                                   %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_ff                                              %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4955,7 +4955,7 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 294 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,,4.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -5054,7 +5054,7 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 299 / measure 35]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,,2
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -5150,7 +5150,7 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 305 / measure 41]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,,2..
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -5217,7 +5217,7 @@ K_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d''2.
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "pos. ord. + 11°/A1(IV)" }                       %! IC
     \<                                                           %! PIC
     \startTrillSpan
@@ -5364,7 +5364,7 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 325 / measure 61]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d''1
-    \sffp                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_sffp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     \stopTrillSpan                                               %! SC
     - \tweak Y-extent ##f                                        %! PSC1
