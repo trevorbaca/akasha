@@ -403,19 +403,19 @@ intro (8")
         9 (2+1+2)
         tutti pure octaves (A1, A2, A4, A5);
         tutti ord < XP > ord enveloping (each time slightly more);
-        tutti sffp < fff > ff enveloping (each time slightly more);
+        tutti baca_sffp < fff > ff enveloping (each time slightly more);
 
         10 (2+1+2)
         tutti detuned octaves (A1, A+2, G#+4, A5);
         tutti ord < XP > ord enveloping (each time slightly more);
-        tutti sffp < fff > ff enveloping (each time slightly more);
+        tutti baca_sffp < fff > ff enveloping (each time slightly more);
 
     11 (1)
     short fermata;
 
     12 (2+1+2)
     tutti pure octaves (A1, A2, A4, A5);
-    tutti sffp > pp;
+    tutti baca_sffp > pp;
     tutti ord > tasto moltiss.;
 
     13 (1)
@@ -423,21 +423,21 @@ intro (8")
 
     14 (2)
     vn1, vn2, va pure octaves (A2, A4, A5) tasto pp;
-    vc A1+D5 (IV/11°) natural harmonic ord. sffp < mf;
+    vc A1+D5 (IV/11°) natural harmonic ord. baca_sffp < mf;
 
     15 (2)
     vn1, vn2 pure octaves (A4, A5) tasto pp;
-    va A2+G~5 (IV/9°) natural harmonic ord. trill sffp < mf;
+    va A2+G~5 (IV/9°) natural harmonic ord. trill baca_sffp < mf;
     vc A1+D5 (IV/11°) natural harmonic ord. trill ord. mf;
 
     16 (2)
     vn1 pure A5 tasto pp;
-    vn2 A4+C#7 (IV/5°) natural harmonic ord. trill sffp < mf;
+    vn2 A4+C#7 (IV/5°) natural harmonic ord. trill baca_sffp < mf;
     va A2+G~5 (IV/7°) natural harmonic ord. trill mf;
     vc A1+D5 (IV/11°) natural harmonic ord. trill mf;
 
     17 (2)[44->38(!)]
-    vn1 A4+B7 (IV/9°) natural harmonic ord. trill sffp < mf;
+    vn1 A4+B7 (IV/9°) natural harmonic ord. trill baca_sffp < mf;
     vn2 A4+C#7 (IV/5°) natural harmonic ord. trill mf;
     va A2+G~5 (IV/7°) natural harmonic ord. trill mf;
     vc A1+D5 (IV/11°) natural harmonic ord. trill mf;
@@ -447,11 +447,11 @@ intro (8")
 
     19 (6x:2+1+2) [38]
     tutti ord < XP > ord enveloping (each time slightly more);
-    tutti sffp < fff > ff enveloping (each time slightly more);
+    tutti baca_sffp < fff > ff enveloping (each time slightly more);
 
     20 (2)
     tutti ord < XP;
-    tutti sffp < fff;
+    tutti baca_sffp < fff;
 
     21 (6)
     tutti XP;

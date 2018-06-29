@@ -938,7 +938,7 @@ C_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b'1.
-    \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_mf                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { OB }                                             %! IC
     \override Staff.BarLine.bar-extent = #'(0 . 0)               %! OC1
     
@@ -1097,7 +1097,7 @@ C_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b'1.
-    \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_mf                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { OB }                                             %! IC
     
     % [C ViolinIIMusicVoice measure 44 / measure 10]             %! SM4

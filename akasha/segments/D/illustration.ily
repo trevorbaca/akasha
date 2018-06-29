@@ -2376,7 +2376,7 @@ D_ViolaMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     af!2.
-    \ppp_ancora                                                  %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_ppp_ancora                                             %! SM8:REDUNDANT_DYNAMIC:IC
     -\downbow                                                    %! IC
     ^ \markup { "XP + full bow strokes" }                        %! IC
     \glissando                                                   %! SC
@@ -2688,7 +2688,7 @@ D_CelloMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e,2.
-    \ppp_ancora                                                  %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_ppp_ancora                                             %! SM8:REDUNDANT_DYNAMIC:IC
     -\downbow                                                    %! IC
     ^ \markup { "XP + full bow strokes" }                        %! IC
     \glissando                                                   %! SC
