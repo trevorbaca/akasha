@@ -104,16 +104,8 @@ G_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_dashed_arrow                                                 %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
@@ -464,21 +456,13 @@ G_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_dashed_arrow                                                 %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.right.text \markup {                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
 %@%     \concat                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
 %@%             \hspace                                                  %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #-0.5                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #0.5                                                 %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
 %@%             \line                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
 %@%                 {                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
 %@%                     \abjad-metronome-mark-markup #2 #0 #1.5 #"89"    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
@@ -491,7 +475,7 @@ G_GlobalSkips = {
             \concat                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
                 {                                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
                     \hspace                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        #-0.5                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #0.5                                             %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
                     \line                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
                         {                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
                             \abjad-metronome-mark-markup #2 #0 #1.5 #"89" %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
