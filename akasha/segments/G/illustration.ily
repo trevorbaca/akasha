@@ -769,37 +769,23 @@ G_ViolinIMusicVoice = {
     f''2.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "tasto + 1/4 scratch"                        %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    tasto                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "tasto + 1/4 scratch"                        %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            tasto                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     f''4.
     \repeatTie
@@ -816,7 +802,7 @@ G_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     f''2
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G ViolinIMusicVoice measure 207 / measure 8]              %! SM4
@@ -824,38 +810,24 @@ G_ViolinIMusicVoice = {
     ef''!1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            FB                                                   %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    FB                                           %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [G ViolinIMusicVoice measure 208 / measure 9]              %! SM4
     fs''!4.
@@ -865,7 +837,7 @@ G_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e''2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G ViolinIMusicVoice measure 210 / measure 11]             %! SM4
@@ -873,38 +845,24 @@ G_ViolinIMusicVoice = {
     fs''!1
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            XFB                                                  %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    XFB                                          %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [G ViolinIMusicVoice measure 211 / measure 12]             %! SM4
     af''!2.
@@ -920,7 +878,7 @@ G_ViolinIMusicVoice = {
     fs''!4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [G ViolinIMusicVoice measure 213 / measure 14]             %! SM4
     R1 * 1/4
@@ -984,38 +942,24 @@ G_ViolinIIMusicVoice = {
             "[“Vn. II”]"                                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "tasto + scratch moltiss."                   %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "1/4 scratch"                                        %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "tasto + scratch moltiss."                   %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "1/4 scratch"                                %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1043,7 +987,7 @@ G_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef'!2.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 204 / measure 5]             %! SM4
@@ -1051,37 +995,23 @@ G_ViolinIIMusicVoice = {
     cs'!2.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    tasto                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            tasto                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     cs'!4.
     \repeatTie
@@ -1098,7 +1028,7 @@ G_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g'2
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 207 / measure 8]             %! SM4
@@ -1106,38 +1036,24 @@ G_ViolinIIMusicVoice = {
     e'1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            FB                                                   %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    FB                                           %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [G ViolinIIMusicVoice measure 208 / measure 9]             %! SM4
     fs'!4.
@@ -1147,7 +1063,7 @@ G_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e'2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G ViolinIIMusicVoice measure 210 / measure 11]            %! SM4
@@ -1155,38 +1071,24 @@ G_ViolinIIMusicVoice = {
     d'1
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            XFB                                                  %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    XFB                                          %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [G ViolinIIMusicVoice measure 211 / measure 12]            %! SM4
     f'2.
@@ -1202,7 +1104,7 @@ G_ViolinIIMusicVoice = {
     af'!4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [G ViolinIIMusicVoice measure 213 / measure 14]            %! SM4
     R1 * 1/4
@@ -1268,38 +1170,24 @@ G_ViolaMusicVoice = {
             [“Va.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "tasto + scratch moltiss."                   %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "1/4 scratch"                                        %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "tasto + scratch moltiss."                   %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "1/4 scratch"                                %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1327,7 +1215,7 @@ G_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e'2.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G ViolaMusicVoice measure 204 / measure 5]                %! SM4
@@ -1335,37 +1223,23 @@ G_ViolaMusicVoice = {
     d'2.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    tasto                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            tasto                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     d'4.
     \repeatTie
@@ -1382,7 +1256,7 @@ G_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e'2
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G ViolaMusicVoice measure 207 / measure 8]                %! SM4
@@ -1390,38 +1264,24 @@ G_ViolaMusicVoice = {
     fs'!1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            FB                                                   %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    FB                                           %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [G ViolaMusicVoice measure 208 / measure 9]                %! SM4
     ef'!4.
@@ -1431,7 +1291,7 @@ G_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     f'2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G ViolaMusicVoice measure 210 / measure 11]               %! SM4
@@ -1439,38 +1299,24 @@ G_ViolaMusicVoice = {
     ef'!1
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            XFB                                                  %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    XFB                                          %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [G ViolaMusicVoice measure 211 / measure 12]               %! SM4
     cs'!2.
@@ -1486,7 +1332,7 @@ G_ViolaMusicVoice = {
     f'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [G ViolaMusicVoice measure 213 / measure 14]               %! SM4
     R1 * 1/4
@@ -1555,38 +1401,24 @@ G_CelloMusicVoice = {
             [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "tasto + scratch moltiss."                   %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "1/4 scratch"                                        %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "tasto + scratch moltiss."                   %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "1/4 scratch"                                %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1614,7 +1446,7 @@ G_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d,2.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G CelloMusicVoice measure 204 / measure 5]                %! SM4
@@ -1622,37 +1454,23 @@ G_CelloMusicVoice = {
     e,2.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    tasto                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            tasto                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     e,4.
     \repeatTie
@@ -1669,7 +1487,7 @@ G_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     c,2
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G CelloMusicVoice measure 207 / measure 8]                %! SM4
@@ -1677,38 +1495,24 @@ G_CelloMusicVoice = {
     d,1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            FB                                                   %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    FB                                           %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [G CelloMusicVoice measure 208 / measure 9]                %! SM4
     e,4.
@@ -1718,7 +1522,7 @@ G_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     cs,!2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \glissando                                                   %! SC
     
     % [G CelloMusicVoice measure 210 / measure 11]               %! SM4
@@ -1726,38 +1530,24 @@ G_CelloMusicVoice = {
     ef,!1
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            XFB                                                  %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    XFB                                          %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [G CelloMusicVoice measure 211 / measure 12]               %! SM4
     cs,!2.
@@ -1773,7 +1563,7 @@ G_CelloMusicVoice = {
     b,,4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [G CelloMusicVoice measure 213 / measure 14]               %! SM4
     R1 * 1/4

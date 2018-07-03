@@ -943,117 +943,75 @@ M_ViolinIMusicVoice = {
     % [M ViolinIMusicVoice measure 352 / measure 13]             %! SM4
     bf'!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "pos. ord. + XFB"                            %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "pos. ord. + XFB"                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIMusicVoice measure 353 / measure 14]             %! SM4
     bf'!1.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIMusicVoice measure 354 / measure 15]             %! SM4
     bf'!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "pont. + XFB"                                %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "pont. + XFB"                                        %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIMusicVoice measure 355 / measure 16]             %! SM4
     bf'!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIMusicVoice measure 356 / measure 17]             %! SM4
     bf'!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "XP + XFB"                                   %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "XP + XFB"                                           %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     bf'!2
     \repeatTie
@@ -1061,42 +1019,28 @@ M_ViolinIMusicVoice = {
     % [M ViolinIMusicVoice measure 357 / measure 18]             %! SM4
     bf'!2.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIMusicVoice measure 358 / measure 19]             %! SM4
     bf'!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    XP                                           %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            XP                                                   %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIMusicVoice measure 359 / measure 20]             %! SM4
     bf'!2.
@@ -1109,7 +1053,7 @@ M_ViolinIMusicVoice = {
     % [M ViolinIMusicVoice measure 361 / measure 22]             %! SM4
     bf'!2.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     bf'!2
     \repeatTie
@@ -1117,122 +1061,80 @@ M_ViolinIMusicVoice = {
     % [M ViolinIMusicVoice measure 362 / measure 23]             %! SM4
     bf'!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    1/3OB                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            1/3OB                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIMusicVoice measure 363 / measure 24]             %! SM4
     bf'!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIMusicVoice measure 364 / measure 25]             %! SM4
     bf'!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    2/3OB                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            2/3OB                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIMusicVoice measure 365 / measure 26]             %! SM4
     bf'!1.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIMusicVoice measure 366 / measure 27]             %! SM4
     bf'!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "OB (no pitch)"                              %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "OB (no pitch)"                                      %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIMusicVoice measure 367 / measure 28]             %! SM4
     bf'!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \revert RepeatTie.direction                                  %! OC2
     
     % [M ViolinIMusicVoice measure 368 / measure 29]             %! SM4
@@ -1343,117 +1245,75 @@ M_ViolinIIMusicVoice = {
     % [M ViolinIIMusicVoice measure 352 / measure 13]            %! SM4
     bf!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "pos. ord. + XFB"                            %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "pos. ord. + XFB"                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIIMusicVoice measure 353 / measure 14]            %! SM4
     bf!1.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIIMusicVoice measure 354 / measure 15]            %! SM4
     bf!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "pont. + XFB"                                %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "pont. + XFB"                                        %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIIMusicVoice measure 355 / measure 16]            %! SM4
     bf!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIIMusicVoice measure 356 / measure 17]            %! SM4
     bf!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "XP + XFB"                                   %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "XP + XFB"                                           %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     bf!2
     \repeatTie
@@ -1461,42 +1321,28 @@ M_ViolinIIMusicVoice = {
     % [M ViolinIIMusicVoice measure 357 / measure 18]            %! SM4
     bf!2.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIIMusicVoice measure 358 / measure 19]            %! SM4
     bf!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    XP                                           %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            XP                                                   %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIIMusicVoice measure 359 / measure 20]            %! SM4
     bf!2.
@@ -1509,7 +1355,7 @@ M_ViolinIIMusicVoice = {
     % [M ViolinIIMusicVoice measure 361 / measure 22]            %! SM4
     bf!2.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     bf!2
     \repeatTie
@@ -1517,122 +1363,80 @@ M_ViolinIIMusicVoice = {
     % [M ViolinIIMusicVoice measure 362 / measure 23]            %! SM4
     bf!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    1/3OB                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            1/3OB                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIIMusicVoice measure 363 / measure 24]            %! SM4
     bf!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIIMusicVoice measure 364 / measure 25]            %! SM4
     bf!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    2/3OB                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            2/3OB                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIIMusicVoice measure 365 / measure 26]            %! SM4
     bf!1.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIIMusicVoice measure 366 / measure 27]            %! SM4
     bf!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "OB (no pitch)"                              %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "OB (no pitch)"                                      %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolinIIMusicVoice measure 367 / measure 28]            %! SM4
     bf!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolinIIMusicVoice measure 368 / measure 29]            %! SM4
     R1 * 1/4
@@ -1742,117 +1546,75 @@ M_ViolaMusicVoice = {
     % [M ViolaMusicVoice measure 352 / measure 13]               %! SM4
     bf,!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "pos. ord. + XFB"                            %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "pos. ord. + XFB"                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolaMusicVoice measure 353 / measure 14]               %! SM4
     bf,!1.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolaMusicVoice measure 354 / measure 15]               %! SM4
     bf,!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "pont. + XFB"                                %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "pont. + XFB"                                        %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolaMusicVoice measure 355 / measure 16]               %! SM4
     bf,!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolaMusicVoice measure 356 / measure 17]               %! SM4
     bf,!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "XP + XFB"                                   %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "XP + XFB"                                           %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     bf,!2
     \repeatTie
@@ -1860,42 +1622,28 @@ M_ViolaMusicVoice = {
     % [M ViolaMusicVoice measure 357 / measure 18]               %! SM4
     bf,!2.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolaMusicVoice measure 358 / measure 19]               %! SM4
     bf,!2.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    XP                                           %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            XP                                                   %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolaMusicVoice measure 359 / measure 20]               %! SM4
     bf,!2.
@@ -1908,7 +1656,7 @@ M_ViolaMusicVoice = {
     % [M ViolaMusicVoice measure 361 / measure 22]               %! SM4
     bf,!2.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     bf,!2
     \repeatTie
@@ -1916,122 +1664,80 @@ M_ViolaMusicVoice = {
     % [M ViolaMusicVoice measure 362 / measure 23]               %! SM4
     bf,!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    1/3OB                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            1/3OB                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolaMusicVoice measure 363 / measure 24]               %! SM4
     bf,!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolaMusicVoice measure 364 / measure 25]               %! SM4
     bf,!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    2/3OB                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            2/3OB                                                %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolaMusicVoice measure 365 / measure 26]               %! SM4
     bf,!1.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolaMusicVoice measure 366 / measure 27]               %! SM4
     bf,!1.
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "OB (no pitch)"                              %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "OB (no pitch)"                                      %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [M ViolaMusicVoice measure 367 / measure 28]               %! SM4
     bf,!1
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M ViolaMusicVoice measure 368 / measure 29]               %! SM4
     R1 * 1/4
@@ -2079,37 +1785,23 @@ M_CelloMusicVoice = {
             [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    trans.                                       %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "vib. moltiss."                              %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    trans.                                       %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "vib. moltiss."                                      %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2156,7 +1848,7 @@ M_CelloMusicVoice = {
     bf,,!2.
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [M CelloMusicVoice measure 347 / measure 8]                %! SM4
     bf,,!2.
