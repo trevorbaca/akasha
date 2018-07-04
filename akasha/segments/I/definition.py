@@ -33,6 +33,7 @@ def stage(n):
 
 maker = baca.SegmentMaker(
     color_octaves=False,
+    do_not_attach_metronome_mark_spanner=True,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=[
         2, 1, 2, 2, 3, 2, 2, 2, 4, 2, 2, 2, 1, 2, 1, 2, 2, 2, 1,
@@ -47,22 +48,22 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('I'),
-    baca.metronome_mark('89', selector=baca.leaf(0)),
-    baca.metronome_mark('55', selector=baca.leaf(3)),
-    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(3)),
-    baca.metronome_mark('89', selector=baca.leaf(7)),
-    baca.metronome_mark(baca.Ritardando(), selector=baca.leaf(7)),
-    baca.metronome_mark('55', selector=baca.leaf(12)),
-    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(12)),
-    baca.metronome_mark('89', selector=baca.leaf(16)),
-    baca.metronome_mark(baca.Ritardando(), selector=baca.leaf(16)),
-    baca.metronome_mark('55', selector=baca.leaf(20)),
-    baca.metronome_mark('126', selector=baca.leaf(22)),
-    baca.metronome_mark('55', selector=baca.leaf(24)),
-    baca.metronome_mark('89', selector=baca.leaf(27)),
-    baca.metronome_mark('55', selector=baca.leaf(30)),
-    baca.metronome_mark(baca.Ritardando(), selector=baca.leaf(32)),
-    baca.metronome_mark('44', selector=baca.leaf(34)),
+    baca.metronome_mark_new('89', selector=baca.leaf(0)),
+    baca.metronome_mark_new('55', selector=baca.leaf(3)),
+    baca.metronome_mark_new(baca.Accelerando(), selector=baca.leaf(3)),
+    baca.metronome_mark_new('89', selector=baca.leaf(7)),
+    baca.metronome_mark_new(baca.Ritardando(), selector=baca.leaf(7)),
+    baca.metronome_mark_new('55', selector=baca.leaf(12)),
+    baca.metronome_mark_new(baca.Accelerando(), selector=baca.leaf(12)),
+    baca.metronome_mark_new('89', selector=baca.leaf(16)),
+    baca.metronome_mark_new(baca.Ritardando(), selector=baca.leaf(16)),
+    baca.metronome_mark_new('55', selector=baca.leaf(20)),
+    baca.metronome_mark_new('126', selector=baca.leaf(22)),
+    baca.metronome_mark_new('55', selector=baca.leaf(24)),
+    baca.metronome_mark_new('89', selector=baca.leaf(27)),
+    baca.metronome_mark_new('55', selector=baca.leaf(30)),
+    baca.metronome_mark_new(baca.Ritardando(), selector=baca.leaf(32)),
+    baca.metronome_mark_new('44', selector=baca.leaf(34)),
     )
 
 maker(
