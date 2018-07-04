@@ -33,6 +33,7 @@ def stages(n):
 
 maker = baca.SegmentMaker(
     color_octaves=False,
+    do_not_attach_metronome_mark_spanner=True,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=[
         1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 4, 2, 2, 4, 6, 6, 1],
@@ -46,11 +47,11 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('E'),
-    baca.metronome_mark('55', selector=baca.leaf(8)),
-    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(12)),
-    baca.metronome_mark('89', selector=baca.leaf(14)),
-    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(18)),
-    baca.metronome_mark('126', selector=baca.leaf(26)),
+    baca.metronome_mark_new('55', selector=baca.leaf(8)),
+    baca.metronome_mark_new(baca.Accelerando(), selector=baca.leaf(12)),
+    baca.metronome_mark_new('89', selector=baca.leaf(14)),
+    baca.metronome_mark_new(baca.Accelerando(), selector=baca.leaf(18)),
+    baca.metronome_mark_new('126', selector=baca.leaf(26)),
     )
 
 maker(
