@@ -394,7 +394,7 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], (10, 11)),
     baca.hairpin('mp < f'),
-    baca.new_transition(
+    baca.transition(
         baca.markups.trans(),
         baca.markups.scratch_moltiss(),
         ),
