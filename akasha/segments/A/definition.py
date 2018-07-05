@@ -10,7 +10,6 @@ from abjadext import rmakers
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    do_not_attach_metronome_mark_spanner=True,
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures(
@@ -22,12 +21,12 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark_new('44', selector=baca.leaf(0)),
-    baca.metronome_mark_new(baca.Accelerando(), selector=baca.leaf(0)),
-    baca.metronome_mark_new('55', selector=baca.leaf(2)),
-    baca.metronome_mark_new('44', selector=baca.leaf(5)),
-    baca.metronome_mark_new(baca.Accelerando(), selector=baca.leaf(5)),
-    baca.metronome_mark_new('55', selector=baca.leaf(9)),
+    baca.metronome_mark('44', selector=baca.leaf(0)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(0)),
+    baca.metronome_mark('55', selector=baca.leaf(2)),
+    baca.metronome_mark('44', selector=baca.leaf(5)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(5)),
+    baca.metronome_mark('55', selector=baca.leaf(9)),
     baca.rehearsal_mark('A'),
     )
 
