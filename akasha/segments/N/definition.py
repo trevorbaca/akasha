@@ -18,7 +18,6 @@ def stage(n):
         }[n]
 
 maker = baca.SegmentMaker(
-    do_not_attach_metronome_mark_spanner=True,
     ignore_repeat_pitch_classes=True,
     final_markup=(
         ['Cambridge, MA', 'Dallas, TX', 'Madison, WI.'],
@@ -36,7 +35,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark_new('89'),
+    baca.metronome_mark('89'),
     baca.rehearsal_mark('N'),
     baca.rehearsal_mark_y_offset(5),
     )

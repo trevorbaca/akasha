@@ -9,7 +9,6 @@ import os
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    do_not_attach_metronome_mark_spanner=True,
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('B', 3, 0, [-1]),
@@ -18,7 +17,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark_new('44'),
+    baca.metronome_mark('44'),
     )
 
 maker(

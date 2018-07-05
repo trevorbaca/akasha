@@ -18,7 +18,6 @@ def stage(n):
         }[n]
 
 maker = baca.SegmentMaker(
-    do_not_attach_metronome_mark_spanner=True,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=True,
     metronome_mark_stem_height=1.5,
@@ -31,7 +30,7 @@ maker = baca.SegmentMaker(
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('L'),
-    baca.metronome_mark_new('55'),
+    baca.metronome_mark('55'),
     )
 
 maker(
