@@ -202,7 +202,7 @@ F_GlobalSkips = {
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #6                                                             %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -252,7 +252,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 153 / measure 2]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -273,7 +273,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 154 / measure 3]                            %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -323,7 +323,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 155 / measure 4]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -344,7 +344,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 156 / measure 5]                            %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -369,7 +369,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 157 / measure 6]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -419,7 +419,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 158 / measure 7]                            %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -444,7 +444,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 159 / measure 8]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -494,7 +494,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 160 / measure 9]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -515,7 +515,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 161 / measure 10]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -540,7 +540,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 162 / measure 11]                           %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -565,7 +565,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 163 / measure 12]                           %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -605,7 +605,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 165 / measure 14]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -645,7 +645,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 167 / measure 16]                           %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -685,7 +685,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 169 / measure 18]                           %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -706,7 +706,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 170 / measure 19]                           %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -746,7 +746,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 172 / measure 21]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -786,7 +786,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 174 / measure 23]                           %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -811,7 +811,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 175 / measure 24]                           %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -851,7 +851,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 177 / measure 26]                           %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -872,7 +872,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 178 / measure 27]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -897,7 +897,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 179 / measure 28]                           %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -956,7 +956,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 182 / measure 31]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1010,7 +1010,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 183 / measure 32]                           %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1031,7 +1031,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 184 / measure 33]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1052,7 +1052,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 185 / measure 34]                           %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1073,7 +1073,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 186 / measure 35]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1123,7 +1123,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 187 / measure 36]                           %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1186,7 +1186,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 190 / measure 39]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1207,7 +1207,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 191 / measure 40]                           %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1228,7 +1228,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 192 / measure 41]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1249,7 +1249,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 193 / measure 42]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1274,7 +1274,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 194 / measure 43]                           %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1324,7 +1324,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 195 / measure 44]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1352,7 +1352,7 @@ F_GlobalSkips = {
         % [F GlobalSkips measure 196 / measure 45]                       %! SM4
         \override TextScript.extra-offset = #'(1.5 . 6)                  %! OC1
         \time 6/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-        \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+        \baca_time_signature_color #'blue                                %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 3/2
     %@% ^ \markup {                                                      %! SM31:MEASURE_NUMBER_MARKUP
     %@%     \baca-dark-cyan-markup                                       %! SM31:MEASURE_NUMBER_MARKUP
@@ -1412,7 +1412,7 @@ F_GlobalSkips = {
         
         % [F GlobalSkips measure 197 / measure 46]                       %! SM4
         \time 1/4                                                        %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-        \once \override Score.TimeSignature.color = #(x11-color 'blue)   %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+        \baca_time_signature_color #'blue                                %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
         s1 * 1/4
     %@% ^ \markup {                                                      %! SM31:MEASURE_NUMBER_MARKUP
     %@%     \baca-dark-cyan-markup                                       %! SM31:MEASURE_NUMBER_MARKUP
@@ -1439,7 +1439,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 198 / measure 47]                           %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1489,7 +1489,7 @@ F_GlobalSkips = {
     
     % [F GlobalSkips measure 199 / measure 48]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color #'blue                                    %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
@@ -1512,7 +1512,7 @@ F_GlobalSkips = {
 %@%         [8'57'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     \stopTextSpan                                                        %! MMI4
-    \override Score.BarLine.transparent = ##f                            %! SM5
+    \baca_bar_line_visible                                               %! SM5
     \bar "|"                                                             %! SM5
     
 }
