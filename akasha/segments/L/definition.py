@@ -20,7 +20,6 @@ def stage(n):
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     measures_per_stage=True,
-    metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('A', 6, 18, [2, 4]),
     validate_measure_count=6,

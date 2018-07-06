@@ -26,7 +26,6 @@ maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=[3, 1, 1, 1, 1, 1, 1, 1, 1],
-    metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('B', 11, 6, [5, 7, 9]),
     validate_measure_count=11,
