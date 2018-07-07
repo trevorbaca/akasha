@@ -329,7 +329,7 @@ maker(
 
 maker(
     (['v1', 'v2'], 6),
-    baca.ancora_dynamic('pp'),
+    baca.dynamic('pp_ancora'),
     baca.markups.tasto_XFB(),
     (baca.pitches('Eb5 F5'), 0),
     (baca.pitches('B4 C#5'), 1),
