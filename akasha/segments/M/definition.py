@@ -75,8 +75,9 @@ maker(
 maker(
     ('vc', (1, 2)),
     baca.hairpin('ppp < ff', selector=baca.leaves()[:9]),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.vib_moltiss(),
         selector=baca.leaves()[:9],
         ),
@@ -112,8 +113,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 4),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.pos_ord_XFB(),
         selector=baca.leaves()[:2],
         ),
@@ -121,8 +123,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 5),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.pont_XFB(),
         selector=baca.leaves()[:2],
         ),
@@ -130,8 +133,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 6),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.XP_XFB(),
         selector=baca.leaves()[:3],
         ),
@@ -139,8 +143,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 7),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.XP(),
         selector=baca.leaves()[:4],
         ),
@@ -153,8 +158,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 8),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.fractional_OB(1, 3),
         selector=baca.leaves()[:2],
         ),
@@ -162,8 +168,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 9),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.fractional_OB(2, 3),
         selector=baca.leaves()[:2],
         ),
@@ -171,8 +178,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 10),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.OB_no_pitch(),
         selector=baca.leaves()[:2],
         ),
