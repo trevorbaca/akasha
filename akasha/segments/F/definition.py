@@ -393,8 +393,9 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], (10, 11)),
     baca.hairpin('mp < f'),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.trans(),
+        '=>',
         baca.markups.scratch_moltiss(),
         ),
     )
