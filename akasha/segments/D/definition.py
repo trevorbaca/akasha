@@ -236,7 +236,7 @@ maker(
 
 maker(
     ('va', (12, 14)),
-    baca.ancora_dynamic('ppp'),
+    baca.dynamic('ppp_ancora'),
     baca.map(
         baca.runs(),
         baca.glissando(),
@@ -279,7 +279,7 @@ maker(
 
 maker(
     ('vc', 12),
-    baca.ancora_dynamic('ppp'),
+    baca.dynamic('ppp_ancora'),
     baca.glissando(),
     baca.markups.XP_full_bow_strokes(),
     baca.note_head_style_harmonic(),
