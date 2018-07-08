@@ -86,9 +86,9 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 2),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.one_click_every(1, 2),
+        baca.markuplib.one_click_every(1, 2),
         selector=baca.leaves()[:-1],
         ),
     )
@@ -96,9 +96,9 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 3),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.clicks_per_second(1, 2),
+        baca.markuplib.clicks_per_second(1, 2),
         selector=baca.leaves()[:-1],
         ),
     )
@@ -107,9 +107,9 @@ maker(
     (['v1', 'v2', 'va', 'vc'], 4),
     baca.dynamic('ff', selector=baca.note(2)),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.scratch_moltiss(),
+        baca.markuplib.scratch_moltiss(),
         selector=baca.leaves()[:-1],
         ),
     )
@@ -117,9 +117,9 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 5),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.fractional_scratch(1, 2),
+        baca.markuplib.fractional_scratch(1, 2),
         selector=baca.leaves()[:-1],
         ),
     )
@@ -127,9 +127,9 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 6),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.pos_ord(),
+        baca.markuplib.pos_ord(),
         selector=baca.leaves()[:-1],
         ),
     )
@@ -137,9 +137,9 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 7),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.vib_moltiss(),
+        baca.markuplib.vib_moltiss(),
         selector=baca.leaves()[:-1],
         ),
     baca.hairpin('ff < fff', selector=baca.leaves()[:-1]),
@@ -148,7 +148,7 @@ maker(
 maker(
     ('GlobalSkips', (9, 10)),
     baca.markup(
-        baca.markups.repeat_count(6).boxed(),
+        baca.markuplib.repeat_count(6).boxed(),
         selector=baca.skip(0),
         ),
     baca.volta(),
@@ -167,15 +167,15 @@ maker(
     baca.hairpin('sffp < fff', selector=baca.leaves()[:3]),
     baca.hairpin('fff > p', selector=baca.leaves()[-2:]),
     baca.text_spanner(
-        baca.markups.pos_ord_senza_vib(),
+        baca.markuplib.pos_ord_senza_vib(),
         '=>',
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         selector=baca.leaves()[:3],
         ),
     baca.text_spanner(
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         '=>',
-        baca.markups.pos_ord(),
+        baca.markuplib.pos_ord(),
         selector=baca.leaves()[-2:],
         ),
     )
@@ -185,15 +185,15 @@ maker(
     baca.hairpin('sffp < fff', selector=baca.leaves()[:2]),
     baca.hairpin('fff > p', selector=baca.leaves()[-2:]),
     baca.text_spanner(
-        baca.markups.pos_ord(),
+        baca.markuplib.pos_ord(),
         '=>',
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         selector=baca.leaves()[:2],
         ),
     baca.text_spanner(
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         '=>',
-        baca.markups.pos_ord(),
+        baca.markuplib.pos_ord(),
         selector=baca.leaves()[-2:],
         ),
     )
@@ -246,9 +246,9 @@ maker(
     (['v1', 'v2', 'va', 'vc'], 12),
     baca.hairpin('sffp > pp', selector=baca.leaves()[:-1]),
     baca.text_spanner(
-        baca.markups.pos_ord(),
+        baca.markuplib.pos_ord(),
         '=>',
-        baca.markups.XT(),
+        baca.markuplib.XT(),
         selector=baca.leaves()[:-1],
         ),
     )
@@ -313,7 +313,7 @@ maker(
 maker(
     ('GlobalSkips', 19),
     baca.markup(
-        baca.markups.repeat_count(6).boxed(),
+        baca.markuplib.repeat_count(6).boxed(),
         selector=baca.skip(0),
         ),
     baca.text_script_extra_offset((1.5, 6)),
@@ -332,15 +332,15 @@ maker(
     baca.hairpin('sf < fff', selector=baca.leaves()[:3]),
     baca.hairpin('fff > f', selector=baca.leaves()[-2:]),
     baca.text_spanner(
-        baca.markups.pos_ord(),
+        baca.markuplib.pos_ord(),
         '=>',
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         selector=baca.leaves()[:3],
         ),
     baca.text_spanner(
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         '=>',
-        baca.markups.pos_ord(),
+        baca.markuplib.pos_ord(),
         selector=baca.leaves()[-2:],
         ),
     baca.trill_spanner(),
@@ -350,9 +350,9 @@ maker(
     (['v1', 'v2', 'va', 'vc'], (20, 21)),
     baca.hairpin('sffp < fff', selector=baca.leaves()[:4]),
     baca.text_spanner(
-        baca.markups.pos_ord(),
+        baca.markuplib.pos_ord(),
         '=>',
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         selector=baca.leaves()[:4],
         ),
     baca.trill_spanner(),

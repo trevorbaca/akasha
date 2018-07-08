@@ -92,6 +92,6 @@ maker(
     (akasha.getato_pitches(-3, [2]), 1),
     (akasha.getato_pitches(-13, [2]), 2),
     baca.dynamic('ff'),
-    baca.markups.scratch_moltiss(),
-    baca.markups.terminate_each_note_abruptly(),
+    baca.markuplib.scratch_moltiss(),
+    baca.markuplib.terminate_each_note_abruptly(),
     )

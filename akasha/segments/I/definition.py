@@ -77,9 +77,9 @@ maker(
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.text_spanner(
-        baca.markups.pos_ord_senza_vib(),
+        baca.markuplib.pos_ord_senza_vib(),
         '=>',
-        baca.markups.vib_moltiss(),
+        baca.markuplib.vib_moltiss(),
         ),
     )
 
@@ -88,9 +88,9 @@ maker(
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.text_spanner(
-        baca.markups.senza_vib(),
+        baca.markuplib.senza_vib(),
         '=>',
-        baca.markups.vib_moltiss(),
+        baca.markuplib.vib_moltiss(),
         ),
     )
 
@@ -99,9 +99,9 @@ maker(
     baca.hairpin('sfp < f'),
     baca.make_repeat_tied_notes(),
     baca.text_spanner(
-        baca.markups.senza_vib(),
+        baca.markuplib.senza_vib(),
         '=>',
-        baca.markups.vib_moltiss(),
+        baca.markuplib.vib_moltiss(),
         ),
     )
 
@@ -215,7 +215,7 @@ maker(
 maker(
     ('va', (3, 13)),
     baca.dynamic('ppp'),
-    baca.markups.OB(),
+    baca.markuplib.OB(),
     baca.pitch('B2'),
     )
 
@@ -227,9 +227,9 @@ maker(
 maker(
     ('va', 4),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.fractional_OB(3, 4),
+        baca.markuplib.fractional_OB(3, 4),
         ),
     )
 
@@ -246,7 +246,7 @@ maker(
 maker(
     ('v1', (5, 13)),
     baca.dynamic('ppp'),
-    baca.markups.OB(),
+    baca.markuplib.OB(),
     baca.pitch('B4'),
     )
 
@@ -258,18 +258,18 @@ maker(
 maker(
     ('v1', 6),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.fractional_OB(3, 4),
+        baca.markuplib.fractional_OB(3, 4),
         ),
     )
 
 maker(
     ('va', 6),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.fractional_OB(1, 2),
+        baca.markuplib.fractional_OB(1, 2),
         ),
     )
 
@@ -282,16 +282,16 @@ maker(
     ('vc', 7),
     baca.hairpin('sfp < f'),
     baca.text_spanner(
-        baca.markups.senza_vib(),
+        baca.markuplib.senza_vib(),
         '=>',
-        baca.markups.vib_moltiss(),
+        baca.markuplib.vib_moltiss(),
         ),
     )
 
 maker(
     ('v2', (7, 13)),
     baca.dynamic('ppp'),
-    baca.markups.OB(),
+    baca.markuplib.OB(),
     baca.pitch('B3'),
     )
 
@@ -303,27 +303,27 @@ maker(
 maker(
     ('v1', 8),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.fractional_OB(1, 2),
+        baca.markuplib.fractional_OB(1, 2),
         ),
     )
 
 maker(
     ('v2', 8),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.fractional_OB(3, 4),
+        baca.markuplib.fractional_OB(3, 4),
         ),
     )
 
 maker(
     ('va', 8),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.fractional_OB(1, 4),
+        baca.markuplib.fractional_OB(1, 4),
         ),
     )
 
@@ -334,9 +334,9 @@ maker(
         ('va', 9),
         ],
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         ),
     )
 
@@ -350,24 +350,24 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('ppp'),
     baca.text_spanner(
-        baca.markups.OB(),
+        baca.markuplib.OB(),
         '=>',
-        baca.markups.XP(),
+        baca.markuplib.XP(),
         ),
     )
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 10),
     baca.hairpin('ppp < mp'),
-    baca.markups.XP_FB(),
+    baca.markuplib.XP_FB(),
     )
 
 maker(
     ('v1', 11),
     akasha.getato_pitches(31, [2]),
     baca.dynamic('ppp'),
-    baca.markups.leggieriss(),
-    baca.markups.pos_ord(),
+    baca.markuplib.leggieriss(),
+    baca.markuplib.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -375,9 +375,9 @@ maker(
     (['v1', 'v2', 'va', 'vc'], 12),
     baca.hairpin('ppp < mp'),
     baca.text_spanner(
-        baca.markups.XP_FB(),
+        baca.markuplib.XP_FB(),
         '=>',
-        baca.markups.tasto_FB(),
+        baca.markuplib.tasto_FB(),
         ),
     )
 
@@ -418,9 +418,9 @@ maker(
     (['v1', 'v2', 'va', 'vc'], 16),
     baca.hairpin('ppp < mp'),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.tasto_fractional_scratch(1, 2),
+        baca.markuplib.tasto_fractional_scratch(1, 2),
         ),
     )
 
@@ -428,9 +428,9 @@ maker(
     (['v1', 'v2', 'va', 'vc'], 17),
     baca.hairpin('mp < mf'),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.scratch_moltiss(),
+        baca.markuplib.scratch_moltiss(),
         ),
     )
 

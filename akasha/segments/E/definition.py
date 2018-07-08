@@ -266,14 +266,14 @@ maker(
 maker(
     ('v1', (1, 11)),
     baca.dynamic('ff'),
-    baca.markups.scratch_moltiss(),
-    baca.markups.terminate_each_note_abruptly(),
+    baca.markuplib.scratch_moltiss(),
+    baca.markuplib.terminate_each_note_abruptly(),
     )
 
 maker(
     ('v1', (12, 14)),
     baca.dynamic('f'),
-    baca.markups.po_meno_scratch(),
+    baca.markuplib.po_meno_scratch(),
     )
 
 maker(
@@ -284,8 +284,8 @@ maker(
 maker(
     ('v1', (15, 16)),
     baca.hairpin('mf > pp'),
-    baca.markups.leggieriss(),
-    baca.markups.senza_scratch(),
+    baca.markuplib.leggieriss(),
+    baca.markuplib.senza_scratch(),
     )
 
 maker(
@@ -296,26 +296,26 @@ maker(
 maker(
     ('v2', (1, 9)),
     baca.dynamic('ff'),
-    baca.markups.scratch_moltiss(),
-    baca.markups.terminate_each_note_abruptly(),
+    baca.markuplib.scratch_moltiss(),
+    baca.markuplib.terminate_each_note_abruptly(),
     )
 
 maker(
     ('v2', (10, 12)),
     baca.dynamic('f'),
-    baca.markups.po_meno_scratch(),
+    baca.markuplib.po_meno_scratch(),
     )
 
 maker(
     ('v2', 13),
     baca.dynamic('mf'),
     baca.staccato(selector=baca.pheads()),
-    baca.markups.senza_scratch(),
+    baca.markuplib.senza_scratch(),
     )
 
 maker(
     ('v2', (14, 18)),
-    baca.markups.leggieriss(),
+    baca.markuplib.leggieriss(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -328,7 +328,7 @@ maker(
     ('va', (1, 18)),
     baca.alternate_bow_strokes(),
     baca.dynamic('"mf"'),
-    baca.markups.OB(),
+    baca.markuplib.OB(),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -342,27 +342,27 @@ maker(
 maker(
     ('vc', (1, 8)),
     baca.dynamic('ff'),
-    baca.markups.scratch_moltiss(),
-    baca.markups.terminate_each_note_abruptly(),
+    baca.markuplib.scratch_moltiss(),
+    baca.markuplib.terminate_each_note_abruptly(),
     )
 
 maker(
     ('vc', (9, 11)),
     baca.dynamic('f'),
-    baca.markups.po_meno_scratch(),
+    baca.markuplib.po_meno_scratch(),
     )
 
 maker(
     ('vc', 12),
     baca.dynamic('mf'),
-    baca.markups.senza_scratch(),
+    baca.markuplib.senza_scratch(),
     baca.staccato(selector=baca.pheads()),
     )
 
 maker(
     ('vc', (13, 18)),
     baca.staccato(selector=baca.pheads()),
-    baca.markups.leggieriss(),
+    baca.markuplib.leggieriss(),
     )
 
 maker(
