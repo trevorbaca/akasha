@@ -296,7 +296,7 @@ maker(
     ('vc', 1),
     akasha.cello_solo_pitches(transposition=1),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markuplib.tasto_fractional_scratch(1, 2),
     )
 
 maker(
@@ -314,7 +314,7 @@ maker(
 maker(
     ('vc', 2),
     akasha.getato_pitches(21, [2]),
-    baca.markups.leggieriss(),
+    baca.markuplib.leggieriss(),
     baca.dynamic('pp'),
     baca.staccato(selector=baca.pheads()),
     )
@@ -322,15 +322,15 @@ maker(
 maker(
     ('va', 4),
     baca.dynamic('ff'),
-    baca.markups.scratch_moltiss(),
-    baca.markups.terminate_abruptly(),
+    baca.markuplib.scratch_moltiss(),
+    baca.markuplib.terminate_abruptly(),
     baca.pitch('F#3'),
     )
 
 maker(
     (['v1', 'v2'], 6),
     baca.dynamic('pp_ancora'),
-    baca.markups.tasto_XFB(),
+    baca.markuplib.tasto_XFB(),
     (baca.pitches('Eb5 F5'), 0),
     (baca.pitches('B4 C#5'), 1),
     )
@@ -364,7 +364,7 @@ maker(
 maker(
     ('va', (8, 9)),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markuplib.tasto_fractional_scratch(1, 2),
     baca.pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4', exact=True),
     )
 
@@ -372,21 +372,21 @@ maker(
     ('vc', (8, 9)),
     baca.clef('bass'),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markuplib.tasto_fractional_scratch(1, 2),
     baca.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2', exact=True),
     )
 
 maker(
     ('v1', 9),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markuplib.tasto_fractional_scratch(1, 2),
     baca.pitch('E5'),
     )
 
 maker(
     ('v2', 9),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markuplib.tasto_fractional_scratch(1, 2),
     baca.pitch('F#4'),
     )
 
@@ -394,9 +394,9 @@ maker(
     (['v1', 'v2', 'va', 'vc'], (10, 11)),
     baca.hairpin('mp < f'),
     baca.text_spanner(
-        baca.markups.trans(),
+        baca.markuplib.trans(),
         '=>',
-        baca.markups.scratch_moltiss(),
+        baca.markuplib.scratch_moltiss(),
         ),
     )
 
@@ -424,7 +424,7 @@ maker(
     ('v1', 13),
     akasha.getato_pitches(29, [2]),
     baca.hairpin('ff < fff'),
-    baca.markups.pos_ord(),
+    baca.markuplib.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -432,7 +432,7 @@ maker(
     ('v2', 13),
     akasha.getato_pitches(26, [2]),
     baca.hairpin('ff < fff'),
-    baca.markups.pos_ord(),
+    baca.markuplib.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -441,7 +441,7 @@ maker(
     akasha.getato_pitches(23, [2]),
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
-    baca.markups.pos_ord(),
+    baca.markuplib.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -450,7 +450,7 @@ maker(
     akasha.getato_pitches(20, [2]),
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
-    baca.markups.pos_ord(),
+    baca.markuplib.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -458,7 +458,7 @@ maker(
     ('va', 15),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markups.OB_terminate_abruptly(),
+    baca.markuplib.OB_terminate_abruptly(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -466,7 +466,7 @@ maker(
 maker(
     ('GlobalSkips', (17, 18)),
     baca.markup(
-        baca.markups.repeat_count(6).boxed(),
+        baca.markuplib.repeat_count(6).boxed(),
         selector=baca.skip(0),
         ),
     baca.text_script_extra_offset((1.5, 6)),
@@ -477,7 +477,7 @@ maker(
     ('v1', 17),
     akasha.getato_pitches(29, [2]),
     baca.dynamic('pp'),
-    baca.markups.leggieriss(),
+    baca.markuplib.leggieriss(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -485,7 +485,7 @@ maker(
     ('v2', 17),
     akasha.getato_pitches(26, [2]),
     baca.dynamic('pp'),
-    baca.markups.leggieriss(),
+    baca.markuplib.leggieriss(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -493,7 +493,7 @@ maker(
     ('va', 17),
     akasha.getato_pitches(23, [2]),
     baca.dynamic('pp'),
-    baca.markups.leggieriss(),
+    baca.markuplib.leggieriss(),
     baca.staff_lines(5),
     baca.staccato(selector=baca.pheads()),
     )
@@ -502,7 +502,7 @@ maker(
     ('vc', 17),
     akasha.getato_pitches(20, [2]),
     baca.dynamic('pp'),
-    baca.markups.leggieriss(),
+    baca.markuplib.leggieriss(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -510,7 +510,7 @@ maker(
     ('va', 19),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markups.OB_terminate_abruptly(),
+    baca.markuplib.OB_terminate_abruptly(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
