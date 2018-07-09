@@ -86,11 +86,7 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 2),
     baca.text_spanner(
-        [
-            'trans.',
-            '=>',
-            baca.markups.one_click_every(1, 2),
-            ],
+        'trans. => 1 click/1-2 sec.',
         selector=baca.leaves()[:-1],
         ),
     )
@@ -98,11 +94,7 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 3),
     baca.text_spanner(
-        [
-            'trans.',
-            '=>',
-            baca.markups.clicks_per_second(1, 2),
-            ],
+        'trans. => 1-2 clicks/sec.',
         selector=baca.leaves()[:-1],
         ),
     )
@@ -111,11 +103,7 @@ maker(
     (['v1', 'v2', 'va', 'vc'], 4),
     baca.dynamic('ff', selector=baca.note(2)),
     baca.text_spanner(
-        [
-            'trans.',
-            '=>',
-            baca.markups.scratch_moltiss(),
-            ],
+        'trans. => scratch moltiss.',
         selector=baca.leaves()[:-1],
         ),
     )
@@ -123,11 +111,7 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 5),
     baca.text_spanner(
-        [
-            'trans.',
-            '=>',
-            baca.markups.fractional_scratch(1, 2),
-            ],
+        'trans. => 1/2 scratch',
         selector=baca.leaves()[:-1],
         ),
     )

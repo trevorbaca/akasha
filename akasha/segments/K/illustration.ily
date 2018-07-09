@@ -1945,10 +1945,7 @@ K_ViolinIMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1 click/1-2 sec."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1 click/1-2 sec." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1971,10 +1968,7 @@ K_ViolinIMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1-2 clicks/sec."                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1-2 clicks/sec." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1997,10 +1991,7 @@ K_ViolinIMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "scratch moltiss."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2025,10 +2016,7 @@ K_ViolinIMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1/2 scratch"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1/2 scratch"    %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2490,10 +2478,7 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1 click/1-2 sec."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1 click/1-2 sec." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2516,10 +2501,7 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1-2 clicks/sec."                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1-2 clicks/sec." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2542,10 +2524,7 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "scratch moltiss."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2570,10 +2549,7 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1/2 scratch"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1/2 scratch"    %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3035,10 +3011,7 @@ K_ViolaMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1 click/1-2 sec."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1 click/1-2 sec." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3061,10 +3034,7 @@ K_ViolaMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1-2 clicks/sec."                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1-2 clicks/sec." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3087,10 +3057,7 @@ K_ViolaMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "scratch moltiss."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3115,10 +3082,7 @@ K_ViolaMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1/2 scratch"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1/2 scratch"    %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3575,10 +3539,7 @@ K_CelloMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1 click/1-2 sec."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1 click/1-2 sec." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3601,10 +3562,7 @@ K_CelloMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1-2 clicks/sec."                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1-2 clicks/sec." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3627,10 +3585,7 @@ K_CelloMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "scratch moltiss."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3655,10 +3610,7 @@ K_CelloMusicVoice = {
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1/2 scratch"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1/2 scratch"    %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC

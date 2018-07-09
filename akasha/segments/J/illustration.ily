@@ -210,8 +210,13 @@ J_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f'4
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup { "scratch moltiss." }                                   %! IC
-        ^ \markup { "terminate each note abruptly" }                       %! IC
+        ^ \markup {                                                        %! IC
+            \column                                                        %! IC
+                {                                                          %! IC
+                    "scratch moltiss.:"                                    %! IC
+                    "terminate each note abruptly"                         %! IC
+                }                                                          %! IC
+            }                                                              %! IC
         
         r4
         
@@ -305,8 +310,13 @@ J_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         a4
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup { "scratch moltiss." }                                   %! IC
-        ^ \markup { "terminate each note abruptly" }                       %! IC
+        ^ \markup {                                                        %! IC
+            \column                                                        %! IC
+                {                                                          %! IC
+                    "scratch moltiss.:"                                    %! IC
+                    "terminate each note abruptly"                         %! IC
+                }                                                          %! IC
+            }                                                              %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
@@ -476,8 +486,13 @@ J_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b,4
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup { "scratch moltiss." }                                   %! IC
-        ^ \markup { "terminate each note abruptly" }                       %! IC
+        ^ \markup {                                                        %! IC
+            \column                                                        %! IC
+                {                                                          %! IC
+                    "scratch moltiss.:"                                    %! IC
+                    "terminate each note abruptly"                         %! IC
+                }                                                          %! IC
+            }                                                              %! IC
         
         r4
     }

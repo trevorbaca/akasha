@@ -1244,8 +1244,13 @@ E_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f'4
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup { "scratch moltiss." }                                   %! IC
-        ^ \markup { "terminate each note abruptly" }                       %! IC
+        ^ \markup {                                                        %! IC
+            \column                                                        %! IC
+                {                                                          %! IC
+                    "scratch moltiss.:"                                    %! IC
+                    "terminate each note abruptly"                         %! IC
+                }                                                          %! IC
+            }                                                              %! IC
         
         r4
         
@@ -1590,8 +1595,7 @@ E_ViolinIMusicVoice = {
     a'16
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     -\staccato                                                             %! IC
-    ^ \markup { leggieriss. }                                              %! IC
-    ^ \markup { "senza scratch" }                                          %! IC
+    ^ \markup { "leggieriss. (senza scratch)" }                            %! IC
     \>                                                                     %! PIC
     [
     
@@ -2681,8 +2685,13 @@ E_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         a4
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup { "scratch moltiss." }                                   %! IC
-        ^ \markup { "terminate each note abruptly" }                       %! IC
+        ^ \markup {                                                        %! IC
+            \column                                                        %! IC
+                {                                                          %! IC
+                    "scratch molitss:"                                     %! IC
+                    "terminate each not abruptly"                          %! IC
+                }                                                          %! IC
+            }                                                              %! IC
     }
     
     % [E ViolinIIMusicVoice measure 116 / measure 4]                       %! SM4
@@ -4762,8 +4771,13 @@ E_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         b,4
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup { "scratch moltiss." }                                   %! IC
-        ^ \markup { "terminate each note abruptly" }                       %! IC
+        ^ \markup {                                                        %! IC
+            \column                                                        %! IC
+                {                                                          %! IC
+                    "scratch moltiss."                                     %! IC
+                    "terminate each note abruptly"                         %! IC
+                }                                                          %! IC
+            }                                                              %! IC
         
         r4
         

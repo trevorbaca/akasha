@@ -100,13 +100,13 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 2),
     baca.dynamic('pp'),
-    baca.markups.tasto_XFB(),
+    baca.markup('tasto + XFB'),
     )
 
 maker(
     ('vc', (4, 6)),
     baca.dynamic('pp'),
-    baca.markups.vib_poco(),
+    baca.markup('vib. poco'),
     )
 
 maker(
@@ -149,11 +149,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 8),
     baca.text_spanner(
-        [
-            'trans.',
-            '=>',
-            baca.markups.fractional_OB(1, 3),
-            ],
+        'trans. => 1/3OB',
         selector=baca.leaves()[:2],
         ),
     )
@@ -161,11 +157,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 9),
     baca.text_spanner(
-        [
-            'trans.',
-            '=>',
-            baca.markups.fractional_OB(2, 3),
-            ],
+        'trans. => 2/3OB',
         selector=baca.leaves()[:2],
         ),
     )
