@@ -76,9 +76,7 @@ maker(
     ('vc', (1, 2)),
     baca.hairpin('ppp < ff', selector=baca.leaves()[:9]),
     baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.vib_moltiss(),
+        'trans. => vib. moltiss.',
         selector=baca.leaves()[:9],
         ),
     )
@@ -114,9 +112,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 4),
     baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.pos_ord_XFB(),
+        'trans. => pos. ord. XFB',
         selector=baca.leaves()[:2],
         ),
     )
@@ -124,9 +120,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 5),
     baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.pont_XFB(),
+        'trans. => pont. XFB',
         selector=baca.leaves()[:2],
         ),
     )
@@ -134,9 +128,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 6),
     baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.XP_XFB(),
+        'trans. => XP+XFB',
         selector=baca.leaves()[:3],
         ),
     )
@@ -144,9 +136,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 7),
     baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.XP(),
+        'trans. => XP',
         selector=baca.leaves()[:4],
         ),
     )
@@ -159,9 +149,11 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 8),
     baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.fractional_OB(1, 3),
+        [
+            'trans.',
+            '=>',
+            baca.markuplib.fractional_OB(1, 3),
+            ],
         selector=baca.leaves()[:2],
         ),
     )
@@ -169,9 +161,11 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 9),
     baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.fractional_OB(2, 3),
+        [
+            'trans.',
+            '=>',
+            baca.markuplib.fractional_OB(2, 3),
+            ],
         selector=baca.leaves()[:2],
         ),
     )
@@ -179,9 +173,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 10),
     baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.OB_no_pitch(),
+        'trans. => OB (no pitch)',
         selector=baca.leaves()[:2],
         ),
     )

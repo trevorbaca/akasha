@@ -393,11 +393,7 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], (10, 11)),
     baca.hairpin('mp < f'),
-    baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.scratch_moltiss(),
-        ),
+    baca.text_spanner('trans. => scratch moltiss.'),
     )
 
 maker(

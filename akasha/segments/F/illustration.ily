@@ -2352,19 +2352,8 @@ F_ViolinIMusicVoice = {
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "scratch moltiss."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3745,19 +3734,8 @@ F_ViolinIIMusicVoice = {
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "scratch moltiss."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -4603,19 +4581,8 @@ F_ViolaMusicVoice = {
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "scratch moltiss."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -5650,19 +5617,8 @@ F_CelloMusicVoice = {
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "scratch moltiss."                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
