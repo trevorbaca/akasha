@@ -89,7 +89,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.one_click_every(1, 2),
+            baca.markups.one_click_every(1, 2),
             ],
         selector=baca.leaves()[:-1],
         ),
@@ -101,7 +101,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.clicks_per_second(1, 2),
+            baca.markups.clicks_per_second(1, 2),
             ],
         selector=baca.leaves()[:-1],
         ),
@@ -114,7 +114,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.scratch_moltiss(),
+            baca.markups.scratch_moltiss(),
             ],
         selector=baca.leaves()[:-1],
         ),
@@ -126,7 +126,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_scratch(1, 2),
+            baca.markups.fractional_scratch(1, 2),
             ],
         selector=baca.leaves()[:-1],
         ),
@@ -152,7 +152,7 @@ maker(
 maker(
     ('GlobalSkips', (9, 10)),
     baca.markup(
-        baca.markuplib.repeat_count(6).boxed(),
+        baca.markups.repeat_count(6).boxed(),
         selector=baca.skip(0),
         ),
     baca.volta(),
@@ -307,7 +307,7 @@ maker(
 maker(
     ('GlobalSkips', 19),
     baca.markup(
-        baca.markuplib.repeat_count(6).boxed(),
+        baca.markups.repeat_count(6).boxed(),
         selector=baca.skip(0),
         ),
     baca.text_script_extra_offset((1.5, 6)),

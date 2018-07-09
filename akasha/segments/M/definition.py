@@ -100,13 +100,13 @@ maker(
 maker(
     (['v1', 'v2', 'va'], 2),
     baca.dynamic('pp'),
-    baca.markuplib.tasto_XFB(),
+    baca.markups.tasto_XFB(),
     )
 
 maker(
     ('vc', (4, 6)),
     baca.dynamic('pp'),
-    baca.markuplib.vib_poco(),
+    baca.markups.vib_poco(),
     )
 
 maker(
@@ -152,7 +152,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_OB(1, 3),
+            baca.markups.fractional_OB(1, 3),
             ],
         selector=baca.leaves()[:2],
         ),
@@ -164,7 +164,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_OB(2, 3),
+            baca.markups.fractional_OB(2, 3),
             ],
         selector=baca.leaves()[:2],
         ),

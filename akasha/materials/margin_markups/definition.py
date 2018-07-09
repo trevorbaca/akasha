@@ -4,7 +4,7 @@ import baca
 
 def _make_margin_markup(markup):
     return abjad.MarginMarkup(
-        markup=baca.markuplib.instrument(markup, hcenter_in=12),
+        markup=baca.markups.instrument(markup, hcenter_in=12),
         )
 
 margin_markups = abjad.OrderedDict([

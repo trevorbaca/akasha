@@ -203,7 +203,7 @@ maker(
 maker(
     ('va', (3, 13)),
     baca.dynamic('ppp'),
-    baca.markuplib.OB(),
+    baca.markups.OB(),
     baca.pitch('B2'),
     )
 
@@ -218,7 +218,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_OB(3, 4),
+            baca.markups.fractional_OB(3, 4),
             ],
         ),
     )
@@ -236,7 +236,7 @@ maker(
 maker(
     ('v1', (5, 13)),
     baca.dynamic('ppp'),
-    baca.markuplib.OB(),
+    baca.markups.OB(),
     baca.pitch('B4'),
     )
 
@@ -251,7 +251,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_OB(3, 4),
+            baca.markups.fractional_OB(3, 4),
             ],
         ),
     )
@@ -262,7 +262,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_OB(1, 2),
+            baca.markups.fractional_OB(1, 2),
             ],
         ),
     )
@@ -281,7 +281,7 @@ maker(
 maker(
     ('v2', (7, 13)),
     baca.dynamic('ppp'),
-    baca.markuplib.OB(),
+    baca.markups.OB(),
     baca.pitch('B3'),
     )
 
@@ -296,7 +296,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_OB(1, 2),
+            baca.markups.fractional_OB(1, 2),
             ],
         ),
     )
@@ -307,7 +307,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_OB(3, 4),
+            baca.markups.fractional_OB(3, 4),
             ],
         ),
     )
@@ -318,7 +318,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.fractional_OB(1, 4),
+            baca.markups.fractional_OB(1, 4),
             ],
         ),
     )
@@ -347,15 +347,15 @@ maker(
 maker(
     (['v1', 'v2', 'va', 'vc'], 10),
     baca.hairpin('ppp < mp'),
-    baca.markuplib.XP_FB(),
+    baca.markups.XP_FB(),
     )
 
 maker(
     ('v1', 11),
     akasha.getato_pitches(31, [2]),
     baca.dynamic('ppp'),
-    baca.markuplib.leggieriss(),
-    baca.markuplib.pos_ord(),
+    baca.markups.leggieriss(),
+    baca.markups.pos_ord(),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -405,7 +405,7 @@ maker(
         [
             'trans.',
             '=>',
-            baca.markuplib.tasto_fractional_scratch(1, 2),
+            baca.markups.tasto_fractional_scratch(1, 2),
             ],
         ),
     )
