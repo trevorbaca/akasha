@@ -1400,10 +1400,7 @@ I_ViolinIMusicVoice = {
     -\upbow                                                                %! IC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            3/4OB                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "3/4OB"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1462,10 +1459,7 @@ I_ViolinIMusicVoice = {
     -\upbow                                                                %! IC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            1/2OB                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1/2OB"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1588,8 +1582,7 @@ I_ViolinIMusicVoice = {
         g'''16
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                                         %! IC
-        ^ \markup { leggieriss. }                                          %! IC
-        ^ \markup { "pos. ord." }                                          %! IC
+        ^ \markup { "leggieriss. + PO" }                                   %! IC
         [
         
         af'''!16
@@ -1908,10 +1901,7 @@ I_ViolinIMusicVoice = {
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "tasto + 1/2 scratch"                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + 1/2 scratch" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2126,10 +2116,7 @@ I_ViolinIIMusicVoice = {
     -\upbow                                                                %! IC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            3/4OB                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "3/4OB"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2396,10 +2383,7 @@ I_ViolinIIMusicVoice = {
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "tasto + 1/2 scratch"                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + 1/2 scratch" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2569,10 +2553,7 @@ I_ViolaMusicVoice = {
     -\downbow                                                              %! IC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            3/4OB                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "3/4OB"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2647,10 +2628,7 @@ I_ViolaMusicVoice = {
     -\upbow                                                                %! IC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            1/2OB                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1/2OB"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2709,10 +2687,7 @@ I_ViolaMusicVoice = {
     -\upbow                                                                %! IC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            1/4OB                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "1/4OB"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2929,10 +2904,7 @@ I_ViolaMusicVoice = {
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "tasto + 1/2 scratch"                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + 1/2 scratch" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3333,10 +3305,7 @@ I_CelloMusicVoice = {
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "tasto + 1/2 scratch"                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + 1/2 scratch" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC

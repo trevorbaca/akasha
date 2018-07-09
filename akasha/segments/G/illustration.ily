@@ -764,15 +764,7 @@ G_ViolinIMusicVoice = {
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "tasto + 1/4 scratch"                                  %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto + 1/4 scratch" %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
@@ -913,10 +905,7 @@ G_ViolinIIMusicVoice = {
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto + scratch moltiss." %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1/4 scratch"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + 1/4 scratch" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1100,10 +1089,7 @@ G_ViolaMusicVoice = {
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto + scratch moltiss." %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1/4 scratch"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + 1/4 scratch" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1290,10 +1276,7 @@ G_CelloMusicVoice = {
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "tasto + scratch moltiss." %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "1/4 scratch"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + 1/4 scratch" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC

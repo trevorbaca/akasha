@@ -296,7 +296,7 @@ maker(
     ('vc', 1),
     akasha.cello_solo_pitches(transposition=1),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markup('tasto + 1/2 scratch'),
     )
 
 maker(
@@ -314,7 +314,7 @@ maker(
 maker(
     ('vc', 2),
     akasha.getato_pitches(21, [2]),
-    baca.markups.leggieriss(),
+    baca.markup('leggieriss.'),
     baca.dynamic('pp'),
     baca.staccato(selector=baca.pheads()),
     )
@@ -322,15 +322,14 @@ maker(
 maker(
     ('va', 4),
     baca.dynamic('ff'),
-    baca.markups.scratch_moltiss(),
-    baca.markups.terminate_abruptly(),
+    baca.markups.lines(['scratch moltiss.:', 'terminate each note abruptly']),
     baca.pitch('F#3'),
     )
 
 maker(
     (['v1', 'v2'], 6),
     baca.dynamic('pp_ancora'),
-    baca.markups.tasto_XFB(),
+    baca.markup('tasto + XFB'),
     (baca.pitches('Eb5 F5'), 0),
     (baca.pitches('B4 C#5'), 1),
     )
@@ -364,7 +363,7 @@ maker(
 maker(
     ('va', (8, 9)),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markup('tasto + 1/2 scratch'),
     baca.pitches('G#3 A3 B3 B~3 Bb3 C4 C#4 C+4 D4', exact=True),
     )
 
@@ -372,21 +371,21 @@ maker(
     ('vc', (8, 9)),
     baca.clef('bass'),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markup('tasto + 1/2 scratch'),
     baca.pitches('Ab2 G2 F2 F+2 F#2 E2 Eb2', exact=True),
     )
 
 maker(
     ('v1', 9),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markup('tasto + 1/2 scratch'),
     baca.pitch('E5'),
     )
 
 maker(
     ('v2', 9),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markup('tasto + 1/2 scratch'),
     baca.pitch('F#4'),
     )
 
@@ -420,7 +419,7 @@ maker(
     ('v1', 13),
     akasha.getato_pitches(29, [2]),
     baca.hairpin('ff < fff'),
-    baca.markups.pos_ord(),
+    baca.markup('pos. ord.'),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -428,7 +427,7 @@ maker(
     ('v2', 13),
     akasha.getato_pitches(26, [2]),
     baca.hairpin('ff < fff'),
-    baca.markups.pos_ord(),
+    baca.markup('pos. ord.'),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -437,7 +436,7 @@ maker(
     akasha.getato_pitches(23, [2]),
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
-    baca.markups.pos_ord(),
+    baca.markup('pos. ord.'),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -446,7 +445,7 @@ maker(
     akasha.getato_pitches(20, [2]),
     baca.clef('treble'),
     baca.hairpin('ff < fff'),
-    baca.markups.pos_ord(),
+    baca.markup('pos. ord.'),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -454,7 +453,7 @@ maker(
     ('va', 15),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markups.OB_terminate_abruptly(),
+    baca.markup('OB + termiante abruptly'),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -473,7 +472,7 @@ maker(
     ('v1', 17),
     akasha.getato_pitches(29, [2]),
     baca.dynamic('pp'),
-    baca.markups.leggieriss(),
+    baca.markup('leggieriss.'),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -481,7 +480,7 @@ maker(
     ('v2', 17),
     akasha.getato_pitches(26, [2]),
     baca.dynamic('pp'),
-    baca.markups.leggieriss(),
+    baca.markup('leggieriss.'),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -489,7 +488,7 @@ maker(
     ('va', 17),
     akasha.getato_pitches(23, [2]),
     baca.dynamic('pp'),
-    baca.markups.leggieriss(),
+    baca.markup('leggieriss.'),
     baca.staff_lines(5),
     baca.staccato(selector=baca.pheads()),
     )
@@ -498,7 +497,7 @@ maker(
     ('vc', 17),
     akasha.getato_pitches(20, [2]),
     baca.dynamic('pp'),
-    baca.markups.leggieriss(),
+    baca.markup('leggieriss.'),
     baca.staccato(selector=baca.pheads()),
     )
 
@@ -506,7 +505,7 @@ maker(
     ('va', 19),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markups.OB_terminate_abruptly(),
+    baca.markup('OB + terminate abruptly'),
     baca.staff_lines(1),
     baca.staff_position(0),
     )

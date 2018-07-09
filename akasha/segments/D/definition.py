@@ -194,7 +194,7 @@ maker(
         baca.runs(),
         baca.glissando(),
         ),
-    baca.markups.XP_full_bow_strokes(),
+    baca.markup('XP + full bow strokes'),
     baca.note_head_style_harmonic(),
     )
 
@@ -205,7 +205,7 @@ maker(
         baca.qruns(),
         baca.trill_spanner(string='M2'),
         ),
-    baca.markups.tasto(),
+    baca.markup('tasto'),
     baca.pitch('G5'),
     )
 
@@ -220,7 +220,7 @@ maker(
     baca.clef('alto'),
     baca.glissando(),
     baca.hairpin('sf > ppp'),
-    baca.markups.tasto_senza_vib(),
+    baca.markup('tasto + senza vib.'),
     baca.pitches('Fb3 E3 D#3 C#3 B#2', exact=True),
     )
 
@@ -241,7 +241,7 @@ maker(
         baca.runs(),
         baca.glissando(),
         ),
-    baca.markups.XP_full_bow_strokes(),
+    baca.markup('XP + full bow strokes'),
     baca.note_head_style_harmonic(),
     )
 
@@ -268,7 +268,7 @@ maker(
 maker(
     ('vc', 9),
     baca.hairpin('sf > ppp'),
-    baca.markups.tasto(),
+    baca.markup('tasto'),
     baca.pitch('C#2'),
     )
 
@@ -281,7 +281,7 @@ maker(
     ('vc', 12),
     baca.dynamic('ppp_ancora'),
     baca.glissando(),
-    baca.markups.XP_full_bow_strokes(),
+    baca.markup('XP + full bow strokes'),
     baca.note_head_style_harmonic(),
     )
 
@@ -289,7 +289,7 @@ maker(
     ('vc', (14, 16)),
     baca.glissando(),
     baca.hairpin('sf > ppp'),
-    baca.markups.tasto(),
+    baca.markup('tasto'),
     baca.pitches('Db3 C3 Bb2 Ab2 G2 F2 Eb2 D2 C2 Bb1 A1', exact=True),
     )
     

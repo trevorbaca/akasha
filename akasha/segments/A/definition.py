@@ -46,7 +46,7 @@ maker(
     akasha.cello_solo_pitches(),
     akasha.cello_solo_rhythm(rotation=0),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markup('tasto + 1/2 scratch'),
     )
 
 maker(
@@ -77,7 +77,7 @@ maker(
     (baca.pitches('D4 D~4 C4', exact=True), 1),
     (baca.pitches('Eb4 D4 E4', exact=True), 2),
     baca.dynamic('mp'),
-    baca.markups.tasto_fractional_scratch(1, 2),
+    baca.markup('tasto + 1/2 scratch'),
     )
 
 maker(
@@ -121,7 +121,7 @@ maker(
         lt_mask=rmakers.silence([3, 5, 7, 9]),
         ),
     baca.dynamic('pp'),
-    baca.markups.tasto_XFB(),
+    baca.markup('tasto + XFB'),
     )
 
 maker(
@@ -131,7 +131,7 @@ maker(
         lt_mask=rmakers.silence([2, 5, 7]),
         ),
     baca.dynamic('pp'),
-    baca.markups.tasto_XFB(),
+    baca.markup('tasto + XFB'),
     )
 
 maker(
@@ -225,5 +225,5 @@ maker(
 maker(
     [('v2', 4), ('va', 4), ('v1', 9), ('vc', 19)],
     baca.dynamic('p'),
-    baca.markups.leggierissimo_off_string_bowing_on_staccati(),
+    baca.markup('leggierissimo: off-string bowing on staccati'),
     )

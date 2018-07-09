@@ -4434,8 +4434,13 @@ F_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fs!2.
     \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup { "scratch moltiss." }                                       %! IC
-    ^ \markup { "terminate abruptly" }                                     %! IC
+    ^ \markup {                                                            %! IC
+        \column                                                            %! IC
+            {                                                              %! IC
+                "scratch moltiss.:"                                        %! IC
+                "terminate each note abruptly"                             %! IC
+            }                                                              %! IC
+        }                                                                  %! IC
     
     % [F ViolaMusicVoice measure 158 / measure 7]                          %! SM4
     R1 * 1/4
@@ -5097,7 +5102,7 @@ F_ViolaMusicVoice = {
     b'1.
     \baca_effort_mf                                                        %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow                                                              %! IC
-    ^ \markup { "OB + terminate abruptly" }                                %! IC
+    ^ \markup { "OB + termiante abruptly" }                                %! IC
     
     % [F ViolaMusicVoice measure 195 / measure 44]                         %! SM4
     R1 * 1/4

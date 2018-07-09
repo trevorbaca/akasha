@@ -62,13 +62,7 @@ maker(
     (['v2', 'va', 'vc'], 1),
     baca.hairpin('ff > f'),
     baca.make_notes(repeat_ties=True),
-    baca.text_spanner(
-        [
-            'tasto + scratch moltiss.',
-            '=>',
-            baca.markups.fractional_scratch(1, 4),
-            ],
-        ),
+    baca.text_spanner('tasto + scratch moltiss. => tasto + 1/4 scratch'),
     )
 
 maker(
@@ -79,13 +73,7 @@ maker(
 
 maker(
     ('v1', 2),
-    baca.text_spanner(
-        [
-            baca.markups.tasto_fractional_scratch(1, 4),
-            '=>',
-            'tasto',
-            ],
-        ),
+    baca.text_spanner('tasto + 1/4 scratch => tasto'),
     )
 
 maker(
@@ -146,7 +134,7 @@ maker(
     ('va', 6),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markups.OB(),
+    baca.markup('OB'),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
