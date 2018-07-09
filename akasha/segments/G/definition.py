@@ -66,7 +66,7 @@ maker(
         [
             'tasto + scratch moltiss.',
             '=>',
-            baca.markuplib.fractional_scratch(1, 4),
+            baca.markups.fractional_scratch(1, 4),
             ],
         ),
     )
@@ -81,7 +81,7 @@ maker(
     ('v1', 2),
     baca.text_spanner(
         [
-            baca.markuplib.tasto_fractional_scratch(1, 4),
+            baca.markups.tasto_fractional_scratch(1, 4),
             '=>',
             'tasto',
             ],
@@ -146,7 +146,7 @@ maker(
     ('va', 6),
     baca.down_bow(),
     baca.dynamic('"mf"'),
-    baca.markuplib.OB(),
+    baca.markups.OB(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )

@@ -59,7 +59,7 @@ maker(
     akasha.polyphony_rhythm(),
     baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
     baca.dynamic('mp'),
-    baca.markuplib.tasto_fractional_scratch(1, 2),
+    baca.markups.tasto_fractional_scratch(1, 2),
     )
 
 maker(
@@ -116,14 +116,14 @@ maker(
         lt_mask=rmakers.silence([3]),
         ),
     baca.dynamic('pp'),
-    baca.markuplib.tasto_XFB(),
+    baca.markups.tasto_XFB(),
     baca.pitches('C5 Bb4'),
     )
 
 maker(
     (['va', 'vc'], 9),
     baca.make_repeat_tied_notes(),
-    baca.markuplib.tasto(),
+    baca.markups.tasto(),
     (baca.pitch('D#3'), 0),
     (baca.pitch('C#2'), 1),
     (baca.dynamic('mp'), 1),

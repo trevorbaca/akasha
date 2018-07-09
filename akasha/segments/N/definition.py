@@ -70,8 +70,8 @@ maker(
     baca.alternate_bow_strokes(),
     baca.clef('percussion'),
     baca.dynamic('"mf"'),
-    baca.markuplib.full_bow_strokes(),
-    baca.markuplib.terminate_each_note_abruptly(),
+    baca.markups.full_bow_strokes(),
+    baca.markups.terminate_each_note_abruptly(),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -81,6 +81,6 @@ maker(
     ('v2', (2, 3)),
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.dynamic('pp_ancora'),
-    baca.markuplib.leggieriss(),
+    baca.markups.leggieriss(),
     baca.staccato(selector=baca.pheads()),
     )
