@@ -63,9 +63,11 @@ maker(
     baca.hairpin('ff > f'),
     baca.make_notes(repeat_ties=True),
     baca.text_spanner(
-        baca.markuplib.tasto_plus_scratch_moltiss(),
-        '=>',
-        baca.markuplib.fractional_scratch(1, 4),
+        [
+            'tasto + scratch moltiss.',
+            '=>',
+            baca.markuplib.fractional_scratch(1, 4),
+            ],
         ),
     )
 
@@ -78,41 +80,31 @@ maker(
 maker(
     ('v1', 2),
     baca.text_spanner(
-        baca.markuplib.tasto_fractional_scratch(1, 4),
-        '=>',
-        baca.markuplib.tasto(),
+        [
+            baca.markuplib.tasto_fractional_scratch(1, 4),
+            '=>',
+            'tasto',
+            ],
         ),
     )
 
 maker(
     (['v2', 'va', 'vc'], 2),
-    baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.tasto(),
-        ),
+    baca.text_spanner('trans. => tasto'),
     )
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 3),
     baca.hairpin('mf > p'),
     baca.make_notes(repeat_ties=True),
-    baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.FB(),
-        ),
+    baca.text_spanner('trans. => FB'),
     )
 
 maker(
     (['v1', 'v2', 'va', 'vc'], 4),
     baca.hairpin('p > pp'),
     baca.make_notes(repeat_ties=True),
-    baca.text_spanner(
-        baca.markuplib.trans(),
-        '=>',
-        baca.markuplib.XFB(),
-        ),
+    baca.text_spanner('trans. => XFB'),
     )
 
 maker(

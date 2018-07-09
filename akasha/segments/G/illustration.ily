@@ -773,10 +773,7 @@ G_ViolinIMusicVoice = {
                     #0.5                                                   %! PIC
             }                                                              %! PIC
         }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            tasto                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -805,19 +802,8 @@ G_ViolinIMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            FB                                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "FB"             %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -840,19 +826,8 @@ G_ViolinIMusicVoice = {
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            XFB                                                            %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "XFB"            %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -937,15 +912,7 @@ G_ViolinIIMusicVoice = {
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "tasto + scratch moltiss."                             %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto + scratch moltiss." %! PIC
     - \tweak bound-details.right.text \markup {                            %! PIC
         \upright                                                           %! PIC
             "1/4 scratch"                                                  %! PIC
@@ -990,19 +957,8 @@ G_ViolinIIMusicVoice = {
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            tasto                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1031,19 +987,8 @@ G_ViolinIIMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            FB                                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "FB"             %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1066,19 +1011,8 @@ G_ViolinIIMusicVoice = {
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            XFB                                                            %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "XFB"            %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1165,15 +1099,7 @@ G_ViolaMusicVoice = {
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "tasto + scratch moltiss."                             %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto + scratch moltiss." %! PIC
     - \tweak bound-details.right.text \markup {                            %! PIC
         \upright                                                           %! PIC
             "1/4 scratch"                                                  %! PIC
@@ -1218,19 +1144,8 @@ G_ViolaMusicVoice = {
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            tasto                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1259,19 +1174,8 @@ G_ViolaMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            FB                                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "FB"             %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1294,19 +1198,8 @@ G_ViolaMusicVoice = {
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            XFB                                                            %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "XFB"            %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1396,15 +1289,7 @@ G_CelloMusicVoice = {
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "tasto + scratch moltiss."                             %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto + scratch moltiss." %! PIC
     - \tweak bound-details.right.text \markup {                            %! PIC
         \upright                                                           %! PIC
             "1/4 scratch"                                                  %! PIC
@@ -1449,19 +1334,8 @@ G_CelloMusicVoice = {
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            tasto                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1490,19 +1364,8 @@ G_CelloMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            FB                                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "FB"             %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -1525,19 +1388,8 @@ G_CelloMusicVoice = {
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    trans.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            XFB                                                            %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "XFB"            %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
