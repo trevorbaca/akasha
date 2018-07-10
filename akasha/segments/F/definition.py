@@ -322,7 +322,9 @@ maker(
 maker(
     ('va', 4),
     baca.dynamic('ff'),
-    baca.markups.lines(['scratch moltiss.:', 'terminate each note abruptly']),
+    baca.markup(
+        baca.markups.lines(['scratch moltiss.:', 'terminate each note abruptly']),
+        ),
     baca.pitch('F#3'),
     )
 
