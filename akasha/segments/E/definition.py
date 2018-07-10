@@ -266,13 +266,16 @@ maker(
 maker(
     ('v1', (1, 11)),
     baca.dynamic('ff'),
-    baca.markups.lines(['scratch moltiss.:', 'terminate each note abruptly']),
+    baca.markup(
+        baca.markups.lines(
+            ['scratch moltiss.:', 'terminate each note abruptly']),
+        ),
     )
 
 maker(
     ('v1', (12, 14)),
     baca.dynamic('f'),
-    baca.markups.po_meno_scratch(),
+    baca.markup("po' meno scratch"),
     )
 
 maker(
@@ -294,7 +297,10 @@ maker(
 maker(
     ('v2', (1, 9)),
     baca.dynamic('ff'),
-    baca.markups.lines(['scratch molitss:', 'terminate each not abruptly']),
+    baca.markup(
+        baca.markups.lines(
+            ['scratch molitss:', 'terminate each not abruptly']),
+        ),
     )
 
 maker(
@@ -339,7 +345,9 @@ maker(
 maker(
     ('vc', (1, 8)),
     baca.dynamic('ff'),
-    baca.markups.lines(['scratch moltiss.', 'terminate each note abruptly']),
+    baca.markup(
+        baca.markups.lines(['scratch moltiss.', 'terminate each note abruptly']),
+        ),
     )
 
 maker(

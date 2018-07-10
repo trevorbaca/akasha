@@ -92,5 +92,7 @@ maker(
     (akasha.getato_pitches(-3, [2]), 1),
     (akasha.getato_pitches(-13, [2]), 2),
     baca.dynamic('ff'),
-    baca.markups.lines(['scratch moltiss.:', 'terminate each note abruptly']),
+    baca.markup(
+        baca.markups.lines(['scratch moltiss.:', 'terminate each note abruptly']),
+        ),
     )
