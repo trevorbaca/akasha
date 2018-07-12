@@ -34,8 +34,6 @@ def stages(n):
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=[
-        1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 4, 2, 2, 4, 6, 6, 1],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('A', 39, 6, [2, 4, 6, 8, 39]),
     validate_measure_count=39,
@@ -145,12 +143,12 @@ maker(
     )
 
 maker(
-    ('va', (9, 17)),
+    ('va', (9, 38)),
     akasha.viola_ob_rhythm(rotation=-8),
     )
 
 maker(
-    ('v1', 9),
+    ('v1', (9, 10)),
     akasha.scratch_rhythm(
         [4],
         ~rmakers.silence([1, -3]),
@@ -159,7 +157,7 @@ maker(
     )
 
 maker(
-    ('v2', 9),
+    ('v2', (9, 10)),
     akasha.scratch_rhythm(
         [4],
         ~rmakers.silence([2, -1]),
@@ -168,7 +166,7 @@ maker(
     )
 
 maker(
-    ('vc', 9),
+    ('vc', (9, 10)),
     akasha.scratch_rhythm(
         [4],
         ~rmakers.silence([2, -2]),
@@ -177,7 +175,7 @@ maker(
     )
 
 maker(
-    ('v1', (10, 14)),
+    ('v1', (11, 22)),
     akasha.scratch_rhythm(
         [8],
         ~rmakers.silence([0, 3], 8),
@@ -186,7 +184,7 @@ maker(
     )
 
 maker(
-    ('v1', (15, 17)),
+    ('v1', (23, 38)),
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
@@ -197,7 +195,7 @@ maker(
     )
 
 maker(
-    ('v2', (10, 13)),
+    ('v2', (11, 20)),
     akasha.scratch_rhythm(
         [8],
         ~rmakers.silence([1, 4], 9),
@@ -206,7 +204,7 @@ maker(
     )
 
 maker(
-    ('v2', (14, 16)),
+    ('v2', (21, 32)),
     akasha.dense_getato_rhythm(
         [1],
         [2, 1, 3, 0],
@@ -215,7 +213,7 @@ maker(
     )
 
 maker(
-    ('v2', 17),
+    ('v2', (33, 38)),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
@@ -224,7 +222,7 @@ maker(
     )
 
 maker(
-    ('vc', (10, 12)),
+    ('vc', (11, 18)),
     akasha.scratch_rhythm(
         [8],
         ~rmakers.silence([2, 5], 9),
@@ -233,7 +231,7 @@ maker(
     )
 
 maker(
-    ('vc', (13, 15)),
+    ('vc', (19, 26)),
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
@@ -242,7 +240,7 @@ maker(
     )
 
 maker(
-    ('vc', 16),
+    ('vc', (27, 32)),
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [4, 1, 3, 2],
@@ -250,7 +248,7 @@ maker(
     )
 
 maker(
-    ('vc', 17),
+    ('vc', (33, 38)),
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
@@ -259,12 +257,12 @@ maker(
     )
 
 maker(
-    ('v1', (1, 18)),
+    'v1',
     akasha.getato_pitches(5, [2]),
     )
 
 maker(
-    ('v1', (1, 11)),
+    ('v1', (1, 14)),
     baca.dynamic('ff'),
     baca.markup(
         baca.markups.lines(
@@ -273,29 +271,29 @@ maker(
     )
 
 maker(
-    ('v1', (12, 14)),
+    ('v1', (15, 22)),
     baca.dynamic('f'),
     baca.markup("po' meno scratch"),
     )
 
 maker(
-    ('v1', (15, 18)),
+    ('v1', (23, 39)),
     baca.staccato(selector=baca.pheads()),
     )
 
 maker(
-    ('v1', (15, 16)),
+    ('v1', (23, 32)),
     baca.hairpin('mf > pp'),
     baca.markup('leggieriss. (senza scratch)'),
     )
 
 maker(
-    ('v2', (1, 18)),
+    'v2',
     akasha.getato_pitches(-3, [2]),
     )
 
 maker(
-    ('v2', (1, 9)),
+    ('v2', (1, 10)),
     baca.dynamic('ff'),
     baca.markup(
         baca.markups.lines(
@@ -304,31 +302,31 @@ maker(
     )
 
 maker(
-    ('v2', (10, 12)),
+    ('v2', (11, 18)),
     baca.dynamic('f'),
     baca.markup("po' meno scratch"),
     )
 
 maker(
-    ('v2', 13),
+    ('v2', (19, 20)),
     baca.dynamic('mf'),
     baca.staccato(selector=baca.pheads()),
     baca.markup('senza scratch'),
     )
 
 maker(
-    ('v2', (14, 18)),
+    ('v2', (21, 39)),
     baca.markup('leggieriss.'),
     baca.staccato(selector=baca.pheads()),
     )
 
 maker(
-    ('v2', (15, 16)),
+    ('v2', (23, 32)),
     baca.hairpin('mf > pp'),
     )
 
 maker(
-    ('va', (1, 18)),
+    'va',
     baca.alternate_bow_strokes(),
     baca.dynamic('"mf"'),
     baca.markup('OB'),
@@ -338,7 +336,7 @@ maker(
     )
 
 maker(
-    ('vc', (1, 18)),
+    'vc',
     akasha.getato_pitches(-13, [2]),
     )
 
@@ -351,31 +349,31 @@ maker(
     )
 
 maker(
-    ('vc', (9, 11)),
+    ('vc', (9, 14)),
     baca.dynamic('f'),
     baca.markup("po' meno scratch"),
     )
 
 maker(
-    ('vc', 12),
+    ('vc', (15, 18)),
     baca.dynamic('mf'),
     baca.markup('senza scratch'),
     baca.staccato(selector=baca.pheads()),
     )
 
 maker(
-    ('vc', (13, 18)),
+    ('vc', (19, 39)),
     baca.staccato(selector=baca.pheads()),
     baca.markup('leggieriss.'),
     )
 
 maker(
-    ('vc', (15, 16)),
+    ('vc', (23, 32)),
     baca.hairpin('mf > pp'),
     baca.staccato(selector=baca.pheads()),
     )
 
 maker(
-    ('vc', 16),
+    ('vc', 27),
     baca.clef('treble'),
     )
