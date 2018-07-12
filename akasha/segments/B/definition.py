@@ -124,7 +124,13 @@ maker(
     (['va', 'vc'], 9),
     baca.make_repeat_tied_notes(),
     baca.markup('tasto'),
-    (baca.pitch('D#3'), 0),
-    (baca.pitch('C#2'), 1),
-    (baca.dynamic('mp'), 1),
+    baca.match(
+        0,
+        baca.pitch('D#3'),
+        ),
+    baca.match(
+        1,
+        baca.pitch('C#2'),
+        baca.dynamic('mp'),
+        ),
     )

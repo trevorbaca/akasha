@@ -355,10 +355,22 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'],  (16, 19)),
-    (baca.pitch('B4'), 0),
-    (baca.pitch('B3'), 1),
-    (baca.pitch('B2'), 2),
-    (baca.pitch('B1'), 3),
+    baca.match(
+        0,
+        baca.pitch('B4'),
+        ),
+    baca.match(
+        1,
+        baca.pitch('B3'),
+        ),
+    baca.match(
+        2,
+        baca.pitch('B2'),
+        ),
+    baca.match(
+        3,
+        baca.pitch('B1'),
+        ),
     )
 
 maker(
