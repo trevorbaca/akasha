@@ -20,12 +20,12 @@ def stage(n):
         7: 9,
         8: 10,
         9: 11,
-        }
+        }[n]
 
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=[3, 1, 1, 1, 1, 1, 1, 1, 1],
+    #measures_per_stage=[3, 1, 1, 1, 1, 1, 1, 1, 1],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('B', 11, 6, [5, 7, 9]),
     validate_measure_count=11,
@@ -45,7 +45,7 @@ maker(
     )
 
 maker(
-    ('v1', 1),
+    ('v1', (1, 3)),
     akasha.accelerando_rhythm(
         division_mask=rmakers.silence([-2, -1]),
         fuse_counts=[1],
@@ -55,7 +55,7 @@ maker(
     )
 
 maker(
-    ('v2', 1),
+    ('v2', (1, 3)),
     akasha.polyphony_rhythm(),
     baca.pitches('D#4 E4 F4 F~4 E4', exact=True),
     baca.dynamic('mp'),
@@ -63,7 +63,7 @@ maker(
     )
 
 maker(
-    ('va', 1),
+    ('va', (1, 3)),
     akasha.polyphony_rhythm(
         rotation=-2,
         lt_mask=rmakers.silence([0, 1]),
@@ -72,7 +72,7 @@ maker(
     )
 
 maker(
-    ('vc', (1, 2)),
+    ('vc', (1, 4)),
     akasha.sparse_getato_rhythm(
         degree=0,
         division_mask=rmakers.silence(
@@ -84,7 +84,7 @@ maker(
     )
 
 maker(
-    ('vc', 4),
+    ('vc', 6),
     akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
@@ -93,7 +93,7 @@ maker(
     )
 
 maker(
-    ('vc', 6),
+    ('vc', 8),
     akasha.sparse_getato_rhythm(
         degree=0,
         extra_counts_per_division=[1, 1, 0, 2],
@@ -102,7 +102,7 @@ maker(
     )
 
 maker(
-    ('vc', (1, 6)),
+    ('vc', (1, 8)),
     akasha.getato_pitches(-2, [-3], direction=abjad.Down),
     baca.beam_positions(-4),
     baca.staccato(selector=baca.pheads()),
@@ -110,7 +110,7 @@ maker(
     )
 
 maker(
-    ('v2', (8, 9)),
+    ('v2', (10, 11)),
     akasha.accelerando_rhythm(
         fuse_counts=(2, 1),
         lt_mask=rmakers.silence([3]),
@@ -121,7 +121,7 @@ maker(
     )
 
 maker(
-    (['va', 'vc'], 9),
+    (['va', 'vc'], 11),
     baca.make_repeat_tied_notes(),
     baca.markup('tasto'),
     baca.match(

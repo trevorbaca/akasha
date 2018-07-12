@@ -37,9 +37,6 @@ def stage(n):
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=[
-        4, 4, 4, 4, 4, 4, 4, 1, 5, 5, 1, 5, 1, 2, 2, 2, 2, 1, 5, 2, 6, 1,
-        ],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('B', 69, 24, [29, 40, 46, 55, 69]),
     validate_measure_count=69,
@@ -64,17 +61,18 @@ maker(
 
 maker(
     [
-        (['v1', 'v2', 'va', 'vc'], [(1, 7), 9, 10, 12, 19, (20, 21)]),
-        ('v1', [(14, 16), 17]),
-        ('v2', [(14, 15), (16, 17)]),
-        ('va', [14, (15, 17)]),
-        ('vc', (14, 17)),
+        (['v1', 'v2', 'va', 'vc'], [
+            (1, 28), (30, 34), (35, 39), (41, 45), (56, 60), (61, 68)]),
+        ('v1', [(47, 52), (53, 54)]),
+        ('v2', [(47, 50), (51, 54)]),
+        ('va', [(47, 48), (49, 54)]),
+        ('vc', (47, 54)),
         ],
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], (1, 7)),
+    (['v1', 'v2', 'va', 'vc'], (1, 28)),
     baca.dynamic('"ff"'),
     baca.markup('tasto + 1 click/3-4 sec.'),
     baca.match(
@@ -96,7 +94,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 2),
+    (['v1', 'v2', 'va', 'vc'], (5, 8)),
     baca.text_spanner(
         'trans. => 1 click/1-2 sec.',
         selector=baca.leaves()[:-1],
@@ -104,7 +102,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 3),
+    (['v1', 'v2', 'va', 'vc'], (9, 12)),
     baca.text_spanner(
         'trans. => 1-2 clicks/sec.',
         selector=baca.leaves()[:-1],
@@ -112,7 +110,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 4),
+    (['v1', 'v2', 'va', 'vc'], (13, 16)),
     baca.dynamic('ff', selector=baca.note(2)),
     baca.text_spanner(
         'trans. => scratch moltiss.',
@@ -121,7 +119,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 5),
+    (['v1', 'v2', 'va', 'vc'], (17, 20)),
     baca.text_spanner(
         'trans. => 1/2 scratch',
         selector=baca.leaves()[:-1],
@@ -129,7 +127,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 6),
+    (['v1', 'v2', 'va', 'vc'], (21, 24)),
     baca.text_spanner(
         'trans. => PO',
         selector=baca.leaves()[:-1],
@@ -137,7 +135,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 7),
+    (['v1', 'v2', 'va', 'vc'], (25, 28)),
     baca.text_spanner(
         'trans. => vib. moltiss.',
         selector=baca.leaves()[:-1],
@@ -146,7 +144,7 @@ maker(
     )
 
 maker(
-    ('GlobalSkips', (9, 10)),
+    ('GlobalSkips', (30, 39)),
     baca.markup(
         baca.markups.repeat_count(6).boxed(),
         selector=baca.skip(0),
@@ -155,7 +153,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], (9, 10)),
+    (['v1', 'v2', 'va', 'vc'], (30, 39)),
     baca.match(
         0,
         baca.pitch('A5'),
@@ -175,7 +173,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 9),
+    (['v1', 'v2', 'va', 'vc'], (30, 34)),
     baca.hairpin('sffp < fff', selector=baca.leaves()[:3]),
     baca.hairpin('fff > p', selector=baca.leaves()[-2:]),
     baca.text_spanner(
@@ -189,7 +187,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 10),
+    (['v1', 'v2', 'va', 'vc'], (35, 39)),
     baca.hairpin('sffp < fff', selector=baca.leaves()[:2]),
     baca.hairpin('fff > p', selector=baca.leaves()[-2:]),
     baca.text_spanner(
@@ -203,51 +201,52 @@ maker(
     )
 
 maker(
-    ('v1', (12, 16)),
+    ('v1', (41, 52)),
     baca.pitch('A5'),
     )
 
 maker(
-    ('v1', (17, 21)),
+    ('v1', (53, 68)),
     baca.note_head_style_harmonic(),
     baca.pitch('B7'),
     )
 
 maker(
-    ('v2', (12, 15)),
+    ('v2', (41, 50)),
     baca.pitch('A4'),
     )
 
 maker(
-    ('v2', (16, 21)),
+    ('v2', (51, 68)),
     baca.note_head_style_harmonic(),
     baca.pitch('C#7'),
     )
 
 maker(
-    ('va', (12, 14)),
+    ('va', (41, 48)),
     baca.pitch('A2'),
     )
 
 maker(
-    ('va', (15, 21)),
+    ('va', (49, 68)),
     baca.note_head_style_harmonic(),
     baca.pitch('G~5'),
     )
 
 maker(
-    ('vc', 12),
+    ('vc', (41, 45)),
     baca.pitch('A1'),
     )
 
 maker(
-    ('vc', (14, 21)),
+    # HERE
+    ('vc', (47, 68)),
     baca.note_head_style_harmonic(),
     baca.pitch('D5'),
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 12),
+    (['v1', 'v2', 'va', 'vc'], (41, 45)),
     baca.hairpin('sffp > pp', selector=baca.leaves()[:-1]),
     baca.text_spanner(
         'pos. ord. => XT',
@@ -256,64 +255,64 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], (1, 13)),
+    (['v1', 'v2', 'va', 'vc'], (1, 46)),
     baca.text_spanner_staff_padding(4),
     )
 
 maker(
-    ('vc', (14, 17)),
+    ('vc', (47, 54)),
     baca.markup('pos. ord. + 11°/A1(IV)'),
     baca.trill_spanner(),
     baca.clef('treble'),
     )
 
 maker(
-    ('vc', (14, 15)),
+    ('vc', (47, 50)),
     baca.hairpin('sffp < f', selector=baca.leaves()[:4]),
     )
 
 maker(
-    ('va', (15, 17)),
+    ('va', (49, 54)),
     baca.markup('pos. ord. + 7°/A2(IV)'),
     baca.trill_spanner(),
     baca.clef('treble'),
     )
 
 maker(
-    ('va', (15, 16)),
+    ('va', (49, 52)),
     baca.hairpin('sffp < f', selector=baca.leaves()[:4]),
     )
 
 maker(
-    ('v2', (16, 17)),
+    ('v2', (51, 54)),
     baca.ottava(),
     )
 
 maker(
-    ('v2', (16, 17)),
+    ('v2', (51, 54)),
     baca.markup('pos. ord. + 5°/A4(II)'),
     baca.trill_spanner(),
     )
 
 maker(
-    ('v2', (16, 17)),
+    ('v2', (51, 54)),
     baca.hairpin('sffp < f', selector=baca.leaves()[:4]),
     )
 
 maker(
-    ('v1', 17),
+    ('v1', (53, 54)),
     baca.ottava(),
     )
 
 maker(
-    ('v1', 17),
+    ('v1', (53, 54)),
     baca.markup('pos. ord. + 9°/A4(II)'),
     baca.trill_spanner(),
     baca.hairpin('sffp < f'),
     )
 
 maker(
-    ('GlobalSkips', 19),
+    ('GlobalSkips', (56, 60)),
     baca.markup(
         baca.markups.repeat_count(6).boxed(),
         selector=baca.skip(0),
@@ -323,7 +322,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2'], (19, 22)),
+    (['v1', 'v2'], (56, 69)),
     baca.match(
         0,
         baca.ottava_bracket_staff_padding(12),
@@ -336,7 +335,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 19),
+    (['v1', 'v2', 'va', 'vc'], (56, 60)),
     baca.hairpin('sf < fff', selector=baca.leaves()[:3]),
     baca.hairpin('fff > f', selector=baca.leaves()[-2:]),
     baca.text_spanner(
@@ -351,7 +350,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], (20, 21)),
+    (['v1', 'v2', 'va', 'vc'], (61, 68)),
     baca.hairpin('sffp < fff', selector=baca.leaves()[:4]),
     baca.text_spanner(
         'pos. ord. => XP',
@@ -361,7 +360,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], (19, -1)),
+    (['v1', 'v2', 'va', 'vc'], (56, -1)),
     baca.match(
         0,
         baca.text_spanner_staff_padding(9.5),

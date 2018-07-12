@@ -22,7 +22,6 @@ def stage(n):
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=[4, 3, 3, 3, 1, 2, 1],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('B', 17, 18, [14]),
     validate_measure_count=17,
@@ -51,7 +50,7 @@ maker(
     )
 
 maker(
-    ('v1', 1),
+    ('v1', (1, 4)),
     akasha.dense_getato_rhythm(
         [2, 2, 1, 2, 1],
         [6, 4, 6, 3],
@@ -59,79 +58,79 @@ maker(
     )
 
 maker(
-    (['v2', 'va', 'vc'], 1),
+    (['v2', 'va', 'vc'], (1, 4)),
     baca.hairpin('ff > f'),
     baca.make_notes(repeat_ties=True),
     baca.text_spanner('tasto + scratch moltiss. => tasto + 1/4 scratch'),
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 2),
+    (['v1', 'v2', 'va', 'vc'], (5, 7)),
     baca.hairpin('f > mf'),
     baca.make_notes(repeat_ties=True),
     )
 
 maker(
-    ('v1', 2),
+    ('v1', (5, 7)),
     baca.text_spanner('tasto + 1/4 scratch => tasto'),
     )
 
 maker(
-    (['v2', 'va', 'vc'], 2),
+    (['v2', 'va', 'vc'], (5, 7)),
     baca.text_spanner('trans. => tasto'),
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 3),
+    (['v1', 'v2', 'va', 'vc'], (8, 10)),
     baca.hairpin('mf > p'),
     baca.make_notes(repeat_ties=True),
     baca.text_spanner('trans. => FB'),
     )
 
 maker(
-    (['v1', 'v2', 'va', 'vc'], 4),
+    (['v1', 'v2', 'va', 'vc'], (11, 13)),
     baca.hairpin('p > pp'),
     baca.make_notes(repeat_ties=True),
     baca.text_spanner('trans. => XFB'),
     )
 
 maker(
-    (['v1', 'v2', 'vc'], 6),
+    (['v1', 'v2', 'vc'], (15, 16)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('va', (6, 7)),
+    ('va', (15, 17)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('v1', 1),
+    ('v1', (1, 4)),
     akasha.getato_pitches(31, [2]),
     baca.hairpin('pp >o niente'),
     )
 
 maker(
-    ('v1', (2, 4)),
+    ('v1', (5, 13)),
     baca.glissando(),
     baca.loop([17, 19, 17, 15, 18, 16], [1]),
     )
 
 maker(
-    ('v2', (1, 4)),
+    ('v2', (1, 13)),
     baca.glissando(),
     baca.loop([6, 3, 5, 3, 1, 4], [1]),
     )
 
 maker(
-    ('va', (1, 4)),
+    ('va', (1, 13)),
     baca.clef('alto'),
     baca.glissando(),
     baca.loop([3, 5, 2, 4, 2, 0], [1]),
     )
 
 maker(
-    ('va', 6),
+    ('va', (15, 16)),
     baca.down_bow(),
     baca.dynamic('"mf"'),
     baca.markup('OB'),
@@ -140,26 +139,26 @@ maker(
     )
 
 maker(
-    ('vc', (1, 4)),
+    ('vc', (1, 13)),
     baca.clef('bass'),
     baca.glissando(),
     baca.loop([-23, -21, -19, -22, -20, -22], [-1]),
     )
 
 maker(
-    ('v1', 6),
+    ('v1', (15, 16)),
     baca.dynamic('ppp'),
     baca.pitch('F#5'),
     )
 
 maker(
-    ('v2', 6),
+    ('v2', (15, 16)),
     baca.dynamic('ppp'),
     baca.pitch('Ab4'),
     )
 
 maker(
-    ('vc', 6),
+    ('vc', (15, 16)),
     baca.dynamic('ppp'),
     baca.pitch('C#2'),
     )

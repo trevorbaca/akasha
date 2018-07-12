@@ -25,7 +25,6 @@ maker = baca.SegmentMaker(
         ),
     final_markup_extra_offset=(-19, -4),
     last_segment=True,
-    measures_per_stage=[8, 8, 8, 1],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('B', 25, 30, [-1]),
     validate_measure_count=25,
@@ -57,7 +56,7 @@ maker(
     )
 
 maker(
-    (['v1', 'va', 'vc'], (1, 2)),
+    (['v1', 'va', 'vc'], (1, 16)),
     baca.make_notes(
         division_mask=rmakers.silence([1], 2),
         repeat_ties=True,
@@ -65,14 +64,14 @@ maker(
     )
 
 maker(
-    ('v2', (2, 3)),
+    ('v2', (9, 24)),
     akasha.sparse_getato_rhythm(
         division_mask=~rmakers.silence([3, 36, 37]),
         ),
     )
 
 maker(
-    (['v1', 'va', 'vc'], (1, 3)),
+    (['v1', 'va', 'vc'], (1, 24)),
     baca.alternate_bow_strokes(),
     baca.clef('percussion'),
     baca.dynamic('"mf"'),
@@ -83,7 +82,7 @@ maker(
     )
 
 maker(
-    ('v2', (2, 3)),
+    ('v2', (9, 24)),
     akasha.getato_pitches(29, direction=abjad.Down),
     baca.dynamic('pp_ancora'),
     baca.markup('leggieriss.'),

@@ -32,7 +32,6 @@ def stage(n):
 maker = baca.SegmentMaker(
     color_octaves=False,
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=[8, 1, 8, 1, 4, 1, 8, 1, 3, 1, 1, 4, 1, 4, 3, 1, 1],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures(
         'B', 51, 12,
@@ -66,45 +65,45 @@ maker(
 
 maker(
     [
-        (['v1', 'va', 'vc'], [1, 3]),
-        (['va', 'vc'], 5),
-        ('va', 7),
-        ('vc', (9, 10)),
+        (['v1', 'va', 'vc'], [(1, 8), (10, 17)]),
+        (['va', 'vc'], (19, 22)),
+        ('va', (24, 31)),
+        ('vc', (33, 36)),
         ],
     baca.make_repeat_tied_notes(),
     )
 
 maker(
     [
-        ('v1', 5),
-        ('v2', [3, 5]),
-        (['v1', 'v2', 'vc'], 7),
-        (['v1', 'v2'], (9, 10)),
-        ('va', 9),
-        (['v1', 'va', 'vc'], 12),
-        (['v1', 'va', 'vc'], 14),
-        ('vc', 15),
+        ('v1', (19, 22)),
+        ('v2', [(10, 17), (19, 22)]),
+        (['v1', 'v2', 'vc'], (24, 31)),
+        (['v1', 'v2'], (33, 36)),
+        ('va', (33, 35)),
+        (['v1', 'va', 'vc'], (38, 41)),
+        (['v1', 'va', 'vc'], (43, 46)),
+        ('vc', (47, 49)),
         ],
     akasha.untied_notes(),
     )
 
 maker(
-    ('va', 10),
+    ('va', 36),
     akasha.glissando_rhythm(),
     )
 
 maker(
-    ('v2', [12, 14]),
+    ('v2', [(38, 41), (43, 46)]),
     akasha.fill_first_half(),
     )
 
 maker(
-    ('vc', 16),
+    ('vc', 50),
     akasha.glissando_rhythm(),
     )
 
 maker(
-    ('v1', [1, 3]),
+    ('v1', [(1, 8), (10, 17)]),
     baca.ottava(),
     baca.match(
         0,
@@ -113,7 +112,7 @@ maker(
     )
 
 maker(
-    ('v1', (1, 3)),
+    ('v1', (1, 17)),
     baca.dynamic('mp'),
     baca.markup('5°/A4(II) + vib. mod.'),
     baca.note_head_style_harmonic(),
@@ -121,46 +120,46 @@ maker(
     )
 
 maker(
-    ('va', 1),
+    ('va', (1, 8)),
     baca.clef('treble'),
     baca.dynamic('mp'),
     baca.markup('7°/A2(IV) + vib. mod.'),
     )
 
 maker(
-    ('vc', 1),
+    ('vc', (1, 8)),
     baca.clef('treble'),
     baca.dynamic('mp'),
     baca.markup('11°/A1(IV) + vib. mod.'),
     )
 
 maker(
-    ('v1', 5),
+    ('v1', (19, 22)),
     akasha.harmonic_glissando_pitches('A4'),
     )
 
 maker(
-    ('v1', 7),
+    ('v1', (24, 31)),
     akasha.harmonic_glissando_pitches('A4', rotation=-6),
     )
 
 maker(
-    ('v1', (9, 10)),
+    ('v1', (33, 36)),
     akasha.harmonic_glissando_pitches('A4', rotation=-12),
     )
 
 maker(
-    ('v1', 12),
+    ('v1', (38, 41)),
     akasha.harmonic_glissando_pitches('A4', rotation=-18),
     )
 
 maker(
-    ('v1', 14),
+    ('v1', (43, 46)),
     akasha.harmonic_glissando_pitches('A4', rotation=-24),
     )
 
 maker(
-    ('v1', (5, 14)),
+    ('v1', (19, 46)),
     baca.dynamic('ppp'),
     baca.map(
         baca.runs(),
@@ -171,27 +170,27 @@ maker(
     )
 
 maker(
-    ('v2', 3),
+    ('v2', (10, 17)),
     akasha.harmonic_glissando_pitches('A4'),
     )
 
 maker(
-    ('v2', 5),
+    ('v2', (19, 22)),
     akasha.harmonic_glissando_pitches('A4', rotation=-6),
     )
 
 maker(
-    ('v2', 7),
+    ('v2', (24, 31)),
     akasha.harmonic_glissando_pitches('A4', rotation=-12),
     )
 
 maker(
-    ('v2', (9, 10)),
+    ('v2', (33, 36)),
     akasha.harmonic_glissando_pitches('A4', rotation=-18),
     )
 
 maker(
-    ('v2', (3, 10)),
+    ('v2', (10, 36)),
     baca.dynamic('ppp'),
     baca.map(
         baca.runs(),
@@ -202,7 +201,7 @@ maker(
     )
 
 maker(
-    ('v2', (12, 14)),
+    ('v2', (38, 46)),
     baca.dynamic('p'),
     baca.map(
         baca.qruns(),
@@ -213,13 +212,13 @@ maker(
     )
 
 maker(
-    ('va', (1, 7)),
+    ('va', (1, 31)),
     baca.note_head_style_harmonic(),
     baca.pitch('G~5'),
     )
 
 maker(
-    ('va', (9, 10)),
+    ('va', (33, 36)),
     baca.clef('alto'),
     baca.glissando(),
     baca.hairpin('sf > ppp'),
@@ -228,17 +227,17 @@ maker(
     )
 
 maker(
-    ('va', 12),
+    ('va', (38, 41)),
     akasha.harmonic_glissando_pitches('Ab3'),
     )
 
 maker(
-    ('va', 14),
+    ('va', (43, 46)),
     akasha.harmonic_glissando_pitches('Ab3', rotation=-6),
     )
 
 maker(
-    ('va', (12, 14)),
+    ('va', (38, 46)),
     baca.dynamic('ppp_ancora'),
     baca.map(
         baca.runs(),
@@ -249,18 +248,18 @@ maker(
     )
 
 maker(
-    ('vc', (1, 5)),
+    ('vc', (1, 22)),
     baca.note_head_style_harmonic(),
     baca.pitch('D5'),
     )
 
 maker(
-    ('vc', 7),
+    ('vc', (24, 31)),
     akasha.harmonic_glissando_pitches('G2'),
     )
 
 maker(
-    ('vc', 7),
+    ('vc', (24, 31)),
     baca.clef('bass'),
     baca.dynamic('ppp'),
     baca.glissando(),
@@ -269,19 +268,19 @@ maker(
     )
 
 maker(
-    ('vc', 9),
+    ('vc', (33, 35)),
     baca.hairpin('sf > ppp'),
     baca.markup('tasto'),
     baca.pitch('C#2'),
     )
 
 maker(
-    ('vc', 12),
+    ('vc', (38, 41)),
     akasha.harmonic_glissando_pitches('G2', rotation=-6),
     )
 
 maker(
-    ('vc', 12),
+    ('vc', (38, 41)),
     baca.dynamic('ppp_ancora'),
     baca.glissando(),
     baca.markup('XP + full bow strokes'),
@@ -289,7 +288,7 @@ maker(
     )
 
 maker(
-    ('vc', (14, 16)),
+    ('vc', (43, 50)),
     baca.glissando(),
     baca.hairpin('sf > ppp'),
     baca.markup('tasto'),
@@ -298,12 +297,12 @@ maker(
     
 maker(
     [
-        ('v2', 3),
-        (['v1', 'v2'], 5),
-        (['v1', 'v2', 'vc'], 7),
-        (['v1', 'v2'], (9, 10)),
-        (['v1', 'va', 'vc'], 12),
-        (['v1', 'va'], 14),
+        ('v2', (10, 17)),
+        (['v1', 'v2'], (19, 22)),
+        (['v1', 'v2', 'vc'], (24, 31)),
+        (['v1', 'v2'], (33, 36)),
+        (['v1', 'va', 'vc'], (38, 41)),
+        (['v1', 'va'], (43, 46)),
         ],
     baca.alternate_bow_strokes(),
     )
