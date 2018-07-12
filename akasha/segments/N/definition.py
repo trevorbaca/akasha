@@ -46,8 +46,14 @@ maker(
 
 maker(
     ['v1', 'vc'],
-    (baca.bar_extent_persistent((-2, 0)), 0),
-    (baca.bar_extent_persistent((0, -2)), 1),
+    baca.match(
+        0,
+        baca.bar_extent_persistent((-2, 0)),
+        ),
+    baca.match(
+        1,
+        baca.bar_extent_persistent((0, -2)),
+        ),
     )
 
 maker(

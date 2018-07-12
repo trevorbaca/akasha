@@ -88,11 +88,21 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], (1, 3)),
-    (akasha.getato_pitches(5, [2]), 0),
-    (akasha.getato_pitches(-3, [2]), 1),
-    (akasha.getato_pitches(-13, [2]), 2),
+    baca.match(
+        0,
+        akasha.getato_pitches(5, [2]),
+        ),
+    baca.match(
+        1,
+        akasha.getato_pitches(-3, [2]),
+        ),
+    baca.match(
+        2,
+        akasha.getato_pitches(-13, [2]),
+        ),
     baca.dynamic('ff'),
     baca.markup(
-        baca.markups.lines(['scratch moltiss.:', 'terminate each note abruptly']),
+        baca.markups.lines(
+            ['scratch moltiss.:', 'terminate each note abruptly']),
         ),
     )

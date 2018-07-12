@@ -70,14 +70,23 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (6, 7)),
-    (akasha.polyphony_rhythm(lt_mask=~rmakers.silence([0, 1, 2])), 0),
-    (akasha.polyphony_rhythm(lt_mask=~rmakers.silence([2, 3, 4])), 1),
-    (akasha.polyphony_rhythm(lt_mask=~rmakers.silence([1, 2, 3])), 2),
-    (baca.pitches('E4 F4 E+4', exact=True), 0),
-    (baca.pitches('D4 D~4 C4', exact=True), 1),
-    (baca.pitches('Eb4 D4 E4', exact=True), 2),
     baca.dynamic('mp'),
     baca.markup('tasto + 1/2 scratch'),
+    baca.match(
+        0,
+        akasha.polyphony_rhythm(lt_mask=~rmakers.silence([0, 1, 2])),
+        baca.pitches('E4 F4 E+4', exact=True),
+        ),
+    baca.match(
+        1,
+        akasha.polyphony_rhythm(lt_mask=~rmakers.silence([2, 3, 4])),
+        baca.pitches('D4 D~4 C4', exact=True),
+        ),
+    baca.match(
+        2,
+        akasha.polyphony_rhythm(lt_mask=~rmakers.silence([1, 2, 3])),
+        baca.pitches('Eb4 D4 E4', exact=True),
+        ),
     )
 
 maker(

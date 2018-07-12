@@ -75,12 +75,24 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], (1, 7)),
-    (baca.pitch('A5'), 0),
-    (baca.pitch('G#+4'), 1),
-    (baca.pitch('A+2'), 2),
-    (baca.pitch('A1'), 3),
     baca.dynamic('"ff"'),
     baca.markup('tasto + 1 click/3-4 sec.'),
+    baca.match(
+        0,
+        baca.pitch('A5'),
+        ),
+    baca.match(
+        1,
+        baca.pitch('G#+4'),
+        ),
+    baca.match(
+        2,
+        baca.pitch('A+2'),
+        ),
+    baca.match(
+        3,
+        baca.pitch('A1'),
+        ),
     )
 
 maker(
@@ -144,10 +156,22 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], (9, 10)),
-    (baca.pitch('A5'), 0),
-    (baca.pitches('A4 G#+4'), 1),
-    (baca.pitches('A2 A+2'), 2),
-    (baca.pitch('A1'), 3),
+    baca.match(
+        0,
+        baca.pitch('A5'),
+        ),
+    baca.match(
+        1,
+        baca.pitches('A4 G#+4'),
+        ),
+    baca.match(
+        2,
+        baca.pitches('A2 A+2'),
+        ),
+    baca.match(
+        3,
+        baca.pitch('A1'),
+        ),
     )
 
 maker(
@@ -300,8 +324,14 @@ maker(
 
 maker(
     (['v1', 'v2'], (19, 22)),
-    (baca.ottava_bracket_staff_padding(12), 0),
-    (baca.ottava_bracket_staff_padding(10), 1),
+    baca.match(
+        0,
+        baca.ottava_bracket_staff_padding(12),
+        ),
+    baca.match(
+        1,
+        baca.ottava_bracket_staff_padding(10),
+        ),
     baca.ottava(),
     )
 
@@ -332,8 +362,20 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'], (19, -1)),
-    (baca.text_spanner_staff_padding(9.5), 0),
-    (baca.text_spanner_staff_padding(7.5), 1),
-    (baca.text_spanner_staff_padding(7), 2),
-    (baca.text_spanner_staff_padding(5), 3),
+    baca.match(
+        0,
+        baca.text_spanner_staff_padding(9.5),
+        ),
+    baca.match(
+        1,
+        baca.text_spanner_staff_padding(7.5),
+        ),
+    baca.match(
+        2,
+        baca.text_spanner_staff_padding(7),
+        ),
+    baca.match(
+        3,
+        baca.text_spanner_staff_padding(5),
+        ),
     )

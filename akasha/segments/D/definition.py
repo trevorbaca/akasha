@@ -106,7 +106,10 @@ maker(
 maker(
     ('v1', [1, 3]),
     baca.ottava(),
-    (baca.staff_lines(5), 0),
+    baca.match(
+        0,
+        baca.staff_lines(5),
+        ),
     )
 
 maker(
