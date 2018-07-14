@@ -37,7 +37,6 @@ maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=akasha.time_signatures('A', 39, 6, [2, 4, 6, 8, 39]),
     validate_measure_count=39,
-    validate_stage_count=18,
     )
 
 maker(
