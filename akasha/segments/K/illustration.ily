@@ -2081,9 +2081,9 @@ K_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                             %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a''2
-    \baca_effort_ff                                                        %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_ff                                                        %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2189,9 +2189,9 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 279 / measure 15]                       %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a''2.
-    \ff                                                                    %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
@@ -2614,9 +2614,9 @@ K_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                             %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gtqs'!2
-    \baca_effort_ff                                                        %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_ff                                                        %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2722,9 +2722,9 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 279 / measure 15]                      %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gtqs'!2.
-    \ff                                                                    %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
@@ -3255,9 +3255,9 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 279 / measure 15]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     aqs,!2.
-    \ff                                                                    %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
@@ -3675,9 +3675,9 @@ K_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                             %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a,,2
-    \baca_effort_ff                                                        %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_ff                                                        %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3783,9 +3783,9 @@ K_CelloMusicVoice = {
     \repeatTie
     
     % [K CelloMusicVoice measure 279 / measure 15]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a,,2.
-    \ff                                                                    %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
