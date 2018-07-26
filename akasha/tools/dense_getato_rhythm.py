@@ -6,15 +6,12 @@ from abjadext import rmakers
 def dense_getato_rhythm(
     fuse_counts,
     extra_counts_per_division,
+    *,
     dmask=None,
     ):
     """
     Makes dense getato rhythm.
     """
-    if dmask is not None:
-        division_masks = [dmask]
-    else:
-        division_masks = None
     return baca.rhythm(
         division_expression=baca.fuse_compound_quarter_divisions(
             fuse_counts,
@@ -25,7 +22,7 @@ def dense_getato_rhythm(
                 left_counts=[1],
                 ),
             denominators=[16],
-            division_masks=division_masks,
+            division_masks=dmask,
             extra_counts_per_division=extra_counts_per_division,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,

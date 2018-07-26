@@ -4,22 +4,19 @@ from abjadext import rmakers
 
 
 def polyphony_rhythm(
+    *,
     ltmask=None,
     rotation=0,
     ):
     """
     Makes polyphony rhythm.
     """
-    if ltmask is None:
-        logical_tie_masks = None
-    else:
-        logical_tie_masks = [ltmask]
     counts = abjad.sequence([4, 14, 4, 6, 18])
     counts = counts.rotate(n=rotation)
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
-            logical_tie_masks=logical_tie_masks,
+            logical_tie_masks=ltmask,
             talea=rmakers.Talea(
                 counts=counts,
                 denominator=16,
