@@ -187,7 +187,7 @@ maker(
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
-        division_mask=rmakers.silence(
+        dmask=rmakers.silence(
             [0, 2, 3, 4, 5, 6, 10, 14, 22] + [-7, -6, -5, -4, -3, -2, -1]
             ),
         ),
@@ -207,7 +207,7 @@ maker(
     akasha.dense_getato_rhythm(
         [1],
         [2, 1, 3, 0],
-        division_mask=rmakers.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+        dmask=rmakers.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
         ),
     )
 
@@ -216,7 +216,7 @@ maker(
     akasha.dense_getato_rhythm(
         [1, 2, 1, 2, 2],
         [6, 3, 5, 4],
-        division_mask=rmakers.silence([-5, -4, -3, -2, -1]),
+        dmask=rmakers.silence([-5, -4, -3, -2, -1]),
         ),
     )
 
@@ -234,7 +234,7 @@ maker(
     akasha.dense_getato_rhythm(
         [1],
         [3, 0, 2, 1],
-        division_mask=rmakers.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
+        dmask=rmakers.silence([0, 2, 3, 4, 5, 6, 10, 14, 22]),
         ),
     )
 
@@ -251,7 +251,7 @@ maker(
     akasha.dense_getato_rhythm(
         [2, 1, 2, 2, 1],
         [6, 3, 5, 4],
-        division_mask=rmakers.silence([-4, -3, -2, -1]),
+        dmask=rmakers.silence([-4, -3, -2, -1]),
         ),
     )
 

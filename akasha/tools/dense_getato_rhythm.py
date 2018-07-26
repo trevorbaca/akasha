@@ -6,13 +6,13 @@ from abjadext import rmakers
 def dense_getato_rhythm(
     fuse_counts,
     extra_counts_per_division,
-    division_mask=None,
+    dmask=None,
     ):
     """
     Makes dense getato rhythm.
     """
-    if division_mask is not None:
-        division_masks = [division_mask]
+    if dmask is not None:
+        division_masks = [dmask]
     else:
         division_masks = None
     return baca.rhythm(

@@ -113,14 +113,14 @@ maker(
 maker(
     ('v1', (8, 9)),
     akasha.accelerando_rhythm(
-        lt_mask=rmakers.silence([1, 6]),
+        ltmask=rmakers.silence([1, 6]),
         ),
     )
 
 maker(
     ('v2', (8, 9)),
     akasha.ritardando_rhythm(
-        lt_mask=rmakers.silence([2, 5]),
+        ltmask=rmakers.silence([2, 5]),
         ),
     )
 

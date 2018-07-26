@@ -57,7 +57,7 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (1, 16)),
     baca.make_notes(
-        division_mask=rmakers.silence([1], 2),
+        dmask=rmakers.silence([1], 2),
         repeat_ties=True,
         ),
     )
@@ -65,7 +65,7 @@ maker(
 maker(
     ('v2', (9, 24)),
     akasha.sparse_getato_rhythm(
-        division_mask=~rmakers.silence([3, 36, 37]),
+        dmask=~rmakers.silence([3, 36, 37]),
         ),
     )
 

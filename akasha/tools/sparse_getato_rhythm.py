@@ -6,17 +6,17 @@ from abjadext import rmakers
 
 def sparse_getato_rhythm(
     degree=1,
-    division_mask=None,
+    dmask=None,
     extra_counts_per_division=[1],
     rotation=None,
     ):
     """
     Makes sparse getato rhythm.
     """
-    if division_mask is None:
+    if dmask is None:
         division_masks = None
     else:
-        division_masks = [division_mask]
+        division_masks = [dmask]
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
