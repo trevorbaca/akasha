@@ -106,7 +106,10 @@ maker(
 maker(
     ('v1', (1, 4)),
     akasha.getato_pitches(31, [2]),
-    baca.hairpin('pp >o niente'),
+    baca.hairpin(
+        'pp >o niente',
+        selector=baca.tleaves(),
+        ),
     )
 
 maker(

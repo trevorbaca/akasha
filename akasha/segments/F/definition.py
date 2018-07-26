@@ -423,7 +423,10 @@ maker(
 maker(
     ('v1', (36, 41)),
     akasha.getato_pitches(29, [2]),
-    baca.hairpin('ff < fff'),
+    baca.hairpin(
+        'ff < fff',
+        selector=baca.tleaves(),
+        ),
     baca.markup('pos. ord.'),
     baca.staccato(selector=baca.pheads()),
     )
@@ -431,7 +434,10 @@ maker(
 maker(
     ('v2', (36, 41)),
     akasha.getato_pitches(26, [2]),
-    baca.hairpin('ff < fff'),
+    baca.hairpin(
+        'ff < fff',
+        selector=baca.tleaves(),
+        ),
     baca.markup('pos. ord.'),
     baca.staccato(selector=baca.pheads()),
     )
@@ -440,7 +446,10 @@ maker(
     ('va', (36, 41)),
     akasha.getato_pitches(23, [2]),
     baca.clef('treble'),
-    baca.hairpin('ff < fff'),
+    baca.hairpin(
+        'ff < fff',
+        selector=baca.tleaves(),
+        ),
     baca.markup('pos. ord.'),
     baca.staccato(selector=baca.pheads()),
     )
@@ -449,7 +458,10 @@ maker(
     ('vc', (36, 41)),
     akasha.getato_pitches(20, [2]),
     baca.clef('treble'),
-    baca.hairpin('ff < fff'),
+    baca.hairpin(
+        'ff < fff',
+        selector=baca.tleaves(),
+        ),
     baca.markup('pos. ord.'),
     baca.staccato(selector=baca.pheads()),
     )
