@@ -4,6 +4,7 @@ from abjadext import rmakers
 
 
 def ritardando_rhythm(
+    *,
     division_expression=None,
     dmask=None,
     ltmask=None,
@@ -21,16 +22,6 @@ def ritardando_rhythm(
         expression = expression.map(baca.sequence().sum()).flatten(depth=-1)
         division_expression = expression
 
-    if dmask is not None:
-        division_masks = [dmask]
-    else:
-        division_masks = None
-
-    if ltmask is not None:
-        logical_tie_masks = [ltmask]
-    else:
-        logical_tie_masks = None
-
     return baca.rhythm(
         division_expression=division_expression,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
@@ -39,7 +30,7 @@ def ritardando_rhythm(
                 stemlet_length=0.75,
                 use_feather_beams=True,
                 ),
-            division_masks=division_masks,
+            division_masks=dmask,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 8),
@@ -52,7 +43,7 @@ def ritardando_rhythm(
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
-            logical_tie_masks=logical_tie_masks,
+            logical_tie_masks=ltmask,
             tuplet_specifier=rmakers.TupletSpecifier(
                 duration_bracket=True,
                 ),
