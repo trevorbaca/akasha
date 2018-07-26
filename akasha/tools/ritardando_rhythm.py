@@ -5,8 +5,8 @@ from abjadext import rmakers
 
 def ritardando_rhythm(
     division_expression=None,
-    division_mask=None,
-    lt_mask=None,
+    dmask=None,
+    ltmask=None,
     ):
     """
     Makes ritardando rhythm.
@@ -21,13 +21,13 @@ def ritardando_rhythm(
         expression = expression.map(baca.sequence().sum()).flatten(depth=-1)
         division_expression = expression
 
-    if division_mask is not None:
-        division_masks = [division_mask]
+    if dmask is not None:
+        division_masks = [dmask]
     else:
         division_masks = None
 
-    if lt_mask is not None:
-        logical_tie_masks = [lt_mask]
+    if ltmask is not None:
+        logical_tie_masks = [ltmask]
     else:
         logical_tie_masks = None
 

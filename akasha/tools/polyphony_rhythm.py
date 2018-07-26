@@ -4,16 +4,16 @@ from abjadext import rmakers
 
 
 def polyphony_rhythm(
-    lt_mask=None,
+    ltmask=None,
     rotation=0,
     ):
     """
     Makes polyphony rhythm.
     """
-    if lt_mask is None:
+    if ltmask is None:
         logical_tie_masks = None
     else:
-        logical_tie_masks = [lt_mask]
+        logical_tie_masks = [ltmask]
     counts = abjad.sequence([4, 14, 4, 6, 18])
     counts = counts.rotate(n=rotation)
     return baca.rhythm(
