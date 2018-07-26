@@ -282,7 +282,10 @@ maker(
 
 maker(
     ('v1', (23, 32)),
-    baca.hairpin('mf > pp'),
+    baca.hairpin(
+        'mf > pp',
+        selector=baca.tleaves(),
+        ),
     baca.markup('leggieriss. (senza scratch)'),
     )
 
@@ -321,7 +324,10 @@ maker(
 
 maker(
     ('v2', (23, 32)),
-    baca.hairpin('mf > pp'),
+    baca.hairpin(
+        'mf > pp',
+        selector=baca.tleaves(),
+        ),
     )
 
 maker(
@@ -368,7 +374,10 @@ maker(
 
 maker(
     ('vc', (23, 32)),
-    baca.hairpin('mf > pp'),
+    baca.hairpin(
+        'mf > pp',
+        selector=baca.tleaves(),
+        ),
     baca.staccato(selector=baca.pheads()),
     )
 
