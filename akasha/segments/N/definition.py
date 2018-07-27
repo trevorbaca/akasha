@@ -75,7 +75,6 @@ maker(
     baca.clef('percussion'),
     baca.dynamic('"mf"'),
     baca.markup('full bow strokes: temrinate each not abruptly'),
-    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )

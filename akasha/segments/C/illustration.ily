@@ -515,7 +515,6 @@ C_ViolinIMusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                  %! OC1
-    \override RepeatTie.direction = #up                                    %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b'1.
@@ -525,6 +524,7 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 44 / measure 10]                        %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolinIMusicVoice measure 45 / measure 11]                        %! SM4
@@ -533,6 +533,7 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 46 / measure 12]                        %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolinIMusicVoice measure 47 / measure 13]                        %! SM4
@@ -584,8 +585,8 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 60 / measure 26]                        %! SM4
     b'1.
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     % [C ViolinIMusicVoice measure 61 / measure 27]                        %! SM4
     R1 * 1/4
@@ -674,7 +675,6 @@ C_ViolinIIMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b'1.
@@ -683,6 +683,7 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 44 / measure 10]                       %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolinIIMusicVoice measure 45 / measure 11]                       %! SM4
@@ -691,6 +692,7 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 46 / measure 12]                       %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolinIIMusicVoice measure 47 / measure 13]                       %! SM4
@@ -733,7 +735,6 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 57 / measure 23]                       %! SM4
     b'1
-    \revert RepeatTie.direction                                            %! OC2
     
     % [C ViolinIIMusicVoice measure 58 / measure 24]                       %! SM4
     R1 * 1/4

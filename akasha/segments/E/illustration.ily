@@ -3709,7 +3709,6 @@ E_ViolaMusicVoice = {
             Va.                                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \override RepeatTie.direction = #up                                    %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'4
     \baca_effort_mf                                                        %! SM8:EXPLICIT_DYNAMIC:IC
@@ -4195,7 +4194,6 @@ E_ViolaMusicVoice = {
     
     c'4
     -\downbow                                                              %! IC
-    \revert RepeatTie.direction                                            %! OC2
     
     r8
     

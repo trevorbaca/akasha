@@ -335,7 +335,6 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('"mf"'),
     baca.markup('OB'),
-    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )

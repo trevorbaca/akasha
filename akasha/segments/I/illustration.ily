@@ -1430,6 +1430,7 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b'1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
@@ -1449,6 +1450,7 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b'1
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
@@ -1457,6 +1459,7 @@ I_ViolinIMusicVoice = {
     
     % [I ViolinIMusicVoice measure 259 / measure 36]                       %! SM4
     b'1.
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolinIMusicVoice measure 260 / measure 37]                       %! SM4
