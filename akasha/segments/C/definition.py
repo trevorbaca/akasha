@@ -169,7 +169,6 @@ maker(
         baca.bar_extent((-2, 2)),
         baca.bar_extent_zero(),
         ),
-    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )

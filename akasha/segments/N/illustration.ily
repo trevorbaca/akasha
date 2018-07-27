@@ -375,7 +375,6 @@ N_ViolinIMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
 %%% \once \override Staff.Clef.X-extent = ##f                              %! OC1:MEASURE_369:SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! OC1:MEASURE_369:SHIFTED_CLEF
     \clef "percussion"                                                     %! SM8:EXPLICIT_CLEF:IC
@@ -467,7 +466,6 @@ N_ViolinIMusicVoice = {
     % [N ViolinIMusicVoice measure 383 / measure 15]                       %! SM4
     c'1
     -\upbow                                                                %! IC
-    \revert RepeatTie.direction                                            %! OC2
     
     % [N ViolinIMusicVoice measure 384 / measure 16]                       %! SM4
     r2.
@@ -717,7 +715,6 @@ N_ViolaMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
 %%% \once \override Staff.Clef.X-extent = ##f                              %! OC1:MEASURE_369:SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! OC1:MEASURE_369:SHIFTED_CLEF
     \clef "percussion"                                                     %! SM8:EXPLICIT_CLEF:IC
@@ -809,7 +806,6 @@ N_ViolaMusicVoice = {
     % [N ViolaMusicVoice measure 383 / measure 15]                         %! SM4
     c'1
     -\upbow                                                                %! IC
-    \revert RepeatTie.direction                                            %! OC2
     
     % [N ViolaMusicVoice measure 384 / measure 16]                         %! SM4
     r2.
@@ -871,7 +867,6 @@ N_CelloMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
 %%% \once \override Staff.Clef.X-extent = ##f                              %! OC1:MEASURE_369:SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! OC1:MEASURE_369:SHIFTED_CLEF
     \clef "percussion"                                                     %! SM8:EXPLICIT_CLEF:IC
@@ -963,7 +958,6 @@ N_CelloMusicVoice = {
     % [N CelloMusicVoice measure 383 / measure 15]                         %! SM4
     c'1
     -\upbow                                                                %! IC
-    \revert RepeatTie.direction                                            %! OC2
     
     % [N CelloMusicVoice measure 384 / measure 16]                         %! SM4
     r2.

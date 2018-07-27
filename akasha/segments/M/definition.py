@@ -82,7 +82,6 @@ maker(
 maker(
     ('v1', (7, 28)),
     baca.pitch('Bb4'),
-    baca.repeat_tie_up(),
     )
 
 maker(

@@ -567,7 +567,6 @@ M_ViolinIMusicVoice = {
     R1 * 5/4
     
     % [M ViolinIMusicVoice measure 346 / measure 7]                        %! SM4
-    \override RepeatTie.direction = #up                                    %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf'!2.
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
@@ -579,22 +578,27 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 348 / measure 9]                        %! SM4
     bf'!1.
+    - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 349 / measure 10]                       %! SM4
     bf'!1.
+    - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 350 / measure 11]                       %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 351 / measure 12]                       %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 352 / measure 13]                       %! SM4
     bf'!1.
+    - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
@@ -605,6 +609,7 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 353 / measure 14]                       %! SM4
     bf'!1.
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
@@ -620,6 +625,7 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 355 / measure 16]                       %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
@@ -657,6 +663,7 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 360 / measure 21]                       %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 361 / measure 22]                       %! SM4
@@ -669,6 +676,7 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 362 / measure 23]                       %! SM4
     bf'!1.
+    - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
@@ -679,11 +687,13 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 363 / measure 24]                       %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
     % [M ViolinIMusicVoice measure 364 / measure 25]                       %! SM4
     bf'!1.
+    - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
@@ -694,11 +704,13 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 365 / measure 26]                       %! SM4
     bf'!1.
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PIC
     
     % [M ViolinIMusicVoice measure 366 / measure 27]                       %! SM4
     bf'!1.
+    - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
@@ -709,9 +721,9 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 367 / measure 28]                       %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PIC
-    \revert RepeatTie.direction                                            %! OC2
     
     % [M ViolinIMusicVoice measure 368 / measure 29]                       %! SM4
     R1 * 1/4

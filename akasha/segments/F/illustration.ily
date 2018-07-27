@@ -3893,6 +3893,7 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 165 / measure 14]                         %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [F ViolaMusicVoice measure 166 / measure 15]                         %! SM4
@@ -3907,6 +3908,7 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 167 / measure 16]                         %! SM4
     cs'!1.
+    - \tweak direction #up
     \repeatTie
     
     % [F ViolaMusicVoice measure 168 / measure 17]                         %! SM4
