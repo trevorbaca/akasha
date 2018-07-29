@@ -12,4 +12,4 @@ of Harvard University.
 
 (Akasha, measures 191 - 192.)
 
-![Full recording by the JACK Quartet](https://soundcloud.com/trevorbaca/akasha)
+[Full recording by the JACK Quartet](https://soundcloud.com/trevorbaca/akasha)
