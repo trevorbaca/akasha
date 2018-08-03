@@ -1258,7 +1258,7 @@ K_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a''4.
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "PO senza vib."    %! PIC
@@ -1357,7 +1357,7 @@ K_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a''2..
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "pos. ord."        %! PIC
@@ -1422,7 +1422,7 @@ K_ViolinIMusicVoice = {
     b''''2.
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "pos. ord. + 9°/A4(II)" }                                  %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan
     
@@ -1447,7 +1447,7 @@ K_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b''''4.
     \sf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "pos. ord."        %! PIC
@@ -1801,8 +1801,8 @@ K_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'4.
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
-    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "PO senza vib."    %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XP"             %! PIC
@@ -1900,8 +1900,8 @@ K_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'2..
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
-    \>                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "pos. ord."        %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XT"             %! PIC
@@ -1954,7 +1954,7 @@ K_ViolinIIMusicVoice = {
     cs''''!1
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "pos. ord. + 5°/A4(II)" }                                  %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan
     
@@ -1990,7 +1990,7 @@ K_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     cs''''!4.
     \sf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
     \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "pos. ord."        %! PIC
@@ -2344,8 +2344,8 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,4.
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "PO senza vib."    %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XP"             %! PIC
@@ -2443,8 +2443,8 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,2..
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
+    \>                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "pos. ord."        %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XT"             %! PIC
@@ -2492,7 +2492,7 @@ K_ViolaMusicVoice = {
     gqf''!2..
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "pos. ord. + 7°/A2(IV)" }                                  %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
@@ -2534,7 +2534,7 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gqf''!4.
     \sf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "pos. ord."        %! PIC
@@ -2882,8 +2882,8 @@ K_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,,4.
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
-    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "PO senza vib."    %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XP"             %! PIC
@@ -2981,8 +2981,8 @@ K_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a,,2..
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
-    \>                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "pos. ord."        %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XT"             %! PIC
@@ -3025,7 +3025,7 @@ K_CelloMusicVoice = {
     d''2.
     \baca_sffp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "pos. ord. + 11°/A1(IV)" }                                 %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
@@ -3075,8 +3075,8 @@ K_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d''4.
     \sf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
-    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "pos. ord."        %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XP"             %! PIC

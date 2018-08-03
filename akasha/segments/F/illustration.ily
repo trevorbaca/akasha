@@ -1810,7 +1810,7 @@ F_ViolinIMusicVoice = {
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                                         %! IC
         ^ \markup { "pos. ord." }                                          %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
@@ -3149,8 +3149,8 @@ F_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs'!1
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
-    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
@@ -3204,7 +3204,7 @@ F_ViolinIIMusicVoice = {
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                                         %! IC
         ^ \markup { "pos. ord." }                                          %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
@@ -4067,7 +4067,7 @@ F_ViolaMusicVoice = {
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                                         %! IC
         ^ \markup { "pos. ord." }                                          %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
@@ -5105,7 +5105,7 @@ F_CelloMusicVoice = {
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                                         %! IC
         ^ \markup { "pos. ord." }                                          %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
