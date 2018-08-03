@@ -1218,7 +1218,8 @@ M_CelloMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -1324,9 +1325,10 @@ M_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     bf,,!2.
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [M CelloMusicVoice measure 359 / measure 20]                         %! SM4

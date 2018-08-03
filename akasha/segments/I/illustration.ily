@@ -816,7 +816,8 @@ I_ViolinIMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“ViolinI”)                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "PO + senza vib."  %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -852,7 +853,8 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b''1.
     \sfp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "senza vib."       %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -1083,7 +1085,8 @@ I_ViolinIMusicVoice = {
     b'1.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "XP + FB" }                                                %! IC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [I ViolinIMusicVoice measure 245 / measure 22]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -1276,7 +1279,8 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b'2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "XP+FB"            %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto+FB"       %! PIC
@@ -1415,7 +1419,8 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b'2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto + 1/2 scratch" %! PIC
@@ -1438,7 +1443,8 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b'1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
@@ -1513,7 +1519,8 @@ I_ViolinIIMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“ViolinI”)                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "PO + senza vib."  %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -1549,7 +1556,8 @@ I_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b1.
     \sfp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "senza vib."       %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -1574,7 +1582,8 @@ I_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     atqs!2.
     \sfp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "senza vib."       %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -1743,7 +1752,8 @@ I_ViolinIIMusicVoice = {
     b1.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "XP + FB" }                                                %! IC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     
     % [I ViolinIIMusicVoice measure 245 / measure 22]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -1761,7 +1771,8 @@ I_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "XP+FB"            %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto+FB"       %! PIC
@@ -1900,7 +1911,8 @@ I_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto + 1/2 scratch" %! PIC
@@ -1922,7 +1934,8 @@ I_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
@@ -1995,7 +2008,8 @@ I_ViolaMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Viola”)                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "PO + senza vib."  %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -2314,7 +2328,8 @@ I_ViolaMusicVoice = {
     b,1.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "XP + FB" }                                                %! IC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [I ViolaMusicVoice measure 245 / measure 22]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -2332,7 +2347,8 @@ I_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "XP+FB"            %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto+FB"       %! PIC
@@ -2421,7 +2437,8 @@ I_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto + 1/2 scratch" %! PIC
@@ -2443,7 +2460,8 @@ I_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
@@ -2512,7 +2530,8 @@ I_CelloMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "PO + senza vib."  %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -2548,7 +2567,8 @@ I_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,,1.
     \sfp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "senza vib."       %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -2573,7 +2593,8 @@ I_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,,2.
     \sfp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "senza vib."       %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -2605,7 +2626,8 @@ I_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,,2.
     \sfp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "senza vib."       %! PIC
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."  %! PIC
@@ -2713,7 +2735,8 @@ I_CelloMusicVoice = {
     b,,1.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "XP + FB" }                                                %! IC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     
     % [I CelloMusicVoice measure 245 / measure 22]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -2731,7 +2754,8 @@ I_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,,2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "XP+FB"            %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto+FB"       %! PIC
@@ -2822,7 +2846,8 @@ I_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,,2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "tasto + 1/2 scratch" %! PIC
@@ -2844,7 +2869,8 @@ I_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,,1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "scratch moltiss." %! PIC
