@@ -653,7 +653,8 @@ H_ViolaMusicVoice = {
         ds!1..
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { tasto }                                                %! IC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         \glissando                                                         %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -803,7 +804,8 @@ H_CelloMusicVoice = {
         cs,!1..
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { tasto }                                                %! IC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         \glissando                                                         %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC

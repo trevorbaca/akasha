@@ -1607,7 +1607,8 @@ D_ViolaMusicVoice = {
     ff!4.
     \sf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "tasto + senza vib." }                                     %! IC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \glissando                                                             %! SC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -1925,7 +1926,8 @@ D_CelloMusicVoice = {
     cs,!4.
     \sf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { tasto }                                                    %! IC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [D CelloMusicVoice measure 95 / measure 34]                          %! SM4
     cs,!2.
@@ -1976,7 +1978,8 @@ D_CelloMusicVoice = {
     df!1
     \sf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { tasto }                                                    %! IC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \glissando                                                             %! SC
     
     % [D CelloMusicVoice measure 105 / measure 44]                         %! SM4
