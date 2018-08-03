@@ -604,7 +604,7 @@ G_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs''!1
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
@@ -790,8 +790,8 @@ G_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d'1
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
-    \>                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XFB"            %! PIC
@@ -978,8 +978,8 @@ G_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef'!1
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
-    \>                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XFB"            %! PIC
@@ -1169,8 +1169,8 @@ G_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!1
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
-    \>                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PIC
     - \tweak bound-details.right.text \markup \baca-right "XFB"            %! PIC

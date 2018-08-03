@@ -1095,7 +1095,7 @@ E_ViolinIMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     -\staccato                                                             %! IC
     ^ \markup { "leggieriss. (senza scratch)" }                            %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     [
     
@@ -2512,7 +2512,7 @@ E_ViolinIIMusicVoice = {
     b16
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     -\staccato                                                             %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     [
     
@@ -4719,7 +4719,7 @@ E_CelloMusicVoice = {
         fs!16
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                                         %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         

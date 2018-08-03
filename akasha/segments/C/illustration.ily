@@ -864,7 +864,7 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef!1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \glissando                                                             %! SC
     
@@ -932,7 +932,7 @@ C_ViolaMusicVoice = {
     e1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { tasto }                                                    %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \glissando                                                             %! SC
     \times 2/3 {
@@ -1031,7 +1031,7 @@ C_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     cs,!1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [C CelloMusicVoice measure 44 / measure 10]                          %! SM4
@@ -1137,7 +1137,7 @@ C_CelloMusicVoice = {
     cs,!1.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { tasto }                                                    %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [C CelloMusicVoice measure 60 / measure 26]                          %! SM4
