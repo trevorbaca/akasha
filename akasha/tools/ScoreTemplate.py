@@ -35,39 +35,39 @@ class ScoreTemplate(baca.ScoreTemplate):
             {
                 \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
                 <<
-                    \tag ViolinI %! ST4
+                    \tag ViolinI %! ST_4
                     \context Staff = "ViolinIMusicStaff"
                     {
                         \context Voice = "ViolinIMusicVoice"
                         {
-                            \clef "treble" %! ST3
+                            \clef "treble" %! ST_3
                             s1
                         }
                     }
-                    \tag ViolinII %! ST4
+                    \tag ViolinII %! ST_4
                     \context Staff = "ViolinIIMusicStaff"
                     {
                         \context Voice = "ViolinIIMusicVoice"
                         {
-                            \clef "treble" %! ST3
+                            \clef "treble" %! ST_3
                             s1
                         }
                     }
-                    \tag viola %! ST4
+                    \tag viola %! ST_4
                     \context Staff = "ViolaMusicStaff"
                     {
                         \context Voice = "ViolaMusicVoice"
                         {
-                            \clef "alto" %! ST3
+                            \clef "alto" %! ST_3
                             s1
                         }
                     }
-                    \tag cello %! ST4
+                    \tag cello %! ST_4
                     \context Staff = "CelloMusicStaff"
                     {
                         \context Voice = "CelloMusicVoice"
                         {
-                            \clef "bass" %! ST3
+                            \clef "bass" %! ST_3
                             s1
                         }
                     }
