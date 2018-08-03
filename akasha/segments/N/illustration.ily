@@ -1,130 +1,130 @@
 N_GlobalRests = {
     
-    % [N GlobalRests measure 369 / measure 1]                                      %! SM4
+    % [N GlobalRests measure 369 / measure 1]                                      %! SM_4
     R1 * 3/8
     
-    % [N GlobalRests measure 370 / measure 2]                                      %! SM4
+    % [N GlobalRests measure 370 / measure 2]                                      %! SM_4
     R1 * 1/2
     
-    % [N GlobalRests measure 371 / measure 3]                                      %! SM4
+    % [N GlobalRests measure 371 / measure 3]                                      %! SM_4
     R1 * 7/8
     
-    % [N GlobalRests measure 372 / measure 4]                                      %! SM4
+    % [N GlobalRests measure 372 / measure 4]                                      %! SM_4
     R1 * 7/8
     
-    % [N GlobalRests measure 373 / measure 5]                                      %! SM4
+    % [N GlobalRests measure 373 / measure 5]                                      %! SM_4
     R1 * 3/8
     
-    % [N GlobalRests measure 374 / measure 6]                                      %! SM4
+    % [N GlobalRests measure 374 / measure 6]                                      %! SM_4
     R1 * 3/4
     
-    % [N GlobalRests measure 375 / measure 7]                                      %! SM4
+    % [N GlobalRests measure 375 / measure 7]                                      %! SM_4
     R1 * 9/8
     
-    % [N GlobalRests measure 376 / measure 8]                                      %! SM4
+    % [N GlobalRests measure 376 / measure 8]                                      %! SM_4
     R1 * 9/8
     
-    % [N GlobalRests measure 377 / measure 9]                                      %! SM4
+    % [N GlobalRests measure 377 / measure 9]                                      %! SM_4
     R1 * 1/2
     
-    % [N GlobalRests measure 378 / measure 10]                                     %! SM4
+    % [N GlobalRests measure 378 / measure 10]                                     %! SM_4
     R1 * 1
     
-    % [N GlobalRests measure 379 / measure 11]                                     %! SM4
+    % [N GlobalRests measure 379 / measure 11]                                     %! SM_4
     R1 * 3/4
     
-    % [N GlobalRests measure 380 / measure 12]                                     %! SM4
+    % [N GlobalRests measure 380 / measure 12]                                     %! SM_4
     R1 * 7/8
     
-    % [N GlobalRests measure 381 / measure 13]                                     %! SM4
+    % [N GlobalRests measure 381 / measure 13]                                     %! SM_4
     R1 * 7/8
     
-    % [N GlobalRests measure 382 / measure 14]                                     %! SM4
+    % [N GlobalRests measure 382 / measure 14]                                     %! SM_4
     R1 * 3/8
     
-    % [N GlobalRests measure 383 / measure 15]                                     %! SM4
+    % [N GlobalRests measure 383 / measure 15]                                     %! SM_4
     R1 * 1
     
-    % [N GlobalRests measure 384 / measure 16]                                     %! SM4
+    % [N GlobalRests measure 384 / measure 16]                                     %! SM_4
     R1 * 9/8
     
-    % [N GlobalRests measure 385 / measure 17]                                     %! SM4
+    % [N GlobalRests measure 385 / measure 17]                                     %! SM_4
     R1 * 9/8
     
-    % [N GlobalRests measure 386 / measure 18]                                     %! SM4
+    % [N GlobalRests measure 386 / measure 18]                                     %! SM_4
     R1 * 1/2
     
-    % [N GlobalRests measure 387 / measure 19]                                     %! SM4
+    % [N GlobalRests measure 387 / measure 19]                                     %! SM_4
     R1 * 1/2
     
-    % [N GlobalRests measure 388 / measure 20]                                     %! SM4
+    % [N GlobalRests measure 388 / measure 20]                                     %! SM_4
     R1 * 3/8
     
-    % [N GlobalRests measure 389 / measure 21]                                     %! SM4
+    % [N GlobalRests measure 389 / measure 21]                                     %! SM_4
     R1 * 1/2
     
-    % [N GlobalRests measure 390 / measure 22]                                     %! SM4
+    % [N GlobalRests measure 390 / measure 22]                                     %! SM_4
     R1 * 1
     
-    % [N GlobalRests measure 391 / measure 23]                                     %! SM4
+    % [N GlobalRests measure 391 / measure 23]                                     %! SM_4
     R1 * 9/8
     
-    % [N GlobalRests measure 392 / measure 24]                                     %! SM4
+    % [N GlobalRests measure 392 / measure 24]                                     %! SM_4
     R1 * 9/8
     
-    % [N GlobalRests measure 393 / measure 25]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
-    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
+    % [N GlobalRests measure 393 / measure 25]                                     %! SM_4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC_2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC_2
     R1 * 1/4
-    ^ \markup {                                                                    %! GFC1
-        \musicglyph                                                                %! GFC1
-            #"scripts.uverylongfermata"                                            %! GFC1
-        }                                                                          %! GFC1
+    ^ \markup {                                                                    %! GFC_1
+        \musicglyph                                                                %! GFC_1
+            #"scripts.uverylongfermata"                                            %! GFC_1
+        }                                                                          %! GFC_1
     
 }
 
 
 N_GlobalSkips = {
     
-    % [N GlobalSkips measure 369 / measure 1]                                      %! SM4
+    % [N GlobalSkips measure 369 / measure 1]                                      %! SM_4
     \once \override GlobalContext.RehearsalMark.Y-offset = #5                      %! OC1
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \mark #14                                                                      %! IC
     \bar ""                                                                        %! SM2:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/8
 %@% ^ \markup \baca-dark-cyan-markup (369)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <0>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [N.1]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[19'49'']"                                   %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI1
-%@% - \abjad_invisible_line                                                        %! MMI2
-%@% - \tweak bound-details.left.text \markup {                                     %! MMI2
-%@%     \concat                                                                    %! MMI2
-%@%         {                                                                      %! MMI2
-%@%             \abjad-metronome-mark-markup #2 #0 #1 #"89"                        %! MMI2
-%@%             \hspace                                                            %! MMI2
-%@%                 #0.5                                                           %! MMI2
-%@%         }                                                                      %! MMI2
-%@%     }                                                                          %! MMI2
-%@% \startTextSpan                                                                 %! MMI2
-    - \abjad_invisible_line                                                        %! MMI3
-    - \tweak bound-details.left.text \markup {                                     %! MMI3
-        \concat                                                                    %! MMI3
-            {                                                                      %! MMI3
-                \with-color                                                        %! MMI3
-                    #(x11-color 'blue)                                             %! MMI3
-                    \abjad-metronome-mark-markup #2 #0 #1 #"89"                    %! MMI3
-                \hspace                                                            %! MMI3
-                    #0.5                                                           %! MMI3
-            }                                                                      %! MMI3
-        }                                                                          %! MMI3
-    \startTextSpan                                                                 %! MMI3
+    \stopTextSpan                                                                  %! MMI_1
+%@% - \abjad_invisible_line                                                        %! MMI_2
+%@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
+%@%     \concat                                                                    %! MMI_2
+%@%         {                                                                      %! MMI_2
+%@%             \abjad-metronome-mark-markup #2 #0 #1 #"89"                        %! MMI_2
+%@%             \hspace                                                            %! MMI_2
+%@%                 #0.5                                                           %! MMI_2
+%@%         }                                                                      %! MMI_2
+%@%     }                                                                          %! MMI_2
+%@% \startTextSpan                                                                 %! MMI_2
+    - \abjad_invisible_line                                                        %! MMI_3
+    - \tweak bound-details.left.text \markup {                                     %! MMI_3
+        \concat                                                                    %! MMI_3
+            {                                                                      %! MMI_3
+                \with-color                                                        %! MMI_3
+                    #(x11-color 'blue)                                             %! MMI_3
+                    \abjad-metronome-mark-markup #2 #0 #1 #"89"                    %! MMI_3
+                \hspace                                                            %! MMI_3
+                    #0.5                                                           %! MMI_3
+            }                                                                      %! MMI_3
+        }                                                                          %! MMI_3
+    \startTextSpan                                                                 %! MMI_3
     
-    % [N GlobalSkips measure 370 / measure 2]                                      %! SM4
-    \time 4/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 370 / measure 2]                                      %! SM_4
+    \time 4/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/2
 %@% ^ \markup \baca-dark-cyan-markup (370)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <1>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -132,9 +132,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.2]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[19'50'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 371 / measure 3]                                      %! SM4
-    \time 7/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 371 / measure 3]                                      %! SM_4
+    \time 7/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 7/8
 %@% ^ \markup \baca-dark-cyan-markup (371)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <2>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -142,7 +142,7 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.3]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[19'51'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 372 / measure 4]                                      %! SM4
+    % [N GlobalSkips measure 372 / measure 4]                                      %! SM_4
     s1 * 7/8
 %@% ^ \markup \baca-dark-cyan-markup (372)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <3>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -150,9 +150,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.4]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[19'53'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 373 / measure 5]                                      %! SM4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 373 / measure 5]                                      %! SM_4
+    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/8
 %@% ^ \markup \baca-dark-cyan-markup (373)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <4>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -160,9 +160,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.5]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[19'56'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 374 / measure 6]                                      %! SM4
-    \time 6/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 374 / measure 6]                                      %! SM_4
+    \time 6/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (374)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <5>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -170,9 +170,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.6]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[19'57'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 375 / measure 7]                                      %! SM4
-    \time 9/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 375 / measure 7]                                      %! SM_4
+    \time 9/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 9/8
 %@% ^ \markup \baca-dark-cyan-markup (375)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <6>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -180,7 +180,7 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.7]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[19'59'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 376 / measure 8]                                      %! SM4
+    % [N GlobalSkips measure 376 / measure 8]                                      %! SM_4
     s1 * 9/8
 %@% ^ \markup \baca-dark-cyan-markup (376)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <7>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -188,9 +188,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.8]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'02'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 377 / measure 9]                                      %! SM4
-    \time 4/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 377 / measure 9]                                      %! SM_4
+    \time 4/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/2
 %@% ^ \markup \baca-dark-cyan-markup (377)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <8>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -198,9 +198,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.9]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'05'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 378 / measure 10]                                     %! SM4
-    \time 8/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 378 / measure 10]                                     %! SM_4
+    \time 8/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (378)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <9>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -208,9 +208,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.10]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'06'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 379 / measure 11]                                     %! SM4
-    \time 6/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 379 / measure 11]                                     %! SM_4
+    \time 6/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (379)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <10>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -218,9 +218,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.11]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'09'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 380 / measure 12]                                     %! SM4
-    \time 7/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 380 / measure 12]                                     %! SM_4
+    \time 7/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 7/8
 %@% ^ \markup \baca-dark-cyan-markup (380)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <11>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -228,7 +228,7 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.12]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'11'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 381 / measure 13]                                     %! SM4
+    % [N GlobalSkips measure 381 / measure 13]                                     %! SM_4
     s1 * 7/8
 %@% ^ \markup \baca-dark-cyan-markup (381)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <12>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -236,9 +236,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.13]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'13'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 382 / measure 14]                                     %! SM4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 382 / measure 14]                                     %! SM_4
+    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/8
 %@% ^ \markup \baca-dark-cyan-markup (382)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <13>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -246,9 +246,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.14]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'15'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 383 / measure 15]                                     %! SM4
-    \time 8/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 383 / measure 15]                                     %! SM_4
+    \time 8/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (383)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <14>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -256,9 +256,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.15]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'16'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 384 / measure 16]                                     %! SM4
-    \time 9/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 384 / measure 16]                                     %! SM_4
+    \time 9/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 9/8
 %@% ^ \markup \baca-dark-cyan-markup (384)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <15>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -266,7 +266,7 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.16]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'19'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 385 / measure 17]                                     %! SM4
+    % [N GlobalSkips measure 385 / measure 17]                                     %! SM_4
     s1 * 9/8
 %@% ^ \markup \baca-dark-cyan-markup (385)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <16>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -274,9 +274,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.17]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'22'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 386 / measure 18]                                     %! SM4
-    \time 4/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 386 / measure 18]                                     %! SM_4
+    \time 4/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/2
 %@% ^ \markup \baca-dark-cyan-markup (386)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <17>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -284,7 +284,7 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.18]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'25'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 387 / measure 19]                                     %! SM4
+    % [N GlobalSkips measure 387 / measure 19]                                     %! SM_4
     s1 * 1/2
 %@% ^ \markup \baca-dark-cyan-markup (387)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <18>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -292,9 +292,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.19]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'27'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 388 / measure 20]                                     %! SM4
-    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 388 / measure 20]                                     %! SM_4
+    \time 3/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/8
 %@% ^ \markup \baca-dark-cyan-markup (388)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <19>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -302,9 +302,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.20]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'28'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 389 / measure 21]                                     %! SM4
-    \time 4/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 389 / measure 21]                                     %! SM_4
+    \time 4/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/2
 %@% ^ \markup \baca-dark-cyan-markup (389)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <20>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -312,9 +312,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.21]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'29'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 390 / measure 22]                                     %! SM4
-    \time 8/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 390 / measure 22]                                     %! SM_4
+    \time 8/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (390)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <21>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -322,9 +322,9 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.22]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'30'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 391 / measure 23]                                     %! SM4
-    \time 9/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 391 / measure 23]                                     %! SM_4
+    \time 9/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 9/8
 %@% ^ \markup \baca-dark-cyan-markup (391)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <22>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -332,7 +332,7 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.23]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'33'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 392 / measure 24]                                     %! SM4
+    % [N GlobalSkips measure 392 / measure 24]                                     %! SM_4
     s1 * 9/8
 %@% ^ \markup \baca-dark-cyan-markup (392)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <23>                                          %! SM32:MEASURE_INDEX_MARKUP
@@ -340,25 +340,25 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.24]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'36'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [N GlobalSkips measure 393 / measure 25]                                     %! SM4
-    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [N GlobalSkips measure 393 / measure 25]                                     %! SM_4
+    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/4
 %@% ^ \markup \baca-dark-cyan-markup (393)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <24>                                          %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((25))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [N.25]                                        %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[20'39'']"                                   %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI4
-    \baca_bar_line_visible                                                         %! SM5
-    \bar "|."                                                                      %! SM5
+    \stopTextSpan                                                                  %! MMI_4
+    \baca_bar_line_visible                                                         %! SM_5
+    \bar "|."                                                                      %! SM_5
     
 }
 
 
 N_ViolinIMusicVoice = {
     
-    % [N ViolinIMusicVoice measure 369 / measure 1]                        %! SM4
+    % [N ViolinIMusicVoice measure 369 / measure 1]                        %! SM_4
     \set Staff.instrumentName =                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -413,90 +413,90 @@ N_ViolinIMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [N ViolinIMusicVoice measure 370 / measure 2]                        %! SM4
+    % [N ViolinIMusicVoice measure 370 / measure 2]                        %! SM_4
     r2
     
-    % [N ViolinIMusicVoice measure 371 / measure 3]                        %! SM4
+    % [N ViolinIMusicVoice measure 371 / measure 3]                        %! SM_4
     c'2..
     -\upbow                                                                %! IC
     
-    % [N ViolinIMusicVoice measure 372 / measure 4]                        %! SM4
+    % [N ViolinIMusicVoice measure 372 / measure 4]                        %! SM_4
     r2..
     
-    % [N ViolinIMusicVoice measure 373 / measure 5]                        %! SM4
+    % [N ViolinIMusicVoice measure 373 / measure 5]                        %! SM_4
     c'4.
     -\downbow                                                              %! IC
     
-    % [N ViolinIMusicVoice measure 374 / measure 6]                        %! SM4
+    % [N ViolinIMusicVoice measure 374 / measure 6]                        %! SM_4
     r2.
     
-    % [N ViolinIMusicVoice measure 375 / measure 7]                        %! SM4
+    % [N ViolinIMusicVoice measure 375 / measure 7]                        %! SM_4
     c'2.
     -\upbow                                                                %! IC
     
     c'4.
     \repeatTie
     
-    % [N ViolinIMusicVoice measure 376 / measure 8]                        %! SM4
+    % [N ViolinIMusicVoice measure 376 / measure 8]                        %! SM_4
     r2.
     
     r4.
     
-    % [N ViolinIMusicVoice measure 377 / measure 9]                        %! SM4
+    % [N ViolinIMusicVoice measure 377 / measure 9]                        %! SM_4
     c'2
     -\downbow                                                              %! IC
     
-    % [N ViolinIMusicVoice measure 378 / measure 10]                       %! SM4
+    % [N ViolinIMusicVoice measure 378 / measure 10]                       %! SM_4
     r1
     
-    % [N ViolinIMusicVoice measure 379 / measure 11]                       %! SM4
+    % [N ViolinIMusicVoice measure 379 / measure 11]                       %! SM_4
     c'2.
     -\upbow                                                                %! IC
     
-    % [N ViolinIMusicVoice measure 380 / measure 12]                       %! SM4
+    % [N ViolinIMusicVoice measure 380 / measure 12]                       %! SM_4
     r2..
     
-    % [N ViolinIMusicVoice measure 381 / measure 13]                       %! SM4
+    % [N ViolinIMusicVoice measure 381 / measure 13]                       %! SM_4
     c'2..
     -\downbow                                                              %! IC
     
-    % [N ViolinIMusicVoice measure 382 / measure 14]                       %! SM4
+    % [N ViolinIMusicVoice measure 382 / measure 14]                       %! SM_4
     r4.
     
-    % [N ViolinIMusicVoice measure 383 / measure 15]                       %! SM4
+    % [N ViolinIMusicVoice measure 383 / measure 15]                       %! SM_4
     c'1
     -\upbow                                                                %! IC
     
-    % [N ViolinIMusicVoice measure 384 / measure 16]                       %! SM4
+    % [N ViolinIMusicVoice measure 384 / measure 16]                       %! SM_4
     r2.
     
     r4.
     
-    % [N ViolinIMusicVoice measure 385 / measure 17]                       %! SM4
+    % [N ViolinIMusicVoice measure 385 / measure 17]                       %! SM_4
     R1 * 9/8
     
-    % [N ViolinIMusicVoice measure 386 / measure 18]                       %! SM4
+    % [N ViolinIMusicVoice measure 386 / measure 18]                       %! SM_4
     R1 * 1/2
     
-    % [N ViolinIMusicVoice measure 387 / measure 19]                       %! SM4
+    % [N ViolinIMusicVoice measure 387 / measure 19]                       %! SM_4
     R1 * 1/2
     
-    % [N ViolinIMusicVoice measure 388 / measure 20]                       %! SM4
+    % [N ViolinIMusicVoice measure 388 / measure 20]                       %! SM_4
     R1 * 3/8
     
-    % [N ViolinIMusicVoice measure 389 / measure 21]                       %! SM4
+    % [N ViolinIMusicVoice measure 389 / measure 21]                       %! SM_4
     R1 * 1/2
     
-    % [N ViolinIMusicVoice measure 390 / measure 22]                       %! SM4
+    % [N ViolinIMusicVoice measure 390 / measure 22]                       %! SM_4
     R1 * 1
     
-    % [N ViolinIMusicVoice measure 391 / measure 23]                       %! SM4
+    % [N ViolinIMusicVoice measure 391 / measure 23]                       %! SM_4
     R1 * 9/8
     
-    % [N ViolinIMusicVoice measure 392 / measure 24]                       %! SM4
+    % [N ViolinIMusicVoice measure 392 / measure 24]                       %! SM_4
     R1 * 9/8
     
-    % [N ViolinIMusicVoice measure 393 / measure 25]                       %! SM4
+    % [N ViolinIMusicVoice measure 393 / measure 25]                       %! SM_4
     R1 * 1/4
     
 }
@@ -510,7 +510,7 @@ N_ViolinIMusicStaff = {
 
 N_ViolinIIMusicVoice = {
     
-    % [N ViolinIIMusicVoice measure 369 / measure 1]                       %! SM4
+    % [N ViolinIIMusicVoice measure 369 / measure 1]                       %! SM_4
     \set Staff.instrumentName =                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -560,31 +560,31 @@ N_ViolinIIMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [N ViolinIIMusicVoice measure 370 / measure 2]                       %! SM4
+    % [N ViolinIIMusicVoice measure 370 / measure 2]                       %! SM_4
     R1 * 1/2
     
-    % [N ViolinIIMusicVoice measure 371 / measure 3]                       %! SM4
+    % [N ViolinIIMusicVoice measure 371 / measure 3]                       %! SM_4
     R1 * 7/8
     
-    % [N ViolinIIMusicVoice measure 372 / measure 4]                       %! SM4
+    % [N ViolinIIMusicVoice measure 372 / measure 4]                       %! SM_4
     R1 * 7/8
     
-    % [N ViolinIIMusicVoice measure 373 / measure 5]                       %! SM4
+    % [N ViolinIIMusicVoice measure 373 / measure 5]                       %! SM_4
     R1 * 3/8
     
-    % [N ViolinIIMusicVoice measure 374 / measure 6]                       %! SM4
+    % [N ViolinIIMusicVoice measure 374 / measure 6]                       %! SM_4
     R1 * 3/4
     
-    % [N ViolinIIMusicVoice measure 375 / measure 7]                       %! SM4
+    % [N ViolinIIMusicVoice measure 375 / measure 7]                       %! SM_4
     R1 * 9/8
     
-    % [N ViolinIIMusicVoice measure 376 / measure 8]                       %! SM4
+    % [N ViolinIIMusicVoice measure 376 / measure 8]                       %! SM_4
     R1 * 9/8
     
-    % [N ViolinIIMusicVoice measure 377 / measure 9]                       %! SM4
+    % [N ViolinIIMusicVoice measure 377 / measure 9]                       %! SM_4
     r2
     
-    % [N ViolinIIMusicVoice measure 378 / measure 10]                      %! SM4
+    % [N ViolinIIMusicVoice measure 378 / measure 10]                      %! SM_4
     r4
     \times 8/9 {
         
@@ -609,35 +609,35 @@ N_ViolinIIMusicVoice = {
     
     r2
     
-    % [N ViolinIIMusicVoice measure 379 / measure 11]                      %! SM4
+    % [N ViolinIIMusicVoice measure 379 / measure 11]                      %! SM_4
     r2.
     
-    % [N ViolinIIMusicVoice measure 380 / measure 12]                      %! SM4
+    % [N ViolinIIMusicVoice measure 380 / measure 12]                      %! SM_4
     r2..
     
-    % [N ViolinIIMusicVoice measure 381 / measure 13]                      %! SM4
+    % [N ViolinIIMusicVoice measure 381 / measure 13]                      %! SM_4
     r2..
     
-    % [N ViolinIIMusicVoice measure 382 / measure 14]                      %! SM4
+    % [N ViolinIIMusicVoice measure 382 / measure 14]                      %! SM_4
     r4.
     
-    % [N ViolinIIMusicVoice measure 383 / measure 15]                      %! SM4
+    % [N ViolinIIMusicVoice measure 383 / measure 15]                      %! SM_4
     r1
     
-    % [N ViolinIIMusicVoice measure 384 / measure 16]                      %! SM4
+    % [N ViolinIIMusicVoice measure 384 / measure 16]                      %! SM_4
     r2.
     
     r4.
     
-    % [N ViolinIIMusicVoice measure 385 / measure 17]                      %! SM4
+    % [N ViolinIIMusicVoice measure 385 / measure 17]                      %! SM_4
     r2.
     
     r4.
     
-    % [N ViolinIIMusicVoice measure 386 / measure 18]                      %! SM4
+    % [N ViolinIIMusicVoice measure 386 / measure 18]                      %! SM_4
     r2
     
-    % [N ViolinIIMusicVoice measure 387 / measure 19]                      %! SM4
+    % [N ViolinIIMusicVoice measure 387 / measure 19]                      %! SM_4
     r4
     \times 8/9 {
         
@@ -652,7 +652,7 @@ N_ViolinIIMusicVoice = {
     }
     \times 8/9 {
         
-        % [N ViolinIIMusicVoice measure 388 / measure 20]                  %! SM4
+        % [N ViolinIIMusicVoice measure 388 / measure 20]                  %! SM_4
         r8.
         
         g'''32
@@ -669,23 +669,23 @@ N_ViolinIIMusicVoice = {
     
     r8
     
-    % [N ViolinIIMusicVoice measure 389 / measure 21]                      %! SM4
+    % [N ViolinIIMusicVoice measure 389 / measure 21]                      %! SM_4
     r2
     
-    % [N ViolinIIMusicVoice measure 390 / measure 22]                      %! SM4
+    % [N ViolinIIMusicVoice measure 390 / measure 22]                      %! SM_4
     r1
     
-    % [N ViolinIIMusicVoice measure 391 / measure 23]                      %! SM4
+    % [N ViolinIIMusicVoice measure 391 / measure 23]                      %! SM_4
     r2.
     
     r4.
     
-    % [N ViolinIIMusicVoice measure 392 / measure 24]                      %! SM4
+    % [N ViolinIIMusicVoice measure 392 / measure 24]                      %! SM_4
     r2.
     
     r4.
     
-    % [N ViolinIIMusicVoice measure 393 / measure 25]                      %! SM4
+    % [N ViolinIIMusicVoice measure 393 / measure 25]                      %! SM_4
     R1 * 1/4
     
 }
@@ -699,7 +699,7 @@ N_ViolinIIMusicStaff = {
 
 N_ViolaMusicVoice = {
     
-    % [N ViolaMusicVoice measure 369 / measure 1]                          %! SM4
+    % [N ViolaMusicVoice measure 369 / measure 1]                          %! SM_4
     \set Staff.instrumentName =                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -753,90 +753,90 @@ N_ViolaMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [N ViolaMusicVoice measure 370 / measure 2]                          %! SM4
+    % [N ViolaMusicVoice measure 370 / measure 2]                          %! SM_4
     r2
     
-    % [N ViolaMusicVoice measure 371 / measure 3]                          %! SM4
+    % [N ViolaMusicVoice measure 371 / measure 3]                          %! SM_4
     c'2..
     -\upbow                                                                %! IC
     
-    % [N ViolaMusicVoice measure 372 / measure 4]                          %! SM4
+    % [N ViolaMusicVoice measure 372 / measure 4]                          %! SM_4
     r2..
     
-    % [N ViolaMusicVoice measure 373 / measure 5]                          %! SM4
+    % [N ViolaMusicVoice measure 373 / measure 5]                          %! SM_4
     c'4.
     -\downbow                                                              %! IC
     
-    % [N ViolaMusicVoice measure 374 / measure 6]                          %! SM4
+    % [N ViolaMusicVoice measure 374 / measure 6]                          %! SM_4
     r2.
     
-    % [N ViolaMusicVoice measure 375 / measure 7]                          %! SM4
+    % [N ViolaMusicVoice measure 375 / measure 7]                          %! SM_4
     c'2.
     -\upbow                                                                %! IC
     
     c'4.
     \repeatTie
     
-    % [N ViolaMusicVoice measure 376 / measure 8]                          %! SM4
+    % [N ViolaMusicVoice measure 376 / measure 8]                          %! SM_4
     r2.
     
     r4.
     
-    % [N ViolaMusicVoice measure 377 / measure 9]                          %! SM4
+    % [N ViolaMusicVoice measure 377 / measure 9]                          %! SM_4
     c'2
     -\downbow                                                              %! IC
     
-    % [N ViolaMusicVoice measure 378 / measure 10]                         %! SM4
+    % [N ViolaMusicVoice measure 378 / measure 10]                         %! SM_4
     r1
     
-    % [N ViolaMusicVoice measure 379 / measure 11]                         %! SM4
+    % [N ViolaMusicVoice measure 379 / measure 11]                         %! SM_4
     c'2.
     -\upbow                                                                %! IC
     
-    % [N ViolaMusicVoice measure 380 / measure 12]                         %! SM4
+    % [N ViolaMusicVoice measure 380 / measure 12]                         %! SM_4
     r2..
     
-    % [N ViolaMusicVoice measure 381 / measure 13]                         %! SM4
+    % [N ViolaMusicVoice measure 381 / measure 13]                         %! SM_4
     c'2..
     -\downbow                                                              %! IC
     
-    % [N ViolaMusicVoice measure 382 / measure 14]                         %! SM4
+    % [N ViolaMusicVoice measure 382 / measure 14]                         %! SM_4
     r4.
     
-    % [N ViolaMusicVoice measure 383 / measure 15]                         %! SM4
+    % [N ViolaMusicVoice measure 383 / measure 15]                         %! SM_4
     c'1
     -\upbow                                                                %! IC
     
-    % [N ViolaMusicVoice measure 384 / measure 16]                         %! SM4
+    % [N ViolaMusicVoice measure 384 / measure 16]                         %! SM_4
     r2.
     
     r4.
     
-    % [N ViolaMusicVoice measure 385 / measure 17]                         %! SM4
+    % [N ViolaMusicVoice measure 385 / measure 17]                         %! SM_4
     R1 * 9/8
     
-    % [N ViolaMusicVoice measure 386 / measure 18]                         %! SM4
+    % [N ViolaMusicVoice measure 386 / measure 18]                         %! SM_4
     R1 * 1/2
     
-    % [N ViolaMusicVoice measure 387 / measure 19]                         %! SM4
+    % [N ViolaMusicVoice measure 387 / measure 19]                         %! SM_4
     R1 * 1/2
     
-    % [N ViolaMusicVoice measure 388 / measure 20]                         %! SM4
+    % [N ViolaMusicVoice measure 388 / measure 20]                         %! SM_4
     R1 * 3/8
     
-    % [N ViolaMusicVoice measure 389 / measure 21]                         %! SM4
+    % [N ViolaMusicVoice measure 389 / measure 21]                         %! SM_4
     R1 * 1/2
     
-    % [N ViolaMusicVoice measure 390 / measure 22]                         %! SM4
+    % [N ViolaMusicVoice measure 390 / measure 22]                         %! SM_4
     R1 * 1
     
-    % [N ViolaMusicVoice measure 391 / measure 23]                         %! SM4
+    % [N ViolaMusicVoice measure 391 / measure 23]                         %! SM_4
     R1 * 9/8
     
-    % [N ViolaMusicVoice measure 392 / measure 24]                         %! SM4
+    % [N ViolaMusicVoice measure 392 / measure 24]                         %! SM_4
     R1 * 9/8
     
-    % [N ViolaMusicVoice measure 393 / measure 25]                         %! SM4
+    % [N ViolaMusicVoice measure 393 / measure 25]                         %! SM_4
     R1 * 1/4
     
 }
@@ -850,7 +850,7 @@ N_ViolaMusicStaff = {
 
 N_CelloMusicVoice = {
     
-    % [N CelloMusicVoice measure 369 / measure 1]                          %! SM4
+    % [N CelloMusicVoice measure 369 / measure 1]                          %! SM_4
     \set Staff.instrumentName =                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -905,131 +905,131 @@ N_CelloMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [N CelloMusicVoice measure 370 / measure 2]                          %! SM4
+    % [N CelloMusicVoice measure 370 / measure 2]                          %! SM_4
     r2
     
-    % [N CelloMusicVoice measure 371 / measure 3]                          %! SM4
+    % [N CelloMusicVoice measure 371 / measure 3]                          %! SM_4
     c'2..
     -\upbow                                                                %! IC
     
-    % [N CelloMusicVoice measure 372 / measure 4]                          %! SM4
+    % [N CelloMusicVoice measure 372 / measure 4]                          %! SM_4
     r2..
     
-    % [N CelloMusicVoice measure 373 / measure 5]                          %! SM4
+    % [N CelloMusicVoice measure 373 / measure 5]                          %! SM_4
     c'4.
     -\downbow                                                              %! IC
     
-    % [N CelloMusicVoice measure 374 / measure 6]                          %! SM4
+    % [N CelloMusicVoice measure 374 / measure 6]                          %! SM_4
     r2.
     
-    % [N CelloMusicVoice measure 375 / measure 7]                          %! SM4
+    % [N CelloMusicVoice measure 375 / measure 7]                          %! SM_4
     c'2.
     -\upbow                                                                %! IC
     
     c'4.
     \repeatTie
     
-    % [N CelloMusicVoice measure 376 / measure 8]                          %! SM4
+    % [N CelloMusicVoice measure 376 / measure 8]                          %! SM_4
     r2.
     
     r4.
     
-    % [N CelloMusicVoice measure 377 / measure 9]                          %! SM4
+    % [N CelloMusicVoice measure 377 / measure 9]                          %! SM_4
     c'2
     -\downbow                                                              %! IC
     
-    % [N CelloMusicVoice measure 378 / measure 10]                         %! SM4
+    % [N CelloMusicVoice measure 378 / measure 10]                         %! SM_4
     r1
     
-    % [N CelloMusicVoice measure 379 / measure 11]                         %! SM4
+    % [N CelloMusicVoice measure 379 / measure 11]                         %! SM_4
     c'2.
     -\upbow                                                                %! IC
     
-    % [N CelloMusicVoice measure 380 / measure 12]                         %! SM4
+    % [N CelloMusicVoice measure 380 / measure 12]                         %! SM_4
     r2..
     
-    % [N CelloMusicVoice measure 381 / measure 13]                         %! SM4
+    % [N CelloMusicVoice measure 381 / measure 13]                         %! SM_4
     c'2..
     -\downbow                                                              %! IC
     
-    % [N CelloMusicVoice measure 382 / measure 14]                         %! SM4
+    % [N CelloMusicVoice measure 382 / measure 14]                         %! SM_4
     r4.
     
-    % [N CelloMusicVoice measure 383 / measure 15]                         %! SM4
+    % [N CelloMusicVoice measure 383 / measure 15]                         %! SM_4
     c'1
     -\upbow                                                                %! IC
     
-    % [N CelloMusicVoice measure 384 / measure 16]                         %! SM4
+    % [N CelloMusicVoice measure 384 / measure 16]                         %! SM_4
     r2.
     
     r4.
     
-    % [N CelloMusicVoice measure 385 / measure 17]                         %! SM4
+    % [N CelloMusicVoice measure 385 / measure 17]                         %! SM_4
     R1 * 9/8
     
-    % [N CelloMusicVoice measure 386 / measure 18]                         %! SM4
+    % [N CelloMusicVoice measure 386 / measure 18]                         %! SM_4
     R1 * 1/2
     
-    % [N CelloMusicVoice measure 387 / measure 19]                         %! SM4
+    % [N CelloMusicVoice measure 387 / measure 19]                         %! SM_4
     R1 * 1/2
     
-    % [N CelloMusicVoice measure 388 / measure 20]                         %! SM4
+    % [N CelloMusicVoice measure 388 / measure 20]                         %! SM_4
     R1 * 3/8
     
-    % [N CelloMusicVoice measure 389 / measure 21]                         %! SM4
+    % [N CelloMusicVoice measure 389 / measure 21]                         %! SM_4
     R1 * 1/2
     
-    % [N CelloMusicVoice measure 390 / measure 22]                         %! SM4
+    % [N CelloMusicVoice measure 390 / measure 22]                         %! SM_4
     R1 * 1
     
-    % [N CelloMusicVoice measure 391 / measure 23]                         %! SM4
+    % [N CelloMusicVoice measure 391 / measure 23]                         %! SM_4
     R1 * 9/8
     
-    % [N CelloMusicVoice measure 392 / measure 24]                         %! SM4
+    % [N CelloMusicVoice measure 392 / measure 24]                         %! SM_4
     R1 * 9/8
     
-    % [N CelloMusicVoice measure 393 / measure 25]                         %! SM4
+    % [N CelloMusicVoice measure 393 / measure 25]                         %! SM_4
     \once \override MultiMeasureRestText.extra-offset = #'(-19 . -4)
     R1 * 1/4
-    _ \markup {                                                            %! SCORE2
-        \override                                                          %! SCORE2
-            #'(font-name . "Palatino")                                     %! SCORE2
-            \with-color                                                    %! SCORE2
-                #black                                                     %! SCORE2
-                \right-column                                              %! SCORE2
-                    {                                                      %! SCORE2
-                        \line                                              %! SCORE2
-                            {                                              %! SCORE2
-                                Cambridge,                                 %! SCORE2
-                                MA                                         %! SCORE2
-                                \hspace                                    %! SCORE2
-                                    #0.75                                  %! SCORE2
-                                –                                          %! SCORE2
-                                \hspace                                    %! SCORE2
-                                    #0.75                                  %! SCORE2
-                                Dallas,                                    %! SCORE2
-                                TX                                         %! SCORE2
-                                \hspace                                    %! SCORE2
-                                    #0.75                                  %! SCORE2
-                                –                                          %! SCORE2
-                                \hspace                                    %! SCORE2
-                                    #0.75                                  %! SCORE2
-                                Madison,                                   %! SCORE2
-                                WI.                                        %! SCORE2
-                            }                                              %! SCORE2
-                        \line                                              %! SCORE2
-                            {                                              %! SCORE2
-                                October                                    %! SCORE2
-                                \hspace                                    %! SCORE2
-                                    #0.75                                  %! SCORE2
-                                –                                          %! SCORE2
-                                \hspace                                    %! SCORE2
-                                    #0.75                                  %! SCORE2
-                                December                                   %! SCORE2
-                                2015.                                      %! SCORE2
-                            }                                              %! SCORE2
-                    }                                                      %! SCORE2
-        }                                                                  %! SCORE2
+    _ \markup {                                                            %! SCORE_2
+        \override                                                          %! SCORE_2
+            #'(font-name . "Palatino")                                     %! SCORE_2
+            \with-color                                                    %! SCORE_2
+                #black                                                     %! SCORE_2
+                \right-column                                              %! SCORE_2
+                    {                                                      %! SCORE_2
+                        \line                                              %! SCORE_2
+                            {                                              %! SCORE_2
+                                Cambridge,                                 %! SCORE_2
+                                MA                                         %! SCORE_2
+                                \hspace                                    %! SCORE_2
+                                    #0.75                                  %! SCORE_2
+                                –                                          %! SCORE_2
+                                \hspace                                    %! SCORE_2
+                                    #0.75                                  %! SCORE_2
+                                Dallas,                                    %! SCORE_2
+                                TX                                         %! SCORE_2
+                                \hspace                                    %! SCORE_2
+                                    #0.75                                  %! SCORE_2
+                                –                                          %! SCORE_2
+                                \hspace                                    %! SCORE_2
+                                    #0.75                                  %! SCORE_2
+                                Madison,                                   %! SCORE_2
+                                WI.                                        %! SCORE_2
+                            }                                              %! SCORE_2
+                        \line                                              %! SCORE_2
+                            {                                              %! SCORE_2
+                                October                                    %! SCORE_2
+                                \hspace                                    %! SCORE_2
+                                    #0.75                                  %! SCORE_2
+                                –                                          %! SCORE_2
+                                \hspace                                    %! SCORE_2
+                                    #0.75                                  %! SCORE_2
+                                December                                   %! SCORE_2
+                                2015.                                      %! SCORE_2
+                            }                                              %! SCORE_2
+                    }                                                      %! SCORE_2
+        }                                                                  %! SCORE_2
     
 }
 
