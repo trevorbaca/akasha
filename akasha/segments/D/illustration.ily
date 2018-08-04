@@ -809,12 +809,12 @@ D_ViolinIMusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \override NoteHead.style = #'harmonic                                  %! OverrideCommand(1)
-    \ottava #1                                                             %! SC
+    \ottava #1                                                             %! SpannerCommand
     \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     cs''''!4.
@@ -823,12 +823,12 @@ D_ViolinIMusicVoice = {
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "5°/A4(II) + vib. mod." }                                  %! IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-            #12                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-            "Vn. I"                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-        }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            #12                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            "Vn. I"                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D ViolinIMusicVoice measure 63 / measure 2]                         %! _comment_measure_numbers
@@ -858,13 +858,13 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 69 / measure 8]                         %! _comment_measure_numbers
     cs''''!1
     \repeatTie
-    \ottava #0                                                             %! SC
+    \ottava #0                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 70 / measure 9]                         %! _comment_measure_numbers
     R1 * 1/4
     
     % [D ViolinIMusicVoice measure 71 / measure 10]                        %! _comment_measure_numbers
-    \ottava #1                                                             %! SC
+    \ottava #1                                                             %! SpannerCommand
     cs''''!2.
     
     cs''''!4.
@@ -904,7 +904,7 @@ D_ViolinIMusicVoice = {
     cs''''!2
     \repeatTie
     \revert NoteHead.style                                                 %! OverrideCommand(2)
-    \ottava #0                                                             %! SC
+    \ottava #0                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 79 / measure 18]                        %! _comment_measure_numbers
     R1 * 1/4
@@ -916,21 +916,21 @@ D_ViolinIMusicVoice = {
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                              %! IndicatorCommand
     ^ \markup { "XP + senza vib. + full bow strokes" }                     %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 81 / measure 20]                        %! _comment_measure_numbers
     c''2.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a'4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 82 / measure 21]                        %! _comment_measure_numbers
     fs'!2
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 83 / measure 22]                        %! _comment_measure_numbers
     ef'!4.
@@ -942,45 +942,45 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 85 / measure 24]                        %! _comment_measure_numbers
     fs'!2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a'4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 86 / measure 25]                        %! _comment_measure_numbers
     c''2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     fs''!4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 87 / measure 26]                        %! _comment_measure_numbers
     ef''!2
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 88 / measure 27]                        %! _comment_measure_numbers
     c''1
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 89 / measure 28]                        %! _comment_measure_numbers
     a'4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 90 / measure 29]                        %! _comment_measure_numbers
     ef''!2
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 91 / measure 30]                        %! _comment_measure_numbers
     fs''!2..
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 92 / measure 31]                        %! _comment_measure_numbers
     a''2..
@@ -992,17 +992,17 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 94 / measure 33]                        %! _comment_measure_numbers
     a'4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 95 / measure 34]                        %! _comment_measure_numbers
     ef''!2.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 96 / measure 35]                        %! _comment_measure_numbers
     fs''!2
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 97 / measure 36]                        %! _comment_measure_numbers
     a''4.
@@ -1014,17 +1014,17 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 99 / measure 38]                        %! _comment_measure_numbers
     ef'''!2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 100 / measure 39]                       %! _comment_measure_numbers
     a''2..
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 101 / measure 40]                       %! _comment_measure_numbers
     c'''2..
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 102 / measure 41]                       %! _comment_measure_numbers
     a'4.
@@ -1036,25 +1036,25 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 104 / measure 43]                       %! _comment_measure_numbers
     fs'!1
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 105 / measure 44]                       %! _comment_measure_numbers
     ef'!2.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a'4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 106 / measure 45]                       %! _comment_measure_numbers
     fs'!2.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a'4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 107 / measure 46]                       %! _comment_measure_numbers
     c''2
@@ -1101,7 +1101,7 @@ D_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 3/8
@@ -1109,12 +1109,12 @@ D_ViolinIIMusicVoice = {
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-            #12                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-            "Vn. II"                                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-        }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            #12                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            "Vn. II"                                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D ViolinIIMusicVoice measure 63 / measure 2]                        %! _comment_measure_numbers
@@ -1148,49 +1148,49 @@ D_ViolinIIMusicVoice = {
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                              %! IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                  %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     c''4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 72 / measure 11]                       %! _comment_measure_numbers
     a'2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     fs'!4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 73 / measure 12]                       %! _comment_measure_numbers
     ef'!2..
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 74 / measure 13]                       %! _comment_measure_numbers
     a'4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 75 / measure 14]                       %! _comment_measure_numbers
     fs'!2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 76 / measure 15]                       %! _comment_measure_numbers
     a'2..
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 77 / measure 16]                       %! _comment_measure_numbers
     c''2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     fs''!4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 78 / measure 17]                       %! _comment_measure_numbers
     ef''!2
@@ -1202,21 +1202,21 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 80 / measure 19]                       %! _comment_measure_numbers
     fs'!1
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 81 / measure 20]                       %! _comment_measure_numbers
     a'2.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     c''4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 82 / measure 21]                       %! _comment_measure_numbers
     fs''!2
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 83 / measure 22]                       %! _comment_measure_numbers
     ef''!4.
@@ -1228,45 +1228,45 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 85 / measure 24]                       %! _comment_measure_numbers
     a'2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     ef''!4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 86 / measure 25]                       %! _comment_measure_numbers
     fs''!2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a''4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 87 / measure 26]                       %! _comment_measure_numbers
     fs''!2
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 88 / measure 27]                       %! _comment_measure_numbers
     c'''1
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 89 / measure 28]                       %! _comment_measure_numbers
     ef'''!4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 90 / measure 29]                       %! _comment_measure_numbers
     a''2
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 91 / measure 30]                       %! _comment_measure_numbers
     c'''2..
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 92 / measure 31]                       %! _comment_measure_numbers
     a'2..
@@ -1278,17 +1278,17 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 94 / measure 33]                       %! _comment_measure_numbers
     ef'''!4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 95 / measure 34]                       %! _comment_measure_numbers
     a''2.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 96 / measure 35]                       %! _comment_measure_numbers
     c'''2
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 97 / measure 36]                       %! _comment_measure_numbers
     a'4.
@@ -1300,7 +1300,7 @@ D_ViolinIIMusicVoice = {
     
     % [D ViolinIIMusicVoice measure 99 / measure 38]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \pitchedTrill                                                          %! SC
+    \pitchedTrill                                                          %! SpannerCommand
     g''2.
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { tasto }                                                    %! IndicatorCommand
@@ -1312,7 +1312,7 @@ D_ViolinIIMusicVoice = {
     
     % [D ViolinIIMusicVoice measure 101 / measure 40]                      %! _comment_measure_numbers
     R1 * 7/8
-    \stopTrillSpan                                                         %! SC
+    \stopTrillSpan                                                         %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 102 / measure 41]                      %! _comment_measure_numbers
     R1 * 3/8
@@ -1321,7 +1321,7 @@ D_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [D ViolinIIMusicVoice measure 104 / measure 43]                      %! _comment_measure_numbers
-    \pitchedTrill                                                          %! SC
+    \pitchedTrill                                                          %! SpannerCommand
     g''1
     \startTrillSpan a''
     
@@ -1334,7 +1334,7 @@ D_ViolinIIMusicVoice = {
     
     % [D ViolinIIMusicVoice measure 106 / measure 45]                      %! _comment_measure_numbers
     R1 * 9/8
-    \stopTrillSpan                                                         %! SC
+    \stopTrillSpan                                                         %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 107 / measure 46]                      %! _comment_measure_numbers
     R1 * 1/2
@@ -1383,7 +1383,7 @@ D_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:SM33:IndicatorCommand
+    \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gqf''!4.
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -1391,12 +1391,12 @@ D_ViolaMusicVoice = {
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "7°/A2(IV) + vib. mod." }                                  %! IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-            #12                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-            Va.                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-        }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            #12                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            Va.                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D ViolaMusicVoice measure 63 / measure 2]                           %! _comment_measure_numbers
@@ -1541,28 +1541,28 @@ D_ViolaMusicVoice = {
     \clef "alto"                                                           %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:SM33:IndicatorCommand
+    \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     ff!4.
     \sf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "tasto + senza vib." }                                     %! IndicatorCommand
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D ViolaMusicVoice measure 95 / measure 34]                          %! _comment_measure_numbers
     e2.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolaMusicVoice measure 96 / measure 35]                          %! _comment_measure_numbers
     ds!2
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \times 2/3 {
         
         % [D ViolaMusicVoice measure 97 / measure 36]                      %! _comment_measure_numbers
         cs!2
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         bs,!16
@@ -1579,17 +1579,17 @@ D_ViolaMusicVoice = {
     \baca_ppp_ancora                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                              %! IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                  %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolaMusicVoice measure 100 / measure 39]                         %! _comment_measure_numbers
     b2..
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolaMusicVoice measure 101 / measure 40]                         %! _comment_measure_numbers
     af!2..
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolaMusicVoice measure 102 / measure 41]                         %! _comment_measure_numbers
     f4.
@@ -1601,25 +1601,25 @@ D_ViolaMusicVoice = {
     % [D ViolaMusicVoice measure 104 / measure 43]                         %! _comment_measure_numbers
     f1
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolaMusicVoice measure 105 / measure 44]                         %! _comment_measure_numbers
     af!2.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     b4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolaMusicVoice measure 106 / measure 45]                         %! _comment_measure_numbers
     f'2.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     d'4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D ViolaMusicVoice measure 107 / measure 46]                         %! _comment_measure_numbers
     b2
@@ -1666,7 +1666,7 @@ D_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:SM33:IndicatorCommand
+    \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d''4.
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -1674,12 +1674,12 @@ D_CelloMusicVoice = {
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "11°/A1(IV) + vib. mod." }                                 %! IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-    \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-        \hcenter-in                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-            #12                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-            Vc.                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
-        }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName =                                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+    \markup {                                                              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \hcenter-in                                                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            #12                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            Vc.                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D CelloMusicVoice measure 63 / measure 2]                           %! _comment_measure_numbers
@@ -1785,52 +1785,52 @@ D_CelloMusicVoice = {
     \clef "bass"                                                           %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:SM33:IndicatorCommand
+    \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g,2.
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                              %! IndicatorCommand
     ^ \markup { "XP + senza vib. + full bow strokes" }                     %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     bf,!4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 86 / measure 25]                          %! _comment_measure_numbers
     g,2.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     e,4.
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 87 / measure 26]                          %! _comment_measure_numbers
     cs,!2
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 88 / measure 27]                          %! _comment_measure_numbers
     g,1
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 89 / measure 28]                          %! _comment_measure_numbers
     e,4.
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 90 / measure 29]                          %! _comment_measure_numbers
     g,2
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 91 / measure 30]                          %! _comment_measure_numbers
     bf,!2..
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 92 / measure 31]                          %! _comment_measure_numbers
     e2..
@@ -1845,7 +1845,7 @@ D_CelloMusicVoice = {
     cs,!4.
     \sf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { tasto }                                                    %! IndicatorCommand
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [D CelloMusicVoice measure 95 / measure 34]                          %! _comment_measure_numbers
@@ -1872,17 +1872,17 @@ D_CelloMusicVoice = {
     \baca_ppp_ancora                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                              %! IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                  %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 100 / measure 39]                         %! _comment_measure_numbers
     g,2..
     -\upbow                                                                %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 101 / measure 40]                         %! _comment_measure_numbers
     bf,!2..
     -\downbow                                                              %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 102 / measure 41]                         %! _comment_measure_numbers
     e4.
@@ -1897,44 +1897,44 @@ D_CelloMusicVoice = {
     df!1
     \sf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { tasto }                                                    %! IndicatorCommand
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 105 / measure 44]                         %! _comment_measure_numbers
     c2.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     bf,!4.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 106 / measure 45]                         %! _comment_measure_numbers
     af,!2.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g,4.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 107 / measure 46]                         %! _comment_measure_numbers
     f,2
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 108 / measure 47]                         %! _comment_measure_numbers
     ef,!4.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 109 / measure 48]                         %! _comment_measure_numbers
     d,2.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [D CelloMusicVoice measure 110 / measure 49]                         %! _comment_measure_numbers
     c,2..
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \times 8/9 {
         
         % [D CelloMusicVoice measure 111 / measure 50]                     %! _comment_measure_numbers
         bf,,!2..
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         a,,16..
