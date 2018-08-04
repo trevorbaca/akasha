@@ -338,7 +338,7 @@ H_ViolinIMusicVoice = {
     
     % [H ViolinIMusicVoice measure 219 / measure 3]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    fs''!2.
+    fs''!2.                                                                %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
     % [H ViolinIMusicVoice measure 220 / measure 4]                        %! _comment_measure_numbers
@@ -512,7 +512,7 @@ H_ViolinIIMusicVoice = {
     
     % [H ViolinIIMusicVoice measure 219 / measure 3]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!2.
+    af'!2.                                                                 %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
     % [H ViolinIIMusicVoice measure 220 / measure 4]                       %! _comment_measure_numbers
@@ -555,7 +555,7 @@ H_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \baca_effort_mf                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -576,7 +576,7 @@ H_ViolaMusicVoice = {
     \repeatTie
     
     % [H ViolaMusicVoice measure 219 / measure 3]                          %! _comment_measure_numbers
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [H ViolaMusicVoice measure 220 / measure 4]                          %! _comment_measure_numbers
@@ -711,7 +711,7 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 219 / measure 3]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    cs,!2.
+    cs,!2.                                                                 %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
     % [H CelloMusicVoice measure 220 / measure 4]                          %! _comment_measure_numbers

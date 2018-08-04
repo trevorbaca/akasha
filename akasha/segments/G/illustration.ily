@@ -549,14 +549,14 @@ G_ViolinIMusicVoice = {
     
     % [G ViolinIMusicVoice measure 206 / measure 7]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f''2
+    f''2                                                                   %! baca_make_notes
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIMusicVoice measure 207 / measure 8]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef''!1
+    ef''!1                                                                 %! baca_make_notes
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #'DeepPink1                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -569,19 +569,19 @@ G_ViolinIMusicVoice = {
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIMusicVoice measure 208 / measure 9]                        %! _comment_measure_numbers
-    fs''!4.
+    fs''!4.                                                                %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIMusicVoice measure 209 / measure 10]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e''2
+    e''2                                                                   %! baca_make_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIMusicVoice measure 210 / measure 11]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    fs''!1
+    fs''!1                                                                 %! baca_make_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -614,11 +614,11 @@ G_ViolinIMusicVoice = {
     
     % [G ViolinIMusicVoice measure 214 / measure 15]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    fs''!2
+    fs''!2                                                                 %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
     % [G ViolinIMusicVoice measure 215 / measure 16]                       %! _comment_measure_numbers
-    fs''!2
+    fs''!2                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G ViolinIMusicVoice measure 216 / measure 17]                       %! _comment_measure_numbers
@@ -652,7 +652,7 @@ G_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    fs'!2..
+    fs'!2..                                                                %! baca_make_notes
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -675,16 +675,16 @@ G_ViolinIIMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [G ViolinIIMusicVoice measure 201 / measure 2]                       %! _comment_measure_numbers
-    ef'!2..
+    ef'!2..                                                                %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIIMusicVoice measure 202 / measure 3]                       %! _comment_measure_numbers
-    f'4.
+    f'4.                                                                   %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIIMusicVoice measure 203 / measure 4]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!2.
+    ef'!2.                                                                 %! baca_make_notes
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
@@ -715,14 +715,14 @@ G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 206 / measure 7]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'2
+    g'2                                                                    %! baca_make_notes
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIIMusicVoice measure 207 / measure 8]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'1
+    e'1                                                                    %! baca_make_notes
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #'DeepPink1                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -735,19 +735,19 @@ G_ViolinIIMusicVoice = {
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIIMusicVoice measure 208 / measure 9]                       %! _comment_measure_numbers
-    fs'!4.
+    fs'!4.                                                                 %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIIMusicVoice measure 209 / measure 10]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'2
+    e'2                                                                    %! baca_make_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
     
     % [G ViolinIIMusicVoice measure 210 / measure 11]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'1
+    d'1                                                                    %! baca_make_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -780,11 +780,11 @@ G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 214 / measure 15]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af'!2
+    af'!2                                                                  %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
     % [G ViolinIIMusicVoice measure 215 / measure 16]                      %! _comment_measure_numbers
-    af'!2
+    af'!2                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G ViolinIIMusicVoice measure 216 / measure 17]                      %! _comment_measure_numbers
@@ -820,7 +820,7 @@ G_ViolaMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
-    ef'!2..
+    ef'!2..                                                                %! baca_make_notes
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -843,16 +843,16 @@ G_ViolaMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [G ViolaMusicVoice measure 201 / measure 2]                          %! _comment_measure_numbers
-    f'2..
+    f'2..                                                                  %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G ViolaMusicVoice measure 202 / measure 3]                          %! _comment_measure_numbers
-    d'4.
+    d'4.                                                                   %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G ViolaMusicVoice measure 203 / measure 4]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'2.
+    e'2.                                                                   %! baca_make_notes
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
@@ -883,14 +883,14 @@ G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 206 / measure 7]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'2
+    e'2                                                                    %! baca_make_notes
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
     
     % [G ViolaMusicVoice measure 207 / measure 8]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    fs'!1
+    fs'!1                                                                  %! baca_make_notes
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -903,19 +903,19 @@ G_ViolaMusicVoice = {
     \glissando                                                             %! SpannerCommand
     
     % [G ViolaMusicVoice measure 208 / measure 9]                          %! _comment_measure_numbers
-    ef'!4.
+    ef'!4.                                                                 %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G ViolaMusicVoice measure 209 / measure 10]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f'2
+    f'2                                                                    %! baca_make_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
     
     % [G ViolaMusicVoice measure 210 / measure 11]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef'!1
+    ef'!1                                                                  %! baca_make_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -952,17 +952,17 @@ G_ViolaMusicVoice = {
     \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \baca_effort_mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                              %! IndicatorCommand
     ^ \markup { OB }                                                       %! IndicatorCommand
     
     % [G ViolaMusicVoice measure 215 / measure 16]                         %! _comment_measure_numbers
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G ViolaMusicVoice measure 216 / measure 17]                         %! _comment_measure_numbers
-    c'4.
+    c'4.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -991,7 +991,7 @@ G_CelloMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
-    cs,!2..
+    cs,!2..                                                                %! baca_make_notes
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1014,16 +1014,16 @@ G_CelloMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [G CelloMusicVoice measure 201 / measure 2]                          %! _comment_measure_numbers
-    ef,!2..
+    ef,!2..                                                                %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G CelloMusicVoice measure 202 / measure 3]                          %! _comment_measure_numbers
-    f,4.
+    f,4.                                                                   %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G CelloMusicVoice measure 203 / measure 4]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2.
+    d,2.                                                                   %! baca_make_notes
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
@@ -1054,14 +1054,14 @@ G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 206 / measure 7]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c,2
+    c,2                                                                    %! baca_make_notes
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
     
     % [G CelloMusicVoice measure 207 / measure 8]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,1
+    d,1                                                                    %! baca_make_notes
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1074,19 +1074,19 @@ G_CelloMusicVoice = {
     \glissando                                                             %! SpannerCommand
     
     % [G CelloMusicVoice measure 208 / measure 9]                          %! _comment_measure_numbers
-    e,4.
+    e,4.                                                                   %! baca_make_notes
     \glissando                                                             %! SpannerCommand
     
     % [G CelloMusicVoice measure 209 / measure 10]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    cs,!2
+    cs,!2                                                                  %! baca_make_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     \glissando                                                             %! SpannerCommand
     
     % [G CelloMusicVoice measure 210 / measure 11]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ef,!1
+    ef,!1                                                                  %! baca_make_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1119,11 +1119,11 @@ G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 214 / measure 15]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    cs,!2
+    cs,!2                                                                  %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
     % [G CelloMusicVoice measure 215 / measure 16]                         %! _comment_measure_numbers
-    cs,!2
+    cs,!2                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G CelloMusicVoice measure 216 / measure 17]                         %! _comment_measure_numbers
