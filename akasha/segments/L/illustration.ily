@@ -258,7 +258,7 @@ L_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \baca_effort_mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                              %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -277,7 +277,7 @@ L_ViolaMusicVoice = {
     R1 * 1/4
     
     % [L ViolaMusicVoice measure 336 / measure 3]                          %! _comment_measure_numbers
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     -\upbow                                                                %! IndicatorCommand
     
     % [L ViolaMusicVoice measure 337 / measure 4]                          %! _comment_measure_numbers
@@ -343,13 +343,13 @@ L_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf,,!1.
+    bf,,!1.                                                                %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "pos. ord. + vib. poco" }                                  %! IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [L CelloMusicVoice measure 339 / measure 6]                          %! _comment_measure_numbers
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
 }

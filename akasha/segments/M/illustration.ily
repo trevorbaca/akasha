@@ -547,36 +547,36 @@ M_ViolinIMusicVoice = {
     
     % [M ViolinIMusicVoice measure 346 / measure 7]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf'!2.
+    bf'!2.                                                                 %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + XFB" }                                            %! IndicatorCommand
     
     % [M ViolinIMusicVoice measure 347 / measure 8]                        %! _comment_measure_numbers
-    bf'!2.
+    bf'!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIMusicVoice measure 348 / measure 9]                        %! _comment_measure_numbers
-    bf'!1.
+    bf'!1.                                                                 %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 349 / measure 10]                       %! _comment_measure_numbers
-    bf'!1.
+    bf'!1.                                                                 %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 350 / measure 11]                       %! _comment_measure_numbers
-    bf'!1
+    bf'!1                                                                  %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 351 / measure 12]                       %! _comment_measure_numbers
-    bf'!1
+    bf'!1                                                                  %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [M ViolinIMusicVoice measure 352 / measure 13]                       %! _comment_measure_numbers
-    bf'!1.
+    bf'!1.                                                                 %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
@@ -587,13 +587,13 @@ M_ViolinIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIMusicVoice measure 353 / measure 14]                       %! _comment_measure_numbers
-    bf'!1.
+    bf'!1.                                                                 %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolinIMusicVoice measure 354 / measure 15]                       %! _comment_measure_numbers
-    bf'!2.
+    bf'!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -603,7 +603,7 @@ M_ViolinIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIMusicVoice measure 355 / measure 16]                       %! _comment_measure_numbers
-    bf'!1
+    bf'!1                                                                  %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
@@ -622,12 +622,12 @@ M_ViolinIMusicVoice = {
     \repeatTie
     
     % [M ViolinIMusicVoice measure 357 / measure 18]                       %! _comment_measure_numbers
-    bf'!2.
+    bf'!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolinIMusicVoice measure 358 / measure 19]                       %! _comment_measure_numbers
-    bf'!2.
+    bf'!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -637,11 +637,11 @@ M_ViolinIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIMusicVoice measure 359 / measure 20]                       %! _comment_measure_numbers
-    bf'!2.
+    bf'!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIMusicVoice measure 360 / measure 21]                       %! _comment_measure_numbers
-    bf'!1
+    bf'!1                                                                  %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
@@ -654,7 +654,7 @@ M_ViolinIMusicVoice = {
     \repeatTie
     
     % [M ViolinIMusicVoice measure 362 / measure 23]                       %! _comment_measure_numbers
-    bf'!1.
+    bf'!1.                                                                 %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
@@ -665,13 +665,13 @@ M_ViolinIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIMusicVoice measure 363 / measure 24]                       %! _comment_measure_numbers
-    bf'!1
+    bf'!1                                                                  %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolinIMusicVoice measure 364 / measure 25]                       %! _comment_measure_numbers
-    bf'!1.
+    bf'!1.                                                                 %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
@@ -682,13 +682,13 @@ M_ViolinIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIMusicVoice measure 365 / measure 26]                       %! _comment_measure_numbers
-    bf'!1.
+    bf'!1.                                                                 %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolinIMusicVoice measure 366 / measure 27]                       %! _comment_measure_numbers
-    bf'!1.
+    bf'!1.                                                                 %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
@@ -699,7 +699,7 @@ M_ViolinIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIMusicVoice measure 367 / measure 28]                       %! _comment_measure_numbers
-    bf'!1
+    bf'!1                                                                  %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
@@ -765,32 +765,32 @@ M_ViolinIIMusicVoice = {
     
     % [M ViolinIIMusicVoice measure 346 / measure 7]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf!2.
+    bf!2.                                                                  %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + XFB" }                                            %! IndicatorCommand
     
     % [M ViolinIIMusicVoice measure 347 / measure 8]                       %! _comment_measure_numbers
-    bf!2.
+    bf!2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 348 / measure 9]                       %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 349 / measure 10]                      %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 350 / measure 11]                      %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 351 / measure 12]                      %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 352 / measure 13]                      %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -800,12 +800,12 @@ M_ViolinIIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIIMusicVoice measure 353 / measure 14]                      %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolinIIMusicVoice measure 354 / measure 15]                      %! _comment_measure_numbers
-    bf!2.
+    bf!2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -815,7 +815,7 @@ M_ViolinIIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIIMusicVoice measure 355 / measure 16]                      %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
@@ -833,12 +833,12 @@ M_ViolinIIMusicVoice = {
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 357 / measure 18]                      %! _comment_measure_numbers
-    bf!2.
+    bf!2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolinIIMusicVoice measure 358 / measure 19]                      %! _comment_measure_numbers
-    bf!2.
+    bf!2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -848,11 +848,11 @@ M_ViolinIIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIIMusicVoice measure 359 / measure 20]                      %! _comment_measure_numbers
-    bf!2.
+    bf!2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 360 / measure 21]                      %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 361 / measure 22]                      %! _comment_measure_numbers
@@ -864,7 +864,7 @@ M_ViolinIIMusicVoice = {
     \repeatTie
     
     % [M ViolinIIMusicVoice measure 362 / measure 23]                      %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -874,12 +874,12 @@ M_ViolinIIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIIMusicVoice measure 363 / measure 24]                      %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolinIIMusicVoice measure 364 / measure 25]                      %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -889,12 +889,12 @@ M_ViolinIIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIIMusicVoice measure 365 / measure 26]                      %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolinIIMusicVoice measure 366 / measure 27]                      %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -904,7 +904,7 @@ M_ViolinIIMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolinIIMusicVoice measure 367 / measure 28]                      %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
@@ -969,32 +969,32 @@ M_ViolaMusicVoice = {
     
     % [M ViolaMusicVoice measure 346 / measure 7]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf,!2.
+    bf,!2.                                                                 %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + XFB" }                                            %! IndicatorCommand
     
     % [M ViolaMusicVoice measure 347 / measure 8]                          %! _comment_measure_numbers
-    bf,!2.
+    bf,!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolaMusicVoice measure 348 / measure 9]                          %! _comment_measure_numbers
-    bf,!1.
+    bf,!1.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolaMusicVoice measure 349 / measure 10]                         %! _comment_measure_numbers
-    bf,!1.
+    bf,!1.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolaMusicVoice measure 350 / measure 11]                         %! _comment_measure_numbers
-    bf,!1
+    bf,!1                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolaMusicVoice measure 351 / measure 12]                         %! _comment_measure_numbers
-    bf,!1
+    bf,!1                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolaMusicVoice measure 352 / measure 13]                         %! _comment_measure_numbers
-    bf,!1.
+    bf,!1.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -1004,12 +1004,12 @@ M_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolaMusicVoice measure 353 / measure 14]                         %! _comment_measure_numbers
-    bf,!1.
+    bf,!1.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolaMusicVoice measure 354 / measure 15]                         %! _comment_measure_numbers
-    bf,!2.
+    bf,!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -1019,7 +1019,7 @@ M_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolaMusicVoice measure 355 / measure 16]                         %! _comment_measure_numbers
-    bf,!1
+    bf,!1                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
@@ -1037,12 +1037,12 @@ M_ViolaMusicVoice = {
     \repeatTie
     
     % [M ViolaMusicVoice measure 357 / measure 18]                         %! _comment_measure_numbers
-    bf,!2.
+    bf,!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolaMusicVoice measure 358 / measure 19]                         %! _comment_measure_numbers
-    bf,!2.
+    bf,!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -1052,11 +1052,11 @@ M_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolaMusicVoice measure 359 / measure 20]                         %! _comment_measure_numbers
-    bf,!2.
+    bf,!2.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolaMusicVoice measure 360 / measure 21]                         %! _comment_measure_numbers
-    bf,!1
+    bf,!1                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M ViolaMusicVoice measure 361 / measure 22]                         %! _comment_measure_numbers
@@ -1068,7 +1068,7 @@ M_ViolaMusicVoice = {
     \repeatTie
     
     % [M ViolaMusicVoice measure 362 / measure 23]                         %! _comment_measure_numbers
-    bf,!1.
+    bf,!1.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -1078,12 +1078,12 @@ M_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolaMusicVoice measure 363 / measure 24]                         %! _comment_measure_numbers
-    bf,!1
+    bf,!1                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolaMusicVoice measure 364 / measure 25]                         %! _comment_measure_numbers
-    bf,!1.
+    bf,!1.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -1093,12 +1093,12 @@ M_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolaMusicVoice measure 365 / measure 26]                         %! _comment_measure_numbers
-    bf,!1.
+    bf,!1.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M ViolaMusicVoice measure 366 / measure 27]                         %! _comment_measure_numbers
-    bf,!1.
+    bf,!1.                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."           %! PiecewiseIndicatorCommand(1)
@@ -1108,7 +1108,7 @@ M_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [M ViolaMusicVoice measure 367 / measure 28]                         %! _comment_measure_numbers
-    bf,!1
+    bf,!1                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
@@ -1164,19 +1164,19 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 341 / measure 2]                          %! _comment_measure_numbers
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 342 / measure 3]                          %! _comment_measure_numbers
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 343 / measure 4]                          %! _comment_measure_numbers
-    bf,,!1
+    bf,,!1                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 344 / measure 5]                          %! _comment_measure_numbers
-    bf,,!1
+    bf,,!1                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 345 / measure 6]                          %! _comment_measure_numbers
@@ -1188,21 +1188,21 @@ M_CelloMusicVoice = {
     
     % [M CelloMusicVoice measure 346 / measure 7]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [M CelloMusicVoice measure 347 / measure 8]                          %! _comment_measure_numbers
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 348 / measure 9]                          %! _comment_measure_numbers
-    bf,,!1.
+    bf,,!1.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 349 / measure 10]                         %! _comment_measure_numbers
-    bf,,!1.
+    bf,,!1.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 350 / measure 11]                         %! _comment_measure_numbers
@@ -1213,20 +1213,20 @@ M_CelloMusicVoice = {
     
     % [M CelloMusicVoice measure 352 / measure 13]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf,,!1.
+    bf,,!1.                                                                %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "vib. poco" }                                              %! IndicatorCommand
     
     % [M CelloMusicVoice measure 353 / measure 14]                         %! _comment_measure_numbers
-    bf,,!1.
+    bf,,!1.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 354 / measure 15]                         %! _comment_measure_numbers
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 355 / measure 16]                         %! _comment_measure_numbers
-    bf,,!1
+    bf,,!1                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 356 / measure 17]                         %! _comment_measure_numbers
@@ -1237,12 +1237,12 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 357 / measure 18]                         %! _comment_measure_numbers
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 358 / measure 19]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1251,11 +1251,11 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 359 / measure 20]                         %! _comment_measure_numbers
-    bf,,!2.
+    bf,,!2.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 360 / measure 21]                         %! _comment_measure_numbers
-    bf,,!1
+    bf,,!1                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 361 / measure 22]                         %! _comment_measure_numbers
@@ -1266,11 +1266,11 @@ M_CelloMusicVoice = {
     \repeatTie
     
     % [M CelloMusicVoice measure 362 / measure 23]                         %! _comment_measure_numbers
-    bf,,!1.
+    bf,,!1.                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 363 / measure 24]                         %! _comment_measure_numbers
-    bf,,!1
+    bf,,!1                                                                 %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [M CelloMusicVoice measure 364 / measure 25]                         %! _comment_measure_numbers

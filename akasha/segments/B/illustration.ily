@@ -531,7 +531,7 @@ B_ViolaMusicVoice = {
     R1 * 7/8
     
     % [B ViolaMusicVoice measure 34 / measure 11]                          %! _comment_measure_numbers
-    ds!2..
+    ds!2..                                                                 %! baca_make_repeat_tied_notes
     ^ \markup { tasto }                                                    %! IndicatorCommand
     
 }
@@ -807,7 +807,7 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 34 / measure 11]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    cs,!2..
+    cs,!2..                                                                %! baca_make_repeat_tied_notes
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { tasto }                                                    %! IndicatorCommand
     
