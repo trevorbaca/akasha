@@ -379,7 +379,7 @@ N_ViolinIMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'4.                                                                                           %! baca_make_notes
     \baca_effort_mf                                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. I”]"                                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "full bow strokes: temrinate each not abruptly" }                                  %! IndicatorCommand
@@ -397,21 +397,21 @@ N_ViolinIMusicVoice = {
     
     % [N ViolinIMusicVoice measure 371 / measure 3]                                                %! _comment_measure_numbers
     c'2..                                                                                          %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N ViolinIMusicVoice measure 372 / measure 4]                                                %! _comment_measure_numbers
     r2..                                                                                           %! baca_make_notes
     
     % [N ViolinIMusicVoice measure 373 / measure 5]                                                %! _comment_measure_numbers
     c'4.                                                                                           %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N ViolinIMusicVoice measure 374 / measure 6]                                                %! _comment_measure_numbers
     r2.                                                                                            %! baca_make_notes
     
     % [N ViolinIMusicVoice measure 375 / measure 7]                                                %! _comment_measure_numbers
     c'2.
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     c'4.
     \repeatTie
@@ -423,28 +423,28 @@ N_ViolinIMusicVoice = {
     
     % [N ViolinIMusicVoice measure 377 / measure 9]                                                %! _comment_measure_numbers
     c'2                                                                                            %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N ViolinIMusicVoice measure 378 / measure 10]                                               %! _comment_measure_numbers
     r1                                                                                             %! baca_make_notes
     
     % [N ViolinIMusicVoice measure 379 / measure 11]                                               %! _comment_measure_numbers
     c'2.                                                                                           %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N ViolinIMusicVoice measure 380 / measure 12]                                               %! _comment_measure_numbers
     r2..                                                                                           %! baca_make_notes
     
     % [N ViolinIMusicVoice measure 381 / measure 13]                                               %! _comment_measure_numbers
     c'2..                                                                                          %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N ViolinIMusicVoice measure 382 / measure 14]                                               %! _comment_measure_numbers
     r4.                                                                                            %! baca_make_notes
     
     % [N ViolinIMusicVoice measure 383 / measure 15]                                               %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N ViolinIMusicVoice measure 384 / measure 16]                                               %! _comment_measure_numbers
     r2.
@@ -552,15 +552,15 @@ N_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
         f'''32                                                                                     %! sparse_getato_rhythm
         \baca_pp_ancora                                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup { leggieriss. }                                                                  %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         e'''32                                                                                     %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         f'''32                                                                                     %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
         
         r16                                                                                        %! sparse_getato_rhythm
@@ -605,7 +605,7 @@ N_ViolinIIMusicVoice = {
         r32                                                                                        %! sparse_getato_rhythm
         
         fs'''!32                                                                                   %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         r16.                                                                                       %! sparse_getato_rhythm
     }                                                                                              %! sparse_getato_rhythm
@@ -615,14 +615,14 @@ N_ViolinIIMusicVoice = {
         r8.                                                                                        %! sparse_getato_rhythm
         
         g'''32                                                                                     %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         f'''32                                                                                     %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         fs'''!32                                                                                   %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
     }                                                                                              %! sparse_getato_rhythm
     
@@ -679,7 +679,7 @@ N_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'4.                                                                                           %! baca_make_notes
     \baca_effort_mf                                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "full bow strokes: temrinate each not abruptly" }                                  %! IndicatorCommand
@@ -697,21 +697,21 @@ N_ViolaMusicVoice = {
     
     % [N ViolaMusicVoice measure 371 / measure 3]                                                  %! _comment_measure_numbers
     c'2..                                                                                          %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N ViolaMusicVoice measure 372 / measure 4]                                                  %! _comment_measure_numbers
     r2..                                                                                           %! baca_make_notes
     
     % [N ViolaMusicVoice measure 373 / measure 5]                                                  %! _comment_measure_numbers
     c'4.                                                                                           %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N ViolaMusicVoice measure 374 / measure 6]                                                  %! _comment_measure_numbers
     r2.                                                                                            %! baca_make_notes
     
     % [N ViolaMusicVoice measure 375 / measure 7]                                                  %! _comment_measure_numbers
     c'2.
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     c'4.
     \repeatTie
@@ -723,28 +723,28 @@ N_ViolaMusicVoice = {
     
     % [N ViolaMusicVoice measure 377 / measure 9]                                                  %! _comment_measure_numbers
     c'2                                                                                            %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N ViolaMusicVoice measure 378 / measure 10]                                                 %! _comment_measure_numbers
     r1                                                                                             %! baca_make_notes
     
     % [N ViolaMusicVoice measure 379 / measure 11]                                                 %! _comment_measure_numbers
     c'2.                                                                                           %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N ViolaMusicVoice measure 380 / measure 12]                                                 %! _comment_measure_numbers
     r2..                                                                                           %! baca_make_notes
     
     % [N ViolaMusicVoice measure 381 / measure 13]                                                 %! _comment_measure_numbers
     c'2..                                                                                          %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N ViolaMusicVoice measure 382 / measure 14]                                                 %! _comment_measure_numbers
     r4.                                                                                            %! baca_make_notes
     
     % [N ViolaMusicVoice measure 383 / measure 15]                                                 %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N ViolaMusicVoice measure 384 / measure 16]                                                 %! _comment_measure_numbers
     r2.
@@ -811,7 +811,7 @@ N_CelloMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'4.                                                                                           %! baca_make_notes
     \baca_effort_mf                                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "full bow strokes: temrinate each not abruptly" }                                  %! IndicatorCommand
@@ -829,21 +829,21 @@ N_CelloMusicVoice = {
     
     % [N CelloMusicVoice measure 371 / measure 3]                                                  %! _comment_measure_numbers
     c'2..                                                                                          %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N CelloMusicVoice measure 372 / measure 4]                                                  %! _comment_measure_numbers
     r2..                                                                                           %! baca_make_notes
     
     % [N CelloMusicVoice measure 373 / measure 5]                                                  %! _comment_measure_numbers
     c'4.                                                                                           %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N CelloMusicVoice measure 374 / measure 6]                                                  %! _comment_measure_numbers
     r2.                                                                                            %! baca_make_notes
     
     % [N CelloMusicVoice measure 375 / measure 7]                                                  %! _comment_measure_numbers
     c'2.
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     c'4.
     \repeatTie
@@ -855,28 +855,28 @@ N_CelloMusicVoice = {
     
     % [N CelloMusicVoice measure 377 / measure 9]                                                  %! _comment_measure_numbers
     c'2                                                                                            %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N CelloMusicVoice measure 378 / measure 10]                                                 %! _comment_measure_numbers
     r1                                                                                             %! baca_make_notes
     
     % [N CelloMusicVoice measure 379 / measure 11]                                                 %! _comment_measure_numbers
     c'2.                                                                                           %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N CelloMusicVoice measure 380 / measure 12]                                                 %! _comment_measure_numbers
     r2..                                                                                           %! baca_make_notes
     
     % [N CelloMusicVoice measure 381 / measure 13]                                                 %! _comment_measure_numbers
     c'2..                                                                                          %! baca_make_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [N CelloMusicVoice measure 382 / measure 14]                                                 %! _comment_measure_numbers
     r4.                                                                                            %! baca_make_notes
     
     % [N CelloMusicVoice measure 383 / measure 15]                                                 %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [N CelloMusicVoice measure 384 / measure 16]                                                 %! _comment_measure_numbers
     r2.
