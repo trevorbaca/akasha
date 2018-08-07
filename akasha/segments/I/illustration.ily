@@ -858,44 +858,44 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b'4                                                                                            %! baca_make_repeated_duration_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup { OB }                                                                               %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 232 / measure 9]                                                %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 233 / measure 10]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 234 / measure 11]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "3/4OB"                                  %! PiecewiseIndicatorCommand(1)
@@ -904,57 +904,57 @@ I_ViolinIMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 235 / measure 12]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolinIMusicVoice measure 236 / measure 13]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 237 / measure 14]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 238 / measure 15]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "1/2OB"                                  %! PiecewiseIndicatorCommand(1)
@@ -963,28 +963,28 @@ I_ViolinIMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 239 / measure 16]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolinIMusicVoice measure 240 / measure 17]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP"                                     %! PiecewiseIndicatorCommand(1)
@@ -993,70 +993,70 @@ I_ViolinIMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 241 / measure 18]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 242 / measure 19]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIMusicVoice measure 243 / measure 20]                                               %! _comment_measure_numbers
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b'4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolinIMusicVoice measure 244 / measure 21]                                               %! _comment_measure_numbers
@@ -1080,45 +1080,45 @@ I_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         g'''16                                                                                     %! dense_getato_rhythm
         \ppp                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup { "leggieriss. + PO" }                                                           %! IndicatorCommand
         [                                                                                          %! dense_getato_rhythm
         
         af'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         g'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         fs'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         f'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         g'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         fs'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         g'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         af'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         bf'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         a'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         af'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         g'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! dense_getato_rhythm
     }                                                                                              %! dense_getato_rhythm
     \times 8/12 {                                                                                  %! dense_getato_rhythm
@@ -1126,38 +1126,38 @@ I_ViolinIMusicVoice = {
         r16
         
         a'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [                                                                                          %! dense_getato_rhythm
         
         bf'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         bf'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c''''16                                                                                    %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         cs''''!16                                                                                  %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c''''16                                                                                    %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         a'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         bf'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         a'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! dense_getato_rhythm
     }                                                                                              %! dense_getato_rhythm
     \times 4/6 {                                                                                   %! dense_getato_rhythm
@@ -1166,20 +1166,20 @@ I_ViolinIMusicVoice = {
         r16
         
         af'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [                                                                                          %! dense_getato_rhythm
         
         g'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         a'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         af'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         a'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! dense_getato_rhythm
     }                                                                                              %! dense_getato_rhythm
     \times 8/11 {                                                                                  %! dense_getato_rhythm
@@ -1187,35 +1187,35 @@ I_ViolinIMusicVoice = {
         r16
         
         bf'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [                                                                                          %! dense_getato_rhythm
         
         c''''16                                                                                    %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         bf'''!16                                                                                   %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         a'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c''''16                                                                                    %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         cs''''!16                                                                                  %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c''''16                                                                                    %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d''''16                                                                                    %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! dense_getato_rhythm
     }                                                                                              %! dense_getato_rhythm
     \times 4/6 {                                                                                   %! dense_getato_rhythm
@@ -1223,34 +1223,34 @@ I_ViolinIMusicVoice = {
         r16
         
         ef''''!16                                                                                  %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [                                                                                          %! dense_getato_rhythm
         
         cs''''!16                                                                                  %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d''''16                                                                                    %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b'''16                                                                                     %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c''''16                                                                                    %! dense_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! dense_getato_rhythm
     }                                                                                              %! dense_getato_rhythm
     
     r16
     
     b'''16                                                                                         %! dense_getato_rhythm
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [                                                                                              %! dense_getato_rhythm
     
     bf'''!16                                                                                       %! dense_getato_rhythm
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     a'''16                                                                                         %! dense_getato_rhythm
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]                                                                                              %! dense_getato_rhythm
     
     % [I ViolinIMusicVoice measure 248 / measure 25]                                               %! _comment_measure_numbers
@@ -1574,34 +1574,34 @@ I_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b4                                                                                             %! baca_make_repeated_duration_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     ^ \markup { OB }                                                                               %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIIMusicVoice measure 237 / measure 14]                                              %! _comment_measure_numbers
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolinIIMusicVoice measure 238 / measure 15]                                              %! _comment_measure_numbers
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "3/4OB"                                  %! PiecewiseIndicatorCommand(1)
@@ -1610,28 +1610,28 @@ I_ViolinIIMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIIMusicVoice measure 239 / measure 16]                                              %! _comment_measure_numbers
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolinIIMusicVoice measure 240 / measure 17]                                              %! _comment_measure_numbers
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP"                                     %! PiecewiseIndicatorCommand(1)
@@ -1640,70 +1640,70 @@ I_ViolinIIMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIIMusicVoice measure 241 / measure 18]                                              %! _comment_measure_numbers
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIIMusicVoice measure 242 / measure 19]                                              %! _comment_measure_numbers
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolinIIMusicVoice measure 243 / measure 20]                                              %! _comment_measure_numbers
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b4                                                                                             %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolinIIMusicVoice measure 244 / measure 21]                                              %! _comment_measure_numbers
@@ -1984,46 +1984,46 @@ I_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b,4                                                                                            %! baca_make_repeated_duration_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup { OB }                                                                               %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 228 / measure 5]                                                  %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 229 / measure 6]                                                  %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "3/4OB"                                  %! PiecewiseIndicatorCommand(1)
@@ -2032,73 +2032,73 @@ I_ViolaMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 230 / measure 7]                                                  %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolaMusicVoice measure 231 / measure 8]                                                  %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 232 / measure 9]                                                  %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 233 / measure 10]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 234 / measure 11]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "1/2OB"                                  %! PiecewiseIndicatorCommand(1)
@@ -2107,57 +2107,57 @@ I_ViolaMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 235 / measure 12]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolaMusicVoice measure 236 / measure 13]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 237 / measure 14]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 238 / measure 15]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "1/4OB"                                  %! PiecewiseIndicatorCommand(1)
@@ -2166,28 +2166,28 @@ I_ViolaMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 239 / measure 16]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolaMusicVoice measure 240 / measure 17]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "trans."                                   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP"                                     %! PiecewiseIndicatorCommand(1)
@@ -2196,70 +2196,70 @@ I_ViolaMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 241 / measure 18]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 242 / measure 19]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I ViolaMusicVoice measure 243 / measure 20]                                                 %! _comment_measure_numbers
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,4                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I ViolaMusicVoice measure 244 / measure 21]                                                 %! _comment_measure_numbers
@@ -2574,7 +2574,7 @@ I_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b,,4                                                                                           %! baca_make_repeated_duration_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "OB"                                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP"                                     %! PiecewiseIndicatorCommand(1)
@@ -2583,70 +2583,70 @@ I_CelloMusicVoice = {
     \startTextSpan                                                                                 %! PiecewiseIndicatorCommand(1)
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I CelloMusicVoice measure 241 / measure 18]                                                 %! _comment_measure_numbers
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I CelloMusicVoice measure 242 / measure 19]                                                 %! _comment_measure_numbers
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [I CelloMusicVoice measure 243 / measure 20]                                                 %! _comment_measure_numbers
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     b,,4                                                                                           %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
     
     % [I CelloMusicVoice measure 244 / measure 21]                                                 %! _comment_measure_numbers

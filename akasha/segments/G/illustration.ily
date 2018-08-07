@@ -954,7 +954,7 @@ G_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2                                                                                            %! baca_make_repeat_tied_notes
     \baca_effort_mf                                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup { OB }                                                                               %! IndicatorCommand
     
     % [G ViolaMusicVoice measure 215 / measure 16]                                                 %! _comment_measure_numbers

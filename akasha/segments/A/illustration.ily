@@ -475,15 +475,15 @@ A_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         b32                                                                                        %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }                               %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         cs'!32                                                                                     %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'32                                                                                       %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
         
         r8.                                                                                        %! sparse_getato_rhythm
@@ -493,11 +493,11 @@ A_ViolinIMusicVoice = {
         r16.                                                                                       %! sparse_getato_rhythm
         
         b32                                                                                        %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         bf!32                                                                                      %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
         
         r8                                                                                         %! sparse_getato_rhythm
@@ -767,15 +767,15 @@ A_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         bf!32                                                                                      %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }                               %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         b32                                                                                        %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         bf!32                                                                                      %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
         
         r8.                                                                                        %! sparse_getato_rhythm
@@ -785,11 +785,11 @@ A_ViolinIIMusicVoice = {
         r16.                                                                                       %! sparse_getato_rhythm
         
         a32                                                                                        %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         af!32                                                                                      %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
         
         r8                                                                                         %! sparse_getato_rhythm
@@ -1153,15 +1153,15 @@ A_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         bf!32                                                                                      %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }                               %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         a32                                                                                        %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         bf!32                                                                                      %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
         
         r16                                                                                        %! sparse_getato_rhythm
@@ -1404,12 +1404,12 @@ A_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'32                                                                                       %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }                               %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         cs'!32                                                                                     %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
         
         r8                                                                                         %! sparse_getato_rhythm

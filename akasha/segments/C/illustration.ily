@@ -978,12 +978,12 @@ C_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         cs!32                                                                                      %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup { leggieriss. }                                                                  %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         c32                                                                                        %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
         
         r8..                                                                                       %! sparse_getato_rhythm
@@ -993,29 +993,29 @@ C_CelloMusicVoice = {
         r32                                                                                        %! sparse_getato_rhythm
         
         cs!32                                                                                      %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [                                                                                          %! sparse_getato_rhythm
         
         d32                                                                                        %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         ef!32                                                                                      %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         cs!32                                                                                      %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d32                                                                                        %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         cs!32                                                                                      %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c32                                                                                        %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         bf,!32                                                                                     %! sparse_getato_rhythm
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]                                                                                          %! sparse_getato_rhythm
     }                                                                                              %! sparse_getato_rhythm
     
