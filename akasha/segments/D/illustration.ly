@@ -6,38 +6,38 @@
 \include "illustration.ily"
 
 
-\score {
-    <<
-        {
-            \include "layout.ly"
-        }
-        \context Score = "Score"
-        <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalRests = "GlobalRests"
-                \D_GlobalRests
-                \context GlobalSkips = "GlobalSkips"
-                \D_GlobalSkips
-            >>
-            \context MusicContext = "MusicContext"
-            {
-                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
-                <<
-                    \tag ViolinI                                                                   %! ST_4
-                    \context Staff = "ViolinIMusicStaff"
-                    \D_ViolinIMusicStaff
-                    \tag ViolinII                                                                  %! ST_4
-                    \context Staff = "ViolinIIMusicStaff"
-                    \D_ViolinIIMusicStaff
-                    \tag viola                                                                     %! ST_4
-                    \context Staff = "ViolaMusicStaff"
-                    \D_ViolaMusicStaff
-                    \tag cello                                                                     %! ST_4
-                    \context Staff = "CelloMusicStaff"
-                    \D_CelloMusicStaff
-                >>
-            }
-        >>
-    >>
-}
+\score {                                                                                           %! _make_lilypond_file
+    <<                                                                                             %! _make_lilypond_file
+        {                                                                                          %! _make_lilypond_file
+            \include "layout.ly"                                                                   %! _make_lilypond_file
+        }                                                                                          %! _make_lilypond_file
+        \context Score = "Score"                                                                   %! ScoreTemplate
+        <<                                                                                         %! ScoreTemplate
+            \context GlobalContext = "GlobalContext"                                               %! _make_global_context
+            <<                                                                                     %! _make_global_context
+                \context GlobalRests = "GlobalRests"                                               %! _make_global_context
+                \D_GlobalRests                                                                     %! extern
+                \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
+                \D_GlobalSkips                                                                     %! extern
+            >>                                                                                     %! _make_global_context
+            \context MusicContext = "MusicContext"                                                 %! ScoreTemplate
+            {                                                                                      %! ScoreTemplate
+                \context StringQuartetStaffGroup = "StringQuartetStaffGroup"                       %! ScoreTemplate
+                <<                                                                                 %! ScoreTemplate
+                    \tag ViolinI                                                                   %! ScoreTemplate(5)
+                    \context Staff = "ViolinIMusicStaff"                                           %! ScoreTemplate
+                    \D_ViolinIMusicStaff                                                           %! extern
+                    \tag ViolinII                                                                  %! ScoreTemplate(5)
+                    \context Staff = "ViolinIIMusicStaff"                                          %! ScoreTemplate
+                    \D_ViolinIIMusicStaff                                                          %! extern
+                    \tag viola                                                                     %! ScoreTemplate(5)
+                    \context Staff = "ViolaMusicStaff"                                             %! ScoreTemplate
+                    \D_ViolaMusicStaff                                                             %! extern
+                    \tag cello                                                                     %! ScoreTemplate(5)
+                    \context Staff = "CelloMusicStaff"                                             %! ScoreTemplate
+                    \D_CelloMusicStaff                                                             %! extern
+                >>                                                                                 %! ScoreTemplate
+            }                                                                                      %! ScoreTemplate
+        >>                                                                                         %! ScoreTemplate
+    >>                                                                                             %! _make_lilypond_file
+}                                                                                                  %! _make_lilypond_file
