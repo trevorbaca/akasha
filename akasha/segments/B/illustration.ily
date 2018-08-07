@@ -234,7 +234,7 @@ B_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! accelerando_rhythm
         
         % [B ViolinIMusicVoice measure 24 / measure 1]                                             %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -243,7 +243,7 @@ B_ViolinIMusicVoice = {
                 #12                                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 "Vn. I"                                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
         \clef "treble"                                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -251,11 +251,11 @@ B_ViolinIMusicVoice = {
     %@% \override Staff.Clef.color = ##f                                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-        e''16 * 249/32
+        e''16 * 249/32                                                                             %! accelerando_rhythm
         \pp                                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \markup \baca-reapplied-indicator-markup "[“Vn. I”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"                                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! accelerando_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -267,21 +267,21 @@ B_ViolinIMusicVoice = {
         
         r16 * 43/8
         
-        d''16 * 179/64
+        d''16 * 179/64                                                                             %! accelerando_rhythm
         
-        \revert Staff.Stem.stemlet-length
-        e''16 * 131/64
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! accelerando_rhythm
+        e''16 * 131/64                                                                             %! accelerando_rhythm
+        ]                                                                                          %! accelerando_rhythm
+    }                                                                                              %! accelerando_rhythm
     \revert TupletNumber.text
     
     % [B ViolinIMusicVoice measure 25 / measure 2]                                                 %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! accelerando_rhythm
     
-    r8
+    r8                                                                                             %! accelerando_rhythm
     
     % [B ViolinIMusicVoice measure 26 / measure 3]                                                 %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! accelerando_rhythm
     
     % [B ViolinIMusicVoice measure 27 / measure 4]                                                 %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -331,7 +331,7 @@ B_ViolinIIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds'!4
+    ds'!4                                                                                          %! polyphony_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"                                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -345,20 +345,20 @@ B_ViolinIIMusicVoice = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    e'2..
+    e'2..                                                                                          %! polyphony_rhythm
     
     % [B ViolinIIMusicVoice measure 25 / measure 2]                                                %! _comment_measure_numbers
-    f'4
+    f'4                                                                                            %! polyphony_rhythm
     
     fqf'!8
     
     fqf'!4
     \repeatTie
     
-    e'2
+    e'2                                                                                            %! polyphony_rhythm
     
     % [B ViolinIIMusicVoice measure 26 / measure 3]                                                %! _comment_measure_numbers
-    e'2
+    e'2                                                                                            %! polyphony_rhythm
     \repeatTie
     
     % [B ViolinIIMusicVoice measure 27 / measure 4]                                                %! _comment_measure_numbers
@@ -417,32 +417,32 @@ B_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! accelerando_rhythm
         
         % [B ViolinIIMusicVoice measure 33 / measure 10]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c''16 * 487/64
+        c''16 * 487/64                                                                             %! accelerando_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                                                %! IndicatorCommand
-        [
+        [                                                                                          %! accelerando_rhythm
         
-        bf'!16 * 209/32
+        bf'!16 * 209/32                                                                            %! accelerando_rhythm
         
-        c''16 * 143/32
+        c''16 * 143/32                                                                             %! accelerando_rhythm
         
         r16 * 197/64
         
-        bf'!16 * 19/8
+        bf'!16 * 19/8                                                                              %! accelerando_rhythm
         
-        c''16 * 65/32
+        c''16 * 65/32                                                                              %! accelerando_rhythm
         
-        \revert Staff.Stem.stemlet-length
-        bf'!16 * 61/32
-        ]
+        \revert Staff.Stem.stemlet-length                                                          %! accelerando_rhythm
+        bf'!16 * 61/32                                                                             %! accelerando_rhythm
+        ]                                                                                          %! accelerando_rhythm
         
-    }
+    }                                                                                              %! accelerando_rhythm
     \revert TupletNumber.text
 }
 
@@ -487,7 +487,7 @@ B_ViolaMusicVoice = {
     
     r4
     
-    df'!2
+    df'!2                                                                                          %! polyphony_rhythm
     
     % [B ViolaMusicVoice measure 25 / measure 2]                                                   %! _comment_measure_numbers
     df'!4.
@@ -497,16 +497,16 @@ B_ViolaMusicVoice = {
     \repeatTie
     
     dtqf'!8
-    [
+    [                                                                                              %! polyphony_rhythm
     
     dtqf'!8
     \repeatTie
-    ]
+    ]                                                                                              %! polyphony_rhythm
     
-    c'4
+    c'4                                                                                            %! polyphony_rhythm
     
     % [B ViolaMusicVoice measure 26 / measure 3]                                                   %! _comment_measure_numbers
-    c'2
+    c'2                                                                                            %! polyphony_rhythm
     \repeatTie
     
     % [B ViolaMusicVoice measure 27 / measure 4]                                                   %! _comment_measure_numbers
@@ -560,7 +560,7 @@ B_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r2.
+    r2.                                                                                            %! sparse_getato_rhythm
     \p                                                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -573,231 +573,231 @@ B_CelloMusicVoice = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    r4.
-    \times 8/9 {
+    r4.                                                                                            %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
         % [B CelloMusicVoice measure 25 / measure 2]                                               %! _comment_measure_numbers
-        r16.
+        r16.                                                                                       %! sparse_getato_rhythm
         
-        bf!32
+        bf!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        a32
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        bf!32
+        a32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b32
+        bf!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
         
-        r16
-    }
+        b32                                                                                        %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+        
+        r16                                                                                        %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
-    r2..
+    r2..                                                                                           %! sparse_getato_rhythm
     
     % [B CelloMusicVoice measure 26 / measure 3]                                                   %! _comment_measure_numbers
-    r8.
+    r8.                                                                                            %! sparse_getato_rhythm
     
-    c'32
+    c'32                                                                                           %! sparse_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! sparse_getato_rhythm
     
-    bf!32
+    bf!32                                                                                          %! sparse_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 4/5 {
+    ]                                                                                              %! sparse_getato_rhythm
+    \times 4/5 {                                                                                   %! sparse_getato_rhythm
         
-        b32
+        b32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        bf!32
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        a32
+        bf!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g32
+        a32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af!32
+        g32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a32
+        af!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
         
-        r8
-    }
-    \times 8/9 {
+        a32                                                                                        %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+        
+        r8                                                                                         %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
         % [B CelloMusicVoice measure 27 / measure 4]                                               %! _comment_measure_numbers
-        r8
+        r8                                                                                         %! sparse_getato_rhythm
         
-        bf!32
+        bf!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        af!32
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        g32
+        af!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs!32
-        -\staccato                                                                                 %! IndicatorCommand
-        ]
-        
-        r32
-    }
-    \times 8/9 {
-        
-        r16.
-        
-        g32
-        -\staccato                                                                                 %! IndicatorCommand
-        [
-        
-        f32
+        g32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e32
+        fs!32                                                                                      %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+        
+        r32                                                                                        %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
+        
+        r16.                                                                                       %! sparse_getato_rhythm
+        
+        g32                                                                                        %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        [                                                                                          %! sparse_getato_rhythm
+        
+        f32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs!32
+        e32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f32
+        fs!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g32
+        f32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        g32                                                                                        %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
-    fs!32
+    fs!32                                                                                          %! sparse_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! sparse_getato_rhythm
     
-    g32
+    g32                                                                                            %! sparse_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
+    ]                                                                                              %! sparse_getato_rhythm
     
     r16
     
     r16
     
-    af!32
+    af!32                                                                                          %! sparse_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! sparse_getato_rhythm
     
-    a32
+    a32                                                                                            %! sparse_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 4/5 {
+    ]                                                                                              %! sparse_getato_rhythm
+    \times 4/5 {                                                                                   %! sparse_getato_rhythm
         
-        g32
+        g32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        af!32
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        g32
+        af!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs!32
+        g32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e32
+        fs!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f32
+        e32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
         
-        r8
-    }
+        f32                                                                                        %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+        
+        r8                                                                                         %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
     % [B CelloMusicVoice measure 28 / measure 5]                                                   %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 8/9 {
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
         % [B CelloMusicVoice measure 29 / measure 6]                                               %! _comment_measure_numbers
-        fs!32
+        fs!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        g32
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        f32
+        g32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e32
+        f32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef!32
-        -\staccato                                                                                 %! IndicatorCommand
-        ]
-        
-        r8
-    }
-    \times 4/5 {
-        
-        e32
-        -\staccato                                                                                 %! IndicatorCommand
-        [
-        
-        d32
+        e32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs!32
+        ef!32                                                                                      %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+        
+        r8                                                                                         %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
+    \times 4/5 {                                                                                   %! sparse_getato_rhythm
+        
+        e32                                                                                        %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        [                                                                                          %! sparse_getato_rhythm
+        
+        d32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef!32
+        cs!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
         
-        r32
-    }
+        ef!32                                                                                      %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+        
+        r32                                                                                        %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
     % [B CelloMusicVoice measure 30 / measure 7]                                                   %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 8/9 {
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
         % [B CelloMusicVoice measure 31 / measure 8]                                               %! _comment_measure_numbers
-        d32
+        d32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        r8
+        r8                                                                                         %! sparse_getato_rhythm
         
-        e32
+        e32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        ef!32
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e32
+        ef!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f32
+        e32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/9 {
         
-        r4
+        f32                                                                                        %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
-        fs!32
+        r4                                                                                         %! sparse_getato_rhythm
+        
+        fs!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         \revert Beam.positions                                                                     %! OverrideCommand(2)
         \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
-    }
+    }                                                                                              %! sparse_getato_rhythm
     
     % [B CelloMusicVoice measure 32 / measure 9]                                                   %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences

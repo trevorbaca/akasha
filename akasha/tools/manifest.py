@@ -28,6 +28,7 @@ def manifest(these_counts):
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             read_talea_once_only=True,
+            tag='manifest',
             talea=rmakers.Talea(
                 counts=these_counts,
                 denominator=16,

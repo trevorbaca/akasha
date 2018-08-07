@@ -24,6 +24,7 @@ def dense_getato_rhythm(
             denominators=[16],
             division_masks=dmask,
             extra_counts_per_division=extra_counts_per_division,
+            tag='dense_getato_rhythm',
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 ),

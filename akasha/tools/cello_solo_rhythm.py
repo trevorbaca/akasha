@@ -10,6 +10,7 @@ def cello_solo_rhythm(rotation=None):
     counts = abjad.sequence([7, 1, 10, 2])
     counts.rotate(n=rotation)
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        tag='cello_solo_rhythm',
         talea=rmakers.Talea(
             counts=counts,
             denominator=16,

@@ -122,12 +122,12 @@ J_ViolinIMusicVoice = {
             "Vn. I"                                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! scratch_rhythm
+    \times 6/4 {                                                                                   %! scratch_rhythm
         
         % [J ViolinIMusicVoice measure 262 / measure 2]                                            %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f'4
+        f'4                                                                                        %! scratch_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \column                                                                                %! IndicatorCommand
@@ -142,19 +142,19 @@ J_ViolinIMusicVoice = {
         r4
         
         r4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    }                                                                                              %! scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! scratch_rhythm
+    \times 6/4 {                                                                                   %! scratch_rhythm
         
         % [J ViolinIMusicVoice measure 263 / measure 3]                                            %! _comment_measure_numbers
-        fs'!4
+        fs'!4                                                                                      %! scratch_rhythm
         
         r4
         
         r4
         
         r4
-    }
+    }                                                                                              %! scratch_rhythm
     
     % [J ViolinIMusicVoice measure 264 / measure 4]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -169,8 +169,8 @@ J_ViolinIMusicStaff = {
 
 
 J_ViolinIIMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/4 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! scratch_rhythm
+    \times 4/4 {                                                                                   %! scratch_rhythm
         
         % [J ViolinIIMusicVoice measure 261 / measure 1]                                           %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -207,7 +207,7 @@ J_ViolinIIMusicVoice = {
         r4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        a4
+        a4                                                                                         %! scratch_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \column                                                                                %! IndicatorCommand
@@ -216,23 +216,23 @@ J_ViolinIIMusicVoice = {
                     "terminate each note abruptly"                                                 %! IndicatorCommand
                 }                                                                                  %! IndicatorCommand
             }                                                                                      %! IndicatorCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    }                                                                                              %! scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! scratch_rhythm
+    \times 6/5 {                                                                                   %! scratch_rhythm
         
         % [J ViolinIIMusicVoice measure 262 / measure 2]                                           %! _comment_measure_numbers
         r4
         
         r4
         
-        bf!4
+        bf!4                                                                                       %! scratch_rhythm
         
         r4
         
         r4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    }                                                                                              %! scratch_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! scratch_rhythm
+    \times 6/7 {                                                                                   %! scratch_rhythm
         
         % [J ViolinIIMusicVoice measure 263 / measure 3]                                           %! _comment_measure_numbers
         r4
@@ -247,8 +247,8 @@ J_ViolinIIMusicVoice = {
         
         r4
         
-        a4
-    }
+        a4                                                                                         %! scratch_rhythm
+    }                                                                                              %! scratch_rhythm
     
     % [J ViolinIIMusicVoice measure 264 / measure 4]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -313,8 +313,8 @@ J_ViolaMusicStaff = {
 
 
 J_CelloMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/3 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! scratch_rhythm
+    \times 4/3 {                                                                                   %! scratch_rhythm
         
         % [J CelloMusicVoice measure 261 / measure 1]                                              %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -343,7 +343,7 @@ J_CelloMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        b,4
+        b,4                                                                                        %! scratch_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \column                                                                                %! IndicatorCommand
@@ -354,24 +354,24 @@ J_CelloMusicVoice = {
             }                                                                                      %! IndicatorCommand
         
         r4
-    }
+    }                                                                                              %! scratch_rhythm
     
     % [J CelloMusicVoice measure 262 / measure 2]                                                  %! _comment_measure_numbers
     R1 * 3/2                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! scratch_rhythm
+    \times 6/5 {                                                                                   %! scratch_rhythm
         
         % [J CelloMusicVoice measure 263 / measure 3]                                              %! _comment_measure_numbers
         r4
         
-        c4
+        c4                                                                                         %! scratch_rhythm
         
         r4
         
         r4
         
         r4
-    }
+    }                                                                                              %! scratch_rhythm
     
     % [J CelloMusicVoice measure 264 / measure 4]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences

@@ -35,6 +35,7 @@ def growth(
             silence_mask,
             sustain_mask,
             ],
+        tag='growth',
         talea=rmakers.Talea(
             counts=[9, 4, 8, 7],
             denominator=16,
@@ -61,6 +62,7 @@ def growth(
             silence_mask,
             sustain_mask,
             ],
+        tag='growth',
         tie_specifier=rmakers.TieSpecifier(
             repeat_ties=True,
             ),

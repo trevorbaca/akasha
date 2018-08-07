@@ -20,6 +20,7 @@ def sparse_getato_rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=dmask,
             extra_counts_per_division=extra_counts_per_division,
+            tag='sparse_getato_rhythm',
             talea=rmakers.Talea(
                 counts=akasha.perforated_counts(
                     degree=degree,

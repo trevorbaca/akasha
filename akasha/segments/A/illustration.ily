@@ -448,7 +448,7 @@ A_ViolinIMusicVoice = {
     
     % [A ViolinIMusicVoice measure 9 / measure 6]                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'4
+    e'4                                                                                            %! polyphony_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                                            %! IndicatorCommand
     
@@ -457,10 +457,10 @@ A_ViolinIMusicVoice = {
     f'4.
     \repeatTie
     
-    eqs'!8
+    eqs'!8                                                                                         %! polyphony_rhythm
     
     % [A ViolinIMusicVoice measure 10 / measure 7]                                                 %! _comment_measure_numbers
-    eqs'!8
+    eqs'!8                                                                                         %! polyphony_rhythm
     \repeatTie
     
     r2..
@@ -469,45 +469,45 @@ A_ViolinIMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A ViolinIMusicVoice measure 12 / measure 9]                                                 %! _comment_measure_numbers
-    r1
-    \times 8/9 {
+    r1                                                                                             %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        b32
+        b32                                                                                        %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }                               %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        cs'!32
+        cs'!32                                                                                     %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'32
+        c'32                                                                                       %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
+        ]                                                                                          %! sparse_getato_rhythm
         
-        r8.
-    }
-    \times 8/9 {
+        r8.                                                                                        %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
-        r16.
+        r16.                                                                                       %! sparse_getato_rhythm
         
-        b32
+        b32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        bf!32
+        bf!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
+        ]                                                                                          %! sparse_getato_rhythm
         
-        r8
-    }
+        r8                                                                                         %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
     % [A ViolinIMusicVoice measure 13 / measure 10]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A ViolinIMusicVoice measure 14 / measure 11]                                                %! _comment_measure_numbers
-    r1.
+    r1.                                                                                            %! accelerando_rhythm
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -549,39 +549,39 @@ A_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! accelerando_rhythm
         
         % [A ViolinIMusicVoice measure 15 / measure 12]                                            %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! accelerando_rhythm
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d''16 * 15/8
+        d''16 * 15/8                                                                               %! accelerando_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                                                %! IndicatorCommand
-        [
+        [                                                                                          %! accelerando_rhythm
         
-        e''16 * 61/32
+        e''16 * 61/32                                                                              %! accelerando_rhythm
         
         r16 * 129/64
         
-        d''16 * 141/64
+        d''16 * 141/64                                                                             %! accelerando_rhythm
         
         r16 * 159/64
         
-        e''16 * 185/64
+        e''16 * 185/64                                                                             %! accelerando_rhythm
         
         r16 * 111/32
         
-        d''16 * 17/4
+        d''16 * 17/4                                                                               %! accelerando_rhythm
         
         r16 * 335/64
         
-        e''16 * 407/64
+        e''16 * 407/64                                                                             %! accelerando_rhythm
         
-        \revert Staff.Stem.stemlet-length
-        d''16 * 117/16
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! accelerando_rhythm
+        d''16 * 117/16                                                                             %! accelerando_rhythm
+        ]                                                                                          %! accelerando_rhythm
+    }                                                                                              %! accelerando_rhythm
     \revert TupletNumber.text
     
     % [A ViolinIMusicVoice measure 17 / measure 14]                                                %! _comment_measure_numbers
@@ -625,26 +625,26 @@ A_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! accelerando_rhythm
         
         % [A ViolinIMusicVoice measure 18 / measure 15]                                            %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
-        e''16 * 241/32
-        [
+        e''16 * 241/32                                                                             %! accelerando_rhythm
+        [                                                                                          %! accelerando_rhythm
         
         r16 * 49/8
         
-        d''16 * 243/64
+        d''16 * 243/64                                                                             %! accelerando_rhythm
         
-        e''16 * 165/64
+        e''16 * 165/64                                                                             %! accelerando_rhythm
         
         r16 * 33/16
         
-        \revert Staff.Stem.stemlet-length
-        d''16 * 61/32
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! accelerando_rhythm
+        d''16 * 61/32                                                                              %! accelerando_rhythm
+        ]                                                                                          %! accelerando_rhythm
+    }                                                                                              %! accelerando_rhythm
     \revert TupletNumber.text
     
     % [A ViolinIMusicVoice measure 19 / measure 16]                                                %! _comment_measure_numbers
@@ -690,26 +690,26 @@ A_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ritardando_rhythm
         
         % [A ViolinIMusicVoice measure 20 / measure 17]                                            %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
-        e''16 * 113/64
-        [
+        e''16 * 113/64                                                                             %! ritardando_rhythm
+        [                                                                                          %! ritardando_rhythm
         
         r16 * 121/64
         
-        d''16 * 147/64
+        d''16 * 147/64                                                                             %! ritardando_rhythm
         
         r16 * 25/8
         
         r16 * 145/32
         
-        \revert Staff.Stem.stemlet-length
-        e''16 * 409/64
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! ritardando_rhythm
+        e''16 * 409/64                                                                             %! ritardando_rhythm
+        ]                                                                                          %! ritardando_rhythm
+    }                                                                                              %! ritardando_rhythm
     \revert TupletNumber.text
     
     % [A ViolinIMusicVoice measure 21 / measure 18]                                                %! _comment_measure_numbers
@@ -761,41 +761,41 @@ A_ViolinIIMusicVoice = {
     
     % [A ViolinIIMusicVoice measure 6 / measure 3]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 8/9 {
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
         % [A ViolinIIMusicVoice measure 7 / measure 4]                                             %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        bf!32
+        bf!32                                                                                      %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }                               %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        b32
+        b32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf!32
+        bf!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
+        ]                                                                                          %! sparse_getato_rhythm
         
-        r8.
-    }
-    \times 8/9 {
+        r8.                                                                                        %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
-        r16.
+        r16.                                                                                       %! sparse_getato_rhythm
         
-        a32
+        a32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        af!32
+        af!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
+        ]                                                                                          %! sparse_getato_rhythm
         
-        r8
-    }
+        r8                                                                                         %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
-    r2
+    r2                                                                                             %! sparse_getato_rhythm
     
     % [A ViolinIIMusicVoice measure 8 / measure 5]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -806,17 +806,17 @@ A_ViolinIIMusicVoice = {
     r4.
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d'8
+    d'8                                                                                            %! polyphony_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                                            %! IndicatorCommand
     
     % [A ViolinIIMusicVoice measure 10 / measure 7]                                                %! _comment_measure_numbers
-    d'8
+    d'8                                                                                            %! polyphony_rhythm
     \repeatTie
     
-    dqf'!4.
+    dqf'!4.                                                                                        %! polyphony_rhythm
     
-    c'2
+    c'2                                                                                            %! polyphony_rhythm
     
     % [A ViolinIIMusicVoice measure 11 / measure 8]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -824,15 +824,15 @@ A_ViolinIIMusicVoice = {
     % [A ViolinIIMusicVoice measure 12 / measure 9]                                                %! _comment_measure_numbers
     r4
     
-    cs'!4.
+    cs'!4.                                                                                         %! polyphony_rhythm
     
-    ctqs'!2..
+    ctqs'!2..                                                                                      %! polyphony_rhythm
     
     % [A ViolinIIMusicVoice measure 13 / measure 10]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A ViolinIIMusicVoice measure 14 / measure 11]                                               %! _comment_measure_numbers
-    r1.
+    r1.                                                                                            %! ritardando_rhythm
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -874,37 +874,37 @@ A_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ritardando_rhythm
         
         % [A ViolinIIMusicVoice measure 15 / measure 12]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ritardando_rhythm
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        bf'!16 * 247/32
+        bf'!16 * 247/32                                                                            %! ritardando_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                                                %! IndicatorCommand
-        [
+        [                                                                                          %! ritardando_rhythm
         
         r16 * 459/64
         
-        c''16 * 187/32
+        c''16 * 187/32                                                                             %! ritardando_rhythm
         
-        bf'!16 * 287/64
+        bf'!16 * 287/64                                                                            %! ritardando_rhythm
         
         r16 * 223/64
         
-        c''16 * 181/64
+        c''16 * 181/64                                                                             %! ritardando_rhythm
         
         r16 * 153/64
         
-        bf'!16 * 137/64
+        bf'!16 * 137/64                                                                            %! ritardando_rhythm
         
-        c''16 * 2
+        c''16 * 2                                                                                  %! ritardando_rhythm
         
-        \revert Staff.Stem.stemlet-length
-        bf'!16 * 31/16
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! ritardando_rhythm
+        bf'!16 * 31/16                                                                             %! ritardando_rhythm
+        ]                                                                                          %! ritardando_rhythm
+    }                                                                                              %! ritardando_rhythm
     \revert TupletNumber.text
     
     % [A ViolinIIMusicVoice measure 17 / measure 14]                                               %! _comment_measure_numbers
@@ -948,28 +948,28 @@ A_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ritardando_rhythm
         
         % [A ViolinIIMusicVoice measure 18 / measure 15]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
-        c''16 * 115/64
-        [
+        c''16 * 115/64                                                                             %! ritardando_rhythm
+        [                                                                                          %! ritardando_rhythm
         
-        bf'!16 * 121/64
+        bf'!16 * 121/64                                                                            %! ritardando_rhythm
         
         r16 * 139/64
         
         r16 * 87/32
         
-        c''16 * 117/32
+        c''16 * 117/32                                                                             %! ritardando_rhythm
         
         r16 * 81/16
         
-        \revert Staff.Stem.stemlet-length
-        bf'!16 * 429/64
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! ritardando_rhythm
+        bf'!16 * 429/64                                                                            %! ritardando_rhythm
+        ]                                                                                          %! ritardando_rhythm
+    }                                                                                              %! ritardando_rhythm
     \revert TupletNumber.text
     
     % [A ViolinIIMusicVoice measure 19 / measure 16]                                               %! _comment_measure_numbers
@@ -1015,24 +1015,24 @@ A_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! accelerando_rhythm
         
         % [A ViolinIIMusicVoice measure 20 / measure 17]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
-        c''16 * 477/64
-        [
+        c''16 * 477/64                                                                             %! accelerando_rhythm
+        [                                                                                          %! accelerando_rhythm
         
         r16 * 353/64
         
-        bf'!16 * 97/32
+        bf'!16 * 97/32                                                                             %! accelerando_rhythm
         
         r16 * 17/8
         
-        \revert Staff.Stem.stemlet-length
-        c''16 * 15/8
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! accelerando_rhythm
+        c''16 * 15/8                                                                               %! accelerando_rhythm
+        ]                                                                                          %! accelerando_rhythm
+    }                                                                                              %! accelerando_rhythm
     \revert TupletNumber.text
     
     % [A ViolinIIMusicVoice measure 21 / measure 18]                                               %! _comment_measure_numbers
@@ -1076,22 +1076,22 @@ A_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ritardando_rhythm
         
         % [A ViolinIIMusicVoice measure 22 / measure 19]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
-        bf'!16 * 13/8
-        [
+        bf'!16 * 13/8                                                                              %! ritardando_rhythm
+        [                                                                                          %! ritardando_rhythm
         
-        c''16 * 125/64
+        c''16 * 125/64                                                                             %! ritardando_rhythm
         
         r16 * 49/16
         
-        \revert Staff.Stem.stemlet-length
-        bf'!16 * 343/64
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! ritardando_rhythm
+        bf'!16 * 343/64                                                                            %! ritardando_rhythm
+        ]                                                                                          %! ritardando_rhythm
+    }                                                                                              %! ritardando_rhythm
     \revert TupletNumber.text
     
     % [A ViolinIIMusicVoice measure 23 / measure 20]                                               %! _comment_measure_numbers
@@ -1145,27 +1145,27 @@ A_ViolaMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A ViolaMusicVoice measure 7 / measure 4]                                                    %! _comment_measure_numbers
-    r2.
-    \times 8/9 {
+    r2.                                                                                            %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
-        r8
+        r8                                                                                         %! sparse_getato_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        bf!32
+        bf!32                                                                                      %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }                               %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        a32
+        a32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf!32
+        bf!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
+        ]                                                                                          %! sparse_getato_rhythm
         
-        r16
-    }
+        r16                                                                                        %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
     % [A ViolaMusicVoice measure 8 / measure 5]                                                    %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -1181,13 +1181,13 @@ A_ViolaMusicVoice = {
     ef'!4.
     \repeatTie
     
-    d'8
+    d'8                                                                                            %! polyphony_rhythm
     
     % [A ViolaMusicVoice measure 10 / measure 7]                                                   %! _comment_measure_numbers
-    d'8
+    d'8                                                                                            %! polyphony_rhythm
     \repeatTie
     
-    e'4.
+    e'4.                                                                                           %! polyphony_rhythm
     
     r2
     
@@ -1199,7 +1199,7 @@ A_ViolaMusicVoice = {
     
     r8
     
-    c'2..
+    c'2..                                                                                          %! polyphony_rhythm
     
     % [A ViolaMusicVoice measure 13 / measure 10]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -1211,33 +1211,33 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     dqs'!8
-    [
+    [                                                                                              %! polyphony_rhythm
     
     dqs'!8
     \repeatTie
     
-    ds'!8
-    ]
+    ds'!8                                                                                          %! polyphony_rhythm
+    ]                                                                                              %! polyphony_rhythm
     
     % [A ViolaMusicVoice measure 15 / measure 12]                                                  %! _comment_measure_numbers
-    ds'!2.
+    ds'!2.                                                                                         %! polyphony_rhythm
     \repeatTie
     
-    e'4
+    e'4                                                                                            %! polyphony_rhythm
     
-    fs'!4.
+    fs'!4.                                                                                         %! polyphony_rhythm
     
-    f'8
+    f'8                                                                                            %! polyphony_rhythm
     
     % [A ViolaMusicVoice measure 16 / measure 13]                                                  %! _comment_measure_numbers
-    f'1
+    f'1                                                                                            %! polyphony_rhythm
     \repeatTie
     
     % [A ViolaMusicVoice measure 17 / measure 14]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A ViolaMusicVoice measure 18 / measure 15]                                                  %! _comment_measure_numbers
-    ef'!4.
+    ef'!4.                                                                                         %! polyphony_rhythm
     
     d'4.
     
@@ -1283,7 +1283,7 @@ A_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e4..
+    e4..                                                                                           %! cello_solo_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1297,10 +1297,10 @@ A_CelloMusicVoice = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    f16
+    f16                                                                                            %! cello_solo_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    fqs!4
+    fqs!4                                                                                          %! cello_solo_rhythm
     
     % [A CelloMusicVoice measure 5 / measure 2]                                                    %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -1324,26 +1324,26 @@ A_CelloMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A CelloMusicVoice measure 12 / measure 9]                                                   %! _comment_measure_numbers
-    c'4
+    c'4                                                                                            %! polyphony_rhythm
     
-    cqf'!4.
+    cqf'!4.                                                                                        %! polyphony_rhythm
     
-    b2..
+    b2..                                                                                           %! polyphony_rhythm
     
     % [A CelloMusicVoice measure 13 / measure 10]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A CelloMusicVoice measure 14 / measure 11]                                                  %! _comment_measure_numbers
-    bf!2..
+    bf!2..                                                                                         %! polyphony_rhythm
     
     btqf!8
-    [
+    [                                                                                              %! polyphony_rhythm
     
     btqf!8
     \repeatTie
-    ]
+    ]                                                                                              %! polyphony_rhythm
     
-    a4.
+    a4.                                                                                            %! polyphony_rhythm
     
     % [A CelloMusicVoice measure 15 / measure 12]                                                  %! _comment_measure_numbers
     af!2.
@@ -1352,16 +1352,16 @@ A_CelloMusicVoice = {
     \repeatTie
     
     g8
-    [
+    [                                                                                              %! polyphony_rhythm
     
     g8
     \repeatTie
     
-    a8
-    ]
+    a8                                                                                             %! polyphony_rhythm
+    ]                                                                                              %! polyphony_rhythm
     
     % [A CelloMusicVoice measure 16 / measure 13]                                                  %! _comment_measure_numbers
-    a2.
+    a2.                                                                                            %! polyphony_rhythm
     \repeatTie
     
     r4
@@ -1370,7 +1370,7 @@ A_CelloMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A CelloMusicVoice measure 18 / measure 15]                                                  %! _comment_measure_numbers
-    a4
+    a4                                                                                             %! polyphony_rhythm
     
     as!2
     
@@ -1378,11 +1378,11 @@ A_CelloMusicVoice = {
     \repeatTie
     
     b8
-    [
+    [                                                                                              %! polyphony_rhythm
     
     b8
     \repeatTie
-    ]
+    ]                                                                                              %! polyphony_rhythm
     
     r8
     
@@ -1396,26 +1396,26 @@ A_CelloMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [A CelloMusicVoice measure 22 / measure 19]                                                  %! _comment_measure_numbers
-    r4
-    \times 8/9 {
+    r4                                                                                             %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
-        r16.
+        r16.                                                                                       %! sparse_getato_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c'32
+        c'32                                                                                       %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { "leggierissimo: off-string bowing on staccati" }                               %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        cs'!32
+        cs'!32                                                                                     %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
+        ]                                                                                          %! sparse_getato_rhythm
         
-        r8
-    }
+        r8                                                                                         %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
-    r4
+    r4                                                                                             %! sparse_getato_rhythm
     
     % [A CelloMusicVoice measure 23 / measure 20]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
