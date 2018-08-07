@@ -925,160 +925,160 @@ F_ViolinIMusicVoice = {
     
     % [F ViolinIMusicVoice measure 153 / measure 2]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \times 4/7 {
+    \times 4/7 {                                                                                   %! dense_getato_rhythm
         
         % [F ViolinIMusicVoice measure 154 / measure 3]                                            %! _comment_measure_numbers
         r16
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        e'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        ef'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    d'''16
+    d'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    ef'''!16
+    ef'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    e'''16
+    e'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 4/6 {
+    ]                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/5 {
+        
+        f'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/5 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        g'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/7 {
+        
+        af'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/7 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        g'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        f'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolinIMusicVoice measure 155 / measure 4]                                                %! _comment_measure_numbers
     r16
     
-    e'''16
+    e'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    ef'''!16
+    ef'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    f'''16
+    f'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 4/6 {
+    ]                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/5 {
+        
+        g'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/5 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        g'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        af'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolinIMusicVoice measure 156 / measure 5]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -1127,23 +1127,23 @@ F_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! accelerando_rhythm
         
         % [F ViolinIMusicVoice measure 159 / measure 8]                                            %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! accelerando_rhythm
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!16 * 227/32
+        ef''!16 * 227/32                                                                           %! accelerando_rhythm
         \baca_pp_ancora                                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                                                %! IndicatorCommand
-        [
+        [                                                                                          %! accelerando_rhythm
         
         r16 * 199/64
         
-        \revert Staff.Stem.stemlet-length
-        f''16 * 115/64
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! accelerando_rhythm
+        f''16 * 115/64                                                                             %! accelerando_rhythm
+        ]                                                                                          %! accelerando_rhythm
+    }                                                                                              %! accelerando_rhythm
     \revert TupletNumber.text
     \override TupletNumber.text = \markup {
         \scale
@@ -1184,127 +1184,127 @@ F_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! accelerando_rhythm
         
         % [F ViolinIMusicVoice measure 160 / measure 9]                                            %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! accelerando_rhythm
         \once \override Beam.grow-direction = #left
-        ef''!16 * 109/64
-        [
+        ef''!16 * 109/64                                                                           %! accelerando_rhythm
+        [                                                                                          %! accelerando_rhythm
         
-        f''16 * 61/32
+        f''16 * 61/32                                                                              %! accelerando_rhythm
         
-        ef''!16 * 163/64
+        ef''!16 * 163/64                                                                           %! accelerando_rhythm
         
         r16 * 31/8
         
-        \revert Staff.Stem.stemlet-length
-        f''16 * 191/32
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! accelerando_rhythm
+        f''16 * 191/32                                                                             %! accelerando_rhythm
+        ]                                                                                          %! accelerando_rhythm
+    }                                                                                              %! accelerando_rhythm
     \revert TupletNumber.text
     
     % [F ViolinIMusicVoice measure 161 / measure 10]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! growth
         
         % [F ViolinIMusicVoice measure 162 / measure 11]                                           %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!4
+        ef''!4                                                                                     %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
-        ef''!16
+        ef''!16                                                                                    %! growth
         \repeatTie
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!4
+        ef''!4                                                                                     %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \repeatTie
         
         r16
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         r8.
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f''8
+        f''8                                                                                       %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        f''4
+        f''4                                                                                       %! growth
         \repeatTie
         
-        f''16
+        f''16                                                                                      %! growth
         \repeatTie
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        f''16
-        \repeatTie
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        ef''!4
-    }
-    \times 4/5 {
+        f''16                                                                                      %! growth
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        ef''!4                                                                                     %! growth
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         % [F ViolinIMusicVoice measure 163 / measure 12]                                           %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!8.
+        ef''!8.                                                                                    %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \repeatTie
         
         r8
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         r4
         
         r16
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         r8
         
         r8.
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         r16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f''4
+        f''4                                                                                       %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
-        f''4
+        f''4                                                                                       %! growth
         \repeatTie
         
-        ef''!16
-    }
-    \times 4/5 {
+        ef''!16                                                                                    %! growth
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        ef''!4
+        ef''!4                                                                                     %! growth
         \repeatTie
         
-        ef''!16
+        ef''!16                                                                                    %! growth
         \repeatTie
-    }
+    }                                                                                              %! growth
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1344,136 +1344,136 @@ F_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! growth
         
         % [F ViolinIMusicVoice measure 164 / measure 13]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! growth
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f''16 * 241/32
+        f''16 * 241/32                                                                             %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        [
+        [                                                                                          %! growth
         
         r16 * 49/8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!16 * 243/64
+        ef''!16 * 243/64                                                                           %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f''16 * 165/64
+        f''16 * 165/64                                                                             %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 33/16
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! growth
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!16 * 61/32
+        ef''!16 * 61/32                                                                            %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
-    }
+        ]                                                                                          %! growth
+    }                                                                                              %! growth
     \revert TupletNumber.text
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! growth
         
         % [F ViolinIMusicVoice measure 165 / measure 14]                                           %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        fs''!4
+        fs''!4                                                                                     %! growth
         
-        fs''!16
+        fs''!16                                                                                    %! growth
         \repeatTie
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        fs''!4
+        fs''!4                                                                                     %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \repeatTie
         
         r16
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         r8.
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!8
+        ef''!8                                                                                     %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        ef''!4
+        ef''!4                                                                                     %! growth
         \repeatTie
         
-        ef''!16
+        ef''!16                                                                                    %! growth
         \repeatTie
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         % [F ViolinIMusicVoice measure 166 / measure 15]                                           %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        ef''!16
+        ef''!16                                                                                    %! growth
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        fs''!4
-    }
-    \times 4/5 {
+        fs''!4                                                                                     %! growth
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        fs''!8.
+        fs''!8.                                                                                    %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \repeatTie
         
         r8
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         r4
         
         r16
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         r8
         
         r8.
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         % [F ViolinIMusicVoice measure 167 / measure 16]                                           %! _comment_measure_numbers
         r16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!4
+        ef''!4                                                                                     %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
-        ef''!4
+        ef''!4                                                                                     %! growth
         \repeatTie
         
-        fs''!16
-    }
-    \times 4/5 {
+        fs''!16                                                                                    %! growth
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        fs''!4
+        fs''!4                                                                                     %! growth
         \repeatTie
         
-        fs''!16
+        fs''!16                                                                                    %! growth
         \repeatTie
-    }
+    }                                                                                              %! growth
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1515,25 +1515,25 @@ F_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! growth
         
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! growth
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e''16 * 31/4
+        e''16 * 31/4                                                                               %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        [
+        [                                                                                          %! growth
         
         r16 * 233/32
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        fs''!16 * 393/64
+        fs''!16 * 393/64                                                                           %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e''16 * 39/8
+        e''16 * 39/8                                                                               %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 123/32
@@ -1541,84 +1541,84 @@ F_ViolinIMusicVoice = {
         r16 * 25/8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        fs''!16 * 169/64
+        fs''!16 * 169/64                                                                           %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
-        e''16 * 37/16
+        e''16 * 37/16                                                                              %! growth
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        fs''!16 * 135/64
+        fs''!16 * 135/64                                                                           %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 127/64
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! growth
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e''16 * 31/16
+        e''16 * 31/16                                                                              %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
-    }
+        ]                                                                                          %! growth
+    }                                                                                              %! growth
     \revert TupletNumber.text
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        fs''!4
+        fs''!4                                                                                     %! growth
         
-        fs''!16
+        fs''!16                                                                                    %! growth
         \repeatTie
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        fs''!4
+        fs''!4                                                                                     %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \repeatTie
         
         r16
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         r8.
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e''8
+        e''8                                                                                       %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         % [F ViolinIMusicVoice measure 170 / measure 19]                                           %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        e''4
+        e''4                                                                                       %! growth
         \repeatTie
         
-        e''16
+        e''16                                                                                      %! growth
         \repeatTie
-    }
-    \times 4/5 {
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        e''16
+        e''16                                                                                      %! growth
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        g''4
-    }
-    \times 4/5 {
+        g''4                                                                                       %! growth
+    }                                                                                              %! growth
+    \times 4/5 {                                                                                   %! growth
         
-        g''8.
+        g''8.                                                                                      %! growth
         \repeatTie
-        [
+        [                                                                                          %! growth
         
-        e''8
-        ]
-    }
+        e''8                                                                                       %! growth
+        ]                                                                                          %! growth
+    }                                                                                              %! growth
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1660,26 +1660,26 @@ F_ViolinIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! growth
         
         % [F ViolinIMusicVoice measure 171 / measure 20]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! growth
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        g''16 * 31/4
+        g''16 * 31/4                                                                               %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        [
+        [                                                                                          %! growth
         
         r16 * 233/32
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e''16 * 393/64
+        e''16 * 393/64                                                                             %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        g''16 * 39/8
+        g''16 * 39/8                                                                               %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 123/32
@@ -1687,25 +1687,25 @@ F_ViolinIMusicVoice = {
         r16 * 25/8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f''16 * 169/64
+        f''16 * 169/64                                                                             %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
-        g''16 * 37/16
+        g''16 * 37/16                                                                              %! growth
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f''16 * 135/64
+        f''16 * 135/64                                                                             %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 127/64
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! growth
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        g''16 * 31/16
+        g''16 * 31/16                                                                              %! growth
         \p                                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
-    }
+        ]                                                                                          %! growth
+    }                                                                                              %! growth
     \revert TupletNumber.text
     
     % [F ViolinIMusicVoice measure 174 / measure 23]                                               %! _comment_measure_numbers
@@ -1779,461 +1779,461 @@ F_ViolinIMusicVoice = {
     
     % [F ViolinIMusicVoice measure 186 / measure 35]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 8/14 {
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolinIMusicVoice measure 187 / measure 36]                                           %! _comment_measure_numbers
         r16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { "pos. ord." }                                                                  %! IndicatorCommand
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        af'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        a'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         % [F ViolinIMusicVoice measure 188 / measure 37]                                           %! _comment_measure_numbers
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        g'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        
+        g'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        bf'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        a'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        c''''16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        cs''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        b'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        c''''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        bf'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        af'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         % [F ViolinIMusicVoice measure 190 / measure 39]                                           %! _comment_measure_numbers
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c''''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        cs''''!16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/7 {
+        
+        a'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/7 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        bf'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        b'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        
+        cs''''!16                                                                                  %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolinIMusicVoice measure 191 / measure 40]                                           %! _comment_measure_numbers
         r16
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        b'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        cs''''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e''''16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f''''16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        f''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        cs''''!16                                                                                  %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    c''''16
+    c''''16                                                                                        %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    b'''16
+    b'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    cs''''!16
+    cs''''!16                                                                                      %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 8/14 {
+    ]                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        cs''''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        d''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e''''16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f''''16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e''''16
+        f''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs''''!16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g''''16
+        fs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        
+        g''''16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolinIMusicVoice measure 192 / measure 41]                                           %! _comment_measure_numbers
         r16
         
-        f''''16
+        f''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        fs''''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        ef''''!16
+        fs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        ef''''!16                                                                                  %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        e''''16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        fs''''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        f''''16
+        fs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e''''16
+        f''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        ef''''!16                                                                                  %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    f''''16
+    f''''16                                                                                        %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    fs''''!16
+    fs''''!16                                                                                      %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    g''''16
+    g''''16                                                                                        %! dense_getato_rhythm
     \fff                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     -\staccato                                                                                     %! IndicatorCommand
-    ]
+    ]                                                                                              %! dense_getato_rhythm
     
     % [F ViolinIMusicVoice measure 193 / measure 42]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -2243,119 +2243,119 @@ F_ViolinIMusicVoice = {
     
     % [F ViolinIMusicVoice measure 195 / measure 44]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 12/18 {
+    \times 12/18 {                                                                                 %! dense_getato_rhythm
         
         % [F ViolinIMusicVoice measure 196 / measure 45]                                           %! _comment_measure_numbers
         r16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { leggieriss. }                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 12/16 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! dense_getato_rhythm
+    \times 12/16 {                                                                                 %! dense_getato_rhythm
         
         r16
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        b'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        a'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        a'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolinIMusicVoice measure 197 / measure 46]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -2409,167 +2409,167 @@ F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 153 / measure 2]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \times 4/6 {
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         % [F ViolinIIMusicVoice measure 154 / measure 3]                                           %! _comment_measure_numbers
         r16
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        cs'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        c'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        
+        bf''!16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        b''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        c'''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/5 {
+        
+        ef'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/5 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        ef'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        f'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        fs'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        d'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         % [F ViolinIIMusicVoice measure 155 / measure 4]                                           %! _comment_measure_numbers
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        e'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        e'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolinIIMusicVoice measure 156 / measure 5]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -2618,25 +2618,25 @@ F_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ritardando_rhythm
         
         % [F ViolinIIMusicVoice measure 159 / measure 8]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ritardando_rhythm
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        b'16 * 13/8
+        b'16 * 13/8                                                                                %! ritardando_rhythm
         \baca_pp_ancora                                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "tasto + XFB" }                                                                %! IndicatorCommand
-        [
+        [                                                                                          %! ritardando_rhythm
         
-        cs''!16 * 125/64
+        cs''!16 * 125/64                                                                           %! ritardando_rhythm
         
         r16 * 49/16
         
-        \revert Staff.Stem.stemlet-length
-        b'16 * 343/64
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! ritardando_rhythm
+        b'16 * 343/64                                                                              %! ritardando_rhythm
+        ]                                                                                          %! ritardando_rhythm
+    }                                                                                              %! ritardando_rhythm
     \revert TupletNumber.text
     \override TupletNumber.text = \markup {
         \scale
@@ -2677,22 +2677,22 @@ F_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ritardando_rhythm
         
         % [F ViolinIIMusicVoice measure 160 / measure 9]                                           %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ritardando_rhythm
         \once \override Beam.grow-direction = #right
-        cs''!16 * 117/16
-        [
+        cs''!16 * 117/16                                                                           %! ritardando_rhythm
+        [                                                                                          %! ritardando_rhythm
         
         r16 * 73/16
         
-        b'16 * 73/32
+        b'16 * 73/32                                                                               %! ritardando_rhythm
         
-        \revert Staff.Stem.stemlet-length
-        cs''!16 * 59/32
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! ritardando_rhythm
+        cs''!16 * 59/32                                                                            %! ritardando_rhythm
+        ]                                                                                          %! ritardando_rhythm
+    }                                                                                              %! ritardando_rhythm
     \revert TupletNumber.text
     
     % [F ViolinIIMusicVoice measure 161 / measure 10]                                              %! _comment_measure_numbers
@@ -2700,24 +2700,24 @@ F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 162 / measure 11]                                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'4
+    b'4                                                                                            %! growth
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
-    b'4
+    b'4                                                                                            %! growth
     \repeatTie
     
-    b'16
+    b'16                                                                                           %! growth
     \repeatTie
-    [
+    [                                                                                              %! growth
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    cs''!8.
-    ]
+    cs''!8.                                                                                        %! growth
+    ]                                                                                              %! growth
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    cs''!16
+    cs''!16                                                                                        %! growth
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -2730,7 +2730,7 @@ F_ViolinIIMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'8.
+    b'8.                                                                                           %! growth
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2773,51 +2773,51 @@ F_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! growth
         
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! growth
         \once \override Beam.grow-direction = #right
-        cs''!16 * 241/32
-        [
+        cs''!16 * 241/32                                                                           %! growth
+        [                                                                                          %! growth
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        b'16 * 49/8
+        b'16 * 49/8                                                                                %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 243/64
         
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        cs''!16 * 165/64
+        cs''!16 * 165/64                                                                           %! growth
         \pp                                                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         r16 * 33/16
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! growth
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        b'16 * 61/32
+        b'16 * 61/32                                                                               %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
-    }
+        ]                                                                                          %! growth
+    }                                                                                              %! growth
     \revert TupletNumber.text
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    cs''!4
+    cs''!4                                                                                         %! growth
     
-    cs''!4
+    cs''!4                                                                                         %! growth
     \repeatTie
     
-    cs''!16
+    cs''!16                                                                                        %! growth
     \repeatTie
-    [
+    [                                                                                              %! growth
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    b'8.
-    ]
+    b'8.                                                                                           %! growth
+    ]                                                                                              %! growth
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'16
+    b'16                                                                                           %! growth
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -2830,13 +2830,13 @@ F_ViolinIIMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''8.
+    d''8.                                                                                          %! growth
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''4
+    d''4                                                                                           %! growth
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -2849,13 +2849,13 @@ F_ViolinIIMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'8.
+    b'8.                                                                                           %! growth
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    b'16
+    b'16                                                                                           %! growth
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -2867,7 +2867,7 @@ F_ViolinIIMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''8.
+    d''8.                                                                                          %! growth
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2910,73 +2910,73 @@ F_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! growth
         
         % [F ViolinIIMusicVoice measure 167 / measure 16]                                          %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! growth
         \once \override Beam.grow-direction = #right
-        b'16 * 497/64
-        [
+        b'16 * 497/64                                                                              %! growth
+        [                                                                                          %! growth
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d''16 * 59/8
+        d''16 * 59/8                                                                               %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 51/8
         
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c''16 * 333/64
+        c''16 * 333/64                                                                             %! growth
         \p                                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         r16 * 67/16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d''16 * 219/64
+        d''16 * 219/64                                                                             %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         r16 * 185/64
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c''16 * 5/2
+        c''16 * 5/2                                                                                %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d''16 * 9/4
+        d''16 * 9/4                                                                                %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 133/64
         
         r16 * 127/64
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! growth
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c''16 * 63/32
+        c''16 * 63/32                                                                              %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
-    }
+        ]                                                                                          %! growth
+    }                                                                                              %! growth
     \revert TupletNumber.text
     
     % [F ViolinIIMusicVoice measure 169 / measure 18]                                              %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    d''4
+    d''4                                                                                           %! growth
     
-    d''4
+    d''4                                                                                           %! growth
     \repeatTie
     
-    d''16
+    d''16                                                                                          %! growth
     \repeatTie
-    [
+    [                                                                                              %! growth
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    c''8.
-    ]
+    c''8.                                                                                          %! growth
+    ]                                                                                              %! growth
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c''16
+    c''16                                                                                          %! growth
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
@@ -2989,12 +2989,12 @@ F_ViolinIIMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d''8.
+    d''8.                                                                                          %! growth
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
-    d''4
+    d''4                                                                                           %! growth
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
@@ -3035,51 +3035,51 @@ F_ViolinIIMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! growth
         
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! growth
         \once \override Beam.grow-direction = #right
-        c''16 * 497/64
-        [
+        c''16 * 497/64                                                                             %! growth
+        [                                                                                          %! growth
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!16 * 59/8
+        ef''!16 * 59/8                                                                             %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 51/8
         
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c''16 * 333/64
+        c''16 * 333/64                                                                             %! growth
         \pp                                                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         r16 * 67/16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!16 * 219/64
+        ef''!16 * 219/64                                                                           %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         r16 * 185/64
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c''16 * 5/2
+        c''16 * 5/2                                                                                %! growth
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        ef''!16 * 9/4
+        ef''!16 * 9/4                                                                              %! growth
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
         r16 * 133/64
         
         r16 * 127/64
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! growth
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        cs''!16 * 63/32
+        cs''!16 * 63/32                                                                            %! growth
         \p                                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
-    }
+        ]                                                                                          %! growth
+    }                                                                                              %! growth
     \revert TupletNumber.text
     
     % [F ViolinIIMusicVoice measure 174 / measure 23]                                              %! _comment_measure_numbers
@@ -3153,464 +3153,464 @@ F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 186 / measure 35]                                              %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 8/12 {
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolinIIMusicVoice measure 187 / measure 36]                                          %! _comment_measure_numbers
         r16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { "pos. ord." }                                                                  %! IndicatorCommand
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        d'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        
+        fs'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolinIIMusicVoice measure 188 / measure 37]                                          %! _comment_measure_numbers
         r16
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        g'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        d'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        ef'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        g'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolinIIMusicVoice measure 189 / measure 38]                                          %! _comment_measure_numbers
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        
+        a'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        g'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         % [F ViolinIIMusicVoice measure 190 / measure 39]                                          %! _comment_measure_numbers
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/7 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/7 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        a'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        bf'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        
+        c''''16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        b'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        af'''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        bf'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolinIIMusicVoice measure 191 / measure 40]                                              %! _comment_measure_numbers
     r16
     
-    a'''16
+    a'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    af'''!16
+    af'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    bf'''!16
+    bf'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 8/14 {
+    ]                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c''''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        b'''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        
+        bf'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        bf'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        b'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        d''''16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         % [F ViolinIIMusicVoice measure 192 / measure 41]                                          %! _comment_measure_numbers
         r16
         
-        cs''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        ef''''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        e''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        ef''''!16                                                                                  %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        cs''''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        c''''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs''''!16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d''''16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        d''''16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        cs''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c''''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        d''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef''''!16
+        d''''16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        ef''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e''''16
+        e''''16                                                                                    %! dense_getato_rhythm
         \fff                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolinIIMusicVoice measure 193 / measure 42]                                              %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -3620,111 +3620,111 @@ F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 195 / measure 44]                                              %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 12/16 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! dense_getato_rhythm
+    \times 12/16 {                                                                                 %! dense_getato_rhythm
         
         % [F ViolinIIMusicVoice measure 196 / measure 45]                                          %! _comment_measure_numbers
         r16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { leggieriss. }                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    fs'''!16
+    fs'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    f'''16
-    -\staccato                                                                                     %! IndicatorCommand
-    
-    g'''16
+    f'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    af'''!16
+    g'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    fs'''!16
+    af'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 6/9 {
+    
+    fs'''!16                                                                                       %! dense_getato_rhythm
+    -\staccato                                                                                     %! IndicatorCommand
+    ]                                                                                              %! dense_getato_rhythm
+    \times 6/9 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        e'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        ef'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolinIIMusicVoice measure 197 / measure 46]                                              %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -3814,130 +3814,130 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 162 / measure 11]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gs!2
+    gs!2                                                                                           %! manifest
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                                            %! IndicatorCommand
     
-    gs!8.
+    gs!8.                                                                                          %! manifest
     \repeatTie
-    [
+    [                                                                                              %! manifest
     
-    a16
-    ]
+    a16                                                                                            %! manifest
+    ]                                                                                              %! manifest
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    a2
+    a2                                                                                             %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 163 / measure 12]                                                 %! _comment_measure_numbers
-    a8
+    a8                                                                                             %! manifest
     \repeatTie
-    [
+    [                                                                                              %! manifest
     
-    b8
-    ]
+    b8                                                                                             %! manifest
+    ]                                                                                              %! manifest
     
-    b2
+    b2                                                                                             %! manifest
     \repeatTie
     
-    b2.
+    b2.                                                                                            %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 164 / measure 13]                                                 %! _comment_measure_numbers
-    bqf!2
+    bqf!2                                                                                          %! manifest
     
-    bf!4
+    bf!4                                                                                           %! manifest
     
-    bf!4..
+    bf!4..                                                                                         %! manifest
     \repeatTie
     
-    c'16
+    c'16                                                                                           %! manifest
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    c'4
+    c'4                                                                                            %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 165 / measure 14]                                                 %! _comment_measure_numbers
-    c'1
+    c'1                                                                                            %! manifest
     - \tweak direction #up
     \repeatTie
     
     % [F ViolaMusicVoice measure 166 / measure 15]                                                 %! _comment_measure_numbers
-    c'2
+    c'2                                                                                            %! manifest
     \repeatTie
     
-    c'16
+    c'16                                                                                           %! manifest
     \repeatTie
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    cs'!4..
+    cs'!4..                                                                                        %! manifest
     
     % [F ViolaMusicVoice measure 167 / measure 16]                                                 %! _comment_measure_numbers
-    cs'!1.
+    cs'!1.                                                                                         %! manifest
     - \tweak direction #up
     \repeatTie
     
     % [F ViolaMusicVoice measure 168 / measure 17]                                                 %! _comment_measure_numbers
-    cs'!4..
+    cs'!4..                                                                                        %! manifest
     \repeatTie
     
-    cqs'!16
+    cqs'!16                                                                                        %! manifest
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    cqs'!4
+    cqs'!4                                                                                         %! manifest
     \repeatTie
     
-    cqs'!2.
+    cqs'!2.                                                                                        %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 169 / measure 18]                                                 %! _comment_measure_numbers
-    cqs'!2
+    cqs'!2                                                                                         %! manifest
     \repeatTie
     
-    cqs'!8.
+    cqs'!8.                                                                                        %! manifest
     \repeatTie
-    [
+    [                                                                                              %! manifest
     
-    d'16
-    ]
+    d'16                                                                                           %! manifest
+    ]                                                                                              %! manifest
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    d'2
+    d'2                                                                                            %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 170 / measure 19]                                                 %! _comment_measure_numbers
-    d'2.
+    d'2.                                                                                           %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 171 / measure 20]                                                 %! _comment_measure_numbers
-    d'2.
+    d'2.                                                                                           %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 172 / measure 21]                                                 %! _comment_measure_numbers
-    d'1
+    d'1                                                                                            %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 173 / measure 22]                                                 %! _comment_measure_numbers
-    d'1
+    d'1                                                                                            %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 174 / measure 23]                                                 %! _comment_measure_numbers
-    d'2.
+    d'2.                                                                                           %! manifest
     \repeatTie
     
-    d'2
+    d'2                                                                                            %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 175 / measure 24]                                                 %! _comment_measure_numbers
-    d'2.
+    d'2.                                                                                           %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 176 / measure 25]                                                 %! _comment_measure_numbers
-    d'2.
+    d'2.                                                                                           %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 177 / measure 26]                                                 %! _comment_measure_numbers
-    d'1.
+    d'1.                                                                                           %! manifest
     \repeatTie
     
     % [F ViolaMusicVoice measure 178 / measure 27]                                                 %! _comment_measure_numbers
@@ -3989,7 +3989,7 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 186 / measure 35]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 8/11 {
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolaMusicVoice measure 187 / measure 36]                                             %! _comment_measure_numbers
     %%% \once \override Staff.Clef.X-extent = ##f                                                  %! OverrideCommand(1):MEASURE_187:SHIFTED_CLEF
@@ -4002,455 +4002,455 @@ F_ViolaMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { "pos. ord." }                                                                  %! IndicatorCommand
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        d'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolaMusicVoice measure 188 / measure 37]                                             %! _comment_measure_numbers
         r16
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        d'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        
+        b''16                                                                                      %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        cs'''!16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         % [F ViolaMusicVoice measure 189 / measure 38]                                             %! _comment_measure_numbers
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/7 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/7 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        
+        ef'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        cs'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        ef'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         % [F ViolaMusicVoice measure 190 / measure 39]                                             %! _comment_measure_numbers
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    fs'''!16
+    fs'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    af'''!16
+    af'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    a'''16
+    a'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 8/14 {
+    ]                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        af'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        f'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        
+        g'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolaMusicVoice measure 191 / measure 40]                                             %! _comment_measure_numbers
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        g'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        bf'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        af'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        f'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        fs'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        b'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         % [F ViolaMusicVoice measure 192 / measure 41]                                             %! _comment_measure_numbers
         r16
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c''''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        cs''''!16
+        c''''16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        
+        c''''16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        bf'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        a'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c''''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        c''''16                                                                                    %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        bf'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        a'''16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b'''16
+        a'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        b'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         \fff                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolaMusicVoice measure 193 / measure 42]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -4468,7 +4468,7 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 195 / measure 44]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 12/15 {
+    \times 12/15 {                                                                                 %! dense_getato_rhythm
         
         % [F ViolaMusicVoice measure 196 / measure 45]                                             %! _comment_measure_numbers
         \stopStaff                                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
@@ -4478,105 +4478,105 @@ F_ViolaMusicVoice = {
         r16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { leggieriss. }                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    d'''16
+    d'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    ef'''!16
-    -\staccato                                                                                     %! IndicatorCommand
-    
-    d'''16
+    ef'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    e'''16
+    d'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    f'''16
+    e'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    
+    f'''16                                                                                         %! dense_getato_rhythm
+    -\staccato                                                                                     %! IndicatorCommand
+    ]                                                                                              %! dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! dense_getato_rhythm
+    \times 6/10 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        e'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        cs'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        c'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F ViolaMusicVoice measure 197 / measure 46]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -4619,7 +4619,7 @@ F_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    f4..
+    f4..                                                                                           %! cello_solo_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -4633,196 +4633,196 @@ F_CelloMusicVoice = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    gf!16
+    gf!16                                                                                          %! cello_solo_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    gqf!4
+    gqf!4                                                                                          %! cello_solo_rhythm
     
     % [F CelloMusicVoice measure 153 / measure 2]                                                  %! _comment_measure_numbers
-    gqf!4.
+    gqf!4.                                                                                         %! cello_solo_rhythm
     \repeatTie
     
-    g8
+    g8                                                                                             %! cello_solo_rhythm
     
-    df!4..
+    df!4..                                                                                         %! cello_solo_rhythm
     
-    c16
-    \times 8/14 {
+    c16                                                                                            %! cello_solo_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         % [F CelloMusicVoice measure 154 / measure 3]                                              %! _comment_measure_numbers
         r16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        a''16
+        a''16                                                                                      %! dense_getato_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { leggieriss. }                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        bf''!16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g''16
+        g''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/7 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/7 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        b''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        cs'''!16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/13 {
+        
+        ef'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/13 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        d'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        b''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        d'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         % [F CelloMusicVoice measure 155 / measure 4]                                              %! _comment_measure_numbers
         r16
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        e'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        d'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        cs'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        b''16                                                                                      %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F CelloMusicVoice measure 156 / measure 5]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -4850,112 +4850,112 @@ F_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af,!4..
+    af,!4..                                                                                        %! manifest
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                                            %! IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    g,16
+    g,16                                                                                           %! manifest
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    g,4
+    g,4                                                                                            %! manifest
     \repeatTie
     
-    g,2
+    g,2                                                                                            %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 163 / measure 12]                                                 %! _comment_measure_numbers
-    g,2
+    g,2                                                                                            %! manifest
     \repeatTie
     
-    g,8
+    g,8                                                                                            %! manifest
     \repeatTie
     
-    f,2..
+    f,2..                                                                                          %! manifest
     
     % [F CelloMusicVoice measure 164 / measure 13]                                                 %! _comment_measure_numbers
-    f,1.
+    f,1.                                                                                           %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 165 / measure 14]                                                 %! _comment_measure_numbers
-    f,8.
+    f,8.                                                                                           %! manifest
     \repeatTie
-    [
+    [                                                                                              %! manifest
     
-    fqs,!16
-    ]
+    fqs,!16                                                                                        %! manifest
+    ]                                                                                              %! manifest
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    fqs,!2.
+    fqs,!2.                                                                                        %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 166 / measure 15]                                                 %! _comment_measure_numbers
-    fqs,!16
+    fqs,!16                                                                                        %! manifest
     \repeatTie
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    fs,!2...
+    fs,!2...                                                                                       %! manifest
     
     % [F CelloMusicVoice measure 167 / measure 16]                                                 %! _comment_measure_numbers
-    fs,!2...
+    fs,!2...                                                                                       %! manifest
     \repeatTie
     
-    e,16
+    e,16                                                                                           %! manifest
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    e,2
+    e,2                                                                                            %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 168 / measure 17]                                                 %! _comment_measure_numbers
-    e,1.
+    e,1.                                                                                           %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 169 / measure 18]                                                 %! _comment_measure_numbers
-    e,2.
+    e,2.                                                                                           %! manifest
     \repeatTie
     
-    e,2
+    e,2                                                                                            %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 170 / measure 19]                                                 %! _comment_measure_numbers
-    e,4..
+    e,4..                                                                                          %! manifest
     \repeatTie
     
-    ef,!16
+    ef,!16                                                                                         %! manifest
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    ef,!4
+    ef,!4                                                                                          %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 171 / measure 20]                                                 %! _comment_measure_numbers
-    ef,!2.
+    ef,!2.                                                                                         %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 172 / measure 21]                                                 %! _comment_measure_numbers
-    ef,!1
+    ef,!1                                                                                          %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 173 / measure 22]                                                 %! _comment_measure_numbers
-    ef,!1
+    ef,!1                                                                                          %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 174 / measure 23]                                                 %! _comment_measure_numbers
-    ef,!2.
+    ef,!2.                                                                                         %! manifest
     \repeatTie
     
-    ef,!2
+    ef,!2                                                                                          %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 175 / measure 24]                                                 %! _comment_measure_numbers
-    ef,!2.
+    ef,!2.                                                                                         %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 176 / measure 25]                                                 %! _comment_measure_numbers
-    ef,!2.
+    ef,!2.                                                                                         %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 177 / measure 26]                                                 %! _comment_measure_numbers
-    ef,!1.
+    ef,!1.                                                                                         %! manifest
     \repeatTie
     
     % [F CelloMusicVoice measure 178 / measure 27]                                                 %! _comment_measure_numbers
@@ -5007,7 +5007,7 @@ F_CelloMusicVoice = {
     
     % [F CelloMusicVoice measure 186 / measure 35]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 4/6 {
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         % [F CelloMusicVoice measure 187 / measure 36]                                             %! _comment_measure_numbers
     %%% \once \override Staff.Clef.X-extent = ##f                                                  %! OverrideCommand(1):MEASURE_187:SHIFTED_CLEF
@@ -5020,455 +5020,455 @@ F_CelloMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        af''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { "pos. ord." }                                                                  %! IndicatorCommand
         - \tweak color #blue                                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        a''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g''16
+        g''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs''!16
+        fs''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        af''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        g''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        af''!16
+        g''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af''!16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        b''16                                                                                      %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         % [F CelloMusicVoice measure 188 / measure 37]                                             %! _comment_measure_numbers
         r16
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        b''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        cs'''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        c'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        bf''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        b''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af''!16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        
+        cs'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         % [F CelloMusicVoice measure 189 / measure 38]                                             %! _comment_measure_numbers
         r16
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        b''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        bf''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/7 {
+        
+        cs'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/7 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        c'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        b''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        bf''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/14 {
+        
+        c'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         % [F CelloMusicVoice measure 190 / measure 39]                                             %! _comment_measure_numbers
         r16
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        ef'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        f'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    d'''16
+    d'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    ef'''!16
+    ef'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    d'''16
+    d'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 8/14 {
+    ]                                                                                              %! dense_getato_rhythm
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        cs'''!16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        c'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        d'''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        d'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         % [F CelloMusicVoice measure 191 / measure 40]                                             %! _comment_measure_numbers
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        d'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        g'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        af'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        ef'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        
+        d'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        e'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        ef'''!16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e'''16
+        ef'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/12 {
+        
+        g'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/12 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        e'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         % [F CelloMusicVoice measure 192 / measure 41]                                             %! _comment_measure_numbers
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 4/6 {
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        g'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        e'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
-    \times 8/11 {
+        
+        e'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        f'''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        fs'''!16
+        f'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        a'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        g'''16
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!16
+        g'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        
+        af'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         \fff                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [F CelloMusicVoice measure 193 / measure 42]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -5483,91 +5483,91 @@ F_CelloMusicVoice = {
     r16
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af''!16
+    af''!16                                                                                        %! dense_getato_rhythm
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\staccato                                                                                     %! IndicatorCommand
     ^ \markup { leggieriss. }                                                                      %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    a''16
+    a''16                                                                                          %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    af''!16
+    af''!16                                                                                        %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    g''16
+    g''16                                                                                          %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    fs''!16
+    fs''!16                                                                                        %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
-    \times 12/15 {
+    ]                                                                                              %! dense_getato_rhythm
+    \times 12/15 {                                                                                 %! dense_getato_rhythm
         
         r16
         
-        af''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        g''16
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        af''!16
+        g''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        a''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        af''!16
+        a''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf''!16
+        af''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        bf''!16                                                                                    %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c'''16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        b''16
+        c'''16                                                                                     %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs'''!16
+        b''16                                                                                      %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d'''16
+        cs'''!16                                                                                   %! dense_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        d'''16                                                                                     %! dense_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    c'''16
+    c'''16                                                                                         %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    [
+    [                                                                                              %! dense_getato_rhythm
     
-    cs'''!16
-    -\staccato                                                                                     %! IndicatorCommand
-    
-    bf''!16
+    cs'''!16                                                                                       %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    b''16
+    bf''!16                                                                                        %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
     
-    bf''!16
+    b''16                                                                                          %! dense_getato_rhythm
     -\staccato                                                                                     %! IndicatorCommand
-    ]
+    
+    bf''!16                                                                                        %! dense_getato_rhythm
+    -\staccato                                                                                     %! IndicatorCommand
+    ]                                                                                              %! dense_getato_rhythm
     
     % [F CelloMusicVoice measure 197 / measure 46]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences

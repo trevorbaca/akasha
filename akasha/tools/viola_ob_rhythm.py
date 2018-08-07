@@ -15,6 +15,7 @@ def viola_ob_rhythm(rotation=None):
     return baca.rhythm(
         division_expression=division_expression,
         rhythm_maker=rmakers.NoteRhythmMaker(
+            tag='viola_ob_rhythm',
             division_masks=rmakers.silence([0, -1]),
             ),
         split_at_measure_boundaries=True,

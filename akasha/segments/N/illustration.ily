@@ -541,108 +541,108 @@ N_ViolinIIMusicVoice = {
     R1 * 9/8                                                                                       %! _make_measure_silences
     
     % [N ViolinIIMusicVoice measure 377 / measure 9]                                               %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 378 / measure 10]                                              %! _comment_measure_numbers
-    r4
-    \times 8/9 {
+    r4                                                                                             %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
-        r8
+        r8                                                                                         %! sparse_getato_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        f'''32
+        f'''32                                                                                     %! sparse_getato_rhythm
         \baca_pp_ancora                                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { leggieriss. }                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        e'''32
+        e'''32                                                                                     %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        f'''32
+        f'''32                                                                                     %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
+        ]                                                                                          %! sparse_getato_rhythm
         
-        r16
-    }
+        r16                                                                                        %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
-    r2
+    r2                                                                                             %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 379 / measure 11]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 380 / measure 12]                                              %! _comment_measure_numbers
-    r2..
+    r2..                                                                                           %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 381 / measure 13]                                              %! _comment_measure_numbers
-    r2..
+    r2..                                                                                           %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 382 / measure 14]                                              %! _comment_measure_numbers
-    r4.
+    r4.                                                                                            %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 383 / measure 15]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 384 / measure 16]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! sparse_getato_rhythm
     
-    r4.
+    r4.                                                                                            %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 385 / measure 17]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! sparse_getato_rhythm
     
-    r4.
+    r4.                                                                                            %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 386 / measure 18]                                              %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 387 / measure 19]                                              %! _comment_measure_numbers
-    r4
-    \times 8/9 {
+    r4                                                                                             %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
-        r8
+        r8                                                                                         %! sparse_getato_rhythm
         
-        r32
+        r32                                                                                        %! sparse_getato_rhythm
         
-        fs'''!32
+        fs'''!32                                                                                   %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        r16.
-    }
-    \times 8/9 {
+        r16.                                                                                       %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
         % [N ViolinIIMusicVoice measure 388 / measure 20]                                          %! _comment_measure_numbers
-        r8.
+        r8.                                                                                        %! sparse_getato_rhythm
         
-        g'''32
+        g'''32                                                                                     %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        f'''32
+        f'''32                                                                                     %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        fs'''!32
+        fs'''!32                                                                                   %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        ]                                                                                          %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
-    r8
+    r8                                                                                             %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 389 / measure 21]                                              %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 390 / measure 22]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 391 / measure 23]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! sparse_getato_rhythm
     
-    r4.
+    r4.                                                                                            %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 392 / measure 24]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! sparse_getato_rhythm
     
-    r4.
+    r4.                                                                                            %! sparse_getato_rhythm
     
     % [N ViolinIIMusicVoice measure 393 / measure 25]                                              %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences

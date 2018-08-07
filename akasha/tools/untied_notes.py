@@ -12,6 +12,7 @@ def untied_notes():
             duration_specifier=rmakers.DurationSpecifier(
                 rewrite_meter=True,
                 ),
+            tag='untied_notes',
             tie_specifier=rmakers.TieSpecifier(
                 strip_ties=True,
                 ),

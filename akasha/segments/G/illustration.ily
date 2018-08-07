@@ -314,7 +314,7 @@ G_GlobalSkips = {
 
 
 G_ViolinIMusicVoice = {
-    \times 8/14 {
+    \times 8/14 {                                                                                  %! dense_getato_rhythm
         
         % [G ViolinIMusicVoice measure 200 / measure 1]                                            %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -347,180 +347,180 @@ G_ViolinIMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak to-barline ##t                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        [
+        [                                                                                          %! dense_getato_rhythm
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         
-        f'''16
+        f'''16                                                                                     %! dense_getato_rhythm
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         
-        fs'''!16
+        fs'''!16                                                                                   %! dense_getato_rhythm
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         
-        g'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+        g'''16                                                                                     %! dense_getato_rhythm
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! dense_getato_rhythm
+    \times 6/10 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        a'''16
-        [
+        a'''16                                                                                     %! dense_getato_rhythm
+        [                                                                                          %! dense_getato_rhythm
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         
-        cs''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         
-        a'''16
-        ]
-    }
-    \times 4/6 {
+        a'''16                                                                                     %! dense_getato_rhythm
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         % [G ViolinIMusicVoice measure 201 / measure 2]                                            %! _comment_measure_numbers
         r16
         
-        bf'''!16
-        [
+        bf'''!16                                                                                   %! dense_getato_rhythm
+        [                                                                                          %! dense_getato_rhythm
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         
-        af'''!16
+        af'''!16                                                                                   %! dense_getato_rhythm
         
-        g'''16
+        g'''16                                                                                     %! dense_getato_rhythm
         
-        a'''16
-        ]
-    }
-    \times 8/11 {
+        a'''16                                                                                     %! dense_getato_rhythm
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         r16
         
-        af'''!16
-        [
+        af'''!16                                                                                   %! dense_getato_rhythm
+        [                                                                                          %! dense_getato_rhythm
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         
-        a'''16
+        a'''16                                                                                     %! dense_getato_rhythm
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         
-        cs''''!16
-        ]
-    }
+        cs''''!16                                                                                  %! dense_getato_rhythm
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     r16
     
-    c''''16
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    c''''16                                                                                        %! dense_getato_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! dense_getato_rhythm
+    \times 6/10 {                                                                                  %! dense_getato_rhythm
         
         % [G ViolinIMusicVoice measure 202 / measure 3]                                            %! _comment_measure_numbers
         r16
         
-        d''''16
-        [
+        d''''16                                                                                    %! dense_getato_rhythm
+        [                                                                                          %! dense_getato_rhythm
         
-        ef''''!16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         
-        cs''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         
-        d''''16
+        d''''16                                                                                    %! dense_getato_rhythm
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         
-        a'''16
-        ]
-    }
-    \times 12/18 {
+        a'''16                                                                                     %! dense_getato_rhythm
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
+    \times 12/18 {                                                                                 %! dense_getato_rhythm
         
         % [G ViolinIMusicVoice measure 203 / measure 4]                                            %! _comment_measure_numbers
         r16
         
-        b'''16
-        [
+        b'''16                                                                                     %! dense_getato_rhythm
+        [                                                                                          %! dense_getato_rhythm
         
-        bf'''!16
+        bf'''!16                                                                                   %! dense_getato_rhythm
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         
-        d''''16
+        d''''16                                                                                    %! dense_getato_rhythm
         
-        cs''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         
-        c''''16
+        c''''16                                                                                    %! dense_getato_rhythm
         
-        b'''16
+        b'''16                                                                                     %! dense_getato_rhythm
         
-        cs''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         
-        d''''16
+        d''''16                                                                                    %! dense_getato_rhythm
         
-        ef''''!16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         
-        d''''16
+        d''''16                                                                                    %! dense_getato_rhythm
         
-        e''''16
+        e''''16                                                                                    %! dense_getato_rhythm
         
-        f''''16
+        f''''16                                                                                    %! dense_getato_rhythm
         
-        ef''''!16
+        ef''''!16                                                                                  %! dense_getato_rhythm
         
-        e''''16
+        e''''16                                                                                    %! dense_getato_rhythm
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        cs''''!16
+        cs''''!16                                                                                  %! dense_getato_rhythm
         \!                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        ]
-    }
+        ]                                                                                          %! dense_getato_rhythm
+    }                                                                                              %! dense_getato_rhythm
     
     % [G ViolinIMusicVoice measure 204 / measure 5]                                                %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties

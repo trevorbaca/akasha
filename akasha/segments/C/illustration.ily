@@ -727,7 +727,7 @@ C_ViolinIIMusicStaff = {
 
 
 C_ViolaMusicVoice = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! glissando_rhythm
         
         % [C ViolaMusicVoice measure 35 / measure 1]                                               %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -746,7 +746,7 @@ C_ViolaMusicVoice = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-        ds!\breve
+        ds!\breve                                                                                  %! glissando_rhythm
         \mp                                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -760,41 +760,41 @@ C_ViolaMusicVoice = {
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        cqs!4
-    }
+        cqs!4                                                                                      %! glissando_rhythm
+    }                                                                                              %! glissando_rhythm
     
     % [C ViolaMusicVoice measure 36 / measure 2]                                                   %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 8/9 {
+    \times 8/9 {                                                                                   %! glissando_rhythm
         
         % [C ViolaMusicVoice measure 37 / measure 3]                                               %! _comment_measure_numbers
-        ds!1
+        ds!1                                                                                       %! glissando_rhythm
         \glissando                                                                                 %! SpannerCommand
         
-        cqs!8
-    }
+        cqs!8                                                                                      %! glissando_rhythm
+    }                                                                                              %! glissando_rhythm
     
     % [C ViolaMusicVoice measure 38 / measure 4]                                                   %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! glissando_rhythm
         
         % [C ViolaMusicVoice measure 39 / measure 5]                                               %! _comment_measure_numbers
-        ds!\breve
+        ds!\breve                                                                                  %! glissando_rhythm
         \glissando                                                                                 %! SpannerCommand
         
-        cqs!4
-    }
+        cqs!4                                                                                      %! glissando_rhythm
+    }                                                                                              %! glissando_rhythm
     
     % [C ViolaMusicVoice measure 40 / measure 6]                                                   %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! glissando_rhythm
         
         % [C ViolaMusicVoice measure 41 / measure 7]                                               %! _comment_measure_numbers
-        ds!\breve
+        ds!\breve                                                                                  %! glissando_rhythm
         \glissando                                                                                 %! SpannerCommand
         
-        cqs!4
-    }
+        cqs!4                                                                                      %! glissando_rhythm
+    }                                                                                              %! glissando_rhythm
     
     % [C ViolaMusicVoice measure 42 / measure 8]                                                   %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -855,13 +855,13 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 57 / measure 23]                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds'!4
+    ds'!4                                                                                          %! polyphony_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                                            %! IndicatorCommand
     
-    dtqs'!4.
+    dtqs'!4.                                                                                       %! polyphony_rhythm
     
-    e'4.
+    e'4.                                                                                           %! polyphony_rhythm
     
     % [C ViolaMusicVoice measure 58 / measure 24]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -874,16 +874,16 @@ C_ViolaMusicVoice = {
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! glissando_rhythm
         
         % [C ViolaMusicVoice measure 60 / measure 26]                                              %! _comment_measure_numbers
-        ds!\breve
+        ds!\breve                                                                                  %! glissando_rhythm
         \glissando                                                                                 %! SpannerCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        cqs!4
+        cqs!4                                                                                      %! glissando_rhythm
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    }
+    }                                                                                              %! glissando_rhythm
     
     % [C ViolaMusicVoice measure 61 / measure 27]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -972,52 +972,52 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 48 / measure 14]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \times 8/9 {
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
         % [C CelloMusicVoice measure 49 / measure 15]                                              %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        cs!32
+        cs!32                                                                                      %! sparse_getato_rhythm
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\staccato                                                                                 %! IndicatorCommand
         ^ \markup { leggieriss. }                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        c32
+        c32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
+        ]                                                                                          %! sparse_getato_rhythm
         
-        r8..
-    }
-    \times 8/9 {
+        r8..                                                                                       %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
+    \times 8/9 {                                                                                   %! sparse_getato_rhythm
         
-        r32
+        r32                                                                                        %! sparse_getato_rhythm
         
-        cs!32
+        cs!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        [
+        [                                                                                          %! sparse_getato_rhythm
         
-        d32
-        -\staccato                                                                                 %! IndicatorCommand
-        
-        ef!32
+        d32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs!32
+        ef!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        d32
+        cs!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        cs!32
+        d32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        c32
+        cs!32                                                                                      %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
         
-        bf,!32
+        c32                                                                                        %! sparse_getato_rhythm
         -\staccato                                                                                 %! IndicatorCommand
-        ]
-    }
+        
+        bf,!32                                                                                     %! sparse_getato_rhythm
+        -\staccato                                                                                 %! IndicatorCommand
+        ]                                                                                          %! sparse_getato_rhythm
+    }                                                                                              %! sparse_getato_rhythm
     
     r4
     
@@ -1044,7 +1044,7 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 57 / measure 23]                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    c'1
+    c'1                                                                                            %! polyphony_rhythm
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "tasto + 1/2 scratch" }                                                            %! IndicatorCommand
     

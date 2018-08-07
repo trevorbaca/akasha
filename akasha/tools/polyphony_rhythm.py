@@ -17,6 +17,7 @@ def polyphony_rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             logical_tie_masks=ltmask,
+            tag='polyphony_rhythm',
             talea=rmakers.Talea(
                 counts=counts,
                 denominator=16,

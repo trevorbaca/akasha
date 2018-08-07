@@ -912,7 +912,7 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 80 / measure 19]                                                %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    a'1
+    a'1                                                                                            %! untied_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                                                      %! IndicatorCommand
     ^ \markup { "XP + senza vib. + full bow strokes" }                                             %! IndicatorCommand
@@ -928,12 +928,12 @@ D_ViolinIMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 82 / measure 21]                                                %! _comment_measure_numbers
-    fs'!2
+    fs'!2                                                                                          %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 83 / measure 22]                                                %! _comment_measure_numbers
-    ef'!4.
+    ef'!4.                                                                                         %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     
     % [D ViolinIMusicVoice measure 84 / measure 23]                                                %! _comment_measure_numbers
@@ -958,83 +958,83 @@ D_ViolinIMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 87 / measure 26]                                                %! _comment_measure_numbers
-    ef''!2
+    ef''!2                                                                                         %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 88 / measure 27]                                                %! _comment_measure_numbers
-    c''1
+    c''1                                                                                           %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 89 / measure 28]                                                %! _comment_measure_numbers
-    a'4.
+    a'4.                                                                                           %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 90 / measure 29]                                                %! _comment_measure_numbers
-    ef''!2
+    ef''!2                                                                                         %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 91 / measure 30]                                                %! _comment_measure_numbers
-    fs''!2..
+    fs''!2..                                                                                       %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 92 / measure 31]                                                %! _comment_measure_numbers
-    a''2..
+    a''2..                                                                                         %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     
     % [D ViolinIMusicVoice measure 93 / measure 32]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolinIMusicVoice measure 94 / measure 33]                                                %! _comment_measure_numbers
-    a'4.
+    a'4.                                                                                           %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 95 / measure 34]                                                %! _comment_measure_numbers
-    ef''!2.
+    ef''!2.                                                                                        %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 96 / measure 35]                                                %! _comment_measure_numbers
-    fs''!2
+    fs''!2                                                                                         %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 97 / measure 36]                                                %! _comment_measure_numbers
-    a''4.
+    a''4.                                                                                          %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     
     % [D ViolinIMusicVoice measure 98 / measure 37]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolinIMusicVoice measure 99 / measure 38]                                                %! _comment_measure_numbers
-    ef'''!2.
+    ef'''!2.                                                                                       %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 100 / measure 39]                                               %! _comment_measure_numbers
-    a''2..
+    a''2..                                                                                         %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 101 / measure 40]                                               %! _comment_measure_numbers
-    c'''2..
+    c'''2..                                                                                        %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 102 / measure 41]                                               %! _comment_measure_numbers
-    a'4.
+    a'4.                                                                                           %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     
     % [D ViolinIMusicVoice measure 103 / measure 42]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolinIMusicVoice measure 104 / measure 43]                                               %! _comment_measure_numbers
-    fs'!1
+    fs'!1                                                                                          %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
@@ -1057,7 +1057,7 @@ D_ViolinIMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 107 / measure 46]                                               %! _comment_measure_numbers
-    c''2
+    c''2                                                                                           %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \revert NoteHead.style                                                                         %! OverrideCommand(2)
     
@@ -1164,22 +1164,22 @@ D_ViolinIIMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 73 / measure 12]                                               %! _comment_measure_numbers
-    ef'!2..
+    ef'!2..                                                                                        %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 74 / measure 13]                                               %! _comment_measure_numbers
-    a'4.
+    a'4.                                                                                           %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 75 / measure 14]                                               %! _comment_measure_numbers
-    fs'!2.
+    fs'!2.                                                                                         %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 76 / measure 15]                                               %! _comment_measure_numbers
-    a'2..
+    a'2..                                                                                          %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
@@ -1193,14 +1193,14 @@ D_ViolinIIMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 78 / measure 17]                                               %! _comment_measure_numbers
-    ef''!2
+    ef''!2                                                                                         %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     
     % [D ViolinIIMusicVoice measure 79 / measure 18]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolinIIMusicVoice measure 80 / measure 19]                                               %! _comment_measure_numbers
-    fs'!1
+    fs'!1                                                                                          %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
@@ -1214,12 +1214,12 @@ D_ViolinIIMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 82 / measure 21]                                               %! _comment_measure_numbers
-    fs''!2
+    fs''!2                                                                                         %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 83 / measure 22]                                               %! _comment_measure_numbers
-    ef''!4.
+    ef''!4.                                                                                        %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     
     % [D ViolinIIMusicVoice measure 84 / measure 23]                                               %! _comment_measure_numbers
@@ -1244,54 +1244,54 @@ D_ViolinIIMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 87 / measure 26]                                               %! _comment_measure_numbers
-    fs''!2
+    fs''!2                                                                                         %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 88 / measure 27]                                               %! _comment_measure_numbers
-    c'''1
+    c'''1                                                                                          %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 89 / measure 28]                                               %! _comment_measure_numbers
-    ef'''!4.
+    ef'''!4.                                                                                       %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 90 / measure 29]                                               %! _comment_measure_numbers
-    a''2
+    a''2                                                                                           %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 91 / measure 30]                                               %! _comment_measure_numbers
-    c'''2..
+    c'''2..                                                                                        %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 92 / measure 31]                                               %! _comment_measure_numbers
-    a'2..
+    a'2..                                                                                          %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     
     % [D ViolinIIMusicVoice measure 93 / measure 32]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolinIIMusicVoice measure 94 / measure 33]                                               %! _comment_measure_numbers
-    ef'''!4.
+    ef'''!4.                                                                                       %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 95 / measure 34]                                               %! _comment_measure_numbers
-    a''2.
+    a''2.                                                                                          %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 96 / measure 35]                                               %! _comment_measure_numbers
-    c'''2
+    c'''2                                                                                          %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolinIIMusicVoice measure 97 / measure 36]                                               %! _comment_measure_numbers
-    a'4.
+    a'4.                                                                                           %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \revert NoteHead.style                                                                         %! OverrideCommand(2)
     
@@ -1301,13 +1301,13 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 99 / measure 38]                                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \pitchedTrill                                                                                  %! SpannerCommand
-    g''2.
+    g''2.                                                                                          %! fill_first_half
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { tasto }                                                                            %! IndicatorCommand
     \startTrillSpan a''
     
     % [D ViolinIIMusicVoice measure 100 / measure 39]                                              %! _comment_measure_numbers
-    g''2..
+    g''2..                                                                                         %! fill_first_half
     \repeatTie
     
     % [D ViolinIIMusicVoice measure 101 / measure 40]                                              %! _comment_measure_numbers
@@ -1322,7 +1322,7 @@ D_ViolinIIMusicVoice = {
     
     % [D ViolinIIMusicVoice measure 104 / measure 43]                                              %! _comment_measure_numbers
     \pitchedTrill                                                                                  %! SpannerCommand
-    g''1
+    g''1                                                                                           %! fill_first_half
     \startTrillSpan a''
     
     % [D ViolinIIMusicVoice measure 105 / measure 44]                                              %! _comment_measure_numbers
@@ -1543,7 +1543,7 @@ D_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ff!4.
+    ff!4.                                                                                          %! untied_notes
     \sf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "tasto + senza vib." }                                                             %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1552,22 +1552,22 @@ D_ViolaMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D ViolaMusicVoice measure 95 / measure 34]                                                  %! _comment_measure_numbers
-    e2.
+    e2.                                                                                            %! untied_notes
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolaMusicVoice measure 96 / measure 35]                                                  %! _comment_measure_numbers
-    ds!2
+    ds!2                                                                                           %! untied_notes
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! glissando_rhythm
         
         % [D ViolaMusicVoice measure 97 / measure 36]                                              %! _comment_measure_numbers
-        cs!2
+        cs!2                                                                                       %! glissando_rhythm
         \glissando                                                                                 %! SpannerCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        bs,!16
+        bs,!16                                                                                     %! glissando_rhythm
         \ppp                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    }
+    }                                                                                              %! glissando_rhythm
     
     % [D ViolaMusicVoice measure 98 / measure 37]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -1575,31 +1575,31 @@ D_ViolaMusicVoice = {
     % [D ViolaMusicVoice measure 99 / measure 38]                                                  %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af!2.
+    af!2.                                                                                          %! untied_notes
     \baca_ppp_ancora                                                                               %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                                                      %! IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                                          %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolaMusicVoice measure 100 / measure 39]                                                 %! _comment_measure_numbers
-    b2..
+    b2..                                                                                           %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolaMusicVoice measure 101 / measure 40]                                                 %! _comment_measure_numbers
-    af!2..
+    af!2..                                                                                         %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolaMusicVoice measure 102 / measure 41]                                                 %! _comment_measure_numbers
-    f4.
+    f4.                                                                                            %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     
     % [D ViolaMusicVoice measure 103 / measure 42]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolaMusicVoice measure 104 / measure 43]                                                 %! _comment_measure_numbers
-    f1
+    f1                                                                                             %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
@@ -1622,7 +1622,7 @@ D_ViolaMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D ViolaMusicVoice measure 107 / measure 46]                                                 %! _comment_measure_numbers
-    b2
+    b2                                                                                             %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \revert NoteHead.style                                                                         %! OverrideCommand(2)
     
@@ -1808,32 +1808,32 @@ D_CelloMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 87 / measure 26]                                                  %! _comment_measure_numbers
-    cs,!2
+    cs,!2                                                                                          %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 88 / measure 27]                                                  %! _comment_measure_numbers
-    g,1
+    g,1                                                                                            %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 89 / measure 28]                                                  %! _comment_measure_numbers
-    e,4.
+    e,4.                                                                                           %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 90 / measure 29]                                                  %! _comment_measure_numbers
-    g,2
+    g,2                                                                                            %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 91 / measure 30]                                                  %! _comment_measure_numbers
-    bf,!2..
+    bf,!2..                                                                                        %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 92 / measure 31]                                                  %! _comment_measure_numbers
-    e2..
+    e2..                                                                                           %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \revert NoteHead.style                                                                         %! OverrideCommand(2)
     
@@ -1868,24 +1868,24 @@ D_CelloMusicVoice = {
     % [D CelloMusicVoice measure 99 / measure 38]                                                  %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e,2.
+    e,2.                                                                                           %! untied_notes
     \baca_ppp_ancora                                                                               %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\downbow                                                                                      %! IndicatorCommand
     ^ \markup { "XP + full bow strokes" }                                                          %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 100 / measure 39]                                                 %! _comment_measure_numbers
-    g,2..
+    g,2..                                                                                          %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 101 / measure 40]                                                 %! _comment_measure_numbers
-    bf,!2..
+    bf,!2..                                                                                        %! untied_notes
     -\downbow                                                                                      %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 102 / measure 41]                                                 %! _comment_measure_numbers
-    e4.
+    e4.                                                                                            %! untied_notes
     -\upbow                                                                                        %! IndicatorCommand
     \revert NoteHead.style                                                                         %! OverrideCommand(2)
     
@@ -1894,7 +1894,7 @@ D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 104 / measure 43]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df!1
+    df!1                                                                                           %! untied_notes
     \sf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { tasto }                                                                            %! IndicatorCommand
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1916,30 +1916,30 @@ D_CelloMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 107 / measure 46]                                                 %! _comment_measure_numbers
-    f,2
+    f,2                                                                                            %! untied_notes
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 108 / measure 47]                                                 %! _comment_measure_numbers
-    ef,!4.
+    ef,!4.                                                                                         %! untied_notes
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 109 / measure 48]                                                 %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                                           %! untied_notes
     \glissando                                                                                     %! SpannerCommand
     
     % [D CelloMusicVoice measure 110 / measure 49]                                                 %! _comment_measure_numbers
-    c,2..
+    c,2..                                                                                          %! untied_notes
     \glissando                                                                                     %! SpannerCommand
-    \times 8/9 {
+    \times 8/9 {                                                                                   %! glissando_rhythm
         
         % [D CelloMusicVoice measure 111 / measure 50]                                             %! _comment_measure_numbers
-        bf,,!2..
+        bf,,!2..                                                                                   %! glissando_rhythm
         \glissando                                                                                 %! SpannerCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        a,,16..
+        a,,16..                                                                                    %! glissando_rhythm
         \ppp                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    }
+    }                                                                                              %! glissando_rhythm
     
     % [D CelloMusicVoice measure 112 / measure 51]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
