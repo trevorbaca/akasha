@@ -198,7 +198,7 @@ F_GlobalRests = {
 F_GlobalSkips = {
     
     % [F GlobalSkips measure 152 / measure 1]                                                      %! _comment_measure_numbers
-    \once \override GlobalContext.RehearsalMark.Y-offset = #5                                      %! OverrideCommand(1)
+    \once \override GlobalContext.RehearsalMark.Y-offset = #5                                      %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #6                                                                                       %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -787,7 +787,7 @@ F_GlobalSkips = {
     {
         
         % [F GlobalSkips measure 196 / measure 45]                                                 %! _comment_measure_numbers
-        \override TextScript.extra-offset = #'(1.5 . 6)                                            %! OverrideCommand(1)
+        \override TextScript.extra-offset = #'(1.5 . 6)                                            %! baca_text_script_extra_offset:OverrideCommand(1)
         \time 6/4                                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca_time_signature_color "blue"                                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/2                                                                                   %! _make_global_skips(1)
@@ -839,7 +839,7 @@ F_GlobalSkips = {
     %@% ^ \markup \baca-dark-cyan-markup ((46))                                                    %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
     %@% ^ \markup \baca-dark-cyan-markup [F.46]                                                    %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     %@% ^ \markup \baca-dark-cyan-markup "[8'50'']"                                                %! CLOCK_TIME_MARKUP:_label_clock_time
-        \revert TextScript.extra-offset                                                            %! OverrideCommand(2)
+        \revert TextScript.extra-offset                                                            %! baca_text_script_extra_offset:OverrideCommand(2)
     }
     
     % [F GlobalSkips measure 198 / measure 47]                                                     %! _comment_measure_numbers
@@ -3992,8 +3992,8 @@ F_ViolaMusicVoice = {
     \times 8/11 {                                                                                  %! dense_getato_rhythm
         
         % [F ViolaMusicVoice measure 187 / measure 36]                                             %! _comment_measure_numbers
-    %%% \once \override Staff.Clef.X-extent = ##f                                                  %! OverrideCommand(1):MEASURE_187:SHIFTED_CLEF
-    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                     %! OverrideCommand(1):MEASURE_187:SHIFTED_CLEF
+    %%% \once \override Staff.Clef.X-extent = ##f                                                  %! MEASURE_187:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                     %! MEASURE_187:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \clef "treble"                                                                             %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -4843,8 +4843,8 @@ F_CelloMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [F CelloMusicVoice measure 162 / measure 11]                                                 %! _comment_measure_numbers
-%%% \once \override Staff.Clef.X-extent = ##f                                                      %! OverrideCommand(1):MEASURE_162:SHIFTED_CLEF
-%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                                        %! OverrideCommand(1):MEASURE_162:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f                                                      %! MEASURE_162:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                                        %! MEASURE_162:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "bass"                                                                                   %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -5010,8 +5010,8 @@ F_CelloMusicVoice = {
     \times 4/6 {                                                                                   %! dense_getato_rhythm
         
         % [F CelloMusicVoice measure 187 / measure 36]                                             %! _comment_measure_numbers
-    %%% \once \override Staff.Clef.X-extent = ##f                                                  %! OverrideCommand(1):MEASURE_187:SHIFTED_CLEF
-    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                     %! OverrideCommand(1):MEASURE_187:SHIFTED_CLEF
+    %%% \once \override Staff.Clef.X-extent = ##f                                                  %! MEASURE_187:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                     %! MEASURE_187:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \clef "treble"                                                                             %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)

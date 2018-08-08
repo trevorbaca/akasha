@@ -493,13 +493,13 @@ C_ViolinIMusicVoice = {
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                                               %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                                    %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                                          %! OverrideCommand(1)
+    \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                                          %! baca_bar_extent:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b'1.                                                                                           %! baca_make_repeat_tied_notes
     \baca_effort_mf                                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { OB }                                                                               %! IndicatorCommand
-    \override Staff.BarLine.bar-extent = #'(0 . 0)                                                 %! OverrideCommand(1)
+    \override Staff.BarLine.bar-extent = #'(0 . 0)                                                 %! baca_bar_extent_zero:OverrideCommand(1)
     
     % [C ViolinIMusicVoice measure 44 / measure 10]                                                %! _comment_measure_numbers
     b'1                                                                                            %! baca_make_repeat_tied_notes
@@ -569,8 +569,8 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 61 / measure 27]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \revert Staff.BarLine.bar-extent                                                               %! OverrideCommand(2)
-    \once \override Staff.BarLine.bar-extent = #'(0 . 0)                                           %! OverrideCommand(1)
+    \revert Staff.BarLine.bar-extent                                                               %! baca_bar_extent_zero:OverrideCommand(2)
+    \once \override Staff.BarLine.bar-extent = #'(0 . 0)                                           %! baca_bar_extent_zero:OverrideCommand(1)
     
 }
 

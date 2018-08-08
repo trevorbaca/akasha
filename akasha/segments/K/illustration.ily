@@ -841,7 +841,7 @@ K_GlobalSkips = {
     {
         
         % [K GlobalSkips measure 320 / measure 56]                                                 %! _comment_measure_numbers
-        \override TextScript.extra-offset = #'(1.5 . 6)                                            %! OverrideCommand(1)
+        \override TextScript.extra-offset = #'(1.5 . 6)                                            %! baca_text_script_extra_offset:OverrideCommand(1)
         \time 3/8                                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca_time_signature_color "blue"                                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 3/8                                                                                   %! _make_global_skips(1)
@@ -923,7 +923,7 @@ K_GlobalSkips = {
     %@% ^ \markup \baca-dark-cyan-markup ((60))                                                    %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
     %@% ^ \markup \baca-dark-cyan-markup [K.60]                                                    %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     %@% ^ \markup \baca-dark-cyan-markup "[16'51'']"                                               %! CLOCK_TIME_MARKUP:_label_clock_time
-        \revert TextScript.extra-offset                                                            %! OverrideCommand(2)
+        \revert TextScript.extra-offset                                                            %! baca_text_script_extra_offset:OverrideCommand(2)
     }
     
     % [K GlobalSkips measure 325 / measure 61]                                                     %! _comment_measure_numbers
@@ -1032,7 +1032,7 @@ K_ViolinIMusicVoice = {
     \stopStaff                                                                                     %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                                               %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                                    %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \override TextSpanner.staff-padding = #4                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1366,7 +1366,7 @@ K_ViolinIMusicVoice = {
     
     % [K ViolinIMusicVoice measure 310 / measure 46]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
     % [K ViolinIMusicVoice measure 311 / measure 47]                                               %! _comment_measure_numbers
     a''2.                                                                                          %! baca_make_repeat_tied_notes
@@ -1395,7 +1395,7 @@ K_ViolinIMusicVoice = {
     \repeatTie
     
     % [K ViolinIMusicVoice measure 317 / measure 53]                                               %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \ottava #1                                                                                     %! SpannerCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b''''2.
@@ -1420,8 +1420,8 @@ K_ViolinIMusicVoice = {
     \stopTrillSpan                                                                                 %! SpannerCommand
     
     % [K ViolinIMusicVoice measure 320 / measure 56]                                               %! _comment_measure_numbers
-    \override Staff.OttavaBracket.staff-padding = #12                                              %! OverrideCommand(1)
-    \override TextSpanner.staff-padding = #9.5                                                     %! OverrideCommand(1)
+    \override Staff.OttavaBracket.staff-padding = #12                                              %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #9.5                                                     %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \ottava #1                                                                                     %! SpannerCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b''''4.                                                                                        %! baca_make_repeat_tied_notes
@@ -1525,14 +1525,14 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 332 / measure 68]                                               %! _comment_measure_numbers
     b''''1                                                                                         %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     \ottava #0                                                                                     %! SpannerCommand
     
     % [K ViolinIMusicVoice measure 333 / measure 69]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert Staff.OttavaBracket.staff-padding                                                      %! OverrideCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert Staff.OttavaBracket.staff-padding                                                      %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -1555,7 +1555,7 @@ K_ViolinIIMusicVoice = {
     \stopStaff                                                                                     %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                                               %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                                    %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \override TextSpanner.staff-padding = #4                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1889,7 +1889,7 @@ K_ViolinIIMusicVoice = {
     
     % [K ViolinIIMusicVoice measure 310 / measure 46]                                              %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
     % [K ViolinIIMusicVoice measure 311 / measure 47]                                              %! _comment_measure_numbers
     a'2.                                                                                           %! baca_make_repeat_tied_notes
@@ -1907,7 +1907,7 @@ K_ViolinIIMusicVoice = {
     \repeatTie
     
     % [K ViolinIIMusicVoice measure 315 / measure 51]                                              %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \ottava #1                                                                                     %! SpannerCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     cs''''!1                                                                                       %! baca_make_repeat_tied_notes
@@ -1943,8 +1943,8 @@ K_ViolinIIMusicVoice = {
     \stopTrillSpan                                                                                 %! SpannerCommand
     
     % [K ViolinIIMusicVoice measure 320 / measure 56]                                              %! _comment_measure_numbers
-    \override Staff.OttavaBracket.staff-padding = #10                                              %! OverrideCommand(1)
-    \override TextSpanner.staff-padding = #7.5                                                     %! OverrideCommand(1)
+    \override Staff.OttavaBracket.staff-padding = #10                                              %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #7.5                                                     %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \ottava #1                                                                                     %! SpannerCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     cs''''!4.                                                                                      %! baca_make_repeat_tied_notes
@@ -2048,14 +2048,14 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 332 / measure 68]                                              %! _comment_measure_numbers
     cs''''!1                                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     \ottava #0                                                                                     %! SpannerCommand
     
     % [K ViolinIIMusicVoice measure 333 / measure 69]                                              %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert Staff.OttavaBracket.staff-padding                                                      %! OverrideCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert Staff.OttavaBracket.staff-padding                                                      %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -2078,7 +2078,7 @@ K_ViolaMusicVoice = {
     \stopStaff                                                                                     %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                                               %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                                    %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \override TextSpanner.staff-padding = #4                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \clef "alto"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2412,7 +2412,7 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 310 / measure 46]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
     % [K ViolaMusicVoice measure 311 / measure 47]                                                 %! _comment_measure_numbers
     a,2.                                                                                           %! baca_make_repeat_tied_notes
@@ -2422,7 +2422,7 @@ K_ViolaMusicVoice = {
     \repeatTie
     
     % [K ViolaMusicVoice measure 313 / measure 49]                                                 %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "treble"                                                                                 %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -2469,7 +2469,7 @@ K_ViolaMusicVoice = {
     \stopTrillSpan                                                                                 %! SpannerCommand
     
     % [K ViolaMusicVoice measure 320 / measure 56]                                                 %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #7                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #7                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gqf''!4.                                                                                       %! baca_make_repeat_tied_notes
     \sf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2572,12 +2572,12 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 332 / measure 68]                                                 %! _comment_measure_numbers
     gqf''!1                                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [K ViolaMusicVoice measure 333 / measure 69]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -2597,7 +2597,7 @@ K_CelloMusicVoice = {
             #12                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vc.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TextSpanner.staff-padding = #4                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \clef "bass"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2930,12 +2930,12 @@ K_CelloMusicVoice = {
     
     % [K CelloMusicVoice measure 310 / measure 46]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
     % [K CelloMusicVoice measure 311 / measure 47]                                                 %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                                      %! OverrideCommand(1):MEASURE_311:SHIFTED_CLEF
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! OverrideCommand(1):MEASURE_311:SHIFTED_CLEF
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                                      %! MEASURE_311:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! MEASURE_311:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "treble"                                                                                 %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -2990,7 +2990,7 @@ K_CelloMusicVoice = {
     \stopTrillSpan                                                                                 %! SpannerCommand
     
     % [K CelloMusicVoice measure 320 / measure 56]                                                 %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #5                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     d''4.                                                                                          %! baca_make_repeat_tied_notes
     \sf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3093,12 +3093,12 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 332 / measure 68]                                                 %! _comment_measure_numbers
     d''1                                                                                           %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [K CelloMusicVoice measure 333 / measure 69]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     \stopTrillSpan                                                                                 %! SpannerCommand
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 

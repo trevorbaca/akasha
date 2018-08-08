@@ -552,8 +552,8 @@ B_CelloMusicVoice = {
             #12                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vc.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Beam.positions = #'(-4 . -4)                                                         %! OverrideCommand(1)
-    \override TupletBracket.staff-padding = #2                                                     %! OverrideCommand(1)
+    \override Beam.positions = #'(-4 . -4)                                                         %! baca_beam_positions:OverrideCommand(1)
+    \override TupletBracket.staff-padding = #2                                                     %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
     \clef "bass"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -795,8 +795,8 @@ B_CelloMusicVoice = {
         
         fs!32                                                                                      %! sparse_getato_rhythm
         - \staccato                                                                                %! IndicatorCommand
-        \revert Beam.positions                                                                     %! OverrideCommand(2)
-        \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
+        \revert Beam.positions                                                                     %! baca_beam_positions:OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
     }                                                                                              %! sparse_getato_rhythm
     
     % [B CelloMusicVoice measure 32 / measure 9]                                                   %! _comment_measure_numbers
