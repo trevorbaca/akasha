@@ -201,7 +201,7 @@ D_GlobalRests = {
 D_GlobalSkips = {
     
     % [D GlobalSkips measure 62 / measure 1]                                                       %! _comment_measure_numbers
-    \once \override GlobalContext.RehearsalMark.Y-offset = #7                                      %! OverrideCommand(1)
+    \once \override GlobalContext.RehearsalMark.Y-offset = #7                                      %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/8                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \mark #4                                                                                       %! IndicatorCommand
     \bar ""                                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
@@ -808,7 +808,7 @@ D_ViolinIMusicVoice = {
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 5                                               %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                                    %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \ottava #1                                                                                     %! SpannerCommand
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -903,14 +903,14 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 78 / measure 17]                                                %! _comment_measure_numbers
     cs''''!2                                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     \ottava #0                                                                                     %! SpannerCommand
     
     % [D ViolinIMusicVoice measure 79 / measure 18]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolinIMusicVoice measure 80 / measure 19]                                                %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     a'1                                                                                            %! untied_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -1059,7 +1059,7 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 107 / measure 46]                                               %! _comment_measure_numbers
     c''2                                                                                           %! untied_notes
     - \upbow                                                                                       %! IndicatorCommand
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D ViolinIMusicVoice measure 108 / measure 47]                                               %! _comment_measure_numbers
     R1 * 3/8                                                                                       %! _make_measure_silences
@@ -1142,7 +1142,7 @@ D_ViolinIIMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolinIIMusicVoice measure 71 / measure 10]                                               %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     a'2.
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -1293,7 +1293,7 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 97 / measure 36]                                               %! _comment_measure_numbers
     a'4.                                                                                           %! untied_notes
     - \upbow                                                                                       %! IndicatorCommand
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D ViolinIIMusicVoice measure 98 / measure 37]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -1375,9 +1375,9 @@ D_ViolaMusicVoice = {
     \stopStaff                                                                                     %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                                               %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                                    %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                                      %! OverrideCommand(1):MEASURE_62:SHIFTED_CLEF
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! OverrideCommand(1):MEASURE_62:SHIFTED_CLEF
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                                      %! MEASURE_62:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! MEASURE_62:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "treble"                                                                                 %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
@@ -1530,14 +1530,14 @@ D_ViolaMusicVoice = {
     % [D ViolaMusicVoice measure 92 / measure 31]                                                  %! _comment_measure_numbers
     gqf''!2..                                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D ViolaMusicVoice measure 93 / measure 32]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolaMusicVoice measure 94 / measure 33]                                                  %! _comment_measure_numbers
-    \once \override Staff.Clef.X-extent = ##f                                                      %! OverrideCommand(1):MEASURE_94:SHIFTED_CLEF
-    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                                        %! OverrideCommand(1):MEASURE_94:SHIFTED_CLEF
+    \once \override Staff.Clef.X-extent = ##f                                                      %! MEASURE_94:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                                        %! MEASURE_94:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "alto"                                                                                   %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1573,7 +1573,7 @@ D_ViolaMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D ViolaMusicVoice measure 99 / measure 38]                                                  %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     af!2.                                                                                          %! untied_notes
     \baca_ppp_ancora                                                                               %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -1624,7 +1624,7 @@ D_ViolaMusicVoice = {
     % [D ViolaMusicVoice measure 107 / measure 46]                                                 %! _comment_measure_numbers
     b2                                                                                             %! untied_notes
     - \upbow                                                                                       %! IndicatorCommand
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D ViolaMusicVoice measure 108 / measure 47]                                                 %! _comment_measure_numbers
     R1 * 3/8                                                                                       %! _make_measure_silences
@@ -1659,9 +1659,9 @@ D_CelloMusicVoice = {
             #12                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vc.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                                      %! OverrideCommand(1):MEASURE_62:SHIFTED_CLEF
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! OverrideCommand(1):MEASURE_62:SHIFTED_CLEF
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                                      %! MEASURE_62:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! MEASURE_62:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "treble"                                                                                 %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -1773,15 +1773,15 @@ D_CelloMusicVoice = {
     % [D CelloMusicVoice measure 83 / measure 22]                                                  %! _comment_measure_numbers
     d''4.                                                                                          %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D CelloMusicVoice measure 84 / measure 23]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D CelloMusicVoice measure 85 / measure 24]                                                  %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
-%%% \once \override Staff.Clef.X-extent = ##f                                                      %! OverrideCommand(1):MEASURE_85:SHIFTED_CLEF
-%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                                        %! OverrideCommand(1):MEASURE_85:SHIFTED_CLEF
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
+%%% \once \override Staff.Clef.X-extent = ##f                                                      %! MEASURE_85:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                                        %! MEASURE_85:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "bass"                                                                                   %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1835,7 +1835,7 @@ D_CelloMusicVoice = {
     % [D CelloMusicVoice measure 92 / measure 31]                                                  %! _comment_measure_numbers
     e2..                                                                                           %! untied_notes
     - \upbow                                                                                       %! IndicatorCommand
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D CelloMusicVoice measure 93 / measure 32]                                                  %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -1866,7 +1866,7 @@ D_CelloMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [D CelloMusicVoice measure 99 / measure 38]                                                  %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     e,2.                                                                                           %! untied_notes
     \baca_ppp_ancora                                                                               %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -1887,7 +1887,7 @@ D_CelloMusicVoice = {
     % [D CelloMusicVoice measure 102 / measure 41]                                                 %! _comment_measure_numbers
     e4.                                                                                            %! untied_notes
     - \upbow                                                                                       %! IndicatorCommand
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D CelloMusicVoice measure 103 / measure 42]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
