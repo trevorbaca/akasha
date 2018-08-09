@@ -1,87 +1,87 @@
-N_GlobalRests = {
-    
+N_GlobalRests = {                                                              %! extern
+
     % [N GlobalRests measure 369 / measure 1]                                  %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 370 / measure 2]                                  %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 371 / measure 3]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 372 / measure 4]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 373 / measure 5]                                  %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 374 / measure 6]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 375 / measure 7]                                  %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 376 / measure 8]                                  %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 377 / measure 9]                                  %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 378 / measure 10]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [N GlobalRests measure 379 / measure 11]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 380 / measure 12]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 381 / measure 13]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 382 / measure 14]                                 %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 383 / measure 15]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [N GlobalRests measure 384 / measure 16]                                 %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 385 / measure 17]                                 %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 386 / measure 18]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 387 / measure 19]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 388 / measure 20]                                 %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 389 / measure 21]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 390 / measure 22]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [N GlobalRests measure 391 / measure 23]                                 %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 392 / measure 24]                                 %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_global_rests
-    
+
     % [N GlobalRests measure 393 / measure 25]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_very_long_fermata_markup                                           %! GlobalFermataCommand(1)
-    
-}
+
+}                                                                              %! extern
 
 
-N_GlobalSkips = {
-    
+N_GlobalSkips = {                                                              %! extern
+
     % [N GlobalSkips measure 369 / measure 1]                                  %! _comment_measure_numbers
     \once \override GlobalContext.RehearsalMark.Y-offset = #5                  %! baca_rehearsal_mark_y_offset:OverrideCommand(1)
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -116,7 +116,7 @@ N_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [N GlobalSkips measure 370 / measure 2]                                  %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -126,7 +126,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[19'50'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 371 / measure 3]                                  %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -136,7 +136,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[19'51'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 372 / measure 4]                                  %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (372)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -144,7 +144,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[19'53'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 373 / measure 5]                                  %! _comment_measure_numbers
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -154,7 +154,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((5))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[19'56'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 374 / measure 6]                                  %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -164,7 +164,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((6))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.6]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[19'57'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 375 / measure 7]                                  %! _comment_measure_numbers
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -174,7 +174,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((7))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.7]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[19'59'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 376 / measure 8]                                  %! _comment_measure_numbers
     s1 * 9/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (376)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -182,7 +182,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((8))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.8]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'02'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 377 / measure 9]                                  %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -192,7 +192,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((9))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.9]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'05'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 378 / measure 10]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -202,7 +202,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((10))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.10]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'06'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 379 / measure 11]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -212,7 +212,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((11))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.11]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'09'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 380 / measure 12]                                 %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -222,7 +222,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((12))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.12]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'11'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 381 / measure 13]                                 %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (381)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -230,7 +230,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((13))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.13]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'13'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 382 / measure 14]                                 %! _comment_measure_numbers
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -240,7 +240,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((14))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.14]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'15'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 383 / measure 15]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -250,7 +250,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((15))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.15]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'16'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 384 / measure 16]                                 %! _comment_measure_numbers
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -260,7 +260,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((16))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.16]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'19'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 385 / measure 17]                                 %! _comment_measure_numbers
     s1 * 9/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (385)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -268,7 +268,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((17))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.17]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'22'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 386 / measure 18]                                 %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -278,7 +278,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((18))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.18]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'25'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 387 / measure 19]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (387)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -286,7 +286,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((19))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.19]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'27'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 388 / measure 20]                                 %! _comment_measure_numbers
     \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -296,7 +296,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((20))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.20]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'28'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 389 / measure 21]                                 %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -306,7 +306,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((21))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.21]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'29'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 390 / measure 22]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -316,7 +316,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((22))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.22]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'30'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 391 / measure 23]                                 %! _comment_measure_numbers
     \time 9/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -326,7 +326,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((23))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.23]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'33'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 392 / measure 24]                                 %! _comment_measure_numbers
     s1 * 9/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (392)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -334,7 +334,7 @@ N_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((24))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [N.24]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[20'36'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [N GlobalSkips measure 393 / measure 25]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -347,12 +347,12 @@ N_GlobalSkips = {
     \stopTextSpan                                                              %! _attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|."                                                                  %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-N_ViolinIMusicVoice = {
-    
+N_ViolinIMusicVoice = {                                                        %! extern
+
     % [N ViolinIMusicVoice measure 369 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -387,104 +387,104 @@ N_ViolinIMusicVoice = {
             "Vn. I"                                                            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [N ViolinIMusicVoice measure 370 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! baca_make_notes
-    
+
     % [N ViolinIMusicVoice measure 371 / measure 3]                            %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N ViolinIMusicVoice measure 372 / measure 4]                            %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
-    
+
     % [N ViolinIMusicVoice measure 373 / measure 5]                            %! _comment_measure_numbers
     c'4.                                                                       %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N ViolinIMusicVoice measure 374 / measure 6]                            %! _comment_measure_numbers
     r2.                                                                        %! baca_make_notes
-    
+
     % [N ViolinIMusicVoice measure 375 / measure 7]                            %! _comment_measure_numbers
     c'2.
     - \upbow                                                                   %! IndicatorCommand
-    
+
     c'4.
     \repeatTie
-    
+
     % [N ViolinIMusicVoice measure 376 / measure 8]                            %! _comment_measure_numbers
     r2.
-    
+
     r4.
-    
+
     % [N ViolinIMusicVoice measure 377 / measure 9]                            %! _comment_measure_numbers
     c'2                                                                        %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N ViolinIMusicVoice measure 378 / measure 10]                           %! _comment_measure_numbers
     r1                                                                         %! baca_make_notes
-    
+
     % [N ViolinIMusicVoice measure 379 / measure 11]                           %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N ViolinIMusicVoice measure 380 / measure 12]                           %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
-    
+
     % [N ViolinIMusicVoice measure 381 / measure 13]                           %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N ViolinIMusicVoice measure 382 / measure 14]                           %! _comment_measure_numbers
     r4.                                                                        %! baca_make_notes
-    
+
     % [N ViolinIMusicVoice measure 383 / measure 15]                           %! _comment_measure_numbers
     c'1                                                                        %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N ViolinIMusicVoice measure 384 / measure 16]                           %! _comment_measure_numbers
     r2.
-    
+
     r4.
-    
+
     % [N ViolinIMusicVoice measure 385 / measure 17]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIMusicVoice measure 386 / measure 18]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIMusicVoice measure 387 / measure 19]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIMusicVoice measure 388 / measure 20]                           %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIMusicVoice measure 389 / measure 21]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIMusicVoice measure 390 / measure 22]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [N ViolinIMusicVoice measure 391 / measure 23]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIMusicVoice measure 392 / measure 24]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIMusicVoice measure 393 / measure 25]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-N_ViolinIMusicStaff = {
+N_ViolinIMusicStaff = {                                                        %! extern
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \N_ViolinIMusicVoice                                                       %! extern
-}
+}                                                                              %! extern
 
 
-N_ViolinIIMusicVoice = {
-    
+N_ViolinIIMusicVoice = {                                                       %! extern
+
     % [N ViolinIIMusicVoice measure 369 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -514,146 +514,146 @@ N_ViolinIIMusicVoice = {
             "Vn. II"                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [N ViolinIIMusicVoice measure 370 / measure 2]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIIMusicVoice measure 371 / measure 3]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIIMusicVoice measure 372 / measure 4]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIIMusicVoice measure 373 / measure 5]                           %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIIMusicVoice measure 374 / measure 6]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIIMusicVoice measure 375 / measure 7]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIIMusicVoice measure 376 / measure 8]                           %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolinIIMusicVoice measure 377 / measure 9]                           %! _comment_measure_numbers
     r2                                                                         %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 378 / measure 10]                          %! _comment_measure_numbers
     r4                                                                         %! sparse_getato_rhythm
     \times 8/9 {                                                               %! sparse_getato_rhythm
-        
+
         r8                                                                     %! sparse_getato_rhythm
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
         f'''32                                                                 %! sparse_getato_rhythm
         \baca_pp_ancora                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \staccato                                                            %! IndicatorCommand
         ^ \markup { leggieriss. }                                              %! IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
-        
+
         e'''32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
-        
+
         f'''32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
-        
+
         r16                                                                    %! sparse_getato_rhythm
     }                                                                          %! sparse_getato_rhythm
-    
+
     r2                                                                         %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 379 / measure 11]                          %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 380 / measure 12]                          %! _comment_measure_numbers
     r2..                                                                       %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 381 / measure 13]                          %! _comment_measure_numbers
     r2..                                                                       %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 382 / measure 14]                          %! _comment_measure_numbers
     r4.                                                                        %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 383 / measure 15]                          %! _comment_measure_numbers
     r1                                                                         %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 384 / measure 16]                          %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
-    
+
     r4.                                                                        %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 385 / measure 17]                          %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
-    
+
     r4.                                                                        %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 386 / measure 18]                          %! _comment_measure_numbers
     r2                                                                         %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 387 / measure 19]                          %! _comment_measure_numbers
     r4                                                                         %! sparse_getato_rhythm
     \times 8/9 {                                                               %! sparse_getato_rhythm
-        
+
         r8                                                                     %! sparse_getato_rhythm
-        
+
         r32                                                                    %! sparse_getato_rhythm
-        
+
         fs'''!32                                                               %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
-        
+
         r16.                                                                   %! sparse_getato_rhythm
     }                                                                          %! sparse_getato_rhythm
     \times 8/9 {                                                               %! sparse_getato_rhythm
-        
+
         % [N ViolinIIMusicVoice measure 388 / measure 20]                      %! _comment_measure_numbers
         r8.                                                                    %! sparse_getato_rhythm
-        
+
         g'''32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         [                                                                      %! sparse_getato_rhythm
-        
+
         f'''32                                                                 %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
-        
+
         fs'''!32                                                               %! sparse_getato_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! sparse_getato_rhythm
     }                                                                          %! sparse_getato_rhythm
-    
+
     r8                                                                         %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 389 / measure 21]                          %! _comment_measure_numbers
     r2                                                                         %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 390 / measure 22]                          %! _comment_measure_numbers
     r1                                                                         %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 391 / measure 23]                          %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
-    
+
     r4.                                                                        %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 392 / measure 24]                          %! _comment_measure_numbers
     r2.                                                                        %! sparse_getato_rhythm
-    
+
     r4.                                                                        %! sparse_getato_rhythm
-    
+
     % [N ViolinIIMusicVoice measure 393 / measure 25]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-N_ViolinIIMusicStaff = {
+N_ViolinIIMusicStaff = {                                                       %! extern
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \N_ViolinIIMusicVoice                                                      %! extern
-}
+}                                                                              %! extern
 
 
-N_ViolaMusicVoice = {
-    
+N_ViolaMusicVoice = {                                                          %! extern
+
     % [N ViolaMusicVoice measure 369 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -687,104 +687,104 @@ N_ViolaMusicVoice = {
             Va.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [N ViolaMusicVoice measure 370 / measure 2]                              %! _comment_measure_numbers
     r2                                                                         %! baca_make_notes
-    
+
     % [N ViolaMusicVoice measure 371 / measure 3]                              %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N ViolaMusicVoice measure 372 / measure 4]                              %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
-    
+
     % [N ViolaMusicVoice measure 373 / measure 5]                              %! _comment_measure_numbers
     c'4.                                                                       %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N ViolaMusicVoice measure 374 / measure 6]                              %! _comment_measure_numbers
     r2.                                                                        %! baca_make_notes
-    
+
     % [N ViolaMusicVoice measure 375 / measure 7]                              %! _comment_measure_numbers
     c'2.
     - \upbow                                                                   %! IndicatorCommand
-    
+
     c'4.
     \repeatTie
-    
+
     % [N ViolaMusicVoice measure 376 / measure 8]                              %! _comment_measure_numbers
     r2.
-    
+
     r4.
-    
+
     % [N ViolaMusicVoice measure 377 / measure 9]                              %! _comment_measure_numbers
     c'2                                                                        %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N ViolaMusicVoice measure 378 / measure 10]                             %! _comment_measure_numbers
     r1                                                                         %! baca_make_notes
-    
+
     % [N ViolaMusicVoice measure 379 / measure 11]                             %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N ViolaMusicVoice measure 380 / measure 12]                             %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
-    
+
     % [N ViolaMusicVoice measure 381 / measure 13]                             %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N ViolaMusicVoice measure 382 / measure 14]                             %! _comment_measure_numbers
     r4.                                                                        %! baca_make_notes
-    
+
     % [N ViolaMusicVoice measure 383 / measure 15]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N ViolaMusicVoice measure 384 / measure 16]                             %! _comment_measure_numbers
     r2.
-    
+
     r4.
-    
+
     % [N ViolaMusicVoice measure 385 / measure 17]                             %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolaMusicVoice measure 386 / measure 18]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N ViolaMusicVoice measure 387 / measure 19]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N ViolaMusicVoice measure 388 / measure 20]                             %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolaMusicVoice measure 389 / measure 21]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N ViolaMusicVoice measure 390 / measure 22]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [N ViolaMusicVoice measure 391 / measure 23]                             %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolaMusicVoice measure 392 / measure 24]                             %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N ViolaMusicVoice measure 393 / measure 25]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-N_ViolaMusicStaff = {
+N_ViolaMusicStaff = {                                                          %! extern
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \N_ViolaMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
 
 
-N_CelloMusicVoice = {
-    
+N_CelloMusicVoice = {                                                          %! extern
+
     % [N CelloMusicVoice measure 369 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -819,90 +819,90 @@ N_CelloMusicVoice = {
             Vc.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [N CelloMusicVoice measure 370 / measure 2]                              %! _comment_measure_numbers
     r2                                                                         %! baca_make_notes
-    
+
     % [N CelloMusicVoice measure 371 / measure 3]                              %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N CelloMusicVoice measure 372 / measure 4]                              %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
-    
+
     % [N CelloMusicVoice measure 373 / measure 5]                              %! _comment_measure_numbers
     c'4.                                                                       %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N CelloMusicVoice measure 374 / measure 6]                              %! _comment_measure_numbers
     r2.                                                                        %! baca_make_notes
-    
+
     % [N CelloMusicVoice measure 375 / measure 7]                              %! _comment_measure_numbers
     c'2.
     - \upbow                                                                   %! IndicatorCommand
-    
+
     c'4.
     \repeatTie
-    
+
     % [N CelloMusicVoice measure 376 / measure 8]                              %! _comment_measure_numbers
     r2.
-    
+
     r4.
-    
+
     % [N CelloMusicVoice measure 377 / measure 9]                              %! _comment_measure_numbers
     c'2                                                                        %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N CelloMusicVoice measure 378 / measure 10]                             %! _comment_measure_numbers
     r1                                                                         %! baca_make_notes
-    
+
     % [N CelloMusicVoice measure 379 / measure 11]                             %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N CelloMusicVoice measure 380 / measure 12]                             %! _comment_measure_numbers
     r2..                                                                       %! baca_make_notes
-    
+
     % [N CelloMusicVoice measure 381 / measure 13]                             %! _comment_measure_numbers
     c'2..                                                                      %! baca_make_notes
     - \downbow                                                                 %! IndicatorCommand
-    
+
     % [N CelloMusicVoice measure 382 / measure 14]                             %! _comment_measure_numbers
     r4.                                                                        %! baca_make_notes
-    
+
     % [N CelloMusicVoice measure 383 / measure 15]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_notes
     - \upbow                                                                   %! IndicatorCommand
-    
+
     % [N CelloMusicVoice measure 384 / measure 16]                             %! _comment_measure_numbers
     r2.
-    
+
     r4.
-    
+
     % [N CelloMusicVoice measure 385 / measure 17]                             %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N CelloMusicVoice measure 386 / measure 18]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N CelloMusicVoice measure 387 / measure 19]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N CelloMusicVoice measure 388 / measure 20]                             %! _comment_measure_numbers
     R1 * 3/8                                                                   %! _make_measure_silences
-    
+
     % [N CelloMusicVoice measure 389 / measure 21]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [N CelloMusicVoice measure 390 / measure 22]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [N CelloMusicVoice measure 391 / measure 23]                             %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N CelloMusicVoice measure 392 / measure 24]                             %! _comment_measure_numbers
     R1 * 9/8                                                                   %! _make_measure_silences
-    
+
     % [N CelloMusicVoice measure 393 / measure 25]                             %! _comment_measure_numbers
     \once \override MultiMeasureRestText.extra-offset = #'(-19 . -4)
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -945,11 +945,11 @@ N_CelloMusicVoice = {
                             }                                                  %! SCORE_2
                     }                                                          %! SCORE_2
         }                                                                      %! SCORE_2
-    
-}
+
+}                                                                              %! extern
 
 
-N_CelloMusicStaff = {
+N_CelloMusicStaff = {                                                          %! extern
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \N_CelloMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
