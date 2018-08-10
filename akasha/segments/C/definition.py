@@ -164,7 +164,7 @@ maker(
         ],
     baca.dynamic('"mf"'),
     baca.markup('OB'),
-    baca.match(
+    baca.scope(
         0,
         baca.bar_extent((-2, 2)),
         baca.bar_extent_zero(),

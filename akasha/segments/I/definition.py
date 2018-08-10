@@ -351,19 +351,19 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'],  (31, 37)),
-    baca.match(
+    baca.scope(
         0,
         baca.pitch('B4'),
         ),
-    baca.match(
+    baca.scope(
         1,
         baca.pitch('B3'),
         ),
-    baca.match(
+    baca.scope(
         2,
         baca.pitch('B2'),
         ),
-    baca.match(
+    baca.scope(
         3,
         baca.pitch('B1'),
         ),
