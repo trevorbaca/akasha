@@ -576,7 +576,7 @@ M_ViolinIMusicVoice = {                                                        %
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "pos. ord. XFB"      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -592,7 +592,7 @@ M_ViolinIMusicVoice = {                                                        %
     bf'!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "pont. XFB"          %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -608,7 +608,7 @@ M_ViolinIMusicVoice = {                                                        %
     bf'!2.
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP+XFB"             %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -626,7 +626,7 @@ M_ViolinIMusicVoice = {                                                        %
     bf'!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP"                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -654,7 +654,7 @@ M_ViolinIMusicVoice = {                                                        %
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "1/3OB"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -671,7 +671,7 @@ M_ViolinIMusicVoice = {                                                        %
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "2/3OB"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -688,7 +688,7 @@ M_ViolinIMusicVoice = {                                                        %
     - \tweak direction #up
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "OB (no pitch)"      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -789,7 +789,7 @@ M_ViolinIIMusicVoice = {                                                       %
     bf!1.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "pos. ord. XFB"      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -804,7 +804,7 @@ M_ViolinIIMusicVoice = {                                                       %
     bf!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "pont. XFB"          %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -819,7 +819,7 @@ M_ViolinIIMusicVoice = {                                                       %
     bf!2.
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP+XFB"             %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -837,7 +837,7 @@ M_ViolinIIMusicVoice = {                                                       %
     bf!2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP"                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -863,7 +863,7 @@ M_ViolinIIMusicVoice = {                                                       %
     bf!1.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "1/3OB"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -878,7 +878,7 @@ M_ViolinIIMusicVoice = {                                                       %
     bf!1.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "2/3OB"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -893,7 +893,7 @@ M_ViolinIIMusicVoice = {                                                       %
     bf!1.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "OB (no pitch)"      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -993,7 +993,7 @@ M_ViolaMusicVoice = {                                                          %
     bf,!1.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "pos. ord. XFB"      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1008,7 +1008,7 @@ M_ViolaMusicVoice = {                                                          %
     bf,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "pont. XFB"          %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1023,7 +1023,7 @@ M_ViolaMusicVoice = {                                                          %
     bf,!2.
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP+XFB"             %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1041,7 +1041,7 @@ M_ViolaMusicVoice = {                                                          %
     bf,!2.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "XP"                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1067,7 +1067,7 @@ M_ViolaMusicVoice = {                                                          %
     bf,!1.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "1/3OB"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1082,7 +1082,7 @@ M_ViolaMusicVoice = {                                                          %
     bf,!1.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "2/3OB"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1097,7 +1097,7 @@ M_ViolaMusicVoice = {                                                          %
     bf,!1.                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "OB (no pitch)"      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1142,7 +1142,7 @@ M_CelloMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "trans."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "trans."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "vib. moltiss."      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
