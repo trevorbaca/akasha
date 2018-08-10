@@ -342,26 +342,26 @@ maker(
 maker(
     ('v1', (11, 22)),
     baca.loop([15, 17, 15, 17, 15, 17, 15, 17, 15, 18, 15, 18, 15, 18], [1]),
-    baca.map(
-        baca.runs()[abjad.index([0], 2)],
+    baca.new(
         baca.hairpin('pp < p', remove_length_1_spanner_start=True),
+        map=baca.runs()[abjad.index([0], 2)],
         ),
-    baca.map(
-        baca.runs()[abjad.index([1], 2)],
+    baca.new(
         baca.hairpin('p > pp', remove_length_1_spanner_start=True),
+        map=baca.runs()[abjad.index([1], 2)],
         ),
     )
 
 maker(
     ('v2', (11, 22)),
     baca.loop([11, 13, 11, 13, 11, 13, 11, 13, 11, 14, 11, 14, 11, 14], [1]),
-    baca.map(
-        baca.runs()[abjad.index([0], 2)],
+    baca.new(
         baca.hairpin('pp < p', remove_length_1_spanner_start=True),
+        map=baca.runs()[abjad.index([0], 2)],
         ),
-    baca.map(
-        baca.runs()[abjad.index([1], 2)],
+    baca.new(
         baca.hairpin('p > pp', remove_length_1_spanner_start=True),
+        map=baca.runs()[abjad.index([1], 2)],
         ),
     )
 
