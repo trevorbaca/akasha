@@ -72,17 +72,17 @@ maker(
     (['v1', 'v2', 'va'], (6, 7)),
     baca.dynamic('mp'),
     baca.markup('tasto + 1/2 scratch'),
-    baca.match(
+    baca.scope(
         0,
         akasha.polyphony_rhythm(ltmask=~rmakers.silence([0, 1, 2])),
         baca.pitches('E4 F4 E+4', exact=True),
         ),
-    baca.match(
+    baca.scope(
         1,
         akasha.polyphony_rhythm(ltmask=~rmakers.silence([2, 3, 4])),
         baca.pitches('D4 D~4 C4', exact=True),
         ),
-    baca.match(
+    baca.scope(
         2,
         akasha.polyphony_rhythm(ltmask=~rmakers.silence([1, 2, 3])),
         baca.pitches('Eb4 D4 E4', exact=True),

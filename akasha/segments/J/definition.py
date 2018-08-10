@@ -87,15 +87,15 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], (1, 3)),
-    baca.match(
+    baca.scope(
         0,
         akasha.getato_pitches(5, [2]),
         ),
-    baca.match(
+    baca.scope(
         1,
         akasha.getato_pitches(-3, [2]),
         ),
-    baca.match(
+    baca.scope(
         2,
         akasha.getato_pitches(-13, [2]),
         ),
