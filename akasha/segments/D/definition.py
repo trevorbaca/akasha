@@ -104,9 +104,9 @@ maker(
 maker(
     ('v1', [(1, 8), (10, 17)]),
     baca.ottava(),
-    baca.scope(
-        0,
+    baca.new(
         baca.staff_lines(5),
+        match=0,
         ),
     )
 

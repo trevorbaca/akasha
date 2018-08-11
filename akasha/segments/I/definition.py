@@ -351,21 +351,21 @@ maker(
 
 maker(
     (['v1', 'v2', 'va', 'vc'],  (31, 37)),
-    baca.scope(
-        0,
+    baca.new(
         baca.pitch('B4'),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.pitch('B3'),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         baca.pitch('B2'),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         baca.pitch('B1'),
+        match=3,
         ),
     )
 

@@ -164,10 +164,10 @@ maker(
         ],
     baca.dynamic('"mf"'),
     baca.markup('OB'),
-    baca.scope(
-        0,
+    baca.new(
         baca.bar_extent((-2, 2)),
         baca.bar_extent_zero(),
+        match=0,
         ),
     baca.staff_lines(1),
     baca.staff_position(0),

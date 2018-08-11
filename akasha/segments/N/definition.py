@@ -44,13 +44,13 @@ maker(
 
 maker(
     ['v1', 'vc'],
-    baca.scope(
-        0,
+    baca.new(
         baca.bar_extent_persistent((-2, 0)),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.bar_extent_persistent((0, -2)),
+        match=1,
         ),
     )
 
